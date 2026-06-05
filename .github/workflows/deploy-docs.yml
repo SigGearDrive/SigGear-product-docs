@@ -1,62 +1,62 @@
 name: Deploy SigGear Docs
 
 on:
-push:
-branches:
-- main
-workflow_dispatch:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 
 permissions:
-contents: read
-pages: write
-id-token: write
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-build:
-runs-on: ubuntu-latest
-steps:
-- name: Checkout repository
-uses: actions/checkout@v4
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-  - name: Prepare docs folder
-    run: |
-      rm -rf docs
-      mkdir docs
-      cp README.md docs/ || echo "# SigGear Robotics Documentation" > docs/README.md
-      cp SG6010C.md docs/ || true
-      cp SG8021.md docs/ || true
-      cp CPM80-25.md docs/ || true
-      cp CPM100-25.md docs/ || true
-      cp -r Applications docs/ || true
-      cp -r Industries docs/ || true
-      cp -r Developers docs/ || true
-      
-  - name: Setup Python
-    uses: actions/setup-python@v5
-    with:
-      python-version: "3.x"
+      - name: Prepare docs folder
+        run: |
+          rm -rf docs
+          mkdir docs
+          cp README.md docs/ || echo "# SigGear Robotics Documentation" > docs/README.md
+          cp SG6010C.md docs/ || true
+          cp SG8021.md docs/ || true
+          cp CPM80-25.md docs/ || true
+          cp CPM100-25.md docs/ || true
+          cp -r Applications docs/ || true
+          cp -r Industries docs/ || true
+          cp -r Developers docs/ || true
 
-  - name: Install dependencies
-    run: pip install mkdocs mkdocs-material
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
 
-  - name: Build documentation
-    run: mkdocs build
+      - name: Install dependencies
+        run: pip install mkdocs mkdocs-material
 
-  - name: Setup Pages
-    uses: actions/configure-pages@v5
+      - name: Build documentation
+        run: mkdocs build
 
-  - name: Upload Pages artifact
-    uses: actions/upload-pages-artifact@v3
-    with:
-      path: site
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
 
-deploy:
-runs-on: ubuntu-latest
-needs: build
-environment:
-name: github-pages
-url: ${{ steps.deployment.outputs.page_url }}
-steps:
-- name: Deploy to GitHub Pages
-id: deployment
-uses: actions/deploy-pages@v4
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
