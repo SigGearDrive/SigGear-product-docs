@@ -1,5 +1,5 @@
 site_name: SigGear Robotics Documentation
-docs_dir: .
+docs_dir: "."
 
 theme:
 name: material
