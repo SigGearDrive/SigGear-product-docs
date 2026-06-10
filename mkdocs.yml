@@ -23,7 +23,7 @@ nav:
       - Quadruped Robot Joint Gearbox: Applications/quadruped-robot-joint-gearbox.md
       - Robot Arm Joint Gearbox: Applications/robot-arm-joint-gearbox.md
       - AGV / AMR Wheel Drive Gearbox: Applications/agv-amr-wheel-drive-gearbox.md
-      - 6mm Micro Gear Motor: Applications/micro-robotics-gear-motor.md
+      - 6-42mm Planetary Gear Reducer: 6-42mm-planetary-gear-reducer.md
   - Industries:
       - Medical Robotics: Industries/Medical-Robotics.md
       - Industrial Automation: Industries/Industrial-Automation.md
