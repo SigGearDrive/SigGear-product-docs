@@ -53,8 +53,8 @@ SigGear provides compact precision drive solutions for robotic joints, micro mot
 - [Planetary Gearbox Selection Guide](Selection-Guides/planetary-gearbox-selection-guide.md)
 
 ##  Comparisons:
-      
-- Cycloidal vs Harmonic Drive: Comparisons/cycloidal-vs-harmonic-drive.md
+ - [Cycloidal Reducer vs Harmonic Drive](Comparisons/cycloidal-vs-harmonic-drive.md)
+
 
 ## Engineering Resources
 
