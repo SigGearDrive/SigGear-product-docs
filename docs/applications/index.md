@@ -42,6 +42,12 @@ Selection guidance for finger joints, tendon spools, rotary jaws and compact end
 
 [Explore robot gripper gear motors](./robot-gripper-gear-motors.md)
 
+### Micro Robotics Gear Motors and Compact Actuators
+
+Selection guidance for small robot joints, micro mobile robots, miniature grippers, sensor positioning axes and compact research mechanisms, covering size, weight, torque, speed, ratio, backlash, noise, shaft loads, feedback, wiring, duty cycle and customization requirements.
+
+[Explore micro robotics gear motors](./micro-robotics-gear-motors.md)
+
 ## Medical and Laboratory Applications
 
 ### Micro Gear Motors for Medical and Laboratory Equipment
