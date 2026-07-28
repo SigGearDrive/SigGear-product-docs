@@ -37,6 +37,7 @@ plugins:
         'Applications/pump-valve-fluid-control-gear-motor.md': 'applications/pump-valve-fluid-control-gear-motors.md'
         'Applications/robot-gripper-gear-motor.md': 'applications/robot-gripper-gear-motors.md'
         'Applications/servo-motor-planetary-gearbox.md': 'applications/industrial-automation-servo-planetary-gearboxes.md'
+        'Applications/smart-hardware-gear-motor.md': 'applications/smart-hardware-gear-motors.md'
         'Selection-Guides/humanoid-robot-joint-gearbox-selection-guide.md': 'selection-guides/robot-joint-actuator-selection-guide.md'
         'Selection-Guides/robot-joint-torque-calculation-gearbox-selection.md': 'selection-guides/robot-joint-actuator-selection-guide.md'
         'Selection-Guides/robot-joint-gearbox-selection-guide.md': 'selection-guides/robot-joint-actuator-selection-guide.md'
@@ -113,6 +114,7 @@ nav:
       - Quadruped Robot Joint Gearboxes: applications/quadruped-robot-joint-gearboxes.md
       - Robotic Arm Joint Actuators: applications/robotic-arm-joint-actuators.md
       - Robot Gripper Gear Motors: applications/robot-gripper-gear-motors.md
+      - Smart Hardware Gear Motors: applications/smart-hardware-gear-motors.md
   - Selection Guides:
       - Selection Guides Overview: selection-guides/index.md
       - Robot Joint Actuator Selection Guide: selection-guides/robot-joint-actuator-selection-guide.md
