@@ -32,6 +32,7 @@ plugins:
         'Applications/quadruped-robot-joint-gearbox.md': 'applications/quadruped-robot-joint-gearboxes.md'
         'Applications/robot-arm-joint-gearbox.md': 'applications/robotic-arm-joint-actuators.md'
         'Applications/agv-amr-wheel-drive-gearbox.md': 'applications/agv-amr-wheel-drive-gearboxes.md'
+        'Applications/automotive-vehicle-small-motion-gear-motor.md': 'applications/automotive-vehicle-small-motion-gear-motors.md'
         'Applications/micro-robotics-gear-motor.md': 'applications/micro-robotics-gear-motors.md'
         'Applications/medical-device-micro-gear-motor.md': 'applications/medical-device-micro-gear-motors.md'
         'Applications/pump-valve-fluid-control-gear-motor.md': 'applications/pump-valve-fluid-control-gear-motors.md'
@@ -104,6 +105,7 @@ nav:
   - Applications:
       - Applications Overview: applications/index.md
       - AGV and AMR Wheel Drive Gearboxes: applications/agv-amr-wheel-drive-gearboxes.md
+      - Automotive and Vehicle Small Motion Gear Motors: applications/automotive-vehicle-small-motion-gear-motors.md
       - Exoskeleton Joint Actuators: applications/exoskeleton-joint-actuators.md
       - Humanoid Robot Joint Actuators: applications/humanoid-robot-joint-actuators.md
       - Industrial Automation Servo Planetary Gearboxes: applications/industrial-automation-servo-planetary-gearboxes.md
