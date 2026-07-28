@@ -86,6 +86,14 @@ Selection guidance for smart locks, access-control mechanisms, smart cabinets, c
 
 [Explore smart hardware gear motors](./smart-hardware-gear-motors.md)
 
+## Vehicle and Mobility Applications
+
+### Automotive and Vehicle Small Motion Gear Motors
+
+Selection guidance for vehicle-adjacent small motion actuators, including latch mechanisms, seat and interior adjustment, HVAC flap movement, small pump or valve drives, sensor positioning, cover movement and specialty mobility platforms, with careful boundaries for automotive qualification, validation and production approval.
+
+[Explore automotive and vehicle small motion gear motors](./automotive-vehicle-small-motion-gear-motors.md)
+
 ## Information Required for Application Review
 
 Please provide:
