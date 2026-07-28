@@ -58,13 +58,13 @@ Selection guidance for focus systems, filter wheels, aperture drives, rotary sta
 
 [Explore precision instrument and optical motion systems](./precision-instruments-optical-mechanisms.md)
 
-## Additional Application Areas
+## Industrial Automation Applications
 
-SigGear also supports projects involving:
+### Servo Motor Planetary Gearboxes for Industrial Automation
 
-- Compact industrial automation
+Selection guidance for servo motor and planetary gearbox matching in pick-and-place systems, packaging equipment, rotary indexing tables, conveyor adjustment axes, inspection fixtures and compact automation mechanisms, covering ratio, torque, speed, inertia matching, backlash, shaft loads, duty cycle and customization requirements.
 
-Dedicated pages for these application areas will be published after the related product and selection information has been reviewed.
+[Explore servo motor planetary gearboxes for industrial automation](./industrial-automation-servo-planetary-gearboxes.md)
 
 ## Information Required for Application Review
 
