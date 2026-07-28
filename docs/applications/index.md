@@ -78,6 +78,12 @@ Selection guidance for servo motor and planetary gearbox matching in pick-and-pl
 
 [Explore servo motor planetary gearboxes for industrial automation](./industrial-automation-servo-planetary-gearboxes.md)
 
+### Packaging, Labeling and Conveyor Gear Motors
+
+Selection guidance for packaging machines, labeling equipment, small conveyors, feeders, spacing and release mechanisms, rotary indexing, guide-rail adjustment, tensioning, cutter or sealer assistance and compact product-handling axes, covering torque, speed, product load, intermittent duty, jam behavior, feedback, shaft loads, duty cycle and customization requirements.
+
+[Explore packaging labeling and conveyor gear motors](./packaging-labeling-conveyor-gear-motors.md)
+
 ## Smart Hardware Applications
 
 ### Smart Hardware Gear Motors and Compact Device Actuators
