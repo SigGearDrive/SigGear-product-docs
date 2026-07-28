@@ -122,6 +122,14 @@ Selection guidance for compact actuators used in charging equipment, battery cab
 
 [Explore energy battery and charging equipment actuators](./energy-battery-charging-equipment-actuators.md)
 
+## Agriculture and Outdoor Equipment Applications
+
+### Agriculture and Outdoor Equipment Gear Motors
+
+Selection guidance for agriculture equipment, outdoor machines, feeders, metering systems, greenhouse and irrigation mechanisms, livestock equipment, outdoor cabinets, small conveyors, sensor positioning, flaps, dampers, gates and valves, covering torque, speed, jam condition, dust, water, chemical exposure, low-voltage power, shaft loads, duty cycle and field reliability boundaries.
+
+[Explore agriculture and outdoor equipment gear motors](./agriculture-outdoor-equipment-gear-motors.md)
+
 ## Information Required for Application Review
 
 Please provide:
