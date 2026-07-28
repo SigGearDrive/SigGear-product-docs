@@ -86,6 +86,14 @@ Selection guidance for smart locks, access-control mechanisms, smart cabinets, c
 
 [Explore smart hardware gear motors](./smart-hardware-gear-motors.md)
 
+## Commercial Equipment Applications
+
+### Vending, Dispensing and Kiosk Gear Motors
+
+Selection guidance for vending machines, dispensing equipment, self-service kiosks, smart cabinets, coffee or beverage equipment, ticket and card handling mechanisms, product-release systems and compact commercial-device actuators, covering torque, speed, product load, jam behavior, noise, feedback, shaft loads, duty cycle and customization requirements.
+
+[Explore vending dispensing and kiosk gear motors](./vending-dispensing-kiosk-gear-motors.md)
+
 ## Vehicle and Mobility Applications
 
 ### Automotive and Vehicle Small Motion Gear Motors
