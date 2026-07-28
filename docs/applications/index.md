@@ -78,6 +78,14 @@ Selection guidance for servo motor and planetary gearbox matching in pick-and-pl
 
 [Explore servo motor planetary gearboxes for industrial automation](./industrial-automation-servo-planetary-gearboxes.md)
 
+## Smart Hardware Applications
+
+### Smart Hardware Gear Motors and Compact Device Actuators
+
+Selection guidance for smart locks, access-control mechanisms, smart cabinets, curtains, blinds, vending and dispensing devices, compact appliances, camera or sensor adjustment and IoT hardware actuators, covering torque, force, speed, ratio, battery current, noise, feedback, shaft loads, duty cycle and customization requirements.
+
+[Explore smart hardware gear motors](./smart-hardware-gear-motors.md)
+
 ## Information Required for Application Review
 
 Please provide:
