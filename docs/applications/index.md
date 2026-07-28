@@ -56,6 +56,12 @@ Selection guidance for pumps, valves, sample handling, dosing, positioning and s
 
 [Explore medical and laboratory micro gear motors](./medical-device-micro-gear-motors.md)
 
+### Pump, Valve and Fluid Control Gear Motors
+
+Selection guidance for miniature pumps, dosing systems, rotary valves, pinch valves and compact fluid-control mechanisms, covering flow or motion requirements, torque, pressure, speed, ratio, noise, feedback, duty cycle, environmental exposure and customization requirements.
+
+[Explore pump, valve and fluid control gear motors](./pump-valve-fluid-control-gear-motors.md)
+
 ## Precision Instrument Applications
 
 ### Gear Motors for Precision Instruments and Optical Mechanisms
