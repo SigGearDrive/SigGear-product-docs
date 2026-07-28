@@ -94,6 +94,14 @@ Selection guidance for vehicle-adjacent small motion actuators, including latch 
 
 [Explore automotive and vehicle small motion gear motors](./automotive-vehicle-small-motion-gear-motors.md)
 
+## Energy and Power Equipment Applications
+
+### Energy, Battery and Charging Equipment Actuators
+
+Selection guidance for compact actuators used in charging equipment, battery cabinets, battery swap mechanisms, power equipment, thermal-management dampers, small pump or valve drives and portable energy devices, covering torque, force, voltage, current, environment, ingress exposure, safety boundaries and validation requirements.
+
+[Explore energy battery and charging equipment actuators](./energy-battery-charging-equipment-actuators.md)
+
 ## Information Required for Application Review
 
 Please provide:
