@@ -92,6 +92,12 @@ Selection guidance for smart locks, access-control mechanisms, smart cabinets, c
 
 [Explore smart hardware gear motors](./smart-hardware-gear-motors.md)
 
+### Access Control, Smart Lock and Security Gear Motors
+
+Selection guidance for smart locks, electronic latches, cabinet locks, parcel lockers, safeboxes, drawer locks, service-door actuators, turnstile sub-mechanisms and compact security devices, covering torque, locking force, battery current, power-off behavior, jam condition, feedback, shaft loads, security boundaries and customization requirements.
+
+[Explore access control smart lock and security gear motors](./access-control-smart-lock-security-gear-motors.md)
+
 ## Commercial Equipment Applications
 
 ### Vending, Dispensing and Kiosk Gear Motors

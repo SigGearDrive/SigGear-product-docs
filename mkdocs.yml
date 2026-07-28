@@ -28,6 +28,7 @@ plugins:
         'SG6010C.md': 'products/robot-joint-actuators/sg6010c.md'
         'SG8021.md': 'products/robot-joint-actuators/sg8021.md'
         'Applications/6-42mm-planetary-gear-reducer.md': 'products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md'
+        'Applications/access-control-smart-lock-security-gear-motor.md': 'applications/access-control-smart-lock-security-gear-motors.md'
         'Applications/humanoid-robot-joint-reducer.md': 'applications/humanoid-robot-joint-actuators.md'
         'Applications/quadruped-robot-joint-gearbox.md': 'applications/quadruped-robot-joint-gearboxes.md'
         'Applications/robot-arm-joint-gearbox.md': 'applications/robotic-arm-joint-actuators.md'
@@ -107,6 +108,7 @@ nav:
           - Overview: products/flat-bldc-motors/index.md
   - Applications:
       - Applications Overview: applications/index.md
+      - Access Control Smart Lock and Security Gear Motors: applications/access-control-smart-lock-security-gear-motors.md
       - AGV and AMR Wheel Drive Gearboxes: applications/agv-amr-wheel-drive-gearboxes.md
       - Automotive and Vehicle Small Motion Gear Motors: applications/automotive-vehicle-small-motion-gear-motors.md
       - Energy Battery and Charging Equipment Actuators: applications/energy-battery-charging-equipment-actuators.md
