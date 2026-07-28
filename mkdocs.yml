@@ -35,7 +35,7 @@ plugins:
         'Applications/micro-robotics-gear-motor.md': 'products/micro-gear-motors/index.md'
         'Applications/medical-device-micro-gear-motor.md': 'applications/medical-device-micro-gear-motors.md'
         'Applications/robot-gripper-gear-motor.md': 'applications/robot-gripper-gear-motors.md'
-        'Applications/servo-motor-planetary-gearbox.md': 'products/planetary-gearboxes/index.md'
+        'Applications/servo-motor-planetary-gearbox.md': 'applications/industrial-automation-servo-planetary-gearboxes.md'
         'Selection-Guides/humanoid-robot-joint-gearbox-selection-guide.md': 'selection-guides/robot-joint-actuator-selection-guide.md'
         'Selection-Guides/robot-joint-torque-calculation-gearbox-selection.md': 'selection-guides/robot-joint-actuator-selection-guide.md'
         'Selection-Guides/robot-joint-gearbox-selection-guide.md': 'selection-guides/robot-joint-actuator-selection-guide.md'
@@ -104,6 +104,7 @@ nav:
       - AGV and AMR Wheel Drive Gearboxes: applications/agv-amr-wheel-drive-gearboxes.md
       - Exoskeleton Joint Actuators: applications/exoskeleton-joint-actuators.md
       - Humanoid Robot Joint Actuators: applications/humanoid-robot-joint-actuators.md
+      - Industrial Automation Servo Planetary Gearboxes: applications/industrial-automation-servo-planetary-gearboxes.md
       - Medical Device Micro Gear Motors: applications/medical-device-micro-gear-motors.md
       - Precision Instruments and Optical Mechanisms: applications/precision-instruments-optical-mechanisms.md
       - Quadruped Robot Joint Gearboxes: applications/quadruped-robot-joint-gearboxes.md
