@@ -126,6 +126,12 @@ Selection guidance for electric curtain tracks, roller blinds, smart shades, ven
 
 ## Commercial Equipment Applications
 
+### Office Automation and Business Equipment Gear Motors
+
+Selection guidance for printers, copiers, scanners, automatic document feeders, shredders, cutters, ticket handling, label and receipt handling, card mechanisms, cash or coin handling, small locking mechanisms, trays, drawers, lift mechanisms, covers, flaps and guide plates, covering torque, speed, noise, jam condition, duty cycle, feedback, shaft loads, compact packaging and customization requirements.
+
+[Explore office automation and business equipment gear motors](./office-automation-business-equipment-gear-motors.md)
+
 ### Vending, Dispensing and Kiosk Gear Motors
 
 Selection guidance for vending machines, dispensing equipment, self-service kiosks, smart cabinets, coffee or beverage equipment, ticket and card handling mechanisms, product-release systems and compact commercial-device actuators, covering torque, speed, product load, jam behavior, noise, feedback, shaft loads, duty cycle and customization requirements.
