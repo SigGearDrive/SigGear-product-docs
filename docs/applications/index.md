@@ -110,6 +110,14 @@ Selection guidance for smart locks, electronic latches, cabinet locks, parcel lo
 
 [Explore access control smart lock and security gear motors](./access-control-smart-lock-security-gear-motors.md)
 
+## Furniture and Adjustable Mechanism Applications
+
+### Furniture, Seating and Adjustable Mechanism Gear Motors
+
+Selection guidance for electric recliners, adjustable sofas, office chairs, height-adjustable desks, smart beds, adjustable beds, footrest, headrest and lumbar mechanisms, drawer or cabinet motion, hidden panels and compact lift, tilt or positioning mechanisms, covering torque, speed, quiet motion, holding force, synchronization, anti-pinch behavior, duty cycle, shaft loads and customization requirements.
+
+[Explore furniture seating and adjustable mechanism gear motors](./furniture-seating-adjustable-mechanism-gear-motors.md)
+
 ## HVAC and Building Automation Applications
 
 ### HVAC, Smart Vent and Damper Gear Motors
