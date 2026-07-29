@@ -106,6 +106,12 @@ Selection guidance for vending machines, dispensing equipment, self-service kios
 
 [Explore vending dispensing and kiosk gear motors](./vending-dispensing-kiosk-gear-motors.md)
 
+### Food, Beverage and Coffee Equipment Gear Motors
+
+Selection guidance for coffee machines, beverage dispensers, food-service equipment, bean and powder metering, grinder adjustment, valve and diverter movement, dosing assistance, cup handling, mixing, stirring and service-door mechanisms, covering torque, speed, jam condition, food-contact boundaries, moisture, cleaning exposure, low noise, feedback, shaft loads and customization requirements.
+
+[Explore food beverage and coffee equipment gear motors](./food-beverage-coffee-equipment-gear-motors.md)
+
 ## Vehicle and Mobility Applications
 
 ### Automotive and Vehicle Small Motion Gear Motors
