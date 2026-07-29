@@ -7,7 +7,9 @@ use_directory_urls: true
 
 docs_dir: docs
 
-copyright: Copyright &copy; Guangdong SigGear Drive Intelligent Technology Co., Ltd.
+copyright: >
+  Copyright &copy; Guangdong SigGear Drive Intelligent Technology Co., Ltd. -
+  <a href="#__consent">Change cookie settings</a>
 
 theme:
   name: material
@@ -71,6 +73,25 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
+
+extra:
+  analytics:
+    provider: google
+    property: G-Q14K9BLGK4
+  consent:
+    title: Cookie consent
+    description: >-
+      We use optional analytics cookies to understand how visitors use this site
+      and to improve our product documentation. Analytics data is sent only after
+      you give consent.
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: false
+    actions:
+      - accept
+      - reject
+      - manage
 
 nav:
   - Home: index.md
