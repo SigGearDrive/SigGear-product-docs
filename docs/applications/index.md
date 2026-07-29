@@ -76,6 +76,12 @@ Selection guidance for focus systems, filter wheels, aperture drives, rotary sta
 
 [Explore precision instrument and optical motion systems](./precision-instruments-optical-mechanisms.md)
 
+### Optical, Imaging and Camera Module Gear Motors
+
+Selection guidance for lens focus, zoom movement, aperture control, filter wheels, shutters, pan-and-tilt axes, scanning mechanisms, sensor positioning, lens covers and compact optical actuator systems, covering low backlash, low vibration, image stability, repeatability, optical alignment, noise control, shaft loads, feedback and environmental review.
+
+[Explore optical imaging and camera module gear motors](./optical-imaging-camera-module-gear-motors.md)
+
 ## Industrial Automation Applications
 
 ### Servo Motor Planetary Gearboxes for Industrial Automation
