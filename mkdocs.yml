@@ -34,6 +34,7 @@ plugins:
         'Applications/agriculture-outdoor-equipment-gear-motor.md': 'applications/agriculture-outdoor-equipment-gear-motors.md'
         'Applications/electric-curtain-blind-window-opener-gear-motor.md': 'applications/electric-curtain-blind-window-opener-gear-motors.md'
         'Applications/food-beverage-coffee-equipment-gear-motor.md': 'applications/food-beverage-coffee-equipment-gear-motors.md'
+        'Applications/furniture-seating-adjustable-mechanism-gear-motor.md': 'applications/furniture-seating-adjustable-mechanism-gear-motors.md'
         'Applications/hvac-smart-vent-damper-gear-motor.md': 'applications/hvac-smart-vent-damper-gear-motors.md'
         'Applications/laboratory-automation-diagnostic-equipment-gear-motor.md': 'applications/laboratory-automation-diagnostic-equipment-gear-motors.md'
         'Applications/office-automation-business-equipment-gear-motor.md': 'applications/office-automation-business-equipment-gear-motors.md'
@@ -144,6 +145,7 @@ nav:
       - Energy Battery and Charging Equipment Actuators: applications/energy-battery-charging-equipment-actuators.md
       - Exoskeleton Joint Actuators: applications/exoskeleton-joint-actuators.md
       - Food Beverage and Coffee Equipment Gear Motors: applications/food-beverage-coffee-equipment-gear-motors.md
+      - Furniture Seating and Adjustable Mechanism Gear Motors: applications/furniture-seating-adjustable-mechanism-gear-motors.md
       - Humanoid Robot Joint Actuators: applications/humanoid-robot-joint-actuators.md
       - HVAC Smart Vent and Damper Gear Motors: applications/hvac-smart-vent-damper-gear-motors.md
       - Industrial Automation Servo Planetary Gearboxes: applications/industrial-automation-servo-planetary-gearboxes.md
