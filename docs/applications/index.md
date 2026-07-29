@@ -56,6 +56,12 @@ Selection guidance for pumps, valves, sample handling, dosing, positioning and s
 
 [Explore medical and laboratory micro gear motors](./medical-device-micro-gear-motors.md)
 
+### Laboratory Automation and Diagnostic Equipment Gear Motors
+
+Selection guidance for sample handling, reagent dispensing, valve movement, pump assistance, tube positioning, carousel rotation, rack movement, tray loading, optical-module adjustment, cap handling, mixing, stirring and small inspection mechanisms, covering precision motion, low vibration, low noise, backlash, positioning accuracy, liquid and chemical exposure, validation boundaries, shaft loads, feedback and control requirements.
+
+[Explore laboratory automation and diagnostic equipment gear motors](./laboratory-automation-diagnostic-equipment-gear-motors.md)
+
 ### Pump, Valve and Fluid Control Gear Motors
 
 Selection guidance for miniature pumps, dosing systems, rotary valves, pinch valves and compact fluid-control mechanisms, covering flow or motion requirements, torque, pressure, speed, ratio, noise, feedback, duty cycle, environmental exposure and customization requirements.
