@@ -30,6 +30,7 @@ plugins:
         'Applications/6-42mm-planetary-gear-reducer.md': 'products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md'
         'Applications/access-control-smart-lock-security-gear-motor.md': 'applications/access-control-smart-lock-security-gear-motors.md'
         'Applications/agriculture-outdoor-equipment-gear-motor.md': 'applications/agriculture-outdoor-equipment-gear-motors.md'
+        'Applications/electric-curtain-blind-window-opener-gear-motor.md': 'applications/electric-curtain-blind-window-opener-gear-motors.md'
         'Applications/food-beverage-coffee-equipment-gear-motor.md': 'applications/food-beverage-coffee-equipment-gear-motors.md'
         'Applications/hvac-smart-vent-damper-gear-motor.md': 'applications/hvac-smart-vent-damper-gear-motors.md'
         'Applications/laboratory-automation-diagnostic-equipment-gear-motor.md': 'applications/laboratory-automation-diagnostic-equipment-gear-motors.md'
@@ -117,6 +118,7 @@ nav:
       - Agriculture and Outdoor Equipment Gear Motors: applications/agriculture-outdoor-equipment-gear-motors.md
       - AGV and AMR Wheel Drive Gearboxes: applications/agv-amr-wheel-drive-gearboxes.md
       - Automotive and Vehicle Small Motion Gear Motors: applications/automotive-vehicle-small-motion-gear-motors.md
+      - Electric Curtain Blind and Window Opener Gear Motors: applications/electric-curtain-blind-window-opener-gear-motors.md
       - Energy Battery and Charging Equipment Actuators: applications/energy-battery-charging-equipment-actuators.md
       - Exoskeleton Joint Actuators: applications/exoskeleton-joint-actuators.md
       - Food Beverage and Coffee Equipment Gear Motors: applications/food-beverage-coffee-equipment-gear-motors.md
