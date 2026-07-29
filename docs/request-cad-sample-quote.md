@@ -1,122 +1,149 @@
+---
+title: Request CAD, Sample and Quote for SigGear Products
+description: Request CAD models, 2D drawings, samples and quotations for SigGear robot joint actuators, cycloidal reducers, planetary gearboxes and compact gear motors.
+---
+
 # Request CAD, Sample and Quote
 
-## Request SigGear Technical Files and Product Evaluation
+Request product evaluation, available technical files, prototype samples or quotation preparation for SigGear robot joint actuators, cycloidal joint modules, planetary gearboxes and compact gear motors.
 
-If you are evaluating a robot joint actuator, cycloidal reducer, planetary gearbox or compact gear motor, this page helps you prepare the information needed for a technical review.
-
-SigGear supports early-stage product evaluation, CAD and technical file discussion, sample review and quotation preparation after the application requirements are understood.
-
-Final file release, quotation details and configuration confirmation depend on the selected product, application conditions and engineering review.
+[Email Project Requirements](mailto:wangwanrong@siggear.com?subject=CAD%2C%20Sample%20and%20Quote%20Request){ .md-button .md-button--primary }
+[Browse Products](products/index.md){ .md-button }
 
 ## What You Can Request
 
-Depending on the project stage and product family, customers may discuss:
+Depending on the selected product and project stage, SigGear can review requests for:
 
-- Product specifications
-- 2D drawing review
-- CAD model availability
-- Sample evaluation
-- Product matching review
-- Customized mechanical interface discussion
-- Quotation preparation
+- Product specifications and preliminary model matching
+- Available 3D CAD models or STEP files
+- Available 2D outline and mounting drawings
+- Prototype or sample evaluation
+- Reduction ratio, shaft and mounting-interface review
+- Motor, encoder, driver and communication configuration review
+- Standard or customized quotation preparation
 
-## Products Covered
+CAD files, detailed drawings, samples and quotations are not released automatically. Availability depends on the exact model, configuration, application and engineering review.
 
-SigGear product families include:
+## Product Families Covered
 
 ### Robot Joint Actuators
 
-For robotic applications requiring integrated motor, reducer, encoder and driver evaluation.
+For humanoid robots, quadruped robots, robotic arms, exoskeletons and other rotary joints requiring evaluation of the motor, reducer, encoder and driver as a system.
 
-Typical information:
+Please provide:
 
-- Rated torque and peak torque
-- Output speed
-- Voltage
-- Communication requirements
-- Diameter and thickness limits
-- Feedback requirements
-- Prototype quantity
+- Continuous and peak torque
+- Required output speed
+- Peak-torque duration or motion cycle
+- Operating voltage
+- Diameter, thickness and weight limits
+- Encoder, brake, driver and communication requirements
+- Prototype and estimated production quantities
+
+[View robot joint actuators](products/robot-joint-actuators/index.md)
 
 ### Cycloidal Joint Modules
 
-For applications requiring high torque density and compact robotic joint solutions.
+For compact robotic joints requiring high torque density and low-backlash transmission.
 
 Please provide:
 
 - Continuous and peak load
-- Duty cycle
-- Required speed
+- Duty cycle and thermal conditions
+- Required output speed
 - Installation dimensions
-- Control requirements
+- Shaft and mounting interface
+- Control and feedback requirements
+
+[View cycloidal joint modules](products/cycloidal-joint-modules/index.md)
 
 ### Planetary Gearboxes
 
-For compact automation, servo and motor integration applications.
+For compact automation, servo systems, BLDC motor integration and precision mechanisms.
 
-Useful information:
+Please provide:
 
-- Motor type
-- Required reduction ratio
-- Output torque
-- Speed
-- Shaft and mounting requirements
+- Motor type and motor shaft information
+- Required reduction ratio or output speed
+- Continuous and peak output torque
+- Input speed
+- Shaft, flange and mounting requirements
+- Radial and axial loads
+- Backlash, noise or life requirements
+
+[View planetary gearboxes](products/planetary-gearboxes/index.md)
 
 ### Micro Gear Motors
 
-For compact mechanisms, instruments and small automation systems.
+For instruments, medical and laboratory equipment, grippers, smart hardware and compact automation mechanisms.
 
-Useful information:
+Please provide:
 
 - Voltage
-- Speed
-- Load condition
-- Space limitation
-- Quantity forecast
+- Required speed and torque or load condition
+- Available diameter and total length
+- Duty cycle
+- Output shaft and mounting requirements
+- Feedback requirement
+- Prototype and annual quantity
 
-## Information Needed Before Review
+[View micro gear motors](products/micro-gear-motors/index.md)
 
-To recommend a suitable product or prepare technical files, please provide:
+## Information Needed for a Faster Review
 
-- Company name and country
-- Application description
-- Installation position
-- Required torque
-- Required speed
-- Operating voltage
+Send as much of the following information as is currently available:
+
+- Company name, website and country
+- Application and installation position
+- Current project stage: concept, prototype or production
+- Required continuous and peak torque
+- Required output speed or cycle time
+- Operating voltage and current limit
 - Size and weight limits
-- Communication or control requirements
-- Driver and encoder requirements
-- Quantity for prototype and production
-- CAD or drawing requirements
+- Duty cycle and operating environment
+- Radial and axial loads
+- Encoder, brake, driver and communication requirements
+- Standard or customized interface requirement
+- Prototype quantity and estimated annual quantity
+- Required CAD format, drawing type or technical document
 - Delivery destination
 
-If drawings are not available, a mechanism sketch with key dimensions is acceptable for the first review.
+A mechanism sketch with key dimensions is sufficient for the first review when a complete drawing is not yet available.
 
-## Engineering Review Process
+## Copy-and-Send Request Template
 
-### Step 1: Application Review
+```text
+Company:
+Country and delivery destination:
+Application:
+Project stage:
+Required continuous torque:
+Required peak torque and duration:
+Required output speed:
+Operating voltage:
+Maximum diameter / length / weight:
+Duty cycle:
+Encoder / driver / communication requirement:
+Prototype quantity:
+Estimated annual quantity:
+CAD, drawing or quotation required:
+Other important conditions:
+```
 
-We review the application, motion requirements and mechanical limitations.
+## Review Process
 
-### Step 2: Product Matching
+1. **Application review** — We review the motion requirement, load condition and installation limits.
+2. **Preliminary product matching** — We identify a suitable product family or candidate model.
+3. **Technical confirmation** — We confirm dimensions, interfaces, electronics and available documents.
+4. **Sample or quotation preparation** — We prepare the next technical and commercial step after the configuration is understood.
 
-A suitable product family or preliminary configuration is identified.
-
-### Step 3: Technical Confirmation
-
-Dimensions, interfaces, performance requirements and available documents are confirmed.
-
-### Step 4: Sample or Quotation Preparation
-
-After requirements are confirmed, we prepare the next commercial and technical step.
+A preliminary candidate is not a final configuration. Price, sample availability, lead time, customization cost and released technical files depend on the confirmed model and project conditions.
 
 ## Contact SigGear
 
-Send your project requirements to:
+**Wanrong Wang**  
+International Sales, SigGear  
+Email: [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com?subject=CAD%2C%20Sample%20and%20Quote%20Request)
 
-Email: [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
-
-or use the product inquiry page:
-
-[Send Product Requirements](contact.md){ .md-button .md-button--primary }
+[Send CAD, Sample or Quote Request](mailto:wangwanrong@siggear.com?subject=CAD%2C%20Sample%20and%20Quote%20Request){ .md-button .md-button--primary }
+[General Contact](contact.md){ .md-button }
