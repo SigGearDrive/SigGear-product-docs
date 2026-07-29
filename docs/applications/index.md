@@ -110,6 +110,14 @@ Selection guidance for smart locks, electronic latches, cabinet locks, parcel lo
 
 [Explore access control smart lock and security gear motors](./access-control-smart-lock-security-gear-motors.md)
 
+## HVAC and Building Automation Applications
+
+### HVAC, Smart Vent and Damper Gear Motors
+
+Selection guidance for HVAC dampers, smart vents, air flaps, louvers, mixing doors, air-direction adjustment mechanisms, thermal-management dampers, air purifier mechanisms, humidifier and dehumidifier actuators, specialty vents and compact exhaust devices, covering holding torque, end-stop behavior, stall current, low noise, low current, temperature, humidity, condensation, dust, shaft geometry, feedback and building-system validation boundaries.
+
+[Explore HVAC smart vent and damper gear motors](./hvac-smart-vent-damper-gear-motors.md)
+
 ## Commercial Equipment Applications
 
 ### Vending, Dispensing and Kiosk Gear Motors
