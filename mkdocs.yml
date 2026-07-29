@@ -31,6 +31,7 @@ plugins:
         'Applications/access-control-smart-lock-security-gear-motor.md': 'applications/access-control-smart-lock-security-gear-motors.md'
         'Applications/agriculture-outdoor-equipment-gear-motor.md': 'applications/agriculture-outdoor-equipment-gear-motors.md'
         'Applications/food-beverage-coffee-equipment-gear-motor.md': 'applications/food-beverage-coffee-equipment-gear-motors.md'
+        'Applications/laboratory-automation-diagnostic-equipment-gear-motor.md': 'applications/laboratory-automation-diagnostic-equipment-gear-motors.md'
         'Applications/humanoid-robot-joint-reducer.md': 'applications/humanoid-robot-joint-actuators.md'
         'Applications/quadruped-robot-joint-gearbox.md': 'applications/quadruped-robot-joint-gearboxes.md'
         'Applications/robot-arm-joint-gearbox.md': 'applications/robotic-arm-joint-actuators.md'
@@ -119,6 +120,7 @@ nav:
       - Food Beverage and Coffee Equipment Gear Motors: applications/food-beverage-coffee-equipment-gear-motors.md
       - Humanoid Robot Joint Actuators: applications/humanoid-robot-joint-actuators.md
       - Industrial Automation Servo Planetary Gearboxes: applications/industrial-automation-servo-planetary-gearboxes.md
+      - Laboratory Automation and Diagnostic Equipment Gear Motors: applications/laboratory-automation-diagnostic-equipment-gear-motors.md
       - Medical Device Micro Gear Motors: applications/medical-device-micro-gear-motors.md
       - Micro Robotics Gear Motors: applications/micro-robotics-gear-motors.md
       - Packaging Labeling and Conveyor Gear Motors: applications/packaging-labeling-conveyor-gear-motors.md
