@@ -64,7 +64,6 @@ plugins:
         'Developers/ros2-robot-joint-actuator.md': 'knowledge-base/index.md'
         'Developers/can-protocol-robot-joint-control.md': 'knowledge-base/index.md'
         'site-map.md': 'index.md'
-        'request-cad-sample-quote.md': 'contact.md'
         'custom-robotic-joint-actuator-oem-gearbox-solutions.md': 'products/index.md'
         'factory-capability-quality-oem-odm.md': 'company/about-siggear.md'
 
@@ -182,4 +181,5 @@ nav:
       - Sales Usage and Review Status: knowledge-base/sales-usage-and-review-status.md
       - Sales Usage and Technical Review Status: knowledge-base/sales-usage-and-technical-review-status.md
       - Update Workflow: knowledge-base/update-workflow.md
+  - Request CAD, Sample and Quote: request-cad-sample-quote.md
   - Contact: contact.md
