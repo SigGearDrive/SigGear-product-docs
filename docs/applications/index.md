@@ -118,6 +118,12 @@ Selection guidance for HVAC dampers, smart vents, air flaps, louvers, mixing doo
 
 [Explore HVAC smart vent and damper gear motors](./hvac-smart-vent-damper-gear-motors.md)
 
+### Electric Curtain, Blind and Window Opener Gear Motors
+
+Selection guidance for electric curtain tracks, roller blinds, smart shades, venetian blind tilt mechanisms, window openers, skylight actuators, sunshade systems, awning adjustment and compact building-automation actuators, covering quiet motion, holding torque, low current, end-stop behavior, obstacle detection, manual override, shaft interfaces, duty cycle and indoor or outdoor environmental requirements.
+
+[Explore electric curtain blind and window opener gear motors](./electric-curtain-blind-window-opener-gear-motors.md)
+
 ## Commercial Equipment Applications
 
 ### Vending, Dispensing and Kiosk Gear Motors
