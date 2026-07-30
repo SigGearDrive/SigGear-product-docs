@@ -152,6 +152,14 @@ Selection guidance for coffee machines, beverage dispensers, food-service equipm
 
 [Explore food beverage and coffee equipment gear motors](./food-beverage-coffee-equipment-gear-motors.md)
 
+## Display, Exhibition and Signage Applications
+
+### Stage Lighting, Display and Signage Gear Motors
+
+Selection guidance for moving-head stage lights, beam shutters, iris mechanisms, filter adjustment, advertising display rotation, digital signage angle adjustment, retail display fixtures, exhibition systems, museum showcases, outdoor signage and compact display mechanisms, covering torque, speed, low noise, backlash, repeatability, holding torque, duty cycle, shaft loads, environmental exposure and customization requirements.
+
+[Explore stage lighting display and signage gear motors](./stage-lighting-display-signage-gear-motors.md)
+
 ## Vehicle and Mobility Applications
 
 ### Automotive and Vehicle Small Motion Gear Motors

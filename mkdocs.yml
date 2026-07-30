@@ -52,6 +52,7 @@ plugins:
         'Applications/robot-gripper-gear-motor.md': 'applications/robot-gripper-gear-motors.md'
         'Applications/servo-motor-planetary-gearbox.md': 'applications/industrial-automation-servo-planetary-gearboxes.md'
         'Applications/smart-hardware-gear-motor.md': 'applications/smart-hardware-gear-motors.md'
+        'Applications/stage-lighting-display-signage-gear-motor.md': 'applications/stage-lighting-display-signage-gear-motors.md'
         'Applications/vending-dispensing-kiosk-gear-motor.md': 'applications/vending-dispensing-kiosk-gear-motors.md'
         'Selection-Guides/humanoid-robot-joint-gearbox-selection-guide.md': 'selection-guides/robot-joint-actuator-selection-guide.md'
         'Selection-Guides/robot-joint-torque-calculation-gearbox-selection.md': 'selection-guides/robot-joint-actuator-selection-guide.md'
@@ -160,6 +161,7 @@ nav:
       - Robotic Arm Joint Actuators: applications/robotic-arm-joint-actuators.md
       - Robot Gripper Gear Motors: applications/robot-gripper-gear-motors.md
       - Smart Hardware Gear Motors: applications/smart-hardware-gear-motors.md
+      - Stage Lighting Display and Signage Gear Motors: applications/stage-lighting-display-signage-gear-motors.md
       - Vending Dispensing and Kiosk Gear Motors: applications/vending-dispensing-kiosk-gear-motors.md
   - Selection Guides:
       - Selection Guides Overview: selection-guides/index.md
