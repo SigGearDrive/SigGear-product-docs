@@ -1,5 +1,7 @@
 # Robotic Arm Joint Actuators and Gearboxes
 
+> **Developing a robotic arm or collaborative robot?** [Open an engineering request](https://github.com/SigGearDrive/SigGear-product-docs/issues/new/choose) or email [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com) with the payload, reach, axis position, torque, speed, backlash, size and quantity. Our engineers will reply within 24 hours.
+
 ## Application Overview
 
 Robotic arms, collaborative robots, research manipulators and compact automation systems require reliable joint-drive solutions for base, shoulder, elbow, wrist and rotary-tool axes. A robot arm joint actuator or robot arm gearbox should be selected from the complete mechanism requirement, not from output torque alone.
@@ -170,4 +172,5 @@ Send your robotic arm joint or gearbox requirements to SigGear for a preliminary
 International Sales, SigGear  
 [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
-[Send Robotic Arm Requirements](../contact.md){ .md-button .md-button--primary }
+[Open an Engineering Request](https://github.com/SigGearDrive/SigGear-product-docs/issues/new/choose){ .md-button .md-button--primary }
+[Send Robotic Arm Requirements](../contact.md){ .md-button }
