@@ -1,5 +1,7 @@
 # Quadruped Robot Joint Gearboxes and Actuators
 
+> **Developing a quadruped robot?** [Open an engineering request](https://github.com/SigGearDrive/SigGear-product-docs/issues/new/choose) or email [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com) with the robot mass, joint position, torque, speed, gait cycle, impact condition, size and quantity. Our engineers will reply within 24 hours.
+
 ## Application Overview
 
 Quadruped robots require compact and durable joint-drive systems for hip, knee, ankle and auxiliary leg axes. Walking, trotting, turning, stair climbing, slope operation, jumping, landing and recovery motions create different torque-speed and impact-load conditions. A quadruped robot actuator or leg joint gearbox should therefore be selected from the complete gait profile, not from a single peak-torque value.
@@ -184,4 +186,5 @@ Send your quadruped robot joint requirements to SigGear for a preliminary model 
 International Sales, SigGear  
 [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
-[Send Quadruped Joint Requirements](../contact.md){ .md-button .md-button--primary }
+[Open an Engineering Request](https://github.com/SigGearDrive/SigGear-product-docs/issues/new/choose){ .md-button .md-button--primary }
+[Send Quadruped Joint Requirements](../contact.md){ .md-button }
