@@ -1,4 +1,26 @@
-# Robot Joint Actuator Selection Guide
+---
+title: Robot Joint Torque Calculation and Actuator Sizing Guide
+description: Calculate robot joint torque and select an actuator by continuous and peak torque, speed, duty cycle, size, gearbox type, encoder, driver and thermal limits.
+---
+
+# Robot Joint Torque Calculation and Actuator Sizing Guide
+
+Use this engineering guide to estimate robot joint torque, separate continuous and peak requirements, check output speed and power, and shortlist a planetary or cycloidal actuator architecture. Final model approval still requires engineering review and prototype validation.
+
+[Humanoid Robot Joint Guide](../applications/humanoid-robot-joint-actuators.md){ .md-button .md-button--primary }
+[View Joint Actuator Products](../products/robot-joint-actuators/index.md){ .md-button }
+[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
+
+## Quick Robot Joint Actuator Sizing Workflow
+
+1. Define the joint position, payload, link geometry and complete motion cycle.
+2. Estimate gravity, acceleration and external-force torque.
+3. Separate continuous torque from peak torque and define peak duration.
+4. Check output speed, power, voltage and controller current limits at the same operating point.
+5. Confirm diameter, thickness, length, weight and external bearing loads.
+6. Compare planetary, cycloidal and integrated-actuator architectures.
+7. Confirm encoder, driver, communication, thermal and safety requirements.
+8. Validate the selected actuator in a representative prototype.
 
 ## Purpose of This Guide
 
@@ -24,7 +46,7 @@ Record:
 
 Do not apply one actuator specification to every axis of the robot.
 
-## Step 2: Estimate Output Torque
+## Step 2: Estimate Robot Joint Output Torque
 
 ### Gravity Torque
 
@@ -297,4 +319,5 @@ Send the following information for engineering review:
 International Sales, SigGear  
 [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
-[Send Robot Joint Requirements](../contact.md){ .md-button .md-button--primary }
+[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Send Robot Joint Requirements](../contact.md){ .md-button }

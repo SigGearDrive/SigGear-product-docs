@@ -1,4 +1,15 @@
-# Humanoid Robot Joint Actuators
+---
+title: Humanoid Robot Joint Actuator Selection Guide | Torque, Speed and Gearbox
+description: Learn how to select humanoid robot joint actuators by continuous and peak torque, speed, duty cycle, size, weight, backlash, encoder, driver and transmission type.
+---
+
+# Humanoid Robot Joint Actuator Selection Guide
+
+Selecting a humanoid robot joint actuator requires matching torque, speed, gearbox architecture, installation size, weight, duty cycle and control requirements for each axis. Shoulder, elbow, wrist, hip, knee, ankle, neck and waist joints should not be sized from peak torque alone.
+
+[Robot Joint Actuator Selection Guide](../selection-guides/robot-joint-actuator-selection-guide.md){ .md-button .md-button--primary }
+[View Joint Actuator Products](../products/robot-joint-actuators/index.md){ .md-button }
+[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
 
 ## Application Overview
 
@@ -7,6 +18,20 @@ Humanoid robots require compact joint actuators for the shoulder, elbow, wrist, 
 SigGear supports humanoid robot development with integrated robot joint actuator options, planetary joint actuators, cycloidal joint modules and compact planetary gearbox solutions. Depending on the selected configuration, a joint drive may combine a motor, reducer, encoder and driver, or it may be supplied as a reducer or gearbox for customer-side motor integration.
 
 This page is intended for early-stage model selection, supplier comparison and engineering communication. Final actuator selection, quotation and technical agreement still require review against the controlled drawing, selected ratio, duty cycle, mounting interface and ordered configuration.
+
+## How to Select a Humanoid Robot Joint Actuator
+
+A practical early-stage selection process should cover the following steps:
+
+1. **Define the joint position and motion cycle** — Separate shoulder, elbow, wrist, hip, knee and ankle requirements instead of applying one actuator specification to every axis.
+2. **Calculate continuous and peak torque** — Include gravity, acceleration, external forces, mechanism losses and the duration and frequency of peak events.
+3. **Match output speed and power** — Check torque and speed at the same operating point and confirm the available voltage and controller current limits.
+4. **Set the installation envelope** — Define maximum diameter, axial thickness, length, weight, cable space, bearing arrangement and output interface.
+5. **Choose the transmission architecture** — Compare planetary and cycloidal options, or an integrated actuator versus a separate motor and gearbox.
+6. **Confirm control and thermal conditions** — Review encoder, driver, communication, duty cycle, cooling, brake and power-off behavior.
+7. **Validate with a prototype** — Test the actuator in a representative mechanism with realistic loads, motion cycles and temperature monitoring.
+
+For torque formulas, sizing steps and a complete engineering checklist, use the [Robot Joint Actuator Selection Guide](../selection-guides/robot-joint-actuator-selection-guide.md).
 
 ## What a Humanoid Joint Actuator Must Define
 
@@ -111,6 +136,8 @@ For each joint, provide the full motion cycle instead of only the maximum torque
 
 Peak torque is not a continuous working rating. A joint that can provide short peak torque may still be unsuitable if the repeated duty cycle causes excessive temperature rise.
 
+[Open the torque calculation and actuator sizing guide](../selection-guides/robot-joint-actuator-selection-guide.md)
+
 ## Prototype and Customization Support
 
 Depending on the selected model and project scope, SigGear can evaluate:
@@ -153,4 +180,5 @@ Send your humanoid robot joint requirements to SigGear for a preliminary model r
 International Sales, SigGear  
 [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
-[Send Humanoid Joint Requirements](../contact.md){ .md-button .md-button--primary }
+[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Send Humanoid Joint Requirements](../contact.md){ .md-button }
