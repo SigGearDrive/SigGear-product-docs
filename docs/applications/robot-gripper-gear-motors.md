@@ -1,5 +1,7 @@
 # Robot Gripper and Dexterous Hand Gear Motors
 
+> **Developing a robot gripper or dexterous hand?** [Open an engineering request](https://github.com/SigGearDrive/SigGear-product-docs/issues/new/choose) or email [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com) with the gripping force, mechanism geometry, torque, speed, size, shaft load, backlash and quantity. Our engineers will reply within 24 hours.
+
 ## Application Overview
 
 Robot grippers, dexterous robotic hands and end effectors require compact drive systems for finger joints, tendon spools, rotary jaws, lead screws and other precision mechanisms. A suitable gripper motor or gearbox should be selected from the complete mechanism requirement, including force, speed, geometry, shaft load, backlash, noise and duty cycle.
@@ -118,4 +120,5 @@ Send your gripper requirements to SigGear for a preliminary model review.
 International Sales, SigGear  
 [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
-[Send Robot Gripper Requirements](../contact.md){ .md-button .md-button--primary }
+[Open an Engineering Request](https://github.com/SigGearDrive/SigGear-product-docs/issues/new/choose){ .md-button .md-button--primary }
+[Send Robot Gripper Requirements](../contact.md){ .md-button }
