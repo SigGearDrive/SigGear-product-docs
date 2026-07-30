@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Integrated robot joint actuators, cycloidal reducers, planetary gearboxes and precision gear motors from SigGear.">
+        <meta name="description" content="Learn how to select humanoid robot joint actuators by continuous and peak torque, speed, duty cycle, size, weight, backlash, encoder, driver and transmission type.">
       
       
       
@@ -27,7 +27,7 @@
     
     
       
-        <title>Humanoid Robot Joint Actuators - SigGear Product Documentation</title>
+        <title>Humanoid Robot Joint Actuator Selection Guide | Torque, Speed and Gearbox - SigGear Product Documentation</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#humanoid-robot-joint-actuators" class="md-skip">
+        <a href="#humanoid-robot-joint-actuator-selection-guide" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Humanoid Robot Joint Actuators
+              Humanoid Robot Joint Actuator Selection Guide | Torque, Speed and Gearbox
             
           </span>
         </div>
@@ -1968,6 +1968,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-to-select-a-humanoid-robot-joint-actuator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Select a Humanoid Robot Joint Actuator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#what-a-humanoid-joint-actuator-must-define" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -3358,6 +3369,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-to-select-a-humanoid-robot-joint-actuator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Select a Humanoid Robot Joint Actuator
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#what-a-humanoid-joint-actuator-must-define" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -3559,11 +3581,27 @@
   
 
 
-<h1 id="humanoid-robot-joint-actuators">Humanoid Robot Joint Actuators<a class="headerlink" href="#humanoid-robot-joint-actuators" title="Permanent link">&para;</a></h1>
+<h1 id="humanoid-robot-joint-actuator-selection-guide">Humanoid Robot Joint Actuator Selection Guide<a class="headerlink" href="#humanoid-robot-joint-actuator-selection-guide" title="Permanent link">&para;</a></h1>
+<p>Selecting a humanoid robot joint actuator requires matching torque, speed, gearbox architecture, installation size, weight, duty cycle and control requirements for each axis. Shoulder, elbow, wrist, hip, knee, ankle, neck and waist joints should not be sized from peak torque alone.</p>
+<p><a class="md-button md-button--primary" href="../../selection-guides/robot-joint-actuator-selection-guide/">Robot Joint Actuator Selection Guide</a>
+<a class="md-button" href="../../products/robot-joint-actuators/">View Joint Actuator Products</a>
+<a class="md-button" href="../../request-cad-sample-quote/">Request CAD, Sample and Quote</a></p>
 <h2 id="application-overview">Application Overview<a class="headerlink" href="#application-overview" title="Permanent link">&para;</a></h2>
 <p>Humanoid robots require compact joint actuators for the shoulder, elbow, wrist, hip, knee, ankle, neck and waist axes. Each joint has a different torque-speed cycle, external-load condition, installation envelope, thermal limit and control requirement. A humanoid robot joint actuator should therefore be selected from the complete operating profile, not from peak torque alone.</p>
 <p>SigGear supports humanoid robot development with integrated robot joint actuator options, planetary joint actuators, cycloidal joint modules and compact planetary gearbox solutions. Depending on the selected configuration, a joint drive may combine a motor, reducer, encoder and driver, or it may be supplied as a reducer or gearbox for customer-side motor integration.</p>
 <p>This page is intended for early-stage model selection, supplier comparison and engineering communication. Final actuator selection, quotation and technical agreement still require review against the controlled drawing, selected ratio, duty cycle, mounting interface and ordered configuration.</p>
+<h2 id="how-to-select-a-humanoid-robot-joint-actuator">How to Select a Humanoid Robot Joint Actuator<a class="headerlink" href="#how-to-select-a-humanoid-robot-joint-actuator" title="Permanent link">&para;</a></h2>
+<p>A practical early-stage selection process should cover the following steps:</p>
+<ol>
+<li><strong>Define the joint position and motion cycle</strong> — Separate shoulder, elbow, wrist, hip, knee and ankle requirements instead of applying one actuator specification to every axis.</li>
+<li><strong>Calculate continuous and peak torque</strong> — Include gravity, acceleration, external forces, mechanism losses and the duration and frequency of peak events.</li>
+<li><strong>Match output speed and power</strong> — Check torque and speed at the same operating point and confirm the available voltage and controller current limits.</li>
+<li><strong>Set the installation envelope</strong> — Define maximum diameter, axial thickness, length, weight, cable space, bearing arrangement and output interface.</li>
+<li><strong>Choose the transmission architecture</strong> — Compare planetary and cycloidal options, or an integrated actuator versus a separate motor and gearbox.</li>
+<li><strong>Confirm control and thermal conditions</strong> — Review encoder, driver, communication, duty cycle, cooling, brake and power-off behavior.</li>
+<li><strong>Validate with a prototype</strong> — Test the actuator in a representative mechanism with realistic loads, motion cycles and temperature monitoring.</li>
+</ol>
+<p>For torque formulas, sizing steps and a complete engineering checklist, use the <a href="../../selection-guides/robot-joint-actuator-selection-guide/">Robot Joint Actuator Selection Guide</a>.</p>
 <h2 id="what-a-humanoid-joint-actuator-must-define">What a Humanoid Joint Actuator Must Define<a class="headerlink" href="#what-a-humanoid-joint-actuator-must-define" title="Permanent link">&para;</a></h2>
 <p>A humanoid joint is not defined only by rated torque. The following parameters should be reviewed together:</p>
 <table>
@@ -3723,6 +3761,7 @@
 <li>Expected test duration and service-life target</li>
 </ul>
 <p>Peak torque is not a continuous working rating. A joint that can provide short peak torque may still be unsuitable if the repeated duty cycle causes excessive temperature rise.</p>
+<p><a href="../../selection-guides/robot-joint-actuator-selection-guide/">Open the torque calculation and actuator sizing guide</a></p>
 <h2 id="prototype-and-customization-support">Prototype and Customization Support<a class="headerlink" href="#prototype-and-customization-support" title="Permanent link">&para;</a></h2>
 <p>Depending on the selected model and project scope, SigGear can evaluate:</p>
 <ul>
@@ -3758,13 +3797,17 @@
 <p><strong>Wanrong Wang</strong><br />
 International Sales, SigGear<br />
 <a href="mailto:wangwanrong@siggear.com">wangwanrong@siggear.com</a></p>
-<p><a class="md-button md-button--primary" href="../../contact/">Send Humanoid Joint Requirements</a></p>
+<p><a class="md-button md-button--primary" href="../../request-cad-sample-quote/">Request CAD, Sample and Quote</a>
+<a class="md-button" href="../../contact/">Send Humanoid Joint Requirements</a></p>
 
 
 
 
 
 
+
+  
+  
 
 
 

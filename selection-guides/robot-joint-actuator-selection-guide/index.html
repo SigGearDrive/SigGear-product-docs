@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Integrated robot joint actuators, cycloidal reducers, planetary gearboxes and precision gear motors from SigGear.">
+        <meta name="description" content="Calculate robot joint torque and select an actuator by continuous and peak torque, speed, duty cycle, size, gearbox type, encoder, driver and thermal limits.">
       
       
       
@@ -27,7 +27,7 @@
     
     
       
-        <title>Robot Joint Actuator Selection Guide - SigGear Product Documentation</title>
+        <title>Robot Joint Torque Calculation and Actuator Sizing Guide - SigGear Product Documentation</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#robot-joint-actuator-selection-guide" class="md-skip">
+        <a href="#robot-joint-torque-calculation-and-actuator-sizing-guide" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Robot Joint Actuator Selection Guide
+              Robot Joint Torque Calculation and Actuator Sizing Guide
             
           </span>
         </div>
@@ -2520,6 +2520,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#quick-robot-joint-actuator-sizing-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Robot Joint Actuator Sizing Workflow
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#purpose-of-this-guide" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2542,15 +2553,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-2-estimate-output-torque" class="md-nav__link">
+  <a href="#step-2-estimate-robot-joint-output-torque" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 2: Estimate Output Torque
+        Step 2: Estimate Robot Joint Output Torque
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Step 2: Estimate Output Torque">
+    <nav class="md-nav" aria-label="Step 2: Estimate Robot Joint Output Torque">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -3458,6 +3469,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#quick-robot-joint-actuator-sizing-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Robot Joint Actuator Sizing Workflow
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#purpose-of-this-guide" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -3480,15 +3502,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-2-estimate-output-torque" class="md-nav__link">
+  <a href="#step-2-estimate-robot-joint-output-torque" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 2: Estimate Output Torque
+        Step 2: Estimate Robot Joint Output Torque
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Step 2: Estimate Output Torque">
+    <nav class="md-nav" aria-label="Step 2: Estimate Robot Joint Output Torque">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -3781,7 +3803,22 @@
   
 
 
-<h1 id="robot-joint-actuator-selection-guide">Robot Joint Actuator Selection Guide<a class="headerlink" href="#robot-joint-actuator-selection-guide" title="Permanent link">&para;</a></h1>
+<h1 id="robot-joint-torque-calculation-and-actuator-sizing-guide">Robot Joint Torque Calculation and Actuator Sizing Guide<a class="headerlink" href="#robot-joint-torque-calculation-and-actuator-sizing-guide" title="Permanent link">&para;</a></h1>
+<p>Use this engineering guide to estimate robot joint torque, separate continuous and peak requirements, check output speed and power, and shortlist a planetary or cycloidal actuator architecture. Final model approval still requires engineering review and prototype validation.</p>
+<p><a class="md-button md-button--primary" href="../../applications/humanoid-robot-joint-actuators/">Humanoid Robot Joint Guide</a>
+<a class="md-button" href="../../products/robot-joint-actuators/">View Joint Actuator Products</a>
+<a class="md-button" href="../../request-cad-sample-quote/">Request CAD, Sample and Quote</a></p>
+<h2 id="quick-robot-joint-actuator-sizing-workflow">Quick Robot Joint Actuator Sizing Workflow<a class="headerlink" href="#quick-robot-joint-actuator-sizing-workflow" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Define the joint position, payload, link geometry and complete motion cycle.</li>
+<li>Estimate gravity, acceleration and external-force torque.</li>
+<li>Separate continuous torque from peak torque and define peak duration.</li>
+<li>Check output speed, power, voltage and controller current limits at the same operating point.</li>
+<li>Confirm diameter, thickness, length, weight and external bearing loads.</li>
+<li>Compare planetary, cycloidal and integrated-actuator architectures.</li>
+<li>Confirm encoder, driver, communication, thermal and safety requirements.</li>
+<li>Validate the selected actuator in a representative prototype.</li>
+</ol>
 <h2 id="purpose-of-this-guide">Purpose of This Guide<a class="headerlink" href="#purpose-of-this-guide" title="Permanent link">&para;</a></h2>
 <p>A robot joint actuator should be selected from the complete axis requirement, not from one torque value or a product-family label. The joint position, payload, link geometry, acceleration, external forces, duty cycle, installation envelope, bearing loads, feedback architecture and controller limits all affect the final choice.</p>
 <p>This guide provides a practical screening workflow for humanoid robots, quadruped robots, robotic arms, exoskeletons and other rotary-axis systems. Final model approval requires engineering review and prototype validation.</p>
@@ -3800,7 +3837,7 @@
 <li>Customer-side bearings, belts, pulleys, gears or linkages</li>
 </ul>
 <p>Do not apply one actuator specification to every axis of the robot.</p>
-<h2 id="step-2-estimate-output-torque">Step 2: Estimate Output Torque<a class="headerlink" href="#step-2-estimate-output-torque" title="Permanent link">&para;</a></h2>
+<h2 id="step-2-estimate-robot-joint-output-torque">Step 2: Estimate Robot Joint Output Torque<a class="headerlink" href="#step-2-estimate-robot-joint-output-torque" title="Permanent link">&para;</a></h2>
 <h3 id="gravity-torque">Gravity Torque<a class="headerlink" href="#gravity-torque" title="Permanent link">&para;</a></h3>
 <p>For an initial one-axis estimate, gravity torque may be approximated by:</p>
 <p><code>T_gravity = m × g × r × sin(theta)</code></p>
@@ -4112,13 +4149,17 @@
 <p><strong>Wanrong Wang</strong><br />
 International Sales, SigGear<br />
 <a href="mailto:wangwanrong@siggear.com">wangwanrong@siggear.com</a></p>
-<p><a class="md-button md-button--primary" href="../../contact/">Send Robot Joint Requirements</a></p>
+<p><a class="md-button md-button--primary" href="../../request-cad-sample-quote/">Request CAD, Sample and Quote</a>
+<a class="md-button" href="../../contact/">Send Robot Joint Requirements</a></p>
 
 
 
 
 
 
+
+  
+  
 
 
 
