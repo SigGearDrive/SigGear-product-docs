@@ -1,8 +1,23 @@
+Got a specific torque/backlash requirement? Open an issue or contact us at sales wangwanrong@siggear.com – our engineers will reply within 24 hours.
+
 # SigGear Product Documentation
 
 Official public product documentation and technical marketing site for Guangdong SigGear Drive Intelligent Technology Co., Ltd.
 
-## Publishing rules
+## Application Scenarios
+
+SigGear products and engineering resources support applications including:
+
+- Humanoid robot hip, knee, ankle, shoulder, elbow, and wrist joints
+- Quadruped robot leg and body actuators
+- Industrial and collaborative robot arm joints
+- Robotic grippers, end effectors, and dexterous-hand mechanisms
+- AGV and AMR wheel-drive systems
+- Medical-device and laboratory-automation motion modules
+- Micro-robotics and compact precision mechanisms
+- Servo motor, BLDC motor, and custom automation drive assemblies
+
+## Publishing Rules
 
 - Product pages are the primary source of public product specifications.
 - Every model has one canonical product page.
@@ -10,7 +25,7 @@ Official public product documentation and technical marketing site for Guangdong
 - CAD models, detailed drawings, noise-test records, and service-life data are supplied after application review and inquiry.
 - Public contact: wangwanrong@siggear.com
 
-## Knowledge-base maintenance
+## Knowledge-Base Maintenance
 
 - Start with the [knowledge-base index](docs/knowledge-base/index.md) for product lookup, terminology, FAQs and documentation rules.
 - Submit product-data changes with the Product Data Update issue template.
