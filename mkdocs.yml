@@ -51,6 +51,7 @@ plugins:
         'Applications/packaging-labeling-conveyor-gear-motor.md': 'applications/packaging-labeling-conveyor-gear-motors.md'
         'Applications/pump-valve-fluid-control-gear-motor.md': 'applications/pump-valve-fluid-control-gear-motors.md'
         'Applications/robot-gripper-gear-motor.md': 'applications/robot-gripper-gear-motors.md'
+        'Applications/semiconductor-electronics-inspection-equipment-gear-motor.md': 'applications/semiconductor-electronics-inspection-equipment-gear-motors.md'
         'Applications/servo-motor-planetary-gearbox.md': 'applications/industrial-automation-servo-planetary-gearboxes.md'
         'Applications/smart-hardware-gear-motor.md': 'applications/smart-hardware-gear-motors.md'
         'Applications/stage-lighting-display-signage-gear-motor.md': 'applications/stage-lighting-display-signage-gear-motors.md'
@@ -162,6 +163,7 @@ nav:
       - Quadruped Robot Joint Gearboxes: applications/quadruped-robot-joint-gearboxes.md
       - Robotic Arm Joint Actuators: applications/robotic-arm-joint-actuators.md
       - Robot Gripper Gear Motors: applications/robot-gripper-gear-motors.md
+      - Semiconductor Electronics and Inspection Equipment Gear Motors: applications/semiconductor-electronics-inspection-equipment-gear-motors.md
       - Smart Hardware Gear Motors: applications/smart-hardware-gear-motors.md
       - Stage Lighting Display and Signage Gear Motors: applications/stage-lighting-display-signage-gear-motors.md
       - Vending Dispensing and Kiosk Gear Motors: applications/vending-dispensing-kiosk-gear-motors.md
