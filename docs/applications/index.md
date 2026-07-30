@@ -110,6 +110,12 @@ Selection guidance for smart locks, electronic latches, cabinet locks, parcel lo
 
 [Explore access control smart lock and security gear motors](./access-control-smart-lock-security-gear-motors.md)
 
+### Consumer Appliance and Home Device Gear Motors
+
+Selection guidance for pet feeders, smart pet devices, smart trash cans, kitchen appliances, home cleaning devices, personal care or wellness devices, smart home accessories, lid, cover, flap, locking and dispensing mechanisms, covering torque, speed, low noise, battery current, stall behavior, duty cycle, shaft loads, compact packaging, safety boundaries and customization requirements.
+
+[Explore consumer appliance and home device gear motors](./consumer-appliance-home-device-gear-motors.md)
+
 ## Furniture and Adjustable Mechanism Applications
 
 ### Furniture, Seating and Adjustable Mechanism Gear Motors
