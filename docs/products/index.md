@@ -57,14 +57,14 @@ Compact geared wheel-drive products for mobile robotics and automation.
 
 [Browse hub gear motors](hub-gear-motors/index.md)
 
-## Selection and Comparison Resources
+## Selection and Application Resources
 
+- [Browse all published selection guides](../selection-guides/index.md)
 - [Robot joint actuator selection guide](../selection-guides/robot-joint-actuator-selection-guide.md)
-- [Planetary gearbox selection guide](../selection-guides/planetary-gearbox-selection-guide.md)
-- [Micro gear motor selection guide](../selection-guides/micro-gear-motor-selection-guide.md)
-- [Planetary vs cycloidal gearbox](../comparisons/planetary-vs-cycloidal-gearbox.md)
-- [Cycloidal vs harmonic drive](../comparisons/cycloidal-vs-harmonic-drive.md)
-- [Integrated robot joint vs separate motor and gearbox](../comparisons/integrated-robot-joint-vs-separate-motor-gearbox.md)
+- [Industrial automation servo planetary gearbox guide](../applications/industrial-automation-servo-planetary-gearboxes.md)
+- [Robot gripper and dexterous hand gear motor guide](../applications/robot-gripper-gear-motors.md)
+- [Micro robotics gear motor guide](../applications/micro-robotics-gear-motors.md)
+- [Browse all application guides](../applications/index.md)
 
 ## Documentation Policy
 
