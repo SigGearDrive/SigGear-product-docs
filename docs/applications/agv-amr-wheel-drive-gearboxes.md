@@ -1,5 +1,7 @@
 # AGV and AMR Wheel Drive Gearboxes and Motors
 
+> **Developing an AGV, AMR or mobile robot?** [Open an engineering request](https://github.com/SigGearDrive/SigGear-product-docs/issues/new/choose) or email [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com) with the vehicle mass, payload, wheel diameter, speed, slope, voltage, braking requirements and quantity. Our engineers will reply within 24 hours.
+
 ## Application Overview
 
 AGVs, AMRs, warehouse mobile robots, inspection robots and compact transport platforms require wheel-drive systems matched to vehicle mass, payload, wheel diameter, target speed, acceleration, slope requirement, floor condition and duty cycle. An AGV wheel drive motor or AMR wheel drive gearbox should be selected from the complete traction requirement, not from rated torque alone.
@@ -202,4 +204,5 @@ Send your AGV or AMR wheel-drive requirements to SigGear for a preliminary model
 International Sales, SigGear  
 [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
-[Send AGV or AMR Drive Requirements](../contact.md){ .md-button .md-button--primary }
+[Open an Engineering Request](https://github.com/SigGearDrive/SigGear-product-docs/issues/new/choose){ .md-button .md-button--primary }
+[Send AGV or AMR Drive Requirements](../contact.md){ .md-button }
