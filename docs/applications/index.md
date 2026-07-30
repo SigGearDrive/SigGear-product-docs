@@ -96,6 +96,12 @@ Selection guidance for packaging machines, labeling equipment, small conveyors, 
 
 [Explore packaging labeling and conveyor gear motors](./packaging-labeling-conveyor-gear-motors.md)
 
+### Semiconductor, Electronics and Inspection Equipment Gear Motors
+
+Selection guidance for semiconductor-adjacent equipment, electronics manufacturing, PCB handling, conveyor adjustment, AOI and vision inspection, camera positioning, probe and test fixtures, tray or carrier movement, laser, marking and dispensing equipment, covering smooth low-speed motion, low vibration, backlash, repeatability, duty cycle, environmental exposure, clean-process boundaries and customization requirements.
+
+[Explore semiconductor electronics and inspection equipment gear motors](./semiconductor-electronics-inspection-equipment-gear-motors.md)
+
 ## Smart Hardware Applications
 
 ### Smart Hardware Gear Motors and Compact Device Actuators
