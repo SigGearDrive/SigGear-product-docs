@@ -1,4 +1,4 @@
-Got a specific torque/backlash requirement? [Open an issue](https://github.com/SigGearDrive/SigGear-product-docs/issues/new/choose) or contact us at [sales@siggear.com](mailto:wangwanrong@siggear.com) – our engineers will reply within 24 hours.
+Got a specific torque/backlash requirement? [Open an issue](https://github.com/SigGearDrive/SigGear-product-docs/issues/new/choose) or contact us at [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com) – our engineers will reply within 24 hours.
 
 # SigGear Product Documentation
 
