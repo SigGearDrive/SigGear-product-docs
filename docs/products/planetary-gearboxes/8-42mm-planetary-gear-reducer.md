@@ -95,4 +95,4 @@ Published specifications must not be transferred from one diameter or stage conf
 
 **Wanrong Wang**  
 International Sales, SigGear  
-[wangwanrong@sigger.com](mailto:wangwanrong@sigger.com)
+[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
