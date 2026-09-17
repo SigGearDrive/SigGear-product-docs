@@ -1,3 +1,8 @@
+---
+title: 36P 36 mm Micro Planetary Gearbox | SigGear
+description: SigGear 36P is a 36 mm micro planetary gearbox with one- to four-stage configurations and published reduction ratios from 3.66:1 to 625:1.
+---
+
 # 36P 36 mm Micro Planetary Gearbox
 
 ## Product Overview
@@ -102,4 +107,4 @@ Do not transfer the 36P specifications to another frame size or an unlisted stag
 
 International Sales, SigGear
 
-[wangwanrong@sigger.com](mailto:wangwanrong@sigger.com)
+[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
