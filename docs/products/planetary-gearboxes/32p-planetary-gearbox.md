@@ -1,3 +1,8 @@
+---
+title: 32P 32 mm Micro Planetary Gearbox | SigGear
+description: SigGear 32P is a 32 mm micro planetary gearbox with one- to four-stage configurations and published reduction ratios from 3.5:1 to 509.1:1.
+---
+
 # 32P 32 mm Micro Planetary Gearbox
 
 ## Product Overview
@@ -85,4 +90,4 @@ Do not transfer the 32P specifications to another frame size or an unlisted stag
 
 International Sales, SigGear
 
-[wangwanrong@sigger.com](mailto:wangwanrong@sigger.com)
+[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
