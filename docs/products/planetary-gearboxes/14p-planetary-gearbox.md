@@ -1,3 +1,8 @@
+---
+title: 14P 14 mm Micro Planetary Gearbox | 3.75:1–443.3:1 | SigGear
+description: SigGear 14P is a 14 mm micro planetary gearbox with 1–4 stages, reduction ratios from 3.75:1 to 443.3:1 and continuous input speed up to 8,000 rpm.
+---
+
 # 14P 14 mm Micro Planetary Gearbox
 
 ## Product Overview
