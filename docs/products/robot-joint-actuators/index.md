@@ -42,8 +42,26 @@ Most joint actuator models can be supplied:
 
 Driver, encoder, communication and control descriptions apply only to the selected configuration confirmed in the quotation.
 
+## Custom Robot Actuator Projects
+
+For projects that cannot use a standard model directly, SigGear can review mechanical and size customization requirements as an OEM or ODM project.
+
+A custom-project review should start from the application requirements rather than from an assumed modification. Please provide the available project data, including:
+
+- Required rated and peak torque
+- Required output speed
+- Voltage and power requirements
+- Maximum diameter, length and weight
+- Mounting and output-interface requirements
+- Backlash target, if applicable
+- Encoder, driver and communication requirements
+- Duty cycle
+- Prototype and estimated annual quantity
+
+SigGear will first check whether an existing actuator configuration can meet the requirement. If not, the mechanical customization scope can be reviewed with the engineering team before quotation.
+
 ## Selection Support
 
 For model selection, provide the required rated torque, peak torque, speed, voltage, size limit, weight target, duty cycle, communication interface and estimated quantity.
 
-[Contact Wanrong Wang](../../contact.md)
+[Request CAD, Sample and Quote](../../request-cad-sample-quote.md) or [Contact Wanrong Wang](../../contact.md).
