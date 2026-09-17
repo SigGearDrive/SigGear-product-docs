@@ -1,3 +1,8 @@
+---
+title: SigGear Products | Robot Joint Actuators and Precision Gearboxes
+description: Explore SigGear robot joint actuators, cycloidal joint modules, 8–42 mm planetary gearboxes, micro gear motors, flat BLDC joint drives and hub gear motors.
+---
+
 # SigGear Products
 
 This section is the authoritative public source for SigGear product specifications.
