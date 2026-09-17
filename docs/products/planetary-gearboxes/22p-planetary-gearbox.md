@@ -1,3 +1,8 @@
+---
+title: 22P 22 mm Micro Planetary Gearbox | SigGear
+description: SigGear 22P is a 22 mm micro planetary gearbox with one- to four-stage configurations and published reduction ratios from 3.5:1 to 509.1:1.
+---
+
 # 22P 22 mm Micro Planetary Gearbox
 
 ## Product Overview
@@ -102,4 +107,4 @@ Do not transfer the 22P specifications to another frame size or an unlisted stag
 
 International Sales, SigGear
 
-[wangwanrong@sigger.com](mailto:wangwanrong@sigger.com)
+[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
