@@ -1,3 +1,8 @@
+---
+title: 32P 32 mm Micro Planetary Gearbox | SigGear
+description: SigGear 32P is a 32 mm micro planetary gearbox with one- to four-stage configurations, 3.5:1 to 509.1:1 ratios and ≤ 1.2° backlash at no load.
+---
+
 # 32P 32 mm Micro Planetary Gearbox
 
 ## Product Overview
@@ -31,7 +36,7 @@ The SigGear 32P is a 32 mm micro planetary gearbox for compact motorized mechani
 
 Torque values are preserved in the source unit, kgf·cm. Maximum momentary torque is not a continuous working rating.
 
-One supplied marketing image states backlash as **≤ 1.2 arcmin**, while another 32P specification image states **≤ 1.2°**. Treat this as a source inconsistency and confirm against the controlled drawing before final quotation.
+The current public specification uses **≤ 1.2°** as the backlash-at-no-load value.
 
 ## Stage, Ratio and Performance Table
 
@@ -85,4 +90,4 @@ Do not transfer the 32P specifications to another frame size or an unlisted stag
 
 International Sales, SigGear
 
-[wangwanrong@sigger.com](mailto:wangwanrong@sigger.com)
+[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)

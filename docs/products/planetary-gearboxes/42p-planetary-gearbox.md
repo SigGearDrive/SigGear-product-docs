@@ -1,3 +1,8 @@
+---
+title: 42P 42 mm Micro Planetary Gearbox | SigGear
+description: SigGear 42P is a 42 mm micro planetary gearbox with one- to four-stage configurations and published reduction ratios from 3.8:1 to 660.7:1.
+---
+
 # 42P 42 mm Micro Planetary Gearbox
 
 ## Product Overview
@@ -85,4 +90,4 @@ Do not transfer the 42P specifications to another frame size or an unlisted stag
 
 International Sales, SigGear
 
-[wangwanrong@sigger.com](mailto:wangwanrong@sigger.com)
+[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
