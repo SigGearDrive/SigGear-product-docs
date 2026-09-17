@@ -1,3 +1,8 @@
+---
+title: Planetary Gearboxes | 8–42 mm Precision Gear Reducers | SigGear
+description: Explore SigGear 8–42 mm planetary gearboxes for robotics, automation, medical devices and precision mechanisms, with model pages covering ratios, torque, backlash and dimensions.
+---
+
 # Planetary Gearboxes
 
 SigGear planetary gearboxes provide compact transmission solutions for robotics, automation, medical devices and precision motion systems.
