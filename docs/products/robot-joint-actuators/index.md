@@ -1,3 +1,8 @@
+---
+title: Robot Joint Actuators | Integrated Planetary Joint Modules | SigGear
+description: Explore SigGear integrated robot joint actuators with precision planetary transmission, BLDC motors, encoders and optional integrated control electronics for robotics and automation.
+---
+
 # Robot Joint Actuators
 
 SigGear robot joint actuators combine precision transmission, BLDC motors, encoders and optional integrated control electronics.
