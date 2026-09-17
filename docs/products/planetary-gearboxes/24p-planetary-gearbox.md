@@ -1,3 +1,8 @@
+---
+title: 24P 24 mm Micro Planetary Gearbox | SigGear
+description: SigGear 24P is a 24 mm micro planetary gearbox with one- to four-stage configurations and published reduction ratios from 3.83:1 to 759.7:1.
+---
+
 # 24P 24 mm Micro Planetary Gearbox
 
 ## Product Overview
@@ -98,4 +103,4 @@ Do not transfer the 24P specifications to another frame size or an unlisted stag
 
 International Sales, SigGear
 
-[wangwanrong@sigger.com](mailto:wangwanrong@sigger.com)
+[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
