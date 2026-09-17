@@ -1,3 +1,8 @@
+---
+title: 12P 12 mm Micro Planetary Gearbox | 3.5:1–509.1:1 | SigGear
+description: SigGear 12P is a 12 mm micro planetary gearbox with 1–4 stages, reduction ratios from 3.5:1 to 509.1:1 and continuous input speed up to 8,000 rpm.
+---
+
 # 12P 12 mm Micro Planetary Gearbox
 
 ## Product Overview
