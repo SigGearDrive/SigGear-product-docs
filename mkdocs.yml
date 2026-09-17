@@ -67,7 +67,7 @@ plugins:
         'Developers/ros2-robot-joint-actuator.md': 'knowledge-base/index.md'
         'Developers/can-protocol-robot-joint-control.md': 'knowledge-base/index.md'
         'site-map.md': 'index.md'
-        'custom-robotic-joint-actuator-oem-gearbox-solutions.md': 'products/index.md'
+        'custom-robotic-joint-actuator-oem-gearbox-solutions.md': 'products/robot-joint-actuators/index.md'
         'factory-capability-quality-oem-odm.md': 'company/about-siggear.md'
 
 markdown_extensions:
