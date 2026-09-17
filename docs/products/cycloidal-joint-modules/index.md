@@ -1,3 +1,8 @@
+---
+title: Cycloidal Joint Modules | Compact Robot Joint Drives | SigGear
+description: Explore SigGear cycloidal joint modules for compact robot joints, including CPM-78-39, CPM-80-25 and CPM-100-25 with published torque, speed and configuration data.
+---
+
 # Cycloidal Joint Modules
 
 SigGear cycloidal joint modules combine compact cycloidal transmission with motor, sensing and optional drive electronics for robot-joint applications.
