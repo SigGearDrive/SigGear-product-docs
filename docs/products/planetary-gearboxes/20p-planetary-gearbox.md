@@ -1,3 +1,8 @@
+---
+title: 20P 20 mm Micro Planetary Gearbox | 4:1–1296:1 | SigGear
+description: SigGear 20P is a 20 mm micro planetary gearbox with 1–4 stages, reduction ratios from 4:1 to 1296:1 and continuous input speed up to 8,000 rpm.
+---
+
 # 20P 20 mm Micro Planetary Gearbox
 
 ## Product Overview
@@ -102,4 +107,4 @@ Do not transfer the 20P specifications to another frame size or an unlisted stag
 
 International Sales, SigGear
 
-[wangwanrong@sigger.com](mailto:wangwanrong@sigger.com)
+[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)

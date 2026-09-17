@@ -1,3 +1,8 @@
+---
+title: 16P 16 mm Micro Planetary Gearbox | 3.85:1–459.5:1 | SigGear
+description: SigGear 16P is a 16 mm micro planetary gearbox with 1–4 stages, reduction ratios from 3.85:1 to 459.5:1 and continuous input speed up to 8,000 rpm.
+---
+
 # 16P 16 mm Micro Planetary Gearbox
 
 ## Product Overview
