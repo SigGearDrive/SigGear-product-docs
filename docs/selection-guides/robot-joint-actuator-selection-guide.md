@@ -8,6 +8,9 @@ description: Select a robot joint actuator or gearbox by continuous and peak tor
 Use this engineering guide to estimate robot joint torque, separate continuous and peak requirements, check output speed and power, and shortlist a planetary or cycloidal robot joint actuator or gearbox architecture. Final model approval still requires engineering review and prototype validation.
 
 [Humanoid Robot Joint Guide](../applications/humanoid-robot-joint-actuators.md){ .md-button .md-button--primary }
+[Robotic Arm Joint Guide](../applications/robotic-arm-joint-actuators.md){ .md-button }
+[Quadruped Robot Joint Guide](../applications/quadruped-robot-joint-gearboxes.md){ .md-button }
+[Exoskeleton Joint Guide](../applications/exoskeleton-joint-actuators.md){ .md-button }
 [View Joint Actuator Products](../products/robot-joint-actuators/index.md){ .md-button }
 [Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
 
