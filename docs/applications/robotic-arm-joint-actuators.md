@@ -1,3 +1,8 @@
+---
+title: Robotic Arm Joint Actuators and Gearboxes | Selection Guide | SigGear
+description: Select robotic arm joint actuators and gearboxes by payload, reach, continuous and peak torque, speed, backlash, brake, encoder, driver and mounting requirements.
+---
+
 # Robotic Arm Joint Actuators and Gearboxes
 
 ## Application Overview
