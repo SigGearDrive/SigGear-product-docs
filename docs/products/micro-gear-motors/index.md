@@ -1,3 +1,8 @@
+---
+title: Micro Gear Motors | Miniature Planetary Gear Motors | SigGear
+description: Explore SigGear micro gear motor solutions using 8–42 mm planetary reducers with brushed DC, BLDC, stepper or servo motor integration for robotics, medical devices and compact automation.
+---
+
 # Micro Gear Motors
 
 ## Product Overview
@@ -54,6 +59,14 @@ Please provide:
 - Backlash and noise requirements
 - Encoder, brake, cable and connector requirements
 - Prototype quantity and estimated annual volume
+
+## Related Product and Application Resources
+
+[8–42 mm Planetary Gearbox Series](../planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Browse Planetary Gearboxes](../planetary-gearboxes/index.md){ .md-button }
+[Micro Robotics Applications](../../applications/micro-robotics-gear-motors.md){ .md-button }
+[Medical and Laboratory Applications](../../applications/medical-device-micro-gear-motors.md){ .md-button }
+[Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
 
 ## Engineering Documents
 
