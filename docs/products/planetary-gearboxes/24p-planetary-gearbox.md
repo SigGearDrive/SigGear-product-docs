@@ -97,6 +97,12 @@ Please provide:
 
 Do not transfer the 24P specifications to another frame size or an unlisted stage configuration. Final selection and quotation require confirmation against the approved configuration drawing.
 
+## Related Planetary Gearbox Resources
+
+[8–42 mm Planetary Gearbox Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Browse All Planetary Gearboxes](index.md){ .md-button }
+[Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
+
 ## Contact SigGear
 
 **Wanrong Wang**
