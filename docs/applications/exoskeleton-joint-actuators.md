@@ -1,6 +1,6 @@
 ---
-title: Exoskeleton Joint Actuators and Gearboxes | Selection Guide | SigGear
-description: Select exoskeleton joint actuators and gearboxes by assistance torque, speed, size, weight, backdrivability, brake, thermal limits and human-interaction requirements.
+title: Exoskeleton and Wearable Robot Joint Actuators | Selection Guide | SigGear
+description: Select exoskeleton and wearable-robot joint actuators by assistance torque, speed, size, weight, backdrivability, brake, thermal limits, rehabilitation motion and human-interaction requirements.
 ---
 
 # Exoskeleton Joint Actuators and Gearboxes
@@ -216,6 +216,13 @@ The complete exoskeleton system requires project-specific risk assessment, contr
 The equipment manufacturer is responsible for completed-system requirements, including applicable risk management, mechanical and electrical safety, software and control validation, EMC, battery safety, human factors, labeling and regulatory approval.
 
 Component documentation is supplied according to the selected model and agreed project scope. Do not infer medical-device certification, wearable-system certification or functional-safety approval from a general motor or gearbox product page.
+
+## Related Product Families
+
+[Robot Joint Actuators](../products/robot-joint-actuators/index.md){ .md-button .md-button--primary }
+[Cycloidal Joint Modules](../products/cycloidal-joint-modules/index.md){ .md-button }
+[Flat BLDC Motors and Joint Drives](../products/flat-bldc-motors/index.md){ .md-button }
+[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
 
 ## Prototype and Customization Support
 
