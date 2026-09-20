@@ -46,4 +46,6 @@ Driver, encoder, communication and control descriptions apply only to the select
 
 For model selection, provide the required rated torque, peak torque, speed, voltage, size limit, weight target, duty cycle, communication interface and estimated quantity.
 
-[Contact Wanrong Wang](../../contact.md)
+[Robot Joint Actuator Selection Guide](../../selection-guides/robot-joint-actuator-selection-guide.md){ .md-button .md-button--primary }
+[Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
+[Contact Wanrong Wang](../../contact.md){ .md-button }
