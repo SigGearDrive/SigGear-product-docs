@@ -1,3 +1,8 @@
+---
+title: Packaging, Labeling and Conveyor Gear Motors | Selection Guide | SigGear
+description: Select gear motors and compact planetary gearboxes for packaging, labeling, feeding and conveyor mechanisms by load, speed, ratio, duty cycle, jam condition, noise and mounting requirements.
+---
+
 # Packaging, Labeling and Conveyor Gear Motors
 
 ## Application Overview
@@ -197,6 +202,13 @@ Provide:
 - Validation, approval or documentation requirements
 - Prototype quantity and estimated annual quantity
 - Required customization or OEM branding
+
+## Related Products and Inquiry
+
+[Micro Gear Motors](../products/micro-gear-motors/index.md){ .md-button .md-button--primary }
+[Planetary Gearboxes](../products/planetary-gearboxes/index.md){ .md-button }
+[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
+
 
 ## Request a Packaging or Conveyor Gear Motor Review
 
