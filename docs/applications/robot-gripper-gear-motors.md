@@ -1,3 +1,8 @@
+---
+title: Robot Gripper and Dexterous Hand Gear Motors | SigGear
+description: Select micro gear motors and planetary gearboxes for robot grippers and dexterous hands by gripping force, tendon or jaw geometry, torque, speed, backlash, shaft loads, backdrivability and feedback requirements.
+---
+
 # Robot Gripper and Dexterous Hand Gear Motors
 
 ## Application Overview
@@ -109,6 +114,14 @@ Please provide:
 - Encoder and driver requirements
 - Duty cycle
 - Prototype quantity and annual forecast
+
+## Related Products and Inquiry
+
+[Micro Gear Motors](../products/micro-gear-motors/index.md){ .md-button .md-button--primary }
+[8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
+[Micro Robotics Gear Motors](micro-robotics-gear-motors.md){ .md-button }
+[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
+
 
 ## Request a Gripper Drive Selection Review
 

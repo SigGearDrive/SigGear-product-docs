@@ -1,3 +1,8 @@
+---
+title: Micro Robotics Gear Motors and Compact Actuators | SigGear
+description: Select micro gear motors and compact planetary gearboxes for miniature robots, small joints, micro mobile robots, sensor positioning and compact actuators by size, torque, speed, ratio, backlash and duty cycle.
+---
+
 # Micro Robotics Gear Motors and Compact Actuators
 
 ## Application Overview
@@ -201,6 +206,14 @@ Provide:
 - Duty cycle and ambient condition
 - Prototype quantity and estimated annual volume
 - Required customization or OEM branding
+
+## Related Products and Inquiry
+
+[Micro Gear Motors](../products/micro-gear-motors/index.md){ .md-button .md-button--primary }
+[8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
+[Robot Gripper and Dexterous Hand Drives](robot-gripper-gear-motors.md){ .md-button }
+[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
+
 
 ## Request a Micro Robotics Gear Motor Review
 
