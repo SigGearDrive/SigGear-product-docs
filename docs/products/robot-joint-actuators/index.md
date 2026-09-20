@@ -1,11 +1,11 @@
 ---
-title: Robot Joint Actuators | Integrated Planetary Joint Modules | SigGear
-description: Explore SigGear integrated robot joint actuators with precision planetary transmission, BLDC motors, encoders and optional integrated control electronics for robotics and automation.
+title: Robot Joint Actuators and Gearboxes | Planetary Joint Modules | SigGear
+description: Explore SigGear robot joint actuators and planetary joint gearboxes for humanoid robots, robotic arms, quadrupeds and exoskeletons, with configurable motor, encoder and driver integration.
 ---
 
 # Robot Joint Actuators
 
-SigGear robot joint actuators combine precision transmission, BLDC motors, encoders and optional integrated control electronics.
+SigGear robot joint actuators combine precision transmission, BLDC motors, encoders and optional integrated control electronics. This product family is intended for robot joint applications where customers may need a complete actuator or a gearbox-centered joint drive for their own motor and control architecture.
 
 ## Planetary Joint Actuators
 
@@ -32,6 +32,12 @@ Additional planetary actuator models will be added after their technical data an
 ## Cycloidal Joint Actuators
 
 Cycloidal joint actuator pages are listed in the Cycloidal Joint Modules section. CPM-78-39 is treated separately because it uses Hall sensors rather than the integrated absolute-encoder driver platform.
+
+## Robot Joint Actuator and Gearbox Configurations
+
+For robot joint projects, the required level of integration can vary. Depending on the selected model and project requirements, SigGear can review complete actuator configurations as well as gearbox-centered solutions for customer-side motor, encoder or controller integration.
+
+Custom robot actuator requests may include mechanical interface, output shaft, housing, cable arrangement, reduction ratio and integration review. Feasibility and final specifications require engineering confirmation against the selected model, application loads, installation envelope and project quantity.
 
 ## Available Configurations
 
