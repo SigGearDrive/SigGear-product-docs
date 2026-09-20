@@ -1,3 +1,8 @@
+---
+title: Medical Device Micro Gear Motors and Planetary Gearboxes | SigGear
+description: Select micro gear motors and planetary gearboxes for medical-device mechanisms by torque, speed, size, noise, feedback, duty cycle, cleaning boundary and service-life requirements.
+---
+
 # Micro Gear Motors for Medical and Laboratory Equipment
 
 ## Application Overview
@@ -210,6 +215,13 @@ Provide:
 - Cleaning, material, fluid-path or sterilization boundary
 - Expected service life or cycle count
 - Prototype quantity and estimated annual quantity
+
+## Related Products and Inquiry
+
+[Micro Gear Motors](../products/micro-gear-motors/index.md){ .md-button .md-button--primary }
+[8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
+[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
+
 
 ## Request a Medical or Laboratory Motion Review
 
