@@ -1,3 +1,8 @@
+---
+title: Precision Instrument Gear Motors and Optical Mechanism Drives | SigGear
+description: Select gear motors and compact planetary gearboxes for precision instruments and optical mechanisms by torque, speed, backlash, repeatability, vibration, feedback and shaft-load requirements.
+---
+
 # Gear Motors for Precision Instruments and Optical Mechanisms
 
 ## Application Overview
@@ -210,6 +215,13 @@ Provide:
 - Duty cycle and ambient condition
 - Clean, vacuum, humidity or material restrictions
 - Prototype quantity and estimated annual quantity
+
+## Related Products and Inquiry
+
+[Micro Gear Motors](../products/micro-gear-motors/index.md){ .md-button .md-button--primary }
+[8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
+[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
+
 
 ## Request a Precision Motion Selection Review
 

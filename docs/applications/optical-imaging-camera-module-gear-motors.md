@@ -1,3 +1,8 @@
+---
+title: Optical, Imaging and Camera Module Gear Motors | SigGear
+description: Select compact gear motors for focus, zoom, aperture, filter-wheel, pan-tilt, scanning and sensor-positioning mechanisms by backlash, vibration, noise, speed and feedback requirements.
+---
+
 # Optical, Imaging and Camera Module Gear Motors
 
 ## Application Overview
@@ -237,6 +242,13 @@ Provide:
 - Validation, calibration or inspection requirements
 - Prototype quantity and estimated annual quantity
 - Required customization or OEM branding
+
+## Related Products and Inquiry
+
+[Micro Gear Motors](../products/micro-gear-motors/index.md){ .md-button .md-button--primary }
+[8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
+[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
+
 
 ## Request an Optical, Imaging or Camera Module Gear Motor Review
 

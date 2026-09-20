@@ -1,3 +1,8 @@
+---
+title: Laboratory Automation and Diagnostic Equipment Gear Motors | SigGear
+description: Select compact gear motors and planetary gearboxes for laboratory automation and diagnostic equipment by motion function, positioning, noise, vibration, duty cycle and environmental requirements.
+---
+
 # Laboratory Automation and Diagnostic Equipment Gear Motors
 
 ## Application Overview
@@ -236,6 +241,14 @@ Provide:
 - Validation, documentation or inspection requirements
 - Prototype quantity and estimated annual quantity
 - Required customization or OEM branding
+
+## Related Products and Inquiry
+
+[Micro Gear Motors](../products/micro-gear-motors/index.md){ .md-button .md-button--primary }
+[8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
+[Flat BLDC Motors](../products/flat-bldc-motors/index.md){ .md-button }
+[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
+
 
 ## Request a Laboratory Automation or Diagnostic Equipment Gear Motor Review
 
