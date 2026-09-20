@@ -1,3 +1,8 @@
+---
+title: Electronics and Inspection Equipment Gear Motors | SigGear
+description: Select compact gear motors and planetary gearboxes for electronics manufacturing, inspection, AOI, test fixtures and small positioning mechanisms by torque, speed, backlash, vibration and duty cycle.
+---
+
 # Semiconductor, Electronics and Inspection Equipment Gear Motors
 
 Semiconductor, electronics manufacturing and inspection equipment often uses compact gear motors for controlled feeding, indexing, focusing, fixture adjustment and small-axis positioning. These applications usually require stable motion, compact packaging, low vibration and predictable behavior during repeated production cycles.
