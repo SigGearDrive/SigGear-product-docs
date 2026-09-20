@@ -1,3 +1,8 @@
+---
+title: Exoskeleton Joint Actuators and Gearboxes | Selection Guide | SigGear
+description: Select exoskeleton joint actuators and gearboxes by assistance torque, speed, size, weight, backdrivability, brake, thermal limits and human-interaction requirements.
+---
+
 # Exoskeleton Joint Actuators and Gearboxes
 
 ## Application Overview
