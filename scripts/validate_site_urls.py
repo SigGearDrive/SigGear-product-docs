@@ -20,6 +20,12 @@ EXPECTED_REDIRECTS = [
     "Selection-Guides/planetary-gearbox-selection-guide/index.html",
     "Comparisons/cycloidal-vs-harmonic-drive/index.html",
     "Developers/ros2-robot-joint-actuator/index.html",
+    "CPM100-25/index.html",
+    "CPM80-25/index.html",
+    "SG6010C/index.html",
+    "SG8021/index.html",
+    "Selection-Guides/humanoid-robot-joint-gearbox-selection-guide/index.html",
+    "custom-robotic-joint-actuator-oem-gearbox-solutions/index.html",
 ]
 
 
@@ -33,6 +39,7 @@ def check_required_files() -> None:
         SITE_DIR / "index.html",
         SITE_DIR / "sitemap.xml",
         SITE_DIR / "sitemap-index.xml",
+        SITE_DIR / "robots.txt",
     ]
     missing = [str(path) for path in required if not path.is_file()]
     if missing:
@@ -60,6 +67,14 @@ def check_sitemap() -> None:
         fail("Sitemap index does not reference the project sitemap")
 
 
+def check_robots() -> None:
+    robots = (SITE_DIR / "robots.txt").read_text(encoding="utf-8")
+    if "User-agent: *" not in robots or "Allow: /SigGear-product-docs/" not in robots:
+        fail("robots.txt does not allow the project path")
+    if f"Sitemap: {EXPECTED_BASE}sitemap.xml" not in robots:
+        fail("robots.txt does not reference the project sitemap")
+
+
 def check_redirects() -> None:
     missing = [path for path in EXPECTED_REDIRECTS if not (SITE_DIR / path).is_file()]
     if missing:
@@ -85,6 +100,7 @@ def main() -> None:
     check_required_files()
     check_home_canonical()
     check_sitemap()
+    check_robots()
     check_redirects()
     check_generated_urls()
     print("Site validation passed.")
