@@ -99,6 +99,13 @@ Depending on the selected model, SigGear can evaluate motor matching, custom rat
 
 Final torque, speed, ratio, backlash and dimensional data are confirmed from the approved specification for the selected diameter and stage configuration.
 
+## Request Planetary Gearbox Selection Support
+
+For model selection, provide the preferred gearbox diameter, ratio or output speed, continuous and momentary torque, motor information, shaft and mounting requirements, duty cycle, backlash target and estimated quantity.
+
+[Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[View 8–42 mm Series](8-42mm-planetary-gear-reducer.md){ .md-button }
+
 ## Engineering Documents
 
 CAD models, detailed drawings and complete ratio tables are available after application review and inquiry.
