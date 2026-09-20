@@ -1,11 +1,11 @@
 ---
-title: Robot Joint Torque Calculation and Actuator Sizing Guide
-description: Calculate robot joint torque and select an actuator by continuous and peak torque, speed, duty cycle, size, gearbox type, encoder, driver and thermal limits.
+title: Robot Joint Actuator and Gearbox Selection Guide | Torque and Sizing
+description: Select a robot joint actuator or gearbox by continuous and peak torque, speed, duty cycle, size, planetary or cycloidal transmission, encoder, driver and thermal limits.
 ---
 
-# Robot Joint Torque Calculation and Actuator Sizing Guide
+# Robot Joint Actuator and Gearbox Selection Guide
 
-Use this engineering guide to estimate robot joint torque, separate continuous and peak requirements, check output speed and power, and shortlist a planetary or cycloidal actuator architecture. Final model approval still requires engineering review and prototype validation.
+Use this engineering guide to estimate robot joint torque, separate continuous and peak requirements, check output speed and power, and shortlist a planetary or cycloidal robot joint actuator or gearbox architecture. Final model approval still requires engineering review and prototype validation.
 
 [Humanoid Robot Joint Guide](../applications/humanoid-robot-joint-actuators.md){ .md-button .md-button--primary }
 [View Joint Actuator Products](../products/robot-joint-actuators/index.md){ .md-button }
