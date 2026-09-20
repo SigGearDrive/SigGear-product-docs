@@ -1,3 +1,8 @@
+---
+title: SigGear Applications | Robot Joints, Gearboxes and Precision Gear Motors
+description: Explore SigGear application guides for humanoid robots, robotic arms, exoskeletons, quadrupeds, AGV/AMR, automation, medical devices and precision mechanisms.
+---
+
 # Applications
 
 SigGear precision transmission products are used in robot joints, mobile robots, compact automation, medical devices and precision mechanisms.

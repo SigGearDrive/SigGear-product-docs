@@ -1,6 +1,6 @@
 ---
-title: Humanoid Robot Joint Actuator Selection Guide | Torque, Speed and Gearbox
-description: Learn how to select humanoid robot joint actuators by continuous and peak torque, speed, duty cycle, size, weight, backlash, encoder, driver and transmission type.
+title: Humanoid Robot Joint Actuators and Gearboxes | Selection Guide | SigGear
+description: Select humanoid robot joint actuators and gearboxes by continuous and peak torque, speed, duty cycle, size, weight, backlash, encoder, driver and transmission type.
 ---
 
 # Humanoid Robot Joint Actuator Selection Guide
