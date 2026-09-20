@@ -142,6 +142,12 @@ Useful information includes:
 
 Peak torque is not a continuous working rating. A joint that can provide short overload torque may still be unsuitable if repeated gait cycles cause excessive temperature rise.
 
+## Related Robot Joint Resources
+
+[Robot Joint Actuators](../products/robot-joint-actuators/index.md){ .md-button .md-button--primary }
+[Robot Joint Actuator and Gearbox Selection Guide](../selection-guides/robot-joint-actuator-selection-guide.md){ .md-button }
+[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
+
 ## Prototype and Customization Support
 
 Depending on the selected model and project scope, SigGear can evaluate:
