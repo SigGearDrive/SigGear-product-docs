@@ -1,3 +1,8 @@
+---
+title: Servo Motor Planetary Gearboxes for Industrial Automation | SigGear
+description: Select planetary gearboxes for servo motors by ratio, torque, speed, inertia matching, backlash, shaft loads, flange interface, duty cycle and automation-axis requirements.
+---
+
 # Servo Motor Planetary Gearboxes for Industrial Automation
 
 ## Application Overview
@@ -200,6 +205,13 @@ Provide:
 - Operating environment
 - Prototype quantity and estimated annual quantity
 - Required customization or OEM branding
+
+## Related Products and Inquiry
+
+[Planetary Gearboxes](../products/planetary-gearboxes/index.md){ .md-button .md-button--primary }
+[8–42 mm Planetary Gearbox Series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
+[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
+
 
 ## Request a Servo Planetary Gearbox Review
 
