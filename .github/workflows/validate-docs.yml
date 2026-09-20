@@ -10,6 +10,7 @@ on:
       - "scripts/validate_docs.py"
       - "scripts/validate_product_data.py"
       - "scripts/validate_sales_policy.py"
+      - "scripts/validate_site_urls.py"
       - ".github/workflows/validate-docs.yml"
   push:
     branches:
@@ -22,6 +23,7 @@ on:
       - "scripts/validate_docs.py"
       - "scripts/validate_product_data.py"
       - "scripts/validate_sales_policy.py"
+      - "scripts/validate_site_urls.py"
       - ".github/workflows/validate-docs.yml"
   workflow_dispatch:
 
@@ -58,3 +60,6 @@ jobs:
 
       - name: Build documentation
         run: mkdocs build --strict
+
+      - name: Validate canonical URLs, sitemap, robots, and redirects
+        run: python scripts/validate_site_urls.py
