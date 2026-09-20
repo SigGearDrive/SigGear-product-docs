@@ -1,3 +1,8 @@
+---
+title: AGV and AMR Wheel Drive Motors and Gearboxes | Selection Guide | SigGear
+description: Select AGV and AMR wheel drive motors and gearboxes by vehicle mass, payload, wheel diameter, speed, slope, braking, duty cycle and controller requirements.
+---
+
 # AGV and AMR Wheel Drive Gearboxes and Motors
 
 ## Application Overview
