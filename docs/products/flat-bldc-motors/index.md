@@ -1,3 +1,8 @@
+---
+title: Flat BLDC Motors and Integrated Joint Drives | SigGear
+description: Explore SigGear flat BLDC motor and integrated joint-drive families for robotics, exoskeletons and compact automation, with planetary or cycloidal transmission architectures.
+---
+
 # Flat BLDC Motors and Joint Drives
 
 ## Product Overview
@@ -57,6 +62,14 @@ Please provide:
 - Driver and encoder requirements
 - Communication interface
 - Prototype quantity and estimated annual volume
+
+## Related Robot Joint Resources
+
+[Robot Joint Actuators](../robot-joint-actuators/index.md){ .md-button .md-button--primary }
+[Robot Joint Actuator and Gearbox Selection Guide](../../selection-guides/robot-joint-actuator-selection-guide.md){ .md-button }
+[Humanoid Robot Joint Applications](../../applications/humanoid-robot-joint-actuators.md){ .md-button }
+[Exoskeleton Joint Applications](../../applications/exoskeleton-joint-actuators.md){ .md-button }
+[Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
 
 ## Engineering Documents
 
