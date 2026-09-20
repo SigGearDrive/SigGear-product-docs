@@ -1,3 +1,8 @@
+---
+title: Quadruped Robot Joint Gearboxes and Actuators | Selection Guide | SigGear
+description: Select quadruped robot joint gearboxes and actuators by gait cycle, continuous and peak torque, speed, impact loads, size, thermal limits and control requirements.
+---
+
 # Quadruped Robot Joint Gearboxes and Actuators
 
 ## Application Overview
