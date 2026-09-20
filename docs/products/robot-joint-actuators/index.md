@@ -48,6 +48,13 @@ Most joint actuator models can be supplied:
 
 Driver, encoder, communication and control descriptions apply only to the selected configuration confirmed in the quotation.
 
+## Main Robot Applications
+
+[Humanoid Robot Joints](../../applications/humanoid-robot-joint-actuators.md){ .md-button .md-button--primary }
+[Robotic Arm Joints](../../applications/robotic-arm-joint-actuators.md){ .md-button }
+[Quadruped Robot Joints](../../applications/quadruped-robot-joint-gearboxes.md){ .md-button }
+[Exoskeleton and Wearable Robot Joints](../../applications/exoskeleton-joint-actuators.md){ .md-button }
+
 ## Selection Support
 
 For model selection, provide the required rated torque, peak torque, speed, voltage, size limit, weight target, duty cycle, communication interface and estimated quantity.
