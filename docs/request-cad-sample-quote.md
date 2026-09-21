@@ -64,4 +64,4 @@ For medical devices, laboratory automation, grippers and compact mechanisms.
 
 ## Contact SigGear
 
-Email: wangwanrong@siggear.com
+Email: [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
