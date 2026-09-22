@@ -38,7 +38,7 @@
     if (href.indexOf("mailto:") === 0) {
       sendEvent("email_click", {
         page_path: pagePath(),
-        link_text: label
+        contact_method: "email"
       });
       return;
     }
