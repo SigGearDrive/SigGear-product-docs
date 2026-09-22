@@ -1,7 +1,13 @@
 (function () {
   function sendEvent(name, params) {
-    if (typeof window.gtag !== "function") return;
-    window.gtag("event", name, params || {});
+    // MkDocs Material keeps its gtag helper private, but creates dataLayer
+    // only after analytics consent has been granted. Reuse that same queue
+    // without creating it ourselves, so no event is queued before consent.
+    if (!Array.isArray(window.dataLayer)) return;
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag("event", name, params || {});
   }
 
   function pagePath() {
