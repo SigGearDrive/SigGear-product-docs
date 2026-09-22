@@ -1,4 +1,5 @@
 (function () {
+  var MEASUREMENT_ID = "G-Q14K9BLGK4";
   var DEBUG_KEY = "siggear_ga4_debug";
 
   function debugEnabled() {
@@ -15,19 +16,39 @@
     }
   }
 
-  function sendEvent(name, params) {
-    // MkDocs Material keeps its gtag helper private, but creates dataLayer
-    // only after analytics consent has been granted. Reuse that same queue
-    // without creating it ourselves, so no event is queued before consent.
-    if (!Array.isArray(window.dataLayer)) return;
-    function gtag() {
-      window.dataLayer.push(arguments);
+  function analyticsReady() {
+    return Array.isArray(window.dataLayer);
+  }
+
+  function ensureGtag() {
+    if (!analyticsReady()) return false;
+    if (typeof window.gtag !== "function") {
+      window.gtag = function () {
+        window.dataLayer.push(arguments);
+      };
     }
-    var eventParams = params || {};
+    return true;
+  }
+
+  function configureDebugMode() {
+    if (!debugEnabled() || !ensureGtag()) return false;
+    window.gtag("config", MEASUREMENT_ID, {
+      debug_mode: true,
+      send_page_view: false
+    });
+    return true;
+  }
+
+  function sendEvent(name, params) {
+    if (!ensureGtag()) return false;
+    var eventParams = Object.assign({}, params || {}, {
+      send_to: MEASUREMENT_ID
+    });
     if (debugEnabled()) {
       eventParams.debug_mode = true;
     }
-    gtag("event", name, eventParams);
+    window.gtag("event", name, eventParams);
+    return true;
   }
 
   function pagePath() {
@@ -38,13 +59,51 @@
     }
   }
 
-  var path = pagePath();
-
-  if (debugEnabled()) {
-    sendEvent("siggear_debug_ping", {
-      page_path: path
-    });
+  function debugStatus(message) {
+    if (!debugEnabled()) return;
+    var box = document.getElementById("siggear-ga4-debug-status");
+    if (!box) {
+      box = document.createElement("div");
+      box.id = "siggear-ga4-debug-status";
+      box.style.cssText =
+        "position:fixed;left:12px;bottom:12px;z-index:99999;background:#fff;" +
+        "border:1px solid #777;padding:8px 10px;font:12px/1.35 monospace;" +
+        "max-width:360px;color:#111;box-shadow:0 2px 8px rgba(0,0,0,.2)";
+      document.body.appendChild(box);
+    }
+    box.textContent = message;
   }
+
+  function startDebugDiagnostics() {
+    if (!debugEnabled()) return;
+
+    var attempts = 0;
+    var timer = window.setInterval(function () {
+      attempts += 1;
+      var ready = analyticsReady();
+      debugStatus(
+        "SigGear GA4 debug | dataLayer=" + (ready ? "ready" : "waiting") +
+        " | attempt=" + attempts
+      );
+
+      if (ready) {
+        window.clearInterval(timer);
+        configureDebugMode();
+        var sent = sendEvent("siggear_debug_ping", {
+          page_path: pagePath()
+        });
+        debugStatus(
+          "SigGear GA4 debug | dataLayer=ready | debug=configured | ping=" +
+          (sent ? "queued" : "failed")
+        );
+      } else if (attempts >= 10) {
+        window.clearInterval(timer);
+        debugStatus("SigGear GA4 debug | dataLayer not available after 5s");
+      }
+    }, 500);
+  }
+
+  var path = pagePath();
 
   if (path.endsWith("/request-cad-sample-quote/")) {
     sendEvent("inquiry_page_view", { page_path: path });
@@ -85,4 +144,10 @@
       });
     }
   }, true);
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", startDebugDiagnostics);
+  } else {
+    startDebugDiagnostics();
+  }
 })();
