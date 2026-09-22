@@ -1,4 +1,20 @@
 (function () {
+  var DEBUG_KEY = "siggear_ga4_debug";
+
+  function debugEnabled() {
+    try {
+      var query = new URLSearchParams(window.location.search);
+      if (query.get("debug_mode") === "1") {
+        window.sessionStorage.setItem(DEBUG_KEY, "1");
+      } else if (query.get("debug_mode") === "0") {
+        window.sessionStorage.removeItem(DEBUG_KEY);
+      }
+      return window.sessionStorage.getItem(DEBUG_KEY) === "1";
+    } catch (e) {
+      return false;
+    }
+  }
+
   function sendEvent(name, params) {
     // MkDocs Material keeps its gtag helper private, but creates dataLayer
     // only after analytics consent has been granted. Reuse that same queue
@@ -7,7 +23,11 @@
     function gtag() {
       window.dataLayer.push(arguments);
     }
-    gtag("event", name, params || {});
+    var eventParams = params || {};
+    if (debugEnabled()) {
+      eventParams.debug_mode = true;
+    }
+    gtag("event", name, eventParams);
   }
 
   function pagePath() {
@@ -19,6 +39,12 @@
   }
 
   var path = pagePath();
+
+  if (debugEnabled()) {
+    sendEvent("siggear_debug_ping", {
+      page_path: path
+    });
+  }
 
   if (path.endsWith("/request-cad-sample-quote/")) {
     sendEvent("inquiry_page_view", { page_path: path });
