@@ -71,7 +71,7 @@ plugins:
         'factory-capability-quality-oem-odm.md': 'company/about-siggear.md'
 
 extra_javascript:
-  - assets/javascripts/analytics-events.js
+  - assets/javascripts/analytics-events-20260922-v2.js
 
 markdown_extensions:
   - admonition
