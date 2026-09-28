@@ -100,6 +100,7 @@ Depending on the selected model, SigGear can evaluate motor matching, custom rat
 A custom project can start from an existing motor, a mechanism drawing, an installation envelope or a target output motion. The customer does not need to define the planetary stage count or exact reduction ratio before the first engineering review.
 
 [Custom Planetary Gearbox Engineering](../../custom-engineering/custom-planetary-gearbox.md){ .md-button .md-button--primary }
+[Motor + Gearbox Integration](../../custom-engineering/motor-gearbox-integration.md){ .md-button }
 [Explore Custom Transmission Engineering](../../custom-engineering/index.md){ .md-button }
 
 Final torque, speed, ratio, backlash and dimensional data are confirmed from the approved specification for the selected diameter and stage configuration.
