@@ -97,6 +97,10 @@ The 42P page includes the currently published one- to four-stage ratio table, ge
 
 Depending on the selected model, SigGear can evaluate motor matching, custom ratios, shafts, mounting structures, encoders, brakes, cables and connectors.
 
+A custom project can start from an existing motor, a mechanism drawing, an installation envelope or a target output motion. The customer does not need to define the planetary stage count or exact reduction ratio before the first engineering review.
+
+[Explore Custom Transmission Engineering](../../custom-engineering/index.md){ .md-button .md-button--primary }
+
 Final torque, speed, ratio, backlash and dimensional data are confirmed from the approved specification for the selected diameter and stage configuration.
 
 ## Request Planetary Gearbox Selection Support
