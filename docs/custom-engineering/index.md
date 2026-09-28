@@ -52,6 +52,7 @@ For robotics, automation, precision mechanisms and other compact motion systems,
 
 The starting point can be a SigGear gearbox platform, a customer motor or an installation drawing.
 
+[Custom Planetary Gearbox Engineering](custom-planetary-gearbox.md){ .md-button .md-button--primary }
 [Browse Planetary Gearboxes](../products/planetary-gearboxes/index.md){ .md-button }
 
 ### Cycloidal Transmission Engineering
