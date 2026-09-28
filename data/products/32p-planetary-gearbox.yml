@@ -20,6 +20,14 @@ published_specifications:
   adapted_motor_voltage: "3–36 VDC"
   adapted_motor_power: "below 100 W"
   manufacturing_process: "Machining"
+  housing_material: "Steel"
+  gear_material: "Steel"
+  output_bearing: "Ball bearings"
+  radial_load_10mm_from_flange: "<= 8.0 kgf"
+  shaft_axial_load: "<= 3.5 kgf"
+  radial_play_of_shaft: "<= 0.04 mm"
+  thrust_play_of_shaft: "<= 0.3 mm"
+  operating_temperature_range: "-40 to 120 C"
 sales_usage:
   permitted:
     - preliminary_selection
@@ -37,10 +45,10 @@ sales_usage:
     - present_motor_voltage_as_gearbox_electrical_rating
 technical_review:
   public_inventory_status: complete
-  controlled_source_reference: not_recorded_in_public_repository
-  technical_approval_status: not_recorded_in_public_repository
-  next_internal_action: reconcile_configuration_with_controlled_source
+  controlled_source_reference: sg01pd32_outline_and_32p_4stage_source_step_reviewed_for_v1_0
+  technical_approval_status: approved_for_public_v1_0
+  next_internal_action: add_controlled_1_2_3_stage_cad_when_available
 source_control:
   public_claim_source: canonical_page
-  technical_source_status: not_recorded_in_public_repository
-inventory_checked_on: "2026-07-24"
+  technical_source_status: reviewed_against_controlled_outline_source_step_and_current_catalogue
+inventory_checked_on: "2026-09-28"
