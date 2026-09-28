@@ -165,6 +165,7 @@ A successful sample test should lead to a concrete engineering decision, for exa
 - prepare for Design-In
 
 [Open the Design-In Checklist](design-in-checklist.md){ .md-button .md-button--primary }
+[Prototype → Design-In → Production](../custom-engineering/prototype-to-production.md){ .md-button }
 [Request Configuration-Specific Support](../request-cad-sample-quote.md){ .md-button }
 
 **Wanrong Wang**  
