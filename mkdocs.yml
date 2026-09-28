@@ -174,6 +174,10 @@ nav:
   - Selection Guides:
       - Selection Guides Overview: selection-guides/index.md
       - Robot Joint Actuator Selection Guide: selection-guides/robot-joint-actuator-selection-guide.md
+  - Engineering Center:
+      - Overview: engineering-center/index.md
+      - Sample Validation Workflow: engineering-center/sample-validation-workflow.md
+      - Design-In Checklist: engineering-center/design-in-checklist.md
   - Engineering Resources:
       - SG-6010C:
           - Technical Datasheet: engineering-resources/sg6010c/datasheet.md

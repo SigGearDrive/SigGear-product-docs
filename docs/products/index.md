@@ -50,4 +50,8 @@ Compact geared wheel-drive products for mobile robotics and automation.
 
 ## Documentation Policy
 
-Every model or series has one canonical product page. Unverified values are not published as confirmed specifications. CAD files, detailed drawings, noise-test information and service-life data are supplied after inquiry and application review.
+Every model or series has one canonical product page. Unverified values are not published as confirmed specifications.
+
+Selected products now have public Engineering Packs containing reviewed resources such as simplified STEP models, mechanical-interface references, datasheets and measured data where an approved source exists. Controlled production drawings, configuration-specific wiring / protocol documents, and noise, thermal or service-life information remain request-only when they depend on the exact selected configuration.
+
+[Open the Engineering Center](../engineering-center/index.md){ .md-button .md-button--primary }

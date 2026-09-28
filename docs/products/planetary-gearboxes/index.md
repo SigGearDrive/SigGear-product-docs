@@ -108,6 +108,10 @@ For model selection, provide the preferred gearbox diameter, ratio or output spe
 
 ## Engineering Documents
 
-CAD models, detailed drawings and complete ratio tables are available after application review and inquiry.
+Public model pages contain the reviewed specification data currently released for each frame size. The **32P** also has a public Engineering Pack with a datasheet, mechanical-interface reference, motor-integration guide and a simplified 4-stage STEP model.
+
+[Open the 32P Engineering Resources](../../engineering-center/index.md){ .md-button .md-button--primary }
+
+Controlled configuration-specific drawings and CAD for other stage / ratio / motor-interface combinations are supplied after the selected configuration is confirmed.
 
 [Contact Wanrong Wang](../../contact.md)

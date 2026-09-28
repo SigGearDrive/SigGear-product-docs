@@ -217,6 +217,6 @@ Please provide:
 - Driver, encoder and communication requirements
 - Prototype quantity and estimated annual volume
 
-CAD files, detailed drawings and interface documents are provided after application review.
+For selected products, public Engineering Packs provide released CAD / STEP and interface information for early evaluation. Controlled configuration-specific drawings and integration documents are supplied after the exact product configuration is confirmed.
 
-[Contact Wanrong Wang](../contact.md)
+[Open the Engineering Center](../engineering-center/index.md) · [Contact Wanrong Wang](../contact.md)

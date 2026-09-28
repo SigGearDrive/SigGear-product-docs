@@ -2,13 +2,25 @@
 
 SigGear develops and manufactures integrated robot joint actuators, cycloidal joint modules, planetary gearboxes, micro gear motors and hub gear motors for robotics and precision automation.
 
-[Browse Products](products/index.md){ .md-button .md-button--primary }
+[Engineering Center](engineering-center/index.md){ .md-button .md-button--primary }
+[Browse Products](products/index.md){ .md-button }
 [Explore Applications](applications/index.md){ .md-button }
 [Selection Guides](selection-guides/index.md){ .md-button }
 [Request CAD, Sample and Quote](request-cad-sample-quote.md){ .md-button .md-button--primary }
-[Inquiry Guides](sales/index.md){ .md-button }
-[Knowledge Base](knowledge-base/index.md){ .md-button }
 [Contact SigGear](contact.md){ .md-button }
+
+## Engineer Fast Track
+
+Use the site according to the engineering decision you need to make.
+
+| Step | Goal | Start here |
+| --- | --- | --- |
+| 1. Find | Identify a relevant actuator, cycloidal module, planetary gearbox or gear motor | [Products](products/index.md) and [Applications](applications/index.md) |
+| 2. Evaluate | Check approved specifications, released STEP models and mechanical interfaces | [Engineering Center](engineering-center/index.md) |
+| 3. Validate | Run a sample through mechanical fit, first setup and application testing | [Sample Validation Workflow](engineering-center/sample-validation-workflow.md) |
+| 4. Design-In | Freeze the exact configuration, controlled interface and operating conditions | [Design-In Checklist](engineering-center/design-in-checklist.md) |
+
+The first public Engineering Packs are available for **SG-6010C**, **CPM-80-25** and **32P**.
 
 ## Product Solutions
 
@@ -120,15 +132,19 @@ Configuration availability depends on the product model, technical requirements,
 
 ## Technical Documentation
 
-Public pages contain approved product information. The following documents are provided after inquiry and application review:
+Public product pages contain approved product information. For selected products, SigGear now also publishes Engineering Packs with simplified STEP models, mechanical-interface references and other reviewed design-in resources.
 
-- STEP models and 2D drawings
-- Detailed mounting and interface documents
-- Complete ratio and configuration tables
-- Driver and communication documentation
-- Noise-test, thermal and service-life information when available for the selected configuration
+Configuration-specific controlled files remain matched to the selected product and may include:
 
-[Request CAD, Sample and Quote](request-cad-sample-quote.md){ .md-button .md-button--primary }
+- controlled production drawings
+- exact cable and connector definitions
+- Quick Start instructions
+- detailed driver / communication documentation
+- firmware-specific integration notes
+- noise, thermal or service-life information where available for the selected configuration
+
+[Open the Engineering Center](engineering-center/index.md){ .md-button .md-button--primary }
+[Request CAD, Sample and Quote](request-cad-sample-quote.md){ .md-button }
 
 ## Knowledge Base
 
