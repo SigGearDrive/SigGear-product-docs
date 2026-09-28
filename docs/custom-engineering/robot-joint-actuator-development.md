@@ -1,6 +1,6 @@
 ---
 title: Custom Robot Joint Actuator Development | SigGear
-description: Custom robot joint actuator development for humanoid, quadruped, robot arm and exoskeleton projects using planetary or cycloidal transmission architectures.
+description: Custom robot joint actuator and actuator gearbox development for humanoid, bipedal, quadruped, robot arm and exoskeleton projects using planetary or cycloidal transmission architectures.
 ---
 
 # Custom Robot Joint and Compact Actuator Development
@@ -11,7 +11,7 @@ A robotics project does not need to fit an existing SigGear actuator exactly.
 
 You may already know the joint torque, speed and installation envelope. You may also have only a robot mechanism, link geometry, motor preference, CAD concept or early prototype.
 
-SigGear can review the joint as a system and evaluate the transmission, motor, sensing, driver and mechanical interfaces together.
+SigGear can review the joint as a system and evaluate the actuator gearbox or reducer, motor, sensing, driver and mechanical interfaces together.
 
 Depending on the project, the engineering path may start from:
 
@@ -23,6 +23,7 @@ Depending on the project, the engineering path may start from:
 - a new compact actuator configuration based on the application requirements
 
 [Send Your Joint Requirement](mailto:wangwanrong@siggear.com?subject=Robot%20Joint%20and%20Compact%20Actuator%20Engineering%20Review){ .md-button .md-button--primary }
+[Humanoid and Bipedal Robot Joint Engineering](../applications/humanoid-robot-joint-actuators.md){ .md-button }
 [Request Engineering Review](../request-cad-sample-quote.md){ .md-button }
 
 ## What the Engineering Review Starts With
