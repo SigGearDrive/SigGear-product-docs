@@ -1,6 +1,6 @@
 ---
-title: Custom Cycloidal Transmission Engineering | Compact Robot Joint and High-Torque Drive Solutions | SigGear
-description: SigGear works with engineers on custom cycloidal transmission and compact joint-drive projects, including motor integration, mechanical interfaces, driver configurations, prototype evaluation and design refinement.
+title: Custom Cycloidal Gearbox & Reducer Engineering | SigGear
+description: Custom cycloidal gearbox and reducer engineering for compact robot joints, motor integration, mechanical interfaces, prototypes and design refinement.
 ---
 
 # Custom Cycloidal Transmission Engineering
