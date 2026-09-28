@@ -133,7 +133,8 @@ For 1-, 2- or 3-stage CAD, or for the controlled production drawing, contact Sig
 
 ## Related Planetary Gearbox Resources
 
-[8–42 mm Planetary Gearbox Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Custom Planetary Gearbox Engineering](../../custom-engineering/custom-planetary-gearbox.md){ .md-button .md-button--primary }
+[8–42 mm Planetary Gearbox Series](8-42mm-planetary-gear-reducer.md){ .md-button }
 [Browse All Planetary Gearboxes](index.md){ .md-button }
 [Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
 
