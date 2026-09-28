@@ -69,6 +69,12 @@ For projects that start from a motor, target output motion or installation envel
 
 [Motor + Gearbox Integration Engineering](../../custom-engineering/motor-gearbox-integration.md){ .md-button .md-button--primary }
 
+## Custom Robot Joint Development
+
+For robotics teams whose torque, speed, size, motor, encoder, driver or mounting requirements do not match an existing joint-drive model, use the custom robot joint development path.
+
+[Custom Robot Joint & Compact Actuator Development](../../custom-engineering/robot-joint-actuator-development.md){ .md-button .md-button--primary }
+
 ## Related Robot Joint Resources
 
 [Robot Joint Actuators](../robot-joint-actuators/index.md){ .md-button }

@@ -17,6 +17,8 @@ If the project involves a compact high-torque joint or a possible cycloidal stru
 
 If the project starts from an existing motor or needs a complete motor + gearbox solution, see [Motor + Gearbox Integration Engineering](custom-engineering/motor-gearbox-integration.md).
 
+If the project is a robot joint, compact actuator or AI-hardware rotary axis with custom torque, speed, size, sensing or control requirements, see [Custom Robot Joint & Compact Actuator Development](custom-engineering/robot-joint-actuator-development.md).
+
 ## Minimum Information to Start
 
 For a first engineering review, four items are usually enough:

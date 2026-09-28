@@ -85,6 +85,7 @@ For humanoid robots, quadruped robots, robotic arms, dexterous-hand mechanisms, 
 
 SigGear's published joint actuators and cycloidal modules are **reference products** that show existing transmission structures and integration approaches. A new project does not need to use exactly the same dimensions or configuration.
 
+[Robot Joint & Compact Actuator Development](robot-joint-actuator-development.md){ .md-button .md-button--primary }
 [Browse Robot Joint Actuators](../products/robot-joint-actuators/index.md){ .md-button }
 [Browse Cycloidal Joint Modules](../products/cycloidal-joint-modules/index.md){ .md-button }
 
