@@ -134,3 +134,10 @@ If any of these remain unclear, keep the project in engineering evaluation rathe
 **Wanrong Wang**  
 International Sales / Sales Engineer, SigGear  
 [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+
+
+## From Design-In to Pilot and Production
+
+A completed Design-In review should lead to a controlled configuration that can be evaluated for pilot preparation. Before production release, confirm the drawing revision, exact configuration, operating conditions, inspection requirements and any project-specific manufacturing or documentation requirements.
+
+[Prototype → Design-In → Production](../custom-engineering/prototype-to-production.md){ .md-button .md-button--primary }
