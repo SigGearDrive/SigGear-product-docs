@@ -33,6 +33,14 @@ The SigGear 32P is a 32 mm micro planetary gearbox for compact motorized mechani
 | Maximum permissible speed, continuous operation | ≤ 8,000 rpm |
 | Adapted DC motor voltage | 3–36 VDC |
 | Adapted DC motor power | below 100 W |
+| Housing material | Steel |
+| Gear material | Steel |
+| Output bearing | Ball bearings |
+| Radial load, 10 mm from flange | <= 8.0 kgf |
+| Shaft axial load | <= 3.5 kgf |
+| Radial play of shaft | <= 0.04 mm |
+| Thrust play of shaft | <= 0.3 mm |
+| Operating temperature range | -40 to 120 C |
 
 Torque values are preserved in the source unit, kgf·cm. Maximum momentary torque is not a continuous working rating.
 
@@ -55,7 +63,24 @@ These are adapted-motor conditions, not an electrical voltage or power rating fo
 
 ## Dimensions and Interface
 
-The published drawing shows a 32 mm body diameter and stage-dependent gearbox lengths of 28.05, 36.35, 44.65 and 52.95 mm. Use the approved drawing for shaft geometry, mounting holes, input-interface details and tolerance notation.
+The published drawing shows a 32 mm body diameter and stage-dependent gearbox lengths of 28.05, 36.35, 44.65 and 52.95 mm.
+
+The current public CAD is a **4-stage reference** corresponding to the 52.95 mm gearbox-body length. It must not be treated as a universal 1-4 stage CAD model.
+
+Publicly released interface information includes:
+
+- Output side: 4 x M3 threaded holes, depth 4.5 mm
+- Output mounting-hole center radius: 9.8 mm
+- Output-side reference diameter: 26.0 +/- 0.1 mm
+- Nominal output shaft diameter: 8 mm
+- Output shaft extension: 21.6 mm (+0.1 / -0.3 mm)
+- Keyway width shown on the controlled drawing: 3.0 mm
+- Keyway length shown on the controlled drawing: 12.0 mm
+- Input side: 2 x dia. 3.1 mm mounting holes
+- Opposed input mounting-hole center spacing: 22.0 +/- 0.1 mm
+- Central input opening: dia. 13.0 +0.05 / 0 mm
+
+Use the controlled drawing for final tolerances, keyseat definition and production release.
 
 ## Typical Applications
 
@@ -87,6 +112,19 @@ Please provide:
 - Prototype and annual quantity
 
 Do not transfer the 32P specifications to another frame size or an unlisted stage configuration. Final selection and quotation require confirmation against the approved configuration drawing.
+
+## Engineering Resources
+
+The following **32P v1.0 public engineering resources** are approved for engineering evaluation and early mechanical design-in:
+
+[View Technical Datasheet v1.0](../../engineering-resources/32p/datasheet.md){ .md-button .md-button--primary }
+[Download Simplified STEP - 4-Stage Reference](../../assets/downloads/32p/32P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button }
+[View Mechanical Interface v1.0](../../engineering-resources/32p/mechanical-interface.md){ .md-button }
+[View Motor Integration Guide](../../engineering-resources/32p/motor-integration.md){ .md-button }
+
+The public STEP is a simplified external-interface model. It retains the information normally required for packaging, mounting and early design-in while omitting the internal planetary gear train, bearings, carrier details and proprietary assembly construction.
+
+For 1-, 2- or 3-stage CAD, or for the controlled production drawing, contact SigGear with the selected ratio and motor interface.
 
 ## Related Planetary Gearbox Resources
 
