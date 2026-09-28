@@ -44,6 +44,12 @@ Depending on the selected gearbox and project requirements, SigGear can evaluate
 
 Motor compatibility is confirmed according to input speed, power, shaft interface, duty cycle, thermal conditions and required output performance.
 
+## Start Even If the Ratio Is Not Defined
+
+A project can start from the mechanism rather than a complete gearbox specification. If the reduction ratio is unknown, provide the motor speed and desired output speed if available. If the output torque is unknown, send the load, mechanism geometry or a sketch so the engineering team can identify what must be calculated or tested.
+
+[Discuss a Custom Transmission](../../custom-engineering/index.md){ .md-button .md-button--primary }
+
 ## Selection Information Required
 
 Please provide:
@@ -70,7 +76,9 @@ Please provide:
 
 ## Engineering Documents
 
-Detailed ratio tables, drawings, CAD files, noise information and service-life information are supplied after model selection and application review.
+Public model pages contain the reviewed data currently released for each gearbox platform. The 32P already has a public Engineering Pack with a datasheet, mechanical-interface reference, motor-integration guide and simplified STEP model.
+
+Configuration-specific drawings, CAD, noise information and service-life information are supplied according to the selected model and application review.
 
 ## Contact SigGear
 
