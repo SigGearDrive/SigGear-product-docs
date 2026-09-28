@@ -63,9 +63,15 @@ Please provide:
 - Communication interface
 - Prototype quantity and estimated annual volume
 
+## Motor and Transmission Integration
+
+For projects that start from a motor, target output motion or installation envelope rather than a fixed joint-drive model, use the motor + gearbox integration path.
+
+[Motor + Gearbox Integration Engineering](../../custom-engineering/motor-gearbox-integration.md){ .md-button .md-button--primary }
+
 ## Related Robot Joint Resources
 
-[Robot Joint Actuators](../robot-joint-actuators/index.md){ .md-button .md-button--primary }
+[Robot Joint Actuators](../robot-joint-actuators/index.md){ .md-button }
 [Robot Joint Actuator and Gearbox Selection Guide](../../selection-guides/robot-joint-actuator-selection-guide.md){ .md-button }
 [Humanoid Robot Joint Applications](../../applications/humanoid-robot-joint-actuators.md){ .md-button }
 [Exoskeleton Joint Applications](../../applications/exoskeleton-joint-actuators.md){ .md-button }
