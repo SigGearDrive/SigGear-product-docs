@@ -2,12 +2,22 @@
 
 SigGear develops and manufactures integrated robot joint actuators, cycloidal joint modules, planetary gearboxes, micro gear motors and hub gear motors for robotics and precision automation.
 
-[Engineering Center](engineering-center/index.md){ .md-button .md-button--primary }
+[Custom Engineering](custom-engineering/index.md){ .md-button .md-button--primary }
+[Engineering Center](engineering-center/index.md){ .md-button }
 [Browse Products](products/index.md){ .md-button }
 [Explore Applications](applications/index.md){ .md-button }
 [Selection Guides](selection-guides/index.md){ .md-button }
 [Request CAD, Sample and Quote](request-cad-sample-quote.md){ .md-button .md-button--primary }
 [Contact SigGear](contact.md){ .md-button }
+
+## Have a Compact Transmission Problem?
+
+SigGear works with engineers on custom micro planetary, planetary, cycloidal and motor + gearbox transmission solutions. You do not need to have every parameter defined before the first discussion.
+
+Start with the application, motor, drawing, available space or motion target you already have. SigGear can review the transmission approach, identify missing inputs and evaluate a path toward prototype and production.
+
+[Explore Custom Transmission Engineering](custom-engineering/index.md){ .md-button .md-button--primary }
+[Send Your Drawing or Requirements](request-cad-sample-quote.md){ .md-button }
 
 ## Engineer Fast Track
 
@@ -15,7 +25,7 @@ Use the site according to the engineering decision you need to make.
 
 | Step | Goal | Start here |
 | --- | --- | --- |
-| 1. Find | Identify a relevant actuator, cycloidal module, planetary gearbox or gear motor | [Products](products/index.md) and [Applications](applications/index.md) |
+| 1. Find | Identify a relevant product, application path or custom transmission approach | [Custom Engineering](custom-engineering/index.md), [Products](products/index.md) and [Applications](applications/index.md) |
 | 2. Evaluate | Check approved specifications, released STEP models and mechanical interfaces | [Engineering Center](engineering-center/index.md) |
 | 3. Validate | Run a sample through mechanical fit, first setup and application testing | [Sample Validation Workflow](engineering-center/sample-validation-workflow.md) |
 | 4. Design-In | Freeze the exact configuration, controlled interface and operating conditions | [Design-In Checklist](engineering-center/design-in-checklist.md) |
