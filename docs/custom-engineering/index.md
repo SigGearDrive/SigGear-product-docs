@@ -1,6 +1,6 @@
 ---
-title: Custom Precision Transmission Engineering | Planetary, Cycloidal and Gear Motor Solutions | SigGear
-description: SigGear works with engineers on custom compact transmission solutions, including micro planetary gearboxes, planetary reducers, cycloidal drives, motor + gearbox integration and robot joint actuators, from feasibility review and prototyping to design refinement and production preparation.
+title: Custom Gearbox & Precision Transmission Engineering | SigGear
+description: SigGear develops and manufactures custom compact transmission solutions, including planetary gearboxes, cycloidal reducers, gear motors and robot joint actuators.
 ---
 
 # Custom Precision Transmission Engineering
