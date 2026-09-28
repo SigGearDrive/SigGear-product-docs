@@ -1,6 +1,6 @@
 ---
-title: Robot Joint Actuators and Gearboxes | Planetary Joint Modules | SigGear
-description: Explore SigGear robot joint actuators and planetary joint gearboxes for humanoid robots, robotic arms, quadrupeds and exoskeletons, with configurable motor, encoder and driver integration.
+title: Robot Joint Actuators | Planetary & Cycloidal Solutions | SigGear
+description: Explore SigGear robot joint actuators and joint-drive reference platforms for humanoid robots, robotic arms, quadrupeds and exoskeletons.
 ---
 
 # Robot Joint Actuators
