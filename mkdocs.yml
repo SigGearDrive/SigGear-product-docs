@@ -112,6 +112,7 @@ nav:
       - Custom Cycloidal Transmission: custom-engineering/custom-cycloidal-transmission.md
       - Motor + Gearbox Integration: custom-engineering/motor-gearbox-integration.md
       - Robot Joint & Compact Actuator: custom-engineering/robot-joint-actuator-development.md
+      - Prototype to Design-In and Production: custom-engineering/prototype-to-production.md
   - Products:
       - Product Overview: products/index.md
       - Robot Joint Actuators:
