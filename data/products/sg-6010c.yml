@@ -38,12 +38,16 @@ sales_usage:
     - treat_peak_torque_as_continuous
     - present_optional_electronics_as_standard
     - promise_unconfirmed_interface_or_control_function
+public_release:
+  version: "v1.0"
+  status: approved_for_public
+  approved_on: "2026-09-28"
 technical_review:
   public_inventory_status: complete
-  controlled_source_reference: internal_controlled_sources_reviewed_for_v1_0
-  technical_approval_status: approved_for_public_v1_0
+  controlled_source_reference: not_recorded_in_public_repository
+  technical_approval_status: not_recorded_in_public_repository
   next_internal_action: monitor_driver_pro_and_firmware_updates
 source_control:
   public_claim_source: canonical_page
-  technical_source_status: reviewed_against_internal_controlled_sources
+  technical_source_status: not_recorded_in_public_repository
 inventory_checked_on: "2026-09-28"

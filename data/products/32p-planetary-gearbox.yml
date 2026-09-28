@@ -43,12 +43,16 @@ sales_usage:
     - transfer_32p_specifications_to_another_frame_size
     - treat_maximum_momentary_torque_as_continuous
     - present_motor_voltage_as_gearbox_electrical_rating
+public_release:
+  version: "v1.0"
+  status: approved_for_public
+  approved_on: "2026-09-28"
 technical_review:
   public_inventory_status: complete
-  controlled_source_reference: sg01pd32_outline_and_32p_4stage_source_step_reviewed_for_v1_0
-  technical_approval_status: approved_for_public_v1_0
+  controlled_source_reference: not_recorded_in_public_repository
+  technical_approval_status: not_recorded_in_public_repository
   next_internal_action: add_controlled_1_2_3_stage_cad_when_available
 source_control:
   public_claim_source: canonical_page
-  technical_source_status: reviewed_against_controlled_outline_source_step_and_current_catalogue
+  technical_source_status: not_recorded_in_public_repository
 inventory_checked_on: "2026-09-28"
