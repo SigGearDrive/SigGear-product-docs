@@ -110,6 +110,7 @@ nav:
       - Overview: custom-engineering/index.md
       - Custom Planetary Gearbox: custom-engineering/custom-planetary-gearbox.md
       - Custom Cycloidal Transmission: custom-engineering/custom-cycloidal-transmission.md
+      - Motor + Gearbox Integration: custom-engineering/motor-gearbox-integration.md
   - Products:
       - Product Overview: products/index.md
       - Robot Joint Actuators:

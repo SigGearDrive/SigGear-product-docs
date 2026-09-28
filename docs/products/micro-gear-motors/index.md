@@ -48,7 +48,8 @@ Motor compatibility is confirmed according to input speed, power, shaft interfac
 
 A project can start from the mechanism rather than a complete gearbox specification. If the reduction ratio is unknown, provide the motor speed and desired output speed if available. If the output torque is unknown, send the load, mechanism geometry or a sketch so the engineering team can identify what must be calculated or tested.
 
-[Discuss a Custom Transmission](../../custom-engineering/index.md){ .md-button .md-button--primary }
+[Motor + Gearbox Integration Engineering](../../custom-engineering/motor-gearbox-integration.md){ .md-button .md-button--primary }
+[Discuss a Custom Transmission](../../custom-engineering/index.md){ .md-button }
 
 ## Selection Information Required
 

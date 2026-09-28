@@ -77,6 +77,8 @@ Depending on the engineering requirement, the discussion can start from:
 
 For an existing motor, useful starting information includes the motor drawing, shaft dimensions, motor speed, available mounting space and the required output motion.
 
+[Motor + Gearbox Integration Engineering](motor-gearbox-integration.md){ .md-button .md-button--primary }
+
 ### Robot Joint and Compact Actuator Development
 
 For humanoid robots, quadruped robots, robotic arms, dexterous-hand mechanisms, exoskeletons and other compact robotic axes, the transmission may need to be evaluated together with the motor, encoder, driver, housing and mechanical interface.
