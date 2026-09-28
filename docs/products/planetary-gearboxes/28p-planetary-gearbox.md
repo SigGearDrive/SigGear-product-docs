@@ -65,6 +65,10 @@ The published drawing shows a 28 mm body diameter, a 20 mm output shaft referenc
 
 Application suitability depends on the selected ratio, motor, load direction, duty cycle, installation and required service life.
 
+## Supply Configuration
+
+SigGear can supply the planetary gearbox only, the motor only, or a matched motor + gearbox assembly according to the application requirements.
+
 ## Selection Information Required
 
 Please provide:

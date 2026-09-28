@@ -73,6 +73,10 @@ Project-specific options may include:
 
 Customization availability depends on the selected diameter, order quantity and engineering review.
 
+## Supply Configuration
+
+SigGear can supply the planetary gearbox only, the motor only, or a matched motor + gearbox assembly according to the application requirements.
+
 ## Selection Information Required
 
 Please provide:
