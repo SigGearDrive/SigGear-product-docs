@@ -7,6 +7,10 @@ description: Explore SigGear robot joint actuators, cycloidal joint modules, 8â€
 
 This section is the authoritative public source for SigGear product specifications.
 
+These products are also reference platforms for engineering evaluation. A custom project does not need to match an existing catalog model exactly. If the required ratio, motor interface, shaft, mounting, size or integration differs, start with the Custom Engineering path.
+
+[Explore Custom Precision Transmission Engineering](../custom-engineering/index.md){ .md-button .md-button--primary }
+
 ## Robot Joint Actuators
 
 Integrated planetary robot joint actuators for humanoid robots, quadruped robots, robotic arms, exoskeletons and automation systems.
