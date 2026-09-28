@@ -39,6 +39,10 @@ For robot joint projects, the required level of integration can vary. Depending 
 
 Custom robot actuator requests may include mechanical interface, output shaft, housing, cable arrangement, reduction ratio and integration review. Feasibility and final specifications require engineering confirmation against the selected model, application loads, installation envelope and project quantity.
 
+The published joint actuators are reference platforms rather than the only available project path. If a robot team has different torque, speed, size, motor, encoder, driver or mounting requirements, start with a custom engineering review.
+
+[Discuss a Custom Robot Joint or Transmission](../../custom-engineering/index.md){ .md-button .md-button--primary }
+
 ## Available Configurations
 
 Most joint actuator models can be supplied:
