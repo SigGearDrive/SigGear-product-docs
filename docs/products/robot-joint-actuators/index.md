@@ -41,7 +41,8 @@ Custom robot actuator requests may include mechanical interface, output shaft, h
 
 The published joint actuators are reference platforms rather than the only available project path. If a robot team has different torque, speed, size, motor, encoder, driver or mounting requirements, start with a custom engineering review.
 
-[Discuss a Custom Robot Joint or Transmission](../../custom-engineering/index.md){ .md-button .md-button--primary }
+[Custom Robot Joint & Compact Actuator Development](../../custom-engineering/robot-joint-actuator-development.md){ .md-button .md-button--primary }
+[Discuss a Custom Transmission](../../custom-engineering/index.md){ .md-button }
 
 ## Available Configurations
 
