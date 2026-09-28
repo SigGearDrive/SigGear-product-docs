@@ -1,6 +1,6 @@
 ---
-title: Prototype to Design-In and Production | Custom Transmission Development Process | SigGear
-description: How SigGear works with engineering teams from an early transmission concept or drawing through feasibility review, prototype manufacturing, testing, design refinement, design freeze, pilot preparation and production release.
+title: Prototype to Production for Custom Gearboxes | SigGear
+description: A practical path from custom gearbox feasibility and prototype testing through design refinement, Design-In, pilot preparation and production release.
 ---
 
 # Prototype to Design-In and Production
