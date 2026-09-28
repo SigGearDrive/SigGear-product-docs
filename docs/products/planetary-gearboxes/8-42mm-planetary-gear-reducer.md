@@ -96,13 +96,16 @@ Please provide:
 
 ## Drawings and Technical Files
 
-2D drawings, STEP models, detailed ratio tables and application-specific technical files are supplied after model selection and inquiry review.
+Public model pages contain the currently released ratio, performance and dimensional information for each frame size. The 32P also has a public Engineering Pack with a datasheet, mechanical-interface reference, motor-integration guide and simplified 4-stage STEP model.
+
+Controlled configuration-specific drawings, CAD for other stage arrangements and other application-specific files are supplied after the selected model and interface are confirmed.
 
 Published specifications must not be transferred from one diameter or stage configuration to another without confirmation.
 
 ## Related Resources
 
-[Browse All Planetary Gearboxes](index.md){ .md-button .md-button--primary }
+[Custom Planetary Gearbox Engineering](../../custom-engineering/custom-planetary-gearbox.md){ .md-button .md-button--primary }
+[Browse All Planetary Gearboxes](index.md){ .md-button }
 [Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
 [Micro Robotics Gear Motors and Compact Actuators](../../applications/micro-robotics-gear-motors.md){ .md-button }
 [Medical and Laboratory Micro Gear Motors](../../applications/medical-device-micro-gear-motors.md){ .md-button }
