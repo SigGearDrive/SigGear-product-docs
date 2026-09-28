@@ -1,6 +1,6 @@
 ---
 title: Robot Joint Actuator and Gearbox Selection Guide | Torque and Sizing
-description: Select a robot joint actuator or gearbox by continuous and peak torque, speed, duty cycle, size, planetary or cycloidal transmission, encoder, driver and thermal limits.
+description: Compare robot joint actuator, gearbox and reducer specifications including torque, speed, duty cycle, size, transmission type, encoder, driver, external loads and thermal limits.
 ---
 
 # Robot Joint Actuator and Gearbox Selection Guide
@@ -14,6 +14,31 @@ Use this engineering guide to estimate robot joint torque, separate continuous a
 [Custom Robot Joint Development](../custom-engineering/robot-joint-actuator-development.md){ .md-button .md-button--primary }
 [View Joint Actuator Products](../products/robot-joint-actuators/index.md){ .md-button }
 [Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
+
+## Robot Joint Reducer Specifications to Compare
+
+For an early supplier or architecture comparison, review the same specification categories across every candidate actuator, gearbox or reducer.
+
+| Specification | What to compare |
+| --- | --- |
+| Continuous output torque | Sustainable operating torque under the defined duty cycle and thermal condition |
+| Peak output torque | Peak value together with allowed duration and repetition |
+| Output speed | Rated and maximum speed at the required operating point |
+| Reduction ratio | Ratio available for the selected transmission and motor operating range |
+| Backlash | Published or confirmed backlash for the exact configuration |
+| Outer diameter / thickness | Installed envelope, including interfaces and electronics where applicable |
+| Weight | Complete configured unit rather than reducer-only weight when comparing integrated actuators |
+| Radial / axial / overturning load | Structural loads supported by the output bearing and housing arrangement |
+| Motor and voltage | Motor type, voltage, current limits and operating speed |
+| Encoder / feedback | Feedback type and configuration confirmed for the selected model |
+| Driver / communication | Integrated or external driver and the protocol supported by the quoted configuration |
+| Duty cycle / thermal condition | Continuous motion, holding time, peak events, ambient temperature and cooling |
+| Mechanical interface | Output flange / shaft, locating features, mounting pattern and cable space |
+
+Do not transfer one model's torque, load, driver or encoder specification to another model or to a custom configuration without confirmation.
+
+[View Robot Joint Actuator Products](../products/robot-joint-actuators/index.md){ .md-button }
+[Custom Robot Joint Development](../custom-engineering/robot-joint-actuator-development.md){ .md-button .md-button--primary }
 
 ## Quick Robot Joint Actuator Sizing Workflow
 
