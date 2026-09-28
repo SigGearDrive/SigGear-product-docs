@@ -154,6 +154,8 @@ The exact path depends on the project. An existing platform may only require int
 
 SigGear does not treat a preliminary concept as a guaranteed final solution. The design is refined through engineering review, prototype manufacturing and testing where required.
 
+[Prototype → Design-In → Production](prototype-to-production.md){ .md-button .md-button--primary }
+
 ## Reference Products Are Engineering Evidence, Not the Limit of the Capability
 
 Because many custom development projects are confidential, customer products and project details cannot always be shown publicly.
