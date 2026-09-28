@@ -1,23 +1,32 @@
 ---
-title: Humanoid Robot Joint Actuators and Gearboxes | Selection Guide | SigGear
-description: Select humanoid robot joint actuators and gearboxes by continuous and peak torque, speed, duty cycle, size, weight, backlash, encoder, driver and transmission type.
+title: Humanoid Robot Joint Actuators & Gearboxes | Bipedal Robot Engineering | SigGear
+description: Engineering guide for humanoid and bipedal robot joint actuators and actuator gearboxes, covering torque, speed, duty cycle, size, transmission type and custom joint development.
 ---
 
 # Humanoid Robot Joint Actuator Selection Guide
 
 Selecting a humanoid robot joint actuator requires matching torque, speed, gearbox architecture, installation size, weight, duty cycle and control requirements for each axis. Shoulder, elbow, wrist, hip, knee, ankle, neck and waist joints should not be sized from peak torque alone.
 
-[Robot Joint Actuator Selection Guide](../selection-guides/robot-joint-actuator-selection-guide.md){ .md-button .md-button--primary }
+[Custom Robot Joint Development](../custom-engineering/robot-joint-actuator-development.md){ .md-button .md-button--primary }
+[Robot Joint Actuator Selection Guide](../selection-guides/robot-joint-actuator-selection-guide.md){ .md-button }
 [View Joint Actuator Products](../products/robot-joint-actuators/index.md){ .md-button }
 [Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
 
 ## Application Overview
 
-Humanoid robots require compact joint actuators for the shoulder, elbow, wrist, hip, knee, ankle, neck and waist axes. Each joint has a different torque-speed cycle, external-load condition, installation envelope, thermal limit and control requirement. A humanoid robot joint actuator should therefore be selected from the complete operating profile, not from peak torque alone.
+Humanoid and bipedal robots require compact joint actuators for the shoulder, elbow, wrist, hip, knee, ankle, neck and waist axes. Each joint has a different torque-speed cycle, external-load condition, installation envelope, thermal limit and control requirement. A humanoid robot joint actuator should therefore be selected from the complete operating profile, not from peak torque alone.
 
 SigGear supports humanoid robot development with integrated robot joint actuator options, planetary joint actuators, cycloidal joint modules and compact planetary gearbox solutions. Depending on the selected configuration, a joint drive may combine a motor, reducer, encoder and driver, or it may be supplied as a reducer or gearbox for customer-side motor integration.
 
 This page is intended for early-stage model selection, supplier comparison and engineering communication. Final actuator selection, quotation and technical agreement still require review against the controlled drawing, selected ratio, duty cycle, mounting interface and ordered configuration.
+
+## When a Standard Robot Actuator Gearbox Does Not Fit
+
+A humanoid or bipedal robot project may need a different torque-speed balance, motor, reduction ratio, diameter, axial thickness, output interface, encoder, driver or communication arrangement than an existing catalog actuator.
+
+In that case, the starting point should be the joint requirement rather than a forced model selection. Send the joint position, mechanism, available space, target motion and the motor or controller information already defined.
+
+[Custom Robot Joint & Compact Actuator Development](../custom-engineering/robot-joint-actuator-development.md){ .md-button .md-button--primary }
 
 ## How to Select a Humanoid Robot Joint Actuator
 
