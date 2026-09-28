@@ -11,7 +11,8 @@ configuration_summary: Available with or without an integrated driver; control f
 published_specifications:
   transmission_structure: "Cycloidal pinwheel"
   outer_diameter: "80 mm"
-  product_thickness: "29.7 mm"
+  product_thickness_no_driver: "29.7 mm"
+  product_thickness_integrated_driver_reference: "41.2 mm"
   reduction_ratio: "25:1"
   backlash: "5-10 arcmin"
   operating_voltage: "24-48 VDC"
@@ -20,7 +21,8 @@ published_specifications:
   no_load_output_speed: "168 rpm"
   rated_output_torque: "10 Nm"
   peak_output_torque: "50 Nm"
-  weight: "430 g"
+  weight_no_driver: "430 g"
+  weight_integrated_driver_reference: "512 g"
   allowable_radial_force: "500 N"
   allowable_axial_force: "500 N"
 sales_usage:
@@ -40,10 +42,10 @@ sales_usage:
     - promise_unconfirmed_interface_or_control_function
 technical_review:
   public_inventory_status: complete
-  controlled_source_reference: not_recorded_in_public_repository
-  technical_approval_status: not_recorded_in_public_repository
-  next_internal_action: reconcile_with_current_controlled_source
+  controlled_source_reference: controlled_outline_drawings_and_source_step_reviewed_for_v1_0
+  technical_approval_status: approved_for_public_v1_0
+  next_internal_action: monitor_driver_encoder_and_firmware_configuration_updates
 source_control:
   public_claim_source: canonical_page
-  technical_source_status: not_recorded_in_public_repository
-inventory_checked_on: "2026-07-23"
+  technical_source_status: reviewed_against_controlled_mechanical_sources_and_current_catalogue
+inventory_checked_on: "2026-09-28"
