@@ -11,6 +11,8 @@ If you already know the model, include it. If you do not, send the application a
 
 For a project that starts from an idea, existing motor, mechanism or custom transmission problem, see the [Custom Precision Transmission Engineering](custom-engineering/index.md) page first.
 
+If the project specifically needs a miniature or compact planetary gearbox, see [Custom Planetary Gearbox Engineering](custom-engineering/custom-planetary-gearbox.md).
+
 ## Minimum Information to Start
 
 For a first engineering review, four items are usually enough:
