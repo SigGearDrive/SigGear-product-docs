@@ -19,6 +19,12 @@ SigGear cycloidal joint modules combine compact cycloidal transmission with moto
 
 Driver, encoder, communication and closed-loop control descriptions apply only to the selected configuration confirmed in the quotation. CPM-78-39 is treated separately because its standard catalog configuration uses Hall sensors and does not include an integrated driver or absolute encoder.
 
+## Custom Cycloidal Project Review
+
+The published CPM models are reference platforms. If the required torque, speed, installation envelope, interface, motor or control arrangement differs from a published model, SigGear can review the application before deciding whether a cycloidal structure or another transmission approach is more appropriate.
+
+[Explore Custom Transmission Engineering](../../custom-engineering/index.md){ .md-button .md-button--primary }
+
 ## Selection Support
 
 For model selection, provide rated torque, peak torque and duration, output speed, voltage, size and weight limits, duty cycle, external loads, driver requirements, communication interface and estimated quantity.

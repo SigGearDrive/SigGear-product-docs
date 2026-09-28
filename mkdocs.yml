@@ -106,6 +106,7 @@ nav:
   - Company:
       - About SigGear: company/about-siggear.md
       - Certifications: company/certifications.md
+  - Custom Engineering: custom-engineering/index.md
   - Products:
       - Product Overview: products/index.md
       - Robot Joint Actuators:

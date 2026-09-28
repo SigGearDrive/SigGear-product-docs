@@ -15,6 +15,7 @@ Use the public resources below for preliminary engineering evaluation. Configura
 
 | Engineering task | Start here |
 | --- | --- |
+| Need a custom transmission or feasibility review | [Custom Precision Transmission Engineering](../custom-engineering/index.md) |
 | Find a product family or model | [Browse Products](../products/index.md) |
 | Find a solution by application | [Browse Applications](../applications/index.md) |
 | Estimate robot-joint requirements | [Robot Joint Actuator Selection Guide](../selection-guides/robot-joint-actuator-selection-guide.md) |
@@ -96,6 +97,12 @@ Use a defined test sequence instead of starting with a full application load.
 Before freezing a design, confirm the exact product configuration, controlled drawing, interfaces and operating conditions.
 
 [Open the Design-In Checklist](design-in-checklist.md){ .md-button }
+
+## Need a Custom Transmission Rather Than a Catalog Model?
+
+If the project starts from a motor, drawing, installation envelope or mechanism concept rather than a known SigGear model, begin with the Custom Engineering path.
+
+[Open Custom Precision Transmission Engineering](../custom-engineering/index.md){ .md-button .md-button--primary }
 
 ## Need a Different Model or Configuration?
 

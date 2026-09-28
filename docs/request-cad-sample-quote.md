@@ -9,6 +9,8 @@ Use this page when you need help moving from a product page to an engineering de
 
 If you already know the model, include it. If you do not, send the application and the parameters you know — a complete specification is not required for the first review.
 
+For a project that starts from an idea, existing motor, mechanism or custom transmission problem, see the [Custom Precision Transmission Engineering](custom-engineering/index.md) page first.
+
 ## Minimum Information to Start
 
 For a first engineering review, four items are usually enough:
