@@ -19,6 +19,8 @@ If the project starts from an existing motor or needs a complete motor + gearbox
 
 If the project is a robot joint, compact actuator or AI-hardware rotary axis with custom torque, speed, size, sensing or control requirements, see [Custom Robot Joint & Compact Actuator Development](custom-engineering/robot-joint-actuator-development.md).
 
+If the project has moved beyond a first concept and needs a structured path through prototype, testing, Design-In, pilot preparation and production release, see [Prototype to Design-In and Production](custom-engineering/prototype-to-production.md).
+
 ## Minimum Information to Start
 
 For a first engineering review, four items are usually enough:
