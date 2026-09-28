@@ -126,6 +126,11 @@ The public STEP is a simplified external-interface model. It retains the informa
 
 For 1-, 2- or 3-stage CAD, or for the controlled production drawing, contact SigGear with the selected ratio and motor interface.
 
+### Evaluation and Design-In
+
+[Sample Validation Workflow](../../engineering-center/sample-validation-workflow.md){ .md-button .md-button--primary }
+[Design-In Checklist](../../engineering-center/design-in-checklist.md){ .md-button }
+
 ## Related Planetary Gearbox Resources
 
 [8–42 mm Planetary Gearbox Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
