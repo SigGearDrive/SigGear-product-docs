@@ -1,6 +1,6 @@
 ---
-title: Motor + Gearbox Integration Engineering | Custom Gear Motor Matching | SigGear
-description: SigGear helps engineers evaluate compact motor + gearbox combinations, including existing customer motors, planetary gearbox matching, output-speed targets, shaft and mounting interfaces, prototypes and production preparation.
+title: Motor + Gearbox Integration & Custom Gear Motor Engineering | SigGear
+description: Engineering support for existing motors or complete custom gear motor and gearmotor solutions, including ratio, shaft, mounting and operating-point matching.
 ---
 
 # Motor + Gearbox Integration Engineering

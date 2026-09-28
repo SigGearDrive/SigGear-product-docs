@@ -1,6 +1,6 @@
 ---
-title: Custom Planetary Gearbox Engineering | Miniature and Compact Gear Reducer Solutions | SigGear
-description: SigGear works with engineers on custom miniature and compact planetary gearbox solutions, including motor matching, reduction ratio, output shaft, mounting interface and gearbox integration from feasibility review to prototype and production preparation.
+title: Custom Planetary Gearbox & Gearhead Engineering | SigGear
+description: Custom miniature and compact planetary gearbox and gearhead engineering for motor matching, ratio, shaft, mounting, prototype and production integration.
 ---
 
 # Custom Planetary Gearbox Engineering

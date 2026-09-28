@@ -1,6 +1,6 @@
 ---
-title: Custom Robot Joint and Compact Actuator Development | Planetary, Cycloidal and Integrated Drive Engineering | SigGear
-description: SigGear works with robotics teams on custom robot joint and compact actuator development, including planetary or cycloidal transmission, motor, encoder, driver, communication and mechanical-interface review from feasibility to prototype and production preparation.
+title: Custom Robot Joint Actuator Development | SigGear
+description: Custom robot joint actuator development for humanoid, quadruped, robot arm and exoskeleton projects using planetary or cycloidal transmission architectures.
 ---
 
 # Custom Robot Joint and Compact Actuator Development

@@ -1,6 +1,6 @@
 ---
-title: Micro Gear Motors | Miniature Planetary Gear Motors | SigGear
-description: Explore SigGear micro gear motor solutions using 8–42 mm planetary reducers with brushed DC, BLDC, stepper or servo motor integration for robotics, medical devices and compact automation.
+title: Micro Gear Motors & Miniature Gearmotors | SigGear
+description: Explore SigGear micro gear motors and miniature gearmotors using planetary reducers with DC, BLDC, stepper or servo motor integration.
 ---
 
 # Micro Gear Motors
