@@ -23,7 +23,8 @@ Driver, encoder, communication and closed-loop control descriptions apply only t
 
 The published CPM models are reference platforms. If the required torque, speed, installation envelope, interface, motor or control arrangement differs from a published model, SigGear can review the application before deciding whether a cycloidal structure or another transmission approach is more appropriate.
 
-[Explore Custom Transmission Engineering](../../custom-engineering/index.md){ .md-button .md-button--primary }
+[Custom Cycloidal Transmission Engineering](../../custom-engineering/custom-cycloidal-transmission.md){ .md-button .md-button--primary }
+[Explore Custom Transmission Engineering](../../custom-engineering/index.md){ .md-button }
 
 ## Selection Support
 

@@ -13,6 +13,8 @@ For a project that starts from an idea, existing motor, mechanism or custom tran
 
 If the project specifically needs a miniature or compact planetary gearbox, see [Custom Planetary Gearbox Engineering](custom-engineering/custom-planetary-gearbox.md).
 
+If the project involves a compact high-torque joint or a possible cycloidal structure, see [Custom Cycloidal Transmission Engineering](custom-engineering/custom-cycloidal-transmission.md).
+
 ## Minimum Information to Start
 
 For a first engineering review, four items are usually enough:

@@ -59,6 +59,7 @@ The starting point can be a SigGear gearbox platform, a customer motor or an ins
 
 For compact rotary joints and mechanisms where a cycloidal structure may be suitable, SigGear can review the required torque, speed, installation envelope, external loads and motor/control arrangement before selecting or modifying a platform.
 
+[Custom Cycloidal Transmission Engineering](custom-cycloidal-transmission.md){ .md-button .md-button--primary }
 [Browse Cycloidal Joint Modules](../products/cycloidal-joint-modules/index.md){ .md-button }
 
 ### Motor + Gearbox Integration
