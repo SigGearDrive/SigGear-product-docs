@@ -1,67 +1,89 @@
 ---
 title: Request CAD, Sample and Quote for SigGear Products
-description: Request CAD models, samples and quotations for SigGear robot joint actuators, cycloidal joint modules, planetary gearboxes and compact gear motors.
+description: Request CAD, STEP files, engineering review, samples and quotations for SigGear robot joint actuators, cycloidal modules, planetary gearboxes and gear motors.
 ---
 
 # Request CAD, Sample and Quote
 
-Request product evaluation, available technical files, prototype samples or quotation preparation for SigGear robot joint actuators, cycloidal joint modules, planetary gearboxes and compact gear motors.
+Use this page when you need help moving from a product page to an engineering decision: model matching, CAD review, a sample, configuration-specific documentation or quotation preparation.
+
+If you already know the model, include it. If you do not, send the application and the parameters you know — a complete specification is not required for the first review.
+
+## Minimum Information to Start
+
+For a first engineering review, four items are usually enough:
+
+1. **Application** — what is moving and where the gearbox / actuator will be installed
+2. **Required output** — torque and speed if known
+3. **Installation limit** — maximum diameter, length or a simple sketch if available
+4. **What you need next** — model recommendation, CAD / STEP, drawing review, sample or quotation
+
+If you do not know the reduction ratio, send the motor speed and desired output speed if available.
+
+## Helpful Information When Available
+
+The following helps narrow the configuration but does not need to be sent all at once:
+
+- company name and country
+- project stage: concept, prototype, pilot or production
+- continuous and peak torque
+- peak duration
+- operating voltage
+- motor information for gearbox-only projects
+- duty cycle
+- radial / axial load conditions
+- driver, encoder and communication requirements
+- prototype quantity and estimated annual volume
+- delivery destination
+
+A mechanism sketch with key dimensions is acceptable for the first review.
 
 ## What You Can Request
 
 Depending on the selected product and project stage, SigGear can review requests for:
 
-- Product specifications and preliminary model matching
-- Available CAD model or STEP file information
-- 2D drawing review
-- Prototype sample evaluation
-- Mechanical interface discussion
-- Quotation preparation
+- preliminary model matching
+- released public CAD / STEP resources
+- configuration-specific CAD or controlled drawing review
+- mechanical-interface review
+- prototype sample evaluation
+- motor + gearbox matching
+- driver / encoder / communication review for applicable products
+- quotation preparation
 
-Technical files, samples and quotation details depend on the selected model, configuration, application requirements and engineering review.
+Technical files and final configuration details depend on the selected model and engineering review.
 
-## Information Needed for Faster Review
+## Public Resources You Can Use Immediately
 
-Please provide:
+Before sending an inquiry, check whether the product already has a public Engineering Pack.
 
-- Company name and country
-- Application description
-- Project stage: concept, prototype or production
-- Required torque and speed
-- Operating voltage
-- Size and weight limits
-- Communication, encoder or driver requirements
-- Quantity for prototype and production
-- CAD, drawing or technical document requirements
-- Delivery destination
+[Open the Engineering Center](engineering-center/index.md){ .md-button .md-button--primary }
 
-If a complete drawing is not available, a mechanism sketch with key dimensions is acceptable for the first review.
+The first released packs cover:
 
-## Product Families
+- SG-6010C
+- CPM-80-25
+- 32P
 
-### Robot Joint Actuators
+## Sample Evaluation
 
-For humanoid robots, quadruped robots, robotic arms and other robotic joints requiring motor, reducer, encoder and driver evaluation.
+If you already have or plan to order a sample, use the evaluation workflow to separate mechanical fit, first setup, functional testing and application testing.
 
-### Cycloidal Joint Modules
-
-For compact robotic joints requiring high torque density and low-backlash transmission.
-
-### Planetary Gearboxes
-
-For compact automation, servo systems and precision mechanisms.
-
-### Micro Gear Motors
-
-For medical devices, laboratory automation, grippers and compact mechanisms.
+[Open the Sample Validation Workflow](engineering-center/sample-validation-workflow.md){ .md-button }
 
 ## Review Process
 
-1. Application review
-2. Preliminary product matching
-3. Technical confirmation
-4. Sample or quotation preparation
+1. understand the application
+2. identify the closest product / configuration
+3. review the public or controlled engineering files needed for the decision
+4. prepare the sample or quotation
+5. support sample evaluation
+6. confirm the configuration before Design-In
+
+[Open the Design-In Checklist](engineering-center/design-in-checklist.md){ .md-button }
 
 ## Contact SigGear
 
+**Wanrong Wang**  
+International Sales / Sales Engineer, SigGear  
 Email: [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
