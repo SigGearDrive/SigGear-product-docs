@@ -27,4 +27,8 @@ To help us recommend a suitable product or prepare technical files, please inclu
 
 ## Technical Files Policy
 
-CAD models, detailed drawings, noise-test information and service-life data are provided after application review and inquiry.
+Selected products have public Engineering Packs with released CAD / STEP and interface resources that can be used before contacting SigGear.
+
+[Open the Engineering Center](engineering-center/index.md)
+
+Controlled production drawings, configuration-specific wiring / communication documents, and noise, thermal or service-life information are supplied according to the selected product and application review.
