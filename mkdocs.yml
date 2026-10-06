@@ -208,22 +208,44 @@ nav:
           - Mechanical Interface: engineering-resources/cpm100-25/mechanical-interface.md
           - Dual Encoder Variant: engineering-resources/cpm100-25/dual-encoder-variant.md
       - Planetary Gearboxes 8P-42P:
-          - Interface Library: engineering-resources/planetary-gearboxes/index.md
-          - 8P Mechanical Interface: engineering-resources/8p/mechanical-interface.md
-          - 10P Mechanical Interface: engineering-resources/10p/mechanical-interface.md
-          - 12P Mechanical Interface: engineering-resources/12p/mechanical-interface.md
-          - 14P Mechanical Interface: engineering-resources/14p/mechanical-interface.md
-          - 16P Mechanical Interface: engineering-resources/16p/mechanical-interface.md
-          - 20P Mechanical Interface: engineering-resources/20p/mechanical-interface.md
-          - 22P Mechanical Interface: engineering-resources/22p/mechanical-interface.md
-          - 24P Mechanical Interface: engineering-resources/24p/mechanical-interface.md
-          - 28P Mechanical Interface: engineering-resources/28p/mechanical-interface.md
+          - Resource Library: engineering-resources/planetary-gearboxes/index.md
+          - 8P:
+              - Technical Datasheet: engineering-resources/8p/datasheet.md
+              - Mechanical Interface: engineering-resources/8p/mechanical-interface.md
+          - 10P:
+              - Technical Datasheet: engineering-resources/10p/datasheet.md
+              - Mechanical Interface: engineering-resources/10p/mechanical-interface.md
+          - 12P:
+              - Technical Datasheet: engineering-resources/12p/datasheet.md
+              - Mechanical Interface: engineering-resources/12p/mechanical-interface.md
+          - 14P:
+              - Technical Datasheet: engineering-resources/14p/datasheet.md
+              - Mechanical Interface: engineering-resources/14p/mechanical-interface.md
+          - 16P:
+              - Technical Datasheet: engineering-resources/16p/datasheet.md
+              - Mechanical Interface: engineering-resources/16p/mechanical-interface.md
+          - 20P:
+              - Technical Datasheet: engineering-resources/20p/datasheet.md
+              - Mechanical Interface: engineering-resources/20p/mechanical-interface.md
+          - 22P:
+              - Technical Datasheet: engineering-resources/22p/datasheet.md
+              - Mechanical Interface: engineering-resources/22p/mechanical-interface.md
+          - 24P:
+              - Technical Datasheet: engineering-resources/24p/datasheet.md
+              - Mechanical Interface: engineering-resources/24p/mechanical-interface.md
+          - 28P:
+              - Technical Datasheet: engineering-resources/28p/datasheet.md
+              - Mechanical Interface: engineering-resources/28p/mechanical-interface.md
           - 32P:
               - Technical Datasheet: engineering-resources/32p/datasheet.md
               - Mechanical Interface: engineering-resources/32p/mechanical-interface.md
               - Motor Integration Guide: engineering-resources/32p/motor-integration.md
-          - 36P Mechanical Interface: engineering-resources/36p/mechanical-interface.md
-          - 42P Mechanical Interface: engineering-resources/42p/mechanical-interface.md
+          - 36P:
+              - Technical Datasheet: engineering-resources/36p/datasheet.md
+              - Mechanical Interface: engineering-resources/36p/mechanical-interface.md
+          - 42P:
+              - Technical Datasheet: engineering-resources/42p/datasheet.md
+              - Mechanical Interface: engineering-resources/42p/mechanical-interface.md
   - Sales:
       - Sales Overview: sales/index.md
       - Customer Qualification Checklist: sales/customer-qualification-checklist.md
