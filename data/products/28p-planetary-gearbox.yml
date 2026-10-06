@@ -37,12 +37,12 @@ sales_usage:
     - present_motor_voltage_as_gearbox_electrical_rating
 technical_review:
   public_inventory_status: complete
-  controlled_source_reference: "SG01PD28 controlled 2D drawing reviewed 2026-10-06"
-  technical_approval_status: "mechanical_interface_reconciled"
-  next_internal_action: "maintain drawing revision and configuration match"
+  controlled_source_reference: not_recorded_in_public_repository
+  technical_approval_status: not_recorded_in_public_repository
+  next_internal_action: maintain_drawing_revision_and_configuration_match
 source_control:
   public_claim_source: canonical_page
-  technical_source_status: "controlled mechanical source recorded; performance values remain sourced from canonical page"
+  technical_source_status: not_recorded_in_public_repository
 inventory_checked_on: "2026-10-06"
 
 cad_control:
