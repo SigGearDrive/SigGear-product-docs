@@ -7,7 +7,7 @@ product_family: cycloidal_joint_module
 canonical_page: docs/products/cycloidal-joint-modules/cpm100-25.md
 public_page_status: published
 record_status: published_inventory
-configuration_summary: Available with or without an integrated driver; control functions apply only to the confirmed configuration.
+configuration_summary: Available in base and configuration-specific variants; SG2556D is confirmed as the CPM-100-25 dual-encoder variant and has a separate controlled mechanical envelope.
 published_specifications:
   transmission_structure: "Cycloidal pinwheel"
   outer_diameter: "100 mm"
@@ -23,13 +23,23 @@ published_specifications:
   weight: "630 g"
   allowable_radial_force: "500 N"
   allowable_axial_force: "300 N"
+published_variants:
+  dual_encoder_variant_code: "SG2556D"
+  dual_encoder_variant_outer_diameter: "100 mm"
+  dual_encoder_variant_axial_dimension: "48 mm"
+  dual_encoder_variant_rated_voltage: "DC 48V"
+  dual_encoder_variant_rated_speed: "60 RPM"
+  dual_encoder_variant_rated_torque: "25 Nm"
+  dual_encoder_variant_no_load_speed: "125±10% RPM"
+  dual_encoder_variant_no_load_current: "1.1 A"
+  dual_encoder_variant_weight: "853 g"
 sales_usage:
   permitted:
     - preliminary_selection
     - public_product_summary
   requires_confirmation:
     - peak_torque_duration_and_duty_cycle
-    - driver_encoder_and_sensor_configuration
+    - base_or_dual_encoder_configuration
     - communication_interface_and_control_modes
     - connector_cable_and_pinout
     - noise_service_life_and_thermal_data
@@ -42,8 +52,8 @@ technical_review:
   public_inventory_status: complete
   controlled_source_reference: not_recorded_in_public_repository
   technical_approval_status: not_recorded_in_public_repository
-  next_internal_action: reconcile_with_current_controlled_source
+  next_internal_action: maintain_base_and_dual_encoder_variant_separation
 source_control:
   public_claim_source: canonical_page
   technical_source_status: not_recorded_in_public_repository
-inventory_checked_on: "2026-07-23"
+inventory_checked_on: "2026-10-06"
