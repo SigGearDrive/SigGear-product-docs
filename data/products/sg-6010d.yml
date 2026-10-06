@@ -24,10 +24,10 @@ published_specifications:
   allowable_radial_force: "1000 N"
   allowable_axial_force: "400 N"
 published_variants:
-  driver_platform_protocols: "CAN Simple / CANopen / RS485 Modbus RTU"
-  driver_encoder_resolution: "16-bit single-turn absolute"
-  driver_rated_voltage: "15~48 V DC"
-  driver_can_max_bitrate: "1 Mbps"
+  "SG6010 driver platform protocols": "CAN Simple / CANopen / RS485 Modbus RTU"
+  "Driver encoder resolution": "16-bit single-turn absolute"
+  "Driver rated voltage": "15~48 V DC"
+  "Driver CAN maximum bitrate": "1 Mbps"
 sales_usage:
   permitted:
     - preliminary_selection
