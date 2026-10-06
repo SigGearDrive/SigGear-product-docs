@@ -1,6 +1,6 @@
 ---
-title: Custom Planetary Gearbox & Gearhead Engineering | SigGear
-description: Custom miniature and compact planetary gearbox and gearhead engineering for motor matching, ratio, shaft, mounting, prototype and production integration.
+title: Custom Planetary Gearbox Manufacturer & Engineering | SigGear
+description: Custom planetary gearbox engineering and manufacturing for miniature and compact applications, including motor matching, ratio selection, shaft and flange adaptation, prototypes and production.
 ---
 
 # Custom Planetary Gearbox Engineering
@@ -19,7 +19,7 @@ You may already have:
 - an existing mechanism drawing
 - a current gearbox that does not meet the project requirement
 
-SigGear can review the application and evaluate a miniature or compact planetary gearbox approach using its existing gearbox platforms as engineering starting points.
+SigGear designs and manufactures miniature and compact planetary gearboxes and can review a project using existing gearbox platforms as engineering starting points before evaluating modified or custom configurations.
 
 [Send Your Motor or Drawing](mailto:wangwanrong@siggear.com?subject=Custom%20Planetary%20Gearbox%20Engineering%20Review){ .md-button .md-button--primary }
 [Request Engineering Review](../request-cad-sample-quote.md){ .md-button }
@@ -102,7 +102,7 @@ The engineering review can then identify what needs to be calculated, estimated 
 
 ## Existing SigGear Planetary Platforms
 
-SigGear publishes an **8-42 mm planetary gearbox series** covering miniature and compact gearbox frame sizes.
+SigGear manufactures an **8-42 mm planetary gearbox series** covering miniature and compact gearbox frame sizes, which can also serve as engineering starting points for project-specific configurations.
 
 The current public range includes:
 
@@ -127,6 +127,13 @@ The public STEP is intended for packaging, mounting and early mechanical design-
 
 [View 32P](../products/planetary-gearboxes/32p-planetary-gearbox.md){ .md-button .md-button--primary }
 [View 32P Engineering Resources](../engineering-resources/32p/datasheet.md){ .md-button }
+
+## What Can Be Modified?
+
+Depending on the selected gearbox platform and engineering feasibility, a project may involve changes to the motor interface, ratio, output shaft, flange, mounting arrangement, housing, encoder or brake configuration. Not every modification is available for every gearbox size, and the final configuration must be reviewed as a complete system.
+
+[Motor + Gearbox Integration Engineering](motor-gearbox-integration.md){ .md-button }
+[Prototype → Design-In → Production](prototype-to-production.md){ .md-button }
 
 ## Typical Project Situations
 

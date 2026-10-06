@@ -1,15 +1,17 @@
 ---
-title: Custom Robot Joint Actuator Development | SigGear
-description: Custom robot joint actuator and actuator gearbox development for humanoid, bipedal, quadruped, robot arm and exoskeleton projects using planetary or cycloidal transmission architectures.
+title: Custom Robot Joint Actuator Manufacturer & Engineering | SigGear
+description: Custom robot joint actuator engineering and manufacturing for humanoid, quadruped, robot arm and exoskeleton projects using planetary or cycloidal transmissions.
 ---
 
-# Custom Robot Joint and Compact Actuator Development
+# Custom Robot Joint Actuator Development
 
 ## Start From the Joint Requirement, Not From an Existing Actuator Model
 
 A robotics project does not need to fit an existing SigGear actuator exactly.
 
 You may already know the joint torque, speed and installation envelope. You may also have only a robot mechanism, link geometry, motor preference, CAD concept or early prototype.
+
+SigGear develops and manufactures robot joint actuators, planetary actuator platforms and cycloidal joint modules for robotics and compact motion systems.
 
 SigGear can review the joint as a system and evaluate the actuator gearbox or reducer, motor, sensing, driver and mechanical interfaces together.
 
@@ -25,6 +27,25 @@ Depending on the project, the engineering path may start from:
 [Send Your Joint Requirement](mailto:wangwanrong@siggear.com?subject=Robot%20Joint%20and%20Compact%20Actuator%20Engineering%20Review){ .md-button .md-button--primary }
 [Humanoid and Bipedal Robot Joint Engineering](../applications/humanoid-robot-joint-actuators.md){ .md-button }
 [Request Engineering Review](../request-cad-sample-quote.md){ .md-button }
+
+## What Can SigGear Supply?
+
+Depending on the project and engineering feasibility, the supply scope may include:
+
+- gearbox / reducer only
+- motor + gearbox assembly
+- planetary robot joint actuator
+- cycloidal joint module
+- actuator with encoder
+- actuator with driver where applicable
+- modified mechanical interface
+- project-specific joint configuration
+
+The exact configuration depends on torque, speed, packaging, motor, sensing, controller and mechanical-interface requirements.
+
+## Project-Specific and OEM Development
+
+For OEM or project-specific robot joint programs, the engineering review can begin from an existing SigGear actuator platform, the customer's motor/controller architecture, or a new mechanical requirement. Final feasibility depends on the complete torque-speed requirement, packaging, interfaces, electronics configuration and production plan.
 
 ## What the Engineering Review Starts With
 
@@ -202,6 +223,8 @@ In that case, send the available:
 SigGear can then evaluate whether the project should use a gearbox-centered joint solution, a motor + gearbox assembly or another integrated actuator approach.
 
 [Motor + Gearbox Integration Engineering](motor-gearbox-integration.md){ .md-button }
+[Prototype → Design-In → Production](prototype-to-production.md){ .md-button }
+[Open the Engineering Center](../engineering-center/index.md){ .md-button }
 
 ## Robot and AI Hardware Applications
 

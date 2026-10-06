@@ -16,6 +16,8 @@ Selecting a humanoid robot joint actuator requires matching torque, speed, gearb
 
 Humanoid and bipedal robots require compact joint actuators for the shoulder, elbow, wrist, hip, knee, ankle, neck and waist axes. Each joint has a different torque-speed cycle, external-load condition, installation envelope, thermal limit and control requirement. A humanoid robot joint actuator should therefore be selected from the complete operating profile, not from peak torque alone.
 
+For a bipedal robot joint actuator, each hip, knee, ankle, shoulder, elbow and wrist axis should be evaluated separately because its torque-speed cycle, packaging, external loads and duty cycle can be different.
+
 SigGear supports humanoid robot development with integrated robot joint actuator options, planetary joint actuators, cycloidal joint modules and compact planetary gearbox solutions. Depending on the selected configuration, a joint drive may combine a motor, reducer, encoder and driver, or it may be supplied as a reducer or gearbox for customer-side motor integration.
 
 This page is intended for early-stage model selection, supplier comparison and engineering communication. Final actuator selection, quotation and technical agreement still require review against the controlled drawing, selected ratio, duty cycle, mounting interface and ordered configuration.
@@ -84,7 +86,7 @@ The knee joint is strongly affected by walking, squatting, standing-up and impac
 
 The ankle often combines torque, shock load and packaging difficulty. It can be sensitive to backlash, compliance, sealing, cable routing and impact load. Prototype testing is usually important before locking the actuator model.
 
-## Candidate SigGear Joint Products
+## Published SigGear Reference Platforms
 
 The following published SigGear models can be considered as starting points for humanoid robot joint evaluation. Final selection depends on the exact joint position, torque-speed cycle, duty cycle, external loads, size limits and control architecture.
 
@@ -99,6 +101,28 @@ The following published SigGear models can be considered as starting points for 
 
 For smaller auxiliary joints, sensor mechanisms, hands, compact wrists or lightweight adjustment axes, SigGear can also evaluate [8–42 mm planetary gearbox](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) options when the customer already has a motor or needs a customized motor-gearbox combination.
 
+## Public Engineering Resources
+
+For engineers moving from model screening into mechanical evaluation, SigGear currently publishes engineering resources for selected reference platforms:
+
+### SG-6010C
+
+- technical datasheet
+- mechanical-interface reference
+- simplified STEP model
+
+[View SG-6010C Engineering Resources](../engineering-resources/sg6010c/datasheet.md){ .md-button }
+
+### CPM-80-25
+
+- technical datasheet
+- mechanical-interface reference
+- simplified STEP models
+- measured performance data
+
+[View CPM-80-25 Engineering Resources](../engineering-resources/cpm80-25/datasheet.md){ .md-button }
+[Open the Engineering Center](../engineering-center/index.md){ .md-button }
+
 ## Integrated Actuator or Separate Gearbox and Motor
 
 A humanoid project may use an integrated actuator or a separate gearbox-and-motor architecture.
@@ -109,9 +133,16 @@ A separate gearbox and motor solution may be suitable when the robot team alread
 
 SigGear can support both approaches depending on the model, quantity, customization scope and engineering feasibility.
 
+[Motor + Gearbox Integration Engineering](../custom-engineering/motor-gearbox-integration.md){ .md-button }
+[Custom Robot Joint Actuator Development](../custom-engineering/robot-joint-actuator-development.md){ .md-button }
+
 ## Planetary or Cycloidal Drive for Humanoid Robots
 
 A planetary joint actuator may be considered when the project prioritizes compact integration, output speed, motor matching flexibility and broad configuration options.
+
+Engineers evaluating an existing planetary joint-drive platform can also review SigGear's published robot joint actuator models and their released specifications.
+
+[Planetary Robot Joint Actuators](../products/robot-joint-actuators/index.md){ .md-button }
 
 A cycloidal joint module may be considered when the application requires compact high-torque transmission and the selected model's speed, backlash, installation structure and duty cycle match the joint requirement.
 
@@ -160,6 +191,12 @@ Depending on the selected model and project scope, SigGear can evaluate:
 - Prototype support before production planning
 
 Customization availability depends on technical feasibility, prototype quantity, expected annual volume and the level of engineering change required.
+
+## From Prototype to Design-In
+
+After a preliminary actuator or gearbox configuration is selected, the project can move through sample evaluation, application testing, interface refinement, design confirmation and pilot preparation.
+
+[Prototype → Design-In → Production](../custom-engineering/prototype-to-production.md){ .md-button .md-button--primary }
 
 ## Information Needed for a Humanoid Joint Selection Review
 

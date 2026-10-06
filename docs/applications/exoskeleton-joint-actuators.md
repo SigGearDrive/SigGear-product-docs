@@ -145,7 +145,7 @@ Important details include:
 
 A joint actuator may meet torque and speed requirements but still require external bearing support if the wearable frame applies large radial, axial or overturning loads.
 
-## Candidate SigGear Products
+## Published SigGear Reference Platforms
 
 The following published models can be used as starting points for exoskeleton joint actuator and wearable robot gearbox evaluation. Final selection depends on joint position, torque-speed cycle, weight limit, power-off behavior, control architecture and safety validation plan.
 
@@ -224,6 +224,14 @@ Component documentation is supplied according to the selected model and agreed p
 [Flat BLDC Motors and Joint Drives](../products/flat-bldc-motors/index.md){ .md-button }
 [Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
 
+## Engineering Development Paths
+
+[Robot Joint Actuator and Gearbox Selection Guide](../selection-guides/robot-joint-actuator-selection-guide.md){ .md-button }
+[Custom Robot Joint Actuator Development](../custom-engineering/robot-joint-actuator-development.md){ .md-button .md-button--primary }
+[Motor + Gearbox Integration Engineering](../custom-engineering/motor-gearbox-integration.md){ .md-button }
+[Open the Engineering Center](../engineering-center/index.md){ .md-button }
+[Prototype → Design-In → Production](../custom-engineering/prototype-to-production.md){ .md-button }
+
 ## Prototype and Customization Support
 
 Depending on the selected model and project scope, SigGear can evaluate:
@@ -235,7 +243,6 @@ Depending on the selected model and project scope, SigGear can evaluate:
 - Brake integration after engineering review
 - Communication and control configuration
 - Low-weight integration review
-- Customer branding and labeling
 - Prototype support before production planning
 
 Customization availability depends on technical feasibility, prototype quantity, expected annual volume and the level of engineering change required.

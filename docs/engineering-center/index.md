@@ -9,13 +9,14 @@ This Engineering Center is organized around the way an engineer normally evaluat
 
 **find a relevant model -> check the published data -> evaluate the mechanical interface -> test a sample -> freeze the configuration for design-in.**
 
-Use the public resources below for preliminary engineering evaluation. Configuration-specific production drawings, driver/firmware documentation and other controlled files are supplied according to the selected product and project stage.
+Use the public resources below for preliminary engineering evaluation. Robot actuator and gearbox engineering documents include public datasheets, STEP models, mechanical-interface references and measured test data where released. Configuration-specific production drawings, driver/firmware documentation and other controlled files are supplied according to the selected product and project stage.
 
 ## Start by What You Need to Do
 
 | Engineering task | Start here |
 | --- | --- |
 | Need a custom transmission or feasibility review | [Custom Precision Transmission Engineering](../custom-engineering/index.md) |
+| Need a custom planetary gearbox around an existing motor, size or interface | [Custom Planetary Gearbox Engineering](../custom-engineering/custom-planetary-gearbox.md) |
 | Find a product family or model | [Browse Products](../products/index.md) |
 | Find a solution by application | [Browse Applications](../applications/index.md) |
 | Estimate robot-joint requirements | [Robot Joint Actuator Selection Guide](../selection-guides/robot-joint-actuator-selection-guide.md) |
