@@ -189,6 +189,9 @@ nav:
       - SG-6010C:
           - Technical Datasheet: engineering-resources/sg6010c/datasheet.md
           - Mechanical Interface: engineering-resources/sg6010c/mechanical-interface.md
+      - SG-6010D:
+          - Technical Datasheet: engineering-resources/sg6010d/datasheet.md
+          - Mechanical Interface: engineering-resources/sg6010d/mechanical-interface.md
       - CPM-80-25:
           - Technical Datasheet: engineering-resources/cpm80-25/datasheet.md
           - Mechanical Interface: engineering-resources/cpm80-25/mechanical-interface.md
