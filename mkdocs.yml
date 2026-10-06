@@ -72,6 +72,7 @@ plugins:
 
 extra_javascript:
   - assets/javascripts/analytics-events.js
+  - assets/javascripts/organization-schema.js
 
 markdown_extensions:
   - admonition
@@ -83,6 +84,16 @@ markdown_extensions:
 
 extra:
   scope: /SigGear-product-docs/
+  social:
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@siggeardrive
+      name: SigGear on YouTube
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/luffywan.robotics/
+      name: Wanrong Wang / SigGear on Instagram
+    - icon: fontawesome/brands/tiktok
+      link: https://www.tiktok.com/@robotactuator.engineer
+      name: Robot Actuator Engineer / SigGear on TikTok
   analytics:
     provider: google
     property: G-Q14K9BLGK4
