@@ -128,6 +128,32 @@
       return;
     }
 
+    try {
+      var destination = new URL(href, window.location.href);
+      var hostname = destination.hostname.replace(/^www\./, "");
+      var socialPlatform = "";
+
+      if (hostname === "youtube.com" || hostname === "youtu.be") {
+        socialPlatform = "youtube";
+      } else if (hostname === "instagram.com") {
+        socialPlatform = "instagram";
+      } else if (hostname === "tiktok.com") {
+        socialPlatform = "tiktok";
+      }
+
+      if (socialPlatform) {
+        sendEvent("social_click", {
+          page_path: pagePath(),
+          social_platform: socialPlatform,
+          destination_url: destination.href,
+          link_text: label
+        });
+        return;
+      }
+    } catch (e) {
+      // Ignore invalid or non-URL href values and continue with internal-link tracking.
+    }
+
     if (href.indexOf("request-cad-sample-quote") !== -1) {
       sendEvent("cad_quote_click", {
         page_path: pagePath(),
