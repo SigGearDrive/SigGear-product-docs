@@ -31,7 +31,7 @@ Use the site according to the engineering decision you need to make.
 | 3. Validate | Run a sample through mechanical fit, first setup and application testing | [Sample Validation Workflow](engineering-center/sample-validation-workflow.md) |
 | 4. Design-In | Freeze the exact configuration, controlled interface and operating conditions | [Design-In Checklist](engineering-center/design-in-checklist.md) |
 
-The first public Engineering Packs are available for **SG-6010C**, **CPM-80-25** and **32P**.
+Current public Engineering Resources are available for **SG-6010C**, **SG-6010D**, **SG-8021**, **CPM-80-25**, **CPM-100-25** and **32P**. Public STEP availability is model-specific; controlled CAD and drawings remain configuration-dependent.
 
 ## Product Solutions
 
