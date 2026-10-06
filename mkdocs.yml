@@ -192,6 +192,7 @@ nav:
       - SG-6010D:
           - Technical Datasheet: engineering-resources/sg6010d/datasheet.md
           - Mechanical Interface: engineering-resources/sg6010d/mechanical-interface.md
+          - Driver and Communication: engineering-resources/sg6010d/driver-communication.md
       - SG-8021:
           - Technical Datasheet: engineering-resources/sg8021/datasheet.md
           - Mechanical Interface: engineering-resources/sg8021/mechanical-interface.md
@@ -205,6 +206,7 @@ nav:
       - CPM-100-25:
           - Technical Datasheet: engineering-resources/cpm100-25/datasheet.md
           - Mechanical Interface: engineering-resources/cpm100-25/mechanical-interface.md
+          - Dual Encoder Variant: engineering-resources/cpm100-25/dual-encoder-variant.md
       - 32P:
           - Technical Datasheet: engineering-resources/32p/datasheet.md
           - Mechanical Interface: engineering-resources/32p/mechanical-interface.md
