@@ -79,7 +79,7 @@ Important information includes:
 
 A gearbox or actuator that meets torque and speed requirements may still be unsuitable if the bearing, housing or output interface cannot support the real impact condition.
 
-## Candidate SigGear Products
+## Published SigGear Reference Platforms
 
 The following published SigGear models can be used as starting points for quadruped robot actuator and leg joint gearbox evaluation. Final selection depends on the joint position, robot mass, gait cycle, impact condition, size limit and control architecture.
 
@@ -93,6 +93,15 @@ The following published SigGear models can be used as starting points for quadru
 | [CPM-78-39](../products/cycloidal-joint-modules/cpm78-39.md) | Cycloidal pinwheel | 20 Nm | 52 Nm | 48 rpm | Standard catalog configuration uses Hall sensors and no integrated driver. |
 
 For small auxiliary mechanisms, sensor modules, compact ankle mechanisms or customer-designed motor assemblies, SigGear can also evaluate [8–42 mm planetary gearbox](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) options when the application requires a separate reducer or compact gearbox.
+
+## Public Engineering Resources
+
+Selected public engineering resources are available for preliminary design evaluation:
+
+- SG-6010C: datasheet, mechanical-interface reference and simplified STEP model
+- CPM-80-25: datasheet, mechanical-interface reference, simplified STEP models and measured performance data
+
+[Open the Engineering Center](../engineering-center/index.md){ .md-button }
 
 ## Integrated Actuator or Separate Gearbox and Motor
 
@@ -148,6 +157,14 @@ Peak torque is not a continuous working rating. A joint that can provide short o
 [Robot Joint Actuator and Gearbox Selection Guide](../selection-guides/robot-joint-actuator-selection-guide.md){ .md-button }
 [Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
 
+## Engineering Development Paths
+
+[Robot Joint Actuator and Gearbox Selection Guide](../selection-guides/robot-joint-actuator-selection-guide.md){ .md-button }
+[Custom Robot Joint Actuator Development](../custom-engineering/robot-joint-actuator-development.md){ .md-button .md-button--primary }
+[Motor + Gearbox Integration Engineering](../custom-engineering/motor-gearbox-integration.md){ .md-button }
+[Open the Engineering Center](../engineering-center/index.md){ .md-button }
+[Prototype → Design-In → Production](../custom-engineering/prototype-to-production.md){ .md-button }
+
 ## Prototype and Customization Support
 
 Depending on the selected model and project scope, SigGear can evaluate:
@@ -158,7 +175,6 @@ Depending on the selected model and project scope, SigGear can evaluate:
 - Cable and connector customization
 - Communication and control configuration
 - Brake or holding requirements after engineering review
-- Customer branding and labeling
 - Prototype support before production planning
 
 Customization availability depends on technical feasibility, prototype quantity, expected annual volume and the level of engineering change required.
