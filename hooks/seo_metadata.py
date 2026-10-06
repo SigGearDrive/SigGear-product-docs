@@ -194,8 +194,10 @@ def _product_schema(page, config) -> dict | None:
         "model": str(data.get("model")),
         "brand": {"@type": "Brand", "name": "SigGear"},
         "manufacturer": {
+            "@id": "https://www.siggear.com/#organization",
             "@type": "Organization",
             "name": "Guangdong SigGear Drive Intelligent Technology Co., Ltd.",
+            "url": "https://www.siggear.com/",
         },
         "url": url,
     }
