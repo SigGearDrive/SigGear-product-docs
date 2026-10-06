@@ -18,6 +18,14 @@ SigGear works with engineers through this development path for applicable compac
 [Discuss Your Project](../request-cad-sample-quote.md){ .md-button .md-button--primary }
 [Send Your Drawing or Requirement](mailto:wangwanrong@siggear.com?subject=Prototype%20to%20Production%20Transmission%20Project){ .md-button }
 
+## Start From the Transmission Architecture
+
+If the transmission architecture is already known, continue with the relevant engineering path:
+
+[Custom Planetary Gearbox Engineering](custom-planetary-gearbox.md){ .md-button }
+[Custom Cycloidal Transmission Engineering](custom-cycloidal-transmission.md){ .md-button }
+[Custom Robot Joint Actuator Development](robot-joint-actuator-development.md){ .md-button }
+
 ## Typical Development Path
 
 A project may move through:
