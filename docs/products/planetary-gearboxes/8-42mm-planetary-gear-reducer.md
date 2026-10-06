@@ -11,24 +11,47 @@ SigGear supplies miniature and compact planetary gear reducers with nominal oute
 
 The series is intended for projects that require a compact transmission and flexible integration with a motor, output shaft, mounting interface or sensor system. Final ratio, torque, speed, dimensions and motor matching depend on the selected diameter and project configuration.
 
-## Available Size Range
+## Quick Selection Matrix
 
-| Series | Nominal outer diameter |
-| --- | ---: |
-| [8P](8p-planetary-gearbox.md) | 8 mm |
-| [10P](10p-planetary-gearbox.md) | 10 mm |
-| [12P](12p-planetary-gearbox.md) | 12 mm |
-| [14P](14p-planetary-gearbox.md) | 14 mm |
-| [16P](16p-planetary-gearbox.md) | 16 mm |
-| [20P](20p-planetary-gearbox.md) | 20 mm |
-| [22P](22p-planetary-gearbox.md) | 22 mm |
-| [24P](24p-planetary-gearbox.md) | 24 mm |
-| [28P](28p-planetary-gearbox.md) | 28 mm |
-| [32P](32p-planetary-gearbox.md) | 32 mm |
-| [36P](36p-planetary-gearbox.md) | 36 mm |
-| [42P](42p-planetary-gearbox.md) | 42 mm |
+Use this table for **preliminary frame-size selection**. Values are the currently published ranges for each standard series. Final selection still depends on the exact stage count, reduction ratio, motor, duty cycle and mechanical interface.
 
-The [8P 8 mm](8p-planetary-gearbox.md), [10P 10 mm](10p-planetary-gearbox.md), [12P 12 mm](12p-planetary-gearbox.md), [14P 14 mm](14p-planetary-gearbox.md), [16P 16 mm](16p-planetary-gearbox.md), [20P 20 mm](20p-planetary-gearbox.md), [22P 22 mm](22p-planetary-gearbox.md), [24P 24 mm](24p-planetary-gearbox.md), [28P 28 mm](28p-planetary-gearbox.md), [32P 32 mm](32p-planetary-gearbox.md), [36P 36 mm](36p-planetary-gearbox.md) and [42P 42 mm](42p-planetary-gearbox.md) product pages include their currently published stage, ratio, torque, efficiency and dimensional data. Additional speed, load and operating-limit values vary by model and must be confirmed from the relevant canonical page and controlled specification.
+| Model | Ø | Gearbox body length | Reduction ratio | Rated allowable torque | Maximum momentary torque | Backlash at no load | Adapted motor power |
+| --- | ---: | ---: | --- | ---: | ---: | ---: | ---: |
+| [8P](8p-planetary-gearbox.md) | 8 mm | 10.15–18.10 mm | 3.8:1–731.16:1 | 0.2–0.4 kgf·cm | 0.4–0.8 kgf·cm | ≤ 1.5° | below 2.5 W |
+| [10P](10p-planetary-gearbox.md) | 10 mm | 10.25–18.50 mm | 3.5:1–428.7:1 | 1.3–2.0 kgf·cm | 2.6–4.0 kgf·cm | ≤ 1.5° | below 3 W |
+| [12P](12p-planetary-gearbox.md) | 12 mm | 11.35–19.60 mm | 3.5:1–509.1:1 | 2.0–4.2 kgf·cm | 4.0–8.4 kgf·cm | ≤ 1.5° | below 4 W |
+| [14P](14p-planetary-gearbox.md) | 14 mm | 15.2–26.6 mm | 3.75:1–443.3:1 | 3.5–6.0 kgf·cm | 7.0–12.0 kgf·cm | ≤ 1.5° | below 5 W |
+| [16P](16p-planetary-gearbox.md) | 16 mm | 17.55–30.45 mm | 3.85:1–459.5:1 | 4.0–9.0 kgf·cm | 8.0–26.0 kgf·cm | ≤ 1.5° | below 10 W |
+| [20P](20p-planetary-gearbox.md) | 20 mm | 20.1–34.5 mm | 4:1–1296:1 | 6.0–13.0 kgf·cm | 12.0–26.0 kgf·cm | ≤ 1.5° | below 20 W |
+| [22P](22p-planetary-gearbox.md) | 22 mm | 22.6–38.5 mm | 3.5:1–509.1:1 | 8.0–25.0 kgf·cm | 16.0–50.0 kgf·cm | ≤ 1.5° | below 25 W |
+| [24P](24p-planetary-gearbox.md) | 24 mm | 24.6–42.0 mm | 3.83:1–759.7:1 | 10.0–30.0 kgf·cm | 20.0–60.0 kgf·cm | ≤ 1.2° | below 28 W |
+| [28P](28p-planetary-gearbox.md) | 28 mm | 25.6–44.5 mm | 3.83:1–759.7:1 | 20.0–50.0 kgf·cm | 40.0–100.0 kgf·cm | ≤ 1.2° | below 30 W |
+| [32P](32p-planetary-gearbox.md) | 32 mm | 28.05–52.95 mm | 3.5:1–509.1:1 | 35.0–80.0 kgf·cm | 70.0–160.0 kgf·cm | ≤ 1.2° | below 100 W |
+| [36P](36p-planetary-gearbox.md) | 36 mm | 30.6–61.5 mm | 3.66:1–625:1 | 40.0–100.0 kgf·cm | 80.0–200.0 kgf·cm | ≤ 1.2° | below 150 W |
+| [42P](42p-planetary-gearbox.md) | 42 mm | 35.6–69.5 mm | 3.8:1–660.7:1 | 80.0–150.0 kgf·cm | 160.0–300.0 kgf·cm | ≤ 1.2° | below 200 W |
+
+Torque values are preserved in the current published source unit, **kgf·cm**. Maximum momentary torque is not a continuous operating rating.
+
+[Open 8P–42P Datasheet & Mechanical Interface Library](../../engineering-resources/planetary-gearboxes/index.md){ .md-button .md-button--primary }
+
+## How to Narrow the Model
+
+A practical first-pass selection sequence is:
+
+1. **Start with the installation diameter** and eliminate frames that do not fit.
+2. **Check rated allowable torque**, not maximum momentary torque, for the normal operating point.
+3. **Check the ratio range** against the motor speed and target output speed.
+4. **Check gearbox body length** for the stage count likely to be required.
+5. **Check the adapted-motor power range** as a motor-matching reference.
+6. Open the selected model Datasheet and Mechanical Interface before finalizing the candidate.
+
+Do not select only from outer diameter. A smaller frame may not satisfy torque or motor-interface requirements, while a larger frame may add unnecessary size.
+
+## Standard Models
+
+The standard series includes [8P](8p-planetary-gearbox.md), [10P](10p-planetary-gearbox.md), [12P](12p-planetary-gearbox.md), [14P](14p-planetary-gearbox.md), [16P](16p-planetary-gearbox.md), [20P](20p-planetary-gearbox.md), [22P](22p-planetary-gearbox.md), [24P](24p-planetary-gearbox.md), [28P](28p-planetary-gearbox.md), [32P](32p-planetary-gearbox.md), [36P](36p-planetary-gearbox.md) and [42P](42p-planetary-gearbox.md).
+
+Each model now has a public Datasheet and Mechanical Interface reference. Detailed full-assembly CAD remains configuration-controlled and request-only except where a simplified public CAD file has been explicitly released.
 
 ## Typical Applications
 
@@ -94,11 +117,19 @@ Please provide:
 - Noise and service-life targets
 - Estimated prototype and annual quantity
 
-## Drawings and Technical Files
+## Datasheets, Mechanical Interfaces and CAD
 
-Public model pages contain the currently released ratio, performance and dimensional information for each frame size. The 32P also has a public Engineering Pack with a datasheet, mechanical-interface reference, motor-integration guide and simplified 4-stage STEP model.
+Every standard 8P–42P frame size now has:
 
-Controlled configuration-specific drawings, CAD for other stage arrangements and other application-specific files are supplied after the selected model and interface are confirmed.
+- a model-specific public Datasheet
+- a public Mechanical Interface reference based on the reviewed controlled 2D drawing
+- configuration-matched full assembly CAD available after engineering review
+
+The detailed assembly STEP files are not published as raw public downloads because they contain internal planetary transmission geometry. The 32P additionally has an approved simplified public 4-stage STEP and a motor-integration guide.
+
+[Open the Planetary Engineering Resource Library](../../engineering-resources/planetary-gearboxes/index.md){ .md-button .md-button--primary }
+
+Controlled production drawings and configuration-specific CAD are supplied after the model, stage count, ratio and motor interface are confirmed.
 
 Published specifications must not be transferred from one diameter or stage configuration to another without confirmation.
 

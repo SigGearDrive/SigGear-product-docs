@@ -114,10 +114,11 @@ For model selection, provide the preferred gearbox diameter, ratio or output spe
 
 ## Engineering Documents
 
-Public model pages contain the reviewed specification data currently released for each frame size. The **32P** also has a public Engineering Pack with a datasheet, mechanical-interface reference, motor-integration guide and a simplified 4-stage STEP model.
+All standard **8P–42P** planetary gearbox frame sizes now have a public model-specific Datasheet and Mechanical Interface reference.
 
-[Open the 32P Engineering Resources](../../engineering-center/index.md){ .md-button .md-button--primary }
+[Open the 8P–42P Engineering Resource Library](../../engineering-resources/planetary-gearboxes/index.md){ .md-button .md-button--primary }
+[Compare 8P–42P Models](8-42mm-planetary-gear-reducer.md){ .md-button }
 
-Controlled configuration-specific drawings and CAD for other stage / ratio / motor-interface combinations are supplied after the selected configuration is confirmed.
+The 32P additionally has a simplified public 4-stage STEP and a motor-integration guide. Detailed full-assembly CAD for the series remains configuration-controlled and is supplied after the model, stage count, ratio and motor interface are confirmed.
 
 [Contact Wanrong Wang](../../contact.md)
