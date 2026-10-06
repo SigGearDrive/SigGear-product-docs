@@ -107,9 +107,12 @@ Please provide:
 
 Do not transfer the 16P specifications to another frame size or an unlisted stage configuration. Final selection and quotation require confirmation against the approved configuration drawing.
 
-## Engineering Interface Resource
+## Engineering Resources
 
-[View 16P Mechanical Interface v1.0](../../engineering-resources/16p/mechanical-interface.md){ .md-button .md-button--primary }
+[View 16P Technical Datasheet v1.0](../../engineering-resources/16p/datasheet.md){ .md-button .md-button--primary }
+[View 16P Mechanical Interface v1.0](../../engineering-resources/16p/mechanical-interface.md){ .md-button }
+
+The Datasheet consolidates the currently published stage, ratio, torque, efficiency and motor-matching data. The Mechanical Interface summarizes the controlled 2D drawing.
 
 A detailed full-assembly STEP is held as configuration-controlled engineering CAD and is supplied after model / stage / motor-interface review. The raw assembly is not published as a public download because it contains internal planetary transmission geometry.
 
