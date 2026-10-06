@@ -55,6 +55,10 @@ The current public CPM-100-25 page shows two representative supply configuration
 
 Final encoder, connector, cable, communication and control functions must be confirmed in the quotation and technical agreement.
 
+A separate **dual-encoder configuration** is confirmed under the controlled drawing code **SG2556D**. It has a different axial package, weight and no-load speed from the base configuration and is documented separately.
+
+[View CPM-100-25 Dual Encoder Variant](dual-encoder-variant.md){ .md-button }
+
 ## Mechanical and Load Evaluation
 
 For early evaluation, use the public envelope and load limits above.
