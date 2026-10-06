@@ -71,11 +71,16 @@ Before sending an inquiry, check whether the product already has a public Engine
 
 [Open the Engineering Center](engineering-center/index.md){ .md-button .md-button--primary }
 
-The first released packs cover:
+Current public Engineering Resources cover:
 
-- SG-6010C
-- CPM-80-25
-- 32P
+- [SG-6010C](products/robot-joint-actuators/sg6010c.md)
+- [SG-6010D](products/robot-joint-actuators/sg6010d.md)
+- [SG-8021](products/robot-joint-actuators/sg8021.md)
+- [CPM-80-25](products/cycloidal-joint-modules/cpm80-25.md)
+- [CPM-100-25](products/cycloidal-joint-modules/cpm100-25.md)
+- [32P](products/planetary-gearboxes/32p-planetary-gearbox.md)
+
+Public STEP availability is model-specific. Where a public STEP is not released, request the current configuration-matched CAD or controlled drawing.
 
 ## Sample Evaluation
 
