@@ -898,21 +898,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#encoder-and-driver" class="md-nav__link">
+  <a href="#encoder-driver-and-communication" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Encoder and Driver
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#communication" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Communication
+        Encoder, Driver and Communication
       
     </span>
   </a>
@@ -3393,6 +3382,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../engineering-resources/sg6010d/driver-communication/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Driver and Communication
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -3860,6 +3877,34 @@
     
   
     Mechanical Interface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../engineering-resources/cpm100-25/dual-encoder-variant/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dual Encoder Variant
   
 
     
@@ -4692,21 +4737,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#encoder-and-driver" class="md-nav__link">
+  <a href="#encoder-driver-and-communication" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Encoder and Driver
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#communication" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Communication
+        Encoder, Driver and Communication
       
     </span>
   </a>
@@ -4912,27 +4946,46 @@
 <h2 id="peak-torque-condition">Peak Torque Condition<a class="headerlink" href="#peak-torque-condition" title="Permanent link">&para;</a></h2>
 <p>Peak torque: 50 Nm</p>
 <p>Peak duration: Subject to operating voltage, current limit and thermal conditions.</p>
-<h2 id="encoder-and-driver">Encoder and Driver<a class="headerlink" href="#encoder-and-driver" title="Permanent link">&para;</a></h2>
-<p>Driver-equipped version supports:</p>
+<h2 id="encoder-driver-and-communication">Encoder, Driver and Communication<a class="headerlink" href="#encoder-driver-and-communication" title="Permanent link">&para;</a></h2>
+<p>SigGear has confirmed that the current SG6010 driver platform documented in the SG6010 user manual applies to the <strong>driver-equipped SG-6010D configuration</strong>.</p>
+<p>Confirmed functions include:</p>
 <ul>
 <li>MA600 16-bit single-turn absolute magnetic encoder</li>
 <li>FOC closed-loop control</li>
-<li>CAN communication</li>
-<li>USB Type-C debugging</li>
 <li>Position, velocity, torque and MIT-style motion control</li>
+<li>CAN Simple</li>
+<li>CANopen (CiA301 / CiA302 / CiA402)</li>
+<li>USB Type-C debugging / configuration</li>
+<li>RS485 / Modbus RTU when the corresponding interface / expansion configuration is supplied</li>
 </ul>
-<h2 id="communication">Communication<a class="headerlink" href="#communication" title="Permanent link">&para;</a></h2>
-<p>Standard:</p>
-<ul>
-<li>CAN</li>
-<li>USB Type-C</li>
-</ul>
-<p>Optional/project confirmation:</p>
-<ul>
-<li>RS485</li>
-<li>EtherCAT</li>
-<li>Other expansion interfaces</li>
-</ul>
+<p>EtherCAT and other expansion interfaces remain project-specific and require confirmation.</p>
+<table>
+<thead>
+<tr>
+<th>Confirmed driver reference</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SG6010 driver platform protocols</td>
+<td>CAN Simple / CANopen / RS485 Modbus RTU</td>
+</tr>
+<tr>
+<td>Driver encoder resolution</td>
+<td>16-bit single-turn absolute</td>
+</tr>
+<tr>
+<td>Driver rated voltage</td>
+<td>15~48 V DC</td>
+</tr>
+<tr>
+<td>Driver CAN maximum bitrate</td>
+<td>1 Mbps</td>
+</tr>
+</tbody>
+</table>
+<p><a class="md-button" href="../../../engineering-resources/sg6010d/driver-communication/">Driver and Communication Reference</a></p>
 <h2 id="product-images">Product Images<a class="headerlink" href="#product-images" title="Permanent link">&para;</a></h2>
 <h3 id="front-angle-view">Front-angle view<a class="headerlink" href="#front-angle-view" title="Permanent link">&para;</a></h3>
 <p><img alt="SG-6010D robot joint actuator front-angle product view" src="../../../assets/images/products/robot-joint-actuators/sg6010d/sg6010d-robot-joint-actuator-front-angle.webp" /></p>
@@ -4941,7 +4994,8 @@
 <p>The photographs show a driver-equipped product configuration. Final driver, encoder, connector and cable configuration must be confirmed in the quotation.</p>
 <h2 id="public-engineering-resources">Public Engineering Resources<a class="headerlink" href="#public-engineering-resources" title="Permanent link">&para;</a></h2>
 <p><a class="md-button md-button--primary" href="../../../engineering-resources/sg6010d/datasheet/">SG-6010D Technical Datasheet v1.0</a>
-<a class="md-button" href="../../../engineering-resources/sg6010d/mechanical-interface/">Mechanical Interface Reference v1.0</a></p>
+<a class="md-button" href="../../../engineering-resources/sg6010d/mechanical-interface/">Mechanical Interface Reference v1.0</a>
+<a class="md-button" href="../../../engineering-resources/sg6010d/driver-communication/">Driver and Communication Reference v1.0</a></p>
 <h2 id="cad-and-technical-files">CAD and Technical Files<a class="headerlink" href="#cad-and-technical-files" title="Permanent link">&para;</a></h2>
 <p>A public STEP model is not currently released in this repository for SG-6010D. Detailed STEP models, controlled drawings and configuration-specific integration files are available after application review and inquiry.</p>
 <h2 id="selection-information-required">Selection Information Required<a class="headerlink" href="#selection-information-required" title="Permanent link">&para;</a></h2>

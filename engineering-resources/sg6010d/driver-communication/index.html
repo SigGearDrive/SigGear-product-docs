@@ -6,32 +6,32 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Custom precision transmission engineering, miniature planetary gearboxes and gearheads, cycloidal reducers, gear motors and robot joint actuators from SigGear.">
+        <meta name="description" content="Confirmed driver-equipped SG-6010D reference covering encoder, CAN, CANopen, RS485 Modbus RTU, control modes and key driver limits.">
       
       
       
-        <link rel="canonical" href="https://siggeardrive.github.io/SigGear-product-docs/applications/agriculture-outdoor-equipment-gear-motors/">
+        <link rel="canonical" href="https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/sg6010d/driver-communication/">
       
       
-        <link rel="prev" href="../access-control-smart-lock-security-gear-motors/">
+        <link rel="prev" href="../mechanical-interface/">
       
       
-        <link rel="next" href="../agv-amr-wheel-drive-gearboxes/">
+        <link rel="next" href="../../sg8021/datasheet/">
       
       
         
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
-        <title>Agriculture and Outdoor Equipment Gear Motors - SigGear Product Documentation</title>
+        <title>SG-6010D Driver and Communication | CAN, CANopen, RS485, Control Modes | SigGear - SigGear Product Documentation</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
       
       
 
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#agriculture-and-outdoor-equipment-gear-motors" class="md-skip">
+        <a href="#sg-6010d-driver-and-communication-reference-v10" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +94,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="SigGear Product Documentation" class="md-header__button md-logo" aria-label="SigGear Product Documentation" data-md-component="logo">
+    <a href="../../.." title="SigGear Product Documentation" class="md-header__button md-logo" aria-label="SigGear Product Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Agriculture and Outdoor Equipment Gear Motors
+              SG-6010D Driver and Communication | CAN, CANopen, RS485, Control Modes | SigGear
             
           </span>
         </div>
@@ -206,7 +206,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="SigGear Product Documentation" class="md-nav__button md-logo" aria-label="SigGear Product Documentation" data-md-component="logo">
+    <a href="../../.." title="SigGear Product Documentation" class="md-nav__button md-logo" aria-label="SigGear Product Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -236,7 +236,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -315,7 +315,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../company/about-siggear/" class="md-nav__link">
+      <a href="../../../company/about-siggear/" class="md-nav__link">
         
   
   
@@ -343,7 +343,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../company/certifications/" class="md-nav__link">
+      <a href="../../../company/certifications/" class="md-nav__link">
         
   
   
@@ -430,7 +430,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../custom-engineering/" class="md-nav__link">
+      <a href="../../../custom-engineering/" class="md-nav__link">
         
   
   
@@ -458,7 +458,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../custom-engineering/custom-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../custom-engineering/custom-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -486,7 +486,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../custom-engineering/custom-cycloidal-transmission/" class="md-nav__link">
+      <a href="../../../custom-engineering/custom-cycloidal-transmission/" class="md-nav__link">
         
   
   
@@ -514,7 +514,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../custom-engineering/motor-gearbox-integration/" class="md-nav__link">
+      <a href="../../../custom-engineering/motor-gearbox-integration/" class="md-nav__link">
         
   
   
@@ -542,7 +542,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../custom-engineering/robot-joint-actuator-development/" class="md-nav__link">
+      <a href="../../../custom-engineering/robot-joint-actuator-development/" class="md-nav__link">
         
   
   
@@ -570,7 +570,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../custom-engineering/prototype-to-production/" class="md-nav__link">
+      <a href="../../../custom-engineering/prototype-to-production/" class="md-nav__link">
         
   
   
@@ -657,7 +657,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/" class="md-nav__link">
+      <a href="../../../products/" class="md-nav__link">
         
   
   
@@ -734,7 +734,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/robot-joint-actuators/" class="md-nav__link">
+      <a href="../../../products/robot-joint-actuators/" class="md-nav__link">
         
   
   
@@ -762,7 +762,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/robot-joint-actuators/sg6010c/" class="md-nav__link">
+      <a href="../../../products/robot-joint-actuators/sg6010c/" class="md-nav__link">
         
   
   
@@ -790,7 +790,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/robot-joint-actuators/sg6010d/" class="md-nav__link">
+      <a href="../../../products/robot-joint-actuators/sg6010d/" class="md-nav__link">
         
   
   
@@ -818,7 +818,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/robot-joint-actuators/sg8021/" class="md-nav__link">
+      <a href="../../../products/robot-joint-actuators/sg8021/" class="md-nav__link">
         
   
   
@@ -903,7 +903,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/hub-gear-motors/" class="md-nav__link">
+      <a href="../../../products/hub-gear-motors/" class="md-nav__link">
         
   
   
@@ -931,7 +931,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/hub-gear-motors/sg2877/" class="md-nav__link">
+      <a href="../../../products/hub-gear-motors/sg2877/" class="md-nav__link">
         
   
   
@@ -959,7 +959,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/hub-gear-motors/sg2878/" class="md-nav__link">
+      <a href="../../../products/hub-gear-motors/sg2878/" class="md-nav__link">
         
   
   
@@ -1044,7 +1044,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/cycloidal-joint-modules/" class="md-nav__link">
+      <a href="../../../products/cycloidal-joint-modules/" class="md-nav__link">
         
   
   
@@ -1072,7 +1072,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/cycloidal-joint-modules/cpm78-39/" class="md-nav__link">
+      <a href="../../../products/cycloidal-joint-modules/cpm78-39/" class="md-nav__link">
         
   
   
@@ -1100,7 +1100,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/cycloidal-joint-modules/cpm80-25/" class="md-nav__link">
+      <a href="../../../products/cycloidal-joint-modules/cpm80-25/" class="md-nav__link">
         
   
   
@@ -1128,7 +1128,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/cycloidal-joint-modules/cpm100-25/" class="md-nav__link">
+      <a href="../../../products/cycloidal-joint-modules/cpm100-25/" class="md-nav__link">
         
   
   
@@ -1213,7 +1213,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/" class="md-nav__link">
         
   
   
@@ -1241,7 +1241,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/8-42mm-planetary-gear-reducer/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/8-42mm-planetary-gear-reducer/" class="md-nav__link">
         
   
   
@@ -1269,7 +1269,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/8p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/8p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1297,7 +1297,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/10p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/10p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1325,7 +1325,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/12p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/12p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1353,7 +1353,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/14p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/14p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1381,7 +1381,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/16p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/16p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1409,7 +1409,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/20p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/20p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1437,7 +1437,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/22p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/22p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1465,7 +1465,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/24p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/24p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1493,7 +1493,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/28p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/28p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1521,7 +1521,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/32p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/32p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1549,7 +1549,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/36p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/36p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1577,7 +1577,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/42p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/42p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1662,7 +1662,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/micro-gear-motors/" class="md-nav__link">
+      <a href="../../../products/micro-gear-motors/" class="md-nav__link">
         
   
   
@@ -1747,7 +1747,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/flat-bldc-motors/" class="md-nav__link">
+      <a href="../../../products/flat-bldc-motors/" class="md-nav__link">
         
   
   
@@ -1787,8 +1787,6 @@
       
   
   
-    
-  
   
   
     
@@ -1801,11 +1799,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
@@ -1826,7 +1824,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1844,7 +1842,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../../applications/" class="md-nav__link">
         
   
   
@@ -1872,7 +1870,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../access-control-smart-lock-security-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/access-control-smart-lock-security-gear-motors/" class="md-nav__link">
         
   
   
@@ -1897,37 +1895,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Agriculture and Outdoor Equipment Gear Motors
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../applications/agriculture-outdoor-equipment-gear-motors/" class="md-nav__link">
         
   
   
@@ -1943,280 +1914,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#application-overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Application Overview
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#important-application-boundary" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Important Application Boundary
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#key-selection-factors" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Key Selection Factors
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#common-agriculture-and-outdoor-equipment-use-cases" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Common Agriculture and Outdoor Equipment Use Cases
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Common Agriculture and Outdoor Equipment Use Cases">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#seed-feed-and-fertilizer-metering" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Seed, Feed and Fertilizer Metering
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#greenhouse-and-irrigation-mechanisms" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Greenhouse and Irrigation Mechanisms
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#livestock-and-feeding-equipment" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Livestock and Feeding Equipment
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#outdoor-cabinets-covers-and-service-doors" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Outdoor Cabinets, Covers and Service Doors
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#small-conveyors-and-product-handling" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Small Conveyors and Product Handling
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sensor-camera-and-sprayer-positioning" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Sensor, Camera and Sprayer Positioning
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#flaps-dampers-gates-and-valves" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Flaps, Dampers, Gates and Valves
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#torque-speed-and-mechanism-review" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Torque, Speed and Mechanism Review
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#voltage-current-and-control-review" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Voltage, Current and Control Review
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#environmental-and-reliability-review" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Environmental and Reliability Review
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#output-shaft-mounting-and-load-support" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Output Shaft, Mounting and Load Support
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#candidate-siggear-product-families" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Candidate SigGear Product Families
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Candidate SigGear Product Families">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#micro-gear-motors" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Micro Gear Motors
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#8-42-mm-planetary-gearboxes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        8-42 mm Planetary Gearboxes
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#flat-bldc-motors-and-joint-drives" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Flat BLDC Motors and Joint Drives
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#prototype-and-customization-support" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Prototype and Customization Support
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#information-needed-for-agriculture-or-outdoor-equipment-review" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Information Needed for Agriculture or Outdoor Equipment Review
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#request-an-agriculture-or-outdoor-equipment-gear-motor-review" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Request an Agriculture or Outdoor Equipment Gear Motor Review
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -2229,7 +1926,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../agv-amr-wheel-drive-gearboxes/" class="md-nav__link">
+      <a href="../../../applications/agv-amr-wheel-drive-gearboxes/" class="md-nav__link">
         
   
   
@@ -2257,7 +1954,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../automotive-vehicle-small-motion-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/automotive-vehicle-small-motion-gear-motors/" class="md-nav__link">
         
   
   
@@ -2285,7 +1982,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../consumer-appliance-home-device-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/consumer-appliance-home-device-gear-motors/" class="md-nav__link">
         
   
   
@@ -2313,7 +2010,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../electric-curtain-blind-window-opener-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/electric-curtain-blind-window-opener-gear-motors/" class="md-nav__link">
         
   
   
@@ -2341,7 +2038,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../energy-battery-charging-equipment-actuators/" class="md-nav__link">
+      <a href="../../../applications/energy-battery-charging-equipment-actuators/" class="md-nav__link">
         
   
   
@@ -2369,7 +2066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../exoskeleton-joint-actuators/" class="md-nav__link">
+      <a href="../../../applications/exoskeleton-joint-actuators/" class="md-nav__link">
         
   
   
@@ -2397,7 +2094,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../food-beverage-coffee-equipment-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/food-beverage-coffee-equipment-gear-motors/" class="md-nav__link">
         
   
   
@@ -2425,7 +2122,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../furniture-seating-adjustable-mechanism-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/furniture-seating-adjustable-mechanism-gear-motors/" class="md-nav__link">
         
   
   
@@ -2453,7 +2150,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../humanoid-robot-joint-actuators/" class="md-nav__link">
+      <a href="../../../applications/humanoid-robot-joint-actuators/" class="md-nav__link">
         
   
   
@@ -2481,7 +2178,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hvac-smart-vent-damper-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/hvac-smart-vent-damper-gear-motors/" class="md-nav__link">
         
   
   
@@ -2509,7 +2206,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../industrial-automation-servo-planetary-gearboxes/" class="md-nav__link">
+      <a href="../../../applications/industrial-automation-servo-planetary-gearboxes/" class="md-nav__link">
         
   
   
@@ -2537,7 +2234,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../laboratory-automation-diagnostic-equipment-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/laboratory-automation-diagnostic-equipment-gear-motors/" class="md-nav__link">
         
   
   
@@ -2565,7 +2262,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../medical-device-micro-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/medical-device-micro-gear-motors/" class="md-nav__link">
         
   
   
@@ -2593,7 +2290,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../micro-robotics-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/micro-robotics-gear-motors/" class="md-nav__link">
         
   
   
@@ -2621,7 +2318,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../office-automation-business-equipment-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/office-automation-business-equipment-gear-motors/" class="md-nav__link">
         
   
   
@@ -2649,7 +2346,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../optical-imaging-camera-module-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/optical-imaging-camera-module-gear-motors/" class="md-nav__link">
         
   
   
@@ -2677,7 +2374,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../packaging-labeling-conveyor-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/packaging-labeling-conveyor-gear-motors/" class="md-nav__link">
         
   
   
@@ -2705,7 +2402,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../precision-instruments-optical-mechanisms/" class="md-nav__link">
+      <a href="../../../applications/precision-instruments-optical-mechanisms/" class="md-nav__link">
         
   
   
@@ -2733,7 +2430,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../pump-valve-fluid-control-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/pump-valve-fluid-control-gear-motors/" class="md-nav__link">
         
   
   
@@ -2761,7 +2458,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../quadruped-robot-joint-gearboxes/" class="md-nav__link">
+      <a href="../../../applications/quadruped-robot-joint-gearboxes/" class="md-nav__link">
         
   
   
@@ -2789,7 +2486,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../robotic-arm-joint-actuators/" class="md-nav__link">
+      <a href="../../../applications/robotic-arm-joint-actuators/" class="md-nav__link">
         
   
   
@@ -2817,7 +2514,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../robot-gripper-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/robot-gripper-gear-motors/" class="md-nav__link">
         
   
   
@@ -2845,7 +2542,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../semiconductor-electronics-inspection-equipment-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/semiconductor-electronics-inspection-equipment-gear-motors/" class="md-nav__link">
         
   
   
@@ -2873,7 +2570,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../smart-hardware-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/smart-hardware-gear-motors/" class="md-nav__link">
         
   
   
@@ -2901,7 +2598,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stage-lighting-display-signage-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/stage-lighting-display-signage-gear-motors/" class="md-nav__link">
         
   
   
@@ -2929,7 +2626,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vending-dispensing-kiosk-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/vending-dispensing-kiosk-gear-motors/" class="md-nav__link">
         
   
   
@@ -3016,7 +2713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../selection-guides/" class="md-nav__link">
+      <a href="../../../selection-guides/" class="md-nav__link">
         
   
   
@@ -3044,7 +2741,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../selection-guides/robot-joint-actuator-selection-guide/" class="md-nav__link">
+      <a href="../../../selection-guides/robot-joint-actuator-selection-guide/" class="md-nav__link">
         
   
   
@@ -3131,7 +2828,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-center/" class="md-nav__link">
+      <a href="../../../engineering-center/" class="md-nav__link">
         
   
   
@@ -3159,7 +2856,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-center/sample-validation-workflow/" class="md-nav__link">
+      <a href="../../../engineering-center/sample-validation-workflow/" class="md-nav__link">
         
   
   
@@ -3187,7 +2884,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-center/design-in-checklist/" class="md-nav__link">
+      <a href="../../../engineering-center/design-in-checklist/" class="md-nav__link">
         
   
   
@@ -3219,8 +2916,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -3231,11 +2930,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
         
           
           <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
@@ -3256,7 +2955,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             
@@ -3323,7 +3022,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/sg6010c/datasheet/" class="md-nav__link">
+      <a href="../../sg6010c/datasheet/" class="md-nav__link">
         
   
   
@@ -3351,7 +3050,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/sg6010c/mechanical-interface/" class="md-nav__link">
+      <a href="../../sg6010c/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -3384,6 +3083,8 @@
                 
   
   
+    
+  
   
   
     
@@ -3393,11 +3094,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" checked>
         
           
           <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
@@ -3418,7 +3119,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_8_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -3436,7 +3137,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/sg6010d/datasheet/" class="md-nav__link">
+      <a href="../datasheet/" class="md-nav__link">
         
   
   
@@ -3464,7 +3165,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/sg6010d/mechanical-interface/" class="md-nav__link">
+      <a href="../mechanical-interface/" class="md-nav__link">
         
   
   
@@ -3489,10 +3190,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../engineering-resources/sg6010d/driver-communication/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Driver and Communication
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -3508,6 +3236,153 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#driver-electrical-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Driver Electrical Reference
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#confirmed-interfaces" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Confirmed Interfaces
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#confirmed-communication-protocols" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Confirmed Communication Protocols
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Confirmed Communication Protocols">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#can-simple" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CAN Simple
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#canopen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CANopen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rs485-modbus-rtu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RS485 / Modbus RTU
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#confirmed-control-modes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Confirmed Control Modes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#encoder-and-feedback" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Encoder and Feedback
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integration-boundary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integration Boundary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Related Resources
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#engineering-contact" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Engineering Contact
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -3577,7 +3452,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/sg8021/datasheet/" class="md-nav__link">
+      <a href="../../sg8021/datasheet/" class="md-nav__link">
         
   
   
@@ -3605,7 +3480,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/sg8021/mechanical-interface/" class="md-nav__link">
+      <a href="../../sg8021/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -3690,7 +3565,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/cpm78-39/datasheet/" class="md-nav__link">
+      <a href="../../cpm78-39/datasheet/" class="md-nav__link">
         
   
   
@@ -3718,7 +3593,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/cpm78-39/mechanical-interface/" class="md-nav__link">
+      <a href="../../cpm78-39/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -3803,7 +3678,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/cpm80-25/datasheet/" class="md-nav__link">
+      <a href="../../cpm80-25/datasheet/" class="md-nav__link">
         
   
   
@@ -3831,7 +3706,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/cpm80-25/mechanical-interface/" class="md-nav__link">
+      <a href="../../cpm80-25/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -3859,7 +3734,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/cpm80-25/performance-test-data/" class="md-nav__link">
+      <a href="../../cpm80-25/performance-test-data/" class="md-nav__link">
         
   
   
@@ -3944,7 +3819,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/cpm100-25/datasheet/" class="md-nav__link">
+      <a href="../../cpm100-25/datasheet/" class="md-nav__link">
         
   
   
@@ -3972,7 +3847,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/cpm100-25/mechanical-interface/" class="md-nav__link">
+      <a href="../../cpm100-25/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -4000,7 +3875,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/cpm100-25/dual-encoder-variant/" class="md-nav__link">
+      <a href="../../cpm100-25/dual-encoder-variant/" class="md-nav__link">
         
   
   
@@ -4085,7 +3960,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/32p/datasheet/" class="md-nav__link">
+      <a href="../../32p/datasheet/" class="md-nav__link">
         
   
   
@@ -4113,7 +3988,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/32p/mechanical-interface/" class="md-nav__link">
+      <a href="../../32p/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -4141,7 +4016,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/32p/motor-integration/" class="md-nav__link">
+      <a href="../../32p/motor-integration/" class="md-nav__link">
         
   
   
@@ -4236,7 +4111,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sales/" class="md-nav__link">
+      <a href="../../../sales/" class="md-nav__link">
         
   
   
@@ -4264,7 +4139,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sales/customer-qualification-checklist/" class="md-nav__link">
+      <a href="../../../sales/customer-qualification-checklist/" class="md-nav__link">
         
   
   
@@ -4292,7 +4167,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sales/inquiry-response-policy/" class="md-nav__link">
+      <a href="../../../sales/inquiry-response-policy/" class="md-nav__link">
         
   
   
@@ -4320,7 +4195,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sales/product-matching-workflow/" class="md-nav__link">
+      <a href="../../../sales/product-matching-workflow/" class="md-nav__link">
         
   
   
@@ -4348,7 +4223,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sales/quotation-readiness-checklist/" class="md-nav__link">
+      <a href="../../../sales/quotation-readiness-checklist/" class="md-nav__link">
         
   
   
@@ -4376,7 +4251,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sales/reply-templates/" class="md-nav__link">
+      <a href="../../../sales/reply-templates/" class="md-nav__link">
         
   
   
@@ -4463,7 +4338,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../knowledge-base/" class="md-nav__link">
+      <a href="../../../knowledge-base/" class="md-nav__link">
         
   
   
@@ -4491,7 +4366,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../knowledge-base/documentation-policy/" class="md-nav__link">
+      <a href="../../../knowledge-base/documentation-policy/" class="md-nav__link">
         
   
   
@@ -4519,7 +4394,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../knowledge-base/glossary/" class="md-nav__link">
+      <a href="../../../knowledge-base/glossary/" class="md-nav__link">
         
   
   
@@ -4547,7 +4422,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../knowledge-base/product-data-dictionary/" class="md-nav__link">
+      <a href="../../../knowledge-base/product-data-dictionary/" class="md-nav__link">
         
   
   
@@ -4575,7 +4450,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../knowledge-base/product-faq/" class="md-nav__link">
+      <a href="../../../knowledge-base/product-faq/" class="md-nav__link">
         
   
   
@@ -4603,7 +4478,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../knowledge-base/product-model-index/" class="md-nav__link">
+      <a href="../../../knowledge-base/product-model-index/" class="md-nav__link">
         
   
   
@@ -4631,7 +4506,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../knowledge-base/sales-usage-and-review-status/" class="md-nav__link">
+      <a href="../../../knowledge-base/sales-usage-and-review-status/" class="md-nav__link">
         
   
   
@@ -4659,7 +4534,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../knowledge-base/sales-usage-and-technical-review-status/" class="md-nav__link">
+      <a href="../../../knowledge-base/sales-usage-and-technical-review-status/" class="md-nav__link">
         
   
   
@@ -4687,7 +4562,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../knowledge-base/update-workflow/" class="md-nav__link">
+      <a href="../../../knowledge-base/update-workflow/" class="md-nav__link">
         
   
   
@@ -4722,7 +4597,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../request-cad-sample-quote/" class="md-nav__link">
+      <a href="../../../request-cad-sample-quote/" class="md-nav__link">
         
   
   
@@ -4749,7 +4624,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../contact/" class="md-nav__link">
+      <a href="../../../contact/" class="md-nav__link">
         
   
   
@@ -4796,10 +4671,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#application-overview" class="md-nav__link">
+  <a href="#driver-electrical-reference" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Application Overview
+        Driver Electrical Reference
       
     </span>
   </a>
@@ -4807,10 +4682,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#important-application-boundary" class="md-nav__link">
+  <a href="#confirmed-interfaces" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Important Application Boundary
+        Confirmed Interfaces
       
     </span>
   </a>
@@ -4818,33 +4693,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#key-selection-factors" class="md-nav__link">
+  <a href="#confirmed-communication-protocols" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Key Selection Factors
+        Confirmed Communication Protocols
       
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#common-agriculture-and-outdoor-equipment-use-cases" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Common Agriculture and Outdoor Equipment Use Cases
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Common Agriculture and Outdoor Equipment Use Cases">
+    <nav class="md-nav" aria-label="Confirmed Communication Protocols">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#seed-feed-and-fertilizer-metering" class="md-nav__link">
+  <a href="#can-simple" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Seed, Feed and Fertilizer Metering
+        CAN Simple
       
     </span>
   </a>
@@ -4852,10 +4716,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#greenhouse-and-irrigation-mechanisms" class="md-nav__link">
+  <a href="#canopen" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Greenhouse and Irrigation Mechanisms
+        CANopen
       
     </span>
   </a>
@@ -4863,54 +4727,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#livestock-and-feeding-equipment" class="md-nav__link">
+  <a href="#rs485-modbus-rtu" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Livestock and Feeding Equipment
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#outdoor-cabinets-covers-and-service-doors" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Outdoor Cabinets, Covers and Service Doors
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#small-conveyors-and-product-handling" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Small Conveyors and Product Handling
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sensor-camera-and-sprayer-positioning" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Sensor, Camera and Sprayer Positioning
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#flaps-dampers-gates-and-valves" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Flaps, Dampers, Gates and Valves
+        RS485 / Modbus RTU
       
     </span>
   </a>
@@ -4923,10 +4743,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#torque-speed-and-mechanism-review" class="md-nav__link">
+  <a href="#confirmed-control-modes" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Torque, Speed and Mechanism Review
+        Confirmed Control Modes
       
     </span>
   </a>
@@ -4934,10 +4754,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#voltage-current-and-control-review" class="md-nav__link">
+  <a href="#encoder-and-feedback" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Voltage, Current and Control Review
+        Encoder and Feedback
       
     </span>
   </a>
@@ -4945,10 +4765,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#environmental-and-reliability-review" class="md-nav__link">
+  <a href="#integration-boundary" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Environmental and Reliability Review
+        Integration Boundary
       
     </span>
   </a>
@@ -4956,10 +4776,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#output-shaft-mounting-and-load-support" class="md-nav__link">
+  <a href="#related-resources" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Output Shaft, Mounting and Load Support
+        Related Resources
       
     </span>
   </a>
@@ -4967,82 +4787,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#candidate-siggear-product-families" class="md-nav__link">
+  <a href="#engineering-contact" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Candidate SigGear Product Families
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Candidate SigGear Product Families">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#micro-gear-motors" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Micro Gear Motors
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#8-42-mm-planetary-gearboxes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        8-42 mm Planetary Gearboxes
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#flat-bldc-motors-and-joint-drives" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Flat BLDC Motors and Joint Drives
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#prototype-and-customization-support" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Prototype and Customization Support
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#information-needed-for-agriculture-or-outdoor-equipment-review" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Information Needed for Agriculture or Outdoor Equipment Review
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#request-an-agriculture-or-outdoor-equipment-gear-motor-review" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Request an Agriculture or Outdoor Equipment Gear Motor Review
+        Engineering Contact
       
     </span>
   </a>
@@ -5069,220 +4817,157 @@
   
 
 
-<h1 id="agriculture-and-outdoor-equipment-gear-motors">Agriculture and Outdoor Equipment Gear Motors<a class="headerlink" href="#agriculture-and-outdoor-equipment-gear-motors" title="Permanent link">&para;</a></h1>
-<h2 id="application-overview">Application Overview<a class="headerlink" href="#application-overview" title="Permanent link">&para;</a></h2>
-<p>Agriculture equipment, outdoor machines and field-service devices often use small gear motors and compact reducers for adjustment, feeding, metering, dispensing, valve actuation, cover movement, sensor positioning, latch movement, small conveyor motion and auxiliary mechanism control. These applications may require compact size, stable torque, low-voltage operation, corrosion-aware materials, dust resistance, moisture consideration and reliable performance under variable outdoor conditions.</p>
-<p>Unlike indoor consumer devices, agriculture and outdoor equipment may operate with soil, water, fertilizer, feed, dust, vibration, impact, temperature changes and irregular duty cycles. The correct gear motor should be selected from the actual mechanism load, mounting position, environmental exposure, power supply, control method and service-life target.</p>
-<p>SigGear can evaluate micro gear motors, compact planetary gearboxes, flat BLDC motors and customized motor/gearbox assemblies for agriculture, outdoor automation and field-device applications. Final model selection, sealing responsibility, full-device validation, environmental testing and production approval must be confirmed case by case.</p>
-<h2 id="important-application-boundary">Important Application Boundary<a class="headerlink" href="#important-application-boundary" title="Permanent link">&para;</a></h2>
-<p>Agriculture and outdoor equipment can involve water ingress, dust exposure, corrosion, chemical exposure, vibration, impact, animal contact, human safety, machinery safety, agricultural-machine regulations, electrical safety and customer-specific reliability standards. This page provides preliminary actuator-selection guidance only.</p>
-<p>Unless explicitly confirmed in writing, SigGear does not assume responsibility for:</p>
-<ul>
-<li>Full-machine safety certification</li>
-<li>Agricultural-machine regulatory approval</li>
-<li>Full-device IP-rating certification</li>
-<li>Chemical, fertilizer or pesticide compatibility validation</li>
-<li>Outdoor enclosure, cable gland or connector validation</li>
-<li>Human-contact, animal-contact or public-use safety approval</li>
-<li>Equipment-level electrical safety certification</li>
-<li>Final production approval for the customer device</li>
-</ul>
-<p>For outdoor or agriculture projects, share the installation environment, target validation standard, duty cycle, protection level, cable route, enclosure design, load data and annual quantity before quotation.</p>
-<h2 id="key-selection-factors">Key Selection Factors<a class="headerlink" href="#key-selection-factors" title="Permanent link">&para;</a></h2>
+<h1 id="sg-6010d-driver-and-communication-reference-v10">SG-6010D Driver and Communication Reference v1.0<a class="headerlink" href="#sg-6010d-driver-and-communication-reference-v10" title="Permanent link">&para;</a></h1>
+<p><strong>Status:</strong> Public engineering integration reference<br />
+<strong>Release date:</strong> 2026-10-06</p>
+<p>SigGear has confirmed that the current SG6010 driver platform documented in the SG6010 user manual applies to the <strong>driver-equipped SG-6010D configuration</strong>.</p>
+<p>This page summarizes the integration information that is suitable for public engineering evaluation. Firmware revision and ordered hardware configuration must still be confirmed before final integration.</p>
+<h2 id="driver-electrical-reference">Driver Electrical Reference<a class="headerlink" href="#driver-electrical-reference" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Requirement</th>
-<th>Why it matters</th>
+<th>Parameter</th>
+<th>Confirmed manual value</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Mechanism type</td>
-<td>Feeders, valves, shutters, gates, adjusters, covers and conveyors create different torque-speed profiles.</td>
+<td>Rated driver voltage</td>
+<td>15~48 V DC</td>
 </tr>
 <tr>
-<td>Load and friction</td>
-<td>Soil, feed, seed, fertilizer, dust and moisture can increase friction and stall load.</td>
+<td>Minimum / maximum driver voltage</td>
+<td>12/72 V DC</td>
 </tr>
 <tr>
-<td>Duty cycle</td>
-<td>Intermittent adjustment and continuous feeding require different thermal review.</td>
+<td>Rated current</td>
+<td>6 A</td>
 </tr>
 <tr>
-<td>Outdoor exposure</td>
-<td>Water, dust, sunlight, temperature and corrosion affect motor, gearbox, cable and connector choices.</td>
+<td>Maximum line current</td>
+<td>30 A</td>
 </tr>
 <tr>
-<td>Voltage and current</td>
-<td>Battery, solar, vehicle and DC power systems need current-limit review.</td>
+<td>Maximum phase current</td>
+<td>90 A</td>
 </tr>
 <tr>
-<td>Jam condition</td>
-<td>Blockage, debris, frozen material, overload and mechanical misalignment can stall the actuator.</td>
+<td>Standby power consumption</td>
+<td>&lt;10 mA</td>
 </tr>
 <tr>
-<td>Shaft load</td>
-<td>Gates, flaps, cams, screws and direct-mounted gears may create radial or axial load.</td>
+<td>CAN maximum bitrate</td>
+<td>1 Mbps</td>
 </tr>
 <tr>
-<td>Feedback requirement</td>
-<td>Position, homing, limit detection or current sensing may be required.</td>
+<td>USB Type-C rate</td>
+<td>10 Mbps</td>
 </tr>
 <tr>
-<td>Noise and vibration</td>
-<td>Some livestock, greenhouse and residential outdoor devices may require low-noise operation.</td>
+<td>Encoder resolution</td>
+<td>16-bit single-turn absolute</td>
 </tr>
 <tr>
-<td>Maintenance plan</td>
-<td>Field devices may require easy replacement, sealing review and service access.</td>
+<td>Driver operating temperature</td>
+<td>-20°C to 70°C</td>
+</tr>
+<tr>
+<td>Motor over-temperature alarm</td>
+<td>90°C, adjustable</td>
+</tr>
+<tr>
+<td>Driver over-temperature alarm</td>
+<td>90°C, adjustable</td>
 </tr>
 </tbody>
 </table>
-<h2 id="common-agriculture-and-outdoor-equipment-use-cases">Common Agriculture and Outdoor Equipment Use Cases<a class="headerlink" href="#common-agriculture-and-outdoor-equipment-use-cases" title="Permanent link">&para;</a></h2>
-<h3 id="seed-feed-and-fertilizer-metering">Seed, Feed and Fertilizer Metering<a class="headerlink" href="#seed-feed-and-fertilizer-metering" title="Permanent link">&para;</a></h3>
-<p>Planters, feeders, fertilizer dispensers and dosing devices may use compact gear motors to rotate augers, metering wheels, gates, small conveyors or dispensing drums. Provide material type, required feed rate, torque, speed, duty cycle, blockage condition, cleaning method and corrosion exposure.</p>
-<h3 id="greenhouse-and-irrigation-mechanisms">Greenhouse and Irrigation Mechanisms<a class="headerlink" href="#greenhouse-and-irrigation-mechanisms" title="Permanent link">&para;</a></h3>
-<p>Greenhouse vents, shading devices, small valves, dosing pumps, damper mechanisms and irrigation adjustment systems may require compact actuators with controlled motion and environmental resistance. Provide load, travel angle, stroke, speed, voltage, outdoor exposure, humidity, condensation, cleaning and feedback requirement.</p>
-<h3 id="livestock-and-feeding-equipment">Livestock and Feeding Equipment<a class="headerlink" href="#livestock-and-feeding-equipment" title="Permanent link">&para;</a></h3>
-<p>Automatic feeders, waterers, gates, dosing systems and small animal-care devices may use gear motors for material release, valve movement, cover motion, latch control or small conveying. Provide feed material, animal-contact condition, cleaning environment, duty cycle, jam risk, noise target and service-life requirement.</p>
-<h3 id="outdoor-cabinets-covers-and-service-doors">Outdoor Cabinets, Covers and Service Doors<a class="headerlink" href="#outdoor-cabinets-covers-and-service-doors" title="Permanent link">&para;</a></h3>
-<p>Charging cabinets, battery cabinets, field-control boxes, irrigation controllers, farm equipment covers and outdoor service panels may require compact gear motors for cover movement, latch release, lock assistance or airflow damper control. Provide door size, seal force, wind exposure, latch geometry, ingress exposure and manual override requirement.</p>
-<h3 id="small-conveyors-and-product-handling">Small Conveyors and Product Handling<a class="headerlink" href="#small-conveyors-and-product-handling" title="Permanent link">&para;</a></h3>
-<p>Agriculture sorting devices, seed counters, compact grading systems, inspection conveyors and outdoor material-transfer equipment may use gear motors for belt, roller or feeder motion. Provide material weight, belt width, roller diameter, speed, start-stop cycle, slope, contamination exposure and jam condition.</p>
-<h3 id="sensor-camera-and-sprayer-positioning">Sensor, Camera and Sprayer Positioning<a class="headerlink" href="#sensor-camera-and-sprayer-positioning" title="Permanent link">&para;</a></h3>
-<p>Outdoor sensors, agricultural cameras, sprayer nozzles, light devices and monitoring equipment may use gear motors for small-angle adjustment, pan-and-tilt motion, cover movement or calibration axes. Provide payload, motion range, backlash requirement, holding requirement, vibration exposure, weather exposure and feedback need.</p>
-<h3 id="flaps-dampers-gates-and-valves">Flaps, Dampers, Gates and Valves<a class="headerlink" href="#flaps-dampers-gates-and-valves" title="Permanent link">&para;</a></h3>
-<p>Small outdoor machines often use compact actuators to move flaps, dampers, air-control plates, water valves, small gates, release doors or diverters. Provide torque or force requirement, rotation angle, sealing force, pressure, flow condition, environmental exposure and fail-safe or manual override requirement.</p>
-<h2 id="torque-speed-and-mechanism-review">Torque, Speed and Mechanism Review<a class="headerlink" href="#torque-speed-and-mechanism-review" title="Permanent link">&para;</a></h2>
-<p>Outdoor and agriculture mechanisms should be reviewed under worst-case load, not only under clean indoor test conditions. Soil, feed, grain, dust, moisture, corrosion, cold temperature and debris can increase friction and starting torque.</p>
-<p>Provide:</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>These are driver-platform limits and are not a substitute for the SG-6010D actuator operating limits, current limits, torque limits or thermal validation for a specific application.</p>
+</div>
+<h2 id="confirmed-interfaces">Confirmed Interfaces<a class="headerlink" href="#confirmed-interfaces" title="Permanent link">&para;</a></h2>
+<p>The driver platform includes or supports:</p>
 <ul>
-<li>Equipment type and actuator position</li>
-<li>Mechanism type</li>
-<li>Required continuous torque</li>
-<li>Required peak torque and peak duration</li>
-<li>Required output speed or travel time</li>
-<li>Stroke length or rotation angle</li>
-<li>Gear ratio if already specified</li>
-<li>Load material and estimated resistance</li>
-<li>Jam, blockage or overload condition</li>
-<li>Operating direction and duty cycle</li>
-<li>Required lifetime cycles or service hours</li>
+<li>Power + CAN integrated connector</li>
+<li>USB Type-C debugging / host communication</li>
+<li>Second encoder interface using I2C or UART</li>
+<li>SWD programming / debugging</li>
+<li>Motor temperature input</li>
+<li>Brake / braking-resistor interface</li>
+<li>Minimum / maximum limit-switch inputs</li>
+<li>Expansion interface for additional functions</li>
 </ul>
-<p>When load data is not available, provide drawings, prototype videos, measured current curves, manual force measurements or test data from the existing mechanism.</p>
-<h2 id="voltage-current-and-control-review">Voltage, Current and Control Review<a class="headerlink" href="#voltage-current-and-control-review" title="Permanent link">&para;</a></h2>
-<p>Agriculture and outdoor equipment may be powered by batteries, solar systems, vehicle power, DC adapters or control cabinets. Current limit and starting torque should be reviewed together.</p>
-<p>Clarify:</p>
+<p>The expansion slot can support additional interfaces such as RS485 and other project-specific expansion hardware. EtherCAT remains subject to project configuration and confirmation.</p>
+<h2 id="confirmed-communication-protocols">Confirmed Communication Protocols<a class="headerlink" href="#confirmed-communication-protocols" title="Permanent link">&para;</a></h2>
+<h3 id="can-simple">CAN Simple<a class="headerlink" href="#can-simple" title="Permanent link">&para;</a></h3>
+<p>The SG6010 driver manual documents the CAN Simple protocol with:</p>
 <ul>
-<li>Nominal operating voltage</li>
-<li>Minimum and maximum voltage range</li>
-<li>Power source type</li>
-<li>Peak current limit</li>
-<li>Continuous current limit</li>
-<li>Driver supplied by customer or by SigGear</li>
-<li>Control method</li>
-<li>Feedback, limit switch or homing requirement</li>
-<li>Stall or jam detection method</li>
-<li>Reverse operation requirement</li>
-<li>Power-off holding requirement</li>
+<li>Standard 11-bit CAN ID</li>
+<li>8-byte data frame</li>
+<li>Configurable node ID</li>
+<li>Configurable CAN bitrate</li>
+<li>Factory default CAN bitrate documented as 500 kbps</li>
+<li>Maximum CAN bitrate documented as 1 Mbps</li>
 </ul>
-<p>Do not assume encoder, brake, closed-loop control, CAN, RS485 or another protocol unless it is included in the selected motor and driver configuration.</p>
-<h2 id="environmental-and-reliability-review">Environmental and Reliability Review<a class="headerlink" href="#environmental-and-reliability-review" title="Permanent link">&para;</a></h2>
-<p>Outdoor and agriculture devices need realistic validation. The same motor may perform differently when exposed to dust, moisture, cleaning, fertilizer, vibration, shock, temperature changes or long idle periods.</p>
-<p>Provide:</p>
+<h3 id="canopen">CANopen<a class="headerlink" href="#canopen" title="Permanent link">&para;</a></h3>
+<p>The same driver platform supports CANopen and the manual documents implementation against:</p>
 <ul>
-<li>Indoor, greenhouse, outdoor or vehicle-mounted use</li>
-<li>Dust, soil, sand or feed-powder exposure</li>
-<li>Splash, rain, humidity or condensation exposure</li>
-<li>Cleaning method</li>
-<li>Fertilizer, pesticide, salt, oil or chemical exposure</li>
-<li>Operating temperature range</li>
-<li>Storage temperature range</li>
-<li>Vibration or impact exposure</li>
-<li>Expected cycles per day or operating hours</li>
-<li>Required service life</li>
-<li>Maintenance and replacement plan</li>
+<li>CiA301</li>
+<li>CiA302</li>
+<li>CiA402</li>
 </ul>
-<p>Full-device sealing and outdoor validation should be confirmed by the equipment manufacturer. Motor, gearbox, cable and connector configuration can be reviewed after the environment is defined.</p>
-<h2 id="output-shaft-mounting-and-load-support">Output Shaft, Mounting and Load Support<a class="headerlink" href="#output-shaft-mounting-and-load-support" title="Permanent link">&para;</a></h2>
-<p>Outdoor mechanisms may impose heavy radial, axial or impact loads on a small gearbox if the output shaft directly supports a gate, flap, pulley, sprocket, cam, screw, auger or lever. External support should be considered early.</p>
-<p>Provide:</p>
+<p>An EDS file is used for CANopen integration. Firmware / EDS revision must be matched to the delivered driver.</p>
+<h3 id="rs485-modbus-rtu">RS485 / Modbus RTU<a class="headerlink" href="#rs485-modbus-rtu" title="Permanent link">&para;</a></h3>
+<p>RS485 with Modbus RTU is supported on the confirmed SG6010 driver platform when the corresponding RS485 interface / expansion configuration is supplied.</p>
+<p>The manual documents up to 115200 bps for the RS485 implementation.</p>
+<h2 id="confirmed-control-modes">Confirmed Control Modes<a class="headerlink" href="#confirmed-control-modes" title="Permanent link">&para;</a></h2>
+<p>The driver platform supports:</p>
 <ul>
-<li>Output shaft shape and length</li>
-<li>D-cut, spline, keyway, gear, pulley, sprocket, worm, screw or custom shaft requirement</li>
-<li>Load direction</li>
-<li>Distance from load point to gearbox face</li>
-<li>Radial and axial load estimates</li>
-<li>Shock, jam or impact condition</li>
-<li>Flange and mounting hole requirement</li>
-<li>Cable exit direction</li>
-<li>Connector or wire harness requirement</li>
-<li>External bearing or support method</li>
+<li>Position control</li>
+<li>Velocity control</li>
+<li>Torque control</li>
+<li>MIT-style motion control</li>
 </ul>
-<p>External support bearings are recommended when the mechanism creates significant cantilevered load, shock load, axial thrust or jam load.</p>
-<h2 id="candidate-siggear-product-families">Candidate SigGear Product Families<a class="headerlink" href="#candidate-siggear-product-families" title="Permanent link">&para;</a></h2>
-<h3 id="micro-gear-motors">Micro Gear Motors<a class="headerlink" href="#micro-gear-motors" title="Permanent link">&para;</a></h3>
-<p><a href="../../products/micro-gear-motors/">Micro Gear Motors</a> are a starting point for small agriculture devices, feeders, valves, gates, covers, sensor adjustment, compact conveyors and low-voltage outdoor mechanisms. SigGear can evaluate miniature planetary gear motors, custom shafts, flanges, cable exits, connectors and optional feedback after engineering review.</p>
-<h3 id="8-42-mm-planetary-gearboxes">8-42 mm Planetary Gearboxes<a class="headerlink" href="#8-42-mm-planetary-gearboxes" title="Permanent link">&para;</a></h3>
-<p>The <a href="../../products/planetary-gearboxes/8-42mm-planetary-gear-reducer/">8-42 mm planetary gearbox series</a> can be reviewed for compact transmission needs when ratio, torque, size and mounting requirements are defined. Final performance depends on frame size, gear stage, material configuration and operating conditions.</p>
-<h3 id="flat-bldc-motors-and-joint-drives">Flat BLDC Motors and Joint Drives<a class="headerlink" href="#flat-bldc-motors-and-joint-drives" title="Permanent link">&para;</a></h3>
-<p>For low-profile equipment, sensor positioning, compact rotary actuators or limited axial space, <a href="../../products/flat-bldc-motors/">Flat BLDC Motors and Joint Drives</a> may be reviewed together with gearbox or actuator requirements.</p>
-<h2 id="prototype-and-customization-support">Prototype and Customization Support<a class="headerlink" href="#prototype-and-customization-support" title="Permanent link">&para;</a></h2>
-<p>Depending on project scope, SigGear can evaluate:</p>
+<p>The manual further documents filtered / trajectory / circular position modes, direct / ramped velocity control and direct / ramped torque control.</p>
+<h2 id="encoder-and-feedback">Encoder and Feedback<a class="headerlink" href="#encoder-and-feedback" title="Permanent link">&para;</a></h2>
+<p>The driver platform uses a 16-bit single-turn absolute magnetic encoder in the driver-equipped configuration.</p>
+<p>The second-encoder interface can communicate through:</p>
 <ul>
-<li>Gear ratio selection</li>
-<li>Motor and gearbox matching</li>
-<li>Output shaft customization</li>
-<li>Flange and mounting customization</li>
-<li>Cable and connector customization</li>
-<li>Low-voltage motor configuration</li>
-<li>Feedback or sensor integration after review</li>
-<li>Low-noise configuration review</li>
-<li>Outdoor-use configuration review</li>
-<li>Customer branding and labeling</li>
-<li>Prototype support before production planning</li>
+<li>I2C</li>
+<li>UART</li>
 </ul>
-<p>Outdoor and agriculture projects may require additional review of sealing expectations, materials, cable routing, connector selection, vibration, corrosion, cleaning exposure, inspection requirements and long-term supply planning.</p>
-<h2 id="information-needed-for-agriculture-or-outdoor-equipment-review">Information Needed for Agriculture or Outdoor Equipment Review<a class="headerlink" href="#information-needed-for-agriculture-or-outdoor-equipment-review" title="Permanent link">&para;</a></h2>
-<p>Please provide one requirement set for each actuator position.</p>
-<p>Provide:</p>
+<p>Final second-encoder hardware, mounting and firmware configuration must be confirmed for the order.</p>
+<h2 id="integration-boundary">Integration Boundary<a class="headerlink" href="#integration-boundary" title="Permanent link">&para;</a></h2>
+<p>Before final integration, confirm:</p>
 <ul>
-<li>Equipment type and actuator function</li>
-<li>Mechanism type</li>
-<li>Prototype, test fixture or production-use target</li>
-<li>Required torque or force</li>
-<li>Peak torque and peak duration</li>
-<li>Required output speed or travel time</li>
-<li>Stroke length or rotation angle</li>
-<li>Gear ratio if known</li>
-<li>Maximum diameter and length</li>
-<li>Operating voltage and current limit</li>
-<li>Power source type</li>
-<li>Indoor, greenhouse, outdoor or vehicle-mounted environment</li>
-<li>Dust, water, fertilizer, pesticide, salt or cleaning exposure</li>
-<li>Operating temperature range</li>
-<li>Motor type preference</li>
-<li>Shaft, flange and mounting requirements</li>
-<li>Feedback, homing or limit-switch requirement</li>
-<li>Jam or stall-protection requirement</li>
-<li>Duty cycle and lifetime target</li>
-<li>Validation, documentation or inspection requirements</li>
-<li>Prototype quantity and estimated annual quantity</li>
-<li>Required customization or OEM branding</li>
+<li>Driver hardware revision</li>
+<li>Firmware revision</li>
+<li>CAN / CANopen / RS485 interface selected</li>
+<li>EDS / endpoint file matched to firmware</li>
+<li>Encoder configuration</li>
+<li>Brake / braking-resistor function</li>
+<li>Connector and cable set</li>
+<li>Current and speed limits</li>
+<li>Customer controller requirements</li>
 </ul>
-<h2 id="request-an-agriculture-or-outdoor-equipment-gear-motor-review">Request an Agriculture or Outdoor Equipment Gear Motor Review<a class="headerlink" href="#request-an-agriculture-or-outdoor-equipment-gear-motor-review" title="Permanent link">&para;</a></h2>
-<p>Send your agriculture, outdoor equipment, feeder, valve, cover, gate, conveyor or sensor-positioning actuator requirements to SigGear for preliminary model evaluation. Early requirements can be approximate, but load, torque or force, speed, size, voltage, current limit, environment, duty cycle, validation target and quantity are needed before a meaningful recommendation can be made.</p>
+<p><a class="md-button md-button--primary" href="../../../request-cad-sample-quote/">Request Integration Files</a></p>
+<h2 id="related-resources">Related Resources<a class="headerlink" href="#related-resources" title="Permanent link">&para;</a></h2>
+<p><a class="md-button" href="../datasheet/">SG-6010D Technical Datasheet</a>
+<a class="md-button" href="../mechanical-interface/">SG-6010D Mechanical Interface</a>
+<a class="md-button" href="../../../products/robot-joint-actuators/sg6010d/">SG-6010D Product Page</a></p>
+<h2 id="engineering-contact">Engineering Contact<a class="headerlink" href="#engineering-contact" title="Permanent link">&para;</a></h2>
 <p><strong>Wanrong Wang</strong><br />
-International Sales, SigGear<br />
-<a href="mailto:wangwanrong984@gmail.com">wangwanrong984@gmail.com</a></p>
-<p><a class="md-button md-button--primary" href="../../contact/">Send Agriculture or Outdoor Equipment Gear Motor Requirements</a></p>
+International Sales / Sales Engineer, SigGear<br />
+<a href="mailto:wangwanrong@siggear.com">wangwanrong@siggear.com</a></p>
 
 
 
 
 
 
+
+  
+  
 
 
 
@@ -5418,12 +5103,12 @@ International Sales, SigGear<br />
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
-        <script src="../../assets/javascripts/analytics-events.js"></script>
+        <script src="../../../assets/javascripts/analytics-events.js"></script>
       
     
   </body>
