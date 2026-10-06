@@ -10,6 +10,7 @@ from datetime import date
 from pathlib import Path
 from xml.etree import ElementTree
 
+# SEO validation covers build-time JSON-LD and sitemap freshness.
 SITE_DIR = Path("site")
 EXPECTED_BASE = "https://siggeardrive.github.io/SigGear-product-docs/"
 HOST_BASE = "https://siggeardrive.github.io/"
