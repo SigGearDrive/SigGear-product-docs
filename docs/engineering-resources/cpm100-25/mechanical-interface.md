@@ -23,6 +23,20 @@ This page provides the CPM-100-25 mechanical information that is already publish
 | Allowable radial force | 500 N |
 | Allowable axial force | 300 N |
 
+## Confirmed Dual-Encoder Mechanical Variant
+
+The controlled drawing code **SG2556D** has been confirmed as the CPM-100-25 dual-encoder variant.
+
+Its controlled envelope includes:
+
+- Maximum outer diameter: **100 mm**
+- Overall axial dimension: **48 mm**
+- Product weight: **853 g**
+
+This is not the same envelope as the current base public configuration of **29.5 mm / 630 g**.
+
+[View Dual Encoder Variant Reference](dual-encoder-variant.md){ .md-button }
+
 ## Configuration Considerations
 
 The public product page shows both:
