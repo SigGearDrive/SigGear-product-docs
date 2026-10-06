@@ -103,7 +103,42 @@
     }, 500);
   }
 
+  function trackCampaignLanding() {
+    try {
+      var params = new URLSearchParams(window.location.search);
+      var source = (params.get("utm_source") || "").toLowerCase();
+      var medium = (params.get("utm_medium") || "").toLowerCase();
+      var campaign = params.get("utm_campaign") || "";
+      var content = params.get("utm_content") || "";
+
+      if (!source) return;
+
+      sendEvent("campaign_landing", {
+        page_path: pagePath(),
+        utm_source: source,
+        utm_medium: medium,
+        utm_campaign: campaign,
+        utm_content: content,
+        referrer: document.referrer || ""
+      });
+
+      if (source === "youtube" || source === "instagram" || source === "tiktok") {
+        sendEvent("social_landing", {
+          page_path: pagePath(),
+          social_platform: source,
+          utm_medium: medium,
+          utm_campaign: campaign,
+          utm_content: content
+        });
+      }
+    } catch (e) {
+      // Ignore malformed campaign parameters.
+    }
+  }
+
   var path = pagePath();
+
+  trackCampaignLanding();
 
   if (path.endsWith("/request-cad-sample-quote/")) {
     sendEvent("inquiry_page_view", { page_path: path });
