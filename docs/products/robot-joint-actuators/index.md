@@ -5,9 +5,9 @@ description: Explore SigGear robot joint actuators and joint-drive reference pla
 
 # Robot Joint Actuators
 
-SigGear robot joint actuators combine precision transmission, BLDC motors, encoders and optional integrated control electronics. This product family is intended for robot joint applications where customers may need a complete actuator or a gearbox-centered joint drive for their own motor and control architecture.
+SigGear robot joint actuators include integrated planetary joint actuators, gearbox-centered joint-drive configurations and cycloidal joint modules for robotics applications. Depending on the selected platform, a project may use a complete actuator or integrate a SigGear gearbox with the customer's own motor, encoder and controller architecture.
 
-## Planetary Joint Actuators
+## Planetary Robot Joint Actuators and Gearbox Solutions
 
 ### SG-6010C
 
@@ -37,7 +37,7 @@ Cycloidal joint actuator pages are listed in the Cycloidal Joint Modules section
 
 For robot joint projects, the required level of integration can vary. Depending on the selected model and project requirements, SigGear can review complete actuator configurations as well as gearbox-centered solutions for customer-side motor, encoder or controller integration.
 
-Custom robot actuator requests may include mechanical interface, output shaft, housing, cable arrangement, reduction ratio and integration review. Feasibility and final specifications require engineering confirmation against the selected model, application loads, installation envelope and project quantity.
+Custom robot actuator requests may include mechanical interface, output shaft, housing, cable arrangement, reduction ratio and integration review. For projects that already use a customer motor or controller, SigGear can also evaluate a planetary reducer or actuator gearbox as the transmission core of the robot joint. Feasibility and final specifications require engineering confirmation against the selected model, application loads, installation envelope and project quantity.
 
 The published joint actuators are reference platforms rather than the only available project path. If a robot team has different torque, speed, size, motor, encoder, driver or mounting requirements, start with a custom engineering review.
 
