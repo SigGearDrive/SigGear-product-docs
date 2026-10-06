@@ -199,6 +199,9 @@ nav:
           - Technical Datasheet: engineering-resources/cpm80-25/datasheet.md
           - Mechanical Interface: engineering-resources/cpm80-25/mechanical-interface.md
           - Measured Performance Data: engineering-resources/cpm80-25/performance-test-data.md
+      - CPM-100-25:
+          - Technical Datasheet: engineering-resources/cpm100-25/datasheet.md
+          - Mechanical Interface: engineering-resources/cpm100-25/mechanical-interface.md
       - 32P:
           - Technical Datasheet: engineering-resources/32p/datasheet.md
           - Mechanical Interface: engineering-resources/32p/mechanical-interface.md
