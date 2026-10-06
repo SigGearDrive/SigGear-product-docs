@@ -24,15 +24,15 @@ published_specifications:
   allowable_radial_force: "500 N"
   allowable_axial_force: "300 N"
 published_variants:
-  dual_encoder_variant_code: "SG2556D"
-  dual_encoder_variant_outer_diameter: "100 mm"
-  dual_encoder_variant_axial_dimension: "48 mm"
-  dual_encoder_variant_rated_voltage: "DC 48V"
-  dual_encoder_variant_rated_speed: "60 RPM"
-  dual_encoder_variant_rated_torque: "25 Nm"
-  dual_encoder_variant_no_load_speed: "125±10% RPM"
-  dual_encoder_variant_no_load_current: "1.1 A"
-  dual_encoder_variant_weight: "853 g"
+  "Dual encoder variant code": "SG2556D"
+  "Dual encoder variant outer diameter": "100 mm"
+  "Dual encoder variant axial dimension": "48 mm"
+  "Dual encoder variant rated voltage": "DC 48V"
+  "Dual encoder variant rated speed": "60 RPM"
+  "Dual encoder variant rated torque": "25 Nm"
+  "Dual encoder variant no-load speed": "125±10% RPM"
+  "Dual encoder variant no-load current": "1.1 A"
+  "Dual encoder variant weight": "853 g"
 sales_usage:
   permitted:
     - preliminary_selection
