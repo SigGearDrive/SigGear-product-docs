@@ -116,6 +116,12 @@ def _breadcrumbs(page, config) -> dict | None:
     elif src.startswith("products/"):
         parts = src.split("/")
         items.append(_list_item(2, "Products", _absolute(config, "products/")))
+        if src == "products/index.md":
+            return {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": items,
+            }
         if len(parts) >= 3:
             category = parts[1]
             family = next((v for v in FAMILY_META.values() if v["url"] == f"products/{category}/"), None)
