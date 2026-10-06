@@ -7,7 +7,7 @@ product_family: robot_joint_actuator
 canonical_page: docs/products/robot-joint-actuators/sg6010d.md
 public_page_status: published
 record_status: published_inventory
-configuration_summary: Available with or without an integrated driver; control and communication functions depend on the selected configuration.
+configuration_summary: Available with or without an integrated driver; the confirmed SG6010 driver platform supports CAN Simple, CANopen and RS485 Modbus RTU on the matching interface configuration.
 published_specifications:
   transmission_structure: "Planetary gearbox"
   outer_diameter: "80.0 mm"
@@ -23,6 +23,11 @@ published_specifications:
   weight: "791 g"
   allowable_radial_force: "1000 N"
   allowable_axial_force: "400 N"
+published_variants:
+  driver_platform_protocols: "CAN Simple / CANopen / RS485 Modbus RTU"
+  driver_encoder_resolution: "16-bit single-turn absolute"
+  driver_rated_voltage: "15~48 V DC"
+  driver_can_max_bitrate: "1 Mbps"
 sales_usage:
   permitted:
     - preliminary_selection
@@ -30,7 +35,7 @@ sales_usage:
   requires_confirmation:
     - peak_torque_duration_and_duty_cycle
     - driver_and_encoder_configuration
-    - can_rs485_or_ethercat_configuration
+    - selected_can_canopen_or_rs485_configuration
     - control_modes_current_limits_and_firmware
     - connector_cable_and_pinout
     - final_mounting_interface_and_loads
@@ -42,8 +47,8 @@ technical_review:
   public_inventory_status: complete
   controlled_source_reference: not_recorded_in_public_repository
   technical_approval_status: not_recorded_in_public_repository
-  next_internal_action: reconcile_with_current_controlled_source
+  next_internal_action: monitor_driver_firmware_and_interface_revisions
 source_control:
   public_claim_source: canonical_page
   technical_source_status: not_recorded_in_public_repository
-inventory_checked_on: "2026-07-23"
+inventory_checked_on: "2026-10-06"
