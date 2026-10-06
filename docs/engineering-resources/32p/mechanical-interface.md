@@ -3,7 +3,9 @@ title: 32P Mechanical Interface | 4-Stage Planetary Gearbox CAD | SigGear
 description: Approved public mechanical interface for the SigGear 32P 32 mm planetary gearbox, including 4-stage CAD, output shaft and motor-side mounting references.
 ---
 
-# 32P Mechanical Interface v1.0
+# 32P Mechanical Interface
+
+**Controlled drawing code:** **SG01PD32** v1.0
 
 **Status:** Approved for Public  
 **Configuration represented by current CAD:** 4-stage reference  
@@ -94,3 +96,10 @@ Before final tooling or production release, confirm:
 
 [32P Technical Datasheet](datasheet.md){ .md-button }
 [Motor Integration Guide](motor-integration.md){ .md-button }
+
+
+## Controlled Full-Assembly CAD Status
+
+A detailed 32P full-assembly STEP has also been reviewed internally. It contains internal planetary transmission geometry and remains configuration-controlled / request-only.
+
+The existing public 4-stage STEP remains the approved simplified external-interface model for early packaging and design-in.
