@@ -12,7 +12,7 @@ Use this engineering guide to estimate robot joint torque, separate continuous a
 [Quadruped Robot Joint Guide](../applications/quadruped-robot-joint-gearboxes.md){ .md-button }
 [Exoskeleton Joint Guide](../applications/exoskeleton-joint-actuators.md){ .md-button }
 [Custom Robot Joint Development](../custom-engineering/robot-joint-actuator-development.md){ .md-button .md-button--primary }
-[View Joint Actuator Products](../products/robot-joint-actuators/index.md){ .md-button }
+[Browse Planetary & Cycloidal Robot Joint Actuators](../products/robot-joint-actuators/index.md){ .md-button }
 [Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
 
 ## Robot Joint Reducer Specifications to Compare
@@ -39,6 +39,13 @@ Do not transfer one model's torque, load, driver or encoder specification to ano
 
 [View Robot Joint Actuator Products](../products/robot-joint-actuators/index.md){ .md-button }
 [Custom Robot Joint Development](../custom-engineering/robot-joint-actuator-development.md){ .md-button .md-button--primary }
+
+## Looking for an Existing Robot Joint Actuator?
+
+If the joint torque, speed and approximate size are already known, review the published SigGear actuator platforms before starting a custom configuration.
+
+[Browse Robot Joint Actuators](../products/robot-joint-actuators/index.md){ .md-button .md-button--primary }
+[Custom Robot Joint Development](../custom-engineering/robot-joint-actuator-development.md){ .md-button }
 
 ## Quick Robot Joint Actuator Sizing Workflow
 
