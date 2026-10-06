@@ -6,17 +6,17 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Motor matching information for the SigGear 32P planetary gearbox, including adapted motor range, motor-side interface and the information required for a matched motor + gearbox assembly.">
+        <meta name="description" content="Public SG-8021 mechanical evaluation reference for envelope, load screening and controlled-drawing request before final robot-joint design-in.">
       
       
       
-        <link rel="canonical" href="https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/32p/motor-integration/">
+        <link rel="canonical" href="https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/sg8021/mechanical-interface/">
       
       
-        <link rel="prev" href="../mechanical-interface/">
+        <link rel="prev" href="../datasheet/">
       
       
-        <link rel="next" href="../../../sales/">
+        <link rel="next" href="../../cpm80-25/datasheet/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>32P Motor Integration Guide | Motor + Planetary Gearbox Matching | SigGear - SigGear Product Documentation</title>
+        <title>SG-8021 Mechanical Interface | Public Evaluation Reference | SigGear - SigGear Product Documentation</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#32p-motor-integration-guide" class="md-skip">
+        <a href="#sg-8021-mechanical-interface-v10" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              32P Motor Integration Guide | Motor + Planetary Gearbox Matching | SigGear
+              SG-8021 Mechanical Interface | Public Evaluation Reference | SigGear
             
           </span>
         </div>
@@ -3196,6 +3196,8 @@
                 
   
   
+    
+  
   
   
     
@@ -3205,11 +3207,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3" checked>
         
           
           <label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
@@ -3230,7 +3232,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_8_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -3248,7 +3250,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sg8021/datasheet/" class="md-nav__link">
+      <a href="../datasheet/" class="md-nav__link">
         
   
   
@@ -3273,10 +3275,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../sg8021/mechanical-interface/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mechanical Interface
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -3292,6 +3321,114 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#published-mechanical-envelope" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Published Mechanical Envelope
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#low-profile-packaging-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Low-Profile Packaging Reference
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#load-evaluation-boundary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Load Evaluation Boundary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exploded-structure-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exploded Structure Reference
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-in-boundary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Design-In Boundary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cad-and-controlled-drawing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CAD and Controlled Drawing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-resource" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Related Resource
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#engineering-contact" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Engineering Contact
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -3450,8 +3587,6 @@
                 
   
   
-    
-  
   
   
     
@@ -3461,11 +3596,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_5" >
         
           
           <label class="md-nav__link" for="__nav_8_5" id="__nav_8_5_label" tabindex="0">
@@ -3486,7 +3621,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_8_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -3504,7 +3639,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../datasheet/" class="md-nav__link">
+      <a href="../../32p/datasheet/" class="md-nav__link">
         
   
   
@@ -3532,7 +3667,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../mechanical-interface/" class="md-nav__link">
+      <a href="../../32p/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -3557,37 +3692,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Motor Integration Guide
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../32p/motor-integration/" class="md-nav__link">
         
   
   
@@ -3603,81 +3711,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#published-adapted-motor-range" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Published Adapted-Motor Range
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#current-32p-motor-side-interface-reference" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Current 32P Motor-Side Interface Reference
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#information-required-for-motor-matching" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Information Required for Motor Matching
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#integration-workflow" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Integration Workflow
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#related-resources" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Related Resources
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -4317,10 +4350,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#published-adapted-motor-range" class="md-nav__link">
+  <a href="#published-mechanical-envelope" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Published Adapted-Motor Range
+        Published Mechanical Envelope
       
     </span>
   </a>
@@ -4328,10 +4361,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#current-32p-motor-side-interface-reference" class="md-nav__link">
+  <a href="#low-profile-packaging-reference" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Current 32P Motor-Side Interface Reference
+        Low-Profile Packaging Reference
       
     </span>
   </a>
@@ -4339,10 +4372,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#information-required-for-motor-matching" class="md-nav__link">
+  <a href="#load-evaluation-boundary" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Information Required for Motor Matching
+        Load Evaluation Boundary
       
     </span>
   </a>
@@ -4350,10 +4383,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#integration-workflow" class="md-nav__link">
+  <a href="#exploded-structure-reference" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Integration Workflow
+        Exploded Structure Reference
       
     </span>
   </a>
@@ -4361,10 +4394,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#related-resources" class="md-nav__link">
+  <a href="#design-in-boundary" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Related Resources
+        Design-In Boundary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cad-and-controlled-drawing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CAD and Controlled Drawing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-resource" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Related Resource
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#engineering-contact" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Engineering Contact
       
     </span>
   </a>
@@ -4391,81 +4457,92 @@
   
 
 
-<h1 id="32p-motor-integration-guide">32P Motor Integration Guide<a class="headerlink" href="#32p-motor-integration-guide" title="Permanent link">&para;</a></h1>
-<p>The 32P Engineering Pack is centered on the gearbox platform, but SigGear can support three supply modes:</p>
-<ol>
-<li><strong>Planetary gearbox only</strong></li>
-<li><strong>Motor only</strong></li>
-<li><strong>Matched motor + gearbox assembly</strong></li>
-</ol>
-<h2 id="published-adapted-motor-range">Published Adapted-Motor Range<a class="headerlink" href="#published-adapted-motor-range" title="Permanent link">&para;</a></h2>
+<h1 id="sg-8021-mechanical-interface-v10">SG-8021 Mechanical Interface v1.0<a class="headerlink" href="#sg-8021-mechanical-interface-v10" title="Permanent link">&para;</a></h1>
+<p><strong>Status:</strong> Public engineering evaluation reference<br />
+<strong>Release date:</strong> 2026-10-06</p>
+<p>This page provides the SG-8021 mechanical information that is already published and suitable for early packaging and load evaluation.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This is not a manufacturing drawing. Detailed mounting-hole geometry, tolerances, datums, output-interface dimensions and connector clearances are not published here and must be confirmed from the controlled drawing for the ordered configuration.</p>
+</div>
+<h2 id="published-mechanical-envelope">Published Mechanical Envelope<a class="headerlink" href="#published-mechanical-envelope" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Parameter</th>
-<th>Published reference</th>
+<th>Item</th>
+<th>Published value</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Motor type</td>
-<td>DC motor</td>
+<td>Maximum body diameter</td>
+<td>100 mm</td>
 </tr>
 <tr>
-<td>Nominal voltage</td>
-<td>3-36 VDC</td>
+<td>Overall product thickness</td>
+<td>42.6 mm</td>
 </tr>
 <tr>
-<td>Motor power</td>
-<td>Below 100 W</td>
+<td>Product weight</td>
+<td>671 g</td>
 </tr>
 <tr>
-<td>Continuous gearbox input speed</td>
-<td>&lt;= 8,000 rpm</td>
+<td>Allowable radial force</td>
+<td>1300 N</td>
+</tr>
+<tr>
+<td>Allowable axial force</td>
+<td>550 N</td>
 </tr>
 </tbody>
 </table>
-<p>The motor voltage and power values are motor-matching references, not electrical ratings of the mechanical gearbox.</p>
-<h2 id="current-32p-motor-side-interface-reference">Current 32P Motor-Side Interface Reference<a class="headerlink" href="#current-32p-motor-side-interface-reference" title="Permanent link">&para;</a></h2>
-<p>For the released SG01PD32 outline:</p>
+<h2 id="low-profile-packaging-reference">Low-Profile Packaging Reference<a class="headerlink" href="#low-profile-packaging-reference" title="Permanent link">&para;</a></h2>
+<p>The 42.6 mm published body thickness makes SG-8021 relevant to projects where axial packaging is a primary design constraint.</p>
+<p>Actual installation clearance must still include:</p>
 <ul>
-<li>2 x dia. 3.1 mm motor-side mounting holes</li>
-<li>22.0 +/- 0.1 mm opposed mounting-hole center spacing</li>
-<li>dia. 13.0 +0.05 / 0 mm central input opening</li>
-<li>exact motor locating-bore tolerance remains controlled by the drawing</li>
+<li>Connector and cable routing</li>
+<li>Customer-side mounting structure</li>
+<li>Required service / assembly space</li>
+<li>Driver configuration when included</li>
 </ul>
-<h2 id="information-required-for-motor-matching">Information Required for Motor Matching<a class="headerlink" href="#information-required-for-motor-matching" title="Permanent link">&para;</a></h2>
-<p>To evaluate a customer's existing motor or select a SigGear motor, please provide:</p>
+<h2 id="load-evaluation-boundary">Load Evaluation Boundary<a class="headerlink" href="#load-evaluation-boundary" title="Permanent link">&para;</a></h2>
+<p>Published radial and axial force values are useful for preliminary screening. Final suitability still depends on:</p>
 <ul>
-<li>motor type</li>
-<li>nominal voltage</li>
-<li>rated and peak power</li>
-<li>rated / no-load speed</li>
-<li>shaft diameter</li>
-<li>usable shaft length</li>
-<li>shaft flat / key / pinion requirement</li>
-<li>mounting-hole pattern</li>
-<li>locating pilot diameter</li>
-<li>available assembly length</li>
-<li>required output speed</li>
-<li>continuous and momentary output torque</li>
-<li>duty cycle</li>
-<li>ambient temperature</li>
-<li>expected prototype and annual quantity</li>
+<li>Load direction</li>
+<li>Load offset / moment arm</li>
+<li>Speed</li>
+<li>Duty cycle</li>
+<li>Shock or impact load</li>
+<li>Required bearing life</li>
+<li>Installation stiffness</li>
 </ul>
-<h2 id="integration-workflow">Integration Workflow<a class="headerlink" href="#integration-workflow" title="Permanent link">&para;</a></h2>
-<p><strong>Application requirement</strong><br />
--&gt; select 32P stage and ratio<br />
--&gt; check gearbox torque and speed<br />
--&gt; check motor operating point<br />
--&gt; verify shaft and mounting interface<br />
--&gt; confirm assembly envelope<br />
--&gt; release matched configuration drawing</p>
-<p><a class="md-button md-button--primary" href="../../../custom-engineering/motor-gearbox-integration/">Motor + Gearbox Integration Engineering</a>
-<a class="md-button" href="../../../request-cad-sample-quote/">Request Motor + Gearbox Matching</a></p>
-<h2 id="related-resources">Related Resources<a class="headerlink" href="#related-resources" title="Permanent link">&para;</a></h2>
-<p><a class="md-button" href="../datasheet/">32P Technical Datasheet</a>
-<a class="md-button" href="../mechanical-interface/">32P Mechanical Interface</a></p>
+<h2 id="exploded-structure-reference">Exploded Structure Reference<a class="headerlink" href="#exploded-structure-reference" title="Permanent link">&para;</a></h2>
+<p>The SG-8021 product page contains a real exploded photograph of the actuator showing the motor, planetary transmission and a driver-board configuration.</p>
+<p><a class="md-button" href="../../../products/robot-joint-actuators/sg8021/">View SG-8021 Exploded Product Reference</a></p>
+<p>Use the image to understand product architecture only. Do not derive controlled dimensions, tolerances or production geometry from the photograph.</p>
+<h2 id="design-in-boundary">Design-In Boundary<a class="headerlink" href="#design-in-boundary" title="Permanent link">&para;</a></h2>
+<p>Before final mechanical design, confirm:</p>
+<ul>
+<li>Mounting-hole pattern and thread details</li>
+<li>Output-side interface geometry</li>
+<li>Reference datums and tolerances</li>
+<li>Cable and connector orientation</li>
+<li>Load direction and moment arm</li>
+<li>Shock / impact condition</li>
+<li>Duty cycle</li>
+<li>Driver-equipped or non-driver configuration</li>
+</ul>
+<h2 id="cad-and-controlled-drawing">CAD and Controlled Drawing<a class="headerlink" href="#cad-and-controlled-drawing" title="Permanent link">&para;</a></h2>
+<p>A public simplified STEP model is <strong>not currently released in this repository</strong> for SG-8021.</p>
+<p>For packaging, tolerance stack-up or production design-in, request the current controlled drawing and configuration-matched CAD file.</p>
+<p><a class="md-button md-button--primary" href="../../../request-cad-sample-quote/">Request Controlled Drawing / CAD</a></p>
+<h2 id="related-resource">Related Resource<a class="headerlink" href="#related-resource" title="Permanent link">&para;</a></h2>
+<p><a class="md-button" href="../datasheet/">SG-8021 Technical Datasheet v1.0</a>
+<a class="md-button" href="../../../products/robot-joint-actuators/sg8021/">SG-8021 Product Page</a></p>
+<h2 id="engineering-contact">Engineering Contact<a class="headerlink" href="#engineering-contact" title="Permanent link">&para;</a></h2>
+<p><strong>Wanrong Wang</strong><br />
+International Sales / Sales Engineer, SigGear<br />
+<a href="mailto:wangwanrong@siggear.com">wangwanrong@siggear.com</a></p>
 
 
 
