@@ -33,6 +33,27 @@ The external packaging and connection details can depend on whether the selected
 
 The current product photographs include a driver-equipped configuration. Final interface details must therefore be checked against the quotation and controlled drawing for the actual unit.
 
+## Controlled Drawing Reconciliation
+
+A controlled SG-6010D assembly drawing has now been reviewed for this public reference.
+
+The drawing confirms:
+
+- Total reduction ratio: **28.13:1**
+- First-stage ratio: **9.67:1**
+- Second-stage ratio: **2.908:1**
+- Overall axial dimension: **58.77 mm** nominal
+- Complete actuator weight: **791 g**
+
+The same drawing separates two operating tables:
+
+- **Motor + second-stage reduction test:** 100 +/-10 rpm rated speed, 170 +/-10 rpm no-load speed, 16 Nm rated torque and 50 Nm peak torque.
+- **One controller-limited configuration:** 60 +/-10 rpm rated speed, 170 +/-10 rpm no-load speed, 16 Nm rated torque and 45 Nm peak torque.
+
+The second table is configuration-specific and must not replace the base mechanical test values for every SG-6010D order.
+
+A full assembly STEP model is available internally for engineering review but is not published as a public download because the current file contains full assembly geometry.
+
 ## Design-In Boundary
 
 Before final mechanical design, confirm:

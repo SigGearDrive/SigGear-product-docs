@@ -54,6 +54,19 @@ The SG-8021 product page contains a real exploded photograph of the actuator sho
 
 Use the image to understand product architecture only. Do not derive controlled dimensions, tolerances or production geometry from the photograph.
 
+## Controlled Drawing Reconciliation
+
+Two SG-8021 mechanical drawings have now been reviewed.
+
+- The **driver-equipped drawing** shows an overall axial dimension of **42.06 mm**.
+- A separate drawing identified as **SG8021A** shows a different mechanical envelope, including an overall axial dimension of **30.51 +/-0.50 mm**.
+
+The current public product page continues to use **42.6 mm** as the nominal driver-equipped product thickness until the drawing revision and public nominal value are formally reconciled.
+
+These drawings must not be interchanged during final design-in. Use the configuration-matched controlled drawing supplied with the quotation.
+
+A full driver-equipped SG-8021 STEP assembly is available internally for engineering review but is not released here as a public download because it contains full assembly geometry.
+
 ## Design-In Boundary
 
 Before final mechanical design, confirm:
