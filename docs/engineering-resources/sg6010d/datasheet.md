@@ -45,18 +45,24 @@ The final driver, encoder, connector, cable and firmware configuration is confir
 
 ## Driver-Equipped Configuration
 
-The current public SG-6010D product page documents a driver-equipped configuration with functions that can include:
+SigGear has confirmed that the SG6010 driver platform documented in the current SG6010 user manual applies to the driver-equipped SG-6010D configuration.
 
-- Absolute magnetic encoder
+Confirmed capabilities include:
+
+- 16-bit single-turn absolute magnetic encoder
 - FOC closed-loop control
 - Position control
 - Velocity control
 - Torque control
 - MIT-style motion control
-- CAN communication
+- CAN Simple
+- CANopen (CiA301 / CiA302 / CiA402)
 - USB Type-C configuration / debugging
+- RS485 / Modbus RTU with the corresponding interface / expansion configuration
 
-RS485, EtherCAT and other expansion interfaces are project-specific and require confirmation.
+EtherCAT and other expansion interfaces remain project-specific and require confirmation.
+
+[View SG-6010D Driver and Communication Reference](driver-communication.md){ .md-button }
 
 ## Mechanical and Load Evaluation
 
