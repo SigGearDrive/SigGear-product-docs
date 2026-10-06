@@ -97,7 +97,7 @@ def check_sitemap() -> None:
 def _json_ld_blocks(html: str) -> list[dict]:
     blocks = []
     pattern = re.compile(
-        r"<script[^>]+type=['\\\"]application/ld\\+json['\\\"][^>]*>(.*?)</script>",
+        r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',
         re.IGNORECASE | re.DOTALL,
     )
     for raw in pattern.findall(html):
