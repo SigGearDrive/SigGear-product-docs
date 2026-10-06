@@ -3,11 +3,14 @@
 
 from __future__ import annotations
 
+import json
 import re
 import sys
+from datetime import date
 from pathlib import Path
 from xml.etree import ElementTree
 
+# SEO validation covers build-time JSON-LD and sitemap freshness.
 SITE_DIR = Path("site")
 EXPECTED_BASE = "https://siggeardrive.github.io/SigGear-product-docs/"
 HOST_BASE = "https://siggeardrive.github.io/"
@@ -55,16 +58,76 @@ def check_home_canonical() -> None:
 def check_sitemap() -> None:
     root = ElementTree.parse(SITE_DIR / "sitemap.xml").getroot()
     ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-    urls = [x.text or "" for x in root.findall("sm:url/sm:loc", ns)]
+    url_nodes = root.findall("sm:url", ns)
+    urls = [(node.findtext("sm:loc", default="", namespaces=ns) or "") for node in url_nodes]
     if not urls:
         fail("Sitemap has no URLs")
     bad = [url for url in urls if not url.startswith(EXPECTED_BASE)]
     if bad:
         fail("Sitemap contains non-project URLs: " + ", ".join(bad[:5]))
 
+    today = date.today()
+    missing_lastmod = []
+    invalid_lastmod = []
+    for node in url_nodes:
+        loc = node.findtext("sm:loc", default="", namespaces=ns) or ""
+        value = node.findtext("sm:lastmod", default="", namespaces=ns) or ""
+        if not value:
+            missing_lastmod.append(loc)
+            continue
+        try:
+            parsed = date.fromisoformat(value[:10])
+        except ValueError:
+            invalid_lastmod.append(f"{loc}: {value}")
+            continue
+        if parsed > today:
+            invalid_lastmod.append(f"{loc}: future date {value}")
+
+    if missing_lastmod:
+        fail("Sitemap URLs missing lastmod: " + ", ".join(missing_lastmod[:5]))
+    if invalid_lastmod:
+        fail("Sitemap contains invalid lastmod values: " + ", ".join(invalid_lastmod[:5]))
+
     index = (SITE_DIR / "sitemap-index.xml").read_text(encoding="utf-8")
     if "sitemap.xml" not in index or EXPECTED_BASE not in index:
         fail("Sitemap index does not reference the project sitemap")
+
+
+
+def _json_ld_blocks(html: str) -> list[dict]:
+    blocks = []
+    pattern = re.compile(
+        r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',
+        re.IGNORECASE | re.DOTALL,
+    )
+    for raw in pattern.findall(html):
+        try:
+            blocks.append(json.loads(raw))
+        except json.JSONDecodeError:
+            continue
+    return blocks
+
+
+def check_structured_data() -> None:
+    targets = {
+        "products/robot-joint-actuators/sg6010d/index.html": {"BreadcrumbList", "Product"},
+        "products/cycloidal-joint-modules/cpm80-25/index.html": {"BreadcrumbList", "Product"},
+        "products/planetary-gearboxes/32p-planetary-gearbox/index.html": {"BreadcrumbList", "Product"},
+        "applications/humanoid-robot-joint-actuators/index.html": {"BreadcrumbList"},
+    }
+
+    for relative, expected_types in targets.items():
+        path = SITE_DIR / relative
+        if not path.is_file():
+            fail(f"Structured-data test page missing: {relative}")
+        blocks = _json_ld_blocks(path.read_text(encoding="utf-8"))
+        found = {block.get("@type") for block in blocks if isinstance(block, dict)}
+        missing = expected_types - found
+        if missing:
+            fail(
+                f"Structured data missing on {relative}: "
+                + ", ".join(sorted(missing))
+            )
 
 
 def check_robots() -> None:
@@ -100,6 +163,7 @@ def main() -> None:
     check_required_files()
     check_home_canonical()
     check_sitemap()
+    check_structured_data()
     check_robots()
     check_redirects()
     check_generated_urls()

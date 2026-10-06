@@ -11,6 +11,7 @@ on:
       - "scripts/validate_product_data.py"
       - "scripts/validate_sales_policy.py"
       - "scripts/validate_site_urls.py"
+      - "hooks/**"
       - ".github/workflows/validate-docs.yml"
   push:
     branches:
@@ -24,6 +25,7 @@ on:
       - "scripts/validate_product_data.py"
       - "scripts/validate_sales_policy.py"
       - "scripts/validate_site_urls.py"
+      - "hooks/**"
       - ".github/workflows/validate-docs.yml"
   workflow_dispatch:
 
@@ -37,6 +39,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v6
