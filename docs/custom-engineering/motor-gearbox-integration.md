@@ -149,6 +149,7 @@ The current public series includes:
 Each frame size has its own stage count, ratio, torque, efficiency, length and operating limits. Data from one frame size must not be transferred to another without confirmation.
 
 [Browse the 8-42 mm Planetary Gearbox Series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Custom Planetary Gearbox Engineering](custom-planetary-gearbox.md){ .md-button }
 
 ## 32P Motor Integration as a Public Reference
 
