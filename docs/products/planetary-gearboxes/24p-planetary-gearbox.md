@@ -101,6 +101,12 @@ Please provide:
 
 Do not transfer the 24P specifications to another frame size or an unlisted stage configuration. Final selection and quotation require confirmation against the approved configuration drawing.
 
+## Engineering Interface Resource
+
+[View 24P Mechanical Interface v1.0](../../engineering-resources/24p/mechanical-interface.md){ .md-button .md-button--primary }
+
+A detailed full-assembly STEP is held as configuration-controlled engineering CAD and is supplied after model / stage / motor-interface review. The raw assembly is not published as a public download because it contains internal planetary transmission geometry.
+
 ## Related Planetary Gearbox Resources
 
 [8–42 mm Planetary Gearbox Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
