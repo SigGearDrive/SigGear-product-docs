@@ -70,6 +70,9 @@ plugins:
         'custom-robotic-joint-actuator-oem-gearbox-solutions.md': 'custom-engineering/robot-joint-actuator-development.md'
         'factory-capability-quality-oem-odm.md': 'company/about-siggear.md'
 
+hooks:
+  - hooks/seo_metadata.py
+
 extra_javascript:
   - assets/javascripts/analytics-events.js
   - assets/javascripts/organization-schema.js
