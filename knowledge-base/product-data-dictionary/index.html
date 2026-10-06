@@ -5700,6 +5700,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#cad-control-boundary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CAD Control Boundary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#source-boundary" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -6024,6 +6035,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#cad-control-boundary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CAD Control Boundary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#source-boundary" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -6135,6 +6157,10 @@
 <td>Public claim source and handling of non-public technical sources</td>
 </tr>
 <tr>
+<td><code>cad_control</code></td>
+<td>Non-sensitive CAD / drawing source status, including approved drawing reference code and whether detailed assembly CAD is public or request-only</td>
+</tr>
+<tr>
 <td><code>inventory_checked_on</code></td>
 <td>Date the record was compared with the public page</td>
 </tr>
@@ -6152,9 +6178,17 @@
 <p>The <code>sales_usage</code> block identifies what may be used for preliminary selection and which topics must be confirmed before quotation or final model approval. A prohibited item is a shortcut that must never be taken, such as treating peak torque as continuous torque or promising an optional interface as standard.</p>
 <h2 id="technical-review-boundary">Technical Review Boundary<a class="headerlink" href="#technical-review-boundary" title="Permanent link">&para;</a></h2>
 <p><code>technical_review.public_inventory_status: complete</code> means the current public page has been inventoried into the YAML record. It does not mean that this GitHub review performed engineering approval.</p>
-<p>Controlled source references, approval records and reviewer identities remain outside the public repository unless SigGear explicitly approves a non-sensitive reference code for publication. <code>next_internal_action</code> describes the reconciliation work that must occur in the approved private system.</p>
+<p>Controlled source documents, approval records and reviewer identities remain outside the public repository unless SigGear explicitly approves a non-sensitive reference code for publication. A product record may store that approved reference code and the review date without publishing the underlying controlled drawing. <code>next_internal_action</code> describes the reconciliation or revision-control work that remains.</p>
+<h2 id="cad-control-boundary">CAD Control Boundary<a class="headerlink" href="#cad-control-boundary" title="Permanent link">&para;</a></h2>
+<p>When <code>cad_control</code> is present:</p>
+<ul>
+<li><code>controlled_2d_drawing</code> records only the approved non-sensitive drawing identifier.</li>
+<li><code>full_assembly_step_status</code> records whether detailed assembly CAD has been reviewed and how it may be supplied.</li>
+<li><code>public_raw_assembly_step: false</code> means the full internal assembly is not a public download.</li>
+</ul>
+<p>The structured record does not contain the controlled drawing or full assembly CAD itself.</p>
 <h2 id="source-boundary">Source Boundary<a class="headerlink" href="#source-boundary" title="Permanent link">&para;</a></h2>
-<p>These records contain public product data only. Customer files, prices, internal costs, supplier information, unreleased products, private drawings, restricted test reports and NDA material must not be added.</p>
+<p>These records contain public product data and non-sensitive source-control metadata only. Customer files, prices, internal costs, supplier information, unreleased products, private drawings, restricted test reports and NDA material must not be added.</p>
 <h2 id="validation">Validation<a class="headerlink" href="#validation" title="Permanent link">&para;</a></h2>
 <p>Run:</p>
 <pre><code class="language-bash">python scripts/validate_product_data.py
