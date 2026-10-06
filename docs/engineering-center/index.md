@@ -27,12 +27,15 @@ Use the public resources below for preliminary engineering evaluation. Robot act
 
 ## Public Engineering Packs
 
-The first released Engineering Packs are listed below.
+The currently released public Engineering Resources are listed below.
 
 | Product | Public selection / design-in resources | Configuration-specific support |
 | --- | --- | --- |
 | [SG-6010C](../products/robot-joint-actuators/sg6010c.md) | [Datasheet](../engineering-resources/sg6010c/datasheet.md), [simplified STEP](../assets/downloads/sg6010c/SG-6010C_Public_Simplified_STEP_v1.0.step), [mechanical interface](../engineering-resources/sg6010c/mechanical-interface.md) | Quick Start, detailed CAN and firmware-specific integration documents after configuration review |
+| [SG-6010D](../products/robot-joint-actuators/sg6010d.md) | [Datasheet](../engineering-resources/sg6010d/datasheet.md), [mechanical interface](../engineering-resources/sg6010d/mechanical-interface.md) | Configuration-matched CAD, controlled drawing and integration documents after project review |
+| [SG-8021](../products/robot-joint-actuators/sg8021.md) | [Datasheet](../engineering-resources/sg8021/datasheet.md), [mechanical interface](../engineering-resources/sg8021/mechanical-interface.md), real exploded product reference on the product page | Configuration-matched CAD, controlled drawing and integration documents after project review |
 | [CPM-80-25](../products/cycloidal-joint-modules/cpm80-25.md) | [Datasheet](../engineering-resources/cpm80-25/datasheet.md), [STEP - no driver](../assets/downloads/cpm80-25/CPM-80-25_Public_Simplified_STEP_v1.0_No_Driver.step), [STEP - integrated driver](../assets/downloads/cpm80-25/CPM-80-25_Public_Simplified_STEP_v1.0_Integrated_Driver.step), [mechanical interface](../engineering-resources/cpm80-25/mechanical-interface.md), [measured performance data](../engineering-resources/cpm80-25/performance-test-data.md) | Controlled drawing and configuration-specific electrical/control documents as applicable |
+| [CPM-100-25](../products/cycloidal-joint-modules/cpm100-25.md) | [Datasheet](../engineering-resources/cpm100-25/datasheet.md), [mechanical interface](../engineering-resources/cpm100-25/mechanical-interface.md) | Configuration-matched CAD, controlled drawing and integration documents after project review |
 | [32P](../products/planetary-gearboxes/32p-planetary-gearbox.md) | [Datasheet](../engineering-resources/32p/datasheet.md), [4-stage simplified STEP](../assets/downloads/32p/32P_Public_Simplified_STEP_v1.0_4-Stage.step), [mechanical interface](../engineering-resources/32p/mechanical-interface.md), [motor integration guide](../engineering-resources/32p/motor-integration.md) | Controlled configuration-specific CAD/drawing for the selected stage, ratio and motor interface |
 
 The CPM-80-25 performance page contains measured test data. Measured points should not be treated as guaranteed continuous operating ratings without an application-specific review.
