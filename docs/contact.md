@@ -8,6 +8,12 @@ International Sales, SigGear
 
 - Email: [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
+## Social Channels
+
+- YouTube: [@siggeardrive](https://www.youtube.com/@siggeardrive)
+- Instagram: [@luffywan.robotics](https://www.instagram.com/luffywan.robotics/)
+- TikTok: [@robotactuator.engineer](https://www.tiktok.com/@robotactuator.engineer)
+
 Telephone and WhatsApp details are available upon request.
 
 ## Product Inquiry
