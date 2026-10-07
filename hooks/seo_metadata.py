@@ -12,7 +12,7 @@ from __future__ import annotations
 
 import json
 import subprocess
-from datetime import date
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin
 from xml.etree import ElementTree
@@ -271,14 +271,24 @@ def _git_date(path: Path) -> str | None:
         return None
 
     result = subprocess.run(
-        ["git", "log", "-1", "--format=%cs", "--", str(rel)],
+        ["git", "log", "-1", "--format=%cI", "--", str(rel)],
         cwd=ROOT,
         check=False,
         capture_output=True,
         text=True,
     )
     value = result.stdout.strip()
-    return value or None
+    if not value:
+        return None
+
+    try:
+        # Normalize Git's timezone-aware commit timestamp to UTC before
+        # converting it to a sitemap date. This prevents commits made just
+        # after midnight in Asia from appearing one day in the future while
+        # GitHub Actions is still on the previous UTC date.
+        return datetime.fromisoformat(value).astimezone(timezone.utc).date().isoformat()
+    except ValueError:
+        return None
 
 
 def _source_for_url(relative_url: str) -> Path | None:
