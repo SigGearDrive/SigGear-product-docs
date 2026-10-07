@@ -1,6 +1,6 @@
-# SigGear Robot Joint Actuators and Precision Gearboxes
+# SigGear Miniature Planetary Gearboxes and Custom Drive Solutions
 
-SigGear develops and manufactures integrated robot joint actuators, cycloidal joint modules, planetary gearboxes, micro gear motors and hub gear motors for robotics and precision automation.
+SigGear develops and manufactures **8-42 mm miniature and compact planetary gearboxes**, micro gear motors and custom motor + gearbox solutions for OEM products in power tools, robotics, smart equipment, medical and laboratory automation, fluid control and precision mechanisms. Robot joint actuators and cycloidal modules remain available, while the current engineering-growth focus is the planetary gearbox platform.
 
 [Custom Engineering](custom-engineering/index.md){ .md-button .md-button--primary }
 [Engineering Center](engineering-center/index.md){ .md-button }
@@ -33,6 +33,24 @@ Use the site according to the engineering decision you need to make.
 
 Current public Engineering Resources are available for **SG-6010C**, **SG-6010D**, **SG-8021**, **CPM-78-39**, **CPM-80-25**, **CPM-100-25** and the full **8P-42P standard planetary gearbox series**. Public STEP availability is model-specific; controlled CAD and drawings remain configuration-dependent.
 
+## Planetary Gearbox Application Fast Track
+
+Start from the product you are designing rather than from a gearbox part number.
+
+| Application | Typical gearbox direction | Start here |
+| --- | --- | --- |
+| Electric pruning shears / cutting tools | 28P-42P | [Pruning shear gearbox guide](applications/electric-pruning-shears-planetary-gearbox.md) |
+| Powered screwdrivers / fastening tools | 10P-42P | [Fastening-tool gearbox guide](applications/powered-screwdriver-planetary-gearbox.md) |
+| Robot grippers / dexterous hands | 8P-28P | [Gripper and dexterous-hand guide](applications/robot-gripper-gear-motors.md) |
+| Curtains / blinds / window actuators | 16P-28P | [Curtain and window guide](applications/electric-curtain-blind-window-opener-gear-motors.md) |
+| Laboratory / diagnostic equipment | 8P-24P | [Laboratory automation guide](applications/laboratory-automation-diagnostic-equipment-gear-motors.md) |
+| Pumps / valves / compact actuators | 8P-32P | [Fluid-control guide](applications/pump-valve-fluid-control-gear-motors.md) |
+| Coffee / vending / smart appliances | 12P-28P | [Food and coffee equipment guide](applications/food-beverage-coffee-equipment-gear-motors.md) |
+
+[Explore Planetary Gearbox Applications](applications/planetary-gearbox-applications.md){ .md-button .md-button--primary }
+[Compare 8P-42P Models](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
+[Send Your Motor or Drawing](request-cad-sample-quote.md){ .md-button }
+
 ## Product Solutions
 
 | Product family | Typical use | Explore |
@@ -44,7 +62,7 @@ Current public Engineering Resources are available for **SG-6010C**, **SG-6010D*
 | Flat BLDC motors and joint drives | Short-axial robot joints and integrated rotary axes | [View flat joint drives](products/flat-bldc-motors/index.md) |
 | Hub gear motors | AGV, AMR, mobile robots and compact wheel-drive systems | [View hub gear motors](products/hub-gear-motors/index.md) |
 
-## Featured Robot Joint Products
+## Secondary Robot Joint and Cycloidal Products
 
 | Model | Transmission | Rated torque | Peak torque | Rated output speed |
 | --- | --- | ---: | ---: | ---: |

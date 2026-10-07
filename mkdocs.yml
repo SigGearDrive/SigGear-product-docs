@@ -1,5 +1,5 @@
 site_name: SigGear Product Documentation
-site_description: Custom precision transmission engineering, miniature planetary gearboxes and gearheads, cycloidal reducers, gear motors and robot joint actuators from SigGear.
+site_description: 8-42 mm miniature planetary gearboxes, gearheads and custom motor + gearbox integration for OEM power tools, robotics, smart equipment, medical, laboratory and precision-motion applications.
 site_url: https://siggeardrive.github.io/SigGear-product-docs/
 repo_url: https://github.com/SigGearDrive/SigGear-product-docs
 repo_name: SigGearDrive/SigGear-product-docs
@@ -164,6 +164,9 @@ nav:
           - Overview: products/flat-bldc-motors/index.md
   - Applications:
       - Applications Overview: applications/index.md
+      - Planetary Gearbox Applications: applications/planetary-gearbox-applications.md
+      - Electric Pruning Shears: applications/electric-pruning-shears-planetary-gearbox.md
+      - Powered Screwdrivers & Fastening Tools: applications/powered-screwdriver-planetary-gearbox.md
       - Access Control Smart Lock and Security Gear Motors: applications/access-control-smart-lock-security-gear-motors.md
       - Agriculture and Outdoor Equipment Gear Motors: applications/agriculture-outdoor-equipment-gear-motors.md
       - AGV and AMR Wheel Drive Gearboxes: applications/agv-amr-wheel-drive-gearboxes.md

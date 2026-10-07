@@ -1,13 +1,27 @@
 ---
-title: SigGear Applications | Robot Joints, Gearboxes and Precision Gear Motors
-description: Explore SigGear application guides for humanoid robots, robotic arms, exoskeletons, quadrupeds, AGV/AMR, automation, medical devices and precision mechanisms.
+title: SigGear Applications | Planetary Gearboxes, Gear Motors and OEM Drive Solutions
+description: Explore SigGear planetary gearbox and compact drive application guides for power tools, pruning shears, grippers, dexterous hands, curtains, laboratory automation, valves, appliances, robotics and precision mechanisms.
 ---
 
 # Applications
 
-SigGear precision transmission products are used in robot joints, mobile robots, compact automation, medical devices and precision mechanisms.
+SigGear's current application-development focus is the **8-42 mm planetary gearbox series** and custom motor + gearbox integration for OEM products. Robot joint, cycloidal and other transmission products remain available as secondary product families.
 
-Application pages explain the selection factors behind each use case and connect operating requirements with the appropriate product family. Final product selection is confirmed after engineering review.
+Application pages explain the selection factors behind each use case and connect operating requirements with the appropriate gearbox frame, motor and mechanical interface. Final product selection is confirmed after engineering review.
+
+## Priority Planetary Gearbox Applications
+
+- [Planetary Gearbox Applications Overview](./planetary-gearbox-applications.md)
+- [Electric Pruning Shears and Cordless Cutting Tools](./electric-pruning-shears-planetary-gearbox.md)
+- [Powered Screwdrivers and Fastening Tools](./powered-screwdriver-planetary-gearbox.md)
+- [Robot Grippers and Dexterous Hands](./robot-gripper-gear-motors.md)
+- [Electric Curtains, Blinds and Window Openers](./electric-curtain-blind-window-opener-gear-motors.md)
+- [Laboratory Automation and Diagnostic Equipment](./laboratory-automation-diagnostic-equipment-gear-motors.md)
+- [Pump, Valve and Fluid Control](./pump-valve-fluid-control-gear-motors.md)
+- [Food, Beverage and Coffee Equipment](./food-beverage-coffee-equipment-gear-motors.md)
+
+[Browse the 8-42 mm Planetary Gearbox Series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
 
 ## Robotics Applications
 
