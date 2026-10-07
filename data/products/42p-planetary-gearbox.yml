@@ -56,6 +56,7 @@ inventory_checked_on: "2026-10-08"
 
 design_in:
   design_in_pack: docs/engineering-resources/42p/design-in-pack.md
+  motor_integration_guide: docs/engineering-resources/42p/motor-integration.md
   public_simplified_step_status: not_released
   pending_public_specifications:
     - service_life_data
