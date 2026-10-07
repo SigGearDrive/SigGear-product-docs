@@ -3,7 +3,7 @@ title: 42P Planetary Gearbox Mechanical Interface | Controlled 2D / CAD Referenc
 description: Public 42P mechanical-interface reference based on the current controlled 2D drawing, with full assembly CAD available after configuration review.
 ---
 
-# 42P Planetary Gearbox Mechanical Interface v1.0
+# 42P Planetary Gearbox Mechanical Interface v1.1
 
 **Status:** Public engineering evaluation reference  
 **Release date:** 2026-10-08  
@@ -18,17 +18,31 @@ This page summarizes the mechanical-interface information that is suitable for p
 
 | Item | Controlled / published reference |
 | --- | --- |
-| Nominal gearbox diameter | 42 mm |
-| Output-side extension shown on drawing | 29.5 mm (+0.1 / -0.3) |
-| Gearbox body length | **L**, stage-dependent |
-| Output-side interface | 4 × M4 threaded holes, depth 6 mm, with Ø35.0 ±0.1 reference circle; output keyway DIN 6885-A4×4×20 |
-| Input-side interface | Ø16.0 center opening; 2 × Ø3.1 mounting holes with 25.0 ±0.1 mm opposed spacing |
+| Nominal gearbox body diameter | Ø42.0 mm (0 / -0.1 mm shown on drawing) |
+| Gearbox body length | **L ±0.3 mm**, stage-dependent |
+| Output-side extension | 29.5 mm (+0.1 / -0.3 mm) |
+| Output shaft diameter | Ø12.0 mm (0 / -0.02 mm) |
+| Output-side locating / reference diameter | Ø28.0 mm (0 / -0.03 mm) |
+| Output keyway | DIN 6885-A4×4×20 |
+| Keyway length | 20.0 mm |
+| Output-side mounting | 4 × M4 threaded holes, depth 6 mm |
+| Output-side reference diameter | Ø35.0 ±0.1 mm |
+| Input-side center opening | Ø16.0 mm (+0.05 / 0 mm) |
+| Input-side mounting | 2 × Ø3.1 mm holes |
+| Opposed input mounting-hole spacing | 25.0 ±0.1 mm |
 
 ## Stage-Dependent Length
 
-The controlled drawing uses **L** for the gearbox body length. L changes with the selected stage count.
+The controlled drawing uses **L** for the gearbox body length with **±0.3 mm** shown on the drawing. L changes with the selected stage count.
 
-Use the 42P product page for the currently published 1-stage to 4-stage length and ratio table.
+| Stages | Gearbox body length L |
+| ---: | ---: |
+| 1 | 35.6 mm |
+| 2 | 46.9 mm |
+| 3 | 58.2 mm |
+| 4 | 69.5 mm |
+
+Use the selected stage / ratio and the controlled drawing revision before final production release.
 
 [View 42P Product Data](../../products/planetary-gearboxes/42p-planetary-gearbox.md){ .md-button }
 
@@ -54,6 +68,8 @@ The supplied STEP is a detailed multi-component assembly and is **not released a
 For packaging or design-in, request the configuration-matched CAD. A simplified public external-interface STEP may be released separately after review.
 
 [Request 42P CAD / Controlled Drawing](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+
+[Open 42P Motor Integration Guide](motor-integration.md){ .md-button }
 
 ## Design-In Boundary
 
