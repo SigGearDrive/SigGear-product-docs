@@ -33,6 +33,14 @@ For early design-in, use the published envelope and interface references below. 
 | Maximum momentary torque range | 160.0-300.0 kgf.cm |
 | Efficiency range | 66-90% |
 | Backlash at no load | <= 1.2 deg |
+| Continuous permissible input speed | <= 8,000 rpm |
+| Operating temperature range | -40 to 120 C |
+| Radial load, 10 mm from flange | <= 16.0 kgf |
+| Shaft axial load | <= 8.0 kgf |
+| Radial shaft play | <= 0.04 mm |
+| Thrust shaft play | <= 0.3 mm |
+| Housing / gear material | Steel / Steel |
+| Output bearing | Ball bearings |
 | Adapted DC motor voltage | 3-48 VDC |
 | Adapted DC motor power | below 200 W |
 
@@ -89,18 +97,14 @@ For early packaging or mechanical integration, request the CAD that matches the 
 
 ## Public Data Gaps - Confirmation Required
 
-The following values are **not currently published from a confirmed 42P source** and must not be inferred from another frame size:
+The current 42P specification sheet now confirms the main mechanical operating limits used for preliminary design-in: continuous permissible input speed, operating temperature, radial load, axial load and shaft-play limits.
 
-- maximum continuous input speed
-- operating temperature range
-- radial load limit
-- axial load limit
-- radial shaft play
-- thrust shaft play
+The following values are still **not confirmed from the current 42P source**:
+
 - service-life data
 - noise data
 
-These items remain **to be confirmed** from the controlled specification, test record or engineering approval before they are used in a quotation, customer Datasheet or application claim.
+These items remain **to be confirmed** from a controlled specification, test record or engineering approval before they are used in a quotation, customer Datasheet or application claim.
 
 ## What Can Be Done With the Current Pack
 
