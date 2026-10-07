@@ -262,6 +262,7 @@ nav:
               - Design-In Pack: engineering-resources/42p/design-in-pack.md
               - Technical Datasheet: engineering-resources/42p/datasheet.md
               - Mechanical Interface: engineering-resources/42p/mechanical-interface.md
+              - Motor Integration Guide: engineering-resources/42p/motor-integration.md
   - Sales:
       - Sales Overview: sales/index.md
       - Customer Qualification Checklist: sales/customer-qualification-checklist.md
