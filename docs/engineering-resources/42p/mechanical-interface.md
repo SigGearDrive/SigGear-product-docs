@@ -6,7 +6,7 @@ description: Public 42P mechanical-interface reference based on the current cont
 # 42P Planetary Gearbox Mechanical Interface v1.0
 
 **Status:** Public engineering evaluation reference  
-**Release date:** 2026-10-06  
+**Release date:** 2026-10-08  
 **Controlled drawing code:** SG01PD42
 
 This page summarizes the mechanical-interface information that is suitable for public early evaluation from the current SigGear controlled 2D drawing.
@@ -31,6 +31,19 @@ The controlled drawing uses **L** for the gearbox body length. L changes with th
 Use the 42P product page for the currently published 1-stage to 4-stage length and ratio table.
 
 [View 42P Product Data](../../products/planetary-gearboxes/42p-planetary-gearbox.md){ .md-button }
+
+## Published Mechanical Limits
+
+| Item | Public value |
+| --- | ---: |
+| Radial load, 10 mm from flange | ≤ 16.0 kgf |
+| Shaft axial load | ≤ 8.0 kgf |
+| Radial shaft play | ≤ 0.04 mm |
+| Thrust shaft play | ≤ 0.3 mm |
+| Continuous permissible input speed | ≤ 8,000 rpm |
+| Operating temperature range | −40 to 120 °C |
+
+These limits come from the current 42P specification sheet and should be checked against the actual application load direction, duty cycle and selected configuration.
 
 ## CAD Status
 
