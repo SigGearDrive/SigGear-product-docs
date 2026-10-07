@@ -251,6 +251,7 @@ nav:
               - Technical Datasheet: engineering-resources/28p/datasheet.md
               - Mechanical Interface: engineering-resources/28p/mechanical-interface.md
           - 32P:
+              - Public CAD Design-In Pack: engineering-resources/32p/design-in-pack.md
               - Technical Datasheet: engineering-resources/32p/datasheet.md
               - Mechanical Interface: engineering-resources/32p/mechanical-interface.md
               - Motor Integration Guide: engineering-resources/32p/motor-integration.md
