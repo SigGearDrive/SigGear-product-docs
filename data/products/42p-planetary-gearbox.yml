@@ -43,7 +43,20 @@ technical_review:
 source_control:
   public_claim_source: canonical_page
   technical_source_status: not_recorded_in_public_repository
-inventory_checked_on: "2026-10-06"
+inventory_checked_on: "2026-10-08"
+
+design_in:
+  design_in_pack: docs/engineering-resources/42p/design-in-pack.md
+  public_simplified_step_status: not_released
+  pending_public_specifications:
+    - maximum_continuous_input_speed
+    - operating_temperature_range
+    - radial_load_limit
+    - axial_load_limit
+    - radial_shaft_play
+    - thrust_shaft_play
+    - service_life_data
+    - noise_data
 
 cad_control:
   controlled_2d_drawing: "SG01PD42"
