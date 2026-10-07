@@ -70,13 +70,19 @@ Published interface information includes:
 - motor-side mounting: **2 x 3.1 mm holes**
 - opposed motor-side mounting-hole spacing: **25.0 +/- 0.1 mm**
 
-[Open 42P Mechanical Interface v1.0](mechanical-interface.md){ .md-button .md-button--primary }
+[Open 42P Mechanical Interface v1.1](mechanical-interface.md){ .md-button .md-button--primary }
 
 ## Technical Datasheet
 
 Use the Datasheet for stage, ratio, body length, torque, efficiency, backlash and motor-matching references.
 
-[Open 42P Technical Datasheet v1.0](datasheet.md){ .md-button .md-button--primary }
+[Open 42P Technical Datasheet v1.1](datasheet.md){ .md-button .md-button--primary }
+
+## Motor Integration
+
+For projects starting from an existing DC motor or requiring a matched motor + gearbox assembly, use the 42P Motor Integration Guide.
+
+[Open 42P Motor Integration Guide](motor-integration.md){ .md-button .md-button--primary }
 
 ## CAD Release Status
 
