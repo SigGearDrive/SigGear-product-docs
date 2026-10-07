@@ -3,10 +3,10 @@ title: 42P 42 mm Planetary Gearbox Datasheet | 1-4 Stages | SigGear
 description: Public 42P planetary gearbox engineering datasheet with stage lengths, ratios, torque, efficiency, backlash, motor matching and mechanical-interface reference.
 ---
 
-# 42P 42 mm Planetary Gearbox - Technical Datasheet v1.0
+# 42P 42 mm Planetary Gearbox - Technical Datasheet v1.1
 
 **Status:** Public engineering evaluation reference  
-**Release date:** 2026-10-06
+**Release date:** 2026-10-08
 
 The SigGear 42P is a 42 mm planetary gearbox platform with one- to four-stage configurations. Performance values below are consolidated from the current canonical product page. Mechanical-interface details are linked to the controlled 2D drawing reference released for this model.
 
@@ -22,10 +22,13 @@ The SigGear 42P is a 42 mm planetary gearbox platform with one- to four-stage co
 | Maximum momentary torque range | 160.0–300.0 kgf·cm |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.2° |
+| Continuous permissible input speed | ≤ 8,000 rpm |
+| Operating temperature range | −40 to 120 °C |
+| Housing material | Steel |
+| Gear material | Steel |
+| Output bearing | Ball bearings |
 
 Maximum momentary torque is not a continuous working rating.
-
-The current public source does not state maximum continuous input speed or operating temperature for 42P; no value is inferred here.
 
 ## Stage, Ratio and Performance
 
@@ -36,9 +39,16 @@ The current public source does not state maximum continuous input speed or opera
 | 3 | 58.2 mm | 54.4 / 61.9 / 70.4 / 72.8 / 80.1 / 82.8 / 94.2 / 97.4 / 110.8 / 130.3 | 120.0 kgf·cm | 240.0 kgf·cm | 73% |
 | 4 | 69.5 mm | 206.4 / 234.6 / 266.8 / 276 / 303.5 / 313.9 / 345 / 357 / 369.2 / 406 / 419.9 / 477.5 / 493.93 / 561.70 / 660.7 | 150.0 kgf·cm | 300.0 kgf·cm | 66% |
 
-## Load / Shaft Data Boundary
+## Published Load / Shaft Limits
 
-Radial load, axial load and shaft-play limits are not currently published for 42P in the canonical public specification. They are therefore not inferred from another frame size and must be confirmed for the selected configuration if required.
+| Parameter | Public value |
+| --- | ---: |
+| Radial load, 10 mm from flange | ≤ 16.0 kgf |
+| Shaft axial load | ≤ 8.0 kgf |
+| Radial play of shaft | ≤ 0.04 mm |
+| Thrust play of shaft | ≤ 0.3 mm |
+
+These values are taken from the current 42P specification sheet. Application suitability still depends on the actual load direction, duty cycle, stage / ratio, motor operating point and installation.
 
 ## Motor Matching Reference
 
