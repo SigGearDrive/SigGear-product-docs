@@ -117,7 +117,8 @@ Do not transfer the 32P specifications to another frame size or an unlisted stag
 
 The following **32P v1.0 public engineering resources** are approved for engineering evaluation and early mechanical design-in:
 
-[View Technical Datasheet v1.0](../../engineering-resources/32p/datasheet.md){ .md-button .md-button--primary }
+[Open 32P Public CAD Design-In Pack](../../engineering-resources/32p/design-in-pack.md){ .md-button .md-button--primary }
+[View Technical Datasheet v1.0](../../engineering-resources/32p/datasheet.md){ .md-button }
 [Download Simplified STEP - 4-Stage Reference](../../assets/downloads/32p/32P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button }
 [View Mechanical Interface v1.0](../../engineering-resources/32p/mechanical-interface.md){ .md-button }
 [View Motor Integration Guide](../../engineering-resources/32p/motor-integration.md){ .md-button }
