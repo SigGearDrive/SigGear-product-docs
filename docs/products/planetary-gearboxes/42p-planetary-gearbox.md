@@ -30,6 +30,15 @@ The SigGear 42P is a 42 mm micro planetary gearbox for compact motorized mechani
 | Maximum momentary torque range | 160.0–300.0 kgf·cm |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.2° |
+| Maximum permissible speed, continuous operation | ≤ 8,000 rpm |
+| Operating temperature range | −40 to 120 °C |
+| Housing material | Steel |
+| Gear material | Steel |
+| Output bearing | Ball bearings |
+| Radial load, 10 mm from flange | ≤ 16.0 kgf |
+| Shaft axial load | ≤ 8.0 kgf |
+| Radial play of shaft | ≤ 0.04 mm |
+| Thrust play of shaft | ≤ 0.3 mm |
 | Adapted DC motor voltage | 3–48 VDC |
 | Adapted DC motor power | below 200 W |
 | Manufacturing process | Machining |
@@ -55,7 +64,9 @@ These are adapted-motor conditions, not an electrical voltage or power rating fo
 
 The published drawing shows a 42 mm body diameter and stage-dependent gearbox lengths of 35.6, 46.9, 58.2 and 69.5 mm. Use the approved drawing for shaft geometry, mounting holes, input-interface details and tolerance notation.
 
-The supplied 42P public images do not state housing material, gear material, output bearing, radial load, axial load, shaft play, maximum continuous speed or operating temperature. Confirm these values from the controlled specification before quotation.
+The current 42P specification sheet confirms steel housing and gears, ball bearings at the output, a radial load limit of **≤ 16.0 kgf measured 10 mm from the flange**, a shaft axial load limit of **≤ 8.0 kgf**, radial shaft play of **≤ 0.04 mm**, thrust shaft play of **≤ 0.3 mm**, continuous permissible input speed of **≤ 8,000 rpm**, and an operating temperature range of **−40 to 120 °C**.
+
+These are published gearbox limits. The actual application load direction, duty cycle, motor operating point and selected stage / ratio still need to be checked before final selection.
 
 ## Typical Applications
 
