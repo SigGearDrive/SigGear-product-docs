@@ -67,7 +67,7 @@ Application suitability depends on the selected ratio, motor, load direction, du
 
 ## Supply Configuration
 
-SigGear can supply the planetary gearbox only, the motor only, or a matched motor + gearbox assembly according to the application requirements.
+SigGear can supply the planetary gearbox as a gearbox-only unit, or evaluate and match a motor based on the customer's specific application requirements to provide a complete motor + gearbox assembly.
 
 ## Selection Information Required
 
