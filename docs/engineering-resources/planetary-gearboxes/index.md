@@ -22,7 +22,7 @@ The current full assembly STEP files are retained as configuration-controlled en
 | 22P | 22 mm | [Datasheet](../22p/datasheet.md) | [Mechanical Interface](../22p/mechanical-interface.md) | Full assembly STEP request-only |
 | 24P | 24 mm | [Datasheet](../24p/datasheet.md) | [Mechanical Interface](../24p/mechanical-interface.md) | Full assembly STEP request-only |
 | 28P | 28 mm | [Datasheet](../28p/datasheet.md) | [Mechanical Interface](../28p/mechanical-interface.md) | Full assembly STEP request-only |
-| 32P | 32 mm | [Datasheet](../32p/datasheet.md) | [Mechanical Interface](../32p/mechanical-interface.md) | [Simplified public 4-stage STEP](../../assets/downloads/32p/32P_Public_Simplified_STEP_v1.0_4-Stage.step) |
+| 32P | 32 mm | [Datasheet](../32p/datasheet.md) | [Mechanical Interface](../32p/mechanical-interface.md) | [Design-In Pack + simplified public 4-stage STEP](../32p/design-in-pack.md) |
 | 36P | 36 mm | [Datasheet](../36p/datasheet.md) | [Mechanical Interface](../36p/mechanical-interface.md) | Full assembly STEP request-only |
 | 42P | 42 mm | [Datasheet](../42p/datasheet.md) | [Mechanical Interface](../42p/mechanical-interface.md) | Full assembly STEP request-only |
 
@@ -37,6 +37,8 @@ Where a parameter is not published for a specific model, its Datasheet states th
 Use the Datasheet for preliminary model / ratio / stage selection.
 
 Use the Mechanical Interface for early packaging and mounting review.
+
+For **32P**, use the [Public CAD Design-In Pack](../32p/design-in-pack.md) as the complete path from preliminary selection to CAD placement, sample validation and controlled configuration release.
 
 For final design-in, send the selected model, ratio, stage count and motor interface so SigGear can supply the matching controlled drawing / CAD revision.
 
