@@ -16,7 +16,7 @@
         <link rel="prev" href="../datasheet/">
       
       
-        <link rel="next" href="../../../sales/">
+        <link rel="next" href="../motor-integration/">
       
       
         
@@ -79,7 +79,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#42p-planetary-gearbox-mechanical-interface-v10" class="md-skip">
+        <a href="#42p-planetary-gearbox-mechanical-interface-v11" class="md-skip">
           Skip to content
         </a>
       
@@ -5355,6 +5355,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../motor-integration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Motor Integration Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -6082,7 +6110,7 @@
   
 
 
-<h1 id="42p-planetary-gearbox-mechanical-interface-v10">42P Planetary Gearbox Mechanical Interface v1.0<a class="headerlink" href="#42p-planetary-gearbox-mechanical-interface-v10" title="Permanent link">&para;</a></h1>
+<h1 id="42p-planetary-gearbox-mechanical-interface-v11">42P Planetary Gearbox Mechanical Interface v1.1<a class="headerlink" href="#42p-planetary-gearbox-mechanical-interface-v11" title="Permanent link">&para;</a></h1>
 <p><strong>Status:</strong> Public engineering evaluation reference<br />
 <strong>Release date:</strong> 2026-10-08<br />
 <strong>Controlled drawing code:</strong> SG01PD42</p>
@@ -6101,30 +6129,84 @@
 </thead>
 <tbody>
 <tr>
-<td>Nominal gearbox diameter</td>
-<td>42 mm</td>
-</tr>
-<tr>
-<td>Output-side extension shown on drawing</td>
-<td>29.5 mm (+0.1 / -0.3)</td>
+<td>Nominal gearbox body diameter</td>
+<td>Ø42.0 mm (0 / -0.1 mm shown on drawing)</td>
 </tr>
 <tr>
 <td>Gearbox body length</td>
-<td><strong>L</strong>, stage-dependent</td>
+<td><strong>L ±0.3 mm</strong>, stage-dependent</td>
 </tr>
 <tr>
-<td>Output-side interface</td>
-<td>4 × M4 threaded holes, depth 6 mm, with Ø35.0 ±0.1 reference circle; output keyway DIN 6885-A4×4×20</td>
+<td>Output-side extension</td>
+<td>29.5 mm (+0.1 / -0.3 mm)</td>
 </tr>
 <tr>
-<td>Input-side interface</td>
-<td>Ø16.0 center opening; 2 × Ø3.1 mounting holes with 25.0 ±0.1 mm opposed spacing</td>
+<td>Output shaft diameter</td>
+<td>Ø12.0 mm (0 / -0.02 mm)</td>
+</tr>
+<tr>
+<td>Output-side locating / reference diameter</td>
+<td>Ø28.0 mm (0 / -0.03 mm)</td>
+</tr>
+<tr>
+<td>Output keyway</td>
+<td>DIN 6885-A4×4×20</td>
+</tr>
+<tr>
+<td>Keyway length</td>
+<td>20.0 mm</td>
+</tr>
+<tr>
+<td>Output-side mounting</td>
+<td>4 × M4 threaded holes, depth 6 mm</td>
+</tr>
+<tr>
+<td>Output-side reference diameter</td>
+<td>Ø35.0 ±0.1 mm</td>
+</tr>
+<tr>
+<td>Input-side center opening</td>
+<td>Ø16.0 mm (+0.05 / 0 mm)</td>
+</tr>
+<tr>
+<td>Input-side mounting</td>
+<td>2 × Ø3.1 mm holes</td>
+</tr>
+<tr>
+<td>Opposed input mounting-hole spacing</td>
+<td>25.0 ±0.1 mm</td>
 </tr>
 </tbody>
 </table>
 <h2 id="stage-dependent-length">Stage-Dependent Length<a class="headerlink" href="#stage-dependent-length" title="Permanent link">&para;</a></h2>
-<p>The controlled drawing uses <strong>L</strong> for the gearbox body length. L changes with the selected stage count.</p>
-<p>Use the 42P product page for the currently published 1-stage to 4-stage length and ratio table.</p>
+<p>The controlled drawing uses <strong>L</strong> for the gearbox body length with <strong>±0.3 mm</strong> shown on the drawing. L changes with the selected stage count.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Stages</th>
+<th style="text-align: right;">Gearbox body length L</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">35.6 mm</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">46.9 mm</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">58.2 mm</td>
+</tr>
+<tr>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">69.5 mm</td>
+</tr>
+</tbody>
+</table>
+<p>Use the selected stage / ratio and the controlled drawing revision before final production release.</p>
 <p><a class="md-button" href="../../../products/planetary-gearboxes/42p-planetary-gearbox/">View 42P Product Data</a></p>
 <h2 id="published-mechanical-limits">Published Mechanical Limits<a class="headerlink" href="#published-mechanical-limits" title="Permanent link">&para;</a></h2>
 <table>
@@ -6167,6 +6249,7 @@
 <p>The supplied STEP is a detailed multi-component assembly and is <strong>not released as a public raw download</strong>, because it contains internal planetary transmission geometry.</p>
 <p>For packaging or design-in, request the configuration-matched CAD. A simplified public external-interface STEP may be released separately after review.</p>
 <p><a class="md-button md-button--primary" href="../../../request-cad-sample-quote/">Request 42P CAD / Controlled Drawing</a></p>
+<p><a class="md-button" href="../motor-integration/">Open 42P Motor Integration Guide</a></p>
 <h2 id="design-in-boundary">Design-In Boundary<a class="headerlink" href="#design-in-boundary" title="Permanent link">&para;</a></h2>
 <p>Before final design freeze, confirm:</p>
 <ul>
