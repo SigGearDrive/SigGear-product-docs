@@ -102,8 +102,9 @@ Do not transfer the 42P specifications to another frame size or an unlisted stag
 ## Engineering Resources
 
 [Open 42P Design-In Pack](../../engineering-resources/42p/design-in-pack.md){ .md-button .md-button--primary }
-[View 42P Technical Datasheet v1.0](../../engineering-resources/42p/datasheet.md){ .md-button }
-[View 42P Mechanical Interface v1.0](../../engineering-resources/42p/mechanical-interface.md){ .md-button }
+[View 42P Technical Datasheet v1.1](../../engineering-resources/42p/datasheet.md){ .md-button }
+[View 42P Mechanical Interface v1.1](../../engineering-resources/42p/mechanical-interface.md){ .md-button }
+[View 42P Motor Integration Guide](../../engineering-resources/42p/motor-integration.md){ .md-button }
 
 The Datasheet consolidates the currently published stage, ratio, torque, efficiency and motor-matching data. The Mechanical Interface summarizes the controlled 2D drawing.
 
