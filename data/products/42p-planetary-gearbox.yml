@@ -46,12 +46,12 @@ sales_usage:
     - present_motor_voltage_as_gearbox_electrical_rating
 technical_review:
   public_inventory_status: complete
-  controlled_source_reference: "42P specification sheet supplied 2026-10-08"
-  technical_approval_status: source_values_confirmed_for_public_update
+  controlled_source_reference: not_recorded_in_public_repository
+  technical_approval_status: not_recorded_in_public_repository
   next_internal_action: maintain_drawing_revision_and_configuration_match
 source_control:
   public_claim_source: canonical_page
-  technical_source_status: "42P specification sheet supplied 2026-10-08"
+  technical_source_status: not_recorded_in_public_repository
 inventory_checked_on: "2026-10-08"
 
 design_in:
