@@ -112,6 +112,7 @@ Do not transfer the 12P specifications to another frame size or an unlisted stag
 
 [View 12P Technical Datasheet v1.0](../../engineering-resources/12p/datasheet.md){ .md-button .md-button--primary }
 [View 12P Mechanical Interface v1.0](../../engineering-resources/12p/mechanical-interface.md){ .md-button }
+[Download Simplified STEP - 4-Stage Reference](../../assets/downloads/12p/12P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
 
 The Datasheet consolidates the currently published stage, ratio, torque, efficiency and motor-matching data. The Mechanical Interface summarizes the controlled 2D drawing.
 
