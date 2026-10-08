@@ -109,6 +109,7 @@ Do not transfer the 20P specifications to another frame size or an unlisted stag
 
 [View 20P Technical Datasheet v1.0](../../engineering-resources/20p/datasheet.md){ .md-button .md-button--primary }
 [View 20P Mechanical Interface v1.0](../../engineering-resources/20p/mechanical-interface.md){ .md-button }
+[Download Simplified STEP - 4-Stage Reference](../../assets/downloads/20p/20P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
 
 The Datasheet consolidates the currently published stage, ratio, torque, efficiency and motor-matching data. The Mechanical Interface summarizes the controlled 2D drawing.
 
