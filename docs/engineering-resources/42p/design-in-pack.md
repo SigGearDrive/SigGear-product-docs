@@ -7,7 +7,7 @@ description: Engineering Design-In Pack for the SigGear 42P 42 mm planetary gear
 
 This page brings together the current engineering resources for the SigGear **42P 42 mm planetary gearbox** so an engineer can move from preliminary frame selection to interface review, configuration-specific CAD request and sample validation.
 
-The 42P currently has a public Datasheet and a public Mechanical Interface based on controlled drawing **SG01PD42**. A detailed full-assembly STEP has been reviewed internally, but no simplified public STEP has been released yet.
+The 42P currently has a public Datasheet, a public Mechanical Interface based on controlled drawing **SG01PD42**, and a simplified public 4-stage STEP for early mechanical packaging and Design-In.
 
 For early design-in, use the published envelope and interface references below. For final CAD placement, tooling or design freeze, request the configuration-matched controlled CAD.
 
@@ -86,7 +86,9 @@ For projects starting from an existing DC motor or requiring a matched motor + g
 
 ## CAD Release Status
 
-**Public simplified STEP:** not released yet.
+**Public simplified STEP:** released as a 4-stage reference.
+
+[Download 42P Simplified STEP - 4-Stage Reference](../../assets/downloads/42p/42P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
 
 **Detailed full-assembly STEP:** reviewed internally and retained as configuration-controlled engineering CAD.
 
