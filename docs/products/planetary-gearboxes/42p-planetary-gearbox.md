@@ -104,13 +104,14 @@ Do not transfer the 42P specifications to another frame size or an unlisted stag
 [Open 42P Design-In Pack](../../engineering-resources/42p/design-in-pack.md){ .md-button .md-button--primary }
 [View 42P Technical Datasheet v1.1](../../engineering-resources/42p/datasheet.md){ .md-button }
 [View 42P Mechanical Interface v1.1](../../engineering-resources/42p/mechanical-interface.md){ .md-button }
+[Download Simplified STEP - 4-Stage Reference](../../assets/downloads/42p/42P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
 [View 42P Motor Integration Guide](../../engineering-resources/42p/motor-integration.md){ .md-button }
 
 The Datasheet consolidates the currently published stage, ratio, torque, efficiency and motor-matching data. The Mechanical Interface summarizes the controlled 2D drawing.
 
 A detailed full-assembly STEP is held as configuration-controlled engineering CAD and is supplied after model / stage / motor-interface review. The raw assembly is not published as a public download because it contains internal planetary transmission geometry.
 
-A simplified public 42P STEP has **not yet been released**. Use the Design-In Pack to review the current public interface data and request configuration-matched CAD.
+A simplified public **4-stage 42P STEP is now released** for early mechanical packaging and Design-In. Use configuration-matched controlled CAD for another stage count or final production release.
 
 ## Related Planetary Gearbox Resources
 
