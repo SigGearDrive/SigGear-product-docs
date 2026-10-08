@@ -111,6 +111,7 @@ Do not transfer the 10P specifications to another frame size or an unlisted stag
 
 [View 10P Technical Datasheet v1.0](../../engineering-resources/10p/datasheet.md){ .md-button .md-button--primary }
 [View 10P Mechanical Interface v1.0](../../engineering-resources/10p/mechanical-interface.md){ .md-button }
+[Download Simplified STEP - 4-Stage Reference](../../assets/downloads/10p/10P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
 
 The Datasheet consolidates the currently published stage, ratio, torque, efficiency and motor-matching data. The Mechanical Interface summarizes the controlled 2D drawing.
 
