@@ -1,0 +1,188 @@
+schema_version: 1
+record_type: external_platform_listing_pack
+brand: SigGear
+manufacturer_legal_name: Guangdong SigGear Drive Intelligent Technology Co., Ltd.
+product_family: miniature_planetary_gearbox
+release_name: SigGear 8P-42P Public CAD Release v1.0
+release_status: ready_for_external_platform_submission
+cad_format: STEP
+cad_configuration: 4-stage_reference
+cad_scope: simplified_external_interface
+cad_note: Public STEP files are intended for early mechanical packaging and Design-In. Detailed full-assembly CAD remains configuration-controlled.
+supply_configuration: SigGear can supply the planetary gearbox as a gearbox-only unit, or evaluate and match a motor based on the customer's specific application requirements to provide a complete motor + gearbox assembly.
+contact:
+  name: Wanrong Wang
+  role: International Sales / Sales Engineer
+  email: wangwanrong@siggear.com
+site_base_url: https://siggeardrive.github.io/SigGear-product-docs/
+
+models:
+  - model: 8P
+    listing_title: 8P 8 mm Miniature Planetary Gearbox
+    nominal_diameter: "8 mm"
+    gearbox_body_length_range: "10.15-18.10 mm"
+    reduction_ratio_range: "3.8:1-731.16:1"
+    rated_allowable_torque_range: "0.2-0.4 kgf.cm"
+    maximum_momentary_torque_range: "0.4-0.8 kgf.cm"
+    backlash_at_no_load: "<= 1.5 deg"
+    adapted_motor_power: "below 2.5 W"
+    product_page: https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8p-planetary-gearbox/
+    datasheet: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/8p/datasheet/
+    mechanical_interface: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/8p/mechanical-interface/
+    public_step: https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/8p/8P_Public_Simplified_STEP_v1.0_4-Stage.step
+
+  - model: 10P
+    listing_title: 10P 10 mm Miniature Planetary Gearbox
+    nominal_diameter: "10 mm"
+    gearbox_body_length_range: "10.25-18.50 mm"
+    reduction_ratio_range: "3.5:1-428.7:1"
+    rated_allowable_torque_range: "1.3-2.0 kgf.cm"
+    maximum_momentary_torque_range: "2.6-4.0 kgf.cm"
+    backlash_at_no_load: "<= 1.5 deg"
+    adapted_motor_power: "below 3 W"
+    product_page: https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/10p-planetary-gearbox/
+    datasheet: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/10p/datasheet/
+    mechanical_interface: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/10p/mechanical-interface/
+    public_step: https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/10p/10P_Public_Simplified_STEP_v1.0_4-Stage.step
+
+  - model: 12P
+    listing_title: 12P 12 mm Miniature Planetary Gearbox
+    nominal_diameter: "12 mm"
+    gearbox_body_length_range: "11.35-19.60 mm"
+    reduction_ratio_range: "3.5:1-509.1:1"
+    rated_allowable_torque_range: "2.0-4.2 kgf.cm"
+    maximum_momentary_torque_range: "4.0-8.4 kgf.cm"
+    backlash_at_no_load: "<= 1.5 deg"
+    adapted_motor_power: "below 4 W"
+    product_page: https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/12p-planetary-gearbox/
+    datasheet: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/12p/datasheet/
+    mechanical_interface: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/12p/mechanical-interface/
+    public_step: https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/12p/12P_Public_Simplified_STEP_v1.0_4-Stage.step
+
+  - model: 14P
+    listing_title: 14P 14 mm Miniature Planetary Gearbox
+    nominal_diameter: "14 mm"
+    gearbox_body_length_range: "15.2-26.6 mm"
+    reduction_ratio_range: "3.75:1-443.3:1"
+    rated_allowable_torque_range: "3.5-6.0 kgf.cm"
+    maximum_momentary_torque_range: "7.0-12.0 kgf.cm"
+    backlash_at_no_load: "<= 1.5 deg"
+    adapted_motor_power: "below 5 W"
+    product_page: https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/14p-planetary-gearbox/
+    datasheet: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/14p/datasheet/
+    mechanical_interface: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/14p/mechanical-interface/
+    public_step: https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/14p/14P_Public_Simplified_STEP_v1.0_4-Stage.step
+
+  - model: 16P
+    listing_title: 16P 16 mm Miniature Planetary Gearbox
+    nominal_diameter: "16 mm"
+    gearbox_body_length_range: "17.55-30.45 mm"
+    reduction_ratio_range: "3.85:1-459.5:1"
+    rated_allowable_torque_range: "4.0-9.0 kgf.cm"
+    maximum_momentary_torque_range: "8.0-26.0 kgf.cm"
+    backlash_at_no_load: "<= 1.5 deg"
+    adapted_motor_power: "below 10 W"
+    product_page: https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/16p-planetary-gearbox/
+    datasheet: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/16p/datasheet/
+    mechanical_interface: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/16p/mechanical-interface/
+    public_step: https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/16p/16P_Public_Simplified_STEP_v1.0_4-Stage.step
+
+  - model: 20P
+    listing_title: 20P 20 mm Miniature Planetary Gearbox
+    nominal_diameter: "20 mm"
+    gearbox_body_length_range: "20.1-34.5 mm"
+    reduction_ratio_range: "4:1-1296:1"
+    rated_allowable_torque_range: "6.0-13.0 kgf.cm"
+    maximum_momentary_torque_range: "12.0-26.0 kgf.cm"
+    backlash_at_no_load: "<= 1.5 deg"
+    adapted_motor_power: "below 20 W"
+    product_page: https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/20p-planetary-gearbox/
+    datasheet: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/20p/datasheet/
+    mechanical_interface: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/20p/mechanical-interface/
+    public_step: https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/20p/20P_Public_Simplified_STEP_v1.0_4-Stage.step
+
+  - model: 22P
+    listing_title: 22P 22 mm Miniature Planetary Gearbox
+    nominal_diameter: "22 mm"
+    gearbox_body_length_range: "22.6-38.5 mm"
+    reduction_ratio_range: "3.5:1-509.1:1"
+    rated_allowable_torque_range: "8.0-25.0 kgf.cm"
+    maximum_momentary_torque_range: "16.0-50.0 kgf.cm"
+    backlash_at_no_load: "<= 1.5 deg"
+    adapted_motor_power: "below 25 W"
+    product_page: https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/22p-planetary-gearbox/
+    datasheet: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/22p/datasheet/
+    mechanical_interface: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/22p/mechanical-interface/
+    public_step: https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/22p/22P_Public_Simplified_STEP_v1.0_4-Stage.step
+
+  - model: 24P
+    listing_title: 24P 24 mm Miniature Planetary Gearbox
+    nominal_diameter: "24 mm"
+    gearbox_body_length_range: "24.6-42.0 mm"
+    reduction_ratio_range: "3.83:1-759.7:1"
+    rated_allowable_torque_range: "10.0-30.0 kgf.cm"
+    maximum_momentary_torque_range: "20.0-60.0 kgf.cm"
+    backlash_at_no_load: "<= 1.2 deg"
+    adapted_motor_power: "below 28 W"
+    product_page: https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/24p-planetary-gearbox/
+    datasheet: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/24p/datasheet/
+    mechanical_interface: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/24p/mechanical-interface/
+    public_step: https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/24p/24P_Public_Simplified_STEP_v1.0_4-Stage.step
+
+  - model: 28P
+    listing_title: 28P 28 mm Miniature Planetary Gearbox
+    nominal_diameter: "28 mm"
+    gearbox_body_length_range: "25.6-44.5 mm"
+    reduction_ratio_range: "3.83:1-759.7:1"
+    rated_allowable_torque_range: "20.0-50.0 kgf.cm"
+    maximum_momentary_torque_range: "40.0-100.0 kgf.cm"
+    backlash_at_no_load: "<= 1.2 deg"
+    adapted_motor_power: "below 30 W"
+    product_page: https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/28p-planetary-gearbox/
+    datasheet: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/28p/datasheet/
+    mechanical_interface: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/28p/mechanical-interface/
+    public_step: https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/28p/28P_Public_Simplified_STEP_v1.0_4-Stage.step
+
+  - model: 32P
+    listing_title: 32P 32 mm Miniature Planetary Gearbox
+    nominal_diameter: "32 mm"
+    gearbox_body_length_range: "28.05-52.95 mm"
+    reduction_ratio_range: "3.5:1-509.1:1"
+    rated_allowable_torque_range: "35.0-80.0 kgf.cm"
+    maximum_momentary_torque_range: "70.0-160.0 kgf.cm"
+    backlash_at_no_load: "<= 1.2 deg"
+    adapted_motor_power: "below 100 W"
+    product_page: https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/32p-planetary-gearbox/
+    datasheet: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/32p/datasheet/
+    mechanical_interface: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/32p/mechanical-interface/
+    design_in_pack: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/32p/design-in-pack/
+    public_step: https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/32p/32P_Public_Simplified_STEP_v1.0_4-Stage.step
+
+  - model: 36P
+    listing_title: 36P 36 mm Miniature Planetary Gearbox
+    nominal_diameter: "36 mm"
+    gearbox_body_length_range: "30.6-61.5 mm"
+    reduction_ratio_range: "3.66:1-625:1"
+    rated_allowable_torque_range: "40.0-100.0 kgf.cm"
+    maximum_momentary_torque_range: "80.0-200.0 kgf.cm"
+    backlash_at_no_load: "<= 1.2 deg"
+    adapted_motor_power: "below 150 W"
+    product_page: https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/36p-planetary-gearbox/
+    datasheet: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/36p/datasheet/
+    mechanical_interface: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/36p/mechanical-interface/
+    public_step: https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/36p/36P_Public_Simplified_STEP_v1.0_4-Stage.step
+
+  - model: 42P
+    listing_title: 42P 42 mm Miniature Planetary Gearbox
+    nominal_diameter: "42 mm"
+    gearbox_body_length_range: "35.6-69.5 mm"
+    reduction_ratio_range: "3.8:1-660.7:1"
+    rated_allowable_torque_range: "80.0-150.0 kgf.cm"
+    maximum_momentary_torque_range: "160.0-300.0 kgf.cm"
+    backlash_at_no_load: "<= 1.2 deg"
+    adapted_motor_power: "below 200 W"
+    product_page: https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/42p-planetary-gearbox/
+    datasheet: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/42p/datasheet/
+    mechanical_interface: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/42p/mechanical-interface/
+    design_in_pack: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/42p/design-in-pack/
+    public_step: https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/42p/42P_Public_Simplified_STEP_v1.0_4-Stage.step
