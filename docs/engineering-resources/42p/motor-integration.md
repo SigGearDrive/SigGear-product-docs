@@ -83,7 +83,9 @@ If the customer does not know the reduction ratio, motor speed plus target outpu
 
 ## CAD and Sample
 
-A detailed 42P full-assembly STEP is retained as configuration-controlled engineering CAD. A simplified public STEP has not yet been released.
+A simplified public **42P 4-stage STEP reference** is released for early packaging and mechanical Design-In. The detailed 42P full-assembly STEP remains configuration-controlled engineering CAD.
+
+[Download 42P Simplified STEP - 4-Stage Reference](../../assets/downloads/42p/42P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
 
 For final CAD, provide the selected ratio / stage count and motor interface.
 
