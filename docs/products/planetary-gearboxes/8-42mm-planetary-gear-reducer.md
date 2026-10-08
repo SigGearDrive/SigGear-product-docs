@@ -51,7 +51,7 @@ Do not select only from outer diameter. A smaller frame may not satisfy torque o
 
 The standard series includes [8P](8p-planetary-gearbox.md), [10P](10p-planetary-gearbox.md), [12P](12p-planetary-gearbox.md), [14P](14p-planetary-gearbox.md), [16P](16p-planetary-gearbox.md), [20P](20p-planetary-gearbox.md), [22P](22p-planetary-gearbox.md), [24P](24p-planetary-gearbox.md), [28P](28p-planetary-gearbox.md), [32P](32p-planetary-gearbox.md), [36P](36p-planetary-gearbox.md) and [42P](42p-planetary-gearbox.md).
 
-Each model now has a public Datasheet and Mechanical Interface reference. Detailed full-assembly CAD remains configuration-controlled and request-only except where a simplified public CAD file has been explicitly released.
+Each model now has a public Datasheet, Mechanical Interface reference and simplified public **4-stage STEP** for early packaging and Design-In. Detailed full-assembly CAD remains configuration-controlled and request-only.
 
 ## Typical Applications
 
@@ -98,7 +98,7 @@ Customization availability depends on the selected diameter, order quantity and 
 
 ## Supply Configuration
 
-SigGear can supply the planetary gearbox only, the motor only, or a matched motor + gearbox assembly according to the application requirements.
+SigGear can supply the planetary gearbox as a gearbox-only unit, or evaluate and match a motor based on the customer's specific application requirements to provide a complete motor + gearbox assembly.
 
 ## Selection Information Required
 
@@ -123,9 +123,12 @@ Every standard 8P–42P frame size now has:
 
 - a model-specific public Datasheet
 - a public Mechanical Interface reference based on the reviewed controlled 2D drawing
-- configuration-matched full assembly CAD available after engineering review
+- a simplified public **4-stage STEP** for early packaging and Design-In
+- configuration-matched controlled CAD available after engineering review
 
-The detailed assembly STEP files are not published as raw public downloads because they contain internal planetary transmission geometry. The 32P additionally has an approved simplified public 4-stage STEP and a motor-integration guide.
+The detailed full-assembly STEP files are not published as raw public downloads because they contain internal planetary transmission geometry. Public simplified CAD intentionally omits the internal planetary transmission construction.
+
+[Open 8P–42P Public CAD Release v1.0](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 
 [Open the Planetary Engineering Resource Library](../../engineering-resources/planetary-gearboxes/index.md){ .md-button .md-button--primary }
 
