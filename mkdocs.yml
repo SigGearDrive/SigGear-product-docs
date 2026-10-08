@@ -223,6 +223,7 @@ nav:
           - Dual Encoder Variant: engineering-resources/cpm100-25/dual-encoder-variant.md
       - Planetary Gearboxes 8P-42P:
           - Resource Library: engineering-resources/planetary-gearboxes/index.md
+          - Public CAD Release v1.0: engineering-resources/planetary-gearboxes/public-cad-release-v1.md
           - 8P:
               - Technical Datasheet: engineering-resources/8p/datasheet.md
               - Mechanical Interface: engineering-resources/8p/mechanical-interface.md
