@@ -56,9 +56,11 @@ These are motor-matching conditions, not electrical ratings of the mechanical ge
 
 ## Mechanical Interface and CAD
 
-[View 16P Mechanical Interface v1.0](mechanical-interface.md){ .md-button .md-button--primary }
+[View 16P Mechanical Interface v1.0](mechanical-interface.md){ .md-button }
 
-A detailed full-assembly STEP has been reviewed internally for 16P. Because it contains internal planetary transmission geometry, the raw assembly remains configuration-controlled and request-only.
+[Download 16P Simplified STEP - 4-Stage Reference](../../assets/downloads/16p/16P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
+
+A simplified public **4-stage STEP reference** is released for early packaging and mechanical Design-In. The detailed full-assembly STEP remains configuration-controlled and request-only because it contains internal planetary transmission geometry.
 
 For final CAD, provide the selected ratio, stage count and motor interface.
 
