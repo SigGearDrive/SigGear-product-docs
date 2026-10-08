@@ -32,15 +32,17 @@ Use the 8P product page for the currently published 1-stage to 4-stage length an
 
 [View 8P Product Data](../../products/planetary-gearboxes/8p-planetary-gearbox.md){ .md-button }
 
-## CAD Status
+## Public Simplified CAD
 
-A full 8P assembly STEP has been reviewed internally.
+[Download 8P Simplified STEP - 4-Stage Reference](../../assets/downloads/8p/8P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
 
-The supplied STEP is a detailed multi-component assembly and is **not released as a public raw download**, because it contains internal planetary transmission geometry.
+The released public STEP is a **single-solid simplified external-interface model** for early packaging and mechanical Design-In. It represents the **4-stage reference configuration only** and intentionally omits the internal planetary transmission construction.
 
-For packaging or design-in, request the configuration-matched CAD. A simplified public external-interface STEP may be released separately after review.
+A detailed full-assembly 8P STEP is still retained as configuration-controlled engineering CAD and is not published as a raw download.
 
-[Request 8P CAD / Controlled Drawing](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+For another stage count or final production release, request the configuration-matched controlled CAD / drawing.
+
+[Request 8P Controlled CAD / Drawing](../../request-cad-sample-quote.md){ .md-button }
 
 ## Design-In Boundary
 
