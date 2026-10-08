@@ -59,15 +59,17 @@ Use the selected stage / ratio and the controlled drawing revision before final 
 
 These limits come from the current 42P specification sheet and should be checked against the actual application load direction, duty cycle and selected configuration.
 
-## CAD Status
+## Public Simplified CAD
 
-A full 42P assembly STEP has been reviewed internally.
+[Download 42P Simplified STEP - 4-Stage Reference](../../assets/downloads/42p/42P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
 
-The supplied STEP is a detailed multi-component assembly and is **not released as a public raw download**, because it contains internal planetary transmission geometry.
+The released public STEP is a **single-solid simplified external-interface model** for early packaging and mechanical Design-In. It represents the **4-stage reference configuration only** and intentionally omits the internal planetary transmission construction.
 
-For packaging or design-in, request the configuration-matched CAD. A simplified public external-interface STEP may be released separately after review.
+A detailed full-assembly 42P STEP is still retained as configuration-controlled engineering CAD and is not published as a raw download.
 
-[Request 42P CAD / Controlled Drawing](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+For another stage count or final production release, request the configuration-matched controlled CAD / drawing.
+
+[Request 42P Controlled CAD / Drawing](../../request-cad-sample-quote.md){ .md-button }
 
 [Open 42P Motor Integration Guide](motor-integration.md){ .md-button }
 
