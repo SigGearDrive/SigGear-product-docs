@@ -61,7 +61,7 @@ These are motor-matching conditions, not electrical ratings of the mechanical ge
 
 [View 42P Mechanical Interface v1.0](mechanical-interface.md){ .md-button .md-button--primary }
 
-A detailed full-assembly STEP has been reviewed internally for 42P. Because it contains internal planetary transmission geometry, the raw assembly remains configuration-controlled and request-only.
+A simplified public **4-stage STEP reference** is released for early packaging and mechanical Design-In. The detailed full-assembly STEP remains configuration-controlled and request-only because it contains internal planetary transmission geometry.
 
 For final CAD, provide the selected ratio, stage count and motor interface.
 
