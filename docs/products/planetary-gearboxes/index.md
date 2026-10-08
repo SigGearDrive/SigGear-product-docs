@@ -119,6 +119,8 @@ All standard **8P–42P** planetary gearbox frame sizes now have a public model-
 [Open the 8P–42P Engineering Resource Library](../../engineering-resources/planetary-gearboxes/index.md){ .md-button .md-button--primary }
 [Compare 8P–42P Models](8-42mm-planetary-gear-reducer.md){ .md-button }
 
-The 32P additionally has a simplified public 4-stage STEP and a motor-integration guide. Detailed full-assembly CAD for the series remains configuration-controlled and is supplied after the model, stage count, ratio and motor interface are confirmed.
+All standard **8P–42P** frame sizes now have a simplified public **4-stage STEP** for early packaging and mechanical Design-In. The 32P and 42P also have dedicated Design-In resources, and the 32P / 42P include motor-integration guidance. Detailed full-assembly CAD remains configuration-controlled and is supplied after the model, stage count, ratio and motor interface are confirmed.
+
+[Open the 8P–42P Public CAD Release v1.0](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 
 [Contact Wanrong Wang](../../contact.md)
