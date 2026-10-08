@@ -24,7 +24,7 @@ The detailed full-assembly STEP files remain configuration-controlled because th
 | 28P | 28 mm | [Datasheet](../28p/datasheet.md) | [Mechanical Interface](../28p/mechanical-interface.md) | [Simplified public 4-stage STEP](../../assets/downloads/28p/28P_Public_Simplified_STEP_v1.0_4-Stage.step) |
 | 32P | 32 mm | [Datasheet](../32p/datasheet.md) | [Mechanical Interface](../32p/mechanical-interface.md) | [Design-In Pack + simplified public 4-stage STEP](../32p/design-in-pack.md) |
 | 36P | 36 mm | [Datasheet](../36p/datasheet.md) | [Mechanical Interface](../36p/mechanical-interface.md) | [Simplified public 4-stage STEP](../../assets/downloads/36p/36P_Public_Simplified_STEP_v1.0_4-Stage.step) |
-| 42P | 42 mm | [Datasheet](../42p/datasheet.md) | [Mechanical Interface](../42p/mechanical-interface.md) | [Design-In Pack / controlled CAD request](../42p/design-in-pack.md) |
+| 42P | 42 mm | [Datasheet](../42p/datasheet.md) | [Mechanical Interface](../42p/mechanical-interface.md) | [Design-In Pack + simplified public 4-stage STEP](../42p/design-in-pack.md) |
 
 [Open the 8P-42P Public CAD Release v1.0](public-cad-release-v1.md){ .md-button .md-button--primary }
 
@@ -42,7 +42,7 @@ Use the Mechanical Interface for early packaging and mounting review.
 
 For **32P**, use the [Public CAD Design-In Pack](../32p/design-in-pack.md) as the complete path from preliminary selection to CAD placement, sample validation and controlled configuration release.
 
-For **42P**, use the [42P Design-In Pack](../42p/design-in-pack.md) for preliminary selection, interface review, explicit data-gap control and configuration-matched CAD request.
+For **42P**, use the [42P Design-In Pack](../42p/design-in-pack.md) for preliminary selection, interface review, public 4-stage STEP access, motor integration guidance and configuration-matched controlled CAD request.
 
 For final design-in, send the selected model, ratio, stage count and motor interface so SigGear can supply the matching controlled drawing / CAD revision.
 
