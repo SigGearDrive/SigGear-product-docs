@@ -74,6 +74,7 @@ Before sending an inquiry, check whether the product already has a public Engine
 Current public Engineering Resources cover:
 
 - [SG-6010C](products/robot-joint-actuators/sg6010c.md)
+- [SG-6010HB](products/robot-joint-actuators/sg6010hb.md)
 - [SG-6010D](products/robot-joint-actuators/sg6010d.md)
 - [SG-8021](products/robot-joint-actuators/sg8021.md)
 - [CPM-78-39](products/cycloidal-joint-modules/cpm78-39.md)
