@@ -10,7 +10,7 @@
     </url>
     <url>
          <loc>https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/</loc>
-         <lastmod>2026-10-07</lastmod>
+         <lastmod>2026-10-09</lastmod>
     </url>
     <url>
          <loc>https://siggeardrive.github.io/SigGear-product-docs/applications/</loc>
@@ -46,7 +46,7 @@
     </url>
     <url>
          <loc>https://siggeardrive.github.io/SigGear-product-docs/applications/exoskeleton-joint-actuators/</loc>
-         <lastmod>2026-10-07</lastmod>
+         <lastmod>2026-10-09</lastmod>
     </url>
     <url>
          <loc>https://siggeardrive.github.io/SigGear-product-docs/applications/food-beverage-coffee-equipment-gear-motors/</loc>
@@ -162,7 +162,7 @@
     </url>
     <url>
          <loc>https://siggeardrive.github.io/SigGear-product-docs/engineering-center/</loc>
-         <lastmod>2026-10-08</lastmod>
+         <lastmod>2026-10-09</lastmod>
     </url>
     <url>
          <loc>https://siggeardrive.github.io/SigGear-product-docs/engineering-center/design-in-checklist/</loc>
@@ -345,6 +345,10 @@
          <lastmod>2026-10-07</lastmod>
     </url>
     <url>
+         <loc>https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/sg6010hb/datasheet/</loc>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
          <loc>https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/sg8021/datasheet/</loc>
          <lastmod>2026-10-07</lastmod>
     </url>
@@ -374,7 +378,7 @@
     </url>
     <url>
          <loc>https://siggeardrive.github.io/SigGear-product-docs/knowledge-base/product-model-index/</loc>
-         <lastmod>2026-10-07</lastmod>
+         <lastmod>2026-10-09</lastmod>
     </url>
     <url>
          <loc>https://siggeardrive.github.io/SigGear-product-docs/knowledge-base/sales-usage-and-review-status/</loc>
@@ -382,7 +386,7 @@
     </url>
     <url>
          <loc>https://siggeardrive.github.io/SigGear-product-docs/knowledge-base/sales-usage-and-technical-review-status/</loc>
-         <lastmod>2026-10-07</lastmod>
+         <lastmod>2026-10-09</lastmod>
     </url>
     <url>
          <loc>https://siggeardrive.github.io/SigGear-product-docs/knowledge-base/update-workflow/</loc>
@@ -486,7 +490,7 @@
     </url>
     <url>
          <loc>https://siggeardrive.github.io/SigGear-product-docs/products/robot-joint-actuators/</loc>
-         <lastmod>2026-10-07</lastmod>
+         <lastmod>2026-10-09</lastmod>
     </url>
     <url>
          <loc>https://siggeardrive.github.io/SigGear-product-docs/products/robot-joint-actuators/sg6010c/</loc>
@@ -495,6 +499,10 @@
     <url>
          <loc>https://siggeardrive.github.io/SigGear-product-docs/products/robot-joint-actuators/sg6010d/</loc>
          <lastmod>2026-10-07</lastmod>
+    </url>
+    <url>
+         <loc>https://siggeardrive.github.io/SigGear-product-docs/products/robot-joint-actuators/sg6010hb/</loc>
+         <lastmod>2026-10-09</lastmod>
     </url>
     <url>
          <loc>https://siggeardrive.github.io/SigGear-product-docs/products/robot-joint-actuators/sg8021/</loc>
