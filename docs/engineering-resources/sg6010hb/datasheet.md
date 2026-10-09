@@ -59,20 +59,14 @@ This identifies a real intended application direction; it does not mean the prod
 
 ## Mechanical Data Boundary
 
-The current public source provides the overall diameter, product thickness, weight and allowable radial / axial force.
+The SG2908B controlled drawing has now been reviewed.
 
-It does **not** provide the full controlled:
+Public early-design information is summarized in the [SG-6010HB Mechanical Interface](mechanical-interface.md), including the 67 mm envelope, 22.57 ±0.50 mm main body thickness, nominal 3.00 ±0.30 mm output-side extension, selected mounting patterns and wiring references.
 
-- Mounting-hole pattern
-- Output-interface geometry
-- Datum / tolerance scheme
-- Connector orientation
-- Production drawing
-- Public simplified STEP
+The controlled production drawing and detailed assembly STEP remain request-only. Request the current configuration-matched drawing / CAD before design freeze.
 
-Request the current configuration-matched drawing / CAD before design freeze.
-
-[Request CAD / Drawing](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[View Mechanical Interface](mechanical-interface.md){ .md-button .md-button--primary }
+[Request CAD / Drawing](../../request-cad-sample-quote.md){ .md-button }
 
 ## Electronics and Integration Boundary
 
