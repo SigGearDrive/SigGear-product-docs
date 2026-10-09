@@ -33,6 +33,8 @@ SG-6010HB is a compact planetary joint motor published by SigGear for exoskeleto
 !!! warning
     Peak torque is not a continuous working rating. Peak duration, duty cycle and thermal suitability require application-specific confirmation.
 
+A source-backed [SG-6010HB Thermal Test Record](thermal-test-record.md) is available. It records time from 30°C to 100°C at several torque levels under stall and 110 rpm load conditions; it does not by itself establish a continuous-duty thermal rating.
+
 ## Electrical and Motor Parameters
 
 | Parameter | Published value |
@@ -66,6 +68,7 @@ Public early-design information is summarized in the [SG-6010HB Mechanical Inter
 The controlled production drawing and detailed assembly STEP remain request-only. Request the current configuration-matched drawing / CAD before design freeze.
 
 [View Mechanical Interface](mechanical-interface.md){ .md-button .md-button--primary }
+[View Thermal Test Record](thermal-test-record.md){ .md-button }
 [Request CAD / Drawing](../../request-cad-sample-quote.md){ .md-button }
 
 ## Electronics and Integration Boundary
