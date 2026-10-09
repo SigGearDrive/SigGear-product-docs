@@ -7,7 +7,7 @@ product_family: robot_joint_actuator
 canonical_page: docs/products/robot-joint-actuators/sg6010hb.md
 public_page_status: published
 record_status: published_inventory
-configuration_summary: Catalog-positioned as a compact planetary exoskeleton joint motor; driver, encoder, communication and final mounting interface require project confirmation.
+configuration_summary: Catalog-positioned as a compact planetary exoskeleton joint motor; current driver-equipped configuration uses the confirmed SG6010 driver platform, while hardware/firmware revision, second encoder, cable set and expansion interfaces remain configuration-specific.
 published_specifications:
   transmission_structure: "Planetary structure"
   outer_diameter: "67.0 mm"
@@ -40,14 +40,15 @@ sales_usage:
     - public_product_summary
   requires_confirmation:
     - peak_torque_duration_and_duty_cycle
-    - driver_encoder_and_feedback_configuration
-    - communication_and_control_interface
+    - driver_hardware_and_firmware_revision
+    - second_encoder_and_feedback_configuration
+    - selected_communication_interface_and_protocol_files
     - connector_cable_and_pinout
     - final_mounting_interface_and_cad
     - brake_power_off_and_thermal_behavior
   prohibited:
     - treat_peak_torque_as_continuous
-    - present_unpublished_driver_encoder_or_protocol_as_standard
+    - present_expansion_interfaces_as_standard_without_configuration_confirmation
     - present_catalog_application_label_as_completed_customer_case
 technical_review:
   public_inventory_status: complete
