@@ -15,6 +15,12 @@ SigGear robot joint actuators include integrated planetary joint actuators, gear
 
 [View SG-6010C](sg6010c.md)
 
+### SG-6010HB
+
+67 mm compact planetary joint motor with a 25.57 mm axial profile, 6 Nm rated torque, 18 Nm peak torque and 310 rpm rated output speed. The current SigGear catalog positions SG-6010HB for exoskeleton joint applications.
+
+[View SG-6010HB](sg6010hb.md)
+
 ### SG-6010D
 
 80 mm integrated planetary robot joint actuator with 16 Nm rated torque, 50 Nm peak torque and 100 rpm rated output speed.
