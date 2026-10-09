@@ -7,6 +7,7 @@ Use this page to locate the canonical public page for a SigGear product model or
 | Model | Public page |
 | --- | --- |
 | SG-6010C | [SG-6010C](../products/robot-joint-actuators/sg6010c.md) |
+| SG-6010HB | [SG-6010HB](../products/robot-joint-actuators/sg6010hb.md) |
 | SG-6010D | [SG-6010D](../products/robot-joint-actuators/sg6010d.md) |
 | SG-8021 | [SG-8021](../products/robot-joint-actuators/sg8021.md) |
 

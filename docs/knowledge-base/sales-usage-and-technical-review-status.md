@@ -10,6 +10,7 @@ All current product records have a complete inventory of the claims on their can
 
 | Product | Permitted use | Must confirm before quotation or final selection |
 | --- | --- | --- |
+| [SG-6010HB](../products/robot-joint-actuators/sg6010hb.md) | Preliminary selection and public summary | Peak duration, duty cycle, driver, encoder, communication, brake / power-off behavior, mounting interface and thermal conditions |
 | [16P](../products/planetary-gearboxes/16p-planetary-gearbox.md) | Preliminary selection and public summary | Exact ratio, stage count, motor matching, duty cycle, shaft, mounting, noise and service life |
 | [20P](../products/planetary-gearboxes/20p-planetary-gearbox.md) | Preliminary selection and public summary | Exact ratio, stage count, motor matching, duty cycle, shaft, mounting, noise and service life |
 | [22P](../products/planetary-gearboxes/22p-planetary-gearbox.md) | Preliminary selection and public summary | Exact ratio, stage count, motor matching, duty cycle, shaft, mounting, noise and service life |
