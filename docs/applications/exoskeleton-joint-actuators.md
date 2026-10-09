@@ -151,6 +151,7 @@ The following published models can be used as starting points for exoskeleton jo
 
 | Model | Transmission | Rated torque | Peak torque | Rated output speed | Configuration note |
 | --- | --- | ---: | ---: | ---: | --- |
+| [SG-6010HB](../products/robot-joint-actuators/sg6010hb.md) | Planetary | 6 Nm | 18 Nm | 310 rpm | Catalog-positioned exoskeleton joint motor; electronics and final interface require confirmation. |
 | [SG-6010C](../products/robot-joint-actuators/sg6010c.md) | Planetary | 6 Nm | 18 Nm | 310 rpm | Driver options depend on selected configuration. |
 | [SG-6010D](../products/robot-joint-actuators/sg6010d.md) | Planetary | 16 Nm | 50 Nm | 100 rpm | Available with or without integrated driver. |
 | [SG-8021](../products/robot-joint-actuators/sg8021.md) | Planetary | 10 Nm | 30 Nm | 160 rpm | Driver options depend on selected configuration. |
