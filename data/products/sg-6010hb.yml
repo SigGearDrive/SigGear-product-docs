@@ -1,0 +1,60 @@
+schema_version: 1
+record_id: sg-6010hb
+record_type: model
+model: SG-6010HB
+display_name: SG-6010HB Compact Planetary Exoskeleton Joint Motor
+product_family: robot_joint_actuator
+canonical_page: docs/products/robot-joint-actuators/sg6010hb.md
+public_page_status: published
+record_status: published_inventory
+configuration_summary: Catalog-positioned as a compact planetary exoskeleton joint motor; driver, encoder, communication and final mounting interface require project confirmation.
+published_specifications:
+  transmission_structure: "Planetary structure"
+  outer_diameter: "67.0 mm"
+  product_thickness: "25.57 mm"
+  reduction_ratio: "9.67:1"
+  backlash: "15–20 arcmin"
+  motor_power: "328 W"
+  rated_voltage: "12–48 V"
+  rated_output_speed: "310 rpm"
+  no_load_output_speed: "400 rpm"
+  rated_output_torque: "6 Nm"
+  peak_output_torque: "18 Nm"
+  weight: "298.5 g"
+  allowable_radial_force: "250 N"
+  allowable_axial_force: "100 N"
+  phase_damping: "224 µΩ"
+  phase_inductance: "235 µH"
+  phase_current_full_scale: "33 A"
+  rated_bus_current: "12 A"
+  static_working_bus_current: "0.08 A"
+  motor_structure: "18N20P"
+  motor_torque_constant: "0.0606 Nm/A"
+  thermistor: "10 kΩ B3435 ±1%"
+  ntc_b_value: "3435"
+  back_emf_constant: "0.0727 Vs/rad"
+  motor_kv_value: "104 KV (catalog notation)"
+sales_usage:
+  permitted:
+    - preliminary_selection
+    - public_product_summary
+  requires_confirmation:
+    - peak_torque_duration_and_duty_cycle
+    - driver_encoder_and_feedback_configuration
+    - communication_and_control_interface
+    - connector_cable_and_pinout
+    - final_mounting_interface_and_cad
+    - brake_power_off_and_thermal_behavior
+  prohibited:
+    - treat_peak_torque_as_continuous
+    - present_unpublished_driver_encoder_or_protocol_as_standard
+    - present_catalog_application_label_as_completed_customer_case
+technical_review:
+  public_inventory_status: complete
+  controlled_source_reference: not_recorded_in_public_repository
+  technical_approval_status: not_recorded_in_public_repository
+  next_internal_action: maintain_catalog_and_configuration_revision_match
+source_control:
+  public_claim_source: canonical_page
+  technical_source_status: not_recorded_in_public_repository
+inventory_checked_on: "2026-10-09"
