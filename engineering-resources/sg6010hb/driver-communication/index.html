@@ -6,32 +6,32 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="A practical sample-evaluation workflow for SigGear robot joint actuators, cycloidal modules and planetary gearboxes, from configuration confirmation to functional testing and design-in review.">
+        <meta name="description" content="Confirmed driver-equipped SG-6010HB integration reference covering 16-bit absolute encoder, CAN Simple, CANopen CiA402, RS485 Modbus RTU, position, velocity, torque and MIT-style control.">
       
       
       
-        <link rel="canonical" href="https://siggeardrive.github.io/SigGear-product-docs/engineering-center/sample-validation-workflow/">
+        <link rel="canonical" href="https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/sg6010hb/driver-communication/">
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../thermal-test-record/">
       
       
-        <link rel="next" href="../design-in-checklist/">
+        <link rel="next" href="../../sg6010d/datasheet/">
       
       
         
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
-        <title>Sample Validation Workflow | SigGear Actuators and Gearboxes - SigGear Product Documentation</title>
+        <title>SG-6010HB Driver and Communication | CAN, CANopen, RS485, MIT Control | SigGear - SigGear Product Documentation</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
       
       
 
@@ -66,7 +66,7 @@
 
     
     
-  <script type="application/ld+json" data-siggear-seo-schema="breadcrumb">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SigGear","item":"https://siggeardrive.github.io/SigGear-product-docs/"},{"@type":"ListItem","position":2,"name":"Engineering Center","item":"https://siggeardrive.github.io/SigGear-product-docs/engineering-center/"},{"@type":"ListItem","position":3,"name":"Sample Validation Workflow","item":"https://siggeardrive.github.io/SigGear-product-docs/engineering-center/sample-validation-workflow/"}]}</script>
+  <script type="application/ld+json" data-siggear-seo-schema="breadcrumb">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SigGear","item":"https://siggeardrive.github.io/SigGear-product-docs/"},{"@type":"ListItem","position":2,"name":"Products","item":"https://siggeardrive.github.io/SigGear-product-docs/products/"},{"@type":"ListItem","position":3,"name":"Robot Joint Actuators","item":"https://siggeardrive.github.io/SigGear-product-docs/products/robot-joint-actuators/"},{"@type":"ListItem","position":4,"name":"SG-6010HB","item":"https://siggeardrive.github.io/SigGear-product-docs/products/robot-joint-actuators/sg6010hb/"},{"@type":"ListItem","position":5,"name":"SG-6010HB Driver and Communication","item":"https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/sg6010hb/driver-communication/"}]}</script>
 </head>
   
   
@@ -79,7 +79,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#sample-validation-workflow" class="md-skip">
+        <a href="#sg-6010hb-driver-and-communication-reference-v10" class="md-skip">
           Skip to content
         </a>
       
@@ -95,7 +95,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="SigGear Product Documentation" class="md-header__button md-logo" aria-label="SigGear Product Documentation" data-md-component="logo">
+    <a href="../../.." title="SigGear Product Documentation" class="md-header__button md-logo" aria-label="SigGear Product Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -115,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Sample Validation Workflow | SigGear Actuators and Gearboxes
+              SG-6010HB Driver and Communication | CAN, CANopen, RS485, MIT Control | SigGear
             
           </span>
         </div>
@@ -207,7 +207,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="SigGear Product Documentation" class="md-nav__button md-logo" aria-label="SigGear Product Documentation" data-md-component="logo">
+    <a href="../../.." title="SigGear Product Documentation" class="md-nav__button md-logo" aria-label="SigGear Product Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -237,7 +237,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -316,7 +316,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../company/about-siggear/" class="md-nav__link">
+      <a href="../../../company/about-siggear/" class="md-nav__link">
         
   
   
@@ -344,7 +344,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../company/certifications/" class="md-nav__link">
+      <a href="../../../company/certifications/" class="md-nav__link">
         
   
   
@@ -431,7 +431,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../custom-engineering/" class="md-nav__link">
+      <a href="../../../custom-engineering/" class="md-nav__link">
         
   
   
@@ -459,7 +459,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../custom-engineering/custom-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../custom-engineering/custom-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -487,7 +487,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../custom-engineering/custom-cycloidal-transmission/" class="md-nav__link">
+      <a href="../../../custom-engineering/custom-cycloidal-transmission/" class="md-nav__link">
         
   
   
@@ -515,7 +515,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../custom-engineering/motor-gearbox-integration/" class="md-nav__link">
+      <a href="../../../custom-engineering/motor-gearbox-integration/" class="md-nav__link">
         
   
   
@@ -543,7 +543,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../custom-engineering/robot-joint-actuator-development/" class="md-nav__link">
+      <a href="../../../custom-engineering/robot-joint-actuator-development/" class="md-nav__link">
         
   
   
@@ -571,7 +571,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../custom-engineering/prototype-to-production/" class="md-nav__link">
+      <a href="../../../custom-engineering/prototype-to-production/" class="md-nav__link">
         
   
   
@@ -658,7 +658,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/" class="md-nav__link">
+      <a href="../../../products/" class="md-nav__link">
         
   
   
@@ -735,7 +735,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/robot-joint-actuators/" class="md-nav__link">
+      <a href="../../../products/robot-joint-actuators/" class="md-nav__link">
         
   
   
@@ -763,7 +763,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/robot-joint-actuators/sg6010c/" class="md-nav__link">
+      <a href="../../../products/robot-joint-actuators/sg6010c/" class="md-nav__link">
         
   
   
@@ -791,7 +791,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/robot-joint-actuators/sg6010hb/" class="md-nav__link">
+      <a href="../../../products/robot-joint-actuators/sg6010hb/" class="md-nav__link">
         
   
   
@@ -819,7 +819,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/robot-joint-actuators/sg6010d/" class="md-nav__link">
+      <a href="../../../products/robot-joint-actuators/sg6010d/" class="md-nav__link">
         
   
   
@@ -847,7 +847,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/robot-joint-actuators/sg8021/" class="md-nav__link">
+      <a href="../../../products/robot-joint-actuators/sg8021/" class="md-nav__link">
         
   
   
@@ -932,7 +932,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/hub-gear-motors/" class="md-nav__link">
+      <a href="../../../products/hub-gear-motors/" class="md-nav__link">
         
   
   
@@ -960,7 +960,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/hub-gear-motors/sg2877/" class="md-nav__link">
+      <a href="../../../products/hub-gear-motors/sg2877/" class="md-nav__link">
         
   
   
@@ -988,7 +988,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/hub-gear-motors/sg2878/" class="md-nav__link">
+      <a href="../../../products/hub-gear-motors/sg2878/" class="md-nav__link">
         
   
   
@@ -1073,7 +1073,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/cycloidal-joint-modules/" class="md-nav__link">
+      <a href="../../../products/cycloidal-joint-modules/" class="md-nav__link">
         
   
   
@@ -1101,7 +1101,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/cycloidal-joint-modules/cpm78-39/" class="md-nav__link">
+      <a href="../../../products/cycloidal-joint-modules/cpm78-39/" class="md-nav__link">
         
   
   
@@ -1129,7 +1129,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/cycloidal-joint-modules/cpm80-25/" class="md-nav__link">
+      <a href="../../../products/cycloidal-joint-modules/cpm80-25/" class="md-nav__link">
         
   
   
@@ -1157,7 +1157,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/cycloidal-joint-modules/cpm100-25/" class="md-nav__link">
+      <a href="../../../products/cycloidal-joint-modules/cpm100-25/" class="md-nav__link">
         
   
   
@@ -1242,7 +1242,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/" class="md-nav__link">
         
   
   
@@ -1270,7 +1270,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/8-42mm-planetary-gear-reducer/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/8-42mm-planetary-gear-reducer/" class="md-nav__link">
         
   
   
@@ -1298,7 +1298,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/8p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/8p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1326,7 +1326,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/10p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/10p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1354,7 +1354,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/12p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/12p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1382,7 +1382,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/14p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/14p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1410,7 +1410,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/16p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/16p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1438,7 +1438,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/20p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/20p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1466,7 +1466,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/22p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/22p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1494,7 +1494,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/24p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/24p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1522,7 +1522,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/28p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/28p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1550,7 +1550,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/32p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/32p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1578,7 +1578,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/36p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/36p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1606,7 +1606,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/planetary-gearboxes/42p-planetary-gearbox/" class="md-nav__link">
+      <a href="../../../products/planetary-gearboxes/42p-planetary-gearbox/" class="md-nav__link">
         
   
   
@@ -1691,7 +1691,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/micro-gear-motors/" class="md-nav__link">
+      <a href="../../../products/micro-gear-motors/" class="md-nav__link">
         
   
   
@@ -1776,7 +1776,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../products/flat-bldc-motors/" class="md-nav__link">
+      <a href="../../../products/flat-bldc-motors/" class="md-nav__link">
         
   
   
@@ -1871,7 +1871,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/" class="md-nav__link">
+      <a href="../../../applications/" class="md-nav__link">
         
   
   
@@ -1899,7 +1899,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/access-control-smart-lock-security-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/access-control-smart-lock-security-gear-motors/" class="md-nav__link">
         
   
   
@@ -1927,7 +1927,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/agriculture-outdoor-equipment-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/agriculture-outdoor-equipment-gear-motors/" class="md-nav__link">
         
   
   
@@ -1955,7 +1955,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/agv-amr-wheel-drive-gearboxes/" class="md-nav__link">
+      <a href="../../../applications/agv-amr-wheel-drive-gearboxes/" class="md-nav__link">
         
   
   
@@ -1983,7 +1983,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/automotive-vehicle-small-motion-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/automotive-vehicle-small-motion-gear-motors/" class="md-nav__link">
         
   
   
@@ -2011,7 +2011,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/consumer-appliance-home-device-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/consumer-appliance-home-device-gear-motors/" class="md-nav__link">
         
   
   
@@ -2039,7 +2039,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/electric-curtain-blind-window-opener-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/electric-curtain-blind-window-opener-gear-motors/" class="md-nav__link">
         
   
   
@@ -2067,7 +2067,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/energy-battery-charging-equipment-actuators/" class="md-nav__link">
+      <a href="../../../applications/energy-battery-charging-equipment-actuators/" class="md-nav__link">
         
   
   
@@ -2095,7 +2095,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/exoskeleton-joint-actuators/" class="md-nav__link">
+      <a href="../../../applications/exoskeleton-joint-actuators/" class="md-nav__link">
         
   
   
@@ -2123,7 +2123,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/food-beverage-coffee-equipment-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/food-beverage-coffee-equipment-gear-motors/" class="md-nav__link">
         
   
   
@@ -2151,7 +2151,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/furniture-seating-adjustable-mechanism-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/furniture-seating-adjustable-mechanism-gear-motors/" class="md-nav__link">
         
   
   
@@ -2179,7 +2179,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/humanoid-robot-joint-actuators/" class="md-nav__link">
+      <a href="../../../applications/humanoid-robot-joint-actuators/" class="md-nav__link">
         
   
   
@@ -2207,7 +2207,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/hvac-smart-vent-damper-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/hvac-smart-vent-damper-gear-motors/" class="md-nav__link">
         
   
   
@@ -2235,7 +2235,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/industrial-automation-servo-planetary-gearboxes/" class="md-nav__link">
+      <a href="../../../applications/industrial-automation-servo-planetary-gearboxes/" class="md-nav__link">
         
   
   
@@ -2263,7 +2263,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/laboratory-automation-diagnostic-equipment-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/laboratory-automation-diagnostic-equipment-gear-motors/" class="md-nav__link">
         
   
   
@@ -2291,7 +2291,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/medical-device-micro-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/medical-device-micro-gear-motors/" class="md-nav__link">
         
   
   
@@ -2319,7 +2319,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/micro-robotics-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/micro-robotics-gear-motors/" class="md-nav__link">
         
   
   
@@ -2347,7 +2347,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/office-automation-business-equipment-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/office-automation-business-equipment-gear-motors/" class="md-nav__link">
         
   
   
@@ -2375,7 +2375,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/optical-imaging-camera-module-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/optical-imaging-camera-module-gear-motors/" class="md-nav__link">
         
   
   
@@ -2403,7 +2403,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/packaging-labeling-conveyor-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/packaging-labeling-conveyor-gear-motors/" class="md-nav__link">
         
   
   
@@ -2431,7 +2431,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/precision-instruments-optical-mechanisms/" class="md-nav__link">
+      <a href="../../../applications/precision-instruments-optical-mechanisms/" class="md-nav__link">
         
   
   
@@ -2459,7 +2459,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/pump-valve-fluid-control-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/pump-valve-fluid-control-gear-motors/" class="md-nav__link">
         
   
   
@@ -2487,7 +2487,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/quadruped-robot-joint-gearboxes/" class="md-nav__link">
+      <a href="../../../applications/quadruped-robot-joint-gearboxes/" class="md-nav__link">
         
   
   
@@ -2515,7 +2515,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/robotic-arm-joint-actuators/" class="md-nav__link">
+      <a href="../../../applications/robotic-arm-joint-actuators/" class="md-nav__link">
         
   
   
@@ -2543,7 +2543,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/robot-gripper-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/robot-gripper-gear-motors/" class="md-nav__link">
         
   
   
@@ -2571,7 +2571,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/semiconductor-electronics-inspection-equipment-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/semiconductor-electronics-inspection-equipment-gear-motors/" class="md-nav__link">
         
   
   
@@ -2599,7 +2599,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/smart-hardware-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/smart-hardware-gear-motors/" class="md-nav__link">
         
   
   
@@ -2627,7 +2627,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/stage-lighting-display-signage-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/stage-lighting-display-signage-gear-motors/" class="md-nav__link">
         
   
   
@@ -2655,7 +2655,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../applications/vending-dispensing-kiosk-gear-motors/" class="md-nav__link">
+      <a href="../../../applications/vending-dispensing-kiosk-gear-motors/" class="md-nav__link">
         
   
   
@@ -2742,7 +2742,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../selection-guides/" class="md-nav__link">
+      <a href="../../../selection-guides/" class="md-nav__link">
         
   
   
@@ -2770,7 +2770,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../selection-guides/robot-joint-actuator-selection-guide/" class="md-nav__link">
+      <a href="../../../selection-guides/robot-joint-actuator-selection-guide/" class="md-nav__link">
         
   
   
@@ -2778,6 +2778,149 @@
     
   
     Robot Joint Actuator Selection Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engineering Center
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Engineering Center
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../engineering-center/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../engineering-center/sample-validation-workflow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sample Validation Workflow
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../engineering-center/design-in-checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design-In Checklist
   
 
     
@@ -2820,335 +2963,7 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
-        
-          
-          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Engineering Center
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_7">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Engineering Center
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Overview
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Sample Validation Workflow
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Sample Validation Workflow
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#before-the-sample-is-ordered" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Before the Sample Is Ordered
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#when-the-sample-is-received" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        When the Sample Is Received
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-1-mechanical-fit" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Step 1 - Mechanical Fit
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-2-first-power-up-or-no-load-check" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Step 2 - First Power-Up or No-Load Check
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-3-functional-test" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Step 3 - Functional Test
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-4-application-test" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Step 4 - Application Test
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#if-a-problem-appears" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        If a Problem Appears
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#model-specific-starting-points" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Model-Specific Starting Points
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Model-Specific Starting Points">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#sg-6010c" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        SG-6010C
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#cpm-80-25" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        CPM-80-25
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#32p" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        32P
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#when-the-sample-is-ready-for-the-next-stage" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        When the Sample Is Ready for the Next Stage
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../design-in-checklist/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Design-In Checklist
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-      
-        
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
         
           
           <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
@@ -3169,7 +2984,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             
@@ -3236,7 +3051,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/sg6010c/datasheet/" class="md-nav__link">
+      <a href="../../sg6010c/datasheet/" class="md-nav__link">
         
   
   
@@ -3264,7 +3079,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/sg6010c/mechanical-interface/" class="md-nav__link">
+      <a href="../../sg6010c/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -3297,6 +3112,8 @@
                 
   
   
+    
+  
   
   
     
@@ -3306,11 +3123,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" checked>
         
           
           <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
@@ -3331,7 +3148,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_8_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -3349,7 +3166,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/sg6010hb/datasheet/" class="md-nav__link">
+      <a href="../datasheet/" class="md-nav__link">
         
   
   
@@ -3377,7 +3194,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/sg6010hb/mechanical-interface/" class="md-nav__link">
+      <a href="../mechanical-interface/" class="md-nav__link">
         
   
   
@@ -3405,7 +3222,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/sg6010hb/thermal-test-record/" class="md-nav__link">
+      <a href="../thermal-test-record/" class="md-nav__link">
         
   
   
@@ -3430,10 +3247,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../engineering-resources/sg6010hb/driver-communication/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Driver & Communication
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -3449,6 +3293,219 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#system-voltage-boundary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        System Voltage Boundary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#driver-electrical-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Driver Electrical Reference
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#confirmed-hardware-interfaces" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Confirmed Hardware Interfaces
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#can-simple" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CAN Simple
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#canopen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CANopen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rs485-modbus-rtu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RS485 / Modbus RTU
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#control-modes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Control Modes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Control Modes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#position" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Position
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#velocity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Velocity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#torque" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Torque
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mit-style-motion-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MIT-Style Motion Control
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#encoder-and-feedback" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Encoder and Feedback
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#temperature-and-protection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Temperature and Protection
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#expansion-interface-boundary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expansion Interface Boundary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integration-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integration Checklist
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Related Resources
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#engineering-contact" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Engineering Contact
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -3518,7 +3575,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/sg6010d/datasheet/" class="md-nav__link">
+      <a href="../../sg6010d/datasheet/" class="md-nav__link">
         
   
   
@@ -3546,7 +3603,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/sg6010d/mechanical-interface/" class="md-nav__link">
+      <a href="../../sg6010d/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -3574,7 +3631,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/sg6010d/driver-communication/" class="md-nav__link">
+      <a href="../../sg6010d/driver-communication/" class="md-nav__link">
         
   
   
@@ -3659,7 +3716,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/sg8021/datasheet/" class="md-nav__link">
+      <a href="../../sg8021/datasheet/" class="md-nav__link">
         
   
   
@@ -3687,7 +3744,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/sg8021/mechanical-interface/" class="md-nav__link">
+      <a href="../../sg8021/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -3772,7 +3829,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/cpm78-39/datasheet/" class="md-nav__link">
+      <a href="../../cpm78-39/datasheet/" class="md-nav__link">
         
   
   
@@ -3800,7 +3857,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/cpm78-39/mechanical-interface/" class="md-nav__link">
+      <a href="../../cpm78-39/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -3885,7 +3942,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/cpm80-25/datasheet/" class="md-nav__link">
+      <a href="../../cpm80-25/datasheet/" class="md-nav__link">
         
   
   
@@ -3913,7 +3970,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/cpm80-25/mechanical-interface/" class="md-nav__link">
+      <a href="../../cpm80-25/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -3941,7 +3998,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/cpm80-25/performance-test-data/" class="md-nav__link">
+      <a href="../../cpm80-25/performance-test-data/" class="md-nav__link">
         
   
   
@@ -4026,7 +4083,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/cpm100-25/datasheet/" class="md-nav__link">
+      <a href="../../cpm100-25/datasheet/" class="md-nav__link">
         
   
   
@@ -4054,7 +4111,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/cpm100-25/mechanical-interface/" class="md-nav__link">
+      <a href="../../cpm100-25/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -4082,7 +4139,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/cpm100-25/dual-encoder-variant/" class="md-nav__link">
+      <a href="../../cpm100-25/dual-encoder-variant/" class="md-nav__link">
         
   
   
@@ -4167,7 +4224,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/planetary-gearboxes/" class="md-nav__link">
+      <a href="../../planetary-gearboxes/" class="md-nav__link">
         
   
   
@@ -4195,7 +4252,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/planetary-gearboxes/public-cad-release-v1/" class="md-nav__link">
+      <a href="../../planetary-gearboxes/public-cad-release-v1/" class="md-nav__link">
         
   
   
@@ -4272,7 +4329,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/8p/datasheet/" class="md-nav__link">
+      <a href="../../8p/datasheet/" class="md-nav__link">
         
   
   
@@ -4300,7 +4357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/8p/mechanical-interface/" class="md-nav__link">
+      <a href="../../8p/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -4385,7 +4442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/10p/datasheet/" class="md-nav__link">
+      <a href="../../10p/datasheet/" class="md-nav__link">
         
   
   
@@ -4413,7 +4470,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/10p/mechanical-interface/" class="md-nav__link">
+      <a href="../../10p/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -4498,7 +4555,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/12p/datasheet/" class="md-nav__link">
+      <a href="../../12p/datasheet/" class="md-nav__link">
         
   
   
@@ -4526,7 +4583,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/12p/mechanical-interface/" class="md-nav__link">
+      <a href="../../12p/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -4611,7 +4668,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/14p/datasheet/" class="md-nav__link">
+      <a href="../../14p/datasheet/" class="md-nav__link">
         
   
   
@@ -4639,7 +4696,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/14p/mechanical-interface/" class="md-nav__link">
+      <a href="../../14p/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -4724,7 +4781,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/16p/datasheet/" class="md-nav__link">
+      <a href="../../16p/datasheet/" class="md-nav__link">
         
   
   
@@ -4752,7 +4809,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/16p/mechanical-interface/" class="md-nav__link">
+      <a href="../../16p/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -4837,7 +4894,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/20p/datasheet/" class="md-nav__link">
+      <a href="../../20p/datasheet/" class="md-nav__link">
         
   
   
@@ -4865,7 +4922,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/20p/mechanical-interface/" class="md-nav__link">
+      <a href="../../20p/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -4950,7 +5007,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/22p/datasheet/" class="md-nav__link">
+      <a href="../../22p/datasheet/" class="md-nav__link">
         
   
   
@@ -4978,7 +5035,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/22p/mechanical-interface/" class="md-nav__link">
+      <a href="../../22p/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -5063,7 +5120,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/24p/datasheet/" class="md-nav__link">
+      <a href="../../24p/datasheet/" class="md-nav__link">
         
   
   
@@ -5091,7 +5148,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/24p/mechanical-interface/" class="md-nav__link">
+      <a href="../../24p/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -5176,7 +5233,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/28p/datasheet/" class="md-nav__link">
+      <a href="../../28p/datasheet/" class="md-nav__link">
         
   
   
@@ -5204,7 +5261,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/28p/mechanical-interface/" class="md-nav__link">
+      <a href="../../28p/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -5289,7 +5346,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/32p/design-in-pack/" class="md-nav__link">
+      <a href="../../32p/design-in-pack/" class="md-nav__link">
         
   
   
@@ -5317,7 +5374,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/32p/datasheet/" class="md-nav__link">
+      <a href="../../32p/datasheet/" class="md-nav__link">
         
   
   
@@ -5345,7 +5402,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/32p/mechanical-interface/" class="md-nav__link">
+      <a href="../../32p/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -5373,7 +5430,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/32p/motor-integration/" class="md-nav__link">
+      <a href="../../32p/motor-integration/" class="md-nav__link">
         
   
   
@@ -5458,7 +5515,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/36p/datasheet/" class="md-nav__link">
+      <a href="../../36p/datasheet/" class="md-nav__link">
         
   
   
@@ -5486,7 +5543,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/36p/mechanical-interface/" class="md-nav__link">
+      <a href="../../36p/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -5571,7 +5628,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/42p/design-in-pack/" class="md-nav__link">
+      <a href="../../42p/design-in-pack/" class="md-nav__link">
         
   
   
@@ -5599,7 +5656,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/42p/datasheet/" class="md-nav__link">
+      <a href="../../42p/datasheet/" class="md-nav__link">
         
   
   
@@ -5627,7 +5684,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/42p/mechanical-interface/" class="md-nav__link">
+      <a href="../../42p/mechanical-interface/" class="md-nav__link">
         
   
   
@@ -5655,7 +5712,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../engineering-resources/42p/motor-integration/" class="md-nav__link">
+      <a href="../../42p/motor-integration/" class="md-nav__link">
         
   
   
@@ -5758,7 +5815,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sales/" class="md-nav__link">
+      <a href="../../../sales/" class="md-nav__link">
         
   
   
@@ -5786,7 +5843,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sales/customer-qualification-checklist/" class="md-nav__link">
+      <a href="../../../sales/customer-qualification-checklist/" class="md-nav__link">
         
   
   
@@ -5814,7 +5871,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sales/inquiry-response-policy/" class="md-nav__link">
+      <a href="../../../sales/inquiry-response-policy/" class="md-nav__link">
         
   
   
@@ -5842,7 +5899,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sales/product-matching-workflow/" class="md-nav__link">
+      <a href="../../../sales/product-matching-workflow/" class="md-nav__link">
         
   
   
@@ -5870,7 +5927,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sales/quotation-readiness-checklist/" class="md-nav__link">
+      <a href="../../../sales/quotation-readiness-checklist/" class="md-nav__link">
         
   
   
@@ -5898,7 +5955,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sales/reply-templates/" class="md-nav__link">
+      <a href="../../../sales/reply-templates/" class="md-nav__link">
         
   
   
@@ -5985,7 +6042,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../knowledge-base/" class="md-nav__link">
+      <a href="../../../knowledge-base/" class="md-nav__link">
         
   
   
@@ -6013,7 +6070,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../knowledge-base/documentation-policy/" class="md-nav__link">
+      <a href="../../../knowledge-base/documentation-policy/" class="md-nav__link">
         
   
   
@@ -6041,7 +6098,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../knowledge-base/glossary/" class="md-nav__link">
+      <a href="../../../knowledge-base/glossary/" class="md-nav__link">
         
   
   
@@ -6069,7 +6126,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../knowledge-base/product-data-dictionary/" class="md-nav__link">
+      <a href="../../../knowledge-base/product-data-dictionary/" class="md-nav__link">
         
   
   
@@ -6097,7 +6154,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../knowledge-base/product-faq/" class="md-nav__link">
+      <a href="../../../knowledge-base/product-faq/" class="md-nav__link">
         
   
   
@@ -6125,7 +6182,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../knowledge-base/product-model-index/" class="md-nav__link">
+      <a href="../../../knowledge-base/product-model-index/" class="md-nav__link">
         
   
   
@@ -6153,7 +6210,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../knowledge-base/sales-usage-and-review-status/" class="md-nav__link">
+      <a href="../../../knowledge-base/sales-usage-and-review-status/" class="md-nav__link">
         
   
   
@@ -6181,7 +6238,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../knowledge-base/sales-usage-and-technical-review-status/" class="md-nav__link">
+      <a href="../../../knowledge-base/sales-usage-and-technical-review-status/" class="md-nav__link">
         
   
   
@@ -6209,7 +6266,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../knowledge-base/update-workflow/" class="md-nav__link">
+      <a href="../../../knowledge-base/update-workflow/" class="md-nav__link">
         
   
   
@@ -6244,7 +6301,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../request-cad-sample-quote/" class="md-nav__link">
+      <a href="../../../request-cad-sample-quote/" class="md-nav__link">
         
   
   
@@ -6271,7 +6328,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../contact/" class="md-nav__link">
+      <a href="../../../contact/" class="md-nav__link">
         
   
   
@@ -6318,10 +6375,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#before-the-sample-is-ordered" class="md-nav__link">
+  <a href="#system-voltage-boundary" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Before the Sample Is Ordered
+        System Voltage Boundary
       
     </span>
   </a>
@@ -6329,10 +6386,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#when-the-sample-is-received" class="md-nav__link">
+  <a href="#driver-electrical-reference" class="md-nav__link">
     <span class="md-ellipsis">
       
-        When the Sample Is Received
+        Driver Electrical Reference
       
     </span>
   </a>
@@ -6340,10 +6397,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-1-mechanical-fit" class="md-nav__link">
+  <a href="#confirmed-hardware-interfaces" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 1 - Mechanical Fit
+        Confirmed Hardware Interfaces
       
     </span>
   </a>
@@ -6351,10 +6408,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-2-first-power-up-or-no-load-check" class="md-nav__link">
+  <a href="#can-simple" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 2 - First Power-Up or No-Load Check
+        CAN Simple
       
     </span>
   </a>
@@ -6362,10 +6419,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-3-functional-test" class="md-nav__link">
+  <a href="#canopen" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 3 - Functional Test
+        CANopen
       
     </span>
   </a>
@@ -6373,10 +6430,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-4-application-test" class="md-nav__link">
+  <a href="#rs485-modbus-rtu" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 4 - Application Test
+        RS485 / Modbus RTU
       
     </span>
   </a>
@@ -6384,33 +6441,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#if-a-problem-appears" class="md-nav__link">
+  <a href="#control-modes" class="md-nav__link">
     <span class="md-ellipsis">
       
-        If a Problem Appears
+        Control Modes
       
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#model-specific-starting-points" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Model-Specific Starting Points
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Model-Specific Starting Points">
+    <nav class="md-nav" aria-label="Control Modes">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#sg-6010c" class="md-nav__link">
+  <a href="#position" class="md-nav__link">
     <span class="md-ellipsis">
       
-        SG-6010C
+        Position
       
     </span>
   </a>
@@ -6418,10 +6464,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#cpm-80-25" class="md-nav__link">
+  <a href="#velocity" class="md-nav__link">
     <span class="md-ellipsis">
       
-        CPM-80-25
+        Velocity
       
     </span>
   </a>
@@ -6429,10 +6475,21 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#32p" class="md-nav__link">
+  <a href="#torque" class="md-nav__link">
     <span class="md-ellipsis">
       
-        32P
+        Torque
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mit-style-motion-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MIT-Style Motion Control
       
     </span>
   </a>
@@ -6445,10 +6502,65 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#when-the-sample-is-ready-for-the-next-stage" class="md-nav__link">
+  <a href="#encoder-and-feedback" class="md-nav__link">
     <span class="md-ellipsis">
       
-        When the Sample Is Ready for the Next Stage
+        Encoder and Feedback
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#temperature-and-protection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Temperature and Protection
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#expansion-interface-boundary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expansion Interface Boundary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integration-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integration Checklist
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Related Resources
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#engineering-contact" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Engineering Contact
       
     </span>
   </a>
@@ -6475,141 +6587,231 @@
   
 
 
-<h1 id="sample-validation-workflow">Sample Validation Workflow<a class="headerlink" href="#sample-validation-workflow" title="Permanent link">&para;</a></h1>
-<p>The goal of a sample evaluation is not only to confirm that a product can rotate or transmit torque. It should also answer whether the selected configuration is suitable for the customer's mechanical, electrical and operating conditions.</p>
-<p>This workflow is intended to make the first evaluation more structured and reduce avoidable setup delays.</p>
-<h2 id="before-the-sample-is-ordered">Before the Sample Is Ordered<a class="headerlink" href="#before-the-sample-is-ordered" title="Permanent link">&para;</a></h2>
-<p>Confirm the exact configuration being evaluated.</p>
-<p>At minimum, record:</p>
+<h1 id="sg-6010hb-driver-and-communication-reference-v10">SG-6010HB Driver and Communication Reference v1.0<a class="headerlink" href="#sg-6010hb-driver-and-communication-reference-v10" title="Permanent link">&para;</a></h1>
+<p><strong>Status:</strong> Public engineering integration reference<br />
+<strong>Release date:</strong> 2026-10-09<br />
+<strong>Configuration boundary:</strong> Applies to the current <strong>driver-equipped SG-6010HB configuration</strong> using the confirmed SG6010 driver platform.</p>
+<p>SigGear has confirmed that the SG6010 driver platform documented in the current SG6010 user manual applies to the present driver-equipped SG-6010HB configuration.</p>
+<p>This page summarizes the integration information suitable for early engineering evaluation. Final driver hardware revision, firmware revision, cable set and ordered interface configuration must still be matched to the delivered unit.</p>
+<h2 id="system-voltage-boundary">System Voltage Boundary<a class="headerlink" href="#system-voltage-boundary" title="Permanent link">&para;</a></h2>
+<p>The mechanical actuator catalog and the driver manual use different voltage descriptions:</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Published / confirmed value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SG-6010HB catalog rated-voltage range</td>
+<td>12–48 V</td>
+</tr>
+<tr>
+<td>Driver rated voltage</td>
+<td>15–48 V DC</td>
+</tr>
+<tr>
+<td>Driver minimum / maximum voltage boundary</td>
+<td>12 / 72 V DC</td>
+</tr>
+</tbody>
+</table>
+<p>For a <strong>driver-equipped SG-6010HB system</strong>, do not treat the driver's 12 V minimum boundary as a rated continuous operating point.</p>
+<p>Final power-supply selection should use the actual actuator configuration, required torque-speed point, driver revision and current limits.</p>
+<h2 id="driver-electrical-reference">Driver Electrical Reference<a class="headerlink" href="#driver-electrical-reference" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Confirmed manual value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rated driver voltage</td>
+<td>15–48 V DC</td>
+</tr>
+<tr>
+<td>Minimum / maximum driver voltage</td>
+<td>12 / 72 V DC</td>
+</tr>
+<tr>
+<td>Rated current</td>
+<td>6 A</td>
+</tr>
+<tr>
+<td>Maximum line current</td>
+<td>30 A</td>
+</tr>
+<tr>
+<td>Maximum phase current</td>
+<td>90 A</td>
+</tr>
+<tr>
+<td>Standby consumption</td>
+<td>&lt;10 mA</td>
+</tr>
+<tr>
+<td>CAN maximum bitrate</td>
+<td>1 Mbps</td>
+</tr>
+<tr>
+<td>USB Type-C rate</td>
+<td>10 Mbps</td>
+</tr>
+<tr>
+<td>Main encoder resolution</td>
+<td>16-bit single-turn absolute</td>
+</tr>
+<tr>
+<td>Driver operating temperature</td>
+<td>-20°C to 70°C</td>
+</tr>
+<tr>
+<td>Motor over-temperature alarm</td>
+<td>90°C, adjustable</td>
+</tr>
+<tr>
+<td>Driver-board over-temperature alarm</td>
+<td>90°C, adjustable</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>These are <strong>driver-platform values</strong>. They are not replacements for the SG-6010HB actuator torque, speed, thermal or duty-cycle limits.</p>
+</div>
+<h2 id="confirmed-hardware-interfaces">Confirmed Hardware Interfaces<a class="headerlink" href="#confirmed-hardware-interfaces" title="Permanent link">&para;</a></h2>
+<p>The confirmed driver platform provides or supports:</p>
 <ul>
-<li>product model</li>
-<li>ratio or output-speed target</li>
-<li>driver / no-driver configuration where applicable</li>
-<li>encoder requirement where applicable</li>
-<li>operating voltage where applicable</li>
-<li>required communication interface where applicable</li>
-<li>mounting or shaft requirements that affect the sample</li>
-<li>sample quantity</li>
+<li>Combined power + CAN connector</li>
+<li>USB Type-C debugging / host communication</li>
+<li>Main 16-bit single-turn absolute encoder</li>
+<li>Second-encoder interface using I2C or UART</li>
+<li>SWD programming / debugging interface</li>
+<li>Motor NTC temperature input</li>
+<li>Brake / braking-resistor interface</li>
+<li>Minimum / maximum limit-switch inputs</li>
+<li>Expansion interface for additional project-specific functions</li>
 </ul>
-<p>Use the public Engineering Pack before ordering when one is available.</p>
-<p><a href="../">Open the Engineering Center</a></p>
-<h2 id="when-the-sample-is-received">When the Sample Is Received<a class="headerlink" href="#when-the-sample-is-received" title="Permanent link">&para;</a></h2>
-<p>Before installation:</p>
-<ol>
-<li>confirm the model and quantity received</li>
-<li>compare the physical configuration with the order or quotation</li>
-<li>check for visible shipping damage</li>
-<li>identify the exact driver / connector / cable configuration where applicable</li>
-<li>use the documentation matched to that configuration</li>
-</ol>
-<p>If anything is unclear, confirm the configuration before wiring or modifying the sample.</p>
-<h2 id="step-1-mechanical-fit">Step 1 - Mechanical Fit<a class="headerlink" href="#step-1-mechanical-fit" title="Permanent link">&para;</a></h2>
-<p>Check the sample against the customer's assembly:</p>
+<p>The second-encoder interface does <strong>not</strong> mean that every SG-6010HB is supplied as a dual-encoder unit. The actual second encoder, mechanical mounting and firmware configuration must be confirmed for the ordered version.</p>
+<h2 id="can-simple">CAN Simple<a class="headerlink" href="#can-simple" title="Permanent link">&para;</a></h2>
+<p>The SG6010 driver manual documents a CAN Simple protocol with:</p>
 <ul>
-<li>outer diameter and axial length</li>
-<li>mounting-hole pattern</li>
-<li>output shaft or output flange</li>
-<li>locating features</li>
-<li>cable and connector clearance</li>
-<li>motor-side interface for gearbox-only evaluations</li>
-<li>direction of external radial and axial loads</li>
+<li>Standard CAN communication</li>
+<li>Configurable node ID</li>
+<li>Position command support</li>
+<li>Velocity command support</li>
+<li>Torque command support</li>
+<li>Current / velocity limit settings</li>
+<li>Periodic message configuration</li>
+<li>MIT-style motion-control commands</li>
 </ul>
-<p>For public models, use the released simplified STEP for packaging and mounting evaluation. Use the controlled drawing before final production release.</p>
-<h2 id="step-2-first-power-up-or-no-load-check">Step 2 - First Power-Up or No-Load Check<a class="headerlink" href="#step-2-first-power-up-or-no-load-check" title="Permanent link">&para;</a></h2>
-<p>For actuator or motorized configurations, first confirm the basic setup before applying the real application load.</p>
-<p>Typical checks include:</p>
+<p>The manual documents a <strong>maximum CAN bitrate of 1 Mbps</strong>.</p>
+<p>Final node ID, bitrate, command scaling and firmware revision should be confirmed before controller integration.</p>
+<h2 id="canopen">CANopen<a class="headerlink" href="#canopen" title="Permanent link">&para;</a></h2>
+<p>The confirmed driver platform includes CANopen support.</p>
+<p>The manual states implementation against:</p>
 <ul>
-<li>supply voltage</li>
-<li>wiring and connector orientation</li>
-<li>communication link where applicable</li>
-<li>enable / basic command response</li>
-<li>direction of motion</li>
-<li>encoder feedback where applicable</li>
-<li>no-load motion</li>
+<li><strong>CiA301</strong></li>
+<li><strong>CiA302</strong></li>
+<li><strong>CiA402</strong></li>
 </ul>
-<p>Detailed wiring, protocol and firmware-specific instructions must match the actual driver configuration.</p>
-<p>For a gearbox-only sample, first confirm free assembly, input/output alignment and the selected motor interface before loaded testing.</p>
-<h2 id="step-3-functional-test">Step 3 - Functional Test<a class="headerlink" href="#step-3-functional-test" title="Permanent link">&para;</a></h2>
-<p>Run the motion required by the application and record the operating condition.</p>
-<p>Useful information includes:</p>
+<p>The documented CANopen implementation includes the CiA402 servo state machine and operating modes including position-, velocity- and torque-related servo modes.</p>
+<p>A matching EDS / object-dictionary revision should be supplied for the delivered firmware when CANopen is selected.</p>
+<h2 id="rs485-modbus-rtu">RS485 / Modbus RTU<a class="headerlink" href="#rs485-modbus-rtu" title="Permanent link">&para;</a></h2>
+<p>The SG6010 manual contains an RS485 communication section using <strong>Modbus RTU</strong>.</p>
+<p>The documented implementation states:</p>
 <ul>
-<li>output speed</li>
-<li>applied or estimated load</li>
-<li>motion cycle</li>
-<li>acceleration / deceleration behavior</li>
-<li>current where applicable</li>
-<li>temperature where relevant</li>
-<li>observed backlash, vibration or noise where relevant</li>
-<li>any communication or control fault</li>
+<li>Maximum communication speed: <strong>115200 bps</strong></li>
+<li>Factory default communication speed: <strong>115200 bps</strong></li>
+<li>Standard Modbus RTU register operations are documented</li>
 </ul>
-<p>Do not compare a short sample test directly with a lifetime or continuous-duty claim unless the applicable rating and test condition are documented for that configuration.</p>
-<h2 id="step-4-application-test">Step 4 - Application Test<a class="headerlink" href="#step-4-application-test" title="Permanent link">&para;</a></h2>
-<p>After the basic function is stable, evaluate the sample in the real or representative mechanism.</p>
-<p>Confirm:</p>
+<p>RS485 hardware availability depends on the supplied interface / expansion configuration. Confirm the actual connector and hardware version before final integration.</p>
+<h2 id="control-modes">Control Modes<a class="headerlink" href="#control-modes" title="Permanent link">&para;</a></h2>
+<p>The driver manual documents four main control families:</p>
 <ul>
-<li>actual installation geometry</li>
-<li>actual load direction</li>
-<li>continuous and peak load condition</li>
-<li>peak duration</li>
-<li>duty cycle</li>
-<li>ambient / cooling condition</li>
-<li>power-off behavior if important</li>
-<li>controller / current-limit conditions for motorized actuators</li>
+<li><strong>Position control</strong></li>
+<li><strong>Velocity control</strong></li>
+<li><strong>Torque control</strong></li>
+<li><strong>Motion control / MIT-style control</strong></li>
 </ul>
-<h2 id="if-a-problem-appears">If a Problem Appears<a class="headerlink" href="#if-a-problem-appears" title="Permanent link">&para;</a></h2>
-<p>Send the smallest useful set of evidence first:</p>
+<p>Additional documented control behaviors include:</p>
+<h3 id="position">Position<a class="headerlink" href="#position" title="Permanent link">&para;</a></h3>
 <ul>
-<li>exact model and configuration</li>
-<li>supply voltage</li>
-<li>controller / driver information</li>
-<li>command or operating mode</li>
-<li>what was expected</li>
-<li>what actually happened</li>
-<li>fault code or log if available</li>
-<li>short video or photo if it helps show the issue</li>
+<li>Filtered Position Control</li>
+<li>Trajectory / trapezoidal position control</li>
+<li>Circular Position Control</li>
 </ul>
-<p>This is usually more useful than sending a long general description without the operating condition.</p>
-<h2 id="model-specific-starting-points">Model-Specific Starting Points<a class="headerlink" href="#model-specific-starting-points" title="Permanent link">&para;</a></h2>
-<h3 id="sg-6010c">SG-6010C<a class="headerlink" href="#sg-6010c" title="Permanent link">&para;</a></h3>
-<p>Public starting resources:</p>
+<h3 id="velocity">Velocity<a class="headerlink" href="#velocity" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="../../engineering-resources/sg6010c/datasheet/">Technical Datasheet</a></li>
-<li><a href="../../assets/downloads/sg6010c/SG-6010C_Public_Simplified_STEP_v1.0.step">Simplified STEP</a></li>
-<li><a href="../../engineering-resources/sg6010c/mechanical-interface/">Mechanical Interface</a></li>
+<li>Direct Velocity Control</li>
+<li>Ramped Velocity Control</li>
 </ul>
-<p>Quick Start, detailed CAN and firmware-specific integration documents are supplied after configuration review.</p>
-<h3 id="cpm-80-25">CPM-80-25<a class="headerlink" href="#cpm-80-25" title="Permanent link">&para;</a></h3>
-<p>Public starting resources:</p>
+<h3 id="torque">Torque<a class="headerlink" href="#torque" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="../../engineering-resources/cpm80-25/datasheet/">Technical Datasheet</a></li>
-<li><a href="../../engineering-resources/cpm80-25/mechanical-interface/">Mechanical Interface</a></li>
-<li><a href="../../engineering-resources/cpm80-25/performance-test-data/">Measured Performance Data</a></li>
-<li><a href="../../assets/downloads/cpm80-25/CPM-80-25_Public_Simplified_STEP_v1.0_No_Driver.step">STEP - No Driver</a></li>
-<li><a href="../../assets/downloads/cpm80-25/CPM-80-25_Public_Simplified_STEP_v1.0_Integrated_Driver.step">STEP - Integrated Driver</a></li>
+<li>Direct Torque Control</li>
+<li>Ramped Torque Control</li>
 </ul>
-<h3 id="32p">32P<a class="headerlink" href="#32p" title="Permanent link">&para;</a></h3>
-<p>Public starting resources:</p>
+<h3 id="mit-style-motion-control">MIT-Style Motion Control<a class="headerlink" href="#mit-style-motion-control" title="Permanent link">&para;</a></h3>
+<p>Motion control combines position, velocity and torque terms.</p>
+<p>The manual notes an important integration distinction: USB-side commands and CAN MIT protocol commands may use different reference-side conventions. Controller integration should therefore follow the exact protocol definition for the delivered firmware rather than assuming that all command channels use the same coordinate convention.</p>
+<h2 id="encoder-and-feedback">Encoder and Feedback<a class="headerlink" href="#encoder-and-feedback" title="Permanent link">&para;</a></h2>
+<p>The confirmed driver platform specifies a:</p>
+<p><strong>16-bit single-turn absolute main encoder</strong></p>
+<p>A second-encoder interface is available through:</p>
 <ul>
-<li><a href="../../engineering-resources/32p/datasheet/">Technical Datasheet</a></li>
-<li><a href="../../engineering-resources/32p/mechanical-interface/">Mechanical Interface</a></li>
-<li><a href="../../engineering-resources/32p/motor-integration/">Motor Integration Guide</a></li>
-<li><a href="../../assets/downloads/32p/32P_Public_Simplified_STEP_v1.0_4-Stage.step">4-Stage Simplified STEP</a></li>
+<li>I2C</li>
+<li>UART</li>
 </ul>
-<p>The current public 32P STEP represents the 4-stage reference only. Request configuration-specific CAD for other stage arrangements.</p>
-<h2 id="when-the-sample-is-ready-for-the-next-stage">When the Sample Is Ready for the Next Stage<a class="headerlink" href="#when-the-sample-is-ready-for-the-next-stage" title="Permanent link">&para;</a></h2>
-<p>A successful sample test should lead to a concrete engineering decision, for example:</p>
+<p>The second encoder is a configurable interface capability, not a universal statement that every delivered SG-6010HB includes two physical encoders.</p>
+<h2 id="temperature-and-protection">Temperature and Protection<a class="headerlink" href="#temperature-and-protection" title="Permanent link">&para;</a></h2>
+<p>The driver platform supports:</p>
 <ul>
-<li>keep the current configuration</li>
-<li>change the ratio</li>
-<li>change the motor / driver</li>
-<li>revise the mounting or output interface</li>
-<li>request a controlled drawing</li>
-<li>integrate into the next prototype</li>
-<li>prepare for Design-In</li>
+<li>Motor NTC temperature input</li>
+<li>Motor temperature alarm: <strong>90°C adjustable</strong></li>
+<li>Driver-board temperature alarm: <strong>90°C adjustable</strong></li>
+<li>Configurable current limit</li>
+<li>Configurable speed limit</li>
 </ul>
-<p><a class="md-button md-button--primary" href="../design-in-checklist/">Open the Design-In Checklist</a>
-<a class="md-button" href="../../custom-engineering/prototype-to-production/">Prototype → Design-In → Production</a>
-<a class="md-button" href="../../request-cad-sample-quote/">Request Configuration-Specific Support</a></p>
+<p>The driver manual also documents temperature-dependent current limiting.</p>
+<p>These protection functions do not replace application-specific thermal validation.</p>
+<p><a class="md-button" href="../thermal-test-record/">View SG-6010HB Thermal Test Record</a></p>
+<h2 id="expansion-interface-boundary">Expansion Interface Boundary<a class="headerlink" href="#expansion-interface-boundary" title="Permanent link">&para;</a></h2>
+<p>The driver platform documentation describes an expansion interface capable of supporting additional functions / protocols such as:</p>
+<ul>
+<li>RS485</li>
+<li>EtherCAT</li>
+<li>SPI / USART / I2C / PWM / ADC / GPIO based expansion</li>
+<li>Pulse / direction and other project-specific interfaces</li>
+</ul>
+<p><strong>EtherCAT is not presented here as a standard SG-6010HB interface.</strong> It remains subject to expansion hardware, firmware and project confirmation.</p>
+<h2 id="integration-checklist">Integration Checklist<a class="headerlink" href="#integration-checklist" title="Permanent link">&para;</a></h2>
+<p>Before final integration, confirm:</p>
+<ul>
+<li>Driver hardware revision</li>
+<li>Firmware revision</li>
+<li>Power-supply voltage and current capability</li>
+<li>CAN / CANopen / RS485 interface selected</li>
+<li>CAN bitrate and node-ID plan</li>
+<li>CANopen EDS / object dictionary revision</li>
+<li>Main / second encoder configuration</li>
+<li>Connector and cable set</li>
+<li>Motor and driver temperature thresholds</li>
+<li>Current and speed limits</li>
+<li>Brake / braking-resistor configuration</li>
+<li>Customer controller architecture</li>
+<li>Whether an expansion interface such as EtherCAT is required</li>
+</ul>
+<p><a class="md-button md-button--primary" href="../../../request-cad-sample-quote/">Request Integration Files</a></p>
+<h2 id="related-resources">Related Resources<a class="headerlink" href="#related-resources" title="Permanent link">&para;</a></h2>
+<p><a class="md-button" href="../../../products/robot-joint-actuators/sg6010hb/">SG-6010HB Product Page</a>
+<a class="md-button" href="../datasheet/">SG-6010HB Technical Datasheet</a>
+<a class="md-button" href="../mechanical-interface/">SG-6010HB Mechanical Interface</a>
+<a class="md-button" href="../thermal-test-record/">SG-6010HB Thermal Test Record</a>
+<a class="md-button" href="../../../applications/exoskeleton-joint-actuators/">Exoskeleton Joint Selection Guide</a></p>
+<h2 id="engineering-contact">Engineering Contact<a class="headerlink" href="#engineering-contact" title="Permanent link">&para;</a></h2>
 <p><strong>Wanrong Wang</strong><br />
 International Sales / Sales Engineer, SigGear<br />
 <a href="mailto:wangwanrong@siggear.com">wangwanrong@siggear.com</a></p>
@@ -6786,14 +6988,14 @@ International Sales / Sales Engineer, SigGear<br />
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
-        <script src="../../assets/javascripts/analytics-events.js"></script>
+        <script src="../../../assets/javascripts/analytics-events.js"></script>
       
-        <script src="../../assets/javascripts/organization-schema.js"></script>
+        <script src="../../../assets/javascripts/organization-schema.js"></script>
       
     
   </body>

@@ -933,10 +933,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#electronics-and-control-boundary" class="md-nav__link">
+  <a href="#driver-encoder-and-communication" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Electronics and Control Boundary
+        Driver, Encoder and Communication
       
     </span>
   </a>
@@ -3432,6 +3432,34 @@
     
   
     Thermal Test Record
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../engineering-resources/sg6010hb/driver-communication/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Driver & Communication
   
 
     
@@ -6386,10 +6414,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#electronics-and-control-boundary" class="md-nav__link">
+  <a href="#driver-encoder-and-communication" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Electronics and Control Boundary
+        Driver, Encoder and Communication
       
     </span>
   </a>
@@ -6489,6 +6517,7 @@
 <p><a class="md-button md-button--primary" href="../../../engineering-resources/sg6010hb/datasheet/">View SG-6010HB Datasheet</a>
 <a class="md-button" href="../../../engineering-resources/sg6010hb/mechanical-interface/">View Mechanical Interface</a>
 <a class="md-button" href="../../../engineering-resources/sg6010hb/thermal-test-record/">View Thermal Test Record</a>
+<a class="md-button" href="../../../engineering-resources/sg6010hb/driver-communication/">View Driver &amp; Communication</a>
 <a class="md-button" href="../../../applications/exoskeleton-joint-actuators/">Exoskeleton Joint Selection Guide</a>
 <a class="md-button" href="../../../request-cad-sample-quote/">Request Engineering Review</a></p>
 <h2 id="product-identity">Product Identity<a class="headerlink" href="#product-identity" title="Permanent link">&para;</a></h2>
@@ -6709,19 +6738,24 @@
 </tbody>
 </table>
 <p>External load suitability depends on the installation geometry, load offset, joint structure and duty cycle. Final mechanical design should be reviewed against the project mounting arrangement.</p>
-<h2 id="electronics-and-control-boundary">Electronics and Control Boundary<a class="headerlink" href="#electronics-and-control-boundary" title="Permanent link">&para;</a></h2>
-<p>The current published SG-6010HB catalog source does <strong>not</strong> specify a standard integrated driver, encoder, communication protocol or connector/pinout.</p>
-<p>Therefore the following must be confirmed for the ordered configuration:</p>
+<h2 id="driver-encoder-and-communication">Driver, Encoder and Communication<a class="headerlink" href="#driver-encoder-and-communication" title="Permanent link">&para;</a></h2>
+<p>SigGear has confirmed that the current <strong>driver-equipped SG-6010HB configuration</strong> uses the SG6010 driver platform documented in the current SG6010 user manual.</p>
+<p>The confirmed platform provides:</p>
 <ul>
-<li>Driver configuration</li>
-<li>Encoder / feedback configuration</li>
-<li>CAN, RS485 or other communication requirement</li>
-<li>Position / velocity / torque-control requirement</li>
-<li>Connector and cable arrangement</li>
-<li>Current limits and firmware</li>
-<li>Brake or power-off holding requirement</li>
+<li>16-bit single-turn absolute main encoder</li>
+<li>CAN Simple</li>
+<li>CANopen with CiA301 / CiA302 / CiA402 implementation</li>
+<li>RS485 / Modbus RTU when the corresponding interface configuration is supplied</li>
+<li>Position control</li>
+<li>Velocity control</li>
+<li>Torque control</li>
+<li>MIT-style motion control</li>
+<li>USB Type-C debugging / host communication</li>
+<li>Second-encoder interface using I2C or UART</li>
 </ul>
-<p>Do not assume that SG-6010C or SG-6010D electronics automatically apply to SG-6010HB.</p>
+<p><a class="md-button md-button--primary" href="../../../engineering-resources/sg6010hb/driver-communication/">View SG-6010HB Driver &amp; Communication Reference</a></p>
+<p>The driver manual specifies <strong>15–48 V DC as the rated driver range</strong>, while the SG-6010HB catalog lists <strong>12–48 V</strong> for the actuator. Therefore a 12 V supply should not automatically be treated as a rated operating point for the driver-equipped system.</p>
+<p>Final driver hardware revision, firmware, second encoder, connector set, current limits, brake function and any expansion interface still require order-level confirmation.</p>
 <h2 id="exoskeleton-and-wearable-robot-evaluation">Exoskeleton and Wearable-Robot Evaluation<a class="headerlink" href="#exoskeleton-and-wearable-robot-evaluation" title="Permanent link">&para;</a></h2>
 <p>The SigGear catalog explicitly identifies SG-6010HB as an <strong>exoskeleton joint motor</strong>.</p>
 <p>For an exoskeleton or wearable robot project, evaluate at least:</p>
@@ -6752,6 +6786,7 @@
 <p><a class="md-button md-button--primary" href="../../../engineering-resources/sg6010hb/datasheet/">SG-6010HB Technical Datasheet v1.0</a></p>
 <p>A public <a href="../../../engineering-resources/sg6010hb/mechanical-interface/">Mechanical Interface</a> reference is available from the reviewed SG2908B controlled drawing.</p>
 <p>A source-backed <a href="../../../engineering-resources/sg6010hb/thermal-test-record/">Thermal Test Record</a> is also available with measured 30°C-to-100°C heating times under stall and 110 rpm load conditions. The test record is supporting evidence only and does not redefine the published continuous or peak ratings.</p>
+<p>For the current driver-equipped configuration, see the <a href="../../../engineering-resources/sg6010hb/driver-communication/">Driver &amp; Communication Reference</a> for encoder, CAN, CANopen, RS485 and control-mode information.</p>
 <p>The detailed SG6010HB assembly STEP contains internal motor and planetary-transmission geometry and therefore remains request-only. No raw internal assembly CAD is published in this repository.</p>
 <p>For final design-in, request the current controlled drawing / configuration-matched CAD.</p>
 <p><a class="md-button" href="../../../request-cad-sample-quote/">Request SG-6010HB CAD / Drawing</a></p>
