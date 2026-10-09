@@ -132,6 +132,7 @@ nav:
       - Robot Joint Actuators:
           - Overview: products/robot-joint-actuators/index.md
           - SG6010C: products/robot-joint-actuators/sg6010c.md
+          - SG6010HB: products/robot-joint-actuators/sg6010hb.md
           - SG6010D: products/robot-joint-actuators/sg6010d.md
           - SG8021: products/robot-joint-actuators/sg8021.md
       - Hub Gear Motors:
@@ -203,6 +204,8 @@ nav:
       - SG-6010C:
           - Technical Datasheet: engineering-resources/sg6010c/datasheet.md
           - Mechanical Interface: engineering-resources/sg6010c/mechanical-interface.md
+      - SG-6010HB:
+          - Technical Datasheet: engineering-resources/sg6010hb/datasheet.md
       - SG-6010D:
           - Technical Datasheet: engineering-resources/sg6010d/datasheet.md
           - Mechanical Interface: engineering-resources/sg6010d/mechanical-interface.md
