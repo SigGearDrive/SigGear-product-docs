@@ -69,22 +69,30 @@ The controlled production drawing and detailed assembly STEP remain request-only
 
 [View Mechanical Interface](mechanical-interface.md){ .md-button .md-button--primary }
 [View Thermal Test Record](thermal-test-record.md){ .md-button }
+[View Driver & Communication](driver-communication.md){ .md-button }
 [Request CAD / Drawing](../../request-cad-sample-quote.md){ .md-button }
 
-## Electronics and Integration Boundary
+## Driver-Equipped Configuration
 
-The catalog source does not establish a standard integrated driver, encoder, communication protocol or firmware package for SG-6010HB.
+SigGear has confirmed that the present **driver-equipped SG-6010HB configuration** uses the SG6010 driver platform documented in the current user manual.
 
-Confirm the required:
+Confirmed platform-level integration features include:
 
-- Driver
-- Encoder / feedback
-- CAN / RS485 / other communication
-- Position, speed or torque control
-- Connector / cable
-- Brake or holding behavior
+- 15–48 V DC rated driver voltage
+- 16-bit single-turn absolute main encoder
+- CAN Simple
+- CANopen (CiA301 / CiA302 / CiA402)
+- RS485 / Modbus RTU with the corresponding interface configuration
+- Position, velocity, torque and MIT-style motion control
+- Type-C debugging / host communication
+- Second-encoder interface through I2C or UART
 
-before quotation and integration.
+[View Driver & Communication Reference](driver-communication.md){ .md-button .md-button--primary }
+
+!!! note
+    The actuator catalog states 12–48 V, while the driver manual states 15–48 V DC rated driver operation and a 12 V minimum boundary. For the driver-equipped system, do not treat 12 V as a rated operating point without engineering confirmation.
+
+Driver hardware revision, firmware, second-encoder hardware, cable / connector set, brake behavior and expansion interfaces must still be matched to the ordered configuration.
 
 ## Related Resources
 
