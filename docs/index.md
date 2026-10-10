@@ -1,23 +1,31 @@
-# SigGear Robot Joint Actuators and Precision Gearboxes
+---
+title: SigGear Miniature & Compact Planetary Gearboxes | 8–42 mm
+description: Explore SigGear 8–42 mm planetary gearboxes and gearheads, gearbox-only supply, motor matching, model datasheets and public simplified STEP CAD for OEM designs.
+---
 
-SigGear develops and manufactures integrated robot joint actuators, cycloidal joint modules, planetary gearboxes, micro gear motors and hub gear motors for robotics and precision automation.
+# Miniature & Compact Planetary Gearboxes | SigGear (8–42 mm)
 
-[Custom Engineering](custom-engineering/index.md){ .md-button .md-button--primary }
-[Engineering Center](engineering-center/index.md){ .md-button }
-[Browse Products](products/index.md){ .md-button }
-[Explore Applications](applications/index.md){ .md-button }
-[Selection Guides](selection-guides/index.md){ .md-button }
-[Request CAD, Sample and Quote](request-cad-sample-quote.md){ .md-button .md-button--primary }
-[Contact SigGear](contact.md){ .md-button }
+SigGear manufactures **miniature and compact planetary gearboxes (planetary gearheads)** with nominal outer diameters from **8 mm to 42 mm** for space-constrained OEM mechanical applications.
 
-## Have a Compact Transmission Problem?
+We supply **gearbox-only units** for projects using an existing motor. If you need a complete drive assembly, our team can evaluate **motor matching and a motor + gearbox configuration** against your application and installation requirements.
 
-SigGear works with engineers on custom micro planetary, planetary, cycloidal and motor + gearbox transmission solutions. You do not need to have every parameter defined before the first discussion.
+The 12 published planetary frame sizes have model-specific Datasheets, Mechanical Interface references and **public simplified 4-stage STEP CAD** for early mechanical packaging. Final performance and configuration-matched CAD require review of the selected ratio, stage count, motor interface and operating conditions.
 
-Start with the application, motor, drawing, available space or motion target you already have. SigGear can review the transmission approach, identify missing inputs and evaluate a path toward prototype and production.
+[Browse 8–42 mm Planetary Gearboxes](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Download Public STEP CAD](engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
+[Gearbox-Only & Motor Matching](custom-engineering/motor-gearbox-integration.md){ .md-button }
+[Request Engineering Review](request-cad-sample-quote.md){ .md-button .md-button--primary }
 
-[Explore Custom Transmission Engineering](custom-engineering/index.md){ .md-button .md-button--primary }
-[Prototype to Design-In and Production](custom-engineering/prototype-to-production.md){ .md-button }
+## Start With Your Gearbox Requirement
+
+**Already have a motor?** Send its drawing or shaft and mounting details so we can review gearbox compatibility.
+
+**Need a complete gearmotor?** Send your available space, output speed, load or torque, and voltage. We can evaluate a motor-matched planetary gearbox assembly.
+
+**Need a different shaft, flange or interface?** We can review project-specific mechanical adaptation based on the selected gearbox and project scope.
+
+[Compare the 12 Planetary Gearbox Frame Sizes](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Explore Custom Transmission Engineering](custom-engineering/index.md){ .md-button }
 [Send Your Drawing or Requirements](request-cad-sample-quote.md){ .md-button }
 
 ## Engineer Fast Track
@@ -26,8 +34,8 @@ Use the site according to the engineering decision you need to make.
 
 | Step | Goal | Start here |
 | --- | --- | --- |
-| 1. Find | Identify a relevant product, application path or custom transmission approach | [Custom Engineering](custom-engineering/index.md), [Products](products/index.md) and [Applications](applications/index.md) |
-| 2. Evaluate | Check approved specifications, released STEP models and mechanical interfaces | [Engineering Center](engineering-center/index.md) |
+| 1. Find | Choose a gearbox frame size or motor-matching route | [8–42 mm Planetary Gearboxes](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) and [Motor + Gearbox Integration](custom-engineering/motor-gearbox-integration.md) |
+| 2. Evaluate | Review datasheets, simplified STEP CAD and mounting interfaces | [Planetary Engineering Resource Library](engineering-resources/planetary-gearboxes/index.md) and [Engineering Center](engineering-center/index.md) |
 | 3. Validate | Run a sample through mechanical fit, first setup and application testing | [Sample Validation Workflow](engineering-center/sample-validation-workflow.md) |
 | 4. Design-In | Freeze the exact configuration, controlled interface and operating conditions | [Design-In Checklist](engineering-center/design-in-checklist.md) |
 
@@ -37,14 +45,14 @@ Current public Engineering Resources are available for **SG-6010C**, **SG-6010D*
 
 | Product family | Typical use | Explore |
 | --- | --- | --- |
+| **Miniature & compact planetary gearboxes (8–42 mm)** | Gearbox-only supply or motor-matched OEM mechanisms | [View 8–42 mm series](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) |
 | Robot joint actuators | Humanoid robots, quadruped robots, robotic arms and exoskeletons | [View actuator series](products/robot-joint-actuators/index.md) |
 | Cycloidal joint modules | Compact robot joints requiring high torque and low backlash | [View cycloidal modules](products/cycloidal-joint-modules/index.md) |
-| Planetary gearboxes | Robotics, medical devices, instruments and automation mechanisms | [View 8–42 mm series](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) |
 | Micro gear motors | Grippers, laboratory automation, medical devices and compact mechanisms | [View micro gear motors](products/micro-gear-motors/index.md) |
 | Flat BLDC motors and joint drives | Short-axial robot joints and integrated rotary axes | [View flat joint drives](products/flat-bldc-motors/index.md) |
 | Hub gear motors | AGV, AMR, mobile robots and compact wheel-drive systems | [View hub gear motors](products/hub-gear-motors/index.md) |
 
-## Featured Robot Joint Products
+## Other SigGear Platforms: Robot Joint & Cycloidal Products
 
 | Model | Transmission | Rated torque | Peak torque | Rated output speed |
 | --- | --- | ---: | ---: | ---: |
@@ -171,7 +179,7 @@ Guangdong SigGear Drive Intelligent Technology Co., Ltd. operates production pro
 
 ## Start a Product Inquiry
 
-For efficient selection, please provide the application, required continuous and peak torque, output speed, voltage, size and weight limits, duty cycle, communication requirements and estimated quantity.
+For a planetary gearbox inquiry, please share the application, available diameter and length, required output speed and continuous torque, duty cycle and estimated quantity. If you have a motor, include its drawing or shaft and mounting dimensions. You can send a partial requirement for an initial engineering review.
 
 **Wanrong Wang**  
 International Sales, SigGear  
