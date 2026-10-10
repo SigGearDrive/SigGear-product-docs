@@ -293,7 +293,8 @@ Provide:
 Send your electric curtain track, smart blind, roller shade, Venetian blind tilt mechanism, skylight actuator, small window opener, sunshade system or building-automation actuator requirements to SigGear for preliminary model evaluation. Early requirements can be approximate, but actuator function, load or torque, speed, size, voltage, current limit, holding requirement, end-stop logic, environment, duty cycle and quantity are needed before a meaningful recommendation can be made.
 
 **Wanrong Wang**  
-International Sales, SigGear  
-[wangwanrong984@gmail.com](mailto:wangwanrong984@gmail.com)
+International Sales / Sales Engineer, SigGear  
+[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
-[Send Electric Curtain, Blind or Window Opener Gear Motor Requirements](../contact.md){ .md-button .md-button--primary }
+[Email Electric Curtain / Blind Requirements](mailto:wangwanrong@siggear.com?subject=Electric%20Curtain%20Blind%20Planetary%20Gear%20Motor%20Review&body=Application%3A%20Electric%20curtain%20%2F%20blind%20%2F%20window%20opener%0AExisting%20motor%20or%20complete%20drive%3A%20%0ALoad%20or%20required%20torque%3A%20%0ARequired%20output%20speed%20or%20opening%20time%3A%20%0AMaximum%20diameter%20and%20length%3A%20%0AOperating%20voltage%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20%0A%0APlease%20attach%20a%20mechanism%20or%20motor%20drawing%20if%20available.){ .md-button .md-button--primary }
+[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
