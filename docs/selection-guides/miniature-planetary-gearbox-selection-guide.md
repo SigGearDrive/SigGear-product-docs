@@ -57,7 +57,7 @@ A 4-stage CAD reference is **not interchangeable** with a 1-, 2- or 3-stage conf
 
 ## Application-Specific Engineering Questions
 
-An [electric pruning-shear gearbox](../applications/electric-pruning-shears-planetary-gearbox.md) must be reviewed for blade geometry, cutting force variation, torque spikes and outdoor exposure. An [electric curtain gearmotor](../applications/electric-curtain-blind-window-opener-gear-motors.md) needs track friction, pulley speed, acoustic, holding and safety reviews. These are potential uses, not published customer case studies.
+An [electric pruning-shear gearbox](../applications/electric-pruning-shears-planetary-gearbox.md) must be reviewed for blade geometry, cutting force variation, torque spikes and outdoor exposure. An [electric curtain gearmotor](../applications/electric-curtain-blind-window-opener-gear-motors.md) needs track friction, pulley speed, acoustic, holding and safety reviews. A [smart toilet or bidet mechanism](../applications/smart-toilet-bidet-planetary-gear-motors.md) adds low-noise, jam, humidity and cleaning-environment requirements. A [dexterous hand or robot gripper](../applications/robot-gripper-gear-motors.md) requires finger-force or tendon-spool geometry, shaft-load and packaging review. These are potential uses, not published customer case studies.
 
 ## What to Send for a First Review
 
