@@ -1,0 +1,103 @@
+schema_version: 1
+program: SigGear External Engineering & Product Discovery Distribution
+product_scope: 8P-42P miniature_and_compact_planetary_gearboxes
+updated_on: "2026-10-11"
+
+shared_source:
+  product_master_data: data/products/
+  external_catalog_master: data/external-catalogs/planetary-gearboxes.yml
+  website: https://siggeardrive.github.io/SigGear-product-docs/
+  public_cad_release: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/
+
+platforms:
+  TraceParts:
+    channel_type: CAD_design_in_and_download_leads
+    priority: P1
+    commercial_model: paid_publishing_plan_quote_required
+    current_status: platform_mapping_ready
+    ready:
+      - 12_family_references
+      - 12_public_simplified_step_files
+      - product_data_export
+      - traceparts_field_mapping
+      - product_page_urls
+      - datasheet_urls
+      - mechanical_interface_urls
+    pending_siggear:
+      - official_logo_white_background_minimum_40px_height
+    pending_platform:
+      - official_smart_publishing_xls_template
+      - valid_classification_category_id
+      - account_or_publishing_access
+    next_action: obtain_template_category_id_and_access_then_generate_final_submission_file
+
+  3Dfindit:
+    channel_type: CAD_design_in_configurator_and_download_leads
+    priority: P1
+    commercial_model: custom_quote_after_manufacturer_review
+    current_status: onboarding_package_ready
+    ready:
+      - 12_family_master_data
+      - 12_public_simplified_step_files
+      - product_pages
+      - datasheets
+      - mechanical_interface_resources
+      - configuration_logic_brief
+      - onboarding_matrix
+    pending_siggear:
+      - official_logo
+      - expanded_real_product_photos
+      - confirmed_public_ordering_part_number_logic_if_parametric_catalog_is_selected
+    pending_platform:
+      - CADENAS_scope_review
+      - recommendation_static_catalog_vs_parametric_configurator
+      - implementation_quote
+    next_action: send_onboarding_brief_and_request_scope_pricing_review
+
+  DirectIndustry:
+    channel_type: B2B_marketplace_product_discovery_and_RFQ
+    priority: P2
+    commercial_model: exhibitor_subscription_sales_quote
+    current_status: shared_product_data_ready_platform_onboarding_not_started
+    ready:
+      - 12_family_product_data
+      - product_urls
+      - engineering_documents
+      - public_cad_links
+      - official_sales_contact
+    pending_siggear:
+      - expanded_real_product_photos
+      - final_product_listing_priority
+      - official_logo
+    pending_platform:
+      - exhibitor_account
+      - subscription_quote
+      - category_and_listing_setup
+    next_action: request_exhibitor_quote_and_confirm_plan_for_12_planetary_families
+
+  GlobalSpec:
+    channel_type: paid_product_discovery_supplier_directory_and_quote_leads
+    priority: P2
+    commercial_model: paid_product_discovery_custom_pricing
+    current_status: shared_product_data_ready_sales_contact_not_started
+    ready:
+      - 12_family_product_data
+      - product_urls
+      - engineering_documents
+      - official_sales_contact
+    pending_siggear:
+      - expanded_real_product_photos
+      - official_logo
+      - final_listing_priority
+    pending_platform:
+      - product_discovery_sales_review
+      - category_mapping
+      - placement_and_pricing_options
+    next_action: contact_globalspec_sales_for_product_discovery_scope_and_pricing
+
+release_boundaries:
+  public_step: simplified_4_stage_reference_only
+  detailed_internal_geometry: not_public
+  final_configuration_cad: engineering_review_required
+  customer_case_claims: prohibited_without_evidence
+  final_orderable_part_numbers: do_not_invent
