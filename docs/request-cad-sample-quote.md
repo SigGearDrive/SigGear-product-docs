@@ -21,17 +21,44 @@ If the project is a robot joint, compact actuator or AI-hardware rotary axis wit
 
 If the project has moved beyond a first concept and needs a structured path through prototype, testing, Design-In, pilot preparation and production release, see [Prototype to Design-In and Production](custom-engineering/prototype-to-production.md).
 
-## Miniature Planetary Gearbox (8–42 mm) — Two Starting Points
+## Miniature Planetary Gearbox (8–42 mm) — Choose Your Path
 
-**I already have a motor; I need a gearbox only.** Send your motor model or drawing, the available diameter/length, required output speed or ratio, and the load or torque if known. SigGear will review whether the chosen planetary gearbox interface and operating point can be matched.
+### Path A: Gearbox Only for an Existing Motor
 
-**I need a complete motor + gearbox assembly.** Send the application, available diameter/length, required output speed, expected load/torque and voltage if known. SigGear can evaluate a motor-matched configuration for the selected OEM project.
+Choose this path when the motor is already selected and you need SigGear to review a compatible planetary gearbox.
 
-You do not need a complete specification to start. If you have a mechanism drawing or motor model, attach it in your email.
+For the first review, send only what you already know:
+
+1. **Motor model or drawing**
+2. **Motor speed**
+3. **Required output speed or ratio**
+4. **Maximum gearbox / assembly diameter and length**
+5. **Load or torque, if known**
+
+If torque is not known, a mechanism sketch or load description is enough to start.
+
+[Start Gearbox-Only Review](mailto:wangwanrong@siggear.com?subject=Gearbox%20Only%20Review%20-%20Existing%20Motor&body=Existing%20motor%20model%20%2F%20drawing%3A%20%0AMotor%20speed%3A%20%0ARequired%20output%20speed%20or%20ratio%3A%20%0AMaximum%20gearbox%20%2F%20assembly%20size%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20%0A%0APlease%20attach%20the%20motor%20drawing%20if%20available.){ .md-button .md-button--primary }
+
+### Path B: Complete Motor + Gearbox Assembly
+
+Choose this path when the motor is still open and you want SigGear to evaluate the drive as one system.
+
+For the first review, send:
+
+1. **Application / what needs to move**
+2. **Required output speed**
+3. **Load or torque, if known**
+4. **Maximum diameter and total length**
+5. **Operating voltage**
+
+The final ratio does not need to be calculated before contacting us.
+
+[Start Motor + Gearbox Review](mailto:wangwanrong@siggear.com?subject=Motor%20%2B%20Gearbox%20Engineering%20Review&body=Application%20%2F%20what%20needs%20to%20move%3A%20%0ARequired%20output%20speed%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0AMaximum%20diameter%20and%20total%20length%3A%20%0AOperating%20voltage%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20%0A%0APlease%20attach%20a%20mechanism%20drawing%20if%20available.){ .md-button .md-button--primary }
+
+You do not need a complete specification to start. Missing technical details can be narrowed after the first review.
 
 [Browse 8–42 mm Planetary Gearboxes](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
 [View Public Simplified 4-Stage STEP Files](engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
-[Email SigGear for a Planetary Gearbox Review](mailto:wangwanrong@siggear.com?subject=8-42mm%20Planetary%20Gearbox%20Engineering%20Review){ .md-button .md-button--primary }
 
 ### Start From the Application
 
