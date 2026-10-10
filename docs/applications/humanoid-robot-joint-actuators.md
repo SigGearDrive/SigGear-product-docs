@@ -101,6 +101,8 @@ The following published SigGear models can be considered as starting points for 
 
 For smaller auxiliary joints, sensor mechanisms, hands, compact wrists or lightweight adjustment axes, SigGear can also evaluate [8–42 mm planetary gearbox](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) options when the customer already has a motor or needs a customized motor-gearbox combination.
 
+For a separate **miniature planetary gearhead** rather than an integrated robot-joint actuator, see the [8–42 mm Planetary Gearbox Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md). Stage-specific torque, motor interface and mechanical load still require review; the published frame-size range is not a blanket humanoid-joint qualification.
+
 ## Public Engineering Resources
 
 For engineers moving from model screening into mechanical evaluation, SigGear currently publishes engineering resources for selected reference platforms:

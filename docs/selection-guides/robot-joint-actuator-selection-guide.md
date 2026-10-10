@@ -342,6 +342,12 @@ Send the following information for engineering review:
 | Safety | Brake, holding and power-off behavior |
 | Commercial | Prototype quantity and annual forecast |
 
+## Smaller Gearboxes for Hands and Auxiliary Mechanisms
+
+If your engineering requirement is for a **separate small gearbox** rather than an integrated actuator, for example in an auxiliary adjustment axis, compact wrist mechanism or robotic gripper, review the [SigGear 8–42 mm miniature and compact planetary gearbox range](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md).
+
+The [Miniature Planetary Gearbox Selection Guide](miniature-planetary-gearbox-selection-guide.md) explains frame-size selection, motor matching, rated versus momentary torque, stage-dependent length and simplified 4-stage CAD. These small gearbox models must not be assumed suitable for a high-load humanoid joint without project-specific engineering validation.
+
 ## Related Application Guides
 
 - [Humanoid robot joint actuators](../applications/humanoid-robot-joint-actuators.md)

@@ -119,6 +119,7 @@ Please provide:
 
 [Micro Gear Motors](../products/micro-gear-motors/index.md){ .md-button .md-button--primary }
 [8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
+[Miniature Planetary Gearbox Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
 [Micro Robotics Gear Motors](micro-robotics-gear-motors.md){ .md-button }
 [Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
 
