@@ -11,6 +11,8 @@ on:
       - "scripts/validate_product_data.py"
       - "scripts/validate_sales_policy.py"
       - "scripts/validate_site_urls.py"
+      - "scripts/validate_external_catalog.py"
+      - "scripts/export_external_catalog.py"
       - "hooks/**"
       - ".github/workflows/validate-docs.yml"
   push:
@@ -61,6 +63,12 @@ jobs:
 
       - name: Validate public sales policy
         run: python scripts/validate_sales_policy.py
+
+      - name: Validate external CAD catalog
+        run: python scripts/validate_external_catalog.py
+
+      - name: Test external catalog export
+        run: python scripts/export_external_catalog.py --output /tmp/siggear-planetary-gearboxes.csv
 
       - name: Build documentation
         run: mkdocs build --strict
