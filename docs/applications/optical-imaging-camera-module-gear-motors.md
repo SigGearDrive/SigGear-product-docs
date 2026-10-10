@@ -256,6 +256,6 @@ Send your focus system, zoom module, aperture drive, filter wheel, shutter mecha
 
 **Wanrong Wang**  
 International Sales, SigGear  
-[wangwanrong984@gmail.com](mailto:wangwanrong984@gmail.com)
+[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
 [Send Optical, Imaging or Camera Module Gear Motor Requirements](../contact.md){ .md-button .md-button--primary }
