@@ -1,15 +1,15 @@
 ---
-title: Miniature & Compact Planetary Gearboxes and Gearheads | 8–42 mm | SigGear
-description: SigGear 8–42 mm miniature and compact planetary gearboxes and gearheads. Compare 12 sizes, get datasheets and simplified STEP CAD, or request gearbox-only and motor-matching support.
+title: SigGear Planetary Gearbox Product Index | 8P–42P Models
+description: Browse SigGear planetary gearbox models and engineering resources. Start with the 8–42 mm series landing page for frame-size comparison, datasheets, STEP CAD and motor matching.
 ---
 
-# Miniature & Compact Planetary Gearboxes (8–42 mm)
+# SigGear Planetary Gearbox Product Index
 
-SigGear manufactures miniature and compact planetary gearboxes (also called **planetary gearheads**) for space-constrained OEM mechanical designs. The range covers 12 nominal diameters from **8 to 42 mm**.
+This page is the **navigation index** for SigGear planetary gearbox models and related engineering resources.
 
-**Two supply routes:** request a **gearbox-only unit** for your existing motor, or ask SigGear to evaluate a **motor-matched gearbox assembly** for your mechanism. Motor shaft, mounting, voltage, speed, torque and duty-cycle compatibility are subject to engineering review.
+For commercial product comparison, frame-size selection, gearbox-only supply, motor matching and public STEP access, use the dedicated **8–42 mm Miniature & Compact Planetary Gearbox Series** landing page.
 
-[Compare All 12 Frame Sizes](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Compare the 8–42 mm Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Download Public 4-Stage STEP CAD](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Send Requirements](../../request-cad-sample-quote.md){ .md-button }
 [How to Select a Miniature Planetary Gearbox](../../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }

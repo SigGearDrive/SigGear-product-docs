@@ -10,6 +10,8 @@ description: Approved public 32P planetary gearbox engineering datasheet with ra
 
 The SigGear 32P is a 32 mm planetary gearbox platform with one- to four-stage configurations. The public data below is intended for preliminary selection and early mechanical design-in.
 
+[View 32P Product Page](../../products/planetary-gearboxes/32p-planetary-gearbox.md){ .md-button }
+
 ## Key Specifications
 
 | Parameter | Public value |
