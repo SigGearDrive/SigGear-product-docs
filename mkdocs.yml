@@ -1,5 +1,5 @@
 site_name: SigGear Product Documentation
-site_description: Custom precision transmission engineering, miniature planetary gearboxes and gearheads, cycloidal reducers, gear motors and robot joint actuators from SigGear.
+site_description: SigGear 8–42 mm miniature and compact planetary gearboxes for OEM applications. Gearbox-only supply, motor matching, datasheets, simplified STEP CAD and engineering support.
 site_url: https://siggeardrive.github.io/SigGear-product-docs/
 repo_url: https://github.com/SigGearDrive/SigGear-product-docs
 repo_name: SigGearDrive/SigGear-product-docs
@@ -117,18 +117,23 @@ extra:
 
 nav:
   - Home: index.md
-  - Company:
-      - About SigGear: company/about-siggear.md
-      - Certifications: company/certifications.md
-  - Custom Engineering:
-      - Overview: custom-engineering/index.md
-      - Custom Planetary Gearbox: custom-engineering/custom-planetary-gearbox.md
-      - Custom Cycloidal Transmission: custom-engineering/custom-cycloidal-transmission.md
-      - Motor + Gearbox Integration: custom-engineering/motor-gearbox-integration.md
-      - Robot Joint & Compact Actuator: custom-engineering/robot-joint-actuator-development.md
-      - Prototype to Design-In and Production: custom-engineering/prototype-to-production.md
   - Products:
       - Product Overview: products/index.md
+      - Miniature & Compact Planetary Gearboxes (8–42 mm):
+          - Series Overview: products/planetary-gearboxes/index.md
+          - 8-42 mm Series: products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md
+          - 8P (8 mm): products/planetary-gearboxes/8p-planetary-gearbox.md
+          - 10P (10 mm): products/planetary-gearboxes/10p-planetary-gearbox.md
+          - 12P (12 mm): products/planetary-gearboxes/12p-planetary-gearbox.md
+          - 14P (14 mm): products/planetary-gearboxes/14p-planetary-gearbox.md
+          - 16P (16 mm): products/planetary-gearboxes/16p-planetary-gearbox.md
+          - 20P (20 mm): products/planetary-gearboxes/20p-planetary-gearbox.md
+          - 22P (22 mm): products/planetary-gearboxes/22p-planetary-gearbox.md
+          - 24P (24 mm): products/planetary-gearboxes/24p-planetary-gearbox.md
+          - 28P (28 mm): products/planetary-gearboxes/28p-planetary-gearbox.md
+          - 32P (32 mm): products/planetary-gearboxes/32p-planetary-gearbox.md
+          - 36P (36 mm): products/planetary-gearboxes/36p-planetary-gearbox.md
+          - 42P (42 mm): products/planetary-gearboxes/42p-planetary-gearbox.md
       - Robot Joint Actuators:
           - Overview: products/robot-joint-actuators/index.md
           - SG6010C: products/robot-joint-actuators/sg6010c.md
@@ -144,25 +149,20 @@ nav:
           - CPM78-39: products/cycloidal-joint-modules/cpm78-39.md
           - CPM80-25: products/cycloidal-joint-modules/cpm80-25.md
           - CPM100-25: products/cycloidal-joint-modules/cpm100-25.md
-      - Planetary Gearboxes:
-          - Series Overview: products/planetary-gearboxes/index.md
-          - 8-42 mm Series: products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md
-          - 8P (8 mm): products/planetary-gearboxes/8p-planetary-gearbox.md
-          - 10P (10 mm): products/planetary-gearboxes/10p-planetary-gearbox.md
-          - 12P (12 mm): products/planetary-gearboxes/12p-planetary-gearbox.md
-          - 14P (14 mm): products/planetary-gearboxes/14p-planetary-gearbox.md
-          - 16P (16 mm): products/planetary-gearboxes/16p-planetary-gearbox.md
-          - 20P (20 mm): products/planetary-gearboxes/20p-planetary-gearbox.md
-          - 22P (22 mm): products/planetary-gearboxes/22p-planetary-gearbox.md
-          - 24P (24 mm): products/planetary-gearboxes/24p-planetary-gearbox.md
-          - 28P (28 mm): products/planetary-gearboxes/28p-planetary-gearbox.md
-          - 32P (32 mm): products/planetary-gearboxes/32p-planetary-gearbox.md
-          - 36P (36 mm): products/planetary-gearboxes/36p-planetary-gearbox.md
-          - 42P (42 mm): products/planetary-gearboxes/42p-planetary-gearbox.md
       - Micro Gear Motors:
           - Overview: products/micro-gear-motors/index.md
       - Flat BLDC Motors and Joint Drives:
           - Overview: products/flat-bldc-motors/index.md
+  - Company:
+      - About SigGear: company/about-siggear.md
+      - Certifications: company/certifications.md
+  - Custom Engineering:
+      - Overview: custom-engineering/index.md
+      - Custom Planetary Gearbox: custom-engineering/custom-planetary-gearbox.md
+      - Custom Cycloidal Transmission: custom-engineering/custom-cycloidal-transmission.md
+      - Motor + Gearbox Integration: custom-engineering/motor-gearbox-integration.md
+      - Robot Joint & Compact Actuator: custom-engineering/robot-joint-actuator-development.md
+      - Prototype to Design-In and Production: custom-engineering/prototype-to-production.md
   - Applications:
       - Applications Overview: applications/index.md
       - Access Control Smart Lock and Security Gear Motors: applications/access-control-smart-lock-security-gear-motors.md
