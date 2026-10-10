@@ -27,6 +27,8 @@ on:
       - "scripts/validate_product_data.py"
       - "scripts/validate_sales_policy.py"
       - "scripts/validate_site_urls.py"
+      - "scripts/validate_external_catalog.py"
+      - "scripts/export_external_catalog.py"
       - "hooks/**"
       - ".github/workflows/validate-docs.yml"
   workflow_dispatch:
