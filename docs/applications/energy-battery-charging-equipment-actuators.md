@@ -202,6 +202,6 @@ Send your battery, charging, power-equipment or energy-storage actuator requirem
 
 **Wanrong Wang**  
 International Sales, SigGear  
-[wangwanrong984@gmail.com](mailto:wangwanrong984@gmail.com)
+[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
 [Send Energy Equipment Actuator Requirements](../contact.md){ .md-button .md-button--primary }

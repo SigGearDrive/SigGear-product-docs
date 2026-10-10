@@ -370,6 +370,6 @@ If drawings are not ready, a mechanism sketch with key dimensions is enough for 
 
 For office automation, business equipment, printer, scanner, card-handling, ticket-handling, compact tray, locking or small actuator projects, please send the motion requirements, drawings and target quantity to SigGear for engineering review.
 
-Email: [wangwanrong984@gmail.com](mailto:wangwanrong984@gmail.com)
+Email: [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
 [Send office automation gear motor requirements](../contact.md){ .md-button .md-button--primary }

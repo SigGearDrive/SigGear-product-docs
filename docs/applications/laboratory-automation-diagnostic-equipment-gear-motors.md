@@ -256,6 +256,6 @@ Send your sample-handling system, reagent mechanism, compact pump, valve mechani
 
 **Wanrong Wang**  
 International Sales, SigGear  
-[wangwanrong984@gmail.com](mailto:wangwanrong984@gmail.com)
+[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
 [Send Laboratory or Diagnostic Equipment Gear Motor Requirements](../contact.md){ .md-button .md-button--primary }

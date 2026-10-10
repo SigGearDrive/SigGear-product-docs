@@ -144,4 +144,5 @@ Send your gripper requirements to SigGear for a preliminary model review.
 International Sales, SigGear  
 [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
-[Send Robot Gripper Requirements](../contact.md){ .md-button .md-button--primary }
+[Email Dexterous Hand / Gripper Requirements](mailto:wangwanrong@siggear.com?subject=Dexterous%20Hand%20Robot%20Gripper%20Planetary%20Gearbox%20Review&body=Application%3A%20Dexterous%20hand%20%2F%20robot%20gripper%0AMechanism%3A%20finger%20joint%20%2F%20tendon%20spool%20%2F%20rotary%20jaw%20%2F%20other%0ARequired%20gripping%20force%20or%20output%20torque%3A%20%0ARequired%20output%20speed%3A%20%0AMaximum%20diameter%20and%20length%3A%20%0AExisting%20motor%20or%20complete%20drive%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20%0A%0APlease%20attach%20a%20mechanism%20or%20motor%20drawing%20if%20available.){ .md-button .md-button--primary }
+[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }

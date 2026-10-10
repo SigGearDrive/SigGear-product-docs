@@ -202,6 +202,6 @@ Send your vending, dispensing, kiosk or smart cabinet actuator requirements to S
 
 **Wanrong Wang**  
 International Sales, SigGear  
-[wangwanrong984@gmail.com](mailto:wangwanrong984@gmail.com)
+[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
 [Send Vending or Dispensing Gear Motor Requirements](../contact.md){ .md-button .md-button--primary }

@@ -33,6 +33,16 @@ You do not need a complete specification to start. If you have a mechanism drawi
 [View Public Simplified 4-Stage STEP Files](engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Email SigGear for a Planetary Gearbox Review](mailto:wangwanrong@siggear.com?subject=8-42mm%20Planetary%20Gearbox%20Engineering%20Review){ .md-button .md-button--primary }
 
+### Start From the Application
+
+If your project matches one of the current priority application paths, use the dedicated review link so the first email already contains the minimum engineering fields.
+
+[Pruning Shears Review](mailto:wangwanrong@siggear.com?subject=Electric%20Pruning%20Shears%20Planetary%20Gearbox%20Review){ .md-button }
+[Electric Curtain / Blind Review](mailto:wangwanrong@siggear.com?subject=Electric%20Curtain%20Blind%20Planetary%20Gear%20Motor%20Review){ .md-button }
+[Smart Toilet / Bidet Review](mailto:wangwanrong@siggear.com?subject=Smart%20Toilet%20Bidet%20Planetary%20Gear%20Motor%20Review){ .md-button }
+[Dexterous Hand / Gripper Review](mailto:wangwanrong@siggear.com?subject=Dexterous%20Hand%20Robot%20Gripper%20Planetary%20Gearbox%20Review){ .md-button }
+
+
 ## Minimum Information to Start
 
 For a first engineering review, four items are usually enough:
@@ -94,7 +104,7 @@ Current public Engineering Resources cover:
 - [CPM-100-25](products/cycloidal-joint-modules/cpm100-25.md)
 - [8P-42P Planetary Gearbox Engineering Resource Library](engineering-resources/planetary-gearboxes/index.md), covering 8P, 10P, 12P, 14P, 16P, 20P, 22P, 24P, 28P, 32P, 36P and 42P
 
-Public STEP availability is model-specific. Where a public STEP is not released, request the current configuration-matched CAD or controlled drawing.
+For the standard **8P–42P planetary gearbox series**, simplified public **4-stage STEP** references are released for all 12 frame sizes. Configuration-matched production CAD and controlled drawings still depend on the selected model, stage count, ratio and motor interface.
 
 ## Sample Evaluation
 

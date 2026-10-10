@@ -216,6 +216,6 @@ Send your coffee machine, beverage dispenser, food-service machine, dosing devic
 
 **Wanrong Wang**  
 International Sales, SigGear  
-[wangwanrong984@gmail.com](mailto:wangwanrong984@gmail.com)
+[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
 [Send Food, Beverage or Coffee Equipment Gear Motor Requirements](../contact.md){ .md-button .md-button--primary }

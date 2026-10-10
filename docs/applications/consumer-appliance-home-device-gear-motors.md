@@ -341,4 +341,4 @@ Drawings, photos, videos and mechanism sketches are especially useful for applia
 
 For consumer appliance and smart home device gear motor selection, please send your mechanism drawings, target torque, speed, voltage, size limit and prototype quantity to [Wanrong Wang](../contact.md).
 
-Email: wangwanrong984@gmail.com
+Email: wangwanrong@siggear.com
