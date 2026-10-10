@@ -165,7 +165,7 @@ nav:
       - Prototype to Design-In and Production: custom-engineering/prototype-to-production.md
   - Applications:
       - Applications Overview: applications/index.md
-      - Featured Planetary & Compact Drive Applications:
+      - Featured Planetary and Compact Drive Applications:
           - Electric Pruning Shears Planetary Gearbox: applications/electric-pruning-shears-planetary-gearbox.md
           - Electric Curtain Blind and Window Opener Gear Motors: applications/electric-curtain-blind-window-opener-gear-motors.md
           - Smart Toilet and Bidet Planetary Gear Motors: applications/smart-toilet-bidet-planetary-gear-motors.md
@@ -174,30 +174,30 @@ nav:
           - Medical Device Micro Gear Motors: applications/medical-device-micro-gear-motors.md
           - Laboratory Automation and Diagnostic Equipment: applications/laboratory-automation-diagnostic-equipment-gear-motors.md
           - Smart Hardware Gear Motors: applications/smart-hardware-gear-motors.md
-      - Robotics & Joint Drive Applications:
+      - Robotics and Joint Drive Applications:
           - Humanoid Robot Joint Actuators: applications/humanoid-robot-joint-actuators.md
           - Robotic Arm Joint Actuators: applications/robotic-arm-joint-actuators.md
           - Exoskeleton Joint Actuators: applications/exoskeleton-joint-actuators.md
           - Quadruped Robot Joint Gearboxes: applications/quadruped-robot-joint-gearboxes.md
           - AGV and AMR Wheel Drive Gearboxes: applications/agv-amr-wheel-drive-gearboxes.md
           - Micro Robotics Gear Motors: applications/micro-robotics-gear-motors.md
-      - Automation & Precision Equipment:
+      - Automation and Precision Equipment:
           - Industrial Automation Servo Planetary Gearboxes: applications/industrial-automation-servo-planetary-gearboxes.md
           - Packaging Labeling and Conveyor Gear Motors: applications/packaging-labeling-conveyor-gear-motors.md
           - Semiconductor Electronics and Inspection Equipment: applications/semiconductor-electronics-inspection-equipment-gear-motors.md
           - Optical Imaging and Camera Module Gear Motors: applications/optical-imaging-camera-module-gear-motors.md
           - Pump Valve Fluid Control Gear Motors: applications/pump-valve-fluid-control-gear-motors.md
-      - Smart Home, Building & Consumer Mechanisms:
+      - Smart Home, Building and Consumer Mechanisms:
           - Access Control Smart Lock and Security Gear Motors: applications/access-control-smart-lock-security-gear-motors.md
           - Consumer Appliance and Home Device Gear Motors: applications/consumer-appliance-home-device-gear-motors.md
           - HVAC Smart Vent and Damper Gear Motors: applications/hvac-smart-vent-damper-gear-motors.md
           - Furniture Seating and Adjustable Mechanism Gear Motors: applications/furniture-seating-adjustable-mechanism-gear-motors.md
-      - Commercial & Device Mechanisms:
+      - Commercial and Device Mechanisms:
           - Office Automation and Business Equipment Gear Motors: applications/office-automation-business-equipment-gear-motors.md
           - Vending Dispensing and Kiosk Gear Motors: applications/vending-dispensing-kiosk-gear-motors.md
           - Food Beverage and Coffee Equipment Gear Motors: applications/food-beverage-coffee-equipment-gear-motors.md
           - Stage Lighting Display and Signage Gear Motors: applications/stage-lighting-display-signage-gear-motors.md
-      - Mobility, Energy & Outdoor Equipment:
+      - Mobility, Energy and Outdoor Equipment:
           - Automotive and Vehicle Small Motion Gear Motors: applications/automotive-vehicle-small-motion-gear-motors.md
           - Energy Battery and Charging Equipment Actuators: applications/energy-battery-charging-equipment-actuators.md
           - Agriculture and Outdoor Equipment Gear Motors: applications/agriculture-outdoor-equipment-gear-motors.md
