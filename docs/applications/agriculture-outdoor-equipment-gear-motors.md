@@ -223,6 +223,6 @@ Send your agriculture, outdoor equipment, feeder, valve, cover, gate, conveyor o
 
 **Wanrong Wang**  
 International Sales, SigGear  
-[wangwanrong984@gmail.com](mailto:wangwanrong984@gmail.com)
+[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
 [Send Agriculture or Outdoor Equipment Gear Motor Requirements](../contact.md){ .md-button .md-button--primary }
