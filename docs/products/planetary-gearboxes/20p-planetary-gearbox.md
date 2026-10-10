@@ -1,6 +1,6 @@
 ---
-title: 20P 20 mm Micro Planetary Gearbox | 4:1–1296:1 | SigGear
-description: SigGear 20P is a 20 mm micro planetary gearbox with 1–4 stages, reduction ratios from 4:1 to 1296:1 and continuous input speed up to 8,000 rpm.
+title: 20P 20 mm Miniature Planetary Gearbox & Gearhead | SigGear
+description: SigGear 20P 20 mm miniature planetary gearbox and gearhead with published 4:1–1296:1 ratios, model datasheet and 4-stage STEP CAD. Gearbox-only supply or motor matching.
 ---
 
 # 20P 20 mm Micro Planetary Gearbox
@@ -10,6 +10,17 @@ description: SigGear 20P is a 20 mm micro planetary gearbox with 1–4 stages, r
 The SigGear 20P is a 20 mm micro planetary gearbox for compact motorized mechanisms. The published configurations cover one to four stages, with reduction ratios from 4:1 to 1296:1.
 
 ![SigGear 20P 20 mm micro planetary gearbox](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-main.webp)
+
+## Engineering Selection and CAD Access
+
+For a **20 mm miniature planetary gearbox / planetary gearhead**, the 20P publishes ratios from **4:1 to 1296:1** across one to four stages. Gearbox body length changes by stage (**20.1–34.5 mm**). Select from the stage-specific torque and efficiency table rather than using the highest ratio or the range maximum as a universal operating point.
+
+**Design-In files:** [20P Technical Datasheet](../../engineering-resources/20p/datasheet.md) · [20P Mechanical Interface](../../engineering-resources/20p/mechanical-interface.md)
+
+[Download 20P Public Simplified STEP — 4-Stage Reference](../../assets/downloads/20p/20P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
+[Request 20P Configuration Review](../../request-cad-sample-quote.md){ .md-button }
+
+The downloadable STEP represents the **4-stage reference configuration only** and is intended for preliminary mechanical packaging. It is **not** a dimensionally interchangeable 1-, 2- or 3-stage model. Request configuration-matched CAD and a controlled drawing before design freeze.
 
 ## Product Identity
 
@@ -87,7 +98,11 @@ Application suitability depends on the selected ratio, motor, load direction, du
 
 ## Supply Configuration
 
-SigGear can supply the planetary gearbox as a gearbox-only unit, or evaluate and match a motor based on the customer's specific application requirements to provide a complete motor + gearbox assembly.
+SigGear can supply the **20P 20 mm planetary gearbox as a gearbox-only unit**, subject to the selected ratio and mechanical interface. This route is relevant if you already have a motor and need to evaluate shaft, pilot, mounting-pattern and input-speed compatibility.
+
+If you need a **motor + planetary gearbox assembly**, SigGear can evaluate a matching motor against the required output speed, continuous load, voltage, available space and duty cycle. Compatibility and final performance must be confirmed for the exact configuration.
+
+[Start a 20P OEM Gearbox Inquiry](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
 
 ## Selection Information Required
 

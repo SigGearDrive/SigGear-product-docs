@@ -21,6 +21,18 @@ If the project is a robot joint, compact actuator or AI-hardware rotary axis wit
 
 If the project has moved beyond a first concept and needs a structured path through prototype, testing, Design-In, pilot preparation and production release, see [Prototype to Design-In and Production](custom-engineering/prototype-to-production.md).
 
+## Miniature Planetary Gearbox (8–42 mm) — Two Starting Points
+
+**I already have a motor; I need a gearbox only.** Send your motor model or drawing, the available diameter/length, required output speed or ratio, and the load or torque if known. SigGear will review whether the chosen planetary gearbox interface and operating point can be matched.
+
+**I need a complete motor + gearbox assembly.** Send the application, available diameter/length, required output speed, expected load/torque and voltage if known. SigGear can evaluate a motor-matched configuration for the selected OEM project.
+
+You do not need a complete specification to start. If you have a mechanism drawing or motor model, attach it in your email.
+
+[Browse 8–42 mm Planetary Gearboxes](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
+[View Public Simplified 4-Stage STEP Files](engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
+[Email SigGear for a Planetary Gearbox Review](mailto:wangwanrong@siggear.com?subject=8-42mm%20Planetary%20Gearbox%20Engineering%20Review){ .md-button .md-button--primary }
+
 ## Minimum Information to Start
 
 For a first engineering review, four items are usually enough:

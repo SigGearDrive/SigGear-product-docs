@@ -1,6 +1,6 @@
 ---
-title: 42P 42 mm Micro Planetary Gearbox | SigGear
-description: SigGear 42P is a 42 mm micro planetary gearbox with one- to four-stage configurations and published reduction ratios from 3.8:1 to 660.7:1.
+title: 42P 42 mm Compact Planetary Gearbox & Gearhead | SigGear
+description: SigGear 42P 42 mm compact planetary gearbox and gearhead with published 3.8:1–660.7:1 ratios, model datasheet and 4-stage STEP CAD. Gearbox-only supply or motor matching.
 ---
 
 # 42P 42 mm Micro Planetary Gearbox
@@ -8,6 +8,17 @@ description: SigGear 42P is a 42 mm micro planetary gearbox with one- to four-st
 ## Product Overview
 
 The SigGear 42P is a 42 mm micro planetary gearbox for compact motorized mechanisms requiring higher torque capacity in the 8–42 mm planetary gearbox series. Published configurations cover one to four stages, with reduction ratios from 3.8:1 to 660.7:1.
+
+## Engineering Selection and CAD Access
+
+The **42 mm compact planetary gearbox / planetary gearhead** is at the larger end of SigGear's 8–42 mm miniature/compact range. Published gearbox body length varies from **35.6 to 69.5 mm** by stage, and published ratios span **3.8:1–660.7:1**. For an OEM mechanism, check the exact stage torque, shaft loading, output interface and motor matching against the [42P Design-In Pack](../../engineering-resources/42p/design-in-pack.md) before finalizing the design.
+
+**Design-In files:** [42P Technical Datasheet](../../engineering-resources/42p/datasheet.md) · [42P Motor Integration Guide](../../engineering-resources/42p/motor-integration.md)
+
+[Download 42P Public Simplified STEP — 4-Stage Reference](../../assets/downloads/42p/42P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
+[Request 42P Configuration Review](../../request-cad-sample-quote.md){ .md-button }
+
+The downloadable STEP represents the **4-stage reference configuration only** and is intended for preliminary mechanical packaging. It is **not** a dimensionally interchangeable 1-, 2- or 3-stage model. Request configuration-matched CAD and a controlled drawing before design freeze.
 
 ## Product Identity
 
@@ -81,7 +92,11 @@ Application suitability depends on the selected ratio, motor, load direction, du
 
 ## Supply Configuration
 
-SigGear can supply the planetary gearbox as a gearbox-only unit, or evaluate and match a motor based on the customer's specific application requirements to provide a complete motor + gearbox assembly.
+SigGear can supply the **42P 42 mm planetary gearbox as a gearbox-only unit**, subject to the selected ratio and mechanical interface. This route is relevant if you already have a motor and need to evaluate shaft, pilot, mounting-pattern and input-speed compatibility.
+
+If you need a **motor + planetary gearbox assembly**, SigGear can evaluate a matching motor against the required output speed, continuous load, voltage, available space and duty cycle. Compatibility and final performance must be confirmed for the exact configuration.
+
+[Start a 42P OEM Gearbox Inquiry](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
 
 ## Selection Information Required
 
