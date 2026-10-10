@@ -136,7 +136,12 @@ def main() -> None:
         writer.writeheader()
         writer.writerows(rows)
 
-    print(f"Exported {len(rows)} planetary catalog records to {output.relative_to(ROOT)}")
+    try:
+        display_output = output.relative_to(ROOT)
+    except ValueError:
+        display_output = output
+
+    print(f"Exported {len(rows)} planetary catalog records to {display_output}")
 
 
 if __name__ == "__main__":
