@@ -16,7 +16,7 @@ A gearbox selection can begin with your motor drawing, installation size or requ
 
 ## Application Scenarios
 
-For engineering evaluation, our miniature planetary gearbox range may be considered for space-constrained mechanisms including precision instruments, compact actuators, electric curtain drives, pruning-shear mechanisms, medical and laboratory equipment, small grippers and smart hardware. Application suitability must be validated for the selected motor, ratio and operating conditions.
+For engineering evaluation, our miniature planetary gearbox range may be considered for space-constrained mechanisms including electric pruning shears, electric curtains and blinds, smart toilet / bidet mechanisms, dexterous hands and compact grippers, precision instruments, medical and laboratory equipment, smart hardware and other compact OEM mechanisms. Application suitability must be validated for the selected motor, ratio and operating conditions.
 
 SigGear also develops other transmission platforms for robotic joints and automation; potential applications are not claims of existing validated customer projects.
 
