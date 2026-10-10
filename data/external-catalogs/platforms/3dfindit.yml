@@ -1,0 +1,72 @@
+schema_version: 1
+platform: 3Dfindit
+provider: CADENAS
+catalog_source: data/external-catalogs/planetary-gearboxes.yml
+
+project_scope:
+  catalog_name: SigGear Miniature & Compact Planetary Gearboxes
+  product_families: 12
+  series:
+    - 8P
+    - 10P
+    - 12P
+    - 14P
+    - 16P
+    - 20P
+    - 22P
+    - 24P
+    - 28P
+    - 32P
+    - 36P
+    - 42P
+  nominal_diameter_range: 8_to_42_mm
+
+manufacturer_goal:
+  - engineer_discovery
+  - preliminary_mechanical_design_in
+  - native_cad_distribution_after_cadenas_conversion
+  - qualified_download_leads
+  - rfq_handoff
+
+current_product_logic:
+  public_catalog_reference: series_level
+  stage_count: 1_to_4
+  reduction_ratio: stage_and_gear_set_dependent
+  gearbox_length: stage_dependent
+  torque_and_efficiency: configuration_dependent
+  motor_interface: engineering_review_dependent
+  final_ordering_part_number: not_defined_as_public_series_reference
+
+current_cad_assets:
+  one_public_step_per_series: true
+  public_step_configuration: simplified_4_stage_reference
+  intended_use: preliminary_packaging_and_design_in
+  detailed_internal_geometry_public: false
+  final_configuration_cad: controlled_request_only
+
+recommended_cadenas_scope:
+  phase_1:
+    type: manufacturer_catalog_feasibility
+    input: 12_series_master_data_plus_public_step_and_engineering_documents
+  phase_2:
+    type: configurator_feasibility_review
+    review_items:
+      - stage_count_selection
+      - reduction_ratio_selection
+      - gearbox_length_change_by_stage
+      - configuration_specific_performance_values
+      - motor_interface_and_shaft_options
+      - configured_part_number_logic
+  constraint: do_not_invent_orderable_part_numbers_or_treat_4_stage_reference_as_universal_geometry
+
+assets_ready:
+  product_master_data: true
+  public_product_pages: true
+  datasheets: true
+  mechanical_interface_pages: true
+  simplified_step_12_series: true
+
+assets_pending:
+  official_logo: true
+  expanded_real_product_photos: true
+  final_public_part_number_logic: engineering_and_commercial_confirmation_required

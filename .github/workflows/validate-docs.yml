@@ -14,6 +14,7 @@ on:
       - "scripts/validate_external_catalog.py"
       - "scripts/export_external_catalog.py"
       - "scripts/export_traceparts_catalog.py"
+      - "scripts/export_3dfindit_onboarding.py"
       - "hooks/**"
       - ".github/workflows/validate-docs.yml"
   push:
@@ -31,6 +32,7 @@ on:
       - "scripts/validate_external_catalog.py"
       - "scripts/export_external_catalog.py"
       - "scripts/export_traceparts_catalog.py"
+      - "scripts/export_3dfindit_onboarding.py"
       - "hooks/**"
       - ".github/workflows/validate-docs.yml"
   workflow_dispatch:
@@ -76,6 +78,9 @@ jobs:
 
       - name: Test TraceParts mapping export
         run: python scripts/export_traceparts_catalog.py --classification-category-id TEST_CATEGORY --output /tmp/traceparts-products-en.csv
+
+      - name: Test 3Dfindit onboarding export
+        run: python scripts/export_3dfindit_onboarding.py --output /tmp/3dfindit-onboarding-matrix.csv
 
       - name: Build documentation
         run: mkdocs build --strict
