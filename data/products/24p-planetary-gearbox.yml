@@ -2,7 +2,7 @@ schema_version: 1
 record_id: 24p-planetary-gearbox
 record_type: model
 model: 24P
-display_name: 24P 24 mm Micro Planetary Gearbox
+display_name: 24P 24 mm Miniature Planetary Gearbox
 product_family: planetary_gearbox
 canonical_page: docs/products/planetary-gearboxes/24p-planetary-gearbox.md
 public_page_status: published
