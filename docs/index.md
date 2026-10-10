@@ -65,6 +65,14 @@ Current public Engineering Resources are available for **SG-6010C**, **SG-6010D*
 
 Peak-torque duration depends on the selected controller, current limit, duty cycle, cooling and installation conditions. Confirm the required operating cycle during selection.
 
+## Featured Planetary Gearbox Engineering Guides
+
+[How to Select a Miniature Planetary Gearbox](selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button .md-button--primary }
+[Electric Pruning Shears — Gearbox Selection](applications/electric-pruning-shears-planetary-gearbox.md){ .md-button }
+[Electric Curtain Drive — Gearbox and Gearmotor Selection](applications/electric-curtain-blind-window-opener-gear-motors.md){ .md-button }
+
+The application guides explain preliminary engineering selection and do not claim confirmed customer production cases.
+
 ## Application Guides
 
 ### Humanoid Robot Joint Actuators
@@ -175,7 +183,7 @@ Use the controlled knowledge base to find a model, check terminology, answer com
 
 Guangdong SigGear Drive Intelligent Technology Co., Ltd. operates production processes covering precision machining, assembly and testing. SigGear maintains ISO 9001 and IATF 16949 quality-management systems and provides product or supplier verification documentation according to the applicable document scope.
 
-[About SigGear](company/about-siggear.md) · [Certifications and verification](company/certifications.md)
+[About SigGear](company/about-siggear.md) · [Certifications and verification](company/certifications.md) · [SigGear Commercial Website](https://www.siggear.com/)
 
 ## Start a Product Inquiry
 

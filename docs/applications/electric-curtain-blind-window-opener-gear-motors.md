@@ -1,3 +1,8 @@
+---
+title: Electric Curtain Planetary Gearbox & Gear Motor Selection | SigGear
+description: OEM selection guidance for miniature planetary gearboxes and gear motors in electric curtain tracks, smart blinds and window openers, including the SigGear 8–42 mm series.
+---
+
 # Electric Curtain, Blind and Window Opener Gear Motors
 
 ## Application Overview
@@ -7,6 +12,23 @@ Electric curtain, blind and window opener systems use compact gear motors and tr
 These applications usually require quiet motion, compact packaging, reliable start-up torque, stable holding behavior, controlled end-stop behavior, low current consumption and long service life under repeated open-close cycles. In smart-home and building-automation projects, the motor and gearbox must also be reviewed together with track friction, fabric weight, pulley size, rope or belt tension, window load, wind force, battery current, control board limits, obstacle detection, installation tolerance and safety boundaries.
 
 SigGear can evaluate micro gear motors, compact planetary gearboxes, flat BLDC motors and customized motor/gearbox assemblies for electric curtains, roller blinds, smart blinds, window openers, skylight actuators, sunshade devices, air-opening mechanisms and compact building-automation actuators. Final model selection, safety validation, installation approval and product certification remain the responsibility of the equipment manufacturer.
+
+## Electric Curtain Drive: Gearbox-Only or Complete Gearmotor?
+
+For OEM electric curtain tracks and compact smart-home mechanisms, **miniature planetary gearbox selection** begins with the motor operating point, curtain mechanism and available installation envelope.
+
+**I already have a motor; I need a gearbox only.** Provide the motor drawing, loaded shaft speed, shaft and pilot dimensions, mounting-hole pattern, available axial space, curtain travel speed and pulley or belt-drive geometry. SigGear can review the mechanical interface and ratio options.
+
+**I need a complete motor + gearbox drive.** Provide the required output motion, curtain track friction or pulling load if known, supply voltage, start/stop cycle, expected acoustic target and maximum motorized-unit dimensions. Motor matching and complete assembly performance are confirmed for the selected configuration.
+
+The approximate ratio may be estimated from **motor operating speed / target gearbox output speed**, then checked against actual available gearbox ratios and pulley travel. Do not assume a planetary gearbox is self-locking: holding torque, manual override, obstacle detection, end stops and user safety must be evaluated as a complete device.
+
+[Compare SigGear 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Read the Planetary Gearbox Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
+[Download Public 4-Stage STEP References](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
+[Request a Gearbox-Only or Motor-Matched Review](../request-cad-sample-quote.md){ .md-button }
+
+Public simplified STEP files represent **4-stage reference geometry only**. Confirm the actual ratio, stage length and mechanical interface with a configuration-specific drawing. This guide covers **potential uses**; it does not claim validated SigGear customer installations.
 
 ## Important Application Boundary
 

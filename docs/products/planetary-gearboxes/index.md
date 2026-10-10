@@ -12,6 +12,7 @@ SigGear manufactures miniature and compact planetary gearboxes (also called **pl
 [Compare All 12 Frame Sizes](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Download Public 4-Stage STEP CAD](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Send Requirements](../../request-cad-sample-quote.md){ .md-button }
+[How to Select a Miniature Planetary Gearbox](../../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
 
 ## Published Series
 

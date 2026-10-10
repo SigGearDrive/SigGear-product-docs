@@ -149,6 +149,13 @@ Provide:
 
 External support bearings are recommended when the mechanism creates significant cantilevered load, shock load, axial thrust or jam load.
 
+## Electric Pruning Shears: Focused Planetary Gearbox Selection
+
+An electric pruning-shear drive must be evaluated from the blade and linkage geometry, movement torque, brief cutting peaks, output speed and duty cycle. **No SigGear frame size is automatically approved for this application.**
+
+[Read the Electric Pruning Shears Planetary Gearbox Guide](electric-pruning-shears-planetary-gearbox.md){ .md-button .md-button--primary }
+[Compare 8–42 mm Planetary Gearbox Models](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
+
 ## Candidate SigGear Product Families
 
 ### Micro Gear Motors
