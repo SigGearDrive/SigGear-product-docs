@@ -75,7 +75,7 @@ Peak-torque duration depends on the selected controller, current limit, duty cyc
 
 The application guides explain preliminary engineering selection and do not claim confirmed customer production cases.
 
-## Application Guides
+## Other Application Guides
 
 ### Humanoid Robot Joint Actuators
 
