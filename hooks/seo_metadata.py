@@ -224,6 +224,60 @@ def _model_page_schema(page, config) -> dict | None:
     return item_page
 
 
+
+PLANETARY_SERIES_SRC = "products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md"
+PLANETARY_MODELS = ["8P", "10P", "12P", "14P", "16P", "20P", "22P", "24P", "28P", "32P", "36P", "42P"]
+
+
+def _planetary_series_schema(page, config) -> dict | None:
+    src = page.file.src_uri.replace("\\", "/")
+    if src != PLANETARY_SERIES_SRC:
+        return None
+
+    url = _absolute(config, page.url)
+    items = []
+    for position, model in enumerate(PLANETARY_MODELS, start=1):
+        slug = model.lower()
+        model_url = _absolute(
+            config,
+            f"products/planetary-gearboxes/{slug}-planetary-gearbox/",
+        )
+        items.append(
+            {
+                "@type": "ListItem",
+                "position": position,
+                "item": {
+                    "@type": "Thing",
+                    "@id": model_url + "#catalog-model",
+                    "name": f"SigGear {model} Planetary Gearbox",
+                    "identifier": model,
+                    "url": model_url,
+                },
+            }
+        )
+
+    return {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "@id": url + "#webpage",
+        "name": _page_title(page),
+        "url": url,
+        "inLanguage": "en",
+        "publisher": {
+            "@id": "https://www.siggear.com/#organization",
+            "@type": "Organization",
+            "name": "Guangdong SigGear Drive Intelligent Technology Co., Ltd.",
+            "url": "https://www.siggear.com/",
+        },
+        "mainEntity": {
+            "@type": "ItemList",
+            "name": "SigGear 8–42 mm Planetary Gearbox Series",
+            "numberOfItems": len(items),
+            "itemListElement": items,
+        },
+    }
+
+
 def _json_script(schema: dict, marker: str) -> str:
     payload = json.dumps(schema, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     return (
@@ -243,6 +297,10 @@ def on_post_page(output: str, page, config, **kwargs) -> str:
     model_page = _model_page_schema(page, config)
     if model_page:
         blocks.append(_json_script(model_page, "model-page"))
+
+    planetary_series = _planetary_series_schema(page, config)
+    if planetary_series:
+        blocks.append(_json_script(planetary_series, "planetary-series"))
 
     if not blocks or "</head>" not in output:
         return output
