@@ -1,15 +1,20 @@
 ---
-title: Robot Gripper and Dexterous Hand Gear Motors | SigGear
-description: Select micro gear motors and planetary gearboxes for robot grippers and dexterous hands by gripping force, tendon or jaw geometry, torque, speed, backlash, shaft loads, backdrivability and feedback requirements.
+title: Planetary Gearboxes & Gear Motors for Dexterous Hands and Robot Grippers | SigGear
+description: Select 8–42 mm planetary gearboxes and motor-matched gear drives for dexterous hands and robot grippers by finger force, tendon geometry, torque, speed, shaft loads, backlash and packaging.
 ---
 
-# Robot Gripper and Dexterous Hand Gear Motors
+# Planetary Gearboxes and Gear Motors for Dexterous Hands and Robot Grippers
 
 ## Application Overview
 
-Robot grippers, dexterous robotic hands and end effectors require compact drive systems for finger joints, tendon spools, rotary jaws, lead screws and other precision mechanisms. A suitable gripper motor or gearbox should be selected from the complete mechanism requirement, including force, speed, geometry, shaft load, backlash, noise and duty cycle.
+Dexterous robotic hands, robot grippers and compact end effectors often need small geared drives for finger joints, tendon spools, rotary jaws, lead screws and other precision mechanisms.
 
-SigGear provides micro gear motor and planetary gearbox solutions for compact gripping mechanisms. The final motor, reduction ratio, shaft, feedback and mounting configuration require engineering confirmation.
+For SigGear's current overseas focus, the primary starting point is the **8–42 mm miniature and compact planetary gearbox range**, either as gearbox-only supply for an existing motor or as a motor-matched gearbox assembly after engineering review.
+
+A suitable drive must still be selected from the complete mechanism requirement, including force, speed, geometry, shaft load, backlash, noise, duty cycle, feedback and installation space.
+
+[Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 
 ## Main Selection Factors
 
@@ -47,23 +52,30 @@ Specify backlash, repeatability, positioning accuracy and force-control requirem
 
 ## Candidate SigGear Product Families
 
-### Micro Gear Motors
+### 8–42 mm Miniature and Compact Planetary Gearboxes
 
-Micro gear motor solutions can be evaluated for:
+Use the standard planetary series as the first reference when the project needs a compact gearbox-only solution or a motor-matched assembly.
+
+Possible mechanism types include:
 
 - Finger joints
-- Tendon-driven robotic hands
-- Compact jaws
-- Laboratory grippers
+- Tendon spools
+- Compact rotary jaws
 - Small end effectors
+- Sensor or auxiliary positioning axes
+
+Selection still depends on the required torque, speed, ratio, stage count, shaft load and installation envelope.
+
+[Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Planetary Gearbox Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
+
+### Micro Gear Motors and Motor-Matched Assemblies
+
+Where the motor has not yet been fixed, SigGear can review a compact motor + planetary gearbox combination.
+
+If a motor is already selected, send its drawing, loaded speed, shaft dimensions and mounting interface for gearbox matching.
 
 [Explore micro gear motors](../products/micro-gear-motors/index.md)
-
-### 8–42 mm Planetary Gearboxes
-
-Planetary gearbox solutions can be evaluated when customers already have a motor or require a customized motor-gearbox combination.
-
-[Explore 8–42 mm planetary gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md)
 
 ## Dexterous Hand and Gripper Integration Review
 
