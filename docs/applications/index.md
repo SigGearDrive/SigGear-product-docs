@@ -9,6 +9,22 @@ SigGear precision transmission products are used in robot joints, mobile robots,
 
 Application pages explain the selection factors behind each use case and connect operating requirements with the appropriate product family. Final product selection is confirmed after engineering review.
 
+## Featured Miniature Planetary Gearbox Applications
+
+These are potential OEM engineering uses, not confirmed customer case studies.
+
+### Electric Pruning Shears — Gearbox and Motor Matching
+
+Selection by blade force, geometry, short cutting peaks, output speed and shaft interface.
+
+[Electric Pruning Shears Planetary Gearbox Guide](./electric-pruning-shears-planetary-gearbox.md){ .md-button .md-button--primary }
+
+### Electric Curtain and Smart Blind Drives
+
+Review loaded motor speed, track friction, pulley travel, noise, holding and gearbox-only supply.
+
+[Electric Curtain Gear Motor Guide](./electric-curtain-blind-window-opener-gear-motors.md){ .md-button }
+
 ## Robotics Applications
 
 ### Humanoid Robot Joint Actuators

@@ -167,6 +167,7 @@ nav:
       - Applications Overview: applications/index.md
       - Access Control Smart Lock and Security Gear Motors: applications/access-control-smart-lock-security-gear-motors.md
       - Agriculture and Outdoor Equipment Gear Motors: applications/agriculture-outdoor-equipment-gear-motors.md
+      - Electric Pruning Shears Planetary Gearbox: applications/electric-pruning-shears-planetary-gearbox.md
       - AGV and AMR Wheel Drive Gearboxes: applications/agv-amr-wheel-drive-gearboxes.md
       - Automotive and Vehicle Small Motion Gear Motors: applications/automotive-vehicle-small-motion-gear-motors.md
       - Consumer Appliance and Home Device Gear Motors: applications/consumer-appliance-home-device-gear-motors.md
@@ -195,6 +196,7 @@ nav:
       - Vending Dispensing and Kiosk Gear Motors: applications/vending-dispensing-kiosk-gear-motors.md
   - Selection Guides:
       - Selection Guides Overview: selection-guides/index.md
+      - Miniature Planetary Gearbox Selection: selection-guides/miniature-planetary-gearbox-selection-guide.md
       - Robot Joint Actuator Selection Guide: selection-guides/robot-joint-actuator-selection-guide.md
   - Engineering Center:
       - Overview: engineering-center/index.md

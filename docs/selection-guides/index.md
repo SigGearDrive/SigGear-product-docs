@@ -12,11 +12,16 @@ A step-by-step guide for humanoid robots, quadruped robots, robotic arms, exoske
 
 [Open the robot joint actuator selection guide](./robot-joint-actuator-selection-guide.md)
 
+### Miniature Planetary Gearbox Selection Guide (8–42 mm)
+
+Selection workflow for reduction ratio, rated versus momentary torque, motor interface, stage length, CAD and gearbox-only versus motor-matched projects.
+
+[How to Select a Miniature Planetary Gearbox](./miniature-planetary-gearbox-selection-guide.md){ .md-button .md-button--primary }
+
 ## Guides Planned for Technical Review
 
 Additional guides will be added after the relevant product data and engineering rules are reviewed:
 
-- Planetary gearbox selection
 - Micro gear motor selection
 - AGV and AMR wheel-drive sizing
 - Encoder, driver and communication selection
