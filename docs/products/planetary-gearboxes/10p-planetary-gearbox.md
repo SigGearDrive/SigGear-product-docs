@@ -1,6 +1,6 @@
 ---
-title: 10P 10 mm Micro Planetary Gearbox | 3.5:1–428.7:1 | SigGear
-description: SigGear 10P is a 10 mm micro planetary gearbox with 1–4 stages, reduction ratios from 3.5:1 to 428.7:1 and continuous input speed up to 8,000 rpm.
+title: 10P 10 mm Micro Planetary Gearbox & Gearhead | SigGear
+description: SigGear 10P 10 mm micro planetary gearbox and gearhead with published 3.5:1–428.7:1 ratios, model datasheet and 4-stage STEP CAD. Gearbox-only supply or motor matching.
 ---
 
 # 10P 10 mm Micro Planetary Gearbox
