@@ -51,6 +51,71 @@
     return true;
   }
 
+  function emailIntent(href) {
+    var intent = {
+      inquiry_type: "general_email",
+      inquiry_model: "not_specified",
+      inquiry_application: "not_specified",
+      email_subject: ""
+    };
+
+    try {
+      var emailUrl = new URL(href, window.location.href);
+      var subject = (emailUrl.searchParams.get("subject") || "").trim();
+      var lower = subject.toLowerCase();
+      intent.email_subject = subject.slice(0, 120);
+
+      var modelMatch = subject.match(/\b(8P|10P|12P|14P|16P|20P|22P|24P|28P|32P|36P|42P)\b/i);
+      if (modelMatch) {
+        intent.inquiry_model = modelMatch[1].toUpperCase();
+      }
+
+      if (lower.indexOf("gearbox only") !== -1) {
+        intent.inquiry_type = "gearbox_only";
+      } else if (lower.indexOf("motor + gearbox") !== -1 ||
+                 lower.indexOf("motor and gearbox") !== -1) {
+        intent.inquiry_type = "motor_gearbox";
+      } else if (lower.indexOf("planetary gearbox") !== -1) {
+        intent.inquiry_type = "planetary_general";
+      }
+
+      if (lower.indexOf("pruning") !== -1) {
+        intent.inquiry_type = "application_review";
+        intent.inquiry_application = "electric_pruning_shears";
+      } else if (lower.indexOf("curtain") !== -1 || lower.indexOf("blind") !== -1) {
+        intent.inquiry_type = "application_review";
+        intent.inquiry_application = "electric_curtain_blind";
+      } else if (lower.indexOf("smart toilet") !== -1 || lower.indexOf("bidet") !== -1) {
+        intent.inquiry_type = "application_review";
+        intent.inquiry_application = "smart_toilet_bidet";
+      } else if (lower.indexOf("dexterous hand") !== -1 || lower.indexOf("robot gripper") !== -1) {
+        intent.inquiry_type = "application_review";
+        intent.inquiry_application = "dexterous_hand_gripper";
+      }
+    } catch (e) {
+      // Keep generic values for malformed mailto links.
+    }
+
+    return intent;
+  }
+
+  function priorityApplicationFromPath(pathname) {
+    var path = pathname || "";
+    if (path.indexOf("/applications/electric-pruning-shears-planetary-gearbox/") !== -1) {
+      return "electric_pruning_shears";
+    }
+    if (path.indexOf("/applications/electric-curtain-blind-window-opener-gear-motors/") !== -1) {
+      return "electric_curtain_blind";
+    }
+    if (path.indexOf("/applications/smart-toilet-bidet-planetary-gear-motors/") !== -1) {
+      return "smart_toilet_bidet";
+    }
+    if (path.indexOf("/applications/robot-gripper-gear-motors/") !== -1) {
+      return "dexterous_hand_gripper";
+    }
+    return "";
+  }
+
   function pagePath() {
     try {
       return new URL(window.location.href).pathname;
@@ -156,10 +221,25 @@
     var label = (link.textContent || "").trim().slice(0, 80);
 
     if (href.indexOf("mailto:") === 0) {
-      sendEvent("email_click", {
+      var intent = emailIntent(href);
+      var emailParams = {
         page_path: pagePath(),
-        contact_method: "email"
-      });
+        contact_method: "email",
+        link_text: label,
+        inquiry_type: intent.inquiry_type,
+        inquiry_model: intent.inquiry_model,
+        inquiry_application: intent.inquiry_application,
+        email_subject: intent.email_subject
+      };
+
+      // Preserve the existing event for historical continuity.
+      sendEvent("email_click", emailParams);
+
+      // Add a dedicated conversion event when the mailto link represents a
+      // structured planetary inquiry rather than a generic contact email.
+      if (intent.inquiry_type !== "general_email") {
+        sendEvent("planetary_inquiry_click", emailParams);
+      }
       return;
     }
 
@@ -183,6 +263,24 @@
       }
     } catch (e) {
       // Malformed links are ignored; normal click navigation continues.
+    }
+
+    try {
+      var internalDestination = new URL(href, window.location.href);
+      if (internalDestination.hostname === window.location.hostname) {
+        var priorityApplication = priorityApplicationFromPath(internalDestination.pathname);
+        if (priorityApplication) {
+          sendEvent("priority_application_click", {
+            page_path: pagePath(),
+            application: priorityApplication,
+            destination_path: internalDestination.pathname,
+            link_text: label
+          });
+          return;
+        }
+      }
+    } catch (e) {
+      // Ignore malformed internal links and continue normal navigation.
     }
 
     try {
