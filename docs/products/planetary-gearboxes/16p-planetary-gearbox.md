@@ -106,6 +106,10 @@ If you need a **motor + planetary gearbox assembly**, SigGear can evaluate a mat
 
 [Start a 16P OEM Gearbox Inquiry](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
 
+
+[Gearbox Only — Use Existing Motor](mailto:wangwanrong@siggear.com?subject=16P%20Gearbox%20Only%20Review&body=SigGear%20model%3A%2016P%0AExisting%20motor%20model%20%2F%20drawing%3A%20%0AMotor%20speed%3A%20%0ARequired%20output%20speed%20or%20ratio%3A%20%0AMaximum%20gearbox%20%2F%20assembly%20size%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button .md-button--primary }
+[Motor + Gearbox — Select Complete Drive](mailto:wangwanrong@siggear.com?subject=16P%20Motor%20%2B%20Gearbox%20Review&body=SigGear%20model%20reference%3A%2016P%0AApplication%20%2F%20what%20needs%20to%20move%3A%20%0ARequired%20output%20speed%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0AMaximum%20diameter%20and%20total%20length%3A%20%0AOperating%20voltage%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button }
+
 ## Selection Information Required
 
 Please provide:
