@@ -206,6 +206,6 @@ Send your smart lock, access-control, cabinet lock or security actuator requirem
 
 **Wanrong Wang**  
 International Sales, SigGear  
-[wangwanrong984@gmail.com](mailto:wangwanrong984@gmail.com)
+[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
 [Send Access-Control Gear Motor Requirements](../contact.md){ .md-button .md-button--primary }
