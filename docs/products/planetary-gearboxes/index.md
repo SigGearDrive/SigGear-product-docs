@@ -1,11 +1,17 @@
 ---
-title: Miniature Planetary Gearboxes & Gearheads | 8–42 mm | SigGear
-description: Explore SigGear 8–42 mm miniature planetary gearboxes and gearheads with published ratios, torque, backlash, dimensions and custom engineering support.
+title: Miniature & Compact Planetary Gearboxes and Gearheads | 8–42 mm | SigGear
+description: SigGear 8–42 mm miniature and compact planetary gearboxes and gearheads. Compare 12 sizes, get datasheets and simplified STEP CAD, or request gearbox-only and motor-matching support.
 ---
 
-# Planetary Gearboxes
+# Miniature & Compact Planetary Gearboxes (8–42 mm)
 
-SigGear planetary gearboxes provide compact transmission solutions for robotics, automation, medical devices and precision motion systems.
+SigGear manufactures miniature and compact planetary gearboxes (also called **planetary gearheads**) for space-constrained OEM mechanical designs. The range covers 12 nominal diameters from **8 to 42 mm**.
+
+**Two supply routes:** request a **gearbox-only unit** for your existing motor, or ask SigGear to evaluate a **motor-matched gearbox assembly** for your mechanism. Motor shaft, mounting, voltage, speed, torque and duty-cycle compatibility are subject to engineering review.
+
+[Compare All 12 Frame Sizes](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Download Public 4-Stage STEP CAD](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
+[Send Requirements](../../request-cad-sample-quote.md){ .md-button }
 
 ## Published Series
 
@@ -51,43 +57,43 @@ The 16P page includes the complete currently published one- to four-stage ratio 
 
 [View the 16P 16 mm planetary gearbox](16p-planetary-gearbox.md)
 
-### 20P 20 mm Micro Planetary Gearbox
+### 20P 20 mm Miniature Planetary Gearbox
 
 The 20P page includes the complete currently published one- to four-stage ratio table, gearbox lengths, allowable torque, momentary torque, efficiency, backlash, speed, load limits, operating temperature, motor compatibility and dimensional source images.
 
 [View the 20P 20 mm planetary gearbox](20p-planetary-gearbox.md)
 
-### 22P 22 mm Micro Planetary Gearbox
+### 22P 22 mm Miniature Planetary Gearbox
 
 The 22P page includes the complete currently published one- to four-stage ratio table, gearbox lengths, allowable torque, momentary torque, efficiency, backlash, speed, load limits, operating temperature, motor compatibility and dimensional source images.
 
 [View the 22P 22 mm planetary gearbox](22p-planetary-gearbox.md)
 
-### 24P 24 mm Micro Planetary Gearbox
+### 24P 24 mm Miniature Planetary Gearbox
 
 The 24P page includes the complete currently published one- to four-stage ratio table, gearbox lengths, allowable torque, momentary torque, efficiency, backlash, speed, load limits, operating temperature and motor compatibility.
 
 [View the 24P 24 mm planetary gearbox](24p-planetary-gearbox.md)
 
-### 28P 28 mm Micro Planetary Gearbox
+### 28P 28 mm Miniature Planetary Gearbox
 
 The 28P page includes the complete currently published one- to four-stage ratio table, gearbox lengths, allowable torque, momentary torque, efficiency, backlash, speed, manufacturing process and motor compatibility.
 
 [View the 28P 28 mm planetary gearbox](28p-planetary-gearbox.md)
 
-### 32P 32 mm Micro Planetary Gearbox
+### 32P 32 mm Miniature Planetary Gearbox
 
 The 32P page includes the complete currently published one- to four-stage ratio table, gearbox lengths, allowable torque, momentary torque, efficiency, backlash, speed, manufacturing process and motor compatibility.
 
 [View the 32P 32 mm planetary gearbox](32p-planetary-gearbox.md)
 
-### 36P 36 mm Micro Planetary Gearbox
+### 36P 36 mm Compact Planetary Gearbox
 
 The 36P page includes the complete currently published one- to four-stage ratio table, gearbox lengths, allowable torque, momentary torque, efficiency, backlash, speed, load limits, operating temperature, manufacturing process and motor compatibility.
 
 [View the 36P 36 mm planetary gearbox](36p-planetary-gearbox.md)
 
-### 42P 42 mm Micro Planetary Gearbox
+### 42P 42 mm Compact Planetary Gearbox
 
 The 42P page includes the currently published one- to four-stage ratio table, gearbox lengths, allowable torque, momentary torque, efficiency, backlash, manufacturing process and motor compatibility.
 
