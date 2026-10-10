@@ -163,6 +163,28 @@
       return;
     }
 
+    // Record user intent to download released CAD without changing navigation
+    // or sending analytics before the existing cookie-consent gated tag loads.
+    try {
+      var cadUrl = new URL(href, window.location.href);
+      var cadPath = cadUrl.pathname;
+      if (cadUrl.hostname === window.location.hostname && /\.(step|stp)$/i.test(cadPath)) {
+        var cadMatch = cadPath.match(/\/(\d{1,2}p)\//i);
+        sendEvent("cad_download_click", {
+          page_path: pagePath(),
+          cad_model: cadMatch ? cadMatch[1].toUpperCase() : "not_specified",
+          cad_format: "STEP",
+          file_name: cadPath.split("/").pop() || "",
+          cad_reference: /Public_Simplified_STEP.*4-Stage\.(step|stp)$/i.test(cadPath) ?
+            "public_simplified_4_stage" : "other_step",
+          link_text: label
+        });
+        return;
+      }
+    } catch (e) {
+      // Malformed links are ignored; normal click navigation continues.
+    }
+
     try {
       var destination = new URL(href, window.location.href);
       var hostname = destination.hostname.replace(/^www\./, "");
