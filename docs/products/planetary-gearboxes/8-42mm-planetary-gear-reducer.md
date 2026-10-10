@@ -14,7 +14,8 @@ SigGear supplies miniature and compact planetary gearboxes (planetary gearheads)
 The 12 published frame sizes support preliminary Design-In with model-specific datasheets, mechanical-interface references and simplified public **4-stage STEP CAD**. Final ratio, torque, speed, dimensions, motor compatibility and configuration-specific drawings depend on the selected model and engineering review.
 
 [Download 8–42 mm Public STEP CAD](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
-[Request Gearbox-Only or Motor Matching](../../request-cad-sample-quote.md){ .md-button }
+[Gearbox Only — Existing Motor](mailto:wangwanrong@siggear.com?subject=Gearbox%20Only%20Review%20-%20Existing%20Motor&body=Existing%20motor%20model%20%2F%20drawing%3A%20%0AMotor%20speed%3A%20%0ARequired%20output%20speed%20or%20ratio%3A%20%0AMaximum%20gearbox%20%2F%20assembly%20size%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button }
+[Motor + Gearbox Review](mailto:wangwanrong@siggear.com?subject=Motor%20%2B%20Gearbox%20Engineering%20Review&body=Application%20%2F%20what%20needs%20to%20move%3A%20%0ARequired%20output%20speed%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0AMaximum%20diameter%20and%20total%20length%3A%20%0AOperating%20voltage%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button }
 [Motor + Gearbox Integration Guide](../../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
 ## Quick Selection Matrix
