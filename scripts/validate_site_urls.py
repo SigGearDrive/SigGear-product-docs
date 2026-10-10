@@ -110,9 +110,10 @@ def _json_ld_blocks(html: str) -> list[dict]:
 
 def check_structured_data() -> None:
     targets = {
-        "products/robot-joint-actuators/sg6010d/index.html": {"BreadcrumbList", "Product"},
-        "products/cycloidal-joint-modules/cpm80-25/index.html": {"BreadcrumbList", "Product"},
-        "products/planetary-gearboxes/32p-planetary-gearbox/index.html": {"BreadcrumbList", "Product"},
+        "products/robot-joint-actuators/sg6010d/index.html": {"BreadcrumbList", "ItemPage"},
+        "products/cycloidal-joint-modules/cpm80-25/index.html": {"BreadcrumbList", "ItemPage"},
+        "products/planetary-gearboxes/20p-planetary-gearbox/index.html": {"BreadcrumbList", "ItemPage"},
+        "products/planetary-gearboxes/32p-planetary-gearbox/index.html": {"BreadcrumbList", "ItemPage"},
         "applications/humanoid-robot-joint-actuators/index.html": {"BreadcrumbList"},
     }
 
@@ -128,6 +129,25 @@ def check_structured_data() -> None:
                 f"Structured data missing on {relative}: "
                 + ", ".join(sorted(missing))
             )
+
+        # Verify that each model's JSON-LD identifies the correct model.
+        if "ItemPage" in expected_types:
+            item_page = next(b for b in blocks if b.get("@type") == "ItemPage")
+            model = item_page.get("mainEntity") or {}
+            if model.get("@type") != "Thing" or not model.get("identifier"):
+                fail(f"Missing engineering model identity on {relative}")
+
+    # Prevent a recurrence of Google's invalid Product-snippet enhancement:
+    # only emit Product markup when genuine offer/review/rating data is supplied.
+    for html_path in (SITE_DIR / "products").glob("*/*/index.html"):
+        for block in _json_ld_blocks(html_path.read_text(encoding="utf-8")):
+            if block.get("@type") == "Product" and not any(
+                block.get(key) for key in ("offers", "review", "aggregateRating")
+            ):
+                fail(
+                    "Unqualified Product rich-result markup (no verified offers "
+                    f"or reviews): {html_path.relative_to(SITE_DIR)}"
+                )
 
 
 def check_robots() -> None:

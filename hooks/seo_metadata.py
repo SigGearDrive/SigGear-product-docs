@@ -1,7 +1,7 @@
 """Build-time SEO metadata for SigGear MkDocs output.
 
 - Inject static JSON-LD BreadcrumbList on important content pages.
-- Inject semantic Product JSON-LD on published model pages from data/products/*.yml.
+- Inject semantic ItemPage JSON-LD for B2B model documentation without public offers.
 - Rewrite sitemap lastmod values from Git history so deploy date is not
   incorrectly reported as the modification date of every page.
 
@@ -166,17 +166,19 @@ def _breadcrumbs(page, config) -> dict | None:
     }
 
 
-def _humanize(key: str) -> str:
-    return key.replace("_", " ").strip().capitalize()
+def _model_page_schema(page, config) -> dict | None:
+    """Describe B2B model pages as technical item pages, not retail offers.
 
-
-def _product_schema(page, config) -> dict | None:
+    Google's Product rich results require a genuine public offer, review or
+    aggregate rating. SigGear's engineering series have none of those as
+    verified master data, so a partial Product snippet would be misleading.
+    Model identifiers and public engineering specifications remain in HTML.
+    """
     src = page.file.src_uri.replace("\\", "/")
     data = _product_by_src.get(src)
     if not data:
         return None
 
-    # Phase 1: only the core families currently used for engineering acquisition.
     if data.get("product_family") not in {
         "robot_joint_actuator",
         "cycloidal_joint_module",
@@ -184,58 +186,42 @@ def _product_schema(page, config) -> dict | None:
     }:
         return None
 
-    family = FAMILY_META.get(data.get("product_family"))
     url = _absolute(config, page.url)
-    product = {
+    page_name = _page_title(page)
+    catalog_name = str(data.get("display_name") or data.get("model"))
+    name = page_name or catalog_name
+    model = {
+        "@type": "Thing",
+        "@id": url + "#catalog-model",
+        "name": name,
+        "identifier": str(data.get("model")),
+        "url": url,
+    }
+    if catalog_name != name:
+        model["alternateName"] = catalog_name
+
+    item_page = {
         "@context": "https://schema.org",
-        "@type": "Product",
-        "@id": url + "#product",
-        "name": str(data.get("display_name") or data.get("model")),
-        "model": str(data.get("model")),
-        "brand": {"@type": "Brand", "name": "SigGear"},
-        "manufacturer": {
+        "@type": "ItemPage",
+        "@id": url + "#webpage",
+        "name": name,
+        "url": url,
+        "inLanguage": "en",
+        "publisher": {
             "@id": "https://www.siggear.com/#organization",
             "@type": "Organization",
             "name": "Guangdong SigGear Drive Intelligent Technology Co., Ltd.",
             "url": "https://www.siggear.com/",
         },
-        "url": url,
+        "mainEntity": model,
     }
-
-    if family:
-        product["category"] = family["name"]
 
     description = page.meta.get("description") if getattr(page, "meta", None) else None
     if description:
-        product["description"] = str(description)
+        item_page["description"] = str(description)
+        model["description"] = str(description)
 
-    properties = []
-    for key, value in (data.get("published_specifications") or {}).items():
-        if value is None or value == "":
-            continue
-        properties.append(
-            {
-                "@type": "PropertyValue",
-                "name": _humanize(str(key)),
-                "value": str(value),
-            }
-        )
-
-    for key, value in (data.get("published_variants") or {}).items():
-        if value is None or value == "":
-            continue
-        properties.append(
-            {
-                "@type": "PropertyValue",
-                "name": str(key),
-                "value": str(value),
-            }
-        )
-
-    if properties:
-        product["additionalProperty"] = properties
-
-    return product
+    return item_page
 
 
 def _json_script(schema: dict, marker: str) -> str:
@@ -254,9 +240,9 @@ def on_post_page(output: str, page, config, **kwargs) -> str:
     if breadcrumb:
         blocks.append(_json_script(breadcrumb, "breadcrumb"))
 
-    product = _product_schema(page, config)
-    if product:
-        blocks.append(_json_script(product, "product"))
+    model_page = _model_page_schema(page, config)
+    if model_page:
+        blocks.append(_json_script(model_page, "model-page"))
 
     if not blocks or "</head>" not in output:
         return output
