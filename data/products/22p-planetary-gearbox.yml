@@ -2,7 +2,7 @@ schema_version: 1
 record_id: 22p-planetary-gearbox
 record_type: model
 model: 22P
-display_name: 22P 22 mm Micro Planetary Gearbox
+display_name: 22P 22 mm Miniature Planetary Gearbox
 product_family: planetary_gearbox
 canonical_page: docs/products/planetary-gearboxes/22p-planetary-gearbox.md
 public_page_status: published
