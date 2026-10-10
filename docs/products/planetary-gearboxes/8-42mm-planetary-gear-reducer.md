@@ -1,15 +1,19 @@
 ---
-title: 8–42 mm Planetary Gearboxes | Miniature Precision Reducers | SigGear
-description: Compare SigGear 8–42 mm planetary gearboxes for robotics, medical devices, precision instruments and compact automation, with model-specific ratios, torque, backlash and dimensions.
+title: 8–42 mm Miniature & Compact Planetary Gearboxes | SigGear
+description: Compare 12 SigGear 8–42 mm miniature and compact planetary gearboxes and gearheads. Get model ratios, torque, dimensions, datasheets, STEP CAD and OEM motor matching.
 ---
 
-# 8–42 mm Planetary Gear Reducer Series
+# 8–42 mm Miniature & Compact Planetary Gearbox Series
 
 ## Product Overview
 
-SigGear supplies miniature and compact planetary gear reducers with nominal outer diameters from 8 mm to 42 mm for robotics, medical devices, laboratory automation, precision instruments and compact industrial mechanisms.
+SigGear supplies miniature and compact planetary gearboxes (planetary gearheads) with nominal outer diameters from **8 mm to 42 mm**, intended for space-constrained OEM mechanisms and precision motion applications. Customers may source **gearbox-only units** or request an engineering review for a **matched motor + gearbox assembly**.
 
-The series is intended for projects that require a compact transmission and flexible integration with a motor, output shaft, mounting interface or sensor system. Final ratio, torque, speed, dimensions and motor matching depend on the selected diameter and project configuration.
+The 12 published frame sizes support preliminary Design-In with model-specific datasheets, mechanical-interface references and simplified public **4-stage STEP CAD**. Final ratio, torque, speed, dimensions, motor compatibility and configuration-specific drawings depend on the selected model and engineering review.
+
+[Download 8–42 mm Public STEP CAD](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
+[Request Gearbox-Only or Motor Matching](../../request-cad-sample-quote.md){ .md-button }
+[Motor + Gearbox Integration Guide](../../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
 ## Quick Selection Matrix
 
