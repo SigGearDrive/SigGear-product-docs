@@ -26,6 +26,15 @@ The miniature and compact series covers:
 
 [View the 8–42 mm planetary gear reducer series](8-42mm-planetary-gear-reducer.md)
 
+## Featured OEM Application Guides
+
+These guides connect real application requirements to the 8–42 mm planetary gearbox range for preliminary OEM selection. They describe **potential engineering applications** and do not claim confirmed SigGear customer production cases.
+
+[Electric Pruning Shears](../../applications/electric-pruning-shears-planetary-gearbox.md){ .md-button .md-button--primary }
+[Electric Curtain / Blind / Window Opener](../../applications/electric-curtain-blind-window-opener-gear-motors.md){ .md-button }
+[Smart Toilet & Bidet](../../applications/smart-toilet-bidet-planetary-gear-motors.md){ .md-button }
+[Dexterous Hand / Robot Gripper](../../applications/robot-gripper-gear-motors.md){ .md-button }
+
 ## Published Model Data
 
 ### 8P 8 mm Micro Planetary Gearbox
