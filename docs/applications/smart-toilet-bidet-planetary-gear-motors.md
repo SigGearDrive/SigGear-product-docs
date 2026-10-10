@@ -177,3 +177,5 @@ A mechanism sketch or existing motor drawing is enough to start a preliminary re
 **Wanrong Wang**  
 International Sales / Sales Engineer, SigGear  
 [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+
+[Email Smart Toilet / Bidet Drive Requirements](mailto:wangwanrong@siggear.com?subject=Smart%20Toilet%20Bidet%20Planetary%20Gear%20Motor%20Review&body=Application%3A%20Smart%20toilet%20%2F%20bidet%20mechanism%0AMechanism%3A%20lid%20%2F%20seat%20%2F%20nozzle%20%2F%20flap%20%2F%20other%0AExisting%20motor%20or%20complete%20drive%3A%20%0ARequired%20speed%20or%20cycle%20time%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0AMaximum%20diameter%20and%20length%3A%20%0AOperating%20voltage%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20%0A%0APlease%20attach%20a%20mechanism%20or%20motor%20drawing%20if%20available.){ .md-button .md-button--primary }
