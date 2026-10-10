@@ -20,8 +20,9 @@ Depending on the selected product family and project requirements, the supply sc
 - matched motor + gearbox assembly
 - an integrated drive or actuator where motor, reducer, sensing and control are reviewed together
 
-[Send Your Motor or Mechanism](mailto:wangwanrong@siggear.com?subject=Motor%20and%20Gearbox%20Integration%20Review){ .md-button .md-button--primary }
-[Request Engineering Review](../request-cad-sample-quote.md){ .md-button }
+[Gearbox Only — I Already Have a Motor](mailto:wangwanrong@siggear.com?subject=Gearbox%20Only%20Review%20-%20Existing%20Motor&body=Existing%20motor%20model%20%2F%20drawing%3A%20%0AMotor%20speed%3A%20%0ARequired%20output%20speed%20or%20ratio%3A%20%0AMaximum%20gearbox%20%2F%20assembly%20size%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button .md-button--primary }
+[Motor + Gearbox — Select the Complete Drive](mailto:wangwanrong@siggear.com?subject=Motor%20%2B%20Gearbox%20Engineering%20Review&body=Application%20%2F%20what%20needs%20to%20move%3A%20%0ARequired%20output%20speed%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0AMaximum%20diameter%20and%20total%20length%3A%20%0AOperating%20voltage%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button .md-button--primary }
+[Full Engineering Review Guide](../request-cad-sample-quote.md){ .md-button }
 
 ## Path A — I Already Have a Motor
 

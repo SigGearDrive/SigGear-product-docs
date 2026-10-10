@@ -24,6 +24,9 @@ The 12 published planetary frame sizes have model-specific Datasheets, Mechanica
 
 **Need a different shaft, flange or interface?** We can review project-specific mechanical adaptation based on the selected gearbox and project scope.
 
+[Gearbox Only — I Already Have a Motor](mailto:wangwanrong@siggear.com?subject=Gearbox%20Only%20Review%20-%20Existing%20Motor&body=Existing%20motor%20model%20%2F%20drawing%3A%20%0AMotor%20speed%3A%20%0ARequired%20output%20speed%20or%20ratio%3A%20%0AMaximum%20gearbox%20%2F%20assembly%20size%3A%20%0ALoad%20or%20torque%20if%20known%3A%20){ .md-button .md-button--primary }
+[Motor + Gearbox — I Need the Complete Drive](mailto:wangwanrong@siggear.com?subject=Motor%20%2B%20Gearbox%20Engineering%20Review&body=Application%20%2F%20what%20needs%20to%20move%3A%20%0ARequired%20output%20speed%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0AMaximum%20diameter%20and%20total%20length%3A%20%0AOperating%20voltage%3A%20){ .md-button }
+
 [Compare the 12 Planetary Gearbox Frame Sizes](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Explore Custom Transmission Engineering](custom-engineering/index.md){ .md-button }
 [Send Your Drawing or Requirements](request-cad-sample-quote.md){ .md-button }
@@ -39,7 +42,7 @@ Use the site according to the engineering decision you need to make.
 | 3. Validate | Run a sample through mechanical fit, first setup and application testing | [Sample Validation Workflow](engineering-center/sample-validation-workflow.md) |
 | 4. Design-In | Freeze the exact configuration, controlled interface and operating conditions | [Design-In Checklist](engineering-center/design-in-checklist.md) |
 
-Current public Engineering Resources are available for **SG-6010C**, **SG-6010D**, **SG-8021**, **CPM-78-39**, **CPM-80-25**, **CPM-100-25** and the full **8P-42P standard planetary gearbox series**. Public STEP availability is model-specific; controlled CAD and drawings remain configuration-dependent.
+Current public Engineering Resources are available for **SG-6010C**, **SG-6010D**, **SG-8021**, **CPM-78-39**, **CPM-80-25**, **CPM-100-25** and the full **8P-42P standard planetary gearbox series**. All 12 standard planetary frame sizes have simplified public 4-stage STEP references; controlled production CAD and drawings remain configuration-dependent.
 
 ## Product Solutions
 
