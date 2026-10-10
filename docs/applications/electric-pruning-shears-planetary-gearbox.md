@@ -1,6 +1,6 @@
 ---
 title: Planetary Gearbox for Electric Pruning Shears | OEM Selection Guide | SigGear
-description: Selection guide for miniature planetary gearboxes and motor-matched drives in electric pruning shears: cutting load, torque peaks, ratios, shafts, CAD and OEM requirements.
+description: Selection guide for miniature planetary gearboxes and motor-matched drives in electric pruning shears, covering cutting load, torque peaks, ratios, shafts, CAD and OEM requirements.
 ---
 
 # Planetary Gearbox Selection for Electric Pruning Shears
