@@ -70,10 +70,12 @@ Peak-torque duration depends on the selected controller, current limit, duty cyc
 [How to Select a Miniature Planetary Gearbox](selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button .md-button--primary }
 [Electric Pruning Shears — Gearbox Selection](applications/electric-pruning-shears-planetary-gearbox.md){ .md-button }
 [Electric Curtain Drive — Gearbox and Gearmotor Selection](applications/electric-curtain-blind-window-opener-gear-motors.md){ .md-button }
+[Smart Toilet & Bidet — Compact Gear Drive Selection](applications/smart-toilet-bidet-planetary-gear-motors.md){ .md-button }
+[Dexterous Hands — Planetary Gearbox & Gearmotor Selection](applications/robot-gripper-gear-motors.md){ .md-button }
 
 The application guides explain preliminary engineering selection and do not claim confirmed customer production cases.
 
-## Application Guides
+## Other Application Guides
 
 ### Humanoid Robot Joint Actuators
 

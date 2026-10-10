@@ -329,6 +329,7 @@ Drawings, photos, videos and mechanism sketches are especially useful for applia
 
 ## Related Application Pages
 
+- [Smart toilet and bidet planetary gear motor guide](./smart-toilet-bidet-planetary-gear-motors.md)
 - [Smart hardware gear motors](./smart-hardware-gear-motors.md)
 - [Food, beverage and coffee equipment gear motors](./food-beverage-coffee-equipment-gear-motors.md)
 - [Pump, valve and fluid control gear motors](./pump-valve-fluid-control-gear-motors.md)
