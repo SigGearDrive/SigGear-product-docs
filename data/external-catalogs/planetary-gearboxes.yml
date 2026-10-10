@@ -1,0 +1,91 @@
+schema_version: 1
+catalog_id: siggear-8-42mm-planetary-gearboxes
+catalog_title: SigGear Miniature & Compact Planetary Gearboxes
+brand: SigGear
+manufacturer:
+  legal_name: Guangdong SigGear Drive Intelligent Technology Co., Ltd.
+  website: https://siggeardrive.github.io/SigGear-product-docs/
+  contact_name: Wanrong Wang
+  contact_role: International Sales / Sales Engineer
+  contact_email: wangwanrong@siggear.com
+
+distribution_scope:
+  intended_platforms:
+    - TraceParts
+    - 3Dfindit
+    - DirectIndustry
+    - GlobalSpec
+  publication_unit: product_family_reference
+  final_ordering_configuration: configuration_dependent
+  public_cad_policy: simplified_external_interface_reference_only
+  controlled_cad_policy: request_after_model_stage_ratio_and_motor_interface_review
+
+shared_classification:
+  product_family: planetary_gearbox
+  product_type: planetary_gearbox_gearhead
+  supply_options:
+    - gearbox_only
+    - motor_matched_assembly
+  stage_range: 1_to_4
+  cad_format_public: STEP
+  cad_configuration_public: 4-stage reference
+  cad_use: preliminary_packaging_and_design_in
+  cad_limitations:
+    - not_a_detailed_internal_transmission_model
+    - not_dimensionally_interchangeable_with_other_stage_counts
+    - final_configuration_cad_requires_engineering_review
+  application_positioning:
+    statement: potential_oem_applications_only
+    no_customer_case_claim: true
+
+url_base: https://siggeardrive.github.io/SigGear-product-docs/
+
+records:
+  - source_record: data/products/8p-planetary-gearbox.yml
+    catalog_reference: 8P
+    market_size_class: micro
+    external_name: SigGear 8P 8 mm Micro Planetary Gearbox
+  - source_record: data/products/10p-planetary-gearbox.yml
+    catalog_reference: 10P
+    market_size_class: micro
+    external_name: SigGear 10P 10 mm Micro Planetary Gearbox
+  - source_record: data/products/12p-planetary-gearbox.yml
+    catalog_reference: 12P
+    market_size_class: micro
+    external_name: SigGear 12P 12 mm Micro Planetary Gearbox
+  - source_record: data/products/14p-planetary-gearbox.yml
+    catalog_reference: 14P
+    market_size_class: micro
+    external_name: SigGear 14P 14 mm Micro Planetary Gearbox
+  - source_record: data/products/16p-planetary-gearbox.yml
+    catalog_reference: 16P
+    market_size_class: micro
+    external_name: SigGear 16P 16 mm Micro Planetary Gearbox
+  - source_record: data/products/20p-planetary-gearbox.yml
+    catalog_reference: 20P
+    market_size_class: miniature
+    external_name: SigGear 20P 20 mm Miniature Planetary Gearbox
+  - source_record: data/products/22p-planetary-gearbox.yml
+    catalog_reference: 22P
+    market_size_class: miniature
+    external_name: SigGear 22P 22 mm Miniature Planetary Gearbox
+  - source_record: data/products/24p-planetary-gearbox.yml
+    catalog_reference: 24P
+    market_size_class: miniature
+    external_name: SigGear 24P 24 mm Miniature Planetary Gearbox
+  - source_record: data/products/28p-planetary-gearbox.yml
+    catalog_reference: 28P
+    market_size_class: miniature
+    external_name: SigGear 28P 28 mm Miniature Planetary Gearbox
+  - source_record: data/products/32p-planetary-gearbox.yml
+    catalog_reference: 32P
+    market_size_class: miniature
+    external_name: SigGear 32P 32 mm Miniature Planetary Gearbox
+  - source_record: data/products/36p-planetary-gearbox.yml
+    catalog_reference: 36P
+    market_size_class: compact
+    external_name: SigGear 36P 36 mm Compact Planetary Gearbox
+  - source_record: data/products/42p-planetary-gearbox.yml
+    catalog_reference: 42P
+    market_size_class: compact
+    external_name: SigGear 42P 42 mm Compact Planetary Gearbox
