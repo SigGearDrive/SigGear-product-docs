@@ -88,9 +88,31 @@ def check_sitemap() -> None:
     if invalid_lastmod:
         fail("Sitemap contains invalid lastmod values: " + ", ".join(invalid_lastmod[:5]))
 
-    index = (SITE_DIR / "sitemap-index.xml").read_text(encoding="utf-8")
-    if "sitemap.xml" not in index or EXPECTED_BASE not in index:
+    index_root = ElementTree.parse(SITE_DIR / "sitemap-index.xml").getroot()
+    entries = index_root.findall("sm:sitemap", ns)
+    target = next(
+        (
+            entry for entry in entries
+            if entry.findtext("sm:loc", default="", namespaces=ns)
+            == EXPECTED_BASE + "sitemap.xml"
+        ),
+        None,
+    )
+    if target is None:
         fail("Sitemap index does not reference the project sitemap")
+    recorded_date = target.findtext("sm:lastmod", default="", namespaces=ns)
+    actual_date = max(
+        (
+            node.findtext("sm:lastmod", default="", namespaces=ns) or ""
+            for node in url_nodes
+        ),
+        default="",
+    )
+    if recorded_date != actual_date:
+        fail(
+            f"Sitemap-index lastmod is stale: {recorded_date}, "
+            f"expected {actual_date}"
+        )
 
 
 

@@ -336,3 +336,32 @@ def on_post_build(config, **kwargs) -> None:
             url_node.remove(lastmod)
 
     tree.write(sitemap, encoding="utf-8", xml_declaration=True)
+
+    # Keep the sitemap index's lastmod in sync with the generated XML sitemap.
+    # Its source file intentionally has no hard-coded date.
+    index_path = site_dir / "sitemap-index.xml"
+    if index_path.is_file():
+        newest = max(
+            (
+                url_node.findtext("sm:lastmod", default="", namespaces=ns) or ""
+                for url_node in root.findall("sm:url", ns)
+            ),
+            default="",
+        )
+        index_tree = ElementTree.parse(index_path)
+        index_root = index_tree.getroot()
+        for entry in index_root.findall("sm:sitemap", ns):
+            loc = entry.findtext("sm:loc", default="", namespaces=ns)
+            if loc != site_url + "sitemap.xml":
+                continue
+            date_node = entry.find("sm:lastmod", ns)
+            if newest:
+                if date_node is None:
+                    date_node = ElementTree.SubElement(
+                        entry,
+                        "{http://www.sitemaps.org/schemas/sitemap/0.9}lastmod",
+                    )
+                date_node.text = newest
+            elif date_node is not None:
+                entry.remove(date_node)
+        index_tree.write(index_path, encoding="utf-8", xml_declaration=True)
