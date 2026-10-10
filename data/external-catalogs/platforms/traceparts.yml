@@ -1,0 +1,42 @@
+schema_version: 1
+platform: TraceParts
+publishing_method: Smart-Publishing
+catalog_source: data/external-catalogs/planetary-gearboxes.yml
+
+official_template_status:
+  template_received: false
+  classification_category_id_received: false
+  final_xls_ready: false
+
+required_company_asset:
+  logo:
+    required: true
+    requirement: white background, minimum height 40 px
+    repository_status: missing
+    action: provide official SigGear logo before final TraceParts submission
+
+product_picture_policy:
+  required_for_first_mapping: false
+  current_action: leave_blank
+  note: TraceParts can generate a product picture from the supplied CAD when no picture is provided.
+
+traceparts_field_policy:
+  product_id_prefix: SIGGEAR_
+  part_number_policy: use_existing_series_reference
+  part_number_note: final orderable configuration remains stage_ratio_interface dependent
+  classification_category_id: supplied_at_export_time
+  default_language: en
+
+documents:
+  include_product_page: true
+  include_datasheet_url: true
+  include_mechanical_interface_url: true
+
+keywords:
+  - planetary gearbox
+  - planetary gearhead
+  - miniature gearbox
+  - compact gearbox
+  - gear reducer
+  - OEM gearbox
+  - STEP CAD
