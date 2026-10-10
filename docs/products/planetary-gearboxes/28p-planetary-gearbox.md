@@ -3,11 +3,11 @@ title: 28P 28 mm Miniature Planetary Gearbox & Gearhead | SigGear
 description: SigGear 28P 28 mm miniature planetary gearbox and gearhead with published 3.83:1–759.7:1 ratios, model datasheet and 4-stage STEP CAD. Gearbox-only supply or motor matching.
 ---
 
-# 28P 28 mm Micro Planetary Gearbox
+# 28P 28 mm Miniature Planetary Gearbox
 
 ## Product Overview
 
-The SigGear 28P is a 28 mm micro planetary gearbox for compact motorized mechanisms that require higher torque capacity than smaller miniature planetary frames. Published configurations cover one to four stages, with reduction ratios from 3.83:1 to 759.7:1.
+The SigGear 28P is a 28 mm miniature planetary gearbox for compact motorized mechanisms that require higher torque capacity than smaller miniature planetary frames. Published configurations cover one to four stages, with reduction ratios from 3.83:1 to 759.7:1.
 
 ## Product Identity
 
