@@ -1,6 +1,6 @@
 ---
-title: 8P 8 mm Micro Planetary Gearbox | 3.8:1–731.16:1 | SigGear
-description: SigGear 8P is an 8 mm micro planetary gearbox with 1–4 stages, reduction ratios from 3.8:1 to 731.16:1 and continuous input speed up to 8,000 rpm.
+title: 8P 8 mm Micro Planetary Gearbox & Gearhead | SigGear
+description: SigGear 8P 8 mm micro planetary gearbox and gearhead with published 3.8:1–731.16:1 ratios, model datasheet and 4-stage STEP CAD. Gearbox-only supply or motor matching.
 ---
 
 # 8P 8 mm Micro Planetary Gearbox
