@@ -75,6 +75,15 @@ Each model now has a public Datasheet, Mechanical Interface reference and simpli
 - Inspection equipment
 - Servo and automation modules
 
+## Featured OEM Application Guides
+
+These guides connect real application requirements to the 8–42 mm planetary gearbox range for preliminary OEM selection. They describe **potential engineering applications** and do not claim confirmed SigGear customer production cases.
+
+[Electric Pruning Shears](../../applications/electric-pruning-shears-planetary-gearbox.md){ .md-button .md-button--primary }
+[Electric Curtain / Blind / Window Opener](../../applications/electric-curtain-blind-window-opener-gear-motors.md){ .md-button }
+[Smart Toilet & Bidet](../../applications/smart-toilet-bidet-planetary-gear-motors.md){ .md-button }
+[Dexterous Hand / Robot Gripper](../../applications/robot-gripper-gear-motors.md){ .md-button }
+
 ## Motor Integration
 
 Depending on the selected gearbox and project requirements, SigGear can evaluate integration with:
