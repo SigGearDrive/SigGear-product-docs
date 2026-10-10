@@ -2,7 +2,7 @@ schema_version: 1
 record_id: 28p-planetary-gearbox
 record_type: model
 model: 28P
-display_name: 28P 28 mm Micro Planetary Gearbox
+display_name: 28P 28 mm Miniature Planetary Gearbox
 product_family: planetary_gearbox
 canonical_page: docs/products/planetary-gearboxes/28p-planetary-gearbox.md
 public_page_status: published
