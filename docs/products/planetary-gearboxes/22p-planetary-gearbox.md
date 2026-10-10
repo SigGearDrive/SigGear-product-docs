@@ -3,13 +3,13 @@ title: 22P 22 mm Miniature Planetary Gearbox & Gearhead | SigGear
 description: SigGear 22P 22 mm miniature planetary gearbox and gearhead with published 3.5:1–509.1:1 ratios, model datasheet and 4-stage STEP CAD. Gearbox-only supply or motor matching.
 ---
 
-# 22P 22 mm Micro Planetary Gearbox
+# 22P 22 mm Miniature Planetary Gearbox
 
 ## Product Overview
 
-The SigGear 22P is a 22 mm micro planetary gearbox for compact motorized mechanisms. The published configurations cover one to four stages, with reduction ratios from 3.5:1 to 509.1:1.
+The SigGear 22P is a 22 mm miniature planetary gearbox for compact motorized mechanisms. The published configurations cover one to four stages, with reduction ratios from 3.5:1 to 509.1:1.
 
-![SigGear 22P 22 mm micro planetary gearbox](../../assets/images/products/planetary-gearboxes/22p/22p-planetary-gearbox-main.webp)
+![SigGear 22P 22 mm miniature planetary gearbox](../../assets/images/products/planetary-gearboxes/22p/22p-planetary-gearbox-main.webp)
 
 ## Engineering Selection and CAD Access
 
