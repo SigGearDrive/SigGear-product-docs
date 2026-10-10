@@ -7,6 +7,8 @@ description: Compare 12 SigGear 8–42 mm miniature and compact planetary gearbo
 
 ## Product Overview
 
+The existing catalog series identifier is **8–42 mm Planetary Gear Reducer Series**. This is the same 8P–42P range described here as miniature and compact planetary gearboxes.
+
 SigGear supplies miniature and compact planetary gearboxes (planetary gearheads) with nominal outer diameters from **8 mm to 42 mm**, intended for space-constrained OEM mechanisms and precision motion applications. Customers may source **gearbox-only units** or request an engineering review for a **matched motor + gearbox assembly**.
 
 The 12 published frame sizes support preliminary Design-In with model-specific datasheets, mechanical-interface references and simplified public **4-stage STEP CAD**. Final ratio, torque, speed, dimensions, motor compatibility and configuration-specific drawings depend on the selected model and engineering review.
