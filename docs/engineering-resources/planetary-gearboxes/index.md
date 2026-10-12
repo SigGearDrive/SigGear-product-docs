@@ -11,6 +11,8 @@ Performance data is consolidated from the current canonical product pages. Mecha
 
 The detailed full-assembly STEP files remain configuration-controlled because they contain internal planetary transmission geometry. Simplified public 4-stage STEP files are now released for all standard 8P-42P frame sizes.
 
+**External CAD platform:** [Browse SigGear planetary gearboxes on TraceParts (Chinese-language public catalog)](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR). All 12 model families are listed; a 42P CAD download was successfully tested. Additional model downloads and the English-language catalog are pending independent verification. The public CAD is a simplified **4-stage reference**, not final production CAD for every stage or ratio.
+
 | Model | Diameter | Datasheet | Mechanical interface | CAD status |
 | --- | ---: | --- | --- | --- |
 | 8P | 8 mm | [Datasheet](../8p/datasheet.md) | [Mechanical Interface](../8p/mechanical-interface.md) | [Simplified public 4-stage STEP](../../assets/downloads/8p/8P_Public_Simplified_STEP_v1.0_4-Stage.step) |
