@@ -11,6 +11,12 @@ The SigGear 22P is a 22 mm micro planetary gearbox for compact motorized mechani
 
 ![SigGear 22P 22 mm micro planetary gearbox](../../assets/images/products/planetary-gearboxes/22p/22p-planetary-gearbox-main.webp)
 
+## Real Product Evidence
+
+![Real SigGear 22P 22 mm miniature planetary gearbox with diameter check](../../assets/images/products/planetary-gearboxes/22p/22p-real-product-evidence.webp)
+
+*Real 22P frame-size product photographed from multiple angles. The caliper photo is a visual diameter reference for the photographed sample and does not replace the controlled dimensional drawing or released tolerances for a confirmed configuration.*
+
 ## Engineering Selection and CAD Access
 
 The **22 mm miniature planetary gearbox / planetary gearhead** range provides a separate frame-size option from the [20P 20 mm gearbox](20p-planetary-gearbox.md). Published 22P ratios span **3.5:1–509.1:1**, with stage-dependent gearbox body lengths of **22.6–38.5 mm**. Compare installation envelope, stage-specific allowable torque and mechanical interface before choosing between the 20 mm and 22 mm frames.
