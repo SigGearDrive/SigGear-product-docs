@@ -286,6 +286,18 @@
     try {
       var destination = new URL(href, window.location.href);
       var hostname = destination.hostname.replace(/^www\./, "");
+      // Track outbound engineering-CAD discovery; do not treat it as a
+      // confirmed CAD download or completed inquiry.
+      if (hostname === "traceparts.cn" || hostname.endsWith(".traceparts.cn") ||
+          hostname === "traceparts.com" || hostname.endsWith(".traceparts.com")) {
+        sendEvent("traceparts_catalog_click", {
+          page_path: pagePath(),
+          destination_url: destination.href,
+          traceparts_portal: hostname.endsWith(".cn") ? "cn" : "international",
+          link_text: label
+        });
+        return;
+      }
       var socialPlatform = "";
 
       if (hostname === "youtube.com" || hostname === "youtu.be") {
