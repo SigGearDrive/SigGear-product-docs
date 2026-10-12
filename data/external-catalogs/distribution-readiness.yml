@@ -1,7 +1,7 @@
 schema_version: 1
 program: SigGear External Engineering & Product Discovery Distribution
 product_scope: 8P-42P miniature_and_compact_planetary_gearboxes
-updated_on: "2026-10-11"
+updated_on: "2026-10-12"
 
 shared_source:
   product_master_data: data/products/
@@ -23,8 +23,8 @@ platforms:
       - product_page_urls
       - datasheet_urls
       - mechanical_interface_urls
-    pending_siggear:
       - official_logo_white_background_minimum_40px_height
+    pending_siggear: []
     pending_platform:
       - official_smart_publishing_xls_template
       - valid_classification_category_id
@@ -44,8 +44,8 @@ platforms:
       - mechanical_interface_resources
       - configuration_logic_brief
       - onboarding_matrix
-    pending_siggear:
       - official_logo
+    pending_siggear:
       - expanded_real_product_photos
       - confirmed_public_ordering_part_number_logic_if_parametric_catalog_is_selected
     pending_platform:
@@ -65,10 +65,10 @@ platforms:
       - engineering_documents
       - public_cad_links
       - official_sales_contact
+      - official_logo
     pending_siggear:
       - expanded_real_product_photos
       - final_product_listing_priority
-      - official_logo
     pending_platform:
       - exhibitor_account
       - subscription_quote
@@ -85,9 +85,9 @@ platforms:
       - product_urls
       - engineering_documents
       - official_sales_contact
+      - official_logo
     pending_siggear:
       - expanded_real_product_photos
-      - official_logo
       - final_listing_priority
     pending_platform:
       - product_discovery_sales_review
