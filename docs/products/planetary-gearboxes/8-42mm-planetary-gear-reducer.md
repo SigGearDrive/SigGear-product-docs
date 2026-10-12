@@ -20,6 +20,10 @@ The 12 published frame sizes support preliminary Design-In with model-specific d
 
 ## Real Product & Size Reference
 
+![Real SigGear 8P-42P miniature and compact planetary gearbox family lineup](../../assets/images/evidence/planetary/8-42mm-planetary-gearbox-family-real.webp)
+
+*Real SigGear planetary gearbox family photographed together as a size-range reference. The image is intended to demonstrate physical product coverage across miniature and compact frame sizes; use the model pages and controlled drawings for exact model identification, dimensions and configuration details.*
+
 ![Real compact motor and gearbox assemblies beside a steel ruler](../../assets/images/evidence/planetary/compact-gearmotor-size-reference.webp)
 
 *Real compact motor + gearbox assemblies shown beside a ruler for scale. This photo demonstrates physical product and integration work only; exact gearbox model, ratio, stage count and motor interface must be confirmed separately.*
