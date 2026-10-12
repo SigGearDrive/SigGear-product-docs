@@ -11,6 +11,12 @@ The SigGear 12P is a 12 mm micro planetary gearbox for compact motorized mechani
 
 ![SigGear 12P 12 mm micro planetary gearbox](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearbox-main.webp)
 
+## Real Product Evidence
+
+![Real SigGear 12P 12 mm micro planetary gearbox with diameter check](../../assets/images/products/planetary-gearboxes/12p/12p-real-product-evidence.webp)
+
+*Real 12P frame-size product photographed from multiple angles. The caliper photo is a visual diameter reference for the photographed sample and does not replace the controlled dimensional drawing or released tolerances for a confirmed configuration.*
+
 ## Product Identity
 
 | Item | Description |
