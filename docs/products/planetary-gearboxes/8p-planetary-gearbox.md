@@ -11,6 +11,12 @@ The SigGear 8P is an 8 mm micro planetary gearbox for compact motorized mechanis
 
 ![SigGear 8P 8 mm micro planetary gearbox](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-main.webp)
 
+## Real Product Evidence
+
+![Real SigGear 8P 8 mm micro planetary gearbox with diameter check](../../assets/images/products/planetary-gearboxes/8p/8p-real-product-evidence.webp)
+
+*Real 8P frame-size product photographed from multiple angles. The caliper photo is a visual diameter reference for the photographed sample and does not replace the controlled dimensional drawing or released tolerances for a confirmed configuration.*
+
 ## Product Identity
 
 | Item | Description |
