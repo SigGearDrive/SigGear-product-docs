@@ -23,6 +23,7 @@ Use the public resources below for preliminary engineering evaluation. Robot act
 | Download released CAD / STEP and interface data | [Public Engineering Packs](#public-engineering-packs) |
 | Prepare and run a sample evaluation | [Sample Validation Workflow](sample-validation-workflow.md) |
 | Prepare for a design freeze | [Design-In Checklist](design-in-checklist.md) |
+| Verify real manufacturing and inspection evidence | [Manufacturing & Quality Evidence](../company/manufacturing-and-quality-evidence.md) |
 | Request configuration-specific files or a sample | [Request CAD, Sample and Quote](../request-cad-sample-quote.md) |
 
 ## Public Engineering Packs
