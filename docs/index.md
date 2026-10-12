@@ -26,6 +26,8 @@ The 12 published planetary frame sizes have model-specific Datasheets, Mechanica
 
 *Real compact geared motor assemblies photographed with dimensional inspection tools at SigGear. This image is used as product and integration evidence; it is not an identification image for a specific 8P–42P model.*
 
+[See SigGear Manufacturing & Quality Evidence](company/manufacturing-and-quality-evidence.md){ .md-button }
+
 ## Start With Your Gearbox Requirement
 
 **Already have a motor?** Send its drawing or shaft and mounting details so we can review gearbox compatibility.

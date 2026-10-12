@@ -22,6 +22,10 @@ SigGear provides OEM and ODM customization services, including mechanical custom
 
 The company operates its own production lines covering precision machining, assembly and testing processes.
 
+A separate evidence page publishes reviewed real photographs from SigGear's machining, gear-processing, assembly and quality-inspection environment. These images are used as manufacturing evidence without turning them into unsupported product-performance claims.
+
+[View Manufacturing & Quality Evidence](manufacturing-and-quality-evidence.md){ .md-button .md-button--primary }
+
 ## Engineering and Project Support
 
 For applicable projects, SigGear can start from a customer's concept, drawing, existing motor or installation constraints and review the transmission approach with the engineering team.

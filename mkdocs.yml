@@ -68,7 +68,7 @@ plugins:
         'Developers/can-protocol-robot-joint-control.md': 'knowledge-base/index.md'
         'site-map.md': 'index.md'
         'custom-robotic-joint-actuator-oem-gearbox-solutions.md': 'custom-engineering/robot-joint-actuator-development.md'
-        'factory-capability-quality-oem-odm.md': 'company/about-siggear.md'
+        'factory-capability-quality-oem-odm.md': 'company/manufacturing-and-quality-evidence.md'
 
 hooks:
   - hooks/seo_metadata.py
@@ -155,6 +155,7 @@ nav:
           - Overview: products/flat-bldc-motors/index.md
   - Company:
       - About SigGear: company/about-siggear.md
+      - Manufacturing & Quality Evidence: company/manufacturing-and-quality-evidence.md
       - Certifications: company/certifications.md
   - Custom Engineering:
       - Overview: custom-engineering/index.md
