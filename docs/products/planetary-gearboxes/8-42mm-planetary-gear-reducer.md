@@ -28,6 +28,8 @@ The 12 published frame sizes support preliminary Design-In with model-specific d
 
 *Real compact motor + gearbox assemblies shown beside a ruler for scale. This photo demonstrates physical product and integration work only; exact gearbox model, ratio, stage count and motor interface must be confirmed separately.*
 
+[See SigGear Manufacturing & Quality Evidence](../../company/manufacturing-and-quality-evidence.md){ .md-button }
+
 ## Quick Selection Matrix
 
 Use this table for **preliminary frame-size selection**. Values are the currently published ranges for each standard series. Final selection still depends on the exact stage count, reduction ratio, motor, duty cycle and mechanical interface.
