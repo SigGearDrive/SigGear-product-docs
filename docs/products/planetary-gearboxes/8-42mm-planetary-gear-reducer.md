@@ -18,6 +18,12 @@ The 12 published frame sizes support preliminary Design-In with model-specific d
 [Motor + Gearbox Review](mailto:wangwanrong@siggear.com?subject=Motor%20%2B%20Gearbox%20Engineering%20Review&body=Application%20%2F%20what%20needs%20to%20move%3A%20%0ARequired%20output%20speed%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0AMaximum%20diameter%20and%20total%20length%3A%20%0AOperating%20voltage%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button }
 [Motor + Gearbox Integration Guide](../../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
+## Real Product & Size Reference
+
+![Real compact motor and gearbox assemblies beside a steel ruler](../../assets/images/evidence/planetary/compact-gearmotor-size-reference.webp)
+
+*Real compact motor + gearbox assemblies shown beside a ruler for scale. This photo demonstrates physical product and integration work only; exact gearbox model, ratio, stage count and motor interface must be confirmed separately.*
+
 ## Quick Selection Matrix
 
 Use this table for **preliminary frame-size selection**. Values are the currently published ranges for each standard series. Final selection still depends on the exact stage count, reduction ratio, motor, duty cycle and mechanical interface.
