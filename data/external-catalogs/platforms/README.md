@@ -16,8 +16,8 @@ Still required from TraceParts / the Smart-Publishing account:
 - official XLS template
 - valid `Classification_Category_ID`
 
-Still required from SigGear before final submission:
-- official SigGear logo on a white background, minimum height 40 px
+Ready from SigGear:
+- official SigGear logo on a white background: `docs/assets/brand/siggear-logo-white.webp`
 
 ## Important ordering boundary
 

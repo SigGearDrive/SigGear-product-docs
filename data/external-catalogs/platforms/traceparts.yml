@@ -12,8 +12,9 @@ required_company_asset:
   logo:
     required: true
     requirement: white background, minimum height 40 px
-    repository_status: missing
-    action: provide official SigGear logo before final TraceParts submission
+    repository_status: ready
+    repository_path: docs/assets/brand/siggear-logo-white.webp
+    action: use the approved white-background SigGear logo in the final TraceParts submission
 
 product_picture_policy:
   required_for_first_mapping: false

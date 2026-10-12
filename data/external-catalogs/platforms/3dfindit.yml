@@ -65,8 +65,8 @@ assets_ready:
   datasheets: true
   mechanical_interface_pages: true
   simplified_step_12_series: true
+  official_logo: docs/assets/brand/siggear-logo-white.webp
 
 assets_pending:
-  official_logo: true
   expanded_real_product_photos: true
   final_public_part_number_logic: engineering_and_commercial_confirmation_required
