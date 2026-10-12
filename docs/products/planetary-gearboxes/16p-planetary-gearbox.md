@@ -11,6 +11,12 @@ The SigGear 16P is a 16 mm micro planetary gearbox for compact motorized mechani
 
 ![SigGear 16P 16 mm micro planetary gearbox](../../assets/images/products/planetary-gearboxes/16p/16p-planetary-gearbox-main.webp)
 
+## Real Product Evidence
+
+![Real SigGear 16P 16 mm micro planetary gearbox with diameter check](../../assets/images/products/planetary-gearboxes/16p/16p-real-product-evidence.webp)
+
+*Real 16P frame-size product photographed from multiple angles. The caliper photo is a visual diameter reference for the photographed sample and does not replace the controlled dimensional drawing or released tolerances for a confirmed configuration.*
+
 ## Engineering Selection and CAD Access
 
 The 16P is a **16 mm micro planetary gearbox / planetary gearhead**. Its published **17.55–30.45 mm** gearbox body-length range and **3.85:1–459.5:1** ratio range cover different stage configurations, not one interchangeable housing. Before placing a model into a tightly packaged OEM design, confirm the selected stage count, output shaft and motor-side interface against the corresponding drawing.
