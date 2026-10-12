@@ -9,6 +9,12 @@ description: SigGear 42P 42 mm compact planetary gearbox and gearhead with publi
 
 The SigGear 42P is a 42 mm micro planetary gearbox for compact motorized mechanisms requiring higher torque capacity in the 8–42 mm planetary gearbox series. Published configurations cover one to four stages, with reduction ratios from 3.8:1 to 660.7:1.
 
+## Real Product Evidence
+
+![Real SigGear 42P 42 mm compact planetary gearbox with diameter check](../../assets/images/products/planetary-gearboxes/42p/42p-real-product-evidence.webp)
+
+*Real 42P frame-size product photographed from multiple angles. The caliper photo is a visual diameter reference for the photographed sample and does not replace the controlled dimensional drawing or released tolerances for a confirmed configuration.*
+
 ## Engineering Selection and CAD Access
 
 The **42 mm compact planetary gearbox / planetary gearhead** is at the larger end of SigGear's 8–42 mm miniature/compact range. Published gearbox body length varies from **35.6 to 69.5 mm** by stage, and published ratios span **3.8:1–660.7:1**. For an OEM mechanism, check the exact stage torque, shaft loading, output interface and motor matching against the [42P Design-In Pack](../../engineering-resources/42p/design-in-pack.md) before finalizing the design.
