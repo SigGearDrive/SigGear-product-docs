@@ -9,6 +9,12 @@ description: SigGear 36P 36 mm compact planetary gearbox and gearhead with publi
 
 The SigGear 36P is a 36 mm micro planetary gearbox for compact motorized mechanisms requiring higher torque capacity while retaining a compact cylindrical planetary gearbox format. Published configurations cover one to four stages, with reduction ratios from 3.66:1 to 625:1.
 
+## Real Product Evidence
+
+![Real SigGear 36P 36 mm compact planetary gearbox with diameter check](../../assets/images/products/planetary-gearboxes/36p/36p-real-product-evidence.webp)
+
+*Real 36P frame-size product photographed from multiple angles. The caliper photo is a visual diameter reference for the photographed sample and does not replace the controlled dimensional drawing or released tolerances for a confirmed configuration.*
+
 ## Product Identity
 
 | Item | Description |
