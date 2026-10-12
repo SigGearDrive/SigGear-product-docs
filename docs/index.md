@@ -16,7 +16,11 @@ The 12 published planetary frame sizes have model-specific Datasheets, Mechanica
 [Gearbox-Only & Motor Matching](custom-engineering/motor-gearbox-integration.md){ .md-button }
 [Request Engineering Review](request-cad-sample-quote.md){ .md-button .md-button--primary }
 
-## Real Compact Drive Example
+## Real Product Evidence
+
+![Real SigGear 8P-42P miniature and compact planetary gearbox family lineup](assets/images/evidence/planetary/8-42mm-planetary-gearbox-family-real.webp)
+
+*Real SigGear 8P–42P planetary gearbox family photographed together as a physical size-range reference. Use the individual model pages and controlled drawings for exact model identification, dimensions and configuration details.*
 
 ![Real compact geared motor assemblies being checked with a dial caliper at SigGear](assets/images/evidence/planetary/compact-gearmotor-measurement-caliper.webp)
 
