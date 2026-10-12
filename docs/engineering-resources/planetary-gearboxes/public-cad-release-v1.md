@@ -9,6 +9,12 @@ SigGear's standard **8P-42P planetary gearbox series** now has simplified public
 
 Each released file represents the **4-stage reference configuration** for its frame size. The public CAD is intended to help engineers review installation space, external envelope, mounting interfaces and output-side packaging without exposing the internal planetary transmission construction.
 
+## External CAD Discovery on TraceParts
+
+The [SigGear public product catalog on TraceParts (Chinese-language portal)](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR) displays the **8P–42P** model range. The public 42P detail page has been opened, its 3D preview displayed, and its CAD download completed successfully. Other models' download workflows and the international English-language catalog have not yet been verified individually.
+
+For accurate preliminary packaging, confirm that any downloaded CAD corresponds to the required frame size and **4-stage reference configuration**. Public simplified CAD is not a substitute for a controlled drawing or configuration-matched STEP model for a different reduction stage or final production release.
+
 ## Download Public Simplified STEP
 
 | Model | Nominal diameter | Public CAD |
