@@ -24,6 +24,12 @@ Depending on the selected product family and project requirements, the supply sc
 [Motor + Gearbox — Select the Complete Drive](mailto:wangwanrong@siggear.com?subject=Motor%20%2B%20Gearbox%20Engineering%20Review&body=Application%20%2F%20what%20needs%20to%20move%3A%20%0ARequired%20output%20speed%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0AMaximum%20diameter%20and%20total%20length%3A%20%0AOperating%20voltage%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button .md-button--primary }
 [Full Engineering Review Guide](../request-cad-sample-quote.md){ .md-button }
 
+## Real Compact Motor + Gearbox Reference
+
+![Real micro geared motor assemblies beside a ruler for scale](../assets/images/evidence/planetary/micro-gearmotor-size-reference.webp)
+
+*Real compact geared motor assemblies photographed at SigGear with a ruler for scale. Exact motor, gearbox, output shaft and wiring configurations vary by project.*
+
 ## Path A — I Already Have a Motor
 
 If the motor is already fixed, the first task is to determine whether the gearbox can be matched mechanically and whether the motor operating point is suitable for the required output.
