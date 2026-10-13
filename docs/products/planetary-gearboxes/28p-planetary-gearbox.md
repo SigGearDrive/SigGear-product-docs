@@ -21,7 +21,7 @@ The SigGear 28P is a 28 mm miniature planetary gearbox for compact motorized mec
 | Item | Description |
 | --- | --- |
 | Model | 28P |
-| Product type | Micro planetary gearbox |
+| Product type | Miniature planetary gearbox |
 | Nominal outer diameter | 28 mm |
 | Number of stages | 1 to 4 |
 | Manufacturing process | Machining |
