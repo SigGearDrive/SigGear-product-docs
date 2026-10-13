@@ -44,6 +44,12 @@ The public STEP files are simplified external-interface references. They intenti
 
 The released file for each model represents the **4-stage reference only**. Do not use it as a universal 1-, 2-, 3- and 4-stage model because gearbox body length changes with stage count.
 
+If the Selection Tool returns a **1-, 2- or 3-stage** candidate, the public 4-stage STEP has a different gearbox body length and must not be treated as that candidate's exact axial envelope. Use the candidate's published stage length from the Datasheet / Mechanical Interface, then request stage-matched controlled CAD before final placement.
+
+For a **4-stage** candidate, the public STEP matches the published stage count and supports preliminary external packaging review, but it is still a simplified public reference rather than ratio-specific production CAD.
+
+[Open Candidate Design-In Pack](candidate-design-in-pack.md){ .md-button }
+
 For final tooling, production release or a different stage configuration, request the controlled configuration-matched drawing / CAD.
 
 ## Design-In Workflow

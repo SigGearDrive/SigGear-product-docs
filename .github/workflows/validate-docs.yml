@@ -17,6 +17,7 @@ on:
       - "scripts/export_3dfindit_onboarding.py"
       - "scripts/validate_utm_links.py"
       - "scripts/validate_ratio_stage_selector_data.py"
+      - "scripts/validate_stage_specific_cad_boundary.py"
       - "scripts/utm_utils.py"
       - "hooks/**"
       - ".github/workflows/validate-docs.yml"
@@ -85,6 +86,9 @@ jobs:
       - name: Validate planetary ratio-stage selector data
         run: python scripts/validate_ratio_stage_selector_data.py
 
+      - name: Validate stage-specific planetary CAD boundary
+        run: python scripts/validate_stage_specific_cad_boundary.py
+
       - name: Validate ratio-stage selector JavaScript syntax
         run: node --check docs/assets/javascripts/ratio-stage-selector.js
 
@@ -93,6 +97,9 @@ jobs:
 
       - name: Validate analytics-events JavaScript syntax
         run: node --check docs/assets/javascripts/analytics-events.js
+
+      - name: Validate candidate Design-In Pack JavaScript syntax
+        run: node --check docs/assets/javascripts/candidate-design-in-pack.js
 
       - name: Test external catalog export
         run: python scripts/export_external_catalog.py --output /tmp/siggear-planetary-gearboxes.csv

@@ -76,11 +76,13 @@ hooks:
 extra_css:
   - assets/stylesheets/inquiry-form.css
   - assets/stylesheets/ratio-stage-selector.css
+  - assets/stylesheets/candidate-design-in-pack.css
 
 extra_javascript:
   - assets/javascripts/analytics-events.js
   - assets/javascripts/inquiry-form.js
   - assets/javascripts/ratio-stage-selector.js
+  - assets/javascripts/candidate-design-in-pack.js
   - assets/javascripts/organization-schema.js
 
 markdown_extensions:
@@ -247,6 +249,7 @@ nav:
       - Planetary Gearboxes 8P-42P:
           - Resource Library: engineering-resources/planetary-gearboxes/index.md
           - Public CAD Release v1.0: engineering-resources/planetary-gearboxes/public-cad-release-v1.md
+          - Candidate Design-In Pack: engineering-resources/planetary-gearboxes/candidate-design-in-pack.md
           - 8P:
               - Technical Datasheet: engineering-resources/8p/datasheet.md
               - Mechanical Interface: engineering-resources/8p/mechanical-interface.md
