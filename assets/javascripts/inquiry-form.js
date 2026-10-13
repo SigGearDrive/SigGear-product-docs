@@ -24,6 +24,10 @@
   var selectorCandidateSummary = document.getElementById("sg-selector-candidate-summary");
   var selectorCandidateStage = document.getElementById("sg-selector-candidate-stage");
   var selectorCandidateRatio = document.getElementById("sg-selector-candidate-ratio");
+  var cadReadinessBox = document.getElementById("sg-cad-readiness");
+  var cadReadinessStatus = document.getElementById("sg-cad-readiness-status");
+  var cadReadinessGates = document.getElementById("sg-cad-readiness-gates");
+  var nextStep = document.getElementById("sg-next-step");
   var selectorCandidate = null;
 
   function value(id) {
@@ -54,6 +58,74 @@
     if (selectorCandidateSummary) selectorCandidateSummary.textContent = "";
     if (selectorCandidateStage) selectorCandidateStage.value = "";
     if (selectorCandidateRatio) selectorCandidateRatio.value = "";
+  }
+
+  function cadReadiness() {
+    var selectedPath = value("sg-path") || "not_sure";
+    var candidate = activeSelectorCandidate();
+
+    var gates = {
+      candidate: !!candidate,
+      motor_interface: selectedPath === "gearbox_only" ?
+        !!(value("sg-motor-model") && value("sg-motor-shaft") && value("sg-motor-mount")) :
+        false,
+      output_interface: !!value("sg-output-interface"),
+      load_duty: !!(value("sg-load") && value("sg-duty-cycle")),
+      envelope: !!value("sg-size")
+    };
+
+    var relevant = !!candidate || value("sg-next-step") === "CAD / STEP review";
+    var ready = relevant &&
+      gates.candidate &&
+      gates.motor_interface &&
+      gates.output_interface &&
+      gates.load_duty &&
+      gates.envelope;
+
+    return {
+      relevant: relevant,
+      ready: ready,
+      status: relevant ? (ready ? "ready_for_cad_review" : "need_more_information") : "not_applicable",
+      gates: gates,
+      selected_path: selectedPath
+    };
+  }
+
+  function readinessGateLabel(key, state) {
+    var labels = {
+      candidate: "Candidate configuration",
+      motor_interface: "Motor / drive-side interface",
+      output_interface: "Output interface",
+      load_duty: "Load / duty",
+      envelope: "Installation envelope"
+    };
+    return (state ? "✓ " : "○ ") + labels[key] + (state ? " — provided" : " — more information needed");
+  }
+
+  function updateCadReadiness() {
+    if (!cadReadinessBox || !cadReadinessStatus || !cadReadinessGates) return;
+
+    var readiness = cadReadiness();
+    cadReadinessBox.hidden = !readiness.relevant;
+    if (!readiness.relevant) return;
+
+    cadReadinessStatus.textContent = readiness.ready ?
+      "Ready for CAD Review — enough information is present for SigGear engineering to begin a configuration-specific CAD review." :
+      "Need More Information — complete the missing gates below before treating the request as CAD-review ready.";
+
+    if (readiness.selected_path === "motor_gearbox" && !readiness.gates.motor_interface) {
+      cadReadinessStatus.textContent += " For a complete motor + gearbox project, the drive-side interface remains open until SigGear confirms the motor / adapter configuration.";
+    }
+
+    cadReadinessGates.innerHTML = [
+      readinessGateLabel("candidate", readiness.gates.candidate),
+      readinessGateLabel("motor_interface", readiness.gates.motor_interface),
+      readinessGateLabel("output_interface", readiness.gates.output_interface),
+      readinessGateLabel("load_duty", readiness.gates.load_duty),
+      readinessGateLabel("envelope", readiness.gates.envelope)
+    ].map(function (item) {
+      return "<li>" + item + "</li>";
+    }).join("");
   }
 
   function originGroup() {
@@ -94,11 +166,18 @@
     var band = coverage >= 5 ? "5_plus" : (coverage >= 3 ? "3_4" : "0_2");
 
     var candidate = activeSelectorCandidate();
+    var readiness = cadReadiness();
 
     return {
       inquiry_origin: originGroup(),
       selector_handoff: candidate ? 1 : 0,
       selector_candidate_stage: candidate ? String(candidate.stage) : "none",
+      cad_readiness_status: readiness.status,
+      cad_gate_candidate: readiness.gates.candidate ? 1 : 0,
+      cad_gate_motor_interface: readiness.gates.motor_interface ? 1 : 0,
+      cad_gate_output_interface: readiness.gates.output_interface ? 1 : 0,
+      cad_gate_load_duty: readiness.gates.load_duty ? 1 : 0,
+      cad_gate_envelope: readiness.gates.envelope ? 1 : 0,
       project_stage: value("sg-project-stage") || "not_specified",
       requested_next_step: value("sg-next-step") || "not_specified",
       field_coverage_count: coverage,
@@ -147,6 +226,12 @@
       var queryPath = (params.get("path") || "").toLowerCase().replace(/-/g, "_");
       if (queryPath === "gearbox_only" || queryPath === "motor_gearbox" || queryPath === "not_sure") {
         path.value = queryPath;
+        hasContext = true;
+      }
+
+      var queryNextStep = (params.get("next_step") || "").toLowerCase();
+      if (queryNextStep === "cad_review" && nextStep) {
+        nextStep.value = "CAD / STEP review";
         hasContext = true;
       }
 
@@ -217,6 +302,8 @@
       }
       if (selectorCandidateBox) selectorCandidateBox.hidden = false;
 
+      updateCadReadiness();
+
       track("selector_candidate_handoff_validated", {
         selector_handoff: 1,
         selector_candidate_stage: String(queryStage),
@@ -232,6 +319,7 @@
     var selected = path.value;
     existingMotorFields.hidden = selected === "motor_gearbox";
     voltageField.hidden = selected === "gearbox_only";
+    updateCadReadiness();
   }
 
   function buildBrief() {
@@ -265,7 +353,10 @@
 
     lines.push("Required output speed or ratio: " + (value("sg-output") || "Not provided"));
     lines.push("Load / torque: " + (value("sg-load") || "Not provided"));
+    lines.push("Duty cycle / peak duration: " + (value("sg-duty-cycle") || "Not provided"));
+    lines.push("External shaft loads: " + (value("sg-shaft-loads") || "Not provided"));
     lines.push("Maximum diameter / length: " + (value("sg-size") || "Not provided"));
+    lines.push("Output shaft / mounting requirement: " + (value("sg-output-interface") || "Not provided"));
 
     if (selectedPath !== "gearbox_only") {
       lines.push("Operating voltage: " + (value("sg-voltage") || "Not provided"));
@@ -276,6 +367,20 @@
     lines.push("Estimated annual volume: " + (value("sg-annual-volume") || "Not provided"));
     lines.push("Company / country: " + (value("sg-company-country") || "Not provided"));
     lines.push("Requested next step: " + selectedText("sg-next-step"));
+
+    var readiness = cadReadiness();
+    if (readiness.relevant) {
+      lines.push("");
+      lines.push("Controlled CAD review readiness: " +
+        (readiness.ready ? "Ready for CAD Review" : "Need More Information"));
+      lines.push("CAD gate — candidate configuration: " + (readiness.gates.candidate ? "Provided" : "Missing"));
+      lines.push("CAD gate — motor / drive-side interface: " + (readiness.gates.motor_interface ? "Provided" : "Missing"));
+      lines.push("CAD gate — output interface: " + (readiness.gates.output_interface ? "Provided" : "Missing"));
+      lines.push("CAD gate — load / duty: " + (readiness.gates.load_duty ? "Provided" : "Missing"));
+      lines.push("CAD gate — installation envelope: " + (readiness.gates.envelope ? "Provided" : "Missing"));
+      lines.push("Readiness means enough information for engineering CAD review; controlled CAD release still requires SigGear confirmation.");
+    }
+
     lines.push("");
     lines.push("I can attach a motor drawing, mechanism sketch or CAD screenshot if needed.");
 
@@ -335,10 +440,18 @@
 
   copyButton.addEventListener("click", copyBrief);
   path.addEventListener("change", updateConditionalFields);
+  if (nextStep) nextStep.addEventListener("change", updateCadReadiness);
+
+  ["sg-motor-model","sg-motor-shaft","sg-motor-mount","sg-output-interface","sg-load","sg-duty-cycle","sg-size"].forEach(function (id) {
+    var el = document.getElementById(id);
+    if (el) el.addEventListener("input", updateCadReadiness);
+  });
+
   model.addEventListener("change", function () {
     if (selectorCandidate && model.value !== selectorCandidate.model) {
       clearSelectorCandidate();
       status.textContent = "Model changed. The previous selection-tool candidate was cleared and will not be included in the project brief.";
+      updateCadReadiness();
     }
   });
 
