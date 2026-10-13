@@ -74,6 +74,7 @@ If you arrived from the Sample Validation Workflow with a validated 8P–42P pla
       <button type="button" id="sg-design-in-email" class="md-button md-button--primary">Prepare Design-In Review Email</button>
       <a id="sg-design-in-datasheet" class="md-button" href="#">Open Datasheet</a>
       <a id="sg-design-in-interface" class="md-button" href="#">Open Mechanical Interface</a>
+      <a id="sg-design-in-pilot-review" class="md-button" href="#" hidden>Open Pilot Preparation Checklist</a>
       <a class="md-button" href="../../custom-engineering/prototype-to-production/">Prototype → Pilot → Production</a>
     </div>
 
