@@ -1,9 +1,9 @@
 ---
-title: 8P-42P Public CAD Release v1.0 | Planetary Gearbox STEP Files | SigGear
-description: Download simplified public 4-stage STEP files for SigGear 8P, 10P, 12P, 14P, 16P, 20P, 22P, 24P, 28P, 32P, 36P and 42P planetary gearboxes.
+title: Planetary Gearbox STEP CAD | 8–42 mm Public 3D Models | SigGear
+description: Download simplified public 4-stage STEP CAD for SigGear 8, 10, 12, 14, 16, 20, 22, 24, 28, 32, 36 and 42 mm planetary gearboxes for preliminary packaging and mechanical Design-In.
 ---
 
-# 8P-42P Planetary Gearbox Public CAD Release v1.0
+# Planetary Gearbox STEP CAD — 8P–42P Public 3D Models
 
 SigGear's standard **8P-42P planetary gearbox series** now has simplified public STEP files for early mechanical packaging and Design-In.
 
@@ -14,6 +14,12 @@ Each released file represents the **4-stage reference configuration** for its fr
 The [SigGear public product catalog on TraceParts (Chinese-language portal)](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR) displays the **8P–42P** model range. The public 42P detail page has been opened, its 3D preview displayed, and its CAD download completed successfully. Other models' download workflows and the international English-language catalog have not yet been verified individually.
 
 For accurate preliminary packaging, confirm that any downloaded CAD corresponds to the required frame size and **4-stage reference configuration**. Public simplified CAD is not a substitute for a controlled drawing or configuration-matched STEP model for a different reduction stage or final production release.
+
+## Planetary Gearbox CAD / STEP by Diameter
+
+Use the model table below when searching for a specific **8 mm, 10 mm, 12 mm, 14 mm, 16 mm, 20 mm, 22 mm, 24 mm, 28 mm, 32 mm, 36 mm or 42 mm planetary gearbox STEP file**.
+
+The files are simplified external-interface references for preliminary packaging. They are not universal CAD for every ratio or stage count, and they do not expose SigGear's internal planetary transmission geometry.
 
 ## Download Public Simplified STEP
 

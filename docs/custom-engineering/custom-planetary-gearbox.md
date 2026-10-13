@@ -1,9 +1,9 @@
 ---
-title: Custom Planetary Gearbox Manufacturer & Engineering | SigGear
-description: Custom planetary gearbox engineering and manufacturing for miniature and compact applications, including motor matching, ratio selection, shaft and flange adaptation, prototypes and production.
+title: Custom Planetary Gearbox | Shaft, Mounting, Ratio & Interface | SigGear
+description: Custom miniature and compact planetary gearbox engineering for output shaft, mounting flange, motor interface, ratio, envelope and prototype-to-production requirements using SigGear 8–42 mm platforms.
 ---
 
-# Custom Planetary Gearbox Engineering
+# Custom Planetary Gearbox — Shaft, Mounting, Ratio and Motor Interface
 
 ## Standard Series or Custom Engineering?
 
@@ -41,7 +41,7 @@ SigGear designs and manufactures miniature and compact planetary gearboxes and c
 [Send Your Motor or Drawing](mailto:wangwanrong@siggear.com?subject=Custom%20Planetary%20Gearbox%20Engineering%20Review){ .md-button .md-button--primary }
 [Request Engineering Review](../request-cad-sample-quote.md){ .md-button }
 
-## Common Custom Planetary Gearbox Requests
+## Custom Shaft, Mounting, Ratio and Interface Requests
 
 Depending on the selected gearbox platform and engineering feasibility, project-specific review may include:
 
@@ -59,6 +59,8 @@ Depending on the selected gearbox platform and engineering feasibility, project-
 - duty cycle and operating condition
 
 Changing one requirement may affect other parameters such as torque, speed, efficiency, size, service life, thermal behavior or cost. Final feasibility must therefore be confirmed as a complete configuration rather than one parameter at a time.
+
+A **custom shaft or mounting request is not automatically feasible** on every 8–42 mm frame. The practical starting point is to compare the nearest standard platform, then review the output shaft, motor-side interface, flange, stage count and available axial envelope together.
 
 ## I Already Have a Motor
 

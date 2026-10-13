@@ -1,9 +1,9 @@
 ---
-title: Motor with Planetary Gearbox | Motor + Gearbox Integration Engineering | SigGear
-description: Engineering support for motor with planetary gearbox projects, gearbox matching for existing motors, and complete motor + gearbox assemblies using SigGear 8–42 mm planetary platforms.
+title: Planetary Gearbox for Existing Motor | Motor + Gearbox Matching | SigGear
+description: Match an 8–42 mm planetary gearbox to an existing BLDC, brushed DC, stepper or servo motor, or review a complete motor + gearbox assembly by shaft, mounting, speed, ratio, load and package size.
 ---
 
-# Motor with Planetary Gearbox Integration Engineering
+# Planetary Gearbox for an Existing Motor or Complete Motor + Gearbox
 
 ## Start With the Motor, the Mechanism or the Required Output
 
@@ -23,6 +23,15 @@ Depending on the selected product family and project requirements, the supply sc
 [Gearbox Only — I Already Have a Motor](mailto:wangwanrong@siggear.com?subject=Gearbox%20Only%20Review%20-%20Existing%20Motor&body=Existing%20motor%20model%20%2F%20drawing%3A%20%0AMotor%20speed%3A%20%0ARequired%20output%20speed%20or%20ratio%3A%20%0AMaximum%20gearbox%20%2F%20assembly%20size%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button .md-button--primary }
 [Motor + Gearbox — Select the Complete Drive](mailto:wangwanrong@siggear.com?subject=Motor%20%2B%20Gearbox%20Engineering%20Review&body=Application%20%2F%20what%20needs%20to%20move%3A%20%0ARequired%20output%20speed%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0AMaximum%20diameter%20and%20total%20length%3A%20%0AOperating%20voltage%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button .md-button--primary }
 [Full Engineering Review Guide](../request-cad-sample-quote.md){ .md-button }
+
+## Planetary Gearbox for BLDC, DC, Stepper or Servo Motors
+
+A motor type alone does not prove gearbox compatibility. For an existing **BLDC, brushed DC, stepper or servo motor**, the engineering review needs the actual motor model or drawing, operating speed, shaft geometry, mounting interface and the required gearbox output.
+
+This page is the canonical path for **planetary gearbox for existing motor**, **gearbox for BLDC motor** and **motor + planetary gearbox matching** questions. It does not imply that every SigGear frame size can be paired with every motor.
+
+[Project Brief — Existing Motor](../request-cad-sample-quote.md?path=gearbox_only){ .md-button .md-button--primary }
+[Project Brief — Motor + Gearbox](../request-cad-sample-quote.md?path=motor_gearbox){ .md-button }
 
 ## Motor with Planetary Gearbox — Two Supply Paths
 

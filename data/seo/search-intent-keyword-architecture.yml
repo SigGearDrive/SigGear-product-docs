@@ -39,11 +39,13 @@ intent_clusters:
       - "custom planetary gearhead"
       - "custom miniature planetary gearbox"
       - "custom compact planetary gearhead"
-    secondary_intent:
       - "planetary gearbox custom shaft"
       - "planetary gearbox custom mounting"
+    secondary_intent:
       - "planetary gearbox custom ratio"
-      - "planetary gearbox for existing motor"
+      - "planetary gearbox custom flange"
+      - "planetary gearbox custom output shaft"
+      - "custom planetary gearbox motor interface"
     canonical_page: "/custom-engineering/custom-planetary-gearbox/"
     status: "existing_page"
     user_need: "Adapt a planetary reducer around a motor, envelope, ratio, shaft or mounting requirement."
@@ -52,17 +54,19 @@ intent_clusters:
     priority: "P0"
     stage: "engineering evaluation"
     primary_intent:
+      - "planetary gearbox for existing motor"
+      - "gearbox for BLDC motor"
       - "motor with planetary gearbox"
       - "motor gearbox integration"
-      - "gearbox for BLDC motor"
-      - "custom gear motor"
-      - "custom gearmotor"
+      - "planetary gearbox motor matching"
     secondary_intent:
-      - "planetary gearbox motor"
+      - "gearbox for DC motor"
+      - "gearbox for stepper motor"
+      - "gearbox for servo motor"
       - "motor + planetary gearbox"
       - "match gearbox to motor"
-      - "motor gearbox matching"
-      - "gear motor engineering"
+      - "custom gear motor"
+      - "custom gearmotor"
     canonical_page: "/custom-engineering/motor-gearbox-integration/"
     status: "existing_page"
     user_need: "Keep an existing motor or define a complete motor + gearbox operating point and interface."
@@ -195,6 +199,8 @@ intent_clusters:
     primary_intent:
       - "planetary gearbox STEP"
       - "planetary gearbox CAD"
+      - "miniature planetary gearbox CAD"
+      - "planetary gearbox 3D model"
       - "planetary gearhead CAD"
     canonical_page: "/engineering-resources/planetary-gearboxes/public-cad-release-v1/"
     status: "existing_public_library"
@@ -308,3 +314,45 @@ next_content_rules:
   - "Before creating a CAD-intent page, confirm that the referenced CAD is approved for public release."
   - "Titles may use a high-intent synonym; body copy must still read naturally for engineers."
   - "Use model pages for exact dimensions and ratings; use custom-engineering pages for problem-solving and supplier qualification."
+
+planetary_search_discovery_expansion:
+  updated: "2026-10-13"
+  strategy: "Reuse existing canonical pages before creating new SEO content."
+  baseline:
+    period: "2026-07-15 to 2026-10-13"
+    note: "No exact GSC query rows were returned for the monitored phrases below at baseline."
+  clusters:
+    - query_family:
+        - "planetary gearbox for existing motor"
+        - "gearbox for BLDC motor"
+        - "gearbox for DC motor"
+        - "planetary gearbox motor matching"
+      canonical_page: "/custom-engineering/motor-gearbox-integration/"
+      page_role: "existing motor and complete motor + gearbox matching"
+      new_page_required: false
+    - query_family:
+        - "planetary gearbox custom shaft"
+        - "planetary gearbox custom mounting"
+        - "planetary gearbox custom ratio"
+        - "custom planetary gearbox motor interface"
+      canonical_page: "/custom-engineering/custom-planetary-gearbox/"
+      page_role: "shaft, mounting, ratio and interface customization"
+      new_page_required: false
+    - query_family:
+        - "planetary gearbox STEP"
+        - "miniature planetary gearbox CAD"
+        - "planetary gearbox 3D model"
+        - "32mm planetary gearbox CAD"
+      canonical_page: "/engineering-resources/planetary-gearboxes/public-cad-release-v1/"
+      page_role: "public simplified 4-stage STEP and design-in boundary"
+      new_page_required: false
+    - query_family:
+        - "compact planetary gearbox OEM"
+        - "miniature planetary gearbox manufacturer"
+        - "miniature planetary gearbox supplier"
+        - "OEM planetary gearbox supplier"
+      canonical_page: "/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/"
+      page_role: "manufacturer, supplier and frame-size discovery"
+      new_page_required: false
+  creation_gate:
+    rule: "Only create a new page when a future query represents a distinct engineering problem that cannot be answered well by these existing canonicals."
