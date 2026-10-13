@@ -32,7 +32,7 @@ The downloadable STEP represents the **4-stage reference configuration only** an
 | Item | Description |
 | --- | --- |
 | Model | 42P |
-| Product type | Micro planetary gearbox |
+| Product type | Compact planetary gearbox |
 | Nominal outer diameter | 42 mm |
 | Number of stages | 1 to 4 |
 | Manufacturing process | Machining |
