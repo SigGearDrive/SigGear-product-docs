@@ -34,7 +34,7 @@ The downloadable STEP represents the **4-stage reference configuration only** an
 | Item | Description |
 | --- | --- |
 | Model | 20P |
-| Product type | Micro planetary gearbox |
+| Product type | Miniature planetary gearbox |
 | Nominal outer diameter | 20 mm |
 | Number of stages | 1 to 4 |
 | Housing material | Steel |
