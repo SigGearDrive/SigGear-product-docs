@@ -73,6 +73,10 @@ normalized_website_dimensions:
       - electric_curtain_blind
       - smart_toilet_bidet
       - dexterous_hand_gripper
+      - smart_lock_access_control
+      - pump_valve_fluid
+      - optical_positioning
+      - coffee_equipment
       - not_specified
   inquiry_origin:
     allowed:
