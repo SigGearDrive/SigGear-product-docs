@@ -47,6 +47,7 @@ This page does **not** convert the public 4-stage STEP into stage-specific produ
       <a id="sg-pack-interface" class="md-button" href="#">Open Mechanical Interface</a>
       <a id="sg-pack-public-step" class="md-button" href="#">Open Public 4-Stage STEP</a>
       <a id="sg-pack-project-brief" class="md-button" href="#">Request Controlled CAD / Engineering Review</a>
+      <a id="sg-pack-dedicated" class="md-button" href="#" hidden>Open Dedicated Model Design-In Pack</a>
     </div>
 
     <h2>What Each Resource Is For</h2>
