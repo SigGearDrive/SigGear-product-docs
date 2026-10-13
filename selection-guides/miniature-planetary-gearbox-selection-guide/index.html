@@ -6927,7 +6927,7 @@
 <p>It calculates:</p>
 <p><strong>preliminary target ratio = motor operating speed / target output speed</strong></p>
 <p>and compares that value with the currently published 1–4 stage ratios for SigGear 8P–42P.</p>
-<p>Optional filters can remove configurations that exceed a maximum gearbox diameter, maximum <strong>gearbox body length</strong>, or published <strong>rated allowable torque</strong> requirement.</p>
+<p>Optional filters can remove configurations that exceed a maximum gearbox diameter, maximum <strong>gearbox body length</strong>, published <strong>rated allowable torque</strong> requirement, or a user-defined maximum ratio difference.</p>
 <form id="siggear-ratio-stage-selector" class="siggear-ratio-selector">
   <div class="siggear-selector-grid">
     <label>
@@ -6954,6 +6954,11 @@
       Required continuous torque (kgf·cm) — optional
       <input id="sg-selector-torque" type="number" min="0.001" step="any" placeholder="Compared with published rated allowable torque">
     </label>
+
+    <label>
+      Maximum ratio difference (%) — optional
+      <input id="sg-selector-ratio-tolerance" type="number" min="0" step="any" placeholder="Example: 5 means keep ratios within 5%">
+    </label>
   </div>
 
   <div class="siggear-selector-actions">
@@ -6965,7 +6970,13 @@
 </form>
 
 <p><strong>Important:</strong> this is a preliminary Design-In aid, not an automatic final selector. It does not add a safety factor, calculate motor shaft torque, predict service life, or prove that a customer's motor shaft / pilot / mounting pattern fits the gearbox.</p>
-<p>Use the closest published ratio as a starting point, then confirm the selected <strong>model + stage + ratio + load + motor interface</strong> against the Datasheet and Mechanical Interface.</p>
+<p>The results now separate three different first-check questions:</p>
+<ul>
+<li><strong>Closest Ratio</strong> — the remaining published configuration with the smallest ratio difference.</li>
+<li><strong>Smallest Surviving Frame</strong> — the smallest diameter that still has at least one published configuration after your active filters.</li>
+<li><strong>Shortest Surviving Gearbox</strong> — the shortest published gearbox body among the remaining frame candidates.</li>
+</ul>
+<p>These labels are not interchangeable and are <strong>not final recommendations</strong>. A smaller frame may have a less suitable ratio, and a shorter gearbox may have lower published rated torque. Confirm the selected <strong>model + stage + ratio + continuous / peak load + motor interface</strong> against the Datasheet and Mechanical Interface.</p>
 <p><a class="md-button" href="../../custom-engineering/motor-gearbox-integration/">Existing Motor — Open Motor-Matching Workflow</a>
 <a class="md-button" href="../../engineering-resources/planetary-gearboxes/">Open 8P–42P Datasheets &amp; Mechanical Interfaces</a></p>
 <h2 id="3-compare-continuous-and-peak-torque-separately">3. Compare Continuous and Peak Torque Separately<a class="headerlink" href="#3-compare-continuous-and-peak-torque-separately" title="Permanent link">&para;</a></h2>
