@@ -85,6 +85,9 @@ jobs:
       - name: Validate planetary ratio-stage selector data
         run: python scripts/validate_ratio_stage_selector_data.py
 
+      - name: Validate ratio-stage selector JavaScript syntax
+        run: node --check docs/assets/javascripts/ratio-stage-selector.js
+
       - name: Test external catalog export
         run: python scripts/export_external_catalog.py --output /tmp/siggear-planetary-gearboxes.csv
 

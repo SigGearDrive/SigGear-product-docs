@@ -25,6 +25,9 @@ optional_filters:
   required_continuous_torque_kgf_cm:
     comparison: published_rated_allowable_torque_greater_than_or_equal_to_input
     prohibited: use_maximum_momentary_torque_as_continuous_rating
+  maximum_ratio_difference_percent:
+    comparison: candidate_absolute_ratio_difference_less_than_or_equal_to_input
+    default: no_filter
 
 candidate_fields:
   - model
@@ -36,6 +39,15 @@ candidate_fields:
   - gearbox_body_length_mm
   - published_rated_allowable_torque_kgf_cm
   - published_efficiency_percent
+
+candidate_frame_comparison:
+  one_row_per_model: closest_remaining_published_ratio
+  first_check_signals:
+    closest_ratio: minimum_ratio_difference_percent
+    smallest_surviving_frame: minimum_nominal_diameter_after_active_filters
+    shortest_surviving_gearbox: minimum_published_gearbox_body_length_after_active_filters
+  labels_are_final_recommendations: false
+  excluded_frame_reason_visible: true
 
 truth_boundary:
   tool_is_final_selection: false
@@ -61,8 +73,11 @@ privacy:
   ga4_allowed:
     - filter_presence_flags
     - result_count
+    - candidate_frame_count
     - normalized_top_candidate_model
     - normalized_top_candidate_stage
+    - normalized_smallest_candidate_model
+    - normalized_shortest_candidate_model
 
 data_integrity:
   source_of_truth: published_model_datasheet_stage_tables
