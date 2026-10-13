@@ -1,0 +1,86 @@
+schema_version: 1
+policy_id: planetary-stage-specific-cad-boundary
+updated: "2026-10-13"
+scope: public_safe_design_in
+
+candidate_pack:
+  page: "/engineering-resources/planetary-gearboxes/candidate-design-in-pack/"
+  validated_context:
+    - model
+    - stage
+    - published_ratio
+  validation_source: "/assets/data/planetary-ratio-stage-data.json"
+  invalid_candidate_behavior: do_not_render_candidate_pack
+
+public_cad:
+  released_models:
+    - 8P
+    - 10P
+    - 12P
+    - 14P
+    - 16P
+    - 20P
+    - 22P
+    - 24P
+    - 28P
+    - 32P
+    - 36P
+    - 42P
+  released_stage: 4
+  file_type: simplified_external_interface_STEP
+  purpose:
+    - frame_level_interface_review
+    - preliminary_external_packaging_for_4_stage_reference
+  not_for:
+    - universal_1_to_4_stage_cad
+    - exact_1_stage_envelope
+    - exact_2_stage_envelope
+    - exact_3_stage_envelope
+    - ratio_specific_production_cad
+    - final_tooling_or_design_freeze
+
+stage_boundary:
+  stage_1_2_3:
+    public_step_stage_matches_candidate: false
+    exact_axial_envelope_from_public_step: prohibited
+    preliminary_length_source: published_stage_body_length
+    final_cad_required: stage_matched_controlled_configuration
+  stage_4:
+    public_step_stage_matches_candidate: true
+    use: preliminary_external_packaging
+    ratio_specific_production_cad: false
+    final_cad_required: controlled_configuration_before_design_freeze
+
+controlled_release:
+  confirmation_required:
+    - selected_model
+    - selected_stage
+    - selected_ratio
+    - motor_interface
+    - output_interface
+    - controlled_revision
+  sample_validation_required_before_final_design_freeze: true
+
+dedicated_existing_design_in_packs:
+  32P: "/engineering-resources/32p/design-in-pack/"
+  42P: "/engineering-resources/42p/design-in-pack/"
+
+privacy:
+  candidate_pack_url_may_include:
+    - model
+    - stage
+    - published_ratio
+  candidate_pack_url_must_not_include:
+    - customer_motor_speed
+    - target_output_speed
+    - torque
+    - diameter_limit
+    - length_limit
+    - duty_cycle
+    - customer_or_company_identity
+  ga4_may_receive:
+    - normalized_model
+    - normalized_stage
+  ga4_must_not_receive:
+    - published_ratio
+    - customer_engineering_inputs
