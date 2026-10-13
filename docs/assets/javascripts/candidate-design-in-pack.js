@@ -116,7 +116,8 @@
         "_Public_Simplified_STEP_v1.0_4-Stage.step";
       brief.href = "../../../request-cad-sample-quote/?model=" + encodeURIComponent(model) +
         "&selection=ratio_stage_selector&candidate_stage=" + encodeURIComponent(stage) +
-        "&candidate_ratio=" + encodeURIComponent(matchedRatio);
+        "&candidate_ratio=" + encodeURIComponent(matchedRatio) +
+        "&next_step=cad_review";
 
       if (dedicated && (model === "32P" || model === "42P")) {
         dedicated.href = "../../" + slug + "/design-in-pack/";
