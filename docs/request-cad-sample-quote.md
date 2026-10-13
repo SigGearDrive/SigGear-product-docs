@@ -39,7 +39,7 @@ For the first review, send only what you already know:
 
 If torque or an interface dimension is not known, a motor drawing or mechanism sketch is enough to start.
 
-[Start Gearbox-Only Project Brief](request-cad-sample-quote.md?path=gearbox_only){ .md-button .md-button--primary }
+[Start Gearbox-Only Project Brief](?path=gearbox_only){ .md-button .md-button--primary }
 
 ### Path B: Complete Motor + Gearbox Assembly
 
@@ -55,7 +55,7 @@ For the first review, send:
 
 The final ratio does not need to be calculated before contacting us.
 
-[Start Motor + Gearbox Project Brief](request-cad-sample-quote.md?path=motor_gearbox){ .md-button .md-button--primary }
+[Start Motor + Gearbox Project Brief](?path=motor_gearbox){ .md-button .md-button--primary }
 
 You do not need a complete specification to start. Missing technical details can be narrowed after the first review.
 
