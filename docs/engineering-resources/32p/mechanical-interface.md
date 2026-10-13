@@ -1,9 +1,10 @@
 ---
-title: 32P Mechanical Interface | 4-Stage Planetary Gearbox CAD | SigGear
-description: Approved public mechanical interface for the SigGear 32P 32 mm planetary gearbox, including 4-stage CAD, output shaft and motor-side mounting references.
+title: 32 mm Planetary Gearbox Dimensions & Mechanical Interface (32P) | SigGear
+description: Public 32P 32 mm planetary gearbox dimensions and mechanical-interface reference based on the current controlled 2D drawing, including stage-dependent length, mounting and output-side interface information.
 ---
 
-# 32P Mechanical Interface
+
+# 32 mm Planetary Gearbox Dimensions & Mechanical Interface (32P)
 
 **Controlled drawing code:** **SG01PD32** v1.0
 
