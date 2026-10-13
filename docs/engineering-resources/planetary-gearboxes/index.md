@@ -34,6 +34,7 @@ Use this library when the search starts from a specific **planetary gearbox data
 | 42P | 42 mm | [Datasheet](../42p/datasheet.md) | [Mechanical Interface](../42p/mechanical-interface.md) | [Design-In Pack + simplified public 4-stage STEP](../42p/design-in-pack.md) | [Start review](../../request-cad-sample-quote.md?model=42P) |
 
 [Open the 8P-42P Public CAD Release v1.0](public-cad-release-v1.md){ .md-button .md-button--primary }
+[Existing Motor — 8P–42P Design-In Workflow](../../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
 ## Data Boundary
 
