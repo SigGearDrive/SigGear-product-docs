@@ -78,6 +78,7 @@ extra_css:
   - assets/stylesheets/ratio-stage-selector.css
   - assets/stylesheets/candidate-design-in-pack.css
   - assets/stylesheets/sample-validation.css
+  - assets/stylesheets/design-in-review.css
 
 extra_javascript:
   - assets/javascripts/analytics-events.js
@@ -85,6 +86,7 @@ extra_javascript:
   - assets/javascripts/ratio-stage-selector.js
   - assets/javascripts/candidate-design-in-pack.js
   - assets/javascripts/sample-validation.js
+  - assets/javascripts/design-in-review.js
   - assets/javascripts/organization-schema.js
 
 markdown_extensions:
