@@ -46,6 +46,9 @@ jobs:
       - name: Build documentation
         run: mkdocs build --strict
 
+      - name: Validate planetary indexing and crawl readiness
+        run: python scripts/validate_planetary_indexing_readiness.py
+
       - name: Validate canonical URLs, sitemap, and redirects
         run: python scripts/validate_site_urls.py
 

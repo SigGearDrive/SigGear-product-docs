@@ -1,0 +1,89 @@
+schema_version: 1
+policy_id: planetary-indexing-crawl-readiness
+updated: "2026-10-13"
+scope: 44_tracked_queries_40_unique_canonicals
+
+objective: >
+  Ensure every canonical page used by the 44-query Planetary Search Monitor is
+  technically crawlable from the built GitHub Pages site: generated, self-canonical,
+  present in sitemap.xml, allowed by robots.txt, and connected to a stable planetary hub.
+
+tracked_query_count: 44
+unique_canonical_count: 40
+
+canonical_groups:
+  diameter_product_pages:
+    hub: "/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/"
+    pages:
+      - "/products/planetary-gearboxes/8p-planetary-gearbox/"
+      - "/products/planetary-gearboxes/10p-planetary-gearbox/"
+      - "/products/planetary-gearboxes/12p-planetary-gearbox/"
+      - "/products/planetary-gearboxes/14p-planetary-gearbox/"
+      - "/products/planetary-gearboxes/16p-planetary-gearbox/"
+      - "/products/planetary-gearboxes/20p-planetary-gearbox/"
+      - "/products/planetary-gearboxes/22p-planetary-gearbox/"
+      - "/products/planetary-gearboxes/24p-planetary-gearbox/"
+      - "/products/planetary-gearboxes/28p-planetary-gearbox/"
+      - "/products/planetary-gearboxes/32p-planetary-gearbox/"
+      - "/products/planetary-gearboxes/36p-planetary-gearbox/"
+      - "/products/planetary-gearboxes/42p-planetary-gearbox/"
+
+  generic_engineering_and_supplier_pages:
+    pages:
+      - "/engineering-resources/planetary-gearboxes/public-cad-release-v1/"
+      - "/custom-engineering/motor-gearbox-integration/"
+      - "/custom-engineering/custom-planetary-gearbox/"
+      - "/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/"
+
+  engineering_resource_pages:
+    hub: "/engineering-resources/planetary-gearboxes/"
+    pages:
+      - "/engineering-resources/8p/datasheet/"
+      - "/engineering-resources/8p/mechanical-interface/"
+      - "/engineering-resources/10p/datasheet/"
+      - "/engineering-resources/10p/mechanical-interface/"
+      - "/engineering-resources/12p/datasheet/"
+      - "/engineering-resources/12p/mechanical-interface/"
+      - "/engineering-resources/14p/datasheet/"
+      - "/engineering-resources/14p/mechanical-interface/"
+      - "/engineering-resources/16p/datasheet/"
+      - "/engineering-resources/16p/mechanical-interface/"
+      - "/engineering-resources/20p/datasheet/"
+      - "/engineering-resources/20p/mechanical-interface/"
+      - "/engineering-resources/22p/datasheet/"
+      - "/engineering-resources/22p/mechanical-interface/"
+      - "/engineering-resources/24p/datasheet/"
+      - "/engineering-resources/24p/mechanical-interface/"
+      - "/engineering-resources/28p/datasheet/"
+      - "/engineering-resources/28p/mechanical-interface/"
+      - "/engineering-resources/32p/datasheet/"
+      - "/engineering-resources/32p/mechanical-interface/"
+      - "/engineering-resources/36p/datasheet/"
+      - "/engineering-resources/36p/mechanical-interface/"
+      - "/engineering-resources/42p/datasheet/"
+      - "/engineering-resources/42p/mechanical-interface/"
+
+technical_requirements:
+  built_html_exists: true
+  sitemap_membership: true
+  self_referencing_canonical: true
+  no_noindex_meta: true
+  robots_allows_project_path: true
+  hub_internal_linking:
+    diameter_product_pages_from_series_hub: required
+    engineering_resources_from_resource_hub: required
+    generic_paths_from_planetary_hubs: required
+
+truth_boundary:
+  technically_crawlable_equals_google_indexed: false
+  sitemap_presence_equals_search_impression: false
+  external_crawl_success_equals_google_rank: false
+
+live_observation_2026_10_13:
+  external_fetch_success:
+    - "/products/planetary-gearboxes/8p-planetary-gearbox/"
+    - "/products/planetary-gearboxes/42p-planetary-gearbox/"
+    - "/engineering-resources/planetary-gearboxes/public-cad-release-v1/"
+  note: >
+    External fetch confirms these sample URLs are publicly readable. Search Console
+    remains the source of truth for actual Google search impressions and clicks.
