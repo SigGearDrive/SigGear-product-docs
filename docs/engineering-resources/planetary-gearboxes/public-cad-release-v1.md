@@ -17,20 +17,20 @@ For accurate preliminary packaging, confirm that any downloaded CAD corresponds 
 
 ## Download Public Simplified STEP
 
-| Model | Nominal diameter | Public CAD |
-| --- | ---: | --- |
-| 8P | 8 mm | [Download 8P 4-Stage STEP](../../assets/downloads/8p/8P_Public_Simplified_STEP_v1.0_4-Stage.step) |
-| 10P | 10 mm | [Download 10P 4-Stage STEP](../../assets/downloads/10p/10P_Public_Simplified_STEP_v1.0_4-Stage.step) |
-| 12P | 12 mm | [Download 12P 4-Stage STEP](../../assets/downloads/12p/12P_Public_Simplified_STEP_v1.0_4-Stage.step) |
-| 14P | 14 mm | [Download 14P 4-Stage STEP](../../assets/downloads/14p/14P_Public_Simplified_STEP_v1.0_4-Stage.step) |
-| 16P | 16 mm | [Download 16P 4-Stage STEP](../../assets/downloads/16p/16P_Public_Simplified_STEP_v1.0_4-Stage.step) |
-| 20P | 20 mm | [Download 20P 4-Stage STEP](../../assets/downloads/20p/20P_Public_Simplified_STEP_v1.0_4-Stage.step) |
-| 22P | 22 mm | [Download 22P 4-Stage STEP](../../assets/downloads/22p/22P_Public_Simplified_STEP_v1.0_4-Stage.step) |
-| 24P | 24 mm | [Download 24P 4-Stage STEP](../../assets/downloads/24p/24P_Public_Simplified_STEP_v1.0_4-Stage.step) |
-| 28P | 28 mm | [Download 28P 4-Stage STEP](../../assets/downloads/28p/28P_Public_Simplified_STEP_v1.0_4-Stage.step) |
-| 32P | 32 mm | [Download 32P 4-Stage STEP](../../assets/downloads/32p/32P_Public_Simplified_STEP_v1.0_4-Stage.step) |
-| 36P | 36 mm | [Download 36P 4-Stage STEP](../../assets/downloads/36p/36P_Public_Simplified_STEP_v1.0_4-Stage.step) |
-| 42P | 42 mm | [Download 42P 4-Stage STEP](../../assets/downloads/42p/42P_Public_Simplified_STEP_v1.0_4-Stage.step) |
+| Model | Nominal diameter | Public CAD | Engineering review |
+| --- | ---: | --- | --- |
+| 8P | 8 mm | [Download 8P 4-Stage STEP](../../assets/downloads/8p/8P_Public_Simplified_STEP_v1.0_4-Stage.step) | [Start project brief](../../request-cad-sample-quote.md?model=8P) |
+| 10P | 10 mm | [Download 10P 4-Stage STEP](../../assets/downloads/10p/10P_Public_Simplified_STEP_v1.0_4-Stage.step) | [Start project brief](../../request-cad-sample-quote.md?model=10P) |
+| 12P | 12 mm | [Download 12P 4-Stage STEP](../../assets/downloads/12p/12P_Public_Simplified_STEP_v1.0_4-Stage.step) | [Start project brief](../../request-cad-sample-quote.md?model=12P) |
+| 14P | 14 mm | [Download 14P 4-Stage STEP](../../assets/downloads/14p/14P_Public_Simplified_STEP_v1.0_4-Stage.step) | [Start project brief](../../request-cad-sample-quote.md?model=14P) |
+| 16P | 16 mm | [Download 16P 4-Stage STEP](../../assets/downloads/16p/16P_Public_Simplified_STEP_v1.0_4-Stage.step) | [Start project brief](../../request-cad-sample-quote.md?model=16P) |
+| 20P | 20 mm | [Download 20P 4-Stage STEP](../../assets/downloads/20p/20P_Public_Simplified_STEP_v1.0_4-Stage.step) | [Start project brief](../../request-cad-sample-quote.md?model=20P) |
+| 22P | 22 mm | [Download 22P 4-Stage STEP](../../assets/downloads/22p/22P_Public_Simplified_STEP_v1.0_4-Stage.step) | [Start project brief](../../request-cad-sample-quote.md?model=22P) |
+| 24P | 24 mm | [Download 24P 4-Stage STEP](../../assets/downloads/24p/24P_Public_Simplified_STEP_v1.0_4-Stage.step) | [Start project brief](../../request-cad-sample-quote.md?model=24P) |
+| 28P | 28 mm | [Download 28P 4-Stage STEP](../../assets/downloads/28p/28P_Public_Simplified_STEP_v1.0_4-Stage.step) | [Start project brief](../../request-cad-sample-quote.md?model=28P) |
+| 32P | 32 mm | [Download 32P 4-Stage STEP](../../assets/downloads/32p/32P_Public_Simplified_STEP_v1.0_4-Stage.step) | [Start project brief](../../request-cad-sample-quote.md?model=32P) |
+| 36P | 36 mm | [Download 36P 4-Stage STEP](../../assets/downloads/36p/36P_Public_Simplified_STEP_v1.0_4-Stage.step) | [Start project brief](../../request-cad-sample-quote.md?model=36P) |
+| 42P | 42 mm | [Download 42P 4-Stage STEP](../../assets/downloads/42p/42P_Public_Simplified_STEP_v1.0_4-Stage.step) | [Start project brief](../../request-cad-sample-quote.md?model=42P) |
 
 ## Public CAD Boundary
 
@@ -51,7 +51,7 @@ For final tooling, production release or a different stage configuration, reques
 
 [Open 8P-42P Engineering Resource Library](index.md){ .md-button .md-button--primary }
 
-[Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
+[Project Brief — Send What You Know](../../request-cad-sample-quote.md){ .md-button }
 
 ## Engineering Contact
 
