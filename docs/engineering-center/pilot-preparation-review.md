@@ -109,7 +109,7 @@ A pilot-preparation review should be able to identify:
 
 ## Manual Milestone Boundary
 
-**Pilot Preparation Ready** remains a human-confirmed project milestone.
+**Human confirmation required:** **Pilot Preparation Ready** remains a human-confirmed project milestone.
 
 The website never automatically sets:
 
