@@ -113,6 +113,18 @@
     if (path.indexOf("/applications/robot-gripper-gear-motors/") !== -1) {
       return "dexterous_hand_gripper";
     }
+    if (path.indexOf("/applications/access-control-smart-lock-security-gear-motors/") !== -1) {
+      return "smart_lock_access_control";
+    }
+    if (path.indexOf("/applications/pump-valve-fluid-control-gear-motors/") !== -1) {
+      return "pump_valve_fluid";
+    }
+    if (path.indexOf("/applications/optical-imaging-camera-module-gear-motors/") !== -1) {
+      return "optical_positioning";
+    }
+    if (path.indexOf("/applications/food-beverage-coffee-equipment-gear-motors/") !== -1) {
+      return "coffee_equipment";
+    }
     return "";
   }
 
@@ -143,7 +155,11 @@
         "electric_pruning_shears",
         "electric_curtain_blind",
         "smart_toilet_bidet",
-        "dexterous_hand_gripper"
+        "dexterous_hand_gripper",
+        "smart_lock_access_control",
+        "pump_valve_fluid",
+        "optical_positioning",
+        "coffee_equipment"
       ].indexOf(application) !== -1) {
         context.inquiry_application = application;
       }
@@ -335,7 +351,11 @@
             "electric_pruning_shears",
             "electric_curtain_blind",
             "smart_toilet_bidet",
-            "dexterous_hand_gripper"
+            "dexterous_hand_gripper",
+            "smart_lock_access_control",
+            "pump_valve_fluid",
+            "optical_positioning",
+            "coffee_equipment"
           ];
           if (validBriefApplications.indexOf(briefApplication) === -1) {
             briefApplication = "not_specified";
