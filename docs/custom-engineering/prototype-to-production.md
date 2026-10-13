@@ -224,6 +224,8 @@ Items that may need confirmation include:
 
 The exact documentation scope depends on the project and must be agreed with the customer.
 
+[Open Pilot Preparation Review](../engineering-center/pilot-preparation-review.md){ .md-button .md-button--primary }
+
 ## Stage 9 — Production Release
 
 A custom transmission should enter regular production only after the configuration and commercial scope have been confirmed.

@@ -21,6 +21,8 @@ website_funnel:
     - sample_validation_candidate_view
     - sample_validation_summary_copy
     - design_in_review_candidate_view
+    - pilot_preparation_review_view
+    - pilot_preparation_summary_copy
   inquiry_intent:
     - engineering_brief_open_click
     - inquiry_page_view
@@ -30,6 +32,7 @@ website_funnel:
     - engineering_brief_prepare_email
     - sample_validation_prepare_email
     - design_in_review_prepare_email
+    - pilot_preparation_prepare_email
     - planetary_inquiry_click
 
 qualified_inquiry_definition:
@@ -133,6 +136,11 @@ normalized_website_dimensions:
       - continue_evaluation
       - engineering_revision_required
       - design_in_review_ready
+  pilot_review_status:
+    allowed:
+      - need_design_freeze_confirmation
+      - pilot_review_incomplete
+      - ready_to_submit_for_pilot_preparation_review
   offline_source_group:
     allowed:
       - google_organic
@@ -172,6 +180,8 @@ privacy_boundary:
     - normalized_sample_validation_status
     - normalized_sample_validation_outcome
     - normalized_design_in_decision_status
+    - normalized_pilot_review_status
+    - pilot_preparation_gate_presence_flags
   ga4_must_not_receive:
     - customer_name
     - email_address
@@ -193,6 +203,15 @@ privacy_boundary:
     - sample_test_operating_condition_text
     - sample_observation_or_issue_notes
     - sample_measured_speed_torque_temperature_or_current_values
+    - pilot_controlled_drawing_revision_text
+    - pilot_configuration_or_bom_revision_text
+    - pilot_quantity_value
+    - pilot_schedule_text
+    - pilot_inspection_or_acceptance_text
+    - pilot_packaging_or_labeling_text
+    - pilot_change_notification_text
+    - pilot_acceptance_plan_text
+    - pilot_project_documentation_text
   public_repository_must_not_store:
     - customer_records
     - private_lead_status

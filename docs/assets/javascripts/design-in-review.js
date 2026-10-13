@@ -13,6 +13,7 @@
   var emailButton = document.getElementById("sg-design-in-email");
   var datasheetLink = document.getElementById("sg-design-in-datasheet");
   var interfaceLink = document.getElementById("sg-design-in-interface");
+  var pilotReviewLink = document.getElementById("sg-design-in-pilot-review");
   var actionStatus = document.getElementById("sg-design-in-action-status");
 
   var validModels = ["8P","10P","12P","14P","16P","20P","22P","24P","28P","32P","36P","42P"];
@@ -207,6 +208,14 @@
       var slug = model.toLowerCase();
       datasheetLink.href = "../../engineering-resources/" + slug + "/datasheet/";
       interfaceLink.href = "../../engineering-resources/" + slug + "/mechanical-interface/";
+
+      if (pilotReviewLink && decisionState === "design_in_review_ready") {
+        pilotReviewLink.href = "../pilot-preparation-review/?model=" + encodeURIComponent(model) +
+          "&stage=" + encodeURIComponent(stage) +
+          "&ratio=" + encodeURIComponent(matchedRatio) +
+          "&source=design_in_review";
+        pilotReviewLink.hidden = false;
+      }
 
       status.hidden = true;
       content.hidden = false;

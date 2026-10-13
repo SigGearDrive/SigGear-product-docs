@@ -91,3 +91,16 @@ truth_boundary:
   design_frozen_can_be_set_automatically: false
   pilot_preparation_ready_can_be_set_automatically: false
   production_release_can_be_set_automatically: false
+
+pilot_preparation_handoff:
+  destination: "/engineering-center/pilot-preparation-review/"
+  visible_only_when: design_in_decision_status_is_design_in_review_ready
+  query_parameters:
+    - model
+    - stage
+    - published_ratio
+    - source=design_in_review
+  does_not_confirm:
+    - design_freeze
+    - pilot_preparation_ready
+    - pilot_build_approval
