@@ -6972,12 +6972,14 @@
 <ol>
 <li><strong>Motor model or drawing</strong></li>
 <li><strong>Motor speed</strong></li>
+<li><strong>Motor shaft diameter / usable shaft length</strong></li>
+<li><strong>Motor mounting pattern / locating pilot</strong></li>
 <li><strong>Required output speed or ratio</strong></li>
 <li><strong>Maximum gearbox / assembly diameter and length</strong></li>
 <li><strong>Load or torque, if known</strong></li>
 </ol>
-<p>If torque is not known, a mechanism sketch or load description is enough to start.</p>
-<p><a class="md-button md-button--primary" href="mailto:wangwanrong@siggear.com?subject=Gearbox%20Only%20Review%20-%20Existing%20Motor&amp;body=Existing%20motor%20model%20%2F%20drawing%3A%20%0AMotor%20speed%3A%20%0ARequired%20output%20speed%20or%20ratio%3A%20%0AMaximum%20gearbox%20%2F%20assembly%20size%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20%0A%0APlease%20attach%20the%20motor%20drawing%20if%20available.">Start Gearbox-Only Review</a></p>
+<p>If torque or an interface dimension is not known, a motor drawing or mechanism sketch is enough to start.</p>
+<p><a class="md-button md-button--primary" href="?path=gearbox_only">Start Gearbox-Only Project Brief</a></p>
 <h3 id="path-b-complete-motor-gearbox-assembly">Path B: Complete Motor + Gearbox Assembly<a class="headerlink" href="#path-b-complete-motor-gearbox-assembly" title="Permanent link">&para;</a></h3>
 <p>Choose this path when the motor is still open and you want SigGear to evaluate the drive as one system.</p>
 <p>For the first review, send:</p>
@@ -6989,7 +6991,7 @@
 <li><strong>Operating voltage</strong></li>
 </ol>
 <p>The final ratio does not need to be calculated before contacting us.</p>
-<p><a class="md-button md-button--primary" href="mailto:wangwanrong@siggear.com?subject=Motor%20%2B%20Gearbox%20Engineering%20Review&amp;body=Application%20%2F%20what%20needs%20to%20move%3A%20%0ARequired%20output%20speed%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0AMaximum%20diameter%20and%20total%20length%3A%20%0AOperating%20voltage%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20%0A%0APlease%20attach%20a%20mechanism%20drawing%20if%20available.">Start Motor + Gearbox Review</a></p>
+<p><a class="md-button md-button--primary" href="?path=motor_gearbox">Start Motor + Gearbox Project Brief</a></p>
 <p>You do not need a complete specification to start. Missing technical details can be narrowed after the first review.</p>
 <p><a class="md-button" href="../products/planetary-gearboxes/8-42mm-planetary-gear-reducer/">Browse 8–42 mm Planetary Gearboxes</a>
 <a class="md-button" href="../engineering-resources/planetary-gearboxes/public-cad-release-v1/">View Public Simplified 4-Stage STEP Files</a></p>
@@ -7048,6 +7050,16 @@
       <label>
         Motor speed
         <input id="sg-motor-speed" name="motor_speed" type="text" placeholder="Example: 8,000 rpm">
+      </label>
+
+      <label>
+        Motor shaft / usable length
+        <input id="sg-motor-shaft" name="motor_shaft" type="text" placeholder="Example: Ø8 mm shaft, 23 mm usable length">
+      </label>
+
+      <label>
+        Motor mounting / locating pilot
+        <input id="sg-motor-mount" name="motor_mount" type="text" placeholder="Hole pattern, pilot diameter, flange or drawing reference">
       </label>
     </div>
   </div>
