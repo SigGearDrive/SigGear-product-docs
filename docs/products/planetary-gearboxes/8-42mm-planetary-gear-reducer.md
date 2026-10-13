@@ -33,24 +33,30 @@ SigGear's [public supplier catalog on TraceParts (Chinese-language portal)](http
 [See SigGear Manufacturing & Quality Evidence](../../company/manufacturing-and-quality-evidence.md){ .md-button }
 [Testing & Validation Evidence](../../engineering-center/testing-and-validation-evidence.md){ .md-button }
 
+## Browse by Planetary Gearbox Diameter
+
+Engineers often begin with the available installation diameter. Open the model-specific page for the exact frame before comparing ratio, stage length, allowable torque, shaft interface and motor matching:
+
+[8 mm](8p-planetary-gearbox.md) · [10 mm](10p-planetary-gearbox.md) · [12 mm](12p-planetary-gearbox.md) · [14 mm](14p-planetary-gearbox.md) · [16 mm](16p-planetary-gearbox.md) · [20 mm](20p-planetary-gearbox.md) · [22 mm](22p-planetary-gearbox.md) · [24 mm](24p-planetary-gearbox.md) · [28 mm](28p-planetary-gearbox.md) · [32 mm](32p-planetary-gearbox.md) · [36 mm](36p-planetary-gearbox.md) · [42 mm](42p-planetary-gearbox.md)
+
 ## Quick Selection Matrix
 
 Use this table for **preliminary frame-size selection**. Values are the currently published ranges for each standard series. Final selection still depends on the exact stage count, reduction ratio, motor, duty cycle and mechanical interface.
 
 | Model | Ø | Gearbox body length | Reduction ratio | Rated allowable torque | Maximum momentary torque | Backlash at no load | Adapted motor power |
 | --- | ---: | ---: | --- | ---: | ---: | ---: | ---: |
-| [8P](8p-planetary-gearbox.md) | 8 mm | 10.15–18.10 mm | 3.8:1–731.16:1 | 0.2–0.4 kgf·cm | 0.4–0.8 kgf·cm | ≤ 1.5° | below 2.5 W |
-| [10P](10p-planetary-gearbox.md) | 10 mm | 10.25–18.50 mm | 3.5:1–428.7:1 | 1.3–2.0 kgf·cm | 2.6–4.0 kgf·cm | ≤ 1.5° | below 3 W |
-| [12P](12p-planetary-gearbox.md) | 12 mm | 11.35–19.60 mm | 3.5:1–509.1:1 | 2.0–4.2 kgf·cm | 4.0–8.4 kgf·cm | ≤ 1.5° | below 4 W |
-| [14P](14p-planetary-gearbox.md) | 14 mm | 15.2–26.6 mm | 3.75:1–443.3:1 | 3.5–6.0 kgf·cm | 7.0–12.0 kgf·cm | ≤ 1.5° | below 5 W |
-| [16P](16p-planetary-gearbox.md) | 16 mm | 17.55–30.45 mm | 3.85:1–459.5:1 | 4.0–9.0 kgf·cm | 8.0–26.0 kgf·cm | ≤ 1.5° | below 10 W |
-| [20P](20p-planetary-gearbox.md) | 20 mm | 20.1–34.5 mm | 4:1–1296:1 | 6.0–13.0 kgf·cm | 12.0–26.0 kgf·cm | ≤ 1.5° | below 20 W |
-| [22P](22p-planetary-gearbox.md) | 22 mm | 22.6–38.5 mm | 3.5:1–509.1:1 | 8.0–25.0 kgf·cm | 16.0–50.0 kgf·cm | ≤ 1.5° | below 25 W |
-| [24P](24p-planetary-gearbox.md) | 24 mm | 24.6–42.0 mm | 3.83:1–759.7:1 | 10.0–30.0 kgf·cm | 20.0–60.0 kgf·cm | ≤ 1.2° | below 28 W |
-| [28P](28p-planetary-gearbox.md) | 28 mm | 25.6–44.5 mm | 3.83:1–759.7:1 | 20.0–50.0 kgf·cm | 40.0–100.0 kgf·cm | ≤ 1.2° | below 30 W |
-| [32P](32p-planetary-gearbox.md) | 32 mm | 28.05–52.95 mm | 3.5:1–509.1:1 | 35.0–80.0 kgf·cm | 70.0–160.0 kgf·cm | ≤ 1.2° | below 100 W |
-| [36P](36p-planetary-gearbox.md) | 36 mm | 30.6–61.5 mm | 3.66:1–625:1 | 40.0–100.0 kgf·cm | 80.0–200.0 kgf·cm | ≤ 1.2° | below 150 W |
-| [42P](42p-planetary-gearbox.md) | 42 mm | 35.6–69.5 mm | 3.8:1–660.7:1 | 80.0–150.0 kgf·cm | 160.0–300.0 kgf·cm | ≤ 1.2° | below 200 W |
+| [8 mm (8P)](8p-planetary-gearbox.md) | 8 mm | 10.15–18.10 mm | 3.8:1–731.16:1 | 0.2–0.4 kgf·cm | 0.4–0.8 kgf·cm | ≤ 1.5° | below 2.5 W |
+| [10 mm (10P)](10p-planetary-gearbox.md) | 10 mm | 10.25–18.50 mm | 3.5:1–428.7:1 | 1.3–2.0 kgf·cm | 2.6–4.0 kgf·cm | ≤ 1.5° | below 3 W |
+| [12 mm (12P)](12p-planetary-gearbox.md) | 12 mm | 11.35–19.60 mm | 3.5:1–509.1:1 | 2.0–4.2 kgf·cm | 4.0–8.4 kgf·cm | ≤ 1.5° | below 4 W |
+| [14 mm (14P)](14p-planetary-gearbox.md) | 14 mm | 15.2–26.6 mm | 3.75:1–443.3:1 | 3.5–6.0 kgf·cm | 7.0–12.0 kgf·cm | ≤ 1.5° | below 5 W |
+| [16 mm (16P)](16p-planetary-gearbox.md) | 16 mm | 17.55–30.45 mm | 3.85:1–459.5:1 | 4.0–9.0 kgf·cm | 8.0–26.0 kgf·cm | ≤ 1.5° | below 10 W |
+| [20 mm (20P)](20p-planetary-gearbox.md) | 20 mm | 20.1–34.5 mm | 4:1–1296:1 | 6.0–13.0 kgf·cm | 12.0–26.0 kgf·cm | ≤ 1.5° | below 20 W |
+| [22 mm (22P)](22p-planetary-gearbox.md) | 22 mm | 22.6–38.5 mm | 3.5:1–509.1:1 | 8.0–25.0 kgf·cm | 16.0–50.0 kgf·cm | ≤ 1.5° | below 25 W |
+| [24 mm (24P)](24p-planetary-gearbox.md) | 24 mm | 24.6–42.0 mm | 3.83:1–759.7:1 | 10.0–30.0 kgf·cm | 20.0–60.0 kgf·cm | ≤ 1.2° | below 28 W |
+| [28 mm (28P)](28p-planetary-gearbox.md) | 28 mm | 25.6–44.5 mm | 3.83:1–759.7:1 | 20.0–50.0 kgf·cm | 40.0–100.0 kgf·cm | ≤ 1.2° | below 30 W |
+| [32 mm (32P)](32p-planetary-gearbox.md) | 32 mm | 28.05–52.95 mm | 3.5:1–509.1:1 | 35.0–80.0 kgf·cm | 70.0–160.0 kgf·cm | ≤ 1.2° | below 100 W |
+| [36 mm (36P)](36p-planetary-gearbox.md) | 36 mm | 30.6–61.5 mm | 3.66:1–625:1 | 40.0–100.0 kgf·cm | 80.0–200.0 kgf·cm | ≤ 1.2° | below 150 W |
+| [42 mm (42P)](42p-planetary-gearbox.md) | 42 mm | 35.6–69.5 mm | 3.8:1–660.7:1 | 80.0–150.0 kgf·cm | 160.0–300.0 kgf·cm | ≤ 1.2° | below 200 W |
 
 Torque values are preserved in the current published source unit, **kgf·cm**. Maximum momentary torque is not a continuous operating rating.
 
@@ -71,7 +77,7 @@ Do not select only from outer diameter. A smaller frame may not satisfy torque o
 
 ## Standard Models
 
-The standard series includes [8P](8p-planetary-gearbox.md), [10P](10p-planetary-gearbox.md), [12P](12p-planetary-gearbox.md), [14P](14p-planetary-gearbox.md), [16P](16p-planetary-gearbox.md), [20P](20p-planetary-gearbox.md), [22P](22p-planetary-gearbox.md), [24P](24p-planetary-gearbox.md), [28P](28p-planetary-gearbox.md), [32P](32p-planetary-gearbox.md), [36P](36p-planetary-gearbox.md) and [42P](42p-planetary-gearbox.md).
+The standard series includes [8 mm (8P)](8p-planetary-gearbox.md), [10 mm (10P)](10p-planetary-gearbox.md), [12 mm (12P)](12p-planetary-gearbox.md), [14 mm (14P)](14p-planetary-gearbox.md), [16 mm (16P)](16p-planetary-gearbox.md), [20 mm (20P)](20p-planetary-gearbox.md), [22 mm (22P)](22p-planetary-gearbox.md), [24 mm (24P)](24p-planetary-gearbox.md), [28 mm (28P)](28p-planetary-gearbox.md), [32 mm (32P)](32p-planetary-gearbox.md), [36 mm (36P)](36p-planetary-gearbox.md) and [42 mm (42P)](42p-planetary-gearbox.md).
 
 Each model now has a public Datasheet, Mechanical Interface reference and simplified public **4-stage STEP** for early packaging and Design-In. Detailed full-assembly CAD remains configuration-controlled and request-only.
 
