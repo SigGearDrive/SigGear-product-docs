@@ -31,13 +31,15 @@ For the first review, send only what you already know:
 
 1. **Motor model or drawing**
 2. **Motor speed**
-3. **Required output speed or ratio**
-4. **Maximum gearbox / assembly diameter and length**
-5. **Load or torque, if known**
+3. **Motor shaft diameter / usable shaft length**
+4. **Motor mounting pattern / locating pilot**
+5. **Required output speed or ratio**
+6. **Maximum gearbox / assembly diameter and length**
+7. **Load or torque, if known**
 
-If torque is not known, a mechanism sketch or load description is enough to start.
+If torque or an interface dimension is not known, a motor drawing or mechanism sketch is enough to start.
 
-[Start Gearbox-Only Review](mailto:wangwanrong@siggear.com?subject=Gearbox%20Only%20Review%20-%20Existing%20Motor&body=Existing%20motor%20model%20%2F%20drawing%3A%20%0AMotor%20speed%3A%20%0ARequired%20output%20speed%20or%20ratio%3A%20%0AMaximum%20gearbox%20%2F%20assembly%20size%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20%0A%0APlease%20attach%20the%20motor%20drawing%20if%20available.){ .md-button .md-button--primary }
+[Start Gearbox-Only Project Brief](request-cad-sample-quote.md?path=gearbox_only){ .md-button .md-button--primary }
 
 ### Path B: Complete Motor + Gearbox Assembly
 
@@ -53,7 +55,7 @@ For the first review, send:
 
 The final ratio does not need to be calculated before contacting us.
 
-[Start Motor + Gearbox Review](mailto:wangwanrong@siggear.com?subject=Motor%20%2B%20Gearbox%20Engineering%20Review&body=Application%20%2F%20what%20needs%20to%20move%3A%20%0ARequired%20output%20speed%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0AMaximum%20diameter%20and%20total%20length%3A%20%0AOperating%20voltage%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20%0A%0APlease%20attach%20a%20mechanism%20drawing%20if%20available.){ .md-button .md-button--primary }
+[Start Motor + Gearbox Project Brief](request-cad-sample-quote.md?path=motor_gearbox){ .md-button .md-button--primary }
 
 You do not need a complete specification to start. Missing technical details can be narrowed after the first review.
 
@@ -123,6 +125,16 @@ This page does **not** send your engineering details to a third-party form servi
       <label>
         Motor speed
         <input id="sg-motor-speed" name="motor_speed" type="text" placeholder="Example: 8,000 rpm">
+      </label>
+
+      <label>
+        Motor shaft / usable length
+        <input id="sg-motor-shaft" name="motor_shaft" type="text" placeholder="Example: Ø8 mm shaft, 23 mm usable length">
+      </label>
+
+      <label>
+        Motor mounting / locating pilot
+        <input id="sg-motor-mount" name="motor_mount" type="text" placeholder="Hole pattern, pilot diameter, flange or drawing reference">
       </label>
     </div>
   </div>
