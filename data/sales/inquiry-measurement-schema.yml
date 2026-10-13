@@ -20,6 +20,7 @@ website_funnel:
   inquiry_intent:
     - engineering_brief_open_click
     - inquiry_page_view
+    - selector_candidate_handoff_validated
     - engineering_brief_copy
   high_intent:
     - engineering_brief_prepare_email
@@ -85,6 +86,7 @@ normalized_website_dimensions:
       - planetary_series
       - product_model
       - engineering_resource
+      - selection_tool
       - application
       - internal_other
       - direct_or_external
@@ -133,6 +135,8 @@ privacy_boundary:
     - normalized_top_candidate_model_and_stage
     - normalized_smallest_and_shortest_candidate_models
     - ratio_stage_filter_presence_flags
+    - selector_handoff_flag
+    - normalized_selector_candidate_stage
   ga4_must_not_receive:
     - customer_name
     - email_address
@@ -147,6 +151,7 @@ privacy_boundary:
     - ratio_stage_selector_raw_output_speed
     - ratio_stage_selector_raw_diameter_length_or_torque_values
     - ratio_stage_selector_raw_ratio_tolerance
+    - selector_candidate_ratio_from_url
   public_repository_must_not_store:
     - customer_records
     - private_lead_status
