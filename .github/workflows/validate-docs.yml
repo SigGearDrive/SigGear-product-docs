@@ -16,6 +16,7 @@ on:
       - "scripts/export_traceparts_catalog.py"
       - "scripts/export_3dfindit_onboarding.py"
       - "scripts/validate_utm_links.py"
+      - "scripts/validate_ratio_stage_selector_data.py"
       - "scripts/utm_utils.py"
       - "hooks/**"
       - ".github/workflows/validate-docs.yml"
@@ -36,6 +37,7 @@ on:
       - "scripts/export_traceparts_catalog.py"
       - "scripts/export_3dfindit_onboarding.py"
       - "scripts/validate_utm_links.py"
+      - "scripts/validate_ratio_stage_selector_data.py"
       - "scripts/utm_utils.py"
       - "hooks/**"
       - ".github/workflows/validate-docs.yml"
@@ -79,6 +81,9 @@ jobs:
 
       - name: Validate UTM taxonomy
         run: python scripts/validate_utm_links.py
+
+      - name: Validate planetary ratio-stage selector data
+        run: python scripts/validate_ratio_stage_selector_data.py
 
       - name: Test external catalog export
         run: python scripts/export_external_catalog.py --output /tmp/siggear-planetary-gearboxes.csv
