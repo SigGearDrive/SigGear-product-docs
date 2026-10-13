@@ -101,11 +101,17 @@ normalized_website_dimensions:
       - google_organic
       - ai_referral
       - traceparts
+      - directindustry
+      - globalspec
       - youtube
+      - linkedin
       - instagram
       - tiktok
-      - direct
+      - partner
+      - exhibition
       - referral
+      - direct_outreach
+      - existing_customer
       - other
 
 privacy_boundary:
