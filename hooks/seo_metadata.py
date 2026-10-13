@@ -13,6 +13,7 @@ from __future__ import annotations
 import json
 import subprocess
 from datetime import datetime, timezone
+from html import escape as html_escape
 from pathlib import Path
 from urllib.parse import urljoin
 from xml.etree import ElementTree
@@ -89,6 +90,64 @@ def _absolute(config, relative: str) -> str:
 def _page_title(page) -> str:
     meta_title = page.meta.get("title") if getattr(page, "meta", None) else None
     return str(meta_title or page.title or "").split(" | ")[0].strip()
+
+
+def _real_evidence_image(page, config) -> dict | None:
+    """Return the approved real-image asset for planetary evidence pages.
+
+    Only images that are already published as real SigGear product evidence are
+    surfaced here. Application illustrations or inferred customer-case images
+    are intentionally excluded.
+    """
+    src = page.file.src_uri.replace("\\", "/")
+
+    if src in {"index.md", PLANETARY_SERIES_SRC}:
+        relative = "assets/images/evidence/planetary/8-42mm-planetary-gearbox-family-real.webp"
+        alt = "Real SigGear 8P-42P miniature and compact planetary gearbox family lineup"
+    else:
+        data = _product_by_src.get(src)
+        if not data or data.get("product_family") != "planetary_gearbox":
+            return None
+        model = str(data.get("model") or "").strip()
+        if not model:
+            return None
+        slug = model.lower()
+        relative = (
+            f"assets/images/products/planetary-gearboxes/{slug}/"
+            f"{slug}-real-product-evidence.webp"
+        )
+        alt = f"Real SigGear {model} planetary gearbox with dimensional reference"
+
+    if not (DOCS_DIR / relative).is_file():
+        return None
+
+    return {
+        "url": _absolute(config, relative),
+        "alt": alt,
+    }
+
+
+def _image_object(image: dict) -> dict:
+    return {
+        "@type": "ImageObject",
+        "@id": image["url"] + "#primaryimage",
+        "url": image["url"],
+        "contentUrl": image["url"],
+        "caption": image["alt"],
+        "representativeOfPage": True,
+    }
+
+
+def _image_meta_tags(image: dict) -> list[str]:
+    url = html_escape(str(image["url"]), quote=True)
+    alt = html_escape(str(image["alt"]), quote=True)
+    return [
+        f'<meta property="og:image" content="{url}">',
+        f'<meta property="og:image:alt" content="{alt}">',
+        '<meta name="twitter:card" content="summary_large_image">',
+        f'<meta name="twitter:image" content="{url}">',
+        f'<meta name="twitter:image:alt" content="{alt}">',
+    ]
 
 
 def _list_item(position: int, name: str, url: str) -> dict:
@@ -221,6 +280,12 @@ def _model_page_schema(page, config) -> dict | None:
         item_page["description"] = str(description)
         model["description"] = str(description)
 
+    image = _real_evidence_image(page, config)
+    if image:
+        image_object = _image_object(image)
+        item_page["primaryImageOfPage"] = image_object
+        model["image"] = image_object
+
     return item_page
 
 
@@ -256,7 +321,7 @@ def _planetary_series_schema(page, config) -> dict | None:
             }
         )
 
-    return {
+    schema = {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
         "@id": url + "#webpage",
@@ -276,6 +341,12 @@ def _planetary_series_schema(page, config) -> dict | None:
             "itemListElement": items,
         },
     }
+
+    image = _real_evidence_image(page, config)
+    if image:
+        schema["primaryImageOfPage"] = _image_object(image)
+
+    return schema
 
 
 def _json_script(schema: dict, marker: str) -> str:
@@ -301,6 +372,10 @@ def on_post_page(output: str, page, config, **kwargs) -> str:
     planetary_series = _planetary_series_schema(page, config)
     if planetary_series:
         blocks.append(_json_script(planetary_series, "planetary-series"))
+
+    image = _real_evidence_image(page, config)
+    if image:
+        blocks.extend(_image_meta_tags(image))
 
     if not blocks or "</head>" not in output:
         return output
