@@ -14,8 +14,11 @@ from pathlib import Path
 
 import yaml
 
+from utm_utils import tracked_url
+
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG_PATH = ROOT / "data" / "external-catalogs" / "planetary-gearboxes.yml"
+FINDIT_PATH = ROOT / "data" / "external-catalogs" / "platforms" / "3dfindit.yml"
 
 FIELDS = [
     "Brand",
@@ -57,6 +60,8 @@ def docs_url(base: str, path: str) -> str:
 
 def build_rows() -> list[dict]:
     catalog = load_yaml(CATALOG_PATH)
+    findit = load_yaml(FINDIT_PATH)
+    tracking = findit["tracking"]
     base = catalog["url_base"]
     manufacturer = catalog["manufacturer"]["legal_name"]
     rows = []
@@ -92,10 +97,26 @@ def build_rows() -> list[dict]:
                 "Public_STEP_FileName": step_name,
                 "Public_STEP_URL": step_url,
                 "Public_CAD_Configuration": "simplified 4-stage reference",
-                "Product_Page_URL": docs_url(base, product["canonical_page"]),
-                "Datasheet_URL": docs_url(base, f"docs/engineering-resources/{slug}/datasheet.md"),
-                "Mechanical_Interface_URL": docs_url(
-                    base, f"docs/engineering-resources/{slug}/mechanical-interface.md"
+                "Product_Page_URL": tracked_url(
+                    docs_url(base, product["canonical_page"]),
+                    source=tracking["utm_source"],
+                    medium=tracking["utm_medium"],
+                    campaign=tracking["utm_campaign"],
+                    content=f"{slug}_product_page",
+                ),
+                "Datasheet_URL": tracked_url(
+                    docs_url(base, f"docs/engineering-resources/{slug}/datasheet.md"),
+                    source=tracking["utm_source"],
+                    medium=tracking["utm_medium"],
+                    campaign=tracking["utm_campaign"],
+                    content=f"{slug}_datasheet",
+                ),
+                "Mechanical_Interface_URL": tracked_url(
+                    docs_url(base, f"docs/engineering-resources/{slug}/mechanical-interface.md"),
+                    source=tracking["utm_source"],
+                    medium=tracking["utm_medium"],
+                    campaign=tracking["utm_campaign"],
+                    content=f"{slug}_mechanical_interface",
                 ),
                 "Ordering_Logic": (
                     "Series reference only; final stage, ratio, shaft/interface and motor "
