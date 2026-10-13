@@ -34,7 +34,7 @@ The downloadable STEP represents the **4-stage reference configuration only** an
 | Item | Description |
 | --- | --- |
 | Model | 22P |
-| Product type | Micro planetary gearbox |
+| Product type | Miniature planetary gearbox |
 | Nominal outer diameter | 22 mm |
 | Number of stages | 1 to 4 |
 | Housing material | Steel |
