@@ -41,12 +41,17 @@
   function applyQueryPrefill() {
     try {
       var params = new URLSearchParams(window.location.search);
+      var hasContext = false;
       var queryModel = (params.get("model") || "").toUpperCase();
-      if (validModels.indexOf(queryModel) !== -1) model.value = queryModel;
+      if (validModels.indexOf(queryModel) !== -1) {
+        model.value = queryModel;
+        hasContext = true;
+      }
 
       var queryApplication = (params.get("app") || "").toLowerCase();
       if (Object.prototype.hasOwnProperty.call(applicationPrefills, queryApplication)) {
         prefilledApplicationType = queryApplication;
+        hasContext = true;
         if (!value("sg-application")) {
           document.getElementById("sg-application").value = applicationPrefills[queryApplication];
         }
@@ -55,6 +60,13 @@
       var queryPath = (params.get("path") || "").toLowerCase().replace(/-/g, "_");
       if (queryPath === "gearbox_only" || queryPath === "motor_gearbox" || queryPath === "not_sure") {
         path.value = queryPath;
+        hasContext = true;
+      }
+
+      if (hasContext && !window.location.hash) {
+        window.requestAnimationFrame(function () {
+          form.scrollIntoView({ block: "start" });
+        });
       }
     } catch (e) {
       // Leave default selections when the URL cannot be parsed.
