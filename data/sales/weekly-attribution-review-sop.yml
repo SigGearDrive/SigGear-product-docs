@@ -1,0 +1,135 @@
+schema_version: 1
+policy_id: weekly-attribution-review-sop
+scope: public_safe_weekly_operating_review
+effective_date: 2026-10-13
+
+review_cadence:
+  recommended_frequency: weekly
+  comparison_window: previous_complete_week_vs_prior_complete_week
+  attribution_baseline_date: 2026-10-13
+  note: custom inquiry events before the baseline are not comparable
+
+data_sources:
+  google_search_console:
+    metrics:
+      - impressions
+      - clicks
+      - ctr
+      - average_position
+    role: search_discovery
+  ga4:
+    metrics:
+      - sessions
+      - active_users
+      - cad_download_click
+      - engineering_brief_open_click
+      - engineering_brief_prepare_email
+    role: site_and_engineering_intent
+  pipeline:
+    metrics:
+      - new_inquiries
+      - source
+      - current_stage
+      - customer_project_stage
+    role: actual_project_records
+  stage_history:
+    event_type: Stage Transition
+    exact_transition_metrics:
+      - Qualified
+      - Sample Ordered
+      - Design-In
+    role: stage_movement
+
+weekly_sequence:
+  - step: search_discovery
+    questions:
+      - did_google_impressions_change
+      - did_clicks_change
+      - did_ctr_change
+      - did_average_position_change
+      - which_planetary_pages_gained_visibility
+  - step: engineering_intent
+    questions:
+      - were_cad_files_clicked
+      - were_engineering_briefs_opened
+      - were_prepare_email_actions_recorded
+    rule: only_compare_custom_events_from_2026_10_13_onward
+  - step: actual_pipeline
+    questions:
+      - how_many_real_inquiries_were_added
+      - which_sources_created_real_projects
+      - how_many_projects_entered_qualified
+      - how_many_entered_sample_ordered
+      - how_many_entered_design_in
+  - step: data_quality
+    questions:
+      - how_many_projects_still_have_source_other
+      - how_many_active_projects_are_missing_customer_project_stage
+    rule: never_guess_missing_source_or_project_stage
+  - step: next_week_decision
+    priority_rule: qualified_movement_over_raw_traffic
+
+comparison_rules:
+  gsc_impressions_vs_ga4_sessions: prohibited
+  prepare_email_equals_received_inquiry: false
+  website_high_intent_equals_qualified: false
+  source_other_retroactive_guessing: prohibited
+  average_position:
+    lower_is_better: true
+  low_volume_interpretation:
+    rule: treat_small_samples_as_directional_only
+
+snapshot_log:
+  purpose: append_only_external_metrics
+  columns:
+    - snapshot_id
+    - snapshot_type
+    - period_start
+    - period_end
+    - gsc_impressions
+    - gsc_clicks
+    - gsc_ctr
+    - gsc_average_position
+    - ga4_sessions
+    - ga4_active_users
+    - cad_download_clicks
+    - engineering_brief_opens
+    - prepare_email
+    - notes
+  append_rule: add_one_weekly_row_per_completed_review_period
+  do_not_overwrite_history: true
+
+first_baseline_comparison:
+  current_period: 2026-10-05_to_2026-10-11
+  previous_period: 2026-09-28_to_2026-10-04
+  current:
+    gsc_impressions: 31
+    gsc_clicks: 4
+    gsc_ctr: 0.129
+    gsc_average_position: 13.5484
+    ga4_sessions: 1
+    ga4_active_users: 1
+  previous:
+    gsc_impressions: 355
+    gsc_clicks: 6
+    gsc_ctr: 0.0169
+    gsc_average_position: 38.6197
+    ga4_sessions: 2
+    ga4_active_users: 1
+  interpretation:
+    - search_visibility_volume_fell_but_ctr_and_average_position_improved
+    - sample_size_is_too_small_for_strong_conclusions
+    - full_inquiry_attribution_was_not_live_during_these_periods
+
+weekly_output:
+  required_sections:
+    - search_discovery
+    - website_engineering_intent
+    - actual_pipeline_outcomes
+    - source_quality
+    - planetary_visibility_highlights
+    - next_week_priority
+  exclude:
+    - vanity_metrics_without_operating_decision
+    - unsupported_source_inference
+    - customer_specific_private_details
