@@ -20,8 +20,8 @@ Depending on the selected product family and project requirements, the supply sc
 - matched motor + gearbox assembly
 - an integrated drive or actuator where motor, reducer, sensing and control are reviewed together
 
-[Gearbox Only — I Already Have a Motor](mailto:wangwanrong@siggear.com?subject=Gearbox%20Only%20Review%20-%20Existing%20Motor&body=Existing%20motor%20model%20%2F%20drawing%3A%20%0AMotor%20speed%3A%20%0ARequired%20output%20speed%20or%20ratio%3A%20%0AMaximum%20gearbox%20%2F%20assembly%20size%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button .md-button--primary }
-[Motor + Gearbox — Select the Complete Drive](mailto:wangwanrong@siggear.com?subject=Motor%20%2B%20Gearbox%20Engineering%20Review&body=Application%20%2F%20what%20needs%20to%20move%3A%20%0ARequired%20output%20speed%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0AMaximum%20diameter%20and%20total%20length%3A%20%0AOperating%20voltage%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button .md-button--primary }
+[Existing Motor — Start Project Brief](../request-cad-sample-quote.md?path=gearbox_only){ .md-button .md-button--primary }
+[Need Motor + Gearbox — Start Project Brief](../request-cad-sample-quote.md?path=motor_gearbox){ .md-button }
 [Full Engineering Review Guide](../request-cad-sample-quote.md){ .md-button }
 
 ## Planetary Gearbox for BLDC, DC, Stepper or Servo Motors
@@ -64,6 +64,40 @@ The published 8P–42P planetary gearbox platforms provide the starting frame si
 
 [Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
+
+## 8P–42P Existing-Motor Design-In Workflow
+
+For an existing motor, SigGear does not start by assuming a standard motor adapter. The first review narrows five engineering gates:
+
+1. **Frame / envelope** — available gearbox diameter, stage-dependent gearbox length and maximum total assembly length.
+2. **Motor operating point** — actual motor speed, power and duty cycle against the selected gearbox input-speed and load limits.
+3. **Output target** — required output speed or preliminary ratio, continuous load and short-duration peak load.
+4. **Mechanical interface** — motor shaft diameter and usable length, shaft feature, locating pilot, mounting-hole pattern and the required gearbox input arrangement.
+5. **Design-In release** — use the public STEP for preliminary packaging, then confirm the selected stage / ratio / motor interface before controlled configuration CAD or drawing release.
+
+A frame-size match does **not** prove motor compatibility. The motor and gearbox interface must be reviewed for the exact project.
+
+| Frame | Diameter | Datasheet | Mechanical interface | Existing-motor project brief |
+| --- | ---: | --- | --- | --- |
+| 8P | 8 mm | [8P Datasheet](../engineering-resources/8p/datasheet.md) | [8P Interface](../engineering-resources/8p/mechanical-interface.md) | [Start 8P review](../request-cad-sample-quote.md?model=8P&path=gearbox_only) |
+| 10P | 10 mm | [10P Datasheet](../engineering-resources/10p/datasheet.md) | [10P Interface](../engineering-resources/10p/mechanical-interface.md) | [Start 10P review](../request-cad-sample-quote.md?model=10P&path=gearbox_only) |
+| 12P | 12 mm | [12P Datasheet](../engineering-resources/12p/datasheet.md) | [12P Interface](../engineering-resources/12p/mechanical-interface.md) | [Start 12P review](../request-cad-sample-quote.md?model=12P&path=gearbox_only) |
+| 14P | 14 mm | [14P Datasheet](../engineering-resources/14p/datasheet.md) | [14P Interface](../engineering-resources/14p/mechanical-interface.md) | [Start 14P review](../request-cad-sample-quote.md?model=14P&path=gearbox_only) |
+| 16P | 16 mm | [16P Datasheet](../engineering-resources/16p/datasheet.md) | [16P Interface](../engineering-resources/16p/mechanical-interface.md) | [Start 16P review](../request-cad-sample-quote.md?model=16P&path=gearbox_only) |
+| 20P | 20 mm | [20P Datasheet](../engineering-resources/20p/datasheet.md) | [20P Interface](../engineering-resources/20p/mechanical-interface.md) | [Start 20P review](../request-cad-sample-quote.md?model=20P&path=gearbox_only) |
+| 22P | 22 mm | [22P Datasheet](../engineering-resources/22p/datasheet.md) | [22P Interface](../engineering-resources/22p/mechanical-interface.md) | [Start 22P review](../request-cad-sample-quote.md?model=22P&path=gearbox_only) |
+| 24P | 24 mm | [24P Datasheet](../engineering-resources/24p/datasheet.md) | [24P Interface](../engineering-resources/24p/mechanical-interface.md) | [Start 24P review](../request-cad-sample-quote.md?model=24P&path=gearbox_only) |
+| 28P | 28 mm | [28P Datasheet](../engineering-resources/28p/datasheet.md) | [28P Interface](../engineering-resources/28p/mechanical-interface.md) | [Start 28P review](../request-cad-sample-quote.md?model=28P&path=gearbox_only) |
+| 32P | 32 mm | [32P Datasheet](../engineering-resources/32p/datasheet.md) | [32P Interface](../engineering-resources/32p/mechanical-interface.md) | [Start 32P review](../request-cad-sample-quote.md?model=32P&path=gearbox_only) |
+| 36P | 36 mm | [36P Datasheet](../engineering-resources/36p/datasheet.md) | [36P Interface](../engineering-resources/36p/mechanical-interface.md) | [Start 36P review](../request-cad-sample-quote.md?model=36P&path=gearbox_only) |
+| 42P | 42 mm | [42P Datasheet](../engineering-resources/42p/datasheet.md) | [42P Interface](../engineering-resources/42p/mechanical-interface.md) | [Start 42P review](../request-cad-sample-quote.md?model=42P&path=gearbox_only) |
+
+[Download 8P–42P Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
+
+**Current public motor-integration depth:** 32P and 42P have dedicated public Motor Integration Guides. The other frame sizes have public Datasheets and Mechanical Interface references, but this does **not** mean a standardized motor adapter has been released for every frame.
+
+[32P Motor Integration Guide](../engineering-resources/32p/motor-integration.md){ .md-button }
+[42P Motor Integration Guide](../engineering-resources/42p/motor-integration.md){ .md-button }
 
 ## Real Compact Motor + Gearbox Reference
 
