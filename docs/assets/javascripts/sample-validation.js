@@ -13,6 +13,7 @@
   var actionStatus = document.getElementById("sg-sample-action-status");
   var datasheetLink = document.getElementById("sg-sample-datasheet");
   var interfaceLink = document.getElementById("sg-sample-interface");
+  var designInReviewLink = document.getElementById("sg-sample-design-in-review");
 
   var validModels = ["8P","10P","12P","14P","16P","20P","22P","24P","28P","32P","36P","42P"];
   var candidate = null;
@@ -64,6 +65,16 @@
     return "validation_in_progress";
   }
 
+  function updateDesignInHandoff() {
+    if (!candidate || !designInReviewLink) return;
+    designInReviewLink.href = "../design-in-checklist/?model=" + encodeURIComponent(candidate.model) +
+      "&stage=" + encodeURIComponent(candidate.stage) +
+      "&ratio=" + encodeURIComponent(candidate.ratio) +
+      "&sample_status=" + encodeURIComponent(validationState()) +
+      "&sample_outcome=" + encodeURIComponent(value("sg-sample-outcome") || "not_decided") +
+      "&source=sample_validation";
+  }
+
   function updateReadiness() {
     var state = validationState();
     if (state === "engineering_iteration_required") {
@@ -76,6 +87,7 @@
       readiness.textContent =
         "Validation in Progress — record each step before submitting the configuration for Design-In review.";
     }
+    updateDesignInHandoff();
   }
 
   function buildSummary() {

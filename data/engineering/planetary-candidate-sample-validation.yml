@@ -84,3 +84,18 @@ truth_boundary:
   ready_to_submit_for_design_in_review_is_design_in_approval: false
   sample_validation_replaces_controlled_drawing_review: false
   sample_validation_replaces_production_release: false
+
+design_in_review_handoff:
+  destination: "/engineering-center/design-in-checklist/"
+  query_parameters:
+    - model
+    - stage
+    - published_ratio
+    - normalized_sample_validation_status
+    - normalized_sample_validation_outcome
+    - source=sample_validation
+  must_not_include:
+    - customer_test_operating_condition
+    - customer_issue_notes
+    - measured_values
+    - customer_identity

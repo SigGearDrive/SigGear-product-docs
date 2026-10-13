@@ -9,6 +9,80 @@ Use this checklist when a SigGear product has passed preliminary evaluation and 
 
 The purpose is to prevent a sample configuration from being copied into a final design without confirming the exact mechanical, electrical and operating conditions.
 
+## Planetary Design-In Review Decision
+
+If you arrived from the Sample Validation Workflow with a validated 8P–42P planetary candidate, this panel rechecks the **model + stage + published ratio** and interprets only the normalized sample-validation status / outcome.
+
+<div id="sg-design-in-review" class="siggear-design-in-review" hidden>
+  <p id="sg-design-in-review-status">Checking the candidate and sample-review context...</p>
+
+  <div id="sg-design-in-review-content" hidden>
+    <div class="siggear-design-in-summary">
+      <strong id="sg-design-in-candidate-name"></strong>
+      <span id="sg-design-in-candidate-detail"></span>
+    </div>
+
+    <div class="siggear-design-in-decision">
+      <strong>Automated preliminary decision</strong>
+      <p id="sg-design-in-decision-status"></p>
+      <p class="siggear-design-in-note">This automated status is only a workflow routing aid. It does not approve Design-In, freeze the design, approve pilot production or release the product for mass production.</p>
+    </div>
+
+    <div class="siggear-selector-table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Input</th>
+            <th>Normalized value</th>
+            <th>Meaning</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Candidate</td>
+            <td id="sg-design-in-candidate-cell"></td>
+            <td>Revalidated against current published ratio-stage data.</td>
+          </tr>
+          <tr>
+            <td>Sample validation status</td>
+            <td id="sg-design-in-sample-status"></td>
+            <td>Standardized customer-side sample workflow result.</td>
+          </tr>
+          <tr>
+            <td>Engineering outcome</td>
+            <td id="sg-design-in-sample-outcome"></td>
+            <td>Standardized next-direction selected in the sample workflow.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Manual Engineering Milestones</h3>
+
+    <div class="siggear-manual-milestones">
+      <div>
+        <strong>Design Frozen — Human confirmation required</strong>
+        <p>Do not treat the design as frozen until the exact configuration, controlled drawing revision, validated operating point, applicable motor / driver / firmware configuration and remaining risks have been reviewed and confirmed by the responsible engineering / project teams.</p>
+      </div>
+      <div>
+        <strong>Pilot Preparation Ready — Human confirmation required</strong>
+        <p>Do not treat the project as pilot-ready until Design Freeze has been confirmed and the pilot quantity, schedule, inspection requirements, change-control expectations and project-specific documentation needs have been agreed.</p>
+      </div>
+    </div>
+
+    <div class="siggear-form-actions">
+      <button type="button" id="sg-design-in-email" class="md-button md-button--primary">Prepare Design-In Review Email</button>
+      <a id="sg-design-in-datasheet" class="md-button" href="#">Open Datasheet</a>
+      <a id="sg-design-in-interface" class="md-button" href="#">Open Mechanical Interface</a>
+      <a class="md-button" href="../../custom-engineering/prototype-to-production/">Prototype → Pilot → Production</a>
+    </div>
+
+    <p id="sg-design-in-action-status" class="siggear-form-status" aria-live="polite"></p>
+  </div>
+</div>
+
+The Design-In decision panel does not receive the customer's free-text test notes, measured torque / speed / temperature values or other private validation details through the URL.
+
 ## 1. Product Identity
 
 Confirm:
@@ -114,6 +188,18 @@ For a project moving beyond prototype, discuss:
 - any project-specific quality documentation
 
 Availability and scope depend on the selected product and project requirements.
+
+## Design-In Review Decision States
+
+| Status | Meaning | How it is set |
+| --- | --- | --- |
+| **Continue Evaluation** | Sample evidence or the next-direction decision is not complete enough for formal Design-In review. | Website may route automatically from the normalized sample workflow. |
+| **Engineering Revision Required** | A sample issue or requested configuration change must be reviewed before Design-In. | Website may route automatically from the normalized sample workflow. |
+| **Design-In Review Ready** | The validated candidate and sample workflow are ready to be submitted for formal engineering Design-In review. | Website may route automatically, but this is **not Design-In approval**. |
+| **Design Frozen** | Exact configuration and controlled revision have been reviewed and formally confirmed for the project. | **Human confirmation required.** |
+| **Pilot Preparation Ready** | Design Freeze is confirmed and pilot quantity, schedule, inspection and change-control inputs are agreed. | **Human confirmation required.** |
+
+The website never automatically promotes a project to **Design Frozen**, **Pilot Preparation Ready** or **Production Released**.
 
 ## Design-In Gate
 

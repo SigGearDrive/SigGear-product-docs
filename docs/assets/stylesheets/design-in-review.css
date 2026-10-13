@@ -1,0 +1,58 @@
+.siggear-design-in-review {
+  margin: 1.2rem 0 1.8rem;
+  padding: 1.2rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.45rem;
+  background: var(--md-default-bg-color);
+}
+
+.siggear-design-in-summary,
+.siggear-design-in-decision {
+  margin: 0.8rem 0 1rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+  background: var(--md-code-bg-color);
+}
+
+.siggear-design-in-summary strong,
+.siggear-design-in-summary span {
+  display: block;
+}
+
+.siggear-design-in-summary span {
+  margin-top: 0.35rem;
+}
+
+.siggear-design-in-decision p {
+  margin: 0.35rem 0 0;
+}
+
+.siggear-design-in-note {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.9em;
+}
+
+.siggear-manual-milestones {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 0.8rem 0 1rem;
+}
+
+.siggear-manual-milestones > div {
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+  background: var(--md-code-bg-color);
+}
+
+.siggear-manual-milestones p {
+  margin: 0.35rem 0 0;
+}
+
+@media (max-width: 54rem) {
+  .siggear-manual-milestones {
+    grid-template-columns: 1fr;
+  }
+}
