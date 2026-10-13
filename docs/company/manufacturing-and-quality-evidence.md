@@ -54,6 +54,7 @@ Model-specific technical values should be taken from the applicable controlled d
 
 [8–42 mm Planetary Gearbox Series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Planetary Engineering Resources](../engineering-resources/planetary-gearboxes/index.md){ .md-button }
+[Testing, Metrology & Validation Evidence](../engineering-center/testing-and-validation-evidence.md){ .md-button }
 [Engineering Center](../engineering-center/index.md){ .md-button }
 [Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
 
