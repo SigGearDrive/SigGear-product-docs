@@ -1,10 +1,10 @@
 ---
-title: Miniature Planetary Gear Motors for Optical & Camera Positioning | SigGear
-description: Select miniature planetary gearboxes and gear motors for focus, zoom, filter-wheel, sensor and camera-positioning mechanisms by backlash, vibration, speed, feedback and packaging.
+title: Camera Module, Focus & Zoom Gear Motors | SigGear
+description: Engineering guide for compact planetary gearboxes and gear motors in camera modules, focus, zoom, pan-tilt and sensor-positioning mechanisms, covering backlash, vibration, speed, feedback and packaging.
 ---
 
 
-# Miniature Planetary Gear Motors for Optical, Imaging and Camera Positioning
+# Gear Motors for Camera Modules, Focus, Zoom and Sensor Positioning
 
 
 [Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
