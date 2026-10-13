@@ -25,7 +25,9 @@ Diameter is only the first filter. Final selection still requires the exact rati
 
 **Gearbox only:** If you already have a motor, provide its model or drawing, operating shaft speed, shaft dimensions, mounting-hole pattern, locating pilot, available axial space and required output. Motor-to-gearbox interface and operating compatibility require review.
 
-**Motor + gearbox assembly:** If the motor has not been selected, provide the power supply, desired output motion, load or torque, available diameter and total length, and operating cycle. SigGear can evaluate a motor-matched gearbox assembly.
+**Motor + gearbox assembly:** If the motor has not been selected, provide the power supply, desired output motion, load or torque, available diameter and total length, and operating cycle. SigGear can evaluate a **motor with planetary gearbox** as a complete matched assembly.
+
+[Open Motor + Planetary Gearbox Integration Guide](../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
 ## 2. Estimate the Reduction Ratio From Loaded Speed
 

@@ -7,9 +7,10 @@ description: Browse SigGear planetary gearbox models and engineering resources. 
 
 This page is the **navigation index** for SigGear planetary gearbox models and related engineering resources.
 
-For commercial product comparison, frame-size selection, gearbox-only supply, motor matching and public STEP access, use the dedicated **8–42 mm Miniature & Compact Planetary Gearbox Series** landing page.
+For commercial product comparison, frame-size selection, gearbox-only supply, motor matching and public STEP access, use the dedicated **8–42 mm Miniature & Compact Planetary Gearbox Series** landing page. If the project needs a **motor with planetary gearbox** rather than gearbox-only supply, use the Motor + Gearbox Integration path to review the complete operating point and motor interface.
 
 [Compare the 8–42 mm Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Motor + Planetary Gearbox Integration](../../custom-engineering/motor-gearbox-integration.md){ .md-button }
 [Download Public 4-Stage STEP CAD](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Start Engineering Project Brief](../../request-cad-sample-quote.md){ .md-button }
 [How to Select a Miniature Planetary Gearbox](../../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }

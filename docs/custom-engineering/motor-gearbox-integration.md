@@ -1,9 +1,9 @@
 ---
-title: Motor + Gearbox Integration & Custom Gear Motor Engineering | SigGear
-description: Engineering support for existing motors or complete custom gear motor and gearmotor solutions, including ratio, shaft, mounting and operating-point matching.
+title: Motor with Planetary Gearbox | Motor + Gearbox Integration Engineering | SigGear
+description: Engineering support for motor with planetary gearbox projects, gearbox matching for existing motors, and complete motor + gearbox assemblies using SigGear 8–42 mm planetary platforms.
 ---
 
-# Motor + Gearbox Integration Engineering
+# Motor with Planetary Gearbox Integration Engineering
 
 ## Start With the Motor, the Mechanism or the Required Output
 
@@ -23,6 +23,38 @@ Depending on the selected product family and project requirements, the supply sc
 [Gearbox Only — I Already Have a Motor](mailto:wangwanrong@siggear.com?subject=Gearbox%20Only%20Review%20-%20Existing%20Motor&body=Existing%20motor%20model%20%2F%20drawing%3A%20%0AMotor%20speed%3A%20%0ARequired%20output%20speed%20or%20ratio%3A%20%0AMaximum%20gearbox%20%2F%20assembly%20size%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button .md-button--primary }
 [Motor + Gearbox — Select the Complete Drive](mailto:wangwanrong@siggear.com?subject=Motor%20%2B%20Gearbox%20Engineering%20Review&body=Application%20%2F%20what%20needs%20to%20move%3A%20%0ARequired%20output%20speed%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0AMaximum%20diameter%20and%20total%20length%3A%20%0AOperating%20voltage%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button .md-button--primary }
 [Full Engineering Review Guide](../request-cad-sample-quote.md){ .md-button }
+
+## Motor with Planetary Gearbox — Two Supply Paths
+
+For miniature and compact OEM drives, a **motor with planetary gearbox** can begin from either side of the system:
+
+### Gearbox for an Existing Motor
+
+The customer keeps the existing motor and SigGear reviews:
+
+- motor shaft and mounting interface
+- loaded motor speed
+- required output speed / ratio
+- continuous and peak load
+- gearbox diameter and stage-dependent length
+- output shaft and mounting requirements
+
+### Complete Motor + Planetary Gearbox Assembly
+
+If the motor is still open, SigGear can review a **motor + planetary gearbox assembly** from:
+
+- operating voltage
+- required output speed
+- load or torque
+- installation diameter and total length
+- duty cycle
+- shaft / mounting requirements
+- quantity and project stage
+
+The published 8P–42P planetary gearbox platforms provide the starting frame sizes. Final motor selection and performance depend on the complete operating point and configuration.
+
+[Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 
 ## Real Compact Motor + Gearbox Reference
 
