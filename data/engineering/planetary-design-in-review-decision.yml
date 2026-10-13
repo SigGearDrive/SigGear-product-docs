@@ -1,0 +1,93 @@
+schema_version: 1
+policy_id: planetary-design-in-review-decision-layer
+updated: "2026-10-13"
+scope: public_safe_design_in_routing
+
+objective: >
+  Route a validated 8P-42P planetary candidate and normalized sample-validation
+  outcome into a preliminary Design-In review status without allowing the website
+  to approve Design Freeze, pilot readiness or production release.
+
+handoff:
+  source: sample_validation
+  query_parameters:
+    - model
+    - stage
+    - ratio
+    - sample_status
+    - sample_outcome
+    - source=sample_validation
+  prohibited_query_parameters:
+    - customer_test_notes
+    - measured_torque
+    - measured_speed
+    - temperature
+    - noise_or_vibration_text
+    - fault_description
+    - customer_identity
+
+candidate_validation:
+  source: "/assets/data/planetary-ratio-stage-data.json"
+  required: true
+  invalid_candidate_behavior: do_not_activate_design_in_decision_panel
+
+automated_preliminary_status:
+  continue_evaluation:
+    when:
+      - sample_status_is_validation_in_progress
+      - sample_status_is_ready_but_outcome_is_not_decided
+      - sample_status_is_ready_but_outcome_requires_more_testing
+  engineering_revision_required:
+    when:
+      - sample_status_is_engineering_iteration_required
+      - sample_status_is_ready_but_outcome_requests_ratio_change
+      - sample_status_is_ready_but_outcome_requests_motor_or_input_change
+      - sample_status_is_ready_but_outcome_requests_mechanical_interface_revision
+  design_in_review_ready:
+    when:
+      - sample_status_is_ready_to_submit_for_design_in_review
+      - sample_outcome_is_keep_current_configuration_or_ready_for_design_in_review
+    boundary: >
+      Design-In Review Ready means the project is ready to be submitted for formal
+      engineering review. It does not mean Design-In is approved or the design is frozen.
+
+manual_milestones:
+  design_frozen:
+    website_auto_decision: prohibited
+    human_confirmation_required: true
+    minimum_review_topics:
+      - exact_configuration
+      - controlled_drawing_revision
+      - validated_operating_condition
+      - motor_driver_firmware_if_applicable
+      - remaining_risks_closed
+  pilot_preparation_ready:
+    website_auto_decision: prohibited
+    human_confirmation_required: true
+    prerequisites:
+      - design_frozen_manually_confirmed
+      - pilot_quantity
+      - schedule
+      - inspection_requirements
+      - change_control_expectations
+      - project_specific_documentation
+
+analytics:
+  may_receive:
+    - normalized_model
+    - normalized_stage
+    - normalized_sample_validation_status
+    - normalized_sample_validation_outcome
+    - normalized_design_in_decision_status
+  must_not_receive:
+    - candidate_ratio
+    - customer_test_notes
+    - measured_values
+    - controlled_drawing_content
+    - customer_identity
+
+truth_boundary:
+  design_in_review_ready_is_design_in_approval: false
+  design_frozen_can_be_set_automatically: false
+  pilot_preparation_ready_can_be_set_automatically: false
+  production_release_can_be_set_automatically: false
