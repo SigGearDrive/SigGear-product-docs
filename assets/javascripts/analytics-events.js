@@ -269,16 +269,32 @@
       var internalDestination = new URL(href, window.location.href);
       if (internalDestination.hostname === window.location.hostname) {
         if (internalDestination.pathname.endsWith("/request-cad-sample-quote/")) {
-          var briefModel = (internalDestination.searchParams.get("model") || "").toUpperCase();
-          if (/^(8P|10P|12P|14P|16P|20P|22P|24P|28P|32P|36P|42P)$/.test(briefModel)) {
-            sendEvent("engineering_brief_open_click", {
-              page_path: pagePath(),
-              inquiry_model: briefModel,
-              destination_path: internalDestination.pathname,
-              link_text: label
-            });
-            return;
+          var briefModelRaw = (internalDestination.searchParams.get("model") || "").toUpperCase();
+          var briefModel = /^(8P|10P|12P|14P|16P|20P|22P|24P|28P|32P|36P|42P)$/.test(briefModelRaw) ?
+            briefModelRaw : "not_specified";
+          var briefApplication = (internalDestination.searchParams.get("app") || "").toLowerCase();
+          var validBriefApplications = [
+            "electric_pruning_shears",
+            "electric_curtain_blind",
+            "smart_toilet_bidet",
+            "dexterous_hand_gripper"
+          ];
+          if (validBriefApplications.indexOf(briefApplication) === -1) {
+            briefApplication = "not_specified";
           }
+          var briefPath = (internalDestination.searchParams.get("path") || "not_sure").toLowerCase().replace(/-/g, "_");
+          if (["gearbox_only", "motor_gearbox", "not_sure"].indexOf(briefPath) === -1) {
+            briefPath = "not_sure";
+          }
+          sendEvent("engineering_brief_open_click", {
+            page_path: pagePath(),
+            inquiry_model: briefModel,
+            inquiry_application: briefApplication,
+            inquiry_type: briefPath,
+            destination_path: internalDestination.pathname,
+            link_text: label
+          });
+          return;
         }
 
         var priorityApplication = priorityApplicationFromPath(internalDestination.pathname);
