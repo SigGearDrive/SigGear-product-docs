@@ -98,6 +98,10 @@ These guides connect real application requirements to the 8–42 mm planetary ge
 [Electric Curtain / Blind / Window Opener](../../applications/electric-curtain-blind-window-opener-gear-motors.md){ .md-button }
 [Smart Toilet & Bidet](../../applications/smart-toilet-bidet-planetary-gear-motors.md){ .md-button }
 [Dexterous Hand / Robot Gripper](../../applications/robot-gripper-gear-motors.md){ .md-button }
+[Smart Lock / Access Control](../../applications/access-control-smart-lock-security-gear-motors.md){ .md-button }
+[Pump / Valve / Dosing](../../applications/pump-valve-fluid-control-gear-motors.md){ .md-button }
+[Camera Module / Focus / Zoom](../../applications/optical-imaging-camera-module-gear-motors.md){ .md-button }
+[Coffee / Dosing / Dispensing](../../applications/food-beverage-coffee-equipment-gear-motors.md){ .md-button }
 
 ## Motor Integration
 
