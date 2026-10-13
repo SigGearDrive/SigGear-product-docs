@@ -189,6 +189,18 @@ For a project moving beyond prototype, discuss:
 
 Availability and scope depend on the selected product and project requirements.
 
+## Design-In Review Decision States
+
+| Status | Meaning | How it is set |
+| --- | --- | --- |
+| **Continue Evaluation** | Sample evidence or the next-direction decision is not complete enough for formal Design-In review. | Website may route automatically from the normalized sample workflow. |
+| **Engineering Revision Required** | A sample issue or requested configuration change must be reviewed before Design-In. | Website may route automatically from the normalized sample workflow. |
+| **Design-In Review Ready** | The validated candidate and sample workflow are ready to be submitted for formal engineering Design-In review. | Website may route automatically, but this is **not Design-In approval**. |
+| **Design Frozen** | Exact configuration and controlled revision have been reviewed and formally confirmed for the project. | **Human confirmation required.** |
+| **Pilot Preparation Ready** | Design Freeze is confirmed and pilot quantity, schedule, inspection and change-control inputs are agreed. | **Human confirmation required.** |
+
+The website never automatically promotes a project to **Design Frozen**, **Pilot Preparation Ready** or **Production Released**.
+
 ## Design-In Gate
 
 Before treating a product as design-in ready, the project should be able to answer:
