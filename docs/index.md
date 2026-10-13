@@ -13,8 +13,7 @@ The 12 published planetary frame sizes have model-specific Datasheets, Mechanica
 
 [Browse 8–42 mm Planetary Gearboxes](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Download Public STEP CAD](engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
-[Gearbox-Only & Motor Matching](custom-engineering/motor-gearbox-integration.md){ .md-button }
-[Request Engineering Review](request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Start Engineering Project Brief](request-cad-sample-quote.md){ .md-button .md-button--primary }
 
 ## Real Product Evidence
 
@@ -42,7 +41,7 @@ The 12 published planetary frame sizes have model-specific Datasheets, Mechanica
 
 [Compare the 12 Planetary Gearbox Frame Sizes](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Explore Custom Transmission Engineering](custom-engineering/index.md){ .md-button }
-[Send Your Drawing or Requirements](request-cad-sample-quote.md){ .md-button }
+[Project Brief — Send What You Know](request-cad-sample-quote.md){ .md-button }
 
 ## Engineer Fast Track
 
@@ -189,7 +188,7 @@ Configuration-specific controlled files remain matched to the selected product a
 - noise, thermal or service-life information where available for the selected configuration
 
 [Open the Engineering Center](engineering-center/index.md){ .md-button .md-button--primary }
-[Request CAD, Sample and Quote](request-cad-sample-quote.md){ .md-button }
+[Start Engineering Project Brief](request-cad-sample-quote.md){ .md-button }
 
 ## Knowledge Base
 
@@ -211,5 +210,5 @@ For a planetary gearbox inquiry, please share the application, available diamete
 International Sales, SigGear  
 [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
-[Request CAD, Sample and Quote](request-cad-sample-quote.md){ .md-button .md-button--primary }
-[Send Product Requirements](contact.md){ .md-button }
+[Start Engineering Project Brief](request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Contact SigGear](contact.md){ .md-button }
