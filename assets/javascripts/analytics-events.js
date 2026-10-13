@@ -124,6 +124,57 @@
     }
   }
 
+  function inquiryPageContext() {
+    var context = {
+      inquiry_model: "not_specified",
+      inquiry_application: "not_specified",
+      inquiry_type: "not_sure"
+    };
+
+    try {
+      var params = new URLSearchParams(window.location.search);
+      var model = (params.get("model") || "").toUpperCase();
+      if (/^(8P|10P|12P|14P|16P|20P|22P|24P|28P|32P|36P|42P)$/.test(model)) {
+        context.inquiry_model = model;
+      }
+
+      var application = (params.get("app") || "").toLowerCase();
+      if ([
+        "electric_pruning_shears",
+        "electric_curtain_blind",
+        "smart_toilet_bidet",
+        "dexterous_hand_gripper"
+      ].indexOf(application) !== -1) {
+        context.inquiry_application = application;
+      }
+
+      var inquiryType = (params.get("path") || "not_sure").toLowerCase().replace(/-/g, "_");
+      if (["gearbox_only", "motor_gearbox", "not_sure"].indexOf(inquiryType) !== -1) {
+        context.inquiry_type = inquiryType;
+      }
+    } catch (e) {
+      // Keep normalized defaults.
+    }
+
+    return context;
+  }
+
+  function inquiryOriginGroup() {
+    try {
+      var ref = document.referrer ? new URL(document.referrer) : null;
+      if (!ref || ref.hostname !== window.location.hostname) return "direct_or_external";
+      var refPath = ref.pathname || "";
+      if (refPath.indexOf("/engineering-resources/") !== -1) return "engineering_resource";
+      if (/\/products\/planetary-gearboxes\/\d{1,2}p-planetary-gearbox\//i.test(refPath)) return "product_model";
+      if (refPath.indexOf("/products/planetary-gearboxes/") !== -1) return "planetary_series";
+      if (refPath.indexOf("/applications/") !== -1) return "application";
+      if (refPath === "/" || /\/SigGear-product-docs\/$/.test(refPath)) return "homepage";
+      return "internal_other";
+    } catch (e) {
+      return "unknown";
+    }
+  }
+
   function debugStatus(message) {
     if (!debugEnabled()) return;
     var box = document.getElementById("siggear-ga4-debug-status");
@@ -206,7 +257,14 @@
   trackCampaignLanding();
 
   if (path.endsWith("/request-cad-sample-quote/")) {
-    sendEvent("inquiry_page_view", { page_path: path });
+    var inquiryContext = inquiryPageContext();
+    sendEvent("inquiry_page_view", {
+      page_path: path,
+      inquiry_model: inquiryContext.inquiry_model,
+      inquiry_application: inquiryContext.inquiry_application,
+      inquiry_type: inquiryContext.inquiry_type,
+      inquiry_origin: inquiryOriginGroup()
+    });
   }
 
   if (path.endsWith("/contact/")) {
