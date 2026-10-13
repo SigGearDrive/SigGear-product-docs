@@ -26,7 +26,7 @@ The approximate ratio may be estimated from **motor operating speed / target gea
 [Compare SigGear 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Read the Planetary Gearbox Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
 [Download Public 4-Stage STEP References](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
-[Request a Gearbox-Only or Motor-Matched Review](../request-cad-sample-quote.md){ .md-button }
+[Start Curtain / Blind Project Brief](../request-cad-sample-quote.md?app=electric_curtain_blind){ .md-button }
 
 Public simplified STEP files represent **4-stage reference geometry only**. Confirm the actual ratio, stage length and mechanical interface with a configuration-specific drawing. This guide covers **potential uses**; it does not claim validated SigGear customer installations.
 
@@ -297,4 +297,4 @@ International Sales / Sales Engineer, SigGear
 [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
 [Email Electric Curtain / Blind Requirements](mailto:wangwanrong@siggear.com?subject=Electric%20Curtain%20Blind%20Planetary%20Gear%20Motor%20Review&body=Application%3A%20Electric%20curtain%20%2F%20blind%20%2F%20window%20opener%0AExisting%20motor%20or%20complete%20drive%3A%20%0ALoad%20or%20required%20torque%3A%20%0ARequired%20output%20speed%20or%20opening%20time%3A%20%0AMaximum%20diameter%20and%20length%3A%20%0AOperating%20voltage%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20%0A%0APlease%20attach%20a%20mechanism%20or%20motor%20drawing%20if%20available.){ .md-button .md-button--primary }
-[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
+[Start Curtain / Blind Project Brief](../request-cad-sample-quote.md?app=electric_curtain_blind){ .md-button }
