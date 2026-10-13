@@ -1,9 +1,10 @@
 ---
-title: 42P Planetary Gearbox Mechanical Interface | Controlled 2D / CAD Reference | SigGear
-description: Public 42P mechanical-interface reference based on the current controlled 2D drawing, with full assembly CAD available after configuration review.
+title: 42 mm Planetary Gearbox Dimensions & Mechanical Interface (42P) | SigGear
+description: Public 42P 42 mm planetary gearbox dimensions and mechanical-interface reference based on the current controlled 2D drawing, including stage-dependent length, mounting and output-side interface information.
 ---
 
-# 42P Planetary Gearbox Mechanical Interface v1.1
+
+# 42 mm Planetary Gearbox Dimensions & Mechanical Interface (42P)
 
 **Status:** Public engineering evaluation reference  
 **Release date:** 2026-10-08  
