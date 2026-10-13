@@ -23,6 +23,7 @@ on:
       - "scripts/validate_design_in_review_decision.py"
       - "scripts/validate_pilot_preparation.py"
       - "scripts/validate_production_release_readiness.py"
+      - "scripts/validate_end_to_end_planetary_funnel.py"
       - "scripts/utm_utils.py"
       - "hooks/**"
       - ".github/workflows/validate-docs.yml"
@@ -48,6 +49,7 @@ on:
       - "scripts/validate_design_in_review_decision.py"
       - "scripts/validate_pilot_preparation.py"
       - "scripts/validate_production_release_readiness.py"
+      - "scripts/validate_end_to_end_planetary_funnel.py"
       - "scripts/validate_stage_specific_cad_boundary.py"
       - "scripts/validate_ratio_stage_selector_data.py"
       - "scripts/utm_utils.py"
@@ -114,6 +116,9 @@ jobs:
 
       - name: Validate production-release readiness layer
         run: python scripts/validate_production_release_readiness.py
+
+      - name: Validate end-to-end planetary funnel
+        run: python scripts/validate_end_to_end_planetary_funnel.py
 
       - name: Validate ratio-stage selector JavaScript syntax
         run: node --check docs/assets/javascripts/ratio-stage-selector.js

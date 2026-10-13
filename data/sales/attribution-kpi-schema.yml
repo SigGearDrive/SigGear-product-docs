@@ -85,6 +85,8 @@ website_funnel_kpis:
     events:
       - cad_download_click
       - priority_application_click
+      - ratio_stage_selector_run
+      - candidate_design_in_pack_view
   inquiry_intent:
     events:
       - engineering_brief_open_click
@@ -93,8 +95,22 @@ website_funnel_kpis:
   high_intent:
     events:
       - engineering_brief_prepare_email
+      - sample_validation_prepare_email
+      - design_in_review_prepare_email
+      - pilot_preparation_prepare_email
+      - production_release_prepare_email
       - planetary_inquiry_click
-    interpretation: "High-intent website behavior only. Do not count as a received inquiry."
+    interpretation: "High-intent or lifecycle website behavior only. Do not count as a received inquiry or an offline sales-stage transition."
+  engineering_lifecycle:
+    entry_events:
+      - sample_validation_candidate_view
+      - design_in_review_candidate_view
+      - pilot_preparation_review_view
+      - production_release_review_view
+    interpretation:
+      - later_stage_events_may_belong_to_existing_projects
+      - do_not_treat_lifecycle_event_counts_as_new_leads
+      - do_not_calculate_person_level_cross_stage_conversion_without_reliable_user_scope
 
 pipeline_funnel_kpis:
   total_projects:
