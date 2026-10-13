@@ -1,0 +1,133 @@
+schema_version: 1
+policy_id: attribution-kpi-schema
+scope: public_safe_channel_and_funnel_measurement
+attribution_baseline_date: 2026-10-13
+
+principles:
+  - do_not_retroactively_guess_historical_sources
+  - pipeline_source_requires_reliable_evidence_or_customer_context
+  - website_high_intent_is_not_a_received_inquiry
+  - qualified_inquiry_requires_offline_confirmation
+  - customer_project_stage_is_separate_from_siggear_sales_stage
+  - outbound_platform_clicks_do_not_prove_platform_acquisition
+
+pipeline_source_labels:
+  google_organic: "Google Search"
+  ai_geo: "ChatGPT / GEO"
+  traceparts: "TraceParts"
+  directindustry: "DirectIndustry"
+  globalspec: "GlobalSpec"
+  youtube: "YouTube"
+  linkedin: "LinkedIn"
+  instagram: "Instagram"
+  tiktok: "TikTok"
+  partner: "Partner"
+  exhibition: "Exhibition"
+  referral: "Referral"
+  direct_outreach: "Direct Outreach"
+  existing_customer: "Existing Customer"
+  other: "Other"
+
+source_evidence_rules:
+  google_organic:
+    accepted_evidence:
+      - google_organic_session_or_referrer
+      - search_console_query_or_click_context
+      - customer_says_found_via_google
+  ai_geo:
+    accepted_evidence:
+      - ai_assistant_referrer_when_available
+      - customer_says_found_via_chatgpt_gemini_perplexity_copilot_or_other_ai_search
+    note: "Pipeline label remains ChatGPT / GEO for compatibility with the existing workbook."
+  traceparts:
+    accepted_evidence:
+      - traceparts_referrer_or_lead_record
+      - customer_says_found_via_traceparts
+    not_sufficient:
+      - traceparts_catalog_click_from_siggear_site
+  directindustry:
+    accepted_evidence:
+      - directindustry_lead_or_referrer
+      - customer_says_found_via_directindustry
+  globalspec:
+    accepted_evidence:
+      - globalspec_lead_or_referrer
+      - customer_says_found_via_globalspec
+  social:
+    accepted_evidence:
+      - platform_referrer_or_campaign_tag
+      - customer_says_found_via_platform
+  other:
+    use_when:
+      - source_not_known
+      - evidence_is_ambiguous
+
+website_funnel_kpis:
+  discovery:
+    metrics:
+      - sessions
+      - active_users
+  engineering_interest:
+    events:
+      - cad_download_click
+      - priority_application_click
+  inquiry_intent:
+    events:
+      - engineering_brief_open_click
+      - inquiry_page_view
+      - engineering_brief_copy
+  high_intent:
+    events:
+      - engineering_brief_prepare_email
+      - planetary_inquiry_click
+    interpretation: "High-intent website behavior only. Do not count as a received inquiry."
+
+pipeline_funnel_kpis:
+  total_projects:
+    definition: "All project records assigned to the source."
+  qualified_plus:
+    stages:
+      - Qualified
+      - Solution Proposed
+      - Sample Ordered
+      - Sample Delivered
+      - Testing
+      - Prototype
+      - Design-In
+      - Pilot Order
+      - Mass Production
+  sample_plus:
+    stages:
+      - Sample Ordered
+      - Sample Delivered
+      - Testing
+      - Prototype
+      - Design-In
+      - Pilot Order
+      - Mass Production
+  design_in_plus:
+    stages:
+      - Design-In
+      - Pilot Order
+      - Mass Production
+  qualified_rate:
+    formula: qualified_plus / total_projects
+  design_in_rate:
+    formula: design_in_plus / total_projects
+
+customer_project_stage:
+  allowed:
+    - Concept
+    - Prototype
+    - Pilot
+    - Production
+  rule: "Populate only when the customer reveals or clearly documents the stage; do not infer from SigGear sales stage."
+
+dashboard_interpretation:
+  website_dashboard_answers:
+    - how_many_users_reached_engineering_assets
+    - how_many_users_opened_or_prepared_an_inquiry
+  pipeline_dashboard_answers:
+    - which_sources_created_real_projects
+    - which_sources_reached_qualified_sample_or_design_in
+  combined_analysis_rule: "Compare aggregate trends by source and period. Do not claim person-level cross-system attribution without reliable evidence."
