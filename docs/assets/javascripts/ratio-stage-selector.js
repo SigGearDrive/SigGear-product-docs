@@ -264,6 +264,9 @@
         "<td>" + (signals.length ? esc(signals.join(" · ")) : "Candidate") + "</td>" +
         "<td><a href=\"../../engineering-resources/" + slug + "/datasheet/\">Datasheet</a><br>" +
         "<a href=\"../../engineering-resources/" + slug + "/mechanical-interface/\">Interface</a><br>" +
+        "<a href=\"../../engineering-resources/planetary-gearboxes/candidate-design-in-pack/?model=" +
+        encodeURIComponent(item.model) + "&stage=" + encodeURIComponent(item.stage) +
+        "&ratio=" + encodeURIComponent(item.ratio) + "\">Design-In pack</a><br>" +
         "<a href=\"../../request-cad-sample-quote/?model=" + encodeURIComponent(item.model) +
         "&selection=ratio_stage_selector&candidate_stage=" + encodeURIComponent(item.stage) +
         "&candidate_ratio=" + encodeURIComponent(item.ratio) + "\">Project brief</a></td>" +
@@ -296,6 +299,9 @@
         "<td>" + fmt(item.rated, 2) + " kgf·cm</td>" +
         "<td>" + fmt(item.efficiency, 0) + "%</td>" +
         "<td><a href=\"../../engineering-resources/" + slug + "/datasheet/\">Datasheet</a><br>" +
+        "<a href=\"../../engineering-resources/planetary-gearboxes/candidate-design-in-pack/?model=" +
+        encodeURIComponent(item.model) + "&stage=" + encodeURIComponent(item.stage) +
+        "&ratio=" + encodeURIComponent(item.ratio) + "\">Design-In pack</a><br>" +
         "<a href=\"../../request-cad-sample-quote/?model=" + encodeURIComponent(item.model) +
         "&selection=ratio_stage_selector&candidate_stage=" + encodeURIComponent(item.stage) +
         "&candidate_ratio=" + encodeURIComponent(item.ratio) + "\">Project brief</a></td>" +
