@@ -126,7 +126,7 @@
     var rows = visible.map(function (item) {
       var slug = item.model.toLowerCase();
       return "<tr>" +
-        "<td><a href=\"../products/planetary-gearboxes/" + slug + "-planetary-gearbox/\">" + esc(item.model) + "</a></td>" +
+        "<td><a href=\"../../products/planetary-gearboxes/" + slug + "-planetary-gearbox/\">" + esc(item.model) + "</a></td>" +
         "<td>" + fmt(item.diameter, 0) + " mm</td>" +
         "<td>" + item.stage + "</td>" +
         "<td>" + fmt(item.ratio, 2) + ":1</td>" +
@@ -135,8 +135,8 @@
         "<td>" + fmt(item.length, 2) + " mm</td>" +
         "<td>" + fmt(item.rated, 2) + " kgf·cm</td>" +
         "<td>" + fmt(item.efficiency, 0) + "%</td>" +
-        "<td><a href=\"../engineering-resources/" + slug + "/datasheet/\">Datasheet</a><br>" +
-        "<a href=\"../request-cad-sample-quote/?model=" + encodeURIComponent(item.model) + "\">Project brief</a></td>" +
+        "<td><a href=\"../../engineering-resources/" + slug + "/datasheet/\">Datasheet</a><br>" +
+        "<a href=\"../../request-cad-sample-quote/?model=" + encodeURIComponent(item.model) + "\">Project brief</a></td>" +
         "</tr>";
     }).join("");
 
