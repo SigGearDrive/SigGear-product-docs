@@ -268,6 +268,19 @@
     try {
       var internalDestination = new URL(href, window.location.href);
       if (internalDestination.hostname === window.location.hostname) {
+        if (internalDestination.pathname.endsWith("/request-cad-sample-quote/")) {
+          var briefModel = (internalDestination.searchParams.get("model") || "").toUpperCase();
+          if (/^(8P|10P|12P|14P|16P|20P|22P|24P|28P|32P|36P|42P)$/.test(briefModel)) {
+            sendEvent("engineering_brief_open_click", {
+              page_path: pagePath(),
+              inquiry_model: briefModel,
+              destination_path: internalDestination.pathname,
+              link_text: label
+            });
+            return;
+          }
+        }
+
         var priorityApplication = priorityApplicationFromPath(internalDestination.pathname);
         if (priorityApplication) {
           sendEvent("priority_application_click", {
