@@ -1,0 +1,133 @@
+schema_version: 1
+policy_id: utm-source-taxonomy
+scope: siggear_external_links_to_product_docs
+baseline_date: 2026-10-13
+canonical_base: https://siggeardrive.github.io/SigGear-product-docs/
+
+principles:
+  - use_lowercase_exact_source_names
+  - use_lowercase_medium_names
+  - use_lowercase_snake_case_campaign_and_content
+  - do_not_add_utm_to_google_organic_search_links
+  - do_not_add_utm_to_natural_ai_assistant_referrals
+  - do_not_use_customer_names_emails_or_private_project_details_in_utm_values
+  - one_external_click_should_keep_one_stable_source
+  - platform_profile_links_use_campaign_profile
+  - product_or_video_links_use_specific_campaign_and_content
+  - directory_and_cad_platform_links_use_referral_medium
+
+ga4_channel_alignment:
+  note: "Medium values are selected to align with GA4 default channel definitions where practical."
+  social: Organic Social
+  video: Organic Video
+  referral: Referral
+  ai-assistant: AI Assistant
+  organic: Organic Search
+
+manual_sources:
+  instagram:
+    utm_source: instagram
+    utm_medium: social
+    expected_ga4_channel: Organic Social
+    pipeline_label: Instagram
+  tiktok:
+    utm_source: tiktok
+    utm_medium: video
+    expected_ga4_channel: Organic Video
+    pipeline_label: TikTok
+  youtube:
+    utm_source: youtube
+    utm_medium: video
+    expected_ga4_channel: Organic Video
+    pipeline_label: YouTube
+  linkedin:
+    utm_source: linkedin
+    utm_medium: social
+    expected_ga4_channel: Organic Social
+    pipeline_label: LinkedIn
+  traceparts:
+    utm_source: traceparts
+    utm_medium: referral
+    expected_ga4_channel: Referral
+    pipeline_label: TraceParts
+  3dfindit:
+    utm_source: 3dfindit
+    utm_medium: referral
+    expected_ga4_channel: Referral
+    pipeline_label: 3Dfindit
+  directindustry:
+    utm_source: directindustry
+    utm_medium: referral
+    expected_ga4_channel: Referral
+    pipeline_label: DirectIndustry
+  globalspec:
+    utm_source: globalspec
+    utm_medium: referral
+    expected_ga4_channel: Referral
+    pipeline_label: GlobalSpec
+
+automatic_sources_do_not_manually_tag:
+  google_organic:
+    expected_ga4_channel: Organic Search
+    reason: preserve_native_search_attribution
+  ai_assistants:
+    expected_ga4_channel: AI Assistant
+    reason: preserve_native_referrer_and_ga4_ai_assistant_detection
+
+campaigns:
+  profile:
+    purpose: persistent_profile_or_channel_link
+  planetary_content:
+    purpose: organic_social_or_video_content_about_planetary_products
+  cad_listing:
+    purpose: engineering_cad_platform_listing
+  industry_directory:
+    purpose: industrial_supplier_directory_listing
+  engineering_resource:
+    purpose: direct_link_to_datasheet_cad_or_interface_resource
+
+content_naming:
+  pattern: "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+  examples:
+    - bio
+    - channel_link
+    - 8p_internal_structure
+    - 32p_product_page
+    - 32p_datasheet
+    - 32p_mechanical_interface
+    - planetary_series
+
+ready_links:
+  instagram_bio:
+    destination: https://siggeardrive.github.io/SigGear-product-docs/
+    tracked_url: https://siggeardrive.github.io/SigGear-product-docs/?utm_source=instagram&utm_medium=social&utm_campaign=profile&utm_content=bio
+  tiktok_bio:
+    destination: https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/
+    tracked_url: https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/?utm_source=tiktok&utm_medium=video&utm_campaign=profile&utm_content=bio
+  youtube_channel:
+    destination: https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/
+    tracked_url: https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/?utm_source=youtube&utm_medium=video&utm_campaign=profile&utm_content=channel_link
+  directindustry_planetary_series:
+    destination: https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/
+    tracked_url: https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/?utm_source=directindustry&utm_medium=referral&utm_campaign=industry_directory&utm_content=planetary_series
+  globalspec_planetary_series:
+    destination: https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/
+    tracked_url: https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/?utm_source=globalspec&utm_medium=referral&utm_campaign=industry_directory&utm_content=planetary_series
+
+templates:
+  social_or_video_product_content:
+    destination_pattern: "https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/{model_lower}-planetary-gearbox/"
+    campaign: planetary_content
+    content_pattern: "{model_lower}_{topic_slug}"
+  cad_platform_product_page:
+    destination_pattern: "https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/{model_lower}-planetary-gearbox/"
+    campaign: cad_listing
+    content_pattern: "{model_lower}_product_page"
+  cad_platform_datasheet:
+    destination_pattern: "https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/{model_lower}/datasheet/"
+    campaign: cad_listing
+    content_pattern: "{model_lower}_datasheet"
+  cad_platform_mechanical_interface:
+    destination_pattern: "https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/{model_lower}/mechanical-interface/"
+    campaign: cad_listing
+    content_pattern: "{model_lower}_mechanical_interface"

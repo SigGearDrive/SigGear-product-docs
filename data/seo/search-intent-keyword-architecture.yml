@@ -183,9 +183,9 @@ intent_clusters:
       - "planetary gearbox STEP"
       - "planetary gearbox CAD"
       - "planetary gearhead CAD"
-    canonical_page: "/products/planetary-gearboxes/32p-planetary-gearbox/"
-    status: "controlled_existing"
-    constraint: "Only 32P currently has a released public STEP; do not create generic CAD-download claims for all sizes."
+    canonical_page: "/engineering-resources/planetary-gearboxes/public-cad-release-v1/"
+    status: "existing_public_library"
+    constraint: "Public simplified 4-stage STEP references are released for 8P, 10P, 12P, 14P, 16P, 20P, 22P, 24P, 28P, 32P, 36P and 42P; configuration-matched production CAD remains controlled."
 
   - id: "cad-design-in-cycloidal"
     priority: "P1"

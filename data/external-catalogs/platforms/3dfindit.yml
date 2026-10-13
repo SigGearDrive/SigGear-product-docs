@@ -37,6 +37,12 @@ current_product_logic:
   motor_interface: engineering_review_dependent
   final_ordering_part_number: not_defined_as_public_series_reference
 
+tracking:
+  utm_source: 3dfindit
+  utm_medium: referral
+  utm_campaign: cad_listing
+  note: tracked page/document links identify 3Dfindit-origin website visits; direct STEP file URLs remain untagged because static file fetches do not run site analytics
+
 current_cad_assets:
   one_public_step_per_series: true
   public_step_configuration: simplified_4_stage_reference
