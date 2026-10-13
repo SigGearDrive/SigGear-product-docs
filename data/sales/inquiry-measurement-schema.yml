@@ -93,9 +93,20 @@ normalized_website_dimensions:
       - not_specified
   field_coverage_band:
     allowed:
-      - 1_2
+      - 0_2
       - 3_4
       - 5_plus
+  offline_source_group:
+    allowed:
+      - google_organic
+      - ai_referral
+      - traceparts
+      - youtube
+      - instagram
+      - tiktok
+      - direct
+      - referral
+      - other
 
 privacy_boundary:
   ga4_may_receive:
