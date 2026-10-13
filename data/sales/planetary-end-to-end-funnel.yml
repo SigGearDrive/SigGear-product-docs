@@ -1,0 +1,170 @@
+schema_version: 1
+policy_id: planetary-end-to-end-funnel-qa
+updated: "2026-10-13"
+scope: public_safe_end_to_end_measurement
+
+objective: >
+  Verify that the 8P-42P planetary Design-In journey remains connected from
+  selection through production-release review, while preserving candidate
+  revalidation, privacy boundaries and manual engineering milestones.
+
+canonical_candidate_example:
+  model: 28P
+  stage: 3
+  published_ratio: 101.6
+
+funnel_stages:
+  - stage: selection
+    page: "/selection-guides/miniature-planetary-gearbox-selection-guide/"
+    entry_event: ratio_stage_selector_run
+    handoff_to:
+      - candidate_pack
+      - project_brief
+  - stage: candidate_pack
+    page: "/engineering-resources/planetary-gearboxes/candidate-design-in-pack/"
+    entry_event: candidate_design_in_pack_view
+    handoff_to:
+      - project_brief
+      - sample_validation
+  - stage: project_brief
+    page: "/request-cad-sample-quote/"
+    entry_event: selector_candidate_handoff_validated
+    high_intent_event: engineering_brief_prepare_email
+    interpretation: prepare_email_is_not_received_inquiry
+  - stage: sample_validation
+    page: "/engineering-center/sample-validation-workflow/"
+    entry_event: sample_validation_candidate_view
+    support_event: sample_validation_summary_copy
+    high_intent_event: sample_validation_prepare_email
+  - stage: design_in_review
+    page: "/engineering-center/design-in-checklist/"
+    entry_event: design_in_review_candidate_view
+    high_intent_event: design_in_review_prepare_email
+  - stage: pilot_preparation_review
+    page: "/engineering-center/pilot-preparation-review/"
+    entry_event: pilot_preparation_review_view
+    support_event: pilot_preparation_summary_copy
+    high_intent_event: pilot_preparation_prepare_email
+  - stage: production_release_review
+    page: "/engineering-center/production-release-review/"
+    entry_event: production_release_review_view
+    support_event: production_release_summary_copy
+    high_intent_event: production_release_prepare_email
+
+handoff_contracts:
+  selection_to_candidate_pack:
+    required_parameters:
+      - model
+      - stage
+      - ratio
+    private_customer_inputs_in_url: prohibited
+  selection_to_project_brief:
+    required_parameters:
+      - model
+      - selection=ratio_stage_selector
+      - candidate_stage
+      - candidate_ratio
+    candidate_revalidation_required: true
+  candidate_pack_to_project_brief:
+    required_parameters:
+      - model
+      - selection=ratio_stage_selector
+      - candidate_stage
+      - candidate_ratio
+      - next_step=cad_review
+    candidate_revalidation_required: true
+  candidate_pack_to_sample_validation:
+    required_parameters:
+      - model
+      - stage
+      - ratio
+      - sample=planetary_candidate
+    candidate_revalidation_required: true
+  sample_validation_to_design_in_review:
+    required_parameters:
+      - model
+      - stage
+      - ratio
+      - sample_status
+      - sample_outcome
+      - source=sample_validation
+    free_text_test_data_in_url: prohibited
+    candidate_revalidation_required: true
+  design_in_review_to_pilot_preparation:
+    gate: design_in_review_ready
+    required_parameters:
+      - model
+      - stage
+      - ratio
+      - source=design_in_review
+    candidate_revalidation_required: true
+  pilot_preparation_to_production_release:
+    gate: ready_to_submit_for_pilot_preparation_review
+    required_parameters:
+      - model
+      - stage
+      - ratio
+      - source=pilot_preparation_review
+    candidate_revalidation_required: true
+
+candidate_validation:
+  canonical_source: "/assets/data/planetary-ratio-stage-data.json"
+  downstream_pages_revalidate:
+    - candidate_pack
+    - project_brief
+    - sample_validation
+    - design_in_review
+    - pilot_preparation_review
+    - production_release_review
+
+measurement:
+  baseline_date: "2026-10-13"
+  weekly_core_events:
+    - ratio_stage_selector_run
+    - candidate_design_in_pack_view
+    - selector_candidate_handoff_validated
+    - engineering_brief_prepare_email
+    - sample_validation_candidate_view
+    - sample_validation_prepare_email
+    - design_in_review_candidate_view
+    - design_in_review_prepare_email
+    - pilot_preparation_review_view
+    - pilot_preparation_prepare_email
+    - production_release_review_view
+    - production_release_prepare_email
+  interpretation:
+    event_counts_are_directional: true
+    email_prepare_is_received_inquiry: false
+    later_stage_events_are_new_acquisition: false
+    later_stage_events_role: existing_project_lifecycle_engagement
+    person_level_cross_stage_conversion_without_user_scope: prohibited
+    offline_pipeline_is_source_of_truth_for:
+      - received_inquiry
+      - qualified
+      - sample_ordered
+      - design_in
+      - pilot_order
+      - mass_production
+
+privacy:
+  raw_customer_engineering_values_in_ga4: prohibited
+  raw_customer_engineering_values_in_handoff_urls: prohibited
+  public_repository_customer_records: prohibited
+  allowed_url_context:
+    - published_model
+    - published_stage
+    - published_ratio
+    - normalized_workflow_status
+    - normalized_workflow_outcome
+    - source_marker
+
+responsive_contract:
+  form_grid_collapses_to_single_column: true
+  action_buttons_wrap: true
+  wide_selector_tables_scroll_horizontally: true
+  candidate_cards_collapse_to_single_column: true
+  manual_milestone_cards_collapse_to_single_column: true
+
+qa:
+  ci_validator: scripts/validate_end_to_end_planetary_funnel.py
+  failure_should_block_merge: true
