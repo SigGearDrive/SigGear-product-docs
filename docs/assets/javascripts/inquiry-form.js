@@ -2,7 +2,7 @@
   var form = document.getElementById("siggear-engineering-brief");
   if (!form) return;
 
-  var validModels = ["8P","10P","12P","14P","16P","20P","22P","24P","28P","32P","36P","42P"];
+  var validModels = ["8P","10P","12P","14P","16P","20P","22P","24P","28P","32P","36P","42P"];\n  var applicationPrefills = {\n    electric_pruning_shears: "Electric pruning shears",\n    electric_curtain_blind: "Electric curtain / blind / window opener",\n    smart_toilet_bidet: "Smart toilet / bidet mechanism",\n    dexterous_hand_gripper: "Dexterous hand / robot gripper"\n  };\n  var prefilledApplicationType = "not_specified";
   var model = document.getElementById("sg-model");
   var path = document.getElementById("sg-path");
   var existingMotorFields = document.getElementById("sg-existing-motor-fields");
