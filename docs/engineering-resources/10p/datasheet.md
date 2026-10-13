@@ -1,9 +1,10 @@
 ---
-title: 10P 10 mm Planetary Gearbox Datasheet | 1-4 Stages | SigGear
-description: Public 10P planetary gearbox engineering datasheet with stage lengths, ratios, torque, efficiency, backlash, load data where published, motor matching and mechanical-interface reference.
+title: 10 mm Planetary Gearbox Datasheet (10P) | 1–4 Stages | SigGear
+description: Public 10P 10 mm planetary gearbox datasheet with 1–4 stage ratios, gearbox lengths, torque, efficiency, backlash, motor-matching data and links to mechanical-interface and CAD resources.
 ---
 
-# 10P 10 mm Planetary Gearbox - Technical Datasheet v1.0
+
+# 10 mm Planetary Gearbox Datasheet (10P)
 
 **Status:** Public engineering evaluation reference  
 **Release date:** 2026-10-06
