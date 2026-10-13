@@ -94,7 +94,7 @@ This page does **not** convert the public 4-stage STEP into stage-specific produ
     4. **Load / duty** — continuous / peak load information and duty cycle / peak duration.
     5. **Installation envelope** — maximum diameter and/or length constraint.
 
-    [Check CAD Review Readiness / Request Controlled CAD](../../../request-cad-sample-quote.md?next_step=cad_review){ .md-button .md-button--primary }
+    Use the **Request Controlled CAD / Engineering Review** button above to carry the validated candidate into the Project Brief and check these five gates.
 
     **Ready for CAD Review** means enough information is present for SigGear engineering to begin a configuration-specific review. It does **not** mean controlled CAD has already been approved or released.
 
