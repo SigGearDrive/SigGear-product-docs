@@ -179,6 +179,8 @@ Therefore, revisions should be treated as controlled configuration changes rathe
 
 ## Stage 7 — Design Freeze and Design-In
 
+A website status of **Design-In Review Ready** means the project is ready to be submitted for formal engineering review. It is not the same as **Design Frozen**. Design Freeze must be confirmed by the responsible project / engineering teams against the exact controlled configuration and revision.
+
 Before the transmission is treated as designed into the customer's product, the exact configuration should be identifiable.
 
 Typical items to freeze include:
@@ -201,6 +203,8 @@ The goal is to make sure the customer, SigGear engineering and manufacturing tea
 [Open the Design-In Checklist](../engineering-center/design-in-checklist.md){ .md-button .md-button--primary }
 
 ## Stage 8 — Pilot Preparation
+
+**Pilot Preparation Ready is a manually confirmed project milestone.** It should only follow a confirmed Design Freeze plus agreement on pilot quantity, schedule, inspection requirements, change control and any project-specific documentation.
 
 Before a pilot build, the project should move from an engineering sample mindset toward repeatable manufacturing.
 
