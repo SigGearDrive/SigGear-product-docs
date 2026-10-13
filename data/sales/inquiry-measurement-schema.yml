@@ -18,6 +18,8 @@ website_funnel:
     - priority_application_click
     - ratio_stage_selector_run
     - candidate_design_in_pack_view
+    - sample_validation_candidate_view
+    - sample_validation_summary_copy
   inquiry_intent:
     - engineering_brief_open_click
     - inquiry_page_view
@@ -25,6 +27,7 @@ website_funnel:
     - engineering_brief_copy
   high_intent:
     - engineering_brief_prepare_email
+    - sample_validation_prepare_email
     - planetary_inquiry_click
 
 qualified_inquiry_definition:
@@ -109,6 +112,20 @@ normalized_website_dimensions:
       - ready_for_cad_review
       - need_more_information
       - not_applicable
+  sample_validation_status:
+    allowed:
+      - validation_in_progress
+      - engineering_iteration_required
+      - ready_to_submit_for_design_in_review
+  sample_validation_outcome:
+    allowed:
+      - not_decided
+      - keep_current_configuration
+      - change_ratio
+      - change_motor_or_input
+      - revise_mechanical_interface
+      - more_testing_required
+      - ready_for_design_in_review
   offline_source_group:
     allowed:
       - google_organic
@@ -145,6 +162,8 @@ privacy_boundary:
     - normalized_selector_candidate_stage
     - normalized_cad_readiness_status
     - cad_readiness_gate_presence_flags
+    - normalized_sample_validation_status
+    - normalized_sample_validation_outcome
   ga4_must_not_receive:
     - customer_name
     - email_address
@@ -163,6 +182,9 @@ privacy_boundary:
     - output_interface_text
     - duty_cycle_or_peak_duration_text
     - external_shaft_load_text
+    - sample_test_operating_condition_text
+    - sample_observation_or_issue_notes
+    - sample_measured_speed_torque_temperature_or_current_values
   public_repository_must_not_store:
     - customer_records
     - private_lead_status
