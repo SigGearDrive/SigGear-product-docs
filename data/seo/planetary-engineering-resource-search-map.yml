@@ -1,0 +1,152 @@
+version: "1.0"
+updated: "2026-10-13"
+owner: "SigGear overseas operations"
+objective: >
+  Map exact engineering-resource search intent to existing public Datasheet
+  and Mechanical Interface pages without creating duplicate SEO pages.
+
+baseline:
+  period: "2026-07-15 to 2026-10-13"
+  exact_query_rows_found: 0
+  rule: "Do not infer ranking until Search Console records impressions."
+
+principles:
+  - "Datasheet queries map to the existing model Datasheet."
+  - "Dimensions, drawing and mechanical-interface queries map to the existing Mechanical Interface page."
+  - "STEP / CAD queries map to the public planetary CAD library or model-specific released CAD resources."
+  - "Do not publish a new dimensions or drawing page when the existing controlled resource already answers the intent."
+  - "Do not expose manufacturing drawings or internal planetary transmission geometry."
+
+models:
+  - model: "8P"
+    diameter_mm: 8
+    datasheet:
+      query: "8mm planetary gearbox datasheet"
+      canonical_page: "/engineering-resources/8p/datasheet/"
+    dimensions:
+      query: "8mm planetary gearbox dimensions"
+      secondary_queries:
+        - "8mm planetary gearbox drawing"
+        - "8mm planetary gearbox mechanical interface"
+      canonical_page: "/engineering-resources/8p/mechanical-interface/"
+  - model: "10P"
+    diameter_mm: 10
+    datasheet:
+      query: "10mm planetary gearbox datasheet"
+      canonical_page: "/engineering-resources/10p/datasheet/"
+    dimensions:
+      query: "10mm planetary gearbox dimensions"
+      secondary_queries:
+        - "10mm planetary gearbox drawing"
+        - "10mm planetary gearbox mechanical interface"
+      canonical_page: "/engineering-resources/10p/mechanical-interface/"
+  - model: "12P"
+    diameter_mm: 12
+    datasheet:
+      query: "12mm planetary gearbox datasheet"
+      canonical_page: "/engineering-resources/12p/datasheet/"
+    dimensions:
+      query: "12mm planetary gearbox dimensions"
+      secondary_queries:
+        - "12mm planetary gearbox drawing"
+        - "12mm planetary gearbox mechanical interface"
+      canonical_page: "/engineering-resources/12p/mechanical-interface/"
+  - model: "14P"
+    diameter_mm: 14
+    datasheet:
+      query: "14mm planetary gearbox datasheet"
+      canonical_page: "/engineering-resources/14p/datasheet/"
+    dimensions:
+      query: "14mm planetary gearbox dimensions"
+      secondary_queries:
+        - "14mm planetary gearbox drawing"
+        - "14mm planetary gearbox mechanical interface"
+      canonical_page: "/engineering-resources/14p/mechanical-interface/"
+  - model: "16P"
+    diameter_mm: 16
+    datasheet:
+      query: "16mm planetary gearbox datasheet"
+      canonical_page: "/engineering-resources/16p/datasheet/"
+    dimensions:
+      query: "16mm planetary gearbox dimensions"
+      secondary_queries:
+        - "16mm planetary gearbox drawing"
+        - "16mm planetary gearbox mechanical interface"
+      canonical_page: "/engineering-resources/16p/mechanical-interface/"
+  - model: "20P"
+    diameter_mm: 20
+    datasheet:
+      query: "20mm planetary gearbox datasheet"
+      canonical_page: "/engineering-resources/20p/datasheet/"
+    dimensions:
+      query: "20mm planetary gearbox dimensions"
+      secondary_queries:
+        - "20mm planetary gearbox drawing"
+        - "20mm planetary gearbox mechanical interface"
+      canonical_page: "/engineering-resources/20p/mechanical-interface/"
+  - model: "22P"
+    diameter_mm: 22
+    datasheet:
+      query: "22mm planetary gearbox datasheet"
+      canonical_page: "/engineering-resources/22p/datasheet/"
+    dimensions:
+      query: "22mm planetary gearbox dimensions"
+      secondary_queries:
+        - "22mm planetary gearbox drawing"
+        - "22mm planetary gearbox mechanical interface"
+      canonical_page: "/engineering-resources/22p/mechanical-interface/"
+  - model: "24P"
+    diameter_mm: 24
+    datasheet:
+      query: "24mm planetary gearbox datasheet"
+      canonical_page: "/engineering-resources/24p/datasheet/"
+    dimensions:
+      query: "24mm planetary gearbox dimensions"
+      secondary_queries:
+        - "24mm planetary gearbox drawing"
+        - "24mm planetary gearbox mechanical interface"
+      canonical_page: "/engineering-resources/24p/mechanical-interface/"
+  - model: "28P"
+    diameter_mm: 28
+    datasheet:
+      query: "28mm planetary gearbox datasheet"
+      canonical_page: "/engineering-resources/28p/datasheet/"
+    dimensions:
+      query: "28mm planetary gearbox dimensions"
+      secondary_queries:
+        - "28mm planetary gearbox drawing"
+        - "28mm planetary gearbox mechanical interface"
+      canonical_page: "/engineering-resources/28p/mechanical-interface/"
+  - model: "32P"
+    diameter_mm: 32
+    datasheet:
+      query: "32mm planetary gearbox datasheet"
+      canonical_page: "/engineering-resources/32p/datasheet/"
+    dimensions:
+      query: "32mm planetary gearbox dimensions"
+      secondary_queries:
+        - "32mm planetary gearbox drawing"
+        - "32mm planetary gearbox mechanical interface"
+      canonical_page: "/engineering-resources/32p/mechanical-interface/"
+  - model: "36P"
+    diameter_mm: 36
+    datasheet:
+      query: "36mm planetary gearbox datasheet"
+      canonical_page: "/engineering-resources/36p/datasheet/"
+    dimensions:
+      query: "36mm planetary gearbox dimensions"
+      secondary_queries:
+        - "36mm planetary gearbox drawing"
+        - "36mm planetary gearbox mechanical interface"
+      canonical_page: "/engineering-resources/36p/mechanical-interface/"
+  - model: "42P"
+    diameter_mm: 42
+    datasheet:
+      query: "42mm planetary gearbox datasheet"
+      canonical_page: "/engineering-resources/42p/datasheet/"
+    dimensions:
+      query: "42mm planetary gearbox dimensions"
+      secondary_queries:
+        - "42mm planetary gearbox drawing"
+        - "42mm planetary gearbox mechanical interface"
+      canonical_page: "/engineering-resources/42p/mechanical-interface/"
