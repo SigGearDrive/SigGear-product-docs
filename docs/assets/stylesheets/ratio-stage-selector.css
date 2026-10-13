@@ -61,3 +61,41 @@
     grid-template-columns: 1fr;
   }
 }
+
+.siggear-candidate-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 0.8rem 0 1rem;
+}
+
+.siggear-candidate-card {
+  padding: 0.9rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+  background: var(--md-code-bg-color);
+}
+
+.siggear-candidate-card strong,
+.siggear-candidate-card span,
+.siggear-candidate-card small {
+  display: block;
+}
+
+.siggear-candidate-card span {
+  margin: 0.35rem 0;
+}
+
+.siggear-candidate-card small {
+  color: var(--md-default-fg-color--light);
+}
+
+.siggear-exclusion-table {
+  min-width: 640px !important;
+}
+
+@media (max-width: 54rem) {
+  .siggear-candidate-cards {
+    grid-template-columns: 1fr;
+  }
+}
