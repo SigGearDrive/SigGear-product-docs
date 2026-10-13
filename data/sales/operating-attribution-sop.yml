@@ -1,0 +1,163 @@
+schema_version: 1
+policy_id: operating-attribution-sop
+scope: public_safe_daily_attribution_operations
+effective_date: 2026-10-13
+
+references:
+  utm_taxonomy: data/seo/utm-source-taxonomy.yml
+  attribution_schema: data/sales/attribution-kpi-schema.yml
+  inquiry_measurement: data/sales/inquiry-measurement-schema.yml
+
+core_rules:
+  pipeline_source_meaning: first_reliably_known_acquisition_source
+  do_not_overwrite_source_for_later_contact_channel: true
+  unknown_source_value: Other
+  historical_source_guessing: prohibited
+  website_high_intent_is_received_inquiry: false
+  received_inquiry_is_qualified_inquiry: false
+  customer_specific_private_data_in_utm: prohibited
+
+source_update_policy:
+  set_source_when:
+    - reliable_utm_or_referrer_evidence_exists
+    - platform_lead_record_exists
+    - customer_explicitly_states_how_they_found_siggear
+    - direct_outreach_or_existing_customer_status_is_known_from_sales_history
+  preserve_existing_source_when:
+    - customer_later_replies_by_email
+    - customer_later_moves_to_whatsapp
+    - customer_later_sends_a_direct_message
+    - customer_later_visits_another_siggear_channel
+  may_correct_existing_source_when:
+    - current_value_is_Other_and_new_reliable_evidence_appears
+    - documented_data_entry_error_is_found
+  conflict_rule: use_the_earliest_reliable_acquisition_evidence_and_record_the_reason_privately_if_needed
+
+publishing_workflow:
+  permanent_profile_links:
+    instagram:
+      source: instagram
+      medium: social
+      campaign: profile
+      content: bio
+    tiktok:
+      source: tiktok
+      medium: video
+      campaign: profile
+      content: bio
+    youtube:
+      source: youtube
+      medium: video
+      campaign: profile
+      content: channel_link
+
+  content_level_links:
+    rule: create_content_level_utm_only_when_a_real_clickable_link_can_be_used
+    youtube_product_or_resource_link:
+      source: youtube
+      medium: video
+      campaign: planetary_content
+      content_pattern: "{model_lower}_{topic_slug}"
+    instagram_clickable_story_or_equivalent:
+      source: instagram
+      medium: social
+      campaign: planetary_content
+      content_pattern: "{model_lower}_{topic_slug}"
+    non_clickable_caption_or_post_text:
+      rule: do_not_create_fake_post_level_attribution
+      fallback: persistent_profile_link
+
+  engineering_platforms:
+    traceparts:
+      source: traceparts
+      medium: referral
+      campaign: cad_listing
+      link_generation: automatic_export
+    3dfindit:
+      source: 3dfindit
+      medium: referral
+      campaign: cad_listing
+      link_generation: automatic_export
+    directindustry:
+      source: directindustry
+      medium: referral
+      campaign: industry_directory
+      link_generation: prepared_manual_link
+    globalspec:
+      source: globalspec
+      medium: referral
+      campaign: industry_directory
+      link_generation: prepared_manual_link
+
+  automatic_native_attribution:
+    google_organic:
+      manual_utm: false
+      pipeline_label: Google Search
+    ai_assistant_referral:
+      manual_utm: false
+      pipeline_label: ChatGPT / GEO
+
+utm_content_rules:
+  format: lowercase_snake_case
+  preferred_pattern: "{model_lower}_{topic_slug}"
+  allowed_examples:
+    - 8p_internal_structure
+    - 32p_torque_efficiency_test
+    - 42p_product_page
+    - 32p_datasheet
+    - 32p_mechanical_interface
+    - planetary_series
+    - bio
+    - channel_link
+  prohibited_content:
+    - customer_name
+    - customer_email
+    - private_company_or_project_identifier
+    - quote_or_price
+    - confidential_requirement
+    - personal_data
+
+inquiry_received_workflow:
+  step_1:
+    action: confirm_actual_contact_was_received
+    note: website_events_alone_do_not_create_a_pipeline_inquiry
+  step_2:
+    action: assign_pipeline_source_if_reliable_evidence_exists
+  step_3:
+    action: keep_source_as_Other_if_evidence_is_ambiguous
+  step_4:
+    action: evaluate_qualified_inquiry_separately_from_source
+  step_5:
+    action: record_customer_project_stage_only_if_customer_reveals_it
+
+weekly_operating_review:
+  review_items:
+    - new_projects_by_source
+    - projects_with_source_Other
+    - qualified_plus_by_source
+    - sample_plus_by_source
+    - design_in_plus_by_source
+    - google_search_impressions_clicks_ctr_average_position
+    - ga4_sessions_by_source_medium_campaign
+    - cad_download_click
+    - engineering_brief_open_click
+    - engineering_brief_prepare_email
+  interpretation_rules:
+    - do_not_compare_gsc_impressions_directly_with_ga4_sessions
+    - do_not_treat_prepare_email_as_received_inquiry
+    - do_not_treat_outbound_directory_click_as_directory_acquisition
+    - use_pipeline_for_real_project_outcomes
+    - use_ga4_and_gsc_for_discovery_and_intent_trends
+
+qa_workflow:
+  permanent_profile_or_directory_link_change:
+    - confirm_destination_path
+    - confirm_source_medium_campaign_content
+    - confirm_github_pages_deployment_when_site_code_changed
+    - perform_real_click_when_practical
+    - verify_ga4_session_manual_source_medium_campaign_content_when_data_is_available
+  failed_live_attribution:
+    - verify_the_platform_link_was_actually_replaced
+    - verify_cookie_consent_was_accepted_for_the_test_session
+    - verify_utm_query_parameters_survived_landing
+    - verify_ga4_data_availability_before_declaring_tracking_failure
