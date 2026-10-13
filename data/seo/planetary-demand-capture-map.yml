@@ -1,0 +1,96 @@
+version: "1.0"
+updated: "2026-10-13"
+owner: "SigGear overseas operations"
+objective: >
+  Expand qualified overseas demand for SigGear's 8P–42P miniature and compact
+  planetary gearbox range by strengthening distinct engineering search intents,
+  CAD/design-in paths and contextual inquiry entry points.
+
+principles:
+  - "Strengthen an existing canonical page before creating a new page."
+  - "One primary engineering problem should map to one canonical application page."
+  - "Application content describes potential engineering use, not a published customer case."
+  - "Do not assign a gearbox size or performance claim without a confirmed requirement and approved product data."
+  - "Every P0 application path should connect to the 8–42 mm series, public STEP references and a contextual Engineering Project Brief."
+  - "Robot joint pages remain indexed and maintained, but are not the primary near-term overseas growth path."
+  - "Create new content only when the searcher has a distinct mechanism or selection problem that an existing page cannot answer well."
+
+priority_paths:
+  P0:
+    - id: "electric_pruning_shears"
+      intent: "electric pruning shears planetary gearbox"
+      canonical_page: "/applications/electric-pruning-shears-planetary-gearbox/"
+      inquiry_app: "electric_pruning_shears"
+      action: "defend_and_measure_existing_page"
+    - id: "electric_curtain_blind"
+      intent: "electric curtain / blind planetary gear motor"
+      canonical_page: "/applications/electric-curtain-blind-window-opener-gear-motors/"
+      inquiry_app: "electric_curtain_blind"
+      action: "defend_and_measure_existing_page"
+    - id: "smart_toilet_bidet"
+      intent: "smart toilet / bidet planetary gear motor"
+      canonical_page: "/applications/smart-toilet-bidet-planetary-gear-motors/"
+      inquiry_app: "smart_toilet_bidet"
+      action: "defend_and_measure_existing_page"
+    - id: "dexterous_hand_gripper"
+      intent: "dexterous hand / robot gripper planetary gear motor"
+      canonical_page: "/applications/robot-gripper-gear-motors/"
+      inquiry_app: "dexterous_hand_gripper"
+      action: "strengthen_and_measure_existing_page"
+    - id: "smart_lock_access_control"
+      intent: "smart lock / access-control miniature planetary gear motor"
+      canonical_page: "/applications/access-control-smart-lock-security-gear-motors/"
+      inquiry_app: "smart_lock_access_control"
+      action: "strengthen_existing_page"
+    - id: "pump_valve_fluid"
+      intent: "pump / valve / dosing planetary gear motor"
+      canonical_page: "/applications/pump-valve-fluid-control-gear-motors/"
+      inquiry_app: "pump_valve_fluid"
+      action: "strengthen_existing_page"
+    - id: "camera_optical_positioning"
+      intent: "camera module focus zoom gear motor"
+      canonical_page: "/applications/optical-imaging-camera-module-gear-motors/"
+      inquiry_app: "optical_positioning"
+      action: "strengthen_existing_page"
+
+  P1:
+    - id: "precision_instruments"
+      canonical_page: "/applications/precision-instruments-optical-mechanisms/"
+      action: "maintain_distinct_precision_instrument_intent"
+    - id: "medical_lab"
+      canonical_page: "/applications/medical-device-micro-gear-motors/"
+      action: "maintain_with_compliance_boundary"
+    - id: "coffee_equipment"
+      canonical_page: "/applications/food-beverage-coffee-equipment-gear-motors/"
+      inquiry_app: "coffee_equipment"
+      action: "strengthen_existing_page"
+    - id: "vending_dispensing"
+      canonical_page: "/applications/vending-dispensing-kiosk-gear-motors/"
+      action: "measure_before_deeper_expansion"
+    - id: "hvac_damper"
+      canonical_page: "/applications/hvac-smart-vent-damper-gear-motors/"
+      action: "measure_before_deeper_expansion"
+    - id: "smart_hardware"
+      canonical_page: "/applications/smart-hardware-gear-motors/"
+      action: "use_as_broad_supporting_page"
+
+  P2_maintain:
+    - "/applications/humanoid-robot-joint-actuators/"
+    - "/applications/quadruped-robot-joint-gearboxes/"
+    - "/applications/robotic-arm-joint-actuators/"
+    - "/applications/exoskeleton-joint-actuators/"
+    - "/applications/agv-amr-wheel-drive-gearboxes/"
+
+design_in_path:
+  product_compare: "/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/"
+  public_step_library: "/engineering-resources/planetary-gearboxes/public-cad-release-v1/"
+  engineering_resource_library: "/engineering-resources/planetary-gearboxes/"
+  inquiry_page: "/request-cad-sample-quote/"
+
+new_page_gate:
+  required_before_creation:
+    - "distinct_searcher_problem"
+    - "no_existing_canonical_page_answers_it_well"
+    - "real_siggear_product_or_engineering_capability_can_support_the_content"
+    - "no_unverified_product_claim_required"
+  otherwise: "improve_existing_page"
