@@ -1,0 +1,174 @@
+schema_version: 1
+workflow_id: planetary-motor-matching-design-in
+updated: "2026-10-13"
+scope: public_safe_engineering_routing
+
+objective: >
+  Route an engineer who already has a motor from an 8P-42P planetary gearbox
+  page into a model-aware engineering review without implying universal motor compatibility.
+
+truth_boundary:
+  universal_motor_compatibility_claim: false
+  standardized_adapter_released_for_every_frame: false
+  dedicated_public_motor_integration_guides:
+    - 32P
+    - 42P
+  rule: >
+    Datasheet and Mechanical Interface availability does not prove that a specific
+    customer motor is compatible with the selected gearbox frame.
+
+existing_motor_input:
+  preferred_first_artifact: motor_drawing_or_exact_model
+  fields:
+    - motor_type
+    - motor_voltage_if_relevant
+    - rated_or_loaded_speed
+    - shaft_diameter
+    - usable_shaft_length
+    - shaft_feature
+    - mounting_hole_pattern
+    - locating_pilot
+    - required_output_speed_or_ratio
+    - continuous_and_peak_load_if_known
+    - maximum_assembly_envelope
+    - duty_cycle
+    - prototype_quantity
+    - expected_annual_volume
+
+review_gates:
+  - frame_and_envelope
+  - motor_operating_point
+  - output_speed_and_ratio
+  - continuous_and_peak_load
+  - motor_to_gearbox_mechanical_interface
+  - controlled_configuration_release
+
+design_in_sequence:
+  - choose_candidate_frame
+  - review_model_datasheet
+  - review_model_mechanical_interface
+  - check_motor_speed_and_output_target
+  - check_load_and_duty_cycle
+  - compare_motor_shaft_pilot_and_mounting
+  - use_public_step_for_preliminary_packaging
+  - confirm_stage_ratio_and_motor_interface
+  - request_configuration_matched_controlled_cad
+  - validate_sample_in_actual_application
+
+models:
+  - model: "8P"
+    diameter_mm: 8
+    product_page: "/products/planetary-gearboxes/8p-planetary-gearbox/"
+    datasheet: "/engineering-resources/8p/datasheet/"
+    mechanical_interface: "/engineering-resources/8p/mechanical-interface/"
+    public_step_reference: "/assets/downloads/8p/8P_Public_Simplified_STEP_v1.0_4-Stage.step"
+    existing_motor_brief: "/request-cad-sample-quote/?model=8P&path=gearbox_only"
+    complete_drive_brief: "/request-cad-sample-quote/?model=8P&path=motor_gearbox"
+    dedicated_public_motor_integration_guide: false
+  - model: "10P"
+    diameter_mm: 10
+    product_page: "/products/planetary-gearboxes/10p-planetary-gearbox/"
+    datasheet: "/engineering-resources/10p/datasheet/"
+    mechanical_interface: "/engineering-resources/10p/mechanical-interface/"
+    public_step_reference: "/assets/downloads/10p/10P_Public_Simplified_STEP_v1.0_4-Stage.step"
+    existing_motor_brief: "/request-cad-sample-quote/?model=10P&path=gearbox_only"
+    complete_drive_brief: "/request-cad-sample-quote/?model=10P&path=motor_gearbox"
+    dedicated_public_motor_integration_guide: false
+  - model: "12P"
+    diameter_mm: 12
+    product_page: "/products/planetary-gearboxes/12p-planetary-gearbox/"
+    datasheet: "/engineering-resources/12p/datasheet/"
+    mechanical_interface: "/engineering-resources/12p/mechanical-interface/"
+    public_step_reference: "/assets/downloads/12p/12P_Public_Simplified_STEP_v1.0_4-Stage.step"
+    existing_motor_brief: "/request-cad-sample-quote/?model=12P&path=gearbox_only"
+    complete_drive_brief: "/request-cad-sample-quote/?model=12P&path=motor_gearbox"
+    dedicated_public_motor_integration_guide: false
+  - model: "14P"
+    diameter_mm: 14
+    product_page: "/products/planetary-gearboxes/14p-planetary-gearbox/"
+    datasheet: "/engineering-resources/14p/datasheet/"
+    mechanical_interface: "/engineering-resources/14p/mechanical-interface/"
+    public_step_reference: "/assets/downloads/14p/14P_Public_Simplified_STEP_v1.0_4-Stage.step"
+    existing_motor_brief: "/request-cad-sample-quote/?model=14P&path=gearbox_only"
+    complete_drive_brief: "/request-cad-sample-quote/?model=14P&path=motor_gearbox"
+    dedicated_public_motor_integration_guide: false
+  - model: "16P"
+    diameter_mm: 16
+    product_page: "/products/planetary-gearboxes/16p-planetary-gearbox/"
+    datasheet: "/engineering-resources/16p/datasheet/"
+    mechanical_interface: "/engineering-resources/16p/mechanical-interface/"
+    public_step_reference: "/assets/downloads/16p/16P_Public_Simplified_STEP_v1.0_4-Stage.step"
+    existing_motor_brief: "/request-cad-sample-quote/?model=16P&path=gearbox_only"
+    complete_drive_brief: "/request-cad-sample-quote/?model=16P&path=motor_gearbox"
+    dedicated_public_motor_integration_guide: false
+  - model: "20P"
+    diameter_mm: 20
+    product_page: "/products/planetary-gearboxes/20p-planetary-gearbox/"
+    datasheet: "/engineering-resources/20p/datasheet/"
+    mechanical_interface: "/engineering-resources/20p/mechanical-interface/"
+    public_step_reference: "/assets/downloads/20p/20P_Public_Simplified_STEP_v1.0_4-Stage.step"
+    existing_motor_brief: "/request-cad-sample-quote/?model=20P&path=gearbox_only"
+    complete_drive_brief: "/request-cad-sample-quote/?model=20P&path=motor_gearbox"
+    dedicated_public_motor_integration_guide: false
+  - model: "22P"
+    diameter_mm: 22
+    product_page: "/products/planetary-gearboxes/22p-planetary-gearbox/"
+    datasheet: "/engineering-resources/22p/datasheet/"
+    mechanical_interface: "/engineering-resources/22p/mechanical-interface/"
+    public_step_reference: "/assets/downloads/22p/22P_Public_Simplified_STEP_v1.0_4-Stage.step"
+    existing_motor_brief: "/request-cad-sample-quote/?model=22P&path=gearbox_only"
+    complete_drive_brief: "/request-cad-sample-quote/?model=22P&path=motor_gearbox"
+    dedicated_public_motor_integration_guide: false
+  - model: "24P"
+    diameter_mm: 24
+    product_page: "/products/planetary-gearboxes/24p-planetary-gearbox/"
+    datasheet: "/engineering-resources/24p/datasheet/"
+    mechanical_interface: "/engineering-resources/24p/mechanical-interface/"
+    public_step_reference: "/assets/downloads/24p/24P_Public_Simplified_STEP_v1.0_4-Stage.step"
+    existing_motor_brief: "/request-cad-sample-quote/?model=24P&path=gearbox_only"
+    complete_drive_brief: "/request-cad-sample-quote/?model=24P&path=motor_gearbox"
+    dedicated_public_motor_integration_guide: false
+  - model: "28P"
+    diameter_mm: 28
+    product_page: "/products/planetary-gearboxes/28p-planetary-gearbox/"
+    datasheet: "/engineering-resources/28p/datasheet/"
+    mechanical_interface: "/engineering-resources/28p/mechanical-interface/"
+    public_step_reference: "/assets/downloads/28p/28P_Public_Simplified_STEP_v1.0_4-Stage.step"
+    existing_motor_brief: "/request-cad-sample-quote/?model=28P&path=gearbox_only"
+    complete_drive_brief: "/request-cad-sample-quote/?model=28P&path=motor_gearbox"
+    dedicated_public_motor_integration_guide: false
+  - model: "32P"
+    diameter_mm: 32
+    product_page: "/products/planetary-gearboxes/32p-planetary-gearbox/"
+    datasheet: "/engineering-resources/32p/datasheet/"
+    mechanical_interface: "/engineering-resources/32p/mechanical-interface/"
+    public_step_reference: "/assets/downloads/32p/32P_Public_Simplified_STEP_v1.0_4-Stage.step"
+    existing_motor_brief: "/request-cad-sample-quote/?model=32P&path=gearbox_only"
+    complete_drive_brief: "/request-cad-sample-quote/?model=32P&path=motor_gearbox"
+    dedicated_public_motor_integration_guide: true
+    motor_integration_guide: "/engineering-resources/32p/motor-integration/"
+  - model: "36P"
+    diameter_mm: 36
+    product_page: "/products/planetary-gearboxes/36p-planetary-gearbox/"
+    datasheet: "/engineering-resources/36p/datasheet/"
+    mechanical_interface: "/engineering-resources/36p/mechanical-interface/"
+    public_step_reference: "/assets/downloads/36p/36P_Public_Simplified_STEP_v1.0_4-Stage.step"
+    existing_motor_brief: "/request-cad-sample-quote/?model=36P&path=gearbox_only"
+    complete_drive_brief: "/request-cad-sample-quote/?model=36P&path=motor_gearbox"
+    dedicated_public_motor_integration_guide: false
+  - model: "42P"
+    diameter_mm: 42
+    product_page: "/products/planetary-gearboxes/42p-planetary-gearbox/"
+    datasheet: "/engineering-resources/42p/datasheet/"
+    mechanical_interface: "/engineering-resources/42p/mechanical-interface/"
+    public_step_reference: "/assets/downloads/42p/42P_Public_Simplified_STEP_v1.0_4-Stage.step"
+    existing_motor_brief: "/request-cad-sample-quote/?model=42P&path=gearbox_only"
+    complete_drive_brief: "/request-cad-sample-quote/?model=42P&path=motor_gearbox"
+    dedicated_public_motor_integration_guide: true
+    motor_integration_guide: "/engineering-resources/42p/motor-integration/"
+
+measurement:
+  inquiry_type_existing_motor: gearbox_only
+  inquiry_type_complete_drive: motor_gearbox
+  ga4_records_normalized_context_only: true
+  ga4_must_not_receive_customer_motor_dimensions_or_free_text: true
