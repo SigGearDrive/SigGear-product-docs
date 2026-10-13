@@ -70,6 +70,123 @@ If your project matches one of the current priority application paths, use the d
 [Dexterous Hand / Gripper Review](mailto:wangwanrong@siggear.com?subject=Dexterous%20Hand%20Robot%20Gripper%20Planetary%20Gearbox%20Review){ .md-button }
 
 
+
+## Engineering Project Brief
+
+If you do not want to write a technical inquiry from scratch, use this short project brief. Fill in only what you already know.
+
+This page does **not** send your engineering details to a third-party form service. **Prepare Email to SigGear** opens your local email client with a structured draft addressed to Wanrong Wang. You can attach motor drawings, mechanism sketches, CAD screenshots or other project files before sending.
+
+<form id="siggear-engineering-brief" class="siggear-inquiry-form">
+  <div class="siggear-form-grid">
+    <label>
+      SigGear model reference
+      <select id="sg-model" name="model">
+        <option value="">Not sure yet</option>
+        <option value="8P">8P — 8 mm</option>
+        <option value="10P">10P — 10 mm</option>
+        <option value="12P">12P — 12 mm</option>
+        <option value="14P">14P — 14 mm</option>
+        <option value="16P">16P — 16 mm</option>
+        <option value="20P">20P — 20 mm</option>
+        <option value="22P">22P — 22 mm</option>
+        <option value="24P">24P — 24 mm</option>
+        <option value="28P">28P — 28 mm</option>
+        <option value="32P">32P — 32 mm</option>
+        <option value="36P">36P — 36 mm</option>
+        <option value="42P">42P — 42 mm</option>
+      </select>
+    </label>
+
+    <label>
+      Project path
+      <select id="sg-path" name="path">
+        <option value="not_sure">Not sure — please recommend</option>
+        <option value="gearbox_only">Gearbox only — I already have a motor</option>
+        <option value="motor_gearbox">Complete motor + gearbox assembly</option>
+      </select>
+    </label>
+  </div>
+
+  <label>
+    Application / what needs to move
+    <textarea id="sg-application" name="application" rows="3" required placeholder="Example: compact curtain drive, robotic gripper, optical adjustment mechanism..."></textarea>
+  </label>
+
+  <div id="sg-existing-motor-fields">
+    <div class="siggear-form-grid">
+      <label>
+        Existing motor model / drawing reference
+        <input id="sg-motor-model" name="motor_model" type="text" placeholder="Motor model, supplier model or drawing reference">
+      </label>
+
+      <label>
+        Motor speed
+        <input id="sg-motor-speed" name="motor_speed" type="text" placeholder="Example: 8,000 rpm">
+      </label>
+    </div>
+  </div>
+
+  <div class="siggear-form-grid">
+    <label>
+      Required output speed or ratio
+      <input id="sg-output" name="output" type="text" placeholder="Example: 35 rpm, or about 100:1">
+    </label>
+
+    <label>
+      Load / torque, if known
+      <input id="sg-load" name="load" type="text" placeholder="Continuous / peak torque or load description">
+    </label>
+
+    <label>
+      Maximum diameter / length
+      <input id="sg-size" name="size" type="text" placeholder="Example: Ø20 mm, total length < 45 mm">
+    </label>
+
+    <label id="sg-voltage-field">
+      Operating voltage
+      <input id="sg-voltage" name="voltage" type="text" placeholder="Example: 12 VDC">
+    </label>
+  </div>
+
+  <div class="siggear-form-grid">
+    <label>
+      Prototype quantity
+      <input id="sg-prototype-qty" name="prototype_qty" type="text" placeholder="Example: 2 pcs">
+    </label>
+
+    <label>
+      Estimated annual volume
+      <input id="sg-annual-volume" name="annual_volume" type="text" placeholder="Optional">
+    </label>
+
+    <label>
+      Company / country
+      <input id="sg-company-country" name="company_country" type="text" placeholder="Optional">
+    </label>
+
+    <label>
+      What do you need next?
+      <select id="sg-next-step" name="next_step">
+        <option value="Model recommendation">Model recommendation</option>
+        <option value="CAD / STEP review">CAD / STEP review</option>
+        <option value="Sample">Sample</option>
+        <option value="Quotation">Quotation</option>
+        <option value="Engineering review">Engineering review</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="siggear-form-actions">
+    <button type="submit" class="md-button md-button--primary">Prepare Email to SigGear</button>
+    <button type="button" id="sg-copy-brief" class="md-button">Copy Project Brief</button>
+  </div>
+
+  <p id="sg-brief-status" class="siggear-form-status" aria-live="polite"></p>
+</form>
+
+A complete specification is not required. If torque, ratio or load is still unknown, describe the mechanism and attach a sketch or screenshot in the email.
+
 ## Minimum Information to Start
 
 For a first engineering review, four items are usually enough:
