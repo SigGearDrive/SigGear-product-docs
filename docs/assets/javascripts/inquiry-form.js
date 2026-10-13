@@ -7,7 +7,11 @@
     electric_pruning_shears: "Electric pruning shears",
     electric_curtain_blind: "Electric curtain / blind / window opener",
     smart_toilet_bidet: "Smart toilet / bidet mechanism",
-    dexterous_hand_gripper: "Dexterous hand / robot gripper"
+    dexterous_hand_gripper: "Dexterous hand / robot gripper",
+    smart_lock_access_control: "Smart lock / access-control mechanism",
+    pump_valve_fluid: "Pump / valve / dosing mechanism",
+    optical_positioning: "Camera module / focus / zoom / sensor positioning",
+    coffee_equipment: "Coffee / beverage / dosing / dispensing equipment"
   };
   var prefilledApplicationType = "not_specified";
   var model = document.getElementById("sg-model");
