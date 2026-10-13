@@ -67,7 +67,7 @@
 
   function updateDesignInHandoff() {
     if (!candidate || !designInReviewLink) return;
-    designInReviewLink.href = "design-in-checklist/?model=" + encodeURIComponent(candidate.model) +
+    designInReviewLink.href = "../design-in-checklist/?model=" + encodeURIComponent(candidate.model) +
       "&stage=" + encodeURIComponent(candidate.stage) +
       "&ratio=" + encodeURIComponent(candidate.ratio) +
       "&sample_status=" + encodeURIComponent(validationState()) +
