@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="OEM guide to selecting miniature planetary gearboxes by ratio, rated torque, motor interface, duty cycle, gearbox length and 3D CAD.">
+        <meta name="description" content="Preliminary 8–42 mm planetary gearbox selection by motor speed, target output speed, published ratio, stage, gearbox length, rated torque, datasheet and CAD.">
       
       
       
@@ -27,7 +27,7 @@
     
     
       
-        <title>How to Select a Miniature Planetary Gearbox (8–42 mm) | SigGear - SigGear Product Documentation</title>
+        <title>Miniature Planetary Gearbox Selection & Ratio Finder (8–42 mm) | SigGear - SigGear Product Documentation</title>
       
     
     
@@ -52,6 +52,8 @@
     
       <link rel="stylesheet" href="../../assets/stylesheets/inquiry-form.css">
     
+      <link rel="stylesheet" href="../../assets/stylesheets/ratio-stage-selector.css">
+    
     <script>__md_scope=new URL("/SigGear-product-docs/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -68,7 +70,7 @@
 
     
     
-  <script type="application/ld+json" data-siggear-seo-schema="breadcrumb">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SigGear","item":"https://siggeardrive.github.io/SigGear-product-docs/"},{"@type":"ListItem","position":2,"name":"Selection Guides","item":"https://siggeardrive.github.io/SigGear-product-docs/selection-guides/"},{"@type":"ListItem","position":3,"name":"How to Select a Miniature Planetary Gearbox (8–42 mm)","item":"https://siggeardrive.github.io/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/"}]}</script>
+  <script type="application/ld+json" data-siggear-seo-schema="breadcrumb">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SigGear","item":"https://siggeardrive.github.io/SigGear-product-docs/"},{"@type":"ListItem","position":2,"name":"Selection Guides","item":"https://siggeardrive.github.io/SigGear-product-docs/selection-guides/"},{"@type":"ListItem","position":3,"name":"Miniature Planetary Gearbox Selection & Ratio Finder (8–42 mm)","item":"https://siggeardrive.github.io/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/"}]}</script>
 </head>
   
   
@@ -117,7 +119,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              How to Select a Miniature Planetary Gearbox (8–42 mm) | SigGear
+              Miniature Planetary Gearbox Selection & Ratio Finder (8–42 mm) | SigGear
             
           </span>
         </div>
@@ -3286,6 +3288,17 @@
     <span class="md-ellipsis">
       
         2. Estimate the Reduction Ratio From Loaded Speed
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preliminary-ratio-stage-finder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Preliminary Ratio &amp; Stage Finder
       
     </span>
   </a>
@@ -6796,6 +6809,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#preliminary-ratio-stage-finder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Preliminary Ratio &amp; Stage Finder
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#3-compare-continuous-and-peak-torque-separately" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -6898,6 +6922,52 @@
 <h2 id="2-estimate-the-reduction-ratio-from-loaded-speed">2. Estimate the Reduction Ratio From Loaded Speed<a class="headerlink" href="#2-estimate-the-reduction-ratio-from-loaded-speed" title="Permanent link">&para;</a></h2>
 <p>The preliminary reduction ratio is approximately <strong>motor speed at the operating point divided by target gearbox output speed</strong>. Do not automatically use the motor's no-load speed.</p>
 <p>Compare this result with the published stage-specific ratio table of the selected gearbox. Different stages can change overall body length, torque rating and efficiency.</p>
+<h2 id="preliminary-ratio-stage-finder">Preliminary Ratio &amp; Stage Finder<a class="headerlink" href="#preliminary-ratio-stage-finder" title="Permanent link">&para;</a></h2>
+<p>Use this tool for an initial comparison when you know the <strong>motor operating speed</strong> and <strong>target gearbox output speed</strong>.</p>
+<p>It calculates:</p>
+<p><strong>preliminary target ratio = motor operating speed / target output speed</strong></p>
+<p>and compares that value with the currently published 1–4 stage ratios for SigGear 8P–42P.</p>
+<p>Optional filters can remove configurations that exceed a maximum gearbox diameter, maximum <strong>gearbox body length</strong>, or published <strong>rated allowable torque</strong> requirement.</p>
+<form id="siggear-ratio-stage-selector" class="siggear-ratio-selector">
+  <div class="siggear-selector-grid">
+    <label>
+      Motor operating speed (rpm)
+      <input id="sg-selector-motor-speed" type="number" min="0.01" step="any" required placeholder="Example: 8000">
+    </label>
+
+    <label>
+      Target output speed (rpm)
+      <input id="sg-selector-output-speed" type="number" min="0.01" step="any" required placeholder="Example: 80">
+    </label>
+
+    <label>
+      Maximum gearbox diameter (mm) — optional
+      <input id="sg-selector-diameter" type="number" min="0.01" step="any" placeholder="Example: 32">
+    </label>
+
+    <label>
+      Maximum gearbox body length (mm) — optional
+      <input id="sg-selector-length" type="number" min="0.01" step="any" placeholder="Gearbox only, not total motor + gearbox length">
+    </label>
+
+    <label>
+      Required continuous torque (kgf·cm) — optional
+      <input id="sg-selector-torque" type="number" min="0.001" step="any" placeholder="Compared with published rated allowable torque">
+    </label>
+  </div>
+
+  <div class="siggear-selector-actions">
+    <button type="submit" class="md-button md-button--primary">Find Published Configurations</button>
+  </div>
+
+  <p id="sg-ratio-stage-summary" class="siggear-selector-summary" aria-live="polite"></p>
+  <div id="sg-ratio-stage-results" aria-live="polite"></div>
+</form>
+
+<p><strong>Important:</strong> this is a preliminary Design-In aid, not an automatic final selector. It does not add a safety factor, calculate motor shaft torque, predict service life, or prove that a customer's motor shaft / pilot / mounting pattern fits the gearbox.</p>
+<p>Use the closest published ratio as a starting point, then confirm the selected <strong>model + stage + ratio + load + motor interface</strong> against the Datasheet and Mechanical Interface.</p>
+<p><a class="md-button" href="../../custom-engineering/motor-gearbox-integration/">Existing Motor — Open Motor-Matching Workflow</a>
+<a class="md-button" href="../../engineering-resources/planetary-gearboxes/">Open 8P–42P Datasheets &amp; Mechanical Interfaces</a></p>
 <h2 id="3-compare-continuous-and-peak-torque-separately">3. Compare Continuous and Peak Torque Separately<a class="headerlink" href="#3-compare-continuous-and-peak-torque-separately" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>Normal running:</strong> Compare required continuous operating torque with the exact configuration's rated allowable torque, considering cycle and necessary margin.</li>
@@ -7140,6 +7210,8 @@
         <script src="../../assets/javascripts/analytics-events.js"></script>
       
         <script src="../../assets/javascripts/inquiry-form.js"></script>
+      
+        <script src="../../assets/javascripts/ratio-stage-selector.js"></script>
       
         <script src="../../assets/javascripts/organization-schema.js"></script>
       

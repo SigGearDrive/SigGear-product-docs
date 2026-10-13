@@ -1,0 +1,63 @@
+.siggear-ratio-selector {
+  margin: 1.2rem 0 1.5rem;
+  padding: 1.2rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.45rem;
+  background: var(--md-default-bg-color);
+}
+
+.siggear-ratio-selector label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.siggear-ratio-selector input {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 0.35rem;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.3rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+  font-weight: 400;
+}
+
+.siggear-selector-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 1rem;
+}
+
+.siggear-selector-actions {
+  margin-top: 0.25rem;
+}
+
+.siggear-selector-actions .md-button {
+  cursor: pointer;
+}
+
+.siggear-selector-summary {
+  margin: 1rem 0;
+}
+
+.siggear-selector-table-wrap {
+  overflow-x: auto;
+}
+
+.siggear-selector-table-wrap table {
+  min-width: 980px;
+}
+
+.siggear-selector-note {
+  margin-top: 0.8rem;
+  color: var(--md-default-fg-color--light);
+}
+
+@media (max-width: 44rem) {
+  .siggear-selector-grid {
+    grid-template-columns: 1fr;
+  }
+}
