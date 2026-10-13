@@ -12,6 +12,7 @@
   var interfaceLink = document.getElementById("sg-pack-interface");
   var publicStep = document.getElementById("sg-pack-public-step");
   var brief = document.getElementById("sg-pack-project-brief");
+  var sampleValidation = document.getElementById("sg-pack-sample-validation");
   var dedicated = document.getElementById("sg-pack-dedicated");
 
   var validModels = ["8P","10P","12P","14P","16P","20P","22P","24P","28P","32P","36P","42P"];
@@ -118,6 +119,12 @@
         "&selection=ratio_stage_selector&candidate_stage=" + encodeURIComponent(stage) +
         "&candidate_ratio=" + encodeURIComponent(matchedRatio) +
         "&next_step=cad_review";
+
+      if (sampleValidation) {
+        sampleValidation.href = "../../../engineering-center/sample-validation-workflow/?model=" +
+          encodeURIComponent(model) + "&stage=" + encodeURIComponent(stage) +
+          "&ratio=" + encodeURIComponent(matchedRatio) + "&sample=planetary_candidate";
+      }
 
       if (dedicated && (model === "32P" || model === "42P")) {
         dedicated.href = "../../" + slug + "/design-in-pack/";

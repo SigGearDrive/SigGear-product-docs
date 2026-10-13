@@ -1,0 +1,86 @@
+schema_version: 1
+policy_id: planetary-candidate-sample-validation-handoff
+updated: "2026-10-13"
+scope: public_safe_sample_validation
+
+objective: >
+  Carry a validated 8P-42P planetary gearbox candidate from the Candidate
+  Design-In Pack into a structured sample-validation workflow without treating
+  customer-recorded test results as independent certification or final Design-In approval.
+
+candidate_context:
+  required_query_parameters:
+    - sample=planetary_candidate
+    - model
+    - stage
+    - ratio
+  validation_source: "/assets/data/planetary-ratio-stage-data.json"
+  invalid_candidate_behavior: do_not_activate_planetary_validation_panel
+
+validation_steps:
+  - configuration_received
+  - mechanical_fit
+  - no_load_or_free_rotation_check
+  - functional_test
+  - representative_application_load_test
+
+step_states:
+  - not_checked
+  - pass
+  - issue
+
+normalized_validation_status:
+  validation_in_progress:
+    rule: one_or_more_steps_not_checked_and_no_issue
+  engineering_iteration_required:
+    rule: one_or_more_steps_marked_issue
+  ready_to_submit_for_design_in_review:
+    rule: all_five_steps_marked_pass
+    boundary: >
+      Ready to submit for Design-In review means the customer-side sample record
+      is complete enough for engineering review. It does not mean Design-In is approved,
+      the design is frozen, or the product is production released.
+
+engineering_outcomes:
+  - not_decided
+  - keep_current_configuration
+  - change_ratio
+  - change_motor_or_input
+  - revise_mechanical_interface
+  - more_testing_required
+  - ready_for_design_in_review
+
+customer_side_record:
+  may_include:
+    - test_operating_condition
+    - representative_load
+    - output_speed
+    - duty_cycle
+    - peak_duration
+    - temperature_observation
+    - noise_or_vibration_observation
+    - fault_or_issue_notes
+  storage: browser_local_until_copy_or_email
+  public_repository_storage: prohibited
+
+analytics:
+  may_receive:
+    - normalized_model
+    - normalized_stage
+    - normalized_sample_validation_status
+    - normalized_sample_validation_outcome
+  must_not_receive:
+    - candidate_ratio
+    - customer_test_operating_condition
+    - measured_output_speed
+    - customer_load_or_torque_values
+    - duty_cycle_text
+    - temperature_values
+    - noise_or_vibration_text
+    - fault_or_issue_notes
+
+truth_boundary:
+  customer_recorded_pass_is_siggear_certification: false
+  ready_to_submit_for_design_in_review_is_design_in_approval: false
+  sample_validation_replaces_controlled_drawing_review: false
+  sample_validation_replaces_production_release: false

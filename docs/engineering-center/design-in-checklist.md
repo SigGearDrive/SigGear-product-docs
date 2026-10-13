@@ -85,6 +85,8 @@ Useful evidence includes:
 - faults or integration issues resolved
 - remaining risks or assumptions documented
 
+A Sample Validation Workflow status of **Ready to Submit for Design-In Review** means the recorded sample steps are complete enough to submit for engineering review. It does **not** mean the configuration is already Design-In approved, frozen or production released.
+
 ## 6. Configuration Freeze
 
 Before releasing the next prototype or pilot build, confirm:

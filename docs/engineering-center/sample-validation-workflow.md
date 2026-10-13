@@ -9,6 +9,112 @@ The goal of a sample evaluation is not only to confirm that a product can rotate
 
 This workflow is intended to make the first evaluation more structured and reduce avoidable setup delays.
 
+## Planetary Candidate Sample Validation
+
+If you arrived from a validated 8P–42P Candidate Design-In Pack, this panel rechecks the **model + stage + published ratio** before creating a sample-validation record.
+
+<div id="sg-planetary-sample-validation" class="siggear-sample-validation" hidden>
+  <p id="sg-sample-validation-status">Checking the planetary candidate against current published data...</p>
+
+  <div id="sg-sample-validation-content" hidden>
+    <div class="siggear-sample-candidate-summary">
+      <strong id="sg-sample-candidate-name"></strong>
+      <span id="sg-sample-candidate-detail"></span>
+    </div>
+
+    <p>This is a customer-side evaluation aid. A recorded “Pass” means the evaluator marked that step as acceptable in their test; it is not an independent SigGear certification or production approval.</p>
+
+    <form id="sg-sample-validation-form">
+      <div class="siggear-form-grid">
+        <label>
+          1. Configuration received
+          <select id="sg-sample-config-status">
+            <option value="not_checked">Not checked</option>
+            <option value="pass">Pass — sample matches expected configuration</option>
+            <option value="issue">Issue — configuration mismatch or uncertainty</option>
+          </select>
+        </label>
+
+        <label>
+          2. Mechanical fit
+          <select id="sg-sample-fit-status">
+            <option value="not_checked">Not checked</option>
+            <option value="pass">Pass — fit / mounting acceptable for this test</option>
+            <option value="issue">Issue — fit / mounting needs review</option>
+          </select>
+        </label>
+
+        <label>
+          3. No-load / free-rotation check
+          <select id="sg-sample-noload-status">
+            <option value="not_checked">Not checked</option>
+            <option value="pass">Pass — basic no-load / free-rotation check acceptable</option>
+            <option value="issue">Issue — alignment, drag, motion or setup concern</option>
+          </select>
+        </label>
+
+        <label>
+          4. Functional test
+          <select id="sg-sample-functional-status">
+            <option value="not_checked">Not checked</option>
+            <option value="pass">Pass — required basic function demonstrated</option>
+            <option value="issue">Issue — output / motion / behavior needs review</option>
+          </select>
+        </label>
+
+        <label>
+          5. Representative application-load test
+          <select id="sg-sample-application-status">
+            <option value="not_checked">Not checked</option>
+            <option value="pass">Pass — representative mechanism / load test acceptable</option>
+            <option value="issue">Issue — representative application test needs review</option>
+          </select>
+        </label>
+
+        <label>
+          Engineering outcome
+          <select id="sg-sample-outcome">
+            <option value="not_decided">Not decided yet</option>
+            <option value="keep_current_configuration">Keep current configuration for next review</option>
+            <option value="change_ratio">Review a different ratio / stage</option>
+            <option value="change_motor_or_input">Review motor / input-side configuration</option>
+            <option value="revise_mechanical_interface">Revise mounting / shaft / interface</option>
+            <option value="more_testing_required">More testing required</option>
+            <option value="ready_for_design_in_review">Submit current configuration for Design-In review</option>
+          </select>
+        </label>
+      </div>
+
+      <label>
+        Test operating condition / evidence
+        <textarea id="sg-sample-test-condition" rows="3" placeholder="Motor / input condition, representative load, output speed, duty cycle, peak duration, temperature or other useful test context."></textarea>
+      </label>
+
+      <label>
+        Issue / observation notes
+        <textarea id="sg-sample-notes" rows="3" placeholder="What was expected, what happened, noise / vibration / temperature observations, fault information, interface issue, or remaining question."></textarea>
+      </label>
+
+      <div id="sg-sample-readiness" class="siggear-sample-readiness">
+        <strong>Validation status</strong>
+        <p id="sg-sample-readiness-status">Validation in Progress — record each step before submitting the configuration for Design-In review.</p>
+      </div>
+
+      <div class="siggear-form-actions">
+        <button type="button" id="sg-copy-sample-summary" class="md-button md-button--primary">Copy Validation Summary</button>
+        <button type="button" id="sg-email-sample-summary" class="md-button">Prepare Validation Email to SigGear</button>
+        <a id="sg-sample-datasheet" class="md-button" href="#">Open Datasheet</a>
+        <a id="sg-sample-interface" class="md-button" href="#">Open Mechanical Interface</a>
+        <a class="md-button" href="design-in-checklist.md">Open Design-In Checklist</a>
+      </div>
+
+      <p id="sg-sample-action-status" class="siggear-form-status" aria-live="polite"></p>
+    </form>
+  </div>
+</div>
+
+The detailed operating condition and free-text observations stay in your browser until you copy the summary or open your email client. They are not sent to GA4.
+
 ## Before the Sample Is Ordered
 
 Confirm the exact configuration being evaluated.
