@@ -264,7 +264,9 @@
         "<td>" + (signals.length ? esc(signals.join(" · ")) : "Candidate") + "</td>" +
         "<td><a href=\"../../engineering-resources/" + slug + "/datasheet/\">Datasheet</a><br>" +
         "<a href=\"../../engineering-resources/" + slug + "/mechanical-interface/\">Interface</a><br>" +
-        "<a href=\"../../request-cad-sample-quote/?model=" + encodeURIComponent(item.model) + "\">Project brief</a></td>" +
+        "<a href=\"../../request-cad-sample-quote/?model=" + encodeURIComponent(item.model) +
+        "&selection=ratio_stage_selector&candidate_stage=" + encodeURIComponent(item.stage) +
+        "&candidate_ratio=" + encodeURIComponent(item.ratio) + "\">Project brief</a></td>" +
         "</tr>";
     }).join("");
 
@@ -294,7 +296,9 @@
         "<td>" + fmt(item.rated, 2) + " kgf·cm</td>" +
         "<td>" + fmt(item.efficiency, 0) + "%</td>" +
         "<td><a href=\"../../engineering-resources/" + slug + "/datasheet/\">Datasheet</a><br>" +
-        "<a href=\"../../request-cad-sample-quote/?model=" + encodeURIComponent(item.model) + "\">Project brief</a></td>" +
+        "<a href=\"../../request-cad-sample-quote/?model=" + encodeURIComponent(item.model) +
+        "&selection=ratio_stage_selector&candidate_stage=" + encodeURIComponent(item.stage) +
+        "&candidate_ratio=" + encodeURIComponent(item.ratio) + "\">Project brief</a></td>" +
         "</tr>";
     }).join("");
 

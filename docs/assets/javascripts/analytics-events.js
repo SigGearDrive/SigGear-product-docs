@@ -140,7 +140,9 @@
     var context = {
       inquiry_model: "not_specified",
       inquiry_application: "not_specified",
-      inquiry_type: "not_sure"
+      inquiry_type: "not_sure",
+      selector_handoff: 0,
+      selector_candidate_stage: "none"
     };
 
     try {
@@ -168,6 +170,14 @@
       if (["gearbox_only", "motor_gearbox", "not_sure"].indexOf(inquiryType) !== -1) {
         context.inquiry_type = inquiryType;
       }
+
+      if ((params.get("selection") || "") === "ratio_stage_selector") {
+        context.selector_handoff = 1;
+        var candidateStage = Number(params.get("candidate_stage"));
+        if (Number.isInteger(candidateStage) && candidateStage >= 1 && candidateStage <= 4) {
+          context.selector_candidate_stage = String(candidateStage);
+        }
+      }
     } catch (e) {
       // Keep normalized defaults.
     }
@@ -177,9 +187,13 @@
 
   function inquiryOriginGroup() {
     try {
+      var currentParams = new URLSearchParams(window.location.search);
+      if ((currentParams.get("selection") || "") === "ratio_stage_selector") return "selection_tool";
+
       var ref = document.referrer ? new URL(document.referrer) : null;
       if (!ref || ref.hostname !== window.location.hostname) return "direct_or_external";
       var refPath = ref.pathname || "";
+      if (refPath.indexOf("/selection-guides/miniature-planetary-gearbox-selection-guide/") !== -1) return "selection_tool";
       if (refPath.indexOf("/engineering-resources/") !== -1) return "engineering_resource";
       if (/\/products\/planetary-gearboxes\/\d{1,2}p-planetary-gearbox\//i.test(refPath)) return "product_model";
       if (refPath.indexOf("/products/planetary-gearboxes/") !== -1) return "planetary_series";
@@ -279,7 +293,9 @@
       inquiry_model: inquiryContext.inquiry_model,
       inquiry_application: inquiryContext.inquiry_application,
       inquiry_type: inquiryContext.inquiry_type,
-      inquiry_origin: inquiryOriginGroup()
+      inquiry_origin: inquiryOriginGroup(),
+      selector_handoff: inquiryContext.selector_handoff,
+      selector_candidate_stage: inquiryContext.selector_candidate_stage
     });
   }
 
@@ -364,11 +380,21 @@
           if (["gearbox_only", "motor_gearbox", "not_sure"].indexOf(briefPath) === -1) {
             briefPath = "not_sure";
           }
+
+          var selectorHandoff = internalDestination.searchParams.get("selection") === "ratio_stage_selector" ? 1 : 0;
+          var selectorStageValue = Number(internalDestination.searchParams.get("candidate_stage"));
+          var selectorStage = Number.isInteger(selectorStageValue) &&
+            selectorStageValue >= 1 && selectorStageValue <= 4 ?
+            String(selectorStageValue) : "none";
+
           sendEvent("engineering_brief_open_click", {
             page_path: pagePath(),
             inquiry_model: briefModel,
             inquiry_application: briefApplication,
             inquiry_type: briefPath,
+            inquiry_origin: selectorHandoff ? "selection_tool" : inquiryOriginGroup(),
+            selector_handoff: selectorHandoff,
+            selector_candidate_stage: selectorStage,
             destination_path: internalDestination.pathname,
             link_text: label
           });

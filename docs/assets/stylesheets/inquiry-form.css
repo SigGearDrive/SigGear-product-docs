@@ -59,3 +59,19 @@
     grid-template-columns: 1fr;
   }
 }
+.siggear-selector-candidate {
+  margin: 0 0 1rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+  background: var(--md-code-bg-color);
+}
+
+.siggear-selector-candidate p {
+  margin: 0.35rem 0 0;
+}
+
+.siggear-selector-candidate-note {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.9em;
+}

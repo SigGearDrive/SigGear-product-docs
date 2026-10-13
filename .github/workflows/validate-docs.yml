@@ -88,6 +88,12 @@ jobs:
       - name: Validate ratio-stage selector JavaScript syntax
         run: node --check docs/assets/javascripts/ratio-stage-selector.js
 
+      - name: Validate inquiry-form JavaScript syntax
+        run: node --check docs/assets/javascripts/inquiry-form.js
+
+      - name: Validate analytics-events JavaScript syntax
+        run: node --check docs/assets/javascripts/analytics-events.js
+
       - name: Test external catalog export
         run: python scripts/export_external_catalog.py --output /tmp/siggear-planetary-gearboxes.csv
 

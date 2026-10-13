@@ -82,3 +82,36 @@ privacy:
 data_integrity:
   source_of_truth: published_model_datasheet_stage_tables
   ci_rule: selector_json_must_match_all_12_datasheet_stage_tables
+
+project_brief_handoff:
+  source: ratio_stage_selector
+  url_parameters:
+    - model
+    - candidate_stage
+    - candidate_ratio
+    - selection=ratio_stage_selector
+  prohibited_url_parameters:
+    - motor_operating_speed_rpm
+    - target_output_speed_rpm
+    - required_continuous_torque
+    - maximum_gearbox_diameter
+    - maximum_gearbox_length
+    - maximum_ratio_difference
+  validation:
+    rule: project_brief_rechecks_model_stage_ratio_against_current_selector_json
+    invalid_candidate_behavior: do_not_include_candidate_in_project_brief
+  email_body:
+    include_validated_preliminary_candidate: true
+    wording_boundary: preliminary_candidate_not_final_engineering_selection
+  analytics:
+    may_receive:
+      - selector_handoff_flag
+      - normalized_model
+      - normalized_stage
+    must_not_receive:
+      - candidate_ratio
+      - customer_input_motor_speed
+      - customer_input_output_speed
+      - customer_input_torque
+      - customer_input_diameter
+      - customer_input_length

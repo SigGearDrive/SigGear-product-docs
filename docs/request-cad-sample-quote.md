@@ -110,6 +110,14 @@ This page does **not** send your engineering details to a third-party form servi
     </label>
   </div>
 
+  <div id="sg-selector-candidate" class="siggear-selector-candidate" hidden>
+    <strong>Preliminary candidate from SigGear Selection Tool</strong>
+    <p id="sg-selector-candidate-summary"></p>
+    <p class="siggear-selector-candidate-note">This candidate is rechecked against the current published ratio-stage data before it is included in your project brief. It is not a final engineering selection.</p>
+    <input id="sg-selector-candidate-stage" name="selector_candidate_stage" type="hidden">
+    <input id="sg-selector-candidate-ratio" name="selector_candidate_ratio" type="hidden">
+  </div>
+
   <label>
     Application / what needs to move
     <textarea id="sg-application" name="application" rows="3" required placeholder="Example: compact curtain drive, robotic gripper, optical adjustment mechanism..."></textarea>
