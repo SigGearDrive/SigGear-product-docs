@@ -82,6 +82,12 @@ priority_paths:
     - "/applications/agv-amr-wheel-drive-gearboxes/"
 
 system_intent_paths:
+  - id: "planetary_supplier_discovery"
+    intent: "miniature planetary gearbox manufacturer / planetary gearbox supplier / planetary gearhead manufacturer"
+    canonical_page: "/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/"
+    priority: "P0"
+    action: "strengthen_existing_series_landing_and_measure"
+    boundary: "Use factual manufacturing, product, CAD and quality evidence; do not use best/top/leading manufacturer claims."
   - id: "motor_planetary_integration"
     intent: "motor with planetary gearbox / planetary gearbox motor / motor + planetary gearbox"
     canonical_page: "/custom-engineering/motor-gearbox-integration/"

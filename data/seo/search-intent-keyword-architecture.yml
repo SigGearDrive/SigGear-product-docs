@@ -37,8 +37,8 @@ intent_clusters:
     primary_intent:
       - "custom planetary gearbox"
       - "custom planetary gearhead"
-      - "miniature planetary gearbox"
-      - "compact planetary gearhead"
+      - "custom miniature planetary gearbox"
+      - "custom compact planetary gearhead"
     secondary_intent:
       - "planetary gearbox custom shaft"
       - "planetary gearbox custom mounting"
@@ -122,6 +122,12 @@ intent_clusters:
       - "micro planetary gearbox"
       - "small planetary gearbox"
     secondary_intent:
+      - "miniature planetary gearbox manufacturer"
+      - "miniature planetary gearbox supplier"
+      - "micro planetary gearbox manufacturer"
+      - "planetary gearhead manufacturer"
+      - "planetary gearbox supplier"
+      - "precision planetary gearbox supplier"
       - "8mm planetary gearbox"
       - "10mm planetary gearbox"
       - "12mm planetary gearbox"
@@ -134,9 +140,9 @@ intent_clusters:
       - "32mm planetary gearbox"
       - "36mm planetary gearbox"
       - "42mm planetary gearbox"
-    canonical_page: "/products/planetary-gearboxes/"
-    status: "existing_page"
-    user_need: "Shortlist a real gearbox frame size before requesting a modified configuration."
+    canonical_page: "/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/"
+    status: "existing_series_landing"
+    user_need: "Evaluate a real miniature/compact planetary gearbox manufacturer and shortlist a frame size before requesting a modified configuration."
 
   - id: "micro-gearmotor-product-discovery"
     priority: "P0"

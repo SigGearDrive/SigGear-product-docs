@@ -5,6 +5,23 @@ description: Custom planetary gearbox engineering and manufacturing for miniatur
 
 # Custom Planetary Gearbox Engineering
 
+## Standard Series or Custom Engineering?
+
+If the requirement can be met by a released 8–42 mm frame size, start with the [standard planetary gearbox series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md).
+
+Use this custom-engineering path when the project needs a modified or special:
+
+- motor interface
+- reduction ratio
+- output shaft
+- mounting flange or pattern
+- housing / installation structure
+- encoder or brake integration
+- connector / cable arrangement
+- operating condition that requires configuration review
+
+This separation keeps standard-product selection and custom-project evaluation distinct.
+
 ## When a Catalog Gearbox Does Not Fit the Project
 
 A planetary gearbox project does not need to start from an existing SigGear model number.
@@ -19,7 +36,7 @@ You may already have:
 - an existing mechanism drawing
 - a current gearbox that does not meet the project requirement
 
-SigGear designs and manufactures miniature and compact planetary gearboxes and can review a project using existing gearbox platforms as engineering starting points before evaluating modified or custom configurations.
+SigGear designs and manufactures miniature and compact planetary gearboxes and can review existing 8–42 mm gearbox platforms as engineering starting points before evaluating a **modified or custom planetary gearbox** configuration.
 
 [Send Your Motor or Drawing](mailto:wangwanrong@siggear.com?subject=Custom%20Planetary%20Gearbox%20Engineering%20Review){ .md-button .md-button--primary }
 [Request Engineering Review](../request-cad-sample-quote.md){ .md-button }

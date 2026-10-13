@@ -1,6 +1,6 @@
 ---
 title: 8–42 mm Miniature & Compact Planetary Gearboxes | SigGear
-description: Compare 12 SigGear 8–42 mm miniature and compact planetary gearboxes and gearheads. Get model ratios, torque, dimensions, datasheets, STEP CAD and OEM motor matching.
+description: Compare 12 SigGear 8–42 mm miniature and compact planetary gearboxes and gearheads from a precision transmission manufacturer, with ratios, torque, dimensions, datasheets, STEP CAD and OEM motor matching.
 ---
 
 # 8–42 mm Miniature & Compact Planetary Gearbox Series
@@ -33,6 +33,27 @@ SigGear's [public supplier catalog on TraceParts (Chinese-language portal)](http
 
 [See SigGear Manufacturing & Quality Evidence](../../company/manufacturing-and-quality-evidence.md){ .md-button }
 [Testing & Validation Evidence](../../engineering-center/testing-and-validation-evidence.md){ .md-button }
+
+## Manufacturer and Supplier Evaluation
+
+For engineering teams searching for a **miniature planetary gearbox manufacturer or supplier**, this 8–42 mm series is the primary public product-comparison path.
+
+SigGear's public documentation supports supplier evaluation with:
+
+- 12 released planetary gearbox frame sizes from 8 mm to 42 mm
+- model-specific ratio, torque, backlash, length and motor-matching data
+- public Datasheets for all 12 frame sizes
+- Mechanical Interface references based on reviewed controlled drawings
+- simplified public 4-stage STEP CAD for early Design-In
+- real product, manufacturing, metrology and testing evidence
+- gearbox-only or motor-matched engineering review
+- controlled configuration-specific drawings and CAD after the selected model is confirmed
+
+This documentation does not replace an application review. Final ratio, stage count, motor interface, shaft, mounting, duty cycle and project-specific operating limits remain configuration-dependent.
+
+[About SigGear Manufacturing](../../company/about-siggear.md){ .md-button }
+[Manufacturing & Quality Evidence](../../company/manufacturing-and-quality-evidence.md){ .md-button }
+[Custom Planetary Gearbox Engineering](../../custom-engineering/custom-planetary-gearbox.md){ .md-button }
 
 ## Browse by Planetary Gearbox Diameter
 
