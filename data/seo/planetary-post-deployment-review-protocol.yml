@@ -1,0 +1,157 @@
+schema_version: 1
+protocol_id: planetary-post-deployment-search-review
+updated: "2026-10-13"
+scope: 8p_42p_planetary_search_and_funnel_observation
+
+objective: >
+  Compare repeated Search Console and GA4 observations after the 2026-10-13
+  planetary SEO/funnel deployment without overwriting history or reacting to
+  one-off impressions.
+
+private_sheet:
+  workbook: "SigGear Global Project Pipeline v1.0"
+  live_monitor_tab: "Planetary Search Monitor"
+  round_log_tab: "Planetary Review Rounds"
+  round_log_mode: append_only
+  tracked_queries_per_round: 44
+
+round_schema:
+  - review_round
+  - review_date
+  - gsc_data_through
+  - tracked_query
+  - model_or_intent
+  - canonical_page
+  - exact_impressions
+  - exact_clicks
+  - exact_avg_position
+  - exact_query_status
+  - canonical_page_impressions
+  - canonical_page_clicks
+  - canonical_page_avg_position
+  - page_signal
+  - delta_exact_impressions_vs_previous_round
+  - delta_page_impressions_vs_previous_round
+  - recommended_action
+  - observation
+
+round_1:
+  review_date: "2026-10-13"
+  gsc_data_through: "2026-10-10"
+  exact_queries_with_impressions: 0
+  exact_queries_with_clicks: 0
+  canonical_pages_with_signal: 1
+  first_page_signal:
+    model: 42P
+    page: "/products/planetary-gearboxes/42p-planetary-gearbox/"
+    impressions: 2
+    clicks: 0
+    average_position: 1
+    exact_query_status: SEEDING
+  delta_columns: blank_because_no_previous_round
+
+review_timing_rule:
+  required_for_first_true_post_deployment_review:
+    search_console_data_through: ">= 2026-10-13"
+  preferred:
+    - allow_multiple_post_deployment_days_before_drawing_content_conclusions
+    - use_the_same_query_set_and_canonical_mapping
+  do_not_label_as_post_deployment_effect_review_when:
+    - gsc_latest_date_is_before_2026_10_13
+
+status_rules:
+  exact_query:
+    seeding: impressions_equals_0
+    impression: impressions_gt_0
+    click: clicks_gt_0
+    top_20: impressions_gt_0_and_avg_position_lte_20
+    top_10: impressions_gt_0_and_avg_position_lte_10
+    top_3: impressions_gt_0_and_avg_position_lte_3
+    precedence:
+      - click
+      - top_3
+      - top_10
+      - top_20
+      - impression
+      - seeding
+  page_signal:
+    no_page_signal: page_impressions_equals_0
+    page_impression: page_impressions_gt_0
+    page_click: page_clicks_gt_0
+
+comparison_rules:
+  - compare_each_query_only_to_the_previous_logged_round_for_the_same_query
+  - keep_round_1_delta_cells_blank
+  - do_not_compare_page_position_to_exact_query_position
+  - do_not_infer_exact_query_rank_from_canonical_page_exposure
+  - do_not_treat_search_console_impression_growth_as_sales_pipeline_growth
+  - do_not_treat_ga4_prepare_email_as_received_inquiry
+
+decision_matrix:
+  observe:
+    when:
+      - exact_query_has_no_impressions
+      - post_deployment_observation_window_is_too_short
+      - page_signal_is_one_off_or_sample_is_too_small
+    action:
+      - preserve_current_title_h1_canonical_and_url
+      - continue_monitoring
+  inspect_query_mapping:
+    when:
+      - canonical_page_has_repeated_impressions
+      - exact_target_query_remains_absent
+    action:
+      - inspect_actual_query_mix_for_that_page
+      - check_search_intent_alignment_before_editing_content
+  review_ctr:
+    when:
+      - target_page_has_meaningful_repeated_impressions
+      - clicks_remain_zero_or_weak
+    action:
+      - review_title_and_description
+      - compare_serp_intent
+      - keep_url_and_canonical_stable
+  review_indexing:
+    when:
+      - core_planetary_pages_remain_without_page_signal_after_reasonable_post_deployment_window
+    action:
+      - inspect_indexing
+      - inspect_internal_links
+      - inspect_sitemap
+      - inspect_crawl_paths
+      - do_not_create_duplicate_keyword_pages
+  review_funnel:
+    when:
+      - planetary_sessions_are_large_enough_to_interpret
+    action:
+      - compare_selector_runs
+      - compare_candidate_pack_views
+      - compare_project_brief_handoffs
+      - compare_prepare_email_events
+    boundary:
+      - ga4_events_are_directional
+      - pipeline_is_source_of_truth_for_received_inquiry_and_sales_stage
+
+content_change_guardrail:
+  default: no_change
+  change_requires:
+    - post_deployment_evidence
+    - repeated_or_material_signal
+    - clear_query_to_page_or_ctr_problem
+  forbidden_reactions:
+    - rewrite_content_from_one_or_two_impressions
+    - change_url_for_rank_experiment
+    - create_duplicate_exact_match_pages
+    - claim_keyword_rank_from_page_level_position
+
+next_round_output:
+  must_include:
+    - latest_gsc_data_through
+    - number_of_exact_queries_with_impressions
+    - number_of_exact_queries_with_clicks
+    - newly_discovered_canonical_pages
+    - newly_appearing_exact_queries
+    - strongest_positive_delta
+    - strongest_negative_or_stalled_signal_if_material
+    - ga4_planetary_funnel_events_if_available
+    - action_list_limited_to_evidence_backed_changes

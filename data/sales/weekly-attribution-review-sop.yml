@@ -17,6 +17,21 @@ data_sources:
       - ctr
       - average_position
     role: search_discovery
+  planetary_review_rounds:
+    workbook_tab: "Planetary Review Rounds"
+    mode: append_only
+    tracked_queries_per_round: 44
+    metrics:
+      - exact_query_impressions
+      - exact_query_clicks
+      - exact_query_average_position
+      - exact_query_status
+      - canonical_page_impressions
+      - canonical_page_clicks
+      - canonical_page_average_position
+      - page_signal
+      - delta_vs_previous_round
+    role: planetary_search_identity_change_log
   ga4:
     metrics:
       - sessions
@@ -59,6 +74,13 @@ weekly_sequence:
       - did_ctr_change
       - did_average_position_change
       - which_planetary_pages_gained_visibility
+      - which_exact_tracked_queries_first_appeared
+      - which_canonical_pages_first_gained_page_signal
+      - which_queries_or_pages_changed_vs_previous_planetary_review_round
+    planetary_rule:
+      - use_planetary_review_rounds_as_append_only_history
+      - do_not_infer_exact_query_rank_from_page_level_position
+      - do_not_reoptimize_from_one_or_two_impressions
   - step: engineering_intent
     questions:
       - were_cad_files_clicked
