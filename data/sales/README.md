@@ -13,3 +13,5 @@ Website analytics must use categories, counts and presence flags only. Customer-
 The `attribution-kpi-schema.yml` file defines the shared naming and funnel rules used to compare website intent with offline Pipeline outcomes. It sets the attribution baseline at 2026-10-13 and prohibits retroactive source guessing or treating outbound platform clicks as proof of acquisition.
 
 The `operating-attribution-sop.yml` file defines the daily publishing, source-assignment, correction and weekly-review workflow. Pipeline `Source` means the first reliably known acquisition source and is not overwritten by later email, WhatsApp or DM contact.
+
+The `weekly-attribution-review-sop.yml` file defines the recurring review loop that compares Google discovery, GA4 engineering intent and offline Pipeline outcomes. It uses completed weekly windows and treats qualified movement as more important than raw traffic.
