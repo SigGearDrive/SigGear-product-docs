@@ -57,7 +57,11 @@ A 4-stage CAD reference is **not interchangeable** with a 1-, 2- or 3-stage conf
 
 ## Application-Specific Engineering Questions
 
-An [electric pruning-shear gearbox](../applications/electric-pruning-shears-planetary-gearbox.md) must be reviewed for blade geometry, cutting force variation, torque spikes and outdoor exposure. An [electric curtain gearmotor](../applications/electric-curtain-blind-window-opener-gear-motors.md) needs track friction, pulley speed, acoustic, holding and safety reviews. A [smart toilet or bidet mechanism](../applications/smart-toilet-bidet-planetary-gear-motors.md) adds low-noise, jam, humidity and cleaning-environment requirements. A [dexterous hand or robot gripper](../applications/robot-gripper-gear-motors.md) requires finger-force or tendon-spool geometry, shaft-load and packaging review. These are potential uses, not published customer case studies.
+An [electric pruning-shear gearbox](../applications/electric-pruning-shears-planetary-gearbox.md) must be reviewed for blade geometry, cutting force variation, torque spikes and outdoor exposure. An [electric curtain gearmotor](../applications/electric-curtain-blind-window-opener-gear-motors.md) needs track friction, pulley speed, acoustic, holding and safety reviews. A [smart toilet or bidet mechanism](../applications/smart-toilet-bidet-planetary-gear-motors.md) adds low-noise, jam, humidity and cleaning-environment requirements. A [dexterous hand or robot gripper](../applications/robot-gripper-gear-motors.md) requires finger-force or tendon-spool geometry, shaft-load and packaging review.
+
+A [smart lock or access-control mechanism](../applications/access-control-smart-lock-security-gear-motors.md) adds bolt or latch preload, battery-current, jam and power-off requirements. [Pump, valve and dosing mechanisms](../applications/pump-valve-fluid-control-gear-motors.md) require pressure, seal friction, duty-cycle and feedback review. [Camera focus, zoom and sensor-positioning mechanisms](../applications/optical-imaging-camera-module-gear-motors.md) add backlash, vibration and repeatability constraints. [Coffee, beverage and dispensing equipment](../applications/food-beverage-coffee-equipment-gear-motors.md) adds dosing, jam, cleaning-boundary and acoustic requirements.
+
+These are potential engineering uses, not published customer case studies.
 
 ## What to Send for a First Review
 
