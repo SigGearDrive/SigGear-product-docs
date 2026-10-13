@@ -155,6 +155,8 @@
 
   async function init() {
     var params = new URLSearchParams(window.location.search);
+    if ((params.get("sample") || "") !== "planetary_candidate") return;
+
     var model = (params.get("model") || "").toUpperCase();
     var stage = Number(params.get("stage"));
     var ratio = Number(params.get("ratio"));
