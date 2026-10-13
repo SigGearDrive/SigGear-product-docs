@@ -19,6 +19,7 @@ on:
       - "scripts/validate_ratio_stage_selector_data.py"
       - "scripts/validate_stage_specific_cad_boundary.py"
       - "scripts/validate_controlled_cad_readiness.py"
+      - "scripts/validate_sample_validation_handoff.py"
       - "scripts/utm_utils.py"
       - "hooks/**"
       - ".github/workflows/validate-docs.yml"
@@ -40,6 +41,7 @@ on:
       - "scripts/export_3dfindit_onboarding.py"
       - "scripts/validate_utm_links.py"
       - "scripts/validate_controlled_cad_readiness.py"
+      - "scripts/validate_sample_validation_handoff.py"
       - "scripts/validate_stage_specific_cad_boundary.py"
       - "scripts/validate_ratio_stage_selector_data.py"
       - "scripts/utm_utils.py"
@@ -95,6 +97,9 @@ jobs:
       - name: Validate controlled CAD request readiness
         run: python scripts/validate_controlled_cad_readiness.py
 
+      - name: Validate candidate sample-validation handoff
+        run: python scripts/validate_sample_validation_handoff.py
+
       - name: Validate ratio-stage selector JavaScript syntax
         run: node --check docs/assets/javascripts/ratio-stage-selector.js
 
@@ -106,6 +111,9 @@ jobs:
 
       - name: Validate candidate Design-In Pack JavaScript syntax
         run: node --check docs/assets/javascripts/candidate-design-in-pack.js
+
+      - name: Validate sample-validation JavaScript syntax
+        run: node --check docs/assets/javascripts/sample-validation.js
 
       - name: Test external catalog export
         run: python scripts/export_external_catalog.py --output /tmp/siggear-planetary-gearboxes.csv
