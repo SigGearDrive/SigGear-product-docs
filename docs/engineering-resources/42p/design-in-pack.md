@@ -101,7 +101,7 @@ For early packaging or mechanical integration, request the CAD that matches the 
 - motor interface
 - output interface
 
-[Request 42P Controlled CAD](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Request 42P Controlled CAD](../../request-cad-sample-quote.md?model=42P&next_step=cad_review){ .md-button .md-button--primary }
 
 ## Public Data Gaps - Confirmation Required
 
