@@ -105,6 +105,7 @@ If you arrived from a validated 8P–42P Candidate Design-In Pack, this panel re
         <button type="button" id="sg-email-sample-summary" class="md-button">Prepare Validation Email to SigGear</button>
         <a id="sg-sample-datasheet" class="md-button" href="#">Open Datasheet</a>
         <a id="sg-sample-interface" class="md-button" href="#">Open Mechanical Interface</a>
+        <a class="md-button" href="design-in-checklist.md">Open Design-In Checklist</a>
       </div>
 
       <p id="sg-sample-action-status" class="siggear-form-status" aria-live="polite"></p>
