@@ -1,4 +1,15 @@
-# Pump, Valve and Fluid Control Gear Motors
+---
+title: Miniature Planetary Gear Motors for Pumps, Valves & Dosing | SigGear
+description: Engineering guide for compact planetary gearboxes and gear motors in pumps, valve actuators and dosing mechanisms, covering torque, speed, pressure, duty cycle, feedback and integration.
+---
+
+# Miniature Planetary Gear Motors for Pumps, Valves and Dosing Systems
+
+
+[Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
+[Start Pump / Valve Project Brief](../request-cad-sample-quote.md?app=pump_valve_fluid){ .md-button }
+
 
 ## Application Overview
 
@@ -200,3 +211,6 @@ International Sales, SigGear
 [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
 [Send Pump or Valve Gear Motor Requirements](../contact.md){ .md-button .md-button--primary }
+
+
+[Start Pump / Valve Project Brief](../request-cad-sample-quote.md?app=pump_valve_fluid){ .md-button .md-button--primary }
