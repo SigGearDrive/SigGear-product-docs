@@ -1,0 +1,92 @@
+schema_version: 1
+policy_id: controlled-cad-request-readiness
+updated: "2026-10-13"
+scope: public_safe_engineering_handoff
+
+objective: >
+  Distinguish a project brief that is sufficiently defined for SigGear engineering
+  to begin a configuration-specific CAD review from a request that still needs
+  basic engineering information.
+
+status:
+  ready_for_cad_review:
+    meaning: >
+      The public project brief contains all five readiness gates needed to begin
+      a controlled CAD review.
+    does_not_mean:
+      - controlled_cad_approved
+      - controlled_cad_released
+      - final_configuration_approved
+      - production_release_approved
+  need_more_information:
+    meaning: one_or_more_readiness_gates_are_missing
+  not_applicable:
+    meaning: cad_review_is_not_the_current_requested_next_step_and_no_validated_candidate_is_active
+
+readiness_gates:
+  candidate_configuration:
+    required: true
+    satisfied_when:
+      - model_is_validated
+      - stage_is_validated
+      - ratio_is_validated_against_current_published_ratio_stage_data
+  motor_or_drive_side_interface:
+    required: true
+    gearbox_only:
+      satisfied_when:
+        - motor_model_or_drawing_reference_present
+        - motor_shaft_or_usable_length_present
+        - motor_mounting_or_locating_pilot_present
+    motor_plus_gearbox:
+      satisfied_when:
+        - siggear_has_selected_and_confirmed_the_motor_or_adapter_configuration
+      website_form_behavior: >
+        The public form keeps this gate open for motor-plus-gearbox projects because
+        the final drive-side interface cannot be proven from voltage alone.
+  output_interface:
+    required: true
+    satisfied_when:
+      - output_shaft_or_mounting_requirement_present
+  load_and_duty:
+    required: true
+    satisfied_when:
+      - load_or_torque_requirement_present
+      - duty_cycle_or_peak_duration_present
+    external_shaft_loads:
+      requested: true
+      readiness_gate: false
+      note: >
+        Radial and axial shaft loads are collected because they may materially affect
+        engineering review, but the website does not automatically decide whether they are relevant.
+  installation_envelope:
+    required: true
+    satisfied_when:
+      - maximum_diameter_or_length_present
+
+customer_inputs_added:
+  - output_shaft_or_mounting_requirement
+  - duty_cycle_or_peak_duration
+  - external_shaft_loads
+
+handoff:
+  candidate_design_in_pack_to_project_brief:
+    next_step_prefill: cad_review
+  email_body:
+    include_readiness_status: true
+    include_gate_presence_summary: true
+    include_customer_entered_engineering_values: true
+  analytics:
+    include:
+      - normalized_cad_readiness_status
+      - cad_gate_presence_flags
+    exclude:
+      - output_interface_text
+      - duty_cycle_text
+      - external_shaft_load_text
+      - customer_torque_speed_dimension_values
+
+truth_boundary:
+  website_readiness_is_engineering_review_readiness: true
+  website_readiness_is_cad_release_approval: false
+  engineering_confirmation_required_before_controlled_cad_release: true
+  sample_validation_required_before_final_design_freeze: true

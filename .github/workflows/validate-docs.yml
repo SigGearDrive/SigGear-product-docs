@@ -18,6 +18,7 @@ on:
       - "scripts/validate_utm_links.py"
       - "scripts/validate_ratio_stage_selector_data.py"
       - "scripts/validate_stage_specific_cad_boundary.py"
+      - "scripts/validate_controlled_cad_readiness.py"
       - "scripts/utm_utils.py"
       - "hooks/**"
       - ".github/workflows/validate-docs.yml"
@@ -38,6 +39,8 @@ on:
       - "scripts/export_traceparts_catalog.py"
       - "scripts/export_3dfindit_onboarding.py"
       - "scripts/validate_utm_links.py"
+      - "scripts/validate_controlled_cad_readiness.py"
+      - "scripts/validate_stage_specific_cad_boundary.py"
       - "scripts/validate_ratio_stage_selector_data.py"
       - "scripts/utm_utils.py"
       - "hooks/**"
@@ -88,6 +91,9 @@ jobs:
 
       - name: Validate stage-specific planetary CAD boundary
         run: python scripts/validate_stage_specific_cad_boundary.py
+
+      - name: Validate controlled CAD request readiness
+        run: python scripts/validate_controlled_cad_readiness.py
 
       - name: Validate ratio-stage selector JavaScript syntax
         run: node --check docs/assets/javascripts/ratio-stage-selector.js

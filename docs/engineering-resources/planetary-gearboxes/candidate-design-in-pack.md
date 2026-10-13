@@ -84,6 +84,20 @@ This page does **not** convert the public 4-stage STEP into stage-specific produ
       </tbody>
     </table>
 
+    <h2>Controlled CAD Review Readiness</h2>
+
+    Before treating a configuration-specific CAD request as ready for engineering review, the Project Brief checks five items:
+
+    1. **Candidate configuration** — validated model + stage + published ratio.
+    2. **Motor / drive-side interface** — existing motor drawing / model, shaft and mounting reference, or a drive-side configuration confirmed by SigGear.
+    3. **Output interface** — required shaft, keyway, flange or mounting arrangement.
+    4. **Load / duty** — continuous / peak load information and duty cycle / peak duration.
+    5. **Installation envelope** — maximum diameter and/or length constraint.
+
+    Use the **Request Controlled CAD / Engineering Review** button above to carry the validated candidate into the Project Brief and check these five gates.
+
+    **Ready for CAD Review** means enough information is present for SigGear engineering to begin a configuration-specific review. It does **not** mean controlled CAD has already been approved or released.
+
     <h2>Before Design Freeze</h2>
 
     Confirm at minimum:
