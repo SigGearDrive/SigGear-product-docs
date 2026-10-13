@@ -1,0 +1,61 @@
+.siggear-inquiry-form {
+  margin: 1.2rem 0 2rem;
+  padding: 1.2rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.45rem;
+  background: var(--md-default-bg-color);
+}
+
+.siggear-inquiry-form label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.siggear-inquiry-form input,
+.siggear-inquiry-form select,
+.siggear-inquiry-form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 0.35rem;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.3rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+  font-weight: 400;
+}
+
+.siggear-inquiry-form textarea {
+  resize: vertical;
+}
+
+.siggear-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 1rem;
+}
+
+.siggear-form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 0.4rem;
+}
+
+.siggear-form-actions .md-button {
+  cursor: pointer;
+}
+
+.siggear-form-status {
+  min-height: 1.4rem;
+  margin: 0.8rem 0 0;
+  color: var(--md-default-fg-color--light);
+}
+
+@media (max-width: 44rem) {
+  .siggear-form-grid {
+    grid-template-columns: 1fr;
+  }
+}
