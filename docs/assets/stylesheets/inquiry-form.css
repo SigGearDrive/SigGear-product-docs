@@ -75,3 +75,29 @@
   color: var(--md-default-fg-color--light);
   font-size: 0.9em;
 }
+
+.siggear-cad-readiness {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+  background: var(--md-code-bg-color);
+}
+
+.siggear-cad-readiness > strong {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.siggear-cad-readiness p {
+  margin: 0.35rem 0;
+}
+
+.siggear-cad-readiness ul {
+  margin: 0.65rem 0;
+}
+
+.siggear-cad-readiness-note {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.9em;
+}
