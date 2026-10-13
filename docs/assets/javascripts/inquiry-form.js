@@ -2,7 +2,14 @@
   var form = document.getElementById("siggear-engineering-brief");
   if (!form) return;
 
-  var validModels = ["8P","10P","12P","14P","16P","20P","22P","24P","28P","32P","36P","42P"];\n  var applicationPrefills = {\n    electric_pruning_shears: "Electric pruning shears",\n    electric_curtain_blind: "Electric curtain / blind / window opener",\n    smart_toilet_bidet: "Smart toilet / bidet mechanism",\n    dexterous_hand_gripper: "Dexterous hand / robot gripper"\n  };\n  var prefilledApplicationType = "not_specified";
+  var validModels = ["8P","10P","12P","14P","16P","20P","22P","24P","28P","32P","36P","42P"];
+  var applicationPrefills = {
+    electric_pruning_shears: "Electric pruning shears",
+    electric_curtain_blind: "Electric curtain / blind / window opener",
+    smart_toilet_bidet: "Smart toilet / bidet mechanism",
+    dexterous_hand_gripper: "Dexterous hand / robot gripper"
+  };
+  var prefilledApplicationType = "not_specified";
   var model = document.getElementById("sg-model");
   var path = document.getElementById("sg-path");
   var existingMotorFields = document.getElementById("sg-existing-motor-fields");
@@ -26,6 +33,7 @@
     window.gtag("event", name, {
       inquiry_model: value("sg-model") || "not_specified",
       inquiry_type: value("sg-path") || "not_sure",
+      inquiry_application: prefilledApplicationType,
       page_path: window.location.pathname
     });
   }
@@ -35,6 +43,14 @@
       var params = new URLSearchParams(window.location.search);
       var queryModel = (params.get("model") || "").toUpperCase();
       if (validModels.indexOf(queryModel) !== -1) model.value = queryModel;
+
+      var queryApplication = (params.get("app") || "").toLowerCase();
+      if (Object.prototype.hasOwnProperty.call(applicationPrefills, queryApplication)) {
+        prefilledApplicationType = queryApplication;
+        if (!value("sg-application")) {
+          document.getElementById("sg-application").value = applicationPrefills[queryApplication];
+        }
+      }
 
       var queryPath = (params.get("path") || "").toLowerCase().replace(/-/g, "_");
       if (queryPath === "gearbox_only" || queryPath === "motor_gearbox" || queryPath === "not_sure") {
@@ -86,7 +102,12 @@
 
   function subjectLine() {
     var m = value("sg-model");
-    var prefix = m ? m + " - " : "";
+    var subjectParts = [];
+    if (m) subjectParts.push(m);
+    if (prefilledApplicationType !== "not_specified" && applicationPrefills[prefilledApplicationType]) {
+      subjectParts.push(applicationPrefills[prefilledApplicationType]);
+    }
+    var prefix = subjectParts.length ? subjectParts.join(" - ") + " - " : "";
     if (path.value === "gearbox_only") return prefix + "Gearbox Only Engineering Review";
     if (path.value === "motor_gearbox") return prefix + "Motor + Gearbox Engineering Review";
     return prefix + "Planetary Gearbox Project Review";
