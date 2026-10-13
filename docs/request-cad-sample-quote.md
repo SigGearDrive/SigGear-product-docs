@@ -167,6 +167,28 @@ This page does **not** send your engineering details to a third-party form servi
       Operating voltage
       <input id="sg-voltage" name="voltage" type="text" placeholder="Example: 12 VDC">
     </label>
+
+    <label>
+      Output shaft / mounting requirement
+      <input id="sg-output-interface" name="output_interface" type="text" placeholder="Shaft, keyway, flange, hole pattern or drawing reference">
+    </label>
+
+    <label>
+      Duty cycle / peak duration
+      <input id="sg-duty-cycle" name="duty_cycle" type="text" placeholder="Example: 10 s on / 20 s off, peak torque for 1 s">
+    </label>
+
+    <label>
+      External shaft loads
+      <input id="sg-shaft-loads" name="shaft_loads" type="text" placeholder="Radial / axial load if relevant, or write none / unknown">
+    </label>
+  </div>
+
+  <div id="sg-cad-readiness" class="siggear-cad-readiness" hidden>
+    <strong id="sg-cad-readiness-title">Controlled CAD review readiness</strong>
+    <p id="sg-cad-readiness-status"></p>
+    <ul id="sg-cad-readiness-gates"></ul>
+    <p class="siggear-cad-readiness-note">“Ready for CAD Review” means the project brief contains enough information for SigGear engineering to begin a configuration-specific CAD review. It does not mean controlled CAD has been approved or released.</p>
   </div>
 
   <div class="siggear-form-grid">
@@ -239,7 +261,8 @@ The following helps narrow the configuration but does not need to be sent all at
 - peak duration
 - operating voltage
 - motor information for gearbox-only projects
-- duty cycle
+- output shaft / mounting requirement
+- duty cycle and peak duration
 - radial / axial load conditions
 - driver, encoder and communication requirements
 - prototype quantity and estimated annual volume
