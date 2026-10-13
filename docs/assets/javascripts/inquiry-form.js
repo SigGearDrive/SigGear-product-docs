@@ -285,7 +285,11 @@
   function subjectLine() {
     var m = value("sg-model");
     var subjectParts = [];
+    var candidate = activeSelectorCandidate();
     if (m) subjectParts.push(m);
+    if (candidate) {
+      subjectParts.push(candidate.stage + "-stage " + formatRatio(candidate.ratio) + ":1");
+    }
     if (prefilledApplicationType !== "not_specified" && applicationPrefills[prefilledApplicationType]) {
       subjectParts.push(applicationPrefills[prefilledApplicationType]);
     }
