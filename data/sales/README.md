@@ -11,3 +11,5 @@ The `inquiry-measurement-schema.yml` file defines a public-safe funnel and norma
 Website analytics must use categories, counts and presence flags only. Customer-specific identities, free-text requirements, engineering values and private qualification outcomes remain outside this public repository and outside GA4 event parameters.
 
 The `attribution-kpi-schema.yml` file defines the shared naming and funnel rules used to compare website intent with offline Pipeline outcomes. It sets the attribution baseline at 2026-10-13 and prohibits retroactive source guessing or treating outbound platform clicks as proof of acquisition.
+
+The `operating-attribution-sop.yml` file defines the daily publishing, source-assignment, correction and weekly-review workflow. Pipeline `Source` means the first reliably known acquisition source and is not overwritten by later email, WhatsApp or DM contact.
