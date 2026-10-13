@@ -11,7 +11,7 @@ For commercial product comparison, frame-size selection, gearbox-only supply, mo
 
 [Compare the 8–42 mm Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Download Public 4-Stage STEP CAD](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
-[Send Requirements](../../request-cad-sample-quote.md){ .md-button }
+[Start Engineering Project Brief](../../request-cad-sample-quote.md){ .md-button }
 [How to Select a Miniature Planetary Gearbox](../../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
 
 [Browse SigGear CAD Models on TraceParts (Chinese portal)](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR){ .md-button }
@@ -129,7 +129,7 @@ Final torque, speed, ratio, backlash and dimensional data are confirmed from the
 
 For model selection, provide the preferred gearbox diameter, ratio or output speed, continuous and momentary torque, motor information, shaft and mounting requirements, duty cycle, backlash target and estimated quantity.
 
-[Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Start Engineering Project Brief](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
 [View 8–42 mm Series](8-42mm-planetary-gear-reducer.md){ .md-button }
 
 ## Engineering Documents

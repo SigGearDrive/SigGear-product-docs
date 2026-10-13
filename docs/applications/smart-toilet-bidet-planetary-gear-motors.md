@@ -32,6 +32,7 @@ SigGear's current standard planetary gearbox range covers nominal diameters from
 
 [Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Download Simplified Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
+[Start Smart Toilet / Bidet Project Brief](../request-cad-sample-quote.md?app=smart_toilet_bidet){ .md-button }
 
 ## Main Selection Factors
 
@@ -170,7 +171,7 @@ A mechanism sketch or existing motor drawing is enough to start a preliminary re
 [How to Select a Miniature Planetary Gearbox](../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
 [Consumer Appliance and Home Device Gear Motors](consumer-appliance-home-device-gear-motors.md){ .md-button }
 [Electric Curtain Gear Motor Selection](electric-curtain-blind-window-opener-gear-motors.md){ .md-button }
-[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Start Smart Toilet / Bidet Project Brief](../request-cad-sample-quote.md?app=smart_toilet_bidet){ .md-button .md-button--primary }
 
 ## Engineering Contact
 
