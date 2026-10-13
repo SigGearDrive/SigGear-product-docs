@@ -28,14 +28,68 @@
     return (el.options[el.selectedIndex].text || "").trim();
   }
 
-  function track(name) {
+  function originGroup() {
+    try {
+      if (prefilledApplicationType !== "not_specified") return "application";
+      var ref = document.referrer ? new URL(document.referrer) : null;
+      if (!ref || ref.hostname !== window.location.hostname) return "direct_or_external";
+      var refPath = ref.pathname || "";
+      if (refPath.indexOf("/engineering-resources/") !== -1) return "engineering_resource";
+      if (/\/products\/planetary-gearboxes\/\d{1,2}p-planetary-gearbox\//i.test(refPath)) return "product_model";
+      if (refPath.indexOf("/products/planetary-gearboxes/") !== -1) return "planetary_series";
+      if (refPath.indexOf("/applications/") !== -1) return "application";
+      if (refPath === "/" || /\/SigGear-product-docs\/$/.test(refPath)) return "homepage";
+      return "internal_other";
+    } catch (e) {
+      return "unknown";
+    }
+  }
+
+  function briefMetrics() {
+    var selectedPath = value("sg-path") || "not_sure";
+    var hasMotorInfo = selectedPath === "motor_gearbox" ?
+      !!value("sg-voltage") :
+      !!(value("sg-motor-model") || value("sg-motor-speed"));
+
+    var checks = [
+      !!value("sg-application"),
+      !!value("sg-output"),
+      !!value("sg-load"),
+      !!value("sg-size"),
+      hasMotorInfo,
+      !!(value("sg-prototype-qty") || value("sg-annual-volume")),
+      !!value("sg-company-country")
+    ];
+
+    var coverage = checks.filter(function (item) { return item; }).length;
+    var band = coverage >= 5 ? "5_plus" : (coverage >= 3 ? "3_4" : "1_2");
+
+    return {
+      inquiry_origin: originGroup(),
+      project_stage: value("sg-project-stage") || "not_specified",
+      requested_next_step: value("sg-next-step") || "not_specified",
+      field_coverage_count: coverage,
+      field_coverage_band: band,
+      has_model_selection: value("sg-model") ? 1 : 0,
+      has_application: value("sg-application") ? 1 : 0,
+      has_output_requirement: value("sg-output") ? 1 : 0,
+      has_load_requirement: value("sg-load") ? 1 : 0,
+      has_size_limit: value("sg-size") ? 1 : 0,
+      has_motor_or_voltage_info: hasMotorInfo ? 1 : 0,
+      has_quantity_info: (value("sg-prototype-qty") || value("sg-annual-volume")) ? 1 : 0,
+      has_company_country: value("sg-company-country") ? 1 : 0
+    };
+  }
+
+  function track(name, extraParams) {
     if (typeof window.gtag !== "function") return;
-    window.gtag("event", name, {
+    var params = Object.assign({
       inquiry_model: value("sg-model") || "not_specified",
       inquiry_type: value("sg-path") || "not_sure",
       inquiry_application: prefilledApplicationType,
       page_path: window.location.pathname
-    });
+    }, extraParams || {});
+    window.gtag("event", name, params);
   }
 
   function applyQueryPrefill() {
@@ -102,6 +156,7 @@
       lines.push("Operating voltage: " + (value("sg-voltage") || "Not provided"));
     }
 
+    lines.push("Project stage: " + (selectedText("sg-project-stage") || "Not specified"));
     lines.push("Prototype quantity: " + (value("sg-prototype-qty") || "Not provided"));
     lines.push("Estimated annual volume: " + (value("sg-annual-volume") || "Not provided"));
     lines.push("Company / country: " + (value("sg-company-country") || "Not provided"));
@@ -130,7 +185,7 @@
     try {
       await navigator.clipboard.writeText(brief);
       status.textContent = "Project brief copied. You can paste it into email, WhatsApp or another message.";
-      track("engineering_brief_copy");
+      track("engineering_brief_copy", briefMetrics());
     } catch (e) {
       var area = document.createElement("textarea");
       area.value = brief;
@@ -142,7 +197,7 @@
       document.execCommand("copy");
       document.body.removeChild(area);
       status.textContent = "Project brief copied.";
-      track("engineering_brief_copy");
+      track("engineering_brief_copy", briefMetrics());
     }
   }
 
@@ -154,7 +209,7 @@
       encodeURIComponent(subjectLine()) +
       "&body=" + encodeURIComponent(buildBrief());
 
-    track("engineering_brief_prepare_email");
+    track("engineering_brief_prepare_email", briefMetrics());
     status.textContent = "Opening your email client with the project brief...";
     window.location.href = href;
   });
