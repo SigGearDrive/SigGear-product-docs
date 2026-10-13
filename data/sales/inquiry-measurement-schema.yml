@@ -16,6 +16,7 @@ website_funnel:
   engineering_evidence:
     - cad_download_click
     - priority_application_click
+    - ratio_stage_selector_run
   inquiry_intent:
     - engineering_brief_open_click
     - inquiry_page_view
@@ -127,6 +128,9 @@ privacy_boundary:
     - form_field_presence_flags
     - aggregate_field_coverage_count
     - normalized_internal_origin
+    - normalized_ratio_stage_selector_result_count
+    - normalized_top_candidate_model_and_stage
+    - ratio_stage_filter_presence_flags
   ga4_must_not_receive:
     - customer_name
     - email_address
@@ -137,6 +141,9 @@ privacy_boundary:
     - drawings_or_cad
     - quotation_or_price
     - customer_specific_requirements
+    - ratio_stage_selector_raw_motor_speed
+    - ratio_stage_selector_raw_output_speed
+    - ratio_stage_selector_raw_diameter_length_or_torque_values
   public_repository_must_not_store:
     - customer_records
     - private_lead_status
