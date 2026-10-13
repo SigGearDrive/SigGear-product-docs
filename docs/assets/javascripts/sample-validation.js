@@ -199,8 +199,8 @@
       candidateDetail.textContent = modelData.diameter + " mm frame · published gearbox body length " +
         fmt(stageData.length, 2) + " mm";
 
-      datasheetLink.href = "../engineering-resources/" + slug + "/datasheet/";
-      interfaceLink.href = "../engineering-resources/" + slug + "/mechanical-interface/";
+      datasheetLink.href = "../../engineering-resources/" + slug + "/datasheet/";
+      interfaceLink.href = "../../engineering-resources/" + slug + "/mechanical-interface/";
 
       status.hidden = true;
       content.hidden = false;
