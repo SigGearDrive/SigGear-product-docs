@@ -24,7 +24,18 @@ data_sources:
       - cad_download_click
       - engineering_brief_open_click
       - engineering_brief_prepare_email
-    role: site_and_engineering_intent
+      - ratio_stage_selector_run
+      - candidate_design_in_pack_view
+      - selector_candidate_handoff_validated
+      - sample_validation_candidate_view
+      - sample_validation_prepare_email
+      - design_in_review_candidate_view
+      - design_in_review_prepare_email
+      - pilot_preparation_review_view
+      - pilot_preparation_prepare_email
+      - production_release_review_view
+      - production_release_prepare_email
+    role: site_engineering_intent_and_project_lifecycle
   pipeline:
     metrics:
       - new_inquiries
@@ -53,7 +64,24 @@ weekly_sequence:
       - were_cad_files_clicked
       - were_engineering_briefs_opened
       - were_prepare_email_actions_recorded
+      - how_many_ratio_stage_selector_runs
+      - how_many_candidate_design_in_pack_views
+      - how_many_selector_candidates_reached_project_brief
     rule: only_compare_custom_events_from_2026_10_13_onward
+  - step: engineering_lifecycle
+    questions:
+      - how_many_sample_validation_candidate_views
+      - how_many_sample_validation_prepare_email_actions
+      - how_many_design_in_review_candidate_views
+      - how_many_design_in_review_prepare_email_actions
+      - how_many_pilot_preparation_review_views
+      - how_many_pilot_preparation_prepare_email_actions
+      - how_many_production_release_review_views
+      - how_many_production_release_prepare_email_actions
+    interpretation:
+      - lifecycle_events_can_come_from_existing_projects_not_new_acquisition
+      - event_counts_are_directional_and_not_person_level_conversion_rates
+      - prepare_email_does_not_prove_email_sent_or_stage_completed
   - step: actual_pipeline
     questions:
       - how_many_real_inquiries_were_added
@@ -125,6 +153,7 @@ weekly_output:
   required_sections:
     - search_discovery
     - website_engineering_intent
+    - engineering_lifecycle_progress
     - actual_pipeline_outcomes
     - source_quality
     - planetary_visibility_highlights
