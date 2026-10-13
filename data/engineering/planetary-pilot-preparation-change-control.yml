@@ -1,0 +1,114 @@
+schema_version: 1
+policy_id: planetary-pilot-preparation-change-control
+updated: "2026-10-13"
+scope: public_safe_pilot_preparation
+
+objective: >
+  Organize the information required before a human pilot-preparation review
+  without allowing the website to approve Design Freeze, pilot readiness,
+  pilot build release or production release.
+
+handoff:
+  source: design_in_review
+  allowed_when:
+    - design_in_decision_status_is_design_in_review_ready
+  query_parameters:
+    - model
+    - stage
+    - ratio
+    - source=design_in_review
+  must_not_include:
+    - customer_test_notes
+    - measured_values
+    - customer_identity
+    - controlled_drawing_content
+
+candidate_validation:
+  source: "/assets/data/planetary-ratio-stage-data.json"
+  required: true
+  invalid_candidate_behavior: do_not_activate_pilot_preparation_panel
+
+manual_design_freeze_confirmation:
+  required: true
+  website_verifies_authority: false
+  user_reported_value: confirmed_by_responsible_team
+  boundary: >
+    The website may record that the user reports Design Freeze was confirmed
+    by the responsible engineering/project team. The website does not itself
+    confirm or approve Design Freeze.
+
+pilot_review_gates:
+  controlled_configuration:
+    required:
+      - controlled_drawing_revision
+      - configuration_or_bom_revision
+  quantity_and_schedule:
+    required:
+      - pilot_quantity
+      - target_pilot_schedule
+  inspection_and_acceptance:
+    required:
+      - critical_inspection_or_acceptance_characteristics
+  packaging_and_labeling:
+    required: explicit_requirement_standard_or_not_required
+  change_control:
+    required: change_notification_expectation
+  pilot_acceptance_plan:
+    required: true
+  project_specific_documentation:
+    required: false
+
+automated_preliminary_status:
+  need_design_freeze_confirmation:
+    when: user_has_not_reported_design_freeze_confirmation
+  pilot_review_incomplete:
+    when:
+      - design_freeze_is_reported_confirmed
+      - one_or_more_pilot_review_gates_are_missing
+  ready_to_submit_for_pilot_preparation_review:
+    when:
+      - design_freeze_is_reported_confirmed
+      - all_required_pilot_review_gates_are_present
+    boundary: >
+      Ready to Submit for Pilot Preparation Review means the checklist is complete
+      enough for human review. It does not mean Pilot Preparation Ready,
+      pilot build approved or Production Released.
+
+manual_only_milestones:
+  pilot_preparation_ready:
+    website_auto_decision: prohibited
+    human_confirmation_required: true
+  pilot_build_approved:
+    website_auto_decision: prohibited
+    human_confirmation_required: true
+  production_released:
+    website_auto_decision: prohibited
+    human_confirmation_required: true
+
+privacy:
+  browser_local_until_copy_or_email:
+    - controlled_drawing_revision
+    - configuration_or_bom_revision
+    - pilot_quantity
+    - target_pilot_schedule
+    - critical_inspection_or_acceptance_characteristics
+    - packaging_or_labeling_requirement
+    - change_notification_expectation
+    - pilot_acceptance_plan
+    - project_specific_documentation
+  ga4_may_receive:
+    - normalized_model
+    - normalized_stage
+    - normalized_pilot_review_status
+    - pilot_gate_presence_flags
+  ga4_must_not_receive:
+    - candidate_ratio
+    - drawing_revision
+    - bom_revision
+    - pilot_quantity_value
+    - schedule_text
+    - inspection_text
+    - packaging_text
+    - change_control_text
+    - acceptance_plan_text
+    - customer_identity
