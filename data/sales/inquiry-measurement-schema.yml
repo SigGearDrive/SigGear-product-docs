@@ -1,0 +1,132 @@
+schema_version: 1
+policy_id: inquiry-measurement-schema
+scope: public_safe_aggregate_measurement
+
+measurement_principle:
+  website_events_measure: user_intent_and_form_progress
+  website_events_do_not_prove: email_sent_or_inquiry_received
+  qualified_inquiry_requires: offline_manual_confirmation_after_actual_contact
+
+website_funnel:
+  discovery:
+    - page_view
+    - campaign_landing
+    - social_landing
+    - traceparts_catalog_click
+  engineering_evidence:
+    - cad_download_click
+    - priority_application_click
+  inquiry_intent:
+    - engineering_brief_open_click
+    - inquiry_page_view
+    - engineering_brief_copy
+  high_intent:
+    - engineering_brief_prepare_email
+    - planetary_inquiry_click
+
+qualified_inquiry_definition:
+  required:
+    - actual_message_or_request_received_by_siggear
+    - real_application_mechanism_or_product_need
+    - enough_context_for_a_meaningful_next_action
+    - identifiable_reply_path
+  not_required_at_first_contact:
+    - final_reduction_ratio
+    - complete_torque_calculation
+    - final_motor_selection
+    - exact_annual_volume
+    - company_name
+  possible_outcomes:
+    - needs_more_information
+    - engineering_review_ready
+    - quotation_or_sample_review_ready
+    - no_published_match_or_custom_review
+    - not_fit_or_non_buying_research
+
+normalized_website_dimensions:
+  inquiry_model:
+    allowed:
+      - 8P
+      - 10P
+      - 12P
+      - 14P
+      - 16P
+      - 20P
+      - 22P
+      - 24P
+      - 28P
+      - 32P
+      - 36P
+      - 42P
+      - not_specified
+  inquiry_type:
+    allowed:
+      - gearbox_only
+      - motor_gearbox
+      - not_sure
+      - planetary_general
+      - application_review
+      - general_email
+  inquiry_application:
+    allowed:
+      - electric_pruning_shears
+      - electric_curtain_blind
+      - smart_toilet_bidet
+      - dexterous_hand_gripper
+      - not_specified
+  inquiry_origin:
+    allowed:
+      - homepage
+      - planetary_series
+      - product_model
+      - engineering_resource
+      - application
+      - internal_other
+      - direct_or_external
+      - unknown
+  project_stage:
+    allowed:
+      - concept
+      - prototype
+      - pilot
+      - production
+      - not_specified
+  field_coverage_band:
+    allowed:
+      - 1_2
+      - 3_4
+      - 5_plus
+
+privacy_boundary:
+  ga4_may_receive:
+    - normalized_model_or_application_category
+    - normalized_project_stage
+    - requested_next_step_category
+    - form_field_presence_flags
+    - aggregate_field_coverage_count
+    - normalized_internal_origin
+  ga4_must_not_receive:
+    - customer_name
+    - email_address
+    - phone_or_whatsapp
+    - company_name
+    - free_text_application_details
+    - torque_speed_dimension_or_voltage_values
+    - drawings_or_cad
+    - quotation_or_price
+    - customer_specific_requirements
+  public_repository_must_not_store:
+    - customer_records
+    - private_lead_status
+    - customer_specific_qualification_notes
+    - private_commercial_outcomes
+
+offline_sales_record_minimum:
+  - received_date
+  - source_group
+  - product_family_or_model
+  - application_category
+  - project_stage_if_known
+  - qualification_outcome
+  - current_sales_stage
+  - next_action
