@@ -16,6 +16,8 @@ EXPECTED_BASE = "https://siggeardrive.github.io/SigGear-product-docs/"
 HOST_BASE = "https://siggeardrive.github.io/"
 URL_PATTERN = re.compile(r"https://siggeardrive\.github\.io/[^\s\"'<>)]*")
 
+PLANETARY_MODELS = ["8P", "10P", "12P", "14P", "16P", "20P", "22P", "24P", "28P", "32P", "36P", "42P"]
+
 EXPECTED_REDIRECTS = [
     "Applications/6-42mm-planetary-gear-reducer/index.html",
     "Applications/micro-robotics-gear-motor/index.html",
@@ -172,6 +174,56 @@ def check_structured_data() -> None:
                 )
 
 
+def check_planetary_real_image_seo() -> None:
+    family_image = (
+        EXPECTED_BASE
+        + "assets/images/evidence/planetary/8-42mm-planetary-gearbox-family-real.webp"
+    )
+    family_targets = [
+        ("index.html", None),
+        ("products/planetary-gearboxes/8-42mm-planetary-gear-reducer/index.html", "CollectionPage"),
+    ]
+
+    for relative, schema_type in family_targets:
+        path = SITE_DIR / relative
+        if not path.is_file():
+            fail(f"Real-image SEO test page missing: {relative}")
+        html = path.read_text(encoding="utf-8")
+        if f'<meta property="og:image" content="{family_image}">' not in html:
+            fail(f"Real family image missing from og:image on {relative}")
+        if f'<meta name="twitter:image" content="{family_image}">' not in html:
+            fail(f"Real family image missing from twitter:image on {relative}")
+        if schema_type:
+            blocks = _json_ld_blocks(html)
+            block = next((b for b in blocks if b.get("@type") == schema_type), None)
+            if block is None or family_image not in json.dumps(block, ensure_ascii=False):
+                fail(f"Real family image missing from {schema_type} JSON-LD on {relative}")
+
+    for model in PLANETARY_MODELS:
+        slug = model.lower()
+        relative = f"products/planetary-gearboxes/{slug}-planetary-gearbox/index.html"
+        image_url = (
+            EXPECTED_BASE
+            + f"assets/images/products/planetary-gearboxes/{slug}/"
+            + f"{slug}-real-product-evidence.webp"
+        )
+        path = SITE_DIR / relative
+        if not path.is_file():
+            fail(f"Real-image SEO model page missing: {relative}")
+        html = path.read_text(encoding="utf-8")
+        if f'<meta property="og:image" content="{image_url}">' not in html:
+            fail(f"Real product image missing from og:image on {relative}")
+        if f'<meta name="twitter:image" content="{image_url}">' not in html:
+            fail(f"Real product image missing from twitter:image on {relative}")
+
+        blocks = _json_ld_blocks(html)
+        item_page = next((b for b in blocks if b.get("@type") == "ItemPage"), None)
+        if item_page is None:
+            fail(f"ItemPage JSON-LD missing while checking real image on {relative}")
+        if image_url not in json.dumps(item_page, ensure_ascii=False):
+            fail(f"Real product image missing from ItemPage JSON-LD on {relative}")
+
+
 def check_robots() -> None:
     robots = (SITE_DIR / "robots.txt").read_text(encoding="utf-8")
     if "User-agent: *" not in robots or "Allow: /SigGear-product-docs/" not in robots:
@@ -206,6 +258,7 @@ def main() -> None:
     check_home_canonical()
     check_sitemap()
     check_structured_data()
+    check_planetary_real_image_seo()
     check_robots()
     check_redirects()
     check_generated_urls()
