@@ -1,9 +1,10 @@
 ---
-title: 8P Planetary Gearbox Mechanical Interface | Controlled 2D / CAD Reference | SigGear
-description: Public 8P mechanical-interface reference based on the current controlled 2D drawing, with full assembly CAD available after configuration review.
+title: 8 mm Planetary Gearbox Dimensions & Mechanical Interface (8P) | SigGear
+description: Public 8P 8 mm planetary gearbox dimensions and mechanical-interface reference based on the current controlled 2D drawing, including stage-dependent length, mounting and output-side interface information.
 ---
 
-# 8P Planetary Gearbox Mechanical Interface v1.0
+
+# 8 mm Planetary Gearbox Dimensions & Mechanical Interface (8P)
 
 **Status:** Public engineering evaluation reference  
 **Release date:** 2026-10-06  
