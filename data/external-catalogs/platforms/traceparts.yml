@@ -28,6 +28,12 @@ traceparts_field_policy:
   classification_category_id: supplied_at_export_time
   default_language: en
 
+tracking:
+  utm_source: traceparts
+  utm_medium: referral
+  utm_campaign: cad_listing
+  note: tracked page/document links identify TraceParts-origin website visits; direct STEP file URLs remain untagged because static file fetches do not run site analytics
+
 documents:
   include_product_page: true
   include_datasheet_url: true
