@@ -242,6 +242,10 @@ Production release may require confirmation of:
 
 SigGear does not treat an early sample, preliminary drawing or feasibility concept as an automatic production approval.
 
+[Open Production Release Review](../engineering-center/production-release-review.md){ .md-button .md-button--primary }
+
+**Production Released remains a human-confirmed project / manufacturing milestone.** A complete website checklist can only mean the release package is ready to be submitted for review.
+
 ## What Engineers Can Change During Development
 
 Depending on the platform and engineering feasibility, development may include review of:

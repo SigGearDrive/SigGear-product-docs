@@ -80,6 +80,7 @@ extra_css:
   - assets/stylesheets/sample-validation.css
   - assets/stylesheets/design-in-review.css
   - assets/stylesheets/pilot-preparation.css
+  - assets/stylesheets/production-release.css
 
 extra_javascript:
   - assets/javascripts/analytics-events.js
@@ -89,6 +90,7 @@ extra_javascript:
   - assets/javascripts/sample-validation.js
   - assets/javascripts/design-in-review.js
   - assets/javascripts/pilot-preparation.js
+  - assets/javascripts/production-release.js
   - assets/javascripts/organization-schema.js
 
 markdown_extensions:
@@ -226,6 +228,7 @@ nav:
       - Sample Validation Workflow: engineering-center/sample-validation-workflow.md
       - Design-In Checklist: engineering-center/design-in-checklist.md
       - Pilot Preparation Review: engineering-center/pilot-preparation-review.md
+      - Production Release Review: engineering-center/production-release-review.md
   - Engineering Resources:
       - SG-6010C:
           - Technical Datasheet: engineering-resources/sg6010c/datasheet.md

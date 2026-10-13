@@ -112,3 +112,18 @@ privacy:
     - change_control_text
     - acceptance_plan_text
     - customer_identity
+
+production_release_review_handoff:
+  destination: "/engineering-center/production-release-review/"
+  visible_only_when: pilot_review_status_is_ready_to_submit_for_pilot_preparation_review
+  purpose: later_pilot_result_and_production_release_review
+  query_parameters:
+    - model
+    - stage
+    - published_ratio
+    - source=pilot_preparation_review
+  does_not_confirm:
+    - pilot_preparation_ready
+    - pilot_build_completion
+    - pilot_build_acceptance
+    - production_release

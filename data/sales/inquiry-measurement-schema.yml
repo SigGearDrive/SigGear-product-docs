@@ -23,6 +23,8 @@ website_funnel:
     - design_in_review_candidate_view
     - pilot_preparation_review_view
     - pilot_preparation_summary_copy
+    - production_release_review_view
+    - production_release_summary_copy
   inquiry_intent:
     - engineering_brief_open_click
     - inquiry_page_view
@@ -33,6 +35,7 @@ website_funnel:
     - sample_validation_prepare_email
     - design_in_review_prepare_email
     - pilot_preparation_prepare_email
+    - production_release_prepare_email
     - planetary_inquiry_click
 
 qualified_inquiry_definition:
@@ -141,6 +144,12 @@ normalized_website_dimensions:
       - need_design_freeze_confirmation
       - pilot_review_incomplete
       - ready_to_submit_for_pilot_preparation_review
+  production_release_review_status:
+    allowed:
+      - need_pilot_result_confirmation
+      - engineering_change_or_revalidation_required
+      - production_release_review_incomplete
+      - ready_to_submit_for_production_release_review
   offline_source_group:
     allowed:
       - google_organic
@@ -182,6 +191,8 @@ privacy_boundary:
     - normalized_design_in_decision_status
     - normalized_pilot_review_status
     - pilot_preparation_gate_presence_flags
+    - normalized_production_release_review_status
+    - production_release_gate_presence_flags
   ga4_must_not_receive:
     - customer_name
     - email_address
@@ -212,6 +223,15 @@ privacy_boundary:
     - pilot_change_notification_text
     - pilot_acceptance_plan_text
     - pilot_project_documentation_text
+    - production_final_drawing_revision_text
+    - production_final_bom_revision_text
+    - production_pilot_evidence_text
+    - production_deviation_or_concession_text
+    - production_forecast_value
+    - production_inspection_or_test_plan_text
+    - production_change_control_text
+    - production_open_item_text
+    - production_release_documentation_text
   public_repository_must_not_store:
     - customer_records
     - private_lead_status

@@ -1,0 +1,143 @@
+schema_version: 1
+policy_id: planetary-production-release-readiness
+updated: "2026-10-13"
+scope: public_safe_production_release_review
+
+objective: >
+  Organize the pilot-result and final release-package information required before
+  a human production-release review without allowing the website to approve the
+  pilot result, Production Release, mass production or manufacturing start.
+
+handoff:
+  source: pilot_preparation_review
+  visible_only_when: pilot_review_status_is_ready_to_submit_for_pilot_preparation_review
+  query_parameters:
+    - model
+    - stage
+    - ratio
+    - source=pilot_preparation_review
+  must_not_include:
+    - pilot_quantity
+    - drawing_revision
+    - inspection_details
+    - customer_identity
+
+candidate_validation:
+  source: "/assets/data/planetary-ratio-stage-data.json"
+  required: true
+  invalid_candidate_behavior: do_not_activate_production_release_panel
+
+manual_pilot_confirmation:
+  required: true
+  website_verifies_authority: false
+  user_reported_value: confirmed_completed_by_responsible_team
+  boundary: >
+    The website may record that the user reports the pilot build and result were
+    completed / reviewed by the responsible team. The website does not approve the pilot result.
+
+pilot_disposition:
+  allowed:
+    - not_recorded
+    - accepted
+    - accepted_with_approved_deviations
+    - issues_require_revision
+
+configuration_after_pilot:
+  allowed:
+    - not_confirmed
+    - unchanged_from_pilot
+    - changed_after_pilot
+  changed_after_pilot_behavior: engineering_change_or_revalidation_required
+
+production_release_review_gates:
+  pilot_result_confirmation:
+    required: true
+  configuration_continuity:
+    required: unchanged_from_accepted_pilot
+  final_controlled_configuration:
+    required:
+      - final_controlled_drawing_revision
+      - final_configuration_or_bom_revision
+  pilot_inspection_acceptance_evidence:
+    required: true
+  deviation_concession_disposition:
+    required: explicit_reference_or_none
+  packaging_labeling_freeze:
+    required: confirmed_standard_or_not_applicable
+  forecast_or_expected_annual_volume:
+    required: true
+  production_inspection_or_test_plan:
+    required: true
+  production_change_control:
+    required: true
+  remaining_release_blockers:
+    required: explicit_none_or_open_item_disposition
+  production_release_documentation_traceability:
+    required: false
+
+automated_preliminary_status:
+  need_pilot_result_confirmation:
+    when:
+      - pilot_build_result_not_confirmed
+      - pilot_result_not_recorded
+  engineering_change_or_revalidation_required:
+    when:
+      - pilot_result_has_unresolved_issues
+      - configuration_changed_after_pilot
+  production_release_review_incomplete:
+    when:
+      - pilot_result_is_accepted
+      - configuration_is_unchanged_from_pilot
+      - one_or_more_required_release_gates_are_missing
+  ready_to_submit_for_production_release_review:
+    when:
+      - pilot_result_is_accepted_or_accepted_with_approved_deviations
+      - configuration_is_unchanged_from_pilot
+      - all_required_release_gates_are_present
+    boundary: >
+      Ready to Submit for Production Release Review means the release package is
+      complete enough for human review. It does not mean Production Released,
+      mass-production approved or manufacturing started.
+
+manual_only_milestones:
+  pilot_build_accepted:
+    website_auto_decision: prohibited
+    human_confirmation_required: true
+  production_released:
+    website_auto_decision: prohibited
+    human_confirmation_required: true
+  mass_production_approved:
+    website_auto_decision: prohibited
+    human_confirmation_required: true
+  manufacturing_started:
+    website_auto_decision: prohibited
+    human_confirmation_required: true
+
+privacy:
+  browser_local_until_copy_or_email:
+    - final_controlled_drawing_revision
+    - final_configuration_or_bom_revision
+    - pilot_inspection_acceptance_evidence
+    - approved_deviations_or_concessions
+    - packaging_or_labeling_freeze
+    - forecast_or_expected_annual_volume
+    - production_inspection_or_test_plan
+    - production_change_control
+    - remaining_release_blockers
+    - production_release_documentation_traceability
+  ga4_may_receive:
+    - normalized_model
+    - normalized_stage
+    - normalized_production_release_review_status
+    - production_release_gate_presence_flags
+  ga4_must_not_receive:
+    - candidate_ratio
+    - drawing_revision
+    - bom_revision
+    - pilot_evidence_text
+    - deviation_text
+    - forecast_value
+    - production_test_plan_text
+    - change_control_text
+    - open_item_text
+    - customer_identity
