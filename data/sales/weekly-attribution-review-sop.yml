@@ -124,6 +124,17 @@ snapshot_log:
     - engineering_brief_opens
     - prepare_email
     - notes
+    - ratio_stage_selector_runs
+    - candidate_design_in_pack_views
+    - selector_candidate_handoffs
+    - sample_validation_views
+    - sample_validation_prepare_email
+    - design_in_review_views
+    - design_in_review_prepare_email
+    - pilot_preparation_review_views
+    - pilot_preparation_prepare_email
+    - production_release_review_views
+    - production_release_prepare_email
   append_rule: add_one_weekly_row_per_completed_review_period
   do_not_overwrite_history: true
 
