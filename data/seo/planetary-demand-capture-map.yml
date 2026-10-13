@@ -81,6 +81,14 @@ priority_paths:
     - "/applications/exoskeleton-joint-actuators/"
     - "/applications/agv-amr-wheel-drive-gearboxes/"
 
+system_intent_paths:
+  - id: "motor_planetary_integration"
+    intent: "motor with planetary gearbox / planetary gearbox motor / motor + planetary gearbox"
+    canonical_page: "/custom-engineering/motor-gearbox-integration/"
+    priority: "P0"
+    action: "strengthen_existing_canonical_and_measure"
+    boundary: "Do not present a standard motor + gearbox SKU unless a controlled product configuration is published."
+
 design_in_path:
   product_compare: "/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/"
   public_step_library: "/engineering-resources/planetary-gearboxes/public-cad-release-v1/"
