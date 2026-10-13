@@ -17,6 +17,7 @@ website_funnel:
     - cad_download_click
     - priority_application_click
     - ratio_stage_selector_run
+    - candidate_design_in_pack_view
   inquiry_intent:
     - engineering_brief_open_click
     - inquiry_page_view
