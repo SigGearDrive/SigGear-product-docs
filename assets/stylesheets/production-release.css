@@ -1,0 +1,59 @@
+.siggear-production-release {
+  margin: 1.2rem 0 1.8rem;
+  padding: 1.2rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.45rem;
+  background: var(--md-default-bg-color);
+}
+
+.siggear-production-release label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.siggear-production-release input,
+.siggear-production-release select,
+.siggear-production-release textarea {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 0.35rem;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.3rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+  font-weight: 400;
+}
+
+.siggear-production-release textarea {
+  resize: vertical;
+}
+
+.siggear-production-candidate-summary,
+.siggear-production-readiness {
+  margin: 0.8rem 0 1rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+  background: var(--md-code-bg-color);
+}
+
+.siggear-production-candidate-summary strong,
+.siggear-production-candidate-summary span {
+  display: block;
+}
+
+.siggear-production-candidate-summary span {
+  margin-top: 0.35rem;
+}
+
+.siggear-production-readiness p {
+  margin: 0.35rem 0;
+}
+
+.siggear-production-note {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.9em;
+}

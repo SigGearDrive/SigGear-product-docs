@@ -14,6 +14,7 @@
   var actionStatus = document.getElementById("sg-pilot-action-status");
   var datasheetLink = document.getElementById("sg-pilot-datasheet");
   var interfaceLink = document.getElementById("sg-pilot-interface");
+  var productionReviewLink = document.getElementById("sg-pilot-production-review");
 
   var validModels = ["8P","10P","12P","14P","16P","20P","22P","24P","28P","32P","36P","42P"];
   var context = null;
@@ -75,6 +76,22 @@
     return "Need Design Freeze Confirmation";
   }
 
+  function updateProductionHandoff(current) {
+    if (!productionReviewLink || !context) return;
+
+    if (current.status === "ready_to_submit_for_pilot_preparation_review") {
+      productionReviewLink.href = "../production-release-review/?model=" +
+        encodeURIComponent(context.model) +
+        "&stage=" + encodeURIComponent(context.stage) +
+        "&ratio=" + encodeURIComponent(context.ratio) +
+        "&source=pilot_preparation_review";
+      productionReviewLink.hidden = false;
+    } else {
+      productionReviewLink.hidden = true;
+      productionReviewLink.removeAttribute("href");
+    }
+  }
+
   function updateReadiness() {
     var current = readiness();
 
@@ -100,6 +117,8 @@
     ].map(function (item) {
       return "<li>" + item + "</li>";
     }).join("");
+
+    updateProductionHandoff(current);
   }
 
   function buildSummary() {
