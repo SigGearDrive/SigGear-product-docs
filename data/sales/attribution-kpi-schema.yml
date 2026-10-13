@@ -63,7 +63,16 @@ source_evidence_rules:
       - evidence_is_ambiguous
 
 website_funnel_kpis:
-  discovery:
+  search_discovery:
+    source: google_search_console
+    metrics:
+      - impressions
+      - clicks
+      - ctr
+      - average_position
+    interpretation: "Search discovery happens before the website session. Do not merge Search Console impressions with GA4 sessions."
+  site_discovery:
+    source: ga4
     metrics:
       - sessions
       - active_users
