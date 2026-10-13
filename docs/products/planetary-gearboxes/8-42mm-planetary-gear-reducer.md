@@ -31,6 +31,7 @@ SigGear's [public supplier catalog on TraceParts (Chinese-language portal)](http
 *Real compact motor + gearbox assemblies shown beside a ruler for scale. This photo demonstrates physical product and integration work only; exact gearbox model, ratio, stage count and motor interface must be confirmed separately.*
 
 [See SigGear Manufacturing & Quality Evidence](../../company/manufacturing-and-quality-evidence.md){ .md-button }
+[Testing & Validation Evidence](../../engineering-center/testing-and-validation-evidence.md){ .md-button }
 
 ## Quick Selection Matrix
 

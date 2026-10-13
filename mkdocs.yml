@@ -208,6 +208,7 @@ nav:
       - Robot Joint Actuator Selection Guide: selection-guides/robot-joint-actuator-selection-guide.md
   - Engineering Center:
       - Overview: engineering-center/index.md
+      - Testing, Metrology & Validation Evidence: engineering-center/testing-and-validation-evidence.md
       - Sample Validation Workflow: engineering-center/sample-validation-workflow.md
       - Design-In Checklist: engineering-center/design-in-checklist.md
   - Engineering Resources:
