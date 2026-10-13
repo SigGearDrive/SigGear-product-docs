@@ -13,6 +13,14 @@ This engineering guide links to SigGear's 8–42 mm standard gearbox range. It d
 [Browse Simplified STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Request Engineering Review](../request-cad-sample-quote.md){ .md-button }
 
+## Browse by Diameter Before Ratio Selection
+
+If the mechanical envelope is already known, start from the exact gearbox diameter and then check stage-dependent length, ratio, torque and motor interface:
+
+[8 mm planetary gearbox](../products/planetary-gearboxes/8p-planetary-gearbox.md) · [10 mm](../products/planetary-gearboxes/10p-planetary-gearbox.md) · [12 mm](../products/planetary-gearboxes/12p-planetary-gearbox.md) · [14 mm](../products/planetary-gearboxes/14p-planetary-gearbox.md) · [16 mm](../products/planetary-gearboxes/16p-planetary-gearbox.md) · [20 mm](../products/planetary-gearboxes/20p-planetary-gearbox.md) · [22 mm](../products/planetary-gearboxes/22p-planetary-gearbox.md) · [24 mm](../products/planetary-gearboxes/24p-planetary-gearbox.md) · [28 mm](../products/planetary-gearboxes/28p-planetary-gearbox.md) · [32 mm](../products/planetary-gearboxes/32p-planetary-gearbox.md) · [36 mm](../products/planetary-gearboxes/36p-planetary-gearbox.md) · [42 mm](../products/planetary-gearboxes/42p-planetary-gearbox.md)
+
+Diameter is only the first filter. Final selection still requires the exact ratio/stage, rated load, shaft loading, duty cycle and motor interface.
+
 ## 1. Decide What Needs to Be Supplied
 
 **Gearbox only:** If you already have a motor, provide its model or drawing, operating shaft speed, shaft dimensions, mounting-hole pattern, locating pilot, available axial space and required output. Motor-to-gearbox interface and operating compatibility require review.

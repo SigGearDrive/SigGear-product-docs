@@ -1,9 +1,10 @@
 ---
-title: 16P 16 mm Micro Planetary Gearbox & Gearhead | SigGear
-description: SigGear 16P 16 mm micro planetary gearbox and gearhead with published 3.85:1–459.5:1 ratios, model datasheet and 4-stage STEP CAD. Gearbox-only supply or motor matching.
+title: 16 mm Micro Planetary Gearbox (16P) | SigGear
+description: SigGear 16P is a 16 mm micro planetary gearbox / gearhead with 3.85:1–459.5:1 published ratios, datasheet, STEP CAD, gearbox-only supply and motor matching.
 ---
 
-# 16P 16 mm Micro Planetary Gearbox
+
+# 16 mm Micro Planetary Gearbox (16P)
 
 ## Product Overview
 

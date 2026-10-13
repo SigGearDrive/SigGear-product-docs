@@ -1,9 +1,10 @@
 ---
-title: 14P 14 mm Micro Planetary Gearbox & Gearhead | SigGear
-description: SigGear 14P 14 mm micro planetary gearbox and gearhead with published 3.75:1–443.3:1 ratios, model datasheet and 4-stage STEP CAD. Gearbox-only supply or motor matching.
+title: 14 mm Micro Planetary Gearbox (14P) | SigGear
+description: SigGear 14P is a 14 mm micro planetary gearbox / gearhead with 3.75:1–443.3:1 published ratios, datasheet, STEP CAD, gearbox-only supply and motor matching.
 ---
 
-# 14P 14 mm Micro Planetary Gearbox
+
+# 14 mm Micro Planetary Gearbox (14P)
 
 ## Product Overview
 
