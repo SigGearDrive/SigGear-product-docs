@@ -15,6 +15,7 @@ pipeline_source_labels:
   google_organic: "Google Search"
   ai_geo: "ChatGPT / GEO"
   traceparts: "TraceParts"
+  3dfindit: "3Dfindit"
   directindustry: "DirectIndustry"
   globalspec: "GlobalSpec"
   youtube: "YouTube"
@@ -45,6 +46,10 @@ source_evidence_rules:
       - customer_says_found_via_traceparts
     not_sufficient:
       - traceparts_catalog_click_from_siggear_site
+  3dfindit:
+    accepted_evidence:
+      - 3dfindit_referrer_or_lead_record
+      - customer_says_found_via_3dfindit
   directindustry:
     accepted_evidence:
       - directindustry_lead_or_referrer
