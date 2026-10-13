@@ -52,13 +52,15 @@ intent_clusters:
     priority: "P0"
     stage: "engineering evaluation"
     primary_intent:
+      - "motor with planetary gearbox"
       - "motor gearbox integration"
       - "gearbox for BLDC motor"
       - "custom gear motor"
       - "custom gearmotor"
     secondary_intent:
+      - "planetary gearbox motor"
+      - "motor + planetary gearbox"
       - "match gearbox to motor"
-      - "motor with planetary gearbox"
       - "motor gearbox matching"
       - "gear motor engineering"
     canonical_page: "/custom-engineering/motor-gearbox-integration/"
