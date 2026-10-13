@@ -1,6 +1,6 @@
 ---
-title: 8–42 mm Miniature & Compact Planetary Gearboxes | SigGear
-description: Compare 12 SigGear 8–42 mm miniature and compact planetary gearboxes and gearheads from a precision transmission manufacturer, with ratios, torque, dimensions, datasheets, STEP CAD and OEM motor matching.
+title: 8–42 mm Miniature Planetary Gearbox Manufacturer | SigGear
+description: Compare 12 SigGear 8–42 mm miniature and compact planetary gearboxes for OEM designs, with published ratios, torque, dimensions, datasheets, STEP CAD, gearbox-only supply and motor matching.
 ---
 
 # 8–42 mm Miniature & Compact Planetary Gearbox Series
@@ -33,6 +33,20 @@ SigGear's [public supplier catalog on TraceParts (Chinese-language portal)](http
 
 [See SigGear Manufacturing & Quality Evidence](../../company/manufacturing-and-quality-evidence.md){ .md-button }
 [Testing & Validation Evidence](../../engineering-center/testing-and-validation-evidence.md){ .md-button }
+
+## OEM Planetary Gearbox Supply Paths
+
+For OEM product development, the same 8–42 mm planetary range can enter a project through different engineering paths:
+
+- **Standard gearbox selection:** choose a published frame size, stage and ratio.
+- **Gearbox for an existing motor:** keep the customer's motor and review the motor shaft, pilot, mounting pattern, speed and assembly envelope.
+- **Motor + gearbox assembly:** review the motor and reducer together around the target output.
+- **Custom planetary configuration:** evaluate shaft, flange, mounting, ratio or interface changes where the standard platform does not fit.
+- **CAD / Design-In:** start with the released public STEP reference, then request controlled configuration-matched CAD before design freeze.
+
+[Gearbox for Existing Motor](../../custom-engineering/motor-gearbox-integration.md){ .md-button }
+[Custom Shaft / Mounting / Ratio](../../custom-engineering/custom-planetary-gearbox.md){ .md-button }
+[Planetary Gearbox STEP CAD](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 
 ## Manufacturer and Supplier Evaluation
 
