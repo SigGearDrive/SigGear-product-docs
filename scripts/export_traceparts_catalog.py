@@ -15,6 +15,8 @@ from pathlib import Path
 
 import yaml
 
+from utm_utils import tracked_url
+
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG_PATH = ROOT / "data" / "external-catalogs" / "planetary-gearboxes.yml"
 TRACEPARTS_PATH = ROOT / "data" / "external-catalogs" / "platforms" / "traceparts.yml"
@@ -72,6 +74,7 @@ def build_rows(classification_category_id: str) -> list[dict]:
     tp = load_yaml(TRACEPARTS_PATH)
     base = catalog["url_base"]
     prefix = tp["traceparts_field_policy"]["product_id_prefix"]
+    tracking = tp["tracking"]
     keywords = ";".join(tp["keywords"])
 
     if len(keywords) > 255:
@@ -107,9 +110,27 @@ def build_rows(classification_category_id: str) -> list[dict]:
         validate_text(part_description, 255, "Part_Number_Description", model)
 
         slug = model.lower()
-        product_url = docs_url(base, product["canonical_page"])
-        datasheet_url = docs_url(base, f"docs/engineering-resources/{slug}/datasheet.md")
-        mechanical_url = docs_url(base, f"docs/engineering-resources/{slug}/mechanical-interface.md")
+        product_url = tracked_url(
+            docs_url(base, product["canonical_page"]),
+            source=tracking["utm_source"],
+            medium=tracking["utm_medium"],
+            campaign=tracking["utm_campaign"],
+            content=f"{slug}_product_page",
+        )
+        datasheet_url = tracked_url(
+            docs_url(base, f"docs/engineering-resources/{slug}/datasheet.md"),
+            source=tracking["utm_source"],
+            medium=tracking["utm_medium"],
+            campaign=tracking["utm_campaign"],
+            content=f"{slug}_datasheet",
+        )
+        mechanical_url = tracked_url(
+            docs_url(base, f"docs/engineering-resources/{slug}/mechanical-interface.md"),
+            source=tracking["utm_source"],
+            medium=tracking["utm_medium"],
+            campaign=tracking["utm_campaign"],
+            content=f"{slug}_mechanical_interface",
+        )
 
         step_path = cad.get("public_simplified_step_path", "")
         step_name = Path(step_path).name if step_path else ""
