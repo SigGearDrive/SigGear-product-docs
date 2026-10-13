@@ -61,6 +61,7 @@ Current public Engineering Resources are available for **SG-6010C**, **SG-6010D*
 | Product family | Typical use | Explore |
 | --- | --- | --- |
 | **Miniature & compact planetary gearboxes (8–42 mm)** | Gearbox-only supply or motor-matched OEM mechanisms | [View 8–42 mm series](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) |
+| **Motor + planetary gearbox integration** | Existing-motor matching or complete compact drive review | [Motor + gearbox engineering](custom-engineering/motor-gearbox-integration.md) |
 | Robot joint actuators | Humanoid robots, quadruped robots, robotic arms and exoskeletons | [View actuator series](products/robot-joint-actuators/index.md) |
 | Cycloidal joint modules | Compact robot joints requiring high torque and low backlash | [View cycloidal modules](products/cycloidal-joint-modules/index.md) |
 | Micro gear motors | Grippers, laboratory automation, medical devices and compact mechanisms | [View micro gear motors](products/micro-gear-motors/index.md) |
