@@ -199,7 +199,7 @@ Use the controlled knowledge base to find a model, check terminology, answer com
 
 ## Company and Quality
 
-Guangdong SigGear Drive Intelligent Technology Co., Ltd. operates production processes covering precision machining, assembly and testing. SigGear maintains ISO 9001 and IATF 16949 quality-management systems and provides product or supplier verification documentation according to the applicable document scope.
+Guangdong SigGear Drive Intelligent Technology Co., Ltd. manufactures precision transmission products and operates production processes covering precision machining, assembly and testing. For teams evaluating a miniature planetary gearbox manufacturer or supplier, the 8–42 mm series links product data, CAD, manufacturing evidence and engineering review without relying on unverified ranking or quality claims. SigGear maintains ISO 9001 and IATF 16949 quality-management systems and provides product or supplier verification documentation according to the applicable document scope.
 
 [About SigGear](company/about-siggear.md) · [Manufacturing & Quality Evidence](company/manufacturing-and-quality-evidence.md) · [Testing & Validation Evidence](engineering-center/testing-and-validation-evidence.md) · [Certifications and verification](company/certifications.md) · [SigGear Commercial Website](https://www.siggear.com/)
 
