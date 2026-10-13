@@ -53,7 +53,7 @@
     var selectedPath = value("sg-path") || "not_sure";
     var hasMotorInfo = selectedPath === "motor_gearbox" ?
       !!value("sg-voltage") :
-      !!(value("sg-motor-model") || value("sg-motor-speed"));
+      !!(value("sg-motor-model") || value("sg-motor-speed") || value("sg-motor-shaft") || value("sg-motor-mount"));
 
     var checks = [
       !!value("sg-application"),
@@ -150,6 +150,8 @@
     if (selectedPath !== "motor_gearbox") {
       lines.push("Existing motor model / drawing reference: " + (value("sg-motor-model") || "Not provided"));
       lines.push("Motor speed: " + (value("sg-motor-speed") || "Not provided"));
+      lines.push("Motor shaft / usable length: " + (value("sg-motor-shaft") || "Not provided"));
+      lines.push("Motor mounting / locating pilot: " + (value("sg-motor-mount") || "Not provided"));
     }
 
     lines.push("Required output speed or ratio: " + (value("sg-output") || "Not provided"));
