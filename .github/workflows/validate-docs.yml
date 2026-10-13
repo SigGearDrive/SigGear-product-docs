@@ -35,6 +35,8 @@ on:
       - "scripts/export_external_catalog.py"
       - "scripts/export_traceparts_catalog.py"
       - "scripts/export_3dfindit_onboarding.py"
+      - "scripts/validate_utm_links.py"
+      - "scripts/utm_utils.py"
       - "hooks/**"
       - ".github/workflows/validate-docs.yml"
   workflow_dispatch:
