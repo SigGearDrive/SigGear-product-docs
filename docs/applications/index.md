@@ -57,11 +57,29 @@ Review compact pumps, valves, dosing, sample handling and positioning mechanisms
 [Medical Device Micro Gear Motor Guide](medical-device-micro-gear-motors.md){ .md-button }
 [Laboratory Automation Gear Motor Guide](laboratory-automation-diagnostic-equipment-gear-motors.md){ .md-button }
 
-### Smart Hardware and Compact Device Actuators
+### Smart Locks and Access Control
 
-Review locks, cabinets, covers, dispensers, camera / sensor adjustment and other compact mechanisms by force, speed, ratio, battery current, stall and feedback requirements.
+Review bolt, latch, cam and release mechanisms by force, stroke, battery current, jam behavior, holding requirement and compact packaging.
 
-[Smart Hardware Gear Motor Guide](smart-hardware-gear-motors.md){ .md-button }
+[Smart Lock & Access-Control Gear Motor Guide](access-control-smart-lock-security-gear-motors.md){ .md-button }
+
+### Pump, Valve and Dosing Mechanisms
+
+Review peristaltic pumps, syringe / plunger drives, rotary valves and compact dosing mechanisms by pressure, flow, torque, speed, duty cycle and feedback.
+
+[Pump / Valve / Dosing Gear Motor Guide](pump-valve-fluid-control-gear-motors.md){ .md-button }
+
+### Camera Modules, Focus and Zoom Mechanisms
+
+Review focus, zoom, pan-tilt and sensor-positioning axes by backlash, vibration, speed, feedback, packaging and load support.
+
+[Camera Module & Optical Positioning Gear Motor Guide](optical-imaging-camera-module-gear-motors.md){ .md-button }
+
+### Coffee, Beverage and Dispensing Equipment
+
+Review metering, grinder adjustment, valve movement, dosing, cup handling and compact service mechanisms by load, speed, jam condition, noise and cleaning boundary.
+
+[Coffee / Dosing / Dispensing Gear Motor Guide](food-beverage-coffee-equipment-gear-motors.md){ .md-button }
 
 ## Robotics and Joint-Drive Applications
 
