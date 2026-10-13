@@ -11,7 +11,7 @@ This is a preliminary engineering guide for a **potential OEM application**. It 
 
 [Browse 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Planetary Gearbox Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
-[Contact Engineering](../request-cad-sample-quote.md){ .md-button }
+[Start Pruning-Shear Project Brief](../request-cad-sample-quote.md?app=electric_pruning_shears){ .md-button }
 
 ## Begin With Cutting Mechanism Geometry
 
@@ -61,6 +61,6 @@ Unknown specifications can be discussed after a first mechanical review. Applica
 [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com?subject=Electric%20Pruning%20Shears%20Gearbox%20Inquiry)
 
 [Email Pruning-Shear Requirements](mailto:wangwanrong@siggear.com?subject=Electric%20Pruning%20Shears%20Planetary%20Gearbox%20Review&body=Application%3A%20Electric%20pruning%20shears%0AExisting%20motor%20or%20complete%20drive%3A%20%0ARequired%20output%20speed%20or%20cycle%20time%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0AMaximum%20diameter%20and%20length%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20%0A%0APlease%20attach%20a%20motor%20drawing%20or%20mechanism%20sketch%20if%20available.){ .md-button .md-button--primary }
-[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
+[Start Pruning-Shear Project Brief](../request-cad-sample-quote.md?app=electric_pruning_shears){ .md-button }
 
 For other outdoor mechanisms, see the [Agriculture and Outdoor Equipment Gear Motor Guide](agriculture-outdoor-equipment-gear-motors.md).
