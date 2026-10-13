@@ -62,7 +62,7 @@
     ];
 
     var coverage = checks.filter(function (item) { return item; }).length;
-    var band = coverage >= 5 ? "5_plus" : (coverage >= 3 ? "3_4" : "1_2");
+    var band = coverage >= 5 ? "5_plus" : (coverage >= 3 ? "3_4" : "0_2");
 
     return {
       inquiry_origin: originGroup(),
