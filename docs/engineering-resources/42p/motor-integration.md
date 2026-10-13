@@ -89,9 +89,10 @@ A simplified public **42P 4-stage STEP reference** is released for early packagi
 
 For final CAD, provide the selected ratio / stage count and motor interface.
 
-[Request Motor + 42P Matching](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Request 42P Existing-Motor Review](../../request-cad-sample-quote.md?model=42P&path=gearbox_only){ .md-button .md-button--primary }
 
 [Open 42P Design-In Pack](design-in-pack.md){ .md-button }
+[8P–42P Motor-Matching Workflow](../../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
 ## Engineering Contact
 

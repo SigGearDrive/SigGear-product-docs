@@ -61,8 +61,8 @@ To evaluate a customer's existing motor or select a SigGear motor, please provid
 -> confirm assembly envelope  
 -> release matched configuration drawing
 
-[Motor + Gearbox Integration Engineering](../../custom-engineering/motor-gearbox-integration.md){ .md-button .md-button--primary }
-[Request Motor + Gearbox Matching](../../request-cad-sample-quote.md){ .md-button }
+[8P–42P Motor-Matching Workflow](../../custom-engineering/motor-gearbox-integration.md){ .md-button .md-button--primary }
+[Request 32P Existing-Motor Review](../../request-cad-sample-quote.md?model=32P&path=gearbox_only){ .md-button }
 
 ## Related Resources
 
