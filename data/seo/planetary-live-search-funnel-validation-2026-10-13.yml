@@ -1,0 +1,132 @@
+schema_version: 1
+snapshot_id: planetary-live-search-funnel-validation-2026-10-13
+captured_on: "2026-10-13"
+scope: live_search_and_funnel_validation
+
+sources:
+  search_console:
+    connector: Windsor.ai searchconsole
+    account: "https://siggeardrive.github.io/SigGear-product-docs/"
+    requested_period: "2026-07-15 to 2026-10-13"
+    latest_available_search_date: "2026-10-10"
+    fetched_at_utc: "2026-10-13T09:11:05"
+    note: >
+      Search Console data available through Windsor.ai currently ends on
+      2026-10-10. Most 01G-003 through 01G-016 changes were deployed on
+      2026-10-13, so absence of post-change query impressions is not yet
+      evidence that the SEO changes failed.
+  ga4:
+    connector: Windsor.ai googleanalytics4
+    account_id: "547548249"
+    latest_available_event_date: "2026-10-12"
+    fetched_at_utc: "2026-10-13T09:11:08"
+    note: >
+      The complete engineering funnel instrumentation was deployed on
+      2026-10-13. Current GA4 data does not yet contain 2026-10-13 event
+      rows, so funnel conversion must not be judged from this snapshot.
+
+tracked_search_monitor:
+  tracked_exact_queries: 44
+  exact_queries_with_impressions: 0
+  exact_queries_with_clicks: 0
+  status_rule: >
+    Keep a tracked query at SEEDING until Search Console returns a row for
+    that exact query. Do not infer a keyword rank from page-level exposure.
+
+canonical_page_discovery:
+  pages_with_signal:
+    - page: "/products/planetary-gearboxes/42p-planetary-gearbox/"
+      model: 42P
+      period: "2026-10-01 to 2026-10-10"
+      impressions: 2
+      clicks: 0
+      average_position: 1
+      interpretation: >
+        This is a page-level discovery signal only. The exact tracked query
+        "42mm planetary gearbox" is absent from Search Console and therefore
+        remains SEEDING.
+  other_tracked_planetary_canonicals_with_page_signal: 0
+
+planetary_query_identity:
+  query_rows_containing_planetary: 25
+  current_pattern: legacy_robot_and_joint_intent
+  examples:
+    - planetary drive joint actuator
+    - planetary gear robot actuator
+    - robot actuator planetary gearbox
+    - precision planetary joint actuator
+  current_missing_pattern:
+    - exact_diameter_plus_planetary_gearbox
+    - miniature_planetary_gearbox
+    - planetary_gearbox_cad_or_step
+    - planetary_gearbox_for_existing_motor
+    - planetary_gearbox_datasheet_or_dimensions
+    - miniature_planetary_gearbox_manufacturer
+  interpretation: >
+    Google's current known SigGear identity is still materially influenced
+    by the older robot/joint content. The new miniature planetary identity
+    has not yet accumulated enough post-deployment Search Console data.
+
+ga4_live_funnel:
+  observed_event_rows:
+    - date: "2026-10-06"
+      event_name: page_view
+      event_count: 1
+    - date: "2026-10-06"
+      event_name: session_start
+      event_count: 1
+    - date: "2026-10-06"
+      event_name: user_engagement
+      event_count: 1
+    - date: "2026-10-12"
+      event_name: page_view
+      event_count: 1
+    - date: "2026-10-12"
+      event_name: session_start
+      event_count: 1
+  new_planetary_funnel_events_observed: 0
+  interpretation: >
+    No conclusion should be drawn yet because GA4 data currently stops before
+    the 2026-10-13 end-to-end funnel deployment.
+
+decision:
+  current_action: observe_before_reoptimizing
+  do_not_do_yet:
+    - rewrite_titles_again
+    - create_duplicate_keyword_pages
+    - change_canonical_targets
+    - judge_selector_or_lifecycle_conversion
+    - treat_42p_page_position_as_exact_keyword_rank
+  rationale:
+    - gsc_latest_date_precedes_major_01g_deployment
+    - ga4_latest_event_date_precedes_full_funnel_instrumentation
+    - sample_sizes_are_extremely_small
+
+next_decision_gates:
+  exact_query_discovery:
+    trigger: any_tracked_exact_query_gets_at_least_1_impression
+    action: update_exact_query_status_and_review_query_to_canonical_alignment
+  page_discovery_without_query:
+    trigger: tracked_canonical_page_accumulates_repeated_impressions_while_exact_query_remains_absent
+    action: inspect_available_query_mix_before_changing_content
+  click_through_review:
+    trigger: a_target_page_has_meaningful_impression_volume_but_persistently_zero_clicks
+    action: review_title_description_and_search_intent_fit
+    note: use judgment; do not optimize from only one or two impressions
+  funnel_review:
+    trigger: enough_real_sessions_reach_target_planetary_pages_to_make_event_counts_interpretable
+    action: compare_selector_candidate_project_brief_and_lifecycle_events
+  indexing_review:
+    trigger: core_new_planetary_pages_remain_without_page_level_discovery_after_a_reasonable_post_deployment_window
+    action: check_indexing_internal_links_sitemap_and_crawl_before_creating_more_content
+
+private_sheet:
+  workbook: "SigGear Global Project Pipeline v1.0"
+  tab: "Planetary Search Monitor"
+  update:
+    - added_live_check_date
+    - added_latest_gsc_data_through
+    - added_exact_query_live_metrics
+    - added_canonical_page_live_metrics
+    - separated_exact_query_status_from_page_signal
+    - added_live_observation
