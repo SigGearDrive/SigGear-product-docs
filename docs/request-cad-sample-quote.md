@@ -166,6 +166,17 @@ This page does **not** send your engineering details to a third-party form servi
     </label>
 
     <label>
+      Project stage
+      <select id="sg-project-stage" name="project_stage">
+        <option value="">Not specified</option>
+        <option value="concept">Concept</option>
+        <option value="prototype">Prototype</option>
+        <option value="pilot">Pilot</option>
+        <option value="production">Production</option>
+      </select>
+    </label>
+
+    <label>
       What do you need next?
       <select id="sg-next-step" name="next_step">
         <option value="Model recommendation">Model recommendation</option>
