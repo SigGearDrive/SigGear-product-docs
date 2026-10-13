@@ -1,9 +1,10 @@
 ---
-title: 32P 32 mm Planetary Gearbox Datasheet | 1-4 Stages | SigGear
-description: Approved public 32P planetary gearbox engineering datasheet with ratios, stage lengths, torque, efficiency, load ratings, motor matching and CAD resources.
+title: 32 mm Planetary Gearbox Datasheet (32P) | 1–4 Stages | SigGear
+description: Public 32P 32 mm planetary gearbox datasheet with 1–4 stage ratios, gearbox lengths, torque, efficiency, backlash, motor-matching data and links to mechanical-interface and CAD resources.
 ---
 
-# 32P 32 mm Planetary Gearbox - Technical Datasheet v1.0
+
+# 32 mm Planetary Gearbox Datasheet (32P)
 
 **Status:** Approved for Public  
 **Release date:** 2026-09-28

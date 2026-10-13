@@ -1,9 +1,10 @@
 ---
-title: 10P Planetary Gearbox Mechanical Interface | Controlled 2D / CAD Reference | SigGear
-description: Public 10P mechanical-interface reference based on the current controlled 2D drawing, with full assembly CAD available after configuration review.
+title: 10 mm Planetary Gearbox Dimensions & Mechanical Interface (10P) | SigGear
+description: Public 10P 10 mm planetary gearbox dimensions and mechanical-interface reference based on the current controlled 2D drawing, including stage-dependent length, mounting and output-side interface information.
 ---
 
-# 10P Planetary Gearbox Mechanical Interface v1.0
+
+# 10 mm Planetary Gearbox Dimensions & Mechanical Interface (10P)
 
 **Status:** Public engineering evaluation reference  
 **Release date:** 2026-10-06  

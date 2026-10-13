@@ -1,9 +1,10 @@
 ---
-title: 42P 42 mm Planetary Gearbox Datasheet | 1-4 Stages | SigGear
-description: Public 42P planetary gearbox engineering datasheet with stage lengths, ratios, torque, efficiency, backlash, motor matching and mechanical-interface reference.
+title: 42 mm Planetary Gearbox Datasheet (42P) | 1–4 Stages | SigGear
+description: Public 42P 42 mm planetary gearbox datasheet with 1–4 stage ratios, gearbox lengths, torque, efficiency, backlash, motor-matching data and links to mechanical-interface and CAD resources.
 ---
 
-# 42P 42 mm Planetary Gearbox - Technical Datasheet v1.1
+
+# 42 mm Planetary Gearbox Datasheet (42P)
 
 **Status:** Public engineering evaluation reference  
 **Release date:** 2026-10-08

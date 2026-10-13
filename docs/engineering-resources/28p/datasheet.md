@@ -1,9 +1,10 @@
 ---
-title: 28P 28 mm Planetary Gearbox Datasheet | 1-4 Stages | SigGear
-description: Public 28P planetary gearbox engineering datasheet with stage lengths, ratios, torque, efficiency, backlash, motor matching and mechanical-interface reference.
+title: 28 mm Planetary Gearbox Datasheet (28P) | 1–4 Stages | SigGear
+description: Public 28P 28 mm planetary gearbox datasheet with 1–4 stage ratios, gearbox lengths, torque, efficiency, backlash, motor-matching data and links to mechanical-interface and CAD resources.
 ---
 
-# 28P 28 mm Planetary Gearbox - Technical Datasheet v1.0
+
+# 28 mm Planetary Gearbox Datasheet (28P)
 
 **Status:** Public engineering evaluation reference  
 **Release date:** 2026-10-06

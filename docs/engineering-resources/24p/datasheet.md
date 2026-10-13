@@ -1,9 +1,10 @@
 ---
-title: 24P 24 mm Planetary Gearbox Datasheet | 1-4 Stages | SigGear
-description: Public 24P planetary gearbox engineering datasheet with stage lengths, ratios, torque, efficiency, backlash, motor matching and mechanical-interface reference.
+title: 24 mm Planetary Gearbox Datasheet (24P) | 1–4 Stages | SigGear
+description: Public 24P 24 mm planetary gearbox datasheet with 1–4 stage ratios, gearbox lengths, torque, efficiency, backlash, motor-matching data and links to mechanical-interface and CAD resources.
 ---
 
-# 24P 24 mm Planetary Gearbox - Technical Datasheet v1.0
+
+# 24 mm Planetary Gearbox Datasheet (24P)
 
 **Status:** Public engineering evaluation reference  
 **Release date:** 2026-10-06

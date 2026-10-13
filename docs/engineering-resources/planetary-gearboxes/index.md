@@ -1,9 +1,10 @@
 ---
-title: 8P-42P Planetary Gearbox Engineering Resource Library | SigGear
-description: Datasheets, controlled mechanical-interface references and CAD availability for SigGear 8P, 10P, 12P, 14P, 16P, 20P, 22P, 24P, 28P, 32P, 36P and 42P planetary gearboxes.
+title: Planetary Gearbox Datasheets, Dimensions & CAD | 8–42 mm | SigGear
+description: Public datasheets, controlled mechanical-interface dimensions and CAD resources for SigGear 8, 10, 12, 14, 16, 20, 22, 24, 28, 32, 36 and 42 mm planetary gearboxes.
 ---
 
-# 8P-42P Planetary Gearbox Engineering Resource Library
+
+# Planetary Gearbox Datasheets, Dimensions & CAD — 8P–42P
 
 This library organizes the current public Datasheets and controlled mechanical-interface references for SigGear's 8 mm to 42 mm standard planetary gearbox series.
 
@@ -12,6 +13,10 @@ Performance data is consolidated from the current canonical product pages. Mecha
 The detailed full-assembly STEP files remain configuration-controlled because they contain internal planetary transmission geometry. Simplified public 4-stage STEP files are now released for all standard 8P-42P frame sizes.
 
 **External CAD platform:** [Browse SigGear planetary gearboxes on TraceParts (Chinese-language public catalog)](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR). All 12 model families are listed; a 42P CAD download was successfully tested. Additional model downloads and the English-language catalog are pending independent verification. The public CAD is a simplified **4-stage reference**, not final production CAD for every stage or ratio.
+
+## Find Engineering Data by Diameter
+
+Use this library when the search starts from a specific **planetary gearbox datasheet**, **gearbox dimensions**, **mechanical interface**, **2D drawing reference** or **STEP CAD** requirement. Each diameter keeps its own published data boundary; values must not be transferred between frame sizes.
 
 | Model | Diameter | Datasheet | Mechanical interface | CAD status | Project brief |
 | --- | ---: | --- | --- | --- | --- |
