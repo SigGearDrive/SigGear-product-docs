@@ -86,6 +86,7 @@ This page does not approve Design Freeze, Pilot Preparation Ready or Production 
         <button type="button" id="sg-email-pilot-summary" class="md-button">Prepare Pilot Review Email to SigGear</button>
         <a id="sg-pilot-datasheet" class="md-button" href="#">Open Datasheet</a>
         <a id="sg-pilot-interface" class="md-button" href="#">Open Mechanical Interface</a>
+        <a id="sg-pilot-production-review" class="md-button" href="#" hidden>After Pilot Build — Record Pilot Result / Production Release Review</a>
       </div>
 
       <p id="sg-pilot-action-status" class="siggear-form-status" aria-live="polite"></p>
