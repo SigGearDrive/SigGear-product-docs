@@ -1,9 +1,16 @@
 ---
-title: Optical, Imaging and Camera Module Gear Motors | SigGear
-description: Select compact gear motors for focus, zoom, aperture, filter-wheel, pan-tilt, scanning and sensor-positioning mechanisms by backlash, vibration, noise, speed and feedback requirements.
+title: Miniature Planetary Gear Motors for Optical & Camera Positioning | SigGear
+description: Select miniature planetary gearboxes and gear motors for focus, zoom, filter-wheel, sensor and camera-positioning mechanisms by backlash, vibration, speed, feedback and packaging.
 ---
 
-# Optical, Imaging and Camera Module Gear Motors
+
+# Miniature Planetary Gear Motors for Optical, Imaging and Camera Positioning
+
+
+[Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
+[Start Optical / Camera Positioning Project Brief](../request-cad-sample-quote.md?app=optical_positioning){ .md-button }
+
 
 ## Application Overview
 
@@ -259,3 +266,6 @@ International Sales, SigGear
 [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
 [Send Optical, Imaging or Camera Module Gear Motor Requirements](../contact.md){ .md-button .md-button--primary }
+
+
+[Start Optical / Camera Positioning Project Brief](../request-cad-sample-quote.md?app=optical_positioning){ .md-button .md-button--primary }
