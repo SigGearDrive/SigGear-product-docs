@@ -75,10 +75,12 @@ hooks:
 
 extra_css:
   - assets/stylesheets/inquiry-form.css
+  - assets/stylesheets/ratio-stage-selector.css
 
 extra_javascript:
   - assets/javascripts/analytics-events.js
   - assets/javascripts/inquiry-form.js
+  - assets/javascripts/ratio-stage-selector.js
   - assets/javascripts/organization-schema.js
 
 markdown_extensions:

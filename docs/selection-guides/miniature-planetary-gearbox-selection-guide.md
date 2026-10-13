@@ -1,6 +1,6 @@
 ---
-title: How to Select a Miniature Planetary Gearbox (8–42 mm) | SigGear
-description: OEM guide to selecting miniature planetary gearboxes by ratio, rated torque, motor interface, duty cycle, gearbox length and 3D CAD.
+title: Miniature Planetary Gearbox Selection & Ratio Finder (8–42 mm) | SigGear
+description: Preliminary 8–42 mm planetary gearbox selection by motor speed, target output speed, published ratio, stage, gearbox length, rated torque, datasheet and CAD.
 ---
 
 # How to Select a Miniature Planetary Gearbox for an OEM Design
@@ -34,6 +34,61 @@ Diameter is only the first filter. Final selection still requires the exact rati
 The preliminary reduction ratio is approximately **motor speed at the operating point divided by target gearbox output speed**. Do not automatically use the motor's no-load speed.
 
 Compare this result with the published stage-specific ratio table of the selected gearbox. Different stages can change overall body length, torque rating and efficiency.
+
+## Preliminary Ratio & Stage Finder
+
+Use this tool for an initial comparison when you know the **motor operating speed** and **target gearbox output speed**.
+
+It calculates:
+
+**preliminary target ratio = motor operating speed / target output speed**
+
+and compares that value with the currently published 1–4 stage ratios for SigGear 8P–42P.
+
+Optional filters can remove configurations that exceed a maximum gearbox diameter, maximum **gearbox body length**, or published **rated allowable torque** requirement.
+
+<form id="siggear-ratio-stage-selector" class="siggear-ratio-selector">
+  <div class="siggear-selector-grid">
+    <label>
+      Motor operating speed (rpm)
+      <input id="sg-selector-motor-speed" type="number" min="0.01" step="any" required placeholder="Example: 8000">
+    </label>
+
+    <label>
+      Target output speed (rpm)
+      <input id="sg-selector-output-speed" type="number" min="0.01" step="any" required placeholder="Example: 80">
+    </label>
+
+    <label>
+      Maximum gearbox diameter (mm) — optional
+      <input id="sg-selector-diameter" type="number" min="0.01" step="any" placeholder="Example: 32">
+    </label>
+
+    <label>
+      Maximum gearbox body length (mm) — optional
+      <input id="sg-selector-length" type="number" min="0.01" step="any" placeholder="Gearbox only, not total motor + gearbox length">
+    </label>
+
+    <label>
+      Required continuous torque (kgf·cm) — optional
+      <input id="sg-selector-torque" type="number" min="0.001" step="any" placeholder="Compared with published rated allowable torque">
+    </label>
+  </div>
+
+  <div class="siggear-selector-actions">
+    <button type="submit" class="md-button md-button--primary">Find Published Configurations</button>
+  </div>
+
+  <p id="sg-ratio-stage-summary" class="siggear-selector-summary" aria-live="polite"></p>
+  <div id="sg-ratio-stage-results" aria-live="polite"></div>
+</form>
+
+**Important:** this is a preliminary Design-In aid, not an automatic final selector. It does not add a safety factor, calculate motor shaft torque, predict service life, or prove that a customer's motor shaft / pilot / mounting pattern fits the gearbox.
+
+Use the closest published ratio as a starting point, then confirm the selected **model + stage + ratio + load + motor interface** against the Datasheet and Mechanical Interface.
+
+[Existing Motor — Open Motor-Matching Workflow](../custom-engineering/motor-gearbox-integration.md){ .md-button }
+[Open 8P–42P Datasheets & Mechanical Interfaces](../engineering-resources/planetary-gearboxes/index.md){ .md-button }
 
 ## 3. Compare Continuous and Peak Torque Separately
 
