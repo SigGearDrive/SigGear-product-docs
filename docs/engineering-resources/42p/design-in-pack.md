@@ -154,7 +154,7 @@ For a fast engineering review, send:
 
 ## Request CAD, Sample or Quote
 
-[Request 42P CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Request 42P CAD, Sample and Quote](../../request-cad-sample-quote.md?model=42P&next_step=cad_review){ .md-button .md-button--primary }
 
 ## Related Product Resources
 
