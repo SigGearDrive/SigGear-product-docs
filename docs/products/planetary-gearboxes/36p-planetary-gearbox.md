@@ -21,7 +21,7 @@ The SigGear 36P is a 36 mm compact planetary gearbox for compact motorized mecha
 | Item | Description |
 | --- | --- |
 | Model | 36P |
-| Product type | Micro planetary gearbox |
+| Product type | Compact planetary gearbox |
 | Nominal outer diameter | 36 mm |
 | Number of stages | 1 to 4 |
 | Housing material | Steel |
