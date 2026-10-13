@@ -1,4 +1,15 @@
-# Food, Beverage and Coffee Equipment Gear Motors
+---
+title: Planetary Gear Motors for Coffee, Dosing & Dispensing Equipment | SigGear
+description: Engineering selection guide for compact planetary gearboxes and gear motors in coffee, beverage, dosing and dispensing mechanisms, including load, speed, cleaning boundary, noise and jam conditions.
+---
+
+# Planetary Gear Motors for Coffee, Dosing and Dispensing Equipment
+
+
+[Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
+[Start Coffee / Dispensing Project Brief](../request-cad-sample-quote.md?app=coffee_equipment){ .md-button }
+
 
 ## Application Overview
 
@@ -219,3 +230,6 @@ International Sales, SigGear
 [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
 [Send Food, Beverage or Coffee Equipment Gear Motor Requirements](../contact.md){ .md-button .md-button--primary }
+
+
+[Start Coffee / Dispensing Project Brief](../request-cad-sample-quote.md?app=coffee_equipment){ .md-button .md-button--primary }
