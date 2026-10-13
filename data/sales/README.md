@@ -9,3 +9,5 @@ The YAML policy defines response order, qualification fields, prohibited claims 
 The `inquiry-measurement-schema.yml` file defines a public-safe funnel and normalized analytics dimensions. It deliberately separates website intent from an actual received inquiry and from a manually confirmed qualified inquiry.
 
 Website analytics must use categories, counts and presence flags only. Customer-specific identities, free-text requirements, engineering values and private qualification outcomes remain outside this public repository and outside GA4 event parameters.
+
+The `attribution-kpi-schema.yml` file defines the shared naming and funnel rules used to compare website intent with offline Pipeline outcomes. It sets the attribution baseline at 2026-10-13 and prohibits retroactive source guessing or treating outbound platform clicks as proof of acquisition.
