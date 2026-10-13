@@ -1,4 +1,15 @@
-# Access Control, Smart Lock and Security Gear Motors
+---
+title: Miniature Planetary Gear Motors for Smart Locks & Access Control | SigGear
+description: Engineering selection guide for miniature planetary gearboxes and gear motors in smart locks, electronic latches and access-control mechanisms, including the SigGear 8–42 mm range.
+---
+
+# Miniature Planetary Gear Motors for Smart Locks and Access Control
+
+
+[Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
+[Start Smart Lock / Access Control Project Brief](../request-cad-sample-quote.md?app=smart_lock_access_control){ .md-button }
+
 
 ## Application Overview
 
@@ -208,4 +219,5 @@ Send your smart lock, access-control, cabinet lock or security actuator requirem
 International Sales, SigGear  
 [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
-[Send Access-Control Gear Motor Requirements](../contact.md){ .md-button .md-button--primary }
+[Start Smart Lock / Access Control Project Brief](../request-cad-sample-quote.md?app=smart_lock_access_control){ .md-button .md-button--primary }
+[Contact SigGear](../contact.md){ .md-button }
