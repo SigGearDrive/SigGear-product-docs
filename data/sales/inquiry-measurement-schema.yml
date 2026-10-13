@@ -104,6 +104,11 @@ normalized_website_dimensions:
       - 0_2
       - 3_4
       - 5_plus
+  cad_readiness_status:
+    allowed:
+      - ready_for_cad_review
+      - need_more_information
+      - not_applicable
   offline_source_group:
     allowed:
       - google_organic
@@ -138,6 +143,8 @@ privacy_boundary:
     - ratio_stage_filter_presence_flags
     - selector_handoff_flag
     - normalized_selector_candidate_stage
+    - normalized_cad_readiness_status
+    - cad_readiness_gate_presence_flags
   ga4_must_not_receive:
     - customer_name
     - email_address
@@ -153,6 +160,9 @@ privacy_boundary:
     - ratio_stage_selector_raw_diameter_length_or_torque_values
     - ratio_stage_selector_raw_ratio_tolerance
     - selector_candidate_ratio_from_url
+    - output_interface_text
+    - duty_cycle_or_peak_duration_text
+    - external_shaft_load_text
   public_repository_must_not_store:
     - customer_records
     - private_lead_status
