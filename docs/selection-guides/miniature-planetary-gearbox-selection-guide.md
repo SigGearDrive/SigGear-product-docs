@@ -45,7 +45,7 @@ It calculates:
 
 and compares that value with the currently published 1–4 stage ratios for SigGear 8P–42P.
 
-Optional filters can remove configurations that exceed a maximum gearbox diameter, maximum **gearbox body length**, or published **rated allowable torque** requirement.
+Optional filters can remove configurations that exceed a maximum gearbox diameter, maximum **gearbox body length**, published **rated allowable torque** requirement, or a user-defined maximum ratio difference.
 
 <form id="siggear-ratio-stage-selector" class="siggear-ratio-selector">
   <div class="siggear-selector-grid">
@@ -73,6 +73,11 @@ Optional filters can remove configurations that exceed a maximum gearbox diamete
       Required continuous torque (kgf·cm) — optional
       <input id="sg-selector-torque" type="number" min="0.001" step="any" placeholder="Compared with published rated allowable torque">
     </label>
+
+    <label>
+      Maximum ratio difference (%) — optional
+      <input id="sg-selector-ratio-tolerance" type="number" min="0" step="any" placeholder="Example: 5 means keep ratios within 5%">
+    </label>
   </div>
 
   <div class="siggear-selector-actions">
@@ -85,7 +90,13 @@ Optional filters can remove configurations that exceed a maximum gearbox diamete
 
 **Important:** this is a preliminary Design-In aid, not an automatic final selector. It does not add a safety factor, calculate motor shaft torque, predict service life, or prove that a customer's motor shaft / pilot / mounting pattern fits the gearbox.
 
-Use the closest published ratio as a starting point, then confirm the selected **model + stage + ratio + load + motor interface** against the Datasheet and Mechanical Interface.
+The results now separate three different first-check questions:
+
+- **Closest Ratio** — the remaining published configuration with the smallest ratio difference.
+- **Smallest Surviving Frame** — the smallest diameter that still has at least one published configuration after your active filters.
+- **Shortest Surviving Gearbox** — the shortest published gearbox body among the remaining frame candidates.
+
+These labels are not interchangeable and are **not final recommendations**. A smaller frame may have a less suitable ratio, and a shorter gearbox may have lower published rated torque. Confirm the selected **model + stage + ratio + continuous / peak load + motor interface** against the Datasheet and Mechanical Interface.
 
 [Existing Motor — Open Motor-Matching Workflow](../custom-engineering/motor-gearbox-integration.md){ .md-button }
 [Open 8P–42P Datasheets & Mechanical Interfaces](../engineering-resources/planetary-gearboxes/index.md){ .md-button }
