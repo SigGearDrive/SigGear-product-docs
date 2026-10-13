@@ -20,6 +20,7 @@ website_funnel:
     - candidate_design_in_pack_view
     - sample_validation_candidate_view
     - sample_validation_summary_copy
+    - design_in_review_candidate_view
   inquiry_intent:
     - engineering_brief_open_click
     - inquiry_page_view
@@ -28,6 +29,7 @@ website_funnel:
   high_intent:
     - engineering_brief_prepare_email
     - sample_validation_prepare_email
+    - design_in_review_prepare_email
     - planetary_inquiry_click
 
 qualified_inquiry_definition:
@@ -126,6 +128,11 @@ normalized_website_dimensions:
       - revise_mechanical_interface
       - more_testing_required
       - ready_for_design_in_review
+  design_in_decision_status:
+    allowed:
+      - continue_evaluation
+      - engineering_revision_required
+      - design_in_review_ready
   offline_source_group:
     allowed:
       - google_organic
@@ -164,6 +171,7 @@ privacy_boundary:
     - cad_readiness_gate_presence_flags
     - normalized_sample_validation_status
     - normalized_sample_validation_outcome
+    - normalized_design_in_decision_status
   ga4_must_not_receive:
     - customer_name
     - email_address
