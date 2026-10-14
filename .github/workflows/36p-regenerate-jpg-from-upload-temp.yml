@@ -1,0 +1,58 @@
+name: Build 36P genuine photo JPEGs (temporary)
+on:
+  push:
+    branches:
+      - fix/36p-user-original-replace-all-three-20261014
+    paths:
+      - .github/workflows/36p-regenerate-jpg-from-upload-temp.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Pillow
+        run: python -m pip install Pillow
+      - name: Generate 36P photo JPGs from operator-supplied real-photo derivative
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib
+          from PIL import Image
+          src=Path("docs/assets/images/products/planetary-gearboxes/36p/36p-real-product-evidence.webp")
+          im=Image.open(src); im.load()
+          assert im.format=="WEBP" and im.size==(460,340)
+          im=im.convert("RGB")
+          folder=src.parent
+          names=[
+            "36p-product-photo-20261014.jpg",
+            "36p-product-photo-20261014-v2.jpg",
+            "36p-traceparts-460x340.jpg",
+          ]
+          for name in names:
+            target=folder/name
+            im.save(target,"JPEG",quality=95,subsampling=0,optimize=True)
+            ck=Image.open(target); ck.load()
+            assert ck.format=="JPEG" and ck.size==(460,340)
+            print(name, target.stat().st_size, hashlib.sha256(target.read_bytes()).hexdigest())
+          assert len({hashlib.sha256((folder/name).read_bytes()).hexdigest() for name in names})==1
+          # Ensure we did not accidentally save an empty image.
+          assert min(im.getpixel((230,220)))<90
+          assert min(im.getpixel((230,302)))<190
+          print("DONE: all 3 JPEGs are valid genuine 36P photographs")
+          PY
+      - name: Commit generated JPGs to working branch
+        shell: bash
+        run: |
+          set -eu
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014.jpg
+          git add docs/assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014-v2.jpg
+          git add docs/assets/images/products/planetary-gearboxes/36p/36p-traceparts-460x340.jpg
+          git diff --cached --check
+          git commit -m "Regenerate 36P website and TraceParts JPGs from user supplied photo"
+          git push origin HEAD:fix/36p-user-original-replace-all-three-20261014
