@@ -1,11 +1,11 @@
 ---
-title: SigGear Miniature & Compact Planetary Gearboxes | 8–42 mm
-description: Explore SigGear 8–42 mm planetary gearboxes and gearheads, gearbox-only supply, motor matching, model datasheets and public simplified STEP CAD for OEM designs.
+title: SigGear | Micro, Miniature & Compact Planetary Gearboxes (8–42 mm)
+description: Find SigGear micro, miniature and compact planetary gearboxes from 8–42 mm. Compare 12 real models, mounting data, datasheets and STEP CAD for OEM design.
 ---
 
-# Miniature & Compact Planetary Gearboxes | SigGear (8–42 mm)
+# SigGear Micro, Miniature & Compact Planetary Gearboxes (8–42 mm)
 
-SigGear manufactures **miniature and compact planetary gearboxes (planetary gearheads)** with nominal outer diameters from **8 mm to 42 mm** for space-constrained OEM mechanical applications.
+SigGear manufactures **micro, miniature and compact planetary gearboxes (planetary gearheads)** with nominal outer diameters from **8 mm to 42 mm** for space-constrained OEM mechanical applications. The published product families are grouped as **Micro (8–16 mm)**, **Miniature (20–32 mm)** and **Compact (36–42 mm)**.
 
 We supply **gearbox-only units** for projects using an existing motor. If you need a complete drive assembly, our team can evaluate **motor matching and a motor + gearbox configuration** against your application and installation requirements.
 
@@ -14,6 +14,18 @@ The 12 published planetary frame sizes have model-specific Datasheets, Mechanica
 [Browse 8–42 mm Planetary Gearboxes](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Download Public STEP CAD](engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Start Engineering Project Brief](request-cad-sample-quote.md){ .md-button .md-button--primary }
+
+## Find a Planetary Gearbox by Diameter
+
+Choose a **gearbox frame diameter** first when the available installation space is known. Then review the published ratio, stage-dependent length, **rated** torque, output shaft and motor interface for that exact model.
+
+| Size class | Published diameters | Engineering next step |
+| --- | --- | --- |
+| **Micro planetary gearboxes — 8–16 mm** | [8 mm (8P)](products/planetary-gearboxes/8p-planetary-gearbox.md) · [10 mm (10P)](products/planetary-gearboxes/10p-planetary-gearbox.md) · [12 mm (12P)](products/planetary-gearboxes/12p-planetary-gearbox.md) · [14 mm (14P)](products/planetary-gearboxes/14p-planetary-gearbox.md) · [16 mm (16P)](products/planetary-gearboxes/16p-planetary-gearbox.md) | Compare actual body length and motor-side interfaces |
+| **Miniature planetary gearboxes — 20–32 mm** | [20 mm (20P)](products/planetary-gearboxes/20p-planetary-gearbox.md) · [22 mm (22P)](products/planetary-gearboxes/22p-planetary-gearbox.md) · [24 mm (24P)](products/planetary-gearboxes/24p-planetary-gearbox.md) · [28 mm (28P)](products/planetary-gearboxes/28p-planetary-gearbox.md) · [32 mm (32P)](products/planetary-gearboxes/32p-planetary-gearbox.md) | Check stage-specific allowable torque, ratio and mounting |
+| **Compact planetary gearboxes — 36–42 mm** | [36 mm (36P)](products/planetary-gearboxes/36p-planetary-gearbox.md) · [42 mm (42P)](products/planetary-gearboxes/42p-planetary-gearbox.md) | Check output bearing loads, available length and matched motor |
+
+For **planetary gearbox STEP CAD**, visit the [model-by-model CAD download library](engineering-resources/planetary-gearboxes/public-cad-release-v1.md). Each public STEP is a **simplified 4-stage reference**, not production CAD for every ratio. Engineers who already have a motor can use our [planetary gearbox motor-matching guide](custom-engineering/motor-gearbox-integration.md).
 
 ## Real Product Evidence
 
