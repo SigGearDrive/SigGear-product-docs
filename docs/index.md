@@ -39,7 +39,7 @@ If the final gearbox diameter is not yet fixed, start from the mechanism instead
 
 These are commercial Design-In groups, not replacements for the published Micro / Miniature / Compact technical classes.
 
-[Explore Planetary Gearbox Application Families](products/planetary-gearboxes/application-families.md){ .md-button .md-button--primary }
+[Explore Planetary Gearbox Application Families](applications/planetary-gearbox-application-families.md){ .md-button .md-button--primary }
 [Dexterous Hand & Gripper Guide](applications/robot-gripper-gear-motors.md){ .md-button }
 [Electric Curtain & Blind Guide](applications/electric-curtain-blind-window-opener-gear-motors.md){ .md-button }
 
