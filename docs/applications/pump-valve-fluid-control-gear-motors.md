@@ -10,6 +10,23 @@ description: Engineering guide for compact planetary gearboxes and gear motors i
 [Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Start Pump / Valve Project Brief](../request-cad-sample-quote.md?app=pump_valve_fluid){ .md-button }
 
+## Where to Start by Gearbox Size
+
+The fluid mechanism determines the torque; the gearbox diameter is only the first packaging filter.
+
+| Starting frame group | Typical mechanism direction | First engineering checks |
+| --- | --- | --- |
+| **8P–16P — Micro Precision** | miniature selector valves, micro pumps, compact dosing mechanisms and instrument fluid-control axes | seal / tube friction, output speed, shaft load, noise and available length |
+| **20P–28P — Compact OEM** | rotary valves, peristaltic pump heads, syringe / plunger drives, pinch mechanisms and commercial dosing equipment | pressure-related torque, duty cycle, holding behavior, motor power and output interface |
+| **32P+** | higher-load compact industrial valve or pumping mechanisms only when smaller frames cannot meet the load requirement | rated torque, peak load, bearing support, thermal behavior and installation envelope |
+
+A valve or pump project should be selected from **pressure, friction, mechanism geometry, duty cycle and required motion**, not from valve diameter or flow rate alone.
+
+If the customer already has a qualified motor or pump head, SigGear can evaluate a gearbox-only solution around that existing architecture.
+
+[See the 3 Planetary Application Families](../products/planetary-gearboxes/application-families.md){ .md-button }
+[Motor + Gearbox Integration](../custom-engineering/motor-gearbox-integration.md){ .md-button }
+
 
 ## Application Overview
 
