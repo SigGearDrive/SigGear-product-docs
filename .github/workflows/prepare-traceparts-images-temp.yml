@@ -34,6 +34,18 @@ jobs:
               url="https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/36p-planetary-gearbox/"
               response=page.goto(url,wait_until="domcontentloaded",timeout=45000)
               assert response is not None and response.status==200,response
+              # Dismiss real MkDocs Material cookie consent dialog using its UI, not JS force-hiding.
+              consent_clicked=False
+              consent=page.locator(".md-consent")
+              if consent.count() and consent.first.is_visible():
+                  for selector in [".md-consent__form button[type=submit]", ".md-consent button.md-button--primary", ".md-consent button"]:
+                      btn=page.locator(selector)
+                      if btn.count() and btn.first.is_visible():
+                          print("CONSENT_BUTTONS",btn.all_text_contents()[:8])
+                          btn.first.click(timeout=12000)
+                          consent_clicked=True
+                          break
+                  page.wait_for_timeout(600)
               img=page.locator('article img[alt*="36P"]')
               assert img.count()==1, "Expected exactly one 36P photo in article"
               img.scroll_into_view_if_needed()
@@ -42,15 +54,17 @@ jobs:
               state=img.evaluate("""el=>({src:el.src,complete:el.complete,naturalWidth:el.naturalWidth,naturalHeight:el.naturalHeight,renderedWidth:el.getBoundingClientRect().width,renderedHeight:el.getBoundingClientRect().height,opacity:getComputedStyle(el).opacity,visibility:getComputedStyle(el).visibility})""")
               assert "36p-product-photo-20261014-v2.jpg" in state["src"],state
               assert state["naturalWidth"]==460 and state["naturalHeight"]==340,state
-              snap=out/"36p-browser-image-v2.png"
+              snap=out/"36p-browser-image-v2-no-overlay.png"
               img.screenshot(path=str(snap),timeout=25000)
               image=Image.open(snap).convert("RGB")
               pixels=list(image.getdata())
               dark=sum(1 for r,g,b in pixels if min(r,g,b)<125)
               dark_ratio=dark/len(pixels)
+              corner_colors=[image.getpixel(pt) for pt in [(5,5),(image.width-6,5),(5,image.height-6),(image.width-6,image.height-6)]]
+              assert all(min(rgb)>=235 for rgb in corner_colors),f"Consent overlay/obstruction still present: {corner_colors}"
               assert dark_ratio>.04,f"Image rendered blank or almost blank: dark ratio {dark_ratio}"
-              state.update({"page_status":response.status,"dark_pixel_ratio":round(dark_ratio,5),"screenshot_size":image.size,"browser_executable":executable or "playwright-chromium"})
-              (out/"live-check-v2.json").write_text(json.dumps(state,indent=2),encoding="utf-8")
+              state.update({"page_status":response.status,"dark_pixel_ratio":round(dark_ratio,5),"screenshot_size":image.size,"cookie_consent_clicked":consent_clicked,"corner_colors":corner_colors,"browser_executable":executable or "playwright-chromium"})
+              (out/"live-check-v2-no-overlay.json").write_text(json.dumps(state,indent=2),encoding="utf-8")
               print("LIVE_36P_IMAGE_VERIFIED",json.dumps(state,indent=2))
               browser.close()
           PY
