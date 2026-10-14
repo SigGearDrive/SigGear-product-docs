@@ -85,13 +85,14 @@ platforms:
     channel_type: B2B_marketplace_product_discovery_and_RFQ
     priority: P2
     commercial_model: exhibitor_subscription_sales_quote
-    current_status: four_listing_launch_copy_and_official_exhibitor_enquiry_prepared_submission_pending
+    current_status: official_exhibitor_enquiry_submitted_automatic_acknowledgement_received_waiting_consultant
     ready:
       - 12_family_product_data
       - four_initial_product_drafts_10p_20p_32p_42p
       - four_verified_real_product_image_references
       - directindustry_first_batch_publication_pack
       - official_manufacturer_enquiry_text
+      - automatic_DirectIndustry_submission_receipt_received_2026_10_14
       - model_specific_directindustry_UTM_urls
       - product_urls
       - engineering_documents
@@ -99,7 +100,7 @@ platforms:
       - official_sales_contact
       - official_logo
     pending_siggear:
-      - submit_official_exhibitor_enquiry_with_real_phone_number
+      - await_DirectIndustry_consultant_reply_and_written_quote
       - obtain_internal_approval_for_subscription_after_quote
       - provide_high_resolution_real_product_photo_originals_for_first_4_models
       - engineering_check_si_torque_fields_and_stage_specific_model_selection
@@ -109,12 +110,20 @@ platforms:
       - category_and_listing_setup
       - confirm_product_pdf_external_cad_and_UTM_link_support
       - confirm_RFQ_lead_reporting_and_subscription_contract_terms
+    enquiry_tracking:
+      submission_status: submitted
+      automatic_confirmation_received: true
+      confirmed_on: "2026-10-14"
+      provider_receipt_text: "Your request to become an exhibitor on DirectIndustry has been successfully received. One of our consultants will contact you very soon."
+      directindustry_consultant_assigned: pending
+      quote_received: false
+      exhibitor_account_activated: false
     publishing_assets:
       onboarding_brief: data/external-catalogs/platforms/directindustry-onboarding-2026-10-14.md
       first_batch_copy: data/external-catalogs/platforms/directindustry-first-batch-2026-10-14.md
       planned_initial_models: [10P, 20P, 32P, 42P]
       published_on_DirectIndustry: false
-    next_action: submit_official_exhibitor_enquiry_get_written_quote_and_onboard_first_4_with_verified_photos
+    next_action: wait_for_DirectIndustry_consultant_then_request_4_vs_12_product_quote_listing_entitlements_and_lead_report_features
 
   GlobalSpec:
     channel_type: paid_product_discovery_supplier_directory_and_quote_leads
