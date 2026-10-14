@@ -1,5 +1,5 @@
 ---
-title: 24 mm Miniature Planetary Gearbox (24P) | SigGear
+title: 24 mm Miniature Planetary Gearbox (24P)
 description: SigGear 24P is a 24 mm miniature planetary gearbox / gearhead with 3.83:1–759.7:1 published ratios, datasheet, STEP CAD, gearbox-only supply and motor matching.
 ---
 
