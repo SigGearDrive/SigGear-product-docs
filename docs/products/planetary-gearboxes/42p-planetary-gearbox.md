@@ -150,6 +150,8 @@ The link above opens the **42P product detail page** on TraceParts International
 
 ## Related Planetary Gearbox Resources
 
+**Need a smaller compact gearbox envelope?** Compare the [36P 36 mm Compact Planetary Gearbox](36p-planetary-gearbox.md), including its stage-specific body length and shaft loading limits. Do not assume the 36P and 42P share the same output shaft or motor interface.
+
 [8–42 mm Planetary Gearbox Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Browse All Planetary Gearboxes](index.md){ .md-button }
 [Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
