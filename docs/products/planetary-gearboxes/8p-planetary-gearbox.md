@@ -1,6 +1,6 @@
 ---
-title: 8 mm Micro Planetary Gearbox (8P) | SigGear
-description: SigGear 8P is a 8 mm micro planetary gearbox / gearhead with 3.8:1–731.16:1 published ratios, datasheet, STEP CAD, gearbox-only supply and motor matching.
+title: 8 mm Micro Planetary Gearbox (8P)
+description: SigGear 8P: 8 mm micro planetary gearbox with published 1–4 stage ratios and 10.15–18.10 mm body lengths. Compare datasheet, motor interface and 4-stage STEP CAD.
 ---
 
 
