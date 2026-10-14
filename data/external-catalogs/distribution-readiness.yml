@@ -27,7 +27,7 @@ platforms:
       file_geometry_review: not_yet_independently_completed
       source_step_in_repo: present_for_8P_and_42P_not_a_full_geometric_or_download_validity_test
       github_to_traceparts_catalog_links: deployed_12_of_12
-      github_to_traceparts_English_model_links: included_in_pending_PR
+      github_to_traceparts_English_model_links: all_12_model_pages_updated_in_source_2026_10_14
       operator_supplied_English_model_urls: 12_of_12
       exact_model_url_registry: data/external-catalogs/platforms/traceparts-model-urls-2026-10-14.yml
       live_validation_register: data/external-catalogs/platforms/traceparts-live-validation-2026-10-14.yml
