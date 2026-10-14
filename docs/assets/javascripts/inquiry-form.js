@@ -229,6 +229,31 @@
         hasContext = true;
       }
 
+      // Prefill only non-sensitive operating requirements from the selector.
+      if ((params.get("selection") || "") === "ratio_stage_selector") {
+        var inputSpeed = Number(params.get("selector_motor_speed"));
+        var outputSpeed = Number(params.get("selector_output_speed"));
+        var continuousNm = Number(params.get("selector_continuous_nm"));
+        var peakNm = Number(params.get("selector_peak_nm"));
+        if (params.has("selector_motor_speed") && Number.isFinite(inputSpeed) && inputSpeed > 0 && inputSpeed <= 8000) {
+          var motorSpeedField = document.getElementById("sg-motor-speed");
+          if (motorSpeedField && !motorSpeedField.value) motorSpeedField.value = inputSpeed + " rpm (operating)";
+        }
+        if (params.has("selector_output_speed") && Number.isFinite(outputSpeed) && outputSpeed > 0) {
+          var outputField = document.getElementById("sg-output");
+          if (outputField && !outputField.value) outputField.value = outputSpeed + " rpm";
+        }
+        var loads = [];
+        if (params.has("selector_continuous_nm") && Number.isFinite(continuousNm) && continuousNm >= 0)
+          loads.push("Continuous: " + continuousNm + " N·m");
+        if (params.has("selector_peak_nm") && Number.isFinite(peakNm) && peakNm >= 0)
+          loads.push("Peak: " + peakNm + " N·m (duration unverified)");
+        if (loads.length) {
+          var loadField = document.getElementById("sg-load");
+          if (loadField && !loadField.value) loadField.value = loads.join("; ");
+        }
+      }
+
       var queryNextStep = (params.get("next_step") || "").toLowerCase();
       if (queryNextStep === "cad_review" && nextStep) {
         nextStep.value = "CAD / STEP review";
