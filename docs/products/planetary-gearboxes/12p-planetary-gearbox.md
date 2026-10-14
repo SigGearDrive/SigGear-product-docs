@@ -1,5 +1,5 @@
 ---
-title: 12 mm Micro Planetary Gearbox (12P) | SigGear
+title: 12 mm Micro Planetary Gearbox (12P)
 description: SigGear 12P is a 12 mm micro planetary gearbox / gearhead with 3.5:1–509.1:1 published ratios, datasheet, STEP CAD, gearbox-only supply and motor matching.
 ---
 
