@@ -139,6 +139,8 @@ The link above opens the **10P product detail page** on TraceParts International
 
 ## Related Planetary Gearbox Resources
 
+**Comparing nearby micro sizes?** The [8P 8 mm Micro Planetary Gearbox](8p-planetary-gearbox.md) and [12P 12 mm Micro Planetary Gearbox](12p-planetary-gearbox.md) have their own stage lengths, motor interfaces and allowable torque tables. Choosing a diameter does not make their output shafts or mounting patterns interchangeable.
+
 [8–42 mm Planetary Gearbox Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Browse All Planetary Gearboxes](index.md){ .md-button }
 [Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
