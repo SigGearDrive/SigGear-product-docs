@@ -17,6 +17,7 @@ on:
       - "scripts/export_3dfindit_onboarding.py"
       - "scripts/validate_utm_links.py"
       - "scripts/validate_ratio_stage_selector_data.py"
+      - "scripts/test_planetary_selector_v2.js"
       - "scripts/validate_stage_specific_cad_boundary.py"
       - "scripts/validate_controlled_cad_readiness.py"
       - "scripts/validate_sample_validation_handoff.py"
@@ -124,6 +125,9 @@ jobs:
 
       - name: Validate ratio-stage selector JavaScript syntax
         run: node --check docs/assets/javascripts/ratio-stage-selector.js
+
+      - name: Test planetary engineering selector behaviors
+        run: node scripts/test_planetary_selector_v2.js
 
       - name: Validate inquiry-form JavaScript syntax
         run: node --check docs/assets/javascripts/inquiry-form.js
