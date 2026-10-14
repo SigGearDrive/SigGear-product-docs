@@ -40,9 +40,9 @@ jobs:
               img.wait_for(state="visible",timeout=25000)
               page.wait_for_function("""() => { const e = document.querySelector('article img[alt*="36P"]'); return !!e && e.complete && e.naturalWidth > 0 && e.naturalHeight > 0; }""",timeout=35000)
               state=img.evaluate("""el=>({src:el.src,complete:el.complete,naturalWidth:el.naturalWidth,naturalHeight:el.naturalHeight,renderedWidth:el.getBoundingClientRect().width,renderedHeight:el.getBoundingClientRect().height,opacity:getComputedStyle(el).opacity,visibility:getComputedStyle(el).visibility})""")
-              assert "36p-product-photo-20261014.jpg" in state["src"],state
+              assert "36p-product-photo-20261014-v2.jpg" in state["src"],state
               assert state["naturalWidth"]==460 and state["naturalHeight"]==340,state
-              snap=out/"36p-browser-image.png"
+              snap=out/"36p-browser-image-v2.png"
               img.screenshot(path=str(snap),timeout=25000)
               image=Image.open(snap).convert("RGB")
               pixels=list(image.getdata())
@@ -50,7 +50,7 @@ jobs:
               dark_ratio=dark/len(pixels)
               assert dark_ratio>.04,f"Image rendered blank or almost blank: dark ratio {dark_ratio}"
               state.update({"page_status":response.status,"dark_pixel_ratio":round(dark_ratio,5),"screenshot_size":image.size,"browser_executable":executable or "playwright-chromium"})
-              (out/"live-check.json").write_text(json.dumps(state,indent=2),encoding="utf-8")
+              (out/"live-check-v2.json").write_text(json.dumps(state,indent=2),encoding="utf-8")
               print("LIVE_36P_IMAGE_VERIFIED",json.dumps(state,indent=2))
               browser.close()
           PY
@@ -62,6 +62,6 @@ jobs:
           git add traceparts-review/36p-live
           git diff --cached --check
           if ! git diff --cached --quiet; then
-            git commit -m "Record live 36P Chrome screenshot proof"
+            git commit -m "Record new 36P original-image Chrome QA evidence"
             git push origin HEAD:image-prep/traceparts-4-real-photos-20261014
           fi
