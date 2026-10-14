@@ -12,9 +12,11 @@ The SigGear 36P is a 36 mm compact planetary gearbox for compact motorized mecha
 
 ## Real Product Evidence
 
-![Real SigGear 36P 36 mm compact planetary gearbox with diameter check](../../assets/images/products/planetary-gearboxes/36p/36p-real-product-evidence.webp)
+![Real SigGear 36P 36 mm compact planetary gearbox, side view of actual product](../../assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014.jpg){ width="460" height="340" loading="eager" }
 
-*Real 36P frame-size product photographed from multiple angles. The caliper photo is a visual diameter reference for the photographed sample and does not replace the controlled dimensional drawing or released tolerances for a confirmed configuration.*
+*Real SigGear 36P gearbox sample, side-view photograph showing the housing and output shaft. This image is a visual reference; verify final dimensions and tolerances against the confirmed mechanical drawing for the selected configuration.*
+
+[Open the 36P product photo (JPG)](../../assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014.jpg)
 
 ## Product Identity
 
