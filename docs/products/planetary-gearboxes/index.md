@@ -15,6 +15,8 @@ For commercial product comparison, frame-size selection, gearbox-only supply, mo
 [Start Engineering Project Brief](../../request-cad-sample-quote.md){ .md-button }
 [How to Select a Miniature Planetary Gearbox](../../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
 
+[Explore TraceParts International (English) — Filter SIGGEAR](https://www.traceparts.com/en/search/traceparts-classification-mechanical-components-power-transmission?CatalogPath=TRACEPARTS%3ATP01005){ .md-button .md-button--primary }
+
 [Browse SigGear CAD Models on TraceParts (Chinese portal)](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR){ .md-button }
 
 TraceParts' [Chinese-language SigGear catalog](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR) has listed the 12 planetary gearbox frame sizes. The [international English power-transmission supplier index](https://www.traceparts.com/en/search/traceparts-classification-mechanical-components-power-transmission?CatalogPath=TRACEPARTS%3ATP01005) lists **SIGGEAR (12)**. On **2026-10-14**, a SigGear operator confirmed successful **STEP AP203 downloads for all 12 frame sizes on the international English site**. This is an operator download test, not independent CAD geometry validation; each model still needs configuration-specific review before production.
