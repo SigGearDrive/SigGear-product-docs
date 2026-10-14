@@ -124,6 +124,12 @@ The Datasheet consolidates the currently published stage, ratio, torque, efficie
 
 A detailed full-assembly STEP is held as configuration-controlled engineering CAD and is supplied after model / stage / motor-interface review. The raw assembly is not published as a public download because it contains internal planetary transmission geometry.
 
+## TraceParts CAD Discovery
+
+[Browse SigGear's TraceParts Catalog — Find 24P (Chinese Portal)](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR){ .md-button }
+
+This link opens the **SigGear catalog**, not a verified direct 24P product or CAD-download link. Find the 24P family in the catalog and confirm the selected model before downloading. The individual 24P TraceParts 3D preview and CAD download have not yet been independently verified. For immediate preliminary packaging review, use the simplified **4-stage reference STEP** in the Engineering Resources section; request stage- and ratio-matched controlled CAD before design freeze.
+
 ## Related Planetary Gearbox Resources
 
 [8–42 mm Planetary Gearbox Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
