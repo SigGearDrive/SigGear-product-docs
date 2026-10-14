@@ -28,13 +28,15 @@
   function torqueDisplay(value) {
     return torqueUnit() === "nm" ? fmt(value * KGF_CM_TO_NM, 3) + " N·m" : fmt(value, 2) + " kgf·cm";
   }
-  function selectionParams(item, motorSpeed, outputSpeed, continuous, peak) {
+  function selectionParams(item, motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength) {
     var params = "&selection=ratio_stage_selector&candidate_stage=" +
       encodeURIComponent(item.stage) + "&candidate_ratio=" + encodeURIComponent(item.ratio);
     if (motorSpeed !== null) params += "&selector_motor_speed=" + encodeURIComponent(motorSpeed);
     if (outputSpeed !== null) params += "&selector_output_speed=" + encodeURIComponent(outputSpeed);
     if (continuous !== null) params += "&selector_continuous_nm=" + encodeURIComponent((continuous * KGF_CM_TO_NM).toFixed(5));
     if (peak !== null) params += "&selector_peak_nm=" + encodeURIComponent((peak * KGF_CM_TO_NM).toFixed(5));
+    if (maxDiameter !== null && maxDiameter > 0) params += "&selector_max_diameter=" + encodeURIComponent(maxDiameter);
+    if (maxLength !== null && maxLength > 0) params += "&selector_max_gearbox_length=" + encodeURIComponent(maxLength);
     return params;
   }
   function numberValue(id) {
@@ -91,6 +93,24 @@
       "<span>" + candidateLink(item, item.model + " · " + item.stage + "-stage · " + fmt(item.ratio, 2) + ":1") + "</span>" +
       "<small>" + esc(detail) + "</small>" +
       "</div>";
+  }
+
+  var unitInput = document.getElementById("sg-selector-torque-unit");
+  if (unitInput) {
+    var previousUnit = torqueUnit();
+    unitInput.addEventListener("change", function () {
+      var newUnit = torqueUnit();
+      if (previousUnit === newUnit) return;
+      ["sg-selector-torque", "sg-selector-peak-torque"].forEach(function (id) {
+        var input = document.getElementById(id);
+        if (!input || !input.value.trim()) return;
+        var value = Number(input.value);
+        if (!Number.isFinite(value) || value < 0) return;
+        var converted = newUnit === "nm" ? value * KGF_CM_TO_NM : value / KGF_CM_TO_NM;
+        input.value = String(Number(converted.toPrecision(9)));
+      });
+      previousUnit = newUnit;
+    });
   }
 
   form.addEventListener("submit", async function (event) {
@@ -314,7 +334,7 @@
         "&ratio=" + encodeURIComponent(item.ratio) + "\">Design-In pack</a><br>" +
         "<a href=\"../../request-cad-sample-quote/?model=" +
         encodeURIComponent(item.model) +
-        selectionParams(item, motorSpeed, outputSpeed, requiredTorque, peakTorque) + "\">Project brief</a></td>" +
+        selectionParams(item, motorSpeed, outputSpeed, requiredTorque, peakTorque, maxDiameter, maxLength) + "\">Project brief</a></td>" +
         "</tr>";
     }).join("");
 
@@ -349,7 +369,7 @@
         "&ratio=" + encodeURIComponent(item.ratio) + "\">Design-In pack</a><br>" +
         "<a href=\"../../request-cad-sample-quote/?model=" +
         encodeURIComponent(item.model) +
-        selectionParams(item, motorSpeed, outputSpeed, requiredTorque, peakTorque) + "\">Project brief</a></td>" +
+        selectionParams(item, motorSpeed, outputSpeed, requiredTorque, peakTorque, maxDiameter, maxLength) + "\">Project brief</a></td>" +
         "</tr>";
     }).join("");
 
