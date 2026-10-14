@@ -1,0 +1,45 @@
+schema_version: 1
+checked_on: "2026-10-14"
+platform: TraceParts
+goal: measure_engineering_discovery_CAD_design_in_and_qualified_inquiries
+data_sources:
+  ga4:
+    connector: windsor_ai_googleanalytics4
+    property_id: "547548249"
+    property_name: SigGear Product Documentation
+    window_start: "2026-09-17"
+    window_end: "2026-10-14"
+    requested_dimensions:
+      - session_source_medium
+      - session_manual_source
+      - session_manual_campaign_name
+      - sessions
+      - engaged_sessions
+      - landing_page
+    observed_sessions_all_sources: 6
+    observed_sessions_with_traceparts_source: 0
+    traceparts_backlink_utm_verified: false
+    note: "No observed TraceParts session in this limited period does not prove absence of published links, traffic, or CAD downloads. GA4 session counts are not TraceParts-native CAD-download metrics."
+  traceparts_analytics:
+    connected_to_this_assistant: false
+    download_leads_observed: null
+    historical_operator_qa: all_12_STEP_AP203_files_downloaded_successfully_on_English_site
+    status: ask_vendor_for_CAD_download_and_lead_reporting_access_under_current_plan
+    official_documentation: https://developers.traceparts.com/docs/get-the-leads
+  traceparts_product_publisher:
+    product_website_document_urls_live: not_verified
+    current_English_product_title_alignment: pending_vendor_qa
+    rfq_button_enabled: not_verified
+    exact_model_URLs_received_from_operator: 12
+    correct_model_to_model_GitHub_crosslinks: deployed_on_GitHub
+tracking_policy:
+  utm_source: traceparts
+  utm_medium: referral
+  utm_campaign: cad_listing
+  utm_content_pattern: "{model_lower}_product_page"
+next_actions:
+  - verify_publisher_technical_website_links_are_visible_on_English_TraceParts_model_pages
+  - verify_one_click_retains_utm_parameters_in_GitHub_landing_URL
+  - check_GA4_session_source_medium_and_manual_source_after_real_external_click
+  - request_TraceParts_Analytics_download_reporting_and_RFQ_option_availability
+  - record_first_real_qualified_inquiry_source_separately_from_test_clicks

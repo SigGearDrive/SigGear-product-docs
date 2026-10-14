@@ -53,3 +53,12 @@ The SigGear operator successfully generated/downloaded all 12 series STEP AP203 
 - [12-model CAD validation register](traceparts-live-validation-2026-10-14.yml)
 
 All 12 model-specific `traceparts.com/en/product/...` URLs were provided directly by the SigGear operator on 2026-10-14 and recorded in [the English model URL registry](traceparts-model-urls-2026-10-14.yml). Existing `Product` identifiers and `PartNumber` values are preserved without inventing slugs. The operator confirmed all 12 STEP AP203 downloads; independent CAD geometry validation and TraceParts Publisher title alignment remain separate tasks.
+
+## 2026-10-14 TraceParts Publisher / sales conversion follow-up
+
+The GitHub → TraceParts direct product link path is deployed for all 12 models, but TraceParts → GitHub website links, published product-title segmentation, and native lead/RFQ visibility still need platform-specific confirmation.
+
+- [Ready-to-send Publisher update request with all 12 existing TraceParts Product IDs, English titles, and model-specific UTM URLs](traceparts-publisher-update-request-2026-10-14.md)
+- [GA4 referral baseline and pending TraceParts native Analytics QA](traceparts-attribution-baseline-2026-10-14.yml)
+
+Do not report UTM tracking, RFQ, or catalog download leads as verified until the actual TraceParts Publisher / Analytics backend is checked. Merely having the correct tracked URLs in the GitHub mapping exporter does not prove that they are published on TraceParts.
