@@ -18,6 +18,8 @@
 | GA4 sessions (whole site) | 2 | 1 | Too small to infer a conversion rate. |
 | GA4 engaged sessions | 1 | 1 | GA4's engaged-session rules apply; not an inquiry. |
 
+**Source-revision note:** the existing `data/sales/weekly-attribution-review-sop.yml` was captured earlier with **31** impressions for 2026-10-05–11. The **2026-10-14** Search Console connector refresh returned **32** impressions for the same calendar week. This report preserves the latest observed value without rewriting the earlier baseline; Google Search Console can revise recent rows.
+
 **Data connector & accounts:** Windsor.ai `searchconsole`: `https://siggeardrive.github.io/SigGear-product-docs/`; `youtube`: `51467`; `googleanalytics4`: property `547548249` (SigGear Product Documentation). Dates requested explicitly by channel. The latest displayed Search Console/YouTube daily records currently end on 2026-10-11. Data may be revised or delayed by source. The 2026-10-12 to 2026-10-14 activity is therefore not included in the completed-week numerical comparison.
 
 ## 2. Five-channel operational scorecard
