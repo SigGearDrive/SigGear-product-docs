@@ -11,6 +11,7 @@ No pricing, ratings, reviews, or unpublished technical values are invented.
 from __future__ import annotations
 
 import json
+import re
 import subprocess
 from datetime import datetime, timezone
 from html import escape as html_escape
@@ -87,8 +88,37 @@ def _absolute(config, relative: str) -> str:
     return urljoin(base, relative)
 
 
+def _planetary_model_source_metadata(page) -> dict:
+    """Read the canonical product's published Markdown metadata.
+
+    MkDocs navigation labels such as "10P (10 mm)" can shadow the
+    longer title and description in frontmatter during page rendering.
+    For the 12 published planetary model pages only, use that exact
+    source metadata rather than a generic site-description fallback.
+    """
+    src = page.file.src_uri.replace("\\", "/")
+    product = _product_by_src.get(src)
+    if not product or product.get("product_family") != "planetary_gearbox":
+        return {}
+
+    source = DOCS_DIR / src
+    if not source.is_file():
+        return {}
+    raw = source.read_text(encoding="utf-8")
+    if not raw.startswith("---\n"):
+        return {}
+    yaml_text, marker, _ = raw[4:].partition("\n---\n")
+    if not marker:
+        return {}
+    metadata = yaml.safe_load(yaml_text) or {}
+    return metadata if isinstance(metadata, dict) else {}
+
+
 def _page_title(page) -> str:
-    meta_title = page.meta.get("title") if getattr(page, "meta", None) else None
+    source_metadata = _planetary_model_source_metadata(page)
+    meta_title = source_metadata.get("title")
+    if not meta_title:
+        meta_title = page.meta.get("title") if getattr(page, "meta", None) else None
     return str(meta_title or page.title or "").split(" | ")[0].strip()
 
 
@@ -275,7 +305,10 @@ def _model_page_schema(page, config) -> dict | None:
         "mainEntity": model,
     }
 
-    description = page.meta.get("description") if getattr(page, "meta", None) else None
+    source_metadata = _planetary_model_source_metadata(page)
+    description = source_metadata.get("description")
+    if not description:
+        description = page.meta.get("description") if getattr(page, "meta", None) else None
     if description:
         item_page["description"] = str(description)
         model["description"] = str(description)
@@ -357,8 +390,37 @@ def _json_script(schema: dict, marker: str) -> str:
     )
 
 
+def _restore_planetary_model_head(output: str, page, config) -> str:
+    """Ensure model-specific source SEO fields appear in published HTML.
+
+    This changes the generated <title> and description only; navigation,
+    canonical URLs, source specs, product file paths and CAD stay intact.
+    """
+    metadata = _planetary_model_source_metadata(page)
+    if not metadata:
+        return output
+
+    title = str(metadata.get("title") or "").strip()
+    description = str(metadata.get("description") or "").strip()
+    if title:
+        complete_title = f"{title} - {config['site_name']}"
+        title_tag = f"<title>{html_escape(complete_title, quote=False)}</title>"
+        output = re.sub(r"<title>[^<]*</title>", lambda _: title_tag, output, count=1)
+
+    if description:
+        description_tag = f'<meta name="description" content="{html_escape(description, quote=True)}">'
+        output = re.sub(
+            r'<meta\s+name="description"\s+content="[^"]*"\s*/?>',
+            lambda _: description_tag,
+            output,
+            count=1,
+        )
+    return output
+
+
 def on_post_page(output: str, page, config, **kwargs) -> str:
     _load_products()
+    output = _restore_planetary_model_head(output, page, config)
 
     blocks = []
     breadcrumb = _breadcrumbs(page, config)
