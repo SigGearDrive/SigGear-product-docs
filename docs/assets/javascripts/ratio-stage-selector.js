@@ -17,6 +17,26 @@
       return payload.models;
     });
 
+  var KGF_CM_TO_NM = 0.0980665;
+  function torqueUnit() {
+    var input = document.getElementById("sg-selector-torque-unit");
+    return input && input.value === "kgfcm" ? "kgfcm" : "nm";
+  }
+  function toPublishedTorque(value) {
+    return value === null ? null : (torqueUnit() === "nm" ? value / KGF_CM_TO_NM : value);
+  }
+  function torqueDisplay(value) {
+    return torqueUnit() === "nm" ? fmt(value * KGF_CM_TO_NM, 3) + " N·m" : fmt(value, 2) + " kgf·cm";
+  }
+  function selectionParams(item, motorSpeed, outputSpeed, continuous, peak) {
+    var params = "&selection=ratio_stage_selector&candidate_stage=" +
+      encodeURIComponent(item.stage) + "&candidate_ratio=" + encodeURIComponent(item.ratio);
+    if (motorSpeed !== null) params += "&selector_motor_speed=" + encodeURIComponent(motorSpeed);
+    if (outputSpeed !== null) params += "&selector_output_speed=" + encodeURIComponent(outputSpeed);
+    if (continuous !== null) params += "&selector_continuous_nm=" + encodeURIComponent((continuous * KGF_CM_TO_NM).toFixed(5));
+    if (peak !== null) params += "&selector_peak_nm=" + encodeURIComponent((peak * KGF_CM_TO_NM).toFixed(5));
+    return params;
+  }
   function numberValue(id) {
     var el = document.getElementById(id);
     if (!el || !el.value.trim()) return null;
@@ -89,7 +109,10 @@
     var outputSpeed = numberValue("sg-selector-output-speed");
     var maxDiameter = numberValue("sg-selector-diameter");
     var maxLength = numberValue("sg-selector-length");
-    var requiredTorque = numberValue("sg-selector-torque");
+    var requiredTorqueInput = numberValue("sg-selector-torque");
+    var peakTorqueInput = numberValue("sg-selector-peak-torque");
+    var requiredTorque = toPublishedTorque(requiredTorqueInput);
+    var peakTorque = toPublishedTorque(peakTorqueInput);
     var maxRatioDiff = numberValue("sg-selector-ratio-tolerance");
 
     if (!motorSpeed || motorSpeed <= 0 || !outputSpeed || outputSpeed <= 0) {
@@ -98,6 +121,18 @@
       return;
     }
 
+    if (motorSpeed > 8000) {
+      summary.textContent = "Input speed exceeds the published 8,000 rpm continuous permissible speed for these standard gearboxes. Request engineering review.";
+      results.innerHTML = "";
+      return;
+    }
+    if ((requiredTorque !== null && requiredTorque < 0) ||
+        (peakTorque !== null && peakTorque < 0) ||
+        (requiredTorque !== null && peakTorque !== null && peakTorque < requiredTorque)) {
+      summary.textContent = "Torque values must be non-negative, and peak torque must not be lower than continuous torque.";
+      results.innerHTML = "";
+      return;
+    }
     var targetRatio = motorSpeed / outputSpeed;
     var ratioToleranceActive = maxRatioDiff !== null && maxRatioDiff >= 0;
     var candidates = [];
@@ -136,8 +171,15 @@
         return;
       }
 
+      var peakEligible = torqueEligible.filter(function (stage) {
+        return peakTorque === null || stage.momentary >= peakTorque;
+      });
+      if (!peakEligible.length) {
+        exclusions.push({model: gearbox.model, reason: "No remaining stage meets requested peak torque against published momentary limits; peak duration and frequency require review."});
+        return;
+      }
       var frameCandidates = [];
-      torqueEligible.forEach(function (stage) {
+      peakEligible.forEach(function (stage) {
         stage.ratios.forEach(function (ratio) {
           var predictedOutput = motorSpeed / ratio;
           var errorPct = Math.abs(ratio - targetRatio) / targetRatio * 100;
@@ -186,6 +228,9 @@
       (ratioToleranceActive ?
         "A maximum ratio difference of " + fmt(maxRatioDiff, 2) + "% is active. " :
         "No maximum ratio-difference filter is active. ") +
+      "Continuous torque is checked against published rated limits" +
+      (requiredTorque !== null ? " (" + torqueDisplay(requiredTorque) + ")" : "") + ". " +
+      (peakTorque !== null ? "Peak torque uses published momentary limits (" + torqueDisplay(peakTorque) + "); duration and frequency remain unverified. " : "") +
       "No safety factor or final motor compatibility has been assumed.";
 
     if (!candidates.length) {
@@ -259,7 +304,7 @@
         "<td>" + fmt(item.ratio, 2) + ":1</td>" +
         "<td>" + fmt(item.errorPct, 2) + "%</td>" +
         "<td>" + fmt(item.length, 2) + " mm</td>" +
-        "<td>" + fmt(item.rated, 2) + " kgf·cm</td>" +
+        "<td>" + torqueDisplay(item.rated) + "</td>" +
         "<td>" + fmt(item.efficiency, 0) + "%</td>" +
         "<td>" + (signals.length ? esc(signals.join(" · ")) : "Candidate") + "</td>" +
         "<td><a href=\"../../engineering-resources/" + slug + "/datasheet/\">Datasheet</a><br>" +
@@ -269,7 +314,7 @@
         "&ratio=" + encodeURIComponent(item.ratio) + "\">Design-In pack</a><br>" +
         "<a href=\"../../request-cad-sample-quote/?model=" + encodeURIComponent(item.model) +
         "&selection=ratio_stage_selector&candidate_stage=" + encodeURIComponent(item.stage) +
-        "&candidate_ratio=" + encodeURIComponent(item.ratio) + "\">Project brief</a></td>" +
+        " + selectionParams(item, motorSpeed, outputSpeed, requiredTorque, peakTorque) + "\">Project brief</a></td>" +
         "</tr>";
     }).join("");
 
@@ -296,7 +341,7 @@
         "<td>" + fmt(item.predictedOutput, 2) + " rpm</td>" +
         "<td>" + fmt(item.errorPct, 2) + "%</td>" +
         "<td>" + fmt(item.length, 2) + " mm</td>" +
-        "<td>" + fmt(item.rated, 2) + " kgf·cm</td>" +
+        "<td>" + torqueDisplay(item.rated) + "</td>" +
         "<td>" + fmt(item.efficiency, 0) + "%</td>" +
         "<td><a href=\"../../engineering-resources/" + slug + "/datasheet/\">Datasheet</a><br>" +
         "<a href=\"../../engineering-resources/planetary-gearboxes/candidate-design-in-pack/?model=" +
@@ -304,7 +349,7 @@
         "&ratio=" + encodeURIComponent(item.ratio) + "\">Design-In pack</a><br>" +
         "<a href=\"../../request-cad-sample-quote/?model=" + encodeURIComponent(item.model) +
         "&selection=ratio_stage_selector&candidate_stage=" + encodeURIComponent(item.stage) +
-        "&candidate_ratio=" + encodeURIComponent(item.ratio) + "\">Project brief</a></td>" +
+        " + selectionParams(item, motorSpeed, outputSpeed, requiredTorque, peakTorque) + "\">Project brief</a></td>" +
         "</tr>";
     }).join("");
 
