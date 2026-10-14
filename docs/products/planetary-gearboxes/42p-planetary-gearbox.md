@@ -143,10 +143,10 @@ A simplified public **4-stage 42P STEP is now released** for early mechanical pa
 
 ## TraceParts CAD Discovery
 
-[Explore TraceParts International (English) — Filter SIGGEAR](https://www.traceparts.com/en/search/traceparts-classification-mechanical-components-power-transmission?CatalogPath=TRACEPARTS%3ATP01005){ .md-button .md-button--primary }
+[View 42P 3D CAD on TraceParts (English)](https://www.traceparts.com/en/product/siggear-42p-42-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769190-121069&PartNumber=42p){ .md-button .md-button--primary }
 [Browse SigGear Catalog (Chinese Portal)](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR){ .md-button }
 
-These are **catalog/category browsing entrances**, not a verified direct 42P product URL. On the international English site, filter supplier **SIGGEAR** and select 42P. A SigGear operator confirmed the 42P **STEP AP203 download on 2026-10-14**. File download success does not independently confirm geometry or stage/ratio matching: public CAD is a simplified **4-stage reference**; request controlled configuration-matched CAD before design freeze.
+The link above opens the **42P product detail page** on TraceParts International, using the exact address provided by the SigGear operator. STEP AP203 generation and download for this model were confirmed on **2026-10-14**. The Chinese catalog link is provided as an alternative browsing route. Public CAD is a **simplified 4-stage reference**; check stage, ratio and interfaces before production design, and request controlled configuration-matched CAD if required.
 
 ## Related Planetary Gearbox Resources
 
