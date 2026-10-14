@@ -62,3 +62,14 @@ The GitHub → TraceParts direct product link path is deployed for all 12 models
 - [GA4 referral baseline and pending TraceParts native Analytics QA](traceparts-attribution-baseline-2026-10-14.yml)
 
 Do not report UTM tracking, RFQ, or catalog download leads as verified until the actual TraceParts Publisher / Analytics backend is checked. Merely having the correct tracked URLs in the GitHub mapping exporter does not prove that they are published on TraceParts.
+
+## DirectIndustry manufacturer onboarding (2026-10-14)
+
+SigGear's DirectIndustry launch materials are now prepared but **not submitted or published** on the external platform:
+
+- [DirectIndustry official exhibitor enquiry, manufacturer profile, category strategy, requested terms and launch checklist](directindustry-onboarding-2026-10-14.md)
+- [First batch of four product listing drafts (10P, 20P, 32P, 42P), grounded in published SigGear master data](directindustry-first-batch-2026-10-14.md)
+
+Official DirectIndustry form: https://www.directindustry.com/exhibit_on_directindustry/subscription
+
+Do not create public DirectIndustry product URLs before the platform issues actual ones. The eventual site publication and subscription require SigGear's authorized account owner, real contact phone and written commercial terms.
