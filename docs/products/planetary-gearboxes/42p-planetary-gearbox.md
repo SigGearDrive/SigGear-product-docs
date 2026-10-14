@@ -145,7 +145,7 @@ A simplified public **4-stage 42P STEP is now released** for early mechanical pa
 
 [Browse SigGear's TraceParts Catalog — Find 42P (Chinese Portal)](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR){ .md-button }
 
-This link opens the **SigGear catalog**, not a verified direct 42P product or CAD-download link. Find the 42P family in the catalog and confirm the selected model before downloading. The individual 42P TraceParts 3D preview and CAD download have not yet been independently verified. For immediate preliminary packaging review, use the simplified **4-stage reference STEP** in the Engineering Resources section; request stage- and ratio-matched controlled CAD before design freeze.
+This link opens the **SigGear catalog**, not a verified direct 42P product or CAD-download link. Find the 42P family in the catalog and confirm the selected model before downloading. A 42P TraceParts 3D preview and CAD download were previously checked on the Chinese portal; current international English-page availability and the live download workflow still require separate verification. For immediate preliminary packaging review, use the simplified **4-stage reference STEP** in the Engineering Resources section; request stage- and ratio-matched controlled CAD before design freeze.
 
 ## Related Planetary Gearbox Resources
 
