@@ -31,7 +31,7 @@ For laboratory and diagnostic equipment, the commercial target is usually **the 
 
 If the equipment team already has a motor, SigGear can review the gearbox around the existing motor drawing and loaded speed instead of replacing the complete drive.
 
-[See the 3 Planetary Application Families](../products/planetary-gearboxes/application-families.md){ .md-button }
+[See the 3 Planetary Application Families](planetary-gearbox-application-families.md){ .md-button }
 [Motor + Gearbox Integration](../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
 ## Important Application Boundary
