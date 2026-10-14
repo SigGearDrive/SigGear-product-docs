@@ -10,11 +10,11 @@ description: SigGear 20P is a 20 mm miniature planetary gearbox / gearhead with 
 
 The SigGear 20P is a 20 mm miniature planetary gearbox for compact motorized mechanisms. The published configurations cover one to four stages, with reduction ratios from 4:1 to 1296:1.
 
-![SigGear 20P 20 mm micro planetary gearbox](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-main.webp)
+![SigGear 20P 20 mm miniature planetary gearbox](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-main.webp)
 
 ## Real Product Evidence
 
-![Real SigGear 20P 20 mm micro planetary gearbox with diameter check](../../assets/images/products/planetary-gearboxes/20p/20p-real-product-evidence.webp)
+![Real SigGear 20P 20 mm miniature planetary gearbox with diameter check](../../assets/images/products/planetary-gearboxes/20p/20p-real-product-evidence.webp)
 
 *Real 20P frame-size product photographed from multiple angles. The caliper photo is a visual diameter reference for the photographed sample and does not replace the controlled dimensional drawing or released tolerances for a confirmed configuration.*
 
