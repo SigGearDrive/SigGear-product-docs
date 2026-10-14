@@ -30,6 +30,20 @@ The approximate ratio may be estimated from **motor operating speed / target gea
 
 Public simplified STEP files represent **4-stage reference geometry only**. Confirm the actual ratio, stage length and mechanical interface with a configuration-specific drawing. This guide covers **potential uses**; it does not claim validated SigGear customer installations.
 
+## Candidate Frame Orientation for Smart Curtain and Blind OEMs
+
+Use this table only to narrow the first mechanical review. Actual selection depends on loaded motor speed, ratio, curtain / blind mechanics, current limit, noise target and duty cycle.
+
+| Starting frame group | Typical mechanism direction | First engineering checks |
+| --- | --- | --- |
+| **16P-20P** | slim curtain-track drives, blind tilt mechanisms and compact battery-operated mechanisms | installation diameter, low-noise target, motor speed and available length |
+| **20P-28P** | curtain tracks, roller blinds, shades, compact window / vent mechanisms and higher-load smart-home actuators | start-up torque, holding behavior, pulley / tube geometry, current and cycle life |
+| **32P+** | larger window, skylight or compact building mechanisms only when load requires the larger frame | output load, wind / seal force, duty cycle, shock / stall behavior and packaging |
+
+The commercial goal is not to force one standard gearbox into every curtain product. For OEM projects, SigGear can review **gearbox-only matching around the customer's existing motor**, including input interface, ratio, output shaft and mounting adaptation.
+
+[See the 3 Planetary Application Families](../products/planetary-gearboxes/application-families.md){ .md-button }
+
 ## Important Application Boundary
 
 Curtain, blind and window opener devices interact with building structures, moving fabric, ropes, rails, glass panels, user access areas and outdoor conditions. This page provides preliminary actuator-selection guidance only.
