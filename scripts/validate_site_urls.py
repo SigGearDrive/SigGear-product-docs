@@ -175,10 +175,21 @@ def check_structured_data() -> None:
 
 
 def check_planetary_real_image_seo() -> None:
-    family_image = (
+    representative_image = (
         EXPECTED_BASE
-        + "assets/images/evidence/planetary/8-42mm-planetary-gearbox-family-real.webp"
+        + "assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014.jpg"
     )
+    real_model_images = [
+        "assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-main.webp",
+        "assets/images/products/planetary-gearboxes/20p/20p-real-product-evidence.webp",
+        "assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014.jpg",
+    ]
+    for photo in real_model_images:
+        asset = SITE_DIR / photo
+        if not asset.is_file():
+            fail(f"Representative real product photo missing from output: {photo}")
+        if asset.stat().st_size < 12000:
+            fail(f"Representative photo is suspiciously small / overcompressed: {photo}")
     family_targets = [
         ("index.html", None),
         ("products/planetary-gearboxes/8-42mm-planetary-gear-reducer/index.html", "CollectionPage"),
@@ -189,15 +200,22 @@ def check_planetary_real_image_seo() -> None:
         if not path.is_file():
             fail(f"Real-image SEO test page missing: {relative}")
         html = path.read_text(encoding="utf-8")
-        if f'<meta property="og:image" content="{family_image}">' not in html:
-            fail(f"Real family image missing from og:image on {relative}")
-        if f'<meta name="twitter:image" content="{family_image}">' not in html:
-            fail(f"Real family image missing from twitter:image on {relative}")
+        if "8-42mm-planetary-gearbox-family-real.webp" in html:
+            fail(f"Previously blurred 9 KB lineup is still used on {relative}")
+        if 'class="siggear-planetary-photo-grid"' not in html:
+            fail(f"Responsive real-product photo gallery missing on {relative}")
+        for photo in real_model_images:
+            if f'/SigGear-product-docs/{photo}' not in html:
+                fail(f"Required model photo missing from {relative}: {photo}")
+        if f'<meta property="og:image" content="{representative_image}">' not in html:
+            fail(f"Representative product image missing from og:image on {relative}")
+        if f'<meta name="twitter:image" content="{representative_image}">' not in html:
+            fail(f"Representative product image missing from twitter:image on {relative}")
         if schema_type:
             blocks = _json_ld_blocks(html)
             block = next((b for b in blocks if b.get("@type") == schema_type), None)
-            if block is None or family_image not in json.dumps(block, ensure_ascii=False):
-                fail(f"Real family image missing from {schema_type} JSON-LD on {relative}")
+            if block is None or representative_image not in json.dumps(block, ensure_ascii=False):
+                fail(f"Representative product image missing from {schema_type} JSON-LD on {relative}")
 
     for model in PLANETARY_MODELS:
         slug = model.lower()
