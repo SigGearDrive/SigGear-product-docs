@@ -2,7 +2,7 @@ schema_version: 1
 record_id: 42p-planetary-gearbox
 record_type: model
 model: 42P
-display_name: 42P 42 mm Micro Planetary Gearbox
+display_name: 42P 42 mm Compact Planetary Gearbox
 product_family: planetary_gearbox
 canonical_page: docs/products/planetary-gearboxes/42p-planetary-gearbox.md
 public_page_status: published
