@@ -10,13 +10,9 @@ description: SigGear 8P is a 8 mm micro planetary gearbox / gearhead with 3.8:1�
 
 The SigGear 8P is an 8 mm micro planetary gearbox for compact motorized mechanisms. The published configurations cover one to four stages, with reduction ratios from 3.8:1 to 731.16:1.
 
-![SigGear 8P 8 mm micro planetary gearbox](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-main.webp)
+![SigGear 8P 8 mm micro planetary gearbox — product photo](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-main.webp)
 
-## Real Product Evidence
-
-![Real SigGear 8P 8 mm micro planetary gearbox with diameter check](../../assets/images/products/planetary-gearboxes/8p/8p-real-product-evidence.webp)
-
-*Real 8P frame-size product photographed from multiple angles. The caliper photo is a visual diameter reference for the photographed sample and does not replace the controlled dimensional drawing or released tolerances for a confirmed configuration.*
+*8P product overview. The photographed gearbox is shown for identification; final configuration dimensions and tolerances are controlled by the approved drawing.*
 
 ## Product Identity
 
@@ -55,7 +51,6 @@ Torque values are preserved in the source unit, kgf·cm. Maximum momentary torqu
 | 3 | 15.45 mm | 54.9 / 65 / 75.1 / 76.95 / 88.9 / 91.1 / 102.75 / 105.3 / 121.7 / 140.6 | 0.3 kgf·cm | 0.6 kgf·cm | 73% |
 | 4 | 18.10 mm | 208.5 / 246.9 / 285.3 / 292.4 / 337.9 / 346.3 / 390.46 / 400.14 / 410.1 / 462.4 / 473.85 / 534.3 / 547.56 / 632.74 / 731.16 | 0.4 kgf·cm | 0.8 kgf·cm | 66% |
 
-![8P planetary gearbox structure and published stage-ratio table](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-structure-and-ratios.webp)
 
 ## Shaft and Load Limits
 
@@ -66,7 +61,6 @@ Torque values are preserved in the source unit, kgf·cm. Maximum momentary torqu
 | Radial shaft play | ≤ 0.04 mm |
 | Thrust shaft play | ≤ 0.15 mm |
 
-![8P planetary gearbox mechanical details and operating limits](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-mechanical-details.webp)
 
 ## Motor Compatibility
 
@@ -74,7 +68,6 @@ The source sheet identifies adapted DC motors with a nominal voltage of **3–36
 
 These are adapted-motor conditions, not an electrical voltage or power rating for the mechanical gearbox itself. Confirm the motor shaft, mounting interface, input speed, duty cycle and operating point for the selected gearbox ratio.
 
-![8P gearbox adapted-motor information](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-motor-compatibility.webp)
 
 ## Dimensions and Interface
 
