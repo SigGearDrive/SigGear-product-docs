@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   prepare:
@@ -14,13 +14,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Install Pillow
-        run: python -m pip install Pillow
+        run: python -m pip install Pillow numpy
       - name: Inspect genuine photos and make fixed-size JPGs
         shell: bash
         run: |
           python - <<'PY'
           import os, json, hashlib, zipfile
-          from PIL import Image, ImageOps, ImageDraw
+          from PIL import Image, ImageOps, ImageDraw, ImageFile
+          ImageFile.LOAD_TRUNCATED_IMAGES = True
           from pathlib import Path
           source = {
               '28P': 'docs/assets/images/products/planetary-gearboxes/28p/28p-real-product-evidence.webp',
@@ -63,6 +64,15 @@ jobs:
               canvas.paste(inset,((460-inset.width)//2,(340-inset.height)//2))
               p_out=out/(model.lower()+'.jpg')
               canvas.save(p_out,'JPEG',quality=94,subsampling=0,optimize=True)
+              if model == '36P':
+                  # Existing 36P WebP is missing its final byte; its bottom photo panels also contain visible corruption.
+                  # Replace same public path with an intact, recompressed crop of the genuine upper-right product photo.
+                  canvas.save(p,'WEBP',quality=95,method=6)
+                  fixed=Image.open(p);fixed.load()
+                  assert fixed.size == (460,340) and fixed.format == 'WEBP'
+                  import shutil
+                  shutil.copy2(p_out,'docs/assets/images/products/planetary-gearboxes/36p/36p-traceparts-460x340.jpg')
+                  print('REPAIRED_36P_IMAGE',p,'WEBP',Path(p).stat().st_size)
               check=Image.open(p_out); check.load()
               assert check.size==(460,340) and check.format=='JPEG'
               sha=hashlib.sha256(Path(p).read_bytes()).hexdigest()
@@ -83,6 +93,17 @@ jobs:
               z.write(out/'SOURCE_AND_QA.json','SOURCE_AND_QA.json')
           print(json.dumps(manifest,indent=2))
           PY
+      - name: Commit repaired genuine 36P photo on image-prep branch
+        shell: bash
+        run: |
+          set -eu
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/assets/images/products/planetary-gearboxes/36p/36p-real-product-evidence.webp
+          git add docs/assets/images/products/planetary-gearboxes/36p/36p-traceparts-460x340.jpg
+          git diff --cached --check
+          git commit -m "Repair truncated 36P real product WebP and add TraceParts JPEG"
+          git push origin HEAD:image-prep/traceparts-4-real-photos-20261014
       - uses: actions/upload-artifact@v4
         with:
           name: SigGear-TraceParts-RealPhotos-460x340-JPG
