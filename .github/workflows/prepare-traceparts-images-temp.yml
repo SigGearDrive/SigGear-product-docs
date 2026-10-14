@@ -37,7 +37,10 @@ jobs:
             'A_clean_upper_78':(w//2,0,w,int((h/2)*.78)),
             'B_clean_upper_86':(w//2,0,w,int((h/2)*.86)),
             'C_clean_upper_91':(w//2,0,w,int((h/2)*.91)),
-            'D_inset_upper_86':(int(w*.515),int(h*.025),int(w*.985),int((h/2)*.86))
+            'D_inset_upper_86':(int(w*.515),int(h*.025),int(w*.985),int((h/2)*.86)),
+            'E_left_upper_83':(0,0,w//2,int((h/2)*.83)),
+            'F_left_upper_88':(0,0,w//2,int((h/2)*.88)),
+            'G_left_upper_92':(0,0,w//2,int((h/2)*.92))
           }
           out=Path('traceparts-review/36p');out.mkdir(parents=True,exist_ok=True)
           for n,b in crops.items():
