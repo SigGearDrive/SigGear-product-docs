@@ -24,16 +24,19 @@ jobs:
           ImageFile.LOAD_TRUNCATED_IMAGES = True
           from pathlib import Path
           source = {
-              '28P': 'docs/assets/images/products/planetary-gearboxes/28p/28p-real-product-evidence.webp',
-              '32P': 'docs/assets/images/products/planetary-gearboxes/32p/32p-real-product-main-verified.webp',
               '36P': 'docs/assets/images/products/planetary-gearboxes/36p/36p-real-product-evidence.webp',
-              '42P': 'docs/assets/images/products/planetary-gearboxes/42p/42p-real-product-evidence.webp',
           }
           out = Path('traceparts_460x340')
           out.mkdir()
           manifest=[]
           previews=[]
           for model,p in source.items():
+              if model == '36P':
+                  # Restore the missing RIFF padding byte before decoding the damaged 36P WebP.
+                  data=Path(p).read_bytes()
+                  declared=int.from_bytes(data[4:8],'little')+8
+                  if len(data)==declared-1 and data[:4]==b'RIFF' and data[8:12]==b'WEBP':
+                      Path(p).write_bytes(data+b'\x00')
               im=Image.open(p)
               im.load()
               im=ImageOps.exif_transpose(im).convert('RGB')
@@ -86,9 +89,9 @@ jobs:
               d.text((x+12,y+3),model,fill='#20252a')
               sheet.paste(im,(x+10,y+28))
           sheet.save(out/'_review_contact_sheet.png')
-          zipname='SigGear_TraceParts_28P_32P_36P_42P_460x340_JPG.zip'
+          zipname='SigGear_TraceParts_36P_460x340_JPG.zip'
           with zipfile.ZipFile(zipname,'w',compression=zipfile.ZIP_DEFLATED) as z:
-              for name in [f'{x.lower()}.jpg' for x in ['28P','32P','36P','42P']]:
+              for name in ['36p.jpg']:
                   z.write(out/name,name)
               z.write(out/'SOURCE_AND_QA.json','SOURCE_AND_QA.json')
           print(json.dumps(manifest,indent=2))
