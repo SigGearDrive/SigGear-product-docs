@@ -32,6 +32,8 @@ platforms:
       exact_model_url_registry: data/external-catalogs/platforms/traceparts-model-urls-2026-10-14.yml
       live_validation_register: data/external-catalogs/platforms/traceparts-live-validation-2026-10-14.yml
       publisher_update_request: data/external-catalogs/platforms/traceparts-publisher-update-request-2026-10-14.md
+      publisher_update_request_email: operator_reports_sent_to_TraceParts_staff_2026_10_14
+      publisher_response_status: waiting
       ga4_referral_baseline: data/external-catalogs/platforms/traceparts-attribution-baseline-2026-10-14.yml
       ga4_observed_traceparts_sessions_2026_09_17_to_10_14: 0
       ga4_total_sessions_same_period: 6
@@ -83,22 +85,36 @@ platforms:
     channel_type: B2B_marketplace_product_discovery_and_RFQ
     priority: P2
     commercial_model: exhibitor_subscription_sales_quote
-    current_status: shared_product_data_ready_platform_onboarding_not_started
+    current_status: four_listing_launch_copy_and_official_exhibitor_enquiry_prepared_submission_pending
     ready:
       - 12_family_product_data
+      - four_initial_product_drafts_10p_20p_32p_42p
+      - four_verified_real_product_image_references
+      - directindustry_first_batch_publication_pack
+      - official_manufacturer_enquiry_text
+      - model_specific_directindustry_UTM_urls
       - product_urls
       - engineering_documents
       - public_cad_links
       - official_sales_contact
       - official_logo
     pending_siggear:
-      - expanded_real_product_photos
-      - final_product_listing_priority
+      - submit_official_exhibitor_enquiry_with_real_phone_number
+      - obtain_internal_approval_for_subscription_after_quote
+      - provide_high_resolution_real_product_photo_originals_for_first_4_models
+      - engineering_check_si_torque_fields_and_stage_specific_model_selection
     pending_platform:
       - exhibitor_account
-      - subscription_quote
+      - subscription_quote_for_4_and_12_families
       - category_and_listing_setup
-    next_action: request_exhibitor_quote_and_confirm_plan_for_12_planetary_families
+      - confirm_product_pdf_external_cad_and_UTM_link_support
+      - confirm_RFQ_lead_reporting_and_subscription_contract_terms
+    publishing_assets:
+      onboarding_brief: data/external-catalogs/platforms/directindustry-onboarding-2026-10-14.md
+      first_batch_copy: data/external-catalogs/platforms/directindustry-first-batch-2026-10-14.md
+      planned_initial_models: [10P, 20P, 32P, 42P]
+      published_on_DirectIndustry: false
+    next_action: submit_official_exhibitor_enquiry_get_written_quote_and_onboard_first_4_with_verified_photos
 
   GlobalSpec:
     channel_type: paid_product_discovery_supplier_directory_and_quote_leads
