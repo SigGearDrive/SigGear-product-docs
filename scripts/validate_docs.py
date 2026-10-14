@@ -16,6 +16,7 @@ MKDOCS = ROOT / "mkdocs.yml"
 MODEL_INDEX = DOCS / "knowledge-base" / "product-model-index.md"
 
 LINK_RE = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
+IMAGE_RE = re.compile(r"!\[[^\]]*\]\(([^)]+)\)")
 H1_RE = re.compile(r"^#\s+\S", re.MULTILINE)
 NAV_PATH_RE = re.compile(r"(?:^|:\s+)([A-Za-z0-9_./\u2013-]+\.md)\s*$", re.MULTILINE)
 
@@ -102,6 +103,40 @@ def validate_product_index() -> list[str]:
     return errors
 
 
+
+def validate_key_product_image_files() -> list[str]:
+    """Check that product-page WebP files can be read as complete RIFF containers.
+
+    In particular, a one-character loss in a base64 transfer creates a file
+    that GitHub Pages publishes successfully but browsers cannot decode.
+    """
+    errors: list[str] = []
+    models = ("8p", "32p")
+    for model in models:
+        page = DOCS / "products" / "planetary-gearboxes" / f"{model}-planetary-gearbox.md"
+        text = page.read_text(encoding="utf-8")
+        for raw in IMAGE_RE.findall(text):
+            target = link_target(raw)
+            uri = urlsplit(target)
+            if uri.scheme or not uri.path.lower().endswith(".webp"):
+                continue
+            file = (page.parent / unquote(uri.path)).resolve()
+            if not file.exists():
+                errors.append(f"{page.relative_to(ROOT)}: missing image: {target}")
+                continue
+            data = file.read_bytes()
+            if len(data) < 20 or data[:4] != b"RIFF" or data[8:12] != b"WEBP":
+                errors.append(f"{file.relative_to(ROOT)}: not a valid WebP RIFF container")
+                continue
+            declared = int.from_bytes(data[4:8], "little") + 8
+            if declared != len(data):
+                errors.append(
+                    f"{file.relative_to(ROOT)}: truncated or malformed WebP "
+                    f"(RIFF declares {declared} bytes, actual {len(data)})"
+                )
+    return errors
+
+
 def main() -> int:
     files = markdown_files()
     errors = []
@@ -109,6 +144,7 @@ def main() -> int:
     errors.extend(validate_links(files))
     errors.extend(validate_navigation(files))
     errors.extend(validate_product_index())
+    errors.extend(validate_key_product_image_files())
 
     if errors:
         print("Documentation validation failed:")
