@@ -21,8 +21,11 @@ async function run(input) {
     "sg-selector-torque-unit": input.unit ?? "nm",
     "sg-selector-ratio-tolerance": input.tolerance ?? "5"
   };
+  const changeHandlers = {};
   const elements = Object.fromEntries(Object.entries(ids).map(([key, value]) =>
-    [key, { value: String(value) }]
+    [key, { value: String(value), addEventListener: (event, callback) => {
+      changeHandlers[key + ":" + event] = callback;
+    } }]
   ));
   let submit;
   const form = { addEventListener: (event, handler) => {
@@ -46,10 +49,17 @@ async function run(input) {
   const fetch = async () => ({ok:true, json:async () => data});
   vm.runInNewContext(js, {document, window, URL, fetch, console}, {filename:"ratio-stage-selector.js"});
   assert.equal(typeof submit, "function", "Missing selector submit handler");
+  if (input.switchTo) {
+    elements["sg-selector-torque-unit"].value = input.switchTo;
+    const onchange = changeHandlers["sg-selector-torque-unit:change"];
+    assert.equal(typeof onchange, "function", "Unit conversion handler missing");
+    onchange();
+  }
   await submit({preventDefault() {}});
   return {
     summary: summary.innerHTML || summary.textContent,
-    results: results.innerHTML
+    results: results.innerHTML,
+    fields: elements
   };
 }
 
@@ -61,6 +71,8 @@ async function run(input) {
   assert.match(good.results, /selector_continuous_nm=0\.20000/);
   assert.match(good.results, /selector_peak_nm=0\.40000/);
   assert.match(good.results, /candidate-design-in-pack/);
+  assert.match(good.results, /selector_max_diameter=12/);
+  assert.match(good.results, /selector_max_gearbox_length=18/);
   console.log("PASS 12P 3-stage matching, published rating, and Design-In/inquiry links");
 
   const same = await run({
@@ -69,6 +81,12 @@ async function run(input) {
   assert.match(same.results, /12P/);
   assert.match(same.results, /42\.9:1/);
   console.log("PASS equivalent torque inputs in N-m and kgf-cm");
+
+  const switched = await run({switchTo: "kgfcm"});
+  assert.match(switched.results, /12P/);
+  assert.ok(Math.abs(Number(switched.fields["sg-selector-torque"].value) * 0.0980665 - 0.2) < 1e-6);
+  assert.ok(Math.abs(Number(switched.fields["sg-selector-peak-torque"].value) * 0.0980665 - 0.4) < 1e-6);
+  console.log("PASS unit switch converts existing torque values without silently changing load");
 
   const highSpeed = await run({ motorSpeed: "9000" });
   assert.match(highSpeed.summary, /8,000 rpm/);
