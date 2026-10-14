@@ -2,7 +2,7 @@ schema_version: 1
 record_id: 36p-planetary-gearbox
 record_type: model
 model: 36P
-display_name: 36P 36 mm Micro Planetary Gearbox
+display_name: 36P 36 mm Compact Planetary Gearbox
 product_family: planetary_gearbox
 canonical_page: docs/products/planetary-gearboxes/36p-planetary-gearbox.md
 public_page_status: published
