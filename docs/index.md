@@ -40,7 +40,7 @@ Representative published product images from the **Micro (10P)**, **Miniature (2
   </figure>
   <figure>
     <a href="/SigGear-product-docs/products/planetary-gearboxes/20p-planetary-gearbox/" aria-label="View 20P 20 mm Miniature Planetary Gearbox">
-      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/20p/20p-real-product-evidence.webp" alt="Real SigGear 20P product and diameter reference" width="900" height="625" loading="lazy" decoding="async">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/20p/20p-real-product-side-20261014.webp" alt="Real SigGear 20P 20 mm miniature planetary gearbox, clear side-view photo" width="685" height="363" loading="lazy" decoding="async">
     </a>
     <figcaption><strong>Miniature · 20P (20 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/20p-planetary-gearbox/">View 20P specifications and CAD</a></figcaption>
   </figure>
