@@ -12,7 +12,7 @@ The SigGear 32P is a 32 mm miniature planetary gearbox for compact motorized mec
 
 ## Real Product Photography
 
-![SigGear 32P 32 mm miniature planetary gearbox — actual product photo](../../assets/images/products/planetary-gearboxes/32p/32p-real-product-main.webp)
+![SigGear 32P 32 mm miniature planetary gearbox — actual product photo](../../assets/images/products/planetary-gearboxes/32p/32p-real-product-main-verified.webp)
 
 *Photograph of the 32P gearbox provided by SigGear. For mounting geometry, controlled tolerances and stage-specific lengths, refer to the approved drawing and [32P Design-In Pack](../../engineering-resources/32p/design-in-pack.md).*
 
