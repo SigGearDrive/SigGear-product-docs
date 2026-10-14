@@ -42,7 +42,7 @@ Use this table only to narrow the first mechanical review. Actual selection depe
 
 The commercial goal is not to force one standard gearbox into every curtain product. For OEM projects, SigGear can review **gearbox-only matching around the customer's existing motor**, including input interface, ratio, output shaft and mounting adaptation.
 
-[See the 3 Planetary Application Families](../products/planetary-gearboxes/application-families.md){ .md-button }
+[See the 3 Planetary Application Families](planetary-gearbox-application-families.md){ .md-button }
 
 ## Important Application Boundary
 
