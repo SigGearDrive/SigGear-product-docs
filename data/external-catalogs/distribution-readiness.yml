@@ -22,7 +22,7 @@ platforms:
       historical_chinese_42p_preview_and_download: tested_in_prior_work
       latest_12_model_cad_downloads: user_reported_10_success_2_failed_2026_10_14
       failed_models: [8P, 42P]
-      failed_format_screenshot: 3D_XML_visible_for_42P_STEP_AP203_retry_pending
+      failed_format_screenshot: 3D_XML_initially_visible_for_42P_but_user_confirmed_STEP_also_fails
       source_step_in_repo: present_for_8P_and_42P_not_a_full_geometric_or_download_validity_test
       github_to_traceparts_catalog_links: deployed_12_of_12
       live_validation_register: data/external-catalogs/platforms/traceparts-live-validation-2026-10-14.yml
@@ -36,15 +36,15 @@ platforms:
       - mechanical_interface_urls
       - official_logo_white_background_minimum_40px_height
     pending_siggear:
-      - retest_8p_and_42p_in_English_site_with_STEP_AP203
-      - collect_exact_failure_message_and_full_product_URLs_for_8p_and_42p
+      - collect_8p_42p_exact_failure_message_and_provider_download_response_after_STEP_selection
+      - provide_8p_and_42p_full_English_product_URLs_to_TraceParts_support
       - independent_CAD_geometry_and_configuration_match_validation
       - confirm_model_specific_English_product_detail_URLs_for_all_12_models
     pending_platform:
       - official_smart_publishing_xls_template
       - valid_classification_category_id
       - account_or_publishing_access
-    next_action: fix_8p_42p_English_site_downloads_first_then_capture_all_12_product_URLs_and_confirm_UTM_links
+    next_action: report_8p_and_42p_STEP_download_failures_to_TraceParts_support_and_retest_after_vendor_feedback
 
   3Dfindit:
     channel_type: CAD_design_in_configurator_and_download_leads
