@@ -1,25 +1,27 @@
 ---
-title: SigGear Products | 8–42 mm Miniature & Compact Planetary Gearboxes
-description: Browse SigGear 8–42 mm planetary gearboxes and gearheads with gearbox-only supply, motor matching and engineering CAD, plus other precision transmission products.
+title: SigGear Products | Micro, Miniature & Compact Planetary Gearboxes
+description: Explore SigGear's micro, miniature and compact 8–42 mm planetary gearbox range. Find 12 model pages, technical datasheets, 4-stage STEP references and motor matching.
 ---
 
 # SigGear Products
 
-This section is the authoritative public source for SigGear product specifications. Our current overseas product focus is **8–42 mm miniature and compact planetary gearboxes**, with gearbox-only supply and motor-matching engineering support. Other SigGear transmission and joint-drive product families remain available for relevant projects.
+This section is the authoritative public source for SigGear product specifications. Our current overseas product focus is **8–42 mm micro, miniature and compact planetary gearboxes**, with gearbox-only supply and motor-matching engineering support. Other SigGear transmission and joint-drive product families remain available for relevant projects.
 
 These products are also reference platforms for engineering evaluation. A custom project does not need to match an existing catalog model exactly. If the required ratio, motor interface, shaft, mounting, size or integration differs, start with the Custom Engineering path.
 
 [Explore Custom Precision Transmission Engineering](../custom-engineering/index.md){ .md-button .md-button--primary }
 
-## Miniature & Compact Planetary Gearboxes | 8–42 mm
+## Micro, Miniature & Compact Planetary Gearboxes | 8–42 mm
 
-SigGear publishes 12 planetary gearbox frame sizes: **8P, 10P, 12P, 14P, 16P, 20P, 22P, 24P, 28P, 32P, 36P and 42P**. These planetary gearheads may be supplied as gearbox-only units, or our team can review motor matching for a complete assembly.
+SigGear publishes 12 planetary gearbox frame sizes: **Micro 8P–16P (8–16 mm), Miniature 20P–32P (20–32 mm), and Compact 36P–42P (36–42 mm)**. These planetary gearheads may be supplied as gearbox-only units, or our team can review motor matching for a complete assembly.
 
 Each frame size has a Datasheet, a Mechanical Interface reference and simplified **4-stage STEP CAD** for preliminary Design-In. Final stage/ratio-specific drawings and motor compatibility require engineering confirmation.
 
 [Compare 8–42 mm Models](planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Browse Planetary Gearboxes](planetary-gearboxes/index.md){ .md-button }
+
+For immediate model selection, see [10P 10 mm Micro Planetary Gearbox](planetary-gearboxes/10p-planetary-gearbox.md), [20P 20 mm Miniature Planetary Gearbox](planetary-gearboxes/20p-planetary-gearbox.md), [32P 32 mm Miniature Planetary Gearbox](planetary-gearboxes/32p-planetary-gearbox.md) or [42P 42 mm Compact Planetary Gearbox](planetary-gearboxes/42p-planetary-gearbox.md). These are **frame-size references**, not a substitute for an approved stage/ratio configuration.
 
 ## Robot Joint Actuators
 

@@ -166,7 +166,7 @@ Examples include:
 
 | Reference | What an engineer can evaluate |
 | --- | --- |
-| [32P Micro Planetary Gearbox](../products/planetary-gearboxes/32p-planetary-gearbox.md) | miniature planetary architecture, ratio / stage options, interface data, motor integration and public STEP |
+| [32P Miniature Planetary Gearbox](../products/planetary-gearboxes/32p-planetary-gearbox.md) | miniature planetary architecture, ratio / stage options, interface data, motor integration and public STEP |
 | [SG-6010C Robot Joint Actuator](../products/robot-joint-actuators/sg6010c.md) | integrated motor + planetary reducer + sensing / driver configuration and public mechanical resources |
 | [CPM-80-25 Cycloidal Joint Module](../products/cycloidal-joint-modules/cpm80-25.md) | cycloidal joint architecture, mechanical interfaces, public CAD and measured performance data |
 

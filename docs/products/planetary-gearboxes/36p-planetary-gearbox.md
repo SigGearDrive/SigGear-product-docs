@@ -1,5 +1,5 @@
 ---
-title: 36 mm Compact Planetary Gearbox (36P) | SigGear
+title: 36 mm Compact Planetary Gearbox (36P)
 description: SigGear 36P is a 36 mm compact planetary gearbox / gearhead with 3.66:1–625:1 published ratios, datasheet, STEP CAD, gearbox-only supply and motor matching.
 ---
 

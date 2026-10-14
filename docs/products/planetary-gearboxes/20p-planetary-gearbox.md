@@ -1,6 +1,6 @@
 ---
-title: 20 mm Miniature Planetary Gearbox (20P) | SigGear
-description: SigGear 20P is a 20 mm miniature planetary gearbox / gearhead with 4:1–1296:1 published ratios, datasheet, STEP CAD, gearbox-only supply and motor matching.
+title: 20 mm Miniature Planetary Gearbox (20P)
+description: SigGear 20P: 20 mm miniature planetary gearbox with 4:1–1296:1 published ratio options across 1–4 stages. Compare mounting interfaces and STEP CAD.
 ---
 
 
@@ -151,6 +151,8 @@ A detailed full-assembly STEP is held as configuration-controlled engineering CA
 The link above opens the **20P product detail page** on TraceParts International, using the exact address provided by the SigGear operator. STEP AP203 generation and download for this model were confirmed on **2026-10-14**. The Chinese catalog link is provided as an alternative browsing route. Public CAD is a **simplified 4-stage reference**; check stage, ratio and interfaces before production design, and request controlled configuration-matched CAD if required.
 
 ## Related Planetary Gearbox Resources
+
+**Need to compare the installation envelope?** See the smaller [16P 16 mm Micro Planetary Gearbox](16p-planetary-gearbox.md) and the larger [22P 22 mm Miniature Planetary Gearbox](22p-planetary-gearbox.md), then verify each model's output load and shaft interface. Frame sizes are not drop-in substitutes.
 
 [8–42 mm Planetary Gearbox Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Browse All Planetary Gearboxes](index.md){ .md-button }

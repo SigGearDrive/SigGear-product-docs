@@ -1,13 +1,13 @@
 ---
-title: 8–42 mm Miniature Planetary Gearbox Manufacturer | SigGear
-description: Compare 12 SigGear 8–42 mm miniature and compact planetary gearboxes for OEM designs, with published ratios, torque, dimensions, datasheets, STEP CAD, gearbox-only supply and motor matching.
+title: Miniature Planetary Gearbox Manufacturer | 8–42 mm Series
+description: SigGear manufactures micro (8–16 mm), miniature (20–32 mm) and compact (36–42 mm) planetary gearboxes. Compare 12 models, ratios, STEP CAD and motor matching.
 ---
 
-# 8–42 mm Miniature & Compact Planetary Gearbox Series
+# Micro, Miniature & Compact Planetary Gearboxes — 8–42 mm
 
 ## Product Overview
 
-The existing catalog series identifier is **8–42 mm Planetary Gear Reducer Series**. This is the same 8P–42P range described here as miniature and compact planetary gearboxes.
+The existing catalog identifier is **8–42 mm Planetary Gear Reducer Series**. This is SigGear's published family of **micro, miniature and compact precision planetary gearboxes**, not a series of large industrial reducers.
 
 SigGear supplies micro, miniature and compact planetary gearboxes (planetary gearheads) with nominal outer diameters from **8 mm to 42 mm**, intended for space-constrained OEM mechanisms and precision motion applications. The published families are grouped as **Micro: 8–16 mm**, **Miniature: 20–32 mm**, and **Compact: 36–42 mm**. Customers may source **gearbox-only units** or request an engineering review for a **matched motor + gearbox assembly**.
 
@@ -25,9 +25,9 @@ SigGear's [TraceParts catalog (Chinese-language portal)](https://www.traceparts.
 
 ## Real Product & Size Reference
 
-![Real SigGear 8P-42P miniature and compact planetary gearbox family lineup](../../assets/images/evidence/planetary/8-42mm-planetary-gearbox-family-real.webp)
+![Real SigGear 8P–42P micro, miniature and compact planetary gearbox family lineup](../../assets/images/evidence/planetary/8-42mm-planetary-gearbox-family-real.webp)
 
-*Real SigGear planetary gearbox family photographed together as a size-range reference. The image is intended to demonstrate physical product coverage across miniature and compact frame sizes; use the model pages and controlled drawings for exact model identification, dimensions and configuration details.*
+*Real SigGear planetary gearbox family photographed together as a size-range reference. The image demonstrates physical product coverage across micro, miniature and compact frame sizes; use the model pages and controlled drawings for exact model identification, dimensions and configuration details.*
 
 ![Real compact motor and gearbox assemblies beside a steel ruler](../../assets/images/evidence/planetary/compact-gearmotor-size-reference.webp)
 
