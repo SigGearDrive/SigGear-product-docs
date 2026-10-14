@@ -1,118 +1,61 @@
-name: Prepare TraceParts 460x340 JPGs (temporary)
+name: Review 36P original photo clean crops (temporary)
 on:
   push:
     branches:
       - image-prep/traceparts-4-real-photos-20261014
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
   prepare:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Install Pillow
-        run: python -m pip install Pillow numpy
-      - name: Inspect genuine photos and make fixed-size JPGs
+        run: python -m pip install Pillow
+      - name: Build lossless-source crops from genuine old photo
         shell: bash
         run: |
           python - <<'PY'
-          import os, json, hashlib, zipfile
-          from PIL import Image, ImageOps, ImageDraw, ImageFile
-          ImageFile.LOAD_TRUNCATED_IMAGES = True
+          import subprocess,io,os
+          from PIL import Image, ImageOps, ImageFile
           from pathlib import Path
-          source = {
-              '36P': 'docs/assets/images/products/planetary-gearboxes/36p/36p-real-product-evidence.webp',
+          ImageFile.LOAD_TRUNCATED_IMAGES=True
+          path='docs/assets/images/products/planetary-gearboxes/36p/36p-real-product-evidence.webp'
+          data=subprocess.check_output(['git','show','0a5e5887cd23f841c6dcb8cd4190ab43e3386571:'+path])
+          length=int.from_bytes(data[4:8],'little')+8
+          if len(data)==length-1: data+=b'\0'
+          image=Image.open(io.BytesIO(data))
+          image.load()
+          image=ImageOps.exif_transpose(image).convert('RGB')
+          w,h=image.size
+          print('SOURCE_DIMENSIONS',w,h,'declared',length,'real',len(data))
+          # Crop only the intact top-right original photo; exclude the corrupt lower photo panels.
+          crops={
+            'A_clean_upper_78':(w//2,0,w,int((h/2)*.78)),
+            'B_clean_upper_86':(w//2,0,w,int((h/2)*.86)),
+            'C_clean_upper_91':(w//2,0,w,int((h/2)*.91)),
+            'D_inset_upper_86':(int(w*.515),int(h*.025),int(w*.985),int((h/2)*.86))
           }
-          out = Path('traceparts_460x340')
-          out.mkdir()
-          manifest=[]
-          previews=[]
-          for model,p in source.items():
-              if model == '36P':
-                  # Restore the missing RIFF padding byte before decoding the damaged 36P WebP.
-                  data=Path(p).read_bytes()
-                  declared=int.from_bytes(data[4:8],'little')+8
-                  if len(data)==declared-1 and data[:4]==b'RIFF' and data[8:12]==b'WEBP':
-                      Path(p).write_bytes(data+b'\x00')
-              im=Image.open(p)
-              im.load()
-              im=ImageOps.exif_transpose(im).convert('RGB')
-              src_wh=im.size
-              if model in ['28P','36P','42P']:
-                  # Source is a genuine 2x2 photo evidence montage.
-                  # Top-right = actual gearbox in 3/4-angle without the caliper panel.
-                  w,h=im.size
-                  im=im.crop((w//2,0,w,h//2))
-                  selected='top-right genuine photo panel from 2x2 source'
-              else:
-                  selected='complete genuine single-product photograph'
-              # Detect product region via darker-than-background pixels; no synthetic image content.
-              import numpy as np
-              a=np.asarray(im)
-              mask=np.min(a,axis=2)<228
-              ys,xs=np.where(mask)
-              if len(xs)>0:
-                  l,r=max(0,int(xs.min())),min(im.width,int(xs.max()+1))
-                  t,b=max(0,int(ys.min())),min(im.height,int(ys.max()+1))
-                  dx=max(10,int((r-l)*0.085))
-                  dy=max(10,int((b-t)*0.085))
-                  l=max(0,l-dx);r=min(im.width,r+dx)
-                  t=max(0,t-dy);b=min(im.height,b+dy)
-                  im=im.crop((l,t,r,b))
-              canvas=Image.new('RGB',(460,340),'white')
-              inset=ImageOps.contain(im,(430,310),method=Image.Resampling.LANCZOS)
-              canvas.paste(inset,((460-inset.width)//2,(340-inset.height)//2))
-              p_out=out/(model.lower()+'.jpg')
-              canvas.save(p_out,'JPEG',quality=94,subsampling=0,optimize=True)
-              if model == '36P':
-                  # Existing 36P WebP is missing its final byte; its bottom photo panels also contain visible corruption.
-                  # Replace same public path with an intact, recompressed crop of the genuine upper-right product photo.
-                  canvas.save(p,'WEBP',quality=95,method=6)
-                  fixed=Image.open(p);fixed.load()
-                  assert fixed.size == (460,340) and fixed.format == 'WEBP'
-                  import shutil
-                  shutil.copy2(p_out,'docs/assets/images/products/planetary-gearboxes/36p/36p-traceparts-460x340.jpg')
-                  print('REPAIRED_36P_IMAGE',p,'WEBP',Path(p).stat().st_size)
-              check=Image.open(p_out); check.load()
-              assert check.size==(460,340) and check.format=='JPEG'
-              sha=hashlib.sha256(Path(p).read_bytes()).hexdigest()
-              manifest.append({'model':model,'original':p,'source_pixel_size':src_wh,'panel':selected,'output':p_out.name,'pixels':[460,340],'jpeg_bytes':p_out.stat().st_size,'source_sha256':sha})
-              previews.append((model,canvas))
-          (out/'SOURCE_AND_QA.json').write_text(json.dumps(manifest,indent=2,ensure_ascii=False),encoding='utf-8')
-          sheet=Image.new('RGB',(960,760),'#f5f7f8')
-          d=ImageDraw.Draw(sheet)
-          for i,(model,im) in enumerate(previews):
-              x=10+(i%2)*480;y=12+(i//2)*375
-              d.text((x+12,y+3),model,fill='#20252a')
-              sheet.paste(im,(x+10,y+28))
-          sheet.save(out/'_review_contact_sheet.png')
-          zipname='SigGear_TraceParts_36P_460x340_JPG.zip'
-          with zipfile.ZipFile(zipname,'w',compression=zipfile.ZIP_DEFLATED) as z:
-              for name in ['36p.jpg']:
-                  z.write(out/name,name)
-              z.write(out/'SOURCE_AND_QA.json','SOURCE_AND_QA.json')
-          print(json.dumps(manifest,indent=2))
+          out=Path('traceparts-review/36p');out.mkdir(parents=True,exist_ok=True)
+          for n,b in crops.items():
+              box=image.crop(b)
+              canvas=Image.new('RGB',(920,680),'white')
+              tile=ImageOps.contain(box,(880,620),Image.Resampling.LANCZOS)
+              canvas.paste(tile,((920-tile.width)//2,(680-tile.height)//2))
+              jpg=out/(n+'.jpg')
+              canvas.save(jpg,quality=97,subsampling=0,optimize=True)
+              print('CANDIDATE',n,'sourceBox',b,'exported',jpg.stat().st_size)
           PY
-      - name: Commit repaired genuine 36P photo on image-prep branch
-        shell: bash
+      - name: Commit preview options for manual visual QA (temporary branch only)
         run: |
           set -eu
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/assets/images/products/planetary-gearboxes/36p/36p-real-product-evidence.webp
-          git add docs/assets/images/products/planetary-gearboxes/36p/36p-traceparts-460x340.jpg
-          git diff --cached --check
-          git commit -m "Repair truncated 36P real product WebP and add TraceParts JPEG"
-          git push origin HEAD:image-prep/traceparts-4-real-photos-20261014
-      - uses: actions/upload-artifact@v4
-        with:
-          name: SigGear-TraceParts-RealPhotos-460x340-JPG
-          path: |
-            traceparts_460x340/*.jpg
-            traceparts_460x340/_review_contact_sheet.png
-            traceparts_460x340/SOURCE_AND_QA.json
-            SigGear_TraceParts_28P_32P_36P_42P_460x340_JPG.zip
-          retention-days: 7
+          git add traceparts-review/36p/*.jpg
+          if ! git diff --cached --quiet; then
+            git commit -m "Prepare 36P clean photographic crop candidates for QA"
+            git push origin HEAD:image-prep/traceparts-4-real-photos-20261014
+          fi
