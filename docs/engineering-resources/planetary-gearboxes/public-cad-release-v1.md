@@ -11,7 +11,7 @@ Each released file represents the **4-stage reference configuration** for its fr
 
 ## External CAD Discovery on TraceParts
 
-The [SigGear public product catalog on TraceParts (Chinese-language portal)](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR) displays the **8P–42P** model range. The public 42P detail page has been opened, its 3D preview displayed, and its CAD download completed successfully. Other models' download workflows and the international English-language catalog have not yet been verified individually.
+The [SigGear TraceParts catalog (Chinese-language portal)](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR) has displayed the **8P–42P** model range. On the [international English power-transmission supplier index](https://www.traceparts.com/en/search/traceparts-classification-mechanical-components-power-transmission?CatalogPath=TRACEPARTS%3ATP01005), **SIGGEAR (12)** is visible as a supplier filter (checked 2026-10-14). This does not verify 12 English product-detail pages or CAD downloads. A 42P preview and CAD download were tested earlier on the Chinese portal; the latest per-model downloads still require interactive verification.
 
 For accurate preliminary packaging, confirm that any downloaded CAD corresponds to the required frame size and **4-stage reference configuration**. Public simplified CAD is not a substitute for a controlled drawing or configuration-matched STEP model for a different reduction stage or final production release.
 

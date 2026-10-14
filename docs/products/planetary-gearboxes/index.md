@@ -17,7 +17,7 @@ For commercial product comparison, frame-size selection, gearbox-only supply, mo
 
 [Browse SigGear CAD Models on TraceParts (Chinese portal)](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR){ .md-button }
 
-TraceParts currently lists the 12 planetary gearbox frame sizes in its Chinese-language public catalog. The 42P 3D preview and CAD download have been checked; other models and the international English entry point still need separate verification.
+TraceParts' Chinese-language catalog has previously displayed the 12 planetary gearbox frame sizes. The [international English power-transmission supplier index](https://www.traceparts.com/en/search/traceparts-classification-mechanical-components-power-transmission?CatalogPath=TRACEPARTS%3ATP01005) also lists **SIGGEAR (12)** as a supplier filter (checked 2026-10-14). This count is not proof that 12 English product-detail pages or CAD downloads have been tested. A 42P 3D preview and CAD download were checked previously on the Chinese portal; live model-by-model and English CAD workflows still require verification.
 
 ## Published Series
 

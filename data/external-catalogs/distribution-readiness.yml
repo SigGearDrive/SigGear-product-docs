@@ -1,7 +1,7 @@
 schema_version: 1
 program: SigGear External Engineering & Product Discovery Distribution
 product_scope: 8P-42P miniature_and_compact_planetary_gearboxes
-updated_on: "2026-10-12"
+updated_on: "2026-10-14"
 
 shared_source:
   product_master_data: data/products/
@@ -14,7 +14,15 @@ platforms:
     channel_type: CAD_design_in_and_download_leads
     priority: P1
     commercial_model: paid_publishing_plan_quote_required
-    current_status: platform_mapping_ready
+    current_status: english_supplier_index_visible_model_level_cad_verification_pending
+    evidence:
+      international_supplier_index_label: "SIGGEAR (12)"
+      international_supplier_index_scope: supplier_filter_only
+      chinese_catalog: previously_listed_12_families
+      historical_chinese_42p_preview_and_download: tested_in_prior_work
+      latest_12_model_cad_downloads: not_independently_tested
+      github_to_traceparts_catalog_links: deployed_12_of_12
+      live_validation_register: data/external-catalogs/platforms/traceparts-live-validation-2026-10-14.yml
     ready:
       - 12_family_references
       - 12_public_simplified_step_files
@@ -24,12 +32,15 @@ platforms:
       - datasheet_urls
       - mechanical_interface_urls
       - official_logo_white_background_minimum_40px_height
-    pending_siggear: []
+    pending_siggear:
+      - independent_traceparts_product_URL_and_3D_preview_verification_for_all_12_models
+      - independent_STEP_download_matching_verification_for_all_12_models
+      - confirm_English_product_detail_page_accessibility
     pending_platform:
       - official_smart_publishing_xls_template
       - valid_classification_category_id
       - account_or_publishing_access
-    next_action: obtain_template_category_id_and_access_then_generate_final_submission_file
+    next_action: resolve_12_product_urls_and_verify_live_CAD_then_obtain_official_template_category_id_and_access_for_next_catalog_updates
 
   3Dfindit:
     channel_type: CAD_design_in_configurator_and_download_leads
