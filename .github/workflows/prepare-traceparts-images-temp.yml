@@ -1,78 +1,67 @@
-name: Review 36P original photo clean crops (temporary)
+name: Live browser check SigGear 36P image (temporary)
 on:
   push:
     branches:
       - image-prep/traceparts-4-real-photos-20261014
-  workflow_dispatch:
+    paths:
+      - .github/workflows/prepare-traceparts-images-temp.yml
 permissions:
   contents: write
 jobs:
-  prepare:
+  check-live-image:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - name: Install Pillow
-        run: python -m pip install Pillow
-      - name: Build lossless-source crops from genuine old photo
+      - name: Install browser automation library
+        run: python -m pip install playwright Pillow
+      - name: Verify current GitHub Pages renders the new 36P photo
         shell: bash
         run: |
           python - <<'PY'
-          import subprocess,io,os
-          from PIL import Image, ImageOps, ImageFile
           from pathlib import Path
-          ImageFile.LOAD_TRUNCATED_IMAGES=True
-          path='docs/assets/images/products/planetary-gearboxes/36p/36p-real-product-evidence.webp'
-          data=subprocess.check_output(['git','show','0a5e5887cd23f841c6dcb8cd4190ab43e3386571:'+path])
-          length=int.from_bytes(data[4:8],'little')+8
-          if len(data)==length-1: data+=b'\0'
-          image=Image.open(io.BytesIO(data))
-          image.load()
-          image=ImageOps.exif_transpose(image).convert('RGB')
-          w,h=image.size
-          print('SOURCE_DIMENSIONS',w,h,'declared',length,'real',len(data))
-          # Crop only the intact top-right original photo; exclude the corrupt lower photo panels.
-          crops={
-            'A_clean_upper_78':(w//2,0,w,int((h/2)*.78)),
-            'B_clean_upper_86':(w//2,0,w,int((h/2)*.86)),
-            'C_clean_upper_91':(w//2,0,w,int((h/2)*.91)),
-            'D_inset_upper_86':(int(w*.515),int(h*.025),int(w*.985),int((h/2)*.86)),
-            'E_left_upper_83':(0,0,w//2,int((h/2)*.83)),
-            'F_left_upper_88':(0,0,w//2,int((h/2)*.88)),
-            'G_left_upper_92':(0,0,w//2,int((h/2)*.92))
-          }
-          out=Path('traceparts-review/36p');out.mkdir(parents=True,exist_ok=True)
-          for n,b in crops.items():
-              box=image.crop(b)
-              canvas=Image.new('RGB',(920,680),'white')
-              tile=ImageOps.contain(box,(880,620),Image.Resampling.LANCZOS)
-              canvas.paste(tile,((920-tile.width)//2,(680-tile.height)//2))
-              jpg=out/(n+'.jpg')
-              canvas.save(jpg,quality=97,subsampling=0,optimize=True)
-              print('CANDIDATE',n,'sourceBox',b,'exported',jpg.stat().st_size)
-          # Final: use ONLY the intact upper portion of original genuine side-view photograph.
-          # Bottom panels and bottom image artifacts are excluded, not repaired or invented.
-          side=image.crop((0,0,w//2,int((h/2)*.82)))
-          output=Image.new('RGB',(460,340),'white')
-          contained=ImageOps.contain(side,(430,310),Image.Resampling.LANCZOS)
-          output.paste(contained,((460-contained.width)//2,(340-contained.height)//2))
-          jpg=out/'36p-website-photo-20261014.jpg'
-          output.save(jpg,'JPEG',quality=96,subsampling=0,optimize=True)
-          webp=out/'36p-clean-replacement.webp'
-          output.save(webp,'WEBP',quality=96,method=6)
-          for file in [jpg,webp]:
-              verify=Image.open(file); verify.load()
-              assert verify.size==(460,340) and verify.format in ('JPEG','WEBP')
-              print('FINAL',str(file),str(verify.size),verify.format,file.stat().st_size)
+          from playwright.sync_api import sync_playwright
+          from PIL import Image
+          import json, shutil, subprocess
+          out=Path("traceparts-review/36p-live");out.mkdir(parents=True,exist_ok=True)
+          with sync_playwright() as p:
+              executable=shutil.which("google-chrome") or shutil.which("google-chrome-stable") or shutil.which("chromium")
+              if executable:
+                  browser=p.chromium.launch(headless=True,executable_path=executable,args=["--no-sandbox"])
+              else:
+                  subprocess.run(["python","-m","playwright","install","chromium"],check=True)
+                  browser=p.chromium.launch(headless=True,args=["--no-sandbox"])
+              page=browser.new_page(viewport={"width":1200,"height":900},device_scale_factor=1)
+              url="https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/36p-planetary-gearbox/"
+              response=page.goto(url,wait_until="domcontentloaded",timeout=45000)
+              assert response is not None and response.status==200,response
+              img=page.locator('article img[alt*="36P"]')
+              assert img.count()==1, "Expected exactly one 36P photo in article"
+              img.scroll_into_view_if_needed()
+              img.wait_for(state="visible",timeout=25000)
+              page.wait_for_function("""() => { const e = document.querySelector('article img[alt*="36P"]'); return !!e && e.complete && e.naturalWidth > 0 && e.naturalHeight > 0; }""",timeout=35000)
+              state=img.evaluate("""el=>({src:el.src,complete:el.complete,naturalWidth:el.naturalWidth,naturalHeight:el.naturalHeight,renderedWidth:el.getBoundingClientRect().width,renderedHeight:el.getBoundingClientRect().height,opacity:getComputedStyle(el).opacity,visibility:getComputedStyle(el).visibility})""")
+              assert "36p-product-photo-20261014.jpg" in state["src"],state
+              assert state["naturalWidth"]==460 and state["naturalHeight"]==340,state
+              snap=out/"36p-browser-image.png"
+              img.screenshot(path=str(snap),timeout=25000)
+              image=Image.open(snap).convert("RGB")
+              pixels=list(image.getdata())
+              dark=sum(1 for r,g,b in pixels if min(r,g,b)<125)
+              dark_ratio=dark/len(pixels)
+              assert dark_ratio>.04,f"Image rendered blank or almost blank: dark ratio {dark_ratio}"
+              state.update({"page_status":response.status,"dark_pixel_ratio":round(dark_ratio,5),"screenshot_size":image.size,"browser_executable":executable or "playwright-chromium"})
+              (out/"live-check.json").write_text(json.dumps(state,indent=2),encoding="utf-8")
+              print("LIVE_36P_IMAGE_VERIFIED",json.dumps(state,indent=2))
+              browser.close()
           PY
-      - name: Commit preview options for manual visual QA (temporary branch only)
+      - name: Commit QA evidence on temporary branch only
         run: |
           set -eu
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add traceparts-review/36p/*.jpg traceparts-review/36p/*.webp
+          git add traceparts-review/36p-live
+          git diff --cached --check
           if ! git diff --cached --quiet; then
-            git commit -m "Prepare 36P clean photographic crop candidates for QA"
+            git commit -m "Record live 36P Chrome screenshot proof"
             git push origin HEAD:image-prep/traceparts-4-real-photos-20261014
           fi
