@@ -1,0 +1,94 @@
+name: Prepare TraceParts 460x340 JPGs (temporary)
+on:
+  push:
+    branches:
+      - image-prep/traceparts-4-real-photos-20261014
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Pillow
+        run: python -m pip install Pillow
+      - name: Inspect genuine photos and make fixed-size JPGs
+        shell: bash
+        run: |
+          python - <<'PY'
+          import os, json, hashlib, zipfile
+          from PIL import Image, ImageOps, ImageDraw
+          from pathlib import Path
+          source = {
+              '28P': 'docs/assets/images/products/planetary-gearboxes/28p/28p-real-product-evidence.webp',
+              '32P': 'docs/assets/images/products/planetary-gearboxes/32p/32p-real-product-main-verified.webp',
+              '36P': 'docs/assets/images/products/planetary-gearboxes/36p/36p-real-product-evidence.webp',
+              '42P': 'docs/assets/images/products/planetary-gearboxes/42p/42p-real-product-evidence.webp',
+          }
+          out = Path('traceparts_460x340')
+          out.mkdir()
+          manifest=[]
+          previews=[]
+          for model,p in source.items():
+              im=Image.open(p)
+              im.load()
+              im=ImageOps.exif_transpose(im).convert('RGB')
+              src_wh=im.size
+              if model in ['28P','36P','42P']:
+                  # Source is a genuine 2x2 photo evidence montage.
+                  # Top-right = actual gearbox in 3/4-angle without the caliper panel.
+                  w,h=im.size
+                  im=im.crop((w//2,0,w,h//2))
+                  selected='top-right genuine photo panel from 2x2 source'
+              else:
+                  selected='complete genuine single-product photograph'
+              # Detect product region via darker-than-background pixels; no synthetic image content.
+              import numpy as np
+              a=np.asarray(im)
+              mask=np.min(a,axis=2)<228
+              ys,xs=np.where(mask)
+              if len(xs)>0:
+                  l,r=max(0,int(xs.min())),min(im.width,int(xs.max()+1))
+                  t,b=max(0,int(ys.min())),min(im.height,int(ys.max()+1))
+                  dx=max(10,int((r-l)*0.085))
+                  dy=max(10,int((b-t)*0.085))
+                  l=max(0,l-dx);r=min(im.width,r+dx)
+                  t=max(0,t-dy);b=min(im.height,b+dy)
+                  im=im.crop((l,t,r,b))
+              canvas=Image.new('RGB',(460,340),'white')
+              inset=ImageOps.contain(im,(430,310),method=Image.Resampling.LANCZOS)
+              canvas.paste(inset,((460-inset.width)//2,(340-inset.height)//2))
+              p_out=out/(model.lower()+'.jpg')
+              canvas.save(p_out,'JPEG',quality=94,subsampling=0,optimize=True)
+              check=Image.open(p_out); check.load()
+              assert check.size==(460,340) and check.format=='JPEG'
+              sha=hashlib.sha256(Path(p).read_bytes()).hexdigest()
+              manifest.append({'model':model,'original':p,'source_pixel_size':src_wh,'panel':selected,'output':p_out.name,'pixels':[460,340],'jpeg_bytes':p_out.stat().st_size,'source_sha256':sha})
+              previews.append((model,canvas))
+          (out/'SOURCE_AND_QA.json').write_text(json.dumps(manifest,indent=2,ensure_ascii=False),encoding='utf-8')
+          sheet=Image.new('RGB',(960,760),'#f5f7f8')
+          d=ImageDraw.Draw(sheet)
+          for i,(model,im) in enumerate(previews):
+              x=10+(i%2)*480;y=12+(i//2)*375
+              d.text((x+12,y+3),model,fill='#20252a')
+              sheet.paste(im,(x+10,y+28))
+          sheet.save(out/'_review_contact_sheet.png')
+          zipname='SigGear_TraceParts_28P_32P_36P_42P_460x340_JPG.zip'
+          with zipfile.ZipFile(zipname,'w',compression=zipfile.ZIP_DEFLATED) as z:
+              for name in [f'{x.lower()}.jpg' for x in ['28P','32P','36P','42P']]:
+                  z.write(out/name,name)
+              z.write(out/'SOURCE_AND_QA.json','SOURCE_AND_QA.json')
+          print(json.dumps(manifest,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: SigGear-TraceParts-RealPhotos-460x340-JPG
+          path: |
+            traceparts_460x340/*.jpg
+            traceparts_460x340/_review_contact_sheet.png
+            traceparts_460x340/SOURCE_AND_QA.json
+            SigGear_TraceParts_28P_32P_36P_42P_460x340_JPG.zip
+          retention-days: 7
