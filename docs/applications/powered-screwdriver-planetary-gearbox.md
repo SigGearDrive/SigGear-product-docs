@@ -9,6 +9,7 @@ Electric screwdrivers, compact nut runners and cordless fastening mechanisms com
 
 For SigGear's current planetary gearbox program, these applications are a **potential OEM Design-In path**. This page does not claim that a specific SigGear gearbox has been validated or mass-produced in a named fastening-tool customer project.
 
+[Find Published Gearbox Candidates](../selection-guides/miniature-planetary-gearbox-selection-guide.md#find-your-gearbox-preliminary-ratio-stage-finder){ .md-button .md-button--primary }
 [Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Start Fastening Tool Project Brief](../request-cad-sample-quote.md?app=powered_screwdriver_fastening){ .md-button }

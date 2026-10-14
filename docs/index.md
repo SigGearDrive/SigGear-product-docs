@@ -11,9 +11,12 @@ We supply **gearbox-only units** for projects using an existing motor. If you ne
 
 The 12 published planetary frame sizes have model-specific Datasheets, Mechanical Interface references and **public simplified 4-stage STEP CAD** for early mechanical packaging. Final performance and configuration-matched CAD require review of the selected ratio, stage count, motor interface and operating conditions.
 
-[Browse 8–42 mm Planetary Gearboxes](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+**Know your motor operating speed and target output speed?** Use the engineering selector first. Optional filters can narrow by maximum diameter, gearbox body length and published rated allowable torque.
+
+[Find Your Gearbox — Ratio & Stage Finder](selection-guides/miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
+[Browse 8–42 mm Planetary Gearboxes](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
 [Download Public STEP CAD](engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
-[Start Engineering Project Brief](request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Start Engineering Project Brief](request-cad-sample-quote.md){ .md-button }
 
 ## Find a Planetary Gearbox by Diameter
 

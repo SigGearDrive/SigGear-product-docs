@@ -13,6 +13,7 @@ For SigGear's current overseas focus, the primary starting point is the **8–42
 
 A suitable drive must still be selected from the complete mechanism requirement, including force, speed, geometry, shaft load, backlash, noise, duty cycle, feedback and installation space.
 
+[Find Published Gearbox Candidates](../selection-guides/miniature-planetary-gearbox-selection-guide.md#find-your-gearbox-preliminary-ratio-stage-finder){ .md-button .md-button--primary }
 [Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Start Dexterous Hand / Gripper Project Brief](../request-cad-sample-quote.md?app=dexterous_hand_gripper){ .md-button }

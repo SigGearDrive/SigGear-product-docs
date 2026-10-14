@@ -35,9 +35,13 @@ The preliminary reduction ratio is approximately **motor speed at the operating 
 
 Compare this result with the published stage-specific ratio table of the selected gearbox. Different stages can change overall body length, torque rating and efficiency.
 
-## Preliminary Ratio & Stage Finder
+## Find Your Gearbox — Preliminary Ratio & Stage Finder
 
 Use this tool for an initial comparison when you know the **motor operating speed** and **target gearbox output speed**.
+
+**What you enter:** motor operating speed and target output speed; optionally maximum gearbox diameter, maximum gearbox body length, required continuous torque and maximum ratio difference.
+
+**What you get:** the closest published ratio, the smallest surviving frame and the shortest surviving gearbox among the published configurations that remain after your filters.
 
 It calculates:
 
