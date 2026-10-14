@@ -9,7 +9,8 @@ SigGear's published product taxonomy remains **Micro (8–16 mm)**, **Miniature 
 
 For OEM business development and early Design-In, the same 12 gearbox frames can also be viewed through three **application-led groups**. These groups are not new mechanical product series and do not replace the model-specific ratings. They are a faster way to start from the customer's mechanism.
 
-[Compare All 8–42 mm Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Find Your Gearbox — Ratio & Stage Finder](../selection-guides/miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
+[Compare All 8–42 mm Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
 [Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Start Engineering Project Brief](../request-cad-sample-quote.md){ .md-button }
 
