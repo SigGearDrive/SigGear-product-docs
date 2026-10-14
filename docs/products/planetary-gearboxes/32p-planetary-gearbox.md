@@ -169,6 +169,8 @@ The link above opens the **32P product detail page** on TraceParts International
 
 ## Related Planetary Gearbox Resources
 
+**Comparing miniature and compact frame sizes?** Review the [28P 28 mm Miniature Planetary Gearbox](28p-planetary-gearbox.md) or [36P 36 mm Compact Planetary Gearbox](36p-planetary-gearbox.md) alongside this 32P Design-In Pack. Stage length, rated load and motor-side mounting must be evaluated separately for each frame.
+
 [Custom Planetary Gearbox Engineering](../../custom-engineering/custom-planetary-gearbox.md){ .md-button .md-button--primary }
 [8–42 mm Planetary Gearbox Series](8-42mm-planetary-gear-reducer.md){ .md-button }
 [Browse All Planetary Gearboxes](index.md){ .md-button }
