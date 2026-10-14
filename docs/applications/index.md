@@ -16,6 +16,12 @@ These application pages explain **how to select a drive**, not where SigGear cla
 [Planetary Gearbox Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
 [Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 
+## Start With an Application Family
+
+Before choosing an exact diameter, use the application-led grouping to decide whether the project is primarily **Micro Precision (8P-16P)**, **Compact OEM (20P-28P)** or **High-Torque Compact (32P-42P)**. This does not replace model-level engineering review; it makes the first search and Design-In step faster.
+
+[Planetary Gearbox Application Families](../products/planetary-gearboxes/application-families.md){ .md-button .md-button--primary }
+
 ## Featured Miniature Planetary Gearbox Applications
 
 These are the application paths most closely aligned with the current SigGear overseas focus.
