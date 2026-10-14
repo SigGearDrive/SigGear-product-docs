@@ -4,28 +4,25 @@ program: siggear_traceparts_8p_42p_live_validation
 latest_user_report:
   date: "2026-10-14"
   international_domain: traceparts.com/en
-  screen_evidence: 42P English product detail and STEP AP203 activity records for multiple models
-  tested_cad_format: STEP
-  reported_success_models: [10P, 12P, 14P, 16P, 20P, 22P, 24P, 28P, 32P, 36P]
-  reported_failed_models: [8P, 42P]
-  failure_after_step_selected: true
-  failed_download_error_text: pending_user_screenshot_or_message
-  verified_by_independent_file_open: false
-  chinese_portal_note: user_previously_reported_all_12_models_downloadable
-  diagnosis: unknown_source_file_vs_conversion_vs_delivery
-  user_report_is_not_platform_support_confirmation: true
+  tested_cad_format: STEP_AP203
+  reported_success_models: [8P, 10P, 12P, 14P, 16P, 20P, 22P, 24P, 28P, 32P, 36P, 42P]
+  reported_failed_models: []
+  result: operator_confirmed_all_12_STEP_downloads_generated_successfully
+  first_attempt_note: user_reported_clicking_before_generation_finished_for_8P_and_42P
+  retry_result: 8P_and_42P_both_successful
+  root_cause_platform_file_error: not_established
+  independent_file_geometry_validation: not_performed
+  report_source: SigGear_operator_direct_browser_testing
 user_test_2026_10_14:
   source: first_party_siggear_operator_confirmation_and_uploaded_browser_screenshot
   testing_site: https://www.traceparts.com/en
-  user_reported_downloads_success: 10
-  user_reported_downloads_failed: 2
-  failed_models: [8P, 42P]
-  successful_models: [10P, 12P, 14P, 16P, 20P, 22P, 24P, 28P, 32P, 36P]
-  format_visible_in_42p_screenshot: 3D_XML
-  clarification: user_selected_STEP_for_failed_attempts_despite_dropdown_initially_showing_3D_XML
-  whether_failed_attempts_selected_STEP_AP203: confirmed_by_user
-  traceparts_support: https://info.traceparts.com/designers/report-an-issue-about-traceparts-cad-content-platform/
-  interpretation: firsthand_user_test_not_independently_reproduced_by_assistant
+  user_reported_downloads_success: 12
+  user_reported_downloads_failed: 0
+  successful_models: [8P, 10P, 12P, 14P, 16P, 20P, 22P, 24P, 28P, 32P, 36P, 42P]
+  initially_incomplete_before_wait_and_retry: [8P, 42P]
+  format_visible_in_42p_initial_screenshot: 3D_XML
+  final_format_selected: STEP_AP203
+  verification_limit: confirms_operator_download_success_not_independent_open_or_geometry_check
   chinese_portal: user_previously_reported_all_12_downloads_worked
 public_evidence:
   international_supplier_index:
@@ -54,9 +51,8 @@ models:
     english_product_detail: user_reported_accessible
     chinese_product_detail: user_reported_accessible
     three_d_preview_this_round: not_separately_tested_by_assistant
-    needs_traceparts_support: true
-    step_download_this_round: user_reported_failed_after_selecting_STEP
-    failure_cause_confirmed: false
+    step_download_this_round: user_reported_success_after_generation_completed
+    failure_cause_confirmed: not_applicable_after_successful_retry
     test_source: user_browser_test_2026_10_14
     historical_chinese_preview_download: user_reports_success_2026_10_14
   - model: 10P
@@ -165,16 +161,12 @@ models:
     english_product_detail: user_reported_accessible
     chinese_product_detail: user_reported_accessible
     three_d_preview_this_round: not_separately_tested_by_assistant
-    needs_traceparts_support: true
-    step_download_this_round: user_reported_failed_after_selecting_STEP
-    failure_cause_confirmed: false
+    step_download_this_round: user_reported_success_after_generation_completed
+    failure_cause_confirmed: not_applicable_after_successful_retry
     test_source: user_browser_test_2026_10_14
     historical_chinese_preview_download: reported_verified_in_prior_work
 next_actions:
-  - retest_8P_and_42P_on_English_product_pages_with_STEP_AP203_explicitly_selected
-  - if_failed_check_STEP_AP214_and_STEP_AP242_then_capture_exact_error_or_browser_response
-  - verify_GitHub_source_STEP_opens_in_CAD_software_for_8P_and_42P
-  - if_failure_persists_submit_TraceParts_support_ticket_with_product_URL_model_and_error
-  - obtain_exact_12_model_detail_URLs_from_the_platform_catalog
+  - obtain_exact_12_model_English_detail_URLs_for_direct_product_links
   - replace_general_GitHub_to_TraceParts_catalog_links_only_after_product_URL_verification
   - confirm_TraceParts_to_GitHub_product_document_links_use_referral_UTM_and_actually_render
+  - optionally_open_saved_STEP_files_and_check_model_dimensions_and_4_stage_reference_correspondence

@@ -147,7 +147,7 @@ A detailed full-assembly STEP is held as configuration-controlled engineering CA
 
 [Browse SigGear's TraceParts Catalog — Find 22P (Chinese Portal)](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR){ .md-button }
 
-This link opens the **SigGear catalog**, not a verified direct 22P product or CAD-download link. Find the 22P family in the catalog and confirm the selected model before downloading. The individual 22P TraceParts 3D preview and CAD download have not yet been independently verified. For immediate preliminary packaging review, use the simplified **4-stage reference STEP** in the Engineering Resources section; request stage- and ratio-matched controlled CAD before design freeze.
+This link opens the **SigGear catalog**, not an individually verified direct 22P product URL. A SigGear operator confirmed successful 22P **STEP AP203 generation and download on the international English TraceParts site on 2026-10-14**. Download success does not independently validate geometry or stage/ratio-specific dimensions. For preliminary packaging, use the simplified **4-stage reference STEP**; request controlled configuration-matched CAD before design freeze.
 
 ## Related Planetary Gearbox Resources
 
