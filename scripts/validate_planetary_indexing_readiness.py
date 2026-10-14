@@ -3,7 +3,11 @@
 
 from pathlib import Path
 from xml.etree import ElementTree
+from html import escape as html_escape
+import json
 import re
+
+import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "site"
@@ -71,6 +75,41 @@ def check_built_pages_and_canonicals() -> None:
             f"noindex found on monitored canonical: {target}",
         )
 
+def check_model_specific_search_metadata() -> None:
+    """Catch short nav-title or generic site-description SEO regressions."""
+    for target in PRODUCT_PAGES:
+        slug = Path(target.strip("/")).name
+        source = DOCS / "products/planetary-gearboxes" / f"{slug}.md"
+        require(source.is_file(), f"Source model document missing: {target}")
+
+        raw = source.read_text(encoding="utf-8")
+        require(raw.startswith("---\n"), f"Source metadata missing: {target}")
+        metadata_yaml, sep, _ = raw[4:].partition("\n---\n")
+        require(bool(sep), f"Malformed YAML frontmatter: {target}")
+        metadata = yaml.safe_load(metadata_yaml) or {}
+        title = str(metadata.get("title") or "").strip()
+        description = str(metadata.get("description") or "").strip()
+        require(bool(title) and bool(description), f"Missing SEO title or description: {target}")
+
+        html = html_path(target).read_text(encoding="utf-8")
+        expected_title = f"<title>{html_escape(title, quote=False)} - SigGear Product Documentation</title>"
+        expected_description = (
+            f'<meta name="description" content="{html_escape(description, quote=True)}">'
+        )
+        require(expected_title in html, f"Model title lost to short navigation label: {target}")
+        require(expected_description in html, f"Model description replaced with generic site text: {target}")
+
+        script = re.search(
+            r'<script type="application/ld\+json" data-siggear-seo-schema="model-page">(.*?)</script>',
+            html,
+            re.S,
+        )
+        require(bool(script), f"Model ItemPage JSON-LD missing: {target}")
+        schema = json.loads(script.group(1))
+        require(schema.get("name") == title, f"JSON-LD model name differs from source: {target}")
+        require(schema.get("description") == description, f"JSON-LD model description differs from source: {target}")
+
+
 def check_sitemap_membership() -> None:
     sitemap = SITE / "sitemap.xml"
     require(sitemap.is_file(), "Generated sitemap.xml missing")
@@ -121,6 +160,7 @@ def check_source_hub_links() -> None:
 def main() -> None:
     check_target_count()
     check_built_pages_and_canonicals()
+    check_model_specific_search_metadata()
     check_sitemap_membership()
     check_robots()
     check_source_hub_links()
