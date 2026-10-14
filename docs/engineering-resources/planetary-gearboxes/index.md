@@ -14,6 +14,8 @@ The detailed full-assembly STEP files remain configuration-controlled because th
 
 **External CAD platform:** [Browse SigGear planetary gearboxes on TraceParts](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR). The [international English supplier index](https://www.traceparts.com/en/search/traceparts-classification-mechanical-components-power-transmission?CatalogPath=TRACEPARTS%3ATP01005) lists **SIGGEAR (12)**. A SigGear operator confirmed that **all 12 planetary gearbox STEP AP203 models could be generated and downloaded from the international English site on 2026-10-14**. This is an operator download check, not an independent geometry inspection. Public CAD remains a simplified **4-stage reference**, not a production model for every stage or ratio.
 
+[Browse TraceParts International (English) — Filter Supplier SIGGEAR](https://www.traceparts.com/en/search/traceparts-classification-mechanical-components-power-transmission?CatalogPath=TRACEPARTS%3ATP01005){ .md-button }
+
 ## Find Engineering Data by Diameter
 
 Use this library when the search starts from a specific **planetary gearbox datasheet**, **gearbox dimensions**, **mechanical interface**, **2D drawing reference** or **STEP CAD** requirement. Each diameter keeps its own published data boundary; values must not be transferred between frame sizes.

@@ -13,6 +13,8 @@ Each released file represents the **4-stage reference configuration** for its fr
 
 The [SigGear TraceParts catalog (Chinese-language portal)](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR) lists the **8P–42P** series. The [international English power-transmission supplier index](https://www.traceparts.com/en/search/traceparts-classification-mechanical-components-power-transmission?CatalogPath=TRACEPARTS%3ATP01005) lists **SIGGEAR (12)**. On **2026-10-14**, a SigGear operator confirmed successful **STEP AP203 generation and downloads for all 12 product families** in the international English portal. The initial 8P and 42P attempts were retried successfully after waiting for generation. Download success does not establish independent CAD geometry validation or universal stage/ratio compatibility.
 
+[Browse TraceParts International (English) — Filter Supplier SIGGEAR](https://www.traceparts.com/en/search/traceparts-classification-mechanical-components-power-transmission?CatalogPath=TRACEPARTS%3ATP01005){ .md-button }
+
 For accurate preliminary packaging, confirm that any downloaded CAD corresponds to the required frame size and **4-stage reference configuration**. Public simplified CAD is not a substitute for a controlled drawing or configuration-matched STEP model for a different reduction stage or final production release.
 
 ## Planetary Gearbox CAD / STEP by Diameter
