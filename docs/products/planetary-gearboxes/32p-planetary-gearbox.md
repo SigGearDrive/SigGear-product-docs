@@ -1,6 +1,6 @@
 ---
-title: 32 mm Miniature Planetary Gearbox (32P) | SigGear
-description: SigGear 32P is a 32 mm miniature planetary gearbox / gearhead with 3.5:1–509.1:1 published ratios, datasheet, STEP CAD, gearbox-only supply and motor matching.
+title: 32 mm Miniature Planetary Gearbox (32P)
+description: SigGear 32P: 32 mm miniature planetary gearbox with 1–4 stages and 28.05–52.95 mm body lengths. Datasheet, motor integration, Design-In Pack and STEP CAD.
 ---
 
 
