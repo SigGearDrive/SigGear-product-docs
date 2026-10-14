@@ -13,6 +13,7 @@ These systems usually require precise low-speed motion, repeatable positioning, 
 
 SigGear can evaluate micro gear motors, compact planetary gearboxes, flat BLDC motors and customized motor/gearbox assemblies for laboratory automation, diagnostic analyzers, sample-preparation systems, reagent systems, compact pumps, valve mechanisms and inspection-device motion axes. Final model selection, medical or laboratory compliance boundary, validation responsibility and production approval must be confirmed case by case.
 
+[Find Published Gearbox Candidates](../selection-guides/miniature-planetary-gearbox-selection-guide.md#find-your-gearbox-preliminary-ratio-stage-finder){ .md-button .md-button--primary }
 [Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Start Laboratory Automation Project Brief](../request-cad-sample-quote.md?app=laboratory_automation){ .md-button }
