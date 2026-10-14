@@ -14,7 +14,7 @@ platforms:
     channel_type: CAD_design_in_and_download_leads
     priority: P1
     commercial_model: paid_publishing_plan_quote_required
-    current_status: international_english_operator_confirmed_12_of_12_step_downloads
+    current_status: all_12_English_STEP_downloads_confirmed_and_model_specific_GitHub_links_prepared
     evidence:
       international_supplier_index_label: "SIGGEAR (12)"
       international_supplier_index_scope: supplier_filter_only
@@ -27,6 +27,9 @@ platforms:
       file_geometry_review: not_yet_independently_completed
       source_step_in_repo: present_for_8P_and_42P_not_a_full_geometric_or_download_validity_test
       github_to_traceparts_catalog_links: deployed_12_of_12
+      github_to_traceparts_English_model_links: included_in_pending_PR
+      operator_supplied_English_model_urls: 12_of_12
+      exact_model_url_registry: data/external-catalogs/platforms/traceparts-model-urls-2026-10-14.yml
       live_validation_register: data/external-catalogs/platforms/traceparts-live-validation-2026-10-14.yml
     ready:
       - 12_family_references
@@ -34,18 +37,20 @@ platforms:
       - product_data_export
       - traceparts_field_mapping
       - product_page_urls
+      - 12_operator_supplied_English_model_detail_URLs
       - datasheet_urls
       - mechanical_interface_urls
       - official_logo_white_background_minimum_40px_height
     pending_siggear:
-      - capture_exact_English_product_detail_URLs_for_all_12_models
+      - check_12_direct_model_links_on_published_GitHub_Pages
       - verify_downloaded_file_geometry_and_configuration_correspondence_if_needed
       - confirm_TraceParts_outbound_links_to_GitHub_have_UTM_tracking
+      - request_TraceParts_product_name_alignment_Micro_Miniature_Compact
     pending_platform:
       - official_smart_publishing_xls_template
       - valid_classification_category_id
       - account_or_publishing_access
-    next_action: capture_12_English_product_URLs_update_model_level_GitHub_links_and_verify_UTM_attribution
+    next_action: verify_12_model_links_on_public_GitHub_pages_then_confirm_TraceParts_Publisher_titles_and_return_UTM_links
 
   3Dfindit:
     channel_type: CAD_design_in_configurator_and_download_leads
