@@ -1,6 +1,6 @@
 ---
-title: 42 mm Compact Planetary Gearbox (42P) | SigGear
-description: SigGear 42P is a 42 mm compact planetary gearbox / gearhead with 3.8:1–660.7:1 published ratios, datasheet, STEP CAD, gearbox-only supply and motor matching.
+title: 42 mm Compact Planetary Gearbox (42P)
+description: SigGear 42P: 42 mm compact planetary gearbox with 3.8:1–660.7:1 published ratio options. Review the datasheet, motor guide, Design-In Pack and STEP CAD.
 ---
 
 
