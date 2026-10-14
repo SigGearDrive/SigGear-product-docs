@@ -40,6 +40,7 @@ Models: [8P](8p-planetary-gearbox.md) · [10P](10p-planetary-gearbox.md) · [12P
 
 [Dexterous Hand & Gripper Application Guide](../../applications/robot-gripper-gear-motors.md){ .md-button }
 [Laboratory Automation Application Guide](../../applications/laboratory-automation-diagnostic-equipment-gear-motors.md){ .md-button }
+[Pump / Valve / Dosing Application Guide](../../applications/pump-valve-fluid-control-gear-motors.md){ .md-button }
 
 ## 2. Compact OEM — 20P to 28P
 
@@ -70,6 +71,7 @@ Models: [20P](20p-planetary-gearbox.md) · [22P](22p-planetary-gearbox.md) · [2
 
 [Electric Curtain / Blind Application Guide](../../applications/electric-curtain-blind-window-opener-gear-motors.md){ .md-button }
 [Smart Toilet & Bidet Application Guide](../../applications/smart-toilet-bidet-planetary-gear-motors.md){ .md-button }
+[Pump / Valve / Dosing Application Guide](../../applications/pump-valve-fluid-control-gear-motors.md){ .md-button }
 
 ## 3. High-Torque Compact — 32P to 42P
 
@@ -101,6 +103,7 @@ Models: [32P](32p-planetary-gearbox.md) · [36P](36p-planetary-gearbox.md) · [4
     **32P remains part of SigGear's published Miniature product class.** It is grouped here only because it often serves as the first bridge into higher-torque compact OEM mechanisms.
 
 [Electric Pruning Shears Application Guide](../../applications/electric-pruning-shears-planetary-gearbox.md){ .md-button }
+[Powered Screwdriver & Fastening Tool Guide](../../applications/powered-screwdriver-planetary-gearbox.md){ .md-button }
 [32P Design-In Resources](../../engineering-resources/32p/design-in-pack.md){ .md-button }
 [42P Design-In Resources](../../engineering-resources/42p/design-in-pack.md){ .md-button }
 
