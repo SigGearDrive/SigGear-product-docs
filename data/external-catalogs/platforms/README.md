@@ -52,4 +52,4 @@ The SigGear operator successfully generated/downloaded all 12 series STEP AP203 
 - [English product-title correction and tracked GitHub URL handoff](traceparts-english-publishing-handoff-2026-10-14.md)
 - [12-model CAD validation register](traceparts-live-validation-2026-10-14.yml)
 
-Model-specific `traceparts.com/en/product/...` URLs have not yet been recorded as complete verified addresses. Never substitute a guessed slug for a copied, checked product URL.
+All 12 model-specific `traceparts.com/en/product/...` URLs were provided directly by the SigGear operator on 2026-10-14 and recorded in [the English model URL registry](traceparts-model-urls-2026-10-14.yml). Existing `Product` identifiers and `PartNumber` values are preserved without inventing slugs. The operator confirmed all 12 STEP AP203 downloads; independent CAD geometry validation and TraceParts Publisher title alignment remain separate tasks.

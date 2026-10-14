@@ -13,6 +13,9 @@ latest_user_report:
   root_cause_platform_file_error: not_established
   independent_file_geometry_validation: not_performed
   report_source: SigGear_operator_direct_browser_testing
+  english_model_detail_urls_received_from_operator: 12
+  model_url_registry: data/external-catalogs/platforms/traceparts-model-urls-2026-10-14.yml
+  assistant_link_fetch: not_independently_verified_due_to_interactive_TraceParts_browser
 user_test_2026_10_14:
   source: first_party_siggear_operator_confirmation_and_uploaded_browser_screenshot
   testing_site: https://www.traceparts.com/en
@@ -46,7 +49,7 @@ validation_definition:
   configuration_guard: published_public_CAD_is_simplified_4_stage_reference_not_all_stage_or_ratio_specific_production_geometry
 models:
   - model: 8P
-    traceparts_en_product_url: null
+    traceparts_en_product_url: "https://www.traceparts.com/en/product/siggear-8p-8-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121068&PartNumber=8p"
     traceparts_zh_product_url: null
     english_product_detail: user_reported_accessible
     chinese_product_detail: user_reported_accessible
@@ -56,7 +59,7 @@ models:
     test_source: user_browser_test_2026_10_14
     historical_chinese_preview_download: user_reports_success_2026_10_14
   - model: 10P
-    traceparts_en_product_url: null
+    traceparts_en_product_url: "https://www.traceparts.com/en/product/siggear-10p-10-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121061&PartNumber=10p"
     traceparts_zh_product_url: null
     english_product_detail: user_reported_accessible
     chinese_product_detail: user_reported_accessible
@@ -66,7 +69,7 @@ models:
     test_source: user_browser_test_2026_10_14
     historical_chinese_preview_download: user_reports_success_2026_10_14
   - model: 12P
-    traceparts_en_product_url: null
+    traceparts_en_product_url: "https://www.traceparts.com/en/product/siggear-12p-12-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121062&PartNumber=12p"
     traceparts_zh_product_url: null
     english_product_detail: user_reported_accessible
     chinese_product_detail: user_reported_accessible
@@ -76,7 +79,7 @@ models:
     test_source: user_browser_test_2026_10_14
     historical_chinese_preview_download: user_reports_success_2026_10_14
   - model: 14P
-    traceparts_en_product_url: null
+    traceparts_en_product_url: "https://www.traceparts.com/en/product/siggear-14p-14-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121058&PartNumber=14p"
     traceparts_zh_product_url: null
     english_product_detail: user_reported_accessible
     chinese_product_detail: user_reported_accessible
@@ -86,7 +89,7 @@ models:
     test_source: user_browser_test_2026_10_14
     historical_chinese_preview_download: user_reports_success_2026_10_14
   - model: 16P
-    traceparts_en_product_url: null
+    traceparts_en_product_url: "https://www.traceparts.com/en/product/siggear-16p-16-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121060&PartNumber=16p"
     traceparts_zh_product_url: null
     english_product_detail: user_reported_accessible
     chinese_product_detail: user_reported_accessible
@@ -96,7 +99,7 @@ models:
     test_source: user_browser_test_2026_10_14
     historical_chinese_preview_download: user_reports_success_2026_10_14
   - model: 20P
-    traceparts_en_product_url: null
+    traceparts_en_product_url: "https://www.traceparts.com/en/product/siggear-20p-20-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121059&PartNumber=20p"
     traceparts_zh_product_url: null
     english_product_detail: user_reported_accessible
     chinese_product_detail: user_reported_accessible
@@ -106,7 +109,7 @@ models:
     test_source: user_browser_test_2026_10_14
     historical_chinese_preview_download: user_reports_success_2026_10_14
   - model: 22P
-    traceparts_en_product_url: null
+    traceparts_en_product_url: "https://www.traceparts.com/en/product/siggear-22p-22-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121064&PartNumber=22p"
     traceparts_zh_product_url: null
     english_product_detail: user_reported_accessible
     chinese_product_detail: user_reported_accessible
@@ -116,7 +119,7 @@ models:
     test_source: user_browser_test_2026_10_14
     historical_chinese_preview_download: user_reports_success_2026_10_14
   - model: 24P
-    traceparts_en_product_url: null
+    traceparts_en_product_url: "https://www.traceparts.com/en/product/siggear-24p-24-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121065&PartNumber=24p"
     traceparts_zh_product_url: null
     english_product_detail: user_reported_accessible
     chinese_product_detail: user_reported_accessible
@@ -126,7 +129,7 @@ models:
     test_source: user_browser_test_2026_10_14
     historical_chinese_preview_download: user_reports_success_2026_10_14
   - model: 28P
-    traceparts_en_product_url: null
+    traceparts_en_product_url: "https://www.traceparts.com/en/product/siggear-28p-28-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121063&PartNumber=28p"
     traceparts_zh_product_url: null
     english_product_detail: user_reported_accessible
     chinese_product_detail: user_reported_accessible
@@ -136,7 +139,7 @@ models:
     test_source: user_browser_test_2026_10_14
     historical_chinese_preview_download: user_reports_success_2026_10_14
   - model: 32P
-    traceparts_en_product_url: null
+    traceparts_en_product_url: "https://www.traceparts.com/en/product/siggear-32p-32-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121066&PartNumber=32p"
     traceparts_zh_product_url: null
     english_product_detail: user_reported_accessible
     chinese_product_detail: user_reported_accessible
@@ -146,7 +149,7 @@ models:
     test_source: user_browser_test_2026_10_14
     historical_chinese_preview_download: user_reports_success_2026_10_14
   - model: 36P
-    traceparts_en_product_url: null
+    traceparts_en_product_url: "https://www.traceparts.com/en/product/siggear-36p-36-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121067&PartNumber=36p"
     traceparts_zh_product_url: null
     english_product_detail: user_reported_accessible
     chinese_product_detail: user_reported_accessible
@@ -156,7 +159,7 @@ models:
     test_source: user_browser_test_2026_10_14
     historical_chinese_preview_download: user_reports_success_2026_10_14
   - model: 42P
-    traceparts_en_product_url: null
+    traceparts_en_product_url: "https://www.traceparts.com/en/product/siggear-42p-42-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769190-121069&PartNumber=42p"
     traceparts_zh_product_url: null
     english_product_detail: user_reported_accessible
     chinese_product_detail: user_reported_accessible
@@ -166,7 +169,7 @@ models:
     test_source: user_browser_test_2026_10_14
     historical_chinese_preview_download: reported_verified_in_prior_work
 next_actions:
-  - obtain_exact_12_model_English_detail_URLs_for_direct_product_links
-  - replace_general_GitHub_to_TraceParts_catalog_links_only_after_product_URL_verification
+  - check_all_12_model_level_GitHub_to_TraceParts_links_after_Pages_deploy
+  - monitor_links_after_TraceParts_English_product_title_updates_to_ensure_Product_ID_routing_remains_stable
   - confirm_TraceParts_to_GitHub_product_document_links_use_referral_UTM_and_actually_render
   - optionally_open_saved_STEP_files_and_check_model_dimensions_and_4_stage_reference_correspondence

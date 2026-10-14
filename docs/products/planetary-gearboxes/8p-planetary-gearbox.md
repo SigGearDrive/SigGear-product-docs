@@ -123,10 +123,10 @@ A detailed full-assembly STEP is held as configuration-controlled engineering CA
 
 ## TraceParts CAD Discovery
 
-[Explore TraceParts International (English) — Filter SIGGEAR](https://www.traceparts.com/en/search/traceparts-classification-mechanical-components-power-transmission?CatalogPath=TRACEPARTS%3ATP01005){ .md-button .md-button--primary }
+[View 8P 3D CAD on TraceParts (English)](https://www.traceparts.com/en/product/siggear-8p-8-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121068&PartNumber=8p){ .md-button .md-button--primary }
 [Browse SigGear Catalog (Chinese Portal)](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR){ .md-button }
 
-These are **catalog/category browsing entrances**, not a verified direct 8P product URL. On the international English site, filter supplier **SIGGEAR** and select 8P. A SigGear operator confirmed the 8P **STEP AP203 download on 2026-10-14**. File download success does not independently confirm geometry or stage/ratio matching: public CAD is a simplified **4-stage reference**; request controlled configuration-matched CAD before design freeze.
+The link above opens the **8P product detail page** on TraceParts International, using the exact address provided by the SigGear operator. STEP AP203 generation and download for this model were confirmed on **2026-10-14**. The Chinese catalog link is provided as an alternative browsing route. Public CAD is a **simplified 4-stage reference**; check stage, ratio and interfaces before production design, and request controlled configuration-matched CAD if required.
 
 ## Related Planetary Gearbox Resources
 
