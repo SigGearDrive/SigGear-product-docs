@@ -44,3 +44,12 @@ python scripts/export_traceparts_catalog.py \
 ```
 
 This creates `exports/external-catalogs/traceparts-products-en.csv`, which is a field-aligned import/mapping source for the official TraceParts Excel template.
+
+## Live international English handoff
+
+The SigGear operator successfully generated/downloaded all 12 series STEP AP203 CAD files from the international English TraceParts site (2026-10-14). For the next publication improvement, see:
+
+- [English product-title correction and tracked GitHub URL handoff](traceparts-english-publishing-handoff-2026-10-14.md)
+- [12-model CAD validation register](traceparts-live-validation-2026-10-14.yml)
+
+Model-specific `traceparts.com/en/product/...` URLs have not yet been recorded as complete verified addresses. Never substitute a guessed slug for a copied, checked product URL.
