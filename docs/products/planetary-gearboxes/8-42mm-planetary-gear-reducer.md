@@ -92,6 +92,18 @@ Engineers often begin with the available installation diameter. Open the model-s
 
 [8 mm](8p-planetary-gearbox.md) · [10 mm](10p-planetary-gearbox.md) · [12 mm](12p-planetary-gearbox.md) · [14 mm](14p-planetary-gearbox.md) · [16 mm](16p-planetary-gearbox.md) · [20 mm](20p-planetary-gearbox.md) · [22 mm](22p-planetary-gearbox.md) · [24 mm](24p-planetary-gearbox.md) · [28 mm](28p-planetary-gearbox.md) · [32 mm](32p-planetary-gearbox.md) · [36 mm](36p-planetary-gearbox.md) · [42 mm](42p-planetary-gearbox.md)
 
+## Application-Led Starting Point
+
+In addition to the published **Micro / Miniature / Compact** size classes, SigGear uses three application-led Design-In groups for early OEM discussion:
+
+- **Micro Precision — 8P-16P** for highly space-constrained precision mechanisms
+- **Compact OEM — 20P-28P** for smart-home, appliance, valve, gripper and compact commercial mechanisms
+- **High-Torque Compact — 32P-42P** for pruning tools, fastening tools and higher-load compact mechanisms
+
+This grouping is only for application discovery. Final selection uses the exact model, ratio, stage count, rated torque, length and motor interface.
+
+[Explore the 3 Application Families](application-families.md){ .md-button .md-button--primary }
+
 ## Quick Selection Matrix
 
 Use this table for **preliminary frame-size selection**. Values are the currently published ranges for each standard series. Final selection still depends on the exact stage count, reduction ratio, motor, duty cycle and mechanical interface.
