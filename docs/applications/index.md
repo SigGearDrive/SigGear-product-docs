@@ -32,6 +32,12 @@ Review blade force, lever geometry, cutting peaks, output speed, motor matching,
 
 [Electric Pruning Shears Planetary Gearbox Guide](electric-pruning-shears-planetary-gearbox.md){ .md-button .md-button--primary }
 
+### Electric Screwdrivers and Fastening Tools
+
+Review normal fastening torque, peak / jam load, output speed, loaded motor speed, battery or supply limits, shaft interface and repeated fastening duty.
+
+[Powered Screwdriver & Fastening Tool Planetary Gearbox Guide](powered-screwdriver-planetary-gearbox.md){ .md-button }
+
 ### Electric Curtains, Blinds and Window Openers
 
 Review loaded motor speed, pulley travel, track friction, low-noise requirements, holding behavior, shaft interface and gearbox-only versus motor + gearbox supply.
@@ -63,6 +69,8 @@ Review compact pumps, valves, dosing, sample handling and positioning mechanisms
 [Medical Device Micro Gear Motor Guide](medical-device-micro-gear-motors.md){ .md-button }
 [Laboratory Automation Gear Motor Guide](laboratory-automation-diagnostic-equipment-gear-motors.md){ .md-button }
 
+Laboratory automation is a priority **Micro Precision** Design-In route for 8P–24P when packaging, low vibration and repeatable low-speed motion matter.
+
 ### Smart Locks and Access Control
 
 Review bolt, latch, cam and release mechanisms by force, stroke, battery current, jam behavior, holding requirement and compact packaging.
@@ -74,6 +82,8 @@ Review bolt, latch, cam and release mechanisms by force, stroke, battery current
 Review peristaltic pumps, syringe / plunger drives, rotary valves and compact dosing mechanisms by pressure, flow, torque, speed, duty cycle and feedback.
 
 [Pump / Valve / Dosing Gear Motor Guide](pump-valve-fluid-control-gear-motors.md){ .md-button }
+
+Pump, valve and dosing projects are a priority **Micro Precision / Compact OEM** route where the customer may already have a qualified motor or pump / valve mechanism.
 
 ### Camera Modules, Focus and Zoom Mechanisms
 
