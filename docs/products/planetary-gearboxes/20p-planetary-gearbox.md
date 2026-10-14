@@ -1,6 +1,6 @@
 ---
 title: 20 mm Miniature Planetary Gearbox (20P)
-description: SigGear 20P: 20 mm miniature planetary gearbox with 4:1–1296:1 published ratio options across 1–4 stages. Compare mounting interfaces and STEP CAD.
+description: "SigGear 20P: 20 mm miniature planetary gearbox with 4:1–1296:1 published ratio options across 1–4 stages. Compare mounting interfaces and STEP CAD."
 ---
 
 
