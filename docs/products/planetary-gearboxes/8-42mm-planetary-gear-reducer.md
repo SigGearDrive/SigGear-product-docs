@@ -102,7 +102,7 @@ In addition to the published **Micro / Miniature / Compact** size classes, SigGe
 
 This grouping is only for application discovery. Final selection uses the exact model, ratio, stage count, rated torque, length and motor interface.
 
-[Explore the 3 Application Families](application-families.md){ .md-button .md-button--primary }
+[Explore the 3 Application Families](../../applications/planetary-gearbox-application-families.md){ .md-button .md-button--primary }
 
 ## Quick Selection Matrix
 
