@@ -23,7 +23,7 @@ Use the gearbox diameter only as a first packaging filter. The exact model must 
 | **20P–28P — Compact OEM tools** | cordless screwdrivers, moderate-torque fastening mechanisms and compact service tools | continuous torque, peak torque, loaded motor speed, duty cycle and available axial length |
 | **32P–42P — High-Torque Compact** | higher-torque fastening tools, compact nut-runner mechanisms and larger motors | rated torque, peak / jam duration, shock load, motor power, bearing load and thermal behavior |
 
-[See the 3 Planetary Application Families](../products/planetary-gearboxes/application-families.md){ .md-button }
+[See the 3 Planetary Application Families](planetary-gearbox-application-families.md){ .md-button }
 
 ## The Main Engineering Questions
 
