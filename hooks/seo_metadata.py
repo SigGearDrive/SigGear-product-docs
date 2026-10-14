@@ -132,8 +132,8 @@ def _real_evidence_image(page, config) -> dict | None:
     src = page.file.src_uri.replace("\\", "/")
 
     if src in {"index.md", PLANETARY_SERIES_SRC}:
-        relative = "assets/images/evidence/planetary/8-42mm-planetary-gearbox-family-real.webp"
-        alt = "Real SigGear 8P-42P miniature and compact planetary gearbox family lineup"
+        relative = "assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014.jpg"
+        alt = "Real SigGear 36P 36 mm compact planetary gearbox; one example from the 8–42 mm range"
     else:
         data = _product_by_src.get(src)
         if not data or data.get("product_family") != "planetary_gearbox":

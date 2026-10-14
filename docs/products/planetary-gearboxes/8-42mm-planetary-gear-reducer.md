@@ -23,15 +23,30 @@ SigGear's [TraceParts catalog (Chinese-language portal)](https://www.traceparts.
 [Project Brief — Send What You Know](../../request-cad-sample-quote.md){ .md-button }
 [Motor + Gearbox Integration Guide](../../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
-## Real Product & Size Reference
+## Real Product Photos — Three Size Examples
 
-![Real SigGear 8P–42P micro, miniature and compact planetary gearbox family lineup](../../assets/images/evidence/planetary/8-42mm-planetary-gearbox-family-real.webp)
+The images below show **three separate, existing SigGear product references**, not a single photograph of all 12 models. Use the individual product pages for the exact gearbox diameter, mounting drawing, stage count and ratio.
 
-*Real SigGear planetary gearbox family photographed together as a size-range reference. The image demonstrates physical product coverage across micro, miniature and compact frame sizes; use the model pages and controlled drawings for exact model identification, dimensions and configuration details.*
-
-![Real compact motor and gearbox assemblies beside a steel ruler](../../assets/images/evidence/planetary/compact-gearmotor-size-reference.webp)
-
-*Real compact motor + gearbox assemblies shown beside a ruler for scale. This photo demonstrates physical product and integration work only; exact gearbox model, ratio, stage count and motor interface must be confirmed separately.*
+<div class="siggear-planetary-photo-grid">
+  <figure>
+    <a href="/SigGear-product-docs/products/planetary-gearboxes/10p-planetary-gearbox/" aria-label="View 10P 10 mm Micro Planetary Gearbox">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-main.webp" alt="Published SigGear 10P product image" width="1254" height="1254" loading="eager" decoding="async">
+    </a>
+    <figcaption><strong>Micro · 10P (10 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/10p-planetary-gearbox/">View 10P specifications and CAD</a></figcaption>
+  </figure>
+  <figure>
+    <a href="/SigGear-product-docs/products/planetary-gearboxes/20p-planetary-gearbox/" aria-label="View 20P 20 mm Miniature Planetary Gearbox">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/20p/20p-real-product-evidence.webp" alt="Real SigGear 20P product and diameter reference" width="900" height="625" loading="lazy" decoding="async">
+    </a>
+    <figcaption><strong>Miniature · 20P (20 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/20p-planetary-gearbox/">View 20P specifications and CAD</a></figcaption>
+  </figure>
+  <figure>
+    <a href="/SigGear-product-docs/products/planetary-gearboxes/36p-planetary-gearbox/" aria-label="View 36P 36 mm Compact Planetary Gearbox">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014.jpg" alt="Real SigGear 36P product photograph" width="460" height="340" loading="lazy" decoding="async">
+    </a>
+    <figcaption><strong>Compact · 36P (36 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/36p-planetary-gearbox/">View 36P specifications and CAD</a></figcaption>
+  </figure>
+</div>
 
 [See SigGear Manufacturing & Quality Evidence](../../company/manufacturing-and-quality-evidence.md){ .md-button }
 [Testing & Validation Evidence](../../engineering-center/testing-and-validation-evidence.md){ .md-button }
