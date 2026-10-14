@@ -22,7 +22,8 @@ user_test_2026_10_14:
   failed_models: [8P, 42P]
   successful_models: [10P, 12P, 14P, 16P, 20P, 22P, 24P, 28P, 32P, 36P]
   format_visible_in_42p_screenshot: 3D_XML
-  whether_failed_attempts_selected_STEP_AP203: unconfirmed
+  clarification: user_selected_STEP_for_failed_attempts_despite_dropdown_initially_showing_3D_XML
+  whether_failed_attempts_selected_STEP_AP203: confirmed_by_user
   traceparts_support: https://info.traceparts.com/designers/report-an-issue-about-traceparts-cad-content-platform/
   interpretation: firsthand_user_test_not_independently_reproduced_by_assistant
   chinese_portal: user_previously_reported_all_12_downloads_worked
@@ -54,7 +55,7 @@ models:
     chinese_product_detail: user_reported_accessible
     three_d_preview_this_round: not_separately_tested_by_assistant
     needs_traceparts_support: true
-    step_download_this_round: user_reported_failed
+    step_download_this_round: user_reported_failed_after_selecting_STEP
     failure_cause_confirmed: false
     test_source: user_browser_test_2026_10_14
     historical_chinese_preview_download: user_reports_success_2026_10_14
@@ -165,7 +166,7 @@ models:
     chinese_product_detail: user_reported_accessible
     three_d_preview_this_round: not_separately_tested_by_assistant
     needs_traceparts_support: true
-    step_download_this_round: user_reported_failed
+    step_download_this_round: user_reported_failed_after_selecting_STEP
     failure_cause_confirmed: false
     test_source: user_browser_test_2026_10_14
     historical_chinese_preview_download: reported_verified_in_prior_work
