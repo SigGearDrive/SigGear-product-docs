@@ -152,6 +152,8 @@ The link above opens the **20P product detail page** on TraceParts International
 
 ## Related Planetary Gearbox Resources
 
+**Need to compare the installation envelope?** See the smaller [16P 16 mm Micro Planetary Gearbox](16p-planetary-gearbox.md) and the larger [22P 22 mm Miniature Planetary Gearbox](22p-planetary-gearbox.md), then verify each model's output load and shaft interface. Frame sizes are not drop-in substitutes.
+
 [8–42 mm Planetary Gearbox Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Browse All Planetary Gearboxes](index.md){ .md-button }
 [Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
