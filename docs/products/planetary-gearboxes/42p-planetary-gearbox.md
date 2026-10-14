@@ -141,6 +141,12 @@ A detailed full-assembly STEP is held as configuration-controlled engineering CA
 
 A simplified public **4-stage 42P STEP is now released** for early mechanical packaging and Design-In. Use configuration-matched controlled CAD for another stage count or final production release.
 
+## TraceParts CAD Discovery
+
+[Browse SigGear's TraceParts Catalog — Find 42P (Chinese Portal)](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR){ .md-button }
+
+This link opens the **SigGear catalog**, not a verified direct 42P product or CAD-download link. Find the 42P family in the catalog and confirm the selected model before downloading. The individual 42P TraceParts 3D preview and CAD download have not yet been independently verified. For immediate preliminary packaging review, use the simplified **4-stage reference STEP** in the Engineering Resources section; request stage- and ratio-matched controlled CAD before design freeze.
+
 ## Related Planetary Gearbox Resources
 
 [8–42 mm Planetary Gearbox Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
