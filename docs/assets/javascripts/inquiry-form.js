@@ -252,6 +252,17 @@
           var loadField = document.getElementById("sg-load");
           if (loadField && !loadField.value) loadField.value = loads.join("; ");
         }
+        var maxDiameter = Number(params.get("selector_max_diameter"));
+        var maxGearboxLength = Number(params.get("selector_max_gearbox_length"));
+        var envelope = [];
+        if (params.has("selector_max_diameter") && Number.isFinite(maxDiameter) && maxDiameter > 0)
+          envelope.push("Maximum gearbox diameter: " + maxDiameter + " mm");
+        if (params.has("selector_max_gearbox_length") && Number.isFinite(maxGearboxLength) && maxGearboxLength > 0)
+          envelope.push("Maximum gearbox body length: " + maxGearboxLength + " mm");
+        if (envelope.length) {
+          var sizeField = document.getElementById("sg-size");
+          if (sizeField && !sizeField.value) sizeField.value = envelope.join("; ");
+        }
       }
 
       var queryNextStep = (params.get("next_step") || "").toLowerCase();
