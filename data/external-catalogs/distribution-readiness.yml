@@ -14,7 +14,7 @@ platforms:
     channel_type: CAD_design_in_and_download_leads
     priority: P1
     commercial_model: paid_publishing_plan_quote_required
-    current_status: all_12_English_STEP_downloads_confirmed_and_model_specific_GitHub_links_prepared
+    current_status: all_12_English_STEP_downloads_confirmed_GitHub_crosslinks_live_publisher_UTM_pending
     evidence:
       international_supplier_index_label: "SIGGEAR (12)"
       international_supplier_index_scope: supplier_filter_only
@@ -27,10 +27,14 @@ platforms:
       file_geometry_review: not_yet_independently_completed
       source_step_in_repo: present_for_8P_and_42P_not_a_full_geometric_or_download_validity_test
       github_to_traceparts_catalog_links: deployed_12_of_12
-      github_to_traceparts_English_model_links: all_12_model_pages_updated_in_source_2026_10_14
+      github_to_traceparts_English_model_links: deployed_and_verified_12_of_12_on_gh_pages
       operator_supplied_English_model_urls: 12_of_12
       exact_model_url_registry: data/external-catalogs/platforms/traceparts-model-urls-2026-10-14.yml
       live_validation_register: data/external-catalogs/platforms/traceparts-live-validation-2026-10-14.yml
+      publisher_update_request: data/external-catalogs/platforms/traceparts-publisher-update-request-2026-10-14.md
+      ga4_referral_baseline: data/external-catalogs/platforms/traceparts-attribution-baseline-2026-10-14.yml
+      ga4_observed_traceparts_sessions_2026_09_17_to_10_14: 0
+      ga4_total_sessions_same_period: 6
     ready:
       - 12_family_references
       - 12_public_simplified_step_files
@@ -42,15 +46,15 @@ platforms:
       - mechanical_interface_urls
       - official_logo_white_background_minimum_40px_height
     pending_siggear:
-      - check_12_direct_model_links_on_published_GitHub_Pages
       - verify_downloaded_file_geometry_and_configuration_correspondence_if_needed
       - confirm_TraceParts_outbound_links_to_GitHub_have_UTM_tracking
       - request_TraceParts_product_name_alignment_Micro_Miniature_Compact
+      - confirm_TraceParts_Analytics_and_RFQ_capabilities_under_current_plan
     pending_platform:
       - official_smart_publishing_xls_template
       - valid_classification_category_id
       - account_or_publishing_access
-    next_action: verify_12_model_links_on_public_GitHub_pages_then_confirm_TraceParts_Publisher_titles_and_return_UTM_links
+    next_action: send_prepared_12_product_ID_title_and_UTM_publisher_update_request_then_validate_English_pages_and_Analytics
 
   3Dfindit:
     channel_type: CAD_design_in_configurator_and_download_leads
