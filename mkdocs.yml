@@ -75,6 +75,7 @@ hooks:
 
 extra_css:
   - assets/stylesheets/inquiry-form.css
+  - assets/stylesheets/planetary-real-photo-grid.css
   - assets/stylesheets/ratio-stage-selector.css
   - assets/stylesheets/candidate-design-in-pack.css
   - assets/stylesheets/sample-validation.css
