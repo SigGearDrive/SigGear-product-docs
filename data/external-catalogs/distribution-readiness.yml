@@ -14,13 +14,16 @@ platforms:
     channel_type: CAD_design_in_and_download_leads
     priority: P1
     commercial_model: paid_publishing_plan_quote_required
-    current_status: english_supplier_index_visible_model_level_cad_verification_pending
+    current_status: international_user_test_10_of_12_downloads_success_8p_42p_failed
     evidence:
       international_supplier_index_label: "SIGGEAR (12)"
       international_supplier_index_scope: supplier_filter_only
       chinese_catalog: previously_listed_12_families
       historical_chinese_42p_preview_and_download: tested_in_prior_work
-      latest_12_model_cad_downloads: not_independently_tested
+      latest_12_model_cad_downloads: user_reported_10_success_2_failed_2026_10_14
+      failed_models: [8P, 42P]
+      failed_format_screenshot: 3D_XML_initially_visible_for_42P_but_user_confirmed_STEP_also_fails
+      source_step_in_repo: present_for_8P_and_42P_not_a_full_geometric_or_download_validity_test
       github_to_traceparts_catalog_links: deployed_12_of_12
       live_validation_register: data/external-catalogs/platforms/traceparts-live-validation-2026-10-14.yml
     ready:
@@ -33,14 +36,15 @@ platforms:
       - mechanical_interface_urls
       - official_logo_white_background_minimum_40px_height
     pending_siggear:
-      - independent_traceparts_product_URL_and_3D_preview_verification_for_all_12_models
-      - independent_STEP_download_matching_verification_for_all_12_models
-      - confirm_English_product_detail_page_accessibility
+      - collect_8p_42p_exact_failure_message_and_provider_download_response_after_STEP_selection
+      - provide_8p_and_42p_full_English_product_URLs_to_TraceParts_support
+      - independent_CAD_geometry_and_configuration_match_validation
+      - confirm_model_specific_English_product_detail_URLs_for_all_12_models
     pending_platform:
       - official_smart_publishing_xls_template
       - valid_classification_category_id
       - account_or_publishing_access
-    next_action: resolve_12_product_urls_and_verify_live_CAD_then_obtain_official_template_category_id_and_access_for_next_catalog_updates
+    next_action: report_8p_and_42p_STEP_download_failures_to_TraceParts_support_and_retest_after_vendor_feedback
 
   3Dfindit:
     channel_type: CAD_design_in_configurator_and_download_leads
