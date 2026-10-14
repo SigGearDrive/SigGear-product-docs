@@ -29,9 +29,9 @@ For **planetary gearbox STEP CAD**, visit the [model-by-model CAD download libra
 
 ## Real Product Evidence
 
-![Real SigGear 8P-42P miniature and compact planetary gearbox family lineup](assets/images/evidence/planetary/8-42mm-planetary-gearbox-family-real.webp)
+![Real SigGear 8P–42P micro, miniature and compact planetary gearbox family lineup](assets/images/evidence/planetary/8-42mm-planetary-gearbox-family-real.webp)
 
-*Real SigGear 8P–42P planetary gearbox family photographed together as a physical size-range reference. Use the individual model pages and controlled drawings for exact model identification, dimensions and configuration details.*
+*Real SigGear micro, miniature and compact planetary gearboxes (8P–42P) photographed together as a physical size-range reference. Use the individual model pages and controlled drawings for exact model identification, dimensions and configuration details.*
 
 ![Real compact geared motor assemblies being checked with a dial caliper at SigGear](assets/images/evidence/planetary/compact-gearmotor-measurement-caliper.webp)
 
@@ -72,7 +72,7 @@ Current public Engineering Resources are available for **SG-6010C**, **SG-6010D*
 
 | Product family | Typical use | Explore |
 | --- | --- | --- |
-| **Miniature & compact planetary gearboxes (8–42 mm)** | Gearbox-only supply or motor-matched OEM mechanisms | [View 8–42 mm series](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) |
+| **Micro, miniature & compact planetary gearboxes (8–42 mm)** | Gearbox-only supply or motor-matched OEM mechanisms | [View 8–42 mm series](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) |
 | **Motor + planetary gearbox integration** | Existing-motor matching or complete compact drive review | [Motor + gearbox engineering](custom-engineering/motor-gearbox-integration.md) |
 | Robot joint actuators | Humanoid robots, quadruped robots, robotic arms and exoskeletons | [View actuator series](products/robot-joint-actuators/index.md) |
 | Cycloidal joint modules | Compact robot joints requiring high torque and low backlash | [View cycloidal modules](products/cycloidal-joint-modules/index.md) |
