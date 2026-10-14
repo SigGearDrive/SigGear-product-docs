@@ -1,0 +1,125 @@
+schema_version: 1
+checked_on: "2026-10-14"
+program: siggear_traceparts_8p_42p_live_validation
+public_evidence:
+  international_supplier_index:
+    page: https://www.traceparts.com/en/search/traceparts-classification-mechanical-components-power-transmission?CatalogPath=TRACEPARTS%3ATP01005
+    observed_label: SIGGEAR
+    observed_supplier_count: 12
+    confidence_scope: supplier_filter_count_only_not_model_level_or_download_proof
+  chinese_catalog:
+    page: https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR
+    previously_observed_product_families: 12
+    direct_product_urls_verified: false
+  interaction_limit:
+    reason: TraceParts product details and CAD downloads require interactive browser actions; current search/read access cannot independently complete the CAD workflow
+    not_equivalent_to: successful_step_download
+validation_definition:
+  product_url_verified: open_the_actual_model_detail_url_not_a_catalog_search_result
+  preview_verified: load_the_model_preview_and_check_model_diameter_and_geometry
+  step_download_verified: select_STEP_download_open_the_file_and_check_correspondence_to_the_selected_model
+  english_verified: independently_load_the_English_product_detail_page
+  configuration_guard: published_public_CAD_is_simplified_4_stage_reference_not_all_stage_or_ratio_specific_production_geometry
+models:
+  - model: 8P
+    traceparts_en_product_url: null
+    traceparts_zh_product_url: null
+    english_product_detail: pending
+    chinese_product_detail: pending
+    three_d_preview_this_round: not_tested
+    step_download_this_round: not_tested
+    historical_chinese_preview_download: not_individually_verified
+  - model: 10P
+    traceparts_en_product_url: null
+    traceparts_zh_product_url: null
+    english_product_detail: pending
+    chinese_product_detail: pending
+    three_d_preview_this_round: not_tested
+    step_download_this_round: not_tested
+    historical_chinese_preview_download: not_individually_verified
+  - model: 12P
+    traceparts_en_product_url: null
+    traceparts_zh_product_url: null
+    english_product_detail: pending
+    chinese_product_detail: pending
+    three_d_preview_this_round: not_tested
+    step_download_this_round: not_tested
+    historical_chinese_preview_download: not_individually_verified
+  - model: 14P
+    traceparts_en_product_url: null
+    traceparts_zh_product_url: null
+    english_product_detail: pending
+    chinese_product_detail: pending
+    three_d_preview_this_round: not_tested
+    step_download_this_round: not_tested
+    historical_chinese_preview_download: not_individually_verified
+  - model: 16P
+    traceparts_en_product_url: null
+    traceparts_zh_product_url: null
+    english_product_detail: pending
+    chinese_product_detail: pending
+    three_d_preview_this_round: not_tested
+    step_download_this_round: not_tested
+    historical_chinese_preview_download: not_individually_verified
+  - model: 20P
+    traceparts_en_product_url: null
+    traceparts_zh_product_url: null
+    english_product_detail: pending
+    chinese_product_detail: pending
+    three_d_preview_this_round: not_tested
+    step_download_this_round: not_tested
+    historical_chinese_preview_download: not_individually_verified
+  - model: 22P
+    traceparts_en_product_url: null
+    traceparts_zh_product_url: null
+    english_product_detail: pending
+    chinese_product_detail: pending
+    three_d_preview_this_round: not_tested
+    step_download_this_round: not_tested
+    historical_chinese_preview_download: not_individually_verified
+  - model: 24P
+    traceparts_en_product_url: null
+    traceparts_zh_product_url: null
+    english_product_detail: pending
+    chinese_product_detail: pending
+    three_d_preview_this_round: not_tested
+    step_download_this_round: not_tested
+    historical_chinese_preview_download: not_individually_verified
+  - model: 28P
+    traceparts_en_product_url: null
+    traceparts_zh_product_url: null
+    english_product_detail: pending
+    chinese_product_detail: pending
+    three_d_preview_this_round: not_tested
+    step_download_this_round: not_tested
+    historical_chinese_preview_download: not_individually_verified
+  - model: 32P
+    traceparts_en_product_url: null
+    traceparts_zh_product_url: null
+    english_product_detail: pending
+    chinese_product_detail: pending
+    three_d_preview_this_round: not_tested
+    step_download_this_round: not_tested
+    historical_chinese_preview_download: not_individually_verified
+  - model: 36P
+    traceparts_en_product_url: null
+    traceparts_zh_product_url: null
+    english_product_detail: pending
+    chinese_product_detail: pending
+    three_d_preview_this_round: not_tested
+    step_download_this_round: not_tested
+    historical_chinese_preview_download: not_individually_verified
+  - model: 42P
+    traceparts_en_product_url: null
+    traceparts_zh_product_url: null
+    english_product_detail: pending
+    chinese_product_detail: pending
+    three_d_preview_this_round: not_tested
+    step_download_this_round: not_tested
+    historical_chinese_preview_download: reported_verified_in_prior_work
+next_actions:
+  - obtain_or_resolve_exact_12_model_detail_URLs_from_the_platform_catalog
+  - validate_individual_English_product_pages_and_step_downloads_using_an_interactive_authenticated_session
+  - record_verified_download_date_and_file_matching_for_each_model
+  - replace_general_GitHub_to_TraceParts_catalog_links_only_after_product_URL_verification
+  - confirm_TraceParts_to_GitHub_product_document_links_use_referral_UTM_and_actually_render
