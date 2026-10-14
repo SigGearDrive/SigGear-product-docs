@@ -24,7 +24,7 @@ A valve or pump project should be selected from **pressure, friction, mechanism 
 
 If the customer already has a qualified motor or pump head, SigGear can evaluate a gearbox-only solution around that existing architecture.
 
-[See the 3 Planetary Application Families](../products/planetary-gearboxes/application-families.md){ .md-button }
+[See the 3 Planetary Application Families](planetary-gearbox-application-families.md){ .md-button }
 [Motor + Gearbox Integration](../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
 
