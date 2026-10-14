@@ -1,19 +1,31 @@
 ---
-title: SigGear Planetary Gearbox Product Index | 8P–42P Models
-description: Browse SigGear planetary gearbox models and engineering resources. Start with the 8–42 mm series landing page for frame-size comparison, datasheets, STEP CAD and motor matching.
+title: Planetary Gearbox Model Directory | 8–42 mm Datasheets & CAD
+description: Find SigGear 8–42 mm planetary gearboxes by model and frame size. Micro 8–16 mm, miniature 20–32 mm, compact 36–42 mm with datasheets and STEP CAD.
 ---
 
-# SigGear Planetary Gearbox Product Index
+# SigGear Planetary Gearbox Model & CAD Directory
 
-This page is the **navigation index** for SigGear planetary gearbox models and related engineering resources.
+This is the model directory for SigGear's **12 published micro, miniature and compact planetary gearbox frame sizes (8–42 mm)**. Use the individual model pages for stage-dependent ratios, allowable torque and mounting details; this directory helps locate the correct datasheet, mechanical-interface reference and public STEP.
 
-For commercial product comparison, frame-size selection, gearbox-only supply, motor matching and public STEP access, use the dedicated **8–42 mm Miniature & Compact Planetary Gearbox Series** landing page. If the project needs a **motor with planetary gearbox** rather than gearbox-only supply, use the Motor + Gearbox Integration path to review the complete operating point and motor interface.
+For manufacturer evaluation, size and ratio comparison, gearbox-only supply, motor matching and public STEP access, use the dedicated **8–42 mm planetary gearbox series** landing page. If the project needs a **motor with planetary gearbox** rather than gearbox-only supply, use the Motor + Gearbox Integration path to review the complete operating point and motor interface.
 
 [Compare the 8–42 mm Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Motor + Planetary Gearbox Integration](../../custom-engineering/motor-gearbox-integration.md){ .md-button }
 [Download Public 4-Stage STEP CAD](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Start Engineering Project Brief](../../request-cad-sample-quote.md){ .md-button }
 [How to Select a Miniature Planetary Gearbox](../../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
+
+## Browse Exact Planetary Gearbox Diameters
+
+| Micro · 8–16 mm | Miniature · 20–32 mm | Compact · 36–42 mm |
+| --- | --- | --- |
+| [8 mm Micro Gearbox (8P)](8p-planetary-gearbox.md) | [20 mm Miniature Gearbox (20P)](20p-planetary-gearbox.md) | [36 mm Compact Gearbox (36P)](36p-planetary-gearbox.md) |
+| [10 mm Micro Gearbox (10P)](10p-planetary-gearbox.md) | [22 mm Miniature Gearbox (22P)](22p-planetary-gearbox.md) | [42 mm Compact Gearbox (42P)](42p-planetary-gearbox.md) |
+| [12 mm Micro Gearbox (12P)](12p-planetary-gearbox.md) | [24 mm Miniature Gearbox (24P)](24p-planetary-gearbox.md) | |
+| [14 mm Micro Gearbox (14P)](14p-planetary-gearbox.md) | [28 mm Miniature Gearbox (28P)](28p-planetary-gearbox.md) | |
+| [16 mm Micro Gearbox (16P)](16p-planetary-gearbox.md) | [32 mm Miniature Gearbox (32P)](32p-planetary-gearbox.md) | |
+
+These links go to the **actual SigGear product pages**, where engineers can read the model-specific data and open the [12-model public STEP reference library](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md). A 4-stage reference model is not interchangeable with another stage count.
 
 [Explore TraceParts International (English) — Filter SIGGEAR](https://www.traceparts.com/en/search/traceparts-classification-mechanical-components-power-transmission?CatalogPath=TRACEPARTS%3ATP01005){ .md-button .md-button--primary }
 
@@ -25,11 +37,11 @@ TraceParts' [Chinese-language SigGear catalog](https://www.traceparts.cn/zh/sear
 
 ### 8–42 mm Planetary Gear Reducer Series
 
-The miniature and compact series covers:
+The three size classes cover:
 
-- 8P, 10P and 12P
-- 14P, 16P, 20P, 22P, 24P and 28P
-- 32P, 36P and 42P
+- **Micro — 8–16 mm:** 8P, 10P, 12P, 14P and 16P
+- **Miniature — 20–32 mm:** 20P, 22P, 24P, 28P and 32P
+- **Compact — 36–42 mm:** 36P and 42P
 
 [View the 8–42 mm planetary gear reducer series](8-42mm-planetary-gear-reducer.md)
 
