@@ -53,6 +53,7 @@ The 12 published nominal frame sizes cover **Micro (8–16 mm)**, **Miniature (2
 
 ## Product Families
 
+- [Planetary gearbox application families](../products/planetary-gearboxes/application-families.md)
 - [Micro gear motors](../products/micro-gear-motors/index.md)
 - [Flat BLDC motors and joint drives](../products/flat-bldc-motors/index.md)
 
