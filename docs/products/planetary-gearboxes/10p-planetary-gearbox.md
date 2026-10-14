@@ -1,6 +1,6 @@
 ---
-title: 10 mm Micro Planetary Gearbox (10P) | SigGear
-description: SigGear 10P is a 10 mm micro planetary gearbox / gearhead with 3.5:1–428.7:1 published ratios, datasheet, STEP CAD, gearbox-only supply and motor matching.
+title: 10 mm Micro Planetary Gearbox (10P)
+description: SigGear 10P: 10 mm micro planetary gearbox with 1–4 stage configurations and 10.25–18.50 mm body lengths. Review ratios, mounting details and public STEP CAD.
 ---
 
 
