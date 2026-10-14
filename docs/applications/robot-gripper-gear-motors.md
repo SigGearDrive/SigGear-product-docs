@@ -29,7 +29,7 @@ Use this only as an early packaging filter. Final selection must use the exact m
 
 For a dexterous-hand program, the target should normally be the **smallest frame that passes the complete load and life requirement**, not simply the smallest available diameter.
 
-[See the 3 Planetary Application Families](../products/planetary-gearboxes/application-families.md){ .md-button }
+[See the 3 Planetary Application Families](planetary-gearbox-application-families.md){ .md-button }
 
 ## Main Selection Factors
 
