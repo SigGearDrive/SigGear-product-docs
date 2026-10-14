@@ -4,8 +4,8 @@
 
 - TraceParts international **English** pages for the SigGear 8P–42P series were found and all **12 STEP AP203 downloads were successfully generated/downloaded by a SigGear operator on 2026-10-14**.
 - The operator's initial 8P and 42P attempts were too early; both worked when generation had finished. **Do not open a failure ticket for those completed downloads.**
-- The model-specific English product URLs are **not stored** in the repository yet. Do not fabricate them from screenshot-truncated browser URLs.
-- GitHub currently includes international **category/supplier-index discovery** links. They are deliberately **not described as verified direct-model links**.
+- **All 12 exact English model-detail URLs are now supplied by the SigGear operator and stored in [`traceparts-model-urls-2026-10-14.yml`](traceparts-model-urls-2026-10-14.yml).** Keep the supplied stable `Product` IDs and `PartNumber` query values; do not guess or regenerate slugs.
+- The GitHub planetary product pages now point to **model-specific international English TraceParts product records**. General supplier index browsing remains available on supporting pages.
 - A CAD file downloaded successfully is not proof of final-stage/ratio dimensional or production compatibility. Public GitHub STEP references are simplified **4-stage** versions.
 
 ## Publishing names to align
@@ -54,11 +54,11 @@ The GitHub target URL should be the **specific** planetary model page, not the G
 2. Confirm the 12 currently published product records. Correct the 8–16 mm titles to **Micro** and 36–42 mm titles to **Compact** where they still say *Miniature*. 20–32 mm remains **Miniature**.
 3. In each product's **Product Page** or equivalent external product-document URL field, check whether the corresponding model-specific GitHub address above is already present. Update only if missing or not tracked.
 4. Publish/update the catalog using the exact mechanism supported by the current TraceParts account; verify the English international product pages reflect the new labels and links. Platform review/reindexing can take time.
-5. Capture and record the **full** `https://www.traceparts.com/en/product/...` address from Chrome's address bar for all 12 models. Once these exact URLs are available, replace GitHub's interim index links with **12 precise model-to-model links**.
+5. All 12 exact international English model URLs have now been supplied and mapped to GitHub. After deployment, click each `View [model] 3D CAD on TraceParts (English)` button to confirm correct matching, and check the existing `Product` ID and `PartNumber` remain valid if titles are renamed.
 6. Click a TraceParts `Product Page` link to GitHub, check that the address keeps `utm_source=traceparts` and verify the attributable landing session in GA4, allowing for reporting delays.
 
 ## Boundaries and status
 
 - Current ChatGPT GitHub access can update the **GitHub repository**, not the TraceParts manufacturer backend.
 - The repository contains the field mapping exporter `scripts/export_traceparts_catalog.py`, which already creates tracked product/datasheet/mechanical-interface URLs. The final official TraceParts XLS template and classification ID have **not** been verified available in GitHub; do not send the mapping CSV as an official import without a platform review.
-- Next milestone: **12 exact international model URLs + corrected public titles + working TraceParts-to-GitHub UTM link**.
+- Next milestone: **verify the 12 published model-to-model links, correct titles on the TraceParts Publisher side, and confirm TraceParts-to-GitHub UTM referral attribution**.
