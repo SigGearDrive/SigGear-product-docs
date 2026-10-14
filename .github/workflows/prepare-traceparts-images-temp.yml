@@ -51,13 +51,27 @@ jobs:
               jpg=out/(n+'.jpg')
               canvas.save(jpg,quality=97,subsampling=0,optimize=True)
               print('CANDIDATE',n,'sourceBox',b,'exported',jpg.stat().st_size)
+          # Final: use ONLY the intact upper portion of original genuine side-view photograph.
+          # Bottom panels and bottom image artifacts are excluded, not repaired or invented.
+          side=image.crop((0,0,w//2,int((h/2)*.82)))
+          output=Image.new('RGB',(460,340),'white')
+          contained=ImageOps.contain(side,(430,310),Image.Resampling.LANCZOS)
+          output.paste(contained,((460-contained.width)//2,(340-contained.height)//2))
+          jpg=out/'36p-website-photo-20261014.jpg'
+          output.save(jpg,'JPEG',quality=96,subsampling=0,optimize=True)
+          webp=out/'36p-clean-replacement.webp'
+          output.save(webp,'WEBP',quality=96,method=6)
+          for file in [jpg,webp]:
+              verify=Image.open(file); verify.load()
+              assert verify.size==(460,340) and verify.format in ('JPEG','WEBP')
+              print('FINAL',str(file),str(verify.size),verify.format,file.stat().st_size)
           PY
       - name: Commit preview options for manual visual QA (temporary branch only)
         run: |
           set -eu
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add traceparts-review/36p/*.jpg
+          git add traceparts-review/36p/*.jpg traceparts-review/36p/*.webp
           if ! git diff --cached --quiet; then
             git commit -m "Prepare 36P clean photographic crop candidates for QA"
             git push origin HEAD:image-prep/traceparts-4-real-photos-20261014
