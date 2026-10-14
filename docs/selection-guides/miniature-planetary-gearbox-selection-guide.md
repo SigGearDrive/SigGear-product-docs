@@ -1,5 +1,5 @@
 ---
-title: Miniature Planetary Gearbox Selection & Ratio Finder (8–42 mm) | SigGear
+title: SigGear Planetary Gearbox Selector | 8–42 mm Engineering Selection
 description: Preliminary 8–42 mm planetary gearbox selection by motor speed, target output speed, published ratio, stage, gearbox length, rated torque, datasheet and CAD.
 ---
 
@@ -35,7 +35,7 @@ The preliminary reduction ratio is approximately **motor speed at the operating 
 
 Compare this result with the published stage-specific ratio table of the selected gearbox. Different stages can change overall body length, torque rating and efficiency.
 
-## Preliminary Ratio & Stage Finder
+## SigGear Planetary Gearbox Selector
 
 Use this tool for an initial comparison when you know the **motor operating speed** and **target gearbox output speed**.
 
@@ -70,8 +70,19 @@ Optional filters can remove configurations that exceed a maximum gearbox diamete
     </label>
 
     <label>
-      Required continuous torque (kgf·cm) — optional
-      <input id="sg-selector-torque" type="number" min="0.001" step="any" placeholder="Compared with published rated allowable torque">
+      Required continuous output torque — optional
+      <input id="sg-selector-torque" type="number" min="0" step="any" placeholder="Compared with published rated allowable torque">
+    </label>
+    <label>
+      Torque unit
+      <select id="sg-selector-torque-unit" aria-label="Torque unit">
+        <option value="nm">N·m</option>
+        <option value="kgfcm">kgf·cm</option>
+      </select>
+    </label>
+    <label>
+      Required peak output torque — optional, preliminary screen
+      <input id="sg-selector-peak-torque" type="number" min="0" step="any" placeholder="Peak load; duration and frequency require engineering review">
     </label>
 
     <label>
@@ -87,6 +98,8 @@ Optional filters can remove configurations that exceed a maximum gearbox diamete
   <p id="sg-ratio-stage-summary" class="siggear-selector-summary" aria-live="polite"></p>
   <div id="sg-ratio-stage-results" aria-live="polite"></div>
 </form>
+
+**Engineering boundary:** the published continuous permissible gearbox input speed is 8,000 rpm for the current 8P–42P datasheets. The selector does not infer motor suitability, safe peak duration, thermal behavior, service life or final design approval. Peak torque is screened only against published momentary limits; duration/frequency still require engineering review.
 
 **Important:** this is a preliminary Design-In aid, not an automatic final selector. It does not add a safety factor, calculate motor shaft torque, predict service life, or prove that a customer's motor shaft / pilot / mounting pattern fits the gearbox.
 
