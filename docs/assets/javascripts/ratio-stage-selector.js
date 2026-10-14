@@ -312,9 +312,9 @@
         "<a href=\"../../engineering-resources/planetary-gearboxes/candidate-design-in-pack/?model=" +
         encodeURIComponent(item.model) + "&stage=" + encodeURIComponent(item.stage) +
         "&ratio=" + encodeURIComponent(item.ratio) + "\">Design-In pack</a><br>" +
-        "<a href=\"../../request-cad-sample-quote/?model=" + encodeURIComponent(item.model) +
-        "&selection=ratio_stage_selector&candidate_stage=" + encodeURIComponent(item.stage) +
-        " + selectionParams(item, motorSpeed, outputSpeed, requiredTorque, peakTorque) + "\">Project brief</a></td>" +
+        "<a href=\"../../request-cad-sample-quote/?model=" +
+        encodeURIComponent(item.model) +
+        selectionParams(item, motorSpeed, outputSpeed, requiredTorque, peakTorque) + "\">Project brief</a></td>" +
         "</tr>";
     }).join("");
 
@@ -347,9 +347,9 @@
         "<a href=\"../../engineering-resources/planetary-gearboxes/candidate-design-in-pack/?model=" +
         encodeURIComponent(item.model) + "&stage=" + encodeURIComponent(item.stage) +
         "&ratio=" + encodeURIComponent(item.ratio) + "\">Design-In pack</a><br>" +
-        "<a href=\"../../request-cad-sample-quote/?model=" + encodeURIComponent(item.model) +
-        "&selection=ratio_stage_selector&candidate_stage=" + encodeURIComponent(item.stage) +
-        " + selectionParams(item, motorSpeed, outputSpeed, requiredTorque, peakTorque) + "\">Project brief</a></td>" +
+        "<a href=\"../../request-cad-sample-quote/?model=" +
+        encodeURIComponent(item.model) +
+        selectionParams(item, motorSpeed, outputSpeed, requiredTorque, peakTorque) + "\">Project brief</a></td>" +
         "</tr>";
     }).join("");
 
