@@ -6,7 +6,7 @@ description: Engineering guide for compact planetary gearboxes and gear motors i
 # Miniature Planetary Gear Motors for Pumps, Valves and Dosing Systems
 
 
-[Find Published Gearbox Candidates](../selection-guides/miniature-planetary-gearbox-selection-guide.md#find-your-gearbox-preliminary-ratio-stage-finder){ .md-button .md-button--primary }
+[Find Published Gearbox Candidates](../selection-guides/miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
 [Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Start Pump / Valve Project Brief](../request-cad-sample-quote.md?app=pump_valve_fluid){ .md-button }
