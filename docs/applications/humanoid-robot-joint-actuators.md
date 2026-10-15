@@ -12,6 +12,8 @@ Selecting a humanoid robot joint actuator requires matching torque, speed, gearb
 [View Joint Actuator Products](../products/robot-joint-actuators/index.md){ .md-button }
 [Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
 
+**Need a smaller standalone transmission for a robotic hand, gripper or auxiliary mechanism?** SigGear also publishes [8–42 mm micro, miniature and compact planetary gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) with [model-specific datasheets and simplified STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md). Review the motor interface, stage, ratio and operating load for the mechanism; a small gearbox must not be assumed to meet a primary humanoid joint's structural or torque requirements.
+
 ## Application Overview
 
 Humanoid and bipedal robots require compact joint actuators for the shoulder, elbow, wrist, hip, knee, ankle, neck and waist axes. Each joint has a different torque-speed cycle, external-load condition, installation envelope, thermal limit and control requirement. A humanoid robot joint actuator should therefore be selected from the complete operating profile, not from peak torque alone.
