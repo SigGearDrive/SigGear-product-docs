@@ -1,0 +1,57 @@
+name: Diagnose SigGear public Sitemap HTTP fetch
+
+on:
+  push:
+    branches:
+      - diagnostics/gsc-sitemap-fetch-20261015
+
+permissions:
+  contents: read
+
+jobs:
+  public-http:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Probe public HTTP responses, robots, and XML
+        shell: bash
+        run: |
+          python - <<'PY'
+          import urllib.request, urllib.error, xml.etree.ElementTree as ET
+          import gzip, hashlib
+          U='https://siggeardrive.github.io'
+          paths=[
+            '/robots.txt',
+            '/SigGear-product-docs/robots.txt',
+            '/SigGear-product-docs/sitemap.xml',
+            '/SigGear-product-docs/',
+            '/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/',
+            '/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/',
+            '/SigGear-product-docs/applications/electric-pruning-shears-planetary-gearbox/',
+          ]
+          for path in paths:
+            for agent in (["SigGear-Sitemap-Diagnostic/1.0","Googlebot"] if "sitemap.xml" in path else ["SigGear-Sitemap-Diagnostic/1.0"]):
+              req=urllib.request.Request(U+path,headers={"User-Agent":agent,"Accept":"*/*"})
+              try:
+                with urllib.request.urlopen(req,timeout=18) as res:
+                  body=res.read()
+                  print("URL",res.url,flush=True)
+                  print("AGENT",agent,"STATUS",res.status,"BYTES",len(body),"CONTENT-TYPE",res.headers.get("Content-Type"),"X-ROBOTS-TAG",res.headers.get("X-Robots-Tag"),"FINAL-URL",res.url,flush=True)
+                  if "sitemap.xml" in path:
+                    try:
+                      root=ET.fromstring(body)
+                      urls=[n.text for n in root.findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url/{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
+                      print("XML_OK",True,"ROOT_TAG",root.tag,"URL_COUNT",len(urls),"SHA256",hashlib.sha256(body).hexdigest())
+                      print("REQUIRED_PRESENT",[needle in urls for needle in [
+                        U+'/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/',
+                        U+'/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/',
+                        U+'/SigGear-product-docs/applications/electric-pruning-shears-planetary-gearbox/',
+                      ]])
+                    except Exception as exc:
+                      print("XML_ERROR",str(exc))
+                  if path.endswith("robots.txt"): print("ROBOTS_BODY",body[:1000].decode("utf-8","replace"))
+              except urllib.error.HTTPError as e:
+                print("URL",U+path,"AGENT",agent,"HTTP_ERROR",e.code,"CONTENT-TYPE",e.headers.get("Content-Type"),"HEAD",e.read(250),flush=True)
+              except Exception as exc:
+                print("URL",U+path,"AGENT",agent,"NETWORK_ERROR",type(exc).__name__,str(exc),flush=True)
+          PY
