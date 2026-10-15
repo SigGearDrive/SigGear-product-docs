@@ -28,9 +28,8 @@
   function torqueDisplay(value) {
     return torqueUnit() === "nm" ? fmt(value * KGF_CM_TO_NM, 3) + " N·m" : fmt(value, 2) + " kgf·cm";
   }
-  function selectionParams(item, motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength) {
-    var params = "&selection=ratio_stage_selector&candidate_stage=" +
-      encodeURIComponent(item.stage) + "&candidate_ratio=" + encodeURIComponent(item.ratio);
+  function selectorContext(motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength) {
+    var params = "";
     if (motorSpeed !== null) params += "&selector_motor_speed=" + encodeURIComponent(motorSpeed);
     if (outputSpeed !== null) params += "&selector_output_speed=" + encodeURIComponent(outputSpeed);
     if (continuous !== null) params += "&selector_continuous_nm=" + encodeURIComponent((continuous * KGF_CM_TO_NM).toFixed(5));
@@ -38,6 +37,21 @@
     if (maxDiameter !== null && maxDiameter > 0) params += "&selector_max_diameter=" + encodeURIComponent(maxDiameter);
     if (maxLength !== null && maxLength > 0) params += "&selector_max_gearbox_length=" + encodeURIComponent(maxLength);
     return params;
+  }
+  function selectionParams(item, motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength) {
+    return "&selection=ratio_stage_selector&candidate_stage=" +
+      encodeURIComponent(item.stage) + "&candidate_ratio=" + encodeURIComponent(item.ratio) +
+      selectorContext(motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength);
+  }
+  function customReviewLink(reason, motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength) {
+    return "../../request-cad-sample-quote/?path=not_sure&selection=selector_engineering_review" +
+      "&selector_review_reason=" + encodeURIComponent(reason) +
+      selectorContext(motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength);
+  }
+  function customReviewAction(reason, motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength) {
+    return "<p><a class=\"md-button md-button--primary\" href=\"" +
+      esc(customReviewLink(reason, motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength)) +
+      "\">Request Custom Engineering Review</a></p>";
   }
   function numberValue(id) {
     var el = document.getElementById(id);
@@ -141,16 +155,29 @@
       return;
     }
 
-    if (motorSpeed > 8000) {
-      summary.textContent = "Input speed exceeds the published 8,000 rpm continuous permissible speed for these standard gearboxes. Request engineering review.";
-      results.innerHTML = "";
-      return;
-    }
     if ((requiredTorque !== null && requiredTorque < 0) ||
         (peakTorque !== null && peakTorque < 0) ||
         (requiredTorque !== null && peakTorque !== null && peakTorque < requiredTorque)) {
       summary.textContent = "Torque values must be non-negative, and peak torque must not be lower than continuous torque.";
       results.innerHTML = "";
+      return;
+    }
+
+    // Published datasheets cap standard continuous input speed at 8,000 rpm.
+    // Engineering separately reports a 1,000-20,000 rpm application-review range.
+    // This does NOT authorize publishing >8,000 rpm as a standard catalog rating.
+    if (motorSpeed > 8000 || motorSpeed < 1000) {
+      var reason = motorSpeed > 20000 ? "speed_above_engineering" :
+        (motorSpeed > 8000 ? "speed_above_published" : "speed_below_engineering");
+      if (reason === "speed_above_engineering") {
+        summary.textContent = "This project exceeds 20,000 rpm, the upper speed mentioned for case-by-case engineering evaluation. Custom feasibility review is required. Current published datasheets specify no more than 8,000 rpm continuous permissible input speed.";
+      } else if (reason === "speed_above_published") {
+        summary.textContent = "The published standard continuous input-speed limit is 8,000 rpm. SigGear engineering indicated that 1,000-20,000 rpm projects can be assessed individually, but this is not a released catalog rating. Please request engineering confirmation before selecting a gearbox.";
+      } else {
+        summary.textContent = "Input speed is below the 1,000 rpm lower end of the engineering-mentioned assessment range. Suitability needs project-specific confirmation; the current datasheets do not establish a minimum input-speed rating.";
+      }
+      results.innerHTML = customReviewAction(reason, motorSpeed, outputSpeed, requiredTorque, peakTorque, maxDiameter, maxLength);
+      track(0, 0, null, null, null);
       return;
     }
     var targetRatio = motorSpeed / outputSpeed;
@@ -260,7 +287,8 @@
         }).join("") + "</ul>" : "";
 
       results.innerHTML =
-        "<p>No published configuration remains after the current filters. Relax a filter or send the mechanism / motor drawing for an engineering review.</p>" +
+        "<p>No published standard configuration remains after the current filters. A custom ratio, load, or interface may still be feasible after engineering assessment.</p>" +
+        customReviewAction("no_published_match", motorSpeed, outputSpeed, requiredTorque, peakTorque, maxDiameter, maxLength) +
         noResultDetails;
       track(0, 0, null, null, null);
       return;
@@ -381,7 +409,7 @@
       "<thead><tr>" +
       "<th>Model</th><th>Diameter</th><th>Best stage</th><th>Closest ratio</th>" +
       "<th>Ratio difference</th><th>Gearbox length</th><th>Rated torque</th>" +
-      "<th>Efficiency</th><th>First-check signal</th><th>Next</th>" +
+      "<th>Published stage efficiency</th><th>First-check signal</th><th>Next</th>" +
       "</tr></thead><tbody>" + frameRows + "</tbody></table></div>" +
       excludedHtml +
       "<h3>Closest Published Configurations</h3>" +
@@ -389,11 +417,13 @@
       "<thead><tr>" +
       "<th>Model</th><th>Diameter</th><th>Stage</th><th>Published ratio</th>" +
       "<th>Estimated output</th><th>Ratio difference</th><th>Gearbox length</th>" +
-      "<th>Rated torque</th><th>Efficiency</th><th>Next</th>" +
+      "<th>Rated torque</th><th>Published stage efficiency</th><th>Next</th>" +
       "</tr></thead><tbody>" + configurationRows + "</tbody></table></div>" +
       "<p class=\"siggear-selector-note\">The continuous-torque filter uses published rated allowable torque only. " +
       "Maximum momentary torque is never used as a continuous rating. Smallest frame, shortest gearbox and closest ratio answer different questions; none proves final suitability. " +
-      "Final selection still requires duty cycle, peak load, motor operating point, shaft loads, mechanical interface and configuration review.</p>";
+      "Published stage efficiency is a reference value; ratio-dependent efficiency has not been separately verified. " +
+      "Final selection still requires duty cycle, peak load, motor operating point, shaft loads, mechanical interface and configuration review.</p>" +
+      customReviewAction("custom_configuration", motorSpeed, outputSpeed, requiredTorque, peakTorque, maxDiameter, maxLength);
 
     track(candidates.length, frameCandidates.length, closest, smallest, shortest);
   });
