@@ -18,7 +18,7 @@ The 32P Engineering Pack is centered on the gearbox platform, but SigGear can su
 | Motor type | DC motor |
 | Nominal voltage | 3-36 VDC |
 | Motor power | Below 100 W |
-| Continuous gearbox input speed | <= 8,000 rpm |
+| Continuous gearbox input speed | 1,000–20,000 rpm |
 
 The motor voltage and power values are motor-matching references, not electrical ratings of the mechanical gearbox.
 

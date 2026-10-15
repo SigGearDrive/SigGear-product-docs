@@ -132,7 +132,7 @@ This page does **not** send your engineering details to a third-party form servi
 
       <label>
         Motor speed
-        <input id="sg-motor-speed" name="motor_speed" type="text" placeholder="Example: 8,000 rpm">
+        <input id="sg-motor-speed" name="motor_speed" type="text" placeholder="Example: 12,000 rpm">
       </label>
 
       <label>

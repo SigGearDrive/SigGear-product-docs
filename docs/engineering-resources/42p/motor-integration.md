@@ -16,7 +16,7 @@ This guide uses only the currently published 42P gearbox and interface data. Fin
 | Motor type | DC motor |
 | Nominal voltage | 3-48 VDC |
 | Adapted motor power | Below 200 W |
-| Continuous permissible gearbox input speed | <= 8,000 rpm |
+| Continuous permissible gearbox input speed | 1,000–20,000 rpm |
 
 These are motor-matching references for the 42P platform, not electrical ratings of the mechanical gearbox itself.
 
@@ -38,7 +38,7 @@ The current 42P controlled interface drawing shows:
 | --- | ---: |
 | Rated allowable torque range | 80.0-150.0 kgf.cm |
 | Maximum momentary torque range | 160.0-300.0 kgf.cm |
-| Continuous permissible input speed | <= 8,000 rpm |
+| Continuous permissible input speed | 1,000–20,000 rpm |
 | Backlash at no load | <= 1.2 deg |
 | Operating temperature range | -40 to 120 C |
 
