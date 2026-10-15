@@ -30,6 +30,7 @@
   var onlineSubject = document.getElementById("sg-online-subject");
   var onlineUrl = document.getElementById("sg-online-url");
   var onlineReturn = document.getElementById("sg-online-return");
+  var activationIndicator = document.getElementById("sg-online-activation-indicator");
 
   // Keep the public online button off until wangwanrong@siggear.com confirms the
   // FormSubmit activation email AND successfully receives a second test inquiry.
@@ -521,18 +522,41 @@
   }
 
   function configureOnlineDelivery() {
-    if (!onlineDeliveryEnabled) return;
+    if (!onlineDeliveryEnabled) {
+      // A form button with the HTML hidden attribute can still appear if the
+      // theme's cached CSS overrides the browser's user-agent [hidden] style.
+      // Keep explicit inline display:none until activation.
+      if (emailButton) {
+        emailButton.hidden = true;
+        emailButton.style.display = "none";
+      }
+      if (primaryButton) primaryButton.textContent = "Prepare Email to SigGear";
+      return;
+    }
     // Native cross-origin POST retains FormSubmit's reCAPTCHA flow. AJAX
     // submissions and disabled CAPTCHA are intentionally not used.
     form.method = "POST";
     form.action = "https://formsubmit.co/wangwanrong@siggear.com";
     if (contactEmail) contactEmail.required = true;
     if (onlineConsent) onlineConsent.required = true;
-    if (onlineConsentWrap) onlineConsentWrap.hidden = false;
-    if (onlineDeliveryNote) onlineDeliveryNote.hidden = false;
-    if (emailButton) emailButton.hidden = false;
+    if (onlineConsentWrap) {
+      onlineConsentWrap.hidden = false;
+      onlineConsentWrap.style.display = "block";
+    }
+    if (onlineDeliveryNote) {
+      onlineDeliveryNote.hidden = false;
+      onlineDeliveryNote.style.display = "block";
+    }
+    if (emailButton) {
+      emailButton.hidden = false;
+      emailButton.style.display = "inline-flex";
+    }
     if (primaryButton) primaryButton.textContent = "Send Engineering Request Online";
     if (ownerSetupMode && !ONLINE_DELIVERY_VERIFIED) {
+      if (activationIndicator) {
+        activationIndicator.hidden = false;
+        activationIndicator.style.display = "block";
+      }
       status.textContent = "SigGear activation test mode: submit a test brief, confirm the activation email in the SigGear mailbox, then submit another test to verify delivery. Do not treat a redirect as proof of email receipt.";
     }
   }

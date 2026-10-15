@@ -74,7 +74,7 @@ hooks:
   - hooks/seo_metadata.py
 
 extra_css:
-  - assets/stylesheets/inquiry-form.css
+  - assets/stylesheets/inquiry-form.css?v=20261015-activation-fix
   - assets/stylesheets/planetary-real-photo-grid.css
   - assets/stylesheets/ratio-stage-selector.css
   - assets/stylesheets/candidate-design-in-pack.css
@@ -85,7 +85,7 @@ extra_css:
 
 extra_javascript:
   - assets/javascripts/analytics-events.js
-  - assets/javascripts/inquiry-form.js
+  - assets/javascripts/inquiry-form.js?v=20261015-activation-fix
   - assets/javascripts/ratio-stage-selector.js
   - assets/javascripts/candidate-design-in-pack.js
   - assets/javascripts/sample-validation.js
