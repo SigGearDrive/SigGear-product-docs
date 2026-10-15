@@ -25,6 +25,7 @@ jobs:
             '/robots.txt',
             '/SigGear-product-docs/robots.txt',
             '/SigGear-product-docs/sitemap.xml',
+            '/SigGear-product-docs/sitemap-index.xml',
             '/SigGear-product-docs/',
             '/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/',
             '/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/',
