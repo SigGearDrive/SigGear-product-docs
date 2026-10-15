@@ -27,7 +27,7 @@
     
     
       
-        <title>Miniature Planetary Gearbox Selection & Ratio Finder (8–42 mm) | SigGear - SigGear Product Documentation</title>
+        <title>SigGear Planetary Gearbox Selector | 8–42 mm Engineering Selection - SigGear Product Documentation</title>
       
     
     
@@ -82,7 +82,7 @@
 
     
     
-  <script type="application/ld+json" data-siggear-seo-schema="breadcrumb">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SigGear","item":"https://siggeardrive.github.io/SigGear-product-docs/"},{"@type":"ListItem","position":2,"name":"Selection Guides","item":"https://siggeardrive.github.io/SigGear-product-docs/selection-guides/"},{"@type":"ListItem","position":3,"name":"Miniature Planetary Gearbox Selection & Ratio Finder (8–42 mm)","item":"https://siggeardrive.github.io/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/"}]}</script>
+  <script type="application/ld+json" data-siggear-seo-schema="breadcrumb">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SigGear","item":"https://siggeardrive.github.io/SigGear-product-docs/"},{"@type":"ListItem","position":2,"name":"Selection Guides","item":"https://siggeardrive.github.io/SigGear-product-docs/selection-guides/"},{"@type":"ListItem","position":3,"name":"SigGear Planetary Gearbox Selector","item":"https://siggeardrive.github.io/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/"}]}</script>
 </head>
   
   
@@ -131,7 +131,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Miniature Planetary Gearbox Selection & Ratio Finder (8–42 mm) | SigGear
+              SigGear Planetary Gearbox Selector | 8–42 mm Engineering Selection
             
           </span>
         </div>
@@ -3363,10 +3363,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#find-your-gearbox-preliminary-ratio-stage-finder" class="md-nav__link">
+  <a href="#preliminary-ratio-stage-finder" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Find Your Gearbox — Preliminary Ratio &amp; Stage Finder
+        SigGear Planetary Gearbox Selector
       
     </span>
   </a>
@@ -6961,10 +6961,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#find-your-gearbox-preliminary-ratio-stage-finder" class="md-nav__link">
+  <a href="#preliminary-ratio-stage-finder" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Find Your Gearbox — Preliminary Ratio &amp; Stage Finder
+        SigGear Planetary Gearbox Selector
       
     </span>
   </a>
@@ -7074,19 +7074,19 @@
 <h2 id="2-estimate-the-reduction-ratio-from-loaded-speed">2. Estimate the Reduction Ratio From Loaded Speed<a class="headerlink" href="#2-estimate-the-reduction-ratio-from-loaded-speed" title="Permanent link">&para;</a></h2>
 <p>The preliminary reduction ratio is approximately <strong>motor speed at the operating point divided by target gearbox output speed</strong>. Do not automatically use the motor's no-load speed.</p>
 <p>Compare this result with the published stage-specific ratio table of the selected gearbox. Different stages can change overall body length, torque rating and efficiency.</p>
-<h2 id="find-your-gearbox-preliminary-ratio-stage-finder">Find Your Gearbox — Preliminary Ratio &amp; Stage Finder<a class="headerlink" href="#find-your-gearbox-preliminary-ratio-stage-finder" title="Permanent link">&para;</a></h2>
+<h2 id="preliminary-ratio-stage-finder">SigGear Planetary Gearbox Selector<a class="headerlink" href="#preliminary-ratio-stage-finder" title="Permanent link">&para;</a></h2>
 <p>Use this tool for an initial comparison when you know the <strong>motor operating speed</strong> and <strong>target gearbox output speed</strong>.</p>
-<p><strong>What you enter:</strong> motor operating speed and target output speed; optionally maximum gearbox diameter, maximum gearbox body length, required continuous torque and maximum ratio difference.</p>
-<p><strong>What you get:</strong> the closest published ratio, the smallest surviving frame and the shortest surviving gearbox among the published configurations that remain after your filters.</p>
+<p><strong>What you enter:</strong> motor operating speed and target output speed; optionally maximum gearbox diameter, maximum gearbox body length, required continuous torque, peak torque and maximum ratio difference.</p>
+<p><strong>What you get:</strong> the closest published ratio, the smallest surviving frame and the shortest surviving gearbox among published configurations that satisfy the entered catalog filters. Requests outside the published limits can be submitted for engineering assessment.</p>
 <p>It calculates:</p>
 <p><strong>preliminary target ratio = motor operating speed / target output speed</strong></p>
 <p>and compares that value with the currently published 1–4 stage ratios for SigGear 8P–42P.</p>
-<p>Optional filters can remove configurations that exceed a maximum gearbox diameter, maximum <strong>gearbox body length</strong>, published <strong>rated allowable torque</strong> requirement, or a user-defined maximum ratio difference.</p>
+<p>Optional filters can remove configurations that exceed a maximum gearbox diameter, maximum <strong>gearbox body length</strong>, published <strong>rated allowable torque</strong> requirement, a <strong>maximum momentary torque</strong> screening threshold, or a user-defined maximum ratio difference. Exceeding a catalog limit does not rule out a customized solution; the results provide a custom engineering review path.</p>
 <form id="siggear-ratio-stage-selector" class="siggear-ratio-selector">
   <div class="siggear-selector-grid">
     <label>
       Motor operating speed (rpm)
-      <input id="sg-selector-motor-speed" type="number" min="0.01" step="any" required placeholder="Example: 8000">
+      <input id="sg-selector-motor-speed" type="number" min="0.01" step="any" required placeholder="Example: 12000">
     </label>
 
     <label>
@@ -7105,8 +7105,19 @@
     </label>
 
     <label>
-      Required continuous torque (kgf·cm) — optional
-      <input id="sg-selector-torque" type="number" min="0.001" step="any" placeholder="Compared with published rated allowable torque">
+      Required continuous output torque — optional
+      <input id="sg-selector-torque" type="number" min="0" step="any" placeholder="Compared with published rated allowable torque">
+    </label>
+    <label>
+      Torque unit
+      <select id="sg-selector-torque-unit" aria-label="Torque unit">
+        <option value="nm">N·m</option>
+        <option value="kgfcm">kgf·cm</option>
+      </select>
+    </label>
+    <label>
+      Required peak output torque — optional, preliminary screen
+      <input id="sg-selector-peak-torque" type="number" min="0" step="any" placeholder="Peak load; duration and frequency require engineering review">
     </label>
 
     <label>
@@ -7123,6 +7134,8 @@
   <div id="sg-ratio-stage-results" aria-live="polite"></div>
 </form>
 
+<p><strong>Continuous input-speed range — engineering confirmed 15 October 2026:</strong> SigGear's 8P–42P planetary gearbox series supports <strong>1,000–20,000 rpm continuous input speed</strong> for preliminary standard-configuration selection, superseding the earlier published 8,000 rpm upper limit. Input speeds <strong>below 1,000 rpm</strong> or <strong>above 20,000 rpm</strong> are directed to <strong>custom feasibility assessment</strong>. The exact motor, ratio, duty cycle, thermal behavior, torque, and installation interface still require application-specific engineering review.</p>
+<p><strong>Torque and efficiency rules:</strong> published stage-specific rated allowable torque may be used for preliminary continuous-load screening; published maximum momentary torque may be used to rule out unsuitable peak-load candidates but does <strong>not</strong> establish an allowable peak duration or frequency. Exceeding either published torque threshold can be reviewed for customization. Published efficiency is a <strong>stage-level reference</strong>: ratio-specific differences are awaiting separate engineering verification. The tool does not infer motor suitability, safe peak duration, thermal behavior, service life or final design approval.</p>
 <p><strong>Important:</strong> this is a preliminary Design-In aid, not an automatic final selector. It does not add a safety factor, calculate motor shaft torque, predict service life, or prove that a customer's motor shaft / pilot / mounting pattern fits the gearbox.</p>
 <p>The results now separate three different first-check questions:</p>
 <ul>
@@ -7139,7 +7152,7 @@
 <li><strong>Cutting, startup, impact or jam events:</strong> Consider magnitude, duration and frequency of peak loads. The published maximum momentary torque is <strong>not</strong> a continuous rating.</li>
 <li><strong>Motor matching:</strong> Output torque estimates depend on the motor shaft torque, selected ratio and the relevant gearbox efficiency. Use the efficiency published for the selected configuration, not a family maximum.</li>
 </ul>
-<p>Never transfer a torque rating from one frame size or stage configuration to another without technical confirmation.</p>
+<p>Never transfer a torque rating from one frame size or stage configuration to another without technical confirmation. If published torque, ratio, or envelope filters produce no catalog match, use <strong>Request Custom Engineering Review</strong> on the results page and attach the application / motor drawing. A successful preliminary match still needs review of actual operating conditions.</p>
 <h2 id="4-check-the-full-mechanical-interface">4. Check the Full Mechanical Interface<a class="headerlink" href="#4-check-the-full-mechanical-interface" title="Permanent link">&para;</a></h2>
 <p>Measure the gearbox outer diameter, <strong>stage-dependent body length</strong>, output shaft, flange, mounting holes and motor-side shaft interface. Total motor-plus-gearbox assembly length is not the same as gearbox body length.</p>
 <p>Output torque and shaft loads are different constraints. Review radial and axial forces, their application point and whether the mechanism needs an external bearing to support pulleys, pinions, cranks or other cantilevered loads.</p>

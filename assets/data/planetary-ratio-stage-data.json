@@ -1,7 +1,14 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-13",
+  "updated": "2026-10-15",
   "source": "Published SigGear 8P-42P Datasheet stage tables",
+  "continuous_input_speed_rpm": {
+    "min": 1000,
+    "max": 20000,
+    "operating_mode": "continuous",
+    "confirmed_by": "SigGear engineering",
+    "confirmed_on": "2026-10-15"
+  },
   "units": {
     "diameter": "mm",
     "gearbox_body_length": "mm",
