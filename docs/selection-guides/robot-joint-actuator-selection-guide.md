@@ -15,6 +15,8 @@ Use this engineering guide to estimate robot joint torque, separate continuous a
 [Browse Planetary & Cycloidal Robot Joint Actuators](../products/robot-joint-actuators/index.md){ .md-button }
 [Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
 
+**Looking for a separate small gearbox rather than a complete robot joint actuator?** For a dexterous hand, compact gripper, auxiliary axis or fine adjustment mechanism, start with SigGear's [8–42 mm micro, miniature and compact planetary gearbox series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md). You can [compare exact gearbox diameters and stage/ratio candidates](miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder), then review the selected model's datasheet, mounting reference and public STEP CAD. These gearbox frames are **not automatically qualified for primary load-bearing humanoid joints**.
+
 ## Robot Joint Reducer Specifications to Compare
 
 For an early supplier or architecture comparison, review the same specification categories across every candidate actuator, gearbox or reducer.
