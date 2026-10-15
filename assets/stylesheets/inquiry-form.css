@@ -101,3 +101,40 @@
   color: var(--md-default-fg-color--light);
   font-size: 0.9em;
 }
+
+/* Online inquiry is opt-in until the recipient inbox is activated and tested. */
+.siggear-inquiry-form [hidden],
+.siggear-form-return[hidden] {
+  display: none !important;
+}
+
+.siggear-honeypot {
+  display: none !important;
+}
+
+.siggear-inquiry-form .siggear-online-consent-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  margin: 0.6rem 0;
+  font-weight: 400;
+}
+
+.siggear-inquiry-form .siggear-online-consent-label input[type="checkbox"] {
+  flex: 0 0 auto;
+  width: 1rem;
+  height: 1rem;
+  margin: 0.23rem 0 0;
+}
+
+.siggear-online-delivery-note,
+.siggear-form-return {
+  font-size: 0.91rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.siggear-form-return {
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+}

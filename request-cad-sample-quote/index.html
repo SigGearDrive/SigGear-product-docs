@@ -7157,8 +7157,22 @@
 <a class="md-button" href="mailto:wangwanrong@siggear.com?subject=Dexterous%20Hand%20Robot%20Gripper%20Planetary%20Gearbox%20Review">Dexterous Hand / Gripper Review</a></p>
 <h2 id="engineering-project-brief">Engineering Project Brief<a class="headerlink" href="#engineering-project-brief" title="Permanent link">&para;</a></h2>
 <p>If you do not want to write a technical inquiry from scratch, use this short project brief. Fill in only what you already know.</p>
-<p>This page does <strong>not</strong> send your engineering details to a third-party form service. <strong>Prepare Email to SigGear</strong> opens your local email client with a structured draft addressed to Wanrong Wang. You can attach motor drawings, mechanism sketches, CAD screenshots or other project files before sending.</p>
-<form id="siggear-engineering-brief" class="siggear-inquiry-form">
+<p>Use the project brief below to contact SigGear. <strong>Prepare Email to SigGear</strong> opens a structured draft in your own email application. Once online delivery is activated, this page also offers <strong>Send Engineering Request Online</strong> without requiring an email application. Online submissions are processed by FormSubmit, a third-party form delivery service, and require a contact email address. For confidential drawings or NDA-controlled materials, contact SigGear by email instead of using this public form.</p>
+<p id="sg-online-return" class="siggear-form-return" hidden role="status">Your form was processed by the online delivery service. SigGear will review it once the email is received. If you need to send attachments or have an urgent request, email <a href="mailto:wangwanrong@siggear.com">wangwanrong@siggear.com</a> directly.</p>
+
+<form id="siggear-engineering-brief" class="siggear-inquiry-form" action="#" method="POST">
+  <!-- The online endpoint is enabled only after recipient activation and a delivered-email test. -->
+  <input id="sg-online-message" type="hidden" name="message">
+  <input id="sg-online-subject" type="hidden" name="_subject">
+  <input id="sg-online-next" type="hidden" name="_next" value="https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/?form_delivery=provider_return">
+  <input id="sg-online-url" type="hidden" name="_url">
+  <input type="hidden" name="_template" value="table">
+  <input type="hidden" name="_captcha" value="true">
+  <div class="siggear-honeypot" aria-hidden="true">
+    <label>Leave this field empty
+      <input name="_honey" type="text" tabindex="-1" autocomplete="off">
+    </label>
+  </div>
   <div class="siggear-form-grid">
     <label>
       SigGear model reference
@@ -7309,8 +7323,28 @@
     </label>
   </div>
 
+  <div class="siggear-form-grid">
+    <label>
+      Contact name — optional
+      <input id="sg-contact-name" name="name" type="text" autocomplete="name" maxlength="120" placeholder="Your name">
+    </label>
+    <label>
+      Contact email — required for online submission
+      <input id="sg-contact-email" name="email" type="email" autocomplete="email" maxlength="254" placeholder="you@company.com">
+    </label>
+  </div>
+
+  <div id="sg-online-consent-wrap" hidden>
+    <label class="siggear-online-consent-label">
+      <input id="sg-online-consent" name="privacy_ack" type="checkbox" value="yes">
+      I agree to send my contact details and technical project description to SigGear through the third-party form service <a href="https://formsubmit.co/privacy" target="_blank" rel="noopener noreferrer">FormSubmit</a>. I will not submit confidential files here.
+    </label>
+  </div>
+  <p id="sg-online-delivery-note" class="siggear-online-delivery-note" hidden>Online delivery may require a CAPTCHA challenge. It is available only after SigGear confirms recipient activation; the email option remains available if you prefer.</p>
+
   <div class="siggear-form-actions">
-    <button type="submit" class="md-button md-button--primary">Prepare Email to SigGear</button>
+    <button type="submit" id="sg-brief-primary" class="md-button md-button--primary">Prepare Email to SigGear</button>
+    <button type="button" id="sg-email-brief" class="md-button" hidden>Prepare Email Instead</button>
     <button type="button" id="sg-copy-brief" class="md-button">Copy Project Brief</button>
   </div>
 
