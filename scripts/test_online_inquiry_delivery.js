@@ -17,9 +17,9 @@ assert.match(page, /name="email"/);
 assert.match(page, /name="message"/);
 assert.match(page, /https:\/\/formsubmit.co\/privacy/);
 assert.match(page, /id="sg-email-brief"[^>]+hidden style="display:none"/);
-assert.match(page, /id="sg-online-activation-indicator"/);
 assert.match(styles, /\.siggear-honeypot\s*\{[\s\S]*?display:\s*none !important/);
-assert.match(js, /var ONLINE_DELIVERY_VERIFIED = false;/);
+assert.match(js, /var ONLINE_DELIVERY_VERIFIED = true;/);
+assert.doesNotMatch(js, /ownerSetupMode/);
 assert.doesNotMatch(js, /engineering_brief_online_submit_success/);
 
 function bootstrap(search) {
@@ -53,7 +53,6 @@ function bootstrap(search) {
   node("sg-path").value = "not_sure";
   node("sg-next-step").value = "Model recommendation";
   node("sg-brief-primary").textContent = "Prepare Email to SigGear";
-  node("sg-online-activation-indicator").hidden = true;
   node("sg-online-consent-wrap").hidden = true;
   node("sg-online-delivery-note").hidden = true;
   node("sg-email-brief").hidden = true;
@@ -85,62 +84,58 @@ function bootstrap(search) {
   return {node, events, gaEvents, form, submit, window};
 }
 
-// Public page remains email-only until inbox activation and actual receipt.
-const normal = bootstrap("");
-assert.equal(normal.node("sg-brief-primary").textContent,"Prepare Email to SigGear");
-assert.equal(normal.node("sg-email-brief").hidden,true);
-assert.equal(normal.node("sg-email-brief").style.display,"none");
-assert.equal(normal.node("sg-online-activation-indicator").hidden,true);
-assert.equal(normal.node("sg-online-consent-wrap").hidden,true);
-assert.equal(normal.node("sg-contact-email").required,false);
-assert.equal(normal.submit().prevented,true);
-assert.match(normal.window.location.href, /^mailto:wangwanrong@siggear\.com/);
-assert.ok(normal.gaEvents.some(x=>x.name==="engineering_brief_prepare_email"));
-assert.ok(!normal.gaEvents.some(x=>x.name==="engineering_brief_online_submit_attempt"));
-console.log("PASS public remains mailto-only until form activation and inbox test");
+// Live public page now uses the activated provider by default.
+const live = bootstrap("");
+assert.equal(live.form.method, "POST");
+assert.equal(live.form.action, "https://formsubmit.co/wangwanrong@siggear.com");
+assert.equal(live.node("sg-brief-primary").textContent, "Send Engineering Request Online");
+assert.equal(live.node("sg-email-brief").hidden, false);
+assert.equal(live.node("sg-email-brief").style.display, "inline-flex");
+assert.equal(live.node("sg-online-consent-wrap").hidden, false);
+assert.equal(live.node("sg-online-consent-wrap").style.display, "block");
+assert.equal(live.node("sg-online-delivery-note").hidden, false);
+assert.equal(live.node("sg-contact-email").required, true);
+assert.equal(live.node("sg-online-consent").required, true);
+assert.equal(live.form.reportValidity(), false, "missing email and privacy consent must block online submission");
+live.node("sg-contact-email").value = "buyer@example.org";
+live.node("sg-online-consent").checked = true;
+live.node("sg-contact-name").value = "Example engineer";
+assert.equal(live.form.reportValidity(), true);
+assert.equal(live.submit().prevented, false, "browser must perform native POST after validation");
+assert.match(live.node("sg-online-message").value, /Example miniature motion design/);
+assert.match(live.node("sg-online-message").value, /Contact email: buyer@example.org/);
+assert.match(live.node("sg-online-message").value, /Contact name: Example engineer/);
+assert.match(live.node("sg-online-subject").value, /Planetary Gearbox Project Review/);
+assert.equal(live.node("sg-online-url").value, "https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/");
+assert.ok(live.gaEvents.some(x => x.name === "engineering_brief_online_submit_attempt"));
+assert.ok(!live.gaEvents.some(x => x.name === "engineering_brief_online_submit_success"));
+console.log("PASS public online form activated, native POST and consent validated, attempts not mistaken for receipts");
 
-// Internal activation URL exercises exactly the future online submission path.
-const setup = bootstrap("?form_setup=1");
-assert.equal(setup.form.method,"POST");
-assert.equal(setup.form.action,"https://formsubmit.co/wangwanrong@siggear.com");
-assert.equal(setup.node("sg-brief-primary").textContent,"Send Engineering Request Online");
-assert.equal(setup.node("sg-email-brief").hidden,false);
-assert.equal(setup.node("sg-email-brief").style.display,"inline-flex");
-assert.equal(setup.node("sg-online-activation-indicator").hidden,false);
-assert.equal(setup.node("sg-online-activation-indicator").style.display,"block");
-assert.equal(setup.node("sg-online-consent-wrap").hidden,false);
-assert.equal(setup.node("sg-online-consent-wrap").style.display,"block");
-assert.equal(setup.node("sg-contact-email").required,true);
-assert.equal(setup.node("sg-online-consent").required,true);
-setup.node("sg-contact-email").value="buyer@example.org";
-setup.node("sg-online-consent").checked=true;
-setup.node("sg-contact-name").value="Example engineer";
-assert.equal(setup.submit().prevented,false,"native browser POST must not be prevented");
-assert.match(setup.node("sg-online-message").value,/Example miniature motion design/);
-assert.match(setup.node("sg-online-message").value,/Contact email: buyer@example.org/);
-assert.match(setup.node("sg-online-message").value,/Contact name: Example engineer/);
-assert.match(setup.node("sg-online-subject").value,/Planetary Gearbox Project Review/);
-assert.equal(setup.node("sg-online-url").value,"https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/");
-assert.ok(setup.gaEvents.some(x=>x.name==="engineering_brief_online_submit_attempt"));
-assert.ok(!setup.gaEvents.some(x=>x.name==="engineering_brief_online_submit_success"));
-console.log("PASS activation mode prepares native POST, complete engineering brief, and intent-only analytics");
+// Previous activation-test URL still works as the ordinary live form.
+const oldSetupUrl = bootstrap("?form_setup=1");
+assert.equal(oldSetupUrl.node("sg-brief-primary").textContent, "Send Engineering Request Online");
+assert.equal(oldSetupUrl.node("sg-email-brief").hidden, false);
+assert.equal(oldSetupUrl.node("sg-online-consent-wrap").hidden, false);
+assert.match(oldSetupUrl.form.action, /^https:\/\/formsubmit.co\//);
+console.log("PASS legacy activation URL behaves like public online form");
 
-// The online button requires a real reply address and consent, while mailto fallback remains.
-const missing = bootstrap("?form_setup=1");
-assert.equal(missing.form.reportValidity(),false);
-missing.node("sg-contact-email").value="buyer@example.org";
-assert.equal(missing.form.reportValidity(),false);
-missing.node("sg-online-consent").checked=true;
-assert.equal(missing.form.reportValidity(),true);
-missing.node("sg-online-consent").checked=false;
-missing.events["sg-email-brief.click"]();
-assert.match(missing.window.location.href,/^mailto:wangwanrong@siggear\.com/);
-console.log("PASS consent and email required only online; email fallback works without either");
+// Online requires reply email and privacy consent; direct email must not.
+const fallback = bootstrap("");
+fallback.node("sg-contact-email").value = "buyer@example.org";
+assert.equal(fallback.form.reportValidity(), false, "privacy acknowledgment required");
+fallback.node("sg-online-consent").checked = true;
+assert.equal(fallback.form.reportValidity(), true);
+fallback.node("sg-online-consent").checked = false;
+assert.equal(typeof fallback.events["sg-email-brief.click"], "function");
+fallback.events["sg-email-brief.click"]();
+assert.match(fallback.window.location.href, /^mailto:wangwanrong@siggear\.com/);
+assert.ok(fallback.gaEvents.some(x => x.name === "engineering_brief_prepare_email"));
+console.log("PASS Prepare Email Instead remains available without provider consent");
 
-// Query-string return must not be interpreted as verified mailbox delivery.
-const returned=bootstrap("?form_delivery=provider_return");
-assert.equal(returned.node("sg-online-return").hidden,false);
-const ev=returned.gaEvents.find(x=>x.name==="engineering_brief_provider_return");
+// Provider redirect is an event, but not proof of delivered or qualified inquiry.
+const returned = bootstrap("?form_delivery=provider_return");
+assert.equal(returned.node("sg-online-return").hidden, false);
+const ev = returned.gaEvents.find(x => x.name === "engineering_brief_provider_return");
 assert.ok(ev);
-assert.equal(ev.params.delivery_confirmed,0);
-console.log("PASS third-party return explicitly does not mean inbox delivery");
+assert.equal(ev.params.delivery_confirmed, 0);
+console.log("PASS provider return is not claimed as confirmed inbox delivery");
