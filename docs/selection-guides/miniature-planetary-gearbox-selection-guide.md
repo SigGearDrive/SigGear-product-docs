@@ -35,9 +35,13 @@ The preliminary reduction ratio is approximately **motor speed at the operating 
 
 Compare this result with the published stage-specific ratio table of the selected gearbox. Different stages can change overall body length, torque rating and efficiency.
 
-## SigGear Planetary Gearbox Selector
+## SigGear Planetary Gearbox Selector {#preliminary-ratio-stage-finder}
 
 Use this tool for an initial comparison when you know the **motor operating speed** and **target gearbox output speed**.
+
+**What you enter:** motor operating speed and target output speed; optionally maximum gearbox diameter, maximum gearbox body length, required continuous torque, peak torque and maximum ratio difference.
+
+**What you get:** the closest published ratio, the smallest surviving frame and the shortest surviving gearbox among published configurations that satisfy the entered catalog filters. Requests outside the published limits can be submitted for engineering assessment.
 
 It calculates:
 

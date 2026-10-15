@@ -16,6 +16,12 @@ These application pages explain **how to select a drive**, not where SigGear cla
 [Planetary Gearbox Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
 [Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 
+## Start With an Application Family
+
+Before choosing an exact diameter, use the application-led grouping to decide whether the project is primarily **Micro Precision (8P-16P)**, **Compact OEM (20P-28P)** or **High-Torque Compact (32P-42P)**. This does not replace model-level engineering review; it makes the first search and Design-In step faster.
+
+[Planetary Gearbox Application Families](planetary-gearbox-application-families.md){ .md-button .md-button--primary }
+
 ## Featured Miniature Planetary Gearbox Applications
 
 These are the application paths most closely aligned with the current SigGear overseas focus.
@@ -25,6 +31,12 @@ These are the application paths most closely aligned with the current SigGear ov
 Review blade force, lever geometry, cutting peaks, output speed, motor matching, shaft interface and outdoor duty.
 
 [Electric Pruning Shears Planetary Gearbox Guide](electric-pruning-shears-planetary-gearbox.md){ .md-button .md-button--primary }
+
+### Electric Screwdrivers and Fastening Tools
+
+Review normal fastening torque, peak / jam load, output speed, loaded motor speed, battery or supply limits, shaft interface and repeated fastening duty.
+
+[Powered Screwdriver & Fastening Tool Planetary Gearbox Guide](powered-screwdriver-planetary-gearbox.md){ .md-button }
 
 ### Electric Curtains, Blinds and Window Openers
 
@@ -57,6 +69,8 @@ Review compact pumps, valves, dosing, sample handling and positioning mechanisms
 [Medical Device Micro Gear Motor Guide](medical-device-micro-gear-motors.md){ .md-button }
 [Laboratory Automation Gear Motor Guide](laboratory-automation-diagnostic-equipment-gear-motors.md){ .md-button }
 
+Laboratory automation is a priority **Micro Precision** Design-In route for 8P–24P when packaging, low vibration and repeatable low-speed motion matter.
+
 ### Smart Locks and Access Control
 
 Review bolt, latch, cam and release mechanisms by force, stroke, battery current, jam behavior, holding requirement and compact packaging.
@@ -68,6 +82,8 @@ Review bolt, latch, cam and release mechanisms by force, stroke, battery current
 Review peristaltic pumps, syringe / plunger drives, rotary valves and compact dosing mechanisms by pressure, flow, torque, speed, duty cycle and feedback.
 
 [Pump / Valve / Dosing Gear Motor Guide](pump-valve-fluid-control-gear-motors.md){ .md-button }
+
+Pump, valve and dosing projects are a priority **Micro Precision / Compact OEM** route where the customer may already have a qualified motor or pump / valve mechanism.
 
 ### Camera Modules, Focus and Zoom Mechanisms
 

@@ -13,6 +13,28 @@ These systems usually require precise low-speed motion, repeatable positioning, 
 
 SigGear can evaluate micro gear motors, compact planetary gearboxes, flat BLDC motors and customized motor/gearbox assemblies for laboratory automation, diagnostic analyzers, sample-preparation systems, reagent systems, compact pumps, valve mechanisms and inspection-device motion axes. Final model selection, medical or laboratory compliance boundary, validation responsibility and production approval must be confirmed case by case.
 
+[Find Published Gearbox Candidates](../selection-guides/miniature-planetary-gearbox-selection-guide.md#find-your-gearbox-preliminary-ratio-stage-finder){ .md-button .md-button--primary }
+[Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
+[Start Laboratory Automation Project Brief](../request-cad-sample-quote.md?app=laboratory_automation){ .md-button }
+
+## Planetary Gearbox Starting Point for Laboratory Automation
+
+For many small laboratory mechanisms, the first Design-In question is packaging: how much diameter and axial length are available near the sample, reagent or motion axis?
+
+| Starting frame group | Typical laboratory mechanism direction | First engineering checks |
+| --- | --- | --- |
+| **8P–16P — Micro Precision** | miniature valves, optical adjustments, small dosing mechanisms, compact covers and micro positioning axes | size, backlash, output load, motor interface, noise and cycle life |
+| **20P–24P — Compact OEM** | sample trays, small carousels, reagent mechanisms, cap handling, compact pumps and higher-load axes | continuous torque, cycle time, output shaft support, vibration and thermal behavior |
+| **28P+** | use only when the mechanism genuinely requires the larger frame or higher torque | packaging, load support, inertia, duty cycle and whether a smaller mechanism redesign is preferable |
+
+For laboratory and diagnostic equipment, the commercial target is usually **the smallest gearbox that passes the complete load, precision and life requirement**, not simply the largest available torque class.
+
+If the equipment team already has a motor, SigGear can review the gearbox around the existing motor drawing and loaded speed instead of replacing the complete drive.
+
+[See the 3 Planetary Application Families](planetary-gearbox-application-families.md){ .md-button }
+[Motor + Gearbox Integration](../custom-engineering/motor-gearbox-integration.md){ .md-button }
+
 ## Important Application Boundary
 
 Laboratory automation and diagnostic equipment may be used in regulated environments. The actuator is only one component inside the full machine. This page provides preliminary selection guidance for motor and transmission review only.

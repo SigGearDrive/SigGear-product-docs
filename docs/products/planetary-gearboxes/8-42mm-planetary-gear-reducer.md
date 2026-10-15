@@ -17,6 +17,7 @@ SigGear's [TraceParts catalog (Chinese-language portal)](https://www.traceparts.
 
 [Explore TraceParts International (English) — Filter SIGGEAR](https://www.traceparts.com/en/search/traceparts-classification-mechanical-components-power-transmission?CatalogPath=TRACEPARTS%3ATP01005){ .md-button }
 
+[Find Published Ratio / Stage Candidates](../../selection-guides/miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
 [Download 8–42 mm Public STEP CAD](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
 [Gearbox Only — Existing Motor](mailto:wangwanrong@siggear.com?subject=Gearbox%20Only%20Review%20-%20Existing%20Motor&body=Existing%20motor%20model%20%2F%20drawing%3A%20%0AMotor%20speed%3A%20%0ARequired%20output%20speed%20or%20ratio%3A%20%0AMaximum%20gearbox%20%2F%20assembly%20size%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button }
 [Motor + Gearbox Review](mailto:wangwanrong@siggear.com?subject=Motor%20%2B%20Gearbox%20Engineering%20Review&body=Application%20%2F%20what%20needs%20to%20move%3A%20%0ARequired%20output%20speed%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0AMaximum%20diameter%20and%20total%20length%3A%20%0AOperating%20voltage%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button }
@@ -91,6 +92,18 @@ This documentation does not replace an application review. Final ratio, stage co
 Engineers often begin with the available installation diameter. Open the model-specific page for the exact frame before comparing ratio, stage length, allowable torque, shaft interface and motor matching:
 
 [8 mm](8p-planetary-gearbox.md) · [10 mm](10p-planetary-gearbox.md) · [12 mm](12p-planetary-gearbox.md) · [14 mm](14p-planetary-gearbox.md) · [16 mm](16p-planetary-gearbox.md) · [20 mm](20p-planetary-gearbox.md) · [22 mm](22p-planetary-gearbox.md) · [24 mm](24p-planetary-gearbox.md) · [28 mm](28p-planetary-gearbox.md) · [32 mm](32p-planetary-gearbox.md) · [36 mm](36p-planetary-gearbox.md) · [42 mm](42p-planetary-gearbox.md)
+
+## Application-Led Starting Point
+
+In addition to the published **Micro / Miniature / Compact** size classes, SigGear uses three application-led Design-In groups for early OEM discussion:
+
+- **Micro Precision — 8P-16P** for highly space-constrained precision mechanisms
+- **Compact OEM — 20P-28P** for smart-home, appliance, valve, gripper and compact commercial mechanisms
+- **High-Torque Compact — 32P-42P** for pruning tools, fastening tools and higher-load compact mechanisms
+
+This grouping is only for application discovery. Final selection uses the exact model, ratio, stage count, rated torque, length and motor interface.
+
+[Explore the 3 Application Families](../../applications/planetary-gearbox-application-families.md){ .md-button .md-button--primary }
 
 ## Quick Selection Matrix
 

@@ -11,9 +11,12 @@ We supply **gearbox-only units** for projects using an existing motor. If you ne
 
 The 12 published planetary frame sizes have model-specific Datasheets, Mechanical Interface references and **public simplified 4-stage STEP CAD** for early mechanical packaging. Final performance and configuration-matched CAD require review of the selected ratio, stage count, motor interface and operating conditions.
 
-[Browse 8–42 mm Planetary Gearboxes](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+**Know your motor operating speed and target output speed?** Use the engineering selector first. Optional filters can narrow by maximum diameter, gearbox body length and published rated allowable torque.
+
+[Find Your Gearbox — Ratio & Stage Finder](selection-guides/miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
+[Browse 8–42 mm Planetary Gearboxes](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
 [Download Public STEP CAD](engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
-[Start Engineering Project Brief](request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Start Engineering Project Brief](request-cad-sample-quote.md){ .md-button }
 
 ## Find a Planetary Gearbox by Diameter
 
@@ -26,6 +29,22 @@ Choose a **gearbox frame diameter** first when the available installation space 
 | **Compact planetary gearboxes — 36–42 mm** | [36 mm (36P)](products/planetary-gearboxes/36p-planetary-gearbox.md) · [42 mm (42P)](products/planetary-gearboxes/42p-planetary-gearbox.md) | Check output bearing loads, available length and matched motor |
 
 For **planetary gearbox STEP CAD**, visit the [model-by-model CAD download library](engineering-resources/planetary-gearboxes/public-cad-release-v1.md). Each public STEP is a **simplified 4-stage reference**, not production CAD for every ratio. Engineers who already have a motor can use our [planetary gearbox motor-matching guide](custom-engineering/motor-gearbox-integration.md).
+
+## Choose by Application Profile
+
+If the final gearbox diameter is not yet fixed, start from the mechanism instead of a part number.
+
+| Application-led group | Frames | Priority use cases |
+| --- | --- | --- |
+| **Micro Precision** | 8P-16P | dexterous hands, miniature grippers, laboratory / medical mechanisms, instruments and micro actuators |
+| **Compact OEM** | 20P-28P | curtains, blinds, valves, smart toilets, coffee / vending equipment, access control and compact commercial mechanisms |
+| **High-Torque Compact** | 32P-42P | pruning shears, fastening tools, larger grippers and higher-load compact OEM actuators |
+
+These are commercial Design-In groups, not replacements for the published Micro / Miniature / Compact technical classes.
+
+[Explore Planetary Gearbox Application Families](applications/planetary-gearbox-application-families.md){ .md-button .md-button--primary }
+[Dexterous Hand & Gripper Guide](applications/robot-gripper-gear-motors.md){ .md-button }
+[Electric Curtain & Blind Guide](applications/electric-curtain-blind-window-opener-gear-motors.md){ .md-button }
 
 ## Real SigGear Planetary Gearbox Examples
 
@@ -112,9 +131,12 @@ Peak-torque duration depends on the selected controller, current limit, duty cyc
 
 [How to Select a Miniature Planetary Gearbox](selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button .md-button--primary }
 [Electric Pruning Shears — Gearbox Selection](applications/electric-pruning-shears-planetary-gearbox.md){ .md-button }
+[Powered Screwdrivers & Fastening Tools — Gearbox Selection](applications/powered-screwdriver-planetary-gearbox.md){ .md-button }
 [Electric Curtain Drive — Gearbox and Gearmotor Selection](applications/electric-curtain-blind-window-opener-gear-motors.md){ .md-button }
 [Smart Toilet & Bidet — Compact Gear Drive Selection](applications/smart-toilet-bidet-planetary-gear-motors.md){ .md-button }
 [Dexterous Hands — Planetary Gearbox & Gearmotor Selection](applications/robot-gripper-gear-motors.md){ .md-button }
+[Laboratory Automation — Compact Gearbox Selection](applications/laboratory-automation-diagnostic-equipment-gear-motors.md){ .md-button }
+[Pump / Valve / Dosing — Compact Drive Selection](applications/pump-valve-fluid-control-gear-motors.md){ .md-button }
 
 The application guides explain preliminary engineering selection and do not claim confirmed customer production cases.
 

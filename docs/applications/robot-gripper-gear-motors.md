@@ -13,9 +13,24 @@ For SigGear's current overseas focus, the primary starting point is the **8–42
 
 A suitable drive must still be selected from the complete mechanism requirement, including force, speed, geometry, shaft load, backlash, noise, duty cycle, feedback and installation space.
 
+[Find Published Gearbox Candidates](../selection-guides/miniature-planetary-gearbox-selection-guide.md#find-your-gearbox-preliminary-ratio-stage-finder){ .md-button .md-button--primary }
 [Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Start Dexterous Hand / Gripper Project Brief](../request-cad-sample-quote.md?app=dexterous_hand_gripper){ .md-button }
+
+## Where to Start by Gearbox Size
+
+Use this only as an early packaging filter. Final selection must use the exact model's rated torque, ratio, length, shaft-load and motor-interface data.
+
+| Starting frame group | Typical mechanism direction | What to verify first |
+| --- | --- | --- |
+| **8P-16P — Micro Precision** | finger joints, tendon spools, miniature auxiliary axes and highly space-constrained mechanisms | torque margin, radial load, gearbox length and motor interface |
+| **20P-28P — Compact OEM** | larger finger mechanisms, compact jaws, rotary grippers and end effectors | continuous torque, speed, backlash, spool / jaw geometry and duty cycle |
+| **32P-42P — Higher-load grippers** | larger grippers or compact mechanisms with higher torque demand | whether the larger diameter is acceptable, output bearing load, shock / jam load and motor power |
+
+For a dexterous-hand program, the target should normally be the **smallest frame that passes the complete load and life requirement**, not simply the smallest available diameter.
+
+[See the 3 Planetary Application Families](planetary-gearbox-application-families.md){ .md-button }
 
 ## Main Selection Factors
 
