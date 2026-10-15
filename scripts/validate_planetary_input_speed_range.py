@@ -17,7 +17,7 @@ def check(path: Path, label: str) -> None:
     if RANGE not in text:
         raise ValueError(f"{label} has no confirmed continuous input-speed range: {path}")
     # Do not accidentally republish the deprecated 8,000 rpm continuous ceiling.
-    if re.search(r"(?:≤|<=)\\s*8,000\\s*rpm", text):
+    if re.search(r"(?:≤|<=)\s*8,000\s*rpm", text):
         raise ValueError(f"{label} still has an obsolete 8,000 rpm input-speed limit: {path}")
 
 def main() -> None:
@@ -49,7 +49,7 @@ def main() -> None:
         for path in base.rglob("*"):
             if path.suffix.lower() not in {".md", ".yml", ".yaml", ".json", ".js", ".txt"}:
                 continue
-            if re.search(r"(?:≤|<=)\\s*8,000\\s*rpm", path.read_text(encoding="utf-8")):
+            if re.search(r"(?:≤|<=)\s*8,000\s*rpm", path.read_text(encoding="utf-8")):
                 raise ValueError(f"Outdated public speed rating remains: {path}")
 
     js = (ROOT / "docs/assets/javascripts/ratio-stage-selector.js").read_text(encoding="utf-8")
