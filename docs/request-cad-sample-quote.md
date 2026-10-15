@@ -255,17 +255,21 @@ Use the project brief below to contact SigGear. **Prepare Email to SigGear** ope
     </label>
   </div>
 
-  <div id="sg-online-consent-wrap" hidden>
+  <div id="sg-online-activation-indicator" class="siggear-form-return" hidden style="display:none" role="status">
+    <strong>SigGear owner activation test is enabled.</strong> Complete this form with non-confidential internal test data and confirm delivery to wangwanrong@siggear.com before enabling online submission for customers.
+  </div>
+
+  <div id="sg-online-consent-wrap" hidden style="display:none">
     <label class="siggear-online-consent-label">
       <input id="sg-online-consent" name="privacy_ack" type="checkbox" value="yes">
       I agree to send my contact details and technical project description to SigGear through the third-party form service <a href="https://formsubmit.co/privacy.pdf" target="_blank" rel="noopener noreferrer">FormSubmit</a>. I will not submit confidential files here.
     </label>
   </div>
-  <p id="sg-online-delivery-note" class="siggear-online-delivery-note" hidden>Online delivery may require a CAPTCHA challenge. It is available only after SigGear confirms recipient activation; the email option remains available if you prefer.</p>
+  <p id="sg-online-delivery-note" class="siggear-online-delivery-note" hidden style="display:none">Online delivery may require a CAPTCHA challenge. It is available only after SigGear confirms recipient activation; the email option remains available if you prefer.</p>
 
   <div class="siggear-form-actions">
     <button type="submit" id="sg-brief-primary" class="md-button md-button--primary">Prepare Email to SigGear</button>
-    <button type="button" id="sg-email-brief" class="md-button" hidden>Prepare Email Instead</button>
+    <button type="button" id="sg-email-brief" class="md-button" hidden style="display:none">Prepare Email Instead</button>
     <button type="button" id="sg-copy-brief" class="md-button">Copy Project Brief</button>
   </div>
 
