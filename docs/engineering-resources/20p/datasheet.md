@@ -9,6 +9,8 @@ description: Public 20P 20 mm planetary gearbox datasheet with 1–4 stage ratio
 **Status:** Public engineering evaluation reference  
 **Release date:** 2026-10-06
 
+**Continuous input-speed range revised:** 2026-10-15 (confirmed by SigGear engineering).  
+
 The SigGear 20P is a 20 mm planetary gearbox platform with one- to four-stage configurations. Performance values below are consolidated from the current canonical product page. Mechanical-interface details are linked to the controlled 2D drawing reference released for this model.
 
 ## Key Specifications
@@ -23,7 +25,7 @@ The SigGear 20P is a 20 mm planetary gearbox platform with one- to four-stage co
 | Maximum momentary torque range | 12.0–26.0 kgf·cm |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.5° |
-| Continuous permissible input speed | ≤ 8,000 rpm |
+| Continuous permissible input speed | 1,000–20,000 rpm |
 | Operating temperature range | −40 to 120 °C |
 
 Maximum momentary torque is not a continuous working rating.

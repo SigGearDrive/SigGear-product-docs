@@ -32,7 +32,7 @@ The current downloadable STEP is a **simplified 4-stage reference**. It is inten
 | Rated allowable torque range of 32P family | 35.0-80.0 kgf.cm |
 | Maximum momentary torque range of 32P family | 70.0-160.0 kgf.cm |
 | Backlash at no load | <= 1.2 deg |
-| Continuous permissible input speed | <= 8,000 rpm |
+| Continuous permissible input speed | 1,000–20,000 rpm |
 
 Maximum momentary torque is not a continuous operating rating. The torque and ratio ranges above cover the published 1-4 stage 32P family; the public STEP itself represents only the 4-stage external envelope.
 

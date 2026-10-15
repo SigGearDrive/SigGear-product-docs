@@ -16,7 +16,7 @@ published_specifications:
   maximum_momentary_torque_range: "7.0–12.0 kgf·cm"
   efficiency_range: "66–90%"
   backlash_at_no_load: "≤ 1.5°"
-  maximum_continuous_speed: "≤ 8,000 rpm"
+  maximum_continuous_speed: "1,000–20,000 rpm"
   radial_load_at_10_mm: "≤ 0.8 kgf"
   axial_load: "≤ 0.25 kgf"
   radial_shaft_play: "≤ 0.04 mm"
@@ -48,7 +48,7 @@ technical_review:
 source_control:
   public_claim_source: canonical_page
   technical_source_status: not_recorded_in_public_repository
-inventory_checked_on: "2026-10-08"
+inventory_checked_on: "2026-10-15"
 
 cad_control:
   controlled_2d_drawing: "SG01PD14"

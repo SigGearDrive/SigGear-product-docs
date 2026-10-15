@@ -27,6 +27,8 @@ For an OEM design requiring a **32 mm miniature planetary gearbox / planetary ge
 
 The downloadable STEP represents the **4-stage reference configuration only** and is intended for preliminary mechanical packaging. It is **not** a dimensionally interchangeable 1-, 2- or 3-stage model. Request configuration-matched CAD and a controlled drawing before design freeze.
 
+**Continuous input-speed range (confirmed 2026-10-15):** 1,000–20,000 rpm for preliminary standard gearbox selection. Speeds outside this range require a custom feasibility review. Motor matching, duty cycle and application conditions must still be confirmed.
+
 ## Product Identity
 
 | Item | Description |
@@ -48,7 +50,7 @@ The downloadable STEP represents the **4-stage reference configuration only** an
 | Maximum momentary torque range | 70.0–160.0 kgf·cm |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.2° |
-| Maximum permissible speed, continuous operation | ≤ 8,000 rpm |
+| Permissible gearbox input speed, continuous operation | 1,000–20,000 rpm |
 | Adapted DC motor voltage | 3–36 VDC |
 | Adapted DC motor power | below 100 W |
 | Housing material | Steel |

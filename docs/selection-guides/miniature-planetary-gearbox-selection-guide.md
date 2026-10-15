@@ -1,5 +1,5 @@
 ---
-title: Miniature Planetary Gearbox Selection & Ratio Finder (8–42 mm) | SigGear
+title: SigGear Planetary Gearbox Selector | 8–42 mm Engineering Selection
 description: Preliminary 8–42 mm planetary gearbox selection by motor speed, target output speed, published ratio, stage, gearbox length, rated torque, datasheet and CAD.
 ---
 
@@ -35,13 +35,13 @@ The preliminary reduction ratio is approximately **motor speed at the operating 
 
 Compare this result with the published stage-specific ratio table of the selected gearbox. Different stages can change overall body length, torque rating and efficiency.
 
-## Find Your Gearbox — Preliminary Ratio & Stage Finder
+## SigGear Planetary Gearbox Selector {#preliminary-ratio-stage-finder}
 
 Use this tool for an initial comparison when you know the **motor operating speed** and **target gearbox output speed**.
 
-**What you enter:** motor operating speed and target output speed; optionally maximum gearbox diameter, maximum gearbox body length, required continuous torque and maximum ratio difference.
+**What you enter:** motor operating speed and target output speed; optionally maximum gearbox diameter, maximum gearbox body length, required continuous torque, peak torque and maximum ratio difference.
 
-**What you get:** the closest published ratio, the smallest surviving frame and the shortest surviving gearbox among the published configurations that remain after your filters.
+**What you get:** the closest published ratio, the smallest surviving frame and the shortest surviving gearbox among published configurations that satisfy the entered catalog filters. Requests outside the published limits can be submitted for engineering assessment.
 
 It calculates:
 
@@ -49,13 +49,13 @@ It calculates:
 
 and compares that value with the currently published 1–4 stage ratios for SigGear 8P–42P.
 
-Optional filters can remove configurations that exceed a maximum gearbox diameter, maximum **gearbox body length**, published **rated allowable torque** requirement, or a user-defined maximum ratio difference.
+Optional filters can remove configurations that exceed a maximum gearbox diameter, maximum **gearbox body length**, published **rated allowable torque** requirement, a **maximum momentary torque** screening threshold, or a user-defined maximum ratio difference. Exceeding a catalog limit does not rule out a customized solution; the results provide a custom engineering review path.
 
 <form id="siggear-ratio-stage-selector" class="siggear-ratio-selector">
   <div class="siggear-selector-grid">
     <label>
       Motor operating speed (rpm)
-      <input id="sg-selector-motor-speed" type="number" min="0.01" step="any" required placeholder="Example: 8000">
+      <input id="sg-selector-motor-speed" type="number" min="0.01" step="any" required placeholder="Example: 12000">
     </label>
 
     <label>
@@ -74,8 +74,19 @@ Optional filters can remove configurations that exceed a maximum gearbox diamete
     </label>
 
     <label>
-      Required continuous torque (kgf·cm) — optional
-      <input id="sg-selector-torque" type="number" min="0.001" step="any" placeholder="Compared with published rated allowable torque">
+      Required continuous output torque — optional
+      <input id="sg-selector-torque" type="number" min="0" step="any" placeholder="Compared with published rated allowable torque">
+    </label>
+    <label>
+      Torque unit
+      <select id="sg-selector-torque-unit" aria-label="Torque unit">
+        <option value="nm">N·m</option>
+        <option value="kgfcm">kgf·cm</option>
+      </select>
+    </label>
+    <label>
+      Required peak output torque — optional, preliminary screen
+      <input id="sg-selector-peak-torque" type="number" min="0" step="any" placeholder="Peak load; duration and frequency require engineering review">
     </label>
 
     <label>
@@ -91,6 +102,10 @@ Optional filters can remove configurations that exceed a maximum gearbox diamete
   <p id="sg-ratio-stage-summary" class="siggear-selector-summary" aria-live="polite"></p>
   <div id="sg-ratio-stage-results" aria-live="polite"></div>
 </form>
+
+**Continuous input-speed range — engineering confirmed 15 October 2026:** SigGear's 8P–42P planetary gearbox series supports **1,000–20,000 rpm continuous input speed** for preliminary standard-configuration selection, superseding the earlier published 8,000 rpm upper limit. Input speeds **below 1,000 rpm** or **above 20,000 rpm** are directed to **custom feasibility assessment**. The exact motor, ratio, duty cycle, thermal behavior, torque, and installation interface still require application-specific engineering review.
+
+**Torque and efficiency rules:** published stage-specific rated allowable torque may be used for preliminary continuous-load screening; published maximum momentary torque may be used to rule out unsuitable peak-load candidates but does **not** establish an allowable peak duration or frequency. Exceeding either published torque threshold can be reviewed for customization. Published efficiency is a **stage-level reference**: ratio-specific differences are awaiting separate engineering verification. The tool does not infer motor suitability, safe peak duration, thermal behavior, service life or final design approval.
 
 **Important:** this is a preliminary Design-In aid, not an automatic final selector. It does not add a safety factor, calculate motor shaft torque, predict service life, or prove that a customer's motor shaft / pilot / mounting pattern fits the gearbox.
 
@@ -111,7 +126,7 @@ These labels are not interchangeable and are **not final recommendations**. A sm
 - **Cutting, startup, impact or jam events:** Consider magnitude, duration and frequency of peak loads. The published maximum momentary torque is **not** a continuous rating.
 - **Motor matching:** Output torque estimates depend on the motor shaft torque, selected ratio and the relevant gearbox efficiency. Use the efficiency published for the selected configuration, not a family maximum.
 
-Never transfer a torque rating from one frame size or stage configuration to another without technical confirmation.
+Never transfer a torque rating from one frame size or stage configuration to another without technical confirmation. If published torque, ratio, or envelope filters produce no catalog match, use **Request Custom Engineering Review** on the results page and attach the application / motor drawing. A successful preliminary match still needs review of actual operating conditions.
 
 ## 4. Check the Full Mechanical Interface
 

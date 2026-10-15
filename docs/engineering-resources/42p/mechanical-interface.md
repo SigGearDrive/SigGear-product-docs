@@ -55,7 +55,7 @@ Use the selected stage / ratio and the controlled drawing revision before final 
 | Shaft axial load | ≤ 8.0 kgf |
 | Radial shaft play | ≤ 0.04 mm |
 | Thrust shaft play | ≤ 0.3 mm |
-| Continuous permissible input speed | ≤ 8,000 rpm |
+| Continuous permissible input speed | 1,000–20,000 rpm |
 | Operating temperature range | −40 to 120 °C |
 
 These limits come from the current 42P specification sheet and should be checked against the actual application load direction, duty cycle and selected configuration.

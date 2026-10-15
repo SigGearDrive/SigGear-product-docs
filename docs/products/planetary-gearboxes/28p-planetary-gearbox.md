@@ -16,6 +16,8 @@ The SigGear 28P is a 28 mm miniature planetary gearbox for compact motorized mec
 
 *Real 28P frame-size product photographed from multiple angles. The caliper photo is a visual diameter reference for the photographed sample and does not replace the controlled dimensional drawing or released tolerances for a confirmed configuration.*
 
+**Continuous input-speed range (confirmed 2026-10-15):** 1,000–20,000 rpm for preliminary standard gearbox selection. Speeds outside this range require a custom feasibility review. Motor matching, duty cycle and application conditions must still be confirmed.
+
 ## Product Identity
 
 | Item | Description |
@@ -37,7 +39,7 @@ The SigGear 28P is a 28 mm miniature planetary gearbox for compact motorized mec
 | Maximum momentary torque range | 40.0–100.0 kgf·cm |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.2° |
-| Maximum permissible speed, continuous operation | ≤ 8,000 rpm |
+| Permissible gearbox input speed, continuous operation | 1,000–20,000 rpm |
 | Adapted DC motor voltage | 3–36 VDC |
 | Adapted DC motor power | below 30 W |
 

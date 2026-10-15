@@ -29,6 +29,13 @@
   var cadReadinessGates = document.getElementById("sg-cad-readiness-gates");
   var nextStep = document.getElementById("sg-next-step");
   var selectorCandidate = null;
+  var selectorReviewReason = "";
+  var reviewReasons = {
+    speed_above_engineering: "Continuous input speed above the standard 20,000 rpm maximum; custom feasibility review requested",
+    speed_below_engineering: "Continuous input speed below the standard 1,000 rpm minimum; custom feasibility review requested",
+    no_published_match: "No published standard configuration meets the specified filters; custom evaluation requested",
+    custom_configuration: "Customer requests a customized gearbox or motor integration review"
+  };
 
   function value(id) {
     var el = document.getElementById(id);
@@ -229,6 +236,48 @@
         hasContext = true;
       }
 
+      // Prefill only non-sensitive operating requirements from the selector.
+      var selectionSource = (params.get("selection") || "");
+      if (selectionSource === "ratio_stage_selector" || selectionSource === "selector_engineering_review") {
+        if (selectionSource === "selector_engineering_review") {
+          var requestedReason = params.get("selector_review_reason") || "";
+          selectorReviewReason = Object.prototype.hasOwnProperty.call(reviewReasons, requestedReason) ?
+            reviewReasons[requestedReason] : "Customer requests a project-specific engineering review";
+        }
+        var inputSpeed = Number(params.get("selector_motor_speed"));
+        var outputSpeed = Number(params.get("selector_output_speed"));
+        var continuousNm = Number(params.get("selector_continuous_nm"));
+        var peakNm = Number(params.get("selector_peak_nm"));
+        if (params.has("selector_motor_speed") && Number.isFinite(inputSpeed) && inputSpeed > 0 && inputSpeed <= 1000000) {
+          var motorSpeedField = document.getElementById("sg-motor-speed");
+          if (motorSpeedField && !motorSpeedField.value) motorSpeedField.value = inputSpeed + " rpm (operating)";
+        }
+        if (params.has("selector_output_speed") && Number.isFinite(outputSpeed) && outputSpeed > 0) {
+          var outputField = document.getElementById("sg-output");
+          if (outputField && !outputField.value) outputField.value = outputSpeed + " rpm";
+        }
+        var loads = [];
+        if (params.has("selector_continuous_nm") && Number.isFinite(continuousNm) && continuousNm >= 0)
+          loads.push("Continuous: " + continuousNm + " N·m");
+        if (params.has("selector_peak_nm") && Number.isFinite(peakNm) && peakNm >= 0)
+          loads.push("Peak: " + peakNm + " N·m (duration unverified)");
+        if (loads.length) {
+          var loadField = document.getElementById("sg-load");
+          if (loadField && !loadField.value) loadField.value = loads.join("; ");
+        }
+        var maxDiameter = Number(params.get("selector_max_diameter"));
+        var maxGearboxLength = Number(params.get("selector_max_gearbox_length"));
+        var envelope = [];
+        if (params.has("selector_max_diameter") && Number.isFinite(maxDiameter) && maxDiameter > 0)
+          envelope.push("Maximum gearbox diameter: " + maxDiameter + " mm");
+        if (params.has("selector_max_gearbox_length") && Number.isFinite(maxGearboxLength) && maxGearboxLength > 0)
+          envelope.push("Maximum gearbox body length: " + maxGearboxLength + " mm");
+        if (envelope.length) {
+          var sizeField = document.getElementById("sg-size");
+          if (sizeField && !sizeField.value) sizeField.value = envelope.join("; ");
+        }
+      }
+
       var queryNextStep = (params.get("next_step") || "").toLowerCase();
       if (queryNextStep === "cad_review" && nextStep) {
         nextStep.value = "CAD / STEP review";
@@ -331,6 +380,10 @@
     ];
 
     var candidate = activeSelectorCandidate();
+    if (selectorReviewReason) {
+      lines.push("Selector review request: " + selectorReviewReason);
+      lines.push("No published standard configuration is approved by this request; engineering confirmation required.");
+    }
     if (candidate) {
       lines.push(
         "Preliminary selector candidate: " +

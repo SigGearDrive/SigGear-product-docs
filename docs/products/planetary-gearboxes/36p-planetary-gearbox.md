@@ -18,6 +18,8 @@ The SigGear 36P is a 36 mm compact planetary gearbox for compact motorized mecha
 
 [Open the updated 36P product photo (JPG)](../../assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014-v2.jpg)
 
+**Continuous input-speed range (confirmed 2026-10-15):** 1,000–20,000 rpm for preliminary standard gearbox selection. Speeds outside this range require a custom feasibility review. Motor matching, duty cycle and application conditions must still be confirmed.
+
 ## Product Identity
 
 | Item | Description |
@@ -42,7 +44,7 @@ The SigGear 36P is a 36 mm compact planetary gearbox for compact motorized mecha
 | Maximum momentary torque range | 80.0–200.0 kgf·cm |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.2° |
-| Maximum permissible speed, continuous operation | ≤ 8,000 rpm |
+| Permissible gearbox input speed, continuous operation | 1,000–20,000 rpm |
 | Operating temperature | −40 to 120 °C |
 | Adapted DC motor voltage | 3–48 VDC |
 | Adapted DC motor power | below 150 W |
@@ -70,7 +72,7 @@ Torque values are preserved in the source unit, kgf·cm. Maximum momentary torqu
 | Radial shaft play | ≤ 0.04 mm |
 | Thrust shaft play | ≤ 0.3 mm |
 | Backlash at no load | ≤ 1.2° |
-| Maximum permissible speed, continuous operation | ≤ 8,000 rpm |
+| Maximum permissible speed, continuous operation | 1,000–20,000 rpm |
 | Operating temperature | −40 to 120 °C |
 
 ## Motor Compatibility

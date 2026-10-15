@@ -12,7 +12,8 @@
   font-weight: 600;
 }
 
-.siggear-ratio-selector input {
+.siggear-ratio-selector input,
+.siggear-ratio-selector select {
   box-sizing: border-box;
   width: 100%;
   margin-top: 0.35rem;

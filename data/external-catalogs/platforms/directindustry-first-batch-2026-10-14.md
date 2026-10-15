@@ -36,7 +36,7 @@ The SigGear 10P is a 10 mm micro planetary gearbox (planetary gearhead) for spac
 | Maximum momentary torque range (not continuous) | 2.6–4.0 kgf·cm |
 | Published efficiency range (stage-dependent) | 66–90% |
 | No-load backlash | ≤ 1.5° |
-| Maximum permissible continuous input speed | ≤ 8,000 rpm |
+| Continuous permissible input-speed range | 1,000–20,000 rpm |
 
 **Existing SigGear engineering assets:**
 
@@ -74,7 +74,7 @@ The SigGear 20P is a 20 mm miniature planetary gearbox for compact electromechan
 | Maximum momentary torque range (not continuous) | 12.0–26.0 kgf·cm |
 | Published efficiency range (stage-dependent) | 66–90% |
 | No-load backlash | ≤ 1.5° |
-| Maximum permissible continuous input speed | ≤ 8,000 rpm |
+| Continuous permissible input-speed range | 1,000–20,000 rpm |
 
 **Existing SigGear engineering assets:**
 
@@ -112,7 +112,7 @@ The SigGear 32P is a 32 mm miniature planetary gearbox for OEM mechanisms requir
 | Maximum momentary torque range (not continuous) | 70.0–160.0 kgf·cm |
 | Published efficiency range (stage-dependent) | 66–90% |
 | No-load backlash | ≤ 1.2° |
-| Maximum permissible continuous input speed | ≤ 8,000 rpm |
+| Continuous permissible input-speed range | 1,000–20,000 rpm |
 
 **Existing SigGear engineering assets:**
 
@@ -152,7 +152,7 @@ The SigGear 42P is a 42 mm compact planetary gearbox at the larger-diameter end 
 | Maximum momentary torque range (not continuous) | 160.0–300.0 kgf·cm |
 | Published efficiency range (stage-dependent) | 66–90% |
 | No-load backlash | ≤ 1.2° |
-| Maximum permissible continuous input speed | ≤ 8,000 rpm |
+| Continuous permissible input-speed range | 1,000–20,000 rpm |
 
 **Existing SigGear engineering assets:**
 

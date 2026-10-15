@@ -244,7 +244,7 @@ For the published 32P reference:
 | Motor type | DC motor |
 | Nominal voltage | 3-36 VDC |
 | Motor power | Below 100 W |
-| Continuous gearbox input speed | <= 8,000 rpm |
+| Continuous gearbox input speed | 1,000–20,000 rpm |
 
 These values belong to the published 32P adapted-motor reference only. They are not universal limits for all SigGear gearboxes or motors.
 
