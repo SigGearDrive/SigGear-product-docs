@@ -54,6 +54,10 @@ The SigGear operator successfully generated/downloaded all 12 series STEP AP203 
 
 All 12 model-specific `traceparts.com/en/product/...` URLs were provided directly by the SigGear operator on 2026-10-14 and recorded in [the English model URL registry](traceparts-model-urls-2026-10-14.yml). Existing `Product` identifiers and `PartNumber` values are preserved without inventing slugs. The operator confirmed all 12 STEP AP203 downloads; independent CAD geometry validation and TraceParts Publisher title alignment remain separate tasks.
 
+## 2026-10-15 TraceParts publisher confirmation and QA
+
+The manufacturer publishing contact reports requested catalog updates complete and live (2026-10-15). This is a vendor statement; the live 12 English product titles, 4 photos, old direct URLs, CAD downloads and technical documentation links still need independent spot checks. See [the 12-model post-publish QA register](traceparts-publisher-qa-2026-10-15.yml). Do not assume a title rename changes a stable TraceParts Product ID or URL; check before editing existing GitHub links.
+
 ## 2026-10-14 TraceParts Publisher / sales conversion follow-up
 
 The GitHub → TraceParts direct product link path is deployed for all 12 models, but TraceParts → GitHub website links, published product-title segmentation, and native lead/RFQ visibility still need platform-specific confirmation.

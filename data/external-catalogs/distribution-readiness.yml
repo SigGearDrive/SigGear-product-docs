@@ -1,7 +1,7 @@
 schema_version: 1
 program: SigGear External Engineering & Product Discovery Distribution
 product_scope: 8P-42P miniature_and_compact_planetary_gearboxes
-updated_on: "2026-10-14"
+updated_on: "2026-10-15"
 
 shared_source:
   product_master_data: data/products/
@@ -13,8 +13,8 @@ platforms:
   TraceParts:
     channel_type: CAD_design_in_and_download_leads
     priority: P1
-    commercial_model: paid_publishing_plan_quote_required
-    current_status: all_12_English_STEP_downloads_confirmed_GitHub_crosslinks_live_publisher_UTM_pending
+    commercial_model: free_basic_product_publication_with_optional_paid_lead_analytics
+    current_status: vendor_confirmed_catalog_update_live_2026_10_15_post_publication_QA_pending
     evidence:
       international_supplier_index_label: "SIGGEAR (12)"
       international_supplier_index_scope: supplier_filter_only
@@ -33,7 +33,12 @@ platforms:
       live_validation_register: data/external-catalogs/platforms/traceparts-live-validation-2026-10-14.yml
       publisher_update_request: data/external-catalogs/platforms/traceparts-publisher-update-request-2026-10-14.md
       publisher_update_request_email: operator_reports_sent_to_TraceParts_staff_2026_10_14
-      publisher_response_status: waiting
+      publisher_response_status: updated_and_live_reported_by_publisher_2026_10_15_not_independently_verified
+      publisher_post_update_QA_file: data/external-catalogs/platforms/traceparts-publisher-qa-2026-10-15.yml
+      category_tree_requested_to_remain_unchanged: true
+      model_titles_expected: Micro_8_to_16_Miniature_20_to_32_Compact_36_to_42
+      product_photo_updates_requested: [28P, 32P, 36P, 42P]
+      exact_post_update_URL_and_CAD_retest: pending
       ga4_referral_baseline: data/external-catalogs/platforms/traceparts-attribution-baseline-2026-10-14.yml
       ga4_observed_traceparts_sessions_2026_09_17_to_10_14: 0
       ga4_total_sessions_same_period: 6
@@ -48,15 +53,17 @@ platforms:
       - mechanical_interface_urls
       - official_logo_white_background_minimum_40px_height
     pending_siggear:
+      - independently_review_12_live_English_product_titles_after_vendor_update
+      - visually_confirm_new_28P_32P_36P_42P_product_photos
+      - confirm_original_TraceParts_product_URLs_work_after_title_changes
+      - spot_retest_CAD_downloads_for_8P_32P_42P
+      - confirm_product_specific_TraceParts_to_GitHub_UTM_and_technical_document_links
       - verify_downloaded_file_geometry_and_configuration_correspondence_if_needed
-      - confirm_TraceParts_outbound_links_to_GitHub_have_UTM_tracking
-      - request_TraceParts_product_name_alignment_Micro_Miniature_Compact
-      - confirm_TraceParts_Analytics_and_RFQ_capabilities_under_current_plan
+      - do_not_assume_paid_lead_Analytics_or_RFQ_without_contract
     pending_platform:
-      - official_smart_publishing_xls_template
-      - valid_classification_category_id
-      - account_or_publishing_access
-    next_action: send_prepared_12_product_ID_title_and_UTM_publisher_update_request_then_validate_English_pages_and_Analytics
+      - independently_verify_vendor_reported_catalog_update_on_public_English_pages
+      - enable_Analytics_or_customer_leads_only_if_commercial_plan_is_accepted
+    next_action: complete_post_publication_visual_title_photo_URL_CAD_technical_link_QA_then_measure_qualified_referral_traffic
 
   3Dfindit:
     channel_type: CAD_design_in_configurator_and_download_leads

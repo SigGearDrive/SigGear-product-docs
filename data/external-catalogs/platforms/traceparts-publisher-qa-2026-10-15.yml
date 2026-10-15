@@ -1,0 +1,141 @@
+schema_version: 1
+checked_on: "2026-10-15"
+platform: TraceParts
+program: SigGear_Planetary_8P_to_42P_Catalog
+update_notification:
+  source: manufacturer_publishing_support_business_email
+  received_on: "2026-10-15"
+  summary: publisher_reports_requested_product_updates_completed_and_live
+  evidence_level: publisher_confirmation_only
+  independent_visual_and_functional_qa: pending
+  publication_scope:
+    size_naming: Micro_8_to_16_Miniature_20_to_32_Compact_36_to_42
+    category_tree_change_requested: false
+    classification_ID_reassignment_requested: false
+    new_product_photos_requested_for: [28P, 32P, 36P, 42P]
+    existing_CAD_and_technical_links_preservation_requested: true
+  caution: do_not_infer_individual_fields_verified_from_general_publisher_confirmation
+verification_priorities:
+  - confirm_public_English_titles_match_canonical_size_groups
+  - confirm_new_photos_visible_for_28P_32P_36P_42P
+  - confirm_existing_model_product_URLs_and_Product_IDs_still_resolve
+  - confirm_STEP_AP203_CAD_download_functionality_on_representative_8P_32P_42P
+  - confirm_Product_Page_Datasheet_Mechanical_Interface_clickable_when_signed_in
+  - confirm_TraceParts_to_GitHub_links_have_correct_model_and_UTM_if_platform_supports
+  - check_Analytics_and_lead_access_only_if_contract_includes_it
+qa_scope:
+  exact_model_URL_registry: data/external-catalogs/platforms/traceparts-model-urls-2026-10-14.yml
+  all_models_have_English_operator_supplied_product_URL: true
+  model_records:
+    - model: 8P
+      expected_display_name: "SigGear 8P 8 mm Micro Planetary Gearbox"
+      existing_English_URL: "https://www.traceparts.com/en/product/siggear-8p-8-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121068&PartNumber=8p"
+      title_independently_verified: false
+      new_photo_expected: false
+      new_photo_independently_verified: not_applicable
+      existing_URL_after_publisher_update_verified: false
+      CAD_download_after_publisher_update_verified: false
+      website_datasheet_mechanical_links_after_update_verified: false
+    - model: 10P
+      expected_display_name: "SigGear 10P 10 mm Micro Planetary Gearbox"
+      existing_English_URL: "https://www.traceparts.com/en/product/siggear-10p-10-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121061&PartNumber=10p"
+      title_independently_verified: false
+      new_photo_expected: false
+      new_photo_independently_verified: not_applicable
+      existing_URL_after_publisher_update_verified: false
+      CAD_download_after_publisher_update_verified: false
+      website_datasheet_mechanical_links_after_update_verified: false
+    - model: 12P
+      expected_display_name: "SigGear 12P 12 mm Micro Planetary Gearbox"
+      existing_English_URL: "https://www.traceparts.com/en/product/siggear-12p-12-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121062&PartNumber=12p"
+      title_independently_verified: false
+      new_photo_expected: false
+      new_photo_independently_verified: not_applicable
+      existing_URL_after_publisher_update_verified: false
+      CAD_download_after_publisher_update_verified: false
+      website_datasheet_mechanical_links_after_update_verified: false
+    - model: 14P
+      expected_display_name: "SigGear 14P 14 mm Micro Planetary Gearbox"
+      existing_English_URL: "https://www.traceparts.com/en/product/siggear-14p-14-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121058&PartNumber=14p"
+      title_independently_verified: false
+      new_photo_expected: false
+      new_photo_independently_verified: not_applicable
+      existing_URL_after_publisher_update_verified: false
+      CAD_download_after_publisher_update_verified: false
+      website_datasheet_mechanical_links_after_update_verified: false
+    - model: 16P
+      expected_display_name: "SigGear 16P 16 mm Micro Planetary Gearbox"
+      existing_English_URL: "https://www.traceparts.com/en/product/siggear-16p-16-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121060&PartNumber=16p"
+      title_independently_verified: false
+      new_photo_expected: false
+      new_photo_independently_verified: not_applicable
+      existing_URL_after_publisher_update_verified: false
+      CAD_download_after_publisher_update_verified: false
+      website_datasheet_mechanical_links_after_update_verified: false
+    - model: 20P
+      expected_display_name: "SigGear 20P 20 mm Miniature Planetary Gearbox"
+      existing_English_URL: "https://www.traceparts.com/en/product/siggear-20p-20-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121059&PartNumber=20p"
+      title_independently_verified: false
+      new_photo_expected: false
+      new_photo_independently_verified: not_applicable
+      existing_URL_after_publisher_update_verified: false
+      CAD_download_after_publisher_update_verified: false
+      website_datasheet_mechanical_links_after_update_verified: false
+    - model: 22P
+      expected_display_name: "SigGear 22P 22 mm Miniature Planetary Gearbox"
+      existing_English_URL: "https://www.traceparts.com/en/product/siggear-22p-22-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121064&PartNumber=22p"
+      title_independently_verified: false
+      new_photo_expected: false
+      new_photo_independently_verified: not_applicable
+      existing_URL_after_publisher_update_verified: false
+      CAD_download_after_publisher_update_verified: false
+      website_datasheet_mechanical_links_after_update_verified: false
+    - model: 24P
+      expected_display_name: "SigGear 24P 24 mm Miniature Planetary Gearbox"
+      existing_English_URL: "https://www.traceparts.com/en/product/siggear-24p-24-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121065&PartNumber=24p"
+      title_independently_verified: false
+      new_photo_expected: false
+      new_photo_independently_verified: not_applicable
+      existing_URL_after_publisher_update_verified: false
+      CAD_download_after_publisher_update_verified: false
+      website_datasheet_mechanical_links_after_update_verified: false
+    - model: 28P
+      expected_display_name: "SigGear 28P 28 mm Miniature Planetary Gearbox"
+      existing_English_URL: "https://www.traceparts.com/en/product/siggear-28p-28-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121063&PartNumber=28p"
+      title_independently_verified: false
+      new_photo_expected: true
+      new_photo_independently_verified: false
+      existing_URL_after_publisher_update_verified: false
+      CAD_download_after_publisher_update_verified: false
+      website_datasheet_mechanical_links_after_update_verified: false
+    - model: 32P
+      expected_display_name: "SigGear 32P 32 mm Miniature Planetary Gearbox"
+      existing_English_URL: "https://www.traceparts.com/en/product/siggear-32p-32-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121066&PartNumber=32p"
+      title_independently_verified: false
+      new_photo_expected: true
+      new_photo_independently_verified: false
+      existing_URL_after_publisher_update_verified: false
+      CAD_download_after_publisher_update_verified: false
+      website_datasheet_mechanical_links_after_update_verified: false
+    - model: 36P
+      expected_display_name: "SigGear 36P 36 mm Compact Planetary Gearbox"
+      existing_English_URL: "https://www.traceparts.com/en/product/siggear-36p-36-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121067&PartNumber=36p"
+      title_independently_verified: false
+      new_photo_expected: true
+      new_photo_independently_verified: false
+      existing_URL_after_publisher_update_verified: false
+      CAD_download_after_publisher_update_verified: false
+      website_datasheet_mechanical_links_after_update_verified: false
+    - model: 42P
+      expected_display_name: "SigGear 42P 42 mm Compact Planetary Gearbox"
+      existing_English_URL: "https://www.traceparts.com/en/product/siggear-42p-42-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769190-121069&PartNumber=42p"
+      title_independently_verified: false
+      new_photo_expected: true
+      new_photo_independently_verified: false
+      existing_URL_after_publisher_update_verified: false
+      CAD_download_after_publisher_update_verified: false
+      website_datasheet_mechanical_links_after_update_verified: false
+notes:
+  old_slug_containing_miniature_must_not_be_auto_renamed_without_confirming_old_URL_and_redirect_behaviour
+  a_title_or_photo_update_should_not_be_taken_as_evidence_of_new_orderable_configuration
+  public_CAD_remains_simplified_four_stage_reference_until_configuration_specific_CAD_is_confirmed

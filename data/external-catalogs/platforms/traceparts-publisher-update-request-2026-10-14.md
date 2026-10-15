@@ -1,6 +1,6 @@
 # SigGear → TraceParts Publisher: 12-model title and inbound-link update request
 
-**Prepared:** 2026-10-14 · **Status:** ready for TraceParts Publisher/account manager review; NOT submitted or published on TraceParts
+**Prepared:** 2026-10-14 · **Status updated 2026-10-15:** Manufacturer publishing contact reports the requested catalog update is complete and live. This document is the **historical update request**, not independent verification of each changed field. Post-publication QA remains pending: [QA register](traceparts-publisher-qa-2026-10-15.yml).
 
 ## What is already working
 
