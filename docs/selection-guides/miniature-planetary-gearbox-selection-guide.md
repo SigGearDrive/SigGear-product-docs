@@ -55,7 +55,7 @@ Optional filters can remove configurations that exceed a maximum gearbox diamete
   <div class="siggear-selector-grid">
     <label>
       Motor operating speed (rpm)
-      <input id="sg-selector-motor-speed" type="number" min="0.01" step="any" required placeholder="Example: 8000">
+      <input id="sg-selector-motor-speed" type="number" min="0.01" step="any" required placeholder="Example: 12000">
     </label>
 
     <label>
@@ -103,7 +103,7 @@ Optional filters can remove configurations that exceed a maximum gearbox diamete
   <div id="sg-ratio-stage-results" aria-live="polite"></div>
 </form>
 
-**Input-speed boundary and engineering clarification (15 October 2026):** current published 8P–42P datasheets state a **continuous permissible gearbox input speed of up to 8,000 rpm**. SigGear engineering separately identified **1,000–20,000 rpm** as an application range to assess on a case-by-case basis; this wider range is **not** a revised, released continuous rating. For speeds **above 8,000 rpm**, the tool does not return standard catalog matches: it directs the visitor to engineering review. Projects **above 20,000 rpm**, and operating speeds **below 1,000 rpm**, also require project-level review. The datasheets have not established a general minimum rated input speed. The published 8,000 rpm continuous rating remains authoritative for automated catalog screening until formal documents are revised.
+**Continuous input-speed range — engineering confirmed 15 October 2026:** SigGear's 8P–42P planetary gearbox series supports **1,000–20,000 rpm continuous input speed** for preliminary standard-configuration selection, superseding the earlier published 8,000 rpm upper limit. Input speeds **below 1,000 rpm** or **above 20,000 rpm** are directed to **custom feasibility assessment**. The exact motor, ratio, duty cycle, thermal behavior, torque, and installation interface still require application-specific engineering review.
 
 **Torque and efficiency rules:** published stage-specific rated allowable torque may be used for preliminary continuous-load screening; published maximum momentary torque may be used to rule out unsuitable peak-load candidates but does **not** establish an allowable peak duration or frequency. Exceeding either published torque threshold can be reviewed for customization. Published efficiency is a **stage-level reference**: ratio-specific differences are awaiting separate engineering verification. The tool does not infer motor suitability, safe peak duration, thermal behavior, service life or final design approval.
 

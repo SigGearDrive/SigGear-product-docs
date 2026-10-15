@@ -163,19 +163,13 @@
       return;
     }
 
-    // Published datasheets cap standard continuous input speed at 8,000 rpm.
-    // Engineering separately reports a 1,000-20,000 rpm application-review range.
-    // This does NOT authorize publishing >8,000 rpm as a standard catalog rating.
-    if (motorSpeed > 8000 || motorSpeed < 1000) {
-      var reason = motorSpeed > 20000 ? "speed_above_engineering" :
-        (motorSpeed > 8000 ? "speed_above_published" : "speed_below_engineering");
-      if (reason === "speed_above_engineering") {
-        summary.textContent = "This project exceeds 20,000 rpm, the upper speed mentioned for case-by-case engineering evaluation. Custom feasibility review is required. Current published datasheets specify no more than 8,000 rpm continuous permissible input speed.";
-      } else if (reason === "speed_above_published") {
-        summary.textContent = "The published standard continuous input-speed limit is 8,000 rpm. SigGear engineering indicated that 1,000-20,000 rpm projects can be assessed individually, but this is not a released catalog rating. Please request engineering confirmation before selecting a gearbox.";
-      } else {
-        summary.textContent = "Input speed is below the 1,000 rpm lower end of the engineering-mentioned assessment range. Suitability needs project-specific confirmation; the current datasheets do not establish a minimum input-speed rating.";
-      }
+    // Engineering confirmation 2026-10-15: standard continuous input speed is
+    // 1,000-20,000 rpm for 8P-42P. Out-of-range speeds require custom review.
+    if (motorSpeed < 1000 || motorSpeed > 20000) {
+      var reason = motorSpeed > 20000 ? "speed_above_engineering" : "speed_below_engineering";
+      summary.textContent = motorSpeed > 20000 ?
+        "This project exceeds the standard continuous input-speed range of 1,000-20,000 rpm. Custom feasibility review is required." :
+        "This project is below the standard continuous input-speed range of 1,000-20,000 rpm. Custom feasibility review is required.";
       results.innerHTML = customReviewAction(reason, motorSpeed, outputSpeed, requiredTorque, peakTorque, maxDiameter, maxLength);
       track(0, 0, null, null, null);
       return;
