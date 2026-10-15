@@ -30,19 +30,12 @@
   var onlineSubject = document.getElementById("sg-online-subject");
   var onlineUrl = document.getElementById("sg-online-url");
   var onlineReturn = document.getElementById("sg-online-return");
-  var activationIndicator = document.getElementById("sg-online-activation-indicator");
 
-  // Keep the public online button off until wangwanrong@siggear.com confirms the
-  // FormSubmit activation email AND successfully receives a second test inquiry.
-  // During activation ONLY: ?form_setup=1 enables the same native form for testing.
-  var ONLINE_DELIVERY_VERIFIED = false;
-  var ownerSetupMode = false;
-  try {
-    ownerSetupMode = new URLSearchParams(window.location.search).get("form_setup") === "1";
-  } catch (error) {
-    ownerSetupMode = false;
-  }
-  var onlineDeliveryEnabled = ONLINE_DELIVERY_VERIFIED || ownerSetupMode;
+  // SigGear owner confirmed FormSubmit activation and inbox receipt of the
+  // second test submission on 2026-10-15. Online delivery is now the default.
+  // Keep the direct-email option as a visible fallback at all times.
+  var ONLINE_DELIVERY_VERIFIED = true;
+  var onlineDeliveryEnabled = ONLINE_DELIVERY_VERIFIED;
   var status = document.getElementById("sg-brief-status");
   var selectorCandidateBox = document.getElementById("sg-selector-candidate");
   var selectorCandidateSummary = document.getElementById("sg-selector-candidate-summary");
@@ -552,13 +545,6 @@
       emailButton.style.display = "inline-flex";
     }
     if (primaryButton) primaryButton.textContent = "Send Engineering Request Online";
-    if (ownerSetupMode && !ONLINE_DELIVERY_VERIFIED) {
-      if (activationIndicator) {
-        activationIndicator.hidden = false;
-        activationIndicator.style.display = "block";
-      }
-      status.textContent = "SigGear activation test mode: submit a test brief, confirm the activation email in the SigGear mailbox, then submit another test to verify delivery. Do not treat a redirect as proof of email receipt.";
-    }
   }
 
   form.addEventListener("submit", function (event) {
