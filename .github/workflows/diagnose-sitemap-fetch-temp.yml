@@ -1,6 +1,7 @@
 name: Diagnose SigGear public Sitemap HTTP fetch
 
 on:
+  pull_request:
   push:
     branches:
       - diagnostics/gsc-sitemap-fetch-20261015
