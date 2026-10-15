@@ -9,7 +9,7 @@ description: Public 32P 32 mm planetary gearbox datasheet with 1–4 stage ratio
 **Status:** Approved for Public  
 **Release date:** 2026-09-28
 
-**Continuous input-speed range revision:** 2026-10-15 (SigGear engineering confirmation; supersedes previous ≤8,000 rpm value).  
+**Continuous input-speed range revised:** 2026-10-15 (confirmed by SigGear engineering).  
 
 The SigGear 32P is a 32 mm planetary gearbox platform with one- to four-stage configurations. The public data below is intended for preliminary selection and early mechanical design-in.
 
