@@ -20,6 +20,7 @@ on:
       - "scripts/validate_selector_discovery_links.py"
       - "scripts/validate_planetary_input_speed_range.py"
       - "scripts/test_planetary_selector_v2.js"
+      - "scripts/test_online_inquiry_delivery.js"
       - "scripts/validate_stage_specific_cad_boundary.py"
       - "scripts/validate_controlled_cad_readiness.py"
       - "scripts/validate_sample_validation_handoff.py"
@@ -138,6 +139,9 @@ jobs:
 
       - name: Validate inquiry-form JavaScript syntax
         run: node --check docs/assets/javascripts/inquiry-form.js
+
+      - name: Test online inquiry delivery and fallback without external POST
+        run: node scripts/test_online_inquiry_delivery.js
 
       - name: Validate analytics-events JavaScript syntax
         run: node --check docs/assets/javascripts/analytics-events.js

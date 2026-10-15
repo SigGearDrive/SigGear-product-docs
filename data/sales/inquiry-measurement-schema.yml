@@ -5,6 +5,9 @@ scope: public_safe_aggregate_measurement
 measurement_principle:
   website_events_measure: user_intent_and_form_progress
   website_events_do_not_prove: email_sent_or_inquiry_received
+  online_form_submit_attempt_measures: intent_to_send_not_provider_or_mailbox_delivery
+  provider_redirect_measures: browser_return_not_confirmed_receipt
+  final_inquiry_delivery_verification: inbox_confirmation_required
   qualified_inquiry_requires: offline_manual_confirmation_after_actual_contact
 
 website_funnel:
@@ -30,8 +33,10 @@ website_funnel:
     - inquiry_page_view
     - selector_candidate_handoff_validated
     - engineering_brief_copy
+    - engineering_brief_provider_return
   high_intent:
     - engineering_brief_prepare_email
+    - engineering_brief_online_submit_attempt
     - sample_validation_prepare_email
     - design_in_review_prepare_email
     - pilot_preparation_prepare_email

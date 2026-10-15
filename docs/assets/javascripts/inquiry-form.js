@@ -19,6 +19,29 @@
   var existingMotorFields = document.getElementById("sg-existing-motor-fields");
   var voltageField = document.getElementById("sg-voltage-field");
   var copyButton = document.getElementById("sg-copy-brief");
+  var primaryButton = document.getElementById("sg-brief-primary");
+  var emailButton = document.getElementById("sg-email-brief");
+  var contactName = document.getElementById("sg-contact-name");
+  var contactEmail = document.getElementById("sg-contact-email");
+  var onlineConsent = document.getElementById("sg-online-consent");
+  var onlineConsentWrap = document.getElementById("sg-online-consent-wrap");
+  var onlineDeliveryNote = document.getElementById("sg-online-delivery-note");
+  var onlineMessage = document.getElementById("sg-online-message");
+  var onlineSubject = document.getElementById("sg-online-subject");
+  var onlineUrl = document.getElementById("sg-online-url");
+  var onlineReturn = document.getElementById("sg-online-return");
+
+  // Keep the public online button off until wangwanrong@siggear.com confirms the
+  // FormSubmit activation email AND successfully receives a second test inquiry.
+  // During activation ONLY: ?form_setup=1 enables the same native form for testing.
+  var ONLINE_DELIVERY_VERIFIED = false;
+  var ownerSetupMode = false;
+  try {
+    ownerSetupMode = new URLSearchParams(window.location.search).get("form_setup") === "1";
+  } catch (error) {
+    ownerSetupMode = false;
+  }
+  var onlineDeliveryEnabled = ONLINE_DELIVERY_VERIFIED || ownerSetupMode;
   var status = document.getElementById("sg-brief-status");
   var selectorCandidateBox = document.getElementById("sg-selector-candidate");
   var selectorCandidateSummary = document.getElementById("sg-selector-candidate-summary");
@@ -419,6 +442,8 @@
     lines.push("Prototype quantity: " + (value("sg-prototype-qty") || "Not provided"));
     lines.push("Estimated annual volume: " + (value("sg-annual-volume") || "Not provided"));
     lines.push("Company / country: " + (value("sg-company-country") || "Not provided"));
+    if (value("sg-contact-name")) lines.push("Contact name: " + value("sg-contact-name"));
+    if (value("sg-contact-email")) lines.push("Contact email: " + value("sg-contact-email"));
     lines.push("Requested next step: " + selectedText("sg-next-step"));
 
     var readiness = cadReadiness();
@@ -478,19 +503,67 @@
     }
   }
 
-  form.addEventListener("submit", function (event) {
-    event.preventDefault();
-    if (!form.reportValidity()) return;
-
+  function prepareEmail() {
+    // Email fallback does not involve an external form provider, so do not
+    // require a contact email field or third-party processing consent.
+    var appField = document.getElementById("sg-application");
+    if (!value("sg-application")) {
+      status.textContent = "Please describe what needs to move before preparing your email.";
+      if (appField) appField.focus();
+      return;
+    }
     var href = "mailto:wangwanrong@siggear.com?subject=" +
       encodeURIComponent(subjectLine()) +
       "&body=" + encodeURIComponent(buildBrief());
-
     track("engineering_brief_prepare_email", briefMetrics());
-    status.textContent = "Opening your email client with the project brief...";
+    status.textContent = "Opening your email client with the project brief. This does not prove that the email was sent.";
     window.location.href = href;
+  }
+
+  function configureOnlineDelivery() {
+    if (!onlineDeliveryEnabled) return;
+    // Native cross-origin POST retains FormSubmit's reCAPTCHA flow. AJAX
+    // submissions and disabled CAPTCHA are intentionally not used.
+    form.method = "POST";
+    form.action = "https://formsubmit.co/wangwanrong@siggear.com";
+    if (contactEmail) contactEmail.required = true;
+    if (onlineConsent) onlineConsent.required = true;
+    if (onlineConsentWrap) onlineConsentWrap.hidden = false;
+    if (onlineDeliveryNote) onlineDeliveryNote.hidden = false;
+    if (emailButton) emailButton.hidden = false;
+    if (primaryButton) primaryButton.textContent = "Send Engineering Request Online";
+    if (ownerSetupMode && !ONLINE_DELIVERY_VERIFIED) {
+      status.textContent = "SigGear activation test mode: submit a test brief, confirm the activation email in the SigGear mailbox, then submit another test to verify delivery. Do not treat a redirect as proof of email receipt.";
+    }
+  }
+
+  form.addEventListener("submit", function (event) {
+    if (!onlineDeliveryEnabled) {
+      event.preventDefault();
+      prepareEmail();
+      return;
+    }
+    if (!form.reportValidity()) {
+      event.preventDefault();
+      return;
+    }
+    if (!onlineMessage || !onlineSubject || !onlineUrl || !contactEmail || !onlineConsent) {
+      event.preventDefault();
+      status.textContent = "Online form configuration is unavailable. Please prepare an email instead.";
+      return;
+    }
+    // Retain validated candidate context and the full structured project brief
+    // without placing any contact details in a URL.
+    onlineMessage.value = buildBrief();
+    onlineSubject.value = subjectLine();
+    onlineUrl.value = window.location.origin + window.location.pathname;
+    track("engineering_brief_online_submit_attempt", briefMetrics());
+    status.textContent = "Submitting your project brief through FormSubmit. A CAPTCHA may appear. Submission does not yet prove receipt in SigGear's mailbox.";
+    // Do NOT preventDefault: the browser performs the native POST to the
+    // third-party provider, which handles CAPTCHA and first-use verification.
   });
 
+  if (emailButton) emailButton.addEventListener("click", prepareEmail);
   copyButton.addEventListener("click", copyBrief);
   path.addEventListener("change", updateConditionalFields);
   if (nextStep) nextStep.addEventListener("change", updateCadReadiness);
@@ -510,5 +583,17 @@
 
   applyQueryPrefill();
   updateConditionalFields();
+  configureOnlineDelivery();
   validateSelectorCandidate();
+  try {
+    if (onlineReturn &&
+        new URLSearchParams(window.location.search).get("form_delivery") === "provider_return") {
+      onlineReturn.hidden = false;
+      // A redirect indicates only provider-side processing, never a confirmed
+      // email inbox receipt or qualified sales inquiry.
+      track("engineering_brief_provider_return", {delivery_confirmed: 0});
+    }
+  } catch (error) {
+    // Malformed optional status query must not affect the form.
+  }
 })();
