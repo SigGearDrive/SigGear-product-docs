@@ -53,6 +53,7 @@ function bootstrap(search) {
   node("sg-path").value = "not_sure";
   node("sg-next-step").value = "Model recommendation";
   node("sg-brief-primary").textContent = "Prepare Email to SigGear";
+  node("sg-online-activation-indicator").hidden = true;
   node("sg-online-consent-wrap").hidden = true;
   node("sg-online-delivery-note").hidden = true;
   node("sg-email-brief").hidden = true;
