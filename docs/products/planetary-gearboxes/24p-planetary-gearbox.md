@@ -16,6 +16,8 @@ The SigGear 24P is a 24 mm miniature planetary gearbox for compact motorized mec
 
 *Real 24P frame-size product photographed from multiple angles. The caliper photo is a visual diameter reference for the photographed sample and does not replace the controlled dimensional drawing or released tolerances for a confirmed configuration.*
 
+**Continuous input-speed range (confirmed 2026-10-15):** 1,000–20,000 rpm for preliminary standard gearbox selection. Speeds outside this range require a custom feasibility review. Motor matching, duty cycle and application conditions must still be confirmed.
+
 ## Product Identity
 
 | Item | Description |
@@ -39,7 +41,7 @@ The SigGear 24P is a 24 mm miniature planetary gearbox for compact motorized mec
 | Maximum momentary torque range | 20.0–60.0 kgf·cm |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.2° |
-| Maximum permissible speed, continuous operation | ≤ 8,000 rpm |
+| Permissible gearbox input speed, continuous operation | 1,000–20,000 rpm |
 | Operating temperature | −40 to 120 °C |
 
 Torque values are preserved in the source unit, kgf·cm. Maximum momentary torque is not a continuous working rating.
@@ -65,7 +67,7 @@ Torque values are preserved in the source unit, kgf·cm. Maximum momentary torqu
 | Radial shaft play | ≤ 0.04 mm |
 | Thrust shaft play | ≤ 0.3 mm |
 | Backlash at no load | ≤ 1.2° |
-| Maximum permissible speed, continuous operation | ≤ 8,000 rpm |
+| Maximum permissible speed, continuous operation | 1,000–20,000 rpm |
 | Operating temperature | −40 to 120 °C |
 
 ## Motor Compatibility

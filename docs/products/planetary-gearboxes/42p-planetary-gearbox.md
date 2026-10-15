@@ -27,6 +27,8 @@ The **42 mm compact planetary gearbox / planetary gearhead** is at the larger en
 
 The downloadable STEP represents the **4-stage reference configuration only** and is intended for preliminary mechanical packaging. It is **not** a dimensionally interchangeable 1-, 2- or 3-stage model. Request configuration-matched CAD and a controlled drawing before design freeze.
 
+**Continuous input-speed range (confirmed 2026-10-15):** 1,000–20,000 rpm for preliminary standard gearbox selection. Speeds outside this range require a custom feasibility review. Motor matching, duty cycle and application conditions must still be confirmed.
+
 ## Product Identity
 
 | Item | Description |
@@ -48,7 +50,7 @@ The downloadable STEP represents the **4-stage reference configuration only** an
 | Maximum momentary torque range | 160.0–300.0 kgf·cm |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.2° |
-| Maximum permissible speed, continuous operation | ≤ 8,000 rpm |
+| Permissible gearbox input speed, continuous operation | 1,000–20,000 rpm |
 | Operating temperature range | −40 to 120 °C |
 | Housing material | Steel |
 | Gear material | Steel |
@@ -82,7 +84,7 @@ These are adapted-motor conditions, not an electrical voltage or power rating fo
 
 The published drawing shows a 42 mm body diameter and stage-dependent gearbox lengths of 35.6, 46.9, 58.2 and 69.5 mm. Use the approved drawing for shaft geometry, mounting holes, input-interface details and tolerance notation.
 
-The current 42P specification sheet confirms steel housing and gears, ball bearings at the output, a radial load limit of **≤ 16.0 kgf measured 10 mm from the flange**, a shaft axial load limit of **≤ 8.0 kgf**, radial shaft play of **≤ 0.04 mm**, thrust shaft play of **≤ 0.3 mm**, continuous permissible input speed of **≤ 8,000 rpm**, and an operating temperature range of **−40 to 120 °C**.
+The current 42P specification sheet confirms steel housing and gears, ball bearings at the output, a radial load limit of **≤ 16.0 kgf measured 10 mm from the flange**, a shaft axial load limit of **≤ 8.0 kgf**, radial shaft play of **≤ 0.04 mm**, thrust shaft play of **≤ 0.3 mm**, continuous permissible input speed of **1,000–20,000 rpm**, and an operating temperature range of **−40 to 120 °C**.
 
 These are published gearbox limits. The actual application load direction, duty cycle, motor operating point and selected stage / ratio still need to be checked before final selection.
 

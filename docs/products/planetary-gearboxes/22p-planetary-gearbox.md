@@ -29,6 +29,8 @@ The **22 mm miniature planetary gearbox / planetary gearhead** range provides a 
 
 The downloadable STEP represents the **4-stage reference configuration only** and is intended for preliminary mechanical packaging. It is **not** a dimensionally interchangeable 1-, 2- or 3-stage model. Request configuration-matched CAD and a controlled drawing before design freeze.
 
+**Continuous input-speed range (confirmed 2026-10-15):** 1,000–20,000 rpm for preliminary standard gearbox selection. Speeds outside this range require a custom feasibility review. Motor matching, duty cycle and application conditions must still be confirmed.
+
 ## Product Identity
 
 | Item | Description |
@@ -52,7 +54,7 @@ The downloadable STEP represents the **4-stage reference configuration only** an
 | Maximum momentary torque range | 16.0–50.0 kgf·cm |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.5° |
-| Maximum permissible speed, continuous operation | ≤ 8,000 rpm |
+| Permissible gearbox input speed, continuous operation | 1,000–20,000 rpm |
 | Operating temperature | −40 to 120 °C |
 
 Torque values are preserved in the source unit, kgf·cm. Maximum momentary torque is not a continuous working rating.

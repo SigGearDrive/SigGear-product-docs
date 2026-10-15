@@ -18,6 +18,8 @@ The SigGear 12P is a 12 mm micro planetary gearbox for compact motorized mechani
 
 *Real 12P frame-size product photographed from multiple angles. The caliper photo is a visual diameter reference for the photographed sample and does not replace the controlled dimensional drawing or released tolerances for a confirmed configuration.*
 
+**Continuous input-speed range (confirmed 2026-10-15):** 1,000–20,000 rpm for preliminary standard gearbox selection. Speeds outside this range require a custom feasibility review. Motor matching, duty cycle and application conditions must still be confirmed.
+
 ## Product Identity
 
 | Item | Description |
@@ -41,7 +43,7 @@ The SigGear 12P is a 12 mm micro planetary gearbox for compact motorized mechani
 | Maximum momentary torque range | 4.0–8.4 kgf·cm |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.5° |
-| Maximum permissible speed, continuous operation | ≤ 8,000 rpm |
+| Permissible gearbox input speed, continuous operation | 1,000–20,000 rpm |
 | Operating temperature | −40 to 120 °C |
 
 Torque values are preserved in the source unit, kgf·cm. Maximum momentary torque is not a continuous working rating.
