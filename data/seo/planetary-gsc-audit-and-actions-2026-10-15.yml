@@ -1,0 +1,80 @@
+schema_version: 1
+snapshot_date: "2026-10-15"
+program: siggear_planetary_google_search_visibility
+data_source:
+  connector: Windsor.ai Search Console
+  property: "https://siggeardrive.github.io/SigGear-product-docs/"
+  requested_start: "2026-09-15"
+  requested_end: "2026-10-14"
+  latest_available_daily_date: "2026-10-12"
+  remark: Data from October 13 and 14 were not yet present in the connector response; do not treat missing new-page impressions as indexing failure.
+search_totals:
+  all_queries_impressions: 726
+  all_queries_clicks: 18
+  usa_impressions: 473
+  usa_clicks: 1
+  note: These aggregate statistics cover the full website, not only planetary gearboxes.
+legacy_content_visibility:
+  humanoid_application_impressions: 316
+  robot_joint_selection_impressions: 254
+  sum_two_pages: 570
+  historical_topic: robot_joint_actuators
+planetary_model_page_visibility:
+  page_impressions_in_returned_rows: 13
+  clicks_in_returned_rows: 0
+  models_with_page_level_impressions:
+    - {model: 42P, impressions: 4, clicks: 0}
+    - {model: 20P, impressions: 3, clicks: 0}
+    - {model: 22P, impressions: 3, clicks: 0}
+    - {model: 16P, impressions: 2, clicks: 0}
+    - {model: 32P, impressions: 1, clicks: 0}
+  models_without_returned_page_rows: [8P, 10P, 12P, 14P, 24P, 28P, 36P]
+  caution: Missing Search Console performance rows do not imply the page is unindexed.
+query_observation:
+  query: "22mm planetary gearbox"
+  impressions: 2
+  clicks: 0
+  reported_average_position: 46.5
+  remark: Position is too low-sample to interpret as stable ranking.
+public_build_audit:
+  sitemap_branch: gh-pages
+  sitemap_total_url_entries: 148
+  planetary_family_and_model_entries: 14
+  specific_planetary_model_urls_in_sitemap: 12
+  model_canonical_urls_correct: 12
+  model_title_contains_nominal_diameter: 12
+  explicit_model_noindex_tags_detected: 0
+  verified_selector_heading_anchor: preliminary-ratio-stage-finder
+  older_selector_anchor: find-your-gearbox-preliminary-ratio-stage-finder
+  broken_application_deep_links_found: 6
+  indexing_status_directly_verified_via_URL_inspection: false
+  caution: A valid sitemap and canonical are discovery signals, not proof of Google indexing.
+execution_2026_10_15:
+  - correct_six_application_selector_links_to_existing_heading
+  - add_early_contextual_small_gearbox_navigation_to_two_existing_high_impression_robot_pages
+  - preserve_all_existing_slugs_titles_canonicals_product_specs_and_CAD
+  - avoid_duplicate_keyword_pages
+google_search_console_next_manual_checks:
+  property: "https://siggeardrive.github.io/SigGear-product-docs/"
+  sitemap_to_check: "https://siggeardrive.github.io/SigGear-product-docs/sitemap.xml"
+  priority_URL_inspection:
+    - "https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/"
+    - "https://siggeardrive.github.io/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/"
+    - "https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/"
+    - "https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/22p-planetary-gearbox/"
+    - "https://siggeardrive.github.io/SigGear-product-docs/applications/electric-pruning-shears-planetary-gearbox/"
+  manual_step: In Google Search Console use URL Inspection to check indexed/crawled/discovered status, test live page when needed and request indexing only for important updated pages.
+  note: No GSC URL Inspection/indexing submission tool is currently available through connected Windsor.ai; request is not claimed as completed.
+measurement_plan:
+  compare_window: weekly_then_28_days_after_deployment
+  measures:
+    - target_planetary_page_impressions_and_clicks
+    - exact_nonbranded_size_and_CAD_queries
+    - usa_and_europe_impressions_clicks
+    - selector_click_through_and_engineering_project_brief_starts
+    - real_qualified_inquiries_by_landing_page
+  decision_rules:
+    - do_not_rewrite_titles_based_on_one_to_four_impressions
+    - require_significant_repeatable_query_exposure_before_CTR_optimization
+    - inspect_GSC_indexing_and_crawl_evidence_before_creating_new_SEO_pages
+    - prioritise_real_OEM_design_in_requirements_over_playback_or_raw_traffic
