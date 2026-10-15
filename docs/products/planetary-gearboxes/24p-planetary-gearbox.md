@@ -18,6 +18,10 @@ The SigGear 24P is a 24 mm miniature planetary gearbox for compact motorized mec
 
 **Continuous input-speed range (confirmed 2026-10-15):** 1,000–20,000 rpm for preliminary standard gearbox selection. Speeds outside this range require a custom feasibility review. Motor matching, duty cycle and application conditions must still be confirmed.
 
+**Sizing a 24 mm OEM gearbox?** Check the published ratios, stage-dependent body lengths and rated torque with the SigGear selector. The maximum diameter starts at 24 mm and can be adjusted.
+
+[Open SigGear Planetary Gearbox Selector — 24 mm starting point](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=24#preliminary-ratio-stage-finder){ .md-button }
+
 ## Product Identity
 
 | Item | Description |

@@ -17,6 +17,7 @@ on:
       - "scripts/export_3dfindit_onboarding.py"
       - "scripts/validate_utm_links.py"
       - "scripts/validate_ratio_stage_selector_data.py"
+      - "scripts/validate_selector_discovery_links.py"
       - "scripts/validate_planetary_input_speed_range.py"
       - "scripts/test_planetary_selector_v2.js"
       - "scripts/validate_stage_specific_cad_boundary.py"
@@ -56,6 +57,7 @@ on:
       - "scripts/validate_planetary_indexing_readiness.py"
       - "scripts/validate_stage_specific_cad_boundary.py"
       - "scripts/validate_ratio_stage_selector_data.py"
+      - "scripts/validate_selector_discovery_links.py"
       - "scripts/validate_planetary_input_speed_range.py"
       - "scripts/utm_utils.py"
       - "hooks/**"
@@ -166,6 +168,9 @@ jobs:
 
       - name: Build documentation
         run: mkdocs build --strict
+
+      - name: Verify rendered model-to-selector links
+        run: python scripts/validate_selector_discovery_links.py
 
       - name: Validate planetary indexing and crawl readiness
         run: python scripts/validate_planetary_indexing_readiness.py

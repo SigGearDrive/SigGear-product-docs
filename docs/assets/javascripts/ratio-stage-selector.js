@@ -114,6 +114,21 @@
       "</div>";
   }
 
+  // Product detail links may suggest a known frame diameter without forcing a final model.
+  // Keep this optional, editable and distinct from engineering verification.
+  function prefillDiameterFromProductPage() {
+    try {
+      var suggested = new URL(window.location.href).searchParams.get("max_diameter");
+      var allowed = ["8","10","12","14","16","20","22","24","28","32","36","42"];
+      if (allowed.indexOf(suggested) === -1) return;
+      var input = document.getElementById("sg-selector-diameter");
+      if (input && !input.value.trim()) input.value = suggested;
+    } catch (error) {
+      // Invalid optional query values must not block normal selection.
+    }
+  }
+  prefillDiameterFromProductPage();
+
   var unitInput = document.getElementById("sg-selector-torque-unit");
   if (unitInput) {
     var previousUnit = torqueUnit();

@@ -20,6 +20,10 @@ The SigGear 36P is a 36 mm compact planetary gearbox for compact motorized mecha
 
 **Continuous input-speed range (confirmed 2026-10-15):** 1,000–20,000 rpm for preliminary standard gearbox selection. Speeds outside this range require a custom feasibility review. Motor matching, duty cycle and application conditions must still be confirmed.
 
+**Sizing a 36 mm OEM gearbox?** Check the published ratios, stage-dependent body lengths and rated torque with the SigGear selector. The maximum diameter starts at 36 mm and can be adjusted.
+
+[Open SigGear Planetary Gearbox Selector — 36 mm starting point](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=36#preliminary-ratio-stage-finder){ .md-button }
+
 ## Product Identity
 
 | Item | Description |
