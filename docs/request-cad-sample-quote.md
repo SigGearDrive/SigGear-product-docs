@@ -258,7 +258,7 @@ Use the project brief below to contact SigGear. **Prepare Email to SigGear** ope
   <div id="sg-online-consent-wrap" hidden>
     <label class="siggear-online-consent-label">
       <input id="sg-online-consent" name="privacy_ack" type="checkbox" value="yes">
-      I agree to send my contact details and technical project description to SigGear through the third-party form service <a href="https://formsubmit.co/privacy" target="_blank" rel="noopener noreferrer">FormSubmit</a>. I will not submit confidential files here.
+      I agree to send my contact details and technical project description to SigGear through the third-party form service <a href="https://formsubmit.co/privacy.pdf" target="_blank" rel="noopener noreferrer">FormSubmit</a>. I will not submit confidential files here.
     </label>
   </div>
   <p id="sg-online-delivery-note" class="siggear-online-delivery-note" hidden>Online delivery may require a CAPTCHA challenge. It is available only after SigGear confirms recipient activation; the email option remains available if you prefer.</p>
