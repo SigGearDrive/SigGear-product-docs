@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify that the generated online activation page loads current, cache-busted assets."""
+"""Verify the live engineering inquiry page loads current online-delivery assets."""
 
 from pathlib import Path
 from html.parser import HTMLParser
@@ -7,7 +7,7 @@ from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 PAGE = ROOT / "site/request-cad-sample-quote/index.html"
-VERSION = "20261015-activation-fix"
+VERSION = "20261015-online-live"
 
 
 class Assets(HTMLParser):
@@ -39,10 +39,12 @@ def main():
     verify(parser.scripts, "inquiry-form.js")
     verify(parser.styles, "inquiry-form.css")
     for id_ in ("sg-brief-primary", "sg-email-brief",
-                "sg-online-activation-indicator", "sg-online-consent-wrap"):
+                "sg-contact-email", "sg-online-consent-wrap"):
         if f'id="{id_}"' not in doc:
             raise ValueError(f"Inquiry page is missing activation control {id_}")
-    print("PASS online activation: one current JS/CSS asset and all test-mode controls")
+    if "Send Engineering Request Online" not in doc:
+        raise ValueError("The public form is missing its live online option in published copy")
+    print("PASS live online inquiry: current JS/CSS, contact email, consent and email fallback")
 
 
 if __name__ == "__main__":
