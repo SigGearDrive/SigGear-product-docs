@@ -33,3 +33,29 @@ No indexing is guaranteed by submitting a sitemap, and the absence of an immedia
 - First run HTTP evidence: `https://github.com/SigGearDrive/SigGear-product-docs/actions/runs/38705078547`.
 - Second run including `sitemap-index.xml`: `https://github.com/SigGearDrive/SigGear-product-docs/actions/runs/38705619767`.
 - The GitHub Actions runner's `User-Agent: Googlebot` check proves that request headers alone do not cause a block; it does **not** prove Google Search crawler infrastructure has fetched or processed the file.
+
+## 2026-10-15 17:52 local time — Google live URL Inspection evidence
+
+The SigGear operator supplied a screenshot of **Search Console > URL Inspection > Test Live URL** for the exact `https://siggeardrive.github.io/SigGear-product-docs/sitemap.xml` URL. The screenshot reports:
+
+- URL is available to Google and the page is indexable in the live-test view (this does **not** mean XML should be indexed as a search-result page).
+- Tested by **Google Inspection Tool (smartphone)** at approximately **2026-10-15 17:52:01 local time**.
+- Crawl allowed: **Yes**.
+- Page fetch: **Successful**.
+- Indexing allowed: **Yes**.
+- Indexed-data and live data are different. A successful Google Inspection Tool fetch does **not** guarantee the Sitemap ingestion system has fetched and parsed the XML.
+
+Operator screenshots of **Sitemaps** for the same URL-prefix property show:
+
+- `/sitemap.xml` submitted **2026-10-10**, type **Unknown**, status **Couldn't fetch**, discovered pages **0**.
+- `/sitemap-index.xml` submitted **2026-10-15**, type **Unknown**, status **Couldn't fetch**, discovered pages **0**.
+- The index details page nevertheless shows **Last read: 2026-10-15** and **Sitemap could not be read**. Google official documentation states the *Last read* field appears only if Google was able to fetch the sitemap; a later latest-request failure and processing failure can coexist with an earlier successful fetch. This does not establish a specific Google-side bug or guarantee any future processing.
+- The operator reports similar problems over a period of months, although the two current screenshot-visible submissions have the dates above.
+- Separately, the three priority HTML URLs passed GSC live indexability tests, but the operator reports that clicking **Request Indexing** did not respond. This separate UI symptom has no verified root cause.
+
+**Next diagnostic action:** Avoid replacing valid sitemap URLs, changing canonicals, or creating duplicate sitemap files. Inspect GSC Manual Actions and security reports, then post the evidence to the official Search Central Help Community asking for clarification of the mismatched latest fetch/processing statuses. Continue measuring normal Google organic impressions; the site does have organic Search Console data, so the entire host is not wholly undiscovered.
+
+Official references:
+- https://support.google.com/webmasters/answer/7451001
+- https://support.google.com/webmasters/answer/9012289
+- https://support.google.com/webmasters/community
