@@ -73,6 +73,7 @@ async function run(input) {
   assert.match(good.results, /candidate-design-in-pack/);
   assert.match(good.results, /selector_max_diameter=12/);
   assert.match(good.results, /selector_max_gearbox_length=18/);
+  assert.match(good.results, /ratio-dependent efficiency has not been separately verified/);
   console.log("PASS 12P 3-stage matching, published rating, and Design-In/inquiry links");
 
   const same = await run({
@@ -90,12 +91,39 @@ async function run(input) {
 
   const highSpeed = await run({ motorSpeed: "9000" });
   assert.match(highSpeed.summary, /8,000 rpm/);
-  assert.equal(highSpeed.results, "");
-  console.log("PASS 9000 rpm continuous input speed rejection");
+  assert.match(highSpeed.summary, /1,000-20,000 rpm/);
+  assert.match(highSpeed.results, /Request Custom Engineering Review/);
+  assert.match(highSpeed.results, /selection=selector_engineering_review/);
+  assert.match(highSpeed.results, /selector_motor_speed=9000/);
+  assert.doesNotMatch(highSpeed.results, /Candidate Frame Comparison/);
+  console.log("PASS 9000 rpm routed to engineering review, not presented as a catalog match");
+
+  const higherSpeed = await run({motorSpeed: "20001"});
+  assert.match(higherSpeed.summary, /exceeds 20,000 rpm/);
+  assert.match(higherSpeed.results, /speed_above_engineering/);
+  console.log("PASS >20,000 rpm routed to custom feasibility review");
+
+  const lowSpeed = await run({motorSpeed: "900"});
+  assert.match(lowSpeed.summary, /1,000 rpm/);
+  assert.match(lowSpeed.results, /speed_below_engineering/);
+  console.log("PASS <1,000 rpm routed to case-specific review, not silently rejected");
+
+  const catalogSpeed = await run({motorSpeed: "8000"});
+  assert.match(catalogSpeed.results, /12P/);
+  assert.match(catalogSpeed.results, /Candidate Frame Comparison/);
+  console.log("PASS 8,000 rpm boundary still permits published preliminary screening");
 
   const excessivePeak = await run({ peak:"1.0" });
-  assert.match(excessivePeak.results, /No published configuration remains/);
-  console.log("PASS peak torque exceeding published momentary limit excluded");
+  assert.match(excessivePeak.results, /No published standard configuration remains/);
+  assert.match(excessivePeak.results, /Request Custom Engineering Review/);
+  assert.match(excessivePeak.results, /selector_peak_nm=1.00000/);
+  console.log("PASS excessive peak load excluded from catalog and referred for customization");
+
+  const excessiveContinuous = await run({torque: "1.0", peak: "1.2"});
+  assert.match(excessiveContinuous.results, /No published standard configuration remains/);
+  assert.match(excessiveContinuous.results, /selector_continuous_nm=1.00000/);
+  assert.match(excessiveContinuous.results, /Request Custom Engineering Review/);
+  console.log("PASS excessive continuous load passed to custom engineering rather than rejected");
 
   const reversedTorque = await run({ peak:"0.1", torque:"0.2" });
   assert.match(reversedTorque.summary, /peak torque must not be lower than continuous torque/i);
