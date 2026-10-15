@@ -17,6 +17,7 @@ on:
       - "scripts/export_3dfindit_onboarding.py"
       - "scripts/validate_utm_links.py"
       - "scripts/validate_ratio_stage_selector_data.py"
+      - "scripts/validate_planetary_input_speed_range.py"
       - "scripts/test_planetary_selector_v2.js"
       - "scripts/validate_stage_specific_cad_boundary.py"
       - "scripts/validate_controlled_cad_readiness.py"
@@ -55,6 +56,7 @@ on:
       - "scripts/validate_planetary_indexing_readiness.py"
       - "scripts/validate_stage_specific_cad_boundary.py"
       - "scripts/validate_ratio_stage_selector_data.py"
+      - "scripts/validate_planetary_input_speed_range.py"
       - "scripts/utm_utils.py"
       - "hooks/**"
       - ".github/workflows/validate-docs.yml"
@@ -101,6 +103,9 @@ jobs:
 
       - name: Validate planetary ratio-stage selector data
         run: python scripts/validate_ratio_stage_selector_data.py
+
+      - name: Verify planetary continuous input-speed range in public sources
+        run: python scripts/validate_planetary_input_speed_range.py
 
       - name: Validate stage-specific planetary CAD boundary
         run: python scripts/validate_stage_specific_cad_boundary.py
