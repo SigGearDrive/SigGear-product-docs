@@ -29,6 +29,14 @@
   var cadReadinessGates = document.getElementById("sg-cad-readiness-gates");
   var nextStep = document.getElementById("sg-next-step");
   var selectorCandidate = null;
+  var selectorReviewReason = "";
+  var reviewReasons = {
+    speed_above_published: "Input speed above the published 8,000 rpm standard continuous limit; individual engineering review requested",
+    speed_above_engineering: "Input speed above 20,000 rpm; custom speed feasibility review requested",
+    speed_below_engineering: "Input speed below the engineering-mentioned 1,000 rpm review range; suitability requires review",
+    no_published_match: "No published standard configuration meets the specified filters; custom evaluation requested",
+    custom_configuration: "Customer requests a customized gearbox or motor integration review"
+  };
 
   function value(id) {
     var el = document.getElementById(id);
@@ -230,12 +238,18 @@
       }
 
       // Prefill only non-sensitive operating requirements from the selector.
-      if ((params.get("selection") || "") === "ratio_stage_selector") {
+      var selectionSource = (params.get("selection") || "");
+      if (selectionSource === "ratio_stage_selector" || selectionSource === "selector_engineering_review") {
+        if (selectionSource === "selector_engineering_review") {
+          var requestedReason = params.get("selector_review_reason") || "";
+          selectorReviewReason = Object.prototype.hasOwnProperty.call(reviewReasons, requestedReason) ?
+            reviewReasons[requestedReason] : "Customer requests a project-specific engineering review";
+        }
         var inputSpeed = Number(params.get("selector_motor_speed"));
         var outputSpeed = Number(params.get("selector_output_speed"));
         var continuousNm = Number(params.get("selector_continuous_nm"));
         var peakNm = Number(params.get("selector_peak_nm"));
-        if (params.has("selector_motor_speed") && Number.isFinite(inputSpeed) && inputSpeed > 0 && inputSpeed <= 8000) {
+        if (params.has("selector_motor_speed") && Number.isFinite(inputSpeed) && inputSpeed > 0 && inputSpeed <= 1000000) {
           var motorSpeedField = document.getElementById("sg-motor-speed");
           if (motorSpeedField && !motorSpeedField.value) motorSpeedField.value = inputSpeed + " rpm (operating)";
         }
@@ -367,6 +381,10 @@
     ];
 
     var candidate = activeSelectorCandidate();
+    if (selectorReviewReason) {
+      lines.push("Selector review request: " + selectorReviewReason);
+      lines.push("No published standard configuration is approved by this request; engineering confirmation required.");
+    }
     if (candidate) {
       lines.push(
         "Preliminary selector candidate: " +
