@@ -1,31 +1,37 @@
-# SigGear engineering inquiry online delivery — activation checklist
+# SigGear engineering inquiry — FormSubmit activation and operations
 
-Status: **implementation prepared; public online submit disabled until inbox test is verified.**
-Owner: SigGear overseas sales engineering.
-Live canonical inquiry page: https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/
-Owner activation test URL: https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/?form_setup=1
+**Activation status:** FormSubmit recipient activation completed. SigGear owner confirmed on **2026-10-15** that the second test engineering inquiry was received by **wangwanrong@siggear.com**.
 
-## Purpose
+**Live form:** https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/
 
-SigGear's site is deployed as static GitHub Pages. A native HTML POST to FormSubmit provides form forwarding, spam protection and a CAPTCHA flow without a new SigGear server. The original Prepare Email to SigGear remains the public default until verified delivery. **Neither opening an email draft nor a FormSubmit redirect proves receipt.**
+**Published mode:** Online submission is the default; **Prepare Email Instead** and **Copy Project Brief** are preserved.
 
-## Required activation steps (human action)
+## Activation history (completed)
 
-1. Open the owner activation URL above in the published site. The online button and privacy consent should appear only with `form_setup=1`.
-2. Enter `SigGear internal activation test — do not quote` in the Application field. Enter the owner-controlled reply address under Contact email. Do not enter a real customer name, proprietary drawing or confidential design data.
-3. Tick the service-processing consent, click **Send Engineering Request Online**, and complete the provider CAPTCHA if shown.
-4. Check `wangwanrong@siggear.com` for a FormSubmit activation request, including spam/junk folders. Check the sender and that the confirmation link is on the official `formsubmit.co` domain before confirming.
-5. After activation, repeat a test submission from the same SigGear owner activation URL. **Verify actual message arrival in the SigGear mailbox**, with the project brief, reply-to address and sender details.
-6. Check that the failure and spam paths are understandable; confirm that **Prepare Email Instead** and **Copy Project Brief** still work.
-7. Only after this second test succeeds: set `ONLINE_DELIVERY_VERIFIED = true` in `docs/assets/javascripts/inquiry-form.js`, rerun CI and deploy via reviewed Pull Request.
-8. Track live requests as sales leads only **after actual receipt and qualification**. `engineering_brief_online_submit_attempt` is just a pre-delivery attempt.
+1. FormSubmit was configured for the SigGear external sales engineering mailbox.
+2. The owner used a non-confidential internal test request and completed recipient activation.
+3. The owner repeated the test and explicitly confirmed actual receipt in the mailbox on 2026-10-15.
+4. The `ONLINE_DELIVERY_VERIFIED` gate in `docs/assets/javascripts/inquiry-form.js` was changed to `true` only after that confirmation; the live site deployment remains subject to the repository's build and validation checks.
 
-## Guardrails
+The previous `?form_setup=1` owner-test URL remains harmless but is no longer necessary. The standard URL is the one customers should use.
 
-- Never send an external test request on a customer's behalf or put customer data in a test.
-- Do not upload NDA-restricted drawings to the public form; use direct email and agreed engineering file channels.
-- No permanent secrets or API keys in the public GitHub repository.
-- Keep FormSubmit's native CAPTCHA enabled and the honeypot field; do not switch to AJAX and silently bypass the provider challenge.
-- Third-party service availability and delivery remain separate from the website deployment status.
-- FormSubmit's service retains submissions for a limited period; investigate provider privacy and company policy before requesting sensitive personal or project data.
-- The online form's `_next` redirect, and all Google Analytics events, are **not evidence of inbox receipt**.
+## Delivery architecture and privacy
+
+- SigGear runs on GitHub Pages, and the public form performs a native HTTPS POST to FormSubmit. The provider handles the CAPTCHA and forwards the request to SigGear.
+- The customer's **contact email** and **explicit data-processing acknowledgment** are mandatory for online sending. The contact name is optional; the application field is required.
+- The online form includes a non-visible honeypot and FormSubmit's CAPTCHA; use neither unverified AJAX bypasses nor a `_captcha=false` setting.
+- Do not solicit drawings, files controlled by an NDA, trade secrets or security-sensitive information through the public form. Ask for attachments by direct email or an agreed file transfer.
+- The `_next` redirect contains no personal contact details. Contact information and project notes are not collected in GA4 event parameters.
+- The legacy direct-email flow remains available in case the provider is blocked, unavailable, or the customer prefers to add engineering drawings.
+
+## How to measure and verify leads
+
+- `engineering_brief_online_submit_attempt` measures only intent and a browser-side POST attempt.
+- `engineering_brief_provider_return` means the browser returned from provider processing, **not** that the request was delivered to the SigGear inbox.
+- Treat a request as a **received** inquiry only after the actual email appears at `wangwanrong@siggear.com`.
+- Mark it **qualified** only after a real application need, identifiable reply route, and next meaningful action are confirmed.
+- Periodically submit non-confidential test data to verify the recipient mailbox and CAPTCHA workflow; investigate spam or provider delivery failure if results differ.
+
+## Emergency fallback / rollback
+
+If inbox delivery stops: use the existing **Prepare Email Instead** button; contact the provider. To temporarily disable online POST, change `ONLINE_DELIVERY_VERIFIED` to `false`, increment the `inquiry-form.js` cache-busting version in `mkdocs.yml`, and redeploy after validation. This restores the direct-email default without touching SEO pages or the selection-tool handoff.
