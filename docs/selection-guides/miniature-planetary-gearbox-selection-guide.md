@@ -45,7 +45,7 @@ It calculates:
 
 and compares that value with the currently published 1–4 stage ratios for SigGear 8P–42P.
 
-Optional filters can remove configurations that exceed a maximum gearbox diameter, maximum **gearbox body length**, published **rated allowable torque** requirement, or a user-defined maximum ratio difference.
+Optional filters can remove configurations that exceed a maximum gearbox diameter, maximum **gearbox body length**, published **rated allowable torque** requirement, a **maximum momentary torque** screening threshold, or a user-defined maximum ratio difference. Exceeding a catalog limit does not rule out a customized solution; the results provide a custom engineering review path.
 
 <form id="siggear-ratio-stage-selector" class="siggear-ratio-selector">
   <div class="siggear-selector-grid">
@@ -99,7 +99,9 @@ Optional filters can remove configurations that exceed a maximum gearbox diamete
   <div id="sg-ratio-stage-results" aria-live="polite"></div>
 </form>
 
-**Engineering boundary:** the published continuous permissible gearbox input speed is 8,000 rpm for the current 8P–42P datasheets. The selector does not infer motor suitability, safe peak duration, thermal behavior, service life or final design approval. Peak torque is screened only against published momentary limits; duration/frequency still require engineering review.
+**Input-speed boundary and engineering clarification (15 October 2026):** current published 8P–42P datasheets state a **continuous permissible gearbox input speed of up to 8,000 rpm**. SigGear engineering separately identified **1,000–20,000 rpm** as an application range to assess on a case-by-case basis; this wider range is **not** a revised, released continuous rating. For speeds **above 8,000 rpm**, the tool does not return standard catalog matches: it directs the visitor to engineering review. Projects **above 20,000 rpm**, and operating speeds **below 1,000 rpm**, also require project-level review. The datasheets have not established a general minimum rated input speed. The published 8,000 rpm continuous rating remains authoritative for automated catalog screening until formal documents are revised.
+
+**Torque and efficiency rules:** published stage-specific rated allowable torque may be used for preliminary continuous-load screening; published maximum momentary torque may be used to rule out unsuitable peak-load candidates but does **not** establish an allowable peak duration or frequency. Exceeding either published torque threshold can be reviewed for customization. Published efficiency is a **stage-level reference**: ratio-specific differences are awaiting separate engineering verification. The tool does not infer motor suitability, safe peak duration, thermal behavior, service life or final design approval.
 
 **Important:** this is a preliminary Design-In aid, not an automatic final selector. It does not add a safety factor, calculate motor shaft torque, predict service life, or prove that a customer's motor shaft / pilot / mounting pattern fits the gearbox.
 
@@ -120,7 +122,7 @@ These labels are not interchangeable and are **not final recommendations**. A sm
 - **Cutting, startup, impact or jam events:** Consider magnitude, duration and frequency of peak loads. The published maximum momentary torque is **not** a continuous rating.
 - **Motor matching:** Output torque estimates depend on the motor shaft torque, selected ratio and the relevant gearbox efficiency. Use the efficiency published for the selected configuration, not a family maximum.
 
-Never transfer a torque rating from one frame size or stage configuration to another without technical confirmation.
+Never transfer a torque rating from one frame size or stage configuration to another without technical confirmation. If published torque, ratio, or envelope filters produce no catalog match, use **Request Custom Engineering Review** on the results page and attach the application / motor drawing. A successful preliminary match still needs review of actual operating conditions.
 
 ## 4. Check the Full Mechanical Interface
 
