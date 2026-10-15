@@ -77,12 +77,12 @@ If your project matches one of the current priority application paths, use the d
 
 If you do not want to write a technical inquiry from scratch, use this short project brief. Fill in only what you already know.
 
-Use the project brief below to contact SigGear. **Prepare Email to SigGear** opens a structured draft in your own email application. Once online delivery is activated, this page also offers **Send Engineering Request Online** without requiring an email application. Online submissions are processed by FormSubmit, a third-party form delivery service, and require a contact email address. For confidential drawings or NDA-controlled materials, contact SigGear by email instead of using this public form.
+Complete the project brief below and click **Send Engineering Request Online** to contact SigGear without opening an email application. This form is delivered through **FormSubmit**, a third-party email forwarding service; your contact email and agreement to its data processing are required. Prefer your own email client? Use **Prepare Email Instead** to review and send the same structured brief directly to **wangwanrong@siggear.com**. For confidential drawings, NDA-controlled files or sensitive design information, use direct email and an agreed secure file-transfer channel rather than the online form.
 
 <p id="sg-online-return" class="siggear-form-return" hidden role="status">Your form was processed by the online delivery service. SigGear will review it once the email is received. If you need to send attachments or have an urgent request, email <a href="mailto:wangwanrong@siggear.com">wangwanrong@siggear.com</a> directly.</p>
 
 <form id="siggear-engineering-brief" class="siggear-inquiry-form" action="#" method="POST">
-  <!-- The online endpoint is enabled only after recipient activation and a delivered-email test. -->
+  <!-- FormSubmit recipient activation and inbox receipt were verified on 2026-10-15. -->
   <input id="sg-online-message" type="hidden" name="message">
   <input id="sg-online-subject" type="hidden" name="_subject">
   <input id="sg-online-next" type="hidden" name="_next" value="https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/?form_delivery=provider_return">
@@ -255,23 +255,22 @@ Use the project brief below to contact SigGear. **Prepare Email to SigGear** ope
     </label>
   </div>
 
-  <div id="sg-online-activation-indicator" class="siggear-form-return" hidden style="display:none" role="status">
-    <strong>SigGear owner activation test is enabled.</strong> Complete this form with non-confidential internal test data and confirm delivery to wangwanrong@siggear.com before enabling online submission for customers.
-  </div>
-
   <div id="sg-online-consent-wrap" hidden style="display:none">
     <label class="siggear-online-consent-label">
       <input id="sg-online-consent" name="privacy_ack" type="checkbox" value="yes">
       I agree to send my contact details and technical project description to SigGear through the third-party form service <a href="https://formsubmit.co/privacy.pdf" target="_blank" rel="noopener noreferrer">FormSubmit</a>. I will not submit confidential files here.
     </label>
   </div>
-  <p id="sg-online-delivery-note" class="siggear-online-delivery-note" hidden style="display:none">Online delivery may require a CAPTCHA challenge. It is available only after SigGear confirms recipient activation; the email option remains available if you prefer.</p>
+  <p id="sg-online-delivery-note" class="siggear-online-delivery-note" hidden style="display:none">Online submission may require a CAPTCHA challenge. SigGear reviews inquiries after they arrive in our mailbox. For confidential drawings or preferred direct communication, choose <strong>Prepare Email Instead</strong>.</p>
 
   <div class="siggear-form-actions">
     <button type="submit" id="sg-brief-primary" class="md-button md-button--primary">Prepare Email to SigGear</button>
     <button type="button" id="sg-email-brief" class="md-button" hidden style="display:none">Prepare Email Instead</button>
     <button type="button" id="sg-copy-brief" class="md-button">Copy Project Brief</button>
   </div>
+  <noscript>
+    <p>JavaScript is required to submit the online project brief. Please email <a href="mailto:wangwanrong@siggear.com">wangwanrong@siggear.com</a> directly instead.</p>
+  </noscript>
 
   <p id="sg-brief-status" class="siggear-form-status" aria-live="polite"></p>
 </form>
