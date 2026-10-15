@@ -5,15 +5,20 @@
   var results = document.getElementById("sg-ratio-stage-results");
   var summary = document.getElementById("sg-ratio-stage-summary");
 
+  var speedBounds = null;
   var dataPromise = fetch(new URL("../../assets/data/planetary-ratio-stage-data.json", window.location.href))
     .then(function (response) {
       if (!response.ok) throw new Error("Unable to load published ratio-stage data.");
       return response.json();
     })
     .then(function (payload) {
-      if (!payload || !Array.isArray(payload.models)) {
-        throw new Error("Published ratio-stage data is invalid.");
+      var bounds = payload && payload.continuous_input_speed_rpm;
+      if (!payload || !Array.isArray(payload.models) || !bounds ||
+          !Number.isFinite(bounds.min) || !Number.isFinite(bounds.max) ||
+          bounds.min <= 0 || bounds.max <= bounds.min) {
+        throw new Error("Published ratio-stage or input-speed data is invalid.");
       }
+      speedBounds = bounds;
       return payload.models;
     });
 
@@ -163,13 +168,13 @@
       return;
     }
 
-    // Engineering confirmation 2026-10-15: standard continuous input speed is
-    // 1,000-20,000 rpm for 8P-42P. Out-of-range speeds require custom review.
-    if (motorSpeed < 1000 || motorSpeed > 20000) {
-      var reason = motorSpeed > 20000 ? "speed_above_engineering" : "speed_below_engineering";
-      summary.textContent = motorSpeed > 20000 ?
-        "This project exceeds the standard continuous input-speed range of 1,000-20,000 rpm. Custom feasibility review is required." :
-        "This project is below the standard continuous input-speed range of 1,000-20,000 rpm. Custom feasibility review is required.";
+    // Use the published machine-readable input-speed range (engineering-confirmed 2026-10-15).
+    if (motorSpeed < speedBounds.min || motorSpeed > speedBounds.max) {
+      var reason = motorSpeed > speedBounds.max ? "speed_above_engineering" : "speed_below_engineering";
+      var speedRange = fmt(speedBounds.min, 0) + "–" + fmt(speedBounds.max, 0) + " rpm";
+      summary.textContent = motorSpeed > speedBounds.max ?
+        "This project exceeds the standard continuous input-speed range of " + speedRange + ". Custom feasibility review is required." :
+        "This project is below the standard continuous input-speed range of " + speedRange + ". Custom feasibility review is required.";
       results.innerHTML = customReviewAction(reason, motorSpeed, outputSpeed, requiredTorque, peakTorque, maxDiameter, maxLength);
       track(0, 0, null, null, null);
       return;
