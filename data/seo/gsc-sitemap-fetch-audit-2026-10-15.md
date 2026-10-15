@@ -59,3 +59,14 @@ Official references:
 - https://support.google.com/webmasters/answer/7451001
 - https://support.google.com/webmasters/answer/9012289
 - https://support.google.com/webmasters/community
+
+## 2026-10-15 — Google Search Central Community escalation submitted
+
+- **Status:** Posted by SigGear operator (reported directly on 2026-10-15).
+- **Official public support community thread:** https://support.google.com/webmasters/thread/473021994
+- **Thread ID:** \`473021994\`.
+- **Original operator-supplied URL:** \`https://support.google.com/webmasters/thread/473021994?hl=zh-Hans&sjid=13566084060179676843-EU\`. The stable ID-based URL above omits session/locale query parameters.
+- **Topic:** Sitemap "Couldn't fetch" for months, despite HTTP 200 valid XML and Google Live URL Inspection reporting a successful fetch.
+- **Verification scope:** Operator confirmed successful publication and provided the thread URL; independent retrieval of the new thread body/replies was not available at the time of record. Do not imply a Google employee replied or an issue was acknowledged internally.
+- **Next:** Enable email notifications / subscription for replies using the user's Google account; preserve both existing sitemap submissions; review community diagnostic advice against actual GSC response evidence and current production HTML before making any changes. Do not create additional sitemap variants by default.
+- **Escalation outcome:** Awaiting community response; no Google crawl or indexing fix has been confirmed.
