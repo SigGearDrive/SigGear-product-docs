@@ -43,7 +43,7 @@ async function run(input) {
   const window = {
     location: {
       pathname: "/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/",
-      href: "https://siggeardrive.github.io/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/"
+      href: "https://siggeardrive.github.io/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/" + (input.query || "")
     }
   };
   const fetch = async () => ({ok:true, json:async () => data});
@@ -64,6 +64,21 @@ async function run(input) {
 }
 
 (async () => {
+  const from12p = await run({ diameter: "", query: "?max_diameter=12" });
+  assert.equal(from12p.fields["sg-selector-diameter"].value, "12");
+  assert.match(from12p.results, /12P/);
+  assert.match(from12p.results, /selector_max_diameter=12/);
+  console.log("PASS 12P model-page link prefills editable maximum diameter");
+
+  const ignoreInvalid = await run({ diameter: "", query: "?max_diameter=19" });
+  assert.equal(ignoreInvalid.fields["sg-selector-diameter"].value, "");
+  assert.match(ignoreInvalid.results, /12P/);
+  console.log("PASS unsupported diameter prefill safely ignored");
+
+  const preserveUserFilter = await run({ diameter: "20", query: "?max_diameter=12" });
+  assert.equal(preserveUserFilter.fields["sg-selector-diameter"].value, "20");
+  console.log("PASS explicit user diameter is not overwritten");
+
   const good = await run({});
   assert.match(good.results, /12P/);
   assert.match(good.results, /42\.9:1/);

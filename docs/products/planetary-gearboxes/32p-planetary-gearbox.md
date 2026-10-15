@@ -29,6 +29,10 @@ The downloadable STEP represents the **4-stage reference configuration only** an
 
 **Continuous input-speed range (confirmed 2026-10-15):** 1,000–20,000 rpm for preliminary standard gearbox selection. Speeds outside this range require a custom feasibility review. Motor matching, duty cycle and application conditions must still be confirmed.
 
+**Sizing a 32 mm OEM gearbox?** Check the published ratios, stage-dependent body lengths and rated torque with the SigGear selector. The maximum diameter starts at 32 mm and can be adjusted.
+
+[Open SigGear Planetary Gearbox Selector — 32 mm starting point](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=32#preliminary-ratio-stage-finder){ .md-button }
+
 ## Product Identity
 
 | Item | Description |
