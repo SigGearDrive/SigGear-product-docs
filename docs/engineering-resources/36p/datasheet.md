@@ -9,6 +9,8 @@ description: Public 36P 36 mm planetary gearbox datasheet with 1–4 stage ratio
 **Status:** Public engineering evaluation reference  
 **Release date:** 2026-10-06
 
+**Continuous input-speed range revision:** 2026-10-15 (SigGear engineering confirmation; supersedes previous ≤8,000 rpm value).  
+
 The SigGear 36P is a 36 mm planetary gearbox platform with one- to four-stage configurations. Performance values below are consolidated from the current canonical product page. Mechanical-interface details are linked to the controlled 2D drawing reference released for this model.
 
 ## Key Specifications
@@ -23,7 +25,7 @@ The SigGear 36P is a 36 mm planetary gearbox platform with one- to four-stage co
 | Maximum momentary torque range | 80.0–200.0 kgf·cm |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.2° |
-| Continuous permissible input speed | ≤ 8,000 rpm |
+| Continuous permissible input speed | 1,000–20,000 rpm |
 | Operating temperature range | −40 to 120 °C |
 
 Maximum momentary torque is not a continuous working rating.
