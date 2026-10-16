@@ -25,7 +25,7 @@ The approximate ratio may be estimated from **motor operating speed / target gea
 
 [Find Published Gearbox Candidates](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=electric_curtain_blind#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
 [Compare SigGear 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Read the Planetary Gearbox Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
+[Read the Planetary Gearbox Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=electric_curtain_blind#preliminary-ratio-stage-finder){ .md-button }
 [Download Public 4-Stage STEP References](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Start Curtain / Blind Project Brief](../request-cad-sample-quote.md?app=electric_curtain_blind){ .md-button }
 
