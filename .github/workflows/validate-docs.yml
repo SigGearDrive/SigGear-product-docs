@@ -9,6 +9,7 @@ on:
       - "requirements.txt"
       - "scripts/validate_docs.py"
       - "scripts/validate_product_data.py"
+      - "scripts/validate_22p_product_media.py"
       - "scripts/validate_sales_policy.py"
       - "scripts/validate_site_urls.py"
       - "scripts/validate_external_catalog.py"
@@ -44,6 +45,7 @@ on:
       - "requirements.txt"
       - "scripts/validate_docs.py"
       - "scripts/validate_product_data.py"
+      - "scripts/validate_22p_product_media.py"
       - "scripts/validate_sales_policy.py"
       - "scripts/validate_site_urls.py"
       - "scripts/validate_external_catalog.py"
@@ -98,6 +100,9 @@ jobs:
 
       - name: Validate product master data
         run: python scripts/validate_product_data.py
+
+      - name: Verify 22P real product evidence and technical image integrity
+        run: python scripts/validate_22p_product_media.py
 
       - name: Validate public sales policy
         run: python scripts/validate_sales_policy.py
