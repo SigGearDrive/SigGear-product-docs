@@ -169,7 +169,7 @@ A mechanism sketch or existing motor drawing is enough to start a preliminary re
 
 ## Related Resources
 
-[How to Select a Miniature Planetary Gearbox](../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
+[How to Select a Miniature Planetary Gearbox](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=smart_toilet_bidet#preliminary-ratio-stage-finder){ .md-button }
 [Consumer Appliance and Home Device Gear Motors](consumer-appliance-home-device-gear-motors.md){ .md-button }
 [Electric Curtain Gear Motor Selection](electric-curtain-blind-window-opener-gear-motors.md){ .md-button }
 [Start Smart Toilet / Bidet Project Brief](../request-cad-sample-quote.md?app=smart_toilet_bidet){ .md-button .md-button--primary }
