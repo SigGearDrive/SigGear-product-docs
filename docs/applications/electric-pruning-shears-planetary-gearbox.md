@@ -11,7 +11,7 @@ This is a preliminary engineering guide for a **potential OEM application**. It 
 
 [Find Published Gearbox Candidates](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=electric_pruning_shears#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
 [Browse 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Planetary Gearbox Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
+[Planetary Gearbox Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=electric_pruning_shears#preliminary-ratio-stage-finder){ .md-button }
 [Start Pruning-Shear Project Brief](../request-cad-sample-quote.md?app=electric_pruning_shears){ .md-button }
 
 ## Begin With Cutting Mechanism Geometry
