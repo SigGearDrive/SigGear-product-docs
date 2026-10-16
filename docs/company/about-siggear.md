@@ -7,6 +7,15 @@ description: Learn about SigGear precision transmission products, in-house machi
 
 Guangdong SigGear Drive Intelligent Technology Co., Ltd. specializes in compact precision gear transmission products and engineering support for robotics, smart hardware, automation and other products that require small motors, gearboxes or integrated drive solutions.
 
+## Company Website and Technical Resources
+
+- [SigGear official commercial website](https://www.siggear.com/) — company profile and general product catalog.
+- [8–42 mm micro, miniature and compact planetary gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) — published mechanical gearbox models, Datasheets and CAD entry points.
+- [Planetary gearbox ratio and stage selector](../selection-guides/miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder) — preliminary selection using verified model and stage data.
+- [Contact SigGear engineering](../request-cad-sample-quote.md) — send a configuration and manufacturing review request.
+
+The commercial website and the public engineering documentation serve different purposes. The gearbox-only specification, motor-matched assembly and configuration-dependent engineering limits should not be treated as interchangeable.
+
 ## Product Categories
 
 - Integrated robot joint actuators

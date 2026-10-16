@@ -4,6 +4,8 @@ Official public engineering documentation from Guangdong SigGear Drive Intellige
 
 A gearbox selection can begin with your motor drawing, installation size or required output. Contact [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com) for project review.
 
+**SigGear commercial company website:** [www.siggear.com](https://www.siggear.com/) · **Published engineering documentation:** [SigGear 8–42 mm planetary gearbox catalog](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/). These are complementary company and engineering resources; motor+gearbox assemblies require motor-specific validation.
+
 ## Start Here
 
 SigGear's **live English engineering site** is the recommended entry point for OEM buyers and mechanical engineers. The repository also contains the reviewed Markdown source.
