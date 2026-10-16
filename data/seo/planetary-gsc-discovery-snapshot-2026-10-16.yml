@@ -84,3 +84,75 @@ next_measurements:
     - No_indexing_guarantee_from_external_GitHub_README_links
     - Do_not_extrapolate_torque_ratio_or_application_cases_from_unverified_parameters
     - Avoid_keyword_stuffing_or_bulk_duplicate_application_pages
+
+selector_indexing_confirmation:
+  confirmed_on: "2026-10-16"
+  canonical_url: "https://siggeardrive.github.io/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/"
+  google_url_inspection: indexed_as_reported_by_siggear_operator
+  evidence_level: operator_report_in_chat_not_api_inspection
+  repeat_indexing_submission_needed: false
+  caveat: Google_indexing_is_not_impression_or_ranking_growth
+supplemental_search_console_read:
+  read_on: "2026-10-16"
+  date_dimensions:
+    start: "2026-09-16"
+    end: "2026-10-13"
+    impressions: 725
+    clicks: 18
+    computed_ctr_percent: 2.48
+    note: Separate_28_day_window_from_the_2026_09_18_to_10_13_snapshot_above
+  query_dimension:
+    returned_rows: 50
+    aggregated_impressions: 129
+    returned_clicks: 0
+    interpretation: Google_may_withhold_anonymized_queries_do_not_reconcile_query_rows_to_site_totals
+  model_page_dimension:
+    observed_model_impressions: 13
+    observed_clicks: 0
+    models: [16P, 20P, 22P, 32P, 42P]
+    warning: Missing_other_models_does_not_prove_unindexed
+  highest_page_impressions:
+    humanoid_application: 317
+    robot_joint_selector: 255
+  validation:
+    source: Windsor_ai_connected_Search_Console_property
+    scope: Google_web_search_not_platform_native_CAD_downloads
+ga4_28_day_snapshot:
+  period_start: "2026-09-18"
+  period_end: "2026-10-15"
+  property: "547548249"
+  reported_session_start_events: 14
+  reported_page_views: 64
+  landing_page_selector_sessions: 3
+  landing_page_8p_sessions: 2
+  landing_page_36p_sessions: 1
+  form_submit_events: 1
+  provider_submissions_confirmed_received_from_this_data: null
+  source_medium_rows:
+    github_com_referral_sessions: 10
+    direct_sessions: 2
+    ai_assistant_sessions: 2
+    not_set_sessions: 2
+    traceparts_sessions_reported: 0
+  limitations:
+    - Session_source_totals_do_not_reconcile_to_session_start_events_due_to_dimensions_and_low_volume
+    - Historical_FormSubmit_owner_tests_may_be_in_form_events
+    - GA4_is_privacy_and_consent_dependent_and_cannot_replace_GSC_Clicks
+    - No_traceparts_row_is_not_proof_of_no_catalog_visits_or_platform_CAD_downloads
+next_offsite_distribution_gate:
+  priority: P0
+  traceparts_status: staff_reported_12_model_publisher_update_completed_2026_10_15
+  independently_verified_12_model_links: false
+  owner_action: Verify_public_English_22P_and_8P_product_web_links_point_to_the_matching_GitHub_model_with_utm_source_traceparts
+  also_verify: [Micro_Miniature_Compact_product_names, 28P_32P_36P_42P_photos, TraceParts_Analytics_access_by_contract, native_CAD_download_counts]
+  source_register: data/external-catalogs/platforms/traceparts-publisher-qa-2026-10-15.yml
+  acquisition_evidence_threshold: platform_to_GitHub_click_or_real_platform_CAD_lead_not_operator_testing
+  directindustry_status: exhibitor_request_received_waiting_consultant_quote_and_listing_terms
+  directindustry_first_wave: [10P, 20P, 32P, 42P]
+  action_policy: no_unapproved_payment_or_subscription_and_no_duplicate_application
+weekly_performance_decision:
+  planetary_model_page_impressions: compare_complete_7_day_and_28_day_windows
+  target_search_intent: exact_diameter_plus_planetary_gearbox_gearhead_STEP_CAD
+  target_geography: [United_States, Canada, Germany, United_Kingdom, Netherlands]
+  funnel: [model_and_series_page, selector_session, candidate_and_CAD_click, received_engineering_inquiry, qualified_project]
+  action_gate: do_not_rewrite_SEO_titles_for_one_to_four_impressions_or_create_keyword_only_pages
