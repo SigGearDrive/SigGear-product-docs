@@ -22,6 +22,30 @@
       return payload.models;
     });
 
+  // Safe application categories shared with the online engineering project brief.
+  // Only a known category slug travels through URLs; never customer project text.
+  var supportedApplications = {
+    electric_pruning_shears: "Electric pruning shears",
+    electric_curtain_blind: "Electric curtain / blind / window opener",
+    smart_toilet_bidet: "Smart toilet / bidet mechanism",
+    dexterous_hand_gripper: "Dexterous hand / robot gripper"
+  };
+  var selectorApplication = "";
+  try {
+    var appSlug = new URL(window.location.href).searchParams.get("app") || "";
+    if (Object.prototype.hasOwnProperty.call(supportedApplications, appSlug)) {
+      selectorApplication = appSlug;
+    }
+  } catch (error) {
+    // Invalid or unrecognized application identifiers cannot alter selection.
+  }
+  var appContextLabel = document.getElementById("sg-selector-application-context");
+  if (appContextLabel && selectorApplication) {
+    appContextLabel.hidden = false;
+    appContextLabel.textContent = "Application: " + supportedApplications[selectorApplication] +
+      ". The published parameters below determine candidates; your application context will also appear in the engineering project brief.";
+  }
+
   var KGF_CM_TO_NM = 0.0980665;
   function torqueUnit() {
     var input = document.getElementById("sg-selector-torque-unit");
@@ -35,6 +59,7 @@
   }
   function selectorContext(motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength) {
     var params = "";
+    if (selectorApplication) params += "&app=" + encodeURIComponent(selectorApplication);
     if (motorSpeed !== null) params += "&selector_motor_speed=" + encodeURIComponent(motorSpeed);
     if (outputSpeed !== null) params += "&selector_output_speed=" + encodeURIComponent(outputSpeed);
     if (continuous !== null) params += "&selector_continuous_nm=" + encodeURIComponent((continuous * KGF_CM_TO_NM).toFixed(5));
@@ -90,6 +115,7 @@
       used_length_filter: numberValue("sg-selector-length") !== null ? 1 : 0,
       used_torque_filter: numberValue("sg-selector-torque") !== null ? 1 : 0,
       used_ratio_tolerance_filter: numberValue("sg-selector-ratio-tolerance") !== null ? 1 : 0,
+      inquiry_application: selectorApplication || "not_specified",
       result_count: configurationCount,
       candidate_frame_count: frameCount,
       top_candidate_model: top ? top.model : "none",
