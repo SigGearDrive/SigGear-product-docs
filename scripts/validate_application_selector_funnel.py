@@ -28,12 +28,20 @@ class Anchors(HTMLParser):
     def __init__(self):
         super().__init__()
         self.hrefs: list[str] = []
+        self.inside_main_content = False
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
-        if tag == "a":
-            href = dict(attrs).get("href")
+        attributes = dict(attrs)
+        if tag == "article" and "md-content__inner" in (attributes.get("class") or ""):
+            self.inside_main_content = True
+        if tag == "a" and self.inside_main_content:
+            href = attributes.get("href")
             if href:
                 self.hrefs.append(href)
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "article":
+            self.inside_main_content = False
 
 
 def check(selector_page: str, text: str) -> None:
