@@ -1,22 +1,24 @@
 # Selection Guides
 
-SigGear selection guides help robotics and automation engineers convert application requirements into a practical motor, gearbox or joint-actuator shortlist.
+SigGear selection guides help **OEM mechanical engineers, precision-device teams and robotics developers** turn motor speed, output torque, packaging and interface requirements into a practical gearbox, gearmotor or joint-actuator shortlist.
 
 The guides are intended for preliminary engineering selection. Final model approval requires review of the complete torque-speed cycle, installation structure, external loads, thermal conditions, feedback architecture, controller limits and project configuration.
 
 ## Published Guides
 
+### Micro, Miniature & Compact Planetary Gearbox Selection — 8–42 mm
+
+For an existing motor or a motor-matched OEM drive, start with the [8–42 mm planetary gearbox series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) and estimate **reduction ratio, stage count, allowable torque and installation diameter**. The interactive selector uses published model data for preliminary filtering; each selected ratio, duty cycle and motor interface still needs engineering review.
+
+[Find a Planetary Gearbox — Ratio & Stage Finder](./miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
+[Download 8–42 mm Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
+[Start an OEM Engineering Review](../request-cad-sample-quote.md){ .md-button }
+
 ### Robot Joint Actuator Selection Guide
 
-A step-by-step guide for humanoid robots, quadruped robots, robotic arms, exoskeletons and other rotary joints. It covers load definition, torque estimation, output speed, duty cycle, transmission choice, external loads, positioning, feedback, driver and communication requirements.
+For complete robot joint drives, review load definition, torque estimation, output speed, duty cycle, transmission choice, external loads, encoder, driver and communication requirements. A standalone miniature gearbox is not automatically suitable for a primary load-bearing joint.
 
-[Open the robot joint actuator selection guide](./robot-joint-actuator-selection-guide.md)
-
-### Miniature Planetary Gearbox Selection Guide (8–42 mm)
-
-Selection workflow for reduction ratio, rated versus momentary torque, motor interface, stage length, CAD and gearbox-only versus motor-matched projects.
-
-[How to Select a Miniature Planetary Gearbox](./miniature-planetary-gearbox-selection-guide.md){ .md-button .md-button--primary }
+[Open the Robot Joint Actuator Selection Guide](./robot-joint-actuator-selection-guide.md)
 
 ## Guides Planned for Technical Review
 
