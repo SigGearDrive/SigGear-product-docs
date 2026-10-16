@@ -69,4 +69,22 @@ Official references:
 - **Topic:** Sitemap "Couldn't fetch" for months, despite HTTP 200 valid XML and Google Live URL Inspection reporting a successful fetch.
 - **Verification scope:** Operator confirmed successful publication and provided the thread URL; independent retrieval of the new thread body/replies was not available at the time of record. Do not imply a Google employee replied or an issue was acknowledged internally.
 - **Next:** Enable email notifications / subscription for replies using the user's Google account; preserve both existing sitemap submissions; review community diagnostic advice against actual GSC response evidence and current production HTML before making any changes. Do not create additional sitemap variants by default.
-- **Escalation outcome:** Awaiting community response; no Google crawl or indexing fix has been confirmed.
+- **Escalation outcome (as of 2026-10-16):** A community explanation has been received. No site-side fix or Google indexing result has been confirmed; see the update below.
+
+## 2026-10-16 — Community response received; distinguish interpretation from verified crawler logs
+
+**Source:** Operator-forwarded reply to https://support.google.com/webmasters/thread/473021994, citing an earlier community discussion at https://support.google.com/webmasters/thread/184533703/are-you-seeing-couldn-t-fetch-reported-for-your-sitemap?hl=en.
+
+**Community reply, paraphrased:** The person replying interprets the generic **"Couldn't fetch"** display as misleading in some instances: the sitemap may simply remain unprocessed, not reflect an actual failed HTTP fetch; Google makes no guarantee that every submitted sitemap will be processed, and no website defect is implied by that UI label alone. The reply says a real attempted-fetch fault would normally provide a specific error.
+
+**Evidence limitation / important nuance:** This is a community interpretation, **not an internal Google fetch-log audit** or proof that Google has never tried to fetch these files. The official Search Console Sitemaps report help describes **"Couldn't fetch"** as "Google couldn't fetch the sitemap" for the last request (https://support.google.com/webmasters/answer/7451001). The two descriptions are not identical; do not relabel a failed UI state as confirmed success. The previously reported **"Last read"** date and Google live URL test are also not equivalent to completed sitemap ingestion.
+
+**SigGear operational decision:**
+- Preserve the existing working `/sitemap.xml` and `/sitemap-index.xml` and their GSC submission history; **do not repeatedly resubmit or delete them**.
+- No justified website code, robots, canonical or XML change has emerged from the response. Avoid further speculative fixes.
+- Continue discovery via the canonical 8–42 mm series homepage, 12 unique planetary model pages, size-specific technical pages, selection guide, internal crawlable links, and live external TraceParts listings.
+- Focus weekly reporting on meaningful **planetary gearbox non-branded impressions, clicks, indexing evidence and qualified inquiries** rather than merely whether the Sitemaps UI turns green.
+- Reassess only if new GSC URL Inspection / Page Indexing / specific HTTP or processing errors point to an actionable technical defect.
+- DirectIndustry applicant status is separate: request submitted, response pending as reported by SigGear operator.
+
+**Status:** Community feedback received; no confirmed technical blockage of publicly tested pages; Sitemap submission still not reported successful. This is **not** a claim that the issue is technically fixed or every URL indexed.
