@@ -100,3 +100,16 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Application context is informational, never an automatic product approval. */
+.siggear-selector-context {
+  padding: 0.7rem 0.85rem;
+  margin: 0.9rem 0 0.65rem;
+  border-left: 3px solid var(--md-primary-fg-color);
+  background: var(--md-code-bg-color);
+  color: var(--md-default-fg-color);
+  font-size: 0.9rem;
+}
+.siggear-selector-context[hidden] {
+  display: none !important;
+}
