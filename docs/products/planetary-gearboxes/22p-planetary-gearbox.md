@@ -10,8 +10,6 @@ description: SigGear 22P is a 22 mm miniature planetary gearbox / gearhead with 
 
 The SigGear 22P is a 22 mm miniature planetary gearbox for compact motorized mechanisms. The published configurations cover one to four stages, with reduction ratios from 3.5:1 to 509.1:1.
 
-![SigGear 22P 22 mm miniature planetary gearbox](../../assets/images/products/planetary-gearboxes/22p/22p-planetary-gearbox-main.webp)
-
 ## Real Product Evidence
 
 ![Real SigGear 22P 22 mm miniature planetary gearbox with diameter check](../../assets/images/products/planetary-gearboxes/22p/22p-real-product-evidence.webp)
@@ -72,8 +70,6 @@ Torque values are preserved in the source unit, kgf·cm. Maximum momentary torqu
 | 3 | 33.2 mm | 42.9 / 49 / 56 / 58.2 / 64 / 66.5 / 76 / 79 / 90.25 / 107.2 | 15.0 kgf·cm | 30.0 kgf·cm | 73% |
 | 4 | 38.5 mm | 150.1 / 171.5 / 196 / 203.7 / 224 / 232.7 / 256 / 266 / 276.4 / 304 / 315.9 / 361 / 375.1 / 428.7 / 509.1 | 25.0 kgf·cm | 50.0 kgf·cm | 66% |
 
-![22P planetary gearbox structure and published stage-ratio table](../../assets/images/products/planetary-gearboxes/22p/22p-planetary-gearbox-structure-and-ratios.webp)
-
 ## Shaft and Load Limits
 
 | Parameter | Published value |
@@ -83,21 +79,15 @@ Torque values are preserved in the source unit, kgf·cm. Maximum momentary torqu
 | Radial shaft play | ≤ 0.04 mm |
 | Thrust shaft play | ≤ 0.2 mm |
 
-![22P planetary gearbox mechanical details and operating limits](../../assets/images/products/planetary-gearboxes/22p/22p-planetary-gearbox-mechanical-details.webp)
-
 ## Motor Compatibility
 
 The adapted-motor sheet identifies DC motors with a nominal voltage of **3–36 VDC** and rated power **below 25 W**. If a motor cannot meet the gearbox installation requirements, motor matching must be negotiated separately.
 
 These are adapted-motor conditions, not an electrical voltage or power rating for the mechanical gearbox itself. Confirm the motor shaft, mounting interface, input speed, duty cycle and operating point for the selected gearbox ratio.
 
-![22P gearbox adapted-motor information](../../assets/images/products/planetary-gearboxes/22p/22p-planetary-gearbox-motor-compatibility.webp)
-
 ## Dimensions and Interface
 
-The published drawing shows a 22 mm body, a 20 mm output-shaft extension and stage-dependent gearbox lengths of 22.6, 27.9, 33.2 and 38.5 mm. Use the drawing below for the complete shaft, mounting, input-interface and tolerance notation.
-
-![22P 22 mm planetary gearbox dimensional drawing](../../assets/images/products/planetary-gearboxes/22p/22p-planetary-gearbox-dimensions.webp)
+Published dimensional references identify a 22 mm body, a 20 mm output-shaft extension and stage-dependent gearbox body lengths of 22.6, 27.9, 33.2 and 38.5 mm. Review the [22P Mechanical Interface](../../engineering-resources/22p/mechanical-interface.md) and request the applicable configuration-controlled drawing to confirm the output shaft, mounting, motor interface and tolerances.
 
 ## Typical Applications
 
