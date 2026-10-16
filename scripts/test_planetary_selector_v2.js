@@ -34,17 +34,21 @@ async function run(input) {
   } };
   const summary = { textContent: "", innerHTML: "" };
   const results = { innerHTML: "" };
+  const applicationContext = { textContent: "", hidden: true };
   const special = {
     "siggear-ratio-stage-selector": form,
     "sg-ratio-stage-summary": summary,
-    "sg-ratio-stage-results": results
+    "sg-ratio-stage-results": results,
+    "sg-selector-application-context": applicationContext
   };
   const document = { getElementById: id => special[id] ?? elements[id] ?? null };
+  const gaEvents = [];
   const window = {
     location: {
       pathname: "/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/",
       href: "https://siggeardrive.github.io/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/" + (input.query || "")
-    }
+    },
+    gtag: (event, name, params) => gaEvents.push({event, name, params})
   };
   const fetch = async () => ({ok:true, json:async () => data});
   vm.runInNewContext(js, {document, window, URL, fetch, console}, {filename:"ratio-stage-selector.js"});
@@ -59,11 +63,46 @@ async function run(input) {
   return {
     summary: summary.innerHTML || summary.textContent,
     results: results.innerHTML,
-    fields: elements
+    fields: elements,
+    applicationContext,
+    gaEvents
   };
 }
 
 (async () => {
+  const knownContexts = [
+    ["electric_pruning_shears", "Electric pruning shears"],
+    ["electric_curtain_blind", "Electric curtain / blind / window opener"],
+    ["smart_toilet_bidet", "Smart toilet / bidet mechanism"],
+    ["dexterous_hand_gripper", "Dexterous hand / robot gripper"]
+  ];
+  for (const [app, label] of knownContexts) {
+    const fromApp = await run({query: "?app=" + app});
+    assert.equal(fromApp.applicationContext.hidden, false);
+    assert.ok(fromApp.applicationContext.textContent.includes(label), "Matching app context label must be visible");
+    assert.match(fromApp.results, new RegExp("&app=" + app));
+    assert.ok(fromApp.gaEvents.some(x =>
+      x.name === "ratio_stage_selector_run" && x.params.inquiry_application === app
+    ));
+  }
+  console.log("PASS 4 supported OEM application paths reach published candidates and GA4");
+
+  const appNoMatch = await run({query: "?app=electric_curtain_blind", torque:"1.0", peak:"1.2"});
+  assert.match(appNoMatch.results, /Request Custom Engineering Review/);
+  assert.match(appNoMatch.results, /&amp;app=electric_curtain_blind/);
+  console.log("PASS no-match custom feasibility request retains safe application slug");
+
+  const appOutsideSpeed = await run({query: "?app=smart_toilet_bidet",motorSpeed:"21000"});
+  assert.match(appOutsideSpeed.results, /speed_above_engineering/);
+  assert.match(appOutsideSpeed.results, /&amp;app=smart_toilet_bidet/);
+  console.log("PASS out-of-range speed review retains application context");
+
+  const injected = await run({query: "?app=%3Cscript%3Eevil%3C%2Fscript%3E"});
+  assert.equal(injected.applicationContext.hidden,true);
+  assert.doesNotMatch(injected.results, /&app=|<script>evil/);
+  assert.ok(injected.gaEvents.some(x=>x.name==="ratio_stage_selector_run" && x.params.inquiry_application==="not_specified"));
+  console.log("PASS unknown or unsafe app values are ignored and never propagated");
+
   const from12p = await run({ diameter: "", query: "?max_diameter=12" });
   assert.equal(from12p.fields["sg-selector-diameter"].value, "12");
   assert.match(from12p.results, /12P/);

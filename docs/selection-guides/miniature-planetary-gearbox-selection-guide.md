@@ -1,15 +1,18 @@
 ---
-title: SigGear Planetary Gearbox Selector | 8–42 mm Engineering Selection
-description: Preliminary 8–42 mm planetary gearbox selection by motor speed, target output speed, published ratio, stage, gearbox length, rated torque, datasheet and CAD.
+title: Miniature Planetary Gearbox Selector & Ratio Calculator | SigGear
+description: Select 8–42 mm planetary gearheads using loaded motor speed, target output rpm, published ratios, N·m continuous and peak torque, gearbox dimensions and Datasheets.
 ---
 
-# How to Select a Miniature Planetary Gearbox for an OEM Design
+# Miniature Planetary Gearbox Selector & Ratio Calculator (8–42 mm)
 
-A miniature planetary gearbox, also called a planetary gearhead, should be selected from its **output load, motor operating point, duty cycle and installation interface**, not the diameter or maximum reduction ratio alone.
+Use SigGear's **online planetary gearbox selector** to calculate a preliminary speed-reduction ratio and compare actual published **8P–42P planetary gearbox (gearhead)** configurations by reduction ratio, stage count, rated output torque and gearbox body dimensions.
 
-This engineering guide links to SigGear's 8–42 mm standard gearbox range. It does not represent a tested application or a claim that any configuration suits every mechanism.
+Enter your **motor's loaded operating speed** and desired output speed. If known, also specify the maximum diameter, gearbox body length, continuous output torque and peak load. Results link to model-specific Datasheets, Mechanical Interface information and a project brief for an engineering review.
 
-[Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+This is an engineering **preliminary selection tool**, not a motor-sizing simulation. The application label, if supplied, never replaces the published torque, speed, geometry or duty-cycle checks. Actual motor compatibility and service life require engineering confirmation.
+
+[Open the Online Ratio & Stage Selector](#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
+[Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
 [Browse Simplified STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Request Engineering Review](../request-cad-sample-quote.md){ .md-button }
 
@@ -50,6 +53,8 @@ It calculates:
 and compares that value with the currently published 1–4 stage ratios for SigGear 8P–42P.
 
 Optional filters can remove configurations that exceed a maximum gearbox diameter, maximum **gearbox body length**, published **rated allowable torque** requirement, a **maximum momentary torque** screening threshold, or a user-defined maximum ratio difference. Exceeding a catalog limit does not rule out a customized solution; the results provide a custom engineering review path.
+
+<p id="sg-selector-application-context" class="siggear-selector-context" hidden></p>
 
 <form id="siggear-ratio-stage-selector" class="siggear-ratio-selector">
   <div class="siggear-selector-grid">
@@ -120,6 +125,16 @@ These labels are not interchangeable and are **not final recommendations**. A sm
 [Existing Motor — Open Motor-Matching Workflow](../custom-engineering/motor-gearbox-integration.md){ .md-button }
 [Open 8P–42P Datasheets & Mechanical Interfaces](../engineering-resources/planetary-gearboxes/index.md){ .md-button }
 
+## Worked Example: From Motor Speed to a Published Gearbox Ratio
+
+For an **illustrative mechanical design**, suppose a motor operates at **6,000 rpm** under the intended load and the mechanism needs approximately **140 rpm** at the gearbox output.
+
+- Preliminary target ratio: **6,000 / 140 ≈ 42.86:1**.
+- The published **12P, 3-stage, 42.9:1** configuration is one ratio to examine; its nominal outside diameter is **12 mm** and its published gearbox body length is **16.85 mm**.
+- Estimated gearbox output speed at that input speed: **6,000 / 42.9 ≈ 139.86 rpm**. The published 3-stage rated allowable torque is **3.6 kgf·cm (approximately 0.353 N·m)**. Its stage-level reference efficiency is **73%**.
+
+This example is a calculation using catalog data, **not a tested customer application or a final gearbox recommendation**. It does not validate the motor's available torque, load margin, peak duration, shaft load, temperature or lifetime. [See the 12P Datasheet](../engineering-resources/12p/datasheet.md) and use the online selector for your own parameters.
+
 ## 3. Compare Continuous and Peak Torque Separately
 
 - **Normal running:** Compare required continuous operating torque with the exact configuration's rated allowable torque, considering cycle and necessary margin.
@@ -157,6 +172,24 @@ An [electric pruning-shear gearbox](../applications/electric-pruning-shears-plan
 A [smart lock or access-control mechanism](../applications/access-control-smart-lock-security-gear-motors.md) adds bolt or latch preload, battery-current, jam and power-off requirements. [Pump, valve and dosing mechanisms](../applications/pump-valve-fluid-control-gear-motors.md) require pressure, seal friction, duty-cycle and feedback review. [Camera focus, zoom and sensor-positioning mechanisms](../applications/optical-imaging-camera-module-gear-motors.md) add backlash, vibration and repeatability constraints. [Coffee, beverage and dispensing equipment](../applications/food-beverage-coffee-equipment-gear-motors.md) adds dosing, jam, cleaning-boundary and acoustic requirements.
 
 These are potential engineering uses, not published customer case studies.
+
+## Frequently Asked Engineering Questions
+
+### How do I calculate a planetary gearbox reduction ratio?
+
+Start with the **actual motor speed under load** divided by the required gearbox output speed, both in rpm. The resulting number is a target, not necessarily a published gearbox ratio. The selector compares that target against available 1–4 stage catalog ratios and reports the difference.
+
+### Can I use the maximum momentary torque as a continuous rating?
+
+**No.** The selector checks continuous load against each stage's published rated allowable torque. Its separate peak-load filter uses published momentary limits only for preliminary exclusion; allowable peak duration, frequency and duty cycle need engineering review.
+
+### Are the STEP CAD files exact for every selected ratio?
+
+**No.** Public simplified STEP references cover 4-stage frame geometry. A 1-, 2- or 3-stage configuration or a specific motor interface requires a configuration-matched drawing before production Design-In.
+
+### What happens if no published configuration fits?
+
+The result offers **Request Custom Engineering Review**. Your speed and load requirements can be carried into an online project brief; a standard catalog no-match does not prove custom manufacturing is impossible.
 
 ## What to Send for a First Review
 

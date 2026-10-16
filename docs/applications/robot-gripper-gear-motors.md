@@ -13,7 +13,7 @@ For SigGear's current overseas focus, the primary starting point is the **8–42
 
 A suitable drive must still be selected from the complete mechanism requirement, including force, speed, geometry, shaft load, backlash, noise, duty cycle, feedback and installation space.
 
-[Find Published Gearbox Candidates](../selection-guides/miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
+[Find Published Gearbox Candidates](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=dexterous_hand_gripper#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
 [Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Start Dexterous Hand / Gripper Project Brief](../request-cad-sample-quote.md?app=dexterous_hand_gripper){ .md-button }
@@ -83,7 +83,7 @@ Possible mechanism types include:
 Selection still depends on the required torque, speed, ratio, stage count, shaft load and installation envelope.
 
 [Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Planetary Gearbox Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
+[Planetary Gearbox Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=dexterous_hand_gripper#preliminary-ratio-stage-finder){ .md-button }
 
 ### Micro Gear Motors and Motor-Matched Assemblies
 
@@ -147,7 +147,7 @@ Please provide:
 
 [Micro Gear Motors](../products/micro-gear-motors/index.md){ .md-button .md-button--primary }
 [8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
-[Miniature Planetary Gearbox Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
+[Miniature Planetary Gearbox Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=dexterous_hand_gripper#preliminary-ratio-stage-finder){ .md-button }
 [Micro Robotics Gear Motors](micro-robotics-gear-motors.md){ .md-button }
 [Start Dexterous Hand / Gripper Project Brief](../request-cad-sample-quote.md?app=dexterous_hand_gripper){ .md-button }
 

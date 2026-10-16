@@ -18,6 +18,7 @@ on:
       - "scripts/validate_utm_links.py"
       - "scripts/validate_ratio_stage_selector_data.py"
       - "scripts/validate_selector_discovery_links.py"
+      - "scripts/validate_application_selector_funnel.py"
       - "scripts/validate_inquiry_activation_assets.py"
       - "scripts/validate_planetary_input_speed_range.py"
       - "scripts/test_planetary_selector_v2.js"
@@ -60,6 +61,7 @@ on:
       - "scripts/validate_stage_specific_cad_boundary.py"
       - "scripts/validate_ratio_stage_selector_data.py"
       - "scripts/validate_selector_discovery_links.py"
+      - "scripts/validate_application_selector_funnel.py"
       - "scripts/validate_inquiry_activation_assets.py"
       - "scripts/validate_planetary_input_speed_range.py"
       - "scripts/utm_utils.py"
@@ -177,6 +179,9 @@ jobs:
 
       - name: Verify rendered model-to-selector links
         run: python scripts/validate_selector_discovery_links.py
+
+      - name: Verify application-to-selector SEO and inquiry context links
+        run: python scripts/validate_application_selector_funnel.py
 
       - name: Verify online inquiry activation asset versions
         run: python scripts/validate_inquiry_activation_assets.py
