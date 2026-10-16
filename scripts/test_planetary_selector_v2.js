@@ -89,12 +89,12 @@ async function run(input) {
 
   const appNoMatch = await run({query: "?app=electric_curtain_blind", torque:"1.0", peak:"1.2"});
   assert.match(appNoMatch.results, /Request Custom Engineering Review/);
-  assert.match(appNoMatch.results, /&app=electric_curtain_blind/);
+  assert.match(appNoMatch.results, /&amp;app=electric_curtain_blind/);
   console.log("PASS no-match custom feasibility request retains safe application slug");
 
   const appOutsideSpeed = await run({query: "?app=smart_toilet_bidet",motorSpeed:"21000"});
   assert.match(appOutsideSpeed.results, /speed_above_engineering/);
-  assert.match(appOutsideSpeed.results, /&app=smart_toilet_bidet/);
+  assert.match(appOutsideSpeed.results, /&amp;app=smart_toilet_bidet/);
   console.log("PASS out-of-range speed review retains application context");
 
   const injected = await run({query: "?app=%3Cscript%3Eevil%3C%2Fscript%3E"});
