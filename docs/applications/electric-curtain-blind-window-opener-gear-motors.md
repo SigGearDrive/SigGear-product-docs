@@ -23,7 +23,7 @@ For OEM electric curtain tracks and compact smart-home mechanisms, **miniature p
 
 The approximate ratio may be estimated from **motor operating speed / target gearbox output speed**, then checked against actual available gearbox ratios and pulley travel. Do not assume a planetary gearbox is self-locking: holding torque, manual override, obstacle detection, end stops and user safety must be evaluated as a complete device.
 
-[Find Published Gearbox Candidates](../selection-guides/miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
+[Find Published Gearbox Candidates](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=electric_curtain_blind#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
 [Compare SigGear 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Read the Planetary Gearbox Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
 [Download Public 4-Stage STEP References](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
