@@ -54,6 +54,7 @@ def main() -> None:
     page = selector_path.read_text(encoding="utf-8")
     check(page, 'id="preliminary-ratio-stage-finder"')
     check(page, 'id="sg-selector-application-context"')
+    check(page, "ratio-stage-selector.js?v=20261016-app-context")
     check(page, "Planetary Gearbox Selector &amp; Ratio Calculator")
     check(page, "Worked Example: From Motor Speed")
     check(page, "Frequently Asked Engineering Questions")
