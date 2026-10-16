@@ -1,0 +1,86 @@
+schema_version: 1
+snapshot_on: "2026-10-16"
+focus: SigGear_micro_miniature_compact_planetary_gearbox_search_discovery
+source:
+  service: Google_Search_Console_via_Windsor_ai
+  property: "https://siggeardrive.github.io/SigGear-product-docs/"
+  requested_window:
+    start: "2026-09-18"
+    end: "2026-10-15"
+  latest_date_available_in_daily_data: "2026-10-13"
+  limitations:
+    - GSC_search_analytics_is_not_realtime
+    - Query_level_records_may_exclude_anonymized_low_volume_searches
+    - A_missing_page_level_performance_row_does_not_prove_page_not_indexed
+    - A_crawlable_sitemap_and_live_URL_test_do_not_guarantee_Google_indexing
+performance:
+  site:
+    impressions: 716
+    clicks: 18
+  united_states:
+    impressions: 467
+    clicks: 1
+  existing_robot_joint_content:
+    humanoid_robot_joint_application_impressions: 317
+    robot_joint_actuator_selection_guide_impressions: 255
+    combined_impressions: 572
+    caution: Existing_Robot_pages_are_not_the_new_primary_Planetary_OEM_business_segment
+  planetary_model_pages_with_performance_rows:
+    impressions: 13
+    clicks: 0
+    rows:
+      - {model: 42P, impressions: 4, clicks: 0}
+      - {model: 20P, impressions: 3, clicks: 0}
+      - {model: 22P, impressions: 3, clicks: 0}
+      - {model: 16P, impressions: 2, clicks: 0}
+      - {model: 32P, impressions: 1, clicks: 0}
+    other_model_pages_without_reported_impressions: [8P, 10P, 12P, 14P, 24P, 28P, 36P]
+  non_brand_search_example:
+    query: "22mm planetary gearbox"
+    impressions: 2
+    clicks: 0
+    observed_position: 46.5
+    warning: Single_low_volume_observation_not_a_stable_position
+  selected_country_rows:
+    - {country: United_States, impressions: 467, clicks: 1}
+    - {country: Canada, impressions: 16, clicks: 2}
+    - {country: Germany, impressions: 6, clicks: 2}
+    - {country: United_Kingdom, impressions: 4, clicks: 0}
+    - {country: Netherlands, impressions: 3, clicks: 0}
+  interpretation: Non_brand_planetary_search_visibility_still_nascent
+repo_and_site_actions_2026_10_16:
+  source_repository_README:
+    former_limitation: Planetary_entry_points_largely_linked_to_GitHub_source_markdown_and_omitted_micro_size_label
+    improvement: Direct_link_to_canonical_published_English_site_and_12_model_pages
+    measured_Google_effect: pending
+  homepage_selection_guides:
+    improvement: Present_planetary_gearbox_selector_and_public_CAD_before_robot_joint_content
+  selection_guides_index:
+    improvement: Put_8_42_mm_planetary_design_in_route_first_with_selector_CAD_and_project_brief
+  engineering_center_index:
+    improvement: Add_direct_task_rows_to_gearbox_selector_and_12_model_CAD_library
+  preserved:
+    - existing_GitHub_Pages_URL_slugs
+    - model_technical_specs
+    - existing_canonical_tags
+    - current_sitemap_and_sitemap_index
+    - TraceParts_12_exact_product_URLs
+    - step_files_and_manufacturer_evidence
+gsc_sitemap_status:
+  existing_threads:
+    official_community_thread: "https://support.google.com/webmasters/thread/473021994"
+  status: no_confirmed_resolution_or_indexing_request
+  decision: Wait_for_verified_community_evidence_while_progressing_existing_content_discovery
+next_measurements:
+  timing: weekly_checks_plus_28_day_assessment
+  compare:
+    - Model_and_series_landing_page_impressions
+    - Exact_non_brand_diameter_gearbox_queries
+    - USA_Canada_Europe_impressions_and_clicks
+    - Ratio_stage_selector_visits
+    - CAD_link_interactions_and_document_views
+    - Real_qualified_inquiries_originating_on_planetary_pages
+  guardrails:
+    - No_indexing_guarantee_from_external_GitHub_README_links
+    - Do_not_extrapolate_torque_ratio_or_application_cases_from_unverified_parameters
+    - Avoid_keyword_stuffing_or_bulk_duplicate_application_pages
