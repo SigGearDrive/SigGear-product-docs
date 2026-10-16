@@ -30,7 +30,8 @@ SigGear's current standard planetary gearbox range covers nominal diameters from
 - Gearbox-only supply for an existing motor
 - Motor-matched gearbox assembly after engineering review
 
-[Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Find Published Planetary Gearbox Candidates](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=smart_toilet_bidet#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
+[Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
 [Download Simplified Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Start Smart Toilet / Bidet Project Brief](../request-cad-sample-quote.md?app=smart_toilet_bidet){ .md-button }
 
