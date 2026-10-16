@@ -79,8 +79,7 @@ async function run(input) {
   for (const [app, label] of knownContexts) {
     const fromApp = await run({query: "?app=" + app});
     assert.equal(fromApp.applicationContext.hidden, false);
-    assert.match(fromApp.applicationContext.textContent, new RegExp(label.replace(/[.*+?^${}()|[\]\\]/g, "\\(async () => {
-  const from12p = await run({ diameter: "", query: "?max_diameter=12" });")));
+    assert.ok(fromApp.applicationContext.textContent.includes(label), "Matching app context label must be visible");
     assert.match(fromApp.results, new RegExp("&app=" + app));
     assert.ok(fromApp.gaEvents.some(x =>
       x.name === "ratio_stage_selector_run" && x.params.inquiry_application === app
