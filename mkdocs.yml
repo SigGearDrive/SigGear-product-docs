@@ -86,7 +86,7 @@ extra_css:
 extra_javascript:
   - assets/javascripts/analytics-events.js
   - assets/javascripts/inquiry-form.js?v=20261015-online-live
-  - assets/javascripts/ratio-stage-selector.js
+  - assets/javascripts/ratio-stage-selector.js?v=20261016-app-context
   - assets/javascripts/candidate-design-in-pack.js
   - assets/javascripts/sample-validation.js
   - assets/javascripts/design-in-review.js
