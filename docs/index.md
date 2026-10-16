@@ -198,13 +198,20 @@ Additional supported application area:
 
 ## Selection Guides
 
+### Micro, Miniature & Compact Planetary Gearbox Selection (8–42 mm)
+
+For a gearbox-only or motor-matched design, use our [published 8–42 mm planetary gearbox data](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) to review the installation diameter and find feasible stages and ratios. The [model-by-model CAD library](engineering-resources/planetary-gearboxes/public-cad-release-v1.md) includes simplified 4-stage STEP references; final drawings depend on the selected configuration.
+
+[Find Ratio & Stage Candidates](selection-guides/miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
+[View Public 4-Stage STEP CAD](engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
+
 ### Robot Joint Actuator Selection Guide
 
 A step-by-step engineering guide covering joint definition, gravity and acceleration torque, continuous and peak torque, speed, installation envelope, external loads, transmission architecture, encoder, driver, communication, thermal conditions, braking and prototype validation.
 
-[Open the robot joint actuator selection guide](selection-guides/robot-joint-actuator-selection-guide.md)
+[Open the Robot Joint Actuator Selection Guide](selection-guides/robot-joint-actuator-selection-guide.md)
 
-[Browse all selection guides](selection-guides/index.md)
+[Browse All Selection Guides](selection-guides/index.md)
 
 ## Sales and Inquiry Guides
 
