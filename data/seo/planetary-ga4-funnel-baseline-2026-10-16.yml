@@ -1,0 +1,74 @@
+schema_version: 1
+snapshot_date: "2026-10-16"
+purpose: baseline_for_weekly_Google_Search_Console_and_GA4_funnel_reviews
+gsc:
+  source: Windsor_ai_Search_Console
+  property: "https://siggeardrive.github.io/SigGear-product-docs/"
+  requested_start: "2026-09-18"
+  requested_end: "2026-10-15"
+  latest_daily_date_in_response: "2026-10-13"
+  site:
+    impressions: 716
+    clicks: 18
+  united_states:
+    impressions: 467
+    clicks: 1
+  five_reported_planetary_product_pages:
+    impressions: 13
+    clicks: 0
+    models_with_observed_rows: [42P, 20P, 22P, 16P, 32P]
+  note: "Other planetary pages lacking impressions do not necessarily lack Google indexing."
+ga4:
+  source: Windsor_ai_Google_Analytics_4
+  property: "547548249"
+  website: SigGear_Product_Documentation
+  requested_start: "2026-09-18"
+  requested_end: "2026-10-15"
+  observed_event_counts:
+    page_view: 64
+    user_engagement: 58
+    session_start: 14
+    inquiry_page_view: 4
+    engineering_brief_open_click: 1
+    engineering_brief_prepare_email: 1
+    form_start: 4
+    form_submit: 1
+    email_click: 2
+    contact_page_view: 4
+    cad_quote_click: 2
+    social_click: 2
+    siggear_debug_ping: 8
+  observed_session_source_rows:
+    - {source_medium: "github.com / referral", sessions: 10}
+    - {source_medium: "(direct) / (none)", sessions: 2}
+    - {source_medium: "(not set)", sessions: 2}
+    - {source_medium: "chatgpt.com / ai-assistant", sessions: 2}
+  observed_landing_page_rows:
+    - {path: "/SigGear-product-docs", sessions: 4, engaged_sessions: 2}
+    - {path: "/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide", sessions: 3, engaged_sessions: 2}
+    - {path: "/SigGear-product-docs/products/planetary-gearboxes/8p-planetary-gearbox", sessions: 2, engaged_sessions: 2}
+    - {path: "/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1", sessions: 1, engaged_sessions: 0}
+    - {path: "/SigGear-product-docs/products/planetary-gearboxes/36p-planetary-gearbox", sessions: 1, engaged_sessions: 1}
+  interpretation_limits:
+    - "Event counts represent instrumented actions; form_submit is not proof of a delivered and qualified engineering inquiry."
+    - "Prior operator tests of the online FormSubmit form mean test actions may be included; do not call the single form_submit an OEM lead."
+    - "The source-by-session breakdown sums to 16 while reported session_start event count is 14; do not force reconciliation across these different aggregations."
+    - "No observed Google organic row in this limited GA4 source response must not be interpreted as no real Google discovery; GSC has 18 search clicks in this window."
+    - "Cookie consent, source attribution, low sample sizes and aggregation may limit GA4 evidence."
+    - "CAD/download or engineering_brief_open events describe user intent, not actual CAD delivery or sample purchase."
+weekly_review:
+  cadence: every_Monday_morning_Asia_Shanghai
+  comparison_window: latest_complete_7_available_GSC_days_vs_previous_7_days
+  report:
+    - 12_planetary_models_and_series_impressions_clicks_CTR_position
+    - non_brand_exact_diameter_planetary_search_queries
+    - united_states_canada_key_European_countries
+    - website_selector_CAD_and_contact_path_events
+    - first_verified_real_qualified_planetary_inquiries_separate_from_tests
+    - Google_Search_Central_Community_thread_473021994_if_public_reply_visible
+  community_thread: "https://support.google.com/webmasters/thread/473021994"
+  manual_validation:
+    - inspect_GA4_DebugView_only_when_testing_consent_and_event_delivery
+    - check_actual_received_customer_email_or_verified_qualified_project_brief_before_reporting_leads
+    - avoid_repeated_sitemap_resubmissions_without_new_diagnostic_evidence
+related_gsc_baseline: data/seo/planetary-gsc-discovery-snapshot-2026-10-16.yml
