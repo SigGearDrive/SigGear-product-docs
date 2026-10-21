@@ -2,7 +2,7 @@
 
 **Status: DRAFT FOR REVIEW — not applied to Globalso, not live, not a CMS backup.**
 **Company:** Guangdong SigGear Drive Intelligent Technology Co., Ltd.
-**Scope:** Precision Planetary Gearboxes (gearbox-only first), with optional OEM motor-matched assemblies.
+**Scope:** Precision Planetary Gearheads (gearhead-only first), with optional OEM motor-matched assemblies.
 **Owner review:** Product management + engineering + website administrator.
 **Reference structure:** size-led engineering specification, stage/ratio selection, authenticated product images, controlled drawings, Datasheet/STEP CAD, and engineering RFQ — informed by maxon and FAULHABER's product catalogue patterns, without copying their marketing claims.
 
@@ -18,35 +18,35 @@
 
 ## Proposed category taxonomy
 
-**New root: Precision Planetary Gearboxes**
+**New root: Precision Planetary Gearheads**
 
 | Subcategory | English positioning | Verified model families |
 | --- | --- | --- |
-| Micro Planetary Gearboxes (8–16 mm) | Ultra-compact gearbox-only frames for miniature OEM mechanisms | 8P, 10P, 12P, 14P, 16P |
-| Miniature Planetary Gearboxes (20–32 mm) | Miniature gearheads for compact motor-to-load transmission | 20P, 22P, 24P, 28P, 32P |
-| Compact Planetary Gearboxes (36–42 mm) | Higher-capacity small-diameter gearboxes for OEM mechanical integration | 36P, 42P |
+| Micro Planetary Gearheads (Ø8–16 mm) | Ultra-compact gearhead-only frames for miniature OEM mechanisms | 8P, 10P, 12P, 14P, 16P |
+| Miniature Planetary Gearheads (Ø20–32 mm) | Miniature gearheads for compact motor-to-load transmission | 20P, 22P, 24P, 28P, 32P |
+| Compact Planetary Gearheads (Ø36–42 mm) | Higher-capacity small-diameter gearheads for OEM mechanical integration | 36P, 42P |
 
-**Do not misclassify existing** `8MM-42MM Micro Planetary Gear Motor` (motor-plus-gearbox product category) as gearbox-only. Keep that category live until a controlled later content audit. Cross-link with a clear choice between `Gearbox Only` and `Motor + Gearbox (Engineering Review)`.
+**Do not misclassify existing** `8MM-42MM Micro Planetary Gear Motor` (motor-plus-gearhead product category) as gearhead-only. Keep that category live until a controlled later content audit. Cross-link with a clear choice between `Gearhead Only` and `Motor + Gearhead Assembly (Engineering Review)`.
 
-**Proposed new root SEO title:** Precision Planetary Gearboxes 8–42 mm | SigGear
-**Proposed meta description:** Compare SigGear 8–42 mm micro, miniature and compact planetary gearboxes. Browse 12 model sizes, stage and ratio options, verified Datasheets, simplified STEP CAD and OEM engineering selection.
+**Proposed new root SEO title:** Precision Planetary Gearheads 8–42 mm | SigGear
+**Proposed meta description:** Compare SigGear 8–42 mm micro, miniature and compact planetary gearheads. Browse 12 model sizes, stage and ratio options, verified Datasheets, simplified STEP CAD and OEM engineering selection.
 
 ### Category landing-page body (paste-ready English)
 
-# Precision Planetary Gearboxes — 8–42 mm
+# Precision Planetary Gearheads — 8–42 mm
 
-Select compact planetary gearboxes by **nominal outer diameter, reduction ratio, number of stages, stage-specific torque, output shaft and motor interface**. SigGear's published gearbox-only programme covers twelve frame sizes from 8 mm to 42 mm.
+Select compact planetary gearheads by **nominal outer diameter, reduction ratio, number of stages, stage-specific torque, output shaft and motor interface**. SigGear's published gearhead-only programme covers twelve frame sizes from 8 mm to 42 mm.
 
 Use the **Micro (8–16 mm)**, **Miniature (20–32 mm)** and **Compact (36–42 mm)** model groups below. Each model links to verified engineering references for the available ratio, stage and physical envelope. Public STEP files are **simplified four-stage reference models** for early space planning; they do not replace a final controlled drawing or configuration-specific CAD.
 
-**Available supply routes:** (1) Gearbox Only — integrate an existing compatible motor; (2) Motor + Gearbox — request a motor-matching and application review. The latter is a project-specific drive assembly, not an electrical specification of the gearbox alone.
+**Available supply routes:** (1) Gearhead Only — integrate an existing compatible motor; (2) Motor + Gearhead Assembly — request a motor-matching and application review. The latter is a project-specific drive assembly, not an electrical specification of the gearhead alone.
 
-**Permissible continuous gearbox input-speed range:** **1,000–20,000 rpm** for the preliminary standard 8P–42P gearbox-only range. Applications outside that range require an engineering feasibility review. Each assembled motor + gearbox combination must be checked for its own voltage, working speed, torque and duty cycle.
+**Permissible continuous gearhead input-speed range:** **1,000–20,000 rpm** for the preliminary standard 8P–42P gearhead-only range. Applications outside that range require an engineering feasibility review. Each assembled Motor + Gearhead Assembly combination must be checked for its own voltage, working speed, torque and duty cycle.
 
 **Engineering actions:**
 
-- [Compare all 8–42 mm gearboxes](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/)
-- [Use the planetary gearbox ratio/stage selector](https://siggeardrive.github.io/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/)
+- [Compare all 8–42 mm gearheads](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/)
+- [Use the planetary gearhead ratio/stage selector](https://siggeardrive.github.io/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/)
 - [Datasheets and public simplified STEP CAD library](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/)
 - [Request OEM CAD, sample and quote](https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/)
 
@@ -60,14 +60,14 @@ Each card should show `diameter`, `stage range`, an accurate model photo, `View 
 
 ## Sample standard product draft A — 8P
 
-**Suggested new category:** Precision Planetary Gearboxes > Micro Planetary Gearboxes (8–16 mm)  
-**Draft product name / H1:** 8P — 8 mm Micro Planetary Gearbox  
-**SEO title:** 8 mm Micro Planetary Gearbox 8P | Ratios & STEP CAD | SigGear  
-**Meta description:** SigGear 8P micro planetary gearbox: 8 mm outer diameter, 1–4 stages, 3.8:1–731.16:1 published ratios. Check torque, lengths, Datasheet and simplified STEP CAD.
+**Suggested new category:** Precision Planetary Gearheads > Micro Planetary Gearheads (Ø8–16 mm)  
+**Draft product name / H1:** 8P 8 mm Micro Planetary Gearhead  
+**SEO title:** 8 mm Micro Planetary Gearhead 8P | Ratios & STEP CAD | SigGear  
+**Meta description:** SigGear 8P micro planetary gearhead: 8 mm outer diameter, 1–4 stages, 3.8:1–731.16:1 published ratios. Check torque, lengths, Datasheet and simplified STEP CAD.
 
 ### Paste-ready product overview
 
-The **SigGear 8P** is an **8 mm micro planetary gearbox** designed for size-constrained OEM mechanisms. Published 1–4 stage configurations offer gearbox lengths of **10.15–18.10 mm** and reduction ratios of **3.8:1–731.16:1**. Compare the selected stage's permissible rated torque, mechanical interface, backlash and motor-matching requirements before final design. A simplified four-stage public STEP reference supports early packaging; final assembly CAD is subject to configuration review.
+The **SigGear 8P** is an **8 mm micro planetary gearhead** designed for size-constrained OEM mechanisms. Published 1–4 stage configurations offer gearhead lengths of **10.15–18.10 mm** and reduction ratios of **3.8:1–731.16:1**. Compare the selected stage's permissible rated torque, mechanical interface, backlash and motor-matching requirements before final design. A simplified four-stage public STEP reference supports early packaging; final assembly CAD is subject to configuration review.
 
 ### Key technical fields (family ranges — not one SKU)
 
@@ -75,13 +75,13 @@ The **SigGear 8P** is an **8 mm micro planetary gearbox** designed for size-cons
 | --- | --- |
 | Diameter | Ø8 mm |
 | Gear stages | 1–4 |
-| Gearbox body length | 10.15–18.10 mm |
+| Gearhead body length | 10.15–18.10 mm |
 | Reduction ratio | 3.8:1–731.16:1 |
 | Rated allowable torque | 0.2–0.4 kgf·cm (stage-dependent) |
 | Maximum momentary torque | 0.4–0.8 kgf·cm, not continuous |
 | Efficiency | 66–90%, stage-dependent |
 | Backlash at no load | ≤1.5° |
-| Continuous permissible gearbox input speed | 1,000–20,000 rpm |
+| Continuous permissible gearhead input speed | 1,000–20,000 rpm |
 | Source temperature range | −40 to 120 °C |
 
 **Genuine photo source (existing):** `docs/assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-main.webp`. Confirm the original image is authentic and approved for the Globalso crop.
@@ -92,21 +92,21 @@ The **SigGear 8P** is an **8 mm micro planetary gearbox** designed for size-cons
 - [8P 4-stage simplified STEP](https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/8p/8P_Public_Simplified_STEP_v1.0_4-Stage.step)
 - [8P on TraceParts](https://www.traceparts.com/en/product/siggear-8p-8-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121068&PartNumber=8p)
 - [8P Ratio/Stage Selector](https://siggeardrive.github.io/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/?max_diameter=8#preliminary-ratio-stage-finder)
-- [Request 8P Gearbox Only](https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/?model=8P&path=gearbox_only)
-- [Request Motor + 8P Gearbox Review](https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/?model=8P&path=motor_gearbox)
+- [Request 8P Gearhead Only](https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/?model=8P&path=gearbox_only)
+- [Request Motor + 8P Gearhead Review](https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/?model=8P&path=motor_gearbox)
 
 ---
 
 ## Sample standard product draft B — 22P
 
-**Suggested new category:** Precision Planetary Gearboxes > Miniature Planetary Gearboxes (20–32 mm)  
-**Draft product name / H1:** 22P — 22 mm Miniature Planetary Gearbox  
-**SEO title:** 22 mm Miniature Planetary Gearbox 22P | Datasheet & CAD | SigGear  
-**Meta description:** SigGear 22P planetary gearbox: Ø22 mm, 1–4 stages, 3.5:1–509.1:1 ratios, 22.6–38.5 mm stage-specific lengths, verified Datasheet and simplified STEP.
+**Suggested new category:** Precision Planetary Gearheads > Miniature Planetary Gearheads (Ø20–32 mm)  
+**Draft product name / H1:** 22P 22 mm Miniature Planetary Gearhead  
+**SEO title:** 22 mm Miniature Planetary Gearhead 22P | Datasheet & CAD | SigGear  
+**Meta description:** SigGear 22P planetary gearhead: Ø22 mm, 1–4 stages, 3.5:1–509.1:1 ratios, 22.6–38.5 mm stage-specific lengths, verified Datasheet and simplified STEP.
 
 ### Paste-ready product overview
 
-The **SigGear 22P** is a **22 mm miniature planetary gearbox** available for gearbox-only design-in or engineering-reviewed motor integration. Published 1–4 stage variants provide **3.5:1–509.1:1** reduction ratios with stage-dependent gearbox body lengths from **22.6 to 38.5 mm**. Customers evaluating a 20–22 mm motor interface should review the shaft geometry, output load and allowable torque for their selected ratio. The downloadable simplified four-stage STEP is an early layout reference; it must not be substituted for 1–3 stage production CAD.
+The **SigGear 22P** is a **22 mm miniature planetary gearhead** available for gearhead-only design-in or engineering-reviewed motor integration. Published 1–4 stage variants provide **3.5:1–509.1:1** reduction ratios with stage-dependent gearhead body lengths from **22.6 to 38.5 mm**. Customers evaluating a 20–22 mm motor interface should review the shaft geometry, output load and allowable torque for their selected ratio. The downloadable simplified four-stage STEP is an early layout reference; it must not be substituted for 1–3 stage production CAD.
 
 ### Key technical fields (family ranges — not one SKU)
 
@@ -114,13 +114,13 @@ The **SigGear 22P** is a **22 mm miniature planetary gearbox** available for gea
 | --- | --- |
 | Diameter | Ø22 mm |
 | Gear stages | 1–4 |
-| Gearbox body length | 22.6–38.5 mm |
+| Gearhead body length | 22.6–38.5 mm |
 | Reduction ratio | 3.5:1–509.1:1 |
 | Rated allowable torque | 8.0–25.0 kgf·cm, stage-dependent |
 | Maximum momentary torque | 16.0–50.0 kgf·cm, not continuous |
 | Efficiency | 66–90%, stage-dependent |
 | Backlash at no load | ≤1.5° |
-| Continuous permissible gearbox input speed | 1,000–20,000 rpm |
+| Continuous permissible gearhead input speed | 1,000–20,000 rpm |
 | Source temperature range | −40 to 120 °C |
 
 **Genuine photo source:** `docs/assets/images/products/planetary-gearboxes/22p/22p-real-product-evidence.webp`.
@@ -131,21 +131,21 @@ The **SigGear 22P** is a **22 mm miniature planetary gearbox** available for gea
 - [22P 4-stage simplified STEP](https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/22p/22P_Public_Simplified_STEP_v1.0_4-Stage.step)
 - [22P on TraceParts](https://www.traceparts.com/en/product/siggear-22p-22-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121064&PartNumber=22p)
 - [22P Ratio/Stage Selector](https://siggeardrive.github.io/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/?max_diameter=22#preliminary-ratio-stage-finder)
-- [Request 22P Gearbox Only](https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/?model=22P&path=gearbox_only)
-- [Request Motor + 22P Gearbox Review](https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/?model=22P&path=motor_gearbox)
+- [Request 22P Gearhead Only](https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/?model=22P&path=gearbox_only)
+- [Request Motor + 22P Gearhead Review](https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/?model=22P&path=motor_gearbox)
 
 ---
 
 ## Sample standard product draft C — 42P
 
-**Suggested new category:** Precision Planetary Gearboxes > Compact Planetary Gearboxes (36–42 mm)  
-**Draft product name / H1:** 42P — 42 mm Compact Planetary Gearbox  
-**SEO title:** 42 mm Compact Planetary Gearbox 42P | Engineering CAD | SigGear  
-**Meta description:** SigGear 42P compact planetary gearbox: Ø42 mm, 1–4 stages, 3.8:1–660.7:1 ratios and stage-specific torque. Datasheet, Design-In Pack and simplified STEP.
+**Suggested new category:** Precision Planetary Gearheads > Compact Planetary Gearheads (Ø36–42 mm)  
+**Draft product name / H1:** 42P 42 mm Compact Planetary Gearhead  
+**SEO title:** 42 mm Compact Planetary Gearhead 42P | Engineering CAD | SigGear  
+**Meta description:** SigGear 42P compact planetary gearhead: Ø42 mm, 1–4 stages, 3.8:1–660.7:1 ratios and stage-specific torque. Datasheet, Design-In Pack and simplified STEP.
 
 ### Paste-ready product overview
 
-The **SigGear 42P** is a **42 mm compact planetary gearbox** for OEM electromechanical mechanisms that need more torque capacity within a small gearbox diameter. Published 1–4 stage families cover **3.8:1–660.7:1** ratios and **35.6–69.5 mm** gearbox body lengths. The 42P may be reviewed as a gearbox-only component or with a motor selected to match the application. Engineering should approve the shaft input, output load, selected ratio and stage-specific torque. Public four-stage simplified STEP is for preliminary packaging; controlled production CAD is required for the exact chosen configuration.
+The **SigGear 42P** is a **42 mm compact planetary gearhead** for OEM electromechanical mechanisms that need more torque capacity within a small gearhead diameter. Published 1–4 stage families cover **3.8:1–660.7:1** ratios and **35.6–69.5 mm** gearhead body lengths. The 42P may be reviewed as a gearhead-only component or with a motor selected to match the application. Engineering should approve the shaft input, output load, selected ratio and stage-specific torque. Public four-stage simplified STEP is for preliminary packaging; controlled production CAD is required for the exact chosen configuration.
 
 ### Key technical fields (family ranges — not one SKU)
 
@@ -153,13 +153,13 @@ The **SigGear 42P** is a **42 mm compact planetary gearbox** for OEM electromech
 | --- | --- |
 | Diameter | Ø42 mm |
 | Gear stages | 1–4 |
-| Gearbox body length | 35.6–69.5 mm |
+| Gearhead body length | 35.6–69.5 mm |
 | Reduction ratio | 3.8:1–660.7:1 |
 | Rated allowable torque | 80.0–150.0 kgf·cm, stage-dependent |
 | Maximum momentary torque | 160.0–300.0 kgf·cm, not continuous |
 | Efficiency | 66–90%, stage-dependent |
 | Backlash at no load | ≤1.2° |
-| Continuous permissible gearbox input speed | 1,000–20,000 rpm |
+| Continuous permissible gearhead input speed | 1,000–20,000 rpm |
 | Source temperature range | −40 to 120 °C |
 
 **Genuine photo source:** `docs/assets/images/products/planetary-gearboxes/42p/42p-real-product-evidence.webp`.
@@ -172,31 +172,31 @@ The **SigGear 42P** is a **42 mm compact planetary gearbox** for OEM electromech
 - [42P 4-stage simplified STEP](https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/42p/42P_Public_Simplified_STEP_v1.0_4-Stage.step)
 - [42P on TraceParts](https://www.traceparts.com/en/product/siggear-42p-42-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769190-121069&PartNumber=42p)
 - [42P Ratio/Stage Selector](https://siggeardrive.github.io/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/?max_diameter=42#preliminary-ratio-stage-finder)
-- [Request 42P Gearbox Only](https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/?model=42P&path=gearbox_only)
-- [Request Motor + 42P Gearbox Review](https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/?model=42P&path=motor_gearbox)
+- [Request 42P Gearhead Only](https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/?model=42P&path=gearbox_only)
+- [Request Motor + 42P Gearhead Review](https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/?model=42P&path=motor_gearbox)
 
 ---
 
 ## Existing official-site bridge (without changing URLs)
 
-**Existing motor + gearbox category:** https://www.siggear.com/8mm-42mm-micro-planetary-gear-motor/  
-Keep the old page and add, after review, a block labeled `Need gearbox-only technical data?` with three links: [all 12 gearbox families](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/), [selector](https://siggeardrive.github.io/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/), [CAD library](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/).
+**Existing Motor + Gearhead Assembly category:** https://www.siggear.com/8mm-42mm-micro-planetary-gear-motor/  
+Keep the old page and add, after review, a block labeled `Need gearhead-only technical data?` with three links: [all 12 gearhead families](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/), [selector](https://siggeardrive.github.io/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/), [CAD library](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/).
 
 **Existing 12 mm gearmotor page (do not replace as new 12P):** https://www.siggear.com/12mm-micro-planetary-gear-motor-product/  
-Current public copy states motor max 8,000 rpm and 1.5° `virtually no backlash`. Replace that vague backlash claim with the verified stated `≤1.5° at no load`, and explain that `1,000–20,000 rpm` applies to the standalone 12P gearbox preliminary selection, **not to every complete motor + gearbox assembly**. Also correct the incorrect generic `Yongkang` HTML title when the webmaster reviews existing metadata. Preserve existing URL and motor-match semantics.
+Current public copy states motor max 8,000 rpm and 1.5° `virtually no backlash`. Replace that vague backlash claim with the verified stated `≤1.5° at no load`, and explain that `1,000–20,000 rpm` applies to the standalone 12P gearhead preliminary selection, **not to every complete Motor + Gearhead Assembly**. Also correct the incorrect generic `Yongkang` HTML title when the webmaster reviews existing metadata. Preserve existing URL and motor-match semantics.
 
 **Homepage future draft, not published:**
 
-> **Precision Planetary Gearboxes — 8–42 mm**  
-> Explore SigGear's Micro (8–16 mm), Miniature (20–32 mm) and Compact (36–42 mm) planetary gearboxes for OEM mechanisms. Compare size, reduction ratios and stage-dependent limits, then access Datasheets, simplified STEP CAD and engineering project inquiries. **[Explore Planetary Gearboxes](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/)**
+> **Precision Planetary Gearheads — 8–42 mm**  
+> Explore SigGear's Micro (8–16 mm), Miniature (20–32 mm) and Compact (36–42 mm) planetary gearheads for OEM mechanisms. Compare size, reduction ratios and stage-dependent limits, then access Datasheets, simplified STEP CAD and engineering project inquiries. **[Explore Planetary Gearheads](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/)**
 
 ## Globalso form and page QA
 
-- [ ] Exact English H1 and diameter match model, model-specific images are real, and gearmotor category does not silently replace gearbox-only category.
+- [ ] Exact English H1 and diameter match model, model-specific images are real, and gearmotor category does not silently replace gearhead-only category.
 - [ ] URL/title/meta description contain unique model name without keyword stuffing; no duplicate canonical URLs.
-- [ ] Primary buttons: `View Datasheet` · `Download STEP (Simplified 4-stage)` · `Select Gearbox` · `Request CAD / Sample / Quote`.
+- [ ] Primary buttons: `View Datasheet` · `Download STEP (Simplified 4-stage)` · `Select Gearhead` · `Request CAD / Sample / Quote`.
 - [ ] On mobile, buttons, tables and media remain usable.
-- [ ] Request form records model, gearbox-only vs motor+gearbox, ratio, speed, torque, shaft drawing and volume, then lands in the real engineering mailbox.
+- [ ] Request form records model, gearhead-only vs Motor + Gearhead Assembly, ratio, speed, torque, shaft drawing and volume, then lands in the real engineering mailbox.
 - [ ] Only a delivered and human-verified customer inquiry counts as a lead; an analytics `form_submit` event alone does not.
 - [ ] Review staged 8P/22P/42P and category preview, then approve the release wave separately.
 
