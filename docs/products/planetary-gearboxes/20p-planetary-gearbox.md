@@ -1,5 +1,5 @@
 ---
-title: 20 mm Miniature Planetary Gearhead (20P) | STEP CAD
+title: 20 mm Miniature Precision Planetary Gearhead (20P)
 description: "Explore SigGear 20P 20 mm miniature precision planetary gearheads for smart curtains, automatic feeders and compact home devices. Datasheet, interfaces and STEP CAD."
 ---
 
