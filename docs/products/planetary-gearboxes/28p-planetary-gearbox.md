@@ -1,14 +1,14 @@
 ---
-title: 28 mm Miniature Planetary Gearbox (28P)
-description: SigGear 28P is a 28 mm miniature planetary gearbox / gearhead with 3.83:1–759.7:1 published ratios, datasheet, STEP CAD, gearbox-only supply and motor matching.
+title: 28 mm Miniature Planetary Gearhead (28P) | STEP CAD
+description: "Explore SigGear 28P 28 mm miniature precision planetary gearhead for smart-home mechanisms, small automation and pet devices. Specifications and simplified STEP CAD."
 ---
 
 
-# 28 mm Miniature Planetary Gearbox (28P)
+# 28 mm Miniature Precision Planetary Gearhead (28P)
 
 ## Product Overview
 
-The SigGear 28P is a 28 mm miniature planetary gearbox for compact motorized mechanisms that require higher torque capacity than smaller miniature planetary frames. Published configurations cover one to four stages, with reduction ratios from 3.83:1 to 759.7:1.
+The SigGear 28P is a 28 mm miniature precision planetary gearhead (planetary gearbox) for compact motorized mechanisms that require higher torque capacity than smaller miniature planetary frames. Published configurations cover one to four stages, with reduction ratios from 3.83:1 to 759.7:1.
 
 ## Real Product Evidence
 
@@ -27,7 +27,7 @@ The SigGear 28P is a 28 mm miniature planetary gearbox for compact motorized mec
 | Item | Description |
 | --- | --- |
 | Model | 28P |
-| Product type | Miniature planetary gearbox |
+| Product type | Miniature precision planetary gearhead (planetary gearbox) |
 | Nominal outer diameter | 28 mm |
 | Number of stages | 1 to 4 |
 | Manufacturing process | Machining |
@@ -70,21 +70,36 @@ The published drawing shows a 28 mm body diameter, a 20 mm output shaft referenc
 
 ## Typical Applications
 
-- Compact robotic joints and grippers
-- Medical and laboratory automation mechanisms
-- Precision instruments and optical adjustment mechanisms
-- Mini pumps and valve drives
-- Smart hardware and compact actuators
+### Potential OEM Applications for the 28P 28 mm Gearhead
 
-Application suitability depends on the selected ratio, motor, load direction, duty cycle, installation and required service life.
+A 28 mm frame is an additional Miniature-class option for OEM mechanisms requiring a larger integration envelope; verify load margin before selecting it.
+
+| Example mechanism and application guide | Critical selection checks |
+| --- | --- |
+| [Window opener or powered blind drive](../../applications/electric-curtain-blind-window-opener-gear-motors.md) | Check travel force, outdoor exposure and anti-pinch control |
+| [Small industrial positioning axis](../../applications/industrial-automation-servo-planetary-gearboxes.md) | Review repeatability, output load and duty cycle |
+| [Motorized automatic pet door](../../applications/smart-pet-feeder-litter-box-planetary-gearheads.md) | Specify movement force, manual opening and obstruction safeguards |
+
+These are **application ideas for engineering evaluation**, not claims that the 28P has been production-validated in these devices. Final suitability depends on rated torque, ratio and stage count, output-shaft loads, input speed, mounting details and representative device testing.
+
+### 28P Engineering Path: Application → Model → STEP CAD → Inquiry
+
+[Find a Gearhead — Maximum 28 mm Filter](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=28#preliminary-ratio-stage-finder){ .md-button }
+[28P Technical Datasheet](../../engineering-resources/28p/datasheet.md){ .md-button }
+[28P Mechanical Interface](../../engineering-resources/28p/mechanical-interface.md){ .md-button }
+
+[Download 28P Simplified 4-Stage STEP](../../assets/downloads/28p/28P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
+[Request 28P Configuration-Matched CAD or Sample](../../request-cad-sample-quote.md?model=28P){ .md-button }
+
+**CAD boundary:** Public simplified STEP shows a **4-stage reference only**. Other ratios, stage counts, motor interfaces and production drawings require an engineering review. The selector's diameter filter is a maximum limit, not confirmation of 28P application suitability.
 
 ## Supply Configuration
 
-SigGear can supply the planetary gearbox as a gearbox-only unit, or evaluate and match a motor based on the customer's specific application requirements to provide a complete motor + gearbox assembly.
+SigGear can evaluate the 28P as **Gearhead Only** for an existing motor, or review a **Motor + Gearhead Assembly** for the customer's specific application. Motor-to-gearhead interface and final performance remain subject to engineering confirmation.
 
 
 [Existing Motor — Start 28P Design-In Review](../../request-cad-sample-quote.md?model=28P&path=gearbox_only){ .md-button .md-button--primary }
-[Complete Drive — Start 28P Motor + Gearbox Review](../../request-cad-sample-quote.md?model=28P&path=motor_gearbox){ .md-button }
+[Complete Drive — Start 28P Motor + Gearhead Review](../../request-cad-sample-quote.md?model=28P&path=motor_gearbox){ .md-button }
 
 [Not Sure Yet — Open 28P Project Brief](../../request-cad-sample-quote.md?model=28P){ .md-button }
 
@@ -121,10 +136,10 @@ A detailed full-assembly STEP is held as configuration-controlled engineering CA
 
 The link above opens the **28P product detail page** on TraceParts International, using the exact address provided by the SigGear operator. STEP AP203 generation and download for this model were confirmed on **2026-10-14**. The Chinese catalog link is provided as an alternative browsing route. Public CAD is a **simplified 4-stage reference**; check stage, ratio and interfaces before production design, and request controlled configuration-matched CAD if required.
 
-## Related Planetary Gearbox Resources
+## Related Planetary Gearhead Resources
 
-[8–42 mm Planetary Gearbox Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Browse All Planetary Gearboxes](index.md){ .md-button }
+[8–42 mm Precision Planetary Gearheads](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Browse All Planetary Gearheads](index.md){ .md-button }
 [Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
 
 ## Contact SigGear
