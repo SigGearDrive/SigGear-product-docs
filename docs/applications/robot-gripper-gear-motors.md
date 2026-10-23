@@ -1,6 +1,6 @@
 ---
 title: Precision Planetary Gearheads for Dexterous Hands | SigGear
-description: "Evaluate SigGear 8–42 mm planetary gearheads for dexterous hands and robotic grippers. Compare tendon-spool torque, backlash, shaft loads, motor fit, STEP CAD and OEM design."
+description: "SigGear 8–42 mm planetary gearheads for dexterous hands and grippers. Review tendon-spool torque, backlash, motor fitting, shaft loads and STEP CAD."
 ---
 
 # Planetary Gearheads for Dexterous Hands and Robot Grippers
