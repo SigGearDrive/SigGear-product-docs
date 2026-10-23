@@ -1,5 +1,5 @@
 ---
-title: 22 mm Miniature Planetary Gearhead (22P) | STEP CAD
+title: 22 mm Miniature Precision Planetary Gearhead (22P)
 description: "SigGear 22P 22 mm miniature precision planetary gearhead for curtain, smart-toilet and gripper engineering. Compare rated data, drawings and simplified STEP CAD."
 ---
 
