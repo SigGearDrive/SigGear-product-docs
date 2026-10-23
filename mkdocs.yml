@@ -1,5 +1,5 @@
 site_name: SigGear Product Documentation
-site_description: SigGear micro, miniature and compact precision planetary gearboxes from 8–42 mm for OEM mechanical designs. Model-specific datasheets, mounting interfaces, simplified STEP CAD and motor-matching reviews.
+site_description: SigGear Micro, Miniature and Compact Precision Planetary Gearheads from 8–42 mm for OEM mechanical designs. Model-specific datasheets, mounting interfaces, simplified STEP CAD and motor-matching reviews.
 site_url: https://siggeardrive.github.io/SigGear-product-docs/
 repo_url: https://github.com/SigGearDrive/SigGear-product-docs
 repo_name: SigGearDrive/SigGear-product-docs
@@ -136,7 +136,7 @@ nav:
   - Home: index.md
   - Products:
       - Product Overview: products/index.md
-      - Micro, Miniature & Compact Planetary Gearboxes (8–42 mm):
+      - Micro, Miniature & Compact Planetary Gearheads (8–42 mm):
           - Series Overview: products/planetary-gearboxes/index.md
           - 8-42 mm Series: products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md
           - 8P (8 mm): products/planetary-gearboxes/8p-planetary-gearbox.md
@@ -183,7 +183,7 @@ nav:
       - Prototype to Design-In and Production: custom-engineering/prototype-to-production.md
   - Applications:
       - Applications Overview: applications/index.md
-      - Featured Planetary and Compact Drive Applications:
+      - Featured Precision Planetary Gearhead Applications:
           - Planetary Gearbox Application Families: applications/planetary-gearbox-application-families.md
           - Electric Pruning Shears Planetary Gearbox: applications/electric-pruning-shears-planetary-gearbox.md
           - Electric Screwdrivers and Fastening Tools: applications/powered-screwdriver-planetary-gearbox.md
@@ -194,6 +194,7 @@ nav:
           - Medical Device Micro Gear Motors: applications/medical-device-micro-gear-motors.md
           - Laboratory Automation and Diagnostic Equipment: applications/laboratory-automation-diagnostic-equipment-gear-motors.md
           - Smart Hardware Gear Motors: applications/smart-hardware-gear-motors.md
+          - Automatic Pet Feeders, Litter Boxes and Pet Doors: applications/smart-pet-feeder-litter-box-planetary-gearheads.md
       - Robotics and Joint Drive Applications:
           - Humanoid Robot Joint Actuators: applications/humanoid-robot-joint-actuators.md
           - Robotic Arm Joint Actuators: applications/robotic-arm-joint-actuators.md
@@ -223,7 +224,7 @@ nav:
           - Agriculture and Outdoor Equipment Gear Motors: applications/agriculture-outdoor-equipment-gear-motors.md
   - Selection Guides:
       - Selection Guides Overview: selection-guides/index.md
-      - Miniature Planetary Gearbox Selection: selection-guides/miniature-planetary-gearbox-selection-guide.md
+      - Find a Gearhead — Ratio & Stage Selector: selection-guides/miniature-planetary-gearbox-selection-guide.md
       - Robot Joint Actuator Selection Guide: selection-guides/robot-joint-actuator-selection-guide.md
   - Engineering Center:
       - Overview: engineering-center/index.md
