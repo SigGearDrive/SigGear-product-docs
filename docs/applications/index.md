@@ -1,11 +1,11 @@
 ---
-title: SigGear Applications | Miniature Planetary Gearboxes, Gear Motors & Precision Drives
-description: Explore SigGear engineering application guides for 8–42 mm miniature planetary gearboxes, motor-matched gear drives, dexterous hands, smart hardware, medical equipment and other compact OEM mechanisms.
+title: Precision Planetary Gearhead Applications | 8–42 mm OEM | SigGear
+description: Explore 10 industries using SigGear 8–42 mm precision planetary gearheads: smart home, pruning tools, dexterous hands, medical, lab, pet devices and automation.
 ---
 
-# Applications
+# Planetary Gearhead Applications — 8–42 mm OEM Engineering
 
-SigGear's current overseas focus is **miniature and compact planetary gearboxes from 8 mm to 42 mm**, supplied either as gearbox-only units or reviewed together with a matched motor for an OEM mechanism.
+SigGear's current overseas focus is **precision planetary gearheads from 8 mm to 42 mm**, supplied as **Gearhead Only** or reviewed as a **Motor + Gearhead Assembly** for an OEM mechanism.
 
 These application pages explain **how to select a drive**, not where SigGear claims to have a completed customer case.
 
@@ -22,7 +22,26 @@ Before choosing an exact diameter, use the application-led grouping to decide wh
 
 [Planetary Gearbox Application Families](planetary-gearbox-application-families.md){ .md-button .md-button--primary }
 
-## Featured Miniature Planetary Gearbox Applications
+## Explore 10 Industries Using 8–42 mm Precision Planetary Gearheads
+
+Find your mechanism in the application table, then open the **engineering guide** and review the exact product model, ratio, installation interface and public simplified STEP reference. These are **potential OEM applications**, not claims of installed or certified customer production.
+
+| Industry | Example OEM mechanisms | Application guide |
+| --- | --- | --- |
+| Smart Home | Motorized curtains, roller blinds, smart toilets, smart locks, adjustable furniture | [Curtains and blinds](electric-curtain-blind-window-opener-gear-motors.md), [smart toilets](smart-toilet-bidet-planetary-gear-motors.md), [smart locks](access-control-smart-lock-security-gear-motors.md) |
+| Garden and Power Tools | Electric pruning shears, fruit-tree cutters, powered screwdrivers | [Pruning tools](electric-pruning-shears-planetary-gearbox.md), [fastening tools](powered-screwdriver-planetary-gearbox.md) |
+| Robotics and Dexterous Hands | Finger joints, tendon spools, compact grippers and end effectors | [Dexterous hands and grippers](robot-gripper-gear-motors.md) |
+| Medical Devices | Compact dosing, syringe actuation, positioning and auxiliary motion | [Medical mechanism guide](medical-device-micro-gear-motors.md) |
+| Laboratory Automation | Pipetting mechanisms, sample handling, diagnostic positioning | [Laboratory automation](laboratory-automation-diagnostic-equipment-gear-motors.md) |
+| Consumer Electronics and Optics | Camera focus, optical adjustment and compact motion devices | [Precision instruments](precision-instruments-optical-mechanisms.md), [camera mechanisms](optical-imaging-camera-module-gear-motors.md) |
+| Automotive Electronics | Small airflow actuators, interior adjustments and vehicle mechanisms | [Automotive small motion](automotive-vehicle-small-motion-gear-motors.md) |
+| Smart Pet Devices | Automatic pet feeders, self-cleaning litter boxes and pet-door latches | [Smart pet actuator guide](smart-pet-feeder-litter-box-planetary-gearheads.md) |
+| Small Industrial Automation | Grippers, positioning devices, inspection and compact conveyor drives | [Industrial automation](industrial-automation-servo-planetary-gearboxes.md), [inspection equipment](semiconductor-electronics-inspection-equipment-gear-motors.md) |
+| Smart Agriculture and Fluid Control | Irrigation valves, metering mechanisms, greenhouse actuators and pumps | [Agriculture equipment](agriculture-outdoor-equipment-gear-motors.md), [pump and valve control](pump-valve-fluid-control-gear-motors.md) |
+
+**Design-In pathway:** [12 model pages](../products/planetary-gearboxes/index.md) → [Find a Gearhead](../selection-guides/miniature-planetary-gearbox-selection-guide.md) → [simplified STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) → [engineering request](../request-cad-sample-quote.md).
+
+## Featured Miniature Planetary Gearhead Applications
 
 These are the application paths most closely aligned with the current SigGear overseas focus.
 
@@ -96,6 +115,12 @@ Review focus, zoom, pan-tilt and sensor-positioning axes by backlash, vibration,
 Review metering, grinder adjustment, valve movement, dosing, cup handling and compact service mechanisms by load, speed, jam condition, noise and cleaning boundary.
 
 [Coffee / Dosing / Dispensing Gear Motor Guide](food-beverage-coffee-equipment-gear-motors.md){ .md-button }
+
+### Smart Pet Feeders and Automatic Litter Boxes
+
+Review auger loading, rotating drum inertia, jam detection, cleaning, shaft support and pet safety before selecting a compact gearhead.
+
+[Automatic Pet Feeders & Litter Boxes — Planetary Gearhead Guide](smart-pet-feeder-litter-box-planetary-gearheads.md){ .md-button }
 
 ## Robotics and Joint-Drive Applications
 
