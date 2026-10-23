@@ -110,6 +110,32 @@ def check_model_specific_search_metadata() -> None:
         require(schema.get("description") == description, f"JSON-LD model description differs from source: {target}")
 
 
+def check_priority_gearhead_hub_metadata() -> None:
+    """Prevent important landing pages from reverting to short menu labels."""
+    priority_sources = [
+        "products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md",
+        "applications/index.md",
+    ]
+    for source_rel in priority_sources:
+        raw = (DOCS / source_rel).read_text(encoding="utf-8")
+        require(raw.startswith("---\n"), f"Missing SEO frontmatter: {source_rel}")
+        meta_yaml, sep, _ = raw[4:].partition("\n---\n")
+        require(bool(sep), f"Malformed SEO frontmatter: {source_rel}")
+        metadata = yaml.safe_load(meta_yaml) or {}
+        title = str(metadata.get("title") or "").strip()
+        description = str(metadata.get("description") or "").strip()
+        require(bool(title) and bool(description), f"Missing source SEO metadata: {source_rel}")
+        if source_rel.endswith("/index.md"):
+            built_path = SITE / source_rel.removesuffix("index.md") / "index.html"
+        else:
+            built_path = SITE / source_rel.removesuffix(".md") / "index.html"
+        built = built_path.read_text(encoding="utf-8")
+        expected_title = f"<title>{html_escape(title, quote=False)} - SigGear Product Documentation</title>"
+        expected_description = f'<meta name="description" content="{html_escape(description, quote=True)}">'
+        require(expected_title in built, f"Priority hub title lost to nav label: {source_rel}")
+        require(expected_description in built, f"Priority hub description lost: {source_rel}")
+
+
 def check_sitemap_membership() -> None:
     sitemap = SITE / "sitemap.xml"
     require(sitemap.is_file(), "Generated sitemap.xml missing")
@@ -161,6 +187,7 @@ def main() -> None:
     check_target_count()
     check_built_pages_and_canonicals()
     check_model_specific_search_metadata()
+    check_priority_gearhead_hub_metadata()
     check_sitemap_membership()
     check_robots()
     check_source_hub_links()
