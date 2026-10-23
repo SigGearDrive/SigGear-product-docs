@@ -1,5 +1,5 @@
 ---
-title: 8 mm Micro Planetary Gearhead (8P) | STEP CAD
+title: 8 mm Micro Precision Planetary Gearhead (8P)
 description: "SigGear 8P 8 mm micro precision planetary gearhead for OEM optical positioning and laboratory mechanisms. Compare ratios, interface drawings and simplified STEP CAD."
 ---
 
