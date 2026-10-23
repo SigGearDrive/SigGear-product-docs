@@ -1,6 +1,6 @@
 ---
 title: Planetary Gearheads for Motorized Curtains and Blinds | SigGear
-description: "Explore SigGear 16P–28P planetary gearheads for motorized curtains, roller blinds and window actuators. Compare pulley torque, noise, holding, STEP CAD and motor fit."
+description: "SigGear planetary gearheads for motorized curtains and roller blinds. Compare 16P–28P frames, pulley torque, quiet motion, holding and STEP CAD."
 ---
 
 # Planetary Gearheads for Motorized Curtains, Blinds and Window Openers
