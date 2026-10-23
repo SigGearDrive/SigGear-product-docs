@@ -1,5 +1,5 @@
 ---
-title: 12 mm Micro Planetary Gearhead (12P) | STEP CAD
+title: 12 mm Micro Precision Planetary Gearhead (12P)
 description: "SigGear 12P is a 12 mm micro precision planetary gearhead for compact dosing, optical and laboratory OEM evaluations. Find model ratios, datasheet and STEP CAD."
 ---
 
