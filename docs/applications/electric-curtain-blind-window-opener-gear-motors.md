@@ -1,9 +1,9 @@
 ---
-title: Electric Curtain Planetary Gearbox & Gear Motor Selection | SigGear
-description: OEM selection guidance for miniature planetary gearboxes and gear motors in electric curtain tracks, smart blinds and window openers, including the SigGear 8–42 mm series.
+title: Planetary Gearheads for Motorized Curtains and Blinds | SigGear
+description: "Explore SigGear 16P–28P planetary gearheads for motorized curtains, roller blinds and window actuators. Compare pulley torque, noise, holding, STEP CAD and motor fit."
 ---
 
-# Electric Curtain, Blind and Window Opener Gear Motors
+# Planetary Gearheads for Motorized Curtains, Blinds and Window Openers
 
 ## Application Overview
 
@@ -11,21 +11,52 @@ Electric curtain, blind and window opener systems use compact gear motors and tr
 
 These applications usually require quiet motion, compact packaging, reliable start-up torque, stable holding behavior, controlled end-stop behavior, low current consumption and long service life under repeated open-close cycles. In smart-home and building-automation projects, the motor and gearbox must also be reviewed together with track friction, fabric weight, pulley size, rope or belt tension, window load, wind force, battery current, control board limits, obstacle detection, installation tolerance and safety boundaries.
 
-SigGear can evaluate micro gear motors, compact planetary gearboxes, flat BLDC motors and customized motor/gearbox assemblies for electric curtains, roller blinds, smart blinds, window openers, skylight actuators, sunshade devices, air-opening mechanisms and compact building-automation actuators. Final model selection, safety validation, installation approval and product certification remain the responsibility of the equipment manufacturer.
+SigGear's **8–42 mm precision planetary gearheads (planetary gearboxes)** can be evaluated for electric curtain tracks, roller blinds, smart blinds, window openers and other compact building-automation mechanisms. Projects can start with **Gearhead Only** for a selected motor or a reviewed **Motor + Gearhead Assembly**. Other motor technologies may be more suitable where the device architecture calls for them. Final model selection, safety validation, installation approval and product certification remain the responsibility of the equipment manufacturer.
 
-## Electric Curtain Drive: Gearbox-Only or Complete Gearmotor?
+## Motorized Curtain Planetary Gearhead: Fast Engineering Answers
 
-For OEM electric curtain tracks and compact smart-home mechanisms, **miniature planetary gearbox selection** begins with the motor operating point, curtain mechanism and available installation envelope.
+### How do I size a gearhead for a motorized curtain track?
 
-**I already have a motor; I need a gearbox only.** Provide the motor drawing, loaded shaft speed, shaft and pilot dimensions, mounting-hole pattern, available axial space, curtain travel speed and pulley or belt-drive geometry. SigGear can review the mechanical interface and ratio options.
+Start from the **installed belt or rail pull force**, drive-pulley radius, required travel speed, start-up friction and obstruction load. For tangential pull force `F_pull` in newtons at the pulley and radius `r` in metres, a first-pass pulley-shaft torque is `T_pulley ≈ F_pull × r` in N·m. Include changing friction, acceleration and losses that have not already been measured in `F_pull`. The result is an **application load**, not a statement of any SigGear model's rated output.
 
-**I need a complete motor + gearbox drive.** Provide the required output motion, curtain track friction or pulling load if known, supply voltage, start/stop cycle, expected acoustic target and maximum motorized-unit dimensions. Motor matching and complete assembly performance are confirmed for the selected configuration.
+For a belt moving at speed `v` in m/s without slip on a pulley of radius `r` in metres, estimated pulley speed is `n_pulley [rpm] ≈ 60 × v / (2π × r)`. Then screen a published planetary gearhead ratio using **loaded motor rpm / required gearhead output rpm**, followed by a real test at the target noise and cycle time.
+
+### Which SigGear gearhead diameters should a curtain or blind OEM compare?
+
+- **[16P 16 mm](../products/planetary-gearboxes/16p-planetary-gearbox.md):** begin with narrow tilt, latch or compact shade envelopes.
+- **[20P 20 mm](../products/planetary-gearboxes/20p-planetary-gearbox.md) and [22P 22 mm](../products/planetary-gearboxes/22p-planetary-gearbox.md):** compare distinct Miniature-class frames for curtain tracks and blind mechanisms requiring a motor-interface review.
+- **[28P 28 mm](../products/planetary-gearboxes/28p-planetary-gearbox.md):** compare if the working load and installation envelope point toward a larger frame.
+
+These are **potential OEM starting points only**; actual allowable torque, output bearing load, ratio, stage-dependent length and noise must be confirmed on the selected configuration. An outdoor window or skylight mechanism introduces separate wind, sealing and safety requirements.
+
+### Can a planetary gearhead hold a roller blind without power?
+
+Do **not** assume a planetary gearhead is self-locking. Define whether the load must remain stationary during power loss and whether the device needs a brake, counterbalance, clutch or other complete-system holding arrangement. Consider manual override and pinch-point protection separately.
+
+### How can I make an electric curtain drive quieter?
+
+Measure sound and vibration **with the motor, gearhead, bracket, rail/tube and enclosure assembled**. Loaded speed, ratio, stage count, shaft alignment, resonance and start/stop control can affect perceived noise. SigGear does not publish one guaranteed noise value for every curtain mechanism.
+
+### Where can I download CAD before asking for a quote?
+
+Start with [model-specific datasheets and mechanical interfaces](../engineering-resources/planetary-gearboxes/index.md) and the [8P–42P public simplified STEP CAD library](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md). Public STEP files are **4-stage reference shapes**, not a verified production drawing for another ratio or stage. Provide an existing motor drawing and the installation envelope to request configuration-specific CAD.
+
+[Find a Gearhead for Curtain and Blind Applications](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=electric_curtain_blind#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
+[Send an OEM Curtain / Blind Engineering Brief](../request-cad-sample-quote.md?app=electric_curtain_blind){ .md-button }
+
+## Electric Curtain Drive: Gearhead Only or Motor + Gearhead Assembly?
+
+For OEM electric curtain tracks and compact smart-home mechanisms, **miniature planetary gearhead selection** begins with the motor operating point, curtain mechanism and available installation envelope.
+
+**I already have a motor; I need Gearhead Only.** Provide the motor drawing, loaded shaft speed, shaft and pilot dimensions, mounting-hole pattern, available axial space, curtain travel speed and pulley or belt-drive geometry. SigGear can review the mechanical interface and ratio options.
+
+**I need a Motor + Gearhead Assembly.** Provide the required output motion, curtain track friction or pulling load if known, supply voltage, start/stop cycle, expected acoustic target and maximum motorized-unit dimensions. Motor matching and complete assembly performance are confirmed for the selected configuration.
 
 The approximate ratio may be estimated from **motor operating speed / target gearbox output speed**, then checked against actual available gearbox ratios and pulley travel. Do not assume a planetary gearbox is self-locking: holding torque, manual override, obstacle detection, end stops and user safety must be evaluated as a complete device.
 
-[Find Published Gearbox Candidates](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=electric_curtain_blind#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
-[Compare SigGear 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Read the Planetary Gearbox Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=electric_curtain_blind#preliminary-ratio-stage-finder){ .md-button }
+[Find Published Gearhead Candidates](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=electric_curtain_blind#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
+[Compare SigGear 8–42 mm Planetary Gearheads](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Read the Planetary Gearhead Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=electric_curtain_blind#preliminary-ratio-stage-finder){ .md-button }
 [Download Public 4-Stage STEP References](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Start Curtain / Blind Project Brief](../request-cad-sample-quote.md?app=electric_curtain_blind){ .md-button }
 
@@ -259,9 +290,9 @@ External support bearings are recommended when the mechanism creates side load, 
 
 [Micro Gear Motors](../products/micro-gear-motors/index.md) are a starting point for compact curtain tracks, smart blinds, louver tilt mechanisms, small shades, vent covers and compact window-related actuators. SigGear can evaluate gear ratio, motor voltage, output shaft, cable exit, connector and optional feedback after engineering review.
 
-### 8-42 mm Planetary Gearboxes
+### 8–42 mm Precision Planetary Gearheads
 
-The [8-42 mm planetary gearbox series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) can be reviewed for compact transmission requirements where ratio, torque, size, backlash target, shaft interface and mounting requirements are defined.
+The [8–42 mm precision planetary gearhead series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) can be reviewed for compact transmission requirements where ratio, torque, size, backlash target, shaft interface and mounting requirements are defined.
 
 ### Flat BLDC Motors and Joint Drives
 
@@ -318,7 +349,7 @@ Provide:
 - Prototype quantity and estimated annual quantity
 - Required customization or OEM branding
 
-## Request an Electric Curtain, Blind or Window Opener Gear Motor Review
+## Request a Motorized Curtain, Blind or Window Gearhead Review
 
 Send your electric curtain track, smart blind, roller shade, Venetian blind tilt mechanism, skylight actuator, small window opener, sunshade system or building-automation actuator requirements to SigGear for preliminary model evaluation. Early requirements can be approximate, but actuator function, load or torque, speed, size, voltage, current limit, holding requirement, end-stop logic, environment, duty cycle and quantity are needed before a meaningful recommendation can be made.
 
