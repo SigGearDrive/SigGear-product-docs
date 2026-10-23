@@ -1,13 +1,13 @@
 ---
-title: SigGear | Micro, Miniature & Compact Planetary Gearboxes (8–42 mm)
-description: Find SigGear micro, miniature and compact planetary gearboxes from 8–42 mm. Compare 12 real models, mounting data, datasheets and STEP CAD for OEM design.
+title: SigGear | Precision Planetary Gearheads 8–42 mm | OEM
+description: SigGear 8–42 mm precision planetary gearheads for OEM devices. Explore Micro, Miniature and Compact models, applications, datasheets, STEP CAD and motor matching.
 ---
 
-# SigGear Micro, Miniature & Compact Planetary Gearboxes (8–42 mm)
+# SigGear Micro, Miniature & Compact Precision Planetary Gearheads (8–42 mm)
 
-SigGear manufactures **micro, miniature and compact planetary gearboxes (planetary gearheads)** with nominal outer diameters from **8 mm to 42 mm** for space-constrained OEM mechanical applications. The published product families are grouped as **Micro (8–16 mm)**, **Miniature (20–32 mm)** and **Compact (36–42 mm)**.
+SigGear manufactures **Micro, Miniature and Compact Precision Planetary Gearheads (planetary gearboxes)** with nominal outer diameters from **8 mm to 42 mm** for space-constrained OEM mechanical applications. The published product families are grouped as **Micro (8–16 mm)**, **Miniature (20–32 mm)** and **Compact (36–42 mm)**.
 
-We supply **gearbox-only units** for projects using an existing motor. If you need a complete drive assembly, our team can evaluate **motor matching and a motor + gearbox configuration** against your application and installation requirements.
+We supply **Gearhead Only** units for projects using an existing motor. If you need a complete drive assembly, our team can evaluate **motor matching and a Motor + Gearhead Assembly** against your application and installation requirements.
 
 The 12 published planetary frame sizes have model-specific Datasheets, Mechanical Interface references and **public simplified 4-stage STEP CAD** for early mechanical packaging. Final performance and configuration-matched CAD require review of the selected ratio, stage count, motor interface and operating conditions.
 
@@ -18,7 +18,14 @@ The 12 published planetary frame sizes have model-specific Datasheets, Mechanica
 [Download Public STEP CAD](engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Start Engineering Project Brief](request-cad-sample-quote.md){ .md-button }
 
-## Find a Planetary Gearbox by Diameter
+## Explore Precision Planetary Gearhead Applications
+
+Our 8–42 mm series can be evaluated for **smart-home actuators, electric pruning shears, dexterous hands and robotic grippers, medical devices, laboratory automation, camera mechanisms, automotive electronics, automatic pet feeders, compact industrial automation and agricultural fluid control**. Each application guide describes selection constraints; application examples are not verified production installations.
+
+[Browse 10 OEM Industries and Engineering Applications](applications/index.md){ .md-button .md-button--primary }
+[Automatic Pet Feeders and Litter Boxes](applications/smart-pet-feeder-litter-box-planetary-gearheads.md){ .md-button }
+
+## Find a Planetary Gearhead by Diameter
 
 Choose a **gearbox frame diameter** first when the available installation space is known. Then review the published ratio, stage-dependent length, **rated** torque, output shaft and motor interface for that exact model.
 
