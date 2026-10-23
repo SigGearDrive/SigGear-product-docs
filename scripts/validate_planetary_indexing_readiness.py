@@ -118,8 +118,8 @@ def check_priority_gearhead_hub_metadata() -> None:
     ]
     for source_rel in priority_sources:
         raw = (DOCS / source_rel).read_text(encoding="utf-8")
-        require(raw.startswith("---\\n"), f"Missing SEO frontmatter: {source_rel}")
-        meta_yaml, sep, _ = raw[4:].partition("\\n---\\n")
+        require(raw.startswith("---\n"), f"Missing SEO frontmatter: {source_rel}")
+        meta_yaml, sep, _ = raw[4:].partition("\n---\n")
         require(bool(sep), f"Malformed SEO frontmatter: {source_rel}")
         metadata = yaml.safe_load(meta_yaml) or {}
         title = str(metadata.get("title") or "").strip()
