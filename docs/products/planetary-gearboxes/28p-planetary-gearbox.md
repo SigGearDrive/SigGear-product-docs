@@ -1,5 +1,5 @@
 ---
-title: 28 mm Miniature Planetary Gearhead (28P) | STEP CAD
+title: 28 mm Miniature Precision Planetary Gearhead (28P)
 description: "Explore SigGear 28P 28 mm miniature precision planetary gearhead for smart-home mechanisms, small automation and pet devices. Specifications and simplified STEP CAD."
 ---
 
