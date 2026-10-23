@@ -14,6 +14,20 @@ For SigGear's current planetary gearbox program, these applications are a **pote
 [Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Start Fastening Tool Project Brief](../request-cad-sample-quote.md?app=powered_screwdriver_fastening){ .md-button }
 
+## Compare Published SigGear Gearhead Models
+
+For cordless screwdrivers and compact fastening tools, the model comparison starts from **fastening torque, loaded motor speed, output speed and jam conditions**; diameter alone is not sufficient.
+
+| Frame and specification page | Example mechanism for evaluation | Engineering checks |
+| --- | --- | --- |
+| [24P 24 mm Gearhead](../products/planetary-gearboxes/24p-planetary-gearbox.md) | Smaller fastening mechanisms | Check normal fastening torque, gearbox ratio and duty |
+| [32P 32 mm Gearhead](../products/planetary-gearboxes/32p-planetary-gearbox.md) | Compact tools with greater load demands | Review momentary versus rated torque and stage length |
+| [42P 42 mm Gearhead](../products/planetary-gearboxes/42p-planetary-gearbox.md) | Higher-load fastening mechanisms | Check stall duration, output bearing loads and tool envelope |
+
+These are **potential candidates for initial engineering comparison**, not claims of suitability, certification or production deployment. Consult each model's rated torque, stage-dependent ratio and length, output load limit, motor interface and simplified 4-stage STEP reference before design freeze.
+
+[Browse All 12 Precision Planetary Gearheads](../products/planetary-gearboxes/index.md){ .md-button }
+
 ## Where to Start by Gearbox Size
 
 Use the gearbox diameter only as a first packaging filter. The exact model must still be checked for ratio, stage count, rated torque, length, motor interface and duty cycle.
