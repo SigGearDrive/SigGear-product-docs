@@ -1,15 +1,15 @@
 ---
-title: Miniature Planetary Gearbox Manufacturer | 8–42 mm Series
-description: SigGear manufactures micro (8–16 mm), miniature (20–32 mm) and compact (36–42 mm) planetary gearboxes. Compare 12 models, ratios, STEP CAD and motor matching.
+title: Precision Planetary Gearhead Manufacturer | 8–42 mm | SigGear
+description: Explore SigGear 8–42 mm precision planetary gearheads: 12 Micro, Miniature and Compact frame sizes, published datasheets, STEP CAD and OEM motor matching.
 ---
 
-# Micro, Miniature & Compact Planetary Gearboxes — 8–42 mm
+# Precision Planetary Gearheads 8–42 mm — Micro, Miniature & Compact
 
 ## Product Overview
 
-The existing catalog identifier is **8–42 mm Planetary Gear Reducer Series**. This is SigGear's published family of **micro, miniature and compact precision planetary gearboxes**, not a series of large industrial reducers.
+SigGear's primary product name is **Precision Planetary Gearheads**. The earlier catalog designation, **8–42 mm Planetary Gear Reducer Series**, and the engineering synonym **planetary gearbox** remain available for existing searches, technical references and historical links.
 
-SigGear supplies micro, miniature and compact planetary gearboxes (planetary gearheads) with nominal outer diameters from **8 mm to 42 mm**, intended for space-constrained OEM mechanisms and precision motion applications. The published families are grouped as **Micro: 8–16 mm**, **Miniature: 20–32 mm**, and **Compact: 36–42 mm**. Customers may source **gearbox-only units** or request an engineering review for a **matched motor + gearbox assembly**.
+SigGear manufactures compact precision planetary gearheads with nominal diameters from **8 mm to 42 mm** for space-constrained OEM mechanisms. The published product classes are **Micro Planetary Gearheads (8–16 mm)**, **Miniature Planetary Gearheads (20–32 mm)** and **Compact Planetary Gearheads (36–42 mm)**. Two engineering supply routes are available for review: **Gearhead Only** with an existing motor and **Motor + Gearhead Assembly** for a matched drive.
 
 The 12 published frame sizes support preliminary Design-In with model-specific datasheets, mechanical-interface references and simplified public **4-stage STEP CAD**. Final ratio, torque, speed, dimensions, motor compatibility and configuration-specific drawings depend on the selected model and engineering review.
 
@@ -17,10 +17,13 @@ SigGear's [TraceParts catalog (Chinese-language portal)](https://www.traceparts.
 
 [Explore TraceParts International (English) — Filter SIGGEAR](https://www.traceparts.com/en/search/traceparts-classification-mechanical-components-power-transmission?CatalogPath=TRACEPARTS%3ATP01005){ .md-button }
 
-[Find Published Ratio / Stage Candidates](../../selection-guides/miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
+[Explore 10 OEM Gearhead Application Industries](../../applications/index.md){ .md-button .md-button--primary }
+[Automatic Pet Feeder and Litter Box Application](../../applications/smart-pet-feeder-litter-box-planetary-gearheads.md){ .md-button }
+
+[Find a Gearhead — Ratio & Stage Candidates](../../selection-guides/miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
 [Download 8–42 mm Public STEP CAD](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
-[Gearbox Only — Existing Motor](mailto:wangwanrong@siggear.com?subject=Gearbox%20Only%20Review%20-%20Existing%20Motor&body=Existing%20motor%20model%20%2F%20drawing%3A%20%0AMotor%20speed%3A%20%0ARequired%20output%20speed%20or%20ratio%3A%20%0AMaximum%20gearbox%20%2F%20assembly%20size%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button }
-[Motor + Gearbox Review](mailto:wangwanrong@siggear.com?subject=Motor%20%2B%20Gearbox%20Engineering%20Review&body=Application%20%2F%20what%20needs%20to%20move%3A%20%0ARequired%20output%20speed%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0AMaximum%20diameter%20and%20total%20length%3A%20%0AOperating%20voltage%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button }
+[Gearhead Only — Existing Motor](mailto:wangwanrong@siggear.com?subject=Gearbox%20Only%20Review%20-%20Existing%20Motor&body=Existing%20motor%20model%20%2F%20drawing%3A%20%0AMotor%20speed%3A%20%0ARequired%20output%20speed%20or%20ratio%3A%20%0AMaximum%20gearbox%20%2F%20assembly%20size%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button }
+[Motor + Gearhead Assembly Review](mailto:wangwanrong@siggear.com?subject=Motor%20%2B%20Gearbox%20Engineering%20Review&body=Application%20%2F%20what%20needs%20to%20move%3A%20%0ARequired%20output%20speed%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0AMaximum%20diameter%20and%20total%20length%3A%20%0AOperating%20voltage%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button }
 [Project Brief — Send What You Know](../../request-cad-sample-quote.md){ .md-button }
 [Motor + Gearbox Integration Guide](../../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
@@ -52,7 +55,7 @@ The images below show **three separate, existing SigGear product references**, n
 [See SigGear Manufacturing & Quality Evidence](../../company/manufacturing-and-quality-evidence.md){ .md-button }
 [Testing & Validation Evidence](../../engineering-center/testing-and-validation-evidence.md){ .md-button }
 
-## OEM Planetary Gearbox Supply Paths
+## OEM Planetary Gearhead Supply Paths
 
 For OEM product development, the same 8–42 mm planetary range can enter a project through different engineering paths:
 
@@ -87,7 +90,7 @@ This documentation does not replace an application review. Final ratio, stage co
 [Manufacturing & Quality Evidence](../../company/manufacturing-and-quality-evidence.md){ .md-button }
 [Custom Planetary Gearbox Engineering](../../custom-engineering/custom-planetary-gearbox.md){ .md-button }
 
-## Browse by Planetary Gearbox Diameter
+## Browse by Planetary Gearhead Diameter
 
 Engineers often begin with the available installation diameter. Open the model-specific page for the exact frame before comparing ratio, stage length, allowable torque, shaft interface and motor matching:
 
