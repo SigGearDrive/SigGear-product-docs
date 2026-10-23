@@ -1,6 +1,6 @@
 ---
 title: Electric Pruning Shears Planetary Gearhead | SigGear OEM Guide
-description: "Choose a SigGear planetary gearhead for electric pruning shears. Compare 20P–42P frames, blade torque, motor matching, shaft loads, simplified STEP CAD and OEM inquiry."
+description: "SigGear 8–42 mm planetary gearheads for electric pruning shears. Review cutting torque, 32P/42P options, motor matching, STEP CAD and OEM selection."
 ---
 
 # Planetary Gearheads for Electric Pruning Shears — OEM Selection
@@ -69,7 +69,7 @@ A momentary gearbox torque rating must never be treated as a continuous rating, 
 
 ## Which SigGear Planetary Gearhead Should Be Reviewed?
 
-SigGear publishes 12 nominal gearbox outer diameters from **8 to 42 mm**. Useful frame-size reference pages include [20P](../products/planetary-gearboxes/20p-planetary-gearbox.md), [22P](../products/planetary-gearboxes/22p-planetary-gearbox.md), [32P](../products/planetary-gearboxes/32p-planetary-gearbox.md) , [36P](../products/planetary-gearboxes/36p-planetary-gearbox.md) and [42P](../products/planetary-gearboxes/42p-planetary-gearbox.md).
+SigGear publishes 12 nominal gearbox outer diameters from **8 to 42 mm**. Useful frame-size reference pages include [20P](../products/planetary-gearboxes/20p-planetary-gearbox.md), [22P](../products/planetary-gearboxes/22p-planetary-gearbox.md), [32P](../products/planetary-gearboxes/32p-planetary-gearbox.md), [36P](../products/planetary-gearboxes/36p-planetary-gearbox.md) and [42P](../products/planetary-gearboxes/42p-planetary-gearbox.md).
 
 These are **catalog comparisons, not validated pruning-shear recommendations**. The selected model and stage must match the real ratio, continuous and peak torque, length and mechanical interface requirements.
 
