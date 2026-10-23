@@ -1,9 +1,9 @@
 ---
-title: Planetary Gearbox Model Directory | 8–42 mm Datasheets & CAD
-description: Find SigGear 8–42 mm planetary gearboxes by model and frame size. Micro 8–16 mm, miniature 20–32 mm, compact 36–42 mm with datasheets and STEP CAD.
+title: Precision Planetary Gearheads 8–42 mm | Models & CAD | SigGear
+description: Compare 12 SigGear precision planetary gearheads from 8 to 42 mm. Micro, Miniature and Compact frame sizes, rated specifications, datasheets and STEP CAD.
 ---
 
-# SigGear Planetary Gearbox Model & CAD Directory
+# SigGear Precision Planetary Gearhead Model & CAD Directory
 
 This is the model directory for SigGear's **12 published micro, miniature and compact planetary gearbox frame sizes (8–42 mm)**. Use the individual model pages for stage-dependent ratios, allowable torque and mounting details; this directory helps locate the correct datasheet, mechanical-interface reference and public STEP.
 
@@ -44,6 +44,13 @@ The three size classes cover:
 - **Compact — 36–42 mm:** 36P and 42P
 
 [View the 8–42 mm planetary gear reducer series](8-42mm-planetary-gear-reducer.md)
+
+## Find a Gearhead by OEM Application
+
+Explore selection factors across **smart home, garden power tools, dexterous hands, medical devices, laboratory automation, optical equipment, automotive electronics, smart pet devices, industrial automation and smart agriculture**.
+
+[Explore 10 Application Industries](../../applications/index.md){ .md-button .md-button--primary }
+[Automatic Pet Feeders and Litter Boxes](../../applications/smart-pet-feeder-litter-box-planetary-gearheads.md){ .md-button }
 
 ## Featured OEM Application Guides
 
