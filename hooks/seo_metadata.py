@@ -93,12 +93,18 @@ def _planetary_model_source_metadata(page) -> dict:
 
     MkDocs navigation labels such as "10P (10 mm)" can shadow the
     longer title and description in frontmatter during page rendering.
-    For the 12 published planetary model pages only, use that exact
-    source metadata rather than a generic site-description fallback.
+    For the 12 published planetary model pages and the two priority
+    gearhead discovery hubs, prefer the controlled source frontmatter
+    over short navigation labels and generic site descriptions.
     """
     src = page.file.src_uri.replace("\\", "/")
     product = _product_by_src.get(src)
-    if not product or product.get("product_family") != "planetary_gearbox":
+    priority_hubs = {
+        "products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md",
+        "applications/index.md",
+    }
+    is_planetary_model = bool(product and product.get("product_family") == "planetary_gearbox")
+    if not is_planetary_model and src not in priority_hubs:
         return {}
 
     source = DOCS_DIR / src
@@ -391,7 +397,7 @@ def _json_script(schema: dict, marker: str) -> str:
 
 
 def _restore_planetary_model_head(output: str, page, config) -> str:
-    """Ensure model-specific source SEO fields appear in published HTML.
+    """Ensure priority planetary source SEO fields appear in published HTML.
 
     This changes the generated <title> and description only; navigation,
     canonical URLs, source specs, product file paths and CAD stay intact.
