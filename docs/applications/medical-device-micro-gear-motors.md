@@ -13,6 +13,20 @@ SigGear supplies micro gear motor and planetary gearbox solutions that can be ev
 
 This page is intended for early-stage supplier comparison, model shortlisting and engineering communication. Final motor and gearbox selection, quotation and technical agreement require confirmation against the approved drawing, motor matching, shaft load, duty cycle, environmental condition and ordered version.
 
+## Compare Published SigGear Gearhead Models
+
+These Micro-class gearheads are **potential component-level starting points** for diagnostic and small medical mechanisms. The OEM remains responsible for device safety, cleaning, approvals and complete-system validation.
+
+| Frame and specification page | Example mechanism for evaluation | Engineering checks |
+| --- | --- | --- |
+| [8P 8 mm Gearhead](../products/planetary-gearboxes/8p-planetary-gearbox.md) | Very small instrument adjustment | Check travel, precision and envelope |
+| [10P 10 mm Gearhead](../products/planetary-gearboxes/10p-planetary-gearbox.md) | Compact diagnostic positioning | Review noise, duty and motor integration |
+| [12P 12 mm Gearhead](../products/planetary-gearboxes/12p-planetary-gearbox.md) | Auxiliary micro dosing or valve mechanism | Check load cycle, cleaning boundary and shaft load |
+
+These are **potential candidates for initial engineering comparison**, not claims of suitability, certification or production deployment. Consult each model's rated torque, stage-dependent ratio and length, output load limit, motor interface and simplified 4-stage STEP reference before design freeze.
+
+[Browse All 12 Precision Planetary Gearheads](../products/planetary-gearboxes/index.md){ .md-button }
+
 ## Key Selection Factors for Medical and Laboratory Motion
 
 | Requirement | Why it matters |

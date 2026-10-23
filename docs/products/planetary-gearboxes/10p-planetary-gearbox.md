@@ -1,14 +1,14 @@
 ---
-title: 10 mm Micro Planetary Gearbox (10P)
-description: "SigGear 10P: 10 mm micro planetary gearbox with 1–4 stage configurations and 10.25–18.50 mm body lengths. Review ratios, mounting details and public STEP CAD."
+title: 10 mm Micro Precision Planetary Gearhead (10P)
+description: "Review the SigGear 10P 10 mm micro precision planetary gearhead for camera, diagnostic and miniature gripper designs. Published ratios, drawings and STEP CAD."
 ---
 
 
-# 10 mm Micro Planetary Gearbox (10P)
+# 10 mm Micro Precision Planetary Gearhead (10P)
 
 ## Product Overview
 
-The SigGear 10P is a 10 mm micro planetary gearbox for compact motorized mechanisms. The published configurations cover one to four stages, with reduction ratios from 3.5:1 to 428.7:1.
+The SigGear 10P is a 10 mm micro precision planetary gearhead (planetary gearbox) for compact motorized mechanisms. The published configurations cover one to four stages, with reduction ratios from 3.5:1 to 428.7:1.
 
 ![SigGear 10P 10 mm micro planetary gearbox](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-main.webp)
 
@@ -29,7 +29,7 @@ The SigGear 10P is a 10 mm micro planetary gearbox for compact motorized mechani
 | Item | Description |
 | --- | --- |
 | Model | 10P |
-| Product type | Micro planetary gearbox |
+| Product type | Micro precision planetary gearhead (planetary gearbox) |
 | Nominal outer diameter | 10 mm |
 | Number of stages | 1 to 4 |
 | Housing material | Steel |
@@ -92,21 +92,36 @@ The published drawing shows a 10 mm body, a 7.50 mm output-shaft extension and s
 
 ## Typical Applications
 
-- Micro robotics and compact actuators
-- Medical and laboratory automation mechanisms
-- Precision instruments and optical adjustment mechanisms
-- Mini pumps and valve drives
-- Compact grippers and smart hardware
+### Potential OEM Applications for the 10P 10 mm Gearhead
 
-Application suitability depends on the selected ratio, motor, load direction, duty cycle, installation and required service life.
+The 10P adds a 10 mm packaging option for engineers comparing very small gearhead diameters; interfaces and stage lengths differ from adjacent frames.
+
+| Example mechanism and application guide | Critical selection checks |
+| --- | --- |
+| [Compact camera module motion](../../applications/optical-imaging-camera-module-gear-motors.md) | Evaluate lens positioning, vibration and installation dimensions |
+| [Medical diagnostic positioning](../../applications/medical-device-micro-gear-motors.md) | Define duty, load and device-level validation requirements |
+| [Micro robotic gripper axes](../../applications/robot-gripper-gear-motors.md) | Calculate gripping force, angular travel and output bearing load |
+
+These are **application ideas for engineering evaluation**, not claims that the 10P has been production-validated in these devices. Final suitability depends on rated torque, ratio and stage count, output-shaft loads, input speed, mounting details and representative device testing.
+
+### 10P Engineering Path: Application → Model → STEP CAD → Inquiry
+
+[Find a Gearhead — Maximum 10 mm Filter](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=10#preliminary-ratio-stage-finder){ .md-button }
+[10P Technical Datasheet](../../engineering-resources/10p/datasheet.md){ .md-button }
+[10P Mechanical Interface](../../engineering-resources/10p/mechanical-interface.md){ .md-button }
+
+[Download 10P Simplified 4-Stage STEP](../../assets/downloads/10p/10P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
+[Request 10P Configuration-Matched CAD or Sample](../../request-cad-sample-quote.md?model=10P){ .md-button }
+
+**CAD boundary:** Public simplified STEP shows a **4-stage reference only**. Other ratios, stage counts, motor interfaces and production drawings require an engineering review. The selector's diameter filter is a maximum limit, not confirmation of 10P application suitability.
 
 ## Supply Configuration
 
-SigGear can supply the planetary gearbox as a gearbox-only unit, or evaluate and match a motor based on the customer's specific application requirements to provide a complete motor + gearbox assembly.
+SigGear can evaluate the 10P as **Gearhead Only** for an existing motor, or review a **Motor + Gearhead Assembly** for the customer's specific application. Motor-to-gearhead interface and final performance remain subject to engineering confirmation.
 
 
 [Existing Motor — Start 10P Design-In Review](../../request-cad-sample-quote.md?model=10P&path=gearbox_only){ .md-button .md-button--primary }
-[Complete Drive — Start 10P Motor + Gearbox Review](../../request-cad-sample-quote.md?model=10P&path=motor_gearbox){ .md-button }
+[Complete Drive — Start 10P Motor + Gearhead Review](../../request-cad-sample-quote.md?model=10P&path=motor_gearbox){ .md-button }
 
 [Not Sure Yet — Open 10P Project Brief](../../request-cad-sample-quote.md?model=10P){ .md-button }
 
@@ -143,12 +158,12 @@ A detailed full-assembly STEP is held as configuration-controlled engineering CA
 
 The link above opens the **10P product detail page** on TraceParts International, using the exact address provided by the SigGear operator. STEP AP203 generation and download for this model were confirmed on **2026-10-14**. The Chinese catalog link is provided as an alternative browsing route. Public CAD is a **simplified 4-stage reference**; check stage, ratio and interfaces before production design, and request controlled configuration-matched CAD if required.
 
-## Related Planetary Gearbox Resources
+## Related Planetary Gearhead Resources
 
 **Comparing nearby micro sizes?** The [8P 8 mm Micro Planetary Gearbox](8p-planetary-gearbox.md) and [12P 12 mm Micro Planetary Gearbox](12p-planetary-gearbox.md) have their own stage lengths, motor interfaces and allowable torque tables. Choosing a diameter does not make their output shafts or mounting patterns interchangeable.
 
-[8–42 mm Planetary Gearbox Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Browse All Planetary Gearboxes](index.md){ .md-button }
+[8–42 mm Precision Planetary Gearheads](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Browse All Planetary Gearheads](index.md){ .md-button }
 [Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
 
 ## Contact SigGear

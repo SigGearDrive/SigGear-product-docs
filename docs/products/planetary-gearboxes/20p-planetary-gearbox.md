@@ -1,14 +1,14 @@
 ---
-title: 20 mm Miniature Planetary Gearbox (20P)
-description: "SigGear 20P: 20 mm miniature planetary gearbox with 4:1–1296:1 published ratio options across 1–4 stages. Compare mounting interfaces and STEP CAD."
+title: 20 mm Miniature Precision Planetary Gearhead (20P)
+description: "Explore SigGear 20P 20 mm miniature precision planetary gearheads for smart curtains, automatic feeders and compact home devices. Datasheet, interfaces and STEP CAD."
 ---
 
 
-# 20 mm Miniature Planetary Gearbox (20P)
+# 20 mm Miniature Precision Planetary Gearhead (20P)
 
 ## Product Overview
 
-The SigGear 20P is a 20 mm miniature planetary gearbox for compact motorized mechanisms. The published configurations cover one to four stages, with reduction ratios from 4:1 to 1296:1.
+The SigGear 20P is a 20 mm miniature precision planetary gearhead (planetary gearbox) for compact motorized mechanisms. The published configurations cover one to four stages, with reduction ratios from 4:1 to 1296:1.
 
 ![SigGear 20P 20 mm miniature planetary gearbox](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-main.webp)
 
@@ -40,7 +40,7 @@ The downloadable STEP represents the **4-stage reference configuration only** an
 | Item | Description |
 | --- | --- |
 | Model | 20P |
-| Product type | Miniature planetary gearbox |
+| Product type | Miniature precision planetary gearhead (planetary gearbox) |
 | Nominal outer diameter | 20 mm |
 | Number of stages | 1 to 4 |
 | Housing material | Steel |
@@ -101,25 +101,40 @@ The published drawing shows a 20 mm body, a 12 mm output-shaft extension and sta
 
 ## Typical Applications
 
-- Micro robotics and compact actuators
-- Medical and laboratory automation mechanisms
-- Precision instruments and optical adjustment mechanisms
-- Mini pumps and valve drives
-- Compact grippers and smart hardware
+### Potential OEM Applications for the 20P 20 mm Gearhead
 
-Application suitability depends on the selected ratio, motor, load direction, duty cycle, installation and required service life.
+The 20P begins SigGear's Miniature size class; evaluate it against the load case rather than assuming direct replacement for a smaller micro gearhead.
+
+| Example mechanism and application guide | Critical selection checks |
+| --- | --- |
+| [Motorized curtain track drive](../../applications/electric-curtain-blind-window-opener-gear-motors.md) | Check rail friction, acceleration, acoustic target and cycle time |
+| [Automatic pet food dispenser](../../applications/smart-pet-feeder-litter-box-planetary-gearheads.md) | Review auger torque, clogging and shaft support |
+| [Smart home opening mechanism](../../applications/consumer-appliance-home-device-gear-motors.md) | Define end stops, holding needs and enclosure space |
+
+These are **application ideas for engineering evaluation**, not claims that the 20P has been production-validated in these devices. Final suitability depends on rated torque, ratio and stage count, output-shaft loads, input speed, mounting details and representative device testing.
+
+### 20P Engineering Path: Application → Model → STEP CAD → Inquiry
+
+[Find a Gearhead — Maximum 20 mm Filter](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=20#preliminary-ratio-stage-finder){ .md-button }
+[20P Technical Datasheet](../../engineering-resources/20p/datasheet.md){ .md-button }
+[20P Mechanical Interface](../../engineering-resources/20p/mechanical-interface.md){ .md-button }
+
+[Download 20P Simplified 4-Stage STEP](../../assets/downloads/20p/20P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
+[Request 20P Configuration-Matched CAD or Sample](../../request-cad-sample-quote.md?model=20P){ .md-button }
+
+**CAD boundary:** Public simplified STEP shows a **4-stage reference only**. Other ratios, stage counts, motor interfaces and production drawings require an engineering review. The selector's diameter filter is a maximum limit, not confirmation of 20P application suitability.
 
 ## Supply Configuration
 
-SigGear can supply the **20P 20 mm planetary gearbox as a gearbox-only unit**, subject to the selected ratio and mechanical interface. This route is relevant if you already have a motor and need to evaluate shaft, pilot, mounting-pattern and input-speed compatibility.
+SigGear can supply the **20P 20 mm precision planetary gearhead as a Gearhead Only unit**, subject to the selected ratio and mechanical interface. This route is relevant if you already have a motor and need to evaluate shaft, pilot, mounting-pattern and input-speed compatibility.
 
-If you need a **motor + planetary gearbox assembly**, SigGear can evaluate a matching motor against the required output speed, continuous load, voltage, available space and duty cycle. Compatibility and final performance must be confirmed for the exact configuration.
+If you need a **Motor + Gearhead Assembly**, SigGear can evaluate a matching motor against the required output speed, continuous load, voltage, available space and duty cycle. Compatibility and final performance must be confirmed for the exact configuration.
 
-[Start a 20P OEM Gearbox Inquiry](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Start a 20P OEM Gearhead Inquiry](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
 
 
 [Existing Motor — Start 20P Design-In Review](../../request-cad-sample-quote.md?model=20P&path=gearbox_only){ .md-button .md-button--primary }
-[Complete Drive — Start 20P Motor + Gearbox Review](../../request-cad-sample-quote.md?model=20P&path=motor_gearbox){ .md-button }
+[Complete Drive — Start 20P Motor + Gearhead Review](../../request-cad-sample-quote.md?model=20P&path=motor_gearbox){ .md-button }
 
 [Not Sure Yet — Open 20P Project Brief](../../request-cad-sample-quote.md?model=20P){ .md-button }
 
@@ -156,12 +171,12 @@ A detailed full-assembly STEP is held as configuration-controlled engineering CA
 
 The link above opens the **20P product detail page** on TraceParts International, using the exact address provided by the SigGear operator. STEP AP203 generation and download for this model were confirmed on **2026-10-14**. The Chinese catalog link is provided as an alternative browsing route. Public CAD is a **simplified 4-stage reference**; check stage, ratio and interfaces before production design, and request controlled configuration-matched CAD if required.
 
-## Related Planetary Gearbox Resources
+## Related Planetary Gearhead Resources
 
 **Need to compare the installation envelope?** See the smaller [16P 16 mm Micro Planetary Gearbox](16p-planetary-gearbox.md) and the larger [22P 22 mm Miniature Planetary Gearbox](22p-planetary-gearbox.md), then verify each model's output load and shaft interface. Frame sizes are not drop-in substitutes.
 
-[8–42 mm Planetary Gearbox Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Browse All Planetary Gearboxes](index.md){ .md-button }
+[8–42 mm Precision Planetary Gearheads](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Browse All Planetary Gearheads](index.md){ .md-button }
 [Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
 
 ## Contact SigGear

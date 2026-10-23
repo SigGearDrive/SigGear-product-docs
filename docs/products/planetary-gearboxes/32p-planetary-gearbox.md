@@ -1,14 +1,14 @@
 ---
-title: 32 mm Miniature Planetary Gearbox (32P)
-description: "SigGear 32P: 32 mm miniature planetary gearbox with 1–4 stages and 28.05–52.95 mm body lengths. Datasheet, motor integration, Design-In Pack and STEP CAD."
+title: 32 mm Miniature Precision Planetary Gearhead (32P)
+description: "SigGear 32P 32 mm miniature precision planetary gearhead for pruning tools, powered screwdrivers and compact grippers. Review Design-In Pack and STEP CAD."
 ---
 
 
-# 32 mm Miniature Planetary Gearbox (32P)
+# 32 mm Miniature Precision Planetary Gearhead (32P)
 
 ## Product Overview
 
-The SigGear 32P is a 32 mm miniature planetary gearbox for compact motorized mechanisms requiring higher torque capacity in a still-compact planetary gearbox package. Published configurations cover one to four stages, with reduction ratios from 3.5:1 to 509.1:1.
+The SigGear 32P is a 32 mm miniature precision planetary gearhead (planetary gearbox) for compact motorized mechanisms requiring higher torque capacity in a still-compact planetary gearbox package. Published configurations cover one to four stages, with reduction ratios from 3.5:1 to 509.1:1.
 
 ## Real Product Photography
 
@@ -38,7 +38,7 @@ The downloadable STEP represents the **4-stage reference configuration only** an
 | Item | Description |
 | --- | --- |
 | Model | 32P |
-| Product type | Miniature planetary gearbox |
+| Product type | Miniature precision planetary gearhead (planetary gearbox) |
 | Nominal outer diameter | 32 mm |
 | Number of stages | 1 to 4 |
 | Manufacturing process | Machining |
@@ -108,26 +108,40 @@ Use the controlled drawing for final tolerances, keyseat definition and producti
 
 ## Typical Applications
 
-- Compact robotic joints and grippers
-- Medical and laboratory automation mechanisms
-- Precision instruments and optical adjustment mechanisms
-- Mini pumps and valve drives
-- Smart hardware and compact actuators
-- Servo and automation modules
+### Potential OEM Applications for the 32P 32 mm Gearhead
 
-Application suitability depends on the selected ratio, motor, load direction, duty cycle, installation and required service life.
+The 32P remains in SigGear's published Miniature class, but OEM teams may screen it where peak loads start pushing beyond smaller frame sizes.
+
+| Example mechanism and application guide | Critical selection checks |
+| --- | --- |
+| [Electric pruning shear transmission](../../applications/electric-pruning-shears-planetary-gearbox.md) | Calculate blade force, cut-cycle peaks and gearbox thermal duty |
+| [Battery-powered screwdriver drive](../../applications/powered-screwdriver-planetary-gearbox.md) | Verify fastening torque, peak stall and motor input speed |
+| [Industrial robotic gripping mechanism](../../applications/robot-gripper-gear-motors.md) | Check jaw geometry, shock load and bearing support |
+
+These are **application ideas for engineering evaluation**, not claims that the 32P has been production-validated in these devices. Final suitability depends on rated torque, ratio and stage count, output-shaft loads, input speed, mounting details and representative device testing.
+
+### 32P Engineering Path: Application → Model → STEP CAD → Inquiry
+
+[Find a Gearhead — Maximum 32 mm Filter](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=32#preliminary-ratio-stage-finder){ .md-button }
+[32P Technical Datasheet](../../engineering-resources/32p/datasheet.md){ .md-button }
+[32P Mechanical Interface](../../engineering-resources/32p/mechanical-interface.md){ .md-button }
+
+[Download 32P Simplified 4-Stage STEP](../../assets/downloads/32p/32P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
+[Request 32P Configuration-Matched CAD or Sample](../../request-cad-sample-quote.md?model=32P){ .md-button }
+
+**CAD boundary:** Public simplified STEP shows a **4-stage reference only**. Other ratios, stage counts, motor interfaces and production drawings require an engineering review. The selector's diameter filter is a maximum limit, not confirmation of 32P application suitability.
 
 ## Supply Configuration
 
-SigGear can supply the **32P 32 mm planetary gearbox as a gearbox-only unit**, subject to the selected ratio and mechanical interface. This route is relevant if you already have a motor and need to evaluate shaft, pilot, mounting-pattern and input-speed compatibility.
+SigGear can supply the **32P 32 mm precision planetary gearhead as a Gearhead Only unit**, subject to the selected ratio and mechanical interface. This route is relevant if you already have a motor and need to evaluate shaft, pilot, mounting-pattern and input-speed compatibility.
 
-If you need a **motor + planetary gearbox assembly**, SigGear can evaluate a matching motor against the required output speed, continuous load, voltage, available space and duty cycle. Compatibility and final performance must be confirmed for the exact configuration.
+If you need a **Motor + Gearhead Assembly**, SigGear can evaluate a matching motor against the required output speed, continuous load, voltage, available space and duty cycle. Compatibility and final performance must be confirmed for the exact configuration.
 
-[Start a 32P OEM Gearbox Inquiry](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Start a 32P OEM Gearhead Inquiry](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
 
 
 [Existing Motor — Start 32P Design-In Review](../../request-cad-sample-quote.md?model=32P&path=gearbox_only){ .md-button .md-button--primary }
-[Complete Drive — Start 32P Motor + Gearbox Review](../../request-cad-sample-quote.md?model=32P&path=motor_gearbox){ .md-button }
+[Complete Drive — Start 32P Motor + Gearhead Review](../../request-cad-sample-quote.md?model=32P&path=motor_gearbox){ .md-button }
 
 [Not Sure Yet — Open 32P Project Brief](../../request-cad-sample-quote.md?model=32P){ .md-button }
 
@@ -173,13 +187,13 @@ For 1-, 2- or 3-stage CAD, or for the controlled production drawing, contact Sig
 
 The link above opens the **32P product detail page** on TraceParts International, using the exact address provided by the SigGear operator. STEP AP203 generation and download for this model were confirmed on **2026-10-14**. The Chinese catalog link is provided as an alternative browsing route. Public CAD is a **simplified 4-stage reference**; check stage, ratio and interfaces before production design, and request controlled configuration-matched CAD if required.
 
-## Related Planetary Gearbox Resources
+## Related Planetary Gearhead Resources
 
 **Comparing miniature and compact frame sizes?** Review the [28P 28 mm Miniature Planetary Gearbox](28p-planetary-gearbox.md) or [36P 36 mm Compact Planetary Gearbox](36p-planetary-gearbox.md) alongside this 32P Design-In Pack. Stage length, rated load and motor-side mounting must be evaluated separately for each frame.
 
 [Custom Planetary Gearbox Engineering](../../custom-engineering/custom-planetary-gearbox.md){ .md-button .md-button--primary }
-[8–42 mm Planetary Gearbox Series](8-42mm-planetary-gear-reducer.md){ .md-button }
-[Browse All Planetary Gearboxes](index.md){ .md-button }
+[8–42 mm Precision Planetary Gearheads](8-42mm-planetary-gear-reducer.md){ .md-button }
+[Browse All Planetary Gearheads](index.md){ .md-button }
 [Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
 
 ## Contact SigGear

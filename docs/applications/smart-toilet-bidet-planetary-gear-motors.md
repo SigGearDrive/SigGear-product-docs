@@ -35,6 +35,20 @@ SigGear's current standard planetary gearbox range covers nominal diameters from
 [Download Simplified Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Start Smart Toilet / Bidet Project Brief](../request-cad-sample-quote.md?app=smart_toilet_bidet){ .md-button }
 
+## Compare Published SigGear Gearhead Models
+
+For smart-toilet seats, lids and nozzle positioning, begin with the motion geometry and environmental boundary. These **model pages are comparison starting points**, not device-qualified approvals.
+
+| Frame and specification page | Example mechanism for evaluation | Engineering checks |
+| --- | --- | --- |
+| [16P 16 mm Gearhead](../products/planetary-gearboxes/16p-planetary-gearbox.md) | Compact auxiliary flap or positioning mechanism | Review travel, load and end-stop behavior |
+| [20P 20 mm Gearhead](../products/planetary-gearboxes/20p-planetary-gearbox.md) | Small powered lid or mechanism candidate | Verify holding requirements and jam torque |
+| [22P 22 mm Gearhead](../products/planetary-gearboxes/22p-planetary-gearbox.md) | Alternative integration size for OEM packaging | Check motor interface, moisture isolation and noise |
+
+These are **potential candidates for initial engineering comparison**, not claims of suitability, certification or production deployment. Consult each model's rated torque, stage-dependent ratio and length, output load limit, motor interface and simplified 4-stage STEP reference before design freeze.
+
+[Browse All 12 Precision Planetary Gearheads](../products/planetary-gearboxes/index.md){ .md-button }
+
 ## Main Selection Factors
 
 ### 1. Motion, Force and Output Speed

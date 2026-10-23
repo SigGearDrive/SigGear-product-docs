@@ -1,14 +1,14 @@
 ---
-title: 36 mm Compact Planetary Gearbox (36P)
-description: SigGear 36P is a 36 mm compact planetary gearbox / gearhead with 3.66:1–625:1 published ratios, datasheet, STEP CAD, gearbox-only supply and motor matching.
+title: 36 mm Compact Precision Planetary Gearhead (36P)
+description: "SigGear 36P 36 mm compact precision planetary gearhead for garden tools, automated pet care and industrial actuation. Compare rated data and STEP CAD."
 ---
 
 
-# 36 mm Compact Planetary Gearbox (36P)
+# 36 mm Compact Precision Planetary Gearhead (36P)
 
 ## Product Overview
 
-The SigGear 36P is a 36 mm compact planetary gearbox for compact motorized mechanisms requiring higher torque capacity while retaining a compact cylindrical planetary gearbox format. Published configurations cover one to four stages, with reduction ratios from 3.66:1 to 625:1.
+The SigGear 36P is a 36 mm compact precision planetary gearhead (planetary gearbox) for compact motorized mechanisms requiring higher torque capacity while retaining a compact cylindrical planetary gearbox format. Published configurations cover one to four stages, with reduction ratios from 3.66:1 to 625:1.
 
 ## Real Product Evidence
 
@@ -29,7 +29,7 @@ The SigGear 36P is a 36 mm compact planetary gearbox for compact motorized mecha
 | Item | Description |
 | --- | --- |
 | Model | 36P |
-| Product type | Compact planetary gearbox |
+| Product type | Compact precision planetary gearhead (planetary gearbox) |
 | Nominal outer diameter | 36 mm |
 | Number of stages | 1 to 4 |
 | Housing material | Steel |
@@ -91,22 +91,36 @@ The published drawing shows a 36 mm body diameter and stage-dependent gearbox le
 
 ## Typical Applications
 
-- Compact robotic joints and grippers
-- Medical and laboratory automation mechanisms
-- Precision instruments and optical adjustment mechanisms
-- Mini pumps and valve drives
-- Smart hardware and compact actuators
-- Servo and automation modules
+### Potential OEM Applications for the 36P 36 mm Gearhead
 
-Application suitability depends on the selected ratio, motor, load direction, duty cycle, installation and required service life.
+The 36P begins the published Compact size class. Compare continuous output torque and bearing load before considering its use in high-load mechanisms.
+
+| Example mechanism and application guide | Critical selection checks |
+| --- | --- |
+| [Battery-powered garden pruner](../../applications/electric-pruning-shears-planetary-gearbox.md) | Check cutting peaks, battery motor speed and shaft loading |
+| [Automatic litter-box rotation mechanism](../../applications/smart-pet-feeder-litter-box-planetary-gearheads.md) | Assess unbalanced drum load, external bearings and jam detection |
+| [Compact automation fixture or indexer](../../applications/industrial-automation-servo-planetary-gearboxes.md) | Define torque profile, repeatability and duty cycle |
+
+These are **application ideas for engineering evaluation**, not claims that the 36P has been production-validated in these devices. Final suitability depends on rated torque, ratio and stage count, output-shaft loads, input speed, mounting details and representative device testing.
+
+### 36P Engineering Path: Application → Model → STEP CAD → Inquiry
+
+[Find a Gearhead — Maximum 36 mm Filter](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=36#preliminary-ratio-stage-finder){ .md-button }
+[36P Technical Datasheet](../../engineering-resources/36p/datasheet.md){ .md-button }
+[36P Mechanical Interface](../../engineering-resources/36p/mechanical-interface.md){ .md-button }
+
+[Download 36P Simplified 4-Stage STEP](../../assets/downloads/36p/36P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
+[Request 36P Configuration-Matched CAD or Sample](../../request-cad-sample-quote.md?model=36P){ .md-button }
+
+**CAD boundary:** Public simplified STEP shows a **4-stage reference only**. Other ratios, stage counts, motor interfaces and production drawings require an engineering review. The selector's diameter filter is a maximum limit, not confirmation of 36P application suitability.
 
 ## Supply Configuration
 
-SigGear can supply the planetary gearbox as a gearbox-only unit, or evaluate and match a motor based on the customer's specific application requirements to provide a complete motor + gearbox assembly.
+SigGear can evaluate the 36P as **Gearhead Only** for an existing motor, or review a **Motor + Gearhead Assembly** for the customer's specific application. Motor-to-gearhead interface and final performance remain subject to engineering confirmation.
 
 
 [Existing Motor — Start 36P Design-In Review](../../request-cad-sample-quote.md?model=36P&path=gearbox_only){ .md-button .md-button--primary }
-[Complete Drive — Start 36P Motor + Gearbox Review](../../request-cad-sample-quote.md?model=36P&path=motor_gearbox){ .md-button }
+[Complete Drive — Start 36P Motor + Gearhead Review](../../request-cad-sample-quote.md?model=36P&path=motor_gearbox){ .md-button }
 
 [Not Sure Yet — Open 36P Project Brief](../../request-cad-sample-quote.md?model=36P){ .md-button }
 
@@ -143,10 +157,10 @@ A detailed full-assembly STEP is held as configuration-controlled engineering CA
 
 The link above opens the **36P product detail page** on TraceParts International, using the exact address provided by the SigGear operator. STEP AP203 generation and download for this model were confirmed on **2026-10-14**. The Chinese catalog link is provided as an alternative browsing route. Public CAD is a **simplified 4-stage reference**; check stage, ratio and interfaces before production design, and request controlled configuration-matched CAD if required.
 
-## Related Planetary Gearbox Resources
+## Related Planetary Gearhead Resources
 
-[8–42 mm Planetary Gearbox Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Browse All Planetary Gearboxes](index.md){ .md-button }
+[8–42 mm Precision Planetary Gearheads](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Browse All Planetary Gearheads](index.md){ .md-button }
 [Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
 
 ## Contact SigGear

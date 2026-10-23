@@ -1,14 +1,14 @@
 ---
-title: 8 mm Micro Planetary Gearbox (8P)
-description: "SigGear 8P: 8 mm micro planetary gearbox with published 1–4 stage ratios and 10.15–18.10 mm body lengths. Compare datasheet, motor interface and 4-stage STEP CAD."
+title: 8 mm Micro Precision Planetary Gearhead (8P)
+description: "SigGear 8P 8 mm micro precision planetary gearhead for OEM optical positioning and laboratory mechanisms. Compare ratios, interface drawings and simplified STEP CAD."
 ---
 
 
-# 8 mm Micro Planetary Gearbox (8P)
+# 8 mm Micro Precision Planetary Gearhead (8P)
 
 ## Product Overview
 
-The SigGear 8P is an 8 mm micro planetary gearbox for compact motorized mechanisms. The published configurations cover one to four stages, with reduction ratios from 3.8:1 to 731.16:1.
+The SigGear 8P is an 8 mm micro precision planetary gearhead (planetary gearbox) for compact motorized mechanisms. The published configurations cover one to four stages, with reduction ratios from 3.8:1 to 731.16:1.
 
 ![SigGear 8P 8 mm micro planetary gearbox — product photo](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-main.webp)
 
@@ -25,7 +25,7 @@ The SigGear 8P is an 8 mm micro planetary gearbox for compact motorized mechanis
 | Item | Description |
 | --- | --- |
 | Model | 8P |
-| Product type | Micro planetary gearbox |
+| Product type | Micro precision planetary gearhead (planetary gearbox) |
 | Nominal outer diameter | 8 mm |
 | Number of stages | 1 to 4 |
 | Housing material | Steel |
@@ -83,21 +83,36 @@ The published drawing shows an 8 mm body, an M8×0.5 external thread, a 5.8 mm o
 
 ## Typical Applications
 
-- Micro robotics and compact actuators
-- Medical and laboratory automation mechanisms
-- Precision instruments and optical adjustment mechanisms
-- Mini pumps and valve drives
-- Compact grippers and smart hardware
+### Potential OEM Applications for the 8P 8 mm Gearhead
 
-Application suitability depends on the selected ratio, motor, load direction, duty cycle, installation and required service life.
+At an 8 mm nominal diameter, initial design work should prioritize installation space and shaft loading before selecting a reduction ratio.
+
+| Example mechanism and application guide | Critical selection checks |
+| --- | --- |
+| [Micro optical and instrument adjustment](../../applications/precision-instruments-optical-mechanisms.md) | Review positional repeatability, backlash and allowable envelope |
+| [Laboratory micro positioning](../../applications/laboratory-automation-diagnostic-equipment-gear-motors.md) | Check travel profile, cycle count and mechanical interface |
+| [Miniature robotic finger or tendon spool](../../applications/robot-gripper-gear-motors.md) | Check finger force, spool geometry and shaft radial loading |
+
+These are **application ideas for engineering evaluation**, not claims that the 8P has been production-validated in these devices. Final suitability depends on rated torque, ratio and stage count, output-shaft loads, input speed, mounting details and representative device testing.
+
+### 8P Engineering Path: Application → Model → STEP CAD → Inquiry
+
+[Find a Gearhead — Maximum 8 mm Filter](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=8#preliminary-ratio-stage-finder){ .md-button }
+[8P Technical Datasheet](../../engineering-resources/8p/datasheet.md){ .md-button }
+[8P Mechanical Interface](../../engineering-resources/8p/mechanical-interface.md){ .md-button }
+
+[Download 8P Simplified 4-Stage STEP](../../assets/downloads/8p/8P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
+[Request 8P Configuration-Matched CAD or Sample](../../request-cad-sample-quote.md?model=8P){ .md-button }
+
+**CAD boundary:** Public simplified STEP shows a **4-stage reference only**. Other ratios, stage counts, motor interfaces and production drawings require an engineering review. The selector's diameter filter is a maximum limit, not confirmation of 8P application suitability.
 
 ## Supply Configuration
 
-SigGear can supply the planetary gearbox as a gearbox-only unit, or evaluate and match a motor based on the customer's specific application requirements to provide a complete motor + gearbox assembly.
+SigGear can evaluate the 8P as **Gearhead Only** for an existing motor, or review a **Motor + Gearhead Assembly** for the customer's specific application. Motor-to-gearhead interface and final performance remain subject to engineering confirmation.
 
 
 [Existing Motor — Start 8P Design-In Review](../../request-cad-sample-quote.md?model=8P&path=gearbox_only){ .md-button .md-button--primary }
-[Complete Drive — Start 8P Motor + Gearbox Review](../../request-cad-sample-quote.md?model=8P&path=motor_gearbox){ .md-button }
+[Complete Drive — Start 8P Motor + Gearhead Review](../../request-cad-sample-quote.md?model=8P&path=motor_gearbox){ .md-button }
 
 [Not Sure Yet — Open 8P Project Brief](../../request-cad-sample-quote.md?model=8P){ .md-button }
 
@@ -134,10 +149,10 @@ A detailed full-assembly STEP is held as configuration-controlled engineering CA
 
 The link above opens the **8P product detail page** on TraceParts International, using the exact address provided by the SigGear operator. STEP AP203 generation and download for this model were confirmed on **2026-10-14**. The Chinese catalog link is provided as an alternative browsing route. Public CAD is a **simplified 4-stage reference**; check stage, ratio and interfaces before production design, and request controlled configuration-matched CAD if required.
 
-## Related Planetary Gearbox Resources
+## Related Planetary Gearhead Resources
 
-[8–42 mm Planetary Gearbox Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Browse All Planetary Gearboxes](index.md){ .md-button }
+[8–42 mm Precision Planetary Gearheads](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Browse All Planetary Gearheads](index.md){ .md-button }
 [Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
 
 ## Contact SigGear

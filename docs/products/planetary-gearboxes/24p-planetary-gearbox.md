@@ -1,14 +1,14 @@
 ---
-title: 24 mm Miniature Planetary Gearbox (24P)
-description: SigGear 24P is a 24 mm miniature planetary gearbox / gearhead with 3.83:1–759.7:1 published ratios, datasheet, STEP CAD, gearbox-only supply and motor matching.
+title: 24 mm Miniature Precision Planetary Gearhead (24P)
+description: "Evaluate SigGear 24P 24 mm miniature precision planetary gearhead for automatic dispensing, valve control and compact robotics. Datasheet, interface and STEP CAD."
 ---
 
 
-# 24 mm Miniature Planetary Gearbox (24P)
+# 24 mm Miniature Precision Planetary Gearhead (24P)
 
 ## Product Overview
 
-The SigGear 24P is a 24 mm miniature planetary gearbox for compact motorized mechanisms. The published configurations cover one to four stages, with reduction ratios from 3.83:1 to 759.7:1.
+The SigGear 24P is a 24 mm miniature precision planetary gearhead (planetary gearbox) for compact motorized mechanisms. The published configurations cover one to four stages, with reduction ratios from 3.83:1 to 759.7:1.
 
 ## Real Product Evidence
 
@@ -27,7 +27,7 @@ The SigGear 24P is a 24 mm miniature planetary gearbox for compact motorized mec
 | Item | Description |
 | --- | --- |
 | Model | 24P |
-| Product type | Miniature planetary gearbox |
+| Product type | Miniature precision planetary gearhead (planetary gearbox) |
 | Nominal outer diameter | 24 mm |
 | Number of stages | 1 to 4 |
 | Housing material | Steel |
@@ -86,21 +86,36 @@ The published drawing shows a 24 mm body and stage-dependent gearbox lengths of 
 
 ## Typical Applications
 
-- Micro robotics and compact actuators
-- Medical and laboratory automation mechanisms
-- Precision instruments and optical adjustment mechanisms
-- Mini pumps and valve drives
-- Compact grippers and smart hardware
+### Potential OEM Applications for the 24P 24 mm Gearhead
 
-Application suitability depends on the selected ratio, motor, load direction, duty cycle, installation and required service life.
+For a 24 mm envelope, start with normal running torque and peak obstructions, then check the chosen motor and its mounting interface.
+
+| Example mechanism and application guide | Critical selection checks |
+| --- | --- |
+| [Automatic pet feeder metering drive](../../applications/smart-pet-feeder-litter-box-planetary-gearheads.md) | Review auger clogging, feed consistency and output support |
+| [Compact irrigation or fluid valve](../../applications/pump-valve-fluid-control-gear-motors.md) | Confirm valve breakaway torque, pressure and duty cycle |
+| [Small gripper rotary jaw](../../applications/robot-gripper-gear-motors.md) | Calculate jaw force, gearbox ratio and positioning targets |
+
+These are **application ideas for engineering evaluation**, not claims that the 24P has been production-validated in these devices. Final suitability depends on rated torque, ratio and stage count, output-shaft loads, input speed, mounting details and representative device testing.
+
+### 24P Engineering Path: Application → Model → STEP CAD → Inquiry
+
+[Find a Gearhead — Maximum 24 mm Filter](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=24#preliminary-ratio-stage-finder){ .md-button }
+[24P Technical Datasheet](../../engineering-resources/24p/datasheet.md){ .md-button }
+[24P Mechanical Interface](../../engineering-resources/24p/mechanical-interface.md){ .md-button }
+
+[Download 24P Simplified 4-Stage STEP](../../assets/downloads/24p/24P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
+[Request 24P Configuration-Matched CAD or Sample](../../request-cad-sample-quote.md?model=24P){ .md-button }
+
+**CAD boundary:** Public simplified STEP shows a **4-stage reference only**. Other ratios, stage counts, motor interfaces and production drawings require an engineering review. The selector's diameter filter is a maximum limit, not confirmation of 24P application suitability.
 
 ## Supply Configuration
 
-SigGear can supply the planetary gearbox as a gearbox-only unit, or evaluate and match a motor based on the customer's specific application requirements to provide a complete motor + gearbox assembly.
+SigGear can evaluate the 24P as **Gearhead Only** for an existing motor, or review a **Motor + Gearhead Assembly** for the customer's specific application. Motor-to-gearhead interface and final performance remain subject to engineering confirmation.
 
 
 [Existing Motor — Start 24P Design-In Review](../../request-cad-sample-quote.md?model=24P&path=gearbox_only){ .md-button .md-button--primary }
-[Complete Drive — Start 24P Motor + Gearbox Review](../../request-cad-sample-quote.md?model=24P&path=motor_gearbox){ .md-button }
+[Complete Drive — Start 24P Motor + Gearhead Review](../../request-cad-sample-quote.md?model=24P&path=motor_gearbox){ .md-button }
 
 [Not Sure Yet — Open 24P Project Brief](../../request-cad-sample-quote.md?model=24P){ .md-button }
 
@@ -137,10 +152,10 @@ A detailed full-assembly STEP is held as configuration-controlled engineering CA
 
 The link above opens the **24P product detail page** on TraceParts International, using the exact address provided by the SigGear operator. STEP AP203 generation and download for this model were confirmed on **2026-10-14**. The Chinese catalog link is provided as an alternative browsing route. Public CAD is a **simplified 4-stage reference**; check stage, ratio and interfaces before production design, and request controlled configuration-matched CAD if required.
 
-## Related Planetary Gearbox Resources
+## Related Planetary Gearhead Resources
 
-[8–42 mm Planetary Gearbox Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Browse All Planetary Gearboxes](index.md){ .md-button }
+[8–42 mm Precision Planetary Gearheads](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Browse All Planetary Gearheads](index.md){ .md-button }
 [Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
 
 ## Contact SigGear

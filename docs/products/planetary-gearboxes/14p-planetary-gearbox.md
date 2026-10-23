@@ -1,14 +1,14 @@
 ---
-title: 14 mm Micro Planetary Gearbox (14P)
-description: SigGear 14P is a 14 mm micro planetary gearbox / gearhead with 3.75:1–443.3:1 published ratios, datasheet, STEP CAD, gearbox-only supply and motor matching.
+title: 14 mm Micro Precision Planetary Gearhead (14P)
+description: "Evaluate SigGear 14P 14 mm micro precision planetary gearheads for dexterous hands, laboratory systems and precision instruments. Datasheet and 4-stage STEP reference."
 ---
 
 
-# 14 mm Micro Planetary Gearbox (14P)
+# 14 mm Micro Precision Planetary Gearhead (14P)
 
 ## Product Overview
 
-The SigGear 14P is a 14 mm micro planetary gearbox for compact motorized mechanisms. The published configurations cover one to four stages, with reduction ratios from 3.75:1 to 443.3:1.
+The SigGear 14P is a 14 mm micro precision planetary gearhead (planetary gearbox) for compact motorized mechanisms. The published configurations cover one to four stages, with reduction ratios from 3.75:1 to 443.3:1.
 
 ![SigGear 14P 14 mm micro planetary gearbox](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearbox-main.webp)
 
@@ -29,7 +29,7 @@ The SigGear 14P is a 14 mm micro planetary gearbox for compact motorized mechani
 | Item | Description |
 | --- | --- |
 | Model | 14P |
-| Product type | Micro planetary gearbox |
+| Product type | Micro precision planetary gearhead (planetary gearbox) |
 | Nominal outer diameter | 14 mm |
 | Number of stages | 1 to 4 |
 | Housing material | Steel |
@@ -92,21 +92,36 @@ The published drawing shows a 14 mm body, a 10.0 mm output-shaft extension and s
 
 ## Typical Applications
 
-- Micro robotics and compact actuators
-- Medical and laboratory automation mechanisms
-- Precision instruments and optical adjustment mechanisms
-- Mini pumps and valve drives
-- Compact grippers and smart hardware
+### Potential OEM Applications for the 14P 14 mm Gearhead
 
-Application suitability depends on the selected ratio, motor, load direction, duty cycle, installation and required service life.
+The 14P is a micro-frame candidate when a design must balance a strict diameter limit with a required output torque and motor interface.
+
+| Example mechanism and application guide | Critical selection checks |
+| --- | --- |
+| [Dexterous hand finger actuation](../../applications/robot-gripper-gear-motors.md) | Check tendon force, spool radius and backdrivability |
+| [Automated pipetting mechanism](../../applications/laboratory-automation-diagnostic-equipment-gear-motors.md) | Define low-speed motion, repeatability and operating cycles |
+| [Precision optical alignment](../../applications/precision-instruments-optical-mechanisms.md) | Confirm backlash target, vibration and mounting stiffness |
+
+These are **application ideas for engineering evaluation**, not claims that the 14P has been production-validated in these devices. Final suitability depends on rated torque, ratio and stage count, output-shaft loads, input speed, mounting details and representative device testing.
+
+### 14P Engineering Path: Application → Model → STEP CAD → Inquiry
+
+[Find a Gearhead — Maximum 14 mm Filter](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=14#preliminary-ratio-stage-finder){ .md-button }
+[14P Technical Datasheet](../../engineering-resources/14p/datasheet.md){ .md-button }
+[14P Mechanical Interface](../../engineering-resources/14p/mechanical-interface.md){ .md-button }
+
+[Download 14P Simplified 4-Stage STEP](../../assets/downloads/14p/14P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
+[Request 14P Configuration-Matched CAD or Sample](../../request-cad-sample-quote.md?model=14P){ .md-button }
+
+**CAD boundary:** Public simplified STEP shows a **4-stage reference only**. Other ratios, stage counts, motor interfaces and production drawings require an engineering review. The selector's diameter filter is a maximum limit, not confirmation of 14P application suitability.
 
 ## Supply Configuration
 
-SigGear can supply the planetary gearbox as a gearbox-only unit, or evaluate and match a motor based on the customer's specific application requirements to provide a complete motor + gearbox assembly.
+SigGear can evaluate the 14P as **Gearhead Only** for an existing motor, or review a **Motor + Gearhead Assembly** for the customer's specific application. Motor-to-gearhead interface and final performance remain subject to engineering confirmation.
 
 
 [Existing Motor — Start 14P Design-In Review](../../request-cad-sample-quote.md?model=14P&path=gearbox_only){ .md-button .md-button--primary }
-[Complete Drive — Start 14P Motor + Gearbox Review](../../request-cad-sample-quote.md?model=14P&path=motor_gearbox){ .md-button }
+[Complete Drive — Start 14P Motor + Gearhead Review](../../request-cad-sample-quote.md?model=14P&path=motor_gearbox){ .md-button }
 
 [Not Sure Yet — Open 14P Project Brief](../../request-cad-sample-quote.md?model=14P){ .md-button }
 
@@ -143,10 +158,10 @@ A detailed full-assembly STEP is held as configuration-controlled engineering CA
 
 The link above opens the **14P product detail page** on TraceParts International, using the exact address provided by the SigGear operator. STEP AP203 generation and download for this model were confirmed on **2026-10-14**. The Chinese catalog link is provided as an alternative browsing route. Public CAD is a **simplified 4-stage reference**; check stage, ratio and interfaces before production design, and request controlled configuration-matched CAD if required.
 
-## Related Planetary Gearbox Resources
+## Related Planetary Gearhead Resources
 
-[8–42 mm Planetary Gearbox Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Browse All Planetary Gearboxes](index.md){ .md-button }
+[8–42 mm Precision Planetary Gearheads](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Browse All Planetary Gearheads](index.md){ .md-button }
 [Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
 
 ## Contact SigGear

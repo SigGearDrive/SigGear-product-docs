@@ -1,14 +1,14 @@
 ---
-title: 42 mm Compact Planetary Gearbox (42P)
-description: "SigGear 42P: 42 mm compact planetary gearbox with 3.8:1–660.7:1 published ratio options. Review the datasheet, motor guide, Design-In Pack and STEP CAD."
+title: 42 mm Compact Precision Planetary Gearhead (42P)
+description: "Evaluate SigGear 42P 42 mm compact precision planetary gearhead for higher-load pruning, fastening and compact OEM actuation. Design-In resources and STEP CAD."
 ---
 
 
-# 42 mm Compact Planetary Gearbox (42P)
+# 42 mm Compact Precision Planetary Gearhead (42P)
 
 ## Product Overview
 
-The SigGear 42P is a 42 mm compact planetary gearbox for compact motorized mechanisms requiring higher torque capacity in the 8–42 mm planetary gearbox series. Published configurations cover one to four stages, with reduction ratios from 3.8:1 to 660.7:1.
+The SigGear 42P is a 42 mm compact precision planetary gearhead (planetary gearbox) for compact motorized mechanisms requiring higher torque capacity in the 8–42 mm planetary gearbox series. Published configurations cover one to four stages, with reduction ratios from 3.8:1 to 660.7:1.
 
 ## Real Product Evidence
 
@@ -38,7 +38,7 @@ The downloadable STEP represents the **4-stage reference configuration only** an
 | Item | Description |
 | --- | --- |
 | Model | 42P |
-| Product type | Compact planetary gearbox |
+| Product type | Compact precision planetary gearhead (planetary gearbox) |
 | Nominal outer diameter | 42 mm |
 | Number of stages | 1 to 4 |
 | Manufacturing process | Machining |
@@ -94,26 +94,40 @@ These are published gearbox limits. The actual application load direction, duty 
 
 ## Typical Applications
 
-- Compact robotic joints and grippers
-- Medical and laboratory automation mechanisms
-- Precision instruments and optical adjustment mechanisms
-- Mini pumps and valve drives
-- Smart hardware and compact actuators
-- Servo and automation modules
+### Potential OEM Applications for the 42P 42 mm Gearhead
 
-Application suitability depends on the selected ratio, motor, load direction, duty cycle, installation and required service life.
+The 42P is the largest published SigGear planetary frame in this series; use the stage-dependent rated torque table rather than assuming a universal high-torque rating.
+
+| Example mechanism and application guide | Critical selection checks |
+| --- | --- |
+| [Electric pruning or cable-cutting mechanisms](../../applications/electric-pruning-shears-planetary-gearbox.md) | Separate continuous torque from cutting peak, shock and jam loads |
+| [Higher-load powered fastening tools](../../applications/powered-screwdriver-planetary-gearbox.md) | Calculate torque requirement, run time and motor interface |
+| [Compact industrial gripper or actuator](../../applications/industrial-automation-servo-planetary-gearboxes.md) | Check output support, speed, backlash and cycle life |
+
+These are **application ideas for engineering evaluation**, not claims that the 42P has been production-validated in these devices. Final suitability depends on rated torque, ratio and stage count, output-shaft loads, input speed, mounting details and representative device testing.
+
+### 42P Engineering Path: Application → Model → STEP CAD → Inquiry
+
+[Find a Gearhead — Maximum 42 mm Filter](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=42#preliminary-ratio-stage-finder){ .md-button }
+[42P Technical Datasheet](../../engineering-resources/42p/datasheet.md){ .md-button }
+[42P Mechanical Interface](../../engineering-resources/42p/mechanical-interface.md){ .md-button }
+
+[Download 42P Simplified 4-Stage STEP](../../assets/downloads/42p/42P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
+[Request 42P Configuration-Matched CAD or Sample](../../request-cad-sample-quote.md?model=42P){ .md-button }
+
+**CAD boundary:** Public simplified STEP shows a **4-stage reference only**. Other ratios, stage counts, motor interfaces and production drawings require an engineering review. The selector's diameter filter is a maximum limit, not confirmation of 42P application suitability.
 
 ## Supply Configuration
 
-SigGear can supply the **42P 42 mm planetary gearbox as a gearbox-only unit**, subject to the selected ratio and mechanical interface. This route is relevant if you already have a motor and need to evaluate shaft, pilot, mounting-pattern and input-speed compatibility.
+SigGear can supply the **42P 42 mm precision planetary gearhead as a Gearhead Only unit**, subject to the selected ratio and mechanical interface. This route is relevant if you already have a motor and need to evaluate shaft, pilot, mounting-pattern and input-speed compatibility.
 
-If you need a **motor + planetary gearbox assembly**, SigGear can evaluate a matching motor against the required output speed, continuous load, voltage, available space and duty cycle. Compatibility and final performance must be confirmed for the exact configuration.
+If you need a **Motor + Gearhead Assembly**, SigGear can evaluate a matching motor against the required output speed, continuous load, voltage, available space and duty cycle. Compatibility and final performance must be confirmed for the exact configuration.
 
-[Start a 42P OEM Gearbox Inquiry](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Start a 42P OEM Gearhead Inquiry](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
 
 
 [Existing Motor — Start 42P Design-In Review](../../request-cad-sample-quote.md?model=42P&path=gearbox_only){ .md-button .md-button--primary }
-[Complete Drive — Start 42P Motor + Gearbox Review](../../request-cad-sample-quote.md?model=42P&path=motor_gearbox){ .md-button }
+[Complete Drive — Start 42P Motor + Gearhead Review](../../request-cad-sample-quote.md?model=42P&path=motor_gearbox){ .md-button }
 
 [Not Sure Yet — Open 42P Project Brief](../../request-cad-sample-quote.md?model=42P){ .md-button }
 
@@ -154,12 +168,12 @@ A simplified public **4-stage 42P STEP is now released** for early mechanical pa
 
 The link above opens the **42P product detail page** on TraceParts International, using the exact address provided by the SigGear operator. STEP AP203 generation and download for this model were confirmed on **2026-10-14**. The Chinese catalog link is provided as an alternative browsing route. Public CAD is a **simplified 4-stage reference**; check stage, ratio and interfaces before production design, and request controlled configuration-matched CAD if required.
 
-## Related Planetary Gearbox Resources
+## Related Planetary Gearhead Resources
 
 **Need a smaller compact gearbox envelope?** Compare the [36P 36 mm Compact Planetary Gearbox](36p-planetary-gearbox.md), including its stage-specific body length and shaft loading limits. Do not assume the 36P and 42P share the same output shaft or motor interface.
 
-[8–42 mm Planetary Gearbox Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Browse All Planetary Gearboxes](index.md){ .md-button }
+[8–42 mm Precision Planetary Gearheads](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Browse All Planetary Gearheads](index.md){ .md-button }
 [Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
 
 ## Contact SigGear

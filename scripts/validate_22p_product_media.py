@@ -23,8 +23,9 @@ OLD_MEDIA = [
 
 def main() -> None:
     src = PAGE.read_text(encoding="utf-8")
-    assert "title: 22 mm Miniature Planetary Gearbox (22P)" in src
-    assert "# 22 mm Miniature Planetary Gearbox (22P)" in src
+    assert "title: 22 mm Miniature Precision Planetary Gearhead (22P)" in src
+    assert "# 22 mm Miniature Precision Planetary Gearhead (22P)" in src
+    assert "planetary gearbox" in src.lower(), "Keep gearbox as a technical synonym for searches and legacy links"
     assert "22p-real-product-evidence.webp" in src, "Authentic sample photos must remain"
     assert "22P Mechanical Interface](../../engineering-resources/22p/mechanical-interface.md)" in src
     assert "1,000–20,000 rpm" in src

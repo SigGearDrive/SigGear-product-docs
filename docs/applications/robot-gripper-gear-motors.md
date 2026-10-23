@@ -18,6 +18,21 @@ A suitable drive must still be selected from the complete mechanism requirement,
 [Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Start Dexterous Hand / Gripper Project Brief](../request-cad-sample-quote.md?app=dexterous_hand_gripper){ .md-button }
 
+## Compare Published SigGear Gearhead Models
+
+Finger joints, tendon spools and rotary grippers require different mechanical calculations. Choose from **published gearhead frame candidates** only after assessing gripping force, geometry, shaft loading and allowable envelope.
+
+| Frame and specification page | Example mechanism for evaluation | Engineering checks |
+| --- | --- | --- |
+| [8P 8 mm Gearhead](../products/planetary-gearboxes/8p-planetary-gearbox.md) | Very small finger or auxiliary axis | Check tendon load, radial force and overall length |
+| [14P 14 mm Gearhead](../products/planetary-gearboxes/14p-planetary-gearbox.md) | Compact finger/tendon integration | Review required ratio, backdrivability and backlash |
+| [20P 20 mm Gearhead](../products/planetary-gearboxes/20p-planetary-gearbox.md) | Small gripper rotary mechanism | Check continuous torque and output support |
+| [32P 32 mm Gearhead](../products/planetary-gearboxes/32p-planetary-gearbox.md) | Higher-load compact gripper | Verify shock load, diameter and bearing support |
+
+These are **potential candidates for initial engineering comparison**, not claims of suitability, certification or production deployment. Consult each model's rated torque, stage-dependent ratio and length, output load limit, motor interface and simplified 4-stage STEP reference before design freeze.
+
+[Browse All 12 Precision Planetary Gearheads](../products/planetary-gearboxes/index.md){ .md-button }
+
 ## Where to Start by Gearbox Size
 
 Use this only as an early packaging filter. Final selection must use the exact model's rated torque, ratio, length, shaft-load and motor-interface data.
