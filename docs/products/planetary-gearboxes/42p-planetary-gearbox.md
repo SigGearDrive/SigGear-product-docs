@@ -1,5 +1,5 @@
 ---
-title: 42 mm Compact Planetary Gearhead (42P) | STEP CAD
+title: 42 mm Compact Precision Planetary Gearhead (42P)
 description: "Evaluate SigGear 42P 42 mm compact precision planetary gearhead for higher-load pruning, fastening and compact OEM actuation. Design-In resources and STEP CAD."
 ---
 
