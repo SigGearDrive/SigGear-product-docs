@@ -1,6 +1,6 @@
 ---
 title: Precision Planetary Gearhead Applications | 8–42 mm OEM | SigGear
-description: Explore 10 industries using SigGear 8–42 mm precision planetary gearheads: smart home, pruning tools, dexterous hands, medical, lab, pet devices and automation.
+description: "Explore 10 industries using SigGear 8–42 mm precision planetary gearheads: smart home, pruning tools, dexterous hands, medical, lab, pet devices and automation."
 ---
 
 # Planetary Gearhead Applications — 8–42 mm OEM Engineering
