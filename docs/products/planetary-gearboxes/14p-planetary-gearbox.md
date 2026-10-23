@@ -1,5 +1,5 @@
 ---
-title: 14 mm Micro Planetary Gearhead (14P) | STEP CAD
+title: 14 mm Micro Precision Planetary Gearhead (14P)
 description: "Evaluate SigGear 14P 14 mm micro precision planetary gearheads for dexterous hands, laboratory systems and precision instruments. Datasheet and 4-stage STEP reference."
 ---
 
