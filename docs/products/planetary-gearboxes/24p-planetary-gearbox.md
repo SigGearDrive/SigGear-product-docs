@@ -1,5 +1,5 @@
 ---
-title: 24 mm Miniature Planetary Gearhead (24P) | STEP CAD
+title: 24 mm Miniature Precision Planetary Gearhead (24P)
 description: "Evaluate SigGear 24P 24 mm miniature precision planetary gearhead for automatic dispensing, valve control and compact robotics. Datasheet, interface and STEP CAD."
 ---
 
