@@ -1,5 +1,5 @@
 ---
-title: 36 mm Compact Planetary Gearhead (36P) | STEP CAD
+title: 36 mm Compact Precision Planetary Gearhead (36P)
 description: "SigGear 36P 36 mm compact precision planetary gearhead for garden tools, automated pet care and industrial actuation. Compare rated data and STEP CAD."
 ---
 
