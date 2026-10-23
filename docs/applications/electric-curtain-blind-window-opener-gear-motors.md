@@ -31,6 +31,21 @@ The approximate ratio may be estimated from **motor operating speed / target gea
 
 Public simplified STEP files represent **4-stage reference geometry only**. Confirm the actual ratio, stage length and mechanical interface with a configuration-specific drawing. This guide covers **potential uses**; it does not claim validated SigGear customer installations.
 
+## Compare Published SigGear Gearhead Models
+
+For motorized curtains, roller blinds and window actuators, compare these **published gearhead frames** before committing to a motor-matched assembly. Noise and hold-position behavior require testing on the final mechanism.
+
+| Frame and specification page | Example mechanism for evaluation | Engineering checks |
+| --- | --- | --- |
+| [16P 16 mm Gearhead](../products/planetary-gearboxes/16p-planetary-gearbox.md) | Slim tilt or compact shade axis | Review track load, installation length and low-noise target |
+| [20P 20 mm Gearhead](../products/planetary-gearboxes/20p-planetary-gearbox.md) | Curtain or blind drive candidate | Check loaded speed, belt friction and output torque |
+| [22P 22 mm Gearhead](../products/planetary-gearboxes/22p-planetary-gearbox.md) | Alternative miniature motor interface | Check motor shaft fit, allowable load and cycle time |
+| [28P 28 mm Gearhead](../products/planetary-gearboxes/28p-planetary-gearbox.md) | Larger window or roller mechanism | Review opening force, shaft support and manual override |
+
+These are **potential candidates for initial engineering comparison**, not claims of suitability, certification or production deployment. Consult each model's rated torque, stage-dependent ratio and length, output load limit, motor interface and simplified 4-stage STEP reference before design freeze.
+
+[Browse All 12 Precision Planetary Gearheads](../products/planetary-gearboxes/index.md){ .md-button }
+
 ## Candidate Frame Orientation for Smart Curtain and Blind OEMs
 
 Use this table only to narrow the first mechanical review. Actual selection depends on loaded motor speed, ratio, curtain / blind mechanics, current limit, noise target and duty cycle.
