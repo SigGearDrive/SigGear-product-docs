@@ -1,5 +1,5 @@
 ---
-title: 16 mm Micro Planetary Gearhead (16P) | STEP CAD
+title: 16 mm Micro Precision Planetary Gearhead (16P)
 description: "SigGear 16P 16 mm micro precision planetary gearhead for smart-lock, blind-tilt and compact latch evaluations. Check published specs, mounting and simplified STEP CAD."
 ---
 
