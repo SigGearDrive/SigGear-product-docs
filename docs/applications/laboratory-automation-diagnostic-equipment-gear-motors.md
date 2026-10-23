@@ -18,6 +18,21 @@ SigGear can evaluate micro gear motors, compact planetary gearboxes, flat BLDC m
 [Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [Start Laboratory Automation Project Brief](../request-cad-sample-quote.md?app=laboratory_automation){ .md-button }
 
+## Compare Published SigGear Gearhead Models
+
+The first shortlist for automated pipetting, sample handling or small diagnostic axes can be guided by diameter and motion duty. Check **model-specific ratings**, not just the application label.
+
+| Frame and specification page | Example mechanism for evaluation | Engineering checks |
+| --- | --- | --- |
+| [8P 8 mm Gearhead](../products/planetary-gearboxes/8p-planetary-gearbox.md) | Space-limited micro positioning | Check travel profile, backlash and load direction |
+| [12P 12 mm Gearhead](../products/planetary-gearboxes/12p-planetary-gearbox.md) | Sample-handling or compact rotary actuation | Review repeatability and available motor speed |
+| [16P 16 mm Gearhead](../products/planetary-gearboxes/16p-planetary-gearbox.md) | Auxiliary instrument axis | Check duty, total assembly length and control strategy |
+| [20P 20 mm Gearhead](../products/planetary-gearboxes/20p-planetary-gearbox.md) | Larger indexing or sample handling | Review load, shock events and interface fit |
+
+These are **potential candidates for initial engineering comparison**, not claims of suitability, certification or production deployment. Consult each model's rated torque, stage-dependent ratio and length, output load limit, motor interface and simplified 4-stage STEP reference before design freeze.
+
+[Browse All 12 Precision Planetary Gearheads](../products/planetary-gearboxes/index.md){ .md-button }
+
 ## Planetary Gearbox Starting Point for Laboratory Automation
 
 For many small laboratory mechanisms, the first Design-In question is packaging: how much diameter and axial length are available near the sample, reagent or motion axis?
