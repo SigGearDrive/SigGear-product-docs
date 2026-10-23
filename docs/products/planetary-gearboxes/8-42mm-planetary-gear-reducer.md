@@ -1,6 +1,6 @@
 ---
 title: Precision Planetary Gearhead Manufacturer | 8–42 mm | SigGear
-description: Explore SigGear 8–42 mm precision planetary gearheads: 12 Micro, Miniature and Compact frame sizes, published datasheets, STEP CAD and OEM motor matching.
+description: "Explore SigGear 8–42 mm precision planetary gearheads: 12 Micro, Miniature and Compact frame sizes, published datasheets, STEP CAD and OEM motor matching."
 ---
 
 # Precision Planetary Gearheads 8–42 mm — Micro, Miniature & Compact
