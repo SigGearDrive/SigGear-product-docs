@@ -111,10 +111,13 @@ def check_model_specific_search_metadata() -> None:
 
 
 def check_priority_gearhead_hub_metadata() -> None:
-    """Prevent important landing pages from reverting to short menu labels."""
+    """Prevent priority hubs and OEM application articles from losing SEO titles."""
     priority_sources = [
         "products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md",
         "applications/index.md",
+        "applications/electric-pruning-shears-planetary-gearbox.md",
+        "applications/electric-curtain-blind-window-opener-gear-motors.md",
+        "applications/robot-gripper-gear-motors.md",
     ]
     for source_rel in priority_sources:
         raw = (DOCS / source_rel).read_text(encoding="utf-8")
@@ -132,8 +135,8 @@ def check_priority_gearhead_hub_metadata() -> None:
         built = built_path.read_text(encoding="utf-8")
         expected_title = f"<title>{html_escape(title, quote=False)} - SigGear Product Documentation</title>"
         expected_description = f'<meta name="description" content="{html_escape(description, quote=True)}">'
-        require(expected_title in built, f"Priority hub title lost to nav label: {source_rel}")
-        require(expected_description in built, f"Priority hub description lost: {source_rel}")
+        require(expected_title in built, f"Priority page title lost to nav label: {source_rel}")
+        require(expected_description in built, f"Priority page description lost: {source_rel}")
 
 
 def check_sitemap_membership() -> None:

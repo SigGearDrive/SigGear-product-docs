@@ -93,8 +93,8 @@ def _planetary_model_source_metadata(page) -> dict:
 
     MkDocs navigation labels such as "10P (10 mm)" can shadow the
     longer title and description in frontmatter during page rendering.
-    For the 12 published planetary model pages and the two priority
-    gearhead discovery hubs, prefer the controlled source frontmatter
+    For the 12 published planetary model pages and selected priority
+    gearhead discovery and application pages, prefer controlled frontmatter
     over short navigation labels and generic site descriptions.
     """
     src = page.file.src_uri.replace("\\", "/")
@@ -102,6 +102,9 @@ def _planetary_model_source_metadata(page) -> dict:
     priority_hubs = {
         "products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md",
         "applications/index.md",
+        "applications/electric-pruning-shears-planetary-gearbox.md",
+        "applications/electric-curtain-blind-window-opener-gear-motors.md",
+        "applications/robot-gripper-gear-motors.md",
     }
     is_planetary_model = bool(product and product.get("product_family") == "planetary_gearbox")
     if not is_planetary_model and src not in priority_hubs:

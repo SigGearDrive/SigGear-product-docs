@@ -23,6 +23,14 @@ APPLICATIONS = {
     "robot-gripper-gear-motors": "dexterous_hand_gripper",
 }
 
+# Only curated model examples; all are preliminary fit candidates, not guarantees.
+PRIORITY_APPLICATION_MODEL_PATHS = {
+    "electric-pruning-shears-planetary-gearbox": ("32p", "36p", "42p"),
+    "electric-curtain-blind-window-opener-gear-motors": ("16p", "20p", "22p"),
+    "robot-gripper-gear-motors": ("8p", "14p", "20p"),
+}
+
+
 
 class Anchors(HTMLParser):
     def __init__(self):
@@ -74,6 +82,23 @@ def main() -> None:
             ):
                 app_selector_links.append(url)
 
+        if page_slug in PRIORITY_APPLICATION_MODEL_PATHS:
+            rendered_paths = {
+                urlsplit(urljoin(source, href)).path for href in collector.hrefs
+            }
+            required = {
+                "/SigGear-product-docs/products/planetary-gearboxes/"
+                + model + "-planetary-gearbox/"
+                for model in PRIORITY_APPLICATION_MODEL_PATHS[page_slug]
+            }
+            required.add("/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/")
+            required.add("/SigGear-product-docs/request-cad-sample-quote/")
+            missing = sorted(required - rendered_paths)
+            if missing:
+                raise ValueError(
+                    f"{page_slug} has broken OEM model/CAD/inquiry discovery paths: {missing}"
+                )
+
         if not app_selector_links:
             raise ValueError(f"{page_slug} has no link to the existing selector")
 
@@ -96,6 +121,7 @@ def main() -> None:
         raise ValueError("The documented 12P output-speed example changed")
 
     print("PASS 4 OEM application paths retain source context in rendered selector links")
+    print("PASS 3 priority application articles link to exact models, public CAD and inquiry")
     print("PASS selector canonical, useful worked example and published 12P parameters")
 
 
