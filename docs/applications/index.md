@@ -12,15 +12,15 @@ These application pages explain **how to select a drive**, not where SigGear cla
 !!! note
     Unless a page explicitly states otherwise, an application is a potential engineering use case rather than a published production reference.
 
-[Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Planetary Gearbox Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
+[Compare 8–42 mm Precision Planetary Gearheads](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Find a Gearhead — Ratio & Stage Selector](../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
 [Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 
 ## Start With an Application Family
 
 Before choosing an exact diameter, use the application-led grouping to decide whether the project is primarily **Micro Precision (8P-16P)**, **Compact OEM (20P-28P)** or **High-Torque Compact (32P-42P)**. This does not replace model-level engineering review; it makes the first search and Design-In step faster.
 
-[Planetary Gearbox Application Families](planetary-gearbox-application-families.md){ .md-button .md-button--primary }
+[Planetary Gearhead Application Families](planetary-gearbox-application-families.md){ .md-button .md-button--primary }
 
 ## Explore 10 Industries Using 8–42 mm Precision Planetary Gearheads
 
