@@ -1,5 +1,5 @@
 ---
-title: 10 mm Micro Planetary Gearhead (10P) | STEP CAD
+title: 10 mm Micro Precision Planetary Gearhead (10P)
 description: "Review the SigGear 10P 10 mm micro precision planetary gearhead for camera, diagnostic and miniature gripper designs. Published ratios, drawings and STEP CAD."
 ---
 
