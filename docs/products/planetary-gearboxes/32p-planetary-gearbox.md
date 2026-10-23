@@ -1,5 +1,5 @@
 ---
-title: 32 mm Miniature Planetary Gearhead (32P) | STEP CAD
+title: 32 mm Miniature Precision Planetary Gearhead (32P)
 description: "SigGear 32P 32 mm miniature precision planetary gearhead for pruning tools, powered screwdrivers and compact grippers. Review Design-In Pack and STEP CAD."
 ---
 
