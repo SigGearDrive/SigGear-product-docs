@@ -1,14 +1,14 @@
 ---
-title: 16 mm Micro Planetary Gearbox (16P)
-description: SigGear 16P is a 16 mm micro planetary gearbox / gearhead with 3.85:1–459.5:1 published ratios, datasheet, STEP CAD, gearbox-only supply and motor matching.
+title: 16 mm Micro Planetary Gearhead (16P) | STEP CAD
+description: "SigGear 16P 16 mm micro precision planetary gearhead for smart-lock, blind-tilt and compact latch evaluations. Check published specs, mounting and simplified STEP CAD."
 ---
 
 
-# 16 mm Micro Planetary Gearbox (16P)
+# 16 mm Micro Precision Planetary Gearhead (16P)
 
 ## Product Overview
 
-The SigGear 16P is a 16 mm micro planetary gearbox for compact motorized mechanisms. The published configurations cover one to four stages, with reduction ratios from 3.85:1 to 459.5:1.
+The SigGear 16P is a 16 mm micro precision planetary gearhead (planetary gearbox) for compact motorized mechanisms. The published configurations cover one to four stages, with reduction ratios from 3.85:1 to 459.5:1.
 
 ![SigGear 16P 16 mm micro planetary gearbox](../../assets/images/products/planetary-gearboxes/16p/16p-planetary-gearbox-main.webp)
 
@@ -40,7 +40,7 @@ The downloadable STEP represents the **4-stage reference configuration only** an
 | Item | Description |
 | --- | --- |
 | Model | 16P |
-| Product type | Micro planetary gearbox |
+| Product type | Micro precision planetary gearhead (planetary gearbox) |
 | Nominal outer diameter | 16 mm |
 | Number of stages | 1 to 4 |
 | Housing material | Steel |
@@ -103,25 +103,40 @@ The published drawing shows a 16 mm body, an 11.6 mm output-shaft extension and 
 
 ## Typical Applications
 
-- Micro robotics and compact actuators
-- Medical and laboratory automation mechanisms
-- Precision instruments and optical adjustment mechanisms
-- Mini pumps and valve drives
-- Compact grippers and smart hardware
+### Potential OEM Applications for the 16P 16 mm Gearhead
 
-Application suitability depends on the selected ratio, motor, load direction, duty cycle, installation and required service life.
+At the largest published Micro diameter, the 16P is worth reviewing for compact consumer mechanisms that require a controlled rotary output.
+
+| Example mechanism and application guide | Critical selection checks |
+| --- | --- |
+| [Smart-lock bolt or latch drive](../../applications/access-control-smart-lock-security-gear-motors.md) | Check bolt force, jam load and power-off behavior |
+| [Blind tilt and compact shade adjustment](../../applications/electric-curtain-blind-window-opener-gear-motors.md) | Review motor speed, noise target and manual override |
+| [Automatic pet-door latch](../../applications/smart-pet-feeder-litter-box-planetary-gearheads.md) | Check closure force, battery consumption and obstacle safety |
+
+These are **application ideas for engineering evaluation**, not claims that the 16P has been production-validated in these devices. Final suitability depends on rated torque, ratio and stage count, output-shaft loads, input speed, mounting details and representative device testing.
+
+### 16P Engineering Path: Application → Model → STEP CAD → Inquiry
+
+[Find a Gearhead — Maximum 16 mm Filter](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=16#preliminary-ratio-stage-finder){ .md-button }
+[16P Technical Datasheet](../../engineering-resources/16p/datasheet.md){ .md-button }
+[16P Mechanical Interface](../../engineering-resources/16p/mechanical-interface.md){ .md-button }
+
+[Download 16P Simplified 4-Stage STEP](../../assets/downloads/16p/16P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
+[Request 16P Configuration-Matched CAD or Sample](../../request-cad-sample-quote.md?model=16P){ .md-button }
+
+**CAD boundary:** Public simplified STEP shows a **4-stage reference only**. Other ratios, stage counts, motor interfaces and production drawings require an engineering review. The selector's diameter filter is a maximum limit, not confirmation of 16P application suitability.
 
 ## Supply Configuration
 
-SigGear can supply the **16P 16 mm planetary gearbox as a gearbox-only unit**, subject to the selected ratio and mechanical interface. This route is relevant if you already have a motor and need to evaluate shaft, pilot, mounting-pattern and input-speed compatibility.
+SigGear can supply the **16P 16 mm precision planetary gearhead as a Gearhead Only unit**, subject to the selected ratio and mechanical interface. This route is relevant if you already have a motor and need to evaluate shaft, pilot, mounting-pattern and input-speed compatibility.
 
-If you need a **motor + planetary gearbox assembly**, SigGear can evaluate a matching motor against the required output speed, continuous load, voltage, available space and duty cycle. Compatibility and final performance must be confirmed for the exact configuration.
+If you need a **Motor + Gearhead Assembly**, SigGear can evaluate a matching motor against the required output speed, continuous load, voltage, available space and duty cycle. Compatibility and final performance must be confirmed for the exact configuration.
 
-[Start a 16P OEM Gearbox Inquiry](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Start a 16P OEM Gearhead Inquiry](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
 
 
 [Existing Motor — Start 16P Design-In Review](../../request-cad-sample-quote.md?model=16P&path=gearbox_only){ .md-button .md-button--primary }
-[Complete Drive — Start 16P Motor + Gearbox Review](../../request-cad-sample-quote.md?model=16P&path=motor_gearbox){ .md-button }
+[Complete Drive — Start 16P Motor + Gearhead Review](../../request-cad-sample-quote.md?model=16P&path=motor_gearbox){ .md-button }
 
 [Not Sure Yet — Open 16P Project Brief](../../request-cad-sample-quote.md?model=16P){ .md-button }
 
@@ -158,10 +173,10 @@ A detailed full-assembly STEP is held as configuration-controlled engineering CA
 
 The link above opens the **16P product detail page** on TraceParts International, using the exact address provided by the SigGear operator. STEP AP203 generation and download for this model were confirmed on **2026-10-14**. The Chinese catalog link is provided as an alternative browsing route. Public CAD is a **simplified 4-stage reference**; check stage, ratio and interfaces before production design, and request controlled configuration-matched CAD if required.
 
-## Related Planetary Gearbox Resources
+## Related Planetary Gearhead Resources
 
-[8–42 mm Planetary Gearbox Series](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Browse All Planetary Gearboxes](index.md){ .md-button }
+[8–42 mm Precision Planetary Gearheads](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Browse All Planetary Gearheads](index.md){ .md-button }
 [Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
 
 ## Contact SigGear
