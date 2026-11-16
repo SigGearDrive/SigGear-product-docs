@@ -60,6 +60,7 @@ When `cad_control` is present:
 - `controlled_2d_drawing` records only the approved non-sensitive drawing identifier.
 - `full_assembly_step_status` records whether detailed assembly CAD has been reviewed and how it may be supplied.
 - `public_raw_assembly_step: false` means the full internal assembly is not a public download.
+- `public_raw_assembly_step: true` means a full-assembly STEP is published at `public_full_assembly_step_path`; its source revision and engineering approval remain separate review records.
 
 The structured record does not contain the controlled drawing or full assembly CAD itself.
 

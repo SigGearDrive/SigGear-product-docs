@@ -7,6 +7,8 @@ description: Direct links to model-specific datasheets and mechanical interface 
 
 [**Open the 8–42 mm product download centre**](public-cad-release-v1.md)
 
+Full assembly STEP downloads are now available for **8P, 10P, 12P and 14P**. Other model releases and all 2D drawing PDFs will be added after their source files are uploaded and checked.
+
 | Model | Datasheet | Mechanical Interface |
 | --- | --- | --- |
 | 8P | [Datasheet](../8p/datasheet.md) | [Mechanical interface](../8p/mechanical-interface.md) |

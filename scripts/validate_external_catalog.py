@@ -71,15 +71,26 @@ def main() -> None:
         step_rel = cad.get("public_simplified_step_path")
         if not step_rel or not (ROOT / step_rel).is_file():
             fail(f"{reference}: released STEP path is missing: {step_rel!r}")
-        if cad.get("public_raw_assembly_step") is not False:
-            fail(f"{reference}: raw detailed assembly STEP must not be marked public")
+        public_raw = cad.get("public_raw_assembly_step")
+        full_step_rel = cad.get("public_full_assembly_step_path")
+        full_step_status = cad.get("public_full_assembly_step_status")
+        if public_raw is True:
+            if full_step_status != "released" or not full_step_rel:
+                fail(f"{reference}: public full-assembly STEP requires released status and a path")
+            if not (ROOT / full_step_rel).is_file():
+                fail(f"{reference}: public full-assembly STEP is missing: {full_step_rel}")
+        elif public_raw is False:
+            if full_step_rel or full_step_status:
+                fail(f"{reference}: non-public full-assembly record must not publish a download path")
+        else:
+            fail(f"{reference}: public_raw_assembly_step must be an explicit boolean")
 
         seen.append(reference)
 
     if seen != EXPECTED_MODELS:
         fail(f"catalog model order differs from controlled 8P-42P sequence: {seen}")
 
-    print("External catalog validation passed: 12 planetary family references and public CAD links are valid.")
+    print("External catalog validation passed: 12 planetary references, simplified STEP files and model-specific full-assembly release states are valid.")
 
 
 if __name__ == "__main__":

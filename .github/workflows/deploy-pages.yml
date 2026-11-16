@@ -23,6 +23,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Assemble uploaded full-assembly STEP files
+        run: python scripts/assemble_public_cad.py
+
       - name: Set up Python
         uses: actions/setup-python@v6
         with:

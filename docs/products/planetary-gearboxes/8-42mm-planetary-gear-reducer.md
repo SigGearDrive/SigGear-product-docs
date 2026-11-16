@@ -55,12 +55,12 @@ The model pages publish the complete currently approved standard parameters: sta
 
 ## CAD Release Status
 
-- **Full assembly STEP:** Original Creo assembly sources have been identified for all 12 models. Public binary upload is pending.
+- **Full assembly STEP:** Direct full-assembly STEP downloads are now available for **8P, 10P, 12P and 14P**. The remaining eight models are pending source upload and release verification.
 - **2D drawings:** Original model-specific PDF sources have been identified for all 12 models. Public binary upload and revision verification are pending.
-- **Simplified STEP:** Available now for preliminary packaging. These files are simplified 4-stage references only, not full assemblies or manufacturing CAD.
+- **Simplified STEP:** Available for all 12 models as separate preliminary-packaging references. Each simplified file is a **4-stage reference only** and is distinct from the full-assembly downloads.
 
 [Open the full CAD & drawing release library](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md)
-[Open the upload manifest](../../assets/downloads/planetary-gearheads-8-42mm-upload-manifest.csv)
+[Open the upload manifest](../../assets/downloads/planetary-gearheads-8-42mm-upload-manifest.csv) · [View generated full-assembly release manifest](../../assets/downloads/full-assembly-release-manifest.json)
 
 ## Additional Engineering References
 

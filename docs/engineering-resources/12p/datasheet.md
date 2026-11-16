@@ -62,7 +62,9 @@ These are motor-matching conditions, not electrical ratings of the mechanical ge
 
 [Download 12P Simplified STEP - 4-Stage Reference](../../assets/downloads/12p/12P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
 
-A simplified public **4-stage STEP reference** is released for early packaging and mechanical Design-In. The full assembly STEP is included in SigGear's public release scope. The original assembly source has been identified; its public download will be activated after binary upload and revision verification.
+[Download 12P Full Assembly STEP](../../assets/downloads/12p/12P_Full_Assembly.step){ .md-button }
+
+A simplified public **4-stage STEP reference** is released for early packaging and mechanical Design-In. The full assembly STEP for 12P is now publicly available. It is the original Creo assembly export supplied for this release. The simplified STEP remains a separate 4-stage reference model for preliminary packaging.
 
 For final CAD, provide the selected ratio, stage count and motor interface.
 

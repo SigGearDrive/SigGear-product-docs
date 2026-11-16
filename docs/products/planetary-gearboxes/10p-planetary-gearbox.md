@@ -13,7 +13,7 @@ description: 10 mm micro precision planetary gearhead (10P) with published stage
 | --- | --- |
 | Online datasheet | [Open 10P datasheet](../../engineering-resources/10p/datasheet.md) |
 | 2D drawing PDF | Source identified; public binary upload pending |
-| Full assembly STEP | Source identified; public binary upload pending |
+| Full assembly STEP | [Download Full Assembly STEP](../../assets/downloads/10p/10P_Full_Assembly.step) |
 | Dimension preview | [View dimension preview](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-dimensions.webp) |
 | Simplified STEP | [Download 4-stage reference](../../assets/downloads/10p/10P_Public_Simplified_STEP_v1.0_4-Stage.step) |
 
@@ -89,7 +89,7 @@ The published drawing shows a 10 mm body, a 7.50 mm output-shaft extension and s
 
 For the 10P, certain HS-1013-Q / HS-1015-Q windings can reach 26,000–31,000 rpm at no load; this is not a continuous-speed rating. Confirm the permissible operating point for the exact motor + gearhead combination.
 
-The currently downloadable STEP is the simplified 4-stage reference model. The full assembly STEP is a separate file and will be linked here after its public binary is uploaded. The dimension preview is not a substitute for the original 2D drawing PDF or its controlled revision.
+The Full Assembly STEP is the original Creo assembly export for 10P, now available for direct download. The separate Simplified STEP is a 4-stage reference model for preliminary packaging. The dimension preview is not a substitute for the original 2D drawing PDF or its controlled revision.
 
 **High-speed motor note:** Certain HS-1013-Q / HS-1015-Q windings can reach 26,000–31,000 rpm at no load. This is not a continuous-speed rating; confirm the actual permissible operating point for the motor + gearhead combination.
 

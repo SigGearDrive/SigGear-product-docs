@@ -9,10 +9,10 @@ Choose a model to open its published specifications, datasheet, dimension refere
 
 | Model | Datasheet | 2D Drawing PDF | Full Assembly STEP | Simplified STEP |
 | --- | --- | --- | --- | --- |
-| 8P · 8 mm | [Open datasheet](../8p/datasheet.md) | Source located; upload pending | Source located; upload pending | [Download 4-stage reference](../../assets/downloads/8p/8P_Public_Simplified_STEP_v1.0_4-Stage.step) |
-| 10P · 10 mm | [Open datasheet](../10p/datasheet.md) | Source located; upload pending | Source located; upload pending | [Download 4-stage reference](../../assets/downloads/10p/10P_Public_Simplified_STEP_v1.0_4-Stage.step) |
-| 12P · 12 mm | [Open datasheet](../12p/datasheet.md) | Source located; upload pending | Source located; upload pending | [Download 4-stage reference](../../assets/downloads/12p/12P_Public_Simplified_STEP_v1.0_4-Stage.step) |
-| 14P · 14 mm | [Open datasheet](../14p/datasheet.md) | Source located; upload pending | Source located; upload pending | [Download 4-stage reference](../../assets/downloads/14p/14P_Public_Simplified_STEP_v1.0_4-Stage.step) |
+| 8P · 8 mm | [Open datasheet](../8p/datasheet.md) | Source located; upload pending | [Download Full Assembly STEP](../../assets/downloads/8p/8P_Full_Assembly.step) | [Download 4-stage reference](../../assets/downloads/8p/8P_Public_Simplified_STEP_v1.0_4-Stage.step) |
+| 10P · 10 mm | [Open datasheet](../10p/datasheet.md) | Source located; upload pending | [Download Full Assembly STEP](../../assets/downloads/10p/10P_Full_Assembly.step) | [Download 4-stage reference](../../assets/downloads/10p/10P_Public_Simplified_STEP_v1.0_4-Stage.step) |
+| 12P · 12 mm | [Open datasheet](../12p/datasheet.md) | Source located; upload pending | [Download Full Assembly STEP](../../assets/downloads/12p/12P_Full_Assembly.step) | [Download 4-stage reference](../../assets/downloads/12p/12P_Public_Simplified_STEP_v1.0_4-Stage.step) |
+| 14P · 14 mm | [Open datasheet](../14p/datasheet.md) | Source located; upload pending | [Download Full Assembly STEP](../../assets/downloads/14p/14P_Full_Assembly.step) | [Download 4-stage reference](../../assets/downloads/14p/14P_Public_Simplified_STEP_v1.0_4-Stage.step) |
 | 16P · 16 mm | [Open datasheet](../16p/datasheet.md) | Source located; upload pending | Source located; upload pending | [Download 4-stage reference](../../assets/downloads/16p/16P_Public_Simplified_STEP_v1.0_4-Stage.step) |
 | 20P · 20 mm | [Open datasheet](../20p/datasheet.md) | Source located; upload pending | Source located; upload pending | [Download 4-stage reference](../../assets/downloads/20p/20P_Public_Simplified_STEP_v1.0_4-Stage.step) |
 | 22P · 22 mm | [Open datasheet](../22p/datasheet.md) | Source located; upload pending | Source located; upload pending | [Download 4-stage reference](../../assets/downloads/22p/22P_Public_Simplified_STEP_v1.0_4-Stage.step) |
@@ -26,9 +26,9 @@ Choose a model to open its published specifications, datasheet, dimension refere
 
 - **Product parameters:** Published stage, ratio, rated torque, momentary torque, efficiency, backlash, load and dimensional data remain on each model page.
 - **2D drawings:** Original PDFs have been identified for all 12 models. They will be linked after the original binary files are uploaded and their revision information is confirmed.
-- **Full assembly STEP:** Original Creo assembly files have been identified for all 12 models. These are distinct from the simplified STEP references currently in the repository.
-- **Simplified STEP:** Available now for preliminary mechanical packaging. All currently downloadable public STEP files are **4-stage reference only**, not full assemblies or manufacturing CAD.
+- **Full assembly STEP:** Public full-assembly STEP downloads are now available for **8P, 10P, 12P and 14P**. The remaining eight model files are still pending upload and verification.
+- **Simplified STEP:** Available for all 12 models as a separate preliminary-packaging reference. Each simplified file is a **4-stage reference only** and is not a substitute for the separately published full assembly files.
 
-[Open the upload manifest](../../assets/downloads/planetary-gearheads-8-42mm-upload-manifest.csv)
+[Open the upload manifest](../../assets/downloads/planetary-gearheads-8-42mm-upload-manifest.csv) · [View generated full-assembly release manifest](../../assets/downloads/full-assembly-release-manifest.json)
 
 [Back to the 8–42 mm product catalogue](../../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md)

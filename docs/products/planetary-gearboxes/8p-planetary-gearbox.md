@@ -13,7 +13,7 @@ description: 8 mm micro precision planetary gearhead (8P) with published stage d
 | --- | --- |
 | Online datasheet | [Open 8P datasheet](../../engineering-resources/8p/datasheet.md) |
 | 2D drawing PDF | Source identified; public binary upload pending |
-| Full assembly STEP | Source identified; public binary upload pending |
+| Full assembly STEP | [Download Full Assembly STEP](../../assets/downloads/8p/8P_Full_Assembly.step) |
 | Dimension preview | [View dimension preview](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-dimensions.webp) |
 | Simplified STEP | [Download 4-stage reference](../../assets/downloads/8p/8P_Public_Simplified_STEP_v1.0_4-Stage.step) |
 
@@ -79,6 +79,6 @@ The published drawing shows an 8 mm body, an M8×0.5 external thread, a 5.8 mm o
 
 ## CAD Notes
 
-The currently downloadable STEP is the simplified 4-stage reference model. The full assembly STEP is a separate file and will be linked here after its public binary is uploaded. The dimension preview is not a substitute for the original 2D drawing PDF or its controlled revision.
+The Full Assembly STEP is the original Creo assembly export for 8P, now available for direct download. The separate Simplified STEP is a 4-stage reference model for preliminary packaging. The dimension preview is not a substitute for the original 2D drawing PDF or its controlled revision.
 
 [Back to the 8–42 mm product catalogue](8-42mm-planetary-gear-reducer.md)
