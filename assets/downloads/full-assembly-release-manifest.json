@@ -1,0 +1,50 @@
+{
+  "release": "SigGear 8P–14P Full Assembly STEP",
+  "format": "STEP text assembly from Creo export",
+  "models": [
+    {
+      "model": "8P",
+      "source_filename": "08P_asm.stp",
+      "published_path": "assets/downloads/8p/8P_Full_Assembly.step",
+      "source_sha256": "80f57dc8707d0a3d262efaf5eb330101d45eb89dda13c97ac3b7595eb44c873a",
+      "published_sha256": "2daf7fa0c09c1e47575f769e88282500c841194cac8bd326b78845cc50f20a85",
+      "bytes": 4746994,
+      "lines": 86772,
+      "line_endings": "LF-normalized during text transfer",
+      "status": "assembled_and_validated"
+    },
+    {
+      "model": "10P",
+      "source_filename": "10P_asm.stp",
+      "published_path": "assets/downloads/10p/10P_Full_Assembly.step",
+      "source_sha256": "83cb86783736b6264e64d5fdb84c9700b63a0665d98eee5852a642db61d62226",
+      "published_sha256": "cda8c55dc84e906d655f5ff9317899edc772db27aeaae657897d3d48eea801c6",
+      "bytes": 6368268,
+      "lines": 117908,
+      "line_endings": "LF-normalized during text transfer",
+      "status": "assembled_and_validated"
+    },
+    {
+      "model": "12P",
+      "source_filename": "12P_asm.stp",
+      "published_path": "assets/downloads/12p/12P_Full_Assembly.step",
+      "source_sha256": "6c0445373c880c80e4600e5ef7eb365c885cbdced9a8387af487c743436075a8",
+      "published_sha256": "98b73d444df0aa90504ab2b03ffa0d18a78728a16183d076120ad3874770c4a4",
+      "bytes": 4382661,
+      "lines": 85649,
+      "line_endings": "LF-normalized during text transfer",
+      "status": "assembled_and_validated"
+    },
+    {
+      "model": "14P",
+      "source_filename": "14P_asm.stp",
+      "published_path": "assets/downloads/14p/14P_Full_Assembly.step",
+      "source_sha256": "4bbcea93bdb0872a05df8ac31323d9a373da24a1d4cffbf4b58473f8e082feef",
+      "published_sha256": "3304276a0269ab6ad6fac074fa11caf1b816d8b38e462378cc173c44f806ae93",
+      "bytes": 4553194,
+      "lines": 88555,
+      "line_endings": "LF-normalized during text transfer",
+      "status": "assembled_and_validated"
+    }
+  ]
+}

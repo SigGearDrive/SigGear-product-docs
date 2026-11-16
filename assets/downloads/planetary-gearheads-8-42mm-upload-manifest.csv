@@ -1,8 +1,8 @@
 Model,Size,2D source filename,2D public target path,Full assembly source filename,Full assembly public target path,Revision status,Public upload status
-8P,8 mm,行星08外形尺寸图.pdf,docs/assets/downloads/8p/8P_2D_Drawing.pdf,08P_asm(1).stp,docs/assets/downloads/8p/8P_Full_Assembly.step,Not verified,Pending
-10P,10 mm,行星10外形尺寸图.pdf,docs/assets/downloads/10p/10P_2D_Drawing.pdf,10P_asm(1).stp,docs/assets/downloads/10p/10P_Full_Assembly.step,Not verified,Pending
-12P,12 mm,行星12外形尺寸图.pdf,docs/assets/downloads/12p/12P_2D_Drawing.pdf,12P_asm(1).stp,docs/assets/downloads/12p/12P_Full_Assembly.step,Not verified,Pending
-14P,14 mm,行星14外形尺寸图.pdf,docs/assets/downloads/14p/14P_2D_Drawing.pdf,14P_asm(1).stp,docs/assets/downloads/14p/14P_Full_Assembly.step,Not verified,Pending
+8P,8 mm,行星08外形尺寸图.pdf,docs/assets/downloads/8p/8P_2D_Drawing.pdf,08P_asm.stp,docs/assets/downloads/8p/8P_Full_Assembly.step,STEP syntax verified; source revision not assigned,Full assembly released
+10P,10 mm,行星10外形尺寸图.pdf,docs/assets/downloads/10p/10P_2D_Drawing.pdf,10P_asm.stp,docs/assets/downloads/10p/10P_Full_Assembly.step,STEP syntax verified; source revision not assigned,Full assembly released
+12P,12 mm,行星12外形尺寸图.pdf,docs/assets/downloads/12p/12P_2D_Drawing.pdf,12P_asm.stp,docs/assets/downloads/12p/12P_Full_Assembly.step,STEP syntax verified; source revision not assigned,Full assembly released
+14P,14 mm,行星14外形尺寸图.pdf,docs/assets/downloads/14p/14P_2D_Drawing.pdf,14P_asm.stp,docs/assets/downloads/14p/14P_Full_Assembly.step,STEP syntax verified; source revision not assigned,Full assembly released
 16P,16 mm,行星16外形尺寸图.pdf,docs/assets/downloads/16p/16P_2D_Drawing.pdf,16P_asm(1).stp,docs/assets/downloads/16p/16P_Full_Assembly.step,Not verified,Pending
 20P,20 mm,行星20外形尺寸图.pdf,docs/assets/downloads/20p/20P_2D_Drawing.pdf,20P_asm(1).stp,docs/assets/downloads/20p/20P_Full_Assembly.step,Not verified,Pending
 22P,22 mm,行星22外形尺寸图.pdf,docs/assets/downloads/22p/22P_2D_Drawing.pdf,22P_asm(1).stp,docs/assets/downloads/22p/22P_Full_Assembly.step,Not verified,Pending
