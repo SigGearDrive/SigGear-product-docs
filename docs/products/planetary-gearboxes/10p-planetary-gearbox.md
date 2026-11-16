@@ -54,7 +54,7 @@ description: 10 mm micro precision planetary gearhead (10P) with published stage
 | 3 | 15.75 mm | 42.9 / 49 / 56 / 58.2 / 64 / 66.5 / 76 / 79 / 90.25 / 107.2 | 176.5 mN·m | 353.0 mN·m | 73% |
 | 4 | 18.50 mm | 150.1 / 171.5 / 196 / 203.7 / 224 / 232.7 / 256 / 266 / 276.4 / 304 / 315.9 / 361 / 375.1 / 428.7 | 196.1 mN·m | 392.3 mN·m | 66% |
 
-![10P planetary gearhead structure and published stage-ratio table](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearhead-structure-and-ratios.webp)
+![10P planetary gearhead structure and published stage-ratio table](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-structure-and-ratios.webp)
 
 ## Shaft and Load Limits
 
@@ -65,7 +65,7 @@ description: 10 mm micro precision planetary gearhead (10P) with published stage
 | Radial shaft play | ≤ 0.04 mm |
 | Thrust shaft play | ≤ 0.15 mm |
 
-![10P planetary gearhead mechanical details and operating limits](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearhead-mechanical-details.webp)
+![10P planetary gearhead mechanical details and operating limits](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-mechanical-details.webp)
 
 ## Motor Compatibility
 
@@ -75,13 +75,13 @@ The summary artwork expresses the motor-power limit as “≤ 3 W,” while the 
 
 These are adapted-motor conditions, not an electrical voltage or power rating for the mechanical gearhead itself. Confirm the motor shaft, mounting interface, input speed, duty cycle and operating point for the selected gearhead ratio.
 
-![10P gearhead adapted-motor information](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearhead-motor-compatibility.webp)
+![10P gearhead adapted-motor information](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-motor-compatibility.webp)
 
 ## Dimensions and Interface
 
 The published drawing shows a 10 mm body, a 7.50 mm output-shaft extension and stage-dependent gearhead lengths of 10.25, 13.00, 15.75 and 18.50 mm. Use the drawing below for the complete shaft, mounting, input-interface and tolerance notation.
 
-![10P 10 mm planetary gearhead dimensional drawing](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearhead-dimensions.webp)
+![10P 10 mm planetary gearhead dimensional drawing](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-dimensions.webp)
 
 ## CAD Notes
 

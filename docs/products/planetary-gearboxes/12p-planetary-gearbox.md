@@ -54,7 +54,7 @@ description: 12 mm micro precision planetary gearhead (12P) with published stage
 | 3 | 16.85 mm | 42.9 / 49 / 56 / 58.2 / 64 / 66.5 / 76 / 79 / 90.25 / 107.2 | 353.0 mN·m | 706.1 mN·m | 73% |
 | 4 | 19.60 mm | 150.1 / 171.5 / 196 / 203.7 / 224 / 232.7 / 256 / 266 / 276.4 / 304 / 315.9 / 361 / 375.1 / 428.7 / 509.1 | 411.9 mN·m | 823.8 mN·m | 66% |
 
-![12P planetary gearhead structure and published stage-ratio table](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearhead-structure-and-ratios.webp)
+![12P planetary gearhead structure and published stage-ratio table](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearbox-structure-and-ratios.webp)
 
 ## Shaft and Load Limits
 
@@ -66,7 +66,7 @@ description: 12 mm micro precision planetary gearhead (12P) with published stage
 
 The supplied 12P mechanical-detail sheet does not state a radial shaft-play value, so none is inferred from another frame size.
 
-![12P planetary gearhead mechanical details and operating limits](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearhead-mechanical-details.webp)
+![12P planetary gearhead mechanical details and operating limits](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearbox-mechanical-details.webp)
 
 ## Motor Compatibility
 
@@ -76,13 +76,13 @@ The summary artwork expresses the motor-power limit as “≤ 4 W,” while the 
 
 These are adapted-motor conditions, not an electrical voltage or power rating for the mechanical gearhead itself. Confirm the motor shaft, mounting interface, input speed, duty cycle and operating point for the selected gearhead ratio.
 
-![12P gearhead adapted-motor information](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearhead-motor-compatibility.webp)
+![12P gearhead adapted-motor information](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearbox-motor-compatibility.webp)
 
 ## Dimensions and Interface
 
 The published drawing shows a 12 mm body, a 10.00 mm output-shaft extension and stage-dependent gearhead lengths of 11.35, 14.10, 16.85 and 19.60 mm. Use the drawing below for the complete shaft, mounting, input-interface and tolerance notation.
 
-![12P 12 mm planetary gearhead dimensional drawing](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearhead-dimensions.webp)
+![12P 12 mm planetary gearhead dimensional drawing](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearbox-dimensions.webp)
 
 ## CAD Notes
 

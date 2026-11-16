@@ -54,7 +54,7 @@ description: 14 mm micro precision planetary gearhead (14P) with published stage
 | 3 | 22.8 mm | 52.7 / 61.6 / 65.5 / 71.9 / 76.5 / 81.4 / 84 / 89.4 / 95.1 / 101.2 | 490.3 mN·m | 980.7 mN·m | 73% |
 | 4 | 26.6 mm | 197.75 / 231 / 245.74 / 269.8 / 287 / 305.4 / 315.1 / 335.25 / 356.7 / 368 / 379.5 / 391.6 / 416.6 / 443.3 | 588.4 mN·m | 1176.8 mN·m | 66% |
 
-![14P planetary gearhead structure and published stage-ratio table](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearhead-structure-and-ratios.webp)
+![14P planetary gearhead structure and published stage-ratio table](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearbox-structure-and-ratios.webp)
 
 ## Shaft and Load Limits
 
@@ -65,7 +65,7 @@ description: 14 mm micro precision planetary gearhead (14P) with published stage
 | Radial shaft play | ≤ 0.04 mm |
 | Thrust shaft play | ≤ 0.2 mm |
 
-![14P planetary gearhead mechanical details and operating limits](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearhead-mechanical-details.webp)
+![14P planetary gearhead mechanical details and operating limits](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearbox-mechanical-details.webp)
 
 ## Motor Compatibility
 
@@ -75,13 +75,13 @@ The summary artwork expresses the motor-power limit as “≤ 5 W,” while the 
 
 These are adapted-motor conditions, not an electrical voltage or power rating for the mechanical gearhead itself. Confirm the motor shaft, mounting interface, input speed, duty cycle and operating point for the selected gearhead ratio.
 
-![14P gearhead adapted-motor information](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearhead-motor-compatibility.webp)
+![14P gearhead adapted-motor information](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearbox-motor-compatibility.webp)
 
 ## Dimensions and Interface
 
 The published drawing shows a 14 mm body, a 10.0 mm output-shaft extension and stage-dependent gearhead lengths of 15.2, 19.0, 22.8 and 26.6 mm. Use the drawing below for the complete shaft, mounting, input-interface and tolerance notation.
 
-![14P 14 mm planetary gearhead dimensional drawing](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearhead-dimensions.webp)
+![14P 14 mm planetary gearhead dimensional drawing](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearbox-dimensions.webp)
 
 ## CAD Notes
 

@@ -73,7 +73,7 @@ These are adapted-motor conditions, not an electrical voltage or power rating fo
 
 The published drawing shows an 8 mm body, an M8×0.5 external thread, a 5.8 mm output-shaft extension and stage-dependent gearhead lengths of 10.15, 12.80, 15.45 and 18.10 mm. Use the drawing below for the complete dimensional notation and tolerances.
 
-![8P 8 mm planetary gearhead dimensional drawing](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearhead-dimensions.webp)
+![8P 8 mm planetary gearhead dimensional drawing](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-dimensions.webp)
 
 ## CAD Notes
 

@@ -54,7 +54,7 @@ description: 16 mm micro precision planetary gearhead (16P) with published stage
 | 3 | 26.15 mm | 57.1 / 64.2 / 68.6 / 72.2 / 77.2 / 81.2 / 82.5 / 86.8 / 92.8 / 99.25 | 686.5 mN·m | 1961.3 mN·m | 73% |
 | 4 | 30.45 mm | 219.7 / 247 / 264.2 / 277.9 / 297.2 / 312.55 / 317.75 / 334.2 / 351.5 / 357.4 / 375.9 / 382.1 / 401.9 / 429.8 / 459.5 | 882.6 mN·m | 2549.7 mN·m | 66% |
 
-![16P planetary gearhead structure and published stage-ratio table](../../assets/images/products/planetary-gearboxes/16p/16p-planetary-gearhead-structure-and-ratios.webp)
+![16P planetary gearhead structure and published stage-ratio table](../../assets/images/products/planetary-gearboxes/16p/16p-planetary-gearbox-structure-and-ratios.webp)
 
 ## Shaft and Load Limits
 
@@ -65,7 +65,7 @@ description: 16 mm micro precision planetary gearhead (16P) with published stage
 | Radial shaft play | ≤ 0.04 mm |
 | Thrust shaft play | ≤ 0.2 mm |
 
-![16P planetary gearhead mechanical details and operating limits](../../assets/images/products/planetary-gearboxes/16p/16p-planetary-gearhead-mechanical-details.webp)
+![16P planetary gearhead mechanical details and operating limits](../../assets/images/products/planetary-gearboxes/16p/16p-planetary-gearbox-mechanical-details.webp)
 
 ## Motor Compatibility
 
@@ -75,13 +75,13 @@ The summary artwork expresses the motor-power limit as “≤ 10 W,” while the
 
 These are adapted-motor conditions, not an electrical voltage or power rating for the mechanical gearhead itself. Confirm the motor shaft, mounting interface, input speed, duty cycle and operating point for the selected gearhead ratio.
 
-![16P gearhead adapted-motor information](../../assets/images/products/planetary-gearboxes/16p/16p-planetary-gearhead-motor-compatibility.webp)
+![16P gearhead adapted-motor information](../../assets/images/products/planetary-gearboxes/16p/16p-planetary-gearbox-motor-compatibility.webp)
 
 ## Dimensions and Interface
 
 The published drawing shows a 16 mm body, an 11.6 mm output-shaft extension and stage-dependent gearhead lengths of 17.55, 21.85, 26.15 and 30.45 mm. Use the drawing below for the complete shaft, mounting, input-interface and tolerance notation.
 
-![16P 16 mm planetary gearhead dimensional drawing](../../assets/images/products/planetary-gearboxes/16p/16p-planetary-gearhead-dimensions.webp)
+![16P 16 mm planetary gearhead dimensional drawing](../../assets/images/products/planetary-gearboxes/16p/16p-planetary-gearbox-dimensions.webp)
 
 ## CAD Notes
 
