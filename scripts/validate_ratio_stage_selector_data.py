@@ -20,6 +20,14 @@ def number(text: str) -> float:
     return float(match.group(0))
 
 
+def torque_number(text: str) -> float:
+    """Normalize public mN·m datasheet values to the selector's legacy kgf·cm data unit."""
+    value = number(text)
+    if "mN·m" in text:
+        return value / 98.0665
+    return value
+
+
 def ratio_list(text: str) -> list[float]:
     return [float(part.strip()) for part in text.split("/")]
 
@@ -49,8 +57,8 @@ def parse_datasheet(model: str) -> list[dict]:
                 "stage": int(cells[0]),
                 "length": number(cells[1]),
                 "ratios": ratio_list(cells[2]),
-                "rated": number(cells[3]),
-                "momentary": number(cells[4]),
+                "rated": torque_number(cells[3]),
+                "momentary": torque_number(cells[4]),
                 "efficiency": number(cells[5]),
             }
         )

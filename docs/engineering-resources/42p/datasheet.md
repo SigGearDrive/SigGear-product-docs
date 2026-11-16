@@ -1,17 +1,17 @@
 ---
-title: 42 mm Planetary Gearbox Datasheet (42P) | 1–4 Stages | SigGear
-description: Public 42P 42 mm planetary gearbox datasheet with 1–4 stage ratios, gearbox lengths, torque, efficiency, backlash, motor-matching data and links to mechanical-interface and CAD resources.
+title: 42 mm Precision Planetary Gearhead Datasheet (42P) | 1–4 Stages | SigGear
+description: Public 42P 42 mm precision planetary gearhead datasheet with 1–4 stage ratios, gearbox lengths, torque, efficiency, backlash, motor-matching data and links to mechanical-interface and CAD resources.
 ---
 
 
-# 42 mm Planetary Gearbox Datasheet (42P)
+# 42 mm Precision Planetary Gearhead Datasheet (42P)
 
 **Status:** Public engineering evaluation reference  
 **Release date:** 2026-10-08
 
 **Continuous input-speed range revised:** 2026-10-15 (confirmed by SigGear engineering).  
 
-The SigGear 42P is a 42 mm planetary gearbox platform with one- to four-stage configurations. Performance values below are consolidated from the current canonical product page. Mechanical-interface details are linked to the controlled 2D drawing reference released for this model.
+The SigGear 42P is a 42 mm planetary gearhead platform with one- to four-stage configurations. Performance values below are consolidated from the current canonical product page. Mechanical-interface details are linked to the controlled 2D drawing reference released for this model.
 
 ## Key Specifications
 
@@ -19,10 +19,10 @@ The SigGear 42P is a 42 mm planetary gearbox platform with one- to four-stage co
 | --- | ---: |
 | Nominal outer diameter | 42 mm |
 | Number of stages | 1-4 |
-| Gearbox length range | 35.6–69.5 mm |
+| gearhead length range | 35.6–69.5 mm |
 | Reduction ratio range | 3.8:1–660.7:1 |
-| Rated allowable torque range | 80.0–150.0 kgf·cm |
-| Maximum momentary torque range | 160.0–300.0 kgf·cm |
+| Rated allowable torque range | 7845.3–14710.0 mN·m |
+| Maximum momentary torque range | 15690.6–29420.0 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.2° |
 | Continuous permissible input speed | 1,000–20,000 rpm |
@@ -37,10 +37,10 @@ Maximum momentary torque is not a continuous working rating.
 
 | Stages | Gearbox body length L | Available ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
 | ---: | ---: | --- | ---: | ---: | ---: |
-| 1 | 35.6 mm | 3.8 / 4.3 / 5.1 | 80.0 kgf·cm | 160.0 kgf·cm | 90% |
-| 2 | 46.9 mm | 14.4 / 16.3 / 18.6 / 19.2 / 21.8 / 25.7 | 100.0 kgf·cm | 200.0 kgf·cm | 80% |
-| 3 | 58.2 mm | 54.4 / 61.9 / 70.4 / 72.8 / 80.1 / 82.8 / 94.2 / 97.4 / 110.8 / 130.3 | 120.0 kgf·cm | 240.0 kgf·cm | 73% |
-| 4 | 69.5 mm | 206.4 / 234.6 / 266.8 / 276 / 303.5 / 313.9 / 345 / 357 / 369.2 / 406 / 419.9 / 477.5 / 493.93 / 561.70 / 660.7 | 150.0 kgf·cm | 300.0 kgf·cm | 66% |
+| 1 | 35.6 mm | 3.8 / 4.3 / 5.1 | 7845.3 mN·m | 15690.6 mN·m | 90% |
+| 2 | 46.9 mm | 14.4 / 16.3 / 18.6 / 19.2 / 21.8 / 25.7 | 9806.6 mN·m | 19613.3 mN·m | 80% |
+| 3 | 58.2 mm | 54.4 / 61.9 / 70.4 / 72.8 / 80.1 / 82.8 / 94.2 / 97.4 / 110.8 / 130.3 | 11768.0 mN·m | 23536.0 mN·m | 73% |
+| 4 | 69.5 mm | 206.4 / 234.6 / 266.8 / 276 / 303.5 / 313.9 / 345 / 357 / 369.2 / 406 / 419.9 / 477.5 / 493.93 / 561.70 / 660.7 | 14710.0 mN·m | 29420.0 mN·m | 66% |
 
 ## Published Load / Shaft Limits
 
@@ -58,17 +58,17 @@ These values are taken from the current 42P specification sheet. Application sui
 - Adapted DC motor nominal voltage: **3–48 VDC**
 - Adapted DC motor power: **below 200 W**
 
-These are motor-matching conditions, not electrical ratings of the mechanical gearbox.
+These are motor-matching conditions, not electrical ratings of the mechanical gearhead.
 
 ## Mechanical Interface and CAD
 
 [View 42P Mechanical Interface v1.0](mechanical-interface.md){ .md-button .md-button--primary }
 
-A simplified public **4-stage STEP reference** is released for early packaging and mechanical Design-In. The detailed full-assembly STEP remains configuration-controlled and request-only because it contains internal planetary transmission geometry.
+A simplified public **4-stage STEP reference** is released for early packaging and mechanical Design-In. The full assembly STEP is included in SigGear's public release scope. The original assembly source has been identified; its public download will be activated after binary upload and revision verification.
 
 For final CAD, provide the selected ratio, stage count and motor interface.
 
-[Request CAD / Controlled Drawing](../../request-cad-sample-quote.md){ .md-button }
+[View 2D Drawing & Full Assembly Release Status](../planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 
 ## Selection Information Required
 
