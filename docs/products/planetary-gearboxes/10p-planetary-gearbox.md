@@ -1,67 +1,60 @@
 ---
-title: 10 mm Micro Precision Planetary Gearhead (10P)
-description: "Review the SigGear 10P 10 mm micro precision planetary gearhead for camera, diagnostic and miniature gripper designs. Published ratios, drawings and STEP CAD."
+title: 10 mm Micro Precision Planetary Gearhead (10P) | SigGear
+description: 10 mm micro precision planetary gearhead (10P) with published stage data, dimensions, datasheet and CAD access.
 ---
-
 
 # 10 mm Micro Precision Planetary Gearhead (10P)
 
-## Product Overview
-
-The SigGear 10P is a 10 mm micro precision planetary gearhead (planetary gearbox) for compact motorized mechanisms. The published configurations cover one to four stages, with reduction ratios from 3.5:1 to 428.7:1.
-
 ![SigGear 10P 10 mm micro planetary gearbox](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-main.webp)
 
-## Real Product Evidence
+## Downloads
 
-![Real SigGear 10P 10 mm micro planetary gearbox with diameter check](../../assets/images/products/planetary-gearboxes/10p/10p-real-product-evidence.webp)
+| File | Status |
+| --- | --- |
+| Online datasheet | [Open 10P datasheet](../../engineering-resources/10p/datasheet.md) |
+| 2D drawing PDF | Source identified; public binary upload pending |
+| Full assembly STEP | Source identified; public binary upload pending |
+| Dimension preview | [View dimension preview](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-dimensions.webp) |
+| Simplified STEP | [Download 4-stage reference](../../assets/downloads/10p/10P_Public_Simplified_STEP_v1.0_4-Stage.step) |
 
-*Real 10P frame-size product photographed from multiple angles. The caliper photo is a visual diameter reference for the photographed sample and does not replace the controlled dimensional drawing or released tolerances for a confirmed configuration.*
-
-**Continuous input-speed range (confirmed 2026-10-15):** 1,000–20,000 rpm for preliminary standard gearbox selection. Speeds outside this range require a custom feasibility review. Motor matching, duty cycle and application conditions must still be confirmed.
-
-**Sizing a 10 mm OEM gearbox?** Check the published ratios, stage-dependent body lengths and rated torque with the SigGear selector. The maximum diameter starts at 10 mm and can be adjusted.
-
-[Open SigGear Planetary Gearbox Selector — 10 mm starting point](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=10#preliminary-ratio-stage-finder){ .md-button }
+## Product Specifications
 
 ## Product Identity
 
 | Item | Description |
 | --- | --- |
 | Model | 10P |
-| Product type | Micro precision planetary gearhead (planetary gearbox) |
+| Product type | Micro precision planetary gearhead (planetary gearhead) |
 | Nominal outer diameter | 10 mm |
 | Number of stages | 1 to 4 |
 | Housing material | Steel |
 | Gearwheel material | Steel |
-| Output bearing | Ball bearing |
+| Output bearing | Ball Bearing |
 
 ## Key Specifications
 
 | Parameter | Published value |
 | --- | ---: |
 | Nominal outer diameter | 10 mm |
-| Gearbox length range | 10.25–18.50 mm |
+| gearhead length range | 10.25–18.50 mm |
 | Reduction ratio range | 3.5:1–428.7:1 |
-| Rated allowable torque range | 1.3–2.0 kgf·cm |
-| Maximum momentary torque range | 2.6–4.0 kgf·cm |
+| Rated allowable torque range | 127.5–196.1 mN·m |
+| Maximum momentary torque range | 255.0–392.3 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.5° |
-| Permissible gearbox input speed, continuous operation | 1,000–20,000 rpm |
-| Operating temperature | −40 to 120 °C |
-
-Torque values are preserved in the source unit, kgf·cm. Maximum momentary torque is not a continuous working rating.
+| Permissible input speed | Motor/configuration-dependent; no universal 20,000 rpm ceiling |
+| Operating temperature | −40 to 120 °C | Maximum momentary torque is not a continuous working rating.
 
 ## Stage, Ratio and Performance Table
 
-| Stages | Gearbox length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
+| Stages | gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
 | ---: | ---: | --- | ---: | ---: | ---: |
-| 1 | 10.25 mm | 3.5 / 4 / 4.75 | 1.3 kgf·cm | 2.6 kgf·cm | 90% |
-| 2 | 13.00 mm | 12.25 / 14 / 16 / 16.6 / 19 / 22.6 | 1.5 kgf·cm | 3.0 kgf·cm | 80% |
-| 3 | 15.75 mm | 42.9 / 49 / 56 / 58.2 / 64 / 66.5 / 76 / 79 / 90.25 / 107.2 | 1.8 kgf·cm | 3.6 kgf·cm | 73% |
-| 4 | 18.50 mm | 150.1 / 171.5 / 196 / 203.7 / 224 / 232.7 / 256 / 266 / 276.4 / 304 / 315.9 / 361 / 375.1 / 428.7 | 2.0 kgf·cm | 4.0 kgf·cm | 66% |
+| 1 | 10.25 mm | 3.5 / 4 / 4.75 | 127.5 mN·m | 255.0 mN·m | 90% |
+| 2 | 13.00 mm | 12.25 / 14 / 16 / 16.6 / 19 / 22.6 | 147.1 mN·m | 294.2 mN·m | 80% |
+| 3 | 15.75 mm | 42.9 / 49 / 56 / 58.2 / 64 / 66.5 / 76 / 79 / 90.25 / 107.2 | 176.5 mN·m | 353.0 mN·m | 73% |
+| 4 | 18.50 mm | 150.1 / 171.5 / 196 / 203.7 / 224 / 232.7 / 256 / 266 / 276.4 / 304 / 315.9 / 361 / 375.1 / 428.7 | 196.1 mN·m | 392.3 mN·m | 66% |
 
-![10P planetary gearbox structure and published stage-ratio table](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-structure-and-ratios.webp)
+![10P planetary gearhead structure and published stage-ratio table](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearhead-structure-and-ratios.webp)
 
 ## Shaft and Load Limits
 
@@ -72,104 +65,28 @@ Torque values are preserved in the source unit, kgf·cm. Maximum momentary torqu
 | Radial shaft play | ≤ 0.04 mm |
 | Thrust shaft play | ≤ 0.15 mm |
 
-![10P planetary gearbox mechanical details and operating limits](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-mechanical-details.webp)
+![10P planetary gearhead mechanical details and operating limits](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearhead-mechanical-details.webp)
 
 ## Motor Compatibility
 
-The detailed adapted-motor sheet identifies DC motors with a nominal voltage of **3–36 VDC** and power **below 3 W**. If a motor cannot meet the gearbox installation requirements, motor matching must be negotiated separately.
+The detailed adapted-motor sheet identifies DC motors with a nominal voltage of **3–36 VDC** and power **below 3 W**. If a motor cannot meet the gearhead installation requirements, motor matching must be negotiated separately.
 
 The summary artwork expresses the motor-power limit as “≤ 3 W,” while the detailed adapted-motor sheet says “less than 3 W.” This page uses the stricter **below 3 W** condition until the boundary is technically reconciled.
 
-These are adapted-motor conditions, not an electrical voltage or power rating for the mechanical gearbox itself. Confirm the motor shaft, mounting interface, input speed, duty cycle and operating point for the selected gearbox ratio.
+These are adapted-motor conditions, not an electrical voltage or power rating for the mechanical gearhead itself. Confirm the motor shaft, mounting interface, input speed, duty cycle and operating point for the selected gearhead ratio.
 
-![10P gearbox adapted-motor information](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-motor-compatibility.webp)
+![10P gearhead adapted-motor information](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearhead-motor-compatibility.webp)
 
 ## Dimensions and Interface
 
-The published drawing shows a 10 mm body, a 7.50 mm output-shaft extension and stage-dependent gearbox lengths of 10.25, 13.00, 15.75 and 18.50 mm. Use the drawing below for the complete shaft, mounting, input-interface and tolerance notation.
+The published drawing shows a 10 mm body, a 7.50 mm output-shaft extension and stage-dependent gearhead lengths of 10.25, 13.00, 15.75 and 18.50 mm. Use the drawing below for the complete shaft, mounting, input-interface and tolerance notation.
 
-![10P 10 mm planetary gearbox dimensional drawing](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-dimensions.webp)
+![10P 10 mm planetary gearhead dimensional drawing](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearhead-dimensions.webp)
 
-## Typical Applications
+## CAD Notes
 
-### Potential OEM Applications for the 10P 10 mm Gearhead
+The currently downloadable STEP is the simplified 4-stage reference model. The full assembly STEP is a separate file and will be linked here after its public binary is uploaded. The dimension preview is not a substitute for the original 2D drawing PDF or its controlled revision.
 
-The 10P adds a 10 mm packaging option for engineers comparing very small gearhead diameters; interfaces and stage lengths differ from adjacent frames.
+**High-speed motor note:** Certain HS-1013-Q / HS-1015-Q windings can reach 26,000–31,000 rpm at no load. This is not a continuous-speed rating; confirm the actual permissible operating point for the motor + gearhead combination.
 
-| Example mechanism and application guide | Critical selection checks |
-| --- | --- |
-| [Compact camera module motion](../../applications/optical-imaging-camera-module-gear-motors.md) | Evaluate lens positioning, vibration and installation dimensions |
-| [Medical diagnostic positioning](../../applications/medical-device-micro-gear-motors.md) | Define duty, load and device-level validation requirements |
-| [Micro robotic gripper axes](../../applications/robot-gripper-gear-motors.md) | Calculate gripping force, angular travel and output bearing load |
-
-These are **application ideas for engineering evaluation**, not claims that the 10P has been production-validated in these devices. Final suitability depends on rated torque, ratio and stage count, output-shaft loads, input speed, mounting details and representative device testing.
-
-### 10P Engineering Path: Application → Model → STEP CAD → Inquiry
-
-[Find a Gearhead — Maximum 10 mm Filter](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=10#preliminary-ratio-stage-finder){ .md-button }
-[10P Technical Datasheet](../../engineering-resources/10p/datasheet.md){ .md-button }
-[10P Mechanical Interface](../../engineering-resources/10p/mechanical-interface.md){ .md-button }
-
-[Download 10P Simplified 4-Stage STEP](../../assets/downloads/10p/10P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
-[Request 10P Configuration-Matched CAD or Sample](../../request-cad-sample-quote.md?model=10P){ .md-button }
-
-**CAD boundary:** Public simplified STEP shows a **4-stage reference only**. Other ratios, stage counts, motor interfaces and production drawings require an engineering review. The selector's diameter filter is a maximum limit, not confirmation of 10P application suitability.
-
-## Supply Configuration
-
-SigGear can evaluate the 10P as **Gearhead Only** for an existing motor, or review a **Motor + Gearhead Assembly** for the customer's specific application. Motor-to-gearhead interface and final performance remain subject to engineering confirmation.
-
-
-[Existing Motor — Start 10P Design-In Review](../../request-cad-sample-quote.md?model=10P&path=gearbox_only){ .md-button .md-button--primary }
-[Complete Drive — Start 10P Motor + Gearhead Review](../../request-cad-sample-quote.md?model=10P&path=motor_gearbox){ .md-button }
-
-[Not Sure Yet — Open 10P Project Brief](../../request-cad-sample-quote.md?model=10P){ .md-button }
-
-## Selection Information Required
-
-Please provide:
-
-- Required reduction ratio or output speed
-- Continuous and momentary output torque
-- Motor type, voltage, power, speed and shaft dimensions
-- Available gearbox length and mounting interface
-- Output-shaft requirements
-- Radial and axial loads
-- Duty cycle and ambient temperature
-- Backlash, noise and service-life targets
-- Prototype and annual quantity
-
-Do not transfer the 10P specifications to another frame size or an unlisted stage configuration. Final selection and quotation require confirmation against the approved configuration drawing.
-
-## Engineering Resources
-
-[View 10P Technical Datasheet v1.0](../../engineering-resources/10p/datasheet.md){ .md-button .md-button--primary }
-[View 10P Mechanical Interface v1.0](../../engineering-resources/10p/mechanical-interface.md){ .md-button }
-[Download Simplified STEP - 4-Stage Reference](../../assets/downloads/10p/10P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
-
-The Datasheet consolidates the currently published stage, ratio, torque, efficiency and motor-matching data. The Mechanical Interface summarizes the controlled 2D drawing.
-
-A detailed full-assembly STEP is held as configuration-controlled engineering CAD and is supplied after model / stage / motor-interface review. The raw assembly is not published as a public download because it contains internal planetary transmission geometry.
-
-## TraceParts CAD Discovery
-
-[View 10P 3D CAD on TraceParts (English)](https://www.traceparts.com/en/product/siggear-10p-10-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121061&PartNumber=10p){ .md-button .md-button--primary }
-[Browse SigGear Catalog (Chinese Portal)](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR){ .md-button }
-
-The link above opens the **10P product detail page** on TraceParts International, using the exact address provided by the SigGear operator. STEP AP203 generation and download for this model were confirmed on **2026-10-14**. The Chinese catalog link is provided as an alternative browsing route. Public CAD is a **simplified 4-stage reference**; check stage, ratio and interfaces before production design, and request controlled configuration-matched CAD if required.
-
-## Related Planetary Gearhead Resources
-
-**Comparing nearby micro sizes?** The [8P 8 mm Micro Planetary Gearbox](8p-planetary-gearbox.md) and [12P 12 mm Micro Planetary Gearbox](12p-planetary-gearbox.md) have their own stage lengths, motor interfaces and allowable torque tables. Choosing a diameter does not make their output shafts or mounting patterns interchangeable.
-
-[8–42 mm Precision Planetary Gearheads](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Browse All Planetary Gearheads](index.md){ .md-button }
-[Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
-
-## Contact SigGear
-
-**Wanrong Wang**
-
-International Sales, SigGear
-
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+[Back to the 8–42 mm product catalogue](8-42mm-planetary-gear-reducer.md)

@@ -1,62 +1,58 @@
 ---
-title: 8 mm Micro Precision Planetary Gearhead (8P)
-description: "SigGear 8P 8 mm micro precision planetary gearhead for OEM optical positioning and laboratory mechanisms. Compare ratios, interface drawings and simplified STEP CAD."
+title: 8 mm Micro Precision Planetary Gearhead (8P) | SigGear
+description: 8 mm micro precision planetary gearhead (8P) with published stage data, dimensions, datasheet and CAD access.
 ---
-
 
 # 8 mm Micro Precision Planetary Gearhead (8P)
 
-## Product Overview
-
-The SigGear 8P is an 8 mm micro precision planetary gearhead (planetary gearbox) for compact motorized mechanisms. The published configurations cover one to four stages, with reduction ratios from 3.8:1 to 731.16:1.
-
 ![SigGear 8P 8 mm micro planetary gearbox — product photo](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-main.webp)
 
-*8P product overview. The photographed gearbox is shown for identification; final configuration dimensions and tolerances are controlled by the approved drawing.*
+## Downloads
 
-**Continuous input-speed range (confirmed 2026-10-15):** 1,000–20,000 rpm for preliminary standard gearbox selection. Speeds outside this range require a custom feasibility review. Motor matching, duty cycle and application conditions must still be confirmed.
+| File | Status |
+| --- | --- |
+| Online datasheet | [Open 8P datasheet](../../engineering-resources/8p/datasheet.md) |
+| 2D drawing PDF | Source identified; public binary upload pending |
+| Full assembly STEP | Source identified; public binary upload pending |
+| Dimension preview | [View dimension preview](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-dimensions.webp) |
+| Simplified STEP | [Download 4-stage reference](../../assets/downloads/8p/8P_Public_Simplified_STEP_v1.0_4-Stage.step) |
 
-**Sizing a 8 mm OEM gearbox?** Check the published ratios, stage-dependent body lengths and rated torque with the SigGear selector. The maximum diameter starts at 8 mm and can be adjusted.
-
-[Open SigGear Planetary Gearbox Selector — 8 mm starting point](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=8#preliminary-ratio-stage-finder){ .md-button }
+## Product Specifications
 
 ## Product Identity
 
 | Item | Description |
 | --- | --- |
 | Model | 8P |
-| Product type | Micro precision planetary gearhead (planetary gearbox) |
+| Product type | Micro precision planetary gearhead (planetary gearhead) |
 | Nominal outer diameter | 8 mm |
 | Number of stages | 1 to 4 |
 | Housing material | Steel |
 | Gearwheel material | Steel |
-| Output bearing | Ball bearing |
+| Output bearing | Ball Bearing |
 
 ## Key Specifications
 
 | Parameter | Published value |
 | --- | ---: |
 | Nominal outer diameter | 8 mm |
-| Gearbox length range | 10.15–18.10 mm |
+| gearhead length range | 10.15–18.10 mm |
 | Reduction ratio range | 3.8:1–731.16:1 |
-| Rated allowable torque range | 0.2–0.4 kgf·cm |
-| Maximum momentary torque range | 0.4–0.8 kgf·cm |
+| Rated allowable torque range | 19.6–39.2 mN·m |
+| Maximum momentary torque range | 39.2–78.5 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.5° |
-| Permissible gearbox input speed, continuous operation | 1,000–20,000 rpm |
-| Operating temperature | −40 to 120 °C |
-
-Torque values are preserved in the source unit, kgf·cm. Maximum momentary torque is not a continuous working rating.
+| Permissible gearhead input speed, continuous operation | 1,000–20,000 rpm |
+| Operating temperature | −40 to 120 °C | Maximum momentary torque is not a continuous working rating.
 
 ## Stage, Ratio and Performance Table
 
-| Stages | Gearbox length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
+| Stages | gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
 | ---: | ---: | --- | ---: | ---: | ---: |
-| 1 | 10.15 mm | 3.8 / 4.5 / 5.2 | 0.2 kgf·cm | 0.4 kgf·cm | 90% |
-| 2 | 12.80 mm | 14.4 / 17.1 / 19.8 / 20.3 / 23.4 / 27 | 0.25 kgf·cm | 0.5 kgf·cm | 80% |
-| 3 | 15.45 mm | 54.9 / 65 / 75.1 / 76.95 / 88.9 / 91.1 / 102.75 / 105.3 / 121.7 / 140.6 | 0.3 kgf·cm | 0.6 kgf·cm | 73% |
-| 4 | 18.10 mm | 208.5 / 246.9 / 285.3 / 292.4 / 337.9 / 346.3 / 390.46 / 400.14 / 410.1 / 462.4 / 473.85 / 534.3 / 547.56 / 632.74 / 731.16 | 0.4 kgf·cm | 0.8 kgf·cm | 66% |
-
+| 1 | 10.15 mm | 3.8 / 4.5 / 5.2 | 19.6 mN·m | 39.2 mN·m | 90% |
+| 2 | 12.80 mm | 14.4 / 17.1 / 19.8 / 20.3 / 23.4 / 27 | 24.5 mN·m | 49.0 mN·m | 80% |
+| 3 | 15.45 mm | 54.9 / 65 / 75.1 / 76.95 / 88.9 / 91.1 / 102.75 / 105.3 / 121.7 / 140.6 | 29.4 mN·m | 58.8 mN·m | 73% |
+| 4 | 18.10 mm | 208.5 / 246.9 / 285.3 / 292.4 / 337.9 / 346.3 / 390.46 / 400.14 / 410.1 / 462.4 / 473.85 / 534.3 / 547.56 / 632.74 / 731.16 | 39.2 mN·m | 78.5 mN·m | 66% |
 
 ## Shaft and Load Limits
 
@@ -67,98 +63,20 @@ Torque values are preserved in the source unit, kgf·cm. Maximum momentary torqu
 | Radial shaft play | ≤ 0.04 mm |
 | Thrust shaft play | ≤ 0.15 mm |
 
-
 ## Motor Compatibility
 
-The source sheet identifies adapted DC motors with a nominal voltage of **3–36 VDC** and power **below 2.5 W**. If a motor cannot meet the gearbox installation requirements, motor matching must be negotiated separately.
+The source sheet identifies adapted DC motors with a nominal voltage of **3–36 VDC** and power **below 2.5 W**. If a motor cannot meet the gearhead installation requirements, motor matching must be negotiated separately.
 
-These are adapted-motor conditions, not an electrical voltage or power rating for the mechanical gearbox itself. Confirm the motor shaft, mounting interface, input speed, duty cycle and operating point for the selected gearbox ratio.
-
+These are adapted-motor conditions, not an electrical voltage or power rating for the mechanical gearhead itself. Confirm the motor shaft, mounting interface, input speed, duty cycle and operating point for the selected gearhead ratio.
 
 ## Dimensions and Interface
 
-The published drawing shows an 8 mm body, an M8×0.5 external thread, a 5.8 mm output-shaft extension and stage-dependent gearbox lengths of 10.15, 12.80, 15.45 and 18.10 mm. Use the drawing below for the complete dimensional notation and tolerances.
+The published drawing shows an 8 mm body, an M8×0.5 external thread, a 5.8 mm output-shaft extension and stage-dependent gearhead lengths of 10.15, 12.80, 15.45 and 18.10 mm. Use the drawing below for the complete dimensional notation and tolerances.
 
-![8P 8 mm planetary gearbox dimensional drawing](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-dimensions.webp)
+![8P 8 mm planetary gearhead dimensional drawing](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearhead-dimensions.webp)
 
-## Typical Applications
+## CAD Notes
 
-### Potential OEM Applications for the 8P 8 mm Gearhead
+The currently downloadable STEP is the simplified 4-stage reference model. The full assembly STEP is a separate file and will be linked here after its public binary is uploaded. The dimension preview is not a substitute for the original 2D drawing PDF or its controlled revision.
 
-At an 8 mm nominal diameter, initial design work should prioritize installation space and shaft loading before selecting a reduction ratio.
-
-| Example mechanism and application guide | Critical selection checks |
-| --- | --- |
-| [Micro optical and instrument adjustment](../../applications/precision-instruments-optical-mechanisms.md) | Review positional repeatability, backlash and allowable envelope |
-| [Laboratory micro positioning](../../applications/laboratory-automation-diagnostic-equipment-gear-motors.md) | Check travel profile, cycle count and mechanical interface |
-| [Miniature robotic finger or tendon spool](../../applications/robot-gripper-gear-motors.md) | Check finger force, spool geometry and shaft radial loading |
-
-These are **application ideas for engineering evaluation**, not claims that the 8P has been production-validated in these devices. Final suitability depends on rated torque, ratio and stage count, output-shaft loads, input speed, mounting details and representative device testing.
-
-### 8P Engineering Path: Application → Model → STEP CAD → Inquiry
-
-[Find a Gearhead — Maximum 8 mm Filter](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=8#preliminary-ratio-stage-finder){ .md-button }
-[8P Technical Datasheet](../../engineering-resources/8p/datasheet.md){ .md-button }
-[8P Mechanical Interface](../../engineering-resources/8p/mechanical-interface.md){ .md-button }
-
-[Download 8P Simplified 4-Stage STEP](../../assets/downloads/8p/8P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
-[Request 8P Configuration-Matched CAD or Sample](../../request-cad-sample-quote.md?model=8P){ .md-button }
-
-**CAD boundary:** Public simplified STEP shows a **4-stage reference only**. Other ratios, stage counts, motor interfaces and production drawings require an engineering review. The selector's diameter filter is a maximum limit, not confirmation of 8P application suitability.
-
-## Supply Configuration
-
-SigGear can evaluate the 8P as **Gearhead Only** for an existing motor, or review a **Motor + Gearhead Assembly** for the customer's specific application. Motor-to-gearhead interface and final performance remain subject to engineering confirmation.
-
-
-[Existing Motor — Start 8P Design-In Review](../../request-cad-sample-quote.md?model=8P&path=gearbox_only){ .md-button .md-button--primary }
-[Complete Drive — Start 8P Motor + Gearhead Review](../../request-cad-sample-quote.md?model=8P&path=motor_gearbox){ .md-button }
-
-[Not Sure Yet — Open 8P Project Brief](../../request-cad-sample-quote.md?model=8P){ .md-button }
-
-## Selection Information Required
-
-Please provide:
-
-- Required reduction ratio or output speed
-- Continuous and momentary output torque
-- Motor type, voltage, power, speed and shaft dimensions
-- Available gearbox length and mounting interface
-- Output-shaft requirements
-- Radial and axial loads
-- Duty cycle and ambient temperature
-- Backlash, noise and service-life targets
-- Prototype and annual quantity
-
-Do not transfer the 8P specifications to another frame size or an unlisted stage configuration. Final selection and quotation require confirmation against the approved configuration drawing.
-
-## Engineering Resources
-
-[View 8P Technical Datasheet v1.0](../../engineering-resources/8p/datasheet.md){ .md-button .md-button--primary }
-[View 8P Mechanical Interface v1.0](../../engineering-resources/8p/mechanical-interface.md){ .md-button }
-[Download Simplified STEP - 4-Stage Reference](../../assets/downloads/8p/8P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
-
-The Datasheet consolidates the currently published stage, ratio, torque, efficiency and motor-matching data. The Mechanical Interface summarizes the controlled 2D drawing.
-
-A detailed full-assembly STEP is held as configuration-controlled engineering CAD and is supplied after model / stage / motor-interface review. The raw assembly is not published as a public download because it contains internal planetary transmission geometry.
-
-## TraceParts CAD Discovery
-
-[View 8P 3D CAD on TraceParts (English)](https://www.traceparts.com/en/product/siggear-8p-8-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121068&PartNumber=8p){ .md-button .md-button--primary }
-[Browse SigGear Catalog (Chinese Portal)](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR){ .md-button }
-
-The link above opens the **8P product detail page** on TraceParts International, using the exact address provided by the SigGear operator. STEP AP203 generation and download for this model were confirmed on **2026-10-14**. The Chinese catalog link is provided as an alternative browsing route. Public CAD is a **simplified 4-stage reference**; check stage, ratio and interfaces before production design, and request controlled configuration-matched CAD if required.
-
-## Related Planetary Gearhead Resources
-
-[8–42 mm Precision Planetary Gearheads](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Browse All Planetary Gearheads](index.md){ .md-button }
-[Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
-
-## Contact SigGear
-
-**Wanrong Wang**
-
-International Sales, SigGear
-
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+[Back to the 8–42 mm product catalogue](8-42mm-planetary-gear-reducer.md)

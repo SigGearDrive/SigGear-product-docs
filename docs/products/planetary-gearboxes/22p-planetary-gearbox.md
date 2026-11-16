@@ -1,74 +1,58 @@
 ---
-title: 22 mm Miniature Precision Planetary Gearhead (22P)
-description: "SigGear 22P 22 mm miniature precision planetary gearhead for curtain, smart-toilet and gripper engineering. Compare rated data, drawings and simplified STEP CAD."
+title: 22 mm Miniature Precision Planetary Gearhead (22P) | SigGear
+description: 22 mm miniature precision planetary gearhead (22P) with published stage data, dimensions, datasheet and CAD access.
 ---
-
 
 # 22 mm Miniature Precision Planetary Gearhead (22P)
 
-## Product Overview
-
-The SigGear 22P is a 22 mm miniature precision planetary gearhead (planetary gearbox) for compact motorized mechanisms. The published configurations cover one to four stages, with reduction ratios from 3.5:1 to 509.1:1.
-
-## Real Product Evidence
-
 ![Real SigGear 22P 22 mm miniature planetary gearbox with diameter check](../../assets/images/products/planetary-gearboxes/22p/22p-real-product-evidence.webp)
 
-*Real 22P frame-size product photographed from multiple angles. The caliper photo is a visual diameter reference for the photographed sample and does not replace the controlled dimensional drawing or released tolerances for a confirmed configuration.*
+## Downloads
 
-## Engineering Selection and CAD Access
+| File | Status |
+| --- | --- |
+| Online datasheet | [Open 22P datasheet](../../engineering-resources/22p/datasheet.md) |
+| 2D drawing PDF | Source identified; public binary upload pending |
+| Full assembly STEP | Source identified; public binary upload pending |
+| Dimension preview | [View mechanical interface](../../engineering-resources/22p/mechanical-interface.md) |
+| Simplified STEP | [Download 4-stage reference](../../assets/downloads/22p/22P_Public_Simplified_STEP_v1.0_4-Stage.step) |
 
-The **22 mm miniature planetary gearbox / planetary gearhead** range provides a separate frame-size option from the [20P 20 mm gearbox](20p-planetary-gearbox.md). Published 22P ratios span **3.5:1–509.1:1**, with stage-dependent gearbox body lengths of **22.6–38.5 mm**. Compare installation envelope, stage-specific allowable torque and mechanical interface before choosing between the 20 mm and 22 mm frames.
-
-**Design-In files:** [22P Technical Datasheet](../../engineering-resources/22p/datasheet.md) · [22P Mechanical Interface](../../engineering-resources/22p/mechanical-interface.md)
-
-[Download 22P Public Simplified STEP — 4-Stage Reference](../../assets/downloads/22p/22P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
-[Request 22P Configuration Review](../../request-cad-sample-quote.md){ .md-button }
-
-The downloadable STEP represents the **4-stage reference configuration only** and is intended for preliminary mechanical packaging. It is **not** a dimensionally interchangeable 1-, 2- or 3-stage model. Request configuration-matched CAD and a controlled drawing before design freeze.
-
-**Continuous input-speed range (confirmed 2026-10-15):** 1,000–20,000 rpm for preliminary standard gearbox selection. Speeds outside this range require a custom feasibility review. Motor matching, duty cycle and application conditions must still be confirmed.
-
-**Sizing a 22 mm OEM gearbox?** Check the published ratios, stage-dependent body lengths and rated torque with the SigGear selector. The maximum diameter starts at 22 mm and can be adjusted.
-
-[Open SigGear Planetary Gearbox Selector — 22 mm starting point](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=22#preliminary-ratio-stage-finder){ .md-button }
+## Product Specifications
 
 ## Product Identity
 
 | Item | Description |
 | --- | --- |
 | Model | 22P |
-| Product type | Miniature precision planetary gearhead (planetary gearbox) |
+| Product type | Miniature precision planetary gearhead (planetary gearhead) |
 | Nominal outer diameter | 22 mm |
 | Number of stages | 1 to 4 |
 | Housing material | Steel |
 | Gearwheel material | Steel |
-| Output bearing | Ball bearings |
+| Output bearing | Ball Bearing |
 
 ## Key Specifications
 
 | Parameter | Published value |
 | --- | ---: |
 | Nominal outer diameter | 22 mm |
-| Gearbox length range | 22.6–38.5 mm |
+| gearhead length range | 22.6–38.5 mm |
 | Reduction ratio range | 3.5:1–509.1:1 |
-| Rated allowable torque range | 8.0–25.0 kgf·cm |
-| Maximum momentary torque range | 16.0–50.0 kgf·cm |
+| Rated allowable torque range | 784.5–2451.7 mN·m |
+| Maximum momentary torque range | 1569.1–4903.3 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.5° |
-| Permissible gearbox input speed, continuous operation | 1,000–20,000 rpm |
-| Operating temperature | −40 to 120 °C |
-
-Torque values are preserved in the source unit, kgf·cm. Maximum momentary torque is not a continuous working rating.
+| Permissible gearhead input speed, continuous operation | 1,000–20,000 rpm |
+| Operating temperature | −40 to 120 °C | Maximum momentary torque is not a continuous working rating.
 
 ## Stage, Ratio and Performance Table
 
-| Stages | Gearbox length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
+| Stages | gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
 | ---: | ---: | --- | ---: | ---: | ---: |
-| 1 | 22.6 mm | 3.5 / 4 / 4.75 | 8.0 kgf·cm | 16.0 kgf·cm | 90% |
-| 2 | 27.9 mm | 12.25 / 14 / 16 / 16.6 / 19 / 22.6 | 10.0 kgf·cm | 20.0 kgf·cm | 80% |
-| 3 | 33.2 mm | 42.9 / 49 / 56 / 58.2 / 64 / 66.5 / 76 / 79 / 90.25 / 107.2 | 15.0 kgf·cm | 30.0 kgf·cm | 73% |
-| 4 | 38.5 mm | 150.1 / 171.5 / 196 / 203.7 / 224 / 232.7 / 256 / 266 / 276.4 / 304 / 315.9 / 361 / 375.1 / 428.7 / 509.1 | 25.0 kgf·cm | 50.0 kgf·cm | 66% |
+| 1 | 22.6 mm | 3.5 / 4 / 4.75 | 784.5 mN·m | 1569.1 mN·m | 90% |
+| 2 | 27.9 mm | 12.25 / 14 / 16 / 16.6 / 19 / 22.6 | 980.7 mN·m | 1961.3 mN·m | 80% |
+| 3 | 33.2 mm | 42.9 / 49 / 56 / 58.2 / 64 / 66.5 / 76 / 79 / 90.25 / 107.2 | 1471.0 mN·m | 2942.0 mN·m | 73% |
+| 4 | 38.5 mm | 150.1 / 171.5 / 196 / 203.7 / 224 / 232.7 / 256 / 266 / 276.4 / 304 / 315.9 / 361 / 375.1 / 428.7 / 509.1 | 2451.7 mN·m | 4903.3 mN·m | 66% |
 
 ## Shaft and Load Limits
 
@@ -81,96 +65,16 @@ Torque values are preserved in the source unit, kgf·cm. Maximum momentary torqu
 
 ## Motor Compatibility
 
-The adapted-motor sheet identifies DC motors with a nominal voltage of **3–36 VDC** and rated power **below 25 W**. If a motor cannot meet the gearbox installation requirements, motor matching must be negotiated separately.
+The adapted-motor sheet identifies DC motors with a nominal voltage of **3–36 VDC** and rated power **below 25 W**. If a motor cannot meet the gearhead installation requirements, motor matching must be negotiated separately.
 
-These are adapted-motor conditions, not an electrical voltage or power rating for the mechanical gearbox itself. Confirm the motor shaft, mounting interface, input speed, duty cycle and operating point for the selected gearbox ratio.
+These are adapted-motor conditions, not an electrical voltage or power rating for the mechanical gearhead itself. Confirm the motor shaft, mounting interface, input speed, duty cycle and operating point for the selected gearhead ratio.
 
 ## Dimensions and Interface
 
-Published dimensional references identify a 22 mm body, a 20 mm output-shaft extension and stage-dependent gearbox body lengths of 22.6, 27.9, 33.2 and 38.5 mm. Review the [22P Mechanical Interface](../../engineering-resources/22p/mechanical-interface.md) and request the applicable configuration-controlled drawing to confirm the output shaft, mounting, motor interface and tolerances.
+Published dimensional references identify a 22 mm body, a 20 mm output-shaft extension and stage-dependent gearhead body lengths of 22.6, 27.9, 33.2 and 38.5 mm. Review the [22P Mechanical Interface](../../engineering-resources/22p/mechanical-interface.md) and request the applicable configuration-controlled drawing to confirm the output shaft, mounting, motor interface and tolerances.
 
-## Typical Applications
+## CAD Notes
 
-### Potential OEM Applications for the 22P 22 mm Gearhead
+The currently downloadable STEP is the simplified 4-stage reference model. The full assembly STEP is a separate file and will be linked here after its public binary is uploaded. The dimension preview is not a substitute for the original 2D drawing PDF or its controlled revision.
 
-The 22P offers a separate published frame and motor-interface choice from the 20P; assess stage length, noise and torque under actual loads.
-
-| Example mechanism and application guide | Critical selection checks |
-| --- | --- |
-| [Electric curtain and roller blind motion](../../applications/electric-curtain-blind-window-opener-gear-motors.md) | Check friction, speed, quiet running and power-off motion |
-| [Smart-toilet lid or nozzle actuation](../../applications/smart-toilet-bidet-planetary-gear-motors.md) | Define movement force, obstruction handling and moisture exposure |
-| [Compact electric gripper jaw](../../applications/robot-gripper-gear-motors.md) | Review jaw force, speed and radial shaft loads |
-
-These are **application ideas for engineering evaluation**, not claims that the 22P has been production-validated in these devices. Final suitability depends on rated torque, ratio and stage count, output-shaft loads, input speed, mounting details and representative device testing.
-
-### 22P Engineering Path: Application → Model → STEP CAD → Inquiry
-
-[Find a Gearhead — Maximum 22 mm Filter](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=22#preliminary-ratio-stage-finder){ .md-button }
-[22P Technical Datasheet](../../engineering-resources/22p/datasheet.md){ .md-button }
-[22P Mechanical Interface](../../engineering-resources/22p/mechanical-interface.md){ .md-button }
-
-[Download 22P Simplified 4-Stage STEP](../../assets/downloads/22p/22P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
-[Request 22P Configuration-Matched CAD or Sample](../../request-cad-sample-quote.md?model=22P){ .md-button }
-
-**CAD boundary:** Public simplified STEP shows a **4-stage reference only**. Other ratios, stage counts, motor interfaces and production drawings require an engineering review. The selector's diameter filter is a maximum limit, not confirmation of 22P application suitability.
-
-## Supply Configuration
-
-SigGear can supply the **22P 22 mm precision planetary gearhead as a Gearhead Only unit**, subject to the selected ratio and mechanical interface. This route is relevant if you already have a motor and need to evaluate shaft, pilot, mounting-pattern and input-speed compatibility.
-
-If you need a **Motor + Gearhead Assembly**, SigGear can evaluate a matching motor against the required output speed, continuous load, voltage, available space and duty cycle. Compatibility and final performance must be confirmed for the exact configuration.
-
-[Start a 22P OEM Gearhead Inquiry](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
-
-
-[Existing Motor — Start 22P Design-In Review](../../request-cad-sample-quote.md?model=22P&path=gearbox_only){ .md-button .md-button--primary }
-[Complete Drive — Start 22P Motor + Gearhead Review](../../request-cad-sample-quote.md?model=22P&path=motor_gearbox){ .md-button }
-
-[Not Sure Yet — Open 22P Project Brief](../../request-cad-sample-quote.md?model=22P){ .md-button }
-
-## Selection Information Required
-
-Please provide:
-
-- Required reduction ratio or output speed
-- Continuous and momentary output torque
-- Motor type, voltage, power, speed and shaft dimensions
-- Available gearbox length and mounting interface
-- Output-shaft requirements
-- Radial and axial loads
-- Duty cycle and ambient temperature
-- Backlash, noise and service-life targets
-- Prototype and annual quantity
-
-Do not transfer the 22P specifications to another frame size or an unlisted stage configuration. Final selection and quotation require confirmation against the approved configuration drawing.
-
-## Engineering Resources
-
-[View 22P Technical Datasheet v1.0](../../engineering-resources/22p/datasheet.md){ .md-button .md-button--primary }
-[View 22P Mechanical Interface v1.0](../../engineering-resources/22p/mechanical-interface.md){ .md-button }
-[Download Simplified STEP - 4-Stage Reference](../../assets/downloads/22p/22P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
-
-The Datasheet consolidates the currently published stage, ratio, torque, efficiency and motor-matching data. The Mechanical Interface summarizes the controlled 2D drawing.
-
-A detailed full-assembly STEP is held as configuration-controlled engineering CAD and is supplied after model / stage / motor-interface review. The raw assembly is not published as a public download because it contains internal planetary transmission geometry.
-
-## TraceParts CAD Discovery
-
-[View 22P 3D CAD on TraceParts (English)](https://www.traceparts.com/en/product/siggear-22p-22-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121064&PartNumber=22p){ .md-button .md-button--primary }
-[Browse SigGear Catalog (Chinese Portal)](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR){ .md-button }
-
-The link above opens the **22P product detail page** on TraceParts International, using the exact address provided by the SigGear operator. STEP AP203 generation and download for this model were confirmed on **2026-10-14**. The Chinese catalog link is provided as an alternative browsing route. Public CAD is a **simplified 4-stage reference**; check stage, ratio and interfaces before production design, and request controlled configuration-matched CAD if required.
-
-## Related Planetary Gearhead Resources
-
-[8–42 mm Precision Planetary Gearheads](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Browse All Planetary Gearheads](index.md){ .md-button }
-[Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
-
-## Contact SigGear
-
-**Wanrong Wang**
-
-International Sales, SigGear
-
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+[Back to the 8–42 mm product catalogue](8-42mm-planetary-gear-reducer.md)

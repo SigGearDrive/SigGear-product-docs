@@ -1,67 +1,60 @@
 ---
-title: 14 mm Micro Precision Planetary Gearhead (14P)
-description: "Evaluate SigGear 14P 14 mm micro precision planetary gearheads for dexterous hands, laboratory systems and precision instruments. Datasheet and 4-stage STEP reference."
+title: 14 mm Micro Precision Planetary Gearhead (14P) | SigGear
+description: 14 mm micro precision planetary gearhead (14P) with published stage data, dimensions, datasheet and CAD access.
 ---
-
 
 # 14 mm Micro Precision Planetary Gearhead (14P)
 
-## Product Overview
-
-The SigGear 14P is a 14 mm micro precision planetary gearhead (planetary gearbox) for compact motorized mechanisms. The published configurations cover one to four stages, with reduction ratios from 3.75:1 to 443.3:1.
-
 ![SigGear 14P 14 mm micro planetary gearbox](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearbox-main.webp)
 
-## Real Product Evidence
+## Downloads
 
-![Real SigGear 14P 14 mm micro planetary gearbox with diameter check](../../assets/images/products/planetary-gearboxes/14p/14p-real-product-evidence.webp)
+| File | Status |
+| --- | --- |
+| Online datasheet | [Open 14P datasheet](../../engineering-resources/14p/datasheet.md) |
+| 2D drawing PDF | Source identified; public binary upload pending |
+| Full assembly STEP | Source identified; public binary upload pending |
+| Dimension preview | [View dimension preview](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearbox-dimensions.webp) |
+| Simplified STEP | [Download 4-stage reference](../../assets/downloads/14p/14P_Public_Simplified_STEP_v1.0_4-Stage.step) |
 
-*Real 14P frame-size product photographed from multiple angles. The caliper photo is a visual diameter reference for the photographed sample and does not replace the controlled dimensional drawing or released tolerances for a confirmed configuration.*
-
-**Continuous input-speed range (confirmed 2026-10-15):** 1,000–20,000 rpm for preliminary standard gearbox selection. Speeds outside this range require a custom feasibility review. Motor matching, duty cycle and application conditions must still be confirmed.
-
-**Sizing a 14 mm OEM gearbox?** Check the published ratios, stage-dependent body lengths and rated torque with the SigGear selector. The maximum diameter starts at 14 mm and can be adjusted.
-
-[Open SigGear Planetary Gearbox Selector — 14 mm starting point](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=14#preliminary-ratio-stage-finder){ .md-button }
+## Product Specifications
 
 ## Product Identity
 
 | Item | Description |
 | --- | --- |
 | Model | 14P |
-| Product type | Micro precision planetary gearhead (planetary gearbox) |
+| Product type | Micro precision planetary gearhead (planetary gearhead) |
 | Nominal outer diameter | 14 mm |
 | Number of stages | 1 to 4 |
 | Housing material | Steel |
 | Gearwheel material | Steel |
-| Output bearing | Ball bearing |
+| Output bearing | Ball Bearing |
 
 ## Key Specifications
 
 | Parameter | Published value |
 | --- | ---: |
 | Nominal outer diameter | 14 mm |
-| Gearbox length range | 15.2–26.6 mm |
+| gearhead length range | 15.2–26.6 mm |
 | Reduction ratio range | 3.75:1–443.3:1 |
-| Rated allowable torque range | 3.5–6.0 kgf·cm |
-| Maximum momentary torque range | 7.0–12.0 kgf·cm |
+| Rated allowable torque range | 343.2–588.4 mN·m |
+| Maximum momentary torque range | 686.5–1176.8 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.5° |
-| Permissible gearbox input speed, continuous operation | 1,000–20,000 rpm |
-| Operating temperature | −40 to 120 °C |
-
-Torque values are preserved in the source unit, kgf·cm. Maximum momentary torque is not a continuous working rating.
+| Permissible gearhead input speed, continuous operation | 1,000–20,000 rpm |
+| Operating temperature | −40 to 120 °C | Maximum momentary torque is not a continuous working rating.
 
 ## Stage, Ratio and Performance Table
 
-| Stages | Gearbox length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
+| Stages | gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
 | ---: | ---: | --- | ---: | ---: | ---: |
-| 1 | 15.2 mm | 3.75 / 4.38 / 4.66 | 3.5 kgf·cm | 7.0 kgf·cm | 90% |
-| 2 | 19.0 mm | 14 / 16.4 / 17.5 / 19.2 / 20.4 / 21.7 | 4.0 kgf·cm | 8.0 kgf·cm | 80% |
-| 3 | 22.8 mm | 52.7 / 61.6 / 65.5 / 71.9 / 76.5 / 81.4 / 84 / 89.4 / 95.1 / 101.2 | 5.0 kgf·cm | 10.0 kgf·cm | 73% |
-| 4 | 26.6 mm | 197.75 / 231 / 245.74 / 269.8 / 287 / 305.4 / 315.1 / 335.25 / 356.7 / 368 / 379.5 / 391.6 / 416.6 / 443.3 | 6.0 kgf·cm | 12.0 kgf·cm | 66% |
+| 1 | 15.2 mm | 3.75 / 4.38 / 4.66 | 343.2 mN·m | 686.5 mN·m | 90% |
+| 2 | 19.0 mm | 14 / 16.4 / 17.5 / 19.2 / 20.4 / 21.7 | 392.3 mN·m | 784.5 mN·m | 80% |
+| 3 | 22.8 mm | 52.7 / 61.6 / 65.5 / 71.9 / 76.5 / 81.4 / 84 / 89.4 / 95.1 / 101.2 | 490.3 mN·m | 980.7 mN·m | 73% |
+| 4 | 26.6 mm | 197.75 / 231 / 245.74 / 269.8 / 287 / 305.4 / 315.1 / 335.25 / 356.7 / 368 / 379.5 / 391.6 / 416.6 / 443.3 | 588.4 mN·m | 1176.8 mN·m | 66% |
 
-![14P planetary gearbox structure and published stage-ratio table](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearbox-structure-and-ratios.webp)
+![14P planetary gearhead structure and published stage-ratio table](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearhead-structure-and-ratios.webp)
 
 ## Shaft and Load Limits
 
@@ -72,102 +65,26 @@ Torque values are preserved in the source unit, kgf·cm. Maximum momentary torqu
 | Radial shaft play | ≤ 0.04 mm |
 | Thrust shaft play | ≤ 0.2 mm |
 
-![14P planetary gearbox mechanical details and operating limits](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearbox-mechanical-details.webp)
+![14P planetary gearhead mechanical details and operating limits](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearhead-mechanical-details.webp)
 
 ## Motor Compatibility
 
-The detailed adapted-motor sheet identifies DC motors with a nominal voltage of **3–36 VDC** and power **below 5 W**. If a motor cannot meet the gearbox installation requirements, motor matching must be negotiated separately.
+The detailed adapted-motor sheet identifies DC motors with a nominal voltage of **3–36 VDC** and power **below 5 W**. If a motor cannot meet the gearhead installation requirements, motor matching must be negotiated separately.
 
 The summary artwork expresses the motor-power limit as “≤ 5 W,” while the detailed adapted-motor sheet says “less than 5 W.” This page uses the stricter **below 5 W** condition until the boundary is technically reconciled.
 
-These are adapted-motor conditions, not an electrical voltage or power rating for the mechanical gearbox itself. Confirm the motor shaft, mounting interface, input speed, duty cycle and operating point for the selected gearbox ratio.
+These are adapted-motor conditions, not an electrical voltage or power rating for the mechanical gearhead itself. Confirm the motor shaft, mounting interface, input speed, duty cycle and operating point for the selected gearhead ratio.
 
-![14P gearbox adapted-motor information](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearbox-motor-compatibility.webp)
+![14P gearhead adapted-motor information](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearhead-motor-compatibility.webp)
 
 ## Dimensions and Interface
 
-The published drawing shows a 14 mm body, a 10.0 mm output-shaft extension and stage-dependent gearbox lengths of 15.2, 19.0, 22.8 and 26.6 mm. Use the drawing below for the complete shaft, mounting, input-interface and tolerance notation.
+The published drawing shows a 14 mm body, a 10.0 mm output-shaft extension and stage-dependent gearhead lengths of 15.2, 19.0, 22.8 and 26.6 mm. Use the drawing below for the complete shaft, mounting, input-interface and tolerance notation.
 
-![14P 14 mm planetary gearbox dimensional drawing](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearbox-dimensions.webp)
+![14P 14 mm planetary gearhead dimensional drawing](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearhead-dimensions.webp)
 
-## Typical Applications
+## CAD Notes
 
-### Potential OEM Applications for the 14P 14 mm Gearhead
+The currently downloadable STEP is the simplified 4-stage reference model. The full assembly STEP is a separate file and will be linked here after its public binary is uploaded. The dimension preview is not a substitute for the original 2D drawing PDF or its controlled revision.
 
-The 14P is a micro-frame candidate when a design must balance a strict diameter limit with a required output torque and motor interface.
-
-| Example mechanism and application guide | Critical selection checks |
-| --- | --- |
-| [Dexterous hand finger actuation](../../applications/robot-gripper-gear-motors.md) | Check tendon force, spool radius and backdrivability |
-| [Automated pipetting mechanism](../../applications/laboratory-automation-diagnostic-equipment-gear-motors.md) | Define low-speed motion, repeatability and operating cycles |
-| [Precision optical alignment](../../applications/precision-instruments-optical-mechanisms.md) | Confirm backlash target, vibration and mounting stiffness |
-
-These are **application ideas for engineering evaluation**, not claims that the 14P has been production-validated in these devices. Final suitability depends on rated torque, ratio and stage count, output-shaft loads, input speed, mounting details and representative device testing.
-
-### 14P Engineering Path: Application → Model → STEP CAD → Inquiry
-
-[Find a Gearhead — Maximum 14 mm Filter](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=14#preliminary-ratio-stage-finder){ .md-button }
-[14P Technical Datasheet](../../engineering-resources/14p/datasheet.md){ .md-button }
-[14P Mechanical Interface](../../engineering-resources/14p/mechanical-interface.md){ .md-button }
-
-[Download 14P Simplified 4-Stage STEP](../../assets/downloads/14p/14P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
-[Request 14P Configuration-Matched CAD or Sample](../../request-cad-sample-quote.md?model=14P){ .md-button }
-
-**CAD boundary:** Public simplified STEP shows a **4-stage reference only**. Other ratios, stage counts, motor interfaces and production drawings require an engineering review. The selector's diameter filter is a maximum limit, not confirmation of 14P application suitability.
-
-## Supply Configuration
-
-SigGear can evaluate the 14P as **Gearhead Only** for an existing motor, or review a **Motor + Gearhead Assembly** for the customer's specific application. Motor-to-gearhead interface and final performance remain subject to engineering confirmation.
-
-
-[Existing Motor — Start 14P Design-In Review](../../request-cad-sample-quote.md?model=14P&path=gearbox_only){ .md-button .md-button--primary }
-[Complete Drive — Start 14P Motor + Gearhead Review](../../request-cad-sample-quote.md?model=14P&path=motor_gearbox){ .md-button }
-
-[Not Sure Yet — Open 14P Project Brief](../../request-cad-sample-quote.md?model=14P){ .md-button }
-
-## Selection Information Required
-
-Please provide:
-
-- Required reduction ratio or output speed
-- Continuous and momentary output torque
-- Motor type, voltage, power, speed and shaft dimensions
-- Available gearbox length and mounting interface
-- Output-shaft requirements
-- Radial and axial loads
-- Duty cycle and ambient temperature
-- Backlash, noise and service-life targets
-- Prototype and annual quantity
-
-Do not transfer the 14P specifications to another frame size or an unlisted stage configuration. Final selection and quotation require confirmation against the approved configuration drawing.
-
-## Engineering Resources
-
-[View 14P Technical Datasheet v1.0](../../engineering-resources/14p/datasheet.md){ .md-button .md-button--primary }
-[View 14P Mechanical Interface v1.0](../../engineering-resources/14p/mechanical-interface.md){ .md-button }
-[Download Simplified STEP - 4-Stage Reference](../../assets/downloads/14p/14P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
-
-The Datasheet consolidates the currently published stage, ratio, torque, efficiency and motor-matching data. The Mechanical Interface summarizes the controlled 2D drawing.
-
-A detailed full-assembly STEP is held as configuration-controlled engineering CAD and is supplied after model / stage / motor-interface review. The raw assembly is not published as a public download because it contains internal planetary transmission geometry.
-
-## TraceParts CAD Discovery
-
-[View 14P 3D CAD on TraceParts (English)](https://www.traceparts.com/en/product/siggear-14p-14-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769189-121058&PartNumber=14p){ .md-button .md-button--primary }
-[Browse SigGear Catalog (Chinese Portal)](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR){ .md-button }
-
-The link above opens the **14P product detail page** on TraceParts International, using the exact address provided by the SigGear operator. STEP AP203 generation and download for this model were confirmed on **2026-10-14**. The Chinese catalog link is provided as an alternative browsing route. Public CAD is a **simplified 4-stage reference**; check stage, ratio and interfaces before production design, and request controlled configuration-matched CAD if required.
-
-## Related Planetary Gearhead Resources
-
-[8–42 mm Precision Planetary Gearheads](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Browse All Planetary Gearheads](index.md){ .md-button }
-[Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
-
-## Contact SigGear
-
-**Wanrong Wang**
-
-International Sales, SigGear
-
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+[Back to the 8–42 mm product catalogue](8-42mm-planetary-gear-reducer.md)

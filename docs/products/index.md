@@ -1,62 +1,30 @@
 ---
-title: SigGear Products | Micro, Miniature & Compact Planetary Gearboxes
-description: Explore SigGear's micro, miniature and compact 8–42 mm planetary gearbox range. Find 12 model pages, technical datasheets, 4-stage STEP references and motor matching.
+title: SigGear Product Catalogue | Planetary Gearheads & Robot Actuators
+description: Browse SigGear products and open model-specific specifications, datasheets, 2D drawings and STEP CAD.
 ---
 
 # SigGear Products
 
-This section is the authoritative public source for SigGear product specifications. Our current overseas product focus is **8–42 mm micro, miniature and compact planetary gearboxes**, with gearbox-only supply and motor-matching engineering support. Other SigGear transmission and joint-drive product families remain available for relevant projects.
+## Precision Planetary Gearheads | 8–42 mm
 
-These products are also reference platforms for engineering evaluation. A custom project does not need to match an existing catalog model exactly. If the required ratio, motor interface, shaft, mounting, size or integration differs, start with the Custom Engineering path.
+12 Micro, Miniature and Compact models with model-specific product parameters and CAD resources.
 
-[Explore Custom Precision Transmission Engineering](../custom-engineering/index.md){ .md-button .md-button--primary }
-
-## Micro, Miniature & Compact Planetary Gearboxes | 8–42 mm
-
-SigGear publishes 12 planetary gearbox frame sizes: **Micro 8P–16P (8–16 mm), Miniature 20P–32P (20–32 mm), and Compact 36P–42P (36–42 mm)**. These planetary gearheads may be supplied as gearbox-only units, or our team can review motor matching for a complete assembly.
-
-Each frame size has a Datasheet, a Mechanical Interface reference and simplified **4-stage STEP CAD** for preliminary Design-In. Final stage/ratio-specific drawings and motor compatibility require engineering confirmation.
-
-[Compare 8–42 mm Models](planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
-[Browse Planetary Gearboxes](planetary-gearboxes/index.md){ .md-button }
-
-For immediate model selection, see [10P 10 mm Micro Planetary Gearbox](planetary-gearboxes/10p-planetary-gearbox.md), [20P 20 mm Miniature Planetary Gearbox](planetary-gearboxes/20p-planetary-gearbox.md), [32P 32 mm Miniature Planetary Gearbox](planetary-gearboxes/32p-planetary-gearbox.md) or [42P 42 mm Compact Planetary Gearbox](planetary-gearboxes/42p-planetary-gearbox.md). These are **frame-size references**, not a substitute for an approved stage/ratio configuration.
+[**Open the 8–42 mm product catalogue**](planetary-gearboxes/8-42mm-planetary-gear-reducer.md)
 
 ## Robot Joint Actuators
 
-Integrated planetary robot joint actuators for humanoid robots, quadruped robots, robotic arms, exoskeletons and automation systems.
+Integrated planetary robot joint actuators.
 
-[Browse robot joint actuators](robot-joint-actuators/index.md)
+[Browse SG-6010C, SG-6010D, SG-6010HB and SG-8021](robot-joint-actuators/index.md)
 
 ## Cycloidal Joint Modules
 
-Compact high-torque cycloidal joint modules for robot joints and precision motion systems.
+Compact cycloidal robot joint modules.
 
-[Browse cycloidal joint modules](cycloidal-joint-modules/index.md)
+[Browse CPM-78-39, CPM-80-25 and CPM-100-25](cycloidal-joint-modules/index.md)
 
-## Micro Gear Motors
+## Other Products
 
-Miniature planetary gear motors and custom motor-transmission integration for robotics, medical devices, precision instruments and compact automation.
-
-[Browse micro gear motors](micro-gear-motors/index.md)
-
-## Flat BLDC Motors and Joint Drives
-
-Flat motor and integrated joint-drive solutions, including the planetary-core SigGear-Horse family and cycloidal-core SigGear-Tiger family.
-
-[Browse flat BLDC motors and joint drives](flat-bldc-motors/index.md)
-
-## Hub Gear Motors
-
-Compact geared wheel-drive products for mobile robotics and automation.
-
-[Browse hub gear motors](hub-gear-motors/index.md)
-
-## Documentation Policy
-
-Every model or series has one canonical product page. Unverified values are not published as confirmed specifications.
-
-Selected products now have public Engineering Packs containing reviewed resources such as simplified STEP models, mechanical-interface references, datasheets and measured data where an approved source exists. Controlled production drawings, configuration-specific wiring / protocol documents, and noise, thermal or service-life information remain request-only when they depend on the exact selected configuration.
-
-[Open the Engineering Center](../engineering-center/index.md){ .md-button .md-button--primary }
+- [Hub Gear Motors](hub-gear-motors/index.md)
+- [Micro Gear Motors](micro-gear-motors/index.md)
+- [Flat BLDC Motors and Joint Drives](flat-bldc-motors/index.md)

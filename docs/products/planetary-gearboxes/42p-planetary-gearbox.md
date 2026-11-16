@@ -1,44 +1,30 @@
 ---
-title: 42 mm Compact Precision Planetary Gearhead (42P)
-description: "Evaluate SigGear 42P 42 mm compact precision planetary gearhead for higher-load pruning, fastening and compact OEM actuation. Design-In resources and STEP CAD."
+title: 42 mm Compact Precision Planetary Gearhead (42P) | SigGear
+description: 42 mm compact precision planetary gearhead (42P) with published stage data, dimensions, datasheet and CAD access.
 ---
-
 
 # 42 mm Compact Precision Planetary Gearhead (42P)
 
-## Product Overview
-
-The SigGear 42P is a 42 mm compact precision planetary gearhead (planetary gearbox) for compact motorized mechanisms requiring higher torque capacity in the 8–42 mm planetary gearbox series. Published configurations cover one to four stages, with reduction ratios from 3.8:1 to 660.7:1.
-
-## Real Product Evidence
-
 ![Real SigGear 42P 42 mm compact planetary gearbox with diameter check](../../assets/images/products/planetary-gearboxes/42p/42p-real-product-evidence.webp)
 
-*Real 42P frame-size product photographed from multiple angles. The caliper photo is a visual diameter reference for the photographed sample and does not replace the controlled dimensional drawing or released tolerances for a confirmed configuration.*
+## Downloads
 
-## Engineering Selection and CAD Access
+| File | Status |
+| --- | --- |
+| Online datasheet | [Open 42P datasheet](../../engineering-resources/42p/datasheet.md) |
+| 2D drawing PDF | Source identified; public binary upload pending |
+| Full assembly STEP | Source identified; public binary upload pending |
+| Dimension preview | [View mechanical interface](../../engineering-resources/42p/mechanical-interface.md) |
+| Simplified STEP | [Download 4-stage reference](../../assets/downloads/42p/42P_Public_Simplified_STEP_v1.0_4-Stage.step) |
 
-The **42 mm compact planetary gearbox / planetary gearhead** is at the larger end of SigGear's 8–42 mm miniature/compact range. Published gearbox body length varies from **35.6 to 69.5 mm** by stage, and published ratios span **3.8:1–660.7:1**. For an OEM mechanism, check the exact stage torque, shaft loading, output interface and motor matching against the [42P Design-In Pack](../../engineering-resources/42p/design-in-pack.md) before finalizing the design.
-
-**Design-In files:** [42P Technical Datasheet](../../engineering-resources/42p/datasheet.md) · [42P Motor Integration Guide](../../engineering-resources/42p/motor-integration.md)
-
-[Download 42P Public Simplified STEP — 4-Stage Reference](../../assets/downloads/42p/42P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
-[Request 42P Configuration Review](../../request-cad-sample-quote.md){ .md-button }
-
-The downloadable STEP represents the **4-stage reference configuration only** and is intended for preliminary mechanical packaging. It is **not** a dimensionally interchangeable 1-, 2- or 3-stage model. Request configuration-matched CAD and a controlled drawing before design freeze.
-
-**Continuous input-speed range (confirmed 2026-10-15):** 1,000–20,000 rpm for preliminary standard gearbox selection. Speeds outside this range require a custom feasibility review. Motor matching, duty cycle and application conditions must still be confirmed.
-
-**Sizing a 42 mm OEM gearbox?** Check the published ratios, stage-dependent body lengths and rated torque with the SigGear selector. The maximum diameter starts at 42 mm and can be adjusted.
-
-[Open SigGear Planetary Gearbox Selector — 42 mm starting point](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=42#preliminary-ratio-stage-finder){ .md-button }
+## Product Specifications
 
 ## Product Identity
 
 | Item | Description |
 | --- | --- |
 | Model | 42P |
-| Product type | Compact precision planetary gearhead (planetary gearbox) |
+| Product type | Compact precision planetary gearhead (planetary gearhead) |
 | Nominal outer diameter | 42 mm |
 | Number of stages | 1 to 4 |
 | Manufacturing process | Machining |
@@ -48,138 +34,50 @@ The downloadable STEP represents the **4-stage reference configuration only** an
 | Parameter | Published value |
 | --- | ---: |
 | Nominal outer diameter | 42 mm |
-| Gearbox length range | 35.6–69.5 mm |
+| gearhead length range | 35.6–69.5 mm |
 | Reduction ratio range | 3.8:1–660.7:1 |
-| Rated allowable torque range | 80.0–150.0 kgf·cm |
-| Maximum momentary torque range | 160.0–300.0 kgf·cm |
+| Rated allowable torque range | 7845.3–14710.0 mN·m |
+| Maximum momentary torque range | 15690.6–29420.0 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.2° |
-| Permissible gearbox input speed, continuous operation | 1,000–20,000 rpm |
+| Permissible gearhead input speed, continuous operation | 1,000–20,000 rpm |
 | Operating temperature range | −40 to 120 °C |
 | Housing material | Steel |
 | Gear material | Steel |
-| Output bearing | Ball bearings |
+| Output bearing | Ball Bearing |
 | Radial load, 10 mm from flange | ≤ 16.0 kgf |
 | Shaft axial load | ≤ 8.0 kgf |
 | Radial play of shaft | ≤ 0.04 mm |
 | Thrust play of shaft | ≤ 0.3 mm |
 | Adapted DC motor voltage | 3–48 VDC |
 | Adapted DC motor power | below 200 W |
-| Manufacturing process | Machining |
-
-Torque values are preserved in the source unit, kgf·cm. Maximum momentary torque is not a continuous working rating.
+| Manufacturing process | Machining | Maximum momentary torque is not a continuous working rating.
 
 ## Stage, Ratio and Performance Table
 
-| Stages | Gearbox length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
+| Stages | gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
 | ---: | ---: | --- | ---: | ---: | ---: |
-| 1 | 35.6 mm | 3.8 / 4.3 / 5.1 | 80.0 kgf·cm | 160.0 kgf·cm | 90% |
-| 2 | 46.9 mm | 14.4 / 16.3 / 18.6 / 19.2 / 21.8 / 25.7 | 100.0 kgf·cm | 200.0 kgf·cm | 80% |
-| 3 | 58.2 mm | 54.4 / 61.9 / 70.4 / 72.8 / 80.1 / 82.8 / 94.2 / 97.4 / 110.8 / 130.3 | 120.0 kgf·cm | 240.0 kgf·cm | 73% |
-| 4 | 69.5 mm | 206.4 / 234.6 / 266.8 / 276 / 303.5 / 313.9 / 345 / 357 / 369.2 / 406 / 419.9 / 477.5 / 493.93 / 561.70 / 660.7 | 150.0 kgf·cm | 300.0 kgf·cm | 66% |
+| 1 | 35.6 mm | 3.8 / 4.3 / 5.1 | 7845.3 mN·m | 15690.6 mN·m | 90% |
+| 2 | 46.9 mm | 14.4 / 16.3 / 18.6 / 19.2 / 21.8 / 25.7 | 9806.6 mN·m | 19613.3 mN·m | 80% |
+| 3 | 58.2 mm | 54.4 / 61.9 / 70.4 / 72.8 / 80.1 / 82.8 / 94.2 / 97.4 / 110.8 / 130.3 | 11768.0 mN·m | 23536.0 mN·m | 73% |
+| 4 | 69.5 mm | 206.4 / 234.6 / 266.8 / 276 / 303.5 / 313.9 / 345 / 357 / 369.2 / 406 / 419.9 / 477.5 / 493.93 / 561.70 / 660.7 | 14710.0 mN·m | 29420.0 mN·m | 66% |
 
 ## Motor Compatibility
 
-The adapted-motor sheet identifies DC motors with a nominal voltage of **3–48 VDC** and power **below 200 W**. If the motor cannot meet the gearbox installation requirements, the motor and gearbox interface details need to be negotiated separately.
+The adapted-motor sheet identifies DC motors with a nominal voltage of **3–48 VDC** and power **below 200 W**. If the motor cannot meet the gearhead installation requirements, the motor and gearhead interface details need to be negotiated separately.
 
-These are adapted-motor conditions, not an electrical voltage or power rating for the mechanical gearbox itself. Confirm the motor shaft, mounting interface, input speed, duty cycle and operating point for the selected gearbox ratio.
+These are adapted-motor conditions, not an electrical voltage or power rating for the mechanical gearhead itself. Confirm the motor shaft, mounting interface, input speed, duty cycle and operating point for the selected gearhead ratio.
 
 ## Dimensions and Interface
 
-The published drawing shows a 42 mm body diameter and stage-dependent gearbox lengths of 35.6, 46.9, 58.2 and 69.5 mm. Use the approved drawing for shaft geometry, mounting holes, input-interface details and tolerance notation.
+The published drawing shows a 42 mm body diameter and stage-dependent gearhead lengths of 35.6, 46.9, 58.2 and 69.5 mm. Use the approved drawing for shaft geometry, mounting holes, input-interface details and tolerance notation.
 
-The current 42P specification sheet confirms steel housing and gears, ball bearings at the output, a radial load limit of **≤ 16.0 kgf measured 10 mm from the flange**, a shaft axial load limit of **≤ 8.0 kgf**, radial shaft play of **≤ 0.04 mm**, thrust shaft play of **≤ 0.3 mm**, continuous permissible input speed of **1,000–20,000 rpm**, and an operating temperature range of **−40 to 120 °C**.
+The current 42P specification sheet confirms steel housing and gears, Ball Bearing at the output, a radial load limit of **≤ 16.0 kgf measured 10 mm from the flange**, a shaft axial load limit of **≤ 8.0 kgf**, radial shaft play of **≤ 0.04 mm**, thrust shaft play of **≤ 0.3 mm**, continuous permissible input speed of **1,000–20,000 rpm**, and an operating temperature range of **−40 to 120 °C**.
 
-These are published gearbox limits. The actual application load direction, duty cycle, motor operating point and selected stage / ratio still need to be checked before final selection.
+These are published gearhead limits. The actual application load direction, duty cycle, motor operating point and selected stage / ratio still need to be checked before final selection.
 
-## Typical Applications
+## CAD Notes
 
-### Potential OEM Applications for the 42P 42 mm Gearhead
+The currently downloadable STEP is the simplified 4-stage reference model. The full assembly STEP is a separate file and will be linked here after its public binary is uploaded. The dimension preview is not a substitute for the original 2D drawing PDF or its controlled revision.
 
-The 42P is the largest published SigGear planetary frame in this series; use the stage-dependent rated torque table rather than assuming a universal high-torque rating.
-
-| Example mechanism and application guide | Critical selection checks |
-| --- | --- |
-| [Electric pruning or cable-cutting mechanisms](../../applications/electric-pruning-shears-planetary-gearbox.md) | Separate continuous torque from cutting peak, shock and jam loads |
-| [Higher-load powered fastening tools](../../applications/powered-screwdriver-planetary-gearbox.md) | Calculate torque requirement, run time and motor interface |
-| [Compact industrial gripper or actuator](../../applications/industrial-automation-servo-planetary-gearboxes.md) | Check output support, speed, backlash and cycle life |
-
-These are **application ideas for engineering evaluation**, not claims that the 42P has been production-validated in these devices. Final suitability depends on rated torque, ratio and stage count, output-shaft loads, input speed, mounting details and representative device testing.
-
-### 42P Engineering Path: Application → Model → STEP CAD → Inquiry
-
-[Find a Gearhead — Maximum 42 mm Filter](../../selection-guides/miniature-planetary-gearbox-selection-guide.md?max_diameter=42#preliminary-ratio-stage-finder){ .md-button }
-[42P Technical Datasheet](../../engineering-resources/42p/datasheet.md){ .md-button }
-[42P Mechanical Interface](../../engineering-resources/42p/mechanical-interface.md){ .md-button }
-
-[Download 42P Simplified 4-Stage STEP](../../assets/downloads/42p/42P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
-[Request 42P Configuration-Matched CAD or Sample](../../request-cad-sample-quote.md?model=42P){ .md-button }
-
-**CAD boundary:** Public simplified STEP shows a **4-stage reference only**. Other ratios, stage counts, motor interfaces and production drawings require an engineering review. The selector's diameter filter is a maximum limit, not confirmation of 42P application suitability.
-
-## Supply Configuration
-
-SigGear can supply the **42P 42 mm precision planetary gearhead as a Gearhead Only unit**, subject to the selected ratio and mechanical interface. This route is relevant if you already have a motor and need to evaluate shaft, pilot, mounting-pattern and input-speed compatibility.
-
-If you need a **Motor + Gearhead Assembly**, SigGear can evaluate a matching motor against the required output speed, continuous load, voltage, available space and duty cycle. Compatibility and final performance must be confirmed for the exact configuration.
-
-[Start a 42P OEM Gearhead Inquiry](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
-
-
-[Existing Motor — Start 42P Design-In Review](../../request-cad-sample-quote.md?model=42P&path=gearbox_only){ .md-button .md-button--primary }
-[Complete Drive — Start 42P Motor + Gearhead Review](../../request-cad-sample-quote.md?model=42P&path=motor_gearbox){ .md-button }
-
-[Not Sure Yet — Open 42P Project Brief](../../request-cad-sample-quote.md?model=42P){ .md-button }
-
-## Selection Information Required
-
-Please provide:
-
-- Required reduction ratio or output speed
-- Continuous and momentary output torque
-- Motor type, voltage, power, speed and shaft dimensions
-- Available gearbox length and mounting interface
-- Output-shaft requirements
-- Radial and axial loads
-- Duty cycle and ambient temperature
-- Backlash, noise and service-life targets
-- Prototype and annual quantity
-
-Do not transfer the 42P specifications to another frame size or an unlisted stage configuration. Final selection and quotation require confirmation against the approved configuration drawing.
-
-## Engineering Resources
-
-[Open 42P Design-In Pack](../../engineering-resources/42p/design-in-pack.md){ .md-button .md-button--primary }
-[View 42P Technical Datasheet v1.1](../../engineering-resources/42p/datasheet.md){ .md-button }
-[View 42P Mechanical Interface v1.1](../../engineering-resources/42p/mechanical-interface.md){ .md-button }
-[Download Simplified STEP - 4-Stage Reference](../../assets/downloads/42p/42P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button .md-button--primary }
-[View 42P Motor Integration Guide](../../engineering-resources/42p/motor-integration.md){ .md-button }
-
-The Datasheet consolidates the currently published stage, ratio, torque, efficiency and motor-matching data. The Mechanical Interface summarizes the controlled 2D drawing.
-
-A detailed full-assembly STEP is held as configuration-controlled engineering CAD and is supplied after model / stage / motor-interface review. The raw assembly is not published as a public download because it contains internal planetary transmission geometry.
-
-A simplified public **4-stage 42P STEP is now released** for early mechanical packaging and Design-In. Use configuration-matched controlled CAD for another stage count or final production release.
-
-## TraceParts CAD Discovery
-
-[View 42P 3D CAD on TraceParts (English)](https://www.traceparts.com/en/product/siggear-42p-42-mm-miniature-planetary-gearbox?CatalogPath=TRACEPARTS%3ATP01005004004&Product=27-05769190-121069&PartNumber=42p){ .md-button .md-button--primary }
-[Browse SigGear Catalog (Chinese Portal)](https://www.traceparts.cn/zh/search/siggear?CatalogPath=GUANGDONG_1991627740%3AF_SIGGEAR){ .md-button }
-
-The link above opens the **42P product detail page** on TraceParts International, using the exact address provided by the SigGear operator. STEP AP203 generation and download for this model were confirmed on **2026-10-14**. The Chinese catalog link is provided as an alternative browsing route. Public CAD is a **simplified 4-stage reference**; check stage, ratio and interfaces before production design, and request controlled configuration-matched CAD if required.
-
-## Related Planetary Gearhead Resources
-
-**Need a smaller compact gearbox envelope?** Compare the [36P 36 mm Compact Planetary Gearbox](36p-planetary-gearbox.md), including its stage-specific body length and shaft loading limits. Do not assume the 36P and 42P share the same output shaft or motor interface.
-
-[8–42 mm Precision Planetary Gearheads](8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Browse All Planetary Gearheads](index.md){ .md-button }
-[Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
-
-## Contact SigGear
-
-**Wanrong Wang**
-
-International Sales, SigGear
-
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+[Back to the 8–42 mm product catalogue](8-42mm-planetary-gear-reducer.md)
