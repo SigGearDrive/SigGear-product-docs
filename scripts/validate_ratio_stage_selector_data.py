@@ -36,6 +36,11 @@ def close(a: float, b: float) -> bool:
     return math.isclose(a, b, rel_tol=0.0, abs_tol=1e-9)
 
 
+def close_torque(a: float, b: float) -> bool:
+    # Datasheets publish torque to 0.1 mN·m; allow the resulting conversion rounding.
+    return math.isclose(a, b, rel_tol=0.0, abs_tol=0.0006)
+
+
 def parse_datasheet(model: str) -> list[dict]:
     slug = model.lower()
     path = ROOT / "docs" / "engineering-resources" / slug / "datasheet.md"
@@ -84,6 +89,9 @@ def main() -> None:
                 if key == "stage":
                     if expected[key] != actual.get(key):
                         raise ValueError(f"{model} stage mismatch: {expected[key]} != {actual.get(key)}")
+                elif key in {"rated", "momentary"}:
+                    if not close_torque(expected[key], float(actual.get(key))):
+                        raise ValueError(f"{model} stage {expected['stage']} {key} mismatch: {expected[key]} != {actual.get(key)}")
                 elif not close(expected[key], float(actual.get(key))):
                     raise ValueError(f"{model} stage {expected['stage']} {key} mismatch: {expected[key]} != {actual.get(key)}")
 
