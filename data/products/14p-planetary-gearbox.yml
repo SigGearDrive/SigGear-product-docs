@@ -2,7 +2,7 @@ schema_version: 1
 record_id: 14p-planetary-gearbox
 record_type: model
 model: 14P
-display_name: 14P 14 mm Micro Planetary Gearbox
+display_name: "14 mm Micro Precision Planetary Gearhead (14P)"
 product_family: planetary_gearbox
 canonical_page: docs/products/planetary-gearboxes/14p-planetary-gearbox.md
 public_page_status: published

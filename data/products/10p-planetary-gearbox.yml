@@ -2,7 +2,7 @@ schema_version: 1
 record_id: 10p-planetary-gearbox
 record_type: model
 model: 10P
-display_name: 10P 10 mm Micro Planetary Gearbox
+display_name: "10 mm Micro Precision Planetary Gearhead (10P)"
 product_family: planetary_gearbox
 canonical_page: docs/products/planetary-gearboxes/10p-planetary-gearbox.md
 public_page_status: published

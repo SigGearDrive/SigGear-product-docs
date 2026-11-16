@@ -2,7 +2,7 @@ schema_version: 1
 record_id: 8p-planetary-gearbox
 record_type: model
 model: 8P
-display_name: 8P 8 mm Micro Planetary Gearbox
+display_name: "8 mm Micro Precision Planetary Gearhead (8P)"
 product_family: planetary_gearbox
 canonical_page: docs/products/planetary-gearboxes/8p-planetary-gearbox.md
 public_page_status: published

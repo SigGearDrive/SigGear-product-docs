@@ -2,7 +2,7 @@ schema_version: 1
 record_id: 16p-planetary-gearbox
 record_type: model
 model: 16P
-display_name: 16P 16 mm Micro Planetary Gearbox
+display_name: "16 mm Micro Precision Planetary Gearhead (16P)"
 product_family: planetary_gearbox
 canonical_page: docs/products/planetary-gearboxes/16p-planetary-gearbox.md
 public_page_status: published
