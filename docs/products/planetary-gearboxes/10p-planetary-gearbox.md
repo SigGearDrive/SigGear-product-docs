@@ -42,7 +42,7 @@ description: 10 mm micro precision planetary gearhead (10P) with published stage
 | Maximum momentary torque range | 255.0–392.3 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.5° |
-| Permissible input speed | Motor/configuration-dependent; no universal 20,000 rpm ceiling |
+| Permissible input speed | 1,000–20,000 rpm general reference; not a universal ceiling for every motor combination |
 | Operating temperature | −40 to 120 °C | Maximum momentary torque is not a continuous working rating.
 
 ## Stage, Ratio and Performance Table
@@ -84,6 +84,8 @@ The published drawing shows a 10 mm body, a 7.50 mm output-shaft extension and s
 ![10P 10 mm planetary gearhead dimensional drawing](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-dimensions.webp)
 
 ## CAD Notes
+
+For the 10P, certain HS-1013-Q / HS-1015-Q windings can reach 26,000–31,000 rpm at no load; this is not a continuous-speed rating. Confirm the permissible operating point for the exact motor + gearhead combination.
 
 The currently downloadable STEP is the simplified 4-stage reference model. The full assembly STEP is a separate file and will be linked here after its public binary is uploaded. The dimension preview is not a substitute for the original 2D drawing PDF or its controlled revision.
 

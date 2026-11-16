@@ -9,6 +9,12 @@ description: 12 SigGear Micro, Miniature and Compact planetary gearheads from 8 
 
 **12 standard frame sizes · Micro · Miniature · Compact**
 
+## Product Identity
+
+- **Product family:** 8–42 mm Planetary Gear Reducer Series
+- **Product type:** Precision Planetary Gearheads
+- **Nominal outer diameter range:** 8 mm to 42 mm
+
 | Product class | Models |
 | --- | --- |
 | **Micro · 8–16 mm** | 8P · 10P · 12P · 14P · 16P |
