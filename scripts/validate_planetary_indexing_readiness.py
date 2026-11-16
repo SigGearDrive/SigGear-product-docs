@@ -106,7 +106,8 @@ def check_model_specific_search_metadata() -> None:
         )
         require(bool(script), f"Model ItemPage JSON-LD missing: {target}")
         schema = json.loads(script.group(1))
-        require(schema.get("name") == title, f"JSON-LD model name differs from source: {target}")
+        expected_entity_name = title.split(" | ", 1)[0].strip()
+        require(schema.get("name") == expected_entity_name, f"JSON-LD model name differs from the canonical product title: {target}")
         require(schema.get("description") == description, f"JSON-LD model description differs from source: {target}")
 
 
