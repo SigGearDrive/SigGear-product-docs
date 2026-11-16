@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 """Keep the 22P public page evidence factual and configuration-aware.
 
-The earlier 22P page referenced the same 4 KB "Micro Planetary Gearbox"
-graphic as five different technical figures (overview, performance,
-shaft limits, motor compatibility and dimension drawing). Product series
-22P is Miniature, and a promotional graphic is not a controlled drawing.
+The 22P page now prioritizes product data and direct CAD release status. The test guards against reused promotional graphics and verifies the new SI torque values, real product evidence, and non-selector download layout.
 """
 
 from pathlib import Path
@@ -29,8 +26,10 @@ def main() -> None:
     assert "22p-real-product-evidence.webp" in src, "Authentic sample photos must remain"
     assert "22P Mechanical Interface](../../engineering-resources/22p/mechanical-interface.md)" in src
     assert "1,000–20,000 rpm" in src
-    assert "max_diameter=22#preliminary-ratio-stage-finder" in src
-    assert "Product=27-05769189-121064&PartNumber=22p" in src
+    assert "max_diameter=22#preliminary-ratio-stage-finder" not in src, "The product page should no longer surface the selector"
+    assert "2D drawing PDF" in src
+    assert "Full assembly STEP" in src
+    assert "Download 4-stage reference" in src
 
     for name in OLD_MEDIA:
         assert name not in src, f"Misleading reused 22P graphic is still referenced: {name}"
@@ -39,7 +38,7 @@ def main() -> None:
     # The existing text table must still provide real stage/rating information
     # after unverified diagram references are removed.
     for expected in ("## Stage, Ratio and Performance Table", "22.6 mm", "38.5 mm",
-                     "8.0 kgf·cm", "25.0 kgf·cm"):
+                     "784.5 mN·m", "2451.7 mN·m"):
         assert expected in src, f"Published 22P specification lost: {expected}"
     print("PASS 22P real product photos, Miniature classification and controlled technical references")
 

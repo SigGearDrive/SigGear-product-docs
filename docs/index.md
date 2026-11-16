@@ -5,13 +5,11 @@ description: Browse SigGear precision planetary gearheads, robot joint actuators
 
 # SigGear Product Catalogue
 
-![SigGear 8–42 mm planetary gearhead product family](assets/images/evidence/planetary/8-42mm-planetary-gearbox-family-real.webp)
-
 ## Precision Planetary Gearheads | 8–42 mm
 
 **12 standard models · Micro · Miniature · Compact**
 
-[**Browse all 12 gearheads and product specifications**](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md)
+[**Browse all 12 models and download resources**](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md)
 
 | Product class | Models |
 | --- | --- |
@@ -19,7 +17,28 @@ description: Browse SigGear precision planetary gearheads, robot joint actuators
 | **Miniature · 20–32 mm** | [20P](products/planetary-gearboxes/20p-planetary-gearbox.md) · [22P](products/planetary-gearboxes/22p-planetary-gearbox.md) · [24P](products/planetary-gearboxes/24p-planetary-gearbox.md) · [28P](products/planetary-gearboxes/28p-planetary-gearbox.md) · [32P](products/planetary-gearboxes/32p-planetary-gearbox.md) |
 | **Compact · 36–42 mm** | [36P](products/planetary-gearboxes/36p-planetary-gearbox.md) · [42P](products/planetary-gearboxes/42p-planetary-gearbox.md) |
 
-[Datasheets, 2D drawings and CAD release status](engineering-resources/planetary-gearboxes/public-cad-release-v1.md)
+[**Datasheets, 2D drawings and STEP CAD**](engineering-resources/planetary-gearboxes/public-cad-release-v1.md)
+
+<div class="siggear-planetary-photo-grid">
+  <figure>
+    <a href="/SigGear-product-docs/products/planetary-gearboxes/10p-planetary-gearbox/" aria-label="View 10P 10 mm Micro Planetary Gearhead">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-main.webp" alt="Real SigGear 10P 10 mm Micro Planetary Gearhead" width="1254" height="1254" loading="eager" decoding="async">
+    </a>
+    <figcaption><strong>Micro · 10P (10 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/10p-planetary-gearbox/">View 10P product data</a></figcaption>
+  </figure>
+  <figure>
+    <a href="/SigGear-product-docs/products/planetary-gearboxes/20p-planetary-gearbox/" aria-label="View 20P 20 mm Miniature Planetary Gearhead">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-main.webp" alt="Real SigGear 20P 20 mm Miniature Planetary Gearhead" width="1254" height="1254" loading="lazy" decoding="async">
+    </a>
+    <figcaption><strong>Miniature · 20P (20 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/20p-planetary-gearbox/">View 20P product data</a></figcaption>
+  </figure>
+  <figure>
+    <a href="/SigGear-product-docs/products/planetary-gearboxes/36p-planetary-gearbox/" aria-label="View 36P 36 mm Compact Planetary Gearhead">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014.jpg" alt="Real SigGear 36P 36 mm Compact Planetary Gearhead" width="460" height="340" loading="lazy" decoding="async">
+    </a>
+    <figcaption><strong>Compact · 36P (36 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/36p-planetary-gearbox/">View 36P product data</a></figcaption>
+  </figure>
+</div>
 
 ## Robot Joint Actuators
 

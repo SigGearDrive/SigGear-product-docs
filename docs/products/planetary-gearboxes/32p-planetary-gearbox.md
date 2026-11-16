@@ -24,7 +24,7 @@ description: 32 mm miniature precision planetary gearhead (32P) with published s
 | Item | Description |
 | --- | --- |
 | Model | 32P |
-| Product type | Miniature precision planetary gearhead (planetary gearhead) |
+| Product type | Miniature precision planetary gearhead (planetary gearbox) |
 | Nominal outer diameter | 32 mm |
 | Number of stages | 1 to 4 |
 | Manufacturing process | Machining |
@@ -34,7 +34,7 @@ description: 32 mm miniature precision planetary gearhead (32P) with published s
 | Parameter | Published value |
 | --- | ---: |
 | Nominal outer diameter | 32 mm |
-| gearhead length range | 28.05–52.95 mm |
+| Gearhead length range | 28.05–52.95 mm |
 | Reduction ratio range | 3.5:1–509.1:1 |
 | Rated allowable torque range | 3432.3–7845.3 mN·m |
 | Maximum momentary torque range | 6864.7–15690.6 mN·m |
@@ -50,13 +50,15 @@ description: 32 mm miniature precision planetary gearhead (32P) with published s
 | Shaft axial load | <= 3.5 kgf |
 | Radial play of shaft | <= 0.04 mm |
 | Thrust play of shaft | <= 0.3 mm |
-| Operating temperature range | -40 to 120 C | Maximum momentary torque is not a continuous working rating.
+| Operating temperature range | -40 to 120 C |
+
+Maximum momentary torque is not a continuous working rating.
 
 The current public specification uses **≤ 1.2°** as the backlash-at-no-load value.
 
 ## Stage, Ratio and Performance Table
 
-| Stages | gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
+| Stages | Gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
 | ---: | ---: | --- | ---: | ---: | ---: |
 | 1 | 28.05 mm | 3.5 / 4 / 4.75 | 3432.3 mN·m | 6864.7 mN·m | 90% |
 | 2 | 36.35 mm | 12.2 / 14 / 16 / 16.6 / 19 / 22.6 | 4903.3 mN·m | 9806.6 mN·m | 80% |

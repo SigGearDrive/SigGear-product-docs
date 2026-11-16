@@ -27,7 +27,7 @@ Choose a model to open its published specifications, datasheet, dimension refere
 - **Product parameters:** Published stage, ratio, rated torque, momentary torque, efficiency, backlash, load and dimensional data remain on each model page.
 - **2D drawings:** Original PDFs have been identified for all 12 models. They will be linked after the original binary files are uploaded and their revision information is confirmed.
 - **Full assembly STEP:** Original Creo assembly files have been identified for all 12 models. These are distinct from the simplified STEP references currently in the repository.
-- **Simplified STEP:** Available now for preliminary mechanical packaging. Each current public file is a 4-stage reference, not the full assembly.
+- **Simplified STEP:** Available now for preliminary mechanical packaging. All currently downloadable public STEP files are **4-stage reference only**, not full assemblies or manufacturing CAD.
 
 [Open the upload manifest](../../assets/downloads/planetary-gearheads-8-42mm-upload-manifest.csv)
 

@@ -24,7 +24,7 @@ description: 24 mm miniature precision planetary gearhead (24P) with published s
 | Item | Description |
 | --- | --- |
 | Model | 24P |
-| Product type | Miniature precision planetary gearhead (planetary gearhead) |
+| Product type | Miniature precision planetary gearhead (planetary gearbox) |
 | Nominal outer diameter | 24 mm |
 | Number of stages | 1 to 4 |
 | Housing material | Steel |
@@ -36,18 +36,20 @@ description: 24 mm miniature precision planetary gearhead (24P) with published s
 | Parameter | Published value |
 | --- | ---: |
 | Nominal outer diameter | 24 mm |
-| gearhead length range | 24.6–42.0 mm |
+| Gearhead length range | 24.6–42.0 mm |
 | Reduction ratio range | 3.83:1–759.7:1 |
 | Rated allowable torque range | 980.7–2942.0 mN·m |
 | Maximum momentary torque range | 1961.3–5884.0 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.2° |
 | Permissible gearhead input speed, continuous operation | 1,000–20,000 rpm |
-| Operating temperature | −40 to 120 °C | Maximum momentary torque is not a continuous working rating.
+| Operating temperature | −40 to 120 °C |
+
+Maximum momentary torque is not a continuous working rating.
 
 ## Stage, Ratio and Performance Table
 
-| Stages | gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
+| Stages | Gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
 | ---: | ---: | --- | ---: | ---: | ---: |
 | 1 | 24.6 mm | 3.83 / 4.4 / 5.25 | 980.7 mN·m | 1961.3 mN·m | 90% |
 | 2 | 30.4 mm | 14.7 / 16.8 / 19.4 / 20.1 / 23 / 27.7 | 1471.0 mN·m | 2942.0 mN·m | 80% |

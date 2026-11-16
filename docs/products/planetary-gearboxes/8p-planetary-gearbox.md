@@ -24,7 +24,7 @@ description: 8 mm micro precision planetary gearhead (8P) with published stage d
 | Item | Description |
 | --- | --- |
 | Model | 8P |
-| Product type | Micro precision planetary gearhead (planetary gearhead) |
+| Product type | Micro precision planetary gearhead (planetary gearbox) |
 | Nominal outer diameter | 8 mm |
 | Number of stages | 1 to 4 |
 | Housing material | Steel |
@@ -36,18 +36,20 @@ description: 8 mm micro precision planetary gearhead (8P) with published stage d
 | Parameter | Published value |
 | --- | ---: |
 | Nominal outer diameter | 8 mm |
-| gearhead length range | 10.15–18.10 mm |
+| Gearhead length range | 10.15–18.10 mm |
 | Reduction ratio range | 3.8:1–731.16:1 |
 | Rated allowable torque range | 19.6–39.2 mN·m |
 | Maximum momentary torque range | 39.2–78.5 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.5° |
 | Permissible gearhead input speed, continuous operation | 1,000–20,000 rpm |
-| Operating temperature | −40 to 120 °C | Maximum momentary torque is not a continuous working rating.
+| Operating temperature | −40 to 120 °C |
+
+Maximum momentary torque is not a continuous working rating.
 
 ## Stage, Ratio and Performance Table
 
-| Stages | gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
+| Stages | Gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
 | ---: | ---: | --- | ---: | ---: | ---: |
 | 1 | 10.15 mm | 3.8 / 4.5 / 5.2 | 19.6 mN·m | 39.2 mN·m | 90% |
 | 2 | 12.80 mm | 14.4 / 17.1 / 19.8 / 20.3 / 23.4 / 27 | 24.5 mN·m | 49.0 mN·m | 80% |

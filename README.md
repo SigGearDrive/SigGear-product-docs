@@ -1,6 +1,6 @@
 # SigGear | Precision Planetary Gearheads
 
-![SigGear 8–42 mm planetary gearhead product family](docs/assets/images/evidence/planetary/8-42mm-planetary-gearbox-family-real.webp)
+![SigGear 8–42 mm planetary gearhead product family](docs/assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014.jpg)
 
 **Micro · Miniature · Compact | 8–42 mm**
 

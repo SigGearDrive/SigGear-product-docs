@@ -24,7 +24,7 @@ description: 22 mm miniature precision planetary gearhead (22P) with published s
 | Item | Description |
 | --- | --- |
 | Model | 22P |
-| Product type | Miniature precision planetary gearhead (planetary gearhead) |
+| Product type | Miniature precision planetary gearhead (planetary gearbox) |
 | Nominal outer diameter | 22 mm |
 | Number of stages | 1 to 4 |
 | Housing material | Steel |
@@ -36,18 +36,20 @@ description: 22 mm miniature precision planetary gearhead (22P) with published s
 | Parameter | Published value |
 | --- | ---: |
 | Nominal outer diameter | 22 mm |
-| gearhead length range | 22.6–38.5 mm |
+| Gearhead length range | 22.6–38.5 mm |
 | Reduction ratio range | 3.5:1–509.1:1 |
 | Rated allowable torque range | 784.5–2451.7 mN·m |
 | Maximum momentary torque range | 1569.1–4903.3 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.5° |
 | Permissible gearhead input speed, continuous operation | 1,000–20,000 rpm |
-| Operating temperature | −40 to 120 °C | Maximum momentary torque is not a continuous working rating.
+| Operating temperature | −40 to 120 °C |
+
+Maximum momentary torque is not a continuous working rating.
 
 ## Stage, Ratio and Performance Table
 
-| Stages | gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
+| Stages | Gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
 | ---: | ---: | --- | ---: | ---: | ---: |
 | 1 | 22.6 mm | 3.5 / 4 / 4.75 | 784.5 mN·m | 1569.1 mN·m | 90% |
 | 2 | 27.9 mm | 12.25 / 14 / 16 / 16.6 / 19 / 22.6 | 980.7 mN·m | 1961.3 mN·m | 80% |

@@ -24,7 +24,7 @@ description: 36 mm compact precision planetary gearhead (36P) with published sta
 | Item | Description |
 | --- | --- |
 | Model | 36P |
-| Product type | Compact precision planetary gearhead (planetary gearhead) |
+| Product type | Compact precision planetary gearhead (planetary gearbox) |
 | Nominal outer diameter | 36 mm |
 | Number of stages | 1 to 4 |
 | Housing material | Steel |
@@ -37,7 +37,7 @@ description: 36 mm compact precision planetary gearhead (36P) with published sta
 | Parameter | Published value |
 | --- | ---: |
 | Nominal outer diameter | 36 mm |
-| gearhead length range | 30.6–61.5 mm |
+| Gearhead length range | 30.6–61.5 mm |
 | Reduction ratio range | 3.66:1–625:1 |
 | Rated allowable torque range | 3922.7–9806.6 mN·m |
 | Maximum momentary torque range | 7845.3–19613.3 mN·m |
@@ -46,11 +46,13 @@ description: 36 mm compact precision planetary gearhead (36P) with published sta
 | Permissible gearhead input speed, continuous operation | 1,000–20,000 rpm |
 | Operating temperature | −40 to 120 °C |
 | Adapted DC motor voltage | 3–48 VDC |
-| Adapted DC motor power | below 150 W | Maximum momentary torque is not a continuous working rating.
+| Adapted DC motor power | below 150 W |
+
+Maximum momentary torque is not a continuous working rating.
 
 ## Stage, Ratio and Performance Table
 
-| Stages | gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
+| Stages | Gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
 | ---: | ---: | --- | ---: | ---: | ---: |
 | 1 | 30.6 mm | 3.66 / 4.2 / 5.0 | 3922.7 mN·m | 7845.3 mN·m | 90% |
 | 2 | 40.9 mm | 13.4 / 15.4 / 17.6 / 18.3 / 21 / 25 | 5884.0 mN·m | 11768.0 mN·m | 80% |

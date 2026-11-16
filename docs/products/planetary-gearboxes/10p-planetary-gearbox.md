@@ -24,7 +24,7 @@ description: 10 mm micro precision planetary gearhead (10P) with published stage
 | Item | Description |
 | --- | --- |
 | Model | 10P |
-| Product type | Micro precision planetary gearhead (planetary gearhead) |
+| Product type | Micro precision planetary gearhead (planetary gearbox) |
 | Nominal outer diameter | 10 mm |
 | Number of stages | 1 to 4 |
 | Housing material | Steel |
@@ -36,18 +36,20 @@ description: 10 mm micro precision planetary gearhead (10P) with published stage
 | Parameter | Published value |
 | --- | ---: |
 | Nominal outer diameter | 10 mm |
-| gearhead length range | 10.25–18.50 mm |
+| Gearhead length range | 10.25–18.50 mm |
 | Reduction ratio range | 3.5:1–428.7:1 |
 | Rated allowable torque range | 127.5–196.1 mN·m |
 | Maximum momentary torque range | 255.0–392.3 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.5° |
 | Permissible input speed | 1,000–20,000 rpm general reference; not a universal ceiling for every motor combination |
-| Operating temperature | −40 to 120 °C | Maximum momentary torque is not a continuous working rating.
+| Operating temperature | −40 to 120 °C |
+
+Maximum momentary torque is not a continuous working rating.
 
 ## Stage, Ratio and Performance Table
 
-| Stages | gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
+| Stages | Gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
 | ---: | ---: | --- | ---: | ---: | ---: |
 | 1 | 10.25 mm | 3.5 / 4 / 4.75 | 127.5 mN·m | 255.0 mN·m | 90% |
 | 2 | 13.00 mm | 12.25 / 14 / 16 / 16.6 / 19 / 22.6 | 147.1 mN·m | 294.2 mN·m | 80% |

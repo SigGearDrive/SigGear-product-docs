@@ -24,7 +24,7 @@ description: 28 mm miniature precision planetary gearhead (28P) with published s
 | Item | Description |
 | --- | --- |
 | Model | 28P |
-| Product type | Miniature precision planetary gearhead (planetary gearhead) |
+| Product type | Miniature precision planetary gearhead (planetary gearbox) |
 | Nominal outer diameter | 28 mm |
 | Number of stages | 1 to 4 |
 | Manufacturing process | Machining |
@@ -34,7 +34,7 @@ description: 28 mm miniature precision planetary gearhead (28P) with published s
 | Parameter | Published value |
 | --- | ---: |
 | Nominal outer diameter | 28 mm |
-| gearhead length range | 25.6–44.5 mm |
+| Gearhead length range | 25.6–44.5 mm |
 | Reduction ratio range | 3.83:1–759.7:1 |
 | Rated allowable torque range | 1961.3–4903.3 mN·m |
 | Maximum momentary torque range | 3922.7–9806.6 mN·m |
@@ -42,11 +42,13 @@ description: 28 mm miniature precision planetary gearhead (28P) with published s
 | Backlash at no load | ≤ 1.2° |
 | Permissible gearhead input speed, continuous operation | 1,000–20,000 rpm |
 | Adapted DC motor voltage | 3–36 VDC |
-| Adapted DC motor power | below 30 W | Maximum momentary torque is not a continuous working rating.
+| Adapted DC motor power | below 30 W |
+
+Maximum momentary torque is not a continuous working rating.
 
 ## Stage, Ratio and Performance Table
 
-| Stages | gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
+| Stages | Gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
 | ---: | ---: | --- | ---: | ---: | ---: |
 | 1 | 25.6 mm | 3.83 / 4.4 / 5.25 | 1961.3 mN·m | 3922.7 mN·m | 90% |
 | 2 | 31.9 mm | 14.7 / 16.8 / 19.4 / 20.1 / 23 / 27.7 | 2451.7 mN·m | 4903.3 mN·m | 80% |

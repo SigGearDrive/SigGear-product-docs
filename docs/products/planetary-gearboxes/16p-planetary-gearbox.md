@@ -24,7 +24,7 @@ description: 16 mm micro precision planetary gearhead (16P) with published stage
 | Item | Description |
 | --- | --- |
 | Model | 16P |
-| Product type | Micro precision planetary gearhead (planetary gearhead) |
+| Product type | Micro precision planetary gearhead (planetary gearbox) |
 | Nominal outer diameter | 16 mm |
 | Number of stages | 1 to 4 |
 | Housing material | Steel |
@@ -36,18 +36,20 @@ description: 16 mm micro precision planetary gearhead (16P) with published stage
 | Parameter | Published value |
 | --- | ---: |
 | Nominal outer diameter | 16 mm |
-| gearhead length range | 17.55–30.45 mm |
+| Gearhead length range | 17.55–30.45 mm |
 | Reduction ratio range | 3.85:1–459.5:1 |
 | Rated allowable torque range | 392.3–882.6 mN·m |
 | Maximum momentary torque range | 784.5–2549.7 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.5° |
 | Permissible gearhead input speed, continuous operation | 1,000–20,000 rpm |
-| Operating temperature | −40 to 120 °C | Maximum momentary torque is not a continuous working rating.
+| Operating temperature | −40 to 120 °C |
+
+Maximum momentary torque is not a continuous working rating.
 
 ## Stage, Ratio and Performance Table
 
-| Stages | gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
+| Stages | Gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
 | ---: | ---: | --- | ---: | ---: | ---: |
 | 1 | 17.55 mm | 3.85 / 4.33 / 4.63 | 392.3 mN·m | 784.5 mN·m | 90% |
 | 2 | 21.85 mm | 14.8 / 16.7 / 17.8 / 18.7 / 20 / 21.4 | 490.3 mN·m | 980.7 mN·m | 80% |

@@ -24,7 +24,7 @@ description: 42 mm compact precision planetary gearhead (42P) with published sta
 | Item | Description |
 | --- | --- |
 | Model | 42P |
-| Product type | Compact precision planetary gearhead (planetary gearhead) |
+| Product type | Compact precision planetary gearhead (planetary gearbox) |
 | Nominal outer diameter | 42 mm |
 | Number of stages | 1 to 4 |
 | Manufacturing process | Machining |
@@ -34,7 +34,7 @@ description: 42 mm compact precision planetary gearhead (42P) with published sta
 | Parameter | Published value |
 | --- | ---: |
 | Nominal outer diameter | 42 mm |
-| gearhead length range | 35.6–69.5 mm |
+| Gearhead length range | 35.6–69.5 mm |
 | Reduction ratio range | 3.8:1–660.7:1 |
 | Rated allowable torque range | 7845.3–14710.0 mN·m |
 | Maximum momentary torque range | 15690.6–29420.0 mN·m |
@@ -51,11 +51,13 @@ description: 42 mm compact precision planetary gearhead (42P) with published sta
 | Thrust play of shaft | ≤ 0.3 mm |
 | Adapted DC motor voltage | 3–48 VDC |
 | Adapted DC motor power | below 200 W |
-| Manufacturing process | Machining | Maximum momentary torque is not a continuous working rating.
+| Manufacturing process | Machining |
+
+Maximum momentary torque is not a continuous working rating.
 
 ## Stage, Ratio and Performance Table
 
-| Stages | gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
+| Stages | Gearhead length L | Available reduction ratios | Rated allowable torque | Maximum momentary torque | Efficiency |
 | ---: | ---: | --- | ---: | ---: | ---: |
 | 1 | 35.6 mm | 3.8 / 4.3 / 5.1 | 7845.3 mN·m | 15690.6 mN·m | 90% |
 | 2 | 46.9 mm | 14.4 / 16.3 / 18.6 / 19.2 / 21.8 / 25.7 | 9806.6 mN·m | 19613.3 mN·m | 80% |
