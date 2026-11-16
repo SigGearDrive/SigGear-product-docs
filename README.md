@@ -31,7 +31,7 @@
 
 ## 2D Drawings & Full Assembly CAD
 
-Original 2D drawing PDFs and full assembly STEP sources have been located for all 12 frame sizes. Their public binary upload is pending. See the [release manifest](docs/assets/downloads/planetary-gearheads-8-42mm-upload-manifest.csv) for source filenames and standardized target filenames.
+Original 2D drawing PDFs and full assembly STEP sources have been located for all 12 frame sizes. Their public binary upload is pending. See the [release manifest](docs/assets/downloads/planetary-gearheads-8-42mm-upload-manifest.csv) for source filenames and exact target paths. Upload the two binary files into each model's existing `docs/assets/downloads/<model>/` folder; do not replace the simplified STEP reference.
 
 Existing simplified STEP files are available for preliminary packaging. They must not be confused with the full assembly models.
 
