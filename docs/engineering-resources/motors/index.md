@@ -32,14 +32,14 @@ The Ø10 mm performance tables are legible re-typeset data with the original dra
 
 | Motor | Description | PDF |
 | --- | --- | --- |
-| EC1225-01A | Ø12 mm, sensored coreless BLDC, 12 V | PDF upload in progress |
+| EC1225-01A | Ø12 mm, sensored coreless BLDC, 12 V | [Download Rev 1.0 PDF](../../assets/downloads/motors/12mm/SigGear_12mm_EC1225-01A_Rev1.0.pdf) |
 
 ## Ø14 mm — DC Motors
 
 | Motor variants | PDF |
 | --- | --- |
-| 030077 · 045077 · 060077 · 090077 · 120077 | PDF upload in progress |
-| 045116 · 060104 · 090117 · 120103 · 180116 | PDF upload in progress |
+| 030077 · 045077 · 060077 · 090077 · 120077 | [Download Rev 1.0 PDF](../../assets/downloads/motors/14mm/SigGear_14mm_DC_Motor_030077-120077_Rev1.0.pdf) |
+| 045116 · 060104 · 090117 · 120103 · 180116 | [Download Rev 1.0 PDF](../../assets/downloads/motors/14mm/SigGear_14mm_DC_Motor_045116-180116_Rev1.0.pdf) |
 
 **Note:** These PDF downloads are motor-specific engineering references; choose the motor, winding, voltage and gearhead interface together for a complete assembly. Contact SigGear for design-specific compatibility and thermal-duty requirements.
 
