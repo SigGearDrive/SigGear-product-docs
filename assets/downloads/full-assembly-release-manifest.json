@@ -95,10 +95,11 @@
       "source_filename": "28P_asm.stp",
       "published_path": "assets/downloads/28p/28P_Full_Assembly.step",
       "source_sha256": "916fbef7c44f58ece4387821564d35cefae4f62200c88b7e078c132309e460f0",
-      "expected_published_sha256": "3b900ed577087cae782a50349fe7f558315052f5cc018b63db64c9e5267d2407",
-      "parts_required": 17,
-      "lines_expected": 92590,
-      "status": "pending_upload_parts"
+      "published_sha256": "b1fca7b96ca0e63a6a11448630cbffdd3045e05eac1280a049b3df1b7f305a8c",
+      "bytes": 4992322,
+      "lines": 92590,
+      "line_endings": "LF-normalized during text transfer",
+      "status": "assembled_and_validated"
     },
     {
       "model": "32P",
