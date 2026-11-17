@@ -57,11 +57,15 @@ def assemble(model: str, spec: dict) -> dict:
 
     target_dir.mkdir(parents=True, exist_ok=True)
     with target.open("wb") as output:
-        for part in part_paths:
+        for index, part in enumerate(part_paths):
             payload = part.read_bytes()
             if not payload:
                 raise ValueError(f"{model}: empty upload part {part.name}")
             output.write(payload)
+            # Files API line-window reads omit the terminal newline on each
+            # chunk. Restore exactly one LF between adjacent chunks.
+            if index < len(part_paths) - 1 and not payload.endswith(b"\\n"):
+                output.write(b"\\n")
 
     payload = target.read_bytes()
     if not payload.startswith(b"ISO-10303-21;"):
