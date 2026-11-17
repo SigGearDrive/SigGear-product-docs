@@ -1,0 +1,143 @@
+{
+  "title": "SigGear precision planetary gearhead PDF datasheet upload ledger",
+  "date": "2026-11-17",
+  "policy": "Original uploaded PDFs are to be preserved byte-for-byte. No public PDF link is active until exact binary is committed and verified on gh-pages.",
+  "batch_order": [
+    [
+      "8P",
+      "10P",
+      "12P",
+      "14P"
+    ],
+    [
+      "16P",
+      "20P",
+      "22P",
+      "24P"
+    ],
+    [
+      "28P",
+      "32P",
+      "36P",
+      "42P"
+    ]
+  ],
+  "models": [
+    {
+      "model": "8P",
+      "version": "Rev1.0",
+      "size_bytes": 166111,
+      "sha256": "c1c3b3315674dc270b0690b1081853b0ee27040f2055a3a1c78860b474ba2b07",
+      "target_path": "docs/assets/downloads/8p/8P_Planetary_Gearhead_Datasheet_Rev1.0.pdf",
+      "status": "source_received_and_validated_binary_not_uploaded",
+      "issues": []
+    },
+    {
+      "model": "10P",
+      "version": "Rev1.0",
+      "size_bytes": 161791,
+      "sha256": "b3239d70d67ba710d40ed27b711aa847a2848a7a6d3431c08e833416ce7fda14",
+      "target_path": "docs/assets/downloads/10p/10P_Planetary_Gearhead_Datasheet_Rev1.0.pdf",
+      "status": "source_received_and_validated_binary_not_uploaded",
+      "issues": []
+    },
+    {
+      "model": "12P",
+      "version": "Rev1.1",
+      "size_bytes": 145460,
+      "sha256": "01c388d5d189b5caa2d3c821efa9777cab169f331ac33bc4b56c994df9740fac",
+      "target_path": "docs/assets/downloads/12p/12P_Planetary_Gearhead_Datasheet_Rev1.1.pdf",
+      "status": "source_received_and_validated_binary_not_uploaded",
+      "issues": []
+    },
+    {
+      "model": "14P",
+      "version": "Rev1.0",
+      "size_bytes": 337478,
+      "sha256": "a1b2bfffc0735f057166db6f5951314ba636699489e717d22bc13c57b0f3f710",
+      "target_path": "docs/assets/downloads/14p/14P_Planetary_Gearhead_Datasheet_Rev1.0.pdf",
+      "status": "source_received_and_validated_binary_not_uploaded",
+      "issues": []
+    },
+    {
+      "model": "16P",
+      "version": "DraftV0.9",
+      "size_bytes": 114629,
+      "sha256": "9607dd5519ed6ab45ef199342f4102ad58d69419bdf801e1bf22b3c1cba513fd",
+      "target_path": "docs/assets/downloads/16p/16P_Planetary_Gearhead_Datasheet_DraftV0.9.pdf",
+      "status": "source_received_and_validated_binary_not_uploaded",
+      "issues": []
+    },
+    {
+      "model": "20P",
+      "version": "Rev1.0",
+      "size_bytes": 120331,
+      "sha256": "f24da60f4da86ae7961a872797f50c29a78836fafa121ba936b6c21708126bfa",
+      "target_path": "docs/assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf",
+      "status": "source_received_and_validated_binary_not_uploaded",
+      "issues": []
+    },
+    {
+      "model": "22P",
+      "version": "Rev1.0",
+      "size_bytes": 376847,
+      "sha256": "fed61a6e9956d9f2625bfb3f1880eef9d2d122af4665f13de836d1b5ab976878",
+      "target_path": "docs/assets/downloads/22p/22P_Planetary_Gearhead_Datasheet_Rev1.0.pdf",
+      "status": "source_received_and_validated_binary_not_uploaded",
+      "issues": []
+    },
+    {
+      "model": "24P",
+      "version": "Rev1.0",
+      "size_bytes": 66608,
+      "sha256": "193323c84a66c5cd498e1723ee7ddd9bb1b3f200db7ba2a658cab7b20e939864",
+      "target_path": "docs/assets/downloads/24p/24P_Planetary_Gearhead_Datasheet_Rev1.0.pdf",
+      "status": "source_received_and_validated_binary_not_uploaded",
+      "issues": []
+    },
+    {
+      "model": "28P",
+      "version": "DraftV0.9",
+      "size_bytes": 260596,
+      "sha256": "cf2c10b4e5b279600f0792fcf850c04c40d8fb4747ac20eb203431f4d851ca91",
+      "target_path": "docs/assets/downloads/28p/28P_Planetary_Gearhead_Datasheet_DraftV0.9.pdf",
+      "status": "source_received_and_validated_binary_not_uploaded",
+      "issues": [
+        "Source torque duty basis requires engineering sign-off"
+      ]
+    },
+    {
+      "model": "32P",
+      "version": "DraftV1.0",
+      "size_bytes": 116637,
+      "sha256": "727e2abf4bf34c52fc53542a03bed5240e474e2798be2b6a9cc5131891f39cb5",
+      "target_path": "docs/assets/downloads/32p/32P_Planetary_Gearhead_Datasheet_DraftV1.0.pdf",
+      "status": "source_received_and_validated_binary_not_uploaded",
+      "issues": [
+        "PDF says Compact; catalogue classifies 32P as Miniature"
+      ]
+    },
+    {
+      "model": "36P",
+      "version": "DraftV0.9",
+      "size_bytes": 139223,
+      "sha256": "1077914efecc6fad9a5918139b9e732659e70ba8d6c34ca1d2b131eec6d49de4",
+      "target_path": "docs/assets/downloads/36p/36P_Planetary_Gearhead_Datasheet_DraftV0.9.pdf",
+      "status": "source_received_and_validated_binary_not_uploaded",
+      "issues": [
+        "Source torque duty basis requires engineering sign-off"
+      ]
+    },
+    {
+      "model": "42P",
+      "version": "DraftV0.9",
+      "size_bytes": 138529,
+      "sha256": "46e22f876dd420c304914727d2983047c6d331ab85813db94be1f1d1fc7df45f",
+      "target_path": "docs/assets/downloads/42p/42P_Planetary_Gearhead_Datasheet_DraftV0.9.pdf",
+      "status": "source_received_and_validated_binary_not_uploaded",
+      "issues": [
+        "Source torque duty basis requires engineering sign-off"
+      ]
+    }
+  ]
+}
