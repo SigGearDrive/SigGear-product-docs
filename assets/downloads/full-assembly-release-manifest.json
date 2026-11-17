@@ -51,40 +51,44 @@
       "source_filename": "16P_asm(1).stp",
       "published_path": "assets/downloads/16p/16P_Full_Assembly.step",
       "source_sha256": "56925025d4f3aa00a978da58637adc21ade88e398d79b6be5b29b08ef01390be",
-      "expected_published_sha256": "231a85a9543c08e281da1437c7aa6658a1183cf24b4332a4f6dc5482408df880",
-      "parts_required": 14,
-      "lines_expected": 77661,
-      "status": "pending_upload_parts"
+      "published_sha256": "231a85a9543c08e281da1437c7aa6658a1183cf24b4332a4f6dc5482408df880",
+      "bytes": 4018502,
+      "lines": 77661,
+      "line_endings": "LF-normalized during text transfer",
+      "status": "assembled_and_validated"
     },
     {
       "model": "20P",
       "source_filename": "20P_asm(1).stp",
       "published_path": "assets/downloads/20p/20P_Full_Assembly.step",
       "source_sha256": "20dccb14c872568b1dfed915f65d624c7451ee5b4209220a1228786e66bf1f60",
-      "expected_published_sha256": "545ad33aa5432350b38f540216035ceb576c35ab6a771b9d89504ce8889efee1",
-      "parts_required": 13,
-      "lines_expected": 71319,
-      "status": "pending_upload_parts"
+      "published_sha256": "545ad33aa5432350b38f540216035ceb576c35ab6a771b9d89504ce8889efee1",
+      "bytes": 3717195,
+      "lines": 71319,
+      "line_endings": "LF-normalized during text transfer",
+      "status": "assembled_and_validated"
     },
     {
       "model": "22P",
       "source_filename": "22P_asm(1).stp",
       "published_path": "assets/downloads/22p/22P_Full_Assembly.step",
       "source_sha256": "fe143796c617035e3d894399f0cf931546c483bfc2fde845ae255d721205c603",
-      "expected_published_sha256": "1a2080b3b8bb8ebdc4fddfa1ab589acc31002c47f49aa064620cdeda0807ce83",
-      "parts_required": 15,
-      "lines_expected": 82552,
-      "status": "pending_upload_parts"
+      "published_sha256": "1a2080b3b8bb8ebdc4fddfa1ab589acc31002c47f49aa064620cdeda0807ce83",
+      "bytes": 4376787,
+      "lines": 82552,
+      "line_endings": "LF-normalized during text transfer",
+      "status": "assembled_and_validated"
     },
     {
       "model": "24P",
       "source_filename": "24P_asm(1).stp",
       "published_path": "assets/downloads/24p/24P_Full_Assembly.step",
       "source_sha256": "aef0cc285399ec8246d85577337d425a75138d73c3acb3940af122857dab1818",
-      "expected_published_sha256": "15a8959522ea16f7ec61b9f3978339340b83524122f426a4eb7a86a393cde643",
-      "parts_required": 16,
-      "lines_expected": 85423,
-      "status": "pending_upload_parts"
+      "published_sha256": "15a8959522ea16f7ec61b9f3978339340b83524122f426a4eb7a86a393cde643",
+      "bytes": 4592594,
+      "lines": 85423,
+      "line_endings": "LF-normalized during text transfer",
+      "status": "assembled_and_validated"
     },
     {
       "model": "28P",
