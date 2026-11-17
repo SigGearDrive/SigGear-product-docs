@@ -4,7 +4,7 @@
 
 **Micro · Miniature · Compact | 8–42 mm**
 
-[Open the live product catalogue](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/) · [Open datasheets & CAD downloads](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/)
+[Open the live product catalogue](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/) · [Open datasheets & CAD downloads](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/) · [Motor Datasheets](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/motors/)
 
 ## 12 Product Models
 
