@@ -11,9 +11,9 @@ Download the **motor-only** engineering files by diameter and winding family. Th
 
 | Motor / winding set | Variants | PDF |
 | --- | --- | --- |
-| HS-816-Q / Set A | 024139 · 042142 · 060133 · 072143 · 090144 | Preparing high-resolution upload |
-| HS-816-Q / Set B | 024115 · 042117 · 060110 · 072119 · 090119 | Preparing high-resolution upload |
-| HS-820-Q / Set C | 030330 · 037175 · 120200 | Preparing high-resolution upload |
+| HS-816-Q / Set A | 024139 · 042142 · 060133 · 072143 · 090144 | [Download high-resolution D1 PDF](../../assets/downloads/motors/8mm/SigGear_8mm_HS-816-Q_Winding_Set_A_D1.pdf) |
+| HS-816-Q / Set B | 024115 · 042117 · 060110 · 072119 · 090119 | [Download high-resolution D1 PDF](../../assets/downloads/motors/8mm/SigGear_8mm_HS-816-Q_Winding_Set_B_D1.pdf) |
+| HS-820-Q / Set C | 030330 · 037175 · 120200 | [Download high-resolution D1 PDF](../../assets/downloads/motors/8mm/SigGear_8mm_HS-820-Q_Winding_Set_C_D1.pdf) |
 
 The Ø8 mm D1 source documents retain the supplier drawings and original charts; source conditions and motor-to-gearhead compatibility remain subject to engineering confirmation.
 

@@ -4,6 +4,8 @@ on:
   pull_request:
     paths:
       - "docs/**"
+      - ".github/motor_pdf_upload_parts/**"
+      - "scripts/assemble_motor_pdfs.py"
       - ".github/cad_upload_parts/**"
       - "scripts/assemble_public_cad.py"
       - "data/**"
@@ -42,6 +44,8 @@ on:
       - main
     paths:
       - "docs/**"
+      - ".github/motor_pdf_upload_parts/**"
+      - "scripts/assemble_motor_pdfs.py"
       - "data/**"
       - "mkdocs.yml"
       - "requirements.txt"
@@ -88,6 +92,9 @@ jobs:
 
       - name: Assemble uploaded full-assembly STEP files
         run: python scripts/assemble_public_cad.py
+
+      - name: Assemble verified motor PDF datasheets
+        run: python scripts/assemble_motor_pdfs.py
 
       - name: Set up Python
         uses: actions/setup-python@v6

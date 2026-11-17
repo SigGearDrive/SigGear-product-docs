@@ -5,7 +5,7 @@ description: Direct access to SigGear 8–42 mm planetary gearhead model data, d
 
 # 8–42 mm Planetary Gearhead Downloads
 
-Choose a model to open its published specifications and download its full assembly STEP file.
+Choose a model to open its published specifications and download its full assembly STEP file. Separate **motor-only** PDFs: [Motor Datasheets](../motors/index.md).
 
 | Model | Online technical data | Gearhead Datasheet PDF | 2D Drawing PDF | Full Assembly STEP | Simplified STEP |
 | --- | --- | --- | --- | --- | --- |
