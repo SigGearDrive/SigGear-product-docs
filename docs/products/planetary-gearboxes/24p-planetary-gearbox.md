@@ -12,6 +12,7 @@ description: 24 mm miniature precision planetary gearhead (24P) with published s
 | File | Status |
 | --- | --- |
 | Online datasheet | [Open 24P datasheet](../../engineering-resources/24p/datasheet.md) |
+| Gearhead Datasheet PDF | [Download 24P PDF](../../assets/downloads/24p/24P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
 | 2D drawing PDF | Source identified; public binary upload pending |
 | Full assembly STEP | [Download 24P Full Assembly STEP](../../assets/downloads/24p/24P_Full_Assembly.step) |
 | Dimension preview | [View mechanical interface](../../engineering-resources/24p/mechanical-interface.md) |

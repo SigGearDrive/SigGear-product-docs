@@ -12,6 +12,7 @@ description: 16 mm micro precision planetary gearhead (16P) with published stage
 | File | Status |
 | --- | --- |
 | Online datasheet | [Open 16P datasheet](../../engineering-resources/16p/datasheet.md) |
+| Gearhead Datasheet PDF | [Download 16P PDF](../../assets/downloads/16p/16P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
 | 2D drawing PDF | Source identified; public binary upload pending |
 | Full assembly STEP | [Download 16P Full Assembly STEP](../../assets/downloads/16p/16P_Full_Assembly.step) |
 | Dimension preview | [View dimension preview](../../assets/images/products/planetary-gearboxes/16p/16p-planetary-gearbox-dimensions.webp) |
