@@ -23,7 +23,7 @@ RELEASES = {
     "28P": {"slug":"28p","parts":93,"restore_chunk_newlines":True,"lines":92590,"source_name":"28P_asm.stp","header_name":"28000_ASM","source_sha256":"916fbef7c44f58ece4387821564d35cefae4f62200c88b7e078c132309e460f0","published_sha256":"b1fca7b96ca0e63a6a11448630cbffdd3045e05eac1280a049b3df1b7f305a8c"},
     "32P": {"slug":"32p","parts":90,"restore_chunk_newlines":True,"lines":89167,"source_name":"32P_asm.stp","header_name":"32000_ASM","source_sha256":"fd3b89a33e92424d4766b283b482312b66f69a173516d046ef9aeeb392fb5c30","published_sha256":"b57bd77522f2354d3d09e93f8cbcb8e82cdfe6a347cc5a5402a7a3dafe5db27b"},
     "36P": {"slug":"36p","parts":86,"restore_chunk_newlines":True,"lines":85160,"source_name":"36P_asm.stp","header_name":"36000_ASM","source_sha256":"dc5d23f0c98cc427c51b789ee76b400cb2179a5a4e41ce2f12cd2f14f78661df","published_sha256":"1430a62ef62f60af7fab62153c8ac26bc653ab5b45d7419242e7452dbb1d446a"},
-    "42P": {"slug":"42p","parts":100,"restore_chunk_newlines":True,"lines":99764,"source_name":"42P_asm.stp","header_name":"42000_ASM","source_sha256":"4987e46c5f3fd9c453f45ea3ad3f33eb98585bbe979f6fd8e99ef87706c4429","published_sha256":"a07ce4a44476df520de43f0ca0eace1f62d72d7e6176076be13ebe8b614a7da1"},
+    "42P": {"slug":"42p","parts":100,"restore_chunk_newlines":True,"lines":99764,"source_name":"42P_asm.stp","header_name":"42000_ASM","source_sha256":"4987e46c5f3fd9c453f45ea3ad3f33eb98585bbe979f6fd8e99ef87706c4429","published_sha256":"321b0a593b4d05ddf4385d4a0825a77e91a065251a5136565d3475241ac7b7f9"},
 }
 
 
