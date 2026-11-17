@@ -64,8 +64,8 @@ def assemble(model: str, spec: dict) -> dict:
             output.write(payload)
             # Files API line-window reads omit the terminal newline on each
             # chunk. Restore exactly one LF between adjacent chunks.
-            if index < len(part_paths) - 1 and not payload.endswith(b"\\n"):
-                output.write(b"\\n")
+            if index < len(part_paths) - 1 and not payload.endswith(b"\n"):
+                output.write(b"\n")
 
     payload = target.read_bytes()
     if not payload.startswith(b"ISO-10303-21;"):
