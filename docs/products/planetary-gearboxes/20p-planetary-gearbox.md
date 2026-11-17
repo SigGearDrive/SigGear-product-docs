@@ -13,7 +13,7 @@ description: 20 mm miniature precision planetary gearhead (20P) with published s
 | --- | --- |
 | Online datasheet | [Open 20P datasheet](../../engineering-resources/20p/datasheet.md) |
 | 2D drawing PDF | Source identified; public binary upload pending |
-| Full assembly STEP | STEP syntax validated; upload parts pending |
+| Full assembly STEP | [Download 20P Full Assembly STEP](../../assets/downloads/20p/20P_Full_Assembly.step) |
 | Dimension preview | [View dimension preview](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-dimensions.webp) |
 | Simplified STEP | [Download 4-stage reference](../../assets/downloads/20p/20P_Public_Simplified_STEP_v1.0_4-Stage.step) |
 

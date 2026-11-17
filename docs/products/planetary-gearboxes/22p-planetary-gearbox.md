@@ -13,7 +13,7 @@ description: 22 mm miniature precision planetary gearhead (22P) with published s
 | --- | --- |
 | Online datasheet | [Open 22P datasheet](../../engineering-resources/22p/datasheet.md) |
 | 2D drawing PDF | Source identified; public binary upload pending |
-| Full assembly STEP | STEP syntax validated; upload parts pending |
+| Full assembly STEP | [Download 22P Full Assembly STEP](../../assets/downloads/22p/22P_Full_Assembly.step) |
 | Dimension preview | [View mechanical interface](../../engineering-resources/22p/mechanical-interface.md) |
 | Simplified STEP | [Download 4-stage reference](../../assets/downloads/22p/22P_Public_Simplified_STEP_v1.0_4-Stage.step) |
 
