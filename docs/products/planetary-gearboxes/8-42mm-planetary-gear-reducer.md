@@ -55,9 +55,9 @@ The model pages publish the complete currently approved standard parameters: sta
 
 ## CAD Release Status
 
-- **Full assembly STEP:** All **12 models** have passed STEP structural validation. Original assembly files are prepared with model-specific target paths and SHA-256 checksums. GitHub binary upload is still pending, so no full-assembly download links are active yet.
+- **Full assembly STEP:** All **12 models** have passed STEP structural validation. Full-assembly downloads for **8P, 10P, 12P and 14P** are already published. The remaining eight models are prepared as upload parts; GitHub Actions will assemble and publish their full STEP downloads after those parts are added to the repository.
 - **2D drawings:** Original model-specific PDF sources have been identified for all 12 models. Public binary upload and revision verification are pending.
-- **Simplified STEP:** Available for all 12 models as separate preliminary-packaging references. Each simplified file is a **4-stage reference only** and is distinct from the full assembly STEP sources prepared for upload.
+- **Simplified STEP:** Available for all 12 models as separate preliminary-packaging references. Each simplified file is a **4-stage reference only** and remains separate from the full assembly STEP downloads.
 
 [Open the full CAD & drawing release library](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md)
 [Open the upload manifest](../../assets/downloads/planetary-gearheads-8-42mm-upload-manifest.csv) · [View full-assembly validation manifest](../../assets/downloads/full-assembly-release-manifest.json)

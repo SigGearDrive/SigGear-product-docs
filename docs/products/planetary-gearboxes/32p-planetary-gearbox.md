@@ -13,7 +13,7 @@ description: 32 mm miniature precision planetary gearhead (32P) with published s
 | --- | --- |
 | Online datasheet | [Open 32P datasheet](../../engineering-resources/32p/datasheet.md) |
 | 2D drawing PDF | Source identified; public binary upload pending |
-| Full assembly STEP | STEP syntax validated; GitHub binary upload pending |
+| Full assembly STEP | STEP syntax validated; upload parts pending |
 | Dimension preview | [View mechanical interface](../../engineering-resources/32p/mechanical-interface.md) |
 | Simplified STEP | [Download 4-stage reference](../../assets/downloads/32p/32P_Public_Simplified_STEP_v1.0_4-Stage.step) |
 

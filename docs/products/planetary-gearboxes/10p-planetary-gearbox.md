@@ -13,7 +13,7 @@ description: 10 mm micro precision planetary gearhead (10P) with published stage
 | --- | --- |
 | Online datasheet | [Open 10P datasheet](../../engineering-resources/10p/datasheet.md) |
 | 2D drawing PDF | Source identified; public binary upload pending |
-| Full assembly STEP | STEP syntax validated; GitHub binary upload pending |
+| Full assembly STEP | [Download 10P Full Assembly STEP](../../assets/downloads/10p/10P_Full_Assembly.step) |
 | Dimension preview | [View dimension preview](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-dimensions.webp) |
 | Simplified STEP | [Download 4-stage reference](../../assets/downloads/10p/10P_Public_Simplified_STEP_v1.0_4-Stage.step) |
 
