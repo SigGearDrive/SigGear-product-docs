@@ -13,7 +13,7 @@ description: 42 mm compact precision planetary gearhead (42P) with published sta
 | --- | --- |
 | Online datasheet | [Open 42P datasheet](../../engineering-resources/42p/datasheet.md) |
 | 2D drawing PDF | Source identified; public binary upload pending |
-| Full assembly STEP | Source identified; public binary upload pending |
+| Full assembly STEP | STEP syntax validated; GitHub binary upload pending |
 | Dimension preview | [View mechanical interface](../../engineering-resources/42p/mechanical-interface.md) |
 | Simplified STEP | [Download 4-stage reference](../../assets/downloads/42p/42P_Public_Simplified_STEP_v1.0_4-Stage.step) |
 
