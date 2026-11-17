@@ -106,30 +106,33 @@
       "source_filename": "32P_asm.stp",
       "published_path": "assets/downloads/32p/32P_Full_Assembly.step",
       "source_sha256": "fd3b89a33e92424d4766b283b482312b66f69a173516d046ef9aeeb392fb5c30",
-      "expected_published_sha256": "f2856a0e5ca06a6c0bc031b19b6362c51ef699397b949404e646c9bd2c4b9da4",
-      "parts_required": 16,
-      "lines_expected": 89167,
-      "status": "pending_upload_parts"
+      "published_sha256": "b57bd77522f2354d3d09e93f8cbcb8e82cdfe6a347cc5a5402a7a3dafe5db27b",
+      "bytes": 4651112,
+      "lines": 89167,
+      "line_endings": "LF-normalized during text transfer",
+      "status": "assembled_and_validated"
     },
     {
       "model": "36P",
       "source_filename": "36P_asm.stp",
       "published_path": "assets/downloads/36p/36P_Full_Assembly.step",
       "source_sha256": "dc5d23f0c98cc427c51b789ee76b400cb2179a5a4e41ce2f12cd2f14f78661df",
-      "expected_published_sha256": "9d4488c20e7e858868f99c39cf6fce3cb7323a263f8aac6584cba3b8d5ed9d04",
-      "parts_required": 15,
-      "lines_expected": 85160,
-      "status": "pending_upload_parts"
+      "published_sha256": "1430a62ef62f60af7fab62153c8ac26bc653ab5b45d7419242e7452dbb1d446a",
+      "bytes": 4462637,
+      "lines": 85160,
+      "line_endings": "LF-normalized during text transfer",
+      "status": "assembled_and_validated"
     },
     {
       "model": "42P",
       "source_filename": "42P_asm.stp",
       "published_path": "assets/downloads/42p/42P_Full_Assembly.step",
       "source_sha256": "4987e46c5f3fd9c453f45ea3ad3f33eb98585bbe979f6fd8e99ef87706c4429",
-      "expected_published_sha256": "a07ce4a44476df520de43f0ca0eace1f62d72d7e6176076be13ebe8b614a7da1",
-      "parts_required": 18,
-      "lines_expected": 99764,
-      "status": "pending_upload_parts"
+      "published_sha256": "321b0a593b4d05ddf4385d4a0825a77e91a065251a5136565d3475241ac7b7f9",
+      "bytes": 5330140,
+      "lines": 99764,
+      "line_endings": "LF-normalized during text transfer",
+      "status": "assembled_and_validated"
     }
   ]
 }
