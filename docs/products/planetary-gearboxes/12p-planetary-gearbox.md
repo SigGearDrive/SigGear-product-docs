@@ -12,6 +12,7 @@ description: 12 mm micro precision planetary gearhead (12P) with published stage
 | File | Status |
 | --- | --- |
 | Online datasheet | [Open 12P datasheet](../../engineering-resources/12p/datasheet.md) |
+| Gearhead Datasheet PDF | [Download 12P PDF](../../assets/downloads/12p/12P_Planetary_Gearhead_Datasheet_Rev1.1.pdf) |
 | 2D drawing PDF | Source identified; public binary upload pending |
 | Full assembly STEP | [Download 12P Full Assembly STEP](../../assets/downloads/12p/12P_Full_Assembly.step) |
 | Dimension preview | [View dimension preview](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearbox-dimensions.webp) |

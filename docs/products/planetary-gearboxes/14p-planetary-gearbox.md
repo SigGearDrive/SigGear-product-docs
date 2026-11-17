@@ -12,6 +12,7 @@ description: 14 mm micro precision planetary gearhead (14P) with published stage
 | File | Status |
 | --- | --- |
 | Online datasheet | [Open 14P datasheet](../../engineering-resources/14p/datasheet.md) |
+| Gearhead Datasheet PDF | [Download 14P PDF](../../assets/downloads/14p/14P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
 | 2D drawing PDF | Source identified; public binary upload pending |
 | Full assembly STEP | [Download 14P Full Assembly STEP](../../assets/downloads/14p/14P_Full_Assembly.step) |
 | Dimension preview | [View dimension preview](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearbox-dimensions.webp) |
