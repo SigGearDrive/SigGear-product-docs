@@ -36,6 +36,10 @@ description: SigGear 8–42 mm precision planetary gearheads in 12 Micro, Miniat
 
 ## Product Downloads
 
+**Gearhead Datasheet PDF release:** All 12 revised PDFs have been approved (Rev 1.0; 12P Rev 1.1). The PDF files are not yet hosted here; direct download links will be activated after binary upload and validation. Online technical datasheets and full assembly STEP downloads remain available.
+
+
+
 | Model | Class | Datasheet | 2D Drawing PDF | Full Assembly STEP | Simplified STEP |
 | --- | --- | --- | --- | --- | --- |
 | [8P · 8 mm](8p-planetary-gearbox.md) | Micro | [Online datasheet](../../engineering-resources/8p/datasheet.md) | Source identified; PDF upload pending | [Download Full Assembly STEP](../../assets/downloads/8p/8P_Full_Assembly.step) | [4-stage STEP](../../assets/downloads/8p/8P_Public_Simplified_STEP_v1.0_4-Stage.step) |
