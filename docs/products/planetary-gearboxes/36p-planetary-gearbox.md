@@ -12,6 +12,7 @@ description: 36 mm compact precision planetary gearhead (36P) with published sta
 | File | Status |
 | --- | --- |
 | Online datasheet | [Open 36P datasheet](../../engineering-resources/36p/datasheet.md) |
+| Gearhead Datasheet PDF | [Download 36P PDF](../../assets/downloads/36p/36P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
 | 2D drawing PDF | Source identified; public binary upload pending |
 | Full assembly STEP | [Download 36P Full Assembly STEP](../../assets/downloads/36p/36P_Full_Assembly.step) |
 | Dimension preview | [View mechanical interface](../../engineering-resources/36p/mechanical-interface.md) |

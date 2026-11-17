@@ -12,6 +12,7 @@ description: 28 mm miniature precision planetary gearhead (28P) with published s
 | File | Status |
 | --- | --- |
 | Online datasheet | [Open 28P datasheet](../../engineering-resources/28p/datasheet.md) |
+| Gearhead Datasheet PDF | [Download 28P PDF](../../assets/downloads/28p/28P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
 | 2D drawing PDF | Source identified; public binary upload pending |
 | Full assembly STEP | [Download 28P Full Assembly STEP](../../assets/downloads/28p/28P_Full_Assembly.step) |
 | Dimension preview | [View mechanical interface](../../engineering-resources/28p/mechanical-interface.md) |

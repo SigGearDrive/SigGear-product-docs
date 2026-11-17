@@ -1,7 +1,7 @@
 {
   "title": "SigGear 8P–42P precision planetary gearhead PDF datasheet release ledger (revised PDFs)",
   "date": "2026-11-17",
-  "policy": "Product owner approved 12 PDFs for public release. The revisions and SHA-256 values below identify the exact approved files; PDFs are not live until binary uploads and GitHub Pages validation succeed.",
+  "policy": "All 12 product-owner-approved revised PDFs are committed as binary files to main. Direct URLs are listed in product pages and the central download table; verify GitHub Pages build and web delivery on each deployment.",
   "batch_order": [
     [
       "8P",
@@ -29,9 +29,10 @@
       "size_bytes": 166111,
       "sha256": "c1c3b3315674dc270b0690b1081853b0ee27040f2055a3a1c78860b474ba2b07",
       "target_path": "docs/assets/downloads/8p/8P_Planetary_Gearhead_Datasheet_Rev1.0.pdf",
-      "status": "revised_pdf_ready_binary_upload_pending",
+      "status": "binary_committed_to_main",
       "issues": [],
-      "approval": "approved_for_public_release"
+      "approval": "approved_for_public_release",
+      "public_download_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/8p/8P_Planetary_Gearhead_Datasheet_Rev1.0.pdf"
     },
     {
       "model": "10P",
@@ -39,9 +40,10 @@
       "size_bytes": 552563,
       "sha256": "99ec99be9085026871c1fe0ac691f0a75497b3f5098c4811845dd2c955f2c2a4",
       "target_path": "docs/assets/downloads/10p/10P_Planetary_Gearhead_Datasheet_Rev1.0.pdf",
-      "status": "revised_pdf_ready_binary_upload_pending",
+      "status": "binary_committed_to_main",
       "issues": [],
-      "approval": "approved_for_public_release"
+      "approval": "approved_for_public_release",
+      "public_download_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/10p/10P_Planetary_Gearhead_Datasheet_Rev1.0.pdf"
     },
     {
       "model": "12P",
@@ -49,9 +51,10 @@
       "size_bytes": 145460,
       "sha256": "01c388d5d189b5caa2d3c821efa9777cab169f331ac33bc4b56c994df9740fac",
       "target_path": "docs/assets/downloads/12p/12P_Planetary_Gearhead_Datasheet_Rev1.1.pdf",
-      "status": "revised_pdf_ready_binary_upload_pending",
+      "status": "binary_committed_to_main",
       "issues": [],
-      "approval": "approved_for_public_release"
+      "approval": "approved_for_public_release",
+      "public_download_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/12p/12P_Planetary_Gearhead_Datasheet_Rev1.1.pdf"
     },
     {
       "model": "14P",
@@ -59,9 +62,10 @@
       "size_bytes": 337478,
       "sha256": "a1b2bfffc0735f057166db6f5951314ba636699489e717d22bc13c57b0f3f710",
       "target_path": "docs/assets/downloads/14p/14P_Planetary_Gearhead_Datasheet_Rev1.0.pdf",
-      "status": "revised_pdf_ready_binary_upload_pending",
+      "status": "binary_committed_to_main",
       "issues": [],
-      "approval": "approved_for_public_release"
+      "approval": "approved_for_public_release",
+      "public_download_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/14p/14P_Planetary_Gearhead_Datasheet_Rev1.0.pdf"
     },
     {
       "model": "16P",
@@ -69,9 +73,10 @@
       "size_bytes": 489841,
       "sha256": "d92ccf65210a5c125925534c904de4c73d775d7c800f14a688c463099935640f",
       "target_path": "docs/assets/downloads/16p/16P_Planetary_Gearhead_Datasheet_Rev1.0.pdf",
-      "status": "revised_pdf_ready_binary_upload_pending",
+      "status": "binary_committed_to_main",
       "issues": [],
-      "approval": "approved_for_public_release"
+      "approval": "approved_for_public_release",
+      "public_download_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/16p/16P_Planetary_Gearhead_Datasheet_Rev1.0.pdf"
     },
     {
       "model": "20P",
@@ -79,9 +84,10 @@
       "size_bytes": 120331,
       "sha256": "f24da60f4da86ae7961a872797f50c29a78836fafa121ba936b6c21708126bfa",
       "target_path": "docs/assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf",
-      "status": "revised_pdf_ready_binary_upload_pending",
+      "status": "binary_committed_to_main",
       "issues": [],
-      "approval": "approved_for_public_release"
+      "approval": "approved_for_public_release",
+      "public_download_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf"
     },
     {
       "model": "22P",
@@ -89,9 +95,10 @@
       "size_bytes": 376847,
       "sha256": "fed61a6e9956d9f2625bfb3f1880eef9d2d122af4665f13de836d1b5ab976878",
       "target_path": "docs/assets/downloads/22p/22P_Planetary_Gearhead_Datasheet_Rev1.0.pdf",
-      "status": "revised_pdf_ready_binary_upload_pending",
+      "status": "binary_committed_to_main",
       "issues": [],
-      "approval": "approved_for_public_release"
+      "approval": "approved_for_public_release",
+      "public_download_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/22p/22P_Planetary_Gearhead_Datasheet_Rev1.0.pdf"
     },
     {
       "model": "24P",
@@ -99,9 +106,10 @@
       "size_bytes": 66608,
       "sha256": "193323c84a66c5cd498e1723ee7ddd9bb1b3f200db7ba2a658cab7b20e939864",
       "target_path": "docs/assets/downloads/24p/24P_Planetary_Gearhead_Datasheet_Rev1.0.pdf",
-      "status": "revised_pdf_ready_binary_upload_pending",
+      "status": "binary_committed_to_main",
       "issues": [],
-      "approval": "approved_for_public_release"
+      "approval": "approved_for_public_release",
+      "public_download_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/24p/24P_Planetary_Gearhead_Datasheet_Rev1.0.pdf"
     },
     {
       "model": "28P",
@@ -109,10 +117,11 @@
       "size_bytes": 651814,
       "sha256": "e2cf0f40eb38168b3c547ab12b12a0fac8905df9c13c5d21fc9f817b15a313a6",
       "target_path": "docs/assets/downloads/28p/28P_Planetary_Gearhead_Datasheet_Rev1.0.pdf",
-      "status": "revised_pdf_ready_binary_upload_pending",
+      "status": "binary_committed_to_main",
       "issues": [],
       "approval": "approved_for_public_release",
-      "technical_note": "Torque figures follow factory source and continuous-duty suitability is application-dependent."
+      "technical_note": "Torque figures follow factory source and continuous-duty suitability is application-dependent.",
+      "public_download_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/28p/28P_Planetary_Gearhead_Datasheet_Rev1.0.pdf"
     },
     {
       "model": "32P",
@@ -120,10 +129,11 @@
       "size_bytes": 521649,
       "sha256": "3a5bd1f10f846aa7be301480bf252c72660d0f127dfb756acc88b11edd78a37a",
       "target_path": "docs/assets/downloads/32p/32P_Planetary_Gearhead_Datasheet_Rev1.0.pdf",
-      "status": "revised_pdf_ready_binary_upload_pending",
+      "status": "binary_committed_to_main",
       "issues": [],
       "approval": "approved_for_public_release",
-      "category": "Miniature"
+      "category": "Miniature",
+      "public_download_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/32p/32P_Planetary_Gearhead_Datasheet_Rev1.0.pdf"
     },
     {
       "model": "36P",
@@ -131,10 +141,11 @@
       "size_bytes": 529864,
       "sha256": "dc4e279fb1072fbaf9afd6413b3771cb37fda5a7d4eae72ba36491751330d710",
       "target_path": "docs/assets/downloads/36p/36P_Planetary_Gearhead_Datasheet_Rev1.0.pdf",
-      "status": "revised_pdf_ready_binary_upload_pending",
+      "status": "binary_committed_to_main",
       "issues": [],
       "approval": "approved_for_public_release",
-      "technical_note": "Torque figures follow factory source and continuous-duty suitability is application-dependent."
+      "technical_note": "Torque figures follow factory source and continuous-duty suitability is application-dependent.",
+      "public_download_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/36p/36P_Planetary_Gearhead_Datasheet_Rev1.0.pdf"
     },
     {
       "model": "42P",
@@ -142,10 +153,11 @@
       "size_bytes": 529173,
       "sha256": "f140150e7097c45673b71560095cdef33cba2558c7a3db716a7aedc098bd2af0",
       "target_path": "docs/assets/downloads/42p/42P_Planetary_Gearhead_Datasheet_Rev1.0.pdf",
-      "status": "revised_pdf_ready_binary_upload_pending",
+      "status": "binary_committed_to_main",
       "issues": [],
       "approval": "approved_for_public_release",
-      "technical_note": "Torque figures follow factory source and continuous-duty suitability is application-dependent."
+      "technical_note": "Torque figures follow factory source and continuous-duty suitability is application-dependent.",
+      "public_download_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/42p/42P_Planetary_Gearhead_Datasheet_Rev1.0.pdf"
     }
   ],
   "release_ready": true,
