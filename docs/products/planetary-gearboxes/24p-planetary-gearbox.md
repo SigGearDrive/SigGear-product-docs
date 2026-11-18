@@ -85,3 +85,7 @@ The published drawing shows a 24 mm body and stage-dependent gearhead lengths of
 The **Full Assembly STEP** is the published original Creo assembly. The **Simplified STEP** is a separate 4-stage reference for preliminary mechanical packaging. The [24P 2D outline drawing](../../assets/downloads/24p/24P_2D_Drawing.pdf) is the original **SG01PD24** interface reference. The body length **L ±0.3 mm** is configuration-dependent; confirm stage, ratio and motor mating dimensions before production.
 
 [Back to the 8–42 mm product catalogue](8-42mm-planetary-gear-reducer.md)
+
+**Potential OEM applications** *(suitability requires engineering review)*: [Automotive interior flaps](../../applications/automotive-vehicle-small-motion-gear-motors.md) · [Battery and charging-port covers](../../applications/energy-battery-charging-equipment-actuators.md) · [Stage lighting adjustment](../../applications/stage-lighting-display-signage-gear-motors.md) · [All applications](../../applications/index.md).
+
+**Motor + Gearhead Assembly:** [Motor matching and custom integration](../../custom-engineering/motor-gearbox-integration.md).

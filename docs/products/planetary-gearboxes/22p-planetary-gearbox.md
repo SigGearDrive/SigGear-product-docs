@@ -79,3 +79,7 @@ Published dimensional references identify a 22 mm body, a 20 mm output-shaft ext
 The **Full Assembly STEP** is the published original Creo assembly. The **Simplified STEP** is a separate 4-stage reference for preliminary mechanical packaging. The [22P 2D outline drawing](../../assets/downloads/22p/22P_2D_Drawing.pdf) is the original **SG01PD22** interface reference. The body length **L ±0.3 mm** is configuration-dependent; confirm stage, ratio and motor mating dimensions before production.
 
 [Back to the 8–42 mm product catalogue](8-42mm-planetary-gear-reducer.md)
+
+**Potential OEM applications** *(suitability requires engineering review)*: [Beverage dispensing](../../applications/food-beverage-coffee-equipment-gear-motors.md) · [Curtains and roller blinds](../../applications/electric-curtain-blind-window-opener-gear-motors.md) · [Pet feeder and litter-box mechanisms](../../applications/smart-pet-feeder-litter-box-planetary-gearheads.md) · [Smart vent drives](../../applications/hvac-smart-vent-damper-gear-motors.md) · [All applications](../../applications/index.md).
+
+**Motor + Gearhead Assembly:** [Motor matching and custom integration](../../custom-engineering/motor-gearbox-integration.md).

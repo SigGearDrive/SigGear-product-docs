@@ -69,3 +69,7 @@ The published drawing shows a 28 mm body diameter, a 20 mm output shaft referenc
 The **Full Assembly STEP** is the published original Creo assembly. The **Simplified STEP** is a separate 4-stage reference for preliminary mechanical packaging. The [28P 2D outline drawing](../../assets/downloads/28p/28P_2D_Drawing.pdf) is the original **SG01PD28** interface reference. The body length **L ±0.3 mm** is configuration-dependent; confirm stage, ratio and motor mating dimensions before production.
 
 [Back to the 8–42 mm product catalogue](8-42mm-planetary-gear-reducer.md)
+
+**Potential OEM applications** *(suitability requires engineering review)*: [Agricultural metering](../../applications/agriculture-outdoor-equipment-gear-motors.md) · [AGV/AMR auxiliary mechanisms](../../applications/agv-amr-wheel-drive-gearboxes.md) · [All applications](../../applications/index.md).
+
+**Motor + Gearhead Assembly:** [Motor matching and custom integration](../../custom-engineering/motor-gearbox-integration.md).

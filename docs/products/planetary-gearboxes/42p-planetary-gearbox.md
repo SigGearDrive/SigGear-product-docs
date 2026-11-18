@@ -82,3 +82,7 @@ These are published gearhead limits. The actual application load direction, duty
 The **Full Assembly STEP** is the published original Creo assembly. The **Simplified STEP** is a separate 4-stage reference for preliminary mechanical packaging. The [42P 2D outline drawing](../../assets/downloads/42p/42P_2D_Drawing.pdf) is the original **SG01PD42** interface reference. The body length **L ±0.3 mm** is configuration-dependent; confirm stage, ratio and motor mating dimensions before production.
 
 [Back to the 8–42 mm product catalogue](8-42mm-planetary-gear-reducer.md)
+
+**Potential OEM applications** *(suitability requires engineering review)*: [Packaging and conveyor mechanisms](../../applications/packaging-labeling-conveyor-gear-motors.md) · [Wearable exoskeleton joint components](../../applications/exoskeleton-joint-actuators.md) · [Furniture adjustment drives](../../applications/furniture-seating-adjustable-mechanism-gear-motors.md) · [Humanoid robot joint mechanisms](../../applications/humanoid-robot-joint-actuators.md) · [All applications](../../applications/index.md).
+
+**Motor + Gearhead Assembly:** [Motor matching and custom integration](../../custom-engineering/motor-gearbox-integration.md).

@@ -89,3 +89,7 @@ The published drawing shows a 14 mm body, a 10.0 mm output-shaft extension and s
 The Full Assembly STEP is the original Creo assembly export for 14P, now available for direct download. The separate Simplified STEP is a 4-stage reference model for preliminary packaging. The dimension preview is not a substitute for the original 2D drawing PDF or its controlled revision.
 
 [Back to the 8–42 mm product catalogue](8-42mm-planetary-gear-reducer.md)
+
+**Potential OEM applications** *(suitability requires engineering review)*: [Dexterous-hand grippers](../../applications/robot-gripper-gear-motors.md) · [All applications](../../applications/index.md).
+
+**Motor + Gearhead Assembly:** [Motor matching and custom integration](../../custom-engineering/motor-gearbox-integration.md).

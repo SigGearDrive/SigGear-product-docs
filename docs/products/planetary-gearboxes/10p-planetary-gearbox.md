@@ -93,3 +93,7 @@ The Full Assembly STEP is the original Creo assembly export for 10P, now availab
 **High-speed motor note:** Certain HS-1013-Q / HS-1015-Q windings can reach 26,000–31,000 rpm at no load. This is not a continuous-speed rating; confirm the actual permissible operating point for the motor + gearhead combination.
 
 [Back to the 8–42 mm product catalogue](8-42mm-planetary-gear-reducer.md)
+
+**Potential OEM applications** *(suitability requires engineering review)*: [Smart locks](../../applications/access-control-smart-lock-security-gear-motors.md) · [Paper-feed mechanisms](../../applications/office-automation-business-equipment-gear-motors.md) · [Medical device auxiliary motion](../../applications/medical-device-micro-gear-motors.md) · [Precision instruments](../../applications/precision-instruments-optical-mechanisms.md) · [All applications](../../applications/index.md).
+
+**Motor + Gearhead Assembly:** [Motor matching and custom integration](../../custom-engineering/motor-gearbox-integration.md).
