@@ -70,6 +70,12 @@ Final protocol details, connector definitions, encoder configuration, current li
 
 ## Public Engineering Resources
 
+[**Original Full STEP · No Driver (29.7 mm)**](../../assets/downloads/joint-actuators/CPM-80-25_Original_Full_Assembly_No_Driver_20261118.step){ .md-button .md-button--primary }
+
+[**Original Full STEP · Integrated Driver (41.2 mm)**](../../assets/downloads/joint-actuators/CPM-80-25_Original_Full_Assembly_Integrated_Driver_20261118.step){ .md-button }
+
+The original assembly models are separate from the simplified reference STEP files below. Final production dimensions still require the matching controlled drawing.
+
 [Download STEP - No Driver](../../assets/downloads/cpm80-25/CPM-80-25_Public_Simplified_STEP_v1.0_No_Driver.step){ .md-button .md-button--primary }
 
 [Download STEP - Integrated Driver](../../assets/downloads/cpm80-25/CPM-80-25_Public_Simplified_STEP_v1.0_Integrated_Driver.step){ .md-button }
