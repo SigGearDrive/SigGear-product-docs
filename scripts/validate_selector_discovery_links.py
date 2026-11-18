@@ -60,32 +60,51 @@ def main() -> None:
         collector = AnchorCollector()
         collector.feed(html)
 
-        if "2D drawing PDF" not in html or "Full assembly STEP" not in html:
-            raise ValueError(f"{model} page is missing its 2D / full assembly release status.")
         if "Open SigGear Planetary Gearbox Selector" in html or "max_diameter=" in html:
             raise ValueError(f"{model} page still promotes the selector instead of downloads.")
 
         source_url = SITE_ORIGIN + SITE_PREFIX + "/" + suffix
-        datasheets = [(href, label) for href, label in collector.links if label == f"Open {model} datasheet"]
-        steps = [(href, label) for href, label in collector.links if label == "Download 4-stage reference"]
-        if len(datasheets) != 1:
-            raise ValueError(f"{model} must have exactly one online datasheet link, got {len(datasheets)}")
-        if len(steps) != 1:
-            raise ValueError(f"{model} must have exactly one current simplified STEP link, got {len(steps)}")
+        pdf_rev = "Rev1.1" if diameter == 12 else "Rev1.0"
+        expected_paths = {
+            "Download Datasheet PDF": (
+                f"{SITE_PREFIX}/assets/downloads/{slug}/{model}_Planetary_Gearhead_Datasheet_{pdf_rev}.pdf"
+            ),
+            "Download 2D Drawing PDF": (
+                f"{SITE_PREFIX}/assets/downloads/{slug}/{model}_2D_Drawing.pdf"
+            ),
+            "Download Full Assembly STEP": (
+                f"{SITE_PREFIX}/assets/downloads/{slug}/{model}_Full_Assembly.step"
+            ),
+            "Online technical specifications": (
+                f"{SITE_PREFIX}/engineering-resources/{slug}/datasheet/"
+            ),
+            "Simplified 4-stage STEP": (
+                f"{SITE_PREFIX}/assets/downloads/{slug}/{model}_Public_Simplified_STEP_v1.0_4-Stage.step"
+            ),
+        }
+        for label, expected_path in expected_paths.items():
+            matches = [href for href, text in collector.links if text == label]
+            if len(matches) != 1:
+                raise ValueError(f"{model}: expected one {label!r} link, got {len(matches)}")
+            actual = urlsplit(urljoin(source_url, matches[0]))
+            if actual.path != expected_path:
+                raise ValueError(
+                    f"{model}: {label} points to {actual.path}, expected {expected_path}"
+                )
 
-        datasheet = urlsplit(urljoin(source_url, datasheets[0][0]))
-        expected_datasheet = f"{SITE_PREFIX}/engineering-resources/{slug}/datasheet/"
-        if datasheet.path != expected_datasheet:
-            raise ValueError(f"{model} datasheet link is broken: {datasheet.path}")
+        # User-first hierarchy: primary file links must precede the large photo.
+        source = (
+            ROOT / "docs/products/planetary-gearboxes" / f"{slug}-planetary-gearbox.md"
+        ).read_text(encoding="utf-8")
+        photo_pos = source.index("![")
+        for label in ("Download Datasheet PDF", "Download 2D Drawing PDF",
+                      "Download Full Assembly STEP"):
+            if source.index(f"[**{label}**]") > photo_pos:
+                raise ValueError(f"{model}: {label} is below the product photo")
 
-        step = urlsplit(urljoin(source_url, steps[0][0]))
-        expected_step = f"{SITE_PREFIX}/assets/downloads/{slug}/{model}_Public_Simplified_STEP_v1.0_4-Stage.step"
-        if step.path != expected_step:
-            raise ValueError(f"{model} simplified STEP link is broken: {step.path}")
-
-    print("PASS all 12 model pages expose direct datasheet and STEP links without selector CTAs.")
-    print("PASS 2D drawing and full assembly STEP release status is visible for all 12 models.")
-    print("PASS legacy selector remains available for existing application links.")
+    print("PASS all 12 product pages show direct PDF, 2D, full STEP and quick specs first.")
+    print("PASS all online datasheet and simplified STEP links resolve to model-specific paths.")
+    print("PASS selector remains available through the existing selection guide.")
 
 
 if __name__ == "__main__":
