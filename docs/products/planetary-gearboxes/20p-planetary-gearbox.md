@@ -1,28 +1,22 @@
 ---
 title: 20 mm Miniature Precision Planetary Gearhead (20P) | SigGear
-description: 20 mm miniature precision planetary gearhead (20P) with published stage data, dimensions, datasheet and CAD access.
+description: SigGear 20P (20 mm) miniature planetary gearhead/gearbox: ratio 4:1–1296:1, rated torque 588.4–1274.9 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD.
 ---
 
 # 20 mm Miniature Precision Planetary Gearhead (20P)
 
-![SigGear 20P 20 mm miniature planetary gearbox](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-main.webp)
+[**Download Datasheet PDF**](../../assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf){ .md-button .md-button--primary }
+[**Download 2D Drawing PDF**](../../assets/downloads/20p/20P_2D_Drawing.pdf){ .md-button }
+[**Download Full Assembly STEP**](../../assets/downloads/20p/20P_Full_Assembly.step){ .md-button }
 
-[**View 20P Datasheets & CAD Downloads**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#20p-downloads){ .md-button .md-button--primary }
+| Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
+| --- | --- | --- | --- | --- |
+| **20 mm** | **4:1–1296:1** | **20.1–34.5 mm** | **588.4–1274.9 mN·m** | **≤ 1.5°** |
 
-## Downloads
+**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/20p/datasheet.md) · [Simplified 4-stage STEP](../../assets/downloads/20p/20P_Public_Simplified_STEP_v1.0_4-Stage.step) · [Mechanical drawing preview](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-dimensions.webp) · [Motor-only datasheets](../../engineering-resources/motors/index.md#20-mm-bldc-motor) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
-| File | Status |
-| --- | --- |
-| All 20P downloads | [Open 20P in the download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#20p-downloads) |
-| Online datasheet | [Open 20P datasheet](../../engineering-resources/20p/datasheet.md) |
-| Gearhead Datasheet PDF | [Download 20P PDF](../../assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
-| Motor Datasheet (Ø20 mm) | [View HR-BL2030-Q120260 PDF](../../engineering-resources/motors/index.md#20-mm-bldc-motor) — motor only; assembly compatibility not confirmed |
-| 2D drawing PDF | [Download 20P outline drawing](../../assets/downloads/20p/20P_2D_Drawing.pdf) · SG01PD20 |
-| Full assembly STEP | [Download 20P Full Assembly STEP](../../assets/downloads/20p/20P_Full_Assembly.step) |
-| Dimension preview | [View dimension preview](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-dimensions.webp) |
-| Simplified STEP | [Download 4-stage reference](../../assets/downloads/20p/20P_Public_Simplified_STEP_v1.0_4-Stage.step) |
+![SigGear 20P 20 mm miniature planetary gearhead](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-main.webp){ width="260" loading="lazy" }
 
-## Product Specifications
 
 ## Product Identity
 
