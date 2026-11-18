@@ -122,6 +122,7 @@ def check_model_specific_search_metadata() -> None:
 def check_priority_gearhead_hub_metadata() -> None:
     """Prevent priority hubs and OEM application articles from losing SEO titles."""
     priority_sources = [
+        "products/planetary-gearboxes/index.md",
         "products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md",
         "selection-guides/planetary-gearhead-quick-selector.md",
         "products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md",
