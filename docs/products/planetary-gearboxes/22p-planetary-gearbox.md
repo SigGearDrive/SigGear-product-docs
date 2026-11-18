@@ -13,6 +13,7 @@ description: 22 mm miniature precision planetary gearhead (22P) with published s
 | --- | --- |
 | Online datasheet | [Open 22P datasheet](../../engineering-resources/22p/datasheet.md) |
 | Gearhead Datasheet PDF | [Download 22P PDF](../../assets/downloads/22p/22P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
+| Motor Datasheets (Ø22 mm) | [View eight motor-only PDF sheets](../../engineering-resources/motors/index.md#22-mm-dc-motors) — assembly compatibility to be confirmed |
 | 2D drawing PDF | Source identified; public binary upload pending |
 | Full assembly STEP | [Download 22P Full Assembly STEP](../../assets/downloads/22p/22P_Full_Assembly.step) |
 | Dimension preview | [View mechanical interface](../../engineering-resources/22p/mechanical-interface.md) |

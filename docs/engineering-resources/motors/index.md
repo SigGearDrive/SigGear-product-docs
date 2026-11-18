@@ -64,6 +64,21 @@ The Ø10 mm performance tables are legible re-typeset data with the original dra
 
 The Ø20 mm file is **motor-only** data, not rated performance for the 20P gearhead or a complete assembly. The source lists a 30.4 mN·m locked-rotor torque, which is **not** a continuous operating rating; thermal and driver requirements are not specified.
 
+## Ø22 mm — DC Motors
+
+| Source sheet | Motor variants | PDF Datasheet | Source status |
+| --- | --- | --- | --- |
+| Sheet 01 | 090123 · 120117 · 180118 · 240099 · 360114 | [Download PDF](../../assets/downloads/motors/22mm/SigGear_22mm_DC_Motor_Sheet01_090123-360114_DraftV0.9.pdf) | Draft V0.9 |
+| Sheet 02 | 120090 · 090100 | [Download PDF](../../assets/downloads/motors/22mm/SigGear_22mm_DC_Motor_Sheet02_120090-090100_DraftV0.9.pdf) | Draft V0.9 |
+| Sheet 03 | 120090 · 090100 | [Download PDF](../../assets/downloads/motors/22mm/SigGear_22mm_DC_Motor_Sheet03_120090-090100_DraftV0.9.pdf) | Draft V0.9 |
+| Sheet 04 | 060055 · 120059 · 240051 | [Download PDF](../../assets/downloads/motors/22mm/SigGear_22mm_DC_Motor_Sheet04_060055-240051_DraftV0.9.pdf) | Draft V0.9 |
+| Sheet 05 | 060070 · 120071 · 240073 | Upload pending | Draft V0.9 |
+| Sheet 06 | 060062 · 120062 · 180061 · 240063 · 360065 | Upload pending | Draft V0.9 |
+| Sheet 07 | 060114 · 120124 · 180124 · 240124 · 360122 | Upload pending | Draft V0.9 |
+| Sheet 08 | 060058 · 090058 · 120049 · 180057 · 240050 | Upload pending | Draft V0.9 |
+
+**Important engineering distinction:** Sheets **02** and **03** both cover motor codes **120090 / 090100**, but show different shaft/flange drawings. For **120090**, Sheet 02 reports **7,850 rpm** rated speed, while Sheet 03 reports **7,890 rpm**. These are preserved as separate source documents and should not be treated as interchangeable without confirming the mechanical configuration and controlled specification. Sheet 06 reports approximately **1.09 mA** no-load current for 360065; this source value also requires verification. These PDFs describe motors only, not combined motor + 22P gearhead output.
+
 **Note:** These PDF downloads are motor-specific engineering references; choose the motor, winding, voltage and gearhead interface together for a complete assembly. Contact SigGear for design-specific compatibility and thermal-duty requirements.
 
 [Back to gearhead CAD & Datasheets](../planetary-gearboxes/public-cad-release-v1.md)
