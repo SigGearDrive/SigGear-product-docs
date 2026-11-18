@@ -1,28 +1,22 @@
 ---
 title: 28 mm Miniature Precision Planetary Gearhead (28P) | SigGear
-description: 28 mm miniature precision planetary gearhead (28P) with published stage data, dimensions, datasheet and CAD access.
+description: SigGear 28P (28 mm) miniature planetary gearhead/gearbox: ratio 3.83:1–759.7:1, rated torque 1961.3–4903.3 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD.
 ---
 
 # 28 mm Miniature Precision Planetary Gearhead (28P)
 
-![Real SigGear 28P 28 mm miniature planetary gearbox with diameter check](../../assets/images/products/planetary-gearboxes/28p/28p-real-product-evidence.webp)
+[**Download Datasheet PDF**](../../assets/downloads/28p/28P_Planetary_Gearhead_Datasheet_Rev1.0.pdf){ .md-button .md-button--primary }
+[**Download 2D Drawing PDF**](../../assets/downloads/28p/28P_2D_Drawing.pdf){ .md-button }
+[**Download Full Assembly STEP**](../../assets/downloads/28p/28P_Full_Assembly.step){ .md-button }
 
-[**View 28P Datasheets & CAD Downloads**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#28p-downloads){ .md-button .md-button--primary }
+| Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
+| --- | --- | --- | --- | --- |
+| **28 mm** | **3.83:1–759.7:1** | **25.6–44.5 mm** | **1961.3–4903.3 mN·m** | **≤ 1.2°** |
 
-## Downloads
+**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/28p/datasheet.md) · [Simplified 4-stage STEP](../../assets/downloads/28p/28P_Public_Simplified_STEP_v1.0_4-Stage.step) · [Mechanical drawing preview](../../engineering-resources/28p/mechanical-interface.md) · [Motor-only datasheets](../../engineering-resources/motors/index.md#28-mm-dc-motors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
-| File | Status |
-| --- | --- |
-| All 28P downloads | [Open 28P in the download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#28p-downloads) |
-| Online datasheet | [Open 28P datasheet](../../engineering-resources/28p/datasheet.md) |
-| Gearhead Datasheet PDF | [Download 28P PDF](../../assets/downloads/28p/28P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
-| Motor Datasheet (Ø28 mm) | [DC motor Sheet A / B](../../engineering-resources/motors/index.md#28-mm-dc-motors) — motor only; mating compatibility not verified |
-| 2D drawing PDF | [Download 28P outline drawing](../../assets/downloads/28p/28P_2D_Drawing.pdf) · SG01PD28 |
-| Full assembly STEP | [Download 28P Full Assembly STEP](../../assets/downloads/28p/28P_Full_Assembly.step) |
-| Dimension preview | [View mechanical interface](../../engineering-resources/28p/mechanical-interface.md) |
-| Simplified STEP | [Download 4-stage reference](../../assets/downloads/28p/28P_Public_Simplified_STEP_v1.0_4-Stage.step) |
+![Real SigGear 28P 28 mm miniature planetary gearhead with diameter check](../../assets/images/products/planetary-gearboxes/28p/28p-real-product-evidence.webp){ width="260" loading="lazy" }
 
-## Product Specifications
 
 ## Product Identity
 
