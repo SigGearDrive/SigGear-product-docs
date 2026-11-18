@@ -40,6 +40,9 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
+      - name: Generate six public joint reference PDF datasheets
+        run: python scripts/build_joint_datasheets.py
+
       - name: Validate documentation structure
         run: python scripts/validate_docs.py
 
