@@ -1,27 +1,22 @@
 ---
 title: 36 mm Compact Precision Planetary Gearhead (36P) | SigGear
-description: 36 mm compact precision planetary gearhead (36P) with published stage data, dimensions, datasheet and CAD access.
+description: SigGear 36P (36 mm) compact planetary gearhead/gearbox: ratio 3.66:1–625:1, rated torque 3922.7–9806.6 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD.
 ---
 
 # 36 mm Compact Precision Planetary Gearhead (36P)
 
-![Actual SigGear 36P 36 mm compact planetary gearbox with complete bottom rim and output shaft](../../assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014-v2.jpg)
+[**Download Datasheet PDF**](../../assets/downloads/36p/36P_Planetary_Gearhead_Datasheet_Rev1.0.pdf){ .md-button .md-button--primary }
+[**Download 2D Drawing PDF**](../../assets/downloads/36p/36P_2D_Drawing.pdf){ .md-button }
+[**Download Full Assembly STEP**](../../assets/downloads/36p/36P_Full_Assembly.step){ .md-button }
 
-[**View 36P Datasheets & CAD Downloads**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#36p-downloads){ .md-button .md-button--primary }
+| Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
+| --- | --- | --- | --- | --- |
+| **36 mm** | **3.66:1–625:1** | **30.6–61.5 mm** | **3922.7–9806.6 mN·m** | **≤ 1.2°** |
 
-## Downloads
+**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/36p/datasheet.md) · [Simplified 4-stage STEP](../../assets/downloads/36p/36P_Public_Simplified_STEP_v1.0_4-Stage.step) · [Mechanical drawing preview](../../engineering-resources/36p/mechanical-interface.md) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
-| File | Status |
-| --- | --- |
-| All 36P downloads | [Open 36P in the download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#36p-downloads) |
-| Online datasheet | [Open 36P datasheet](../../engineering-resources/36p/datasheet.md) |
-| Gearhead Datasheet PDF | [Download 36P PDF](../../assets/downloads/36p/36P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
-| 2D drawing PDF | [Download 36P outline drawing](../../assets/downloads/36p/36P_2D_Drawing.pdf) · SG01PD36 |
-| Full assembly STEP | [Download 36P Full Assembly STEP](../../assets/downloads/36p/36P_Full_Assembly.step) |
-| Dimension preview | [View mechanical interface](../../engineering-resources/36p/mechanical-interface.md) |
-| Simplified STEP | [Download 4-stage reference](../../assets/downloads/36p/36P_Public_Simplified_STEP_v1.0_4-Stage.step) |
+![Actual SigGear 36P 36 mm compact planetary gearhead with complete bottom rim and output shaft](../../assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014-v2.jpg){ width="260" loading="lazy" }
 
-## Product Specifications
 
 ## Product Identity
 
