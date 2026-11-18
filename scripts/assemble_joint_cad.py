@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reassemble user-approved original robot joint STEP assemblies from gzip binary parts.
+"""Reassemble eight user-approved original joint STEP variants from gzip binary parts.
 
 Public release is intentional. The uploaded CAD files are full source assembly
 models and are kept distinct from previously published simplified STEP files.
@@ -56,6 +56,51 @@ RELEASES = {
         'bytes': 16521809,
         'variant': 'original cycloidal joint assembly',
     },
+
+    'CPM-80-25 / No Driver': {
+        'slug': 'cpm80-no-driver',
+        'parts': 28,
+        'part_digits': 4,
+        'source_file': 'CPM-80-25减速电机尺寸图.STEP',
+        'download_file': 'CPM-80-25_Original_Full_Assembly_No_Driver_20261118.step',
+        'compressed_sha256': '7476be90a8b5c3221f8b97577aef08f0e6efc1204c01ca5516b1de670549c7d2',
+        'sha256': '866e22160181ec1296835da335f92288a00e4b60e6226c12347b364ccd58e783',
+        'bytes': 8640280,
+        'variant': 'CPM-80-25 without integrated driver; approx Ø80 x 29.7 mm',
+    },
+    'CPM-80-25 / Integrated Driver': {
+        'slug': 'cpm80-driver',
+        'parts': 42,
+        'part_digits': 4,
+        'source_file': 'CPM-80-25驱动版3D.STEP',
+        'download_file': 'CPM-80-25_Original_Full_Assembly_Integrated_Driver_20261118.step',
+        'compressed_sha256': 'a5b22f2441211cafb71286baa05ea95ad31e6a0f3043bd1efeb0369d57b355c0',
+        'sha256': 'f990ba3abcc04a2206392d12b3fe5e1957592cbab732ef6acb012212007eaf98',
+        'bytes': 12829472,
+        'variant': 'CPM-80-25 with integrated driver; approx Ø80 x 41.2 mm',
+    },
+    'CPM-100-25 / Standard': {
+        'slug': 'cpm100-standard',
+        'parts': 17,
+        'part_digits': 4,
+        'source_file': '【西格·虎】CPM-100-25减速电机(3).STEP',
+        'download_file': 'CPM-100-25_Original_Full_Assembly_No_Driver_20261118.step',
+        'compressed_sha256': 'b22cb38bbe0b1d6b3d4713f4ff0e8f0258a3a18b09d93486b66896ba62a73a88',
+        'sha256': '53deeda1053018086e42d9e10daa26b070c711b47750ba90732fc9d23377be05',
+        'bytes': 5173732,
+        'variant': 'CPM-100-25 standard 29.5 mm axial package; separate from SG2556D',
+    },
+    'CPM-100-25D / Dual Encoder Driver': {
+        'slug': 'cpm100-dual-driver',
+        'parts': 61,
+        'part_digits': 4,
+        'source_file': 'CPM-100-25D双编驱动交流模型.STEP',
+        'download_file': 'CPM-100-25D_Dual_Encoder_Driver_Original_Full_Assembly_20261118.step',
+        'compressed_sha256': 'bdb9b690dcc05585967949efeb339be56e9f022f1f4894212ea50e4c165aac4b',
+        'sha256': 'b6055fa2944efd82ff999b2270bcd41cfe2d07816cbdd7b8eeff200e3fa63d34',
+        'bytes': 19462788,
+        'variant': 'CPM-100-25 dual encoder with driver; 48 mm axial envelope (SG2556D variant reference)',
+    },
 }
 
 
@@ -69,7 +114,7 @@ def sha256_file(path: Path) -> str:
 
 def reconstruct(model: str, spec: dict) -> dict:
     source_dir = PART_ROOT / spec['slug']
-    paths = [source_dir / f'part{i:02d}.bin' for i in range(1, spec['parts'] + 1)]
+    paths = [source_dir / f"part{i:0{spec.get('part_digits', 2)}d}.bin" for i in range(1, spec['parts'] + 1)]
     missing = [x for x in paths if not x.is_file()]
     if missing:
         raise FileNotFoundError(f'{model}: missing {len(missing)} CAD upload parts: {missing[:3]}')
@@ -119,7 +164,7 @@ def main() -> None:
     manifest = OUT / 'original-full-assembly-release-manifest.json'
     manifest.write_text(
         json.dumps({
-            'release': 'SigGear - Four Original Full Assembly Robot Joint STEP Files',
+            'release': 'SigGear - Eight Original Full Assembly Robot Joint STEP Variants',
             'release_date': RELEASE_VERSION,
             'release_type': 'user_authorized_public_release',
             'models': releases,
