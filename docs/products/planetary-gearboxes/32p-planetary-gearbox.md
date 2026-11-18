@@ -1,28 +1,22 @@
 ---
 title: 32 mm Miniature Precision Planetary Gearhead (32P) | SigGear
-description: 32 mm miniature precision planetary gearhead (32P) with published stage data, dimensions, datasheet and CAD access.
+description: SigGear 32P (32 mm) miniature planetary gearhead/gearbox: ratio 3.5:1–509.1:1, rated torque 3432.3–7845.3 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD.
 ---
 
 # 32 mm Miniature Precision Planetary Gearhead (32P)
 
-![SigGear 32P 32 mm miniature planetary gearbox — actual product photo](../../assets/images/products/planetary-gearboxes/32p/32p-real-product-main-verified.webp)
+[**Download Datasheet PDF**](../../assets/downloads/32p/32P_Planetary_Gearhead_Datasheet_Rev1.0.pdf){ .md-button .md-button--primary }
+[**Download 2D Drawing PDF**](../../assets/downloads/32p/32P_2D_Drawing.pdf){ .md-button }
+[**Download Full Assembly STEP**](../../assets/downloads/32p/32P_Full_Assembly.step){ .md-button }
 
-[**View 32P Datasheets & CAD Downloads**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#32p-downloads){ .md-button .md-button--primary }
+| Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
+| --- | --- | --- | --- | --- |
+| **32 mm** | **3.5:1–509.1:1** | **28.05–52.95 mm** | **3432.3–7845.3 mN·m** | **≤ 1.2°** |
 
-## Downloads
+**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/32p/datasheet.md) · [Simplified 4-stage STEP](../../assets/downloads/32p/32P_Public_Simplified_STEP_v1.0_4-Stage.step) · [Mechanical drawing preview](../../engineering-resources/32p/mechanical-interface.md) · [Motor-only datasheets](../../engineering-resources/motors/index.md#32-mm-dc-motors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
-| File | Status |
-| --- | --- |
-| All 32P downloads | [Open 32P in the download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#32p-downloads) |
-| Online datasheet | [Open 32P datasheet](../../engineering-resources/32p/datasheet.md) |
-| Gearhead Datasheet PDF | [Download 32P PDF](../../assets/downloads/32p/32P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
-| Motor Datasheets (Ø32 mm) | [View motor Series 01 / 02 A / 02 B](../../engineering-resources/motors/index.md#32-mm-dc-motors) — motor only; mating compatibility not verified |
-| 2D drawing PDF | [Download 32P outline drawing](../../assets/downloads/32p/32P_2D_Drawing.pdf) · SG01PD32 |
-| Full assembly STEP | [Download 32P Full Assembly STEP](../../assets/downloads/32p/32P_Full_Assembly.step) |
-| Dimension preview | [View mechanical interface](../../engineering-resources/32p/mechanical-interface.md) |
-| Simplified STEP | [Download 4-stage reference](../../assets/downloads/32p/32P_Public_Simplified_STEP_v1.0_4-Stage.step) |
+![SigGear 32P 32 mm miniature planetary gearhead — actual product photo](../../assets/images/products/planetary-gearboxes/32p/32p-real-product-main-verified.webp){ width="260" loading="lazy" }
 
-## Product Specifications
 
 ## Product Identity
 
