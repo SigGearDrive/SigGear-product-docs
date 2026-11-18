@@ -221,7 +221,7 @@ def main() -> None:
     check_sitemap_membership()
     check_robots()
     check_source_hub_links()
-    print("Planetary indexing and crawl readiness validated for 40 unique monitored canonicals.")
+    print("Planetary indexing and crawl readiness validated for 44 unique monitored canonicals.")
 
 if __name__ == "__main__":
     main()
