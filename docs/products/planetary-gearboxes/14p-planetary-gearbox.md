@@ -1,28 +1,22 @@
 ---
 title: 14 mm Micro Precision Planetary Gearhead (14P) | SigGear
-description: 14 mm micro precision planetary gearhead (14P) with published stage data, dimensions, datasheet and CAD access.
+description: SigGear 14P (14 mm) micro planetary gearhead/gearbox: ratio 3.75:1–443.3:1, rated torque 343.2–588.4 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD.
 ---
 
 # 14 mm Micro Precision Planetary Gearhead (14P)
 
-![SigGear 14P 14 mm micro planetary gearbox](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearbox-main.webp)
+[**Download Datasheet PDF**](../../assets/downloads/14p/14P_Planetary_Gearhead_Datasheet_Rev1.0.pdf){ .md-button .md-button--primary }
+[**Download 2D Drawing PDF**](../../assets/downloads/14p/14P_2D_Drawing.pdf){ .md-button }
+[**Download Full Assembly STEP**](../../assets/downloads/14p/14P_Full_Assembly.step){ .md-button }
 
-[**View 14P Datasheets & CAD Downloads**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#14p-downloads){ .md-button .md-button--primary }
+| Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
+| --- | --- | --- | --- | --- |
+| **14 mm** | **3.75:1–443.3:1** | **15.2–26.6 mm** | **343.2–588.4 mN·m** | **≤ 1.5°** |
 
-## Downloads
+**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/14p/datasheet.md) · [Simplified 4-stage STEP](../../assets/downloads/14p/14P_Public_Simplified_STEP_v1.0_4-Stage.step) · [Mechanical drawing preview](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearbox-dimensions.webp) · [Motor-only datasheets](../../engineering-resources/motors/index.md#14-mm-dc-motors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
-| File | Status |
-| --- | --- |
-| All 14P downloads | [Open 14P in the download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#14p-downloads) |
-| Online datasheet | [Open 14P datasheet](../../engineering-resources/14p/datasheet.md) |
-| Gearhead Datasheet PDF | [Download 14P PDF](../../assets/downloads/14p/14P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
-| Motor Datasheets (Ø14 mm) | [Download motor-only PDFs](../../engineering-resources/motors/index.md#14-mm-dc-motors) |
-| 2D drawing PDF | [Download 14P outline drawing](../../assets/downloads/14p/14P_2D_Drawing.pdf) · SG01PD14 |
-| Full assembly STEP | [Download 14P Full Assembly STEP](../../assets/downloads/14p/14P_Full_Assembly.step) |
-| Dimension preview | [View dimension preview](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearbox-dimensions.webp) |
-| Simplified STEP | [Download 4-stage reference](../../assets/downloads/14p/14P_Public_Simplified_STEP_v1.0_4-Stage.step) |
+![SigGear 14P 14 mm micro planetary gearhead](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearbox-main.webp){ width="260" loading="lazy" }
 
-## Product Specifications
 
 ## Product Identity
 
