@@ -134,12 +134,18 @@ nav:
   - 8–42 mm Gearhead Downloads:
       - Product Catalogue: products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md
       - Datasheets & CAD Downloads: engineering-resources/planetary-gearboxes/public-cad-release-v1.md
+      - Micro Gearheads (8–16 mm): products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md
+      - Miniature Gearheads (20–32 mm): products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md
+      - Compact Gearheads (36–42 mm): products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md
       - Motor Datasheets: engineering-resources/motors/index.md
   - Products:
       - Product Overview: products/index.md
       - Micro, Miniature & Compact Planetary Gearheads (8–42 mm):
           - Series Overview: products/planetary-gearboxes/index.md
           - 8-42 mm Series: products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md
+          - Micro (8–16 mm) Quick Downloads: products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md
+          - Miniature (20–32 mm) Quick Downloads: products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md
+          - Compact (36–42 mm) Quick Downloads: products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md
           - 8P (8 mm): products/planetary-gearboxes/8p-planetary-gearbox.md
           - 10P (10 mm): products/planetary-gearboxes/10p-planetary-gearbox.md
           - 12P (12 mm): products/planetary-gearboxes/12p-planetary-gearbox.md
