@@ -124,6 +124,10 @@ async function run(input) {
   assert.match(good.results, /0\.353 N·m/);
   assert.match(good.results, /selector_continuous_nm=0\.20000/);
   assert.match(good.results, /selector_peak_nm=0\.40000/);
+  assert.match(good.results, /12P_Planetary_Gearhead_Datasheet_Rev1\.1\.pdf/);
+  assert.match(good.results, /12P_2D_Drawing\.pdf/);
+  assert.match(good.results, /12P_Full_Assembly\.step/);
+  assert.match(good.results, /More configurations and excluded models/);
   assert.match(good.results, /candidate-design-in-pack/);
   assert.match(good.results, /selector_max_diameter=12/);
   assert.match(good.results, /selector_max_gearbox_length=18/);
