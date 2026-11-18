@@ -1,9 +1,9 @@
 ---
-title: 32 mm Miniature Precision Planetary Gearhead (32P) | SigGear
-description: "SigGear 32P (32 mm) miniature planetary gearhead/gearbox: ratio 3.5:1–509.1:1, rated torque 3432.3–7845.3 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
+title: "32 mm Miniature Planetary Gearhead (32P) | PDF & STEP CAD | SigGear"
+description: "SigGear 32P Ø32 mm miniature planetary gearhead: ratios 3.5:1–509.1:1, rated torque 3432.3–7845.3 mN·m. Direct datasheet PDF, 2D drawing and full STEP CAD."
 ---
 
-# 32 mm Miniature Precision Planetary Gearhead (32P)
+# 32 mm Miniature Planetary Gearhead (32P)
 
 [**Download Datasheet PDF**](../../assets/downloads/32p/32P_Planetary_Gearhead_Datasheet_Rev1.0.pdf){ .md-button .md-button--primary }
 [**Download 2D Drawing PDF**](../../assets/downloads/32p/32P_2D_Drawing.pdf){ .md-button }
