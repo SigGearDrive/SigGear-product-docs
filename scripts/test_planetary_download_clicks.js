@@ -58,40 +58,40 @@ function setPage(path, referrer) {
 const appPath = "/SigGear-product-docs/applications/electric-pruning-shears-planetary-gearbox/";
 const modelPath = "/SigGear-product-docs/products/planetary-gearboxes/20p-planetary-gearbox/";
 setPage(appPath, "");
-let observed = click("../assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf");
+let observed = click("../../assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf");
 let direct = observed.find(x => x.name === "planetary_engineering_file_click");
 assert.equal(direct.params.source_page_type, "application");
 assert.equal(direct.params.source_application, "electric-pruning-shears-planetary-gearbox");
 assert.equal(direct.params.gearhead_model, "20P");
 assert.equal(observed.filter(x => x.name === "application_product_click").length, 0);
 
-observed = click("../products/planetary-gearboxes/20p-planetary-gearbox/");
+observed = click("../../products/planetary-gearboxes/20p-planetary-gearbox/");
 assert.equal(observed.filter(x => x.name === "application_product_click").length, 1);
 assert.equal(observed.find(x => x.name === "application_product_click").params.gearhead_model, "20P");
 assert.equal(observed.find(x => x.name === "application_product_click").params.source_application, "electric-pruning-shears-planetary-gearbox");
 
-observed = click("../engineering-resources/motors/");
+observed = click("../../engineering-resources/motors/");
 assert.equal(observed.filter(x => x.name === "application_resource_click").length, 1);
 assert.equal(observed.find(x => x.name === "application_resource_click").params.resource_type, "motor_datasheets");
 
-observed = click("../custom-engineering/motor-gearbox-integration/");
+observed = click("../../custom-engineering/motor-gearbox-integration/");
 assert.equal(observed.find(x => x.name === "application_resource_click").params.resource_type, "motor_gearhead_assembly");
 
 setPage(modelPath, "https://siggeardrive.github.io" + appPath);
-observed = click("../../assets/downloads/20p/20P_Full_Assembly.step");
+observed = click("../../../assets/downloads/20p/20P_Full_Assembly.step");
 direct = observed.find(x => x.name === "planetary_engineering_file_click");
 assert.equal(direct.params.source_page_type, "product_model");
 assert.equal(direct.params.source_application, "electric-pruning-shears-planetary-gearbox");
 assert.equal(observed.find(x => x.name === "cad_download_click").params.source_application, "electric-pruning-shears-planetary-gearbox");
 
 setPage(modelPath, "https://www.google.com/search?q=20mm+planetary+gearhead");
-observed = click("../../assets/downloads/20p/20P_2D_Drawing.pdf");
+observed = click("../../../assets/downloads/20p/20P_2D_Drawing.pdf");
 direct = observed.find(x => x.name === "planetary_engineering_file_click");
 assert.equal(direct.params.source_page_type, "product_model");
 assert.equal(direct.params.source_application, "not_specified");
 
 setPage("/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/", "");
-observed = click("../../assets/downloads/12p/12P_Planetary_Gearhead_Datasheet_Rev1.1.pdf");
+observed = click("../../../assets/downloads/12p/12P_Planetary_Gearhead_Datasheet_Rev1.1.pdf");
 assert.equal(observed.find(x => x.name === "planetary_engineering_file_click").params.source_page_type, "gearhead_download_hub");
 
 console.log("PASS application -> product -> engineering file journey events without adding cookie tracking");
