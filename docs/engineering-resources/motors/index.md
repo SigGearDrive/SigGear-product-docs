@@ -1,11 +1,14 @@
 ---
-title: SigGear DC Motor Datasheets | Ø8–42 mm
-description: Direct technical datasheet PDF downloads for SigGear micro DC motors, coreless BLDC motors and motor-to-planetary-gearhead integrations.
+title: "SigGear DC & BLDC Motor Datasheets | Ø8–32 mm PDF"
+description: "Direct SigGear Ø8–32 mm DC and BLDC motor datasheet PDFs by diameter and winding family. Separate gearhead CAD and motor + gearhead assembly integration resources."
 ---
 
 # Motor Datasheets — Direct PDF Downloads
 
-Download the **motor-only** engineering files by diameter and winding family. These are separate from the [8–42 mm planetary gearhead datasheets](../planetary-gearboxes/public-cad-release-v1.md). A motor datasheet does **not** describe the performance of a complete motor + gearhead assembly.
+**SigGear supplies DC/BLDC motors, Ø8–42 mm precision planetary gearheads and motor + gearhead assemblies.** Download motor-only PDF datasheets by diameter and winding family below. Motor specifications do not represent complete geared-motor output.
+
+[**Gearhead PDF / 2D / Full STEP**](../planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
+[**Motor + Gearhead Assembly**](../../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
 ## Ø8 mm — DC Micromotors
 
