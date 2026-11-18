@@ -27,6 +27,7 @@ on:
       - "scripts/validate_inquiry_activation_assets.py"
       - "scripts/validate_planetary_input_speed_range.py"
       - "scripts/test_planetary_selector_v2.js"
+      - "scripts/test_planetary_download_clicks.js"
       - "scripts/test_online_inquiry_delivery.js"
       - "scripts/validate_stage_specific_cad_boundary.py"
       - "scripts/validate_controlled_cad_readiness.py"
@@ -166,6 +167,9 @@ jobs:
 
       - name: Validate analytics-events JavaScript syntax
         run: node --check docs/assets/javascripts/analytics-events.js
+
+      - name: Test planetary engineering file click analytics
+        run: node scripts/test_planetary_download_clicks.js
 
       - name: Validate candidate Design-In Pack JavaScript syntax
         run: node --check docs/assets/javascripts/candidate-design-in-pack.js
