@@ -43,7 +43,13 @@ for model in ("8p","10p","12p","14p","16p","20p","22p","24p","28p","32p","36p","
         f"/engineering-resources/{model}/mechanical-interface/",
     ])
 
-TARGETS = PRODUCT_PAGES + GENERIC_PAGES + RESOURCE_PAGES
+CLASS_HUB_PAGES = [
+    "/products/planetary-gearboxes/micro-planetary-gearheads-8-16mm/",
+    "/products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm/",
+    "/products/planetary-gearboxes/compact-planetary-gearheads-36-42mm/",
+]
+
+TARGETS = PRODUCT_PAGES + GENERIC_PAGES + RESOURCE_PAGES + CLASS_HUB_PAGES
 
 def html_path(url_path: str) -> Path:
     return SITE / url_path.strip("/") / "index.html"
@@ -57,7 +63,7 @@ def require(condition: bool, message: str) -> None:
         raise ValueError(message)
 
 def check_target_count() -> None:
-    require(len(TARGETS) == 40, f"Expected 40 unique planetary canonicals, found {len(TARGETS)}")
+    require(len(TARGETS) == 43, f"Expected 43 unique planetary canonicals, found {len(TARGETS)}")
     require(len(set(TARGETS)) == 40, "Planetary canonical target list contains duplicates")
 
 def check_built_pages_and_canonicals() -> None:
@@ -115,6 +121,9 @@ def check_priority_gearhead_hub_metadata() -> None:
     """Prevent priority hubs and OEM application articles from losing SEO titles."""
     priority_sources = [
         "products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md",
+        "products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md",
+        "products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md",
+        "products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md",
         "applications/index.md",
         "applications/electric-pruning-shears-planetary-gearbox.md",
         "applications/electric-curtain-blind-window-opener-gear-motors.md",
@@ -169,6 +178,13 @@ def check_source_hub_links() -> None:
     for target in PRODUCT_PAGES:
         filename = Path(target.strip("/")).name + ".md"
         require(filename in series, f"Series hub does not link product target: {target}")
+
+    for target in CLASS_HUB_PAGES:
+        filename = Path(target.strip("/")).name + ".md"
+        require(filename in series, f"Series hub does not link size-group target: {target}")
+        class_hub = (DOCS / "products/planetary-gearboxes" / filename).read_text(encoding="utf-8")
+        require("Datasheet PDF" in class_hub and "Full assembly STEP" in class_hub,
+                f"Size-group hub is missing direct engineering downloads: {target}")
 
     for target in RESOURCE_PAGES:
         parts = target.strip("/").split("/")
