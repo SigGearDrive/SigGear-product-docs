@@ -1,6 +1,6 @@
 ---
 title: 8 mm Micro Precision Planetary Gearhead (8P) | SigGear
-description: SigGear 8P (8 mm) micro planetary gearhead/gearbox: ratio 3.8:1–731.16:1, rated torque 19.6–39.2 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD.
+description: "SigGear 8P (8 mm) micro planetary gearhead/gearbox: ratio 3.8:1–731.16:1, rated torque 19.6–39.2 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
 ---
 
 # 8 mm Micro Precision Planetary Gearhead (8P)
