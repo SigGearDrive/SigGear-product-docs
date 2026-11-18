@@ -1,6 +1,6 @@
 ---
-title: Electric Pruning Shears Planetary Gearhead | SigGear OEM Guide
-description: "SigGear 8–42 mm planetary gearheads for electric pruning shears. Review cutting torque, 32P/42P options, motor matching, STEP CAD and OEM selection."
+title: "Gearbox for Electric Pruning Shears | Planetary Gearheads | SigGear"
+description: "Selecting a planetary gearbox for electric pruning shears? Compare SigGear 20P, 22P, 32P and 42P gearheads, ratio and torque checks, downloadable CAD and motor matching guidance."
 ---
 
 # Planetary Gearheads for Electric Pruning Shears — OEM Selection
