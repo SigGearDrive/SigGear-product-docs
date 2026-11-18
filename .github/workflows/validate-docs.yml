@@ -7,6 +7,8 @@ on:
       - ".github/motor_pdf_upload_parts/**"
       - "scripts/assemble_motor_pdfs.py"
       - ".github/cad_upload_parts/**"
+      - ".github/joint_cad_upload_parts/**"
+      - "scripts/assemble_joint_cad.py"
       - "scripts/assemble_public_cad.py"
       - "data/**"
       - "mkdocs.yml"
@@ -97,6 +99,9 @@ jobs:
 
       - name: Assemble uploaded full-assembly STEP files
         run: python scripts/assemble_public_cad.py
+
+      - name: Reconstruct four authorized original joint STEP assemblies
+        run: python scripts/assemble_joint_cad.py
 
       - name: Assemble verified motor PDF datasheets
         run: python scripts/assemble_motor_pdfs.py
