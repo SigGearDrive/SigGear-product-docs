@@ -33,7 +33,7 @@
 
 ## 2D Drawings & Full Assembly CAD
 
-All 12 original full assembly STEP files have been assembled, validated and published on GitHub Pages. Direct download links are available in the product pages and [release manifest](docs/assets/downloads/planetary-gearheads-8-42mm-upload-manifest.csv). Original 2D drawing PDFs have been identified; their binary upload and revision verification remain pending.
+All **12 Full Assembly STEP files** and **12 original SG01PD-series 2D Drawing PDFs** are now available for direct download. Find the matching files in the [8P–42P Datasheets & CAD download centre](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/) or each product page. The 2D drawings provide reference interfaces: the dimension **L ±0.3 mm** varies with stage/ratio configuration, so confirm controlled drawings for production.
 
 Existing simplified STEP files are available for preliminary packaging. They must not be confused with the full assembly models.
 
