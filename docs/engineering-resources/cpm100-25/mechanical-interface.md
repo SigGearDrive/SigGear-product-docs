@@ -82,11 +82,15 @@ Before final mechanical design, confirm:
 
 ## CAD and Controlled Drawing
 
-A public simplified STEP model is **not currently released in this repository** for CPM-100-25.
+Original STEP assembly exports are published for **two distinct variants**:
 
-For packaging, tolerance stack-up or production design-in, request the current controlled drawing and configuration-matched CAD file.
+[**Original Full STEP · Standard 29.5 mm**](../../assets/downloads/joint-actuators/CPM-100-25_Original_Full_Assembly_No_Driver_20261118.step){ .md-button .md-button--primary }
 
-[Request Controlled Drawing / CAD](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[**Original Full STEP · Dual Encoder + Driver 48 mm**](../../assets/downloads/joint-actuators/CPM-100-25D_Dual_Encoder_Driver_Original_Full_Assembly_20261118.step){ .md-button }
+
+The 48 mm variant has different mounting geometry and is not the standard 29.5 mm model. **No simplified reference STEP** is released for CPM-100-25; these are original full-assembly STEP files. A matching controlled 2D manufacturing drawing is still required for final tolerances and production.
+
+[Request Controlled Drawing](../../request-cad-sample-quote.md){ .md-button }
 
 ## Related Resource
 
