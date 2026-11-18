@@ -1,6 +1,6 @@
 ---
 title: 14 mm Micro Precision Planetary Gearhead (14P) | SigGear
-description: SigGear 14P (14 mm) micro planetary gearhead/gearbox: ratio 3.75:1–443.3:1, rated torque 343.2–588.4 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD.
+description: "SigGear 14P (14 mm) micro planetary gearhead/gearbox: ratio 3.75:1–443.3:1, rated torque 343.2–588.4 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
 ---
 
 # 14 mm Micro Precision Planetary Gearhead (14P)
