@@ -5,7 +5,9 @@ description: Engineering reference pages for SigGear planetary gearheads and rob
 
 # Engineering Guides
 
-The primary route for standard planetary gearheads is the [8–42 mm Product Catalogue](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md), with model-specific specifications and a [CAD & Drawing Release Library](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md).
+[**Find a Gearhead: Motor RPM → Published Ratio / Rated Torque → PDF / STEP**](planetary-gearhead-quick-selector.md){ .md-button .md-button--primary }
+
+Or use the [8–42 mm model catalogue](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) and [CAD & Drawing Release Library](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md).
 
 For historical compatibility, the [Legacy Ratio & Stage Reference](miniature-planetary-gearbox-selection-guide.md) remains available. It is no longer the primary product-discovery or download route.
 
