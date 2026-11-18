@@ -1,6 +1,6 @@
 ---
 title: 28 mm Miniature Precision Planetary Gearhead (28P) | SigGear
-description: SigGear 28P (28 mm) miniature planetary gearhead/gearbox: ratio 3.83:1–759.7:1, rated torque 1961.3–4903.3 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD.
+description: "SigGear 28P (28 mm) miniature planetary gearhead/gearbox: ratio 3.83:1–759.7:1, rated torque 1961.3–4903.3 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
 ---
 
 # 28 mm Miniature Precision Planetary Gearhead (28P)
