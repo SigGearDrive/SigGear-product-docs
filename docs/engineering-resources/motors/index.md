@@ -79,6 +79,23 @@ The Ø20 mm file is **motor-only** data, not rated performance for the 20P gearh
 
 **Important engineering distinction:** Sheets **02** and **03** both cover motor codes **120090 / 090100**, but show different shaft/flange drawings. For **120090**, Sheet 02 reports **7,850 rpm** rated speed, while Sheet 03 reports **7,890 rpm**. These are preserved as separate source documents and should not be treated as interchangeable without confirming the mechanical configuration and controlled specification. Sheet 06 reports approximately **1.09 mA** no-load current for 360065; this source value also requires verification. These PDFs describe motors only, not combined motor + 22P gearhead output.
 
+## Ø24 mm — BLDC Motor
+
+| Motor model | Type and nominal voltage | PDF Datasheet | Document status |
+| --- | --- | --- | --- |
+| HR-BL2453-Q240150100-12-55 | Three-phase BLDC, 24 VDC | [Download PDF](../../assets/downloads/motors/24mm/SigGear_24mm_BLDC_Motor_HR-BL2453-Q240150100-12-55_Rev1.0.pdf) | Source drawing Rev A/0; published PDF named Rev 1.0 |
+
+The Ø24 mm source specifies 8,000 ±10% rpm rated speed, at least 19.6 mN·m rated torque, and 153.0 mN·m locked-rotor torque. **Locked-rotor torque is not a continuous rating.** The PDF describes the motor only; 24P gearhead mating interface and assembly performance are not independently verified.
+
+## Ø28 mm — DC Motors
+
+| Source drawing | Motor variants | PDF Datasheet | Document status |
+| --- | --- | --- | --- |
+| Sheet A | 060041 · 120097 | [Download Draft V0.9](../../assets/downloads/motors/28mm/SigGear_28mm_DC_Motor_SheetA_060041-120097_DraftV0.9.pdf) | Draft V0.9 |
+| Sheet B | 072120 · 120120 · 240120 | [Download Draft V0.9](../../assets/downloads/motors/28mm/SigGear_28mm_DC_Motor_SheetB_072120-240120_DraftV0.9.pdf) | Draft V0.9 |
+
+These are **different Ø28 mm motor groups** and should not be merged. Sheet A notes that its source performance chart and tabulated points disagree at some conditions. Sheet B lists an unusually high **+155 °C ambient** limit and motor-thermal duty figures that require factory confirmation; its representative curve is not assigned to a specific winding. Treat all figures as source references pending controlled engineering validation, not as a combined 28P gearhead output rating.
+
 **Note:** These PDF downloads are motor-specific engineering references; choose the motor, winding, voltage and gearhead interface together for a complete assembly. Contact SigGear for design-specific compatibility and thermal-duty requirements.
 
 [Back to gearhead CAD & Datasheets](../planetary-gearboxes/public-cad-release-v1.md)
