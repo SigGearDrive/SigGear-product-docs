@@ -1,5 +1,5 @@
 {
-  "release": "SigGear - Four Original Full Assembly Robot Joint STEP Files",
+  "release": "SigGear - Eight Original Full Assembly Robot Joint STEP Variants",
   "release_date": "2026-11-18",
   "release_type": "user_authorized_public_release",
   "models": [
@@ -41,6 +41,46 @@
       "bytes": 16521809,
       "status": "original_full_assembly_public_release",
       "variant": "original cycloidal joint assembly",
+      "revision_label": "2026-11-18"
+    },
+    {
+      "model": "CPM-80-25 / No Driver",
+      "source_filename": "CPM-80-25减速电机尺寸图.STEP",
+      "published_path": "assets/downloads/joint-actuators/CPM-80-25_Original_Full_Assembly_No_Driver_20261118.step",
+      "published_sha256": "866e22160181ec1296835da335f92288a00e4b60e6226c12347b364ccd58e783",
+      "bytes": 8640280,
+      "status": "original_full_assembly_public_release",
+      "variant": "CPM-80-25 without integrated driver; approx Ø80 x 29.7 mm",
+      "revision_label": "2026-11-18"
+    },
+    {
+      "model": "CPM-80-25 / Integrated Driver",
+      "source_filename": "CPM-80-25驱动版3D.STEP",
+      "published_path": "assets/downloads/joint-actuators/CPM-80-25_Original_Full_Assembly_Integrated_Driver_20261118.step",
+      "published_sha256": "f990ba3abcc04a2206392d12b3fe5e1957592cbab732ef6acb012212007eaf98",
+      "bytes": 12829472,
+      "status": "original_full_assembly_public_release",
+      "variant": "CPM-80-25 with integrated driver; approx Ø80 x 41.2 mm",
+      "revision_label": "2026-11-18"
+    },
+    {
+      "model": "CPM-100-25 / Standard",
+      "source_filename": "【西格·虎】CPM-100-25减速电机(3).STEP",
+      "published_path": "assets/downloads/joint-actuators/CPM-100-25_Original_Full_Assembly_No_Driver_20261118.step",
+      "published_sha256": "53deeda1053018086e42d9e10daa26b070c711b47750ba90732fc9d23377be05",
+      "bytes": 5173732,
+      "status": "original_full_assembly_public_release",
+      "variant": "CPM-100-25 standard 29.5 mm axial package; separate from SG2556D",
+      "revision_label": "2026-11-18"
+    },
+    {
+      "model": "CPM-100-25D / Dual Encoder Driver",
+      "source_filename": "CPM-100-25D双编驱动交流模型.STEP",
+      "published_path": "assets/downloads/joint-actuators/CPM-100-25D_Dual_Encoder_Driver_Original_Full_Assembly_20261118.step",
+      "published_sha256": "b6055fa2944efd82ff999b2270bcd41cfe2d07816cbdd7b8eeff200e3fa63d34",
+      "bytes": 19462788,
+      "status": "original_full_assembly_public_release",
+      "variant": "CPM-100-25 dual encoder with driver; 48 mm axial envelope (SG2556D variant reference)",
       "revision_label": "2026-11-18"
     }
   ]
