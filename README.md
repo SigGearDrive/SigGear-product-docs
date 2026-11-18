@@ -27,6 +27,16 @@
 
 ![SigGear 8–42 mm planetary gearhead family — real 36P product](docs/assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014.jpg)
 
+## Six Robot Joint Actuators — Datasheets & CAD
+
+[**Download six joint module reference PDFs and released STEP CAD**](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/robot-joint-actuators/quick-downloads/)
+
+| Planetary actuator models | Cycloidal joint module models |
+| --- | --- |
+| [SG-6010C](https://siggeardrive.github.io/SigGear-product-docs/products/robot-joint-actuators/sg6010c/), [SG-6010D](https://siggeardrive.github.io/SigGear-product-docs/products/robot-joint-actuators/sg6010d/), [SG-8021](https://siggeardrive.github.io/SigGear-product-docs/products/robot-joint-actuators/sg8021/) | [CPM-78-39](https://siggeardrive.github.io/SigGear-product-docs/products/cycloidal-joint-modules/cpm78-39/), [CPM-80-25](https://siggeardrive.github.io/SigGear-product-docs/products/cycloidal-joint-modules/cpm80-25/), [CPM-100-25](https://siggeardrive.github.io/SigGear-product-docs/products/cycloidal-joint-modules/cpm100-25/) |
+
+**CAD release scope:** Public simplified STEP currently available for SG-6010C and CPM-80-25 only; other four models require controlled engineering review. Public reference PDFs are not production drawings.
+
 ## Other Engineering Resources
 
 [Motor-only Datasheets](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/motors/) · [Motor + Gearhead Integration](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/motor-gearbox-integration/) · [Full CAD / 2D / Datasheet download centre](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/)
