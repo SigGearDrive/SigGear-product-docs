@@ -76,6 +76,7 @@ hooks:
 extra_css:
   - assets/stylesheets/inquiry-form.css?v=20261015-online-live
   - assets/stylesheets/planetary-real-photo-grid.css
+  - assets/stylesheets/joint-product-quick.css
   - assets/stylesheets/ratio-stage-selector.css?v=20261118-quick-files
   - assets/stylesheets/candidate-design-in-pack.css
   - assets/stylesheets/sample-validation.css
@@ -243,6 +244,7 @@ nav:
       - Pilot Preparation Review: engineering-center/pilot-preparation-review.md
       - Production Release Review: engineering-center/production-release-review.md
   - Engineering Resources:
+      - 6 Joint Module Datasheets & CAD: engineering-resources/robot-joint-actuators/quick-downloads.md
       - SG-6010C:
           - Technical Datasheet: engineering-resources/sg6010c/datasheet.md
           - Mechanical Interface: engineering-resources/sg6010c/mechanical-interface.md
