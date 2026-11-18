@@ -64,7 +64,7 @@ def require(condition: bool, message: str) -> None:
 
 def check_target_count() -> None:
     require(len(TARGETS) == 43, f"Expected 43 unique planetary canonicals, found {len(TARGETS)}")
-    require(len(set(TARGETS)) == 40, "Planetary canonical target list contains duplicates")
+    require(len(set(TARGETS)) == 43, "Planetary canonical target list contains duplicates")
 
 def check_built_pages_and_canonicals() -> None:
     for target in TARGETS:
