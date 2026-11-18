@@ -1,33 +1,18 @@
 ---
-title: Cycloidal Gearboxes & Robot Joint Reducers | SigGear
-description: Explore SigGear cycloidal gearboxes, reducers and robot joint modules with published torque, speed, dimensions and configuration data.
+title: Cycloidal Joint Modules | CPM-78-39, CPM-80-25, CPM-100-25 | SigGear
+description: Compare three SigGear cycloidal robot joint modules by diameter, rated torque, reduction ratio and driver configuration; download public PDF datasheets and available STEP files.
 ---
 
 # Cycloidal Joint Modules
 
-SigGear cycloidal joint modules combine compact cycloidal transmission with motor, sensing and optional drive electronics for robot-joint applications.
+[**6 Joint Actuator PDF Datasheets & CAD**](../../engineering-resources/robot-joint-actuators/quick-downloads.md){ .md-button .md-button--primary }
 
-## Published Model Range
+| Model | Ø / Thickness | Ratio | Rated / Peak Torque | Rated RPM | Datasheet PDF | CAD |
+| --- | --- | --- | --- | --- | --- | --- |
+| [CPM-78-39](cpm78-39.md) | Ø78.7 / 35.8 mm | 39:1 | 20 / 52 Nm | 48 | [PDF](../../assets/downloads/joint-actuators/CPM-78-39_Public_Reference_Datasheet_Rev0.1.pdf) | Not released |
+| [CPM-80-25](cpm80-25.md) | Ø80 / 29.7 mm, no driver | 25:1 | 10 / 50 Nm | 120 | [PDF](../../assets/downloads/joint-actuators/CPM-80-25_Public_Reference_Datasheet_Rev0.1.pdf) | [STEP (no driver)](../../assets/downloads/cpm80-25/CPM-80-25_Public_Simplified_STEP_v1.0_No_Driver.step) · [STEP (driver)](../../assets/downloads/cpm80-25/CPM-80-25_Public_Simplified_STEP_v1.0_Integrated_Driver.step) |
+| [CPM-100-25](cpm100-25.md) | Ø100 / 29.5 mm | 25:1 | 25 / 75 Nm | 60 | [PDF](../../assets/downloads/joint-actuators/CPM-100-25_Public_Reference_Datasheet_Rev0.1.pdf) | Not released |
 
-| Model | Product type | Rated torque | Peak torque | Driver configuration |
-| --- | --- | ---: | ---: | --- |
-| [CPM-100-25](cpm100-25.md) | High-torque cycloidal joint module | 25 Nm | 75 Nm | Available with or without an integrated driver |
-| [CPM-80-25](cpm80-25.md) | Compact cycloidal joint module | 10 Nm | 50 Nm | Available with or without an integrated driver |
-| [CPM-78-39](cpm78-39.md) | Compact cycloidal joint module | 20 Nm | 52 Nm | Standard catalog configuration uses Hall sensors; no integrated-driver claim |
+**Driver variants:** CPM-80-25 with integrated driver has a reference thickness of **41.2 mm**, not 29.7 mm. CPM-78-39 standard uses Hall sensors without an integrated driver. CPM-100-25 dual-encoder version [SG2556D](../../engineering-resources/cpm100-25/dual-encoder-variant.md) has a different 48 mm axial envelope.
 
-## Configuration Notice
-
-Driver, encoder, communication and closed-loop control descriptions apply only to the selected configuration confirmed in the quotation. CPM-78-39 is treated separately because its standard catalog configuration uses Hall sensors and does not include an integrated driver or absolute encoder.
-
-## Custom Cycloidal Project Review
-
-The published CPM models are reference platforms. If the required torque, speed, installation envelope, interface, motor or control arrangement differs from a published model, SigGear can review the application before deciding whether a cycloidal structure or another transmission approach is more appropriate.
-
-[Custom Cycloidal Transmission Engineering](../../custom-engineering/custom-cycloidal-transmission.md){ .md-button .md-button--primary }
-[Explore Custom Transmission Engineering](../../custom-engineering/index.md){ .md-button }
-
-## Selection Support
-
-For model selection, provide rated torque, peak torque and duration, output speed, voltage, size and weight limits, duty cycle, external loads, driver requirements, communication interface and estimated quantity.
-
-[Contact Wanrong Wang](../../contact.md)
+<small>Only genuine released simplified CAD is linked. Final mounting dimensions, peak load and feedback/driver functions need configuration-specific confirmation. [Planetary joint actuators](../robot-joint-actuators/index.md).</small>
