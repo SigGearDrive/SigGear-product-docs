@@ -333,6 +333,43 @@
       return;
     }
 
+    // Track direct engineering-file clicks (PDF datasheet, 2D drawing and STEP).
+    // Preserve the existing CAD event so historical reporting remains comparable.
+    try {
+      var resourceUrl = new URL(href, window.location.href);
+      var downloadMatch = resourceUrl.pathname.match(
+        /\/SigGear-product-docs\/assets\/downloads\/((?:8|10|12|14|16|20|22|24|28|32|36|42)p)\/([^/]+)$/i
+      );
+      if (resourceUrl.hostname === window.location.hostname && downloadMatch) {
+        var modelName = downloadMatch[1].toUpperCase();
+        var fileName = downloadMatch[2];
+        var kind = "";
+        if (fileName.indexOf(modelName + "_Planetary_Gearhead_Datasheet_") === 0 &&
+            /\.pdf$/i.test(fileName)) {
+          kind = "datasheet_pdf";
+        } else if (fileName === modelName + "_2D_Drawing.pdf") {
+          kind = "outline_2d_pdf";
+        } else if (fileName === modelName + "_Full_Assembly.step") {
+          kind = "full_assembly_step";
+        } else if (fileName === modelName + "_Public_Simplified_STEP_v1.0_4-Stage.step") {
+          kind = "simplified_4_stage_step";
+        }
+        if (kind) {
+          sendEvent("planetary_engineering_file_click", {
+            page_path: pagePath(),
+            file_type: kind,
+            gearhead_model: modelName,
+            file_name: fileName,
+            link_text: label
+          });
+          // The CAD block below still records its established STEP-only event.
+          if (/\.pdf$/i.test(fileName)) return;
+        }
+      }
+    } catch (e) {
+      // Invalid destinations never block a real download.
+    }
+
     // Record user intent to download released CAD without changing navigation
     // or sending analytics before the existing cookie-consent gated tag loads.
     try {
