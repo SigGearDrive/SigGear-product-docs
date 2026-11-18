@@ -1,0 +1,47 @@
+{
+  "release": "SigGear - Four Original Full Assembly Robot Joint STEP Files",
+  "release_date": "2026-11-18",
+  "release_type": "user_authorized_public_release",
+  "models": [
+    {
+      "model": "SG-6010D",
+      "source_filename": "【西格·马】6010D.STEP",
+      "published_path": "assets/downloads/joint-actuators/SG-6010D_Original_Full_Assembly_20261118.step",
+      "published_sha256": "29013caf3e470c43f6a60a875786ed46140604288654b4483b37710dcb1d7dda",
+      "bytes": 11653945,
+      "status": "original_full_assembly_public_release",
+      "variant": "original assembly / variant to be checked against selected installation",
+      "revision_label": "2026-11-18"
+    },
+    {
+      "model": "SG-6010C",
+      "source_filename": "【西格·马】6010C.STEP",
+      "published_path": "assets/downloads/joint-actuators/SG-6010C_Original_Full_Assembly_20261118.step",
+      "published_sha256": "c7feb40848ac3c7469a1fb35567a1ee0fdf65cba752e3f164ea52d9f0491ae2b",
+      "bytes": 22348448,
+      "status": "original_full_assembly_public_release",
+      "variant": "original assembly / separate from legacy public simplified STEP",
+      "revision_label": "2026-11-18"
+    },
+    {
+      "model": "SG-8021",
+      "source_filename": "SG8021（驱动版）装配体3D.STEP",
+      "published_path": "assets/downloads/joint-actuators/SG-8021_Driver_Version_Original_Full_Assembly_20261118.step",
+      "published_sha256": "9591a7f2143d1a0418e39a876cc9d047c21289c3e80cc9c265aad40a1156f95d",
+      "bytes": 19380522,
+      "status": "original_full_assembly_public_release",
+      "variant": "driver-equipped assembly ONLY; not a driverless model",
+      "revision_label": "2026-11-18"
+    },
+    {
+      "model": "CPM-78-39",
+      "source_filename": "78-39装配体.stp",
+      "published_path": "assets/downloads/joint-actuators/CPM-78-39_Original_Full_Assembly_20261118.step",
+      "published_sha256": "4a7791ede4c5b4c1430f75cc86325900bcb6bb65490c6deaf9c41d8149389d3b",
+      "bytes": 16521809,
+      "status": "original_full_assembly_public_release",
+      "variant": "original cycloidal joint assembly",
+      "revision_label": "2026-11-18"
+    }
+  ]
+}
