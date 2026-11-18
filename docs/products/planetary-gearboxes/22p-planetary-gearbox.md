@@ -1,6 +1,6 @@
 ---
 title: 22 mm Miniature Precision Planetary Gearhead (22P) | SigGear
-description: SigGear 22P (22 mm) miniature planetary gearhead/gearbox: ratio 3.5:1–509.1:1, rated torque 784.5–2451.7 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD.
+description: "SigGear 22P (22 mm) miniature planetary gearhead/gearbox: ratio 3.5:1–509.1:1, rated torque 784.5–2451.7 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
 ---
 
 # 22 mm Miniature Precision Planetary Gearhead (22P)
