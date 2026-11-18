@@ -17,7 +17,7 @@ description: 14 mm micro precision planetary gearhead (14P) with published stage
 | Online datasheet | [Open 14P datasheet](../../engineering-resources/14p/datasheet.md) |
 | Gearhead Datasheet PDF | [Download 14P PDF](../../assets/downloads/14p/14P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
 | Motor Datasheets (Ø14 mm) | [Download motor-only PDFs](../../engineering-resources/motors/index.md#14-mm-dc-motors) |
-| 2D drawing PDF | Source identified; public binary upload pending |
+| 2D drawing PDF | [Download 14P outline drawing](../../assets/downloads/14p/14P_2D_Drawing.pdf) · SG01PD14 |
 | Full assembly STEP | [Download 14P Full Assembly STEP](../../assets/downloads/14p/14P_Full_Assembly.step) |
 | Dimension preview | [View dimension preview](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearbox-dimensions.webp) |
 | Simplified STEP | [Download 4-stage reference](../../assets/downloads/14p/14P_Public_Simplified_STEP_v1.0_4-Stage.step) |

@@ -17,7 +17,7 @@ description: 12 mm micro precision planetary gearhead (12P) with published stage
 | Online datasheet | [Open 12P datasheet](../../engineering-resources/12p/datasheet.md) |
 | Gearhead Datasheet PDF | [Download 12P PDF](../../assets/downloads/12p/12P_Planetary_Gearhead_Datasheet_Rev1.1.pdf) |
 | Motor Datasheets (Ø12 mm) | [Download motor-only PDFs](../../engineering-resources/motors/index.md#12-mm-coreless-bldc-motor) |
-| 2D drawing PDF | Source identified; public binary upload pending |
+| 2D drawing PDF | [Download 12P outline drawing](../../assets/downloads/12p/12P_2D_Drawing.pdf) · SG01PD12 |
 | Full assembly STEP | [Download 12P Full Assembly STEP](../../assets/downloads/12p/12P_Full_Assembly.step) |
 | Dimension preview | [View dimension preview](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearbox-dimensions.webp) |
 | Simplified STEP | [Download 4-stage reference](../../assets/downloads/12p/12P_Public_Simplified_STEP_v1.0_4-Stage.step) |
