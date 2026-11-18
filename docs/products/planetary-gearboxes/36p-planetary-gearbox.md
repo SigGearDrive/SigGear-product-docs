@@ -1,6 +1,6 @@
 ---
 title: 36 mm Compact Precision Planetary Gearhead (36P) | SigGear
-description: SigGear 36P (36 mm) compact planetary gearhead/gearbox: ratio 3.66:1–625:1, rated torque 3922.7–9806.6 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD.
+description: "SigGear 36P (36 mm) compact planetary gearhead/gearbox: ratio 3.66:1–625:1, rated torque 3922.7–9806.6 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
 ---
 
 # 36 mm Compact Precision Planetary Gearhead (36P)
