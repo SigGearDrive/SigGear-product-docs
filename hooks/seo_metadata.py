@@ -418,7 +418,7 @@ def _restore_planetary_model_head(output: str, page, config) -> str:
     if title:
         # The source title already carries the SigGear brand on priority pages.
         # Do not append an extra generic documentation suffix in Google snippets.
-        complete_title = title if re.search(r"\\bSigGear\\b", title, re.I) else f"{title} | SigGear"
+        complete_title = title if re.search(r"\bSigGear\b", title, re.I) else f"{title} | SigGear"
         title_tag = f"<title>{html_escape(complete_title, quote=False)}</title>"
         output = re.sub(r"<title>[^<]*</title>", lambda _: title_tag, output, count=1)
 
