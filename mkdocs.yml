@@ -85,7 +85,7 @@ extra_css:
   - assets/stylesheets/production-release.css
 
 extra_javascript:
-  - assets/javascripts/analytics-events.js
+  - assets/javascripts/analytics-events.js?v=20261118-application-journey
   - assets/javascripts/inquiry-form.js?v=20261015-online-live
   - assets/javascripts/ratio-stage-selector.js?v=20261118-quick-files
   - assets/javascripts/candidate-design-in-pack.js

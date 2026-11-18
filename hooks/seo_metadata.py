@@ -107,6 +107,8 @@ def _planetary_model_source_metadata(page) -> dict:
         "products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md",
         "products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md",
         "selection-guides/planetary-gearhead-quick-selector.md",
+        "engineering-resources/planetary-gearboxes/public-cad-release-v1.md",
+        "engineering-resources/motors/index.md",
         # Six standard robot joint actuator landing pages and their download hub.
         "engineering-resources/robot-joint-actuators/quick-downloads.md",
         "products/robot-joint-actuators/index.md",

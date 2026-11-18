@@ -128,6 +128,41 @@
     return "";
   }
 
+  // Keep application attribution limited to public path slugs (no cookies or identifiers).
+  function applicationSlugFromPath(pathname) {
+    var match = (pathname || "").match(
+      /\/SigGear-product-docs\/applications\/([a-z0-9-]+)\/$/i
+    );
+    return match ? match[1].toLowerCase() : "not_specified";
+  }
+
+  function engineeringFileSource() {
+    var path = pagePath();
+    var app = applicationSlugFromPath(path);
+    var sourceType = "other";
+    if (app !== "not_specified") {
+      sourceType = "application";
+    } else if (/\/products\/planetary-gearboxes\/\d{1,2}p-planetary-gearbox\/$/i.test(path)) {
+      sourceType = "product_model";
+    } else if (path.indexOf("/engineering-resources/planetary-gearboxes/public-cad-release-v1/") !== -1) {
+      sourceType = "gearhead_download_hub";
+    }
+
+    // Only attribute a product download to an application when it is the
+    // immediate same-site referrer. Do not invent a multi-page user journey.
+    if (sourceType === "product_model" && document.referrer) {
+      try {
+        var referrer = new URL(document.referrer);
+        if (referrer.hostname === window.location.hostname) {
+          app = applicationSlugFromPath(referrer.pathname);
+        }
+      } catch (e) {
+        // Invalid or private referrers remain unattributed.
+      }
+    }
+    return {source_page_type: sourceType, source_application: app};
+  }
+
   function pagePath() {
     try {
       return new URL(window.location.href).pathname;
@@ -355,12 +390,15 @@
           kind = "simplified_4_stage_step";
         }
         if (kind) {
+          var fileSource = engineeringFileSource();
           sendEvent("planetary_engineering_file_click", {
             page_path: pagePath(),
             file_type: kind,
             gearhead_model: modelName,
             file_name: fileName,
-            link_text: label
+            link_text: label,
+            source_page_type: fileSource.source_page_type,
+            source_application: fileSource.source_application
           });
           // The CAD block below still records its established STEP-only event.
           if (/\.pdf$/i.test(fileName)) return;
@@ -377,8 +415,11 @@
       var cadPath = cadUrl.pathname;
       if (cadUrl.hostname === window.location.hostname && /\.(step|stp)$/i.test(cadPath)) {
         var cadMatch = cadPath.match(/\/(\d{1,2}p)\//i);
+        var cadSource = engineeringFileSource();
         sendEvent("cad_download_click", {
           page_path: pagePath(),
+          source_page_type: cadSource.source_page_type,
+          source_application: cadSource.source_application,
           cad_model: cadMatch ? cadMatch[1].toUpperCase() : "not_specified",
           cad_format: "STEP",
           file_name: cadPath.split("/").pop() || "",
@@ -436,6 +477,48 @@
             link_text: label
           });
           return;
+        }
+
+        // One click from a concise application page into a precise product or
+        // download category is a useful intent signal, not a confirmed lead.
+        var sourceApplication = applicationSlugFromPath(pagePath());
+        if (sourceApplication !== "not_specified") {
+          var linkedModel = internalDestination.pathname.match(
+            /\/SigGear-product-docs\/products\/planetary-gearboxes\/((?:8|10|12|14|16|20|22|24|28|32|36|42)p)-planetary-gearbox\/$/i
+          );
+          if (linkedModel) {
+            sendEvent("application_product_click", {
+              page_path: pagePath(),
+              source_application: sourceApplication,
+              gearhead_model: linkedModel[1].toUpperCase(),
+              destination_path: internalDestination.pathname,
+              link_text: label
+            });
+            return;
+          }
+
+          var resourceType = "";
+          if (internalDestination.pathname.endsWith("/engineering-resources/motors/")) {
+            resourceType = "motor_datasheets";
+          } else if (internalDestination.pathname.endsWith(
+            "/engineering-resources/planetary-gearboxes/public-cad-release-v1/"
+          )) {
+            resourceType = "gearhead_downloads";
+          } else if (internalDestination.pathname.endsWith(
+            "/custom-engineering/motor-gearbox-integration/"
+          )) {
+            resourceType = "motor_gearhead_assembly";
+          }
+          if (resourceType) {
+            sendEvent("application_resource_click", {
+              page_path: pagePath(),
+              source_application: sourceApplication,
+              resource_type: resourceType,
+              destination_path: internalDestination.pathname,
+              link_text: label
+            });
+            return;
+          }
         }
 
         var priorityApplication = priorityApplicationFromPath(internalDestination.pathname);

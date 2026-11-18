@@ -8,6 +8,7 @@ description: Download all 12 SigGear planetary gearhead PDF datasheets, original
 **12 gearhead models. Each row links directly to its Datasheet PDF, original 2D outline drawing and Full Assembly STEP. No inquiry required.**
 
 [**Quick Ratio & Torque Selector**](../../selection-guides/planetary-gearhead-quick-selector.md){ .md-button }
+[**Motor + Gearhead Assemblies**](../../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
 **Choose by diameter:** [Micro 8–16 mm](../../products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md) · [Miniature 20–32 mm](../../products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md) · [Compact 36–42 mm](../../products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md) · [Motor-only PDFs](../motors/index.md)
 

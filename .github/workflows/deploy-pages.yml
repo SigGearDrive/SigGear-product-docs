@@ -61,6 +61,9 @@ jobs:
       - name: Build documentation
         run: mkdocs build --strict
 
+      - name: Preflight published planetary and motor files
+        run: python scripts/validate_planetary_download_assets.py
+
       - name: Validate planetary indexing and crawl readiness
         run: python scripts/validate_planetary_indexing_readiness.py
 

@@ -126,6 +126,8 @@ def check_priority_gearhead_hub_metadata() -> None:
         "products/planetary-gearboxes/index.md",
         "products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md",
         "selection-guides/planetary-gearhead-quick-selector.md",
+        "engineering-resources/planetary-gearboxes/public-cad-release-v1.md",
+        "engineering-resources/motors/index.md",
         "products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md",
         "products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md",
         "products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md",
@@ -219,7 +221,7 @@ def main() -> None:
     check_sitemap_membership()
     check_robots()
     check_source_hub_links()
-    print("Planetary indexing and crawl readiness validated for 40 unique monitored canonicals.")
+    print("Planetary indexing and crawl readiness validated for 44 unique monitored canonicals.")
 
 if __name__ == "__main__":
     main()
