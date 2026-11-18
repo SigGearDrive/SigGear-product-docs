@@ -1,6 +1,6 @@
 ---
 title: 16 mm Micro Precision Planetary Gearhead (16P) | SigGear
-description: SigGear 16P (16 mm) micro planetary gearhead/gearbox: ratio 3.85:1–459.5:1, rated torque 392.3–882.6 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD.
+description: "SigGear 16P (16 mm) micro planetary gearhead/gearbox: ratio 3.85:1–459.5:1, rated torque 392.3–882.6 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
 ---
 
 # 16 mm Micro Precision Planetary Gearhead (16P)
