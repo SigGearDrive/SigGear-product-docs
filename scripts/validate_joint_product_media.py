@@ -108,6 +108,17 @@ def main() -> None:
         print("PASS",model,"PDF",pdf.stat().st_size,"images",len(paths),"STEP",len(expected))
     if media_errors:
         raise ValueError("Invalid product image assets:\n" + "\n".join(media_errors))
+    # Every public original STEP must be discoverable from the Engineering Center.
+    center=(DOCS / "engineering-center/index.md").read_text(encoding="utf-8")
+    for model,(filename,_,_) in ORIGINAL_STEPS.items():
+        if filename not in center:
+            raise ValueError(f"Engineering Center missing direct full STEP for {model}")
+    if "Full STEP — Driver Version" not in center:
+        raise ValueError("Engineering Center must label the SG-8021 driver version")
+    if "robot-joint-actuators/quick-downloads.md" not in center:
+        raise ValueError("Engineering Center missing six-joint quick-download hub")
+    print("PASS Engineering Center links all four actual full assembly STEP downloads")
+
     print("PASS six joint PDF and image integrity checks, including four verified original full-assembly STEP files")
 
 if __name__ == "__main__":
