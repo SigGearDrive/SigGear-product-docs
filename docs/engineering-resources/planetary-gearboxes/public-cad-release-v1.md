@@ -1,11 +1,11 @@
 ---
 title: 8–42 mm Planetary Gearhead Datasheets & CAD Downloads | SigGear
-description: Direct access to SigGear 8–42 mm planetary gearhead model data, datasheets, 2D drawing release status and STEP CAD.
+description: Download all 12 SigGear planetary gearhead PDF datasheets, original 2D outline drawings and full assembly STEP CAD (8P–42P), with model-specific specifications.
 ---
 
 # 8–42 mm Planetary Gearhead Downloads
 
-Choose a model to open its published specifications and download its full assembly STEP file. Separate **motor-only** PDFs: [Motor Datasheets](../motors/index.md).
+Download **12 model-specific planetary gearhead datasheet PDFs**, **12 original SG01PD-series 2D mechanical outline drawings** and **12 full-assembly STEP CAD files** for SigGear's 8–42 mm precision planetary gearhead family. Every model has its own online stage, ratio, torque and dimensions reference. Select the corresponding row below; the separate simplified STEP is a **4-stage reference** and not the full assembly. Separate **motor-only** PDFs: [Motor Datasheets](../motors/index.md).
 
 **Jump to model:** [8P](#8p-downloads) · [10P](#10p-downloads) · [12P](#12p-downloads) · [14P](#14p-downloads) · [16P](#16p-downloads) · [20P](#20p-downloads) · [22P](#22p-downloads) · [24P](#24p-downloads) · [28P](#28p-downloads) · [32P](#32p-downloads) · [36P](#36p-downloads) · [42P](#42p-downloads)
 
