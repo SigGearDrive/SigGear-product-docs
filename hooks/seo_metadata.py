@@ -101,6 +101,9 @@ def _planetary_model_source_metadata(page) -> dict:
     product = _product_by_src.get(src)
     priority_hubs = {
         "products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md",
+        "products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md",
+        "products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md",
+        "products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md",
         "applications/index.md",
         "applications/electric-pruning-shears-planetary-gearbox.md",
         "applications/electric-curtain-blind-window-opener-gear-motors.md",
