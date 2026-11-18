@@ -2,7 +2,7 @@
 
 **12 models · Micro / Miniature / Compact · PDF datasheets · 2D drawings · Full STEP CAD**
 
-[**Download all model files**](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/) · [**Compare 12 models**](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/) · [**Ratio and stage selector**](https://siggeardrive.github.io/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/)
+[**Download all model files**](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/) · [**Compare 12 models**](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/) · [**Quick Ratio / Torque Selector + Downloads**](https://siggeardrive.github.io/SigGear-product-docs/selection-guides/planetary-gearhead-quick-selector/)
 
 **Select by size:** [Micro 8–16 mm](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/micro-planetary-gearheads-8-16mm/) · [Miniature 20–32 mm](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm/) · [Compact 36–42 mm](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/compact-planetary-gearheads-36-42mm/)
 
