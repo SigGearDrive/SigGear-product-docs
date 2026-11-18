@@ -99,7 +99,8 @@ def check_model_specific_search_metadata() -> None:
         require(bool(title) and bool(description), f"Missing SEO title or description: {target}")
 
         html = html_path(target).read_text(encoding="utf-8")
-        expected_title = f"<title>{html_escape(title, quote=False)} - SigGear Product Documentation</title>"
+        full_title = title if re.search(r"\bSigGear\b", title, re.I) else f"{title} | SigGear"
+        expected_title = f"<title>{html_escape(full_title, quote=False)}</title>"
         expected_description = (
             f'<meta name="description" content="{html_escape(description, quote=True)}">'
         )
@@ -145,7 +146,8 @@ def check_priority_gearhead_hub_metadata() -> None:
         else:
             built_path = SITE / source_rel.removesuffix(".md") / "index.html"
         built = built_path.read_text(encoding="utf-8")
-        expected_title = f"<title>{html_escape(title, quote=False)} - SigGear Product Documentation</title>"
+        full_title = title if re.search(r"\bSigGear\b", title, re.I) else f"{title} | SigGear"
+        expected_title = f"<title>{html_escape(full_title, quote=False)}</title>"
         expected_description = f'<meta name="description" content="{html_escape(description, quote=True)}">'
         require(expected_title in built, f"Priority page title lost to nav label: {source_rel}")
         require(expected_description in built, f"Priority page description lost: {source_rel}")

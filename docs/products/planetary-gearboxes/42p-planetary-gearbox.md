@@ -1,9 +1,9 @@
 ---
-title: 42 mm Compact Precision Planetary Gearhead (42P) | SigGear
-description: "SigGear 42P (42 mm) compact planetary gearhead/gearbox: ratio 3.8:1–660.7:1, rated torque 7845.3–14710.0 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
+title: "42 mm Compact Planetary Gearhead (42P) | PDF & STEP CAD | SigGear"
+description: "SigGear 42P Ø42 mm compact planetary gearhead: ratios 3.8:1–660.7:1, rated torque 7845.3–14710.0 mN·m. Direct datasheet PDF, 2D drawing and full STEP CAD."
 ---
 
-# 42 mm Compact Precision Planetary Gearhead (42P)
+# 42 mm Compact Planetary Gearhead (42P)
 
 [**Download Datasheet PDF**](../../assets/downloads/42p/42P_Planetary_Gearhead_Datasheet_Rev1.0.pdf){ .md-button .md-button--primary }
 [**Download 2D Drawing PDF**](../../assets/downloads/42p/42P_2D_Drawing.pdf){ .md-button }
