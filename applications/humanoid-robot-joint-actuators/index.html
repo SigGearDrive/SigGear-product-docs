@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Engineering guide for humanoid and bipedal robot joint actuators and actuator gearboxes, covering torque, speed, duty cycle, size, transmission type and custom joint development.">
+        <meta name="description" content="SigGear supplies DC/BLDC motors, planetary gearheads and motor + gearhead assemblies for humanoid robot joints and compact robotic axes. Compare real models, PDF datasheets, 2D and STEP.">
       
       
       
@@ -27,7 +27,7 @@
     
     
       
-        <title>Humanoid Robot Joint Actuators & Gearboxes | Bipedal Robot Engineering | SigGear - SigGear Product Documentation</title>
+        <title>Humanoid Robot Joint Actuators &amp; Gearheads | SigGear</title>
       
     
     
@@ -84,7 +84,7 @@
 
     
     
-  <script type="application/ld+json" data-siggear-seo-schema="breadcrumb">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SigGear","item":"https://siggeardrive.github.io/SigGear-product-docs/"},{"@type":"ListItem","position":2,"name":"Applications","item":"https://siggeardrive.github.io/SigGear-product-docs/applications/"},{"@type":"ListItem","position":3,"name":"Humanoid Robot Joint Actuators & Gearboxes","item":"https://siggeardrive.github.io/SigGear-product-docs/applications/humanoid-robot-joint-actuators/"}]}</script>
+  <script type="application/ld+json" data-siggear-seo-schema="breadcrumb">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SigGear","item":"https://siggeardrive.github.io/SigGear-product-docs/"},{"@type":"ListItem","position":2,"name":"Applications","item":"https://siggeardrive.github.io/SigGear-product-docs/applications/"},{"@type":"ListItem","position":3,"name":"Humanoid Robot Joint Actuators & Gearheads","item":"https://siggeardrive.github.io/SigGear-product-docs/applications/humanoid-robot-joint-actuators/"}]}</script>
 </head>
   
   
@@ -97,7 +97,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#humanoid-robot-joint-actuator-selection-guide" class="md-skip">
+        <a href="#humanoid-robot-joint-actuators-gearheads" class="md-skip">
           Skip to content
         </a>
       
@@ -133,7 +133,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Humanoid Robot Joint Actuators & Gearboxes | Bipedal Robot Engineering | SigGear
+              Humanoid Robot Joint Actuators & Gearheads | SigGear
             
           </span>
         </div>
@@ -2762,264 +2762,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#application-overview" class="md-nav__link">
+  <a href="#relevant-gearhead-models-direct-downloads" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Application Overview
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#when-a-standard-robot-actuator-gearbox-does-not-fit" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        When a Standard Robot Actuator Gearbox Does Not Fit
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-to-select-a-humanoid-robot-joint-actuator" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        How to Select a Humanoid Robot Joint Actuator
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-a-humanoid-joint-actuator-must-define" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        What a Humanoid Joint Actuator Must Define
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#joint-positions-and-typical-review-focus" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Joint Positions and Typical Review Focus
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Joint Positions and Typical Review Focus">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#shoulder-joint" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Shoulder Joint
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#elbow-joint" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Elbow Joint
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#wrist-joint" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Wrist Joint
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#hip-joint" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Hip Joint
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#knee-joint" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Knee Joint
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ankle-joint" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Ankle Joint
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#published-siggear-reference-platforms" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Published SigGear Reference Platforms
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#public-engineering-resources" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Public Engineering Resources
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Public Engineering Resources">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#sg-6010c" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        SG-6010C
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#cpm-80-25" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        CPM-80-25
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#integrated-actuator-or-separate-gearbox-and-motor" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Integrated Actuator or Separate Gearbox and Motor
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#planetary-or-cycloidal-drive-for-humanoid-robots" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Planetary or Cycloidal Drive for Humanoid Robots
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#control-encoder-and-communication-review" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Control, Encoder and Communication Review
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#torque-speed-and-thermal-selection" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Torque, Speed and Thermal Selection
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#prototype-and-customization-support" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Prototype and Customization Support
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#from-prototype-to-design-in" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        From Prototype to Design-In
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#information-needed-for-a-humanoid-joint-selection-review" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Information Needed for a Humanoid Joint Selection Review
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#request-a-joint-selection-review" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Request a Joint Selection Review
+        Relevant Gearhead Models &amp; Direct Downloads
       
     </span>
   </a>
@@ -7510,264 +7256,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#application-overview" class="md-nav__link">
+  <a href="#relevant-gearhead-models-direct-downloads" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Application Overview
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#when-a-standard-robot-actuator-gearbox-does-not-fit" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        When a Standard Robot Actuator Gearbox Does Not Fit
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-to-select-a-humanoid-robot-joint-actuator" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        How to Select a Humanoid Robot Joint Actuator
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-a-humanoid-joint-actuator-must-define" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        What a Humanoid Joint Actuator Must Define
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#joint-positions-and-typical-review-focus" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Joint Positions and Typical Review Focus
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Joint Positions and Typical Review Focus">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#shoulder-joint" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Shoulder Joint
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#elbow-joint" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Elbow Joint
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#wrist-joint" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Wrist Joint
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#hip-joint" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Hip Joint
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#knee-joint" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Knee Joint
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ankle-joint" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Ankle Joint
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#published-siggear-reference-platforms" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Published SigGear Reference Platforms
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#public-engineering-resources" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Public Engineering Resources
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Public Engineering Resources">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#sg-6010c" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        SG-6010C
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#cpm-80-25" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        CPM-80-25
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#integrated-actuator-or-separate-gearbox-and-motor" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Integrated Actuator or Separate Gearbox and Motor
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#planetary-or-cycloidal-drive-for-humanoid-robots" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Planetary or Cycloidal Drive for Humanoid Robots
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#control-encoder-and-communication-review" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Control, Encoder and Communication Review
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#torque-speed-and-thermal-selection" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Torque, Speed and Thermal Selection
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#prototype-and-customization-support" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Prototype and Customization Support
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#from-prototype-to-design-in" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        From Prototype to Design-In
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#information-needed-for-a-humanoid-joint-selection-review" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Information Needed for a Humanoid Joint Selection Review
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#request-a-joint-selection-review" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Request a Joint Selection Review
+        Relevant Gearhead Models &amp; Direct Downloads
       
     </span>
   </a>
@@ -7794,257 +7286,47 @@
   
 
 
-<h1 id="humanoid-robot-joint-actuator-selection-guide">Humanoid Robot Joint Actuator Selection Guide<a class="headerlink" href="#humanoid-robot-joint-actuator-selection-guide" title="Permanent link">&para;</a></h1>
-<p>Selecting a humanoid robot joint actuator requires matching torque, speed, gearbox architecture, installation size, weight, duty cycle and control requirements for each axis. Shoulder, elbow, wrist, hip, knee, ankle, neck and waist joints should not be sized from peak torque alone.</p>
-<p><a class="md-button md-button--primary" href="../../custom-engineering/robot-joint-actuator-development/">Custom Robot Joint Development</a>
-<a class="md-button" href="../../selection-guides/robot-joint-actuator-selection-guide/">Robot Joint Actuator Selection Guide</a>
-<a class="md-button" href="../../products/robot-joint-actuators/">View Joint Actuator Products</a>
-<a class="md-button" href="../../request-cad-sample-quote/">Request CAD, Sample and Quote</a></p>
-<p><strong>Need a smaller standalone transmission for a robotic hand, gripper or auxiliary mechanism?</strong> SigGear also publishes <a href="../../products/planetary-gearboxes/8-42mm-planetary-gear-reducer/">8–42 mm micro, miniature and compact planetary gearboxes</a> with <a href="../../engineering-resources/planetary-gearboxes/public-cad-release-v1/">model-specific datasheets and simplified STEP CAD</a>. Review the motor interface, stage, ratio and operating load for the mechanism; a small gearbox must not be assumed to meet a primary humanoid joint's structural or torque requirements.</p>
-<h2 id="application-overview">Application Overview<a class="headerlink" href="#application-overview" title="Permanent link">&para;</a></h2>
-<p>Humanoid and bipedal robots require compact joint actuators for the shoulder, elbow, wrist, hip, knee, ankle, neck and waist axes. Each joint has a different torque-speed cycle, external-load condition, installation envelope, thermal limit and control requirement. A humanoid robot joint actuator should therefore be selected from the complete operating profile, not from peak torque alone.</p>
-<p>For a bipedal robot joint actuator, each hip, knee, ankle, shoulder, elbow and wrist axis should be evaluated separately because its torque-speed cycle, packaging, external loads and duty cycle can be different.</p>
-<p>SigGear supports humanoid robot development with integrated robot joint actuator options, planetary joint actuators, cycloidal joint modules and compact planetary gearbox solutions. Depending on the selected configuration, a joint drive may combine a motor, reducer, encoder and driver, or it may be supplied as a reducer or gearbox for customer-side motor integration.</p>
-<p>This page is intended for early-stage model selection, supplier comparison and engineering communication. Final actuator selection, quotation and technical agreement still require review against the controlled drawing, selected ratio, duty cycle, mounting interface and ordered configuration.</p>
-<h2 id="when-a-standard-robot-actuator-gearbox-does-not-fit">When a Standard Robot Actuator Gearbox Does Not Fit<a class="headerlink" href="#when-a-standard-robot-actuator-gearbox-does-not-fit" title="Permanent link">&para;</a></h2>
-<p>A humanoid or bipedal robot project may need a different torque-speed balance, motor, reduction ratio, diameter, axial thickness, output interface, encoder, driver or communication arrangement than an existing catalog actuator.</p>
-<p>In that case, the starting point should be the joint requirement rather than a forced model selection. Send the joint position, mechanism, available space, target motion and the motor or controller information already defined.</p>
-<p><a class="md-button md-button--primary" href="../../custom-engineering/robot-joint-actuator-development/">Custom Robot Joint &amp; Compact Actuator Development</a></p>
-<h2 id="how-to-select-a-humanoid-robot-joint-actuator">How to Select a Humanoid Robot Joint Actuator<a class="headerlink" href="#how-to-select-a-humanoid-robot-joint-actuator" title="Permanent link">&para;</a></h2>
-<p>A practical early-stage selection process should cover the following steps:</p>
-<ol>
-<li><strong>Define the joint position and motion cycle</strong> — Separate shoulder, elbow, wrist, hip, knee and ankle requirements instead of applying one actuator specification to every axis.</li>
-<li><strong>Calculate continuous and peak torque</strong> — Include gravity, acceleration, external forces, mechanism losses and the duration and frequency of peak events.</li>
-<li><strong>Match output speed and power</strong> — Check torque and speed at the same operating point and confirm the available voltage and controller current limits.</li>
-<li><strong>Set the installation envelope</strong> — Define maximum diameter, axial thickness, length, weight, cable space, bearing arrangement and output interface.</li>
-<li><strong>Choose the transmission architecture</strong> — Compare planetary and cycloidal options, or an integrated actuator versus a separate motor and gearbox.</li>
-<li><strong>Confirm control and thermal conditions</strong> — Review encoder, driver, communication, duty cycle, cooling, brake and power-off behavior.</li>
-<li><strong>Validate with a prototype</strong> — Test the actuator in a representative mechanism with realistic loads, motion cycles and temperature monitoring.</li>
-</ol>
-<p>For torque formulas, sizing steps and a complete engineering checklist, use the <a href="../../selection-guides/robot-joint-actuator-selection-guide/">Robot Joint Actuator Selection Guide</a>.</p>
-<h2 id="what-a-humanoid-joint-actuator-must-define">What a Humanoid Joint Actuator Must Define<a class="headerlink" href="#what-a-humanoid-joint-actuator-must-define" title="Permanent link">&para;</a></h2>
-<p>A humanoid joint is not defined only by rated torque. The following parameters should be reviewed together:</p>
+<h1 id="humanoid-robot-joint-actuators-gearheads">Humanoid Robot Joint Actuators &amp; Gearheads<a class="headerlink" href="#humanoid-robot-joint-actuators-gearheads" title="Permanent link">&para;</a></h1>
+<p><strong>SigGear is an OEM supplier of DC/BLDC motors, precision planetary gearheads (Ø8–42 mm), and motor + gearhead assemblies.</strong></p>
+<p><a class="md-button" href="../../engineering-resources/motors/"><strong>Motors · Datasheets</strong></a>
+<a class="md-button md-button--primary" href="../../engineering-resources/planetary-gearboxes/public-cad-release-v1/"><strong>Gearheads · PDF / 2D / STEP</strong></a>
+<a class="md-button" href="../../custom-engineering/motor-gearbox-integration/"><strong>Motor + Gearhead Assemblies</strong></a></p>
+<p><strong>Application:</strong> Humanoid joint design depends on peak and continuous torque, inertia and control. SigGear's planetary gearheads can be evaluated for compact auxiliary axes; larger integrated joints use separate actuator products.</p>
+<p><strong>Engineering checks:</strong> joint duty-cycle torque and speed; backdrivability, encoder and brake; gearhead bearing loads and thermal margin.</p>
+<h2 id="relevant-gearhead-models-direct-downloads">Relevant Gearhead Models &amp; Direct Downloads<a class="headerlink" href="#relevant-gearhead-models-direct-downloads" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Requirement</th>
-<th>Why it matters</th>
+<th>Size / model</th>
+<th>Datasheet PDF</th>
+<th>2D drawing</th>
+<th>Full STEP</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Continuous torque</td>
-<td>Determines whether the joint can sustain walking, lifting, balancing or holding conditions without overheating.</td>
+<td><a href="../../products/planetary-gearboxes/20p-planetary-gearbox/">20P · Ø20 mm</a></td>
+<td><a href="../../assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf">PDF</a></td>
+<td><a href="../../assets/downloads/20p/20P_2D_Drawing.pdf">2D</a></td>
+<td><a href="../../assets/downloads/20p/20P_Full_Assembly.step">STEP</a></td>
 </tr>
 <tr>
-<td>Peak torque and peak duration</td>
-<td>Important for acceleration, recovery motion, impact events and short overload conditions.</td>
+<td><a href="../../products/planetary-gearboxes/32p-planetary-gearbox/">32P · Ø32 mm</a></td>
+<td><a href="../../assets/downloads/32p/32P_Planetary_Gearhead_Datasheet_Rev1.0.pdf">PDF</a></td>
+<td><a href="../../assets/downloads/32p/32P_2D_Drawing.pdf">2D</a></td>
+<td><a href="../../assets/downloads/32p/32P_Full_Assembly.step">STEP</a></td>
 </tr>
 <tr>
-<td>Output speed</td>
-<td>Must match the robot motion profile and motor operating range.</td>
-</tr>
-<tr>
-<td>Outer diameter and axial thickness</td>
-<td>Controls whether the actuator fits inside the limb, torso or joint shell.</td>
-</tr>
-<tr>
-<td>Weight</td>
-<td>Affects leg swing inertia, arm payload, power consumption and whole-body balance.</td>
-</tr>
-<tr>
-<td>Backlash and positioning requirement</td>
-<td>Influences stability, repeatability, force control and motion smoothness.</td>
-</tr>
-<tr>
-<td>Radial, axial and overturning loads</td>
-<td>Affect the bearing, housing and output-interface design.</td>
-</tr>
-<tr>
-<td>Duty cycle and cooling</td>
-<td>Determine whether torque values are usable continuously or only for short periods.</td>
-</tr>
-<tr>
-<td>Encoder, driver and communication interface</td>
-<td>Affect closed-loop control, wiring, protocol integration and software development.</td>
+<td><a href="../../products/planetary-gearboxes/42p-planetary-gearbox/">42P · Ø42 mm</a></td>
+<td><a href="../../assets/downloads/42p/42P_Planetary_Gearhead_Datasheet_Rev1.0.pdf">PDF</a></td>
+<td><a href="../../assets/downloads/42p/42P_2D_Drawing.pdf">2D</a></td>
+<td><a href="../../assets/downloads/42p/42P_Full_Assembly.step">STEP</a></td>
 </tr>
 </tbody>
 </table>
-<h2 id="joint-positions-and-typical-review-focus">Joint Positions and Typical Review Focus<a class="headerlink" href="#joint-positions-and-typical-review-focus" title="Permanent link">&para;</a></h2>
-<h3 id="shoulder-joint">Shoulder Joint<a class="headerlink" href="#shoulder-joint" title="Permanent link">&para;</a></h3>
-<p>The shoulder may include pitch, roll and yaw axes. It often requires compact packaging, sufficient peak torque for arm acceleration and careful cable routing through the upper body. External loads from the arm, gripper and carried object should be considered.</p>
-<h3 id="elbow-joint">Elbow Joint<a class="headerlink" href="#elbow-joint" title="Permanent link">&para;</a></h3>
-<p>The elbow usually needs a balance between torque, speed and compact axial length. For prototype humanoid arms, an integrated actuator can reduce assembly work, but the final selection should still confirm continuous holding torque, backlash and thermal conditions.</p>
-<h3 id="wrist-joint">Wrist Joint<a class="headerlink" href="#wrist-joint" title="Permanent link">&para;</a></h3>
-<p>The wrist is sensitive to size and weight. Lower inertia and compact output interfaces are usually important. Small planetary gearboxes or compact joint actuators may be considered when the required torque is lower than the shoulder or elbow.</p>
-<h3 id="hip-joint">Hip Joint<a class="headerlink" href="#hip-joint" title="Permanent link">&para;</a></h3>
-<p>The hip is one of the highest-load areas in a humanoid robot. It may require higher continuous torque, high peak torque and strong structural support. Overturning moment, radial load, shock load and housing stiffness are especially important.</p>
-<h3 id="knee-joint">Knee Joint<a class="headerlink" href="#knee-joint" title="Permanent link">&para;</a></h3>
-<p>The knee joint is strongly affected by walking, squatting, standing-up and impact recovery cycles. Continuous torque, peak duration, braking strategy, thermal behavior and mechanical safety margin should be reviewed carefully.</p>
-<h3 id="ankle-joint">Ankle Joint<a class="headerlink" href="#ankle-joint" title="Permanent link">&para;</a></h3>
-<p>The ankle often combines torque, shock load and packaging difficulty. It can be sensitive to backlash, compliance, sealing, cable routing and impact load. Prototype testing is usually important before locking the actuator model.</p>
-<h2 id="published-siggear-reference-platforms">Published SigGear Reference Platforms<a class="headerlink" href="#published-siggear-reference-platforms" title="Permanent link">&para;</a></h2>
-<p>The following published SigGear models can be considered as starting points for humanoid robot joint evaluation. Final selection depends on the exact joint position, torque-speed cycle, duty cycle, external loads, size limits and control architecture.</p>
-<table>
-<thead>
-<tr>
-<th>Model</th>
-<th>Transmission</th>
-<th style="text-align: right;">Rated torque</th>
-<th style="text-align: right;">Peak torque</th>
-<th style="text-align: right;">Rated output speed</th>
-<th>Configuration note</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="../../products/robot-joint-actuators/sg6010c/">SG-6010C</a></td>
-<td>Planetary</td>
-<td style="text-align: right;">6 Nm</td>
-<td style="text-align: right;">18 Nm</td>
-<td style="text-align: right;">310 rpm</td>
-<td>Driver options depend on selected configuration.</td>
-</tr>
-<tr>
-<td><a href="../../products/robot-joint-actuators/sg6010d/">SG-6010D</a></td>
-<td>Planetary</td>
-<td style="text-align: right;">16 Nm</td>
-<td style="text-align: right;">50 Nm</td>
-<td style="text-align: right;">100 rpm</td>
-<td>Available with or without integrated driver.</td>
-</tr>
-<tr>
-<td><a href="../../products/robot-joint-actuators/sg8021/">SG-8021</a></td>
-<td>Planetary</td>
-<td style="text-align: right;">10 Nm</td>
-<td style="text-align: right;">30 Nm</td>
-<td style="text-align: right;">160 rpm</td>
-<td>Driver options depend on selected configuration.</td>
-</tr>
-<tr>
-<td><a href="../../products/cycloidal-joint-modules/cpm100-25/">CPM-100-25</a></td>
-<td>Cycloidal pinwheel</td>
-<td style="text-align: right;">25 Nm</td>
-<td style="text-align: right;">75 Nm</td>
-<td style="text-align: right;">60 rpm</td>
-<td>Available with or without integrated driver.</td>
-</tr>
-<tr>
-<td><a href="../../products/cycloidal-joint-modules/cpm80-25/">CPM-80-25</a></td>
-<td>Cycloidal pinwheel</td>
-<td style="text-align: right;">10 Nm</td>
-<td style="text-align: right;">50 Nm</td>
-<td style="text-align: right;">120 rpm</td>
-<td>Available with or without integrated driver.</td>
-</tr>
-<tr>
-<td><a href="../../products/cycloidal-joint-modules/cpm78-39/">CPM-78-39</a></td>
-<td>Cycloidal pinwheel</td>
-<td style="text-align: right;">20 Nm</td>
-<td style="text-align: right;">52 Nm</td>
-<td style="text-align: right;">48 rpm</td>
-<td>Standard catalog configuration uses Hall sensors and no integrated driver.</td>
-</tr>
-</tbody>
-</table>
-<p>For smaller auxiliary joints, sensor mechanisms, hands, compact wrists or lightweight adjustment axes, SigGear can also evaluate <a href="../../products/planetary-gearboxes/8-42mm-planetary-gear-reducer/">8–42 mm planetary gearbox</a> options when the customer already has a motor or needs a customized motor-gearbox combination.</p>
-<p>For a separate <strong>miniature planetary gearhead</strong> rather than an integrated robot-joint actuator, see the <a href="../../selection-guides/miniature-planetary-gearbox-selection-guide/">8–42 mm Planetary Gearbox Selection Guide</a>. Stage-specific torque, motor interface and mechanical load still require review; the published frame-size range is not a blanket humanoid-joint qualification.</p>
-<h2 id="public-engineering-resources">Public Engineering Resources<a class="headerlink" href="#public-engineering-resources" title="Permanent link">&para;</a></h2>
-<p>For engineers moving from model screening into mechanical evaluation, SigGear currently publishes engineering resources for selected reference platforms:</p>
-<h3 id="sg-6010c">SG-6010C<a class="headerlink" href="#sg-6010c" title="Permanent link">&para;</a></h3>
-<ul>
-<li>technical datasheet</li>
-<li>mechanical-interface reference</li>
-<li>simplified STEP model</li>
-</ul>
-<p><a class="md-button" href="../../engineering-resources/sg6010c/datasheet/">View SG-6010C Engineering Resources</a></p>
-<h3 id="cpm-80-25">CPM-80-25<a class="headerlink" href="#cpm-80-25" title="Permanent link">&para;</a></h3>
-<ul>
-<li>technical datasheet</li>
-<li>mechanical-interface reference</li>
-<li>simplified STEP models</li>
-<li>measured performance data</li>
-</ul>
-<p><a class="md-button" href="../../engineering-resources/cpm80-25/datasheet/">View CPM-80-25 Engineering Resources</a>
-<a class="md-button" href="../../engineering-center/">Open the Engineering Center</a></p>
-<h2 id="integrated-actuator-or-separate-gearbox-and-motor">Integrated Actuator or Separate Gearbox and Motor<a class="headerlink" href="#integrated-actuator-or-separate-gearbox-and-motor" title="Permanent link">&para;</a></h2>
-<p>A humanoid project may use an integrated actuator or a separate gearbox-and-motor architecture.</p>
-<p>An integrated robot joint actuator may be suitable when the engineering team wants a more complete module with a matched motor, reducer, encoder and driver option. This can reduce early prototype integration work and speed up testing.</p>
-<p>A separate gearbox and motor solution may be suitable when the robot team already has its own motor, controller, encoder, housing or thermal design. In this case, the gearbox interface, input speed, motor shaft, mounting pattern and output shaft must be confirmed carefully.</p>
-<p>SigGear can support both approaches depending on the model, quantity, customization scope and engineering feasibility.</p>
-<p><a class="md-button" href="../../custom-engineering/motor-gearbox-integration/">Motor + Gearbox Integration Engineering</a>
-<a class="md-button" href="../../custom-engineering/robot-joint-actuator-development/">Custom Robot Joint Actuator Development</a></p>
-<h2 id="planetary-or-cycloidal-drive-for-humanoid-robots">Planetary or Cycloidal Drive for Humanoid Robots<a class="headerlink" href="#planetary-or-cycloidal-drive-for-humanoid-robots" title="Permanent link">&para;</a></h2>
-<p>A planetary joint actuator may be considered when the project prioritizes compact integration, output speed, motor matching flexibility and broad configuration options.</p>
-<p>Engineers evaluating an existing planetary joint-drive platform can also review SigGear's published robot joint actuator models and their released specifications.</p>
-<p><a class="md-button" href="../../products/robot-joint-actuators/">Planetary Robot Joint Actuators</a></p>
-<p>A cycloidal joint module may be considered when the application requires compact high-torque transmission and the selected model's speed, backlash, installation structure and duty cycle match the joint requirement.</p>
-<p>Neither transmission type should be selected from a general rule alone. Compare the complete torque-speed cycle, external loads, backlash target, thermal condition, size limit, weight target, control architecture and production plan.</p>
-<h2 id="control-encoder-and-communication-review">Control, Encoder and Communication Review<a class="headerlink" href="#control-encoder-and-communication-review" title="Permanent link">&para;</a></h2>
-<p>Humanoid robot teams should confirm the control architecture early. Important questions include:</p>
-<ul>
-<li>Is the joint controlled by position, speed, torque or mixed control mode?</li>
-<li>Is the driver integrated into the actuator or placed on a separate robot controller board?</li>
-<li>Is CAN, RS485, PWM or another interface required?</li>
-<li>What encoder resolution and position feedback accuracy are needed?</li>
-<li>Is the control loop closed at the actuator, at the main robot controller or both?</li>
-<li>Are there requirements for current limit, temperature monitoring, fault reporting or brake control?</li>
-</ul>
-<p>Communication and control functions vary by selected product and electronics configuration. Do not assume CAN, RS485, EtherCAT, PID, torque control or a specific protocol without confirming the driver and firmware version.</p>
-<h2 id="torque-speed-and-thermal-selection">Torque, Speed and Thermal Selection<a class="headerlink" href="#torque-speed-and-thermal-selection" title="Permanent link">&para;</a></h2>
-<p>For each joint, provide the full motion cycle instead of only the maximum torque value. Useful information includes:</p>
-<ul>
-<li>Continuous torque during holding or walking</li>
-<li>Peak torque and peak duration</li>
-<li>Target output speed and acceleration</li>
-<li>Operating voltage and current limit</li>
-<li>Motion time, rest time and duty cycle</li>
-<li>Ambient temperature and cooling method</li>
-<li>Mounting structure and heat dissipation path</li>
-<li>Expected test duration and service-life target</li>
-</ul>
-<p>Peak torque is not a continuous working rating. A joint that can provide short peak torque may still be unsuitable if the repeated duty cycle causes excessive temperature rise.</p>
-<p><a href="../../selection-guides/robot-joint-actuator-selection-guide/">Open the torque calculation and actuator sizing guide</a></p>
-<h2 id="prototype-and-customization-support">Prototype and Customization Support<a class="headerlink" href="#prototype-and-customization-support" title="Permanent link">&para;</a></h2>
-<p>Depending on the selected model and project scope, SigGear can evaluate:</p>
-<ul>
-<li>Motor, reducer, encoder and driver integration</li>
-<li>Reduction-ratio and output-interface customization</li>
-<li>Mounting and housing customization</li>
-<li>Cable and connector customization</li>
-<li>Communication and control configuration</li>
-<li>Customer branding and labeling</li>
-<li>Prototype support before production planning</li>
-</ul>
-<p>Customization availability depends on technical feasibility, prototype quantity, expected annual volume and the level of engineering change required.</p>
-<h2 id="from-prototype-to-design-in">From Prototype to Design-In<a class="headerlink" href="#from-prototype-to-design-in" title="Permanent link">&para;</a></h2>
-<p>After a preliminary actuator or gearbox configuration is selected, the project can move through sample evaluation, application testing, interface refinement, design confirmation and pilot preparation.</p>
-<p><a class="md-button md-button--primary" href="../../custom-engineering/prototype-to-production/">Prototype → Design-In → Production</a></p>
-<h2 id="information-needed-for-a-humanoid-joint-selection-review">Information Needed for a Humanoid Joint Selection Review<a class="headerlink" href="#information-needed-for-a-humanoid-joint-selection-review" title="Permanent link">&para;</a></h2>
-<p>Please send one requirement set for each joint position. For example, shoulder, elbow, wrist, hip, knee and ankle should be reviewed separately.</p>
-<p>Provide:</p>
-<ul>
-<li>Robot type and target application</li>
-<li>Joint position and axis definition</li>
-<li>Continuous torque</li>
-<li>Peak torque and peak duration</li>
-<li>Required output speed</li>
-<li>Operating voltage and current limit</li>
-<li>Maximum outer diameter, thickness and weight</li>
-<li>Radial load, axial load and overturning moment</li>
-<li>Backlash and positioning requirement</li>
-<li>Encoder, driver and communication requirements</li>
-<li>Duty cycle, ambient temperature and cooling method</li>
-<li>Prototype quantity and estimated annual quantity</li>
-<li>Preferred architecture: integrated actuator or separate gearbox and motor</li>
-</ul>
-<h2 id="request-a-joint-selection-review">Request a Joint Selection Review<a class="headerlink" href="#request-a-joint-selection-review" title="Permanent link">&para;</a></h2>
-<p>Send your humanoid robot joint requirements to SigGear for a preliminary model review. Early requirements can be rough, but torque, speed, size, voltage and quantity are needed before a meaningful recommendation can be made.</p>
-<p><strong>Wanrong Wang</strong><br />
-International Sales, SigGear<br />
-<a href="mailto:wangwanrong@siggear.com">wangwanrong@siggear.com</a></p>
-<p><a class="md-button md-button--primary" href="../../request-cad-sample-quote/">Request CAD, Sample and Quote</a>
-<a class="md-button" href="../../contact/">Send Humanoid Joint Requirements</a></p>
+<p><a class="md-button" href="../../engineering-resources/robot-joint-actuators/quick-downloads/"><strong>Integrated Robot Joint Actuators · Datasheets / CAD</strong></a></p>
+<p><em>The models above are initial size comparisons, not qualified application matches. Rated torque and length depend on the selected stage/ratio; check the model datasheet and mechanical interface. A miniature gearhead alone is not a complete humanoid joint actuator.</em></p>
+<p><a href="../../selection-guides/planetary-gearhead-quick-selector/"><strong>Find a Gearhead by Speed / Torque</strong></a> · <a href="../../engineering-resources/planetary-gearboxes/public-cad-release-v1/"><strong>All 12 Model Downloads</strong></a> · <a href="../../request-cad-sample-quote/"><strong>Contact SigGear</strong></a></p>
 
 
 
