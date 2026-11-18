@@ -1,6 +1,6 @@
 ---
 title: Precision Planetary Gearhead Manufacturer | 8–42 mm | SigGear
-description: SigGear 8–42 mm precision planetary gearheads in 12 Micro, Miniature and Compact frame sizes. Open full product data, datasheets and CAD downloads.
+description: Compare 12 SigGear micro, miniature and compact planetary gearheads (8–42 mm). Check ratios and dimensions; download datasheet PDFs, 2D drawings and full STEP CAD.
 ---
 
 # Precision Planetary Gearheads | 8–42 mm
@@ -9,7 +9,7 @@ description: SigGear 8–42 mm precision planetary gearheads in 12 Micro, Miniat
 
 ## Product Identity
 
-- **Product family:** 8–42 mm Planetary Gear Reducer Series
+- **Product family:** Micro, Miniature and Compact Precision Planetary Gearheads (8–42 mm)
 - **Product type:** Precision Planetary Gearheads
 - **Nominal outer diameter range:** 8 mm to 42 mm
 
@@ -38,7 +38,7 @@ description: SigGear 8–42 mm precision planetary gearheads in 12 Micro, Miniat
 
 [**Open the Datasheets & CAD Download Centre**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
 
-**Gearhead Datasheet PDFs:** All 12 model PDFs are downloadable (Rev 1.0; 12P Rev 1.1). **2D Drawing PDFs:** All 12 SG01PD-series original mechanical outline PDFs are directly downloadable. Full Assembly STEP files and online specifications remain available.
+**Gearhead Datasheet PDFs:** All 12 model PDFs are downloadable (Rev 1.0; 12P Rev 1.1). **2D Drawing PDFs:** All 12 SG01PD-series original mechanical outline PDFs are downloadable. **Full Assembly STEP:** All 12 original assembly exports are available as separate engineering CAD files. The simplified 4-stage reference STEP is not the full assembly.
 
 
 
