@@ -99,6 +99,6 @@ Use the controlled drawing for final tolerances, keyseat definition and producti
 
 ## CAD Notes
 
-The currently downloadable STEP is the simplified 4-stage reference model. The full assembly STEP is a separate file and will be linked here after its public binary is uploaded. The dimension preview is not a substitute for the original 2D drawing PDF or its controlled revision.
+The **Full Assembly STEP** is the published original Creo assembly. The **Simplified STEP** is a separate 4-stage reference for preliminary mechanical packaging. The [32P 2D outline drawing](../../assets/downloads/32p/32P_2D_Drawing.pdf) is the original **SG01PD32** interface reference. The body length **L ±0.3 mm** is configuration-dependent; confirm stage, ratio and motor mating dimensions before production.
 
 [Back to the 8–42 mm product catalogue](8-42mm-planetary-gear-reducer.md)
