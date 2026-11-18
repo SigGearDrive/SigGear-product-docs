@@ -1,0 +1,102 @@
+/* One-screen motor datasheet discovery: 10 diameter groups, 33 direct PDFs. */
+.siggear-motor-filter-label {
+  display: block;
+  margin: .7rem 0 .25rem;
+  font-weight: 600;
+}
+.siggear-motor-filter {
+  box-sizing: border-box;
+  width: 100%;
+  padding: .5rem .7rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: .35rem;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  font: inherit;
+}
+.siggear-motor-filter:focus-visible {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}
+.siggear-motor-results {
+  color: var(--md-default-fg-color--light);
+  font-size: .8rem;
+  margin: .2rem 0 .6rem;
+}
+#siggear-motor-quick-table {
+  width: 100%;
+  line-height: 1.4;
+}
+#siggear-motor-quick-table th,
+#siggear-motor-quick-table td {
+  vertical-align: top;
+  padding: .46rem .52rem;
+}
+#siggear-motor-quick-table td:nth-child(1) {
+  white-space: nowrap;
+  font-weight: 700;
+}
+#siggear-motor-quick-table td:nth-child(2) {
+  min-width: 5.7rem;
+}
+#siggear-motor-quick-table td:nth-child(3) {
+  min-width: 15rem;
+}
+#siggear-motor-quick-table td:nth-child(4) {
+  white-space: nowrap;
+  color: var(--md-default-fg-color--light);
+  font-size: .8rem;
+}
+#siggear-motor-quick-table a.siggear-motor-file {
+  display: inline-block;
+  padding: .23rem .42rem;
+  margin: .07rem .12rem .11rem 0;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: .25rem;
+  background: var(--md-code-bg-color);
+  color: var(--md-typeset-a-color);
+  text-decoration: none;
+  font-size: .84rem;
+  font-weight: 600;
+}
+#siggear-motor-quick-table a.siggear-motor-file:hover,
+#siggear-motor-quick-table a.siggear-motor-file:focus-visible {
+  border-color: var(--md-accent-fg-color);
+  text-decoration: underline;
+}
+#siggear-motor-quick-table tr[hidden],
+#siggear-motor-quick-table a[hidden] {
+  display: none !important;
+}
+.siggear-motor-engineering-notes {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .35rem;
+  padding: .5rem .75rem;
+  margin-top: 1rem;
+}
+.siggear-motor-engineering-notes summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+@media (max-width: 44rem) {
+  #siggear-motor-quick-table {
+    display: block;
+    overflow-x: auto;
+  }
+  #siggear-motor-quick-table thead { display: none; }
+  #siggear-motor-quick-table tbody { display: block; }
+  #siggear-motor-quick-table tr {
+    display: block;
+    margin: 0 0 .6rem;
+    padding: .45rem .55rem;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: .3rem;
+  }
+  #siggear-motor-quick-table td {
+    display: block;
+    border: none;
+    min-width: 0 !important;
+    padding: .12rem 0;
+    white-space: normal !important;
+  }
+}
