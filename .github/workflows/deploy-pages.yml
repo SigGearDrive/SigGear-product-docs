@@ -43,6 +43,9 @@ jobs:
       - name: Generate six public joint reference PDF datasheets
         run: python scripts/build_joint_datasheets.py
 
+      - name: Verify robot joint product images, downloads and release status
+        run: python scripts/validate_joint_product_media.py
+
       - name: Validate documentation structure
         run: python scripts/validate_docs.py
 
