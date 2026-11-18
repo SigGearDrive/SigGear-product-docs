@@ -5,7 +5,9 @@ description: Download all 12 SigGear planetary gearhead PDF datasheets, original
 
 # 8–42 mm Planetary Gearhead Downloads
 
-Download **12 model-specific planetary gearhead datasheet PDFs**, **12 original SG01PD-series 2D mechanical outline drawings** and **12 full-assembly STEP CAD files** for SigGear's 8–42 mm precision planetary gearhead family. Every model has its own online stage, ratio, torque and dimensions reference. Select the corresponding row below; the separate simplified STEP is a **4-stage reference** and not the full assembly. Separate **motor-only** PDFs: [Motor Datasheets](../motors/index.md).
+**12 gearhead models. Each row links directly to its Datasheet PDF, original 2D outline drawing and Full Assembly STEP. No inquiry required.**
+
+**Choose by diameter:** [Micro 8–16 mm](../../products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md) · [Miniature 20–32 mm](../../products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md) · [Compact 36–42 mm](../../products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md) · [Motor-only PDFs](../motors/index.md)
 
 **Jump to model:** [8P](#8p-downloads) · [10P](#10p-downloads) · [12P](#12p-downloads) · [14P](#14p-downloads) · [16P](#16p-downloads) · [20P](#20p-downloads) · [22P](#22p-downloads) · [24P](#24p-downloads) · [28P](#28p-downloads) · [32P](#32p-downloads) · [36P](#36p-downloads) · [42P](#42p-downloads)
 
@@ -24,14 +26,8 @@ Download **12 model-specific planetary gearhead datasheet PDFs**, **12 original 
 | <span id="36p-downloads"></span>[36P · 36 mm](../../products/planetary-gearboxes/36p-planetary-gearbox.md) | [Online specs](../../engineering-resources/36p/datasheet.md) | [Download Datasheet PDF](../../assets/downloads/36p/36P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [Download 2D Drawing PDF](../../assets/downloads/36p/36P_2D_Drawing.pdf) | [Download Full Assembly STEP](../../assets/downloads/36p/36P_Full_Assembly.step) | [4-stage STEP](../../assets/downloads/36p/36P_Public_Simplified_STEP_v1.0_4-Stage.step) |
 | <span id="42p-downloads"></span>[42P · 42 mm](../../products/planetary-gearboxes/42p-planetary-gearbox.md) | [Online specs](../../engineering-resources/42p/datasheet.md) | [Download Datasheet PDF](../../assets/downloads/42p/42P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [Download 2D Drawing PDF](../../assets/downloads/42p/42P_2D_Drawing.pdf) | [Download Full Assembly STEP](../../assets/downloads/42p/42P_Full_Assembly.step) | [4-stage STEP](../../assets/downloads/42p/42P_Public_Simplified_STEP_v1.0_4-Stage.step) |
 
-## Release Status
+## File Notes
 
-- **Product parameters:** Online technical pages publish the approved standard model data, including stages, ratios, torque, efficiency, backlash, load limits and dimensional references.
-- **Full Assembly STEP:** All **12 models** are assembled, validated and published on GitHub Pages. Every model has a direct download link.
-- **Gearhead Datasheet PDFs:** All 12 model-specific Gearhead Datasheet PDFs (8P–42P) are now published with direct downloads on GitHub Pages. The 12P PDF is Rev 1.1; all others are Rev 1.0. Motor datasheets are handled separately.
-- **2D Drawing PDFs:** All **12 original SG01PD-series mechanical outline PDFs** (8P–42P) are available for direct download. The length **L ±0.3 mm** is configuration-dependent; confirm the selected ratio/stage dimensions before production. These are reference outline drawings, not universal production drawings for every configuration.
-- **Simplified STEP:** Available for all 12 models as separate preliminary-packaging references. Each is a **4-stage reference only**, not a full assembly.
+**Full STEP ≠ 4-stage simplified STEP.** The original 2D outline drawings use body length **L** that depends on stage and ratio. Confirm the exact motor interface and configuration-controlled drawing before production.
 
-[Open the detailed upload manifest](../../assets/downloads/planetary-gearheads-8-42mm-upload-manifest.csv) · [View full-assembly validation manifest](../../assets/downloads/full-assembly-release-manifest.json)
-
-[Back to the 8–42 mm product catalogue](../../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md)
+[Compare 8–42 mm ratios and rated torque](../../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) · [Full STEP validation manifest](../../assets/downloads/full-assembly-release-manifest.json)
