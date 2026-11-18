@@ -1,0 +1,43 @@
+schema_version: 1
+snapshot_on: "2026-11-18"
+purpose: Evidence baseline for SigGear 8P–42P GitHub Pages Google-search CTR improvements
+data_source: Google Search Console via connected Windsor.ai searchconsole
+property: "https://siggeardrive.github.io/SigGear-product-docs/"
+window:
+  start: "2026-10-18"
+  end: "2026-11-15"
+  search_type: web
+  limitation: Search Console normally lags 2–3 days and may suppress anonymized search queries
+release_boundary:
+  date: "2026-11-18"
+  context: Major GitHub UX/download and search-snippet changes happened after this report window
+  note: This is a pre-release reference window, not a randomized experiment or proof of causation
+priority_page_rows:
+  - {page: "/engineering-resources/planetary-gearboxes/public-cad-release-v1/", impressions: 151, clicks: 14, ctr_percent: 9.27, avg_position: 8.1722, action: protect_high_performing_entry}
+  - {page: "/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/", impressions: 109, clicks: 0, ctr_percent: 0, avg_position: 29.5963, action: preserve_post_nov18_hub_and_compare_rank_before_attributing_ctr}
+  - {page: "/products/planetary-gearboxes/32p-planetary-gearbox/", impressions: 28, clicks: 1, ctr_percent: 3.57, avg_position: 7.3571, action: await_recent_snippet_recrawl}
+  - {page: "/products/planetary-gearboxes/42p-planetary-gearbox/", impressions: 28, clicks: 1, ctr_percent: 3.57, avg_position: 5.75, action: await_recent_snippet_recrawl}
+  - {page: "/products/planetary-gearboxes/10p-planetary-gearbox/", impressions: 28, clicks: 0, ctr_percent: 0, avg_position: 22.1786, action: await_recent_snippet_recrawl}
+  - {page: "/products/planetary-gearboxes/22p-planetary-gearbox/", impressions: 16, clicks: 2, ctr_percent: 12.5, avg_position: 13.125, action: preserve_current_title_and_click_signal}
+  - {page: "/products/planetary-gearboxes/16p-planetary-gearbox/", impressions: 9, clicks: 0, ctr_percent: 0, avg_position: 11.4444, action: small_sample_new_unique_snippet}
+  - {page: "/products/planetary-gearboxes/20p-planetary-gearbox/", impressions: 9, clicks: 0, ctr_percent: 0, avg_position: 12.2222, action: small_sample_new_unique_snippet}
+  - {page: "/applications/electric-pruning-shears-planetary-gearbox/", impressions: 23, clicks: 0, ctr_percent: 0, avg_position: 11.1304, action: await_recent_snippet_recrawl}
+priority_exact_query:
+  query: miniature planetary gearbox
+  landing_page: "/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/"
+  impressions: 49
+  clicks: 0
+  avg_position: 29.6735
+  interpretation: Weak ranking and intent alignment; not evidence that snippet wording alone caused zero clicks
+new_size_hubs:
+  - "/products/planetary-gearboxes/micro-planetary-gearheads-8-16mm/"
+  - "/products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm/"
+  - "/products/planetary-gearboxes/compact-planetary-gearheads-36-42mm/"
+  note: These pages launched after the baseline window; absence of GSC rows is not proof of lack of indexing
+measurement_rules:
+  - Compare like-for-like full windows and page+query pairs once Google has re-crawled the changed URLs
+  - Report impressions, clicks, CTR, average rank and country/device; avoid relying on CTR alone
+  - Preserve zero values and missing/no-row values as different observations
+  - Do not treat download clicks as received inquiries or CTR improvements as orders
+  - Do not keep rewriting very recent titles before a meaningful post-deployment observation window
+  - Protect the current CAD hub and 22P pages with working search click signals

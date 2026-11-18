@@ -1,11 +1,11 @@
 ---
-title: 20–32 mm Miniature Planetary Gearheads | PDF, 2D & STEP | SigGear
-description: Find 20–32 mm miniature planetary gearboxes and gearheads. Compare 20P, 22P, 24P, 28P, 32P ratios, lengths and rated torque; get PDF drawings and STEP CAD.
+title: "20–32 mm Miniature Planetary Gearheads | Compare & CAD | SigGear"
+description: "Compare 20P, 22P, 24P, 28P and 32P miniature planetary gearboxes (gearheads): 20–32 mm diameters, published ratio and rated torque ranges, PDF, 2D and full STEP CAD."
 ---
 
 # 20–32 mm Miniature Precision Planetary Gearheads
 
-**5 published sizes** · Datasheets · 2D drawings · Full assembly STEP · Stage/ratio tables
+**Miniature planetary gearbox comparison:** 20P · 22P · 24P · 28P · 32P · PDF datasheets · 2D drawings · Full STEP CAD
 
 ## Direct PDF and STEP Downloads
 

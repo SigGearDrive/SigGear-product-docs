@@ -1,6 +1,6 @@
 ---
-title: 16 mm Micro Precision Planetary Gearhead (16P) | SigGear
-description: "SigGear 16P (16 mm) micro planetary gearhead/gearbox: ratio 3.85:1–459.5:1, rated torque 392.3–882.6 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
+title: "16 mm Micro Planetary Gearhead (16P) | PDF & STEP | SigGear"
+description: "SigGear 16P Ø16 mm micro planetary gearhead/gearbox: 3.85:1–459.5:1 ratios, 17.55–30.45 mm body length, rated 392.3–882.6 mN·m. Download PDF, 2D and full STEP."
 ---
 
 # 16 mm Micro Precision Planetary Gearhead (16P)
@@ -13,7 +13,7 @@ description: "SigGear 16P (16 mm) micro planetary gearhead/gearbox: ratio 3.85:1
 | --- | --- | --- | --- | --- |
 | **16 mm** | **3.85:1–459.5:1** | **17.55–30.45 mm** | **392.3–882.6 mN·m** | **≤ 1.5°** |
 
-**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/16p/datasheet.md) · [Simplified 4-stage STEP](../../assets/downloads/16p/16P_Public_Simplified_STEP_v1.0_4-Stage.step) · [Mechanical drawing preview](../../assets/images/products/planetary-gearboxes/16p/16p-planetary-gearbox-dimensions.webp) · [Motor-only datasheets](../../engineering-resources/motors/index.md#16-mm-dc-motors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
+**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/16p/datasheet.md) · [Simplified 4-stage STEP](../../assets/downloads/16p/16P_Public_Simplified_STEP_v1.0_4-Stage.step) · [Mechanical drawing preview](../../assets/images/products/planetary-gearboxes/16p/16p-planetary-gearbox-dimensions.webp) · [Motor-only datasheets](../../engineering-resources/motors/index.md#16-mm-dc-motors) · [Compare Micro 8–16 mm](micro-planetary-gearheads-8-16mm.md) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
 ![SigGear 16P 16 mm micro planetary gearhead](../../assets/images/products/planetary-gearboxes/16p/16p-planetary-gearbox-main.webp){ width="260" loading="lazy" }
 
