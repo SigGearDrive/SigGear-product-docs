@@ -35,7 +35,7 @@ FAMILY_META = {
         "url": "products/cycloidal-joint-modules/",
     },
     "planetary_gearbox": {
-        "name": "Planetary Gearboxes",
+        "name": "Precision Planetary Gearheads",
         "url": "products/planetary-gearboxes/",
     },
     "hub_gear_motor": {
@@ -142,7 +142,7 @@ def _real_evidence_image(page, config) -> dict | None:
 
     if src in {"index.md", PLANETARY_SERIES_SRC}:
         relative = "assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014.jpg"
-        alt = "Real SigGear 36P 36 mm compact planetary gearbox; one example from the 8–42 mm range"
+        alt = "Real SigGear 36P 36 mm compact planetary gearhead; one example from the 8–42 mm range"
     else:
         data = _product_by_src.get(src)
         if not data or data.get("product_family") != "planetary_gearbox":
@@ -155,7 +155,7 @@ def _real_evidence_image(page, config) -> dict | None:
             f"assets/images/products/planetary-gearboxes/{slug}/"
             f"{slug}-real-product-evidence.webp"
         )
-        alt = f"Real SigGear {model} planetary gearbox with dimensional reference"
+        alt = f"Real SigGear {model} planetary gearhead with dimensional reference"
 
     if not (DOCS_DIR / relative).is_file():
         return None
@@ -356,7 +356,7 @@ def _planetary_series_schema(page, config) -> dict | None:
                 "item": {
                     "@type": "Thing",
                     "@id": model_url + "#catalog-model",
-                    "name": f"SigGear {model} Planetary Gearbox",
+                    "name": f"SigGear {model} Precision Planetary Gearhead",
                     "identifier": model,
                     "url": model_url,
                 },
@@ -378,7 +378,7 @@ def _planetary_series_schema(page, config) -> dict | None:
         },
         "mainEntity": {
             "@type": "ItemList",
-            "name": "SigGear 8–42 mm Planetary Gearbox Series",
+            "name": "SigGear 8–42 mm Precision Planetary Gearheads",
             "numberOfItems": len(items),
             "itemListElement": items,
         },
