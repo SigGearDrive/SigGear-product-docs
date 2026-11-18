@@ -56,6 +56,14 @@ The Ø10 mm performance tables are legible re-typeset data with the original dra
 
 **Engineering notes for Ø16 mm:** These are motor-only source documents, not a motor + 16P gearhead assembly rating. Source material includes unverified speed/torque-gradient scaling and bearing/duty conditions. The model code **120132** appears in both families 060127–240127 and 060128–240128 with conflicting performance values; verify the controlled winding designation before using its data. In family **030064–180064**, the rated torque equals stall torque for models 090064, 120064 and 180064 in the source; these values are retained as printed, **not independently validated as continuous ratings**.
 
+## Ø20 mm — BLDC Motor
+
+| Motor model | Motor type | Key source specification | PDF Datasheet |
+| --- | --- | --- | --- |
+| HR-BL2030-Q120260 | Three-phase BLDC · 12 VDC | Ø20 × 30 mm body; 17,000 ±10% rpm rated; 3.5 mN·m rated torque | [Download Rev 1.0 PDF](../../assets/downloads/motors/20mm/SigGear_20mm_BLDC_Motor_HR-BL2030-Q120260_Rev1.0.pdf) |
+
+The Ø20 mm file is **motor-only** data, not rated performance for the 20P gearhead or a complete assembly. The source lists a 30.4 mN·m locked-rotor torque, which is **not** a continuous operating rating; thermal and driver requirements are not specified.
+
 **Note:** These PDF downloads are motor-specific engineering references; choose the motor, winding, voltage and gearhead interface together for a complete assembly. Contact SigGear for design-specific compatibility and thermal-duty requirements.
 
 [Back to gearhead CAD & Datasheets](../planetary-gearboxes/public-cad-release-v1.md)
