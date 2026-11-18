@@ -96,6 +96,16 @@ The Ø24 mm source specifies 8,000 ±10% rpm rated speed, at least 19.6 mN·m ra
 
 These are **different Ø28 mm motor groups** and should not be merged. Sheet A notes that its source performance chart and tabulated points disagree at some conditions. Sheet B lists an unusually high **+155 °C ambient** limit and motor-thermal duty figures that require factory confirmation; its representative curve is not assigned to a specific winding. Treat all figures as source references pending controlled engineering validation, not as a combined 28P gearhead output rating.
 
+## Ø32 mm — DC Motors
+
+| Source family | Motor model variants | PDF Datasheet | Source status |
+| --- | --- | --- | --- |
+| Series 01 | 120071 · 180086 · 240082 · 360079 · 480077 | [Download PDF](../../assets/downloads/motors/32mm/SigGear_32mm_DC_Motor_Series01_120071-480077_DraftV1.0.pdf) | Draft V1.0 |
+| Series 02 · Mechanical A | 060068 · 090049 · 120046 · 180052 · 240059 | [Download PDF](../../assets/downloads/motors/32mm/SigGear_32mm_DC_Motor_Series02_MechanicalA_060068-240059_DraftV1.0.pdf) | Draft V1.0 |
+| Series 02 · Mechanical B | 060068 · 090049 · 120046 · 180052 · 240059 | [Download PDF](../../assets/downloads/motors/32mm/SigGear_32mm_DC_Motor_Series02_MechanicalB_060068-240059_DraftV1.0.pdf) | Draft V1.0 |
+
+**Configuration and engineering notes:** Series 02 Mechanical A and Mechanical B list the same electrical motor codes but use different outline drawings, and report different motor masses (**210 g vs 211 g**). Both source configurations are retained independently; confirm the mounting, shaft and controlled revision before choosing an assembly. Series 01 retains unusual source bearing-load notations **2510 N** and **65.3(5) N**, which require engineering verification rather than assuming corrected values. These PDFs describe motors, not combined motor + 32P gearhead output specifications. The original source drawings and curves have limited raster resolution; use controlled mechanical drawings for dimensional acceptance.
+
 **Note:** These PDF downloads are motor-specific engineering references; choose the motor, winding, voltage and gearhead interface together for a complete assembly. Contact SigGear for design-specific compatibility and thermal-duty requirements.
 
 [Back to gearhead CAD & Datasheets](../planetary-gearboxes/public-cad-release-v1.md)

@@ -1,0 +1,67 @@
+{
+  "title": "SigGear motor datasheet 24 mm, 28 mm, 32 mm - final batch public release ledger",
+  "date": "2026-11-18",
+  "policy": "All six original PDF byte streams are preserved unchanged. The public filenames are canonical. Motor-only source data, not validated combined motor-gearhead assembly specifications.",
+  "technical_review_notes": [
+    "28mm Sheet A source performance chart and tabular results differ for some operating points.",
+    "28mm Sheet B: source ambient temperature maximum +155 C requires confirmation; representative performance curve winding is unspecified.",
+    "32mm Series01: source static shaft-supported bearing load 2510 N and radial load 65.3(5) N must not be used in released design calculations without engineering review.",
+    "32mm Series02 Mechanical A / B: same electrical model codes but different mechanical drawings and reported weights (210 g vs 211 g)."
+  ],
+  "files": [
+    {
+      "diameter": "24mm",
+      "filename": "SigGear_24mm_BLDC_Motor_HR-BL2453-Q240150100-12-55_Rev1.0.pdf",
+      "file_path": "docs/assets/downloads/motors/24mm/SigGear_24mm_BLDC_Motor_HR-BL2453-Q240150100-12-55_Rev1.0.pdf",
+      "bytes": 98074,
+      "sha256": "b65e83a03dbd83ca6ce3a44055486a877e228fc4df5d3af9d803c4888ffe15ba",
+      "git_blob_sha": "8d619d5e3e6ed93ba99ade50f13949ea4ec2a32a",
+      "source_revision": "Published PDF Rev 1.0; source drawing Rev A/0"
+    },
+    {
+      "diameter": "28mm",
+      "filename": "SigGear_28mm_DC_Motor_SheetA_060041-120097_DraftV0.9.pdf",
+      "file_path": "docs/assets/downloads/motors/28mm/SigGear_28mm_DC_Motor_SheetA_060041-120097_DraftV0.9.pdf",
+      "bytes": 587503,
+      "sha256": "d909fecf5ce67593aada3ab260220cba4aa3d2bd757ef1c10a2fbb9d9e161f3e",
+      "git_blob_sha": "b995e5b8691837b9cd8c6e19caaf39f6ab1f426a",
+      "source_revision": "Draft V0.9"
+    },
+    {
+      "diameter": "28mm",
+      "filename": "SigGear_28mm_DC_Motor_SheetB_072120-240120_DraftV0.9.pdf",
+      "file_path": "docs/assets/downloads/motors/28mm/SigGear_28mm_DC_Motor_SheetB_072120-240120_DraftV0.9.pdf",
+      "bytes": 450470,
+      "sha256": "589d1ba02535d7a9eb7e63a8a5155ebd73b5ea43949014adda5c5fdbcd01a1cb",
+      "git_blob_sha": "d06b76ade1133679bc98a05d5e984b1cdd5fc1c7",
+      "source_revision": "Draft V0.9"
+    },
+    {
+      "diameter": "32mm",
+      "filename": "SigGear_32mm_DC_Motor_Series01_120071-480077_DraftV1.0.pdf",
+      "file_path": "docs/assets/downloads/motors/32mm/SigGear_32mm_DC_Motor_Series01_120071-480077_DraftV1.0.pdf",
+      "bytes": 527972,
+      "sha256": "77d28bd0db3db6d4924843d38898386cbbe7118a78463967e8279825dcb48b3d",
+      "git_blob_sha": "4bef07ac0c67d64a187acd2e8617eb93baaac299",
+      "source_revision": "Draft V1.0"
+    },
+    {
+      "diameter": "32mm",
+      "filename": "SigGear_32mm_DC_Motor_Series02_MechanicalA_060068-240059_DraftV1.0.pdf",
+      "file_path": "docs/assets/downloads/motors/32mm/SigGear_32mm_DC_Motor_Series02_MechanicalA_060068-240059_DraftV1.0.pdf",
+      "bytes": 526415,
+      "sha256": "92c12b961b10d6830308c974d1bee20c3237817cc49067c51482bf8868a87af9",
+      "git_blob_sha": "79facf2d9336dfc42c8da0c7e2b23a7bf6092eb4",
+      "source_revision": "Draft V1.0"
+    },
+    {
+      "diameter": "32mm",
+      "filename": "SigGear_32mm_DC_Motor_Series02_MechanicalB_060068-240059_DraftV1.0.pdf",
+      "file_path": "docs/assets/downloads/motors/32mm/SigGear_32mm_DC_Motor_Series02_MechanicalB_060068-240059_DraftV1.0.pdf",
+      "bytes": 572736,
+      "sha256": "e7d33a6ae8fa1b729263fb5650f65140ab9ecbf4e0b2c1d7c6e30d780474868d",
+      "git_blob_sha": "85182bddcc87eae0773420880ead22e5166dbfc8",
+      "source_revision": "Draft V1.0"
+    }
+  ]
+}

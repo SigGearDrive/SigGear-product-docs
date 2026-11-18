@@ -13,6 +13,7 @@ description: 32 mm miniature precision planetary gearhead (32P) with published s
 | --- | --- |
 | Online datasheet | [Open 32P datasheet](../../engineering-resources/32p/datasheet.md) |
 | Gearhead Datasheet PDF | [Download 32P PDF](../../assets/downloads/32p/32P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
+| Motor Datasheets (Ø32 mm) | [View motor Series 01 / 02 A / 02 B](../../engineering-resources/motors/index.md#32-mm-dc-motors) — motor only; mating compatibility not verified |
 | 2D drawing PDF | Source identified; public binary upload pending |
 | Full assembly STEP | [Download 32P Full Assembly STEP](../../assets/downloads/32p/32P_Full_Assembly.step) |
 | Dimension preview | [View mechanical interface](../../engineering-resources/32p/mechanical-interface.md) |
