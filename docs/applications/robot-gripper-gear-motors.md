@@ -1,225 +1,32 @@
 ---
-title: Precision Planetary Gearheads for Dexterous Hands | SigGear
-description: "SigGear 8–42 mm planetary gearheads for dexterous hands and grippers. Review tendon-spool torque, backlash, motor fitting, shaft loads and STEP CAD."
+title: "Robot Gripper & Dexterous Hand Gear Motors | SigGear"
+description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + gearhead assemblies for robot grippers, tendon spools and dexterous hands. Compare real models, PDF datasheets, 2D and STEP."
 ---
 
-# Planetary Gearheads for Dexterous Hands and Robot Grippers
+# Robot Gripper & Dexterous Hand Gear Motors
 
-## Application Overview
+**SigGear is an OEM supplier of DC/BLDC motors, precision planetary gearheads (Ø8–42 mm), and motor + gearhead assemblies.**
 
-Dexterous robotic hands, robot grippers and compact end effectors often need small geared drives for finger joints, tendon spools, rotary jaws, lead screws and other precision mechanisms.
+[**Motors · Datasheets**](../engineering-resources/motors/index.md){ .md-button }
+[**Gearheads · PDF / 2D / STEP**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
+[**Motor + Gearhead Assemblies**](../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
-SigGear's starting point is the **8–42 mm Precision Planetary Gearhead (planetary gearbox)** series, supplied as **Gearhead Only** for an existing motor or evaluated as a **Motor + Gearhead Assembly** after engineering review.
+**Application:** A tendon spool converts gearhead output torque to pull force; an end-effector jaw uses a different lever or screw linkage.
 
-A suitable drive must still be selected from the complete mechanism requirement, including force, speed, geometry, shaft load, backlash, noise, duty cycle, feedback and installation space.
+**Engineering checks:** tendon-spool radius and grip force; loaded motor speed and backlash; backdrivability, shaft load and feedback.
 
-[Find a Gearhead for a Dexterous Hand](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=dexterous_hand_gripper#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
-[Compare 8–42 mm Planetary Gearheads](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
-[Start Dexterous Hand / Gripper Project Brief](../request-cad-sample-quote.md?app=dexterous_hand_gripper){ .md-button }
+## Relevant Gearhead Models & Direct Downloads
 
-## How to Select a Planetary Gearhead for a Dexterous Robotic Hand
+| Size / model | Datasheet PDF | 2D drawing | Full STEP |
+| --- | --- | --- | --- |
+| [8P · Ø8 mm](../products/planetary-gearboxes/8p-planetary-gearbox.md) | [PDF](../assets/downloads/8p/8P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D](../assets/downloads/8p/8P_2D_Drawing.pdf) | [STEP](../assets/downloads/8p/8P_Full_Assembly.step) |
+| [14P · Ø14 mm](../products/planetary-gearboxes/14p-planetary-gearbox.md) | [PDF](../assets/downloads/14p/14P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D](../assets/downloads/14p/14P_2D_Drawing.pdf) | [STEP](../assets/downloads/14p/14P_Full_Assembly.step) |
+| [20P · Ø20 mm](../products/planetary-gearboxes/20p-planetary-gearbox.md) | [PDF](../assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D](../assets/downloads/20p/20P_2D_Drawing.pdf) | [STEP](../assets/downloads/20p/20P_Full_Assembly.step) |
 
-The correct miniature gearhead depends on **how the fingertip or gripper jaw produces force**. Do not assume that a gearhead's rated output torque equals fingertip gripping force.
+[**Integrated Robot Joint Actuators · Datasheets / CAD**](../engineering-resources/robot-joint-actuators/quick-downloads.md){ .md-button }
 
-| Dexterous-hand or gripper mechanism | First mechanical inputs | First selection risk |
-| --- | --- | --- |
-| **Tendon-driven finger** | Cable/tendon tension, spool radius, routing, finger linkage, closing speed | Radial output-shaft load and backdrivability |
-| **Direct rotary finger joint** | Joint lever arm, joint torque, permitted diameter and length | Backlash, weight and position feedback |
-| **Parallel or rotary-jaw gripper** | Required jaw force, linkage or screw lead, stroke, load direction | Overhung load, jam/impact torque and repeatability |
-| **Auxiliary end-effector axis** | Payload or sensor load, speed, positioning and duty cycle | Unnecessary size, noise or excessive ratio |
+*The models above are initial size comparisons, not qualified application matches. Rated torque and length depend on the selected stage/ratio; check the model datasheet and mechanical interface. A nominal gearhead rating is not a verified fingertip force or complete robot-hand capability.*
 
-### Calculating Tendon-Spool Torque
+[**Find a Gearhead by Speed / Torque**](../selection-guides/planetary-gearhead-quick-selector.md) · [**All 12 Model Downloads**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [**Contact SigGear**](../request-cad-sample-quote.md)
 
-For a simple spool, the ideal shaft torque is approximately `T_spool = F_tendon × r_spool`. For example, with tendon tension in newtons and spool radius in metres, the result is N·m. This is a **mechanism calculation, not a SigGear torque rating**. Actual required gearhead torque increases with routing friction, acceleration and other losses. Tendon force can also apply a radial load to the output bearing, which must be checked independently.
-
-If fingertip force is given instead of tendon tension, first resolve the changing finger-joint moment arms and tendon geometry. Do not multiply fingertip force by spool radius as if the two forces were the same.
-
-### Speed, Precision and Force-Control Boundaries
-
-Estimate the starting ratio from `loaded motor rpm / required gearhead output rpm`. Then check motor torque at that loaded speed, selected stage efficiency, backlash and packaging. **A planetary gearhead does not itself provide closed-loop position or force control**: encoder location, sensor calibration, tendon compliance and controller behavior affect the finished hand.
-
-[Browse 8P–16P Micro Planetary Gearheads](../products/planetary-gearboxes/index.md){ .md-button .md-button--primary }
-[Use the 8–42 mm Gearhead Selector](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=dexterous_hand_gripper#preliminary-ratio-stage-finder){ .md-button }
-
-## Compare Published SigGear Gearhead Models
-
-Finger joints, tendon spools and rotary grippers require different mechanical calculations. Choose from **published gearhead frame candidates** only after assessing gripping force, geometry, shaft loading and allowable envelope.
-
-| Frame and specification page | Example mechanism for evaluation | Engineering checks |
-| --- | --- | --- |
-| [8P 8 mm Gearhead](../products/planetary-gearboxes/8p-planetary-gearbox.md) | Very small finger or auxiliary axis | Check tendon load, radial force and overall length |
-| [14P 14 mm Gearhead](../products/planetary-gearboxes/14p-planetary-gearbox.md) | Compact finger/tendon integration | Review required ratio, backdrivability and backlash |
-| [20P 20 mm Gearhead](../products/planetary-gearboxes/20p-planetary-gearbox.md) | Small gripper rotary mechanism | Check continuous torque and output support |
-| [32P 32 mm Gearhead](../products/planetary-gearboxes/32p-planetary-gearbox.md) | Higher-load compact gripper | Verify shock load, diameter and bearing support |
-
-These are **potential candidates for initial engineering comparison**, not claims of suitability, certification or production deployment. Consult each model's rated torque, stage-dependent ratio and length, output load limit, motor interface and simplified 4-stage STEP reference before design freeze.
-
-[Browse All 12 Precision Planetary Gearheads](../products/planetary-gearboxes/index.md){ .md-button }
-
-## Where to Start by Precision Gearhead Size
-
-Use this only as an early packaging filter. Final selection must use the exact model's rated torque, ratio, length, shaft-load and motor-interface data.
-
-| Starting frame group | Typical mechanism direction | What to verify first |
-| --- | --- | --- |
-| **8P-16P — Micro Precision** | finger joints, tendon spools, miniature auxiliary axes and highly space-constrained mechanisms | torque margin, radial load, gearbox length and motor interface |
-| **20P-28P — Compact OEM** | larger finger mechanisms, compact jaws, rotary grippers and end effectors | continuous torque, speed, backlash, spool / jaw geometry and duty cycle |
-| **32P-42P — Higher-load grippers** | larger grippers or compact mechanisms with higher torque demand | whether the larger diameter is acceptable, output bearing load, shock / jam load and motor power |
-
-For a dexterous-hand program, the target should normally be the **smallest frame that passes the complete load and life requirement**, not simply the smallest available diameter.
-
-[See the 3 Planetary Application Families](planetary-gearbox-application-families.md){ .md-button }
-
-## Main Selection Factors
-
-### Gripping Force and Mechanism Geometry
-
-Provide fingertip force, jaw force, lever arm, pulley radius, tendon spool radius, screw lead or linkage geometry. The required gearbox output torque depends on the complete mechanical transmission path.
-
-### Output Torque and Speed
-
-Define continuous torque, peak torque, peak duration, closing speed, opening speed and complete motion cycle. A higher reduction ratio can increase torque capability but usually reduces output speed.
-
-### Tendon Spool and Shaft Loads
-
-Tendon-driven hands can generate radial load on the output shaft and bearing system. Provide tendon force, spool diameter, load direction and distance from bearing support. Radial and axial loads must be reviewed separately from output torque.
-
-### Compact Size and Weight
-
-Dexterous hands and small grippers often have strict packaging requirements. Confirm:
-
-- Maximum diameter
-- Total length
-- Shaft extension
-- Mounting interface
-- Cable routing
-- Encoder and connector space
-- Weight limit
-
-### Backdrivability and Manual Motion
-
-If the finger or gripper must move when power is removed, specify the required backdrivability behavior. Backdrivability depends on motor selection, gearbox ratio, friction, mechanism and controller configuration.
-
-### Backlash and Positioning
-
-Specify backlash, repeatability, positioning accuracy and force-control requirements. Complete-system performance depends on gearbox backlash, structure stiffness, tendon elasticity, encoder position and controller tuning.
-
-## Candidate SigGear Product Families
-
-### 8–42 mm Micro, Miniature and Compact Planetary Gearheads
-
-Use the standard planetary series as the first reference when the project needs a compact gearbox-only solution or a motor-matched assembly.
-
-Possible mechanism types include:
-
-- Finger joints
-- Tendon spools
-- Compact rotary jaws
-- Small end effectors
-- Sensor or auxiliary positioning axes
-
-Selection still depends on the required torque, speed, ratio, stage count, shaft load and installation envelope.
-
-[Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Precision Gearhead Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=dexterous_hand_gripper#preliminary-ratio-stage-finder){ .md-button }
-
-### Micro Gear Motors and Motor-Matched Assemblies
-
-Where the motor has not yet been fixed, SigGear can review a compact motor + planetary gearbox combination.
-
-If a motor is already selected, send its drawing, loaded speed, shaft dimensions and mounting interface for gearbox matching.
-
-[Explore micro gear motors](../products/micro-gear-motors/index.md)
-
-## Dexterous Hand and Gripper Integration Review
-
-For tendon-spool and cantilever-load applications, the output shaft and bearing arrangement must be reviewed carefully. External bearings or additional support structures may be required when radial load is significant.
-
-Important engineering questions:
-
-- Is the mechanism tendon-driven or direct-drive?
-- What is the required gripping force?
-- What is the tendon or spool diameter?
-- Is manual movement required when power is off?
-- Is force control required?
-- What encoder and driver functions are needed?
-- What noise and service-life targets apply?
-
-## Noise and Service Life
-
-Noise performance and service life depend on the selected motor, gearbox ratio, load spectrum, lubrication, assembly condition and operating environment. Use measured data from the selected configuration rather than assuming a product-family value.
-
-## Prototype and Customization Support
-
-SigGear can evaluate:
-
-- Motor and planetary gearbox matching
-- Reduction-ratio selection
-- Output shaft and spool interface customization
-- Mounting structure customization
-- Encoder, cable and connector options
-- Customer branding and labeling
-
-Customization availability depends on technical feasibility, prototype quantity and production requirements.
-
-## Information Required for Selection Review
-
-Please provide:
-
-- Gripper or hand type
-- Required fingertip or jaw force
-- Mechanism geometry
-- Tendon or spool dimensions
-- Continuous and peak output torque
-- Output speed
-- Operating voltage
-- Diameter and length limits
-- Radial and axial loads
-- Backlash and positioning requirements
-- Backdrivability requirement
-- Encoder and driver requirements
-- Duty cycle
-- Prototype quantity and annual forecast
-
-## Frequently Asked Questions: Gearheads for Dexterous Hands
-
-### What is the smallest SigGear planetary gearhead for a robotic finger?
-
-The published series begins with **[8P 8 mm Micro Planetary Gearhead](../products/planetary-gearboxes/8p-planetary-gearbox.md)**. Whether 8P can drive a particular finger depends on the exact ratio, output torque, radial load, shaft support, motor interface and service-life requirement. Smaller diameter alone does not establish fitness.
-
-### Can a planetary gearhead be backdriven for compliant robotic fingers?
-
-Backdrivability is **configuration-dependent**, not guaranteed by the product family. Motor cogging, transmission friction, ratio, reflected inertia, tendon mechanism and controller behavior matter. If passive compliance or safe manual movement is required, specify a maximum power-off resistance and test it on the final assembly.
-
-### How much gearhead torque is required for a robotic gripper?
-
-Begin with fingertip/jaw force and the actual lever, tendon spool, gear or screw geometry. Calculate the torque and side loading at the **gearhead output shaft**, distinguishing sustained grasp force from short closing peaks and collision or stalled-gripper events.
-
-### Does a SigGear gearhead include a motor, encoder or driver?
-
-**Gearhead Only** means the reduction component without assuming an integrated motor or control electronics. SigGear can evaluate **Motor + Gearhead Assembly** integration for an OEM project; any encoder, brake, driver or communication feature must be explicitly confirmed in the selected configuration.
-
-### Is the STEP CAD file the final design interface?
-
-No. The public model is a **simplified 4-stage reference** for mechanical packaging. Exact shaft, motor mount, ratio, stage count and tolerances must be confirmed with controlled, configuration-specific engineering files before design freeze.
-
-## Related Products and Inquiry
-
-[Micro Gear Motors](../products/micro-gear-motors/index.md){ .md-button .md-button--primary }
-[8–42 mm Precision Planetary Gearheads](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
-[Miniature Planetary Gearbox Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=dexterous_hand_gripper#preliminary-ratio-stage-finder){ .md-button }
-[Micro Robotics Gear Motors](micro-robotics-gear-motors.md){ .md-button }
-[Start Dexterous Hand / Gripper Project Brief](../request-cad-sample-quote.md?app=dexterous_hand_gripper){ .md-button }
-
-
-## Request a Gripper Drive Selection Review
-
-Send your gripper requirements to SigGear for a preliminary model review.
-
-**Wanrong Wang**  
-International Sales, SigGear  
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
-
-[Email Dexterous Hand / Gripper Requirements](mailto:wangwanrong@siggear.com?subject=Dexterous%20Hand%20Robot%20Gripper%20Planetary%20Gearbox%20Review&body=Application%3A%20Dexterous%20hand%20%2F%20robot%20gripper%0AMechanism%3A%20finger%20joint%20%2F%20tendon%20spool%20%2F%20rotary%20jaw%20%2F%20other%0ARequired%20gripping%20force%20or%20output%20torque%3A%20%0ARequired%20output%20speed%3A%20%0AMaximum%20diameter%20and%20length%3A%20%0AExisting%20motor%20or%20complete%20drive%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20%0A%0APlease%20attach%20a%20mechanism%20or%20motor%20drawing%20if%20available.){ .md-button .md-button--primary }
-[Start Dexterous Hand / Gripper Project Brief](../request-cad-sample-quote.md?app=dexterous_hand_gripper){ .md-button }
+[Detailed application-aware selector](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=dexterous_hand_gripper#preliminary-ratio-stage-finder)

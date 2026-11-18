@@ -1,188 +1,42 @@
 ---
-title: Precision Planetary Gearhead Applications | 8–42 mm OEM | SigGear
-description: "Explore 10 industries using SigGear 8–42 mm precision planetary gearheads: smart home, pruning tools, dexterous hands, medical, lab, pet devices and automation."
+title: "SigGear Motor, Gearhead & Gear Motor Applications | PDF CAD"
+description: "SigGear supplies micro DC/BLDC motors, Ø8–42 mm precision planetary gearheads and motor + gearhead assemblies for 32 OEM applications. Product models and direct PDF, 2D, STEP CAD downloads."
 ---
 
-# Planetary Gearhead Applications — 8–42 mm OEM Engineering
+# SigGear Motors, Gearheads & Gear Motor Applications
 
-SigGear's current overseas focus is **precision planetary gearheads from 8 mm to 42 mm**, supplied as **Gearhead Only** or reviewed as a **Motor + Gearhead Assembly** for an OEM mechanism.
+**SigGear supplies DC/BLDC motors, precision planetary gearheads (Ø8–42 mm), and customized motor + gearhead assemblies for OEM equipment.**
 
-These application pages explain **how to select a drive**, not where SigGear claims to have a completed customer case.
+[**Motor Datasheets**](../engineering-resources/motors/index.md){ .md-button }
+[**Gearhead PDF / 2D / Full STEP**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
+[**Motor + Gearhead Integration**](../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
-!!! note
-    Unless a page explicitly states otherwise, an application is a potential engineering use case rather than a published production reference.
+**Explore applications:** Each linked page gives specific mechanism considerations, candidate sizes and direct model downloads—not a claim of a proven production installation.
 
-[Compare 8–42 mm Precision Planetary Gearheads](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Find a Gearhead — Ratio & Stage Selector](../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
-[Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
+## Garden tools & powered mechanisms
 
-## Start With an Application Family
+[Electric Pruning Shears Motor & Gearhead Selection](electric-pruning-shears-planetary-gearbox.md) · [Electric Screwdriver Planetary Gearhead & Motors](powered-screwdriver-planetary-gearbox.md) · [Agriculture Metering & Outdoor Gear Motors](agriculture-outdoor-equipment-gear-motors.md)
 
-Before choosing an exact diameter, use the application-led grouping to decide whether the project is primarily **Micro Precision (8P-16P)**, **Compact OEM (20P-28P)** or **High-Torque Compact (32P-42P)**. This does not replace model-level engineering review; it makes the first search and Design-In step faster.
+## Smart home & personal appliances
 
-[Planetary Gearhead Application Families](planetary-gearbox-application-families.md){ .md-button .md-button--primary }
+[Motorized Curtain & Roller Blind Gear Motors](electric-curtain-blind-window-opener-gear-motors.md) · [Smart Toilet & Bidet Miniature Gear Motors](smart-toilet-bidet-planetary-gear-motors.md) · [Pet Feeder & Litter Box Miniature Gear Motors](smart-pet-feeder-litter-box-planetary-gearheads.md) · [Smart Lock & Electronic Latch Gear Motors](access-control-smart-lock-security-gear-motors.md) · [Smart Home Appliance & Lid Gear Motors](consumer-appliance-home-device-gear-motors.md) · [Adjustable Furniture & Recliner Gear Motors](furniture-seating-adjustable-mechanism-gear-motors.md) · [HVAC Damper & Smart Vent Gear Motors](hvac-smart-vent-damper-gear-motors.md) · [Smart Hardware Compact Gear Motors](smart-hardware-gear-motors.md)
 
-## Explore 10 Industries Using 8–42 mm Precision Planetary Gearheads
+## Dispensing & automation
 
-Find your mechanism in the application table, then open the **engineering guide** and review the exact product model, ratio, installation interface and public simplified STEP reference. These are **potential OEM applications**, not claims of installed or certified customer production.
+[Coffee Machine & Dosing Gear Motors](food-beverage-coffee-equipment-gear-motors.md) · [Vending & Kiosk Dispensing Gear Motors](vending-dispensing-kiosk-gear-motors.md) · [Micro Pump, Valve & Dosing Gear Motors](pump-valve-fluid-control-gear-motors.md) · [Office Automation & Paper-Feed Gear Motors](office-automation-business-equipment-gear-motors.md) · [Packaging, Labelling & Small Conveyor Gear Motors](packaging-labeling-conveyor-gear-motors.md) · [Compact Automation Gearheads & Motors](industrial-automation-servo-planetary-gearboxes.md) · [Electronics Inspection & Positioning Gear Motors](semiconductor-electronics-inspection-equipment-gear-motors.md)
 
-| Industry | Example OEM mechanisms | Application guide |
-| --- | --- | --- |
-| Smart Home | Motorized curtains, roller blinds, smart toilets, smart locks, adjustable furniture | [Curtains and blinds](electric-curtain-blind-window-opener-gear-motors.md), [smart toilets](smart-toilet-bidet-planetary-gear-motors.md), [smart locks](access-control-smart-lock-security-gear-motors.md) |
-| Garden and Power Tools | Electric pruning shears, fruit-tree cutters, powered screwdrivers | [Pruning tools](electric-pruning-shears-planetary-gearbox.md), [fastening tools](powered-screwdriver-planetary-gearbox.md) |
-| Robotics and Dexterous Hands | Finger joints, tendon spools, compact grippers and end effectors | [Dexterous hands and grippers](robot-gripper-gear-motors.md) |
-| Medical Devices | Compact dosing, syringe actuation, positioning and auxiliary motion | [Medical mechanism guide](medical-device-micro-gear-motors.md) |
-| Laboratory Automation | Pipetting mechanisms, sample handling, diagnostic positioning | [Laboratory automation](laboratory-automation-diagnostic-equipment-gear-motors.md) |
-| Consumer Electronics and Optics | Camera focus, optical adjustment and compact motion devices | [Precision instruments](precision-instruments-optical-mechanisms.md), [camera mechanisms](optical-imaging-camera-module-gear-motors.md) |
-| Automotive Electronics | Small airflow actuators, interior adjustments and vehicle mechanisms | [Automotive small motion](automotive-vehicle-small-motion-gear-motors.md) |
-| Smart Pet Devices | Automatic pet feeders, self-cleaning litter boxes and pet-door latches | [Smart pet actuator guide](smart-pet-feeder-litter-box-planetary-gearheads.md) |
-| Small Industrial Automation | Grippers, positioning devices, inspection and compact conveyor drives | [Industrial automation](industrial-automation-servo-planetary-gearboxes.md), [inspection equipment](semiconductor-electronics-inspection-equipment-gear-motors.md) |
-| Smart Agriculture and Fluid Control | Irrigation valves, metering mechanisms, greenhouse actuators and pumps | [Agriculture equipment](agriculture-outdoor-equipment-gear-motors.md), [pump and valve control](pump-valve-fluid-control-gear-motors.md) |
+## Robotics & mobility
 
-**Design-In pathway:** [12 model pages](../products/planetary-gearboxes/index.md) → [Find a Gearhead](../selection-guides/miniature-planetary-gearbox-selection-guide.md) → [simplified STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) → [engineering request](../request-cad-sample-quote.md).
+[Robot Gripper & Dexterous Hand Gear Motors](robot-gripper-gear-motors.md) · [Micro Robotics Gear Motors & Planetary Reducers](micro-robotics-gear-motors.md) · [Robotic Arm Joint Actuators & Gearhead Supply](robotic-arm-joint-actuators.md) · [Humanoid Robot Joint Actuators & Gearheads](humanoid-robot-joint-actuators.md) · [Quadruped Robot Joint Gearheads & Actuators](quadruped-robot-joint-gearboxes.md) · [Exoskeleton Joint Actuators & Gearhead Components](exoskeleton-joint-actuators.md) · [AGV / AMR Auxiliary Gear Motors & Wheel Drives](agv-amr-wheel-drive-gearboxes.md)
 
-## Featured Miniature Planetary Gearhead Applications
+## Medical, optical & instrumentation
 
-These are the application paths most closely aligned with the current SigGear overseas focus.
+[Medical Device Micro Motors & Gearheads](medical-device-micro-gear-motors.md) · [Laboratory Automation Micro Gear Motors](laboratory-automation-diagnostic-equipment-gear-motors.md) · [Camera Focus, Zoom & Optical Gear Motors](optical-imaging-camera-module-gear-motors.md) · [Precision Instrument Miniature Motors & Gearheads](precision-instruments-optical-mechanisms.md)
 
-### Electric Pruning Shears
+## Vehicle, energy & display
 
-Review blade force, lever geometry, cutting peaks, output speed, motor matching, shaft interface and outdoor duty.
+[Automotive Small-Motion Gear Motors](automotive-vehicle-small-motion-gear-motors.md) · [Charging Port & Battery Equipment Gear Motors](energy-battery-charging-equipment-actuators.md) · [Stage Lighting & Signage Gear Motors](stage-lighting-display-signage-gear-motors.md)
 
-[Electric Pruning Shears Planetary Gearbox Guide](electric-pruning-shears-planetary-gearbox.md){ .md-button .md-button--primary }
+**Next step:** [Find a Gearhead](../selection-guides/planetary-gearhead-quick-selector.md) · [Compare 12 Sizes](../products/planetary-gearboxes/index.md) · [Request a Motor / Gearhead Review](../request-cad-sample-quote.md)
 
-### Electric Screwdrivers and Fastening Tools
-
-Review normal fastening torque, peak / jam load, output speed, loaded motor speed, battery or supply limits, shaft interface and repeated fastening duty.
-
-[Powered Screwdriver & Fastening Tool Planetary Gearbox Guide](powered-screwdriver-planetary-gearbox.md){ .md-button }
-
-### Electric Curtains, Blinds and Window Openers
-
-Review loaded motor speed, pulley travel, track friction, low-noise requirements, holding behavior, shaft interface and gearbox-only versus motor + gearbox supply.
-
-[Electric Curtain / Blind Gear Motor Guide](electric-curtain-blind-window-opener-gear-motors.md){ .md-button }
-
-### Smart Toilet and Bidet Mechanisms
-
-Review lid / seat / nozzle / flap mechanisms, compact packaging, low noise, jam behavior, holding, humidity, cleaning exposure and motor matching.
-
-[Smart Toilet & Bidet Planetary Gear Motor Guide](smart-toilet-bidet-planetary-gear-motors.md){ .md-button }
-
-### Dexterous Hands and Robot Grippers
-
-Review finger-joint or tendon-spool geometry, gripping force, output torque, speed, radial load, backdrivability, backlash, feedback and packaging.
-
-[Dexterous Hand & Robot Gripper Gear Motor Guide](robot-gripper-gear-motors.md){ .md-button }
-
-### Precision Instruments and Optical Mechanisms
-
-Review compact motion axes for focus, filter wheels, rotary stages, sensor positioning and similar mechanisms where packaging, repeatability, backlash and vibration matter.
-
-[Precision Instrument Gear Motor Guide](precision-instruments-optical-mechanisms.md){ .md-button }
-
-### Medical and Laboratory Equipment
-
-Review compact pumps, valves, dosing, sample handling and positioning mechanisms with attention to speed, noise, duty cycle, cleaning environment and integration boundaries.
-
-[Medical Device Micro Gear Motor Guide](medical-device-micro-gear-motors.md){ .md-button }
-[Laboratory Automation Gear Motor Guide](laboratory-automation-diagnostic-equipment-gear-motors.md){ .md-button }
-
-Laboratory automation is a priority **Micro Precision** Design-In route for 8P–24P when packaging, low vibration and repeatable low-speed motion matter.
-
-### Smart Locks and Access Control
-
-Review bolt, latch, cam and release mechanisms by force, stroke, battery current, jam behavior, holding requirement and compact packaging.
-
-[Smart Lock & Access-Control Gear Motor Guide](access-control-smart-lock-security-gear-motors.md){ .md-button }
-
-### Pump, Valve and Dosing Mechanisms
-
-Review peristaltic pumps, syringe / plunger drives, rotary valves and compact dosing mechanisms by pressure, flow, torque, speed, duty cycle and feedback.
-
-[Pump / Valve / Dosing Gear Motor Guide](pump-valve-fluid-control-gear-motors.md){ .md-button }
-
-Pump, valve and dosing projects are a priority **Micro Precision / Compact OEM** route where the customer may already have a qualified motor or pump / valve mechanism.
-
-### Camera Modules, Focus and Zoom Mechanisms
-
-Review focus, zoom, pan-tilt and sensor-positioning axes by backlash, vibration, speed, feedback, packaging and load support.
-
-[Camera Module & Optical Positioning Gear Motor Guide](optical-imaging-camera-module-gear-motors.md){ .md-button }
-
-### Coffee, Beverage and Dispensing Equipment
-
-Review metering, grinder adjustment, valve movement, dosing, cup handling and compact service mechanisms by load, speed, jam condition, noise and cleaning boundary.
-
-[Coffee / Dosing / Dispensing Gear Motor Guide](food-beverage-coffee-equipment-gear-motors.md){ .md-button }
-
-### Smart Pet Feeders and Automatic Litter Boxes
-
-Review auger loading, rotating drum inertia, jam detection, cleaning, shaft support and pet safety before selecting a compact gearhead.
-
-[Automatic Pet Feeders & Litter Boxes — Planetary Gearhead Guide](smart-pet-feeder-litter-box-planetary-gearheads.md){ .md-button }
-
-## Robotics and Joint-Drive Applications
-
-These existing pages remain available for relevant projects, but they are no longer the primary overseas growth path for the site.
-
-- [Humanoid Robot Joint Actuators](humanoid-robot-joint-actuators.md) — shoulder, elbow, wrist, hip, knee and ankle actuator selection.
-- [Robotic Arm Joint Actuators](robotic-arm-joint-actuators.md) — payload, reach, inertia, torque, brake and control requirements.
-- [Exoskeleton Joint Actuators](exoskeleton-joint-actuators.md) — wearable packaging, torque-speed cycle, mass, thermal and power-off behavior.
-- [Quadruped Robot Joint Gearboxes](quadruped-robot-joint-gearboxes.md) — gait cycle, peak loads, packaging and thermal review.
-- [AGV / AMR Wheel Drive Gearboxes](agv-amr-wheel-drive-gearboxes.md) — vehicle mass, wheel size, speed, slope, traction and braking.
-- [Micro Robotics Gear Motors](micro-robotics-gear-motors.md) — compact joints, small mobile robots and miniature mechanisms.
-
-## Automation and Precision Equipment
-
-- [Industrial Automation Servo Planetary Gearboxes](industrial-automation-servo-planetary-gearboxes.md)
-- [Packaging, Labeling and Conveyor Gear Motors](packaging-labeling-conveyor-gear-motors.md)
-- [Semiconductor, Electronics and Inspection Equipment](semiconductor-electronics-inspection-equipment-gear-motors.md)
-- [Optical, Imaging and Camera Module Gear Motors](optical-imaging-camera-module-gear-motors.md)
-- [Pump, Valve and Fluid Control Gear Motors](pump-valve-fluid-control-gear-motors.md)
-
-## Smart Home, Building and Consumer Mechanisms
-
-- [Access Control, Smart Lock and Security Gear Motors](access-control-smart-lock-security-gear-motors.md)
-- [Consumer Appliance and Home Device Gear Motors](consumer-appliance-home-device-gear-motors.md)
-- [HVAC, Smart Vent and Damper Gear Motors](hvac-smart-vent-damper-gear-motors.md)
-- [Furniture, Seating and Adjustable Mechanism Gear Motors](furniture-seating-adjustable-mechanism-gear-motors.md)
-
-## Commercial and Device Mechanisms
-
-- [Office Automation and Business Equipment Gear Motors](office-automation-business-equipment-gear-motors.md)
-- [Vending, Dispensing and Kiosk Gear Motors](vending-dispensing-kiosk-gear-motors.md)
-- [Food, Beverage and Coffee Equipment Gear Motors](food-beverage-coffee-equipment-gear-motors.md)
-- [Stage Lighting, Display and Signage Gear Motors](stage-lighting-display-signage-gear-motors.md)
-
-## Mobility, Energy and Outdoor Equipment
-
-- [Automotive and Vehicle Small-Motion Gear Motors](automotive-vehicle-small-motion-gear-motors.md)
-- [Energy, Battery and Charging Equipment Actuators](energy-battery-charging-equipment-actuators.md)
-- [Agriculture and Outdoor Equipment Gear Motors](agriculture-outdoor-equipment-gear-motors.md)
-
-## What to Send for an Application Review
-
-You do not need a complete specification to start. Send the information already known:
-
-- Application and mechanism
-- Required output speed or motion time
-- Continuous torque / force or mechanism geometry
-- Peak load, jam or impact event if relevant
-- Supply voltage
-- Maximum diameter and total length
-- Existing motor model / drawing if already selected
-- Output shaft and mounting requirements
-- Duty cycle and environment
-- Prototype quantity and expected annual volume
-
-For a gearbox-only project, a motor drawing is usually the fastest starting point.
-
-[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button .md-button--primary }
-[Open the Engineering Center](../engineering-center/index.md){ .md-button }
-
-## Engineering Contact
-
-**Wanrong Wang**  
-International Sales / Sales Engineer, SigGear  
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+*Application suitability, certification, sealing, lifetime and production configuration require OEM review.*

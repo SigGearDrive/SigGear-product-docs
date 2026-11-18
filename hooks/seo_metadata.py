@@ -122,7 +122,7 @@ def _planetary_model_source_metadata(page) -> dict:
         "applications/robot-gripper-gear-motors.md",
     }
     is_planetary_model = bool(product and product.get("product_family") == "planetary_gearbox")
-    if not is_planetary_model and src not in priority_hubs:
+    if not is_planetary_model and not src.startswith("applications/") and src not in priority_hubs:
         return {}
 
     source = DOCS_DIR / src
