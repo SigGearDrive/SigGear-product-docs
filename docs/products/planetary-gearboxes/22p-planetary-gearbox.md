@@ -7,10 +7,13 @@ description: 22 mm miniature precision planetary gearhead (22P) with published s
 
 ![Real SigGear 22P 22 mm miniature planetary gearbox with diameter check](../../assets/images/products/planetary-gearboxes/22p/22p-real-product-evidence.webp)
 
+[**View 22P Datasheets & CAD Downloads**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#22p-downloads){ .md-button .md-button--primary }
+
 ## Downloads
 
 | File | Status |
 | --- | --- |
+| All 22P downloads | [Open 22P in the download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#22p-downloads) |
 | Online datasheet | [Open 22P datasheet](../../engineering-resources/22p/datasheet.md) |
 | Gearhead Datasheet PDF | [Download 22P PDF](../../assets/downloads/22p/22P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
 | Motor Datasheets (Ø22 mm) | [View eight motor-only PDF sheets](../../engineering-resources/motors/index.md#22-mm-dc-motors) — assembly compatibility to be confirmed |

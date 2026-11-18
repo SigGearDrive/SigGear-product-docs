@@ -7,10 +7,13 @@ description: 16 mm micro precision planetary gearhead (16P) with published stage
 
 ![SigGear 16P 16 mm micro planetary gearbox](../../assets/images/products/planetary-gearboxes/16p/16p-planetary-gearbox-main.webp)
 
+[**View 16P Datasheets & CAD Downloads**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#16p-downloads){ .md-button .md-button--primary }
+
 ## Downloads
 
 | File | Status |
 | --- | --- |
+| All 16P downloads | [Open 16P in the download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#16p-downloads) |
 | Online datasheet | [Open 16P datasheet](../../engineering-resources/16p/datasheet.md) |
 | Gearhead Datasheet PDF | [Download 16P PDF](../../assets/downloads/16p/16P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
 | Motor Datasheets (Ø16 mm) | [View motor-only PDF families](../../engineering-resources/motors/index.md#16-mm-dc-motors) |

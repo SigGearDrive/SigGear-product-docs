@@ -7,10 +7,13 @@ description: 20 mm miniature precision planetary gearhead (20P) with published s
 
 ![SigGear 20P 20 mm miniature planetary gearbox](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-main.webp)
 
+[**View 20P Datasheets & CAD Downloads**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#20p-downloads){ .md-button .md-button--primary }
+
 ## Downloads
 
 | File | Status |
 | --- | --- |
+| All 20P downloads | [Open 20P in the download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#20p-downloads) |
 | Online datasheet | [Open 20P datasheet](../../engineering-resources/20p/datasheet.md) |
 | Gearhead Datasheet PDF | [Download 20P PDF](../../assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
 | Motor Datasheet (Ø20 mm) | [View HR-BL2030-Q120260 PDF](../../engineering-resources/motors/index.md#20-mm-bldc-motor) — motor only; assembly compatibility not confirmed |

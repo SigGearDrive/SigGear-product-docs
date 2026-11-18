@@ -7,10 +7,13 @@ description: 24 mm miniature precision planetary gearhead (24P) with published s
 
 ![Real SigGear 24P 24 mm miniature planetary gearbox with diameter check](../../assets/images/products/planetary-gearboxes/24p/24p-real-product-evidence.webp)
 
+[**View 24P Datasheets & CAD Downloads**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#24p-downloads){ .md-button .md-button--primary }
+
 ## Downloads
 
 | File | Status |
 | --- | --- |
+| All 24P downloads | [Open 24P in the download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#24p-downloads) |
 | Online datasheet | [Open 24P datasheet](../../engineering-resources/24p/datasheet.md) |
 | Gearhead Datasheet PDF | [Download 24P PDF](../../assets/downloads/24p/24P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
 | Motor Datasheet (Ø24 mm) | [BLDC HR-BL2453 datasheet](../../engineering-resources/motors/index.md#24-mm-bldc-motor) — motor only; mating compatibility not verified |
