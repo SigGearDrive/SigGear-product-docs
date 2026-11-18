@@ -49,10 +49,10 @@ The Ø10 mm performance tables are legible re-typeset data with the original dra
 | 030064-180064 | 030064 · 060066 · 090064 · 120064 · 180064 | [Download PDF](../../assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_030064-180064_DraftV0.9.pdf) | Draft V0.9 |
 | 050065-240076 | 050065 · 120061 · 240076 | [Download PDF](../../assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_050065-240076_DraftV0.9.pdf) | Draft V0.9 |
 | 060078-240074 | 060078 · 120075 · 240074 | [Download PDF](../../assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_060078-240074_DraftV0.9.pdf) | Draft V0.9 |
-| 060099-240099 | 060099 · 120098 · 240099 | Upload pending | Draft V0.9 |
-| 060120-240160 | 060120 · 080142 · 120180 · 240160 | Upload pending | Draft V0.9 |
-| 060127-240127 | 060127 · 090127 · 120132 · 180127 · 240127 | Upload pending | Draft V0.9 |
-| 060128-240128 | 060128 · 090131 · 120132 · 180128 · 240128 | Upload pending | Draft V0.9 |
+| 060099-240099 | 060099 · 120098 · 240099 | [Download PDF](../../assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_060099-240099_DraftV0.9.pdf) | Draft V0.9 |
+| 060120-240160 | 060120 · 080142 · 120180 · 240160 | [Download PDF](../../assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_060120-240160_DraftV0.9.pdf) | Draft V0.9 |
+| 060127-240127 | 060127 · 090127 · 120132 · 180127 · 240127 | [Download PDF](../../assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_060127-240127_DraftV0.9.pdf) | Draft V0.9 |
+| 060128-240128 | 060128 · 090131 · 120132 · 180128 · 240128 | [Download PDF](../../assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_060128-240128_DraftV0.9.pdf) | Draft V0.9 |
 
 **Engineering notes for Ø16 mm:** These are motor-only source documents, not a motor + 16P gearhead assembly rating. Source material includes unverified speed/torque-gradient scaling and bearing/duty conditions. The model code **120132** appears in both families 060127–240127 and 060128–240128 with conflicting performance values; verify the controlled winding designation before using its data. In family **030064–180064**, the rated torque equals stall torque for models 090064, 120064 and 180064 in the source; these values are retained as printed, **not independently validated as continuous ratings**.
 

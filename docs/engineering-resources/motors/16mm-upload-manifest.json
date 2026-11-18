@@ -1,0 +1,69 @@
+{
+  "title": "SigGear Ø16 mm DC motor datasheet PDF releases",
+  "published_on": "2026-11-18",
+  "source_revision": "Draft V0.9",
+  "file_integrity": "Original user-supplied PDFs are not modified; public filenames standardized; Git binary SHA checked.",
+  "source_issues": [
+    "120132 appears in two family source sheets with conflicting performance figures; model designation must be confirmed.",
+    "In family 030064–180064, rated torque equals stall torque for models 090064, 120064, and 180064 in the supplied PDF. Values should not be treated as independently confirmed continuous-duty performance.",
+    "Some speed/torque gradient scale, unit notation, and bearing limits are marked as unverified in source documents."
+  ],
+  "files": [
+    {
+      "family": "030063-120062",
+      "bytes": 274783,
+      "sha256": "7f6ed77550cf376decc23bfe673813cc07aa0cfc5168f9aac2d09c373a4f6dad",
+      "git_blob_sha": "c4066f6bea8af02d20e9fc9d03bb294b85bd39a7",
+      "path": "docs/assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_030063-120062_DraftV0.9.pdf"
+    },
+    {
+      "family": "030064-180064",
+      "bytes": 319645,
+      "sha256": "b51ebfa533d8898a9c503090ad2e5b3df171fa54b4eae3666c7a5f83c7bc52b2",
+      "git_blob_sha": "73dff485e142ff16868ca4f12e53df26e8293e6c",
+      "path": "docs/assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_030064-180064_DraftV0.9.pdf"
+    },
+    {
+      "family": "050065-240076",
+      "bytes": 278518,
+      "sha256": "9af6126d634f07aadd86e0b1c475a65331f5b20df0f75a3820c53339a2d7705c",
+      "git_blob_sha": "8f83bc18d954761e867319fb9c3a4bd4bcd6d8a6",
+      "path": "docs/assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_050065-240076_DraftV0.9.pdf"
+    },
+    {
+      "family": "060078-240074",
+      "bytes": 275143,
+      "sha256": "c68e2bc7d9eb2a26dc89058d610e76b0ec907ba2f2686f67dfe07440f76bb9f0",
+      "git_blob_sha": "f52d6e93607f71277ef2df67e9dc42768faffeaa",
+      "path": "docs/assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_060078-240074_DraftV0.9.pdf"
+    },
+    {
+      "family": "060099-240099",
+      "bytes": 211025,
+      "sha256": "ae7fd2fbd8eff101d5c5e7d66be7bfa0b7f5e710471240298b76c3cc711a8d27",
+      "git_blob_sha": "4332bfa5d11d2e735694032911e7905b81f31e67",
+      "path": "docs/assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_060099-240099_DraftV0.9.pdf"
+    },
+    {
+      "family": "060120-240160",
+      "bytes": 176543,
+      "sha256": "fc89bb75e4037eeeb3d1d629b22e1a447064d3fbe9d22a21cbfd4fd3321b3f54",
+      "git_blob_sha": "d177cbab71581c0cf8ba4802c1911f615462473e",
+      "path": "docs/assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_060120-240160_DraftV0.9.pdf"
+    },
+    {
+      "family": "060127-240127",
+      "bytes": 197612,
+      "sha256": "f7115616fa6312fb789e8e36e43e1a62374a2b95b5156be20cc596249b8dea91",
+      "git_blob_sha": "93b4bc513098841510e5042ff9b6ce0bdbfe7ec3",
+      "path": "docs/assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_060127-240127_DraftV0.9.pdf"
+    },
+    {
+      "family": "060128-240128",
+      "bytes": 187142,
+      "sha256": "46c1ca28353386e29557cc344de7fa2e0ebe0e0e0ed9af9968b327acdd8339b3",
+      "git_blob_sha": "976f50a321b3a3c25e690601f17f0f1ff1db87ea",
+      "path": "docs/assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_060128-240128_DraftV0.9.pdf"
+    }
+  ]
+}
