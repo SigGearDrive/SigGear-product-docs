@@ -7,17 +7,18 @@ description: Browse SigGear precision planetary gearheads, robot joint actuators
 
 ## Precision Planetary Gearheads | 8–42 mm
 
-**12 standard models · Micro · Miniature · Compact**
+**12 models, Ø8–42 mm · Direct access to PDF datasheets, 2D drawings and complete STEP CAD.**
 
-[**Browse all 12 models and download resources**](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md)
+[**Download all PDF / 2D / Full STEP**](engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
+[**Compare 12 models**](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
 
 | Product class | Models |
 | --- | --- |
-| **Micro · 8–16 mm** | [8P](products/planetary-gearboxes/8p-planetary-gearbox.md) · [10P](products/planetary-gearboxes/10p-planetary-gearbox.md) · [12P](products/planetary-gearboxes/12p-planetary-gearbox.md) · [14P](products/planetary-gearboxes/14p-planetary-gearbox.md) · [16P](products/planetary-gearboxes/16p-planetary-gearbox.md) |
-| **Miniature · 20–32 mm** | [20P](products/planetary-gearboxes/20p-planetary-gearbox.md) · [22P](products/planetary-gearboxes/22p-planetary-gearbox.md) · [24P](products/planetary-gearboxes/24p-planetary-gearbox.md) · [28P](products/planetary-gearboxes/28p-planetary-gearbox.md) · [32P](products/planetary-gearboxes/32p-planetary-gearbox.md) |
-| **Compact · 36–42 mm** | [36P](products/planetary-gearboxes/36p-planetary-gearbox.md) · [42P](products/planetary-gearboxes/42p-planetary-gearbox.md) |
+| [**Micro · 8–16 mm**](products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md) | [8P](products/planetary-gearboxes/8p-planetary-gearbox.md) · [10P](products/planetary-gearboxes/10p-planetary-gearbox.md) · [12P](products/planetary-gearboxes/12p-planetary-gearbox.md) · [14P](products/planetary-gearboxes/14p-planetary-gearbox.md) · [16P](products/planetary-gearboxes/16p-planetary-gearbox.md) |
+| [**Miniature · 20–32 mm**](products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md) | [20P](products/planetary-gearboxes/20p-planetary-gearbox.md) · [22P](products/planetary-gearboxes/22p-planetary-gearbox.md) · [24P](products/planetary-gearboxes/24p-planetary-gearbox.md) · [28P](products/planetary-gearboxes/28p-planetary-gearbox.md) · [32P](products/planetary-gearboxes/32p-planetary-gearbox.md) |
+| [**Compact · 36–42 mm**](products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md) | [36P](products/planetary-gearboxes/36p-planetary-gearbox.md) · [42P](products/planetary-gearboxes/42p-planetary-gearbox.md) |
 
-[**Download 2D Outline Drawings · Gearhead Datasheets · STEP CAD (8P–42P)**](engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
+[**Find the exact ratio and stage using operating speed**](selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
 
 <div class="siggear-planetary-photo-grid">
   <figure>

@@ -1,28 +1,22 @@
 ---
 title: 10 mm Micro Precision Planetary Gearhead (10P) | SigGear
-description: 10 mm micro precision planetary gearhead (10P) with published stage data, dimensions, datasheet and CAD access.
+description: "SigGear 10P (10 mm) micro planetary gearhead/gearbox: ratio 3.5:1–428.7:1, rated torque 127.5–196.1 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
 ---
 
 # 10 mm Micro Precision Planetary Gearhead (10P)
 
-![SigGear 10P 10 mm micro planetary gearbox](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-main.webp)
+[**Download Datasheet PDF**](../../assets/downloads/10p/10P_Planetary_Gearhead_Datasheet_Rev1.0.pdf){ .md-button .md-button--primary }
+[**Download 2D Drawing PDF**](../../assets/downloads/10p/10P_2D_Drawing.pdf){ .md-button }
+[**Download Full Assembly STEP**](../../assets/downloads/10p/10P_Full_Assembly.step){ .md-button }
 
-[**View 10P Datasheets & CAD Downloads**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#10p-downloads){ .md-button .md-button--primary }
+| Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
+| --- | --- | --- | --- | --- |
+| **10 mm** | **3.5:1–428.7:1** | **10.25–18.50 mm** | **127.5–196.1 mN·m** | **≤ 1.5°** |
 
-## Downloads
+**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/10p/datasheet.md) · [Simplified 4-stage STEP](../../assets/downloads/10p/10P_Public_Simplified_STEP_v1.0_4-Stage.step) · [Mechanical drawing preview](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-dimensions.webp) · [Motor-only datasheets](../../engineering-resources/motors/index.md#10-mm-dc-motors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
-| File | Status |
-| --- | --- |
-| All 10P downloads | [Open 10P in the download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#10p-downloads) |
-| Online datasheet | [Open 10P datasheet](../../engineering-resources/10p/datasheet.md) |
-| Gearhead Datasheet PDF | [Download 10P PDF](../../assets/downloads/10p/10P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
-| Motor Datasheets (Ø10 mm) | [Download motor-only PDFs](../../engineering-resources/motors/index.md#10-mm-dc-motors) |
-| 2D drawing PDF | [Download 10P outline drawing](../../assets/downloads/10p/10P_2D_Drawing.pdf) · SG01PD10 |
-| Full assembly STEP | [Download 10P Full Assembly STEP](../../assets/downloads/10p/10P_Full_Assembly.step) |
-| Dimension preview | [View dimension preview](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-dimensions.webp) |
-| Simplified STEP | [Download 4-stage reference](../../assets/downloads/10p/10P_Public_Simplified_STEP_v1.0_4-Stage.step) |
+![SigGear 10P 10 mm micro planetary gearhead](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-main.webp){ width="260" loading="lazy" }
 
-## Product Specifications
 
 ## Product Identity
 

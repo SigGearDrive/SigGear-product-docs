@@ -1,28 +1,22 @@
 ---
 title: 8 mm Micro Precision Planetary Gearhead (8P) | SigGear
-description: 8 mm micro precision planetary gearhead (8P) with published stage data, dimensions, datasheet and CAD access.
+description: "SigGear 8P (8 mm) micro planetary gearhead/gearbox: ratio 3.8:1–731.16:1, rated torque 19.6–39.2 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
 ---
 
 # 8 mm Micro Precision Planetary Gearhead (8P)
 
-![SigGear 8P 8 mm micro planetary gearbox — product photo](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-main.webp)
+[**Download Datasheet PDF**](../../assets/downloads/8p/8P_Planetary_Gearhead_Datasheet_Rev1.0.pdf){ .md-button .md-button--primary }
+[**Download 2D Drawing PDF**](../../assets/downloads/8p/8P_2D_Drawing.pdf){ .md-button }
+[**Download Full Assembly STEP**](../../assets/downloads/8p/8P_Full_Assembly.step){ .md-button }
 
-[**View 8P Datasheets & CAD Downloads**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#8p-downloads){ .md-button .md-button--primary }
+| Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
+| --- | --- | --- | --- | --- |
+| **8 mm** | **3.8:1–731.16:1** | **10.15–18.10 mm** | **19.6–39.2 mN·m** | **≤ 1.5°** |
 
-## Downloads
+**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/8p/datasheet.md) · [Simplified 4-stage STEP](../../assets/downloads/8p/8P_Public_Simplified_STEP_v1.0_4-Stage.step) · [Mechanical drawing preview](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-dimensions.webp) · [Motor-only datasheets](../../engineering-resources/motors/index.md#8-mm-dc-micromotors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
-| File | Status |
-| --- | --- |
-| All 8P downloads | [Open 8P in the download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#8p-downloads) |
-| Online datasheet | [Open 8P datasheet](../../engineering-resources/8p/datasheet.md) |
-| Gearhead Datasheet PDF | [Download 8P PDF](../../assets/downloads/8p/8P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
-| Motor Datasheets (Ø8 mm) | [Download motor-only PDFs](../../engineering-resources/motors/index.md#8-mm-dc-micromotors) |
-| 2D drawing PDF | [Download 8P outline drawing](../../assets/downloads/8p/8P_2D_Drawing.pdf) · SG01PD08 |
-| Full assembly STEP | [Download 8P Full Assembly STEP](../../assets/downloads/8p/8P_Full_Assembly.step) |
-| Dimension preview | [View dimension preview](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-dimensions.webp) |
-| Simplified STEP | [Download 4-stage reference](../../assets/downloads/8p/8P_Public_Simplified_STEP_v1.0_4-Stage.step) |
+![SigGear 8P 8 mm micro planetary gearhead — product photo](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-main.webp){ width="260" loading="lazy" }
 
-## Product Specifications
 
 ## Product Identity
 

@@ -1,28 +1,22 @@
 ---
 title: 16 mm Micro Precision Planetary Gearhead (16P) | SigGear
-description: 16 mm micro precision planetary gearhead (16P) with published stage data, dimensions, datasheet and CAD access.
+description: "SigGear 16P (16 mm) micro planetary gearhead/gearbox: ratio 3.85:1–459.5:1, rated torque 392.3–882.6 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
 ---
 
 # 16 mm Micro Precision Planetary Gearhead (16P)
 
-![SigGear 16P 16 mm micro planetary gearbox](../../assets/images/products/planetary-gearboxes/16p/16p-planetary-gearbox-main.webp)
+[**Download Datasheet PDF**](../../assets/downloads/16p/16P_Planetary_Gearhead_Datasheet_Rev1.0.pdf){ .md-button .md-button--primary }
+[**Download 2D Drawing PDF**](../../assets/downloads/16p/16P_2D_Drawing.pdf){ .md-button }
+[**Download Full Assembly STEP**](../../assets/downloads/16p/16P_Full_Assembly.step){ .md-button }
 
-[**View 16P Datasheets & CAD Downloads**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#16p-downloads){ .md-button .md-button--primary }
+| Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
+| --- | --- | --- | --- | --- |
+| **16 mm** | **3.85:1–459.5:1** | **17.55–30.45 mm** | **392.3–882.6 mN·m** | **≤ 1.5°** |
 
-## Downloads
+**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/16p/datasheet.md) · [Simplified 4-stage STEP](../../assets/downloads/16p/16P_Public_Simplified_STEP_v1.0_4-Stage.step) · [Mechanical drawing preview](../../assets/images/products/planetary-gearboxes/16p/16p-planetary-gearbox-dimensions.webp) · [Motor-only datasheets](../../engineering-resources/motors/index.md#16-mm-dc-motors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
-| File | Status |
-| --- | --- |
-| All 16P downloads | [Open 16P in the download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#16p-downloads) |
-| Online datasheet | [Open 16P datasheet](../../engineering-resources/16p/datasheet.md) |
-| Gearhead Datasheet PDF | [Download 16P PDF](../../assets/downloads/16p/16P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
-| Motor Datasheets (Ø16 mm) | [View motor-only PDF families](../../engineering-resources/motors/index.md#16-mm-dc-motors) |
-| 2D drawing PDF | [Download 16P outline drawing](../../assets/downloads/16p/16P_2D_Drawing.pdf) · SG01PD16 |
-| Full assembly STEP | [Download 16P Full Assembly STEP](../../assets/downloads/16p/16P_Full_Assembly.step) |
-| Dimension preview | [View dimension preview](../../assets/images/products/planetary-gearboxes/16p/16p-planetary-gearbox-dimensions.webp) |
-| Simplified STEP | [Download 4-stage reference](../../assets/downloads/16p/16P_Public_Simplified_STEP_v1.0_4-Stage.step) |
+![SigGear 16P 16 mm micro planetary gearhead](../../assets/images/products/planetary-gearboxes/16p/16p-planetary-gearbox-main.webp){ width="260" loading="lazy" }
 
-## Product Specifications
 
 ## Product Identity
 

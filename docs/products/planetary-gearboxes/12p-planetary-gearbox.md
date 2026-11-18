@@ -1,28 +1,22 @@
 ---
 title: 12 mm Micro Precision Planetary Gearhead (12P) | SigGear
-description: 12 mm micro precision planetary gearhead (12P) with published stage data, dimensions, datasheet and CAD access.
+description: "SigGear 12P (12 mm) micro planetary gearhead/gearbox: ratio 3.5:1–509.1:1, rated torque 196.1–411.9 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
 ---
 
 # 12 mm Micro Precision Planetary Gearhead (12P)
 
-![SigGear 12P 12 mm micro planetary gearbox](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearbox-main.webp)
+[**Download Datasheet PDF**](../../assets/downloads/12p/12P_Planetary_Gearhead_Datasheet_Rev1.1.pdf){ .md-button .md-button--primary }
+[**Download 2D Drawing PDF**](../../assets/downloads/12p/12P_2D_Drawing.pdf){ .md-button }
+[**Download Full Assembly STEP**](../../assets/downloads/12p/12P_Full_Assembly.step){ .md-button }
 
-[**View 12P Datasheets & CAD Downloads**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#12p-downloads){ .md-button .md-button--primary }
+| Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
+| --- | --- | --- | --- | --- |
+| **12 mm** | **3.5:1–509.1:1** | **11.35–19.60 mm** | **196.1–411.9 mN·m** | **≤ 1.5°** |
 
-## Downloads
+**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/12p/datasheet.md) · [Simplified 4-stage STEP](../../assets/downloads/12p/12P_Public_Simplified_STEP_v1.0_4-Stage.step) · [Mechanical drawing preview](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearbox-dimensions.webp) · [Motor-only datasheets](../../engineering-resources/motors/index.md#12-mm-coreless-bldc-motor) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
-| File | Status |
-| --- | --- |
-| All 12P downloads | [Open 12P in the download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#12p-downloads) |
-| Online datasheet | [Open 12P datasheet](../../engineering-resources/12p/datasheet.md) |
-| Gearhead Datasheet PDF | [Download 12P PDF](../../assets/downloads/12p/12P_Planetary_Gearhead_Datasheet_Rev1.1.pdf) |
-| Motor Datasheets (Ø12 mm) | [Download motor-only PDFs](../../engineering-resources/motors/index.md#12-mm-coreless-bldc-motor) |
-| 2D drawing PDF | [Download 12P outline drawing](../../assets/downloads/12p/12P_2D_Drawing.pdf) · SG01PD12 |
-| Full assembly STEP | [Download 12P Full Assembly STEP](../../assets/downloads/12p/12P_Full_Assembly.step) |
-| Dimension preview | [View dimension preview](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearbox-dimensions.webp) |
-| Simplified STEP | [Download 4-stage reference](../../assets/downloads/12p/12P_Public_Simplified_STEP_v1.0_4-Stage.step) |
+![SigGear 12P 12 mm micro planetary gearhead](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearbox-main.webp){ width="260" loading="lazy" }
 
-## Product Specifications
 
 ## Product Identity
 

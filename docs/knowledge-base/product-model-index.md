@@ -26,7 +26,7 @@ Use this page to locate the canonical public page for a SigGear product model or
 
 ## 8P–42P Planetary Gearboxes (8–42 mm)
 
-The 12 published nominal frame sizes cover **Micro (8–16 mm)**, **Miniature (20–32 mm)** and **Compact (36–42 mm)** planetary gearboxes. Follow each model link for its own datasheet, stage/ratio table and simplified four-stage STEP reference; dimensions and motor matching are configuration-dependent.
+The 12 published frame sizes cover **Micro (8–16 mm)**, **Miniature (20–32 mm)** and **Compact (36–42 mm)** precision planetary gearheads. Model pages give direct Datasheet PDF, original 2D drawing and full STEP links, plus stage/ratio tables. Confirm configuration-dependent length and motor interface.
 
 | Model | Public page |
 | --- | --- |
@@ -43,6 +43,9 @@ The 12 published nominal frame sizes cover **Micro (8–16 mm)**, **Miniature (2
 | 36P | [36 mm Compact Planetary Gearbox](../products/planetary-gearboxes/36p-planetary-gearbox.md) |
 | 42P | [42 mm Compact Planetary Gearbox](../products/planetary-gearboxes/42p-planetary-gearbox.md) |
 | 8–42 mm Series | [Series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) |
+| Micro 8–16 mm | [Micro model comparison / downloads](../products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md) |
+| Miniature 20–32 mm | [Miniature model comparison / downloads](../products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md) |
+| Compact 36–42 mm | [Compact model comparison / downloads](../products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md) |
 
 ## Hub Gear Motors
 

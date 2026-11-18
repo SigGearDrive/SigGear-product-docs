@@ -1,28 +1,22 @@
 ---
 title: 22 mm Miniature Precision Planetary Gearhead (22P) | SigGear
-description: 22 mm miniature precision planetary gearhead (22P) with published stage data, dimensions, datasheet and CAD access.
+description: "SigGear 22P (22 mm) miniature planetary gearhead/gearbox: ratio 3.5:1–509.1:1, rated torque 784.5–2451.7 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
 ---
 
 # 22 mm Miniature Precision Planetary Gearhead (22P)
 
-![Real SigGear 22P 22 mm miniature planetary gearbox with diameter check](../../assets/images/products/planetary-gearboxes/22p/22p-real-product-evidence.webp)
+[**Download Datasheet PDF**](../../assets/downloads/22p/22P_Planetary_Gearhead_Datasheet_Rev1.0.pdf){ .md-button .md-button--primary }
+[**Download 2D Drawing PDF**](../../assets/downloads/22p/22P_2D_Drawing.pdf){ .md-button }
+[**Download Full Assembly STEP**](../../assets/downloads/22p/22P_Full_Assembly.step){ .md-button }
 
-[**View 22P Datasheets & CAD Downloads**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#22p-downloads){ .md-button .md-button--primary }
+| Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
+| --- | --- | --- | --- | --- |
+| **22 mm** | **3.5:1–509.1:1** | **22.6–38.5 mm** | **784.5–2451.7 mN·m** | **≤ 1.5°** |
 
-## Downloads
+**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/22p/datasheet.md) · [Simplified 4-stage STEP](../../assets/downloads/22p/22P_Public_Simplified_STEP_v1.0_4-Stage.step) · [Mechanical drawing preview](../../engineering-resources/22p/mechanical-interface.md) · [Motor-only datasheets](../../engineering-resources/motors/index.md#22-mm-dc-motors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
-| File | Status |
-| --- | --- |
-| All 22P downloads | [Open 22P in the download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#22p-downloads) |
-| Online datasheet | [Open 22P datasheet](../../engineering-resources/22p/datasheet.md) |
-| Gearhead Datasheet PDF | [Download 22P PDF](../../assets/downloads/22p/22P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
-| Motor Datasheets (Ø22 mm) | [View eight motor-only PDF sheets](../../engineering-resources/motors/index.md#22-mm-dc-motors) — assembly compatibility to be confirmed |
-| 2D drawing PDF | [Download 22P outline drawing](../../assets/downloads/22p/22P_2D_Drawing.pdf) · SG01PD22 |
-| Full assembly STEP | [Download 22P Full Assembly STEP](../../assets/downloads/22p/22P_Full_Assembly.step) |
-| Dimension preview | [View mechanical interface](../../engineering-resources/22p/mechanical-interface.md) |
-| Simplified STEP | [Download 4-stage reference](../../assets/downloads/22p/22P_Public_Simplified_STEP_v1.0_4-Stage.step) |
+![Real SigGear 22P 22 mm miniature planetary gearhead with diameter check](../../assets/images/products/planetary-gearboxes/22p/22p-real-product-evidence.webp){ width="260" loading="lazy" }
 
-## Product Specifications
 
 ## Product Identity
 

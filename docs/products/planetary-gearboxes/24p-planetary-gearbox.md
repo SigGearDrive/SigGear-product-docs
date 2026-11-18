@@ -1,28 +1,22 @@
 ---
 title: 24 mm Miniature Precision Planetary Gearhead (24P) | SigGear
-description: 24 mm miniature precision planetary gearhead (24P) with published stage data, dimensions, datasheet and CAD access.
+description: "SigGear 24P (24 mm) miniature planetary gearhead/gearbox: ratio 3.83:1–759.7:1, rated torque 980.7–2942.0 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
 ---
 
 # 24 mm Miniature Precision Planetary Gearhead (24P)
 
-![Real SigGear 24P 24 mm miniature planetary gearbox with diameter check](../../assets/images/products/planetary-gearboxes/24p/24p-real-product-evidence.webp)
+[**Download Datasheet PDF**](../../assets/downloads/24p/24P_Planetary_Gearhead_Datasheet_Rev1.0.pdf){ .md-button .md-button--primary }
+[**Download 2D Drawing PDF**](../../assets/downloads/24p/24P_2D_Drawing.pdf){ .md-button }
+[**Download Full Assembly STEP**](../../assets/downloads/24p/24P_Full_Assembly.step){ .md-button }
 
-[**View 24P Datasheets & CAD Downloads**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#24p-downloads){ .md-button .md-button--primary }
+| Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
+| --- | --- | --- | --- | --- |
+| **24 mm** | **3.83:1–759.7:1** | **24.6–42.0 mm** | **980.7–2942.0 mN·m** | **≤ 1.2°** |
 
-## Downloads
+**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/24p/datasheet.md) · [Simplified 4-stage STEP](../../assets/downloads/24p/24P_Public_Simplified_STEP_v1.0_4-Stage.step) · [Mechanical drawing preview](../../engineering-resources/24p/mechanical-interface.md) · [Motor-only datasheets](../../engineering-resources/motors/index.md#24-mm-bldc-motor) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
-| File | Status |
-| --- | --- |
-| All 24P downloads | [Open 24P in the download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#24p-downloads) |
-| Online datasheet | [Open 24P datasheet](../../engineering-resources/24p/datasheet.md) |
-| Gearhead Datasheet PDF | [Download 24P PDF](../../assets/downloads/24p/24P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
-| Motor Datasheet (Ø24 mm) | [BLDC HR-BL2453 datasheet](../../engineering-resources/motors/index.md#24-mm-bldc-motor) — motor only; mating compatibility not verified |
-| 2D drawing PDF | [Download 24P outline drawing](../../assets/downloads/24p/24P_2D_Drawing.pdf) · SG01PD24 |
-| Full assembly STEP | [Download 24P Full Assembly STEP](../../assets/downloads/24p/24P_Full_Assembly.step) |
-| Dimension preview | [View mechanical interface](../../engineering-resources/24p/mechanical-interface.md) |
-| Simplified STEP | [Download 4-stage reference](../../assets/downloads/24p/24P_Public_Simplified_STEP_v1.0_4-Stage.step) |
+![Real SigGear 24P 24 mm miniature planetary gearhead with diameter check](../../assets/images/products/planetary-gearboxes/24p/24p-real-product-evidence.webp){ width="260" loading="lazy" }
 
-## Product Specifications
 
 ## Product Identity
 

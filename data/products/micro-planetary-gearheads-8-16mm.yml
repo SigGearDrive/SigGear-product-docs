@@ -1,0 +1,41 @@
+schema_version: 1
+record_id: micro-planetary-gearheads-8-16mm
+record_type: series
+display_name: 8–16 mm Micro Precision Planetary Gearheads
+product_family: planetary_gearbox
+canonical_page: docs/products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md
+public_page_status: published
+record_status: published_inventory
+configuration_summary: Nominal diameter, ratio, stage, continuous torque, shaft dimensions and motor interface require configuration-specific selection.
+published_specifications:
+  nominal_outer_diameter_range: "8–16 mm"
+published_variants:
+  8P: "8 mm"
+  10P: "10 mm"
+  12P: "12 mm"
+  14P: "14 mm"
+  16P: "16 mm"
+sales_usage:
+  permitted:
+    - product_family_introduction
+    - preliminary_size_shortlisting
+  requires_confirmation:
+    - selected_diameter_ratio_and_stage_count
+    - torque_speed_and_motor_matching
+    - gearbox_length_and_output_shaft
+    - backlash_efficiency_noise_and_service_life
+    - radial_axial_and_overturning_loads
+    - final_mounting_and_input_interface
+  prohibited:
+    - transfer_one_size_or_stage_specification_to_another
+    - promise_unreviewed_ratio_torque_or_length
+    - use_a_family_page_as_a_final_selection_datasheet
+technical_review:
+  public_inventory_status: complete
+  controlled_source_reference: not_recorded_in_public_repository
+  technical_approval_status: not_recorded_in_public_repository
+  next_internal_action: reconcile_each_selected_configuration_with_its_controlled_source
+source_control:
+  public_claim_source: canonical_page
+  technical_source_status: not_recorded_in_public_repository
+inventory_checked_on: "2026-11-18"

@@ -5,12 +5,13 @@ description: Explore SigGear 8–42 mm precision planetary gearheads in 12 Micro
 
 # Precision Planetary Gearheads
 
-SigGear's standard planetary gearhead range covers **12 frame sizes from 8 mm to 42 mm**.
+**Choose a size, inspect rated torque and download original engineering files.**
 
-- **Micro:** 8P–16P
-- **Miniature:** 20P–32P
-- **Compact:** 36P–42P
+| Gearhead series | Sizes | Select and download |
+| --- | --- | --- |
+| **Micro** | 8P · 10P · 12P · 14P · 16P | [8–16 mm specifications & files](micro-planetary-gearheads-8-16mm.md) |
+| **Miniature** | 20P · 22P · 24P · 28P · 32P | [20–32 mm specifications & files](miniature-planetary-gearheads-20-32mm.md) |
+| **Compact** | 36P · 42P | [36–42 mm specifications & files](compact-planetary-gearheads-36-42mm.md) |
 
-[**Browse all 12 models and published parameters**](8-42mm-planetary-gear-reducer.md)
-
-[Download all 12 PDF datasheets, original 2D mechanical drawings and full-assembly STEP CAD](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md)
+[**All 12 PDFs, 2D drawings & full STEP files**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
+[**Compare all model specs**](8-42mm-planetary-gear-reducer.md){ .md-button }
