@@ -1,27 +1,22 @@
 ---
 title: 42 mm Compact Precision Planetary Gearhead (42P) | SigGear
-description: 42 mm compact precision planetary gearhead (42P) with published stage data, dimensions, datasheet and CAD access.
+description: SigGear 42P (42 mm) compact planetary gearhead/gearbox: ratio 3.8:1–660.7:1, rated torque 7845.3–14710.0 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD.
 ---
 
 # 42 mm Compact Precision Planetary Gearhead (42P)
 
-![Real SigGear 42P 42 mm compact planetary gearbox with diameter check](../../assets/images/products/planetary-gearboxes/42p/42p-real-product-evidence.webp)
+[**Download Datasheet PDF**](../../assets/downloads/42p/42P_Planetary_Gearhead_Datasheet_Rev1.0.pdf){ .md-button .md-button--primary }
+[**Download 2D Drawing PDF**](../../assets/downloads/42p/42P_2D_Drawing.pdf){ .md-button }
+[**Download Full Assembly STEP**](../../assets/downloads/42p/42P_Full_Assembly.step){ .md-button }
 
-[**View 42P Datasheets & CAD Downloads**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#42p-downloads){ .md-button .md-button--primary }
+| Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
+| --- | --- | --- | --- | --- |
+| **42 mm** | **3.8:1–660.7:1** | **35.6–69.5 mm** | **7845.3–14710.0 mN·m** | **≤ 1.2°** |
 
-## Downloads
+**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/42p/datasheet.md) · [Simplified 4-stage STEP](../../assets/downloads/42p/42P_Public_Simplified_STEP_v1.0_4-Stage.step) · [Mechanical drawing preview](../../engineering-resources/42p/mechanical-interface.md) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
-| File | Status |
-| --- | --- |
-| All 42P downloads | [Open 42P in the download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#42p-downloads) |
-| Online datasheet | [Open 42P datasheet](../../engineering-resources/42p/datasheet.md) |
-| Gearhead Datasheet PDF | [Download 42P PDF](../../assets/downloads/42p/42P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
-| 2D drawing PDF | [Download 42P outline drawing](../../assets/downloads/42p/42P_2D_Drawing.pdf) · SG01PD42 |
-| Full assembly STEP | [Download 42P Full Assembly STEP](../../assets/downloads/42p/42P_Full_Assembly.step) |
-| Dimension preview | [View mechanical interface](../../engineering-resources/42p/mechanical-interface.md) |
-| Simplified STEP | [Download 4-stage reference](../../assets/downloads/42p/42P_Public_Simplified_STEP_v1.0_4-Stage.step) |
+![Real SigGear 42P 42 mm compact planetary gearhead with diameter check](../../assets/images/products/planetary-gearboxes/42p/42p-real-product-evidence.webp){ width="260" loading="lazy" }
 
-## Product Specifications
 
 ## Product Identity
 
