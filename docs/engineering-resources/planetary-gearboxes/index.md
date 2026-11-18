@@ -7,7 +7,7 @@ description: Direct links to model-specific datasheets and mechanical interface 
 
 [**Open the 8–42 mm product download centre**](public-cad-release-v1.md)
 
-Full assembly STEP downloads are now available for **8P, 10P, 12P and 14P**. Other model releases and all 2D drawing PDFs will be added after their source files are uploaded and checked.
+All **12 models from 8P to 42P** have publicly available **Gearhead Datasheet PDFs**, **full assembly STEP** files and **4-stage simplified STEP** references. Model-specific 2D drawing PDFs remain pending. Download links are on the [central Datasheets & CAD page](public-cad-release-v1.md). Separate motor-only technical PDFs are available in the [Motor Datasheets download centre](../motors/index.md).
 
 | Model | Datasheet | Mechanical Interface |
 | --- | --- | --- |
