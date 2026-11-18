@@ -131,12 +131,28 @@
       esc(label || item.model) + "</a>";
   }
 
+  // These links point to the same released model files used by the public catalogue.
+  // They are not stage-specific CAD approvals; the 2D drawing is configuration-dependent.
+  function engineeringFileLinks(item) {
+    var model = String(item.model || "").toUpperCase();
+    if (!/^(8|10|12|14|16|20|22|24|28|32|36|42)P$/.test(model)) return "";
+    var dir = "../../assets/downloads/" + model.toLowerCase() + "/";
+    var revision = model === "12P" ? "Rev1.1" : "Rev1.0";
+    return "<span class=\"siggear-result-downloads\">" +
+      "<a href=\"" + dir + model + "_Planetary_Gearhead_Datasheet_" + revision +
+      ".pdf\">PDF</a>" +
+      "<a href=\"" + dir + model + "_2D_Drawing.pdf\">2D Drawing</a>" +
+      "<a href=\"" + dir + model + "_Full_Assembly.step\">Full STEP</a>" +
+      "</span>";
+  }
+
   function benchmarkCard(title, item, detail) {
     if (!item) return "";
     return "<div class=\"siggear-candidate-card\">" +
       "<strong>" + esc(title) + "</strong>" +
       "<span>" + candidateLink(item, item.model + " · " + item.stage + "-stage · " + fmt(item.ratio, 2) + ":1") + "</span>" +
       "<small>" + esc(detail) + "</small>" +
+      engineeringFileLinks(item) +
       "</div>";
   }
 
@@ -310,15 +326,10 @@
     });
 
     summary.innerHTML =
-      "<strong>Preliminary target ratio: " + fmt(targetRatio, 2) + ":1.</strong> " +
-      "The tool first applies the limits you entered, then compares the remaining published configurations. " +
-      (ratioToleranceActive ?
-        "A maximum ratio difference of " + fmt(maxRatioDiff, 2) + "% is active. " :
-        "No maximum ratio-difference filter is active. ") +
-      "Continuous torque is checked against published rated limits" +
-      (requiredTorque !== null ? " (" + torqueDisplay(requiredTorque) + ")" : "") + ". " +
-      (peakTorque !== null ? "Peak torque uses published momentary limits (" + torqueDisplay(peakTorque) + "); duration and frequency remain unverified. " : "") +
-      "No safety factor or final motor compatibility has been assumed.";
+      "<strong>Target ratio: " + fmt(targetRatio, 2) + ":1.</strong> " +
+      "Matches use published stage/ratio and rated allowable torque." +
+      (ratioToleranceActive ? " Max ratio difference: " + fmt(maxRatioDiff, 2) + "%." : "") +
+      " Download the model files below; exact mating, duty cycle and peak duration need review.";
 
     if (!candidates.length) {
       var noResultDetails = exclusions.length ?
@@ -395,7 +406,8 @@
         "<td>" + torqueDisplay(item.rated) + "</td>" +
         "<td>" + fmt(item.efficiency, 0) + "%</td>" +
         "<td>" + (signals.length ? esc(signals.join(" · ")) : "Candidate") + "</td>" +
-        "<td><a href=\"../../engineering-resources/" + slug + "/datasheet/\">Datasheet</a><br>" +
+        "<td>" + engineeringFileLinks(item) + "<br>" +
+        "<a href=\"../../engineering-resources/" + slug + "/datasheet/\">Specs</a> · " +
         "<a href=\"../../engineering-resources/" + slug + "/mechanical-interface/\">Interface</a><br>" +
         "<a href=\"../../engineering-resources/planetary-gearboxes/candidate-design-in-pack/?model=" +
         encodeURIComponent(item.model) + "&stage=" + encodeURIComponent(item.stage) +
@@ -431,7 +443,8 @@
         "<td>" + fmt(item.length, 2) + " mm</td>" +
         "<td>" + torqueDisplay(item.rated) + "</td>" +
         "<td>" + fmt(item.efficiency, 0) + "%</td>" +
-        "<td><a href=\"../../engineering-resources/" + slug + "/datasheet/\">Datasheet</a><br>" +
+        "<td>" + engineeringFileLinks(item) + "<br>" +
+        "<a href=\"../../engineering-resources/" + slug + "/datasheet/\">Specs</a> · " +
         "<a href=\"../../engineering-resources/planetary-gearboxes/candidate-design-in-pack/?model=" +
         encodeURIComponent(item.model) + "&stage=" + encodeURIComponent(item.stage) +
         "&ratio=" + encodeURIComponent(item.ratio) + "\">Design-In pack</a><br>" +
@@ -442,8 +455,8 @@
     }).join("");
 
     results.innerHTML =
-      "<h3>Candidate Frame Comparison</h3>" +
-      "<p>Each frame appears once using its closest published ratio after the active filters. These labels are comparison signals, not final recommendations.</p>" +
+      "<h3>Matching Frames — View Specs or Download Files</h3>" +
+      "<p>One closest published ratio per surviving frame; preliminary comparison only.</p>" +
       cards +
       "<div class=\"siggear-selector-table-wrap\"><table>" +
       "<thead><tr>" +
@@ -451,6 +464,7 @@
       "<th>Ratio difference</th><th>Gearbox length</th><th>Rated torque</th>" +
       "<th>Published stage efficiency</th><th>First-check signal</th><th>Next</th>" +
       "</tr></thead><tbody>" + frameRows + "</tbody></table></div>" +
+      "<details class=\"siggear-more-results\"><summary>More configurations and excluded models</summary>" +
       excludedHtml +
       "<h3>Closest Published Configurations</h3>" +
       "<div class=\"siggear-selector-table-wrap\"><table>" +
@@ -458,7 +472,7 @@
       "<th>Model</th><th>Diameter</th><th>Stage</th><th>Published ratio</th>" +
       "<th>Estimated output</th><th>Ratio difference</th><th>Gearbox length</th>" +
       "<th>Rated torque</th><th>Published stage efficiency</th><th>Next</th>" +
-      "</tr></thead><tbody>" + configurationRows + "</tbody></table></div>" +
+      "</tr></thead><tbody>" + configurationRows + "</tbody></table></div></details>" +
       "<p class=\"siggear-selector-note\">The continuous-torque filter uses published rated allowable torque only. " +
       "Maximum momentary torque is never used as a continuous rating. Smallest frame, shortest gearbox and closest ratio answer different questions; none proves final suitability. " +
       "Published stage efficiency is a reference value; ratio-dependent efficiency has not been separately verified. " +

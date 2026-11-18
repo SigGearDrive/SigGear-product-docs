@@ -25,7 +25,7 @@ For a larger mechanical envelope, compare these two compact frame sizes using co
 
 **Selection note:** Diameter is the gearhead housing size, not the complete motor + gearhead length. The torque values above are **rated allowable ranges across stages**, not a constant rating for every ratio; use each model's stage table for final screening. Maximum momentary torque is **not** a continuous rating.
 
-[**Find ratio and stage**](../../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button .md-button--primary }
+[**Quick Ratio / Torque Selector + Files**](../../selection-guides/planetary-gearhead-quick-selector.md){ .md-button .md-button--primary }
 [**Compare all 12 sizes**](8-42mm-planetary-gear-reducer.md){ .md-button }
 
 **Other size groups:** [Micro 8–16 mm](micro-planetary-gearheads-8-16mm.md) · [Miniature 20–32 mm](miniature-planetary-gearheads-20-32mm.md) · [Compact 36–42 mm](compact-planetary-gearheads-36-42mm.md)

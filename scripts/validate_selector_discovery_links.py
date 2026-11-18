@@ -102,8 +102,42 @@ def main() -> None:
             if source.index(f"[**{label}**]") > photo_pos:
                 raise ValueError(f"{model}: {label} is below the product photo")
 
+    # New first-screen finder must keep its own no-gate fallback downloads.
+    quick = BUILT / "selection-guides/planetary-gearhead-quick-selector/index.html"
+    if not quick.is_file():
+        raise ValueError("Quick selector page was not built")
+    quick_html = quick.read_text(encoding="utf-8")
+    for marker in (
+        'id="siggear-ratio-stage-selector"',
+        'id="sg-selector-motor-speed"',
+        'id="sg-selector-output-speed"',
+        'id="sg-ratio-stage-results"',
+        'ratio-stage-selector.js?v=20261118-quick-files',
+    ):
+        if marker not in quick_html:
+            raise ValueError(f"Quick selector first-screen control missing: {marker}")
+
+    links = AnchorCollector()
+    links.feed(quick_html)
+    quick_url = SITE_ORIGIN + SITE_PREFIX + "/selection-guides/planetary-gearhead-quick-selector/"
+    resolved = {urlsplit(urljoin(quick_url, href)).path for href, _ in links.links}
+    for diameter in MODELS:
+        model = f"{diameter}P"
+        slug = f"{diameter}p"
+        rev = "Rev1.1" if diameter == 12 else "Rev1.0"
+        expected_files = (
+            f"{model}_Planetary_Gearhead_Datasheet_{rev}.pdf",
+            f"{model}_2D_Drawing.pdf",
+            f"{model}_Full_Assembly.step",
+        )
+        for filename in expected_files:
+            expected = f"{SITE_PREFIX}/assets/downloads/{slug}/{filename}"
+            if expected not in resolved:
+                raise ValueError(f"Quick selector lacks one-click download: {expected}")
+
     print("PASS all 12 product pages show direct PDF, 2D, full STEP and quick specs first.")
     print("PASS all online datasheet and simplified STEP links resolve to model-specific paths.")
+    print("PASS quick selector exposes all 36 published PDFs/2D/full STEP links and working form controls.")
     print("PASS selector remains available through the existing selection guide.")
 
 

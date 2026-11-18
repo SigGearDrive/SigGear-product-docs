@@ -76,7 +76,7 @@ hooks:
 extra_css:
   - assets/stylesheets/inquiry-form.css?v=20261015-online-live
   - assets/stylesheets/planetary-real-photo-grid.css
-  - assets/stylesheets/ratio-stage-selector.css
+  - assets/stylesheets/ratio-stage-selector.css?v=20261118-quick-files
   - assets/stylesheets/candidate-design-in-pack.css
   - assets/stylesheets/sample-validation.css
   - assets/stylesheets/design-in-review.css
@@ -86,7 +86,7 @@ extra_css:
 extra_javascript:
   - assets/javascripts/analytics-events.js
   - assets/javascripts/inquiry-form.js?v=20261015-online-live
-  - assets/javascripts/ratio-stage-selector.js?v=20261016-app-context
+  - assets/javascripts/ratio-stage-selector.js?v=20261118-quick-files
   - assets/javascripts/candidate-design-in-pack.js
   - assets/javascripts/sample-validation.js
   - assets/javascripts/design-in-review.js
@@ -134,6 +134,7 @@ nav:
   - 8–42 mm Gearhead Downloads:
       - Product Catalogue: products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md
       - Datasheets & CAD Downloads: engineering-resources/planetary-gearboxes/public-cad-release-v1.md
+      - Instant Ratio / Torque Selector: selection-guides/planetary-gearhead-quick-selector.md
       - Micro Gearheads (8–16 mm): products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md
       - Miniature Gearheads (20–32 mm): products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md
       - Compact Gearheads (36–42 mm): products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md
@@ -231,6 +232,7 @@ nav:
           - Agriculture and Outdoor Equipment Gear Motors: applications/agriculture-outdoor-equipment-gear-motors.md
   - Engineering Guides:
       - Selection Guides Overview: selection-guides/index.md
+      - Gearhead Quick Selector & Downloads: selection-guides/planetary-gearhead-quick-selector.md
       - Legacy Ratio & Stage Reference: selection-guides/miniature-planetary-gearbox-selection-guide.md
       - Robot Joint Actuator Selection Guide: selection-guides/robot-joint-actuator-selection-guide.md
   - Engineering Center:

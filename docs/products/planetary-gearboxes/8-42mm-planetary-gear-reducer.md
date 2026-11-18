@@ -8,7 +8,7 @@ description: Compare 12 SigGear micro, miniature and compact planetary gearheads
 **12 published frame sizes · 8 mm to 42 mm · Micro / Miniature / Compact**
 
 [**Download Datasheets, 2D Drawings & STEP**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
-[**Find Ratio & Stage**](../../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
+[**Find Ratio, Torque & Downloads**](../../selection-guides/planetary-gearhead-quick-selector.md){ .md-button }
 
 **Compare by diameter:** [Micro · 8–16 mm](micro-planetary-gearheads-8-16mm.md) · [Miniature · 20–32 mm](miniature-planetary-gearheads-20-32mm.md) · [Compact · 36–42 mm](compact-planetary-gearheads-36-42mm.md)
 

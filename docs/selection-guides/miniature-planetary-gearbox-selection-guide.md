@@ -5,6 +5,8 @@ description: Select 8–42 mm planetary gearheads using loaded motor speed, targ
 
 # Miniature Planetary Gearbox Selector & Ratio Calculator (8–42 mm)
 
+[**Quick Selector — Direct PDF, 2D and Full STEP Downloads**](planetary-gearhead-quick-selector.md){ .md-button .md-button--primary }
+
 Use SigGear's **online planetary gearbox selector** to calculate a preliminary speed-reduction ratio and compare actual published **8P–42P planetary gearbox (gearhead)** configurations by reduction ratio, stage count, rated output torque and gearbox body dimensions.
 
 Enter your **motor's loaded operating speed** and desired output speed. If known, also specify the maximum diameter, gearbox body length, continuous output torque and peak load. Results link to model-specific Datasheets, Mechanical Interface information and a project brief for an engineering review.
