@@ -78,6 +78,7 @@ extra_css:
   - assets/stylesheets/planetary-real-photo-grid.css
   - assets/stylesheets/joint-product-quick.css
   - assets/stylesheets/ratio-stage-selector.css?v=20261118-quick-files
+  - assets/stylesheets/motor-quick-downloads.css?v=20261118-direct-pdfs
   - assets/stylesheets/candidate-design-in-pack.css
   - assets/stylesheets/sample-validation.css
   - assets/stylesheets/design-in-review.css
@@ -88,6 +89,7 @@ extra_javascript:
   - assets/javascripts/analytics-events.js?v=20261118-application-journey
   - assets/javascripts/inquiry-form.js?v=20261015-online-live
   - assets/javascripts/ratio-stage-selector.js?v=20261118-quick-files
+  - assets/javascripts/motor-quick-downloads.js?v=20261118-direct-pdfs
   - assets/javascripts/candidate-design-in-pack.js
   - assets/javascripts/sample-validation.js
   - assets/javascripts/design-in-review.js
