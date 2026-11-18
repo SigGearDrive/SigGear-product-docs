@@ -5,6 +5,13 @@ description: Browse SigGear precision planetary gearheads, robot joint actuators
 
 # SigGear Product Catalogue
 
+**SigGear is a supplier of DC/BLDC motors, precision planetary gearheads (Ø8–42 mm), and engineered motor + gearhead assemblies.**
+
+[**Motor Datasheets**](engineering-resources/motors/index.md){ .md-button }
+[**Gearhead PDFs / 2D / STEP**](engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
+[**Motor + Gearhead Assemblies**](custom-engineering/motor-gearbox-integration.md){ .md-button }
+[**OEM Applications**](applications/index.md){ .md-button }
+
 ## Precision Planetary Gearheads | 8–42 mm
 
 **12 models, Ø8–42 mm · Direct access to PDF datasheets, 2D drawings and complete STEP CAD.**
