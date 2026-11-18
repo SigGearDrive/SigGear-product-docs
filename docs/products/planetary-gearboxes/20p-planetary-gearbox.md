@@ -1,6 +1,6 @@
 ---
 title: 20 mm Miniature Precision Planetary Gearhead (20P) | SigGear
-description: SigGear 20P (20 mm) miniature planetary gearhead/gearbox: ratio 4:1–1296:1, rated torque 588.4–1274.9 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD.
+description: "SigGear 20P (20 mm) miniature planetary gearhead/gearbox: ratio 4:1–1296:1, rated torque 588.4–1274.9 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
 ---
 
 # 20 mm Miniature Precision Planetary Gearhead (20P)
