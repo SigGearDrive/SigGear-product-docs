@@ -148,18 +148,18 @@ async function run(input) {
   console.log("PASS unit switch converts existing torque values without silently changing load");
 
   const highSpeed = await run({ motorSpeed: "9000" });
-  assert.match(highSpeed.results, /Candidate Frame Comparison/);
+  assert.match(highSpeed.results, /Matching Frames/);
   assert.match(highSpeed.results, /12P/);
   assert.doesNotMatch(highSpeed.summary, /custom feasibility/i);
   console.log("PASS 9,000 rpm treated as standard input speed");
 
   const upperBoundary = await run({motorSpeed: "20000", outputSpeed: String(20000 / 42.9)});
-  assert.match(upperBoundary.results, /Candidate Frame Comparison/);
+  assert.match(upperBoundary.results, /Matching Frames/);
   assert.match(upperBoundary.results, /12P/);
   console.log("PASS 20,000 rpm continuous standard upper boundary");
 
   const lowerBoundary = await run({motorSpeed: "1000", outputSpeed: String(1000 / 42.9)});
-  assert.match(lowerBoundary.results, /Candidate Frame Comparison/);
+  assert.match(lowerBoundary.results, /Matching Frames/);
   assert.match(lowerBoundary.results, /12P/);
   console.log("PASS 1,000 rpm continuous standard lower boundary");
 
