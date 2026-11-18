@@ -46,11 +46,11 @@ The full drawing is not published as a manufacturing drawing on this website. Fi
 
 ## CAD Boundary
 
-A CPM-100-25 assembly STEP has been supplied internally, but the exact configuration must be matched before release to a customer.
+The **48 mm dual-encoder, driver-equipped configuration** is now available as an original full-assembly STEP reference. This file is distinct from the standard **29.5 mm** CPM-100-25 CAD.
 
-No full assembly STEP is published here as a public download.
+[**Download SG2556D Variant · Original Full STEP**](../../assets/downloads/joint-actuators/CPM-100-25D_Dual_Encoder_Driver_Original_Full_Assembly_20261118.step){ .md-button .md-button--primary }
 
-[Request Dual-Encoder Drawing / CAD](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+The matching controlled 2D manufacturing drawing is not included in this public STEP release. Confirm the precise installation configuration before production.
 
 ## Related Resources
 
