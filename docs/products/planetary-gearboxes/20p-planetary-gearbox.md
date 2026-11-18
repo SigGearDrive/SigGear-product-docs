@@ -1,6 +1,6 @@
 ---
-title: 20 mm Miniature Precision Planetary Gearhead (20P) | SigGear
-description: "SigGear 20P (20 mm) miniature planetary gearhead/gearbox: ratio 4:1–1296:1, rated torque 588.4–1274.9 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
+title: "20 mm Miniature Planetary Gearhead (20P) | Ratios to 1296:1 | SigGear"
+description: "SigGear 20P Ø20 mm miniature planetary gearhead/gearbox: ratios 4:1–1296:1, 20.1–34.5 mm body length, rated 588.4–1274.9 mN·m. Download PDF, 2D and full STEP."
 ---
 
 # 20 mm Miniature Precision Planetary Gearhead (20P)
@@ -13,7 +13,7 @@ description: "SigGear 20P (20 mm) miniature planetary gearhead/gearbox: ratio 4:
 | --- | --- | --- | --- | --- |
 | **20 mm** | **4:1–1296:1** | **20.1–34.5 mm** | **588.4–1274.9 mN·m** | **≤ 1.5°** |
 
-**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/20p/datasheet.md) · [Simplified 4-stage STEP](../../assets/downloads/20p/20P_Public_Simplified_STEP_v1.0_4-Stage.step) · [Mechanical drawing preview](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-dimensions.webp) · [Motor-only datasheets](../../engineering-resources/motors/index.md#20-mm-bldc-motor) · [All 12 models](8-42mm-planetary-gear-reducer.md)
+**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/20p/datasheet.md) · [Simplified 4-stage STEP](../../assets/downloads/20p/20P_Public_Simplified_STEP_v1.0_4-Stage.step) · [Mechanical drawing preview](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-dimensions.webp) · [Motor-only datasheets](../../engineering-resources/motors/index.md#20-mm-bldc-motor) · [Compare Miniature 20–32 mm](miniature-planetary-gearheads-20-32mm.md) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
 ![SigGear 20P 20 mm miniature planetary gearhead](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-main.webp){ width="260" loading="lazy" }
 
