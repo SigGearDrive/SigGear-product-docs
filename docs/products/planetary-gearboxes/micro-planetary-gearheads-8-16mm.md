@@ -1,11 +1,11 @@
 ---
-title: 8–16 mm Micro Planetary Gearheads | Datasheets & STEP | SigGear
-description: Compare SigGear 8, 10, 12, 14 and 16 mm micro planetary gearheads by reduction ratio, body length and rated torque. Direct PDF, 2D drawing and STEP downloads.
+title: "8–16 mm Micro Planetary Gearheads | PDF, 2D & STEP | SigGear"
+description: "Compare 8P, 10P, 12P, 14P and 16P micro planetary gearheads (miniature gearboxes): published ratios, housing lengths and rated torque. Download PDF, 2D and full STEP."
 ---
 
 # 8–16 mm Micro Precision Planetary Gearheads
 
-**5 published sizes** · Datasheets · 2D drawings · Full assembly STEP · Stage/ratio tables
+**Micro planetary gearbox / gearhead comparison:** 8P · 10P · 12P · 14P · 16P · PDF datasheets · 2D drawings · Full STEP CAD
 
 ## Direct PDF and STEP Downloads
 
