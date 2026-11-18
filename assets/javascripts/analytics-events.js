@@ -146,6 +146,8 @@
       sourceType = "product_model";
     } else if (path.indexOf("/engineering-resources/planetary-gearboxes/public-cad-release-v1/") !== -1) {
       sourceType = "gearhead_download_hub";
+    } else if (path.indexOf("/engineering-resources/motors/") !== -1) {
+      sourceType = "motor_datasheet_hub";
     }
 
     // Only attribute a product download to an application when it is the
@@ -366,6 +368,29 @@
         sendEvent("planetary_inquiry_click", emailParams);
       }
       return;
+    }
+
+    // Track public motor-only PDF intent separately from planetary gearhead files.
+    // This event is a click, not proof the PDF was read or a lead was created.
+    try {
+      var motorFileUrl = new URL(href, window.location.href);
+      var motorFileMatch = motorFileUrl.pathname.match(
+        /\/SigGear-product-docs\/assets\/downloads\/motors\/((?:8|10|12|14|16|20|22|24|28|32)mm)\/(SigGear_[^/]+\.pdf)$/i
+      );
+      if (motorFileUrl.hostname === window.location.hostname && motorFileMatch) {
+        var motorSource = engineeringFileSource();
+        sendEvent("motor_datasheet_click", {
+          page_path: pagePath(),
+          file_name: motorFileMatch[2],
+          motor_diameter_mm: parseInt(motorFileMatch[1], 10),
+          source_page_type: motorSource.source_page_type,
+          source_application: motorSource.source_application,
+          link_text: label
+        });
+        return;
+      }
+    } catch (e) {
+      // Malformed links must never interrupt a genuine file download.
     }
 
     // Track direct engineering-file clicks (PDF datasheet, 2D drawing and STEP).
