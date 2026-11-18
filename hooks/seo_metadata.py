@@ -100,6 +100,7 @@ def _planetary_model_source_metadata(page) -> dict:
     src = page.file.src_uri.replace("\\", "/")
     product = _product_by_src.get(src)
     priority_hubs = {
+        "index.md",
         "products/planetary-gearboxes/index.md",
         "products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md",
         "products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md",
