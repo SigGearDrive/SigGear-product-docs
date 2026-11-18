@@ -7,10 +7,13 @@ description: 42 mm compact precision planetary gearhead (42P) with published sta
 
 ![Real SigGear 42P 42 mm compact planetary gearbox with diameter check](../../assets/images/products/planetary-gearboxes/42p/42p-real-product-evidence.webp)
 
+[**View 42P Datasheets & CAD Downloads**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#42p-downloads){ .md-button .md-button--primary }
+
 ## Downloads
 
 | File | Status |
 | --- | --- |
+| All 42P downloads | [Open 42P in the download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#42p-downloads) |
 | Online datasheet | [Open 42P datasheet](../../engineering-resources/42p/datasheet.md) |
 | Gearhead Datasheet PDF | [Download 42P PDF](../../assets/downloads/42p/42P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
 | 2D drawing PDF | Source identified; public binary upload pending |

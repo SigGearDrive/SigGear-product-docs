@@ -7,10 +7,13 @@ description: 32 mm miniature precision planetary gearhead (32P) with published s
 
 ![SigGear 32P 32 mm miniature planetary gearbox — actual product photo](../../assets/images/products/planetary-gearboxes/32p/32p-real-product-main-verified.webp)
 
+[**View 32P Datasheets & CAD Downloads**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#32p-downloads){ .md-button .md-button--primary }
+
 ## Downloads
 
 | File | Status |
 | --- | --- |
+| All 32P downloads | [Open 32P in the download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#32p-downloads) |
 | Online datasheet | [Open 32P datasheet](../../engineering-resources/32p/datasheet.md) |
 | Gearhead Datasheet PDF | [Download 32P PDF](../../assets/downloads/32p/32P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
 | Motor Datasheets (Ø32 mm) | [View motor Series 01 / 02 A / 02 B](../../engineering-resources/motors/index.md#32-mm-dc-motors) — motor only; mating compatibility not verified |

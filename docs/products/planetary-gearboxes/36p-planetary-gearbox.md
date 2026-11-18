@@ -7,10 +7,13 @@ description: 36 mm compact precision planetary gearhead (36P) with published sta
 
 ![Actual SigGear 36P 36 mm compact planetary gearbox with complete bottom rim and output shaft](../../assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014-v2.jpg)
 
+[**View 36P Datasheets & CAD Downloads**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#36p-downloads){ .md-button .md-button--primary }
+
 ## Downloads
 
 | File | Status |
 | --- | --- |
+| All 36P downloads | [Open 36P in the download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#36p-downloads) |
 | Online datasheet | [Open 36P datasheet](../../engineering-resources/36p/datasheet.md) |
 | Gearhead Datasheet PDF | [Download 36P PDF](../../assets/downloads/36p/36P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
 | 2D drawing PDF | Source identified; public binary upload pending |
