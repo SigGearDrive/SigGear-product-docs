@@ -28,6 +28,7 @@ STEP_ALLOWED = {
 }
 
 def main() -> None:
+    media_errors = []
     for model, (family, slug) in MODELS.items():
         page = DOCS / "products" / family / (slug+".md")
         text = page.read_text(encoding="utf-8")
@@ -61,8 +62,11 @@ def main() -> None:
                 header=file.read_bytes()[:16]
                 if header[:4] != b"RIFF" or header[8:12] != b"WEBP":
                     raise ValueError("Invalid WebP header "+str(file))
-                with Image.open(file) as img:
-                    img.verify()
+                try:
+                    with Image.open(file) as img:
+                        img.verify()
+                except Exception as error:
+                    media_errors.append(f"{model}: {file.name}: {type(error).__name__}: {error}")
             else:
                 raise ValueError("Unexpected image format "+str(file))
 
@@ -78,6 +82,8 @@ def main() -> None:
         if len(text)>4800:
             raise ValueError("Joint product page too long for quick-download UX: "+model)
         print("PASS",model,"PDF",pdf.stat().st_size,"images",len(paths),"STEP",len(expected))
+    if media_errors:
+        raise ValueError("Invalid product image assets:\n" + "\n".join(media_errors))
     print("PASS six joint-module catalogue reference PDFs, image integrity and CAD release gates")
 
 if __name__ == "__main__":
