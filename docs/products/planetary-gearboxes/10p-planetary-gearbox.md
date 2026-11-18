@@ -1,6 +1,6 @@
 ---
 title: 10 mm Micro Precision Planetary Gearhead (10P) | SigGear
-description: SigGear 10P (10 mm) micro planetary gearhead/gearbox: ratio 3.5:1–428.7:1, rated torque 127.5–196.1 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD.
+description: "SigGear 10P (10 mm) micro planetary gearhead/gearbox: ratio 3.5:1–428.7:1, rated torque 127.5–196.1 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
 ---
 
 # 10 mm Micro Precision Planetary Gearhead (10P)
