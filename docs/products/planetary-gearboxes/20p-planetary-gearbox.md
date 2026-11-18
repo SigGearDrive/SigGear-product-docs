@@ -87,3 +87,7 @@ The published drawing shows a 20 mm body, a 12 mm output-shaft extension and sta
 The **Full Assembly STEP** is the published original Creo assembly. The **Simplified STEP** is a separate 4-stage reference for preliminary mechanical packaging. The [20P 2D outline drawing](../../assets/downloads/20p/20P_2D_Drawing.pdf) is the original **SG01PD20** interface reference. The body length **L ±0.3 mm** is configuration-dependent; confirm stage, ratio and motor mating dimensions before production.
 
 [Back to the 8–42 mm product catalogue](8-42mm-planetary-gear-reducer.md)
+
+**Potential OEM applications** *(suitability requires engineering review)*: [Coffee dosing](../../applications/food-beverage-coffee-equipment-gear-motors.md) · [Compact automation axes](../../applications/industrial-automation-servo-planetary-gearboxes.md) · [Electric screwdriver drives](../../applications/powered-screwdriver-planetary-gearbox.md) · [Adjustable furniture mechanisms](../../applications/furniture-seating-adjustable-mechanism-gear-motors.md) · [All applications](../../applications/index.md).
+
+**Motor + Gearhead Assembly:** [Motor matching and custom integration](../../custom-engineering/motor-gearbox-integration.md).

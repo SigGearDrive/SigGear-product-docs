@@ -81,3 +81,7 @@ The published drawing shows an 8 mm body, an M8×0.5 external thread, a 5.8 mm o
 The Full Assembly STEP is the original Creo assembly export for 8P, now available for direct download. The separate Simplified STEP is a 4-stage reference model for preliminary packaging. The dimension preview is not a substitute for the original 2D drawing PDF or its controlled revision.
 
 [Back to the 8–42 mm product catalogue](8-42mm-planetary-gear-reducer.md)
+
+**Potential OEM applications** *(suitability requires engineering review)*: [Laboratory sample handling](../../applications/laboratory-automation-diagnostic-equipment-gear-motors.md) · [Optical focus and sensor positioning](../../applications/optical-imaging-camera-module-gear-motors.md) · [Micro robotics](../../applications/micro-robotics-gear-motors.md) · [Robot grippers](../../applications/robot-gripper-gear-motors.md) · [All applications](../../applications/index.md).
+
+**Motor + Gearhead Assembly:** [Motor matching and custom integration](../../custom-engineering/motor-gearbox-integration.md).

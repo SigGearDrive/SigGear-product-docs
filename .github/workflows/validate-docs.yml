@@ -25,6 +25,7 @@ on:
       - "scripts/validate_selector_discovery_links.py"
       - "scripts/validate_application_selector_funnel.py"
       - "scripts/validate_application_quick_pages.py"
+      - "scripts/validate_planetary_application_crosslinks.py"
       - "scripts/validate_inquiry_activation_assets.py"
       - "scripts/validate_planetary_input_speed_range.py"
       - "scripts/test_planetary_selector_v2.js"
@@ -77,6 +78,7 @@ on:
       - "scripts/validate_selector_discovery_links.py"
       - "scripts/validate_application_selector_funnel.py"
       - "scripts/validate_application_quick_pages.py"
+      - "scripts/validate_planetary_application_crosslinks.py"
       - "scripts/validate_inquiry_activation_assets.py"
       - "scripts/validate_planetary_input_speed_range.py"
       - "scripts/utm_utils.py"
@@ -218,6 +220,9 @@ jobs:
 
       - name: Validate concise supplier-first OEM application pages
         run: python scripts/validate_application_quick_pages.py
+
+      - name: Validate gearhead model to application links
+        run: python scripts/validate_planetary_application_crosslinks.py
 
       - name: Verify online inquiry activation asset versions
         run: python scripts/validate_inquiry_activation_assets.py

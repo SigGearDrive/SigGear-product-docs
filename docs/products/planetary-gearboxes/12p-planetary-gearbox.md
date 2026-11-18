@@ -90,3 +90,7 @@ The published drawing shows a 12 mm body, a 10.00 mm output-shaft extension and 
 The Full Assembly STEP is the original Creo assembly export for 12P, now available for direct download. The separate Simplified STEP is a 4-stage reference model for preliminary packaging. The dimension preview is not a substitute for the original 2D drawing PDF or its controlled revision.
 
 [Back to the 8–42 mm product catalogue](8-42mm-planetary-gear-reducer.md)
+
+**Potential OEM applications** *(suitability requires engineering review)*: [Smart toilet lid and nozzle motion](../../applications/smart-toilet-bidet-planetary-gear-motors.md) · [Pet feeder augers](../../applications/smart-pet-feeder-litter-box-planetary-gearheads.md) · [Small pump and valve drives](../../applications/pump-valve-fluid-control-gear-motors.md) · [Electronics inspection](../../applications/semiconductor-electronics-inspection-equipment-gear-motors.md) · [All applications](../../applications/index.md).
+
+**Motor + Gearhead Assembly:** [Motor matching and custom integration](../../custom-engineering/motor-gearbox-integration.md).

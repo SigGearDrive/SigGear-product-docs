@@ -89,3 +89,7 @@ The published drawing shows a 16 mm body, an 11.6 mm output-shaft extension and 
 The **Full Assembly STEP** is the published original Creo assembly. The **Simplified STEP** is a separate 4-stage reference for preliminary mechanical packaging. The [16P 2D outline drawing](../../assets/downloads/16p/16P_2D_Drawing.pdf) is the original **SG01PD16** interface reference. The body length **L ±0.3 mm** is configuration-dependent; confirm stage, ratio and motor mating dimensions before production.
 
 [Back to the 8–42 mm product catalogue](8-42mm-planetary-gear-reducer.md)
+
+**Potential OEM applications** *(suitability requires engineering review)*: [Motorized curtains](../../applications/electric-curtain-blind-window-opener-gear-motors.md) · [HVAC vent dampers](../../applications/hvac-smart-vent-damper-gear-motors.md) · [Smart appliance lid motions](../../applications/consumer-appliance-home-device-gear-motors.md) · [Smart hardware](../../applications/smart-hardware-gear-motors.md) · [All applications](../../applications/index.md).
+
+**Motor + Gearhead Assembly:** [Motor matching and custom integration](../../custom-engineering/motor-gearbox-integration.md).
