@@ -31,6 +31,12 @@ STEP_ALLOWED = {
     "CPM-80-25": [
         "CPM-80-25_Public_Simplified_STEP_v1.0_No_Driver.step",
         "CPM-80-25_Public_Simplified_STEP_v1.0_Integrated_Driver.step",
+        "CPM-80-25_Original_Full_Assembly_No_Driver_20261118.step",
+        "CPM-80-25_Original_Full_Assembly_Integrated_Driver_20261118.step",
+    ],
+    "CPM-100-25": [
+        "CPM-100-25_Original_Full_Assembly_No_Driver_20261118.step",
+        "CPM-100-25D_Dual_Encoder_Driver_Original_Full_Assembly_20261118.step",
     ],
 }
 
@@ -40,6 +46,23 @@ ORIGINAL_STEPS = {
     "SG-8021": ("SG-8021_Driver_Version_Original_Full_Assembly_20261118.step", 19380522, "9591a7f2143d1a0418e39a876cc9d047c21289c3e80cc9c265aad40a1156f95d"),
     "CPM-78-39": ("CPM-78-39_Original_Full_Assembly_20261118.step", 16521809, "4a7791ede4c5b4c1430f75cc86325900bcb6bb65490c6deaf9c41d8149389d3b"),
 }
+
+
+ADDITIONAL_ORIGINAL_STEPS = {
+    "CPM-80-25": [
+        ("CPM-80-25_Original_Full_Assembly_No_Driver_20261118.step", 8640280,
+         "866e22160181ec1296835da335f92288a00e4b60e6226c12347b364ccd58e783"),
+        ("CPM-80-25_Original_Full_Assembly_Integrated_Driver_20261118.step", 12829472,
+         "f990ba3abcc04a2206392d12b3fe5e1957592cbab732ef6acb012212007eaf98"),
+    ],
+    "CPM-100-25": [
+        ("CPM-100-25_Original_Full_Assembly_No_Driver_20261118.step", 5173732,
+         "53deeda1053018086e42d9e10daa26b070c711b47750ba90732fc9d23377be05"),
+        ("CPM-100-25D_Dual_Encoder_Driver_Original_Full_Assembly_20261118.step", 19462788,
+         "b6055fa2944efd82ff999b2270bcd41cfe2d07816cbdd7b8eeff200e3fa63d34"),
+    ],
+}
+
 
 def main() -> None:
     media_errors = []
@@ -99,6 +122,18 @@ def main() -> None:
                 raise ValueError("Original full assembly STEP failed SHA-256: " + model)
             if model == "SG-8021" and "Driver Version" not in text:
                 raise ValueError("SG-8021 driver-equipped CAD variant must be labeled")
+        for filename, expected_bytes, expected_sha in ADDITIONAL_ORIGINAL_STEPS.get(model, []):
+            path = DOCS / "assets/downloads/joint-actuators" / filename
+            if not path.is_file() or path.stat().st_size != expected_bytes:
+                raise ValueError("Missing original CPM variant STEP or wrong size: " + filename)
+            if hashlib.sha256(path.read_bytes()).hexdigest() != expected_sha:
+                raise ValueError("Original CPM variant STEP failed SHA256: " + filename)
+            if filename not in text:
+                raise ValueError("Original CPM variant STEP not linked: " + filename)
+        if model == "CPM-100-25" and "Dual Encoder" not in text:
+            raise ValueError("CPM-100-25 dual-encoder driver variant label is missing")
+        if model == "CPM-80-25" and "No Driver" not in text:
+            raise ValueError("CPM-80-25 driverless variant label is missing")
         if not expected and step_names:
             raise ValueError("Unreleased joint CAD advertised on "+model)
         if not expected and "No downloadable STEP is currently approved" not in text:
@@ -108,7 +143,7 @@ def main() -> None:
         print("PASS",model,"PDF",pdf.stat().st_size,"images",len(paths),"STEP",len(expected))
     if media_errors:
         raise ValueError("Invalid product image assets:\n" + "\n".join(media_errors))
-    print("PASS six joint PDF and image integrity checks, including four verified original full-assembly STEP files")
+    print("PASS six joint PDF and image integrity checks, including eight verified original full-assembly STEP variants")
 
 if __name__ == "__main__":
     main()

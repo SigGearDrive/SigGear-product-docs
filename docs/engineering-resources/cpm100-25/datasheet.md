@@ -77,11 +77,15 @@ Final suitability depends on:
 
 ## CAD, Drawings and Integration Documentation
 
-A public STEP model is **not currently released in this repository** for CPM-100-25.
+Two **different original full assembly** STEP exports are available:
 
-Detailed STEP models, 2D drawings, mounting drawings and configuration-specific integration documents are available after project review.
+[**Original Full STEP · Standard 29.5 mm**](../../assets/downloads/joint-actuators/CPM-100-25_Original_Full_Assembly_No_Driver_20261118.step){ .md-button .md-button--primary }
 
-[Request CAD, Drawing or Integration Files](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[**Original Full STEP · Dual Encoder + Driver 48 mm**](../../assets/downloads/joint-actuators/CPM-100-25D_Dual_Encoder_Driver_Original_Full_Assembly_20261118.step){ .md-button }
+
+The second file corresponds to the separate **SG2556D** dual-encoder configuration. These CAD versions are not interchangeable. Configuration-controlled 2D drawings and installation tolerances require the matching engineering release.
+
+[Request Controlled 2D Drawing](../../request-cad-sample-quote.md){ .md-button }
 
 ## Noise, Life and Thermal Data
 
