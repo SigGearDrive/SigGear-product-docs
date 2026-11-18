@@ -42,6 +42,12 @@ Driver housing, connector orientation, encoder arrangement and cable routing sho
 
 ## Public CAD
 
+[**Original Full STEP · No Driver (29.7 mm)**](../../assets/downloads/joint-actuators/CPM-80-25_Original_Full_Assembly_No_Driver_20261118.step){ .md-button .md-button--primary }
+
+[**Original Full STEP · Integrated Driver (41.2 mm)**](../../assets/downloads/joint-actuators/CPM-80-25_Original_Full_Assembly_Integrated_Driver_20261118.step){ .md-button }
+
+The original models are full assembly exports. The separately released simplified references remain available:
+
 [Download Simplified STEP - No Driver](../../assets/downloads/cpm80-25/CPM-80-25_Public_Simplified_STEP_v1.0_No_Driver.step){ .md-button .md-button--primary }
 
 [Download Simplified STEP - Integrated Driver](../../assets/downloads/cpm80-25/CPM-80-25_Public_Simplified_STEP_v1.0_Integrated_Driver.step){ .md-button }
