@@ -1,197 +1,45 @@
 ---
-title: Planetary Gear Motors for Smart Toilet & Bidet Mechanisms | OEM Selection Guide | SigGear
-description: Engineering guide for miniature planetary gearboxes and gear motors in smart toilet and bidet mechanisms, covering compact packaging, low noise, speed, stall, moisture, holding and motor matching.
+title: "Smart Toilet & Bidet Gear Motors | Lid, Nozzle & CAD | SigGear"
+description: "Evaluate miniature planetary gear motors for smart toilet seats, automatic lids and bidet nozzle drives. Compare 10P–20P ratios, torque and PDF/2D/STEP downloads."
 ---
 
-# Planetary Gear Motors for Smart Toilet and Bidet Mechanisms
+# Smart Toilet and Bidet Gear Motors: Automatic Lid and Nozzle Drives
 
-## Application Boundary
+An automatic toilet lid, a retractable bidet nozzle and a water diverter are **three different mechanical jobs**. Miniature DC motors and planetary gearheads may be evaluated for selected motions, but none of these published gearheads is a certified complete smart-toilet actuator.
 
-Miniature planetary gearboxes and motor + gearbox assemblies may be evaluated for selected powered mechanisms in **smart toilets, bidet seats and related bathroom devices**.
+[**All Model Datasheets / 2D / Full STEP**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
+[**Find Size, Torque and Ratio**](../selection-guides/planetary-gearhead-quick-selector.md){ .md-button }
 
-This is a **potential OEM engineering application**, not a claim that SigGear has a published production customer case in this field.
+## Compare Published Gearhead Sizes — Download Now
 
-Possible mechanisms that may require compact geared motion include:
+| Model / diameter | Ratio range · rated allowable torque | PDF datasheet | 2D outline | Full STEP CAD |
+| --- | --- | --- | --- | --- |
+| [**10P · Ø10 mm**](../products/planetary-gearboxes/10p-planetary-gearbox.md) | 3.5:1–428.7:1; 127.5–196.1 mN·m | [PDF](../assets/downloads/10p/10P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D](../assets/downloads/10p/10P_2D_Drawing.pdf) | [STEP](../assets/downloads/10p/10P_Full_Assembly.step) |
+| [**12P · Ø12 mm**](../products/planetary-gearboxes/12p-planetary-gearbox.md) | 3.5:1–509.1:1; 196.1–411.9 mN·m | [PDF](../assets/downloads/12p/12P_Planetary_Gearhead_Datasheet_Rev1.1.pdf) | [2D](../assets/downloads/12p/12P_2D_Drawing.pdf) | [STEP](../assets/downloads/12p/12P_Full_Assembly.step) |
+| [**16P · Ø16 mm**](../products/planetary-gearboxes/16p-planetary-gearbox.md) | 3.85:1–459.5:1; 392.3–882.6 mN·m | [PDF](../assets/downloads/16p/16P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D](../assets/downloads/16p/16P_2D_Drawing.pdf) | [STEP](../assets/downloads/16p/16P_Full_Assembly.step) |
+| [**20P · Ø20 mm**](../products/planetary-gearboxes/20p-planetary-gearbox.md) | 4:1–1296:1; 588.4–1274.9 mN·m | [PDF](../assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D](../assets/downloads/20p/20P_2D_Drawing.pdf) | [STEP](../assets/downloads/20p/20P_Full_Assembly.step) |
 
-- Lid or seat movement
-- Nozzle positioning or extension mechanisms
-- Small flap, cover or valve-actuation mechanisms
-- Air-path or drying-mechanism adjustment
-- Compact auxiliary positioning mechanisms
+*These are screening options, not application approvals. Rated allowable torque depends on stage/ratio. Check each [model’s stage table](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) and dimensions before selecting a drive.*
 
-The correct drive architecture depends on the actual mechanism. Some functions may use other actuator types and should not be forced into a planetary-gearbox solution.
+## Sizing a powered lid or nozzle
 
-## Why a Compact Planetary Gearbox May Be Considered
+For a lid hinge, calculate the angle-dependent gravitational moment from **mass × gravity × centre-of-mass lever arm**, plus friction and acceleration. A nozzle extension uses rack/screw friction and linear force instead. For both, check short obstruction loads, a safe manual release and any position sensor; do not assume reduction alone holds the lid when unpowered.
 
-A miniature planetary gearbox can be useful when the design needs a compact motor to produce lower output speed and higher output torque within a limited installation envelope.
+## What the OEM Engineer Must Check
 
-SigGear's current standard planetary gearbox range covers nominal diameters from **8 mm to 42 mm** and can be evaluated as:
-
-- Gearbox-only supply for an existing motor
-- Motor-matched gearbox assembly after engineering review
-
-[Find Published Planetary Gearbox Candidates](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=smart_toilet_bidet#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
-[Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
-[Download Simplified Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
-[Start Smart Toilet / Bidet Project Brief](../request-cad-sample-quote.md?app=smart_toilet_bidet){ .md-button }
-
-## Compare Published SigGear Gearhead Models
-
-For smart-toilet seats, lids and nozzle positioning, begin with the motion geometry and environmental boundary. These **model pages are comparison starting points**, not device-qualified approvals.
-
-| Frame and specification page | Example mechanism for evaluation | Engineering checks |
-| --- | --- | --- |
-| [16P 16 mm Gearhead](../products/planetary-gearboxes/16p-planetary-gearbox.md) | Compact auxiliary flap or positioning mechanism | Review travel, load and end-stop behavior |
-| [20P 20 mm Gearhead](../products/planetary-gearboxes/20p-planetary-gearbox.md) | Small powered lid or mechanism candidate | Verify holding requirements and jam torque |
-| [22P 22 mm Gearhead](../products/planetary-gearboxes/22p-planetary-gearbox.md) | Alternative integration size for OEM packaging | Check motor interface, moisture isolation and noise |
-
-These are **potential candidates for initial engineering comparison**, not claims of suitability, certification or production deployment. Consult each model's rated torque, stage-dependent ratio and length, output load limit, motor interface and simplified 4-stage STEP reference before design freeze.
-
-[Browse All 12 Precision Planetary Gearheads](../products/planetary-gearboxes/index.md){ .md-button }
-
-## Main Selection Factors
-
-### 1. Motion, Force and Output Speed
-
-Define the actual mechanism rather than starting from gearbox diameter.
-
-Useful inputs include:
-
-- Lid / seat / nozzle / flap geometry
-- Lever arm or linkage dimensions
-- Required motion angle or stroke
-- Desired opening / closing / positioning time
-- Normal running load
-- Startup load
-- End-stop, jam or obstruction condition
-
-For a rotary mechanism, the gearbox output torque depends on the actual load and lever arm. For a lead screw, linkage or cam mechanism, the complete transmission geometry must be included.
-
-### 2. Motor + Gearbox or Gearbox Only
-
-If the motor is already selected, provide:
-
-- Motor model or drawing
-- Loaded motor speed
-- Motor shaft diameter and length
-- Mounting-hole pattern
-- Locating pilot
-- Available axial space
-
-If the motor is not yet selected, provide:
-
-- Supply voltage
-- Target output speed
-- Required torque or mechanism geometry
-- Maximum diameter and total length
-- Duty cycle
-
-SigGear can then review a motor-matched planetary gearbox assembly.
-
-### 3. Low Noise and Smooth Motion
-
-Bathroom and home-device mechanisms may have acoustic expectations that are more important than in industrial equipment.
-
-Noise depends on more than the gearbox. Review:
-
-- Motor type and commutation
-- Gearbox ratio and stage count
-- Operating speed
-- Structure resonance
-- Mounting stiffness
-- Lubrication
-- Cover / enclosure acoustics
-- Control acceleration and deceleration
-
-Do not assume a published gearbox ratio guarantees a specific sound-pressure level. Noise targets require configuration-specific validation.
-
-### 4. Holding, Power-Off and Manual Behavior
-
-If a lid, seat or other mechanism must hold position with power removed, define that requirement explicitly.
-
-A planetary gearbox should **not** automatically be treated as self-locking.
-
-Depending on the mechanism, the complete system may require:
-
-- Motor holding torque
-- Brake
-- Friction or detent mechanism
-- Counterbalance
-- Mechanical stop
-- Manual override
-
-### 5. Stall, Jam and Obstruction Conditions
-
-Smart bathroom mechanisms can experience end stops, foreign-object obstruction or jam conditions.
-
-Provide:
-
-- Maximum expected stall duration
-- Frequency of jam events
-- Controller current limit
-- Whether obstacle detection is required
-- Whether the motor must reverse automatically
-- Safe temperature / touch-surface constraints where relevant
-
-The gearbox maximum momentary torque is not a continuous stall rating.
-
-### 6. Moisture, Condensation and Cleaning Environment
-
-The complete device may be exposed to humidity, condensation, splashes, detergents or cleaning chemicals.
-
-The standard planetary gearbox data on this site does **not** establish a universal:
-
-- IP rating
-- Corrosion-resistance rating
-- Chemical-resistance rating
-- Bathroom-device certification
-
-These requirements must be reviewed for the final motor, gearbox, sealing, connector and enclosure design.
-
-### 7. Size, Shaft and Mounting Interface
-
-Before selecting a gearbox, confirm:
-
-- Maximum outer diameter
-- Gearbox body length
-- Total motor + gearbox length
-- Output shaft geometry
-- Mounting-hole pattern
-- Required shaft support
-- Cable exit direction
-- Available installation space
-
-Public simplified STEP models are available for SigGear's 8P–42P standard frame sizes for early packaging review.
-
-[Open the Planetary Engineering Resource Library](../engineering-resources/planetary-gearboxes/index.md){ .md-button }
-
-## Information to Send for Engineering Review
-
-| Item | Useful information |
+| Item | Required input or validation |
 | --- | --- |
-| Mechanism | Lid, seat, nozzle, flap, valve or other motion |
-| Load | Torque, force or mechanism drawing |
-| Motion | Output speed, angle / stroke and cycle time |
-| Power | Supply voltage and motor information if already selected |
-| Packaging | Diameter, total length, shaft and mounting |
-| Acoustic target | Any known noise requirement and measurement condition |
-| Environment | Humidity, splash, cleaning and temperature conditions |
-| Safety | Jam, obstacle, manual override and power-off behavior |
-| Project | Prototype quantity and estimated annual volume |
+| **Lid or seat** | Hinge torque through travel, safe closing speed, soft stop and pinch detection |
+| **Nozzle or diverter** | Stroke, linear force or valve torque, sealing and jam detection |
+| **Wet environment** | Condensation, cleaning agents and the separate enclosure's protection rating |
+| **Motor matching** | Supply voltage, current limit, available space, shaft fit and lifecycle testing |
 
-A mechanism sketch or existing motor drawing is enough to start a preliminary review.
+**Supply options:** Gearhead Only for a suitable existing motor, or a Motor + Gearhead Assembly after interface review. [Motor-only technical sheets](../engineering-resources/motors/index.md) are available separately.
 
-## Related Resources
+**Boundary:** The published gearhead files do not certify moisture resistance, toilet safety compliance or direct water contact. The finished product requires OEM validation.
 
-[How to Select a Miniature Planetary Gearbox](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=smart_toilet_bidet#preliminary-ratio-stage-finder){ .md-button }
-[Consumer Appliance and Home Device Gear Motors](consumer-appliance-home-device-gear-motors.md){ .md-button }
-[Electric Curtain Gear Motor Selection](electric-curtain-blind-window-opener-gear-motors.md){ .md-button }
-[Start Smart Toilet / Bidet Project Brief](../request-cad-sample-quote.md?app=smart_toilet_bidet){ .md-button .md-button--primary }
+[Application-specific detailed ratio/stage guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=smart_toilet_bidet#preliminary-ratio-stage-finder) · [Project brief](../request-cad-sample-quote.md?app=smart_toilet_bidet)
 
-## Engineering Contact
+**Related engineering topics:** [Curtain and blind drives](electric-curtain-blind-window-opener-gear-motors.md) · [Pumps and fluid control](pump-valve-fluid-control-gear-motors.md)
 
-**Wanrong Wang**  
-International Sales / Sales Engineer, SigGear  
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
-
-[Email Smart Toilet / Bidet Drive Requirements](mailto:wangwanrong@siggear.com?subject=Smart%20Toilet%20Bidet%20Planetary%20Gear%20Motor%20Review&body=Application%3A%20Smart%20toilet%20%2F%20bidet%20mechanism%0AMechanism%3A%20lid%20%2F%20seat%20%2F%20nozzle%20%2F%20flap%20%2F%20other%0AExisting%20motor%20or%20complete%20drive%3A%20%0ARequired%20speed%20or%20cycle%20time%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0AMaximum%20diameter%20and%20length%3A%20%0AOperating%20voltage%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20%0A%0APlease%20attach%20a%20mechanism%20or%20motor%20drawing%20if%20available.){ .md-button .md-button--primary }
+**Engineering contact:** [SigGear International Sales — wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
