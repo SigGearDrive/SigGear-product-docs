@@ -34,6 +34,7 @@ GENERIC_PAGES = [
     "/custom-engineering/motor-gearbox-integration/",
     "/custom-engineering/custom-planetary-gearbox/",
     "/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/",
+    "/selection-guides/planetary-gearhead-quick-selector/",
 ]
 
 RESOURCE_PAGES = []
@@ -63,8 +64,8 @@ def require(condition: bool, message: str) -> None:
         raise ValueError(message)
 
 def check_target_count() -> None:
-    require(len(TARGETS) == 43, f"Expected 43 unique planetary canonicals, found {len(TARGETS)}")
-    require(len(set(TARGETS)) == 43, "Planetary canonical target list contains duplicates")
+    require(len(TARGETS) == 44, f"Expected 44 unique planetary canonicals, found {len(TARGETS)}")
+    require(len(set(TARGETS)) == 44, "Planetary canonical target list contains duplicates")
 
 def check_built_pages_and_canonicals() -> None:
     for target in TARGETS:
@@ -121,6 +122,7 @@ def check_priority_gearhead_hub_metadata() -> None:
     """Prevent priority hubs and OEM application articles from losing SEO titles."""
     priority_sources = [
         "products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md",
+        "selection-guides/planetary-gearhead-quick-selector.md",
         "products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md",
         "products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md",
         "products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md",
