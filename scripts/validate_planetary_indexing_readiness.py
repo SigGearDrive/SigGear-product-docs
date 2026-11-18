@@ -143,7 +143,9 @@ def check_priority_gearhead_hub_metadata() -> None:
         title = str(metadata.get("title") or "").strip()
         description = str(metadata.get("description") or "").strip()
         require(bool(title) and bool(description), f"Missing source SEO metadata: {source_rel}")
-        if source_rel.endswith("/index.md"):
+        if source_rel == "index.md":
+            built_path = SITE / "index.html"
+        elif source_rel.endswith("/index.md"):
             built_path = SITE / source_rel.removesuffix("index.md") / "index.html"
         else:
             built_path = SITE / source_rel.removesuffix(".md") / "index.html"
