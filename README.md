@@ -6,6 +6,8 @@
 
 [Open the live product catalogue](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/) · [Open datasheets & CAD downloads](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/) · [Motor Datasheets](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/motors/)
 
+**2D Outline Drawing PDFs:** Original SG01PD08–SG01PD42 reference drawings are available for all 12 models in the [Datasheets & CAD download centre](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/). The body length **L** varies by ratio and stage configuration.
+
 ## 12 Product Models
 
 | Model | Size | Product data | Datasheet | Full Assembly STEP | Simplified STEP |

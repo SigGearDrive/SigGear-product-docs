@@ -17,7 +17,7 @@ description: Browse SigGear precision planetary gearheads, robot joint actuators
 | **Miniature · 20–32 mm** | [20P](products/planetary-gearboxes/20p-planetary-gearbox.md) · [22P](products/planetary-gearboxes/22p-planetary-gearbox.md) · [24P](products/planetary-gearboxes/24p-planetary-gearbox.md) · [28P](products/planetary-gearboxes/28p-planetary-gearbox.md) · [32P](products/planetary-gearboxes/32p-planetary-gearbox.md) |
 | **Compact · 36–42 mm** | [36P](products/planetary-gearboxes/36p-planetary-gearbox.md) · [42P](products/planetary-gearboxes/42p-planetary-gearbox.md) |
 
-[**Datasheets, 2D drawings and STEP CAD**](engineering-resources/planetary-gearboxes/public-cad-release-v1.md)
+[**Download 2D Outline Drawings · Gearhead Datasheets · STEP CAD (8P–42P)**](engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
 
 <div class="siggear-planetary-photo-grid">
   <figure>
