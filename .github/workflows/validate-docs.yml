@@ -24,6 +24,7 @@ on:
       - "scripts/validate_ratio_stage_selector_data.py"
       - "scripts/validate_selector_discovery_links.py"
       - "scripts/validate_application_selector_funnel.py"
+      - "scripts/validate_application_quick_pages.py"
       - "scripts/validate_inquiry_activation_assets.py"
       - "scripts/validate_planetary_input_speed_range.py"
       - "scripts/test_planetary_selector_v2.js"
@@ -75,6 +76,7 @@ on:
       - "scripts/validate_ratio_stage_selector_data.py"
       - "scripts/validate_selector_discovery_links.py"
       - "scripts/validate_application_selector_funnel.py"
+      - "scripts/validate_application_quick_pages.py"
       - "scripts/validate_inquiry_activation_assets.py"
       - "scripts/validate_planetary_input_speed_range.py"
       - "scripts/utm_utils.py"
@@ -213,6 +215,9 @@ jobs:
 
       - name: Verify application-to-selector SEO and inquiry context links
         run: python scripts/validate_application_selector_funnel.py
+
+      - name: Validate concise supplier-first OEM application pages
+        run: python scripts/validate_application_quick_pages.py
 
       - name: Verify online inquiry activation asset versions
         run: python scripts/validate_inquiry_activation_assets.py

@@ -1,141 +1,41 @@
 ---
-title: Planetary Gearbox Application Families | 8–42 mm OEM Design-In | SigGear
-description: Choose SigGear 8–42 mm planetary gearboxes by application profile: Micro Precision 8–16 mm, Compact OEM 20–28 mm, and High-Torque Compact 32–42 mm.
+title: "SigGear Planetary Gearhead Application Families | OEM Motors & CAD"
+description: "Explore SigGear OEM gearhead and gear-motor applications: garden tools, smart home, robotics, dispensing, optics and lab devices. Direct motors, planetary gearheads and CAD downloads."
 ---
 
-# Planetary Gearbox Application Families
+# Where Compact Motors & Planetary Gearheads Are Used
 
-SigGear's published product taxonomy remains **Micro (8–16 mm)**, **Miniature (20–32 mm)** and **Compact (36–42 mm)**.
+**SigGear supplies motors, Ø8–42 mm precision planetary gearheads, and motor + gearhead assemblies.** The links below lead straight to focused applications, product models and downloadable engineering files.
 
-For OEM business development and early Design-In, the same 12 gearbox frames can also be viewed through three **application-led groups**. These groups are not new mechanical product series and do not replace the model-specific ratings. They are a faster way to start from the customer's mechanism.
+[**Motor-only Datasheets**](../engineering-resources/motors/index.md){ .md-button }
+[**All 12 Gearheads · PDF / 2D / STEP**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
+[**Motor + Gearhead Assemblies**](../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
-[Find Your Gearbox — Ratio & Stage Finder](../selection-guides/miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
-[Compare All 8–42 mm Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
-[Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
-[Start Engineering Project Brief](../request-cad-sample-quote.md){ .md-button }
 
-## 1. Micro Precision — 8P to 16P
+## Garden tools & powered mechanisms
 
-**Best starting point when packaging is the first constraint.**
+[Electric Pruning Shears Motor & Gearhead Selection](electric-pruning-shears-planetary-gearbox.md) · [Electric Screwdriver Planetary Gearhead & Motors](powered-screwdriver-planetary-gearbox.md) · [Agriculture Metering & Outdoor Gear Motors](agriculture-outdoor-equipment-gear-motors.md)
 
-Typical mechanisms to evaluate:
+## Smart home & personal appliances
 
-- dexterous-hand finger axes and tendon mechanisms
-- miniature robot grippers and end effectors
-- laboratory automation
-- medical and diagnostic mechanisms
-- optical and precision instruments
-- miniature pumps, valves and smart-device mechanisms
+[Motorized Curtain & Roller Blind Gear Motors](electric-curtain-blind-window-opener-gear-motors.md) · [Smart Toilet & Bidet Miniature Gear Motors](smart-toilet-bidet-planetary-gear-motors.md) · [Pet Feeder & Litter Box Miniature Gear Motors](smart-pet-feeder-litter-box-planetary-gearheads.md)
 
-Main Design-In questions:
+## Dispensing & automation
 
-- maximum outside diameter and total length
-- required output torque and speed
-- ratio and stage count
-- output-shaft load
-- backlash and repeatability
-- acoustic target
-- existing motor shaft and mounting interface
+[Coffee Machine & Dosing Gear Motors](food-beverage-coffee-equipment-gear-motors.md) · [Vending & Kiosk Dispensing Gear Motors](vending-dispensing-kiosk-gear-motors.md) · [Micro Pump, Valve & Dosing Gear Motors](pump-valve-fluid-control-gear-motors.md)
 
-Models: [8P](../products/planetary-gearboxes/8p-planetary-gearbox.md) · [10P](../products/planetary-gearboxes/10p-planetary-gearbox.md) · [12P](../products/planetary-gearboxes/12p-planetary-gearbox.md) · [14P](../products/planetary-gearboxes/14p-planetary-gearbox.md) · [16P](../products/planetary-gearboxes/16p-planetary-gearbox.md)
+## Robotics & mobility
 
-[Dexterous Hand & Gripper Application Guide](robot-gripper-gear-motors.md){ .md-button }
-[Laboratory Automation Application Guide](laboratory-automation-diagnostic-equipment-gear-motors.md){ .md-button }
-[Pump / Valve / Dosing Application Guide](pump-valve-fluid-control-gear-motors.md){ .md-button }
+[Robot Gripper & Dexterous Hand Gear Motors](robot-gripper-gear-motors.md) · [Micro Robotics Gear Motors & Planetary Reducers](micro-robotics-gear-motors.md) · [Robotic Arm Joint Actuators & Gearhead Supply](robotic-arm-joint-actuators.md)
 
-## 2. Compact OEM — 20P to 28P
+## Medical, optical & instrumentation
 
-**Best starting point for compact commercial and smart-device mechanisms that need more torque without moving into the largest frames.**
+[Medical Device Micro Motors & Gearheads](medical-device-micro-gear-motors.md) · [Laboratory Automation Micro Gear Motors](laboratory-automation-diagnostic-equipment-gear-motors.md) · [Camera Focus, Zoom & Optical Gear Motors](optical-imaging-camera-module-gear-motors.md)
 
-Typical mechanisms to evaluate:
+## Vehicle, energy & display
 
-- electric curtains, blinds and compact window mechanisms
-- smart toilets, lids, nozzles and flaps
-- valves, pumps and dosing mechanisms
-- coffee machines, vending and dispensing equipment
-- access-control and smart-lock mechanisms
-- medium-size grippers and compact automation axes
-- moderate-load handheld mechanisms
+[Automotive Small-Motion Gear Motors](automotive-vehicle-small-motion-gear-motors.md) · [Charging Port & Battery Equipment Gear Motors](energy-battery-charging-equipment-actuators.md) · [Stage Lighting & Signage Gear Motors](stage-lighting-display-signage-gear-motors.md)
 
-Main Design-In questions:
+[**Browse all 32 OEM application pages**](index.md) · [**Compare 8–42 mm Gearheads**](../products/planetary-gearboxes/index.md)
 
-- loaded motor speed
-- required output speed / cycle time
-- continuous versus peak torque
-- noise and vibration
-- duty cycle and thermal condition
-- jam / stall behavior
-- shaft, flange and housing interface
-- annual volume and customization scope
-
-Models: [20P](../products/planetary-gearboxes/20p-planetary-gearbox.md) · [22P](../products/planetary-gearboxes/22p-planetary-gearbox.md) · [24P](../products/planetary-gearboxes/24p-planetary-gearbox.md) · [28P](../products/planetary-gearboxes/28p-planetary-gearbox.md)
-
-[Electric Curtain / Blind Application Guide](electric-curtain-blind-window-opener-gear-motors.md){ .md-button }
-[Smart Toilet & Bidet Application Guide](smart-toilet-bidet-planetary-gear-motors.md){ .md-button }
-[Pump / Valve / Dosing Application Guide](pump-valve-fluid-control-gear-motors.md){ .md-button }
-
-## 3. High-Torque Compact — 32P to 42P
-
-**Best starting point when the mechanism is still compact but torque, motor power or shock loading pushes beyond the smaller frames.**
-
-Typical mechanisms to evaluate:
-
-- electric pruning shears
-- powered screwdrivers and compact fastening tools
-- cable cutters and crimping mechanisms
-- higher-load grippers
-- compact industrial actuators
-- small automation axes with higher torque demand
-
-Main Design-In questions:
-
-- rated continuous torque, not only peak torque
-- peak / jam duration
-- output speed
-- motor input speed and power
-- impact or shock loading
-- output bearing load
-- total gearbox length
-- thermal behavior and endurance target
-
-Models: [32P](../products/planetary-gearboxes/32p-planetary-gearbox.md) · [36P](../products/planetary-gearboxes/36p-planetary-gearbox.md) · [42P](../products/planetary-gearboxes/42p-planetary-gearbox.md)
-
-!!! note
-    **32P remains part of SigGear's published Miniature product class.** It is grouped here only because it often serves as the first bridge into higher-torque compact OEM mechanisms.
-
-[Electric Pruning Shears Application Guide](electric-pruning-shears-planetary-gearbox.md){ .md-button }
-[Powered Screwdriver & Fastening Tool Guide](powered-screwdriver-planetary-gearbox.md){ .md-button }
-[32P Design-In Resources](../engineering-resources/32p/design-in-pack.md){ .md-button }
-[42P Design-In Resources](../engineering-resources/42p/design-in-pack.md){ .md-button }
-
-## Gearbox-Only vs Motor + Gearbox
-
-### Keep Your Existing Motor
-
-If the motor is already selected, send:
-
-- motor drawing
-- shaft diameter and shaft length
-- pilot diameter and mounting holes
-- loaded motor speed
-- motor power and voltage
-- target output speed / ratio
-- continuous and peak output torque
-- available gearbox diameter and length
-
-SigGear can evaluate a gearbox-only route and review the input interface, pinion, stage count, ratio and output geometry.
-
-### Need a Complete Compact Drive
-
-If the motor is not fixed, provide the application load, speed, available space, voltage and duty cycle. SigGear can evaluate a motor + planetary gearbox assembly.
-
-[Motor + Gearbox Integration](../custom-engineering/motor-gearbox-integration.md){ .md-button .md-button--primary }
-
-## Design-In Path
-
-**Application -> frame group -> exact model -> ratio / stage -> motor interface -> CAD review -> sample -> representative load test -> design freeze -> pilot -> production**
-
-The three application families are only a first filter. Final selection must use the model-specific Datasheet and Mechanical Interface.
-
-[Planetary Gearbox Selection Guide](../selection-guides/miniature-planetary-gearbox-selection-guide.md){ .md-button }
-[Planetary Engineering Resource Library](../engineering-resources/planetary-gearboxes/index.md){ .md-button }
+*Example mechanisms are engineering opportunities, not claims of existing SigGear customer installations.*
