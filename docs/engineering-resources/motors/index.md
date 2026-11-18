@@ -72,10 +72,10 @@ The Ø20 mm file is **motor-only** data, not rated performance for the 20P gearh
 | Sheet 02 | 120090 · 090100 | [Download PDF](../../assets/downloads/motors/22mm/SigGear_22mm_DC_Motor_Sheet02_120090-090100_DraftV0.9.pdf) | Draft V0.9 |
 | Sheet 03 | 120090 · 090100 | [Download PDF](../../assets/downloads/motors/22mm/SigGear_22mm_DC_Motor_Sheet03_120090-090100_DraftV0.9.pdf) | Draft V0.9 |
 | Sheet 04 | 060055 · 120059 · 240051 | [Download PDF](../../assets/downloads/motors/22mm/SigGear_22mm_DC_Motor_Sheet04_060055-240051_DraftV0.9.pdf) | Draft V0.9 |
-| Sheet 05 | 060070 · 120071 · 240073 | Upload pending | Draft V0.9 |
-| Sheet 06 | 060062 · 120062 · 180061 · 240063 · 360065 | Upload pending | Draft V0.9 |
-| Sheet 07 | 060114 · 120124 · 180124 · 240124 · 360122 | Upload pending | Draft V0.9 |
-| Sheet 08 | 060058 · 090058 · 120049 · 180057 · 240050 | Upload pending | Draft V0.9 |
+| Sheet 05 | 060070 · 120071 · 240073 | [Download PDF](../../assets/downloads/motors/22mm/SigGear_22mm_DC_Motor_Sheet05_060070-240073_DraftV0.9.pdf) | Draft V0.9 |
+| Sheet 06 | 060062 · 120062 · 180061 · 240063 · 360065 | [Download PDF](../../assets/downloads/motors/22mm/SigGear_22mm_DC_Motor_Sheet06_060062-360065_DraftV0.9.pdf) | Draft V0.9 |
+| Sheet 07 | 060114 · 120124 · 180124 · 240124 · 360122 | [Download PDF](../../assets/downloads/motors/22mm/SigGear_22mm_DC_Motor_Sheet07_060114-360122_DraftV0.9.pdf) | Draft V0.9 |
+| Sheet 08 | 060058 · 090058 · 120049 · 180057 · 240050 | [Download PDF](../../assets/downloads/motors/22mm/SigGear_22mm_DC_Motor_Sheet08_060058-240050_DraftV0.9.pdf) | Draft V0.9 |
 
 **Important engineering distinction:** Sheets **02** and **03** both cover motor codes **120090 / 090100**, but show different shaft/flange drawings. For **120090**, Sheet 02 reports **7,850 rpm** rated speed, while Sheet 03 reports **7,890 rpm**. These are preserved as separate source documents and should not be treated as interchangeable without confirming the mechanical configuration and controlled specification. Sheet 06 reports approximately **1.09 mA** no-load current for 360065; this source value also requires verification. These PDFs describe motors only, not combined motor + 22P gearhead output.
 

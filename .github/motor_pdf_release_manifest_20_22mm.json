@@ -1,0 +1,112 @@
+{
+  "title": "SigGear 20 mm and 22 mm motor PDF direct-download ledger",
+  "published_on": "2026-11-18",
+  "policy": "Motor-only source PDFs retained byte-for-byte, with normalized publication filenames. Release revision remains as marked in original PDF.",
+  "issues": [
+    "22 mm Sheet02 and Sheet03 reuse model codes 120090 and 090100, but show different mechanical drawing configurations; 120090 rated speed 7850 vs 7890 rpm respectively. Must identify the controlled revision before part selection.",
+    "22 mm Sheet06 360065 no-load current is approximately 1.09 mA on the original sheet, requiring factory confirmation.",
+    "20 mm HR-BL2030 locked-rotor values are not continuous operating ratings.",
+    "All 22 mm PDF sources state Draft V0.9; uploading has not completed engineering sign-off."
+  ],
+  "files": [
+    {
+      "diameter": "20mm",
+      "group": "BLDC HR-BL2030-Q120260",
+      "family": "HR-BL2030-Q120260",
+      "filename": "SigGear_20mm_BLDC_Motor_HR-BL2030-Q120260_Rev1.0.pdf",
+      "bytes": 143803,
+      "sha256": "d1dbef68784348931d657138ce5a1c4f44ef7585009326739e58888b4f25a44b",
+      "git_blob_sha": "c4fabda510637d18bd8c0cd8f2da3e7083bb60e9",
+      "revision": "Rev1.0",
+      "path": "docs/assets/downloads/motors/20mm/SigGear_20mm_BLDC_Motor_HR-BL2030-Q120260_Rev1.0.pdf"
+    },
+    {
+      "diameter": "22mm",
+      "group": "Sheet01",
+      "family": "090123-360114",
+      "filename": "SigGear_22mm_DC_Motor_Sheet01_090123-360114_DraftV0.9.pdf",
+      "bytes": 904889,
+      "sha256": "e4e6d9624971084f4360a6c26da91a18ea5da28fd3eea71d24b1dcebd310ea5c",
+      "git_blob_sha": "92e1d7bf38dc2d342928916c5af5011ead07448b",
+      "revision": "DraftV0.9",
+      "path": "docs/assets/downloads/motors/22mm/SigGear_22mm_DC_Motor_Sheet01_090123-360114_DraftV0.9.pdf"
+    },
+    {
+      "diameter": "22mm",
+      "group": "Sheet02",
+      "family": "120090-090100",
+      "filename": "SigGear_22mm_DC_Motor_Sheet02_120090-090100_DraftV0.9.pdf",
+      "bytes": 772577,
+      "sha256": "5a91c9b6b9f1a837a2a9e0f72c1cfc7eeac7cb89fd8595f8a80fe844670f9c72",
+      "git_blob_sha": "13b1bf4626542d14f42f9800802d22af5d25c90b",
+      "revision": "DraftV0.9",
+      "path": "docs/assets/downloads/motors/22mm/SigGear_22mm_DC_Motor_Sheet02_120090-090100_DraftV0.9.pdf"
+    },
+    {
+      "diameter": "22mm",
+      "group": "Sheet03",
+      "family": "120090-090100",
+      "filename": "SigGear_22mm_DC_Motor_Sheet03_120090-090100_DraftV0.9.pdf",
+      "bytes": 780298,
+      "sha256": "b850f7237976d5a385c162e45e9d4a719c97891d1164ba7cddbdcb962290c5a2",
+      "git_blob_sha": "da4682fdd60cd1615027aa4a4e3bf8f14d9515a0",
+      "revision": "DraftV0.9",
+      "path": "docs/assets/downloads/motors/22mm/SigGear_22mm_DC_Motor_Sheet03_120090-090100_DraftV0.9.pdf"
+    },
+    {
+      "diameter": "22mm",
+      "group": "Sheet04",
+      "family": "060055-240051",
+      "filename": "SigGear_22mm_DC_Motor_Sheet04_060055-240051_DraftV0.9.pdf",
+      "bytes": 770726,
+      "sha256": "6fec63d4f286bc243c5e4fb755c3c142efcd2541a7769ecdf8ce3d48a2098b08",
+      "git_blob_sha": "7e8a1c10edc12382a50b2faa3bdf8d071fe94c7f",
+      "revision": "DraftV0.9",
+      "path": "docs/assets/downloads/motors/22mm/SigGear_22mm_DC_Motor_Sheet04_060055-240051_DraftV0.9.pdf"
+    },
+    {
+      "diameter": "22mm",
+      "group": "Sheet05",
+      "family": "060070-240073",
+      "filename": "SigGear_22mm_DC_Motor_Sheet05_060070-240073_DraftV0.9.pdf",
+      "bytes": 861294,
+      "sha256": "a6583ff74ad2f4f6bb88af3fe4c40a4a8dcd40bfb2c92cc4e1709c3765916b7a",
+      "git_blob_sha": "f729743dbe96c3ba469c33607923f08d9f14404a",
+      "revision": "DraftV0.9",
+      "path": "docs/assets/downloads/motors/22mm/SigGear_22mm_DC_Motor_Sheet05_060070-240073_DraftV0.9.pdf"
+    },
+    {
+      "diameter": "22mm",
+      "group": "Sheet06",
+      "family": "060062-360065",
+      "filename": "SigGear_22mm_DC_Motor_Sheet06_060062-360065_DraftV0.9.pdf",
+      "bytes": 810652,
+      "sha256": "4a1ec6c7a4941cc6f0db31f4de604c8e8adca3e6d6973ed0a7274e3e87393acc",
+      "git_blob_sha": "01a2a2ec5ea1ab97eefbadc89fb694ad6810c874",
+      "revision": "DraftV0.9",
+      "path": "docs/assets/downloads/motors/22mm/SigGear_22mm_DC_Motor_Sheet06_060062-360065_DraftV0.9.pdf"
+    },
+    {
+      "diameter": "22mm",
+      "group": "Sheet07",
+      "family": "060114-360122",
+      "filename": "SigGear_22mm_DC_Motor_Sheet07_060114-360122_DraftV0.9.pdf",
+      "bytes": 925809,
+      "sha256": "6d100113f58c0a9ec899a07f333c9538e56301645b702d1fb1d0435f2f0e2351",
+      "git_blob_sha": "95851cadaef5205c30da8dd629ca5caafe54634c",
+      "revision": "DraftV0.9",
+      "path": "docs/assets/downloads/motors/22mm/SigGear_22mm_DC_Motor_Sheet07_060114-360122_DraftV0.9.pdf"
+    },
+    {
+      "diameter": "22mm",
+      "group": "Sheet08",
+      "family": "060058-240050",
+      "filename": "SigGear_22mm_DC_Motor_Sheet08_060058-240050_DraftV0.9.pdf",
+      "bytes": 794101,
+      "sha256": "bd400665e45d50fe8d251234d6cb226f0ac1cebb744daf836d03ac21fd81ba8b",
+      "git_blob_sha": "f7472cce53b6911c5198504ccb9c16095b9e4745",
+      "revision": "DraftV0.9",
+      "path": "docs/assets/downloads/motors/22mm/SigGear_22mm_DC_Motor_Sheet08_060058-240050_DraftV0.9.pdf"
+    }
+  ]
+}
