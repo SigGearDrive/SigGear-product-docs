@@ -1,0 +1,152 @@
+{
+  "title": "SigGear SG01PD08–SG01PD42 Original 2D Mechanical Outline Drawing Release",
+  "release_date": "2026-11-18",
+  "model_count": 12,
+  "note": "Original one-page PDFs are preserved unchanged. L ±0.3 mm marks a configuration-dependent body length; these are outline / interface references, not definitive manufacturing drawings for every stage and gear ratio.",
+  "models": [
+    {
+      "model": "8P",
+      "drawing_code": "SG01PD08",
+      "original_filename": "行星08外形尺寸图.pdf",
+      "public_path": "docs/assets/downloads/8p/8P_2D_Drawing.pdf",
+      "public_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/8p/8P_2D_Drawing.pdf",
+      "pages": 1,
+      "bytes": 76181,
+      "sha256": "aebb2bf1fea62812d06094f7a202405bd9c9cc7ea0db23f0ce136099d9418fc5",
+      "git_blob_sha": "983bccf89a3153aba93a65247cee2eef74d8187a",
+      "release_status": "Verified on gh-pages"
+    },
+    {
+      "model": "10P",
+      "drawing_code": "SG01PD10",
+      "original_filename": "行星10外形尺寸图.pdf",
+      "public_path": "docs/assets/downloads/10p/10P_2D_Drawing.pdf",
+      "public_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/10p/10P_2D_Drawing.pdf",
+      "pages": 1,
+      "bytes": 71783,
+      "sha256": "99c4c877ce6b7877608c1c3207ec4cd9890af1936f41bdf12ef9521eb37497ef",
+      "git_blob_sha": "1cdd8d82d0de7e538674df0d98fcdaf22afbe928",
+      "release_status": "Verified on gh-pages"
+    },
+    {
+      "model": "12P",
+      "drawing_code": "SG01PD12",
+      "original_filename": "行星12外形尺寸图(1).pdf",
+      "public_path": "docs/assets/downloads/12p/12P_2D_Drawing.pdf",
+      "public_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/12p/12P_2D_Drawing.pdf",
+      "pages": 1,
+      "bytes": 75819,
+      "sha256": "08453a296ff3f5605be36f0295b75a2537b346d79eae51004a8cc6de6eae91d1",
+      "git_blob_sha": "2ca38164ea0ca81b90aee75a5983b66ede4ef252",
+      "release_status": "Verified on gh-pages"
+    },
+    {
+      "model": "14P",
+      "drawing_code": "SG01PD14",
+      "original_filename": "行星14外形尺寸图(1).pdf",
+      "public_path": "docs/assets/downloads/14p/14P_2D_Drawing.pdf",
+      "public_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/14p/14P_2D_Drawing.pdf",
+      "pages": 1,
+      "bytes": 73733,
+      "sha256": "ef74d25d5e8485e0082c8ada0c58db1fe7ac76be2efdf21d78b947253be291d2",
+      "git_blob_sha": "7216f626ea2746fcad82c517273f09cbd7e086b3",
+      "release_status": "Verified on gh-pages"
+    },
+    {
+      "model": "16P",
+      "drawing_code": "SG01PD16",
+      "original_filename": "行星16外形尺寸图.pdf",
+      "public_path": "docs/assets/downloads/16p/16P_2D_Drawing.pdf",
+      "public_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/16p/16P_2D_Drawing.pdf",
+      "pages": 1,
+      "bytes": 70636,
+      "sha256": "455bedb52e52c0b254157270369d6575102d53dd0dc636f9b000ec41857b7070",
+      "git_blob_sha": "259a4fe74d21afe0d288ad6ade1fd244052a27fe",
+      "release_status": "Verified on gh-pages"
+    },
+    {
+      "model": "20P",
+      "drawing_code": "SG01PD20",
+      "original_filename": "行星20外形尺寸图.pdf",
+      "public_path": "docs/assets/downloads/20p/20P_2D_Drawing.pdf",
+      "public_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/20p/20P_2D_Drawing.pdf",
+      "pages": 1,
+      "bytes": 70432,
+      "sha256": "1332de03637b23555dcd2364a777de6b620baaf44130d0513a7171e9f5c1fe4a",
+      "git_blob_sha": "375acb894eb449922a658e50eba747c2f53e27be",
+      "release_status": "Verified on gh-pages"
+    },
+    {
+      "model": "22P",
+      "drawing_code": "SG01PD22",
+      "original_filename": "行星22外形尺寸图.pdf",
+      "public_path": "docs/assets/downloads/22p/22P_2D_Drawing.pdf",
+      "public_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/22p/22P_2D_Drawing.pdf",
+      "pages": 1,
+      "bytes": 70399,
+      "sha256": "8a4690b13a6e5e5521bfd6dd762b0848122809ae9720b971f5e38bc69456847d",
+      "git_blob_sha": "8497ef9bea111e89200d94f81b825675e17d4188",
+      "release_status": "Verified on gh-pages"
+    },
+    {
+      "model": "24P",
+      "drawing_code": "SG01PD24",
+      "original_filename": "行星24外形尺寸图.pdf",
+      "public_path": "docs/assets/downloads/24p/24P_2D_Drawing.pdf",
+      "public_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/24p/24P_2D_Drawing.pdf",
+      "pages": 1,
+      "bytes": 70696,
+      "sha256": "3de1f3fe7abfea3d94e8e0ed46b1c2705c1f3c7a1ba3e0ea32df9ea4e1dfeca2",
+      "git_blob_sha": "279354b7ff9e397942b09f3af9a5071aba4873d7",
+      "release_status": "Verified on gh-pages"
+    },
+    {
+      "model": "28P",
+      "drawing_code": "SG01PD28",
+      "original_filename": "行星28外形尺寸图.pdf",
+      "public_path": "docs/assets/downloads/28p/28P_2D_Drawing.pdf",
+      "public_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/28p/28P_2D_Drawing.pdf",
+      "pages": 1,
+      "bytes": 73060,
+      "sha256": "bb15436b0cdece6d0a9c63cad595e422e3fc02fe310a7700d159b22e87a17dcd",
+      "git_blob_sha": "bd8dd3425f3f7aeef0b172bfa63887526ccbb288",
+      "release_status": "Verified on gh-pages"
+    },
+    {
+      "model": "32P",
+      "drawing_code": "SG01PD32",
+      "original_filename": "行星32外形尺寸图.pdf",
+      "public_path": "docs/assets/downloads/32p/32P_2D_Drawing.pdf",
+      "public_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/32p/32P_2D_Drawing.pdf",
+      "pages": 1,
+      "bytes": 79488,
+      "sha256": "ec628cf4b0075e5ed67fc8bf60704af46cd74ecfa06eb3f175e0919f113771a7",
+      "git_blob_sha": "dd097484c6de18cbdde4c6c44e8c3f03d745de56",
+      "release_status": "Verified on gh-pages"
+    },
+    {
+      "model": "36P",
+      "drawing_code": "SG01PD36",
+      "original_filename": "行星36外形尺寸图.pdf",
+      "public_path": "docs/assets/downloads/36p/36P_2D_Drawing.pdf",
+      "public_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/36p/36P_2D_Drawing.pdf",
+      "pages": 1,
+      "bytes": 79989,
+      "sha256": "ee5b68c9c924693f8c3a57e72bac2fdfd023ea80682ba20fb915ed0ac1bfd33b",
+      "git_blob_sha": "d7633eff714379c87dcd3faedd6af340433fba9b",
+      "release_status": "Verified on gh-pages"
+    },
+    {
+      "model": "42P",
+      "drawing_code": "SG01PD42",
+      "original_filename": "行星42外形尺寸图.pdf",
+      "public_path": "docs/assets/downloads/42p/42P_2D_Drawing.pdf",
+      "public_url": "https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/42p/42P_2D_Drawing.pdf",
+      "pages": 1,
+      "bytes": 72980,
+      "sha256": "2ec552832c42ee54372dfa412c9f8dc72ff1c8b25806e26a4cb1ba97a5c7a22c",
+      "git_blob_sha": "df11e5a8d31ec5597b7d4c4b92799fffb444c323",
+      "release_status": "Verified on gh-pages"
+    }
+  ]
+}
