@@ -34,6 +34,45 @@ description: Compare 12 SigGear micro, miniature and compact planetary gearheads
   </figure>
 </div>
 
+## Find a Planetary Gearhead by Diameter and Design Requirement
+
+SigGear supplies **precision planetary gearheads** for compact OEM motion systems. Engineers also search for these components as *miniature planetary gearboxes*, *micro planetary reducers* or *small planetary gear reducers*. The 8–42 mm range below refers to the **nominal outer diameter of the gearhead**, not the diameter of an integrated motor or the overall motor-plus-gearhead length.
+
+| Size class | Nominal gearhead diameter | Start here when… |
+| --- | --- | --- |
+| **Micro Planetary Gearheads** | [8P](8p-planetary-gearbox.md), [10P](10p-planetary-gearbox.md), [12P](12p-planetary-gearbox.md), [14P](14p-planetary-gearbox.md), [16P](16p-planetary-gearbox.md) | The available mounting envelope is very small; first verify shaft geometry, stage length and continuous load |
+| **Miniature Planetary Gearheads** | [20P](20p-planetary-gearbox.md), [22P](22p-planetary-gearbox.md), [24P](24p-planetary-gearbox.md), [28P](28p-planetary-gearbox.md), [32P](32p-planetary-gearbox.md) | You need to compare mid-size mechanical interfaces, output torque and motor matching |
+| **Compact Planetary Gearheads** | [36P](36p-planetary-gearbox.md), [42P](42p-planetary-gearbox.md) | The application allows a larger housing and needs comparison against the published stage and rated-load tables |
+
+### How to choose a ratio, length and rated torque
+
+1. **Choose the outer diameter** that fits the mechanism, leaving space for the mount, output shaft and coupling.
+2. **Estimate reduction ratio** from the motor's loaded operating speed divided by the required output speed; then choose an *actually published* model/stage/ratio combination rather than assuming every numerical ratio is offered.
+3. **Check stage-dependent body length.** A higher number of stages changes the gearhead length and typically the output capability. Compare the exact model's published tables.
+4. **Compare continuous output load with Rated Allowable Torque**, not Maximum Momentary Torque. The latter is for temporary-load screening only, with duration and duty cycle subject to engineering review.
+5. **Verify the motor-to-gearhead connection**: motor shaft/pinion, mounting pattern, locating pilot, available axial space and installation tolerances. A standalone gearhead is not an electrically rated motor assembly.
+
+Need a calculation and configuration filter? Use the [8–42 mm planetary gearhead ratio and stage selector](../../selection-guides/miniature-planetary-gearbox-selection-guide.md) for preliminary comparison. Its results do not replace installation, thermal, life or duty-cycle verification.
+
+### Engineering downloads: PDF datasheet vs 2D drawing vs STEP
+
+- **Datasheet PDF:** Published model parameters such as available ratios, rated torque, efficiency, backlash and shaft-load limits.
+- **2D outline drawing:** Original SG01PD-series mechanical reference. Body length **L** depends on the selected stage/ratio; confirm a controlled drawing before production.
+- **Full Assembly STEP:** A published original assembly export for mechanical design review; verify the exact selected configuration before production use.
+- **Simplified 4-stage STEP:** A separate preliminary packaging reference, **not** interchangeable with the full-assembly model.
+
+All 12 sizes have separate [PDF datasheets, 2D drawings and full-assembly STEP downloads](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md).
+
+### Frequently asked engineering questions
+
+**Is a planetary gearhead the same as a planetary gearbox?** In this catalogue, *gearhead* is the preferred name for the compact mechanical reduction unit; *planetary gearbox* and *planetary reducer* are common alternative search terms.
+
+**Can I purchase the gearhead without a motor?** Yes, the product range is presented as **Gearhead Only** or for review as a **Motor + Gearhead Assembly**. Existing-motor integration requires its shaft and mounting drawing, operating conditions and a compatibility check.
+
+**Does the nominal diameter specify the complete motor assembly?** No. The advertised 8–42 mm range is the gearhead housing diameter. Total assembly length and electrical ratings depend on the selected motor and gearhead configuration.
+
+**Are all CAD files production-ready for every ratio?** No. A published model supports preliminary design review. Confirm stage/ratio-dependent dimensions, the motor input interface and a configuration-controlled drawing before manufacturing.
+
 ## Product Downloads
 
 [**Open the Datasheets & CAD Download Centre**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
