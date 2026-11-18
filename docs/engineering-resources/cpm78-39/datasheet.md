@@ -61,7 +61,9 @@ A separate uploaded laboratory report is titled as a backlash test but reports r
 
 A controlled 2D drawing is available for engineering review.
 
-A public STEP model is not currently released in this repository for CPM-78-39.
+[**Download CPM-78-39 Original Full Assembly STEP**](../../assets/downloads/joint-actuators/CPM-78-39_Original_Full_Assembly_20261118.step){ .md-button .md-button--primary }
+
+Original assembly publicly released 2026-11-18, separate from the still-requested controlled 2D drawing.
 
 [Request CAD, Drawing or Integration Files](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
 
