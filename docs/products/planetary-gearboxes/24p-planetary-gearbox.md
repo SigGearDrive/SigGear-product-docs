@@ -1,6 +1,6 @@
 ---
 title: 24 mm Miniature Precision Planetary Gearhead (24P) | SigGear
-description: SigGear 24P (24 mm) miniature planetary gearhead/gearbox: ratio 3.83:1–759.7:1, rated torque 980.7–2942.0 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD.
+description: "SigGear 24P (24 mm) miniature planetary gearhead/gearbox: ratio 3.83:1–759.7:1, rated torque 980.7–2942.0 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
 ---
 
 # 24 mm Miniature Precision Planetary Gearhead (24P)
