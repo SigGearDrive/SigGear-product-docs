@@ -61,6 +61,14 @@ def check() -> None:
         assert path.is_file() and path.stat().st_size > 8000, f"Broken/short file: {path}"
         assert link.get("title","").startswith("Models:"), f"Missing winding/model search tokens: {relative}"
     assert dict(counter) == SIZES, f"Wrong diameter coverage: {dict(counter)}"
+    required_new = {
+        "20mm/SigGear_20mm_DC_Motor_120108_DraftV1.0.pdf",
+        "20mm/SigGear_20mm_DC_Motor_120100_DraftV1.0.pdf",
+        "24mm/SigGear_24mm_DC_Motor_090080-240092_DraftV1.0.pdf",
+    }
+    assert required_new.issubset(seen), f"New source PDFs missing: {sorted(required_new - seen)}"
+    assert "HS-2016-Q" in md, "20 mm 120108 must disclose chart/source designation mismatch"
+    assert "090080" in md and "240092" in md, "New 24 mm winding range missing"
     for n in SIZES:
         assert any(id_.startswith(f"{n}-mm-") for id_ in parsed.ids), f"Legacy diameter anchor missing for {n}"
     assert "motor-quick-downloads.js?v=20261118-direct-pdfs" in html
