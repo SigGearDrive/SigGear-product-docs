@@ -41,6 +41,7 @@ on:
       - "scripts/validate_production_release_readiness.py"
       - "scripts/validate_end_to_end_planetary_funnel.py"
       - "scripts/validate_planetary_indexing_readiness.py"
+      - "scripts/validate_planetary_download_assets.py"
       - "scripts/build_joint_datasheets.py"
       - "scripts/validate_joint_product_media.py"
       - "scripts/utm_utils.py"
@@ -73,6 +74,7 @@ on:
       - "scripts/validate_production_release_readiness.py"
       - "scripts/validate_end_to_end_planetary_funnel.py"
       - "scripts/validate_planetary_indexing_readiness.py"
+      - "scripts/validate_planetary_download_assets.py"
       - "scripts/build_joint_datasheets.py"
       - "scripts/validate_joint_product_media.py"
       - "scripts/validate_stage_specific_cad_boundary.py"
@@ -216,6 +218,9 @@ jobs:
 
       - name: Build documentation
         run: mkdocs build --strict
+
+      - name: Preflight published planetary and motor files
+        run: python scripts/validate_planetary_download_assets.py
 
       - name: Verify rendered model-to-selector links
         run: python scripts/validate_selector_discovery_links.py
