@@ -10,6 +10,7 @@ description: Compare 12 SigGear micro, miniature and compact planetary gearheads
 ## Product Identity
 
 - **Product family:** Micro, Miniature and Compact Precision Planetary Gearheads (8–42 mm)
+- **Legacy product-inventory label:** 8–42 mm Planetary Gear Reducer Series (retained for document traceability and existing engineering references)
 - **Product type:** Precision Planetary Gearheads
 - **Nominal outer diameter range:** 8 mm to 42 mm
 
