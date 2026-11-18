@@ -1,6 +1,6 @@
 ---
 title: 12 mm Micro Precision Planetary Gearhead (12P) | SigGear
-description: SigGear 12P (12 mm) micro planetary gearhead/gearbox: ratio 3.5:1–509.1:1, rated torque 196.1–411.9 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD.
+description: "SigGear 12P (12 mm) micro planetary gearhead/gearbox: ratio 3.5:1–509.1:1, rated torque 196.1–411.9 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
 ---
 
 # 12 mm Micro Precision Planetary Gearhead (12P)
