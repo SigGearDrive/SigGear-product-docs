@@ -16,6 +16,8 @@ description: "Download 33 SigGear DC and BLDC motor datasheet PDFs across Ø8–
 <input id="siggear-motor-filter" class="siggear-motor-filter" type="search" placeholder="e.g. 16 mm, 120132, BLDC, Series 02" autocomplete="off" aria-controls="siggear-motor-quick-table">
 <p id="siggear-motor-results" class="siggear-motor-results" role="status" aria-live="polite">10 diameter groups · 33 downloadable PDFs</p>
 
+<div id="siggear-motor-quick-table" markdown="1">
+
 | Diameter | Motor type | Direct motor Datasheet PDFs | Document status |
 | --- | --- | --- | --- |
 | **<span id="8-mm-dc-micromotors">Ø8 mm</span>** | DC Micromotors | [HS-816-Q · Set A · PDF](../../assets/downloads/motors/8mm/SigGear_8mm_HS-816-Q_Winding_Set_A_D1.pdf "Models: 024139 · 042142 · 060133 · 072143 · 090144"){: .siggear-motor-file } [HS-816-Q · Set B · PDF](../../assets/downloads/motors/8mm/SigGear_8mm_HS-816-Q_Winding_Set_B_D1.pdf "Models: 024115 · 042117 · 060110 · 072119 · 090119"){: .siggear-motor-file } [HS-820-Q · Set C · PDF](../../assets/downloads/motors/8mm/SigGear_8mm_HS-820-Q_Winding_Set_C_D1.pdf "Models: 030330 · 037175 · 120200"){: .siggear-motor-file } | D1 · source |
@@ -28,7 +30,7 @@ description: "Download 33 SigGear DC and BLDC motor datasheet PDFs across Ø8–
 | **<span id="24-mm-bldc-motor">Ø24 mm</span>** | BLDC Motor | [HR-BL2453-Q240150100-12-55 · PDF](../../assets/downloads/motors/24mm/SigGear_24mm_BLDC_Motor_HR-BL2453-Q240150100-12-55_Rev1.0.pdf "Models: HR-BL2453-Q240150100-12-55 · Three-phase BLDC, 24 VDC"){: .siggear-motor-file } | Rev 1.0 |
 | **<span id="28-mm-dc-motors">Ø28 mm</span>** | DC Motors | [Sheet A · PDF](../../assets/downloads/motors/28mm/SigGear_28mm_DC_Motor_SheetA_060041-120097_DraftV0.9.pdf "Models: 060041 · 120097"){: .siggear-motor-file } [Sheet B · PDF](../../assets/downloads/motors/28mm/SigGear_28mm_DC_Motor_SheetB_072120-240120_DraftV0.9.pdf "Models: 072120 · 120120 · 240120"){: .siggear-motor-file } | Draft V0.9 |
 | **<span id="32-mm-dc-motors">Ø32 mm</span>** | DC Motors | [Series 01 · PDF](../../assets/downloads/motors/32mm/SigGear_32mm_DC_Motor_Series01_120071-480077_DraftV1.0.pdf "Models: 120071 · 180086 · 240082 · 360079 · 480077"){: .siggear-motor-file } [Series 02 · Mechanical A · PDF](../../assets/downloads/motors/32mm/SigGear_32mm_DC_Motor_Series02_MechanicalA_060068-240059_DraftV1.0.pdf "Models: 060068 · 090049 · 120046 · 180052 · 240059"){: .siggear-motor-file } [Series 02 · Mechanical B · PDF](../../assets/downloads/motors/32mm/SigGear_32mm_DC_Motor_Series02_MechanicalB_060068-240059_DraftV1.0.pdf "Models: 060068 · 090049 · 120046 · 180052 · 240059"){: .siggear-motor-file } | Draft V1.0 |
-{: #siggear-motor-quick-table }
+</div>
 
 **Only motor specifications are shown here.** Gearhead output torque, speed and total assembly length must be evaluated separately. *Draft* means engineering/source review is still required.
 
