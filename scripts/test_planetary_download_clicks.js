@@ -94,6 +94,27 @@ setPage("/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-
 observed = click("../../../assets/downloads/12p/12P_Planetary_Gearhead_Datasheet_Rev1.1.pdf");
 assert.equal(observed.find(x => x.name === "planetary_engineering_file_click").params.source_page_type, "gearhead_download_hub");
 
+// Motor-only PDFs are a separate download-intent event, not gearhead files.
+setPage("/SigGear-product-docs/engineering-resources/motors/", "");
+observed = click("../../assets/downloads/motors/20mm/SigGear_20mm_BLDC_Motor_HR-BL2030-Q120260_Rev1.0.pdf");
+let motorEvent = observed.find(x => x.name === "motor_datasheet_click");
+assert.ok(motorEvent);
+assert.equal(motorEvent.params.motor_diameter_mm, 20);
+assert.equal(motorEvent.params.source_page_type, "motor_datasheet_hub");
+assert.equal(motorEvent.params.source_application, "not_specified");
+assert.equal(observed.filter(x => x.name === "planetary_engineering_file_click").length, 0);
+
+setPage(appPath, "");
+observed = click("../../assets/downloads/motors/8mm/SigGear_8mm_HS-816-Q_Winding_Set_A_D1.pdf");
+motorEvent = observed.find(x => x.name === "motor_datasheet_click");
+assert.equal(motorEvent.params.source_page_type, "application");
+assert.equal(motorEvent.params.source_application, "electric-pruning-shears-planetary-gearbox");
+assert.equal(motorEvent.params.motor_diameter_mm, 8);
+
+observed = click("https://example.com/SigGear-product-docs/assets/downloads/motors/8mm/SigGear_test.pdf");
+assert.equal(observed.filter(x => x.name === "motor_datasheet_click").length, 0);
+
 console.log("PASS application -> product -> engineering file journey events without adding cookie tracking");
+console.log("PASS 33 motor PDF intent label and application-origin context");
 
 console.log("PASS PDF, original 2D, full STEP, simplified STEP click classifications and legacy CAD events");
