@@ -39,7 +39,7 @@
 | --- | --- |
 | [SG-6010C](https://siggeardrive.github.io/SigGear-product-docs/products/robot-joint-actuators/sg6010c/), [SG-6010D](https://siggeardrive.github.io/SigGear-product-docs/products/robot-joint-actuators/sg6010d/), [SG-8021](https://siggeardrive.github.io/SigGear-product-docs/products/robot-joint-actuators/sg8021/) | [CPM-78-39](https://siggeardrive.github.io/SigGear-product-docs/products/cycloidal-joint-modules/cpm78-39/), [CPM-80-25](https://siggeardrive.github.io/SigGear-product-docs/products/cycloidal-joint-modules/cpm80-25/), [CPM-100-25](https://siggeardrive.github.io/SigGear-product-docs/products/cycloidal-joint-modules/cpm100-25/) |
 
-**CAD release scope:** Original full-assembly STEP now available for **SG-6010C, SG-6010D, SG-8021 (driver-equipped variant) and CPM-78-39**. Existing simplified STEP remains available for SG-6010C and CPM-80-25. CPM-100-25 public CAD is not yet released. Public reference PDFs are not production drawings.
+**CAD release scope:** Original full-assembly STEP now available across all six standard joint models, including separate CPM-80-25 no-driver/integrated-driver and CPM-100-25 standard 29.5 mm/dual-encoder driver 48 mm variants. Existing simplified STEP remains separately available for SG-6010C and CPM-80-25. Public reference PDFs and original STEP exports are not configuration-controlled production drawings.
 
 ## Other Engineering Resources
 
