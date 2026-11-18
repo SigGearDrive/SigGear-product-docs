@@ -1,5 +1,9 @@
 # SigGear | Precision Planetary Gearheads (8–42 mm)
 
+**OEM Supplier — DC/BLDC Motors · Precision Planetary Gearheads · Motor + Gearhead Assemblies**
+
+[**Motor Datasheets**](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/motors/) · [**Gearhead PDF / 2D / STEP**](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/) · [**Motor + Gearhead Integration**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/motor-gearbox-integration/) · [**Application Guides**](https://siggeardrive.github.io/SigGear-product-docs/applications/)
+
 **12 models · Micro / Miniature / Compact · PDF datasheets · 2D drawings · Full STEP CAD**
 
 [**Download all model files**](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/) · [**Compare 12 models**](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/) · [**Quick Ratio / Torque Selector + Downloads**](https://siggeardrive.github.io/SigGear-product-docs/selection-guides/planetary-gearhead-quick-selector/)
