@@ -1,5 +1,5 @@
 site_name: SigGear Product Documentation
-site_description: SigGear Micro, Miniature and Compact Precision Planetary Gearheads from 8–42 mm for OEM mechanical designs. Model-specific datasheets, mounting interfaces, simplified STEP CAD and motor-matching reviews.
+site_description: SigGear 8–42 mm Micro, Miniature and Compact Precision Planetary Gearheads for OEM engineering. Compare 12 models, PDF datasheets, 2D mechanical drawings, full-assembly STEP CAD and motor interfaces.
 site_url: https://siggeardrive.github.io/SigGear-product-docs/
 repo_url: https://github.com/SigGearDrive/SigGear-product-docs
 repo_name: SigGearDrive/SigGear-product-docs
@@ -111,9 +111,6 @@ extra:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/luffywan.robotics/
       name: Wanrong Wang / SigGear on Instagram
-    - icon: fontawesome/brands/tiktok
-      link: https://www.tiktok.com/@robotactuator.engineer
-      name: Robot Actuator Engineer / SigGear on TikTok
   analytics:
     provider: google
     property: G-Q14K9BLGK4
@@ -264,9 +261,9 @@ nav:
           - Technical Datasheet: engineering-resources/cpm100-25/datasheet.md
           - Mechanical Interface: engineering-resources/cpm100-25/mechanical-interface.md
           - Dual Encoder Variant: engineering-resources/cpm100-25/dual-encoder-variant.md
-      - Planetary Gearboxes 8P-42P:
+      - Precision Planetary Gearheads 8P–42P:
           - Resource Library: engineering-resources/planetary-gearboxes/index.md
-          - Public CAD Release v1.0: engineering-resources/planetary-gearboxes/public-cad-release-v1.md
+          - Datasheets, Drawings & Full STEP CAD: engineering-resources/planetary-gearboxes/public-cad-release-v1.md
           - Candidate Design-In Pack: engineering-resources/planetary-gearboxes/candidate-design-in-pack.md
           - 8P:
               - Technical Datasheet: engineering-resources/8p/datasheet.md
