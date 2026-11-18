@@ -27,9 +27,15 @@ def main() -> None:
     assert "22P Mechanical Interface](../../engineering-resources/22p/mechanical-interface.md)" in src
     assert "1,000–20,000 rpm" in src
     assert "max_diameter=22#preliminary-ratio-stage-finder" not in src, "The product page should no longer surface the selector"
-    assert "2D drawing PDF" in src
-    assert "Full assembly STEP" in src
-    assert "Download 4-stage reference" in src
+    # New quick-download layout replaces the old downloads table.
+    # Validate the actual model-matched file targets, not legacy link labels.
+    for expected in (
+        "[**Download Datasheet PDF**](../../assets/downloads/22p/22P_Planetary_Gearhead_Datasheet_Rev1.0.pdf)",
+        "[**Download 2D Drawing PDF**](../../assets/downloads/22p/22P_2D_Drawing.pdf)",
+        "[**Download Full Assembly STEP**](../../assets/downloads/22p/22P_Full_Assembly.step)",
+        "[Simplified 4-stage STEP](../../assets/downloads/22p/22P_Public_Simplified_STEP_v1.0_4-Stage.step)",
+    ):
+        assert expected in src, f"22P engineering download missing or mislinked: {expected}"
 
     for name in OLD_MEDIA:
         assert name not in src, f"Misleading reused 22P graphic is still referenced: {name}"
