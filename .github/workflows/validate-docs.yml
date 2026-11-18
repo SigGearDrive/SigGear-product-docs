@@ -42,6 +42,8 @@ on:
       - "scripts/validate_end_to_end_planetary_funnel.py"
       - "scripts/validate_planetary_indexing_readiness.py"
       - "scripts/validate_planetary_download_assets.py"
+      - "scripts/validate_motor_quick_downloads.py"
+      - "scripts/test_motor_quick_downloads.js"
       - "scripts/build_joint_datasheets.py"
       - "scripts/validate_joint_product_media.py"
       - "scripts/utm_utils.py"
@@ -75,6 +77,8 @@ on:
       - "scripts/validate_end_to_end_planetary_funnel.py"
       - "scripts/validate_planetary_indexing_readiness.py"
       - "scripts/validate_planetary_download_assets.py"
+      - "scripts/validate_motor_quick_downloads.py"
+      - "scripts/test_motor_quick_downloads.js"
       - "scripts/build_joint_datasheets.py"
       - "scripts/validate_joint_product_media.py"
       - "scripts/validate_stage_specific_cad_boundary.py"
@@ -221,6 +225,14 @@ jobs:
 
       - name: Preflight published planetary and motor files
         run: python scripts/validate_planetary_download_assets.py
+
+      - name: Validate motor PDF first-screen download matrix
+        run: python scripts/validate_motor_quick_downloads.py
+
+      - name: Test motor PDF diameter and winding search
+        run: |
+          node --check docs/assets/javascripts/motor-quick-downloads.js
+          node scripts/test_motor_quick_downloads.js
 
       - name: Verify rendered model-to-selector links
         run: python scripts/validate_selector_discovery_links.py

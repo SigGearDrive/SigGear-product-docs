@@ -147,7 +147,7 @@ def main() -> None:
     motor_page = DOCS / "engineering-resources/motors/index.md"
     motor_source = motor_page.read_text(encoding="utf-8")
     motor_links = sorted(set(re.findall(
-        r"\]\((\.\./\.\./assets/downloads/motors/[^)]+\.pdf)\)",
+        r'\]\((\.\./\.\./assets/downloads/motors/[^)\s]+\.pdf)(?:\s+"[^"]*")?\)',
         motor_source,
     )))
     require(len(motor_links) >= 25, f"Unexpectedly few motor datasheets listed: {len(motor_links)}")
