@@ -65,7 +65,7 @@ The current public product page continues to use **42.6 mm** as the nominal driv
 
 These drawings must not be interchanged during final design-in. Use the configuration-matched controlled drawing supplied with the quotation.
 
-A full driver-equipped SG-8021 STEP assembly is available internally for engineering review but is not released here as a public download because it contains full assembly geometry.
+The original driver-equipped SG-8021 full assembly STEP is publicly released (2026-11-18) and contains the complete assembly geometry.
 
 ## Design-In Boundary
 
@@ -82,7 +82,9 @@ Before final mechanical design, confirm:
 
 ## CAD and Controlled Drawing
 
-A public simplified STEP model is **not currently released in this repository** for SG-8021.
+[**Download Original Full Assembly STEP — Driver Version**](../../assets/downloads/joint-actuators/SG-8021_Driver_Version_Original_Full_Assembly_20261118.step){ .md-button .md-button--primary }
+
+The file is a **driver-equipped assembly**; it is not a reference for the driverless configuration. No separate simplified STEP is currently published.
 
 For packaging, tolerance stack-up or production design-in, request the current controlled drawing and configuration-matched CAD file.
 
