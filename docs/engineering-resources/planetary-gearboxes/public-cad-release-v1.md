@@ -28,6 +28,6 @@ description: Download all 12 SigGear planetary gearhead PDF datasheets, original
 
 ## File Notes
 
-**Full STEP ≠ 4-stage simplified STEP.** The original 2D outline drawings use body length **L** that depends on stage and ratio. Confirm the exact motor interface and configuration-controlled drawing before production.
+**Simplified STEP is a 4-stage reference only; it is not the Full Assembly STEP.** The original 2D outline drawings use body length **L** that depends on stage and ratio. Confirm the exact motor interface and configuration-controlled drawing before production.
 
 [Compare 8–42 mm ratios and rated torque](../../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) · [Full STEP validation manifest](../../assets/downloads/full-assembly-release-manifest.json)
