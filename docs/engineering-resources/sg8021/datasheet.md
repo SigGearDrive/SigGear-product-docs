@@ -90,9 +90,11 @@ The photograph is an engineering reference image, not a manufacturing drawing. I
 
 ## CAD, Drawings and Integration Documentation
 
-A public STEP model is **not currently released in this repository** for SG-8021.
+[**Download SG-8021 Full Assembly STEP — Driver Version**](../../assets/downloads/joint-actuators/SG-8021_Driver_Version_Original_Full_Assembly_20261118.step){ .md-button .md-button--primary }
 
-Detailed STEP, controlled drawings, connector / cable information and configuration-specific control documentation should be requested for the intended project.
+Published CAD represents the **driver-equipped configuration**, not a driverless variant.
+
+Controlled drawings, connector / cable details and configuration-specific control documentation remain available through engineering review.
 
 [Request CAD, Drawing or Integration Files](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
 

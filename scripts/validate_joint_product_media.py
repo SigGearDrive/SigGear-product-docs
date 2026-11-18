@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from pathlib import Path
+import hashlib
 from urllib.parse import unquote
 import re
 import xml.etree.ElementTree as ET
@@ -20,11 +21,24 @@ MODELS = {
     "CPM-100-25": ("cycloidal-joint-modules","cpm100-25"),
 }
 STEP_ALLOWED = {
-    "SG-6010C": ["SG-6010C_Public_Simplified_STEP_v1.0.step"],
+    "SG-6010C": [
+        "SG-6010C_Original_Full_Assembly_20261118.step",
+        "SG-6010C_Public_Simplified_STEP_v1.0.step",
+    ],
+    "SG-6010D": ["SG-6010D_Original_Full_Assembly_20261118.step"],
+    "SG-8021": ["SG-8021_Driver_Version_Original_Full_Assembly_20261118.step"],
+    "CPM-78-39": ["CPM-78-39_Original_Full_Assembly_20261118.step"],
     "CPM-80-25": [
         "CPM-80-25_Public_Simplified_STEP_v1.0_No_Driver.step",
         "CPM-80-25_Public_Simplified_STEP_v1.0_Integrated_Driver.step",
     ],
+}
+
+ORIGINAL_STEPS = {
+    "SG-6010C": ("SG-6010C_Original_Full_Assembly_20261118.step", 22348448, "c7feb40848ac3c7469a1fb35567a1ee0fdf65cba752e3f164ea52d9f0491ae2b"),
+    "SG-6010D": ("SG-6010D_Original_Full_Assembly_20261118.step", 11653945, "29013caf3e470c43f6a60a875786ed46140604288654b4483b37710dcb1d7dda"),
+    "SG-8021": ("SG-8021_Driver_Version_Original_Full_Assembly_20261118.step", 19380522, "9591a7f2143d1a0418e39a876cc9d047c21289c3e80cc9c265aad40a1156f95d"),
+    "CPM-78-39": ("CPM-78-39_Original_Full_Assembly_20261118.step", 16521809, "4a7791ede4c5b4c1430f75cc86325900bcb6bb65490c6deaf9c41d8149389d3b"),
 }
 
 def main() -> None:
@@ -75,6 +89,16 @@ def main() -> None:
         for name in expected:
             if name not in text:
                 raise ValueError("Missing approved public STEP link: "+model+" "+name)
+        if model in ORIGINAL_STEPS:
+            filename, expected_bytes, expected_sha = ORIGINAL_STEPS[model]
+            original = DOCS / "assets/downloads/joint-actuators" / filename
+            if not original.is_file() or original.stat().st_size != expected_bytes:
+                raise ValueError("Original full assembly STEP missing/incorrect size: " + model)
+            digest = hashlib.sha256(original.read_bytes()).hexdigest()
+            if digest != expected_sha:
+                raise ValueError("Original full assembly STEP failed SHA-256: " + model)
+            if model == "SG-8021" and "Driver Version" not in text:
+                raise ValueError("SG-8021 driver-equipped CAD variant must be labeled")
         if not expected and step_names:
             raise ValueError("Unreleased joint CAD advertised on "+model)
         if not expected and "No downloadable STEP is currently approved" not in text:
@@ -84,7 +108,7 @@ def main() -> None:
         print("PASS",model,"PDF",pdf.stat().st_size,"images",len(paths),"STEP",len(expected))
     if media_errors:
         raise ValueError("Invalid product image assets:\n" + "\n".join(media_errors))
-    print("PASS six joint-module catalogue reference PDFs, image integrity and CAD release gates")
+    print("PASS six joint PDF and image integrity checks, including four verified original full-assembly STEP files")
 
 if __name__ == "__main__":
     main()

@@ -10,9 +10,9 @@ description: Compare SigGear SG-6010C, SG-6010D and SG-8021 robot joint actuator
 
 | Model | Ø / Thickness | Ratio | Rated / Peak Torque | Rated RPM | Datasheet PDF | CAD |
 | --- | --- | --- | --- | --- | --- | --- |
-| [SG-6010C](sg6010c.md) | Ø80 / 34.07 mm | 9.67:1 | 6 / 18 Nm | 310 | [PDF](../../assets/downloads/joint-actuators/SG-6010C_Public_Reference_Datasheet_Rev0.1.pdf) | [Simplified STEP](../../assets/downloads/sg6010c/SG-6010C_Public_Simplified_STEP_v1.0.step) |
-| [SG-6010D](sg6010d.md) | Ø80 / 58.77 mm | 28.13:1 | 16 / 50 Nm | 100 | [PDF](../../assets/downloads/joint-actuators/SG-6010D_Public_Reference_Datasheet_Rev0.1.pdf) | Not released |
-| [SG-8021](sg8021.md) | Ø100 / 42.6 mm | 9.25:1 | 10 / 30 Nm | 160 | [PDF](../../assets/downloads/joint-actuators/SG-8021_Public_Reference_Datasheet_Rev0.1.pdf) | Not released |
+| [SG-6010C](sg6010c.md) | Ø80 / 34.07 mm | 9.67:1 | 6 / 18 Nm | 310 | [PDF](../../assets/downloads/joint-actuators/SG-6010C_Public_Reference_Datasheet_Rev0.1.pdf) | [Full STEP](../../assets/downloads/joint-actuators/SG-6010C_Original_Full_Assembly_20261118.step) · [Simplified](../../assets/downloads/sg6010c/SG-6010C_Public_Simplified_STEP_v1.0.step) |
+| [SG-6010D](sg6010d.md) | Ø80 / 58.77 mm | 28.13:1 | 16 / 50 Nm | 100 | [PDF](../../assets/downloads/joint-actuators/SG-6010D_Public_Reference_Datasheet_Rev0.1.pdf) | [Full STEP](../../assets/downloads/joint-actuators/SG-6010D_Original_Full_Assembly_20261118.step) |
+| [SG-8021](sg8021.md) | Ø100 / 42.6 mm | 9.25:1 | 10 / 30 Nm | 160 | [PDF](../../assets/downloads/joint-actuators/SG-8021_Public_Reference_Datasheet_Rev0.1.pdf) | [Full STEP · Driver Version](../../assets/downloads/joint-actuators/SG-8021_Driver_Version_Original_Full_Assembly_20261118.step) |
 
 **Related catalogue product:** [SG-6010HB](sg6010hb.md) is available separately for compact exoskeleton-joint evaluation and is not included in the six-model release matrix.
 

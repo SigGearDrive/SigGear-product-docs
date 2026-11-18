@@ -77,7 +77,8 @@ Driver hardware and firmware can evolve by ordered configuration. Confirm the dr
 
 ## Public Engineering Resources
 
-[Download Simplified STEP Model v1.0](../../assets/downloads/sg6010c/SG-6010C_Public_Simplified_STEP_v1.0.step){ .md-button .md-button--primary }
+[**Download Original Full Assembly STEP**](../../assets/downloads/joint-actuators/SG-6010C_Original_Full_Assembly_20261118.step){ .md-button .md-button--primary }
+[Download Simplified STEP Model v1.0](../../assets/downloads/sg6010c/SG-6010C_Public_Simplified_STEP_v1.0.step){ .md-button }
 
 [View Mechanical Interface v1.0](mechanical-interface.md){ .md-button }
 

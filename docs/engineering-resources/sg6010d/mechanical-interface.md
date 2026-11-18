@@ -52,7 +52,7 @@ The same drawing separates two operating tables:
 
 The second table is configuration-specific and must not replace the base mechanical test values for every SG-6010D order.
 
-A full assembly STEP model is available internally for engineering review but is not published as a public download because the current file contains full assembly geometry.
+An original SG-6010D full assembly STEP is publicly downloadable (released 2026-11-18); it contains full assembly geometry.
 
 ## Design-In Boundary
 
@@ -70,7 +70,9 @@ Before final mechanical design, confirm:
 
 ## CAD and Controlled Drawing
 
-A public simplified STEP model is **not currently released in this repository** for SG-6010D.
+[**Download SG-6010D Original Full Assembly STEP**](../../assets/downloads/joint-actuators/SG-6010D_Original_Full_Assembly_20261118.step){ .md-button .md-button--primary }
+
+There is no separate public simplified STEP for this model; the link above is the complete original assembly.
 
 For packaging, tolerance stack-up or production design-in, request the current controlled drawing and configuration-matched CAD file.
 

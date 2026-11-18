@@ -37,7 +37,9 @@ Driver, absolute encoder, communication and closed-loop control hardware are not
 
 A controlled 2D drawing is available.
 
-A public simplified STEP model is not currently released for CPM-78-39.
+[**Download CPM-78-39 Original Full Assembly STEP**](../../assets/downloads/joint-actuators/CPM-78-39_Original_Full_Assembly_20261118.step){ .md-button .md-button--primary }
+
+The published STEP is the **original full assembly** rather than a simplified model; controlled 2D production drawing remains configuration-specific.
 
 [Request Controlled Drawing / CAD](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
 

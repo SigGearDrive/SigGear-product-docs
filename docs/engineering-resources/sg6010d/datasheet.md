@@ -81,9 +81,11 @@ Final design-in must also consider:
 
 ## CAD, Drawings and Integration Documentation
 
-A public STEP model is **not currently released in this repository** for SG-6010D.
+[**Download SG-6010D Original Full Assembly STEP**](../../assets/downloads/joint-actuators/SG-6010D_Original_Full_Assembly_20261118.step){ .md-button .md-button--primary }
 
-Detailed STEP, controlled drawings, CAN / integration documentation and configuration-specific files should be requested for the intended project so the files can be matched to the ordered configuration.
+Public release: full original assembly (2026-11-18). This is not a simplified reference.
+
+Controlled 2D drawings, CAN / integration documentation and other configuration-specific files can still be requested for the intended project.
 
 [Request CAD, Drawing or Integration Files](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
 

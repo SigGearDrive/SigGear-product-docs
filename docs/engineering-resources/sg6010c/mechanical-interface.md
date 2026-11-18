@@ -28,7 +28,7 @@ This document is a public engineering-evaluation reference for early mechanical 
 
 ## Public CAD Scope
 
-The public STEP is intentionally simplified. It retains:
+The existing v1.0 simplified STEP is intentionally reduced and retains:
 
 - External actuator envelope
 - Mounting interfaces
@@ -43,7 +43,10 @@ It removes:
 - PCB details
 - Internal fasteners and proprietary assembly geometry
 
-[Download SG-6010C Simplified STEP v1.0](../../assets/downloads/sg6010c/SG-6010C_Public_Simplified_STEP_v1.0.step){ .md-button .md-button--primary }
+[**Download Original Full Assembly STEP**](../../assets/downloads/joint-actuators/SG-6010C_Original_Full_Assembly_20261118.step){ .md-button .md-button--primary }
+[Download SG-6010C Simplified STEP v1.0](../../assets/downloads/sg6010c/SG-6010C_Public_Simplified_STEP_v1.0.step){ .md-button }
+
+The original assembly and the simplified reference are separate files; confirm your intended hardware revision before production.
 
 ## Final Design Release
 
