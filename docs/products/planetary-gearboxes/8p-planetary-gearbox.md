@@ -7,10 +7,13 @@ description: 8 mm micro precision planetary gearhead (8P) with published stage d
 
 ![SigGear 8P 8 mm micro planetary gearbox — product photo](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-main.webp)
 
+[**View 8P Datasheets & CAD Downloads**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#8p-downloads){ .md-button .md-button--primary }
+
 ## Downloads
 
 | File | Status |
 | --- | --- |
+| All 8P downloads | [Open 8P in the download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#8p-downloads) |
 | Online datasheet | [Open 8P datasheet](../../engineering-resources/8p/datasheet.md) |
 | Gearhead Datasheet PDF | [Download 8P PDF](../../assets/downloads/8p/8P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
 | Motor Datasheets (Ø8 mm) | [Download motor-only PDFs](../../engineering-resources/motors/index.md#8-mm-dc-micromotors) |

@@ -7,10 +7,13 @@ description: 14 mm micro precision planetary gearhead (14P) with published stage
 
 ![SigGear 14P 14 mm micro planetary gearbox](../../assets/images/products/planetary-gearboxes/14p/14p-planetary-gearbox-main.webp)
 
+[**View 14P Datasheets & CAD Downloads**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#14p-downloads){ .md-button .md-button--primary }
+
 ## Downloads
 
 | File | Status |
 | --- | --- |
+| All 14P downloads | [Open 14P in the download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#14p-downloads) |
 | Online datasheet | [Open 14P datasheet](../../engineering-resources/14p/datasheet.md) |
 | Gearhead Datasheet PDF | [Download 14P PDF](../../assets/downloads/14p/14P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
 | Motor Datasheets (Ø14 mm) | [Download motor-only PDFs](../../engineering-resources/motors/index.md#14-mm-dc-motors) |

@@ -36,6 +36,8 @@ description: SigGear 8–42 mm precision planetary gearheads in 12 Micro, Miniat
 
 ## Product Downloads
 
+[**Open the Datasheets & CAD Download Centre**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
+
 **Gearhead Datasheet PDF release:** All 12 revised model PDFs (Rev 1.0, except 12P Rev 1.1) are available for direct download. Online technical datasheets and full assembly STEP downloads are also available.
 
 

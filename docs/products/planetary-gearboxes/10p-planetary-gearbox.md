@@ -7,10 +7,13 @@ description: 10 mm micro precision planetary gearhead (10P) with published stage
 
 ![SigGear 10P 10 mm micro planetary gearbox](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-main.webp)
 
+[**View 10P Datasheets & CAD Downloads**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#10p-downloads){ .md-button .md-button--primary }
+
 ## Downloads
 
 | File | Status |
 | --- | --- |
+| All 10P downloads | [Open 10P in the download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#10p-downloads) |
 | Online datasheet | [Open 10P datasheet](../../engineering-resources/10p/datasheet.md) |
 | Gearhead Datasheet PDF | [Download 10P PDF](../../assets/downloads/10p/10P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) |
 | Motor Datasheets (Ø10 mm) | [Download motor-only PDFs](../../engineering-resources/motors/index.md#10-mm-dc-motors) |
