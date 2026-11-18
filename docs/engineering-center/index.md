@@ -1,9 +1,14 @@
 ---
 title: SigGear Engineering Center | CAD, STEP, Datasheets and Design-In Resources
-description: Use SigGear engineering resources to find a robot actuator or gearbox, evaluate CAD and interfaces, validate samples and prepare a configuration for design-in.
+description: Download SigGear robot joint actuator datasheets and original full assembly STEP CAD for SG-6010C, SG-6010D, SG-8021 driver version and CPM-78-39. Also compare 8–42 mm gearheads.
 ---
 
 # SigGear Engineering Center
+
+[**6 Robot Joint Datasheet PDFs & CAD Downloads**](../engineering-resources/robot-joint-actuators/quick-downloads.md){ .md-button .md-button--primary }
+[**12 Precision Planetary Gearheads · PDF / 2D / STEP**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
+
+**Full assembly STEP now downloadable without an inquiry:** [SG-6010C](../assets/downloads/joint-actuators/SG-6010C_Original_Full_Assembly_20261118.step) · [SG-6010D](../assets/downloads/joint-actuators/SG-6010D_Original_Full_Assembly_20261118.step) · [SG-8021 — Driver Version](../assets/downloads/joint-actuators/SG-8021_Driver_Version_Original_Full_Assembly_20261118.step) · [CPM-78-39](../assets/downloads/joint-actuators/CPM-78-39_Original_Full_Assembly_20261118.step)
 
 This Engineering Center is organized around the way an engineer normally evaluates a transmission product:
 
@@ -17,12 +22,12 @@ Use the public resources below for preliminary engineering evaluation. Robot act
 | --- | --- |
 | Need a custom transmission or feasibility review | [Custom Precision Transmission Engineering](../custom-engineering/index.md) |
 | Select an 8–42 mm planetary gearbox by speed, ratio and diameter | [Micro, Miniature & Compact Planetary Gearbox Selector](../selection-guides/miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder) |
-| Download model-specific 8–42 mm public STEP reference files | [12-Model Planetary Gearbox CAD Library](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) |
+| Download original full STEP, 2D drawings and PDFs for 12 gearheads | [12-Model Precision Planetary Gearhead Download Center](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) |
 | Need a custom planetary gearbox around an existing motor, size or interface | [Custom Planetary Gearbox Engineering](../custom-engineering/custom-planetary-gearbox.md) |
 | Find a product family or model | [Browse Products](../products/index.md) |
 | Find a solution by application | [Browse Applications](../applications/index.md) |
 | Estimate robot-joint requirements | [Robot Joint Actuator Selection Guide](../selection-guides/robot-joint-actuator-selection-guide.md) |
-| Download released CAD / STEP and interface data | [Public Engineering Packs](#public-engineering-packs) |
+| Download 6 joint PDFs and released original full assembly CAD | [Joint Actuator Datasheets & CAD](../engineering-resources/robot-joint-actuators/quick-downloads.md) |
 | Prepare and run a sample evaluation | [Sample Validation Workflow](sample-validation-workflow.md) |
 | Prepare for a design freeze | [Design-In Checklist](design-in-checklist.md) |
 | Verify real manufacturing and inspection evidence | [Manufacturing & Quality Evidence](../company/manufacturing-and-quality-evidence.md) |
@@ -35,13 +40,14 @@ The currently released public Engineering Resources are listed below.
 
 | Product | Public selection / design-in resources | Configuration-specific support |
 | --- | --- | --- |
-| [SG-6010C](../products/robot-joint-actuators/sg6010c.md) | [Datasheet](../engineering-resources/sg6010c/datasheet.md), [simplified STEP](../assets/downloads/sg6010c/SG-6010C_Public_Simplified_STEP_v1.0.step), [mechanical interface](../engineering-resources/sg6010c/mechanical-interface.md) | Quick Start, detailed CAN and firmware-specific integration documents after configuration review |
+| [SG-6010C](../products/robot-joint-actuators/sg6010c.md) | [PDF](../assets/downloads/joint-actuators/SG-6010C_Public_Reference_Datasheet_Rev0.1.pdf) · [**Original Full STEP**](../assets/downloads/joint-actuators/SG-6010C_Original_Full_Assembly_20261118.step) · [Simplified STEP](../assets/downloads/sg6010c/SG-6010C_Public_Simplified_STEP_v1.0.step) · [Interface](../engineering-resources/sg6010c/mechanical-interface.md) | Driver/firmware details specific to ordered version |
 | [SG-6010HB](../products/robot-joint-actuators/sg6010hb.md) | [Datasheet](../engineering-resources/sg6010hb/datasheet.md), [mechanical interface](../engineering-resources/sg6010hb/mechanical-interface.md), [thermal test record](../engineering-resources/sg6010hb/thermal-test-record.md), [driver & communication](../engineering-resources/sg6010hb/driver-communication.md) | Controlled production drawing / detailed assembly CAD plus configuration-matched firmware, protocol and cable files |
-| [SG-6010D](../products/robot-joint-actuators/sg6010d.md) | [Datasheet](../engineering-resources/sg6010d/datasheet.md), [mechanical interface](../engineering-resources/sg6010d/mechanical-interface.md) | Configuration-matched CAD, controlled drawing and integration documents after project review |
-| [SG-8021](../products/robot-joint-actuators/sg8021.md) | [Datasheet](../engineering-resources/sg8021/datasheet.md), [mechanical interface](../engineering-resources/sg8021/mechanical-interface.md), real exploded product reference on the product page | Configuration-matched CAD, controlled drawing and integration documents after project review |
+| [SG-6010D](../products/robot-joint-actuators/sg6010d.md) | [PDF](../assets/downloads/joint-actuators/SG-6010D_Public_Reference_Datasheet_Rev0.1.pdf) · [**Original Full STEP**](../assets/downloads/joint-actuators/SG-6010D_Original_Full_Assembly_20261118.step) · [Interface](../engineering-resources/sg6010d/mechanical-interface.md) | Controlled 2D drawing and integration files by configuration |
+| [SG-8021](../products/robot-joint-actuators/sg8021.md) | [PDF](../assets/downloads/joint-actuators/SG-8021_Public_Reference_Datasheet_Rev0.1.pdf) · [**Full STEP — Driver Version**](../assets/downloads/joint-actuators/SG-8021_Driver_Version_Original_Full_Assembly_20261118.step) · [Interface](../engineering-resources/sg8021/mechanical-interface.md) | Driverless CAD and controlled production drawing are separate |
+| [CPM-78-39](../products/cycloidal-joint-modules/cpm78-39.md) | [PDF](../assets/downloads/joint-actuators/CPM-78-39_Public_Reference_Datasheet_Rev0.1.pdf) · [**Original Full STEP**](../assets/downloads/joint-actuators/CPM-78-39_Original_Full_Assembly_20261118.step) · [Interface](../engineering-resources/cpm78-39/mechanical-interface.md) | Controlled 2D drawing and exact electronics to be confirmed |
 | [CPM-80-25](../products/cycloidal-joint-modules/cpm80-25.md) | [Datasheet](../engineering-resources/cpm80-25/datasheet.md), [STEP - no driver](../assets/downloads/cpm80-25/CPM-80-25_Public_Simplified_STEP_v1.0_No_Driver.step), [STEP - integrated driver](../assets/downloads/cpm80-25/CPM-80-25_Public_Simplified_STEP_v1.0_Integrated_Driver.step), [mechanical interface](../engineering-resources/cpm80-25/mechanical-interface.md), [measured performance data](../engineering-resources/cpm80-25/performance-test-data.md) | Controlled drawing and configuration-specific electrical/control documents as applicable |
 | [CPM-100-25](../products/cycloidal-joint-modules/cpm100-25.md) | [Datasheet](../engineering-resources/cpm100-25/datasheet.md), [mechanical interface](../engineering-resources/cpm100-25/mechanical-interface.md) | Configuration-matched CAD, controlled drawing and integration documents after project review |
-| [8P-42P Planetary Series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) | [Datasheet + Mechanical Interface Library](../engineering-resources/planetary-gearboxes/index.md) plus [public 4-stage STEP release](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) covering 8P, 10P, 12P, 14P, 16P, 20P, 22P, 24P, 28P, 32P, 36P and 42P | Controlled production drawing / configuration-specific CAD matched to selected model, stage, ratio and motor interface |
+| [8P–42P Precision Planetary Gearheads](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) | [**12 PDFs + 12 original 2D drawings + 12 full STEP**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [Specifications](../engineering-resources/planetary-gearboxes/index.md) | Controlled stage/ratio-specific drawings for production |
 | [32P](../products/planetary-gearboxes/32p-planetary-gearbox.md) | [Datasheet](../engineering-resources/32p/datasheet.md), [4-stage simplified STEP](../assets/downloads/32p/32P_Public_Simplified_STEP_v1.0_4-Stage.step), [mechanical interface](../engineering-resources/32p/mechanical-interface.md), [motor integration guide](../engineering-resources/32p/motor-integration.md) | Controlled configuration-specific CAD/drawing for the selected stage, ratio and motor interface |
 
 The CPM-80-25 performance page contains measured test data. Measured points should not be treated as guaranteed continuous operating ratings without an application-specific review.
@@ -53,6 +59,7 @@ The CPM-80-25 performance page contains measured test data. Measured points shou
 When a resource has been released publicly, it can be used for early evaluation without waiting for an inquiry response. Depending on the product, this may include:
 
 - approved public specifications
+- original full assembly STEP models where released
 - simplified external-interface STEP models
 - mechanical-interface references
 - stage / ratio tables

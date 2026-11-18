@@ -137,17 +137,18 @@ The published values belong to the listed products only and must not be transfer
 
 ## SG-6010C as a Public Engineering Reference
 
-SG-6010C currently has the most complete public Engineering Pack among the planetary joint actuators.
+SG-6010C has a public reference pack with full-assembly and simplified STEP files. SG-6010D, SG-8021 (driver-equipped version), and CPM-78-39 also now have downloadable original full-assembly STEP models.
 
 Public resources include:
 
 - technical datasheet
 - mechanical-interface reference
-- simplified STEP model
+- original full assembly STEP and separate simplified STEP model
 
 [View SG-6010C](../products/robot-joint-actuators/sg6010c.md){ .md-button .md-button--primary }
 [View SG-6010C Datasheet](../engineering-resources/sg6010c/datasheet.md){ .md-button }
 [View SG-6010C Mechanical Interface](../engineering-resources/sg6010c/mechanical-interface.md){ .md-button }
+[**Download 6 Joint PDFs & 4 Original Full Assembly STEP Files**](../engineering-resources/robot-joint-actuators/quick-downloads.md){ .md-button .md-button--primary }
 
 Its public product documentation also describes driver-equipped configurations with CAN, USB Type-C, position / velocity / torque control and encoder support. These functions are configuration-dependent and must be confirmed for the quoted hardware and firmware.
 
