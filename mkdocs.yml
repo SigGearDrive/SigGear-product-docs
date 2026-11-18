@@ -86,7 +86,7 @@ extra_css:
   - assets/stylesheets/production-release.css
 
 extra_javascript:
-  - assets/javascripts/analytics-events.js?v=20261118-application-journey
+  - assets/javascripts/analytics-events.js?v=20261118-motor-pdf-events
   - assets/javascripts/inquiry-form.js?v=20261015-online-live
   - assets/javascripts/ratio-stage-selector.js?v=20261118-quick-files
   - assets/javascripts/motor-quick-downloads.js?v=20261118-direct-pdfs
