@@ -5,7 +5,7 @@ description: "SigGear supplies 12 precision planetary gearhead sizes (miniature 
 
 # Precision Planetary Gearheads | 8–42 mm
 
-**SigGear OEM supply:** precision planetary gearheads (gearhead-only or motor + gearhead assemblies), Ø8–42 mm in 12 Micro / Miniature / Compact frame sizes.
+**SigGear OEM supply:** precision planetary gearheads (gearhead-only or motor + gearhead assemblies), **8 mm to 42 mm** in 12 Micro / Miniature / Compact frame sizes.
 
 [**Download Datasheets, 2D Drawings & STEP**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
 [**Find Ratio, Torque & Downloads**](../../selection-guides/planetary-gearhead-quick-selector.md){ .md-button }
