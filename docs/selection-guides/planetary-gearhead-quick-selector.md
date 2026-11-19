@@ -1,16 +1,16 @@
 ---
-title: Planetary Gearhead Quick Selector 8–42 mm | Ratio, Torque & CAD | SigGear
-description: Enter motor and output RPM to compare SigGear 8–42 mm planetary gearhead stage, ratio, rated torque and length. Download real PDF, 2D drawings and STEP CAD directly.
+title: Planetary Gearbox Quick Selector 8–42 mm | Ratio, Torque & STEP | SigGear
+description: Enter loaded motor RPM and target output RPM to compare SigGear 8–42 mm planetary gearbox stage, ratio, rated torque and length. Download PDF, 2D drawings and STEP files directly.
 ---
 
-# Planetary Gearhead Quick Selector · Ø8–42 mm
+# Planetary Gearbox Quick Selector · Ø8–42 mm
 
 **Enter motor speed + output speed → compare published ratios and rated torque → download PDF / 2D / STEP.**
 
 [**All model downloads**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [**Compare 12 diameters**](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
 
-## Find Gearhead Size, Ratio and Downloads {#preliminary-ratio-stage-finder}
+## Find Planetary Gearbox Size, Ratio and Downloads {#preliminary-ratio-stage-finder}
 
 <p id="sg-selector-application-context" class="siggear-selector-context" hidden></p>
 
@@ -30,12 +30,12 @@ description: Enter motor and output RPM to compare SigGear 8–42 mm planetary g
     <summary>Optional filters: diameter, length, continuous / peak torque, ratio tolerance</summary>
     <div class="siggear-selector-grid">
       <label>
-        Maximum gearhead diameter (mm)
+        Maximum gearbox diameter (mm)
         <input id="sg-selector-diameter" type="number" min="0.01" step="any" placeholder="e.g. 32">
       </label>
       <label>
-        Maximum gearhead body length (mm)
-        <input id="sg-selector-length" type="number" min="0.01" step="any" placeholder="Gearhead body only">
+        Maximum gearbox body length (mm)
+        <input id="sg-selector-length" type="number" min="0.01" step="any" placeholder="Gearbox body only">
       </label>
       <label>
         Required continuous output torque
@@ -67,9 +67,18 @@ description: Enter motor and output RPM to compare SigGear 8–42 mm planetary g
   <div id="sg-ratio-stage-results" aria-live="polite"></div>
 </form>
 
+## If No Standard Configuration Fits
+
+The selector only screens the published 8P–42P configurations. A project can still be reviewed when the required motor interface, ratio, shaft, flange, envelope or duty cycle falls outside the standard list.
+
+[**I Already Have a Motor**](../custom-engineering/custom-planetary-gearbox.md){ .md-button .md-button--primary }
+[**I Have a Drawing / STEP**](../custom-engineering/custom-gearbox-from-drawing-cad.md){ .md-button }
+[**My Existing Gearbox Is Failing**](../custom-engineering/gearbox-failure-analysis-durability-redesign.md){ .md-button }
+[**Prototype → Volume Production**](../custom-engineering/oem-volume-manufacturing-delivery.md){ .md-button }
+
 ## Direct Files — No Selection Needed
 
-| Gearhead | Datasheet PDF | 2D outline PDF | Full assembly STEP |
+| Gearbox | Datasheet PDF | 2D outline PDF | Full assembly STEP |
 | --- | --- | --- | --- |
 | [**8P · Ø8**](../products/planetary-gearboxes/8p-planetary-gearbox.md) | [PDF](../assets/downloads/8p/8P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D drawing](../assets/downloads/8p/8P_2D_Drawing.pdf) | [Full STEP](../assets/downloads/8p/8P_Full_Assembly.step) |
 | [**10P · Ø10**](../products/planetary-gearboxes/10p-planetary-gearbox.md) | [PDF](../assets/downloads/10p/10P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D drawing](../assets/downloads/10p/10P_2D_Drawing.pdf) | [Full STEP](../assets/downloads/10p/10P_Full_Assembly.step) |
@@ -86,4 +95,4 @@ description: Enter motor and output RPM to compare SigGear 8–42 mm planetary g
 
 **Other size groups:** [Micro 8–16 mm](../products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md) · [Miniature 20–32 mm](../products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md) · [Compact 36–42 mm](../products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md)
 
-<small>Screening uses **loaded motor rpm ÷ target output rpm** and published 1–4 stage ratios. Motor speed is used to calculate ratio candidates; permissible gearhead input speed is **motor- and configuration-dependent** and must be confirmed for the selected operating point. Continuous torque checks use **Rated Allowable Torque**, never momentary torque. The full assembly STEP is not stage-specific approval; original 2D drawings use configuration-dependent length L. Confirm input pinion / mounting, shaft loads, duty cycle and the controlled variant before production. [Detailed selection method](miniature-planetary-gearbox-selection-guide.md).</small>
+<small>Screening uses **loaded motor rpm ÷ target output rpm** and published 1–4 stage ratios. Motor speed is used to calculate ratio candidates; permissible gearbox input speed is **motor- and configuration-dependent** and must be confirmed for the selected operating point. Continuous torque checks use **Rated Allowable Torque**, never momentary torque. The full assembly STEP is not stage-specific approval; original 2D drawings use configuration-dependent length L. Confirm input pinion / mounting, shaft loads, duty cycle and the controlled variant before production. [Detailed selection method](miniature-planetary-gearbox-selection-guide.md).</small>
