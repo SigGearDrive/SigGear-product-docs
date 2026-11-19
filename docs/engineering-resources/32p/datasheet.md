@@ -9,7 +9,7 @@ description: Public 32P 32 mm precision planetary gearhead datasheet with 1–4 
 **Status:** Approved for Public  
 **Release date:** 2026-09-28
 
-**Continuous input-speed range revised:** 2026-10-15 (confirmed by SigGear engineering).  
+**Input-speed policy revised:** 2026-11-19. Permissible input speed is evaluated with the selected motor and gearhead configuration.  
 
 The SigGear 32P is a 32 mm planetary gearhead platform with one- to four-stage configurations. The public data below is intended for preliminary selection and early mechanical design-in.
 
@@ -27,7 +27,7 @@ The SigGear 32P is a 32 mm planetary gearhead platform with one- to four-stage c
 | Maximum momentary torque range | 6864.7–15690.6 mN·m |
 | Efficiency range | 66-90% |
 | Backlash at no load | <= 1.2 deg |
-| Continuous permissible input speed | 1,000–20,000 rpm |
+| Continuous permissible input speed | Motor/configuration dependent; confirm selected operating point |
 | Operating temperature range | -40 to 120 C |
 | Housing material | Steel |
 | Gear material | Steel |
