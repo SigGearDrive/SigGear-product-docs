@@ -49,8 +49,8 @@
   var selectorCandidate = null;
   var selectorReviewReason = "";
   var reviewReasons = {
-    speed_above_engineering: "Continuous input speed above the standard 20,000 rpm maximum; custom feasibility review requested",
-    speed_below_engineering: "Continuous input speed below the standard 1,000 rpm minimum; custom feasibility review requested",
+    speed_above_engineering: "Input speed requires configuration-specific motor + gearhead feasibility review",
+    speed_below_engineering: "Input speed requires configuration-specific motor + gearhead feasibility review",
     no_published_match: "No published standard configuration meets the specified filters; custom evaluation requested",
     custom_configuration: "Customer requests a customized gearbox or motor integration review"
   };
