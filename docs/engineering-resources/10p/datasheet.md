@@ -9,7 +9,7 @@ description: Public 10P 10 mm precision planetary gearhead datasheet with 1–4 
 **Status:** Public engineering evaluation reference  
 **Release date:** 2026-10-06
 
-**Continuous input-speed range revised:** 2026-10-15 (confirmed by SigGear engineering).  
+**Input-speed policy revised:** 2026-11-19. Permissible input speed is evaluated with the selected motor and gearhead configuration.  
 
 The SigGear 10P is a 10 mm planetary gearhead platform with one- to four-stage configurations. Performance values below are consolidated from the current canonical product page. Mechanical-interface details are linked to the controlled 2D drawing reference released for this model.
 
@@ -25,7 +25,7 @@ The SigGear 10P is a 10 mm planetary gearhead platform with one- to four-stage c
 | Maximum momentary torque range | 255.0–392.3 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.5° |
-| General continuous input-speed reference | 1,000–20,000 rpm; motor/configuration dependent |
+| General continuous input-speed reference | Motor/configuration dependent; confirm selected operating point; motor/configuration dependent |
 | Operating temperature range | −40 to 120 °C |
 
 Maximum momentary torque is not a continuous working rating.
