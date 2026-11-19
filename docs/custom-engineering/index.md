@@ -1,6 +1,6 @@
 ---
-title: Custom Gearbox & Precision Transmission Engineering | SigGear
-description: SigGear develops and manufactures custom compact transmission solutions, including planetary gearboxes, cycloidal reducers, gear motors and robot joint actuators.
+title: Custom Gearhead & Precision Transmission Engineering | SigGear
+description: SigGear develops and manufactures custom compact transmission solutions, including precision planetary gearheads, cycloidal reducers, motor + gearhead assemblies and robot joint actuators.
 ---
 
 # Custom Precision Transmission Engineering
@@ -18,7 +18,7 @@ You may already have a drawing and a complete specification. You may also have o
 - an installation envelope
 - an early product concept
 
-SigGear works with engineering teams on compact precision transmission problems using **micro planetary gearboxes, planetary reducers, cycloidal drives, motors, gear motors and integrated joint actuators**.
+SigGear works with engineering teams on compact precision transmission problems using **micro and miniature planetary gearheads, cycloidal reducers, motors, motor + gearhead assemblies and integrated joint actuators**.
 
 The first step is to understand what the mechanism needs to do. From there, the transmission structure, ratio, motor interface and other design details can be evaluated.
 
@@ -27,9 +27,9 @@ The first step is to understand what the mechanism needs to do. From there, the 
 
 ## What SigGear Can Help Engineers Evaluate
 
-### Micro Planetary Gearbox Solutions
+### Micro Planetary Gearhead Solutions
 
-For compact products that need a small-diameter reduction mechanism, SigGear can evaluate miniature planetary gearbox and gear-motor solutions based on the application load, speed, available space and motor.
+For compact products that need a small-diameter reduction mechanism, SigGear can evaluate miniature planetary gearhead and geared-motor solutions based on the application load, speed, available space and motor.
 
 Relevant engineering topics may include:
 
@@ -44,7 +44,7 @@ Relevant engineering topics may include:
 - encoder, brake, cable or connector integration where applicable
 
 [Browse Micro Gear Motors](../products/micro-gear-motors/index.md){ .md-button }
-[Browse 8-42 mm Planetary Gearboxes](../products/planetary-gearboxes/index.md){ .md-button }
+[Browse 8–42 mm Planetary Gearheads](../products/planetary-gearboxes/index.md){ .md-button }
 
 ### Planetary Gear Reducer Engineering
 
