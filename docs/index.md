@@ -1,11 +1,35 @@
 ---
-title: "Precision Planetary Gearheads & Robot Joint Actuators | SigGear"
-description: "SigGear manufactures Ø8–42 mm precision planetary gearheads, cycloidal reducers, integrated robot joint actuators and engineered motor + gearhead assemblies. Access public PDF datasheets, 2D references and STEP CAD."
+title: "Custom Precision Transmission Manufacturer | SigGear"
+description: "SigGear is a precision transmission manufacturer focused on custom engineering, repeatable volume manufacturing and production delivery. Public planetary gearheads, cycloidal reducers and robot joint actuators are reference platforms for engineering evaluation."
 ---
 
-# SigGear Product Catalogue
+# SigGear | Custom Precision Transmission Manufacturing
 
-**SigGear develops and manufactures compact precision transmission products, including Ø8–42 mm planetary gearheads, cycloidal joint modules, integrated robot joint actuators, and engineered motor + gearhead assemblies.**
+**SigGear develops and manufactures custom compact transmission solutions for engineering teams that need more than a catalog product.**
+
+The standard products published on this site are **public reference platforms**. They show real transmission architectures, manufacturing scope, technical data and design-in resources that can be shared openly. They represent only the part of SigGear's work that can be published.
+
+A significant part of SigGear's engineering and manufacturing work is **customer-specific** and cannot be shown publicly because the products, drawings, mechanisms and project details are protected by confidentiality agreements.
+
+SigGear's core capability is therefore broader than the public catalog:
+
+- custom planetary gearheads and compact reducers
+- custom cycloidal transmissions and robot joint modules
+- motor + gearhead integration around a customer-selected motor
+- custom ratios, shafts, flanges, housings and mechanical interfaces
+- prototype development, testing and design refinement
+- repeatable volume manufacturing after configuration freeze
+- production planning and delivery for volume programs
+- machining, gear processing, assembly, inspection and validation in a real manufacturing environment
+
+[**Start a Custom Transmission Project**](custom-engineering/index.md){ .md-button .md-button--primary }
+[**Custom Manufacturing & Volume Production**](custom-engineering/custom-transmission-manufacturing.md){ .md-button }
+[**Manufacturing & Quality Evidence**](company/manufacturing-and-quality-evidence.md){ .md-button }
+[**Prototype → Production**](custom-engineering/prototype-to-production.md){ .md-button }
+
+## Standard Products Are Public Engineering References
+
+The product pages below are useful for engineers who want to evaluate an existing platform, download CAD or understand SigGear's transmission architectures. A custom project does not need to fit these exact models.
 
 [**Motor Datasheets**](engineering-resources/motors/index.md){ .md-button }
 [**Gearhead PDFs / 2D / STEP**](engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
