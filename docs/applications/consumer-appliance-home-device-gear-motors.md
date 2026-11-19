@@ -1,6 +1,6 @@
 ---
-title: "Smart Home Appliance & Lid Gear Motors | SigGear"
-description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + gearhead assemblies for small appliance lids and home devices. Compare real models, PDF datasheets, 2D and STEP."
+title: "Small Appliance Lid & Rotary Valve Gear Motors | SigGear"
+description: "Compare SigGear 10P, 16P and 20P gearheads for small appliance lids, rotary valves and compact home-device mechanisms. Direct datasheets, 2D drawings and STEP CAD."
 ---
 
 # Smart Home Appliance & Lid Gear Motors
@@ -11,11 +11,11 @@ description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + g
 [**Gearheads · PDF / 2D / STEP**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
 [**Motor + Gearhead Assemblies**](../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
-**Application:** Automatic lids, appliance valves and small home mechanisms need compact, low-speed geared motion within a tight housing.
+**Application:** Automatic appliance lids need a hinge moment through their opening stroke; miniature rotary valves need breakaway torque and controlled end stops. Both differ from a certified lift or waterproof drive.
 
-**Engineering checks:** lid or flap torque throughout travel; noise and end-stop current limits; supply voltage and shaft packaging.
+**Engineering checks:** Check torque versus opening angle or valve position, operating speed, stall/current limit, noise and the OEM enclosure's cleaning and safety boundary.
 
-## Relevant Gearhead Models & Direct Downloads
+## Appliance Lid & Miniature Valve Gearheads — PDF / STEP
 
 | Size / model | Datasheet PDF | 2D drawing | Full STEP |
 | --- | --- | --- | --- |
@@ -24,5 +24,7 @@ description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + g
 | [20P · Ø20 mm](../products/planetary-gearboxes/20p-planetary-gearbox.md) | [PDF](../assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D](../assets/downloads/20p/20P_2D_Drawing.pdf) | [STEP](../assets/downloads/20p/20P_Full_Assembly.step) |
 
 *The models above are initial size comparisons, not qualified application matches. Rated torque and length depend on the selected stage/ratio; check the model datasheet and mechanical interface. Complete appliance safety and cleaning suitability require OEM approval.*
+
+**Separate mechanisms:** [Smart toilet lid/nozzle](smart-toilet-bidet-planetary-gear-motors.md) · [Cabinet / IoT latch](smart-hardware-gear-motors.md).
 
 [**Find a Gearhead by Speed / Torque**](../selection-guides/planetary-gearhead-quick-selector.md) · [**All 12 Model Downloads**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [**Contact SigGear**](../request-cad-sample-quote.md)

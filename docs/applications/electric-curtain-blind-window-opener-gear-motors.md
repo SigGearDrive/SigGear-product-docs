@@ -1,6 +1,6 @@
 ---
-title: "Motorized Curtain & Roller Blind Gear Motors | SigGear"
-description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + gearhead assemblies for motorized curtains, roller blinds and window openers. Compare real models, PDF datasheets, 2D and STEP."
+title: "Electric Curtain & Roller Blind Gear Motors | SigGear"
+description: "Compare SigGear 16P, 20P and 22P planetary gearheads for motorized curtain tracks, roller shades and window-linkage drives. PDF datasheets, 2D drawings and STEP CAD."
 ---
 
 # Motorized Curtain & Roller Blind Gear Motors
@@ -11,11 +11,11 @@ description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + g
 [**Gearheads · PDF / 2D / STEP**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
 [**Motor + Gearhead Assemblies**](../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
-**Application:** A curtain track uses pulley force; a roller blind uses changing roller radius; a window opener uses a separate linkage. These are not one interchangeable drive.
+**Application:** A curtain rail drive must overcome measured belt pull at its pulley radius. A roller blind has a changing effective winding radius; a window opener has a changing linkage lever arm. They need separate torque calculations.
 
-**Engineering checks:** curtain drag force and pulley radius; low-noise travel and cycle timing; power-off holding or separate brake.
+**Engineering checks:** Start with pull force × pulley radius (track) or the worst-case tube/linkage torque, then check loaded speed, noise, end stops and power-off holding. Planetary reduction alone does not guarantee self-locking.
 
-## Relevant Gearhead Models & Direct Downloads
+## Curtain, Roller Blind & Window Opener Gearheads — PDF / STEP
 
 | Size / model | Datasheet PDF | 2D drawing | Full STEP |
 | --- | --- | --- | --- |
