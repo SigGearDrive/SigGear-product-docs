@@ -88,7 +88,7 @@ Original STEP assembly exports are published for **two distinct variants**:
 
 [**Original Full STEP · Dual Encoder + Driver 48 mm**](../../assets/downloads/joint-actuators/CPM-100-25D_Dual_Encoder_Driver_Original_Full_Assembly_20261118.step){ .md-button }
 
-The 48 mm dual-encoder/driver version has a different envelope from the standard 29.5 mm model. **No simplified reference STEP** is released for CPM-100-25; both links are original full-assembly STEP files. The provided SG2556D 2D source PDF is **not yet a public download**. A configuration-matched approved controlled 2D drawing remains necessary for production.
+The 48 mm dual-encoder/driver version has a different envelope from the standard 29.5 mm model. **No simplified reference STEP** is released for CPM-100-25; both links are original full-assembly STEP files. The matching [**SG2556D 48 mm 2D engineering-reference PDF**](../../assets/downloads/joint-actuators/CPM-100-25D_2D_Dual_Encoder_Driver_48mm.pdf) is now public, but it is **not an approved manufacturing-controlled drawing**. A configuration-matched approved controlled 2D drawing remains necessary for production.
 
 [Request Controlled Drawing](../../request-cad-sample-quote.md){ .md-button }
 

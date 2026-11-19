@@ -48,11 +48,11 @@ Published radial and axial force values are useful for preliminary screening. Fi
 
 ## Exploded Structure Reference
 
-The SG-8021 product page contains a real exploded photograph of the actuator showing the motor, planetary transmission and a driver-board configuration.
+The SG-8021 product page contains an exploded internal-layout illustration of the motor, planetary transmission and a driver-board configuration.
 
 [View SG-8021 Exploded Product Reference](../../products/robot-joint-actuators/sg8021.md){ .md-button }
 
-Use the image to understand product architecture only. Do not derive controlled dimensions, tolerances or production geometry from the photograph.
+Use the illustration for architecture reference only. Do not derive production dimensions or tolerances from it.
 
 ## Controlled Drawing Reconciliation
 

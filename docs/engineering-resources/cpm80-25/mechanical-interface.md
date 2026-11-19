@@ -54,6 +54,13 @@ The original models are full assembly exports. The separately released simplifie
 
 The simplified files retain external envelope and design-in interfaces while omitting internal cycloidal transmission geometry, bearings, motor internals, PCB details and proprietary assembly construction.
 
+## Original 2D Engineering Reference PDFs
+
+[**2D PDF · No Driver (29.7 mm)**](../../assets/downloads/joint-actuators/CPM-80-25_2D_No_Driver_29p7mm.pdf){ .md-button }
+[**2D PDF · Integrated Driver (41.2 mm)**](../../assets/downloads/joint-actuators/CPM-80-25_2D_Integrated_Driver_41p2mm.pdf){ .md-button }
+
+These source drawings are for preliminary integration review and are **not revision-controlled manufacturing drawings**. Use the correct variant.
+
 ## Final Design Release
 
 Before final release, confirm:

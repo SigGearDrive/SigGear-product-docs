@@ -82,11 +82,11 @@ Final suitability depends on:
 
 ## Internal Structure Reference
 
-The current SG-8021 product page includes a real exploded product photograph showing the planetary transmission, motor and a driver-board configuration.
+The SG-8021 product page includes a published exploded internal-layout illustration showing the planetary transmission, motor and a driver-board configuration.
 
 [View SG-8021 Product and Exploded Structure](../../products/robot-joint-actuators/sg8021.md){ .md-button }
 
-The photograph is an engineering reference image, not a manufacturing drawing. Internal geometry and component details shown in the image should not be used as controlled production dimensions.
+The illustration is an engineering reference, not a manufacturing drawing. Internal geometry and component details shown in the image should not be used as controlled production dimensions.
 
 ## CAD, Drawings and Integration Documentation
 

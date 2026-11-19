@@ -80,13 +80,17 @@ The original assembly models are separate from the simplified reference STEP fil
 
 [Download STEP - Integrated Driver](../../assets/downloads/cpm80-25/CPM-80-25_Public_Simplified_STEP_v1.0_Integrated_Driver.step){ .md-button }
 
+[**2D Reference PDF · No Driver (29.7 mm)**](../../assets/downloads/joint-actuators/CPM-80-25_2D_No_Driver_29p7mm.pdf){ .md-button }
+
+[**2D Reference PDF · Integrated Driver (41.2 mm)**](../../assets/downloads/joint-actuators/CPM-80-25_2D_Integrated_Driver_41p2mm.pdf){ .md-button }
+
 [View Mechanical Interface](mechanical-interface.md){ .md-button }
 
 [View Measured Performance Data](performance-test-data.md){ .md-button }
 
 ## Design-In Note
 
-The public STEP files are simplified and intended for packaging, mounting and early mechanical evaluation. Request the controlled drawing before final tooling, tolerance stack-up or production release.
+The original full assembly STEP files and simplified STEP files are separate engineering references. Two 2D source PDFs are available for preliminary mechanical evaluation (29.7 mm without driver and 41.2 mm with driver), but are not approved manufacturing drawings. Request the current controlled revision before production.
 
 ## Engineering Contact
 

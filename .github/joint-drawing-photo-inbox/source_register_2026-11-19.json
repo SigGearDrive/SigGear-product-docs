@@ -3,7 +3,7 @@
   "date": "2026-11-19",
   "basis": "User-provided files reviewed without manufacturing drawing approval",
   "last_public_assets": "Six reference PDFs and eight original STEP assemblies remain unchanged",
-  "binary_upload_status": "Not uploaded to GitHub; do not create any customer download links until matching target blobs are present",
+  "binary_upload_status": "7 verified binaries now in GitHub source: four 2D engineering reference PDFs and three additional product renders; no manufacturing-controlled approval claimed",
   "drawings": [
     {
       "model": "SG-6010D",
@@ -12,8 +12,12 @@
       "target": "docs/assets/downloads/joint-actuators/SG-6010D_2D_Assembly_Drawing.pdf",
       "bytes": 1984661,
       "sha256": "f60f8959340d9e91f8aa730eea170b22b9a85d8d023ba67c10cbf837584527af",
-      "status": "source_checked_not_uploaded",
-      "matches": "Ø80 mm; total ratio 28.13:1; axial 58.77 mm"
+      "status": "published_reference_2d_pdf",
+      "matches": "Ø80 mm; total ratio 28.13:1; axial 58.77 mm",
+      "publishedSha256": "859b04e0633d3e22018cd30888ee0fdf88f20d373ca6d7870a4ffaf5de36cb4f",
+      "publishedBytes": 271558,
+      "rasterParityVerified": true,
+      "manufacturingControlled": false
     },
     {
       "model": "CPM-80-25",
@@ -22,8 +26,12 @@
       "target": "docs/assets/downloads/joint-actuators/CPM-80-25_2D_No_Driver_29p7mm.pdf",
       "bytes": 159045,
       "sha256": "ddc1d0e798ba3c23673f4160da7ef35d2678396afd14c713972ffd13a6b7f38a",
-      "status": "source_checked_not_uploaded",
-      "matches": "Ø80 mm; axial 29.7 mm"
+      "status": "published_reference_2d_pdf",
+      "matches": "Ø80 mm; axial 29.7 mm",
+      "publishedSha256": "0386d9d2737d12d298b01ce27172e517cc0a13457bfdc61b2d955a4803f84ad9",
+      "publishedBytes": 159005,
+      "rasterParityVerified": true,
+      "manufacturingControlled": false
     },
     {
       "model": "CPM-80-25",
@@ -32,8 +40,12 @@
       "target": "docs/assets/downloads/joint-actuators/CPM-80-25_2D_Integrated_Driver_41p2mm.pdf",
       "bytes": 138774,
       "sha256": "44f443c0031fcc7670bf3307276d9fdad6a5cb02118d6f422977828c717e1ff5",
-      "status": "source_checked_not_uploaded",
-      "matches": "Ø80 mm; axial 41.2 mm"
+      "status": "published_reference_2d_pdf",
+      "matches": "Ø80 mm; axial 41.2 mm",
+      "publishedSha256": "81334f0923ffcf28058c7b35ab64c50a5b8d3b8b2f956e68258d3eb12e96a993",
+      "publishedBytes": 138734,
+      "rasterParityVerified": true,
+      "manufacturingControlled": false
     },
     {
       "model": "CPM-100-25D",
@@ -42,8 +54,12 @@
       "target": "docs/assets/downloads/joint-actuators/CPM-100-25D_2D_Dual_Encoder_Driver_48mm.pdf",
       "bytes": 501964,
       "sha256": "ef9d2f952affb46ffc152d0c85272deed031ef000806a883632be792c14aafcb",
-      "status": "source_checked_not_uploaded",
-      "matches": "Drawing title SG2556D; Ø100 mm; axial 48 mm; not the 29.5 mm standard"
+      "status": "published_reference_2d_pdf",
+      "matches": "Drawing title SG2556D; Ø100 mm; axial 48 mm; not the 29.5 mm standard",
+      "publishedSha256": "48387c1617b6d654b06f45e94b6f99d9d54082e4ed00939e7f18fa775c0105c0",
+      "publishedBytes": 130471,
+      "rasterParityVerified": true,
+      "manufacturingControlled": false
     },
     {
       "model": "CPM-78-39",
@@ -81,9 +97,10 @@
       "source": "78-39 图2.jpg",
       "target": "docs/assets/images/products/cycloidal-joint-modules/cpm78-39/cpm78-39-output-side.webp",
       "sourceSha256": "67b5b6230452090607cc7c2988629baa5e3bb3d9f67df4c6f2e6774012696818",
-      "targetSha256": "fb76d4eb315b3f6ffe013f145e9a95cb67abf429070a0362b8c8f7008710b4f7",
-      "status": "prepared_optimized_not_uploaded",
-      "alt": "CPM-78-39 output-side mounting interface"
+      "targetSha256": "bc0b66b9119334079910d9312c55dbd40cb54c0aa920cbc4989deef1899b4f6a",
+      "status": "published_800px_webp_q86",
+      "alt": "CPM-78-39 output-side mounting interface",
+      "mediaType": "supplier_product_render_not_photograph"
     },
     {
       "model": "CPM-78-39",
@@ -99,9 +116,10 @@
       "source": "78-39 图4.jpg",
       "target": "docs/assets/images/products/cycloidal-joint-modules/cpm78-39/cpm78-39-cutaway-reference.webp",
       "sourceSha256": "86177777b4ee06d27b3d07c33a84c49cb75e559fcda72e4b21e0c2222ab367bc",
-      "targetSha256": "944a11232e11298aa3e6992ec944eaea7ed58ee5c86baa82394a15c5c0edf877",
-      "status": "prepared_optimized_not_uploaded",
-      "alt": "CPM-78-39 transparent cutaway illustration, not dimensioned CAD"
+      "targetSha256": "144df1463c1415d365b59fd6f77004657217aeaf59c0a7d820a0b1cbc5f862d8",
+      "status": "published_800px_webp_q80",
+      "alt": "CPM-78-39 transparent cutaway illustration, not dimensioned CAD",
+      "mediaType": "supplier_product_render_not_photograph"
     },
     {
       "model": "CPM-78-39",
@@ -117,9 +135,10 @@
       "source": "6010D 图2.jpg",
       "target": "docs/assets/images/products/robot-joint-actuators/sg6010d/sg6010d-output-angle-new.webp",
       "sourceSha256": "e3d5f32a1a08b5d64585fe9b5ab359feb93a51ffe5b8dedea28d207157175b27",
-      "targetSha256": "b466ca13a1f414a733c68f21eb91c58e33ea5f78f1827f50b50c2e5edce058bf",
-      "status": "prepared_optimized_not_uploaded",
-      "alt": "SG-6010D output-side product render"
+      "targetSha256": "c2f39d87a96f554e4c9dc2da267544048a8955553bbded909fe3e8c8840f5e9b",
+      "status": "published_800px_webp_q86",
+      "alt": "SG-6010D output-side product render",
+      "mediaType": "supplier_product_render_not_photograph"
     }
   ],
   "excluded": [

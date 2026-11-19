@@ -87,6 +87,10 @@ Public release: full original assembly (2026-11-18). This is not a simplified re
 
 Controlled 2D drawings, CAN / integration documentation and other configuration-specific files can still be requested for the intended project.
 
+[**Download 2D Assembly Reference PDF**](../../assets/downloads/joint-actuators/SG-6010D_2D_Assembly_Drawing.pdf){ .md-button }
+
+This 2D source PDF is a public evaluation copy, not the approved manufacturing-controlled drawing. Configuration-specific driver and connection details still require confirmation.
+
 [Request CAD, Drawing or Integration Files](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
 
 ## Selection Information Required
