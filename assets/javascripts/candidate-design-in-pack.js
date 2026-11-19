@@ -102,13 +102,13 @@
         boundary.innerHTML =
           "<strong>Selected candidate: 4-stage.</strong> " +
           "The released public STEP uses the same published stage count and can be used for preliminary external packaging and interface review. " +
-          "It is still a simplified public reference and is not ratio-specific production CAD. Request the controlled configuration CAD / drawing before design freeze.";
+          "It is still a simplified public reference and is not a ratio-specific production file. Request the controlled configuration STEP / drawing before design freeze.";
       } else {
         boundary.innerHTML =
           "<strong>Selected candidate: " + stage + "-stage.</strong> " +
           "The released public STEP is a 4-stage reference, so its gearbox body length does not match this selected stage. " +
           "Do not use the public STEP as the exact axial envelope for this candidate. Use the published " +
-          fmt(stageData.length, 2) + " mm gearbox body length for preliminary sizing and request stage-matched controlled CAD / drawing before final placement.";
+          fmt(stageData.length, 2) + " mm gearbox body length for preliminary sizing and request the stage-matched controlled STEP / drawing before final placement.";
       }
 
       datasheet.href = "../../" + slug + "/datasheet/";
