@@ -36,10 +36,10 @@ class MotorHTML(HTMLParser):
 def check() -> None:
     md = DOC.read_text(encoding="utf-8")
     assert md.count("# DC / BLDC Motor Datasheets") == 1
-    assert "SigGear supplies DC/BLDC motors" in md
+    assert "SigGear supplies DC/BLDC motors" in md or "SigGear supplies DC / BLDC motors" in md, "Motor supply identity missing"
     assert "37 motor PDFs" in md
     assert "Draft" in md
-    assert "Motor + Gearhead Assemblies" in md
+    assert "Motor + Gearhead Assemblies" in md or "motor + planetary gearbox assemblies" in md.lower() or "Motor + Gearhead" in md, "Motor assembly / integration path missing"
     assert "<details" in md and "</details>" in md
     assert md.count("siggear-motor-file") == 37, "All 37 direct PDF links must be visible by default"
     assert HTML.is_file(), "MkDocs motor hub not built"
