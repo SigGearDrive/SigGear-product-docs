@@ -9,7 +9,7 @@ description: Public 12P 12 mm precision planetary gearhead datasheet with 1–4 
 **Status:** Public engineering evaluation reference  
 **Release date:** 2026-10-06
 
-**Continuous input-speed range revised:** 2026-10-15 (confirmed by SigGear engineering).  
+**Input-speed policy revised:** 2026-11-19 (current 12P engineering data confirms 1,000–50,000 rpm).  
 
 The SigGear 12P is a 12 mm planetary gearhead platform with one- to four-stage configurations. Performance values below are consolidated from the current canonical product page. Mechanical-interface details are linked to the controlled 2D drawing reference released for this model.
 
@@ -25,7 +25,7 @@ The SigGear 12P is a 12 mm planetary gearhead platform with one- to four-stage c
 | Maximum momentary torque range | 392.3–823.8 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.5° |
-| Continuous permissible input speed | 1,000–20,000 rpm |
+| Continuous permissible input speed | 1,000–50,000 rpm |
 | Operating temperature range | −40 to 120 °C |
 
 Maximum momentary torque is not a continuous working rating.
