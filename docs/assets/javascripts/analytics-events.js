@@ -169,6 +169,7 @@
     "joint-actuators/SG-6010C_Public_Reference_Datasheet_Rev0.1.pdf": ["SG-6010C", "catalogue", "datasheet_pdf"],
     "joint-actuators/SG-6010D_Public_Reference_Datasheet_Rev0.1.pdf": ["SG-6010D", "catalogue", "datasheet_pdf"],
     "joint-actuators/SG-8021_Public_Reference_Datasheet_Rev0.1.pdf": ["SG-8021", "catalogue", "datasheet_pdf"],
+    "joint-actuators/SG-6010HB_Public_Reference_Datasheet_Rev0.1.pdf": ["SG-6010HB", "catalogue_reference", "datasheet_pdf"],
     "joint-actuators/CPM-78-39_Public_Reference_Datasheet_Rev0.1.pdf": ["CPM-78-39", "catalogue", "datasheet_pdf"],
     "joint-actuators/CPM-80-25_Public_Reference_Datasheet_Rev0.1.pdf": ["CPM-80-25", "catalogue", "datasheet_pdf"],
     "joint-actuators/CPM-100-25_Public_Reference_Datasheet_Rev0.1.pdf": ["CPM-100-25", "catalogue", "datasheet_pdf"],
@@ -194,7 +195,7 @@
     if (currentPath.indexOf("/engineering-resources/robot-joint-actuators/quick-downloads/") !== -1) {
       return "joint_download_hub";
     }
-    if (/\/products\/(?:robot-joint-actuators|cycloidal-joint-modules)\/(?:sg6010c|sg6010d|sg8021|cpm78-39|cpm80-25|cpm100-25)\//i.test(currentPath)) {
+    if (/\/products\/(?:robot-joint-actuators|cycloidal-joint-modules)\/(?:sg6010c|sg6010d|sg6010hb|sg8021|cpm78-39|cpm80-25|cpm100-25)\//i.test(currentPath)) {
       return "joint_product_model";
     }
     if (currentPath.indexOf("/engineering-resources/") !== -1) return "engineering_reference";
