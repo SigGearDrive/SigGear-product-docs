@@ -18,7 +18,7 @@ Use the public resources below for preliminary engineering evaluation. Robot act
 | Need a custom transmission or feasibility review | [Custom Precision Transmission Engineering](../custom-engineering/index.md) |
 | Select an 8–42 mm planetary gearbox by speed, ratio and diameter | [Micro, Miniature & Compact Planetary Gearbox Selector](../selection-guides/miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder) |
 | Download model-specific 8–42 mm public STEP reference files | [12-Model Planetary Gearbox CAD Library](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) |
-| Need a custom planetary gearbox around an existing motor, size or interface | [Custom Planetary Gearbox Engineering](../custom-engineering/custom-planetary-gearbox.md) |
+| Need a custom planetary gearbox around an existing motor, size or interface | [Custom Planetary Gearhead Engineering](../custom-engineering/custom-planetary-gearbox.md) |
 | Find a product family or model | [Browse Products](../products/index.md) |
 | Find a solution by application | [Browse Applications](../applications/index.md) |
 | Estimate robot-joint requirements | [Robot Joint Actuator Selection Guide](../selection-guides/robot-joint-actuator-selection-guide.md) |
