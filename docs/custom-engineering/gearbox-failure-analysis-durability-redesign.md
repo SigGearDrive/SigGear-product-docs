@@ -20,7 +20,7 @@ SigGear can review a failed planetary gearbox or compact reducer as an engineeri
 This is an engineering review path, not a promise that every failure can be solved by one material or geometry change.
 
 [**Start a Failure / Durability Review**](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button .md-button--primary }
-[**Replacement Gearbox Review**](replacement-planetary-gearhead.md){ .md-button }
+[**Existing Gearbox Replacement / Redesign**](replacement-planetary-gearhead.md){ .md-button }
 
 ## Typical Failure Symptoms to Document
 
