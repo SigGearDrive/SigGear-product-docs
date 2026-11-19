@@ -1,11 +1,15 @@
 ---
 title: "20–32 mm Miniature Planetary Gearheads | Compare & CAD | SigGear"
-description: "Compare 20P, 22P, 24P, 28P and 32P miniature planetary gearboxes (gearheads): 20–32 mm diameters, published ratio and rated torque ranges, PDF, 2D and full STEP CAD."
+description: "Compare SigGear 20P, 22P, 24P, 28P and 32P miniature planetary gearheads by diameter, published ratio, rated torque and length. Download PDF datasheets, 2D drawings and STEP CAD or review an existing motor interface."
 ---
 
 # 20–32 mm Miniature Precision Planetary Gearheads
 
-**Miniature planetary gearbox comparison:** 20P · 22P · 24P · 28P · 32P · PDF datasheets · 2D drawings · Full STEP CAD
+**Five published frame sizes:** 20P · 22P · 24P · 28P · 32P. Compare diameter, ratio, gearhead length and rated allowable torque, then download the real PDF / 2D / STEP files.
+
+[**Find by Motor RPM / Output RPM / Torque**](../../selection-guides/planetary-gearhead-quick-selector.md){ .md-button .md-button--primary }
+[**Already have a motor? Review the interface**](../../custom-engineering/custom-planetary-gearbox.md){ .md-button }
+[**Replacing an existing gearhead?**](../../custom-engineering/replacement-planetary-gearhead.md){ .md-button }
 
 ## Direct PDF and STEP Downloads
 
@@ -27,11 +31,18 @@ description: "Compare 20P, 22P, 24P, 28P and 32P miniature planetary gearboxes (
 | [28P · 28 mm](28p-planetary-gearbox.md) | 3.83:1–759.7:1 | 25.6–44.5 mm | 1961.3–4903.3 mN·m | ≤ 1.2° |
 | [32P · 32 mm](32p-planetary-gearbox.md) | 3.5:1–509.1:1 | 28.05–52.95 mm | 3432.3–7845.3 mN·m | ≤ 1.2° |
 
-Engineers searching for a miniature planetary gearbox can compare five actual SigGear frame sizes and download the corresponding model files without an inquiry form.
+These are published SigGear gearhead platforms with direct engineering files. They can be used for initial supplier comparison and mechanical design-in without submitting an inquiry first.
 
 **Selection note:** Diameter is the gearhead housing size, not the complete motor + gearhead length. The torque values above are **rated allowable ranges across stages**, not a constant rating for every ratio; use each model's stage table for final screening. Maximum momentary torque is **not** a continuous rating.
 
-[**Quick Ratio / Torque Selector + Files**](../../selection-guides/planetary-gearhead-quick-selector.md){ .md-button .md-button--primary }
+## If the Motor Is Already Selected
+
+Do not select a gearhead from motor diameter alone. For an interface review, provide the motor model or drawing, loaded operating speed, shaft diameter and usable length, mounting-hole pattern / locating pilot, target output speed, continuous / peak load and available assembly length.
+
+A preliminary ratio can be screened from **loaded motor speed ÷ target output speed**. Final feasibility still depends on the selected stage / ratio, rated torque, motor interface, duty cycle and operating point.
+
+[**Planetary Gearhead for an Existing Motor**](../../custom-engineering/custom-planetary-gearbox.md){ .md-button .md-button--primary }
+[**Quick Ratio / Torque Selector + Files**](../../selection-guides/planetary-gearhead-quick-selector.md){ .md-button }
 [**Compare all 12 sizes**](8-42mm-planetary-gear-reducer.md){ .md-button }
 
 **Other gearhead sizes:** [Micro 8–16 mm](micro-planetary-gearheads-8-16mm.md) · [Compact 36–42 mm](compact-planetary-gearheads-36-42mm.md)
