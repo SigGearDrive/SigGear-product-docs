@@ -1,20 +1,20 @@
 ---
-title: 8–42 mm Planetary Gearhead Datasheets & CAD Downloads | SigGear
-description: Download all 12 SigGear planetary gearhead PDF datasheets, original 2D outline drawings and full assembly STEP CAD (8P–42P), with model-specific specifications.
+title: 8–42 mm Planetary Gearbox STEP, 2D & Datasheet Downloads | SigGear
+description: Download all 12 SigGear planetary gearbox PDF datasheets, original 2D outline drawings and full assembly STEP files for 8P–42P, with model-specific specifications.
 ---
 
-# 8–42 mm Planetary Gearhead Downloads
+# 8–42 mm Planetary Gearbox STEP & Datasheet Downloads
 
-**12 gearhead models. Each row links directly to its Datasheet PDF, original 2D outline drawing and Full Assembly STEP. No inquiry required.**
+**12 planetary gearbox models. Each row links directly to its Datasheet PDF, original 2D outline drawing and Full Assembly STEP. No inquiry required.**
 
 [**Quick Ratio & Torque Selector**](../../selection-guides/planetary-gearhead-quick-selector.md){ .md-button }
-[**Motor + Gearhead Assemblies**](../../custom-engineering/motor-gearbox-integration.md){ .md-button }
+[**Motor + Gearbox Assemblies**](../../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
 **Choose by diameter:** [Micro 8–16 mm](../../products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md) · [Miniature 20–32 mm](../../products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md) · [Compact 36–42 mm](../../products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md) · [Motor-only PDFs](../motors/index.md)
 
 **Jump to model:** [8P](#8p-downloads) · [10P](#10p-downloads) · [12P](#12p-downloads) · [14P](#14p-downloads) · [16P](#16p-downloads) · [20P](#20p-downloads) · [22P](#22p-downloads) · [24P](#24p-downloads) · [28P](#28p-downloads) · [32P](#32p-downloads) · [36P](#36p-downloads) · [42P](#42p-downloads)
 
-| Model | Online technical data | Gearhead Datasheet PDF | 2D Drawing PDF | Full Assembly STEP | Simplified STEP |
+| Model | Online technical data | Gearbox Datasheet PDF | 2D Drawing PDF | Full Assembly STEP | Simplified STEP |
 | --- | --- | --- | --- | --- | --- |
 | <span id="8p-downloads"></span>[8P · 8 mm](../../products/planetary-gearboxes/8p-planetary-gearbox.md) | [Online specs](../../engineering-resources/8p/datasheet.md) | [Download Datasheet PDF](../../assets/downloads/8p/8P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [Download 2D Drawing PDF](../../assets/downloads/8p/8P_2D_Drawing.pdf) | [Download Full Assembly STEP](../../assets/downloads/8p/8P_Full_Assembly.step) | [4-stage STEP](../../assets/downloads/8p/8P_Public_Simplified_STEP_v1.0_4-Stage.step) |
 | <span id="10p-downloads"></span>[10P · 10 mm](../../products/planetary-gearboxes/10p-planetary-gearbox.md) | [Online specs](../../engineering-resources/10p/datasheet.md) | [Download Datasheet PDF](../../assets/downloads/10p/10P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [Download 2D Drawing PDF](../../assets/downloads/10p/10P_2D_Drawing.pdf) | [Download Full Assembly STEP](../../assets/downloads/10p/10P_Full_Assembly.step) | [4-stage STEP](../../assets/downloads/10p/10P_Public_Simplified_STEP_v1.0_4-Stage.step) |
