@@ -66,16 +66,16 @@ For robotics, automation, precision mechanisms and other compact motion systems,
 The starting point can be a SigGear gearbox platform, a customer motor or an installation drawing.
 
 [Custom Planetary Gearbox Engineering](custom-planetary-gearbox.md){ .md-button .md-button--primary }
-[Replacement Planetary Gearbox Review](replacement-planetary-gearhead.md){ .md-button }
+[Existing Gearbox Replacement & Redesign](replacement-planetary-gearhead.md){ .md-button }
 [Browse Planetary Gearboxes](../products/planetary-gearboxes/index.md){ .md-button }
 
-### Replacement / Legacy Gearbox Review
+### Existing Gearbox Replacement / Redesign
 
 If an existing planetary gearbox is discontinued, failing in service or no longer fits the project requirement, SigGear can compare the current motor, ratio, interfaces, installation envelope and duty cycle against the nearest 8–42 mm platform.
 
 An old sample, controlled drawing or failed-part photos can be more useful than a catalog listing when the goal is a close mechanical replacement.
 
-[Replacement Planetary Gearhead Review](replacement-planetary-gearhead.md){ .md-button .md-button--primary }
+[Existing Gearbox Replacement & Redesign](replacement-planetary-gearhead.md){ .md-button .md-button--primary }
 
 ### Cycloidal Transmission Engineering
 
