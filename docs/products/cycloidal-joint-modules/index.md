@@ -8,6 +8,8 @@ description: Compare CPM-78-39, CPM-80-25 and CPM-100-25 by size, ratio, rated t
 **Choose your configuration and download PDF / 2D / original STEP directly.** Driver and encoder variants have different mounting envelopes.
 
 [**All 6 Robot Joint Datasheets, 2D & STEP**](../../engineering-resources/robot-joint-actuators/quick-downloads.md){ .md-button .md-button--primary }
+[**Supplier Evaluation Checklist**](../../selection-guides/robot-joint-supplier-evaluation.md){ .md-button }
+[**Planetary vs Cycloidal**](../../selection-guides/planetary-vs-cycloidal-robot-joint.md){ .md-button }
 
 <div class="siggear-joint-downloads" markdown="1">
 
