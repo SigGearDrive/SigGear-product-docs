@@ -1,13 +1,31 @@
 ---
-title: Custom Planetary Gearbox | Shaft, Mounting, Ratio & Interface | SigGear
-description: Custom miniature and compact planetary gearbox engineering for output shaft, mounting flange, motor interface, ratio, envelope and prototype-to-production requirements using SigGear 8–42 mm platforms.
+title: Planetary Gearhead for an Existing Motor | Custom Interface | SigGear
+description: Match an existing DC/BLDC motor to a SigGear 8–42 mm planetary gearhead. Review motor speed, shaft, mounting pilot, ratio, output torque, envelope and custom interface requirements.
 ---
 
-# Custom Planetary Gearbox — Shaft, Mounting, Ratio and Motor Interface
+# Planetary Gearhead for an Existing Motor — Ratio, Shaft and Interface Review
+
+## Quick Answer
+
+**Already have a motor?** SigGear can review a planetary gearhead around the motor you have already selected.
+
+For a useful first review, send the information already available for:
+
+1. **Motor model or drawing**
+2. **Loaded operating speed**
+3. **Motor shaft diameter and usable length**
+4. **Mounting-hole pattern and locating pilot**
+5. **Required output speed and continuous / peak load**
+6. **Maximum gearhead diameter and available assembly length**
+
+You do **not** need to know the final reduction ratio before contacting SigGear. A preliminary ratio can be estimated from loaded motor speed divided by target output speed, then checked against published stage ratios, rated torque and the actual motor / gearhead interface.
+
+[Find a Published Gearhead](../selection-guides/planetary-gearhead-quick-selector.md){ .md-button .md-button--primary }
+[Send Motor or Drawing for Review](../request-cad-sample-quote.md?path=gearbox_only){ .md-button }
 
 ## Standard Series or Custom Engineering?
 
-If the requirement can be met by a released 8–42 mm frame size, start with the [standard planetary gearbox series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md).
+If the requirement can be met by a released 8–42 mm frame size, start with the [standard planetary gearhead series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md).
 
 Use this custom-engineering path when the project needs a modified or special:
 
@@ -24,7 +42,7 @@ This separation keeps standard-product selection and custom-project evaluation d
 
 ## When a Catalog Gearbox Does Not Fit the Project
 
-A planetary gearbox project does not need to start from an existing SigGear model number.
+A planetary gearhead project does not need to start from an existing SigGear model number.
 
 You may already have:
 
@@ -36,7 +54,7 @@ You may already have:
 - an existing mechanism drawing
 - a current gearbox that does not meet the project requirement
 
-SigGear designs and manufactures miniature and compact planetary gearboxes and can review existing 8–42 mm gearbox platforms as engineering starting points before evaluating a **modified or custom planetary gearbox** configuration.
+SigGear designs and manufactures micro, miniature and compact planetary gearheads and can review existing 8–42 mm platforms as engineering starting points before evaluating a **modified or custom planetary gearhead** configuration.
 
 [Send Your Motor or Drawing](mailto:wangwanrong@siggear.com?subject=Custom%20Planetary%20Gearbox%20Engineering%20Review){ .md-button .md-button--primary }
 [Request Engineering Review](../request-cad-sample-quote.md){ .md-button }
@@ -79,11 +97,11 @@ If the motor has already been selected, send the motor drawing or the informatio
 - locating pilot diameter
 - available total assembly length
 
-SigGear can then review the motor-to-gearbox interface together with the required output speed, torque and installation envelope.
+SigGear can then review the motor-to-gearhead interface together with the required output speed, torque and installation envelope.
 
 The supply configuration can be:
 
-- planetary gearbox only
+- planetary gearhead only
 - motor only
 - matched motor + gearbox assembly
 
@@ -121,7 +139,7 @@ The engineering review can then identify what needs to be calculated, estimated 
 
 ## Existing SigGear Planetary Platforms
 
-SigGear manufactures an **8-42 mm planetary gearbox series** covering miniature and compact gearbox frame sizes, which can also serve as engineering starting points for project-specific configurations.
+SigGear manufactures an **8–42 mm planetary gearhead series** covering micro, miniature and compact frame sizes, which can also serve as engineering starting points for project-specific configurations.
 
 The current public range includes:
 
@@ -129,7 +147,7 @@ The current public range includes:
 
 Each frame size has its own available ratios, stage configurations, torque limits, efficiency, dimensions and other operating limits. Values must be confirmed from the relevant model page rather than transferred between frame sizes.
 
-[Browse the 8-42 mm Planetary Gearbox Series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Browse the 8–42 mm Planetary Gearhead Series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 
 ## 32P as a Public Engineering Reference
 
@@ -156,7 +174,7 @@ Depending on the selected gearbox platform and engineering feasibility, a projec
 
 ## Typical Project Situations
 
-Custom planetary gearbox engineering may be relevant when:
+Custom planetary gearhead engineering may be relevant when:
 
 ### The motor is already fixed
 
@@ -184,7 +202,7 @@ A preliminary gearbox configuration needs to be refined around the actual motor,
 
 ## Engineering Review Path
 
-A typical custom planetary gearbox project can move through:
+A typical custom planetary gearhead project can move through:
 
 **Application / Existing Motor / Drawing**  
 → **Feasibility Review**  
@@ -238,16 +256,16 @@ These are application areas where planetary transmission may be relevant. They a
 
 ## Need a Different Transmission Structure?
 
-A planetary gearbox is not always the correct answer.
+A planetary gearhead is not always the correct answer.
 
 If the required torque, packaging, load condition or joint architecture suggests another approach, SigGear can also review cycloidal and integrated actuator solutions.
 
 [Open Custom Precision Transmission Engineering](index.md){ .md-button }
 [Browse Cycloidal Joint Modules](../products/cycloidal-joint-modules/index.md){ .md-button }
 
-## Discuss Your Planetary Gearbox Project
+## Discuss Your Planetary Gearhead Project
 
-Send the motor, drawing, available space or motion requirement you already have.
+Send the motor, drawing, available space or motion requirement you already have. If the motor is fixed, the motor drawing is usually the fastest starting point.
 
 **Wanrong Wang**  
 International Sales / Sales Engineer, SigGear  
