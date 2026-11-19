@@ -105,6 +105,12 @@ normalized_website_dimensions:
       - engineering_resource
       - selection_tool
       - application
+      - geo_existing_motor
+      - geo_drawing_step_sample
+      - geo_replacement_redesign
+      - geo_failure_durability
+      - geo_prototype_to_volume
+      - geo_supplier_qualification
       - internal_other
       - direct_or_external
       - unknown

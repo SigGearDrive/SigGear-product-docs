@@ -14,6 +14,16 @@
     optical_positioning: "Camera module / focus / zoom / sensor positioning",
     coffee_equipment: "Coffee / beverage / dosing / dispensing equipment"
   };
+  // Recognize only the immediate same-site GEO landing page, without saving
+  // referrer query strings, customer data or guessing an external AI source.
+  var geoEntryPaths = {
+    "/SigGear-product-docs/custom-engineering/custom-planetary-gearbox/": {code: "geo_existing_motor", label: "Existing-motor gearbox engineering"},
+    "/SigGear-product-docs/custom-engineering/custom-gearbox-from-drawing-cad/": {code: "geo_drawing_step_sample", label: "Customer drawing / STEP / sample"},
+    "/SigGear-product-docs/custom-engineering/replacement-planetary-gearhead/": {code: "geo_replacement_redesign", label: "Existing gearbox replacement / redesign"},
+    "/SigGear-product-docs/custom-engineering/gearbox-failure-analysis-durability-redesign/": {code: "geo_failure_durability", label: "Gearbox failure / durability"},
+    "/SigGear-product-docs/custom-engineering/prototype-to-production/": {code: "geo_prototype_to_volume", label: "Prototype to volume production"},
+    "/SigGear-product-docs/selection-guides/custom-gearbox-manufacturer-supplier-qualification/": {code: "geo_supplier_qualification", label: "Supplier qualification guide"}
+  };
   var prefilledApplicationType = "not_specified";
   var model = document.getElementById("sg-model");
   var path = document.getElementById("sg-path");
@@ -162,6 +172,9 @@
       var ref = document.referrer ? new URL(document.referrer) : null;
       if (!ref || ref.hostname !== window.location.hostname) return "direct_or_external";
       var refPath = ref.pathname || "";
+      if (Object.prototype.hasOwnProperty.call(geoEntryPaths, refPath)) {
+        return geoEntryPaths[refPath].code;
+      }
       if (refPath.indexOf("/engineering-resources/") !== -1) return "engineering_resource";
       if (/\/products\/planetary-gearboxes\/\d{1,2}p-planetary-gearbox\//i.test(refPath)) return "product_model";
       if (refPath.indexOf("/products/planetary-gearboxes/") !== -1) return "planetary_series";
@@ -420,6 +433,14 @@
       "Starting point: " + (selectedText("sg-starting-point") || "Not specified"),
       "Model reference: " + (value("sg-model") || "Not sure yet")
     ];
+
+    // Give sales a meaningful engineering entry scenario when same-site
+    // referrer information exists. This is not proof of external AI referral.
+    var entry = originGroup();
+    var entryPath = Object.keys(geoEntryPaths).find(function (key) {
+      return geoEntryPaths[key].code === entry;
+    });
+    if (entryPath) lines.push("Engineering entry page: " + geoEntryPaths[entryPath].label);
 
     var candidate = activeSelectorCandidate();
     if (selectorReviewReason) {

@@ -22,7 +22,7 @@ assert.match(js, /var ONLINE_DELIVERY_VERIFIED = true;/);
 assert.doesNotMatch(js, /ownerSetupMode/);
 assert.doesNotMatch(js, /engineering_brief_online_submit_success/);
 
-function bootstrap(search) {
+function bootstrap(search, referrer = "") {
   const events = {};
   const elements = new Map();
   const gaEvents = [];
@@ -65,7 +65,7 @@ function bootstrap(search) {
   };
   const window = {location, gtag(event, name, params) {gaEvents.push({event,name,params});}};
   const document = {
-    referrer: "",
+    referrer,
     getElementById: node,
     createElement: () => node("temporary"),
     body: {appendChild(){},removeChild(){}},
@@ -176,6 +176,46 @@ assert.equal(legacyGearhead.node("sg-model").value, "12P");
 assert.equal(legacyGearhead.node("sg-path").value, "gearbox_only");
 assert.equal(legacyGearhead.node("sg-existing-motor-fields").hidden, false);
 console.log("PASS 9 joint/hub product inquiry routes and unchanged 12P planetary gearbox route");
+
+// Recognize six GEO engineering landing pages from the immediate same-site
+// referrer only; both analytics and actual email brief must preserve context.
+const geoCases = [
+  ["custom-engineering/custom-planetary-gearbox", "geo_existing_motor", "Existing-motor gearbox engineering"],
+  ["custom-engineering/custom-gearbox-from-drawing-cad", "geo_drawing_step_sample", "Customer drawing / STEP / sample"],
+  ["custom-engineering/replacement-planetary-gearhead", "geo_replacement_redesign", "Existing gearbox replacement / redesign"],
+  ["custom-engineering/gearbox-failure-analysis-durability-redesign", "geo_failure_durability", "Gearbox failure / durability"],
+  ["custom-engineering/prototype-to-production", "geo_prototype_to_volume", "Prototype to volume production"],
+  ["selection-guides/custom-gearbox-manufacturer-supplier-qualification", "geo_supplier_qualification", "Supplier qualification guide"]
+];
+const analyticsJs = fs.readFileSync("docs/assets/javascripts/analytics-events.js", "utf8");
+const measureSchema = fs.readFileSync("data/sales/inquiry-measurement-schema.yml", "utf8");
+for (const [slug, origin, label] of geoCases) {
+  const fromPage = "https://siggeardrive.github.io/SigGear-product-docs/" + slug + "/";
+  const review = bootstrap("", fromPage + "?private_hint=never-copy-this");
+  review.node("sg-contact-email").value = "engineer@example.org";
+  review.node("sg-online-consent").checked = true;
+  assert.equal(review.submit().prevented, false);
+  const attempt = review.gaEvents.find(e => e.name === "engineering_brief_online_submit_attempt");
+  assert.equal(attempt.params.inquiry_origin, origin, "form origin: " + slug);
+  assert.ok(review.node("sg-online-message").value.includes("Engineering entry page: " + label));
+  assert.ok(!review.node("sg-online-message").value.includes("private_hint="));
+  assert.ok(!review.node("sg-online-message").value.includes("never-copy-this"));
+  assert.ok(analyticsJs.includes('if (refPath === "/SigGear-product-docs/' + slug + '/") return "' + origin + '"'));
+  assert.ok(measureSchema.includes("      - " + origin));
+}
+// External referrers and suppressed referrers must never be upgraded to a
+// claimed GEO source or attributed to a particular AI assistant.
+for (const referrer of ["", "https://example.com/SigGear-product-docs/custom-engineering/custom-planetary-gearbox/"]) {
+  const unknown = bootstrap("", referrer);
+  unknown.node("sg-contact-email").value = "engineer@example.org";
+  unknown.node("sg-online-consent").checked = true;
+  assert.equal(unknown.submit().prevented, false);
+  const attempt = unknown.gaEvents.find(e => e.name === "engineering_brief_online_submit_attempt");
+  assert.equal(attempt.params.inquiry_origin, "direct_or_external");
+  assert.ok(!unknown.node("sg-online-message").value.includes("Engineering entry page:"));
+}
+console.log("PASS six GEO entry scenarios attributed without AI-source guesses or referrer-query leakage");
+
 
 const catalogue = fs.readFileSync("docs/products/index.md", "utf8");
 assert.match(catalogue, /Planetary Gearbox PDF \/ 2D \/ STEP/);
