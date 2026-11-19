@@ -1,18 +1,19 @@
 ---
-title: SG-6010HB Mechanical Interface | SG2908B Controlled Drawing Reference | SigGear
-description: Public SG-6010HB mechanical-interface reference based on the current SG2908B controlled drawing, including 67 mm envelope, 25.57 mm nominal overall thickness, mounting patterns and wiring references.
+title: SG-6010HB Mechanical Interface | SG2908B Source Drawing and STEP Status | SigGear
+description: SG-6010HB public 67 mm mounting reference, 25.57 mm catalog envelope and SG2908B exchange STEP verification hold. Request approved configuration-matched CAD.
 ---
 
 # SG-6010HB Mechanical Interface v1.0
 
 **Status:** Public engineering evaluation reference  
 **Release date:** 2026-10-09  
-**Controlled drawing code:** **SG2908B**
+**Supplied source drawing code:** **SG2908B**  
+**3D source review:** 2026-11-19 — geometry reconciliation required
 
-This page summarizes the SG-6010HB mechanical-interface information that is suitable for public early design evaluation from the current controlled drawing.
+This page summarizes mechanical-interface information from the supplied SG2908B 2D drawing for early design review. These values must be checked against the final ordered model and drawing revision.
 
 !!! warning
-    This page is **not** a manufacturing drawing. Use the current configuration-controlled SG2908B drawing and CAD supplied by SigGear for final tolerances, datum control, interface release and production design.
+    This page is **not** a manufacturing drawing. The uploaded SG2908B exchange STEP is not yet matched to the published dimensional envelope. Request an engineering-approved, configuration-matched 2D drawing and CAD before final design.
 
 ## Envelope
 
@@ -24,7 +25,7 @@ This page summarizes the SG-6010HB mechanical-interface information that is suit
 | Nominal overall product thickness | 25.57 mm |
 | Catalog product weight | 298.5 g |
 
-The **25.57 mm** catalog thickness is consistent with the controlled drawing when the 22.57 mm main body thickness and the nominal 3.00 mm output-side extension are considered together.
+The 22.57 mm main-body dimension plus the 3.00 mm reference extension numerically equals the **25.57 mm** catalog thickness. The exact datum-to-datum measurement still needs configuration-level confirmation; these 2D values do **not** validate the separate STEP source.
 
 ## Output-Side / Mechanical Interface
 
@@ -73,9 +74,11 @@ Cable termination and connector configuration can vary by project and must be co
 
 ## CAD Status
 
-A detailed SG2908B / SG-6010HB assembly STEP has been reviewed internally.
+The supplied exchange STEP, internally identified as **SG2908B**, was successfully imported on 2026-11-19 as a millimetre-based AP203 assembly with 46 solid bodies.
 
-The supplied STEP contains detailed internal motor and planetary-transmission geometry, so the raw assembly is **not released as a public download**.
+Its **all-solid bounding envelope** is approximately **72.53 mm × 34.86 mm × 72.53 mm**, compared with the current catalogue's **Ø67 mm × 25.57 mm** nominal product envelope. The all-solid bounding box may include protruding or non-housing parts, so it is **not** by itself a controlled housing dimension. Nevertheless, this difference prevents automatic approval as a configuration-matched SG-6010HB installation model.
+
+**Release decision:** The raw internal assembly STEP is **not a public download**. The source identity, solid ownership, body envelope and permitted simplified geometry require engineering sign-off before any public external-interface STEP is offered.
 
 For packaging, interference checking or design-in, request the configuration-matched CAD from SigGear. A simplified public external-interface STEP may be released separately after geometry simplification and engineering review.
 

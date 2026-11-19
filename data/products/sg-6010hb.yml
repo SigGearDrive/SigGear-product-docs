@@ -64,3 +64,9 @@ cad_control:
   controlled_2d_drawing: "SG2908B"
   full_assembly_step_status: "reviewed_internal_request_only"
   public_raw_assembly_step: false
+  source_step_review_date: "2026-11-19"
+  source_step_code: "SG2908B"
+  source_step_sha256: "352c043b6fd11ee869b8ef9c85774fd16d1dba6da63d9ec649789596c236e31b"
+  source_step_geometry_status: "hold_pending_variant_and_envelope_confirmation"
+  reference_pdf_release: "SG-6010HB_Public_Reference_Datasheet_Rev0.1.pdf"
+

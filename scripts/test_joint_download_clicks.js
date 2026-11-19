@@ -55,6 +55,7 @@ for (const model of ["SG-6010C","SG-6010D","SG-8021","CPM-78-39","CPM-80-25","CP
   testFile("joint-actuators", model + "_Public_Reference_Datasheet_Rev0.1.pdf",
     model, "catalogue", "datasheet_pdf");
 }
+testFile("joint-actuators", "SG-6010HB_Public_Reference_Datasheet_Rev0.1.pdf", "SG-6010HB", "catalogue_reference", "datasheet_pdf");
 for (const [file, model, variant] of [
   ["SG-6010D_2D_Assembly_Drawing.pdf","SG-6010D","published_assembly"],
   ["CPM-80-25_2D_No_Driver_29p7mm.pdf","CPM-80-25","no_driver_29_7mm"],
@@ -92,5 +93,5 @@ const observed = click("../../../assets/downloads/joint-actuators/CPM-100-25D_Du
 assert.equal(observed.find(x => x.name === "joint_engineering_file_click").params.source_page_type,
              "joint_product_model");
 
-console.log("PASS six reference datasheets, four 2D reference PDFs, eight full STEP assemblies, three simplified STEP configurations");
-console.log("PASS 21 joint engineering click classifications, correct variants, legacy CAD event continuity and same-site controls");
+console.log("PASS seven public reference PDFs, four 2D reference PDFs, eight full STEP assemblies, three simplified STEP configurations");
+console.log("PASS 22 joint engineering file classifications: six standard models plus separate SG-6010HB public PDF");

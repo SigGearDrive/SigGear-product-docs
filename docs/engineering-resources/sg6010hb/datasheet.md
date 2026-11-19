@@ -6,8 +6,12 @@ description: Public SG-6010HB engineering datasheet with 67 mm diameter, 25.57 m
 # SG-6010HB Technical Datasheet v1.0
 
 **Status:** Public engineering evaluation reference  
-**Release date:** 2026-10-09  
+**Online record:** 2026-10-09 · **Reference PDF:** Rev0.1, 2026-11-19  
 **Public source:** Current SigGear product catalog
+
+[**Download SG-6010HB Reference Datasheet PDF**](../../assets/downloads/joint-actuators/SG-6010HB_Public_Reference_Datasheet_Rev0.1.pdf){ .md-button .md-button--primary }
+
+The PDF summarizes the **catalogue product**, not an independently approved 2D/3D CAD envelope.
 
 SG-6010HB is a compact planetary joint motor published by SigGear for exoskeleton joint applications. This datasheet consolidates the current catalog values without adding unpublished driver, encoder or interface claims.
 
@@ -61,11 +65,11 @@ This identifies a real intended application direction; it does not mean the prod
 
 ## Mechanical Data Boundary
 
-The SG2908B controlled drawing has now been reviewed.
+The supplied SG2908B 2D source has been reviewed for its readable nominal mounting features. The separate SG2908B exchange STEP was imported on 2026-11-19, but its full-assembly envelope still requires engineering reconciliation with the catalogue.
 
 Public early-design information is summarized in the [SG-6010HB Mechanical Interface](mechanical-interface.md), including the 67 mm envelope, 22.57 ±0.50 mm main body thickness, nominal 3.00 ±0.30 mm output-side extension, selected mounting patterns and wiring references.
 
-The controlled production drawing and detailed assembly STEP remain request-only. Request the current configuration-matched drawing / CAD before design freeze.
+The controlled production drawing and detailed internal assembly STEP remain **request-only**. No downloadable SG-6010HB STEP is approved; request configuration-matched exterior CAD and the current drawing revision before design freeze.
 
 [View Mechanical Interface](mechanical-interface.md){ .md-button .md-button--primary }
 [View Thermal Test Record](thermal-test-record.md){ .md-button }

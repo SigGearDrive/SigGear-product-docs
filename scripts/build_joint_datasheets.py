@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build six concise downloadable public-reference datasheets from controlled YAML.
+"""Build six standard and separate SG-6010HB public-reference datasheets from catalogue YAML.
 
 No claims are inferred. These are preliminary catalogue summaries, NOT a
 controlled production drawing, final electrical variant, or CAD release.
@@ -25,6 +25,7 @@ MODELS = {
     "SG-6010C": "sg-6010c",
     "SG-6010D": "sg-6010d",
     "SG-8021": "sg-8021",
+    "SG-6010HB": "sg-6010hb",
     "CPM-78-39": "cpm-78-39",
     "CPM-80-25": "cpm-80-25",
     "CPM-100-25": "cpm-100-25",
@@ -66,9 +67,23 @@ def make_datasheet(model: str, filename: str) -> Path:
     if obj.get("model") != model or obj.get("public_page_status") != "published":
         raise ValueError("Missing published product data for " + model)
     values = obj["published_specifications"]
+    # Keep the distinct SG-6010HB PDF compact and source-backed; full
+    # electrical/controller detail stays on the online technical pages.
+    if model == "SG-6010HB":
+        core_keys = (
+            "transmission_structure", "outer_diameter", "product_thickness",
+            "reduction_ratio", "backlash", "motor_power", "rated_voltage",
+            "rated_output_speed", "no_load_output_speed", "rated_output_torque",
+            "peak_output_torque", "weight", "allowable_radial_force",
+            "allowable_axial_force", "motor_structure", "motor_torque_constant",
+        )
+        if any(key not in values for key in core_keys):
+            raise ValueError("SG-6010HB lacks a required catalog key")
+        values = {key: values[key] for key in core_keys}
     variants = obj.get("published_variants") or {}
     OUT.mkdir(parents=True, exist_ok=True)
     target = OUT / f"{model}_Public_Reference_Datasheet_{REVISION}.pdf"
+    release_date = "2026-11-19" if model == "SG-6010HB" else RELEASE_DATE
     doc = SimpleDocTemplate(str(target), pagesize=A4, leftMargin=35, rightMargin=35,
                             topMargin=38, bottomMargin=58,
                             title=f"{model} Public Reference Datasheet {REVISION} | SigGear",
@@ -86,7 +101,7 @@ def make_datasheet(model: str, filename: str) -> Path:
         p(obj.get("display_name", model), ParagraphStyle("subtitle", parent=body, fontSize=10, leading=14)),
         Spacer(1, 9),
     ]
-    t = Table([[p("PUBLIC CATALOGUE REFERENCE - " + REVISION + " - " + RELEASE_DATE, 
+    t = Table([[p("PUBLIC CATALOGUE REFERENCE - " + REVISION + " - " + release_date, 
                   ParagraphStyle("tag",fontName="Helvetica-Bold",fontSize=8,leading=12,textColor=NAVY))]],
               colWidths=[width])
     t.setStyle(TableStyle([("BACKGROUND",(0,0),(-1,-1),PALE),("BOX",(0,0),(-1,-1),0.5,colors.HexColor("#CBD9E7")),("TOPPADDING",(0,0),(-1,-1),8),("BOTTOMPADDING",(0,0),(-1,-1),8),("LEFTPADDING",(0,0),(-1,-1),10)]))
@@ -141,6 +156,15 @@ def make_datasheet(model: str, filename: str) -> Path:
         story.append(p("Standard: Hall sensors only; no integrated driver or absolute encoder claim.",body))
     elif model == "SG-6010D":
         story.append(p("CAN Simple / CANopen / RS485 applies only to the confirmed driver-equipped hardware and firmware.",body))
+    elif model == "SG-6010HB":
+        story.append(p(
+            "CAD release hold: supplied SG2908B exchange-assembly STEP is not "
+            "verified against the catalog 67.0 mm x 25.57 mm envelope. "
+            "Neither the raw assembly STEP nor a controlled 2D production drawing "
+            "is publicly released. Request configuration-matched design files.", body))
+        story.append(p(
+            "Driver caution: actuator catalog says 12-48 V; the referenced driver "
+            "platform lists 15-48 V for rated operation.", body))
     note=("Preliminary catalogue data. Peak torque is not a continuous rating. "
           "Controlled 2D mechanical interfaces, connector pinout, electronics/firmware and "
           "installation dimensions must be confirmed for the ordered configuration.")
