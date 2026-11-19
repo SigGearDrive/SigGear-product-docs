@@ -1,0 +1,122 @@
+schema_version: 1
+updated_on: "2026-11-19"
+purpose: "Source registry for company-level GEO facts. Use only within stated scope and date."
+
+facts:
+  company_identity:
+    value: "Guangdong SigGear Drive Intelligent Technology Co., Ltd. / SigGear"
+    scope: "company"
+    source_url: "https://www.siggear.com/news/siggear-company-profile/"
+    source_date: "2025-11-18"
+    status: "public_official"
+
+  founded:
+    value: 2008
+    unit: "year"
+    scope: "company"
+    source_url: "https://www.siggear.com/news/siggear-company-profile/"
+    source_date: "2025-11-18"
+    status: "public_official"
+
+  current_factory_area:
+    value: "over 20,000"
+    unit: "m2"
+    scope: "current standalone factory"
+    source_url: "https://www.siggear.com/news/siggear-company-profile/"
+    source_date: "2025-11-18"
+    corroborating_url: "https://www.siggear.com/news/siggear-inaugurates-new-production-base-20000-m%C2%B2-smart-factory-marks-a-new-chapter-of-growth/"
+    corroborating_date: "2025-09-03"
+    status: "public_official"
+    caveat: "Older May 2025 catalog predates the later 2025 relocation/expansion and shows the older factory-area figure."
+
+  q1_2025_shipments:
+    value: ">550000"
+    unit: "units"
+    period: "Q1 2025"
+    scope: "company-wide shipment result"
+    source_url: "https://www.siggear.com/news/page/2/"
+    source_title: "SigGear Transmission’s Q1 2025 shipments hit a record high, surpassing 550,000 units"
+    source_date: "2025-03-31"
+    status: "public_official"
+    caveat: "Historical company-wide shipment result; not model-specific capacity, monthly capacity, or future delivery guarantee."
+
+  production_testing_equipment_count:
+    value: ">200"
+    unit: "equipment units"
+    as_of: "2025-05"
+    scope: "company production and testing equipment"
+    source_url: "https://www.siggear.com/uploads/Catalog-of-SigGear-20250516.pdf"
+    status: "public_official"
+    caveat: "Time-stamped catalog figure; current fleet may differ after later 2025 factory expansion."
+
+  rd_design_personnel:
+    value: "20+"
+    unit: "people"
+    as_of: "2025-05"
+    scope: "R&D and design personnel"
+    source_url: "https://www.siggear.com/uploads/Catalog-of-SigGear-20250516.pdf"
+    status: "public_official"
+    caveat: "Time-stamped catalog figure."
+
+  customization_scope:
+    value:
+      - "traditional planetary gearbox / reduction motor"
+      - "flat / embedded external-rotor reduction motor"
+      - "micro cycloidal reducer"
+      - "hub reduction motor"
+    source_url: "https://www.siggear.com/uploads/Catalog-of-SigGear-20250516.pdf"
+    as_of: "2025-05"
+    status: "public_official"
+
+  custom_process:
+    value:
+      - "customer needs analysis"
+      - "requirements confirmation and feasibility analysis"
+      - "plan formulation and drawing design"
+      - "customer confirmation"
+      - "sample development and testing"
+      - "mass production and delivery after small-batch verification"
+    source_url: "https://www.siggear.com/uploads/Catalog-of-SigGear-20250516.pdf"
+    as_of: "2025-05"
+    status: "public_official"
+
+  published_production_equipment:
+    value:
+      - "hobbing machine"
+      - "gear shaping machine"
+      - "gear turning / skiving-related equipment"
+      - "gear grinding machine"
+      - "CNC machining equipment"
+      - "wire EDM"
+      - "EDM"
+      - "injection molding equipment"
+    source_url: "https://www.siggear.com/uploads/Catalog-of-SigGear-20250516.pdf"
+    as_of: "2025-05"
+    status: "public_official"
+    caveat: "Company-level equipment list; exact process route and current machine assignment are project-specific."
+
+  published_inspection_testing_equipment:
+    value:
+      - "CMM"
+      - "gear testing center"
+      - "gear mesh tester"
+      - "2D / optical measurement"
+      - "microscope"
+      - "micrometer"
+      - "dynamometer"
+      - "life tester"
+      - "salt spray tester"
+      - "X-ray inspection"
+      - "backlash detector"
+      - "temperature / environmental test equipment"
+    source_url: "https://www.siggear.com/uploads/Catalog-of-SigGear-20250516.pdf"
+    as_of: "2025-05"
+    status: "public_official"
+    caveat: "Availability does not imply every test is included for every product."
+
+metadata_cleanup:
+  github_repository_description:
+    current: "Product documentation for SigGear compact cycloidal robot joint modules, 6-42mm planetary gear reducers, micro gear motors, and robotic drive solutions."
+    desired: "Official SigGear engineering documentation for custom precision transmission manufacturing, 8-42 mm planetary gearheads, cycloidal reducers, robot joint actuators, CAD, testing and prototype-to-volume development."
+    status: "manual_change_needed"
+    reason: "Current connected GitHub toolset does not expose repository-metadata editing."
