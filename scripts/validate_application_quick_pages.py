@@ -57,7 +57,7 @@ for name, terms in focused_intent.items():
     body = (APP / name).read_text(encoding="utf-8").lower()
     for term in terms:
         assert term.lower() in body, (name, term)
-    assert "## " in body and "pdf / step" in body.lower(), name
+    assert "## " in body and ("pdf / step" in body.lower() or "pdf / 2d / step" in body.lower()), name
 
 # Check that engineering search intent stays specific rather than generic.
 round3_intent = {
@@ -73,7 +73,7 @@ round3_intent = {
 for name, terms in round3_intent.items():
     body = (APP / name).read_text(encoding="utf-8").lower()
     assert all(word.lower() in body for word in terms), (name, terms)
-    assert "pdf" in body and "2d & step" in body, name
+    assert "pdf" in body and ("2d & step" in body or "pdf / 2d / step" in body), name
 
 # A visitor should see the exact model PDF/2D/STEP grid BEFORE prose and
 # before any generic resource hubs.  On mobile the links become three-button cards.
