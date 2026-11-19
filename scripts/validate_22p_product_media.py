@@ -33,7 +33,7 @@ def main() -> None:
         "[**Download Datasheet PDF**](../../assets/downloads/22p/22P_Planetary_Gearhead_Datasheet_Rev1.0.pdf)",
         "[**Download 2D Drawing PDF**](../../assets/downloads/22p/22P_2D_Drawing.pdf)",
         "[**Download Full Assembly STEP**](../../assets/downloads/22p/22P_Full_Assembly.step)",
-        "[Simplified 4-stage STEP](../../assets/downloads/22p/22P_Public_Simplified_STEP_v1.0_4-Stage.step)",
+        "[**Download Simplified 4-Stage STEP · Reference**](../../assets/downloads/22p/22P_Public_Simplified_STEP_v1.0_4-Stage.step)",
     ):
         assert expected in src, f"22P engineering download missing or mislinked: {expected}"
 
