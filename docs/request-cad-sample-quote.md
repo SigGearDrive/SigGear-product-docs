@@ -10,7 +10,7 @@ You do **not** need to know a SigGear model number before contacting us.
 Most custom projects can start from one of four situations:
 
 - **“Here is my motor.”** — the motor is already selected and the transmission must fit it.
-- **“Here is our drawing.”** — the mechanism, CAD or installation envelope already defines the interface.
+- **“Here is our drawing.”** — the mechanism, STEP model or installation envelope already defines the interface.
 - **“Our current gearbox keeps failing.”** — an existing transmission needs replacement, durability review or redesign.
 - **“We need prototypes first, then volume production.”** — the project needs a path from sample validation into repeatable manufacturing.
 
@@ -21,29 +21,29 @@ If you already know a SigGear model, include it as a reference. If not, send the
 
 
 [**I Already Have a Motor**](?start=existing_motor&path=gearbox_only){ .md-button .md-button--primary }
-[**I Have a Drawing / CAD**](?start=drawing_cad){ .md-button }
+[**I Have a Drawing / STEP**](?start=drawing_cad){ .md-button }
 [**My Current Gearbox Is Failing**](?start=failing_gearbox&path=gearbox_only){ .md-button }
 [**Prototype → Volume Production**](?start=prototype_to_volume){ .md-button }
 
 For a project that starts from an idea, existing motor, mechanism or custom transmission problem, see the [Custom Precision Transmission Engineering](custom-engineering/index.md) page first.
 
-If you already have a **customer drawing, CAD model or physical sample**, use the [Custom Gearbox From Drawing / CAD](custom-engineering/custom-gearbox-from-drawing-cad.md) path.
+If you already have a **customer drawing, STEP model or physical sample**, use the [Custom Gearbox From Drawing / STEP](custom-engineering/custom-gearbox-from-drawing-cad.md) path.
 
-If the project specifically needs a micro, miniature or compact planetary gearhead, see [Custom Planetary Gearhead Engineering](custom-engineering/custom-planetary-gearbox.md).
+If the project specifically needs a micro, miniature or compact planetary gearhead, see [Custom Planetary Gearbox Engineering](custom-engineering/custom-planetary-gearbox.md).
 
 If the project involves a compact high-torque joint or a possible cycloidal structure, see [Custom Cycloidal Transmission Engineering](custom-engineering/custom-cycloidal-transmission.md).
 
-If the project starts from an existing motor or needs a complete motor + gearhead solution, see [Motor + Gearhead Integration Engineering](custom-engineering/motor-gearbox-integration.md).
+If the project starts from an existing motor or needs a complete motor + gearbox solution, see [Motor + Gearbox Integration Engineering](custom-engineering/motor-gearbox-integration.md).
 
 If the project is a robot joint, compact actuator or AI-hardware rotary axis with custom torque, speed, size, sensing or control requirements, see [Custom Robot Joint & Compact Actuator Development](custom-engineering/robot-joint-actuator-development.md).
 
 If the project has moved beyond a first concept and needs a structured path through prototype, testing, Design-In, pilot preparation and production release, see [Prototype to Design-In and Production](custom-engineering/prototype-to-production.md).
 
-## Precision Planetary Gearheads (Ø8–42 mm) — Choose Your Path
+## Precision Planetary Gearboxes (Ø8–42 mm) — Choose Your Path
 
-### Path A: Gearhead Only for an Existing Motor
+### Path A: Planetary Gearbox for an Existing Motor
 
-Choose this path when the motor is already selected and you need SigGear to review a compatible planetary gearhead.
+Choose this path when the motor is already selected and you need SigGear to review a compatible planetary gearbox.
 
 For the first review, send only what you already know:
 
@@ -52,14 +52,14 @@ For the first review, send only what you already know:
 3. **Motor shaft diameter / usable shaft length**
 4. **Motor mounting pattern / locating pilot**
 5. **Required output speed or ratio**
-6. **Maximum gearhead / assembly diameter and length**
+6. **Maximum gearbox / assembly diameter and length**
 7. **Load or torque, if known**
 
 If torque or an interface dimension is not known, a motor drawing or mechanism sketch is enough to start.
 
-[Start Gearhead-Only Project Brief](?path=gearbox_only){ .md-button .md-button--primary }
+[Start Gearbox Project Brief](?path=gearbox_only){ .md-button .md-button--primary }
 
-### Path B: Complete Motor + Gearhead Assembly
+### Path B: Complete Motor + Gearbox Assembly
 
 Choose this path when the motor is still open and you want SigGear to evaluate the drive as one system.
 
@@ -73,12 +73,12 @@ For the first review, send:
 
 The final ratio does not need to be calculated before contacting us.
 
-[Start Motor + Gearhead Project Brief](?path=motor_gearbox){ .md-button .md-button--primary }
+[Start Motor + Gearbox Project Brief](?path=motor_gearbox){ .md-button .md-button--primary }
 
 You do not need a complete specification to start. Missing technical details can be narrowed after the first review.
 
-[Browse 8–42 mm Planetary Gearheads](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
-[Browse 12 Gearhead PDF / 2D / STEP Files](engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
+[Browse 8–42 mm Planetary Gearboxes](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
+[Browse 12 Gearbox PDF / 2D / STEP Files](engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 
 ### Start From the Application
 
@@ -118,7 +118,7 @@ Complete the project brief below and click **Send Engineering Request Online** t
       <select id="sg-starting-point" name="starting_point">
         <option value="">Not sure yet</option>
         <option value="existing_motor">I already have a motor</option>
-        <option value="drawing_cad">I have a drawing / CAD / mechanism</option>
+        <option value="drawing_cad">I have a drawing / STEP / mechanism</option>
         <option value="failing_gearbox">My current gearbox / reducer is failing</option>
         <option value="prototype_to_volume">Prototype first, then volume production</option>
         <option value="standard_product">I am evaluating a SigGear standard product</option>
@@ -129,7 +129,7 @@ Complete the project brief below and click **Send Engineering Request Online** t
       SigGear model reference (optional)
       <select id="sg-model" name="model">
         <option value="">Not sure yet</option>
-        <optgroup label="Precision Planetary Gearheads (8–42 mm)">
+        <optgroup label="Precision Planetary Gearboxes (8–42 mm)">
         <option value="8P">8P — 8 mm</option>
         <option value="10P">10P — 10 mm</option>
         <option value="12P">12P — 12 mm</option>
@@ -165,8 +165,8 @@ Complete the project brief below and click **Send Engineering Request Online** t
       Project path
       <select id="sg-path" name="path">
         <option value="not_sure">Not sure — please recommend</option>
-        <option value="gearbox_only">Gearhead only — I already have a motor</option>
-        <option value="motor_gearbox">Complete motor + gearhead assembly</option>
+        <option value="gearbox_only">Planetary gearbox — I already have a motor</option>
+        <option value="motor_gearbox">Complete motor + gearbox assembly</option>
         <option value="joint_actuator">Robot joint actuator / cycloidal module</option>
         <option value="hub_gear_motor">Hub gear motor only (external controller required)</option>
       </select>
@@ -253,10 +253,10 @@ Complete the project brief below and click **Send Engineering Request Online** t
   </div>
 
   <div id="sg-cad-readiness" class="siggear-cad-readiness" hidden>
-    <strong id="sg-cad-readiness-title">Controlled CAD review readiness</strong>
+    <strong id="sg-cad-readiness-title">STEP / drawing review readiness</strong>
     <p id="sg-cad-readiness-status"></p>
     <ul id="sg-cad-readiness-gates"></ul>
-    <p class="siggear-cad-readiness-note">“Ready for CAD Review” means the project brief contains enough information for SigGear engineering to begin a configuration-specific CAD review. It does not mean controlled CAD has been approved or released.</p>
+    <p class="siggear-cad-readiness-note">“Ready for STEP / Drawing Review” means the project brief contains enough information for SigGear engineering to begin a configuration-specific STEP / drawing review. It does not mean a controlled production model or drawing has been approved or released.</p>
   </div>
 
   <div class="siggear-form-grid">
