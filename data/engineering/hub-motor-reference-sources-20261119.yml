@@ -64,3 +64,20 @@ models:
 excluded_reference:
   label: "SG2557-80PG-9.75B"
   reason: "Different product identifier, earlier drawing date and IP66; not a SG-2877/SG-2878 source."
+
+# A DIFFERENT, older source-drawing model. This record must never be used to
+# alter SG-2877 or SG-2878 specifications, ingress ratings, or CAD provenance.
+separate_source_drawing:
+  label: "SG2557-80PG-9.75B"
+  source_filename: "SG2557-80PG-9.75B轮毂减速箱组合图.pdf"
+  source_sha256: "4081488ee253fd8867cea7a9a039f15defbb319b3547138970f5d3fba62390ed"
+  source_size_bytes: 291047
+  source_revision: "A"
+  source_drawing_date: "2024-05-21"
+  source_role: "independent historical drawing; not SG-2877 or SG-2878"
+  original_2d_public_release: "not_yet_uploaded"
+  public_reference_release: "source_transcription_only"
+  cad_release: "no_verified_3d_exchange_for_this_model"
+  present_day_availability: "unconfirmed"
+  source_ingress_protection_note: "IP66 requirement shown in drawing; not an independently verified certification"
+
