@@ -179,3 +179,16 @@ Action completed:
 - added `oem-volume-manufacturing-delivery.md`
 - published internal factory-evidence capture plan for future real batch / QC / packing evidence
 - connected manufacturing evidence, prototype-to-production and inquiry planning fields
+
+## Nine independent P0 non-brand retrieval queries — 2026-11-19
+
+A fresh **query-by-query** public-search sample found at least one SigGear result for **6 of 9** exact non-brand P0 questions; only **1 of 9** surfaced the **designated P0 primary page**. This is a limited retrieval observation, **not** a ChatGPT/Gemini/Claude/Perplexity/Copilot citation rate or a verified Google index count.
+
+Most important distinctions:
+- The existing-motor page `motor-gearbox-integration.md` is appearing for motor and replacement-adjacent questions; keep its established URL.
+- `prototype-to-production.md` is directly retrieved for broad prototype-to-volume intent, but the exact OEM planning question P0 #15 maps to the separate `oem-volume-manufacturing-delivery.md` page.
+- The new Drawing / STEP / Sample, Replacement / Redesign, Failure / Durability and Supplier Qualification pages were **not** the preferred observed pages for their corresponding exact P0 questions in this sample.
+- Recrawl and Search Console URL Inspection should come before any further title or content rewriting.
+
+**Full fixed queries, returned URLs and decisions:** [P0 Public Retrieval Observation — 2026-11-19](p0-public-retrieval-observation-2026-11-19.md).  
+**Separate five-AI-platform trial protocol:** [AI Platform Citation Capture Protocol](ai-platform-citation-capture-protocol-2026-11-19.md).

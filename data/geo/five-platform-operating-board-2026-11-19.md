@@ -93,6 +93,12 @@ For every query, record:
 | Content gap | Page or evidence needed |
 | Follow-up action | Update / new evidence / external source / no action |
 
+## Verified Public Retrieval vs. AI Answers (2026-11-19)
+
+The first nine independent non-brand public-web-search questions and their observed results are documented in [P0 Public Retrieval Observation](p0-public-retrieval-observation-2026-11-19.md). This is **not** an AI-service citation measurement. 
+
+For actual answer-and-citation tests on all five named AI services, use the [AI Platform Citation Capture Protocol](ai-platform-citation-capture-protocol-2026-11-19.md). At creation, **no genuine external-platform answer tests have been recorded**; do not interpret unrun trials as failure or success.
+
 ## Answer Quality Benchmark
 
 For the six highest-value scenarios, use:
