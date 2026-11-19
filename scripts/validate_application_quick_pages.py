@@ -195,7 +195,7 @@ for name, (modules, drawings) in round6_joint.items():
     assert "<table>" in table and "</table>" in table, name
     assert table.count("_Public_Reference_Datasheet_Rev0.1.pdf") == modules, name
     assert table.count(".step") == modules, name
-    assert len(re.findall(r"joint-actuators/[^\s\"<>]+_2D_[^\s\"<>]+\\.pdf", table)) == drawings, name
+    assert len(re.findall(r"joint-actuators/[^\s\"<>]+_2D_[^\s\"<>]+\.pdf", table)) == drawings, name
     assert "Auxiliary Gearhead options" in html and "<details" in html, name
     assert html.count("_Full_Assembly.step") >= 3, name
     assert "application-quick-downloads.css?v=20261119-firstscreen" in html, name
