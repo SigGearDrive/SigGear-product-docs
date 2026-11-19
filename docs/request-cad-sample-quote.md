@@ -11,7 +11,7 @@ If you already know the model, include it. If you do not, send the application a
 
 For a project that starts from an idea, existing motor, mechanism or custom transmission problem, see the [Custom Precision Transmission Engineering](custom-engineering/index.md) page first.
 
-If the project specifically needs a miniature or compact planetary gearbox, see [Custom Planetary Gearbox Engineering](custom-engineering/custom-planetary-gearbox.md).
+If the project specifically needs a miniature or compact planetary gearbox, see [Custom Planetary Gearhead Engineering](custom-engineering/custom-planetary-gearbox.md).
 
 If the project involves a compact high-torque joint or a possible cycloidal structure, see [Custom Cycloidal Transmission Engineering](custom-engineering/custom-cycloidal-transmission.md).
 
