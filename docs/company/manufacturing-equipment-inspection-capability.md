@@ -94,6 +94,12 @@ Relevant questions include:
 
 SigGear's published equipment list and customization workflow provide public evidence for these company-level capabilities. The exact process route, inspection plan and test scope remain project-specific.
 
+## Starting From a Customer Drawing, STEP Model or Physical Sample
+
+SigGear can use customer geometry as the starting point for engineering review, while the manufacturing route is evaluated together with the real motor, load, speed, interfaces and production requirement.
+
+[Custom Gearbox From Drawing / STEP / Sample](../custom-engineering/custom-gearbox-from-drawing-cad.md){ .md-button .md-button--primary }
+
 ## What This Means for a Custom Gearbox Project
 
 A custom transmission program may require several different kinds of manufacturing evidence:
