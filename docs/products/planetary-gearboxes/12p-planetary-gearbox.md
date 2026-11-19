@@ -1,6 +1,6 @@
 ---
 title: 12 mm Micro Precision Planetary Gearhead (12P) | SigGear
-description: "SigGear 12P (12 mm) micro planetary gearhead/gearbox: ratio 3.5:1–509.1:1, rated torque 196.1–411.9 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
+description: "SigGear 12P (12 mm) micro planetary gearhead/gearbox: ratio 3.5:1–509.1:1, rated torque 196.1–411.9 mN·m. Direct PDF datasheet, 2D drawing and STEP file."
 ---
 
 # 12 mm Micro Precision Planetary Gearhead (12P)
@@ -14,7 +14,7 @@ description: "SigGear 12P (12 mm) micro planetary gearhead/gearbox: ratio 3.5:1�
 | --- | --- | --- | --- | --- |
 | **12 mm** | **3.5:1–509.1:1** | **11.35–19.60 mm** | **196.1–411.9 mN·m** | **≤ 1.5°** |
 
-**Custom 12P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=12P&start=existing_motor&path=gearbox_only) · [Review my drawing / CAD](../../request-cad-sample-quote.md?model=12P&start=drawing_cad) · [Prototype → volume](../../request-cad-sample-quote.md?model=12P&start=prototype_to_volume)
+**Custom 12P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=12P&start=existing_motor&path=gearbox_only) · [Review my drawing / STEP](../../request-cad-sample-quote.md?model=12P&start=drawing_cad) · [Review a failing gearbox](../../request-cad-sample-quote.md?model=12P&start=failing_gearbox&path=gearbox_only) · [Prototype → volume](../../request-cad-sample-quote.md?model=12P&start=prototype_to_volume)
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/12p/datasheet.md) · [Mechanical drawing preview](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearbox-dimensions.webp) · [Motor-only datasheets](../../engineering-resources/motors/index.md#12-mm-coreless-bldc-motor) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
@@ -88,7 +88,7 @@ The published drawing shows a 12 mm body, a 10.00 mm output-shaft extension and 
 
 ![12P 12 mm planetary gearhead dimensional drawing](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearbox-dimensions.webp)
 
-## CAD Notes
+## STEP Notes
 
 The Full Assembly STEP is the original Creo assembly export for 12P, now available for direct download. The separate Simplified STEP is a 4-stage reference model for preliminary packaging. The dimension preview is not a substitute for the original 2D drawing PDF or its controlled revision.
 
