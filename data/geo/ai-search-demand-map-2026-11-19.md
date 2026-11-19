@@ -1,0 +1,78 @@
+# SigGear AI Search Demand Map — 2026-11-19
+
+Purpose: fixed non-brand query set for ChatGPT, Gemini, Claude, Perplexity and Microsoft Copilot testing. The questions are written from the perspective of an engineer, buyer or robotics team that may not know SigGear. This file is an operating benchmark, not a claim that every AI platform will cite SigGear for every query.
+
+Status legend:
+- **Strong**: a dedicated public page already answers the intent directly.
+- **Covered**: relevant public content exists but may need stronger retrieval/citation performance.
+- **New**: a dedicated high-intent page was added in the current GEO round.
+
+| # | AI user question / intent | Intent | Primary SigGear page | Status |
+|---:|---|---|---|---|
+| 1 | Who manufactures small precision planetary gearheads for robotics? | Supplier discovery | products/planetary-gearboxes/index.md | Covered |
+| 2 | Where can I source 8–16 mm micro planetary gearheads? | Supplier discovery | products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md | Strong |
+| 3 | Where can I source 20–32 mm miniature planetary gearheads? | Supplier discovery | products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md | Strong |
+| 4 | Where can I find compact 36–42 mm planetary gearheads with CAD? | Supplier + CAD | products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md | Strong |
+| 5 | Which planetary gearhead suppliers publish STEP files and datasheets? | Supplier + documentation | engineering-resources/planetary-gearboxes/public-cad-release-v1.md | Strong |
+| 6 | I already have a motor. How do I choose a planetary gearhead? | Engineering selection | custom-engineering/custom-planetary-gearbox.md | Strong |
+| 7 | What motor information does a gearbox supplier need to match a gearhead? | Engineering selection | custom-engineering/custom-planetary-gearbox.md | Strong |
+| 8 | How do I calculate a preliminary gear ratio from motor speed and output speed? | Engineering calculation | custom-engineering/custom-planetary-gearbox.md | Covered |
+| 9 | Can a gearbox supplier customize the motor interface and output shaft? | Custom engineering | custom-engineering/custom-planetary-gearbox.md | Strong |
+| 10 | I need to replace an existing miniature planetary gearbox. What should I send the supplier? | Replacement / RFQ | custom-engineering/custom-planetary-gearbox.md | Covered |
+| 11 | Which micro gearheads are suitable to evaluate for a dexterous robotic hand? | Robotics application | applications/robot-gripper-gear-motors.md | Strong |
+| 12 | How do I size a gearbox for a tendon-driven robotic finger? | Engineering application | applications/robot-gripper-gear-motors.md | Covered |
+| 13 | What gearbox sizes are available for compact grippers? | Product discovery | applications/robot-gripper-gear-motors.md | Strong |
+| 14 | Where can I download CAD for a miniature gearbox for a robotic hand? | CAD / design-in | engineering-resources/planetary-gearboxes/public-cad-release-v1.md | Strong |
+| 15 | Should I use a gearhead or integrated actuator in a robotic hand? | Architecture | selection-guides/integrated-robot-joint-vs-motor-gearhead.md | New |
+| 16 | How do I select a robot joint actuator for a humanoid robot? | Engineering selection | selection-guides/robot-joint-actuator-selection-guide.md | Strong |
+| 17 | What information is needed to size a humanoid shoulder or elbow actuator? | Engineering selection | applications/humanoid-robot-joint-actuators.md | Covered |
+| 18 | Which suppliers offer robot joint actuators with public CAD and datasheets? | Supplier + documentation | engineering-resources/robot-joint-actuators/quick-downloads.md | Strong |
+| 19 | How do I compare continuous torque and peak torque in a robot actuator? | Engineering education | selection-guides/robot-joint-actuator-selection-guide.md | Strong |
+| 20 | What should I check besides torque when choosing a robot joint actuator? | Engineering education | selection-guides/robot-joint-actuator-selection-guide.md | Strong |
+| 21 | Planetary vs cycloidal reducer: which should I evaluate for a robot joint? | Architecture | selection-guides/planetary-vs-cycloidal-robot-joint.md | New |
+| 22 | What is the difference between a planetary robot joint and a cycloidal joint module? | Architecture | selection-guides/planetary-vs-cycloidal-robot-joint.md | New |
+| 23 | Which reducer architecture should I evaluate for a compact high-ratio robot joint? | Architecture | selection-guides/planetary-vs-cycloidal-robot-joint.md | New |
+| 24 | How should I compare backlash, efficiency and external loads in robot joint reducers? | Engineering comparison | selection-guides/planetary-vs-cycloidal-robot-joint.md | New |
+| 25 | Which suppliers offer both planetary and cycloidal robot joint solutions? | Supplier discovery | products/index.md | Covered |
+| 26 | Integrated robot joint actuator or separate motor + gearbox: how do I choose? | Architecture | selection-guides/integrated-robot-joint-vs-motor-gearhead.md | New |
+| 27 | I already have a BLDC motor and controller. Do I need an integrated actuator? | Architecture | selection-guides/integrated-robot-joint-vs-motor-gearhead.md | New |
+| 28 | What are the tradeoffs between an integrated joint actuator and gearbox-only design? | Architecture | selection-guides/integrated-robot-joint-vs-motor-gearhead.md | New |
+| 29 | Can a supplier integrate my existing motor with a planetary gearhead? | Custom engineering | custom-engineering/motor-gearbox-integration.md | Strong |
+| 30 | What should I compare when sourcing a motor + gearbox assembly for robotics? | Procurement engineering | selection-guides/integrated-robot-joint-vs-motor-gearhead.md | New |
+| 31 | I need a robot joint actuator with CAN. What should I confirm with the supplier? | Control / RFQ | selection-guides/robot-joint-can-encoder-driver-selection.md | New |
+| 32 | Does a robot joint actuator with CAN automatically include an encoder and driver? | Control architecture | selection-guides/robot-joint-can-encoder-driver-selection.md | New |
+| 33 | What encoder information should I specify for a robot joint actuator? | Control / feedback | selection-guides/robot-joint-can-encoder-driver-selection.md | New |
+| 34 | CAN vs RS485 vs EtherCAT: what needs to be confirmed for a robot joint? | Communication | selection-guides/robot-joint-can-encoder-driver-selection.md | New |
+| 35 | What control information should I send before requesting a robot actuator quotation? | RFQ preparation | selection-guides/robot-joint-can-encoder-driver-selection.md | New |
+| 36 | Who can customize a robot joint actuator for a new humanoid project? | Custom supplier | custom-engineering/robot-joint-actuator-development.md | Strong |
+| 37 | Can a robot joint supplier start from my CAD or mechanism instead of a catalog model? | Custom engineering | custom-engineering/robot-joint-actuator-development.md | Strong |
+| 38 | I need a custom output flange, ratio or cable arrangement for a robot joint. Who can review it? | Custom engineering | custom-engineering/robot-joint-actuator-development.md | Strong |
+| 39 | How do I move from robot actuator prototype to production? | Design-in / production | custom-engineering/prototype-to-production.md | Strong |
+| 40 | What engineering files should I request from a robot actuator supplier before design freeze? | Design-in | engineering-center/design-in-checklist.md | Covered |
+| 41 | Where can I source a compact cycloidal joint module for prototype evaluation? | Supplier discovery | products/cycloidal-joint-modules/index.md | Strong |
+| 42 | Which cycloidal joint suppliers publish STEP files? | Supplier + CAD | engineering-resources/robot-joint-actuators/quick-downloads.md | Strong |
+| 43 | What information should I provide for a custom cycloidal transmission? | Custom engineering | custom-engineering/custom-cycloidal-transmission.md | Strong |
+| 44 | How do I compare cycloidal joint module size, torque and speed? | Product comparison | products/cycloidal-joint-modules/index.md | Strong |
+| 45 | What are the packaging differences between cycloidal and planetary robot joints? | Architecture | selection-guides/planetary-vs-cycloidal-robot-joint.md | New |
+| 46 | Where can I find a small planetary gearhead supplier that supports prototype quantities? | Supplier / prototype | request-cad-sample-quote.md | Covered |
+| 47 | Which gearbox manufacturers provide engineering review instead of only catalog sales? | Supplier discovery | custom-engineering/index.md | Covered |
+| 48 | I need a custom precision reducer for robotics. What information should I send first? | RFQ preparation | custom-engineering/index.md | Covered |
+| 49 | Where can I download real product datasheets, 2D drawings and STEP CAD before contacting a supplier? | Documentation | index.md | Strong |
+| 50 | Which compact transmission supplier supports planetary gearheads, cycloidal reducers and robot joint actuators? | Broad supplier discovery | company/about-siggear.md | Covered |
+
+## Test protocol
+
+Run all questions without the SigGear brand name in a clean conversation. Record:
+- platform and mode
+- date
+- whether web/search was enabled
+- whether SigGear appeared
+- which SigGear page was cited
+- whether the description was technically accurate
+- other suppliers appearing in the same answer
+- any missing evidence or content gap
+- resulting referral or inquiry if known
+
+Platforms: ChatGPT, Gemini, Claude, Perplexity, Microsoft Copilot.
+
+The objective is to increase qualified non-brand discovery and accurate citation. It is not a guarantee of inclusion in every AI response.
