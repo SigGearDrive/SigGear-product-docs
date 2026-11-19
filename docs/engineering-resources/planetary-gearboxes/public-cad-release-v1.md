@@ -16,7 +16,7 @@ The 12 published models are public reference platforms. A custom project can sta
 
 [**I Already Have a Motor**](../../custom-engineering/custom-planetary-gearbox.md){ .md-button .md-button--primary }
 [**I Have a Drawing / STEP**](../../custom-engineering/custom-gearbox-from-drawing-cad.md){ .md-button }
-[**My Existing Gearbox Is Failing**](../../custom-engineering/gearbox-failure-analysis-durability-redesign.md){ .md-button }
+[**Replace / Redesign Existing Gearbox**](../../custom-engineering/gearbox-failure-analysis-durability-redesign.md){ .md-button }
 [**Prototype → Volume Production**](../../custom-engineering/oem-volume-manufacturing-delivery.md){ .md-button }
 
 **Have a model in mind or need a custom version?** [**Request a sample / engineering quote**](../../request-cad-sample-quote.md?start=standard_product&path=gearbox_only){ .md-button }
