@@ -240,6 +240,7 @@ nav:
       - Gearhead Quick Selector & Downloads: selection-guides/planetary-gearhead-quick-selector.md
       - Legacy Ratio & Stage Reference: selection-guides/miniature-planetary-gearbox-selection-guide.md
       - Robot Joint Actuator Selection Guide: selection-guides/robot-joint-actuator-selection-guide.md
+      - Robot Joint Supplier Evaluation: selection-guides/robot-joint-supplier-evaluation.md
       - Planetary vs Cycloidal for Robot Joints: selection-guides/planetary-vs-cycloidal-robot-joint.md
       - Integrated Joint vs Motor + Gearhead: selection-guides/integrated-robot-joint-vs-motor-gearhead.md
       - CAN, Encoder & Driver Selection: selection-guides/robot-joint-can-encoder-driver-selection.md
