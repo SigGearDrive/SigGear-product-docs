@@ -25,6 +25,8 @@ Purpose: record whether SigGear public engineering pages surface for **non-brand
 | robot joint actuator STEP files / planetary + cycloidal | Yes | engineering-resources/robot-joint-actuators/quick-downloads.md | Covered; cache still showed older CAD wording |
 | existing gearbox keeps failing / durability redesign | Partial | custom-engineering/custom-planetary-gearbox.md surfaced; dedicated failure page did not dominate | Weak → strengthened 2026-11-19 |
 | custom gearbox manufacturer with gear hobbing / grinding / CMM | No in current sample | company/manufacturing-equipment-inspection-capability.md is intended landing page | Weak → strengthened 2026-11-19 |
+| how to evaluate a custom gearbox manufacturer before sending drawings | No dedicated SigGear result in current sample | selection-guides/custom-gearbox-manufacturer-supplier-qualification.md | New target → published 2026-11-19 |
+| gearbox supplier qualification: prototype, inspection, repeat production | No dedicated SigGear result in current sample | selection-guides/custom-gearbox-manufacturer-supplier-qualification.md | New target → published 2026-11-19 |
 | precision transmission manufacturer from drawing / STEP to volume production | Partial | custom gearbox / prototype pages surfaced in related queries | Improve entity association |
 | custom gearbox manufacturer from customer drawing / STEP / sample | No dedicated page in current sample | custom-engineering/custom-gearbox-from-drawing-cad.md is intended landing page | Weak → strengthened 2026-11-19 |
 | gearbox manufacturer from physical sample with incomplete drawing | No dedicated SigGear result in current sample | custom-engineering/custom-gearbox-from-drawing-cad.md | Weak → strengthened 2026-11-19 |
