@@ -14,6 +14,7 @@ on:
       - "mkdocs.yml"
       - "requirements.txt"
       - "scripts/validate_docs.py"
+      - "scripts/validate_geo_answer_readiness.py"
       - "scripts/validate_product_data.py"
       - "scripts/validate_22p_product_media.py"
       - "scripts/validate_sales_policy.py"
@@ -67,6 +68,7 @@ on:
       - "mkdocs.yml"
       - "requirements.txt"
       - "scripts/validate_docs.py"
+      - "scripts/validate_geo_answer_readiness.py"
       - "scripts/validate_product_data.py"
       - "scripts/validate_22p_product_media.py"
       - "scripts/validate_sales_policy.py"
@@ -154,6 +156,9 @@ jobs:
 
       - name: Validate documentation structure
         run: python scripts/validate_docs.py
+
+      - name: Validate GEO answer-readiness on high-value pages
+        run: python scripts/validate_geo_answer_readiness.py
 
       - name: Validate product master data
         run: python scripts/validate_product_data.py
