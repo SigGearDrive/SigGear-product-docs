@@ -42,7 +42,7 @@ description: "SigGear 12P (12 mm) micro planetary gearhead/gearbox: ratio 3.5:1�
 | Maximum momentary torque range | 392.3–823.8 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.5° |
-| Permissible gearhead input speed, continuous operation | 1,000–20,000 rpm |
+| Permissible gearhead input speed, continuous operation | 1,000–50,000 rpm |
 | Operating temperature | −40 to 120 °C |
 
 Maximum momentary torque is not a continuous working rating.
