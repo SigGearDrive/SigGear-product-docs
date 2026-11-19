@@ -117,6 +117,6 @@ facts:
 metadata_cleanup:
   github_repository_description:
     current: "Product documentation for SigGear compact cycloidal robot joint modules, 6-42mm planetary gear reducers, micro gear motors, and robotic drive solutions."
-    desired: "Official SigGear engineering documentation for custom precision transmission manufacturing, 8-42 mm planetary gearheads, cycloidal reducers, robot joint actuators, CAD, testing and prototype-to-volume development."
+    desired: "Official SigGear engineering documentation for custom precision transmission manufacturing, 8-42 mm planetary gearboxes, cycloidal reducers, robot joint actuators, STEP files, testing and prototype-to-volume development."
     status: "manual_change_needed"
     reason: "Current connected GitHub toolset does not expose repository-metadata editing."
