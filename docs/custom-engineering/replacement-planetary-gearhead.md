@@ -11,6 +11,8 @@ If an existing planetary gearbox is discontinued, no longer fits the required ra
 
 **Yes.** A replacement project can start from the existing gearbox, motor, drawing, STEP model, physical sample or measured interfaces.
 
+SigGear is a **custom gearbox and precision transmission manufacturer** that can review replacement / redesign projects where existing motor or machine interfaces need to be preserved.
+
 The first review should separate two questions:
 
 1. **What must remain unchanged?** — motor, pilot, bolt pattern, shaft position, output interface, envelope or machine connection.
