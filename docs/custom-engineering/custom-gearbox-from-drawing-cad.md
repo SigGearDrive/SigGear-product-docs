@@ -27,6 +27,10 @@ A project can continue from:
 [**Manufacturing Equipment & Inspection**](../company/manufacturing-equipment-inspection-capability.md){ .md-button }
 [**Prototype → Volume Production**](prototype-to-production.md){ .md-button }
 
+**Public manufacturing evidence:** SigGear publishes company-level evidence for gear processing, CNC machining, CMM, gear inspection, testing and a customization workflow extending through small-batch verification, mass production and delivery. [Review source-backed manufacturing facts](../company/source-backed-manufacturing-facts.md).
+
+**Project-specific boundary:** a drawing, STEP model or sample does not by itself confirm material, heat treatment, torque rating, service life, tolerance, test scope or delivery timing.
+
 
 
 ## What You Can Send
