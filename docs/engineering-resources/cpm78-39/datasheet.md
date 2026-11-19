@@ -59,11 +59,16 @@ A separate uploaded laboratory report is titled as a backlash test but reports r
 
 ## CAD and Drawings
 
+[**Download SG2368B 2D Reference Drawing PDF**](../../assets/downloads/joint-actuators/CPM-78-39_SG2368B_2D_Reference_Drawing.pdf){ .md-button .md-button--primary }
+
+Original factory drawing number is SG2368B; refer to it for initial envelope evaluation only until the model-code mapping is confirmed.
+
+
 A controlled 2D drawing is available for engineering review.
 
 [**Download CPM-78-39 Original Full Assembly STEP**](../../assets/downloads/joint-actuators/CPM-78-39_Original_Full_Assembly_20261118.step){ .md-button .md-button--primary }
 
-Original assembly publicly released 2026-11-18, separate from the still-requested controlled 2D drawing.
+The original 2D source is published under its internal SG2368B code; production approval requires model/variant reconciliation.
 
 [Request CAD, Drawing or Integration Files](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
 
