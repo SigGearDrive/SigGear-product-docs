@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Public SG-6010HB mechanical-interface reference based on the current SG2908B controlled drawing, including 67 mm envelope, 25.57 mm nominal overall thickness, mounting patterns and wiring references.">
+        <meta name="description" content="SG-6010HB public 67 mm mounting reference, 25.57 mm catalog envelope and SG2908B exchange STEP verification hold. Request approved configuration-matched CAD.">
       
       
       
@@ -27,7 +27,7 @@
     
     
       
-        <title>SG-6010HB Mechanical Interface | SG2908B Controlled Drawing Reference | SigGear - SigGear Precision Gearheads & Robot Joint Actuators</title>
+        <title>SG-6010HB Mechanical Interface | SG2908B Source Drawing and STEP Status | SigGear - SigGear Precision Gearheads & Robot Joint Actuators</title>
       
     
     
@@ -135,7 +135,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              SG-6010HB Mechanical Interface | SG2908B Controlled Drawing Reference | SigGear
+              SG-6010HB Mechanical Interface | SG2908B Source Drawing and STEP Status | SigGear
             
           </span>
         </div>
@@ -7467,11 +7467,12 @@
 <h1 id="sg-6010hb-mechanical-interface-v10">SG-6010HB Mechanical Interface v1.0<a class="headerlink" href="#sg-6010hb-mechanical-interface-v10" title="Permanent link">&para;</a></h1>
 <p><strong>Status:</strong> Public engineering evaluation reference<br />
 <strong>Release date:</strong> 2026-10-09<br />
-<strong>Controlled drawing code:</strong> <strong>SG2908B</strong></p>
-<p>This page summarizes the SG-6010HB mechanical-interface information that is suitable for public early design evaluation from the current controlled drawing.</p>
+<strong>Supplied source drawing code:</strong> <strong>SG2908B</strong><br />
+<strong>3D source review:</strong> 2026-11-19 — geometry reconciliation required</p>
+<p>This page summarizes mechanical-interface information from the supplied SG2908B 2D drawing for early design review. These values must be checked against the final ordered model and drawing revision.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>This page is <strong>not</strong> a manufacturing drawing. Use the current configuration-controlled SG2908B drawing and CAD supplied by SigGear for final tolerances, datum control, interface release and production design.</p>
+<p>This page is <strong>not</strong> a manufacturing drawing. The uploaded SG2908B exchange STEP is not yet matched to the published dimensional envelope. Request an engineering-approved, configuration-matched 2D drawing and CAD before final design.</p>
 </div>
 <h2 id="envelope">Envelope<a class="headerlink" href="#envelope" title="Permanent link">&para;</a></h2>
 <table>
@@ -7504,7 +7505,7 @@
 </tr>
 </tbody>
 </table>
-<p>The <strong>25.57 mm</strong> catalog thickness is consistent with the controlled drawing when the 22.57 mm main body thickness and the nominal 3.00 mm output-side extension are considered together.</p>
+<p>The 22.57 mm main-body dimension plus the 3.00 mm reference extension numerically equals the <strong>25.57 mm</strong> catalog thickness. The exact datum-to-datum measurement still needs configuration-level confirmation; these 2D values do <strong>not</strong> validate the separate STEP source.</p>
 <h2 id="output-side-mechanical-interface">Output-Side / Mechanical Interface<a class="headerlink" href="#output-side-mechanical-interface" title="Permanent link">&para;</a></h2>
 <p>The current SG2908B drawing defines multiple output-side / housing interface features, including:</p>
 <table>
@@ -7581,8 +7582,9 @@
 </ul>
 <p>Cable termination and connector configuration can vary by project and must be confirmed for the ordered version.</p>
 <h2 id="cad-status">CAD Status<a class="headerlink" href="#cad-status" title="Permanent link">&para;</a></h2>
-<p>A detailed SG2908B / SG-6010HB assembly STEP has been reviewed internally.</p>
-<p>The supplied STEP contains detailed internal motor and planetary-transmission geometry, so the raw assembly is <strong>not released as a public download</strong>.</p>
+<p>The supplied exchange STEP, internally identified as <strong>SG2908B</strong>, was successfully imported on 2026-11-19 as a millimetre-based AP203 assembly with 46 solid bodies.</p>
+<p>Its <strong>all-solid bounding envelope</strong> is approximately <strong>72.53 mm × 34.86 mm × 72.53 mm</strong>, compared with the current catalogue's <strong>Ø67 mm × 25.57 mm</strong> nominal product envelope. The all-solid bounding box may include protruding or non-housing parts, so it is <strong>not</strong> by itself a controlled housing dimension. Nevertheless, this difference prevents automatic approval as a configuration-matched SG-6010HB installation model.</p>
+<p><strong>Release decision:</strong> The raw internal assembly STEP is <strong>not a public download</strong>. The source identity, solid ownership, body envelope and permitted simplified geometry require engineering sign-off before any public external-interface STEP is offered.</p>
 <p>For packaging, interference checking or design-in, request the configuration-matched CAD from SigGear. A simplified public external-interface STEP may be released separately after geometry simplification and engineering review.</p>
 <p><a class="md-button md-button--primary" href="../../../request-cad-sample-quote/">Request SG-6010HB CAD / Controlled Drawing</a></p>
 <h2 id="design-in-boundary">Design-In Boundary<a class="headerlink" href="#design-in-boundary" title="Permanent link">&para;</a></h2>
@@ -7776,7 +7778,7 @@ International Sales / Sales Engineer, SigGear<br />
     
       <script src="../../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
       
-        <script src="../../../assets/javascripts/analytics-events.js?v=20261119-joint-2d-file-events"></script>
+        <script src="../../../assets/javascripts/analytics-events.js?v=20261119-sg6010hb-public-pdf"></script>
       
         <script src="../../../assets/javascripts/inquiry-form.js?v=20261015-online-live"></script>
       
