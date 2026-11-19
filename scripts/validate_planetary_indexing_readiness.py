@@ -215,6 +215,87 @@ def check_source_hub_links() -> None:
     for target, token in generic_tokens.items():
         require(token in combined, f"Planetary hubs do not link generic target: {target}")
 
+def check_catalog_application_indexing() -> None:
+    """Keep 32 application pages and joint/hub products findable and model-specific."""
+    application_sources = sorted(
+        p for p in (DOCS / "applications").glob("*.md")
+        if p.name not in {"index.md", "planetary-gearbox-application-families.md"}
+    )
+    require(len(application_sources) == 32,
+            f"Expected 32 application articles, found {len(application_sources)}")
+
+    model_sources = [
+        "products/robot-joint-actuators/sg6010c.md",
+        "products/robot-joint-actuators/sg6010hb.md",
+        "products/robot-joint-actuators/sg6010d.md",
+        "products/robot-joint-actuators/sg8021.md",
+        "products/cycloidal-joint-modules/cpm78-39.md",
+        "products/cycloidal-joint-modules/cpm80-25.md",
+        "products/cycloidal-joint-modules/cpm100-25.md",
+        "products/hub-gear-motors/sg2877.md",
+        "products/hub-gear-motors/sg2878.md",
+    ]
+    sources = application_sources + [DOCS / relative for relative in model_sources]
+    sources.append(DOCS / "knowledge-base/product-model-index.md")
+    root = ElementTree.parse(SITE / "sitemap.xml").getroot()
+    ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    sitemap_urls = [
+        node.findtext("sm:loc", default="", namespaces=ns)
+        for node in root.findall("sm:url", ns)
+    ]
+    require(len(sitemap_urls) == len(set(sitemap_urls)),
+            "Sitemap has duplicate canonical URLs")
+    indexed_urls = set(sitemap_urls)
+
+    for source in sources:
+        require(source.is_file(), f"Missing source page: {source}")
+        relative = source.relative_to(DOCS).as_posix()
+        slug = relative.removesuffix(".md")
+        expected_url = BASE + "/" + slug + "/"
+        require(expected_url in indexed_urls,
+                f"Application or joint/hub product missing from sitemap: {expected_url}")
+
+        raw = source.read_text(encoding="utf-8")
+        require(raw.startswith("---\n"), f"Missing SEO frontmatter: {relative}")
+        frontmatter, sep, _ = raw[4:].partition("\n---\n")
+        require(bool(sep), f"Malformed SEO frontmatter: {relative}")
+        metadata = yaml.safe_load(frontmatter) or {}
+        title = str(metadata.get("title") or "").strip()
+        description = str(metadata.get("description") or "").strip()
+        require(bool(title) and bool(description),
+                f"Missing title or description: {relative}")
+
+        built = SITE / slug / "index.html"
+        require(built.is_file(), f"Missing built product/application page: {relative}")
+        html = built.read_text(encoding="utf-8")
+        require(f'<link rel="canonical" href="{expected_url}">' in html,
+                f"Missing self-canonical: {relative}")
+        require(not re.search(r'<meta[^>]+name=["\']robots["\'][^>]+noindex', html, re.I),
+                f"Unexpected noindex on public page: {relative}")
+
+        full_title = title if re.search(r"\bSigGear\b", title, re.I) else title + " | SigGear"
+        require(f"<title>{html_escape(full_title, quote=False)}</title>" in html,
+                f"SEO title overridden by nav/site title: {relative}")
+        expected_description = (
+            f'<meta name="description" content="{html_escape(description, quote=True)}">'
+        )
+        require(expected_description in html,
+                f"Specific SEO description replaced by generic site text: {relative}")
+
+    hb_html = (SITE / "products/robot-joint-actuators/sg6010hb/index.html").read_text(
+        encoding="utf-8"
+    )
+    match = re.search(
+        r'<script type="application/ld\+json" data-siggear-seo-schema="model-page">(.*?)</script>',
+        hb_html, re.S
+    )
+    require(bool(match), "SG-6010HB model-specific ItemPage JSON-LD missing")
+    hb_schema = json.loads(match.group(1))
+    require(hb_schema.get("name") == "SG-6010HB 67 mm Planetary Joint Actuator",
+            "SG-6010HB schema lost model-specific name")
+    require((hb_schema.get("mainEntity") or {}).get("identifier") == "SG-6010HB",
+            "SG-6010HB schema has incorrect identifier")
+
 def main() -> None:
     check_target_count()
     check_built_pages_and_canonicals()
@@ -223,7 +304,8 @@ def main() -> None:
     check_sitemap_membership()
     check_robots()
     check_source_hub_links()
-    print("Planetary indexing and crawl readiness validated for 44 unique monitored canonicals.")
+    check_catalog_application_indexing()
+    print("Index readiness passed: 44 planetary canonicals, 32 application articles and 9 joint/hub models.")
 
 if __name__ == "__main__":
     main()
