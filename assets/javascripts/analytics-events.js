@@ -544,6 +544,9 @@
       var internalDestination = new URL(href, window.location.href);
       if (internalDestination.hostname === window.location.hostname) {
         if (internalDestination.pathname.endsWith("/request-cad-sample-quote/")) {
+          // An inquiry-page link back to itself only changes the form context.
+          // It is not an entry into the engineering inquiry funnel.
+          if (pagePath().endsWith("/request-cad-sample-quote/")) return;
           var briefModelRaw = (internalDestination.searchParams.get("model") || "").toUpperCase();
           var briefModel = /^(8P|10P|12P|14P|16P|20P|22P|24P|28P|32P|36P|42P)$/.test(briefModelRaw) ?
             briefModelRaw : "not_specified";
