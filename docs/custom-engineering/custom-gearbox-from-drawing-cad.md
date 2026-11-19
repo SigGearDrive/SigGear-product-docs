@@ -11,6 +11,8 @@ A custom transmission project does not need to begin with a SigGear catalog mode
 
 **Yes.** SigGear can start a custom gearbox or precision transmission review from a customer drawing, STEP model, mechanism layout, existing assembly or physical sample.
 
+SigGear is a **custom gearbox and precision transmission manufacturer** supporting OEM projects from customer geometry and engineering review through prototype validation and repeatable production.
+
 The first step is not to copy visible dimensions blindly. SigGear reviews the geometry together with the real motor, speed, load, duty cycle, interfaces and production requirement before a prototype or manufacturing configuration is confirmed.
 
 A project can continue from:
