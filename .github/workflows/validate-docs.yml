@@ -32,6 +32,8 @@ on:
       - "scripts/validate_planetary_input_speed_range.py"
       - "scripts/test_planetary_selector_v2.js"
       - "scripts/test_planetary_download_clicks.js"
+      - "scripts/test_joint_download_clicks.js"
+      - "scripts/validate_joint_quick_downloads.py"
       - "scripts/test_online_inquiry_delivery.js"
       - "scripts/validate_stage_specific_cad_boundary.py"
       - "scripts/validate_controlled_cad_readiness.py"
@@ -195,6 +197,9 @@ jobs:
 
       - name: Test planetary engineering file click analytics
         run: node scripts/test_planetary_download_clicks.js
+
+      - name: Test six joint datasheet and STEP click analytics
+        run: node scripts/test_joint_download_clicks.js
 
       - name: Validate candidate Design-In Pack JavaScript syntax
         run: node --check docs/assets/javascripts/candidate-design-in-pack.js
