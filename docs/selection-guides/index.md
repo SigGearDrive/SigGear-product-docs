@@ -15,6 +15,7 @@ For robot joint products, start with the [Robot Joint Actuator Guide](robot-join
 
 High-intent engineering comparisons:
 
+- [How to Evaluate a Robot Joint Actuator Supplier](robot-joint-supplier-evaluation.md)
 - [Planetary vs Cycloidal Reducer for Robot Joints](planetary-vs-cycloidal-robot-joint.md)
 - [Integrated Robot Joint Actuator vs Motor + Gearhead](integrated-robot-joint-vs-motor-gearhead.md)
 - [Robot Joint CAN, Encoder & Driver Selection](robot-joint-can-encoder-driver-selection.md)
