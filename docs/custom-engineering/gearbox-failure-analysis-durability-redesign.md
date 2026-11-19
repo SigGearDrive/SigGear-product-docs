@@ -1,9 +1,13 @@
 ---
-title: Gearbox Failure Review & Durability Redesign | Custom Planetary Gearhead | SigGear
-description: Gear wear, bearing damage, overheating, backlash growth or abnormal noise? SigGear can review the failed gearbox, motor, load, duty cycle and interfaces before evaluating a redesigned custom planetary gearhead or replacement.
+title: Gearbox Failure Analysis & Durability Redesign | Custom Replacement | SigGear
+description: Current gearbox keeps failing? SigGear can review the failed gearbox, motor, load, duty cycle, wear evidence and interfaces before evaluating a custom replacement or durability redesign.
 ---
 
-# Gearbox Failure Review & Durability Redesign
+# Gearbox Failure Analysis & Durability Redesign
+
+## “Our Current Gearbox Keeps Failing. Can SigGear Review It?”
+
+**Yes.** A gearbox failure review can start from the failed unit, old drawing, STEP model, worn-part photos, motor information or the operating condition already available.
 
 A gearbox that keeps failing should not be replaced from the model number alone.
 
@@ -16,7 +20,7 @@ SigGear can review a failed planetary gearbox or compact reducer as an engineeri
 This is an engineering review path, not a promise that every failure can be solved by one material or geometry change.
 
 [**Start a Failure / Durability Review**](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button .md-button--primary }
-[**Replacement Gearhead Review**](replacement-planetary-gearhead.md){ .md-button }
+[**Replacement Gearbox Review**](replacement-planetary-gearhead.md){ .md-button }
 
 ## Typical Failure Symptoms to Document
 
@@ -47,7 +51,7 @@ For a useful first review, provide whatever is available:
 
 1. **failed gearbox / reducer model**
 2. **physical sample**, if available
-3. **old drawing or CAD**
+3. **old drawing or STEP model**
 4. **photos of worn or broken components**
 5. **motor model and drawing**
 6. **loaded motor speed**
@@ -100,7 +104,26 @@ In that case the redesigned transmission may need to preserve:
 
 while changing one or more internal transmission details.
 
-[Custom Planetary Gearhead for an Existing Motor](custom-planetary-gearbox.md){ .md-button .md-button--primary }
+[Custom Planetary Gearbox for an Existing Motor](custom-planetary-gearbox.md){ .md-button .md-button--primary }
+
+## What SigGear Needs Before Suggesting a Redesign
+
+The first engineering task is to separate **failure evidence** from assumptions.
+
+A useful initial package can be as simple as:
+
+- the failed gearbox or reducer
+- photos of the damaged gear, bearing, shaft or carrier
+- the motor model / drawing and loaded operating speed
+- the required output speed or ratio
+- continuous load and any short-duration peak event
+- approximate hours or cycles before failure
+- the dimensions / interfaces that must remain unchanged
+- prototype quantity and expected production volume
+
+SigGear does not need a finished redesign specification before the first review.
+
+[**Send Failed Gearbox / Evidence for Review**](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button .md-button--primary }
 
 ## From Failure Evidence to Prototype
 
