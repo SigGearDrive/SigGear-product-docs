@@ -137,7 +137,7 @@ def main() -> None:
         asset(label,relative,hub_links)
     if "No downloadable STEP is currently approved" in hub:
         raise ValueError("Download hub incorrectly lists released CAD as unavailable")
-    if "SG2368B cross-reference pending" not in hub or "SG-6010HB" in hub:
+    if "SG2368B cross-reference pending" not in first_table.group(1) or "SG-6010HB" in first_table.group(1):
         raise ValueError("Unverified model-code drawing or SG-6010HB must not be presented as released")
     print("PASS six product pages, four-column hub, six reference datasheets, four source 2D PDFs, eight full STEP and three simplified CAD links")
 
