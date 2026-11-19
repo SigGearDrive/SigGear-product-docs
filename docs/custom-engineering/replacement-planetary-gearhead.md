@@ -129,7 +129,9 @@ Each frame has its own stage / ratio combinations, rated torque, length and inte
 
 ## If the Motor Must Stay
 
-When the customer motor cannot change, the replacement review should check:
+When the customer motor cannot change, the motor-side interface becomes one of the primary design constraints.
+
+The replacement review should check:
 
 - motor shaft diameter and usable length
 - input pinion or shaft feature
@@ -140,12 +142,6 @@ When the customer motor cannot change, the replacement review should check:
 - required output torque and speed
 
 [**Planetary Gearbox for an Existing Motor**](custom-planetary-gearbox.md){ .md-button .md-button--primary }
-
-## If You Need to Keep the Existing Motor
-
-When the motor must remain unchanged, the motor-side interface becomes one of the primary design constraints.
-
-[Planetary Gearbox for an Existing Motor](custom-planetary-gearbox.md){ .md-button .md-button--primary }
 
 ## If You Only Have an Old Unit or Physical Sample
 
@@ -162,12 +158,6 @@ A physical sample can help establish:
 The sample should be reviewed together with the actual operating condition. A worn component may no longer represent the original manufacturing dimension.
 
 [Drawing / STEP / Physical Sample Review](custom-gearbox-from-drawing-cad.md){ .md-button }
-
-## Sample / Drawing Review
-
-For a close mechanical replacement, an actual existing unit or controlled drawing is normally more useful than a marketplace listing or catalog photo.
-
-SigGear can compare the existing unit with the nearest public platform and identify which items may require modification. Final compatibility still requires configuration-specific engineering confirmation and prototype validation.
 
 ## From Replacement Prototype to Repeat Production
 
@@ -194,4 +184,4 @@ Send the existing drawing, motor information, failed-part photos or physical sam
 International Sales / Sales Engineer, SigGear  
 [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
-[Request Engineering Review](../request-cad-sample-quote.md?path=gearbox_only){ .md-button .md-button--primary }
+[Request Replacement / Redesign Review](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button .md-button--primary }
