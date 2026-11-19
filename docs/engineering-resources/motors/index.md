@@ -5,10 +5,16 @@ description: "Download 37 SigGear DC and BLDC motor datasheet PDFs across Ø8–
 
 # DC / BLDC Motor Datasheets — Direct PDF Downloads
 
-**SigGear supplies DC/BLDC motors, Ø8–42 mm precision planetary gearheads, and motor + gearhead assemblies.**
+**SigGear supplies DC / BLDC motors and develops custom motor + planetary gearbox assemblies.**
 
-[**Gearhead Datasheets / CAD**](../planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
-[**Motor + Gearhead Assemblies**](../../custom-engineering/motor-gearbox-integration.md){ .md-button }
+## Already Have a Motor?
+
+If your motor is already selected, the gearbox should be reviewed around the actual motor shaft, pilot, mounting pattern, loaded speed, target output speed, load and available assembly envelope.
+
+[**Match This Motor to a Planetary Gearbox**](../../custom-engineering/custom-planetary-gearbox.md){ .md-button .md-button--primary }
+[**Planetary Gearbox PDF / 2D / STEP**](../planetary-gearboxes/public-cad-release-v1.md){ .md-button }
+[**Quick Ratio / Torque Selector**](../../selection-guides/planetary-gearhead-quick-selector.md){ .md-button }
+[**Prototype → Volume Production**](../../custom-engineering/oem-volume-manufacturing-delivery.md){ .md-button }
 
 **37 motor PDFs · 10 diameters · Click any file below to download directly.** No email or inquiry form required.
 
@@ -32,7 +38,7 @@ description: "Download 37 SigGear DC and BLDC motor datasheet PDFs across Ø8–
 | **<span id="32-mm-dc-motors">Ø32 mm</span>** | DC Motors | [Series 01 · PDF](../../assets/downloads/motors/32mm/SigGear_32mm_DC_Motor_Series01_120071-480077_DraftV1.0.pdf "Models: 120071 · 180086 · 240082 · 360079 · 480077"){: .siggear-motor-file } [Series 02 · Mechanical A · PDF](../../assets/downloads/motors/32mm/SigGear_32mm_DC_Motor_Series02_MechanicalA_060068-240059_DraftV1.0.pdf "Models: 060068 · 090049 · 120046 · 180052 · 240059"){: .siggear-motor-file } [Series 02 · Mechanical B · PDF](../../assets/downloads/motors/32mm/SigGear_32mm_DC_Motor_Series02_MechanicalB_060068-240059_DraftV1.0.pdf "Models: 060068 · 090049 · 120046 · 180052 · 240059"){: .siggear-motor-file } | Draft V1.0 · low-res source |
 </div>
 
-**Only motor specifications are shown here.** Gearhead output torque, speed and total assembly length must be evaluated separately. *Draft* means engineering/source review is still required. Some original drawings/charts are low resolution (Ø10, Ø16, Ø28 Sheet B and Ø32); request a controlled drawing for final dimensions.
+**Only motor specifications are shown here.** Planetary gearbox output torque, speed and total assembly length must be evaluated separately. *Draft* means engineering/source review is still required. Some original drawings/charts are low resolution (Ø10, Ø16, Ø28 Sheet B and Ø32); request a controlled drawing for final dimensions.
 
 <details class="siggear-motor-engineering-notes" markdown="1">
 <summary>Engineering notes & source-document limitations</summary>
@@ -71,4 +77,4 @@ Series 02 Mechanical A and B share electrical codes but have different outlines.
 
 </details>
 
-[**Find a Planetary Gearhead**](../../selection-guides/planetary-gearhead-quick-selector.md) · [**All Gearhead PDFs / 2D / STEP**](../planetary-gearboxes/public-cad-release-v1.md) · [**Contact SigGear**](../../request-cad-sample-quote.md)
+[**Find a Planetary Gearbox**](../../selection-guides/planetary-gearhead-quick-selector.md) · [**All Planetary Gearbox PDFs / 2D / STEP**](../planetary-gearboxes/public-cad-release-v1.md) · [**Start Existing-Motor Review**](../../request-cad-sample-quote.md?start=existing_motor&path=gearbox_only)
