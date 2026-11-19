@@ -1,0 +1,45 @@
+{
+  "model": "SG-6010HB",
+  "source_code": "SG2908B",
+  "source_filename": "SG(6010HB)交流模型.STEP",
+  "step_header_product": "SG2908B交流模型",
+  "source_sha256": "352c043b6fd11ee869b8ef9c85774fd16d1dba6da63d9ec649789596c236e31b",
+  "source_bytes": 24656102,
+  "source_format": "STEP AP203 / SolidWorks 2023 / ISO-10303-21",
+  "step_export_timestamp": "2026-01-19T06:40:31",
+  "units": "mm",
+  "inspection_date": "2026-11-19",
+  "inspection_method": "OCP STEPControl_Reader / BRepBndLib all-solids bounding box",
+  "step_parse_status": "passed",
+  "assembly_solids": 46,
+  "all_solid_bounding_box_mm": {
+    "x": 72.5258,
+    "y": 34.8619,
+    "z": 72.5258
+  },
+  "reference_catalogue": {
+    "outer_diameter_mm": 67,
+    "overall_nominal_thickness_mm": 25.57
+  },
+  "source_2d_drawing": {
+    "drawing_code": "SG2908B",
+    "diameter_mm": 67,
+    "main_body_thickness_mm": 22.57,
+    "output_axial_extension_mm": 3
+  },
+  "publication_status": "HOLD_PENDING_VARIANT_GEOMETRY_RECONCILIATION",
+  "requires_engineer_to_confirm": [
+    "verify source STEP represents the exact publicly listed SG-6010HB configuration and revision",
+    "explain dimensional difference between the all-solids CAD bounding box and catalog outer envelope",
+    "identify which solids and cable/shaft features belong in the mounting/clearance envelope",
+    "approve geometry-simplified external-interface CAD if public release is intended",
+    "approve controlled 2D mounting drawing revision separately"
+  ],
+  "limitations": [
+    "all-solids bounding box is not by itself a datum-controlled housing measurement",
+    "do not change catalog specifications solely based on the inspected STEP",
+    "do not publish raw internal motor and transmission assembly STEP",
+    "do not present reference geometry as manufacturing-controlled CAD"
+  ],
+  "public_cad_release": false
+}
