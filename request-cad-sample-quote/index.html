@@ -7948,7 +7948,12 @@
 
   <label>
     Application / what needs to move
-    <textarea id="sg-application" name="application" rows="3" required placeholder="Example: compact curtain drive, robotic gripper, optical adjustment mechanism..."></textarea>
+    <textarea id="sg-application" name="application" rows="3" required placeholder="Example: robotic joint, compact mechanism, existing gearbox replacement..."></textarea>
+  </label>
+
+  <label>
+    Failure symptoms / worn parts (if applicable)
+    <textarea id="sg-failure-evidence" name="failure_evidence" rows="3" placeholder="Example: final-stage gear wear after repeated cycles, backlash increasing, bearing damage, overheating, abnormal noise..."></textarea>
   </label>
 
   <div id="sg-existing-motor-fields">
@@ -8142,6 +8147,7 @@
 <li>motor information for gearbox-only projects</li>
 <li>output shaft / mounting requirement</li>
 <li>duty cycle and peak duration</li>
+<li>failure symptoms / worn-part evidence for replacement projects</li>
 <li>radial / axial load conditions</li>
 <li>driver, encoder and communication requirements</li>
 <li>prototype quantity and estimated annual volume</li>

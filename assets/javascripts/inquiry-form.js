@@ -49,8 +49,8 @@
   var selectorCandidate = null;
   var selectorReviewReason = "";
   var reviewReasons = {
-    speed_above_engineering: "Continuous input speed above the standard 20,000 rpm maximum; custom feasibility review requested",
-    speed_below_engineering: "Continuous input speed below the standard 1,000 rpm minimum; custom feasibility review requested",
+    speed_above_engineering: "Input speed requires configuration-specific motor + gearhead feasibility review",
+    speed_below_engineering: "Input speed requires configuration-specific motor + gearhead feasibility review",
     no_published_match: "No published standard configuration meets the specified filters; custom evaluation requested",
     custom_configuration: "Customer requests a customized gearbox or motor integration review"
   };
@@ -212,6 +212,7 @@
       field_coverage_band: band,
       has_model_selection: value("sg-model") ? 1 : 0,
       has_application: value("sg-application") ? 1 : 0,
+      has_failure_evidence: value("sg-failure-evidence") ? 1 : 0,
       has_output_requirement: value("sg-output") ? 1 : 0,
       has_load_requirement: value("sg-load") ? 1 : 0,
       has_size_limit: value("sg-size") ? 1 : 0,
@@ -263,6 +264,13 @@
       if (startingPoint && validStartingPoints.indexOf(queryStart) !== -1) {
         startingPoint.value = queryStart;
         hasContext = true;
+        var applicationField = document.getElementById("sg-application");
+        if (applicationField && !applicationField.value) {
+          if (queryStart === "failing_gearbox") applicationField.value = "Existing gearbox / reducer failure and redesign review";
+          if (queryStart === "existing_motor") applicationField.value = "Existing motor + custom gearhead / transmission review";
+          if (queryStart === "drawing_cad") applicationField.value = "Custom transmission review from customer drawing / CAD / sample";
+          if (queryStart === "prototype_to_volume") applicationField.value = "Custom transmission prototype-to-volume production program";
+        }
       }
 
       // Prefill only non-sensitive operating requirements from the selector.
@@ -424,7 +432,8 @@
 
     lines.push(
       "Project path: " + selectedText("sg-path"),
-      "Application / what needs to move: " + (value("sg-application") || "Not provided")
+      "Application / what needs to move: " + (value("sg-application") || "Not provided"),
+      "Failure symptoms / worn parts: " + (value("sg-failure-evidence") || "Not applicable / not provided")
     );
 
     if (selectedPath !== "motor_gearbox") {
