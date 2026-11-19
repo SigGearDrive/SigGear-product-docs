@@ -1,9 +1,9 @@
 ---
-title: Custom Transmission Manufacturing & Volume Production | SigGear
-description: SigGear supports custom precision transmission projects from feasibility and prototype through design freeze, repeatable volume manufacturing, inspection and production delivery. Public standard products are reference platforms; many customer-specific programs are confidential.
+title: Custom Gearbox & Precision Transmission Manufacturer | OEM Volume Production | SigGear
+description: SigGear is a custom precision transmission manufacturer for OEM projects that start from a motor, drawing, failed gearbox or new mechanism. Supports prototype development, design freeze, repeatable volume manufacturing and production delivery.
 ---
 
-# Custom Transmission Manufacturing & Volume Production
+# Custom Precision Transmission Manufacturer — From Drawing or Motor to Volume Production
 
 ## The Public Catalog Is Only the Visible Part of SigGear
 
@@ -22,7 +22,7 @@ They should **not** be treated as the limit of SigGear's engineering or manufact
 
 ## SigGear's Core Strength: Custom Engineering That Can Move Into Production
 
-SigGear works with customers that need a transmission solution to fit the product, rather than forcing the product to fit a catalog gearbox.
+SigGear works with customers that need the transmission to fit the product, rather than forcing the product to fit a catalog gearbox. **Customer drawings, CAD models, existing motors, failed gearboxes and physical samples can all be valid starting points for engineering review.**
 
 A project can start from:
 
