@@ -1,6 +1,6 @@
 ---
-title: Custom Robot Joint Actuator Manufacturer & Engineering | SigGear
-description: Custom robot joint actuator engineering and manufacturing for humanoid, quadruped, robot arm and exoskeleton projects using planetary or cycloidal transmissions.
+title: Custom Robot Joint Actuator Manufacturer | Humanoid OEM Development | SigGear
+description: SigGear develops custom robot joint actuators for humanoid, quadruped, robot arm and exoskeleton OEM projects. Start from joint CAD, torque-speed targets, motor/controller architecture or prototype-to-volume requirements.
 ---
 
 # Custom Robot Joint Actuator Development
