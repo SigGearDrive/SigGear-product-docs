@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check six joint product images, public CAD honesty and built reference PDFs."""
+"""Check six joint product images, public STEP honesty and built reference PDFs."""
 from __future__ import annotations
 
 from pathlib import Path
@@ -122,7 +122,7 @@ def main() -> None:
             if digest != expected_sha:
                 raise ValueError("Original full assembly STEP failed SHA-256: " + model)
             if model == "SG-8021" and "Driver Version" not in text:
-                raise ValueError("SG-8021 driver-equipped CAD variant must be labeled")
+                raise ValueError("SG-8021 driver-equipped STEP variant must be labeled")
         for filename, expected_bytes, expected_sha in ADDITIONAL_ORIGINAL_STEPS.get(model, []):
             path = DOCS / "assets/downloads/joint-actuators" / filename
             if not path.is_file() or path.stat().st_size != expected_bytes:
@@ -136,11 +136,11 @@ def main() -> None:
         if model == "CPM-80-25" and "No Driver" not in text:
             raise ValueError("CPM-80-25 driverless variant label is missing")
         if not expected and step_names:
-            raise ValueError("Unreleased joint CAD advertised on "+model)
+            raise ValueError("Unreleased joint STEP advertised on "+model)
         if not expected and "No downloadable STEP is currently approved" not in text:
-            raise ValueError("CAD release status is missing on "+model)
-        if len(text)>4800:
-            raise ValueError("Joint product page too long for quick-download UX: "+model)
+            raise ValueError("STEP release status is missing on "+model)
+        if len(text)>5600:
+            raise ValueError("Joint product page too long for product + custom-project UX: "+model)
         print("PASS",model,"PDF",pdf.stat().st_size,"images",len(paths),"STEP",len(expected))
     if media_errors:
         raise ValueError("Invalid product image assets:\n" + "\n".join(media_errors))
