@@ -70,6 +70,10 @@ Final protocol details, connector definitions, encoder configuration, current li
 
 ## Public Engineering Resources
 
+[**2D PDF · No Driver (29.7 mm)**](../../assets/downloads/joint-actuators/CPM-80-25_2D_No_Driver_29p7mm.pdf){ .md-button .md-button--primary }
+[**2D PDF · Driver (41.2 mm)**](../../assets/downloads/joint-actuators/CPM-80-25_2D_Integrated_Driver_41p2mm.pdf){ .md-button }
+
+
 [**Original Full STEP · No Driver (29.7 mm)**](../../assets/downloads/joint-actuators/CPM-80-25_Original_Full_Assembly_No_Driver_20261118.step){ .md-button .md-button--primary }
 
 [**Original Full STEP · Integrated Driver (41.2 mm)**](../../assets/downloads/joint-actuators/CPM-80-25_Original_Full_Assembly_Integrated_Driver_20261118.step){ .md-button }
@@ -86,7 +90,7 @@ The original assembly models are separate from the simplified reference STEP fil
 
 ## Design-In Note
 
-The public STEP files are simplified and intended for packaging, mounting and early mechanical evaluation. Request the controlled drawing before final tooling, tolerance stack-up or production release.
+The separate simplified STEP files are intended for packaging and early mechanical evaluation; original full-assembly STEP versions are also available above. Request the controlled drawing before final tooling, tolerance stack-up or production release.
 
 ## Engineering Contact
 
