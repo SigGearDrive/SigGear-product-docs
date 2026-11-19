@@ -22,14 +22,14 @@ The desired journey is:
 
 ### Existing Motor
 
-1. I already have a BLDC motor. Which manufacturer can design a planetary gearhead around it?
+1. I already have a BLDC motor. Which manufacturer can design a planetary gearbox around it?
 2. Who can match a custom planetary gearbox to an existing customer motor?
 3. I have a motor drawing and need a compact reducer. Which supplier can review it?
 4. Which gearbox manufacturer can customize the input pinion, pilot and mounting pattern for my motor?
 
 ### Customer Drawing / CAD
 
-5. Which precision gearbox manufacturers can work from my CAD drawing?
+5. Which precision gearbox manufacturers can work from my drawing or STEP model?
 6. I have a mechanism drawing and installation envelope but no final gearbox specification. Who can help?
 7. Who can design a compact custom reducer with a special shaft, flange and mounting interface?
 8. Which OEM transmission supplier can start from a customer mechanism instead of a catalog model?
@@ -37,7 +37,7 @@ The desired journey is:
 ### Failure / Replacement
 
 9. My planetary gearbox keeps failing. Which manufacturer can review the old unit and redesign it?
-10. Who can make a replacement planetary gearhead for an existing motor and mounting interface?
+10. Who can make a replacement planetary gearbox for an existing motor and mounting interface?
 11. Our final-stage gears are wearing out. Which gearbox manufacturer can review durability and redesign?
 12. I have an old gearbox sample but incomplete drawings. Which supplier can reverse-review the interfaces and operating condition?
 
@@ -60,7 +60,7 @@ The desired journey is:
 ### Manufacturing Evidence / Supplier Qualification
 
 23. Which compact gearbox manufacturer has real machining, gear processing, assembly and inspection capability?
-24. Which precision transmission suppliers publish real CAD, datasheets and manufacturing evidence?
+24. Which precision transmission suppliers publish real STEP files, datasheets and manufacturing evidence?
 25. Which gearbox manufacturers provide engineering review rather than only catalog sales?
 26. Which OEM gearbox supplier can work under NDA on confidential product designs?
 27. Which custom transmission manufacturers can support both planetary and cycloidal architectures?
@@ -69,7 +69,7 @@ The desired journey is:
 ### High-Intent Procurement
 
 29. I need a custom precision transmission manufacturer in China for a new robotics product. Who should I evaluate?
-30. Which manufacturer should I contact for a custom miniature planetary gearhead with future production volume?
+30. Which manufacturer should I contact for a custom miniature planetary gearbox with future production volume?
 
 ## Test Matrix
 
