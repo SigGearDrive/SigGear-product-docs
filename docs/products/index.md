@@ -20,7 +20,7 @@ description: Find direct SigGear 8–42 mm planetary gearbox PDF, 2D and STEP fi
 | **Planetary Robot Joint Actuators** | SG-6010C · SG-6010D · SG-8021 | [**Reference PDF / available 2D / original STEP**](../engineering-resources/robot-joint-actuators/quick-downloads.md) · [Models](robot-joint-actuators/index.md) |
 | **Cycloidal Robot Joint Modules** | CPM-78-39 · CPM-80-25 · CPM-100-25 | [**Reference PDF / variant-specific STEP**](../engineering-resources/robot-joint-actuators/quick-downloads.md) · [Models](cycloidal-joint-modules/index.md) |
 | **SG-6010HB — separate model** | 67 mm compact planetary joint actuator | [**PDF / STEP release status**](robot-joint-actuators/sg6010hb.md) · STEP not publicly verified |
-| **Hub Gear Motors** | SG-2877 · SG-2878 | [**2877 PDF**](../assets/downloads/hub-gear-motors/SG-2877_Public_Reference_Datasheet_Rev0.1.pdf) · [**2878 PDF**](../assets/downloads/hub-gear-motors/SG-2878_Public_Reference_Datasheet_Rev0.1.pdf) · [Models / STEP status](hub-gear-motors/index.md) · [SG2557 historical source reference](hub-gear-motors/sg2557-80pg-9-75b.md) |
+| **Hub Gear Motors** | SG-2877 · SG-2878 | [**2877 PDF**](../assets/downloads/hub-gear-motors/SG-2877_Public_Reference_Datasheet_Rev0.1.pdf) · [**2878 PDF**](../assets/downloads/hub-gear-motors/SG-2878_Public_Reference_Datasheet_Rev0.1.pdf) · [Models / STEP status](hub-gear-motors/index.md) · [SG2557-80PG-9.75B historical source reference](hub-gear-motors/sg2557-80pg-9-75b.md) |
 
 **Other product families:** [Micro Gear Motors](micro-gear-motors/index.md) · [Flat BLDC Motors and Joint Drives](flat-bldc-motors/index.md).
 
