@@ -16,7 +16,7 @@ published_specifications:
   maximum_momentary_torque_range: "784.5–2549.7 mN·m"
   efficiency_range: "66–90%"
   backlash_at_no_load: "≤ 1.5°"
-  maximum_continuous_speed: "1,000–20,000 rpm"
+  maximum_continuous_speed: "Motor/configuration dependent; confirm selected operating point"
   radial_load_at_10_mm: "≤ 1.6 kgf"
   axial_load: "≤ 0.5 kgf"
   radial_shaft_play: "≤ 0.04 mm"
