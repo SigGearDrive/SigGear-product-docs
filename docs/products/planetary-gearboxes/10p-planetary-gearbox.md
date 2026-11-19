@@ -32,7 +32,7 @@ description: "SigGear 10P Ø10 mm micro planetary gearhead: ratios 3.5:1–428.7
 | Maximum momentary torque range | 255.0–392.3 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.5° |
-| Permissible input speed | 1,000–20,000 rpm general reference; not a universal ceiling for every motor combination |
+| Permissible input speed | Motor/configuration dependent; confirm selected operating point general reference; not a universal ceiling for every motor combination |
 | Operating temperature | −40 to 120 °C |
 
 Maximum momentary torque is not a continuous working rating.
