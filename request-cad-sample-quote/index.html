@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Request CAD, STEP files, engineering review, samples and quotations for SigGear robot joint actuators, cycloidal modules, planetary gearboxes and gear motors.">
+        <meta name="description" content="Start a SigGear engineering review from an existing motor, customer drawing, failing gearbox, robot joint requirement or prototype-to-volume production plan. Standard model selection is optional.">
       
       
       
@@ -27,7 +27,7 @@
     
     
       
-        <title>Request CAD, Sample and Quote for SigGear Products - SigGear Custom Precision Transmission Manufacturing</title>
+        <title>Custom Transmission Engineering Review | Motor, Drawing, Failed Gearbox or Volume Project | SigGear - SigGear Custom Precision Transmission Manufacturing</title>
       
     
     
@@ -100,7 +100,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#request-cad-sample-and-quote" class="md-skip">
+        <a href="#start-a-custom-transmission-engineering-review" class="md-skip">
           Skip to content
         </a>
       
@@ -136,7 +136,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Request CAD, Sample and Quote for SigGear Products
+              Custom Transmission Engineering Review | Motor, Drawing, Failed Gearbox or Volume Project | SigGear
             
           </span>
         </div>
@@ -7707,9 +7707,20 @@
   
 
 
-<h1 id="request-cad-sample-and-quote">Request CAD, Sample and Quote<a class="headerlink" href="#request-cad-sample-and-quote" title="Permanent link">&para;</a></h1>
-<p>Use this page when you need help moving from a product page to an engineering decision: model matching, CAD review, a sample, configuration-specific documentation or quotation preparation.</p>
-<p>If you already know the model, include it. If you do not, send the application and the parameters you know — a complete specification is not required for the first review.</p>
+<h1 id="start-a-custom-transmission-engineering-review">Start a Custom Transmission Engineering Review<a class="headerlink" href="#start-a-custom-transmission-engineering-review" title="Permanent link">&para;</a></h1>
+<p>You do <strong>not</strong> need to know a SigGear model number before contacting us.</p>
+<p>Most custom projects can start from one of four situations:</p>
+<ul>
+<li><strong>“Here is my motor.”</strong> — the motor is already selected and the transmission must fit it.</li>
+<li><strong>“Here is our drawing.”</strong> — the mechanism, CAD or installation envelope already defines the interface.</li>
+<li><strong>“Our current gearbox keeps failing.”</strong> — an existing transmission needs replacement, durability review or redesign.</li>
+<li><strong>“We need prototypes first, then volume production.”</strong> — the project needs a path from sample validation into repeatable manufacturing.</li>
+</ul>
+<p>If you already know a SigGear model, include it as a reference. If not, send the application and the information you already have. A complete specification is not required for the first review.</p>
+<p><a class="md-button md-button--primary" href="?start=existing_motor&amp;path=gearbox_only"><strong>I Already Have a Motor</strong></a>
+<a class="md-button" href="?start=drawing_cad"><strong>I Have a Drawing / CAD</strong></a>
+<a class="md-button" href="?start=failing_gearbox&amp;path=gearbox_only"><strong>My Current Gearbox Is Failing</strong></a>
+<a class="md-button" href="?start=prototype_to_volume"><strong>Prototype → Volume Production</strong></a></p>
 <p>For a project that starts from an idea, existing motor, mechanism or custom transmission problem, see the <a href="../custom-engineering/">Custom Precision Transmission Engineering</a> page first.</p>
 <p>If the project specifically needs a miniature or compact planetary gearbox, see <a href="../custom-engineering/custom-planetary-gearbox/">Custom Planetary Gearhead Engineering</a>.</p>
 <p>If the project involves a compact high-torque joint or a possible cycloidal structure, see <a href="../custom-engineering/custom-cycloidal-transmission/">Custom Cycloidal Transmission Engineering</a>.</p>
@@ -7772,7 +7783,19 @@
   </div>
   <div class="siggear-form-grid">
     <label>
-      SigGear model reference
+      What are you starting with?
+      <select id="sg-starting-point" name="starting_point">
+        <option value="">Not sure yet</option>
+        <option value="existing_motor">I already have a motor</option>
+        <option value="drawing_cad">I have a drawing / CAD / mechanism</option>
+        <option value="failing_gearbox">My current gearbox / reducer is failing</option>
+        <option value="prototype_to_volume">Prototype first, then volume production</option>
+        <option value="standard_product">I am evaluating a SigGear standard product</option>
+      </select>
+    </label>
+
+    <label>
+      SigGear model reference (optional)
       <select id="sg-model" name="model">
         <option value="">Not sure yet</option>
         <option value="8P">8P — 8 mm</option>
@@ -7889,7 +7912,22 @@
 
     <label>
       Estimated annual volume
-      <input id="sg-annual-volume" name="annual_volume" type="text" placeholder="Optional">
+      <input id="sg-annual-volume" name="annual_volume" type="text" placeholder="Example: 1,000 pcs/year, or TBD">
+    </label>
+
+    <label>
+      Target schedule
+      <input id="sg-target-schedule" name="target_schedule" type="text" placeholder="Example: prototype this quarter; pilot in Q2">
+    </label>
+
+    <label>
+      Confidentiality / NDA
+      <select id="sg-confidentiality" name="confidentiality">
+        <option value="">Not specified</option>
+        <option value="public_ok">No NDA required for initial review</option>
+        <option value="nda_required">NDA required before sharing detailed files</option>
+        <option value="existing_nda">Existing NDA / confidentiality agreement applies</option>
+      </select>
     </label>
 
     <label>
@@ -7969,7 +8007,8 @@
 
 <p>A complete specification is not required. If torque, ratio or load is still unknown, describe the mechanism and attach a sketch or screenshot in the email.</p>
 <h2 id="minimum-information-to-start">Minimum Information to Start<a class="headerlink" href="#minimum-information-to-start" title="Permanent link">&para;</a></h2>
-<p>For a first engineering review, four items are usually enough:</p>
+<p>For a first engineering review, <strong>you can start with the problem rather than a complete product specification</strong>.</p>
+<p>Four items are usually enough:</p>
 <ol>
 <li><strong>Application</strong> — what is moving and where the gearbox / actuator will be installed</li>
 <li><strong>Required output</strong> — torque and speed if known</li>
@@ -7991,6 +8030,8 @@
 <li>radial / axial load conditions</li>
 <li>driver, encoder and communication requirements</li>
 <li>prototype quantity and estimated annual volume</li>
+<li>target schedule</li>
+<li>whether NDA / confidentiality is required</li>
 <li>delivery destination</li>
 </ul>
 <p>A mechanism sketch with key dimensions is acceptable for the first review.</p>
