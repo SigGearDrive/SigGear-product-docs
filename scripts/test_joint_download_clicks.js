@@ -47,13 +47,21 @@ function testFile(folder, filename, model, variant, type) {
   assert.equal(joint[0].params.source_page_type, "joint_download_hub", filename);
   assert.equal(joint[0].params.source_application, "not_specified", filename);
   assert.equal(observed.filter(x => x.name === "cad_download_click").length,
-    type === "datasheet_pdf" ? 0 : 1, filename);
+    type.endsWith("_pdf") ? 0 : 1, filename);
   assert.equal(observed.filter(x => x.name === "planetary_engineering_file_click").length, 0);
 }
 
 for (const model of ["SG-6010C","SG-6010D","SG-8021","CPM-78-39","CPM-80-25","CPM-100-25"]) {
   testFile("joint-actuators", model + "_Public_Reference_Datasheet_Rev0.1.pdf",
     model, "catalogue", "datasheet_pdf");
+}
+for (const [file, model, variant] of [
+  ["SG-6010D_2D_Assembly_Drawing.pdf","SG-6010D","published_assembly"],
+  ["CPM-80-25_2D_No_Driver_29p7mm.pdf","CPM-80-25","no_driver_29_7mm"],
+  ["CPM-80-25_2D_Integrated_Driver_41p2mm.pdf","CPM-80-25","integrated_driver_41_2mm"],
+  ["CPM-100-25D_2D_Dual_Encoder_Driver_48mm.pdf","CPM-100-25","dual_encoder_driver_48mm"]
+]) {
+  testFile("joint-actuators",file,model,variant,"reference_2d_pdf");
 }
 const full = [
   ["SG-6010C_Original_Full_Assembly_20261118.step","SG-6010C","standard"],
@@ -84,5 +92,5 @@ const observed = click("../../../assets/downloads/joint-actuators/CPM-100-25D_Du
 assert.equal(observed.find(x => x.name === "joint_engineering_file_click").params.source_page_type,
              "joint_product_model");
 
-console.log("PASS six reference PDFs, eight full STEP assemblies, three simplified STEP configurations");
-console.log("PASS 17 joint engineering click classifications, correct variants, legacy CAD event continuity and same-site controls");
+console.log("PASS six reference datasheets, four 2D reference PDFs, eight full STEP assemblies, three simplified STEP configurations");
+console.log("PASS 21 joint engineering click classifications, correct variants, legacy CAD event continuity and same-site controls");
