@@ -22,7 +22,7 @@ You do **not** need to know the final reduction ratio before contacting SigGear.
 
 [Find a Published Gearbox](../selection-guides/planetary-gearhead-quick-selector.md){ .md-button .md-button--primary }
 [Send Motor or Drawing for Review](../request-cad-sample-quote.md?path=gearbox_only){ .md-button }
-[Replacing an Existing Gearbox?](replacement-planetary-gearhead.md){ .md-button }
+[Replacing / Redesigning an Existing Gearbox?](replacement-planetary-gearhead.md){ .md-button }
 
 ## Standard Series or Custom Engineering?
 
@@ -61,6 +61,8 @@ SigGear designs and manufactures micro, miniature and compact planetary gearboxe
 [Request Engineering Review](../request-cad-sample-quote.md){ .md-button }
 
 **Manufacturing qualification:** [Gear Hobbing, Grinding, CMM & Inspection](../company/manufacturing-equipment-inspection-capability.md) · [Source-Backed Manufacturing Facts](../company/source-backed-manufacturing-facts.md)
+
+**Already have an existing gearbox as well as the motor?** Use the [Existing Gearbox Replacement & Redesign](replacement-planetary-gearhead.md) path to separate the interfaces that must remain unchanged from the ratio, output, durability or packaging details that need to change.
 
 ## Custom Shaft, Mounting, Ratio and Interface Requests
 
