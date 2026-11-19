@@ -11,7 +11,7 @@ This Engineering Center is organized around the way an engineer normally evaluat
 
 **find a relevant model -> check the published data -> evaluate the mechanical interface -> test a sample -> freeze the configuration for design-in.**
 
-Use the public resources below for preliminary engineering evaluation. Robot actuator and gearbox engineering documents include public datasheets, STEP models, mechanical-interface references and measured test data where released. Configuration-specific production drawings, driver/firmware documentation and other controlled files are supplied according to the selected product and project stage.
+Use the public resources below for preliminary engineering evaluation. Robot actuator and gearhead engineering documents include public datasheets, STEP models, mechanical-interface references and measured test data where released. Configuration-specific production drawings, driver/firmware documentation and other controlled files are supplied according to the selected product and project stage.
 
 [**Robot Joint Files · PDF / 2D / STEP**](../engineering-resources/robot-joint-actuators/quick-downloads.md){ .md-button .md-button--primary }
 [**8–42 mm Gearhead Downloads**](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
@@ -22,13 +22,13 @@ Use the public resources below for preliminary engineering evaluation. Robot act
 | --- | --- |
 | Need custom engineering, volume manufacturing or production review | [Custom Manufacturing & Volume Production](../custom-engineering/custom-transmission-manufacturing.md) |
 | Need a custom transmission or feasibility review | [Custom Precision Transmission Engineering](../custom-engineering/index.md) |
-| Select an 8–42 mm planetary gearhead by speed, ratio and diameter | [Micro, Miniature & Compact Planetary Gearbox Selector](../selection-guides/miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder) |
-| Download model-specific 8–42 mm public STEP reference files | [12-Model Planetary Gearbox CAD Library](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) |
-| Need a custom planetary gearbox around an existing motor, size or interface | [Custom Planetary Gearhead Engineering](../custom-engineering/custom-planetary-gearbox.md) |
+| Select an 8–42 mm planetary gearhead by speed, ratio and diameter | [Micro, Miniature & Compact Planetary Gearhead Selector](../selection-guides/miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder) |
+| Download model-specific 8–42 mm public STEP reference files | [12-Model Planetary Gearhead CAD Library](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) |
+| Need a custom planetary gearhead around an existing motor, size or interface | [Custom Planetary Gearhead Engineering](../custom-engineering/custom-planetary-gearbox.md) |
 | Find a product family or model | [Browse Products](../products/index.md) |
 | Find a solution by application | [Browse Applications](../applications/index.md) |
 | Estimate robot-joint requirements | [Robot Joint Actuator Selection Guide](../selection-guides/robot-joint-actuator-selection-guide.md) |
-| Download released CAD / STEP and interface data | [Public Engineering Packs](#public-engineering-packs) |
+| Download released CAD / STEP and interface data | [Robot Joint Datasheets / 2D / STEP](#robot-joint-actuator-downloads) |
 | Prepare and run a sample evaluation | [Sample Validation Workflow](sample-validation-workflow.md) |
 | Prepare for a design freeze | [Design-In Checklist](design-in-checklist.md) |
 | Verify real manufacturing and inspection evidence | [Manufacturing & Quality Evidence](../company/manufacturing-and-quality-evidence.md) |
