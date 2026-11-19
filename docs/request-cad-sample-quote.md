@@ -1,13 +1,25 @@
 ---
-title: Request CAD, Sample and Quote for SigGear Products
-description: Request CAD, STEP files, engineering review, samples and quotations for SigGear robot joint actuators, cycloidal modules, planetary gearboxes and gear motors.
+title: Custom Transmission Engineering Review | Motor, Drawing, Failed Gearbox or Volume Project | SigGear
+description: Start a SigGear engineering review from an existing motor, customer drawing, failing gearbox, robot joint requirement or prototype-to-volume production plan. Standard model selection is optional.
 ---
 
-# Request CAD, Sample and Quote
+# Start a Custom Transmission Engineering Review
 
-Use this page when you need help moving from a product page to an engineering decision: model matching, CAD review, a sample, configuration-specific documentation or quotation preparation.
+You do **not** need to know a SigGear model number before contacting us.
 
-If you already know the model, include it. If you do not, send the application and the parameters you know — a complete specification is not required for the first review.
+Most custom projects can start from one of four situations:
+
+- **“Here is my motor.”** — the motor is already selected and the transmission must fit it.
+- **“Here is our drawing.”** — the mechanism, CAD or installation envelope already defines the interface.
+- **“Our current gearbox keeps failing.”** — an existing transmission needs replacement, durability review or redesign.
+- **“We need prototypes first, then volume production.”** — the project needs a path from sample validation into repeatable manufacturing.
+
+If you already know a SigGear model, include it as a reference. If not, send the application and the information you already have. A complete specification is not required for the first review.
+
+[**I Already Have a Motor**](?start=existing_motor&path=gearbox_only){ .md-button .md-button--primary }
+[**I Have a Drawing / CAD**](?start=drawing_cad){ .md-button }
+[**My Current Gearbox Is Failing**](?start=failing_gearbox&path=gearbox_only){ .md-button }
+[**Prototype → Volume Production**](?start=prototype_to_volume){ .md-button }
 
 For a project that starts from an idea, existing motor, mechanism or custom transmission problem, see the [Custom Precision Transmission Engineering](custom-engineering/index.md) page first.
 
@@ -96,7 +108,19 @@ Complete the project brief below and click **Send Engineering Request Online** t
   </div>
   <div class="siggear-form-grid">
     <label>
-      SigGear model reference
+      What are you starting with?
+      <select id="sg-starting-point" name="starting_point">
+        <option value="">Not sure yet</option>
+        <option value="existing_motor">I already have a motor</option>
+        <option value="drawing_cad">I have a drawing / CAD / mechanism</option>
+        <option value="failing_gearbox">My current gearbox / reducer is failing</option>
+        <option value="prototype_to_volume">Prototype first, then volume production</option>
+        <option value="standard_product">I am evaluating a SigGear standard product</option>
+      </select>
+    </label>
+
+    <label>
+      SigGear model reference (optional)
       <select id="sg-model" name="model">
         <option value="">Not sure yet</option>
         <option value="8P">8P — 8 mm</option>
@@ -213,7 +237,22 @@ Complete the project brief below and click **Send Engineering Request Online** t
 
     <label>
       Estimated annual volume
-      <input id="sg-annual-volume" name="annual_volume" type="text" placeholder="Optional">
+      <input id="sg-annual-volume" name="annual_volume" type="text" placeholder="Example: 1,000 pcs/year, or TBD">
+    </label>
+
+    <label>
+      Target schedule
+      <input id="sg-target-schedule" name="target_schedule" type="text" placeholder="Example: prototype this quarter; pilot in Q2">
+    </label>
+
+    <label>
+      Confidentiality / NDA
+      <select id="sg-confidentiality" name="confidentiality">
+        <option value="">Not specified</option>
+        <option value="public_ok">No NDA required for initial review</option>
+        <option value="nda_required">NDA required before sharing detailed files</option>
+        <option value="existing_nda">Existing NDA / confidentiality agreement applies</option>
+      </select>
     </label>
 
     <label>
@@ -295,7 +334,9 @@ A complete specification is not required. If torque, ratio or load is still unkn
 
 ## Minimum Information to Start
 
-For a first engineering review, four items are usually enough:
+For a first engineering review, **you can start with the problem rather than a complete product specification**.
+
+Four items are usually enough:
 
 1. **Application** — what is moving and where the gearbox / actuator will be installed
 2. **Required output** — torque and speed if known
@@ -319,6 +360,8 @@ The following helps narrow the configuration but does not need to be sent all at
 - radial / axial load conditions
 - driver, encoder and communication requirements
 - prototype quantity and estimated annual volume
+- target schedule
+- whether NDA / confidentiality is required
 - delivery destination
 
 A mechanism sketch with key dimensions is acceptable for the first review.
