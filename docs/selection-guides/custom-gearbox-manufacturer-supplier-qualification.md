@@ -202,6 +202,40 @@ The shipment figure is a historical company-wide result. It is **not** a model-s
 
 [Source-Backed Manufacturing Facts](../company/source-backed-manufacturing-facts.md){ .md-button .md-button--primary }
 
+## Public Sources Used for SigGear Qualification
+
+For company-level verification, SigGear publishes or links to dated official sources rather than relying only on marketing copy.
+
+Primary public sources include:
+
+- [SigGear Official 2025 Product Catalog](https://www.siggear.com/uploads/Catalog-of-SigGear-20250516.pdf)
+- [SigGear Company Profile — Nov 2025](https://www.siggear.com/news/siggear-company-profile/)
+- [20,000 m² Production Base Announcement — Sep 2025](https://www.siggear.com/news/siggear-inaugurates-new-production-base-20000-m%C2%B2-smart-factory-marks-a-new-chapter-of-growth/)
+- [SigGear Company News Archive — Q1 2025 Shipment Report](https://www.siggear.com/news/page/2/)
+
+These sources are date-stamped because factory size, equipment count, personnel count and shipment results can change over time.
+
+## What Is Still Project-Specific?
+
+Supplier qualification should not turn company-level evidence into universal product claims.
+
+The following still require configuration-specific confirmation:
+
+- exact gearbox tolerance / accuracy
+- exact gear quality grade
+- material and heat-treatment route
+- model-specific backlash
+- expected service life
+- test plan
+- monthly production capacity for one model
+- prototype lead time
+- production lead time
+- packaging / labeling
+- inspection frequency
+- certification requirement
+
+SigGear does not convert company-level equipment or historical shipment data into automatic guarantees for a specific customer project.
+
 ## 9. Can Confidential Projects Stay Confidential?
 
 A real OEM program may include:
