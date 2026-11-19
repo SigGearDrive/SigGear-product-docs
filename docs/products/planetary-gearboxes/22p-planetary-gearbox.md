@@ -1,6 +1,6 @@
 ---
 title: 22 mm Miniature Precision Planetary Gearhead (22P) | SigGear
-description: "SigGear 22P (22 mm) miniature planetary gearhead/gearbox: ratio 3.5:1–509.1:1, rated torque 784.5–2451.7 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
+description: "SigGear 22P (22 mm) miniature planetary gearhead/gearbox: ratio 3.5:1–509.1:1, rated torque 784.5–2451.7 mN·m. Direct PDF datasheet, 2D drawing and STEP file."
 ---
 
 # 22 mm Miniature Precision Planetary Gearhead (22P)
@@ -14,7 +14,7 @@ description: "SigGear 22P (22 mm) miniature planetary gearhead/gearbox: ratio 3.
 | --- | --- | --- | --- | --- |
 | **22 mm** | **3.5:1–509.1:1** | **22.6–38.5 mm** | **784.5–2451.7 mN·m** | **≤ 1.5°** |
 
-**Custom 22P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=22P&start=existing_motor&path=gearbox_only) · [Review my drawing / CAD](../../request-cad-sample-quote.md?model=22P&start=drawing_cad) · [Prototype → volume](../../request-cad-sample-quote.md?model=22P&start=prototype_to_volume)
+**Custom 22P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=22P&start=existing_motor&path=gearbox_only) · [Review my drawing / STEP](../../request-cad-sample-quote.md?model=22P&start=drawing_cad) · [Review a failing gearbox](../../request-cad-sample-quote.md?model=22P&start=failing_gearbox&path=gearbox_only) · [Prototype → volume](../../request-cad-sample-quote.md?model=22P&start=prototype_to_volume)
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/22p/datasheet.md) · [Mechanical drawing preview](../../engineering-resources/22p/mechanical-interface.md) · [Motor-only datasheets](../../engineering-resources/motors/index.md#22-mm-dc-motors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
@@ -77,7 +77,7 @@ These are adapted-motor conditions, not an electrical voltage or power rating fo
 
 Published dimensional references identify a 22 mm body, a 20 mm output-shaft extension and stage-dependent gearhead body lengths of 22.6, 27.9, 33.2 and 38.5 mm. Review the [22P Mechanical Interface](../../engineering-resources/22p/mechanical-interface.md) and request the applicable configuration-controlled drawing to confirm the output shaft, mounting, motor interface and tolerances.
 
-## CAD Notes
+## STEP Notes
 
 The **Full Assembly STEP** is the published original Creo assembly. The **Simplified STEP** is a separate 4-stage reference for preliminary mechanical packaging. The [22P 2D outline drawing](../../assets/downloads/22p/22P_2D_Drawing.pdf) is the original **SG01PD22** interface reference. The body length **L ±0.3 mm** is configuration-dependent; confirm stage, ratio and motor mating dimensions before production.
 
