@@ -56,3 +56,121 @@
     max-height: 180px;
   }
 }
+
+/* Four-column PDF / 2D / STEP hub and 3-model family download tables.
+   Keep every direct file link visible without requiring scrolling sideways. */
+.md-typeset .siggear-joint-downloads {
+  margin: .55rem 0 1rem;
+}
+.md-typeset .siggear-joint-downloads table {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  line-height: 1.45;
+  font-size: .79rem;
+}
+.md-typeset .siggear-joint-downloads th,
+.md-typeset .siggear-joint-downloads td {
+  vertical-align: top;
+  padding: .5rem .48rem;
+  overflow-wrap: anywhere;
+}
+.md-typeset .siggear-joint-downloads th:first-child,
+.md-typeset .siggear-joint-downloads td:first-child {
+  width: 36%;
+}
+.md-typeset .siggear-joint-downloads th:nth-child(2),
+.md-typeset .siggear-joint-downloads td:nth-child(2) {
+  width: 14%;
+}
+.md-typeset .siggear-joint-downloads th:nth-child(3),
+.md-typeset .siggear-joint-downloads td:nth-child(3) {
+  width: 24%;
+}
+.md-typeset .siggear-joint-downloads th:nth-child(4),
+.md-typeset .siggear-joint-downloads td:nth-child(4) {
+  width: 26%;
+}
+.md-typeset .siggear-joint-downloads a[href$=".pdf"],
+.md-typeset .siggear-joint-downloads a[href$=".step"] {
+  display: inline-block;
+  max-width: 100%;
+  margin: .08rem .12rem .18rem 0;
+  padding: .29rem .48rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: .3rem;
+  background: var(--md-code-bg-color);
+  color: var(--md-typeset-a-color);
+  font-size: .85rem;
+  font-weight: 650;
+  line-height: 1.35;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+.md-typeset .siggear-joint-downloads a[href$=".pdf"]:hover,
+.md-typeset .siggear-joint-downloads a[href$=".step"]:hover,
+.md-typeset .siggear-joint-downloads a[href$=".pdf"]:focus-visible,
+.md-typeset .siggear-joint-downloads a[href$=".step"]:focus-visible {
+  border-color: var(--md-accent-fg-color);
+  text-decoration: underline;
+}
+.md-typeset .siggear-joint-downloads a:focus-visible {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}
+@media (max-width: 52rem) {
+  .md-typeset .siggear-joint-downloads table,
+  .md-typeset .siggear-joint-downloads tbody {
+    display: block;
+    width: 100%;
+  }
+  .md-typeset .siggear-joint-downloads thead {
+    display: none;
+  }
+  .md-typeset .siggear-joint-downloads tr {
+    display: block;
+    margin: 0 0 .72rem;
+    padding: .65rem .75rem;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: .42rem;
+    background: var(--md-default-bg-color);
+  }
+  .md-typeset .siggear-joint-downloads td {
+    display: block;
+    width: 100% !important;
+    min-width: 0;
+    border: 0;
+    padding: .18rem 0 .28rem;
+    font-size: .83rem;
+    overflow-wrap: anywhere;
+  }
+  .md-typeset .siggear-joint-downloads td:first-child {
+    padding: 0 0 .52rem;
+    margin-bottom: .3rem;
+    border-bottom: 1px solid var(--md-default-fg-color--lightest);
+    font-size: .9rem;
+  }
+  .md-typeset .siggear-joint-downloads td:nth-child(n+2)::before {
+    display: block;
+    margin: .18rem 0 .14rem;
+    color: var(--md-default-fg-color--light);
+    font-size: .7rem;
+    font-weight: 650;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+  }
+  .md-typeset .siggear-joint-downloads td:nth-child(2)::before {
+    content: "Datasheet PDF";
+  }
+  .md-typeset .siggear-joint-downloads td:nth-child(3)::before {
+    content: "2D drawing";
+  }
+  .md-typeset .siggear-joint-downloads td:nth-child(4)::before {
+    content: "Full assembly STEP";
+  }
+  .md-typeset .siggear-joint-downloads a[href$=".pdf"],
+  .md-typeset .siggear-joint-downloads a[href$=".step"] {
+    padding: .35rem .55rem;
+    margin: .12rem .18rem .16rem 0;
+  }
+}
