@@ -1,6 +1,6 @@
 ---
-title: "10 mm Micro Planetary Gearhead (10P) | PDF & STEP CAD | SigGear"
-description: "SigGear 10P Ø10 mm micro planetary gearhead: ratios 3.5:1–428.7:1, 10.25–18.50 mm body length, rated 127.5–196.1 mN·m. Download PDF, 2D and full STEP CAD."
+title: "10 mm Micro Planetary Gearhead (10P) | PDF & STEP | SigGear"
+description: "SigGear 10P Ø10 mm micro planetary gearhead: ratios 3.5:1–428.7:1, 10.25–18.50 mm body length, rated 127.5–196.1 mN·m. Download PDF, 2D and full STEP."
 ---
 
 # 10 mm Micro Planetary Gearhead (10P)
@@ -14,7 +14,7 @@ description: "SigGear 10P Ø10 mm micro planetary gearhead: ratios 3.5:1–428.7
 | --- | --- | --- | --- | --- |
 | **10 mm** | **3.5:1–428.7:1** | **10.25–18.50 mm** | **127.5–196.1 mN·m** | **≤ 1.5°** |
 
-**Custom 10P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=10P&start=existing_motor&path=gearbox_only) · [Review my drawing / CAD](../../request-cad-sample-quote.md?model=10P&start=drawing_cad) · [Prototype → volume](../../request-cad-sample-quote.md?model=10P&start=prototype_to_volume)
+**Custom 10P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=10P&start=existing_motor&path=gearbox_only) · [Review my drawing / STEP](../../request-cad-sample-quote.md?model=10P&start=drawing_cad) · [Review a failing gearbox](../../request-cad-sample-quote.md?model=10P&start=failing_gearbox&path=gearbox_only) · [Prototype → volume](../../request-cad-sample-quote.md?model=10P&start=prototype_to_volume)
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/10p/datasheet.md) · [Mechanical drawing preview](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-dimensions.webp) · [Motor-only datasheets](../../engineering-resources/motors/index.md#10-mm-dc-motors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
@@ -77,7 +77,7 @@ The published drawing shows a 10 mm body, a 7.50 mm output-shaft extension and s
 
 ![10P 10 mm planetary gearhead dimensional drawing](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-dimensions.webp)
 
-## CAD Notes
+## STEP Notes
 
 For the 10P, certain HS-1013-Q / HS-1015-Q windings can reach 26,000–31,000 rpm at no load; this is not a continuous-speed rating. Confirm the permissible operating point for the exact motor + gearhead combination.
 
