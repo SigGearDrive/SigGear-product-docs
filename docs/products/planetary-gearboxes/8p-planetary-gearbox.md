@@ -42,7 +42,7 @@ description: "SigGear 8P (8 mm) micro planetary gearhead/gearbox: ratio 3.8:1–
 | Maximum momentary torque range | 39.2–78.5 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.5° |
-| Permissible gearhead input speed, continuous operation | 1,000–20,000 rpm |
+| Permissible gearhead input speed, continuous operation | Motor/configuration dependent; confirm selected operating point |
 | Operating temperature | −40 to 120 °C |
 
 Maximum momentary torque is not a continuous working rating.
