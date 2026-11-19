@@ -194,6 +194,8 @@ nav:
       - Custom Manufacturing & Volume Production: custom-engineering/custom-transmission-manufacturing.md
       - Custom Planetary Gearhead: custom-engineering/custom-planetary-gearbox.md
       - Replacement Planetary Gearhead: custom-engineering/replacement-planetary-gearhead.md
+      - Gearbox Failure & Durability Redesign: custom-engineering/gearbox-failure-analysis-durability-redesign.md
+      - OEM Volume Manufacturing & Delivery: custom-engineering/oem-volume-manufacturing-delivery.md
       - Custom Cycloidal Transmission: custom-engineering/custom-cycloidal-transmission.md
       - Motor + Gearbox Integration: custom-engineering/motor-gearbox-integration.md
       - Robot Joint & Compact Actuator: custom-engineering/robot-joint-actuator-development.md
