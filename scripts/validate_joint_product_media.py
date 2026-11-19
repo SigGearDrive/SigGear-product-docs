@@ -83,8 +83,9 @@ def main() -> None:
         paths = re.findall(r'<img\b[^>]*\bsrc=["\x27]([^"\x27]+)', text)
         if len(paths) != len(set(paths)):
             raise ValueError("Duplicate product image references: "+model)
-        if model == "CPM-78-39" and paths:
-            raise ValueError("CPM-78-39 has no verified repository product image yet")
+        if model == "CPM-78-39":
+            if not any("cpm78-39/cpm78-39-motor-face.webp" in url for url in paths):
+                raise ValueError("CPM-78-39 missing verified motor-side source image")
         for url in paths:
             if url.startswith(("http:","https:","data:")):
                 raise ValueError("Hotlinked or synthetic image in standard page: "+model)
