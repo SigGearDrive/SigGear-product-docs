@@ -3,6 +3,9 @@
 from __future__ import annotations
 
 from collections import Counter
+import hashlib
+import json
+from pypdf import PdfReader
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urljoin, urlsplit
@@ -80,6 +83,27 @@ def check() -> None:
 
     assert "HS-2016-Q" in md, "20 mm 120108 must disclose chart/source designation mismatch"
     assert "090080" in md and "240092" in md, "New 24 mm winding range missing"
+
+    source_manifest = ROOT / "data/quality/10mm-dc-motor-datasheet-refresh-2026-11-19.json"
+    records = json.loads(source_manifest.read_text(encoding="utf-8"))["records"]
+    assert len(records) == 4, "Expected four refreshed 10 mm datasheets"
+    for record in records:
+        active = "10mm/" + record["new_pdf"]
+        assert active in seen, f"Refreshed source not visible in download matrix: {active}"
+        path = FILES / active
+        assert hashlib.sha256(path.read_bytes()).hexdigest() == record["sha256"], f"Modified source PDF: {active}"
+        doc = PdfReader(str(path), strict=False)
+        assert len(doc.pages) == 3, f"Expected three legible review pages: {active}"
+        first_text = doc.pages[0].extract_text() or ""
+        second_text = doc.pages[1].extract_text() or ""
+        assert "Draft V1.1" in first_text, f"Draft version lost: {active}"
+        assert record["source_chart"] in second_text, f"Missing chart source label: {active}"
+        assert record["new_pdf"].endswith("_DraftV1.1.pdf"), f"Uncontrolled filename: {active}"
+        if record.get("legacy_pdf"):
+            legacy = FILES / "10mm" / record["legacy_pdf"]
+            assert legacy.is_file(), f"Legacy public download must be preserved: {legacy}"
+    assert "source group has ambiguous model identifiers" in md, "Source code uncertainty must be visible"
+
     for n in SIZES:
         assert any(id_.startswith(f"{n}-mm-") for id_ in parsed.ids), f"Legacy diameter anchor missing for {n}"
     assert "motor-quick-downloads.js?v=20261118-direct-pdfs" in html
