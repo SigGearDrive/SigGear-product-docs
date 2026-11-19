@@ -13,7 +13,7 @@ Most custom projects can start from one of four situations:
 
 - **“Here is my motor.”** — the motor is already selected and the transmission must fit it.
 - **“Here is our drawing / STEP / sample.”** — the mechanism, STEP model, physical sample or installation envelope defines the starting interface.
-- **“Our current gearbox keeps failing.”** — an existing transmission needs replacement, durability review or redesign.
+- **“Our existing gearbox needs replacement / redesign.”** — the motor or machine interface may need to stay while ratio, output, durability or other gearbox details change.
 - **“We need prototypes first, then volume production.”** — the project needs a path from sample validation into repeatable manufacturing.
 
 If you already know a SigGear model, include it as a reference. If not, send the application and the information you already have. A complete specification is not required for the first review.
@@ -24,7 +24,7 @@ If you already know a SigGear model, include it as a reference. If not, send the
 
 [**I Already Have a Motor**](?start=existing_motor&path=gearbox_only){ .md-button .md-button--primary }
 [**I Have a Drawing / STEP / Sample**](?start=drawing_cad){ .md-button }
-[**My Current Gearbox Is Failing**](?start=failing_gearbox&path=gearbox_only){ .md-button }
+[**Replace / Redesign Existing Gearbox**](?start=failing_gearbox&path=gearbox_only){ .md-button }
 [**Prototype → Volume Production**](?start=prototype_to_volume){ .md-button }
 
 **Supplier qualification:** [Manufacturing & Quality Evidence](company/manufacturing-and-quality-evidence.md) · [Source-Backed Manufacturing Facts](company/source-backed-manufacturing-facts.md) · [Equipment & Inspection Capability](company/manufacturing-equipment-inspection-capability.md)
@@ -123,7 +123,7 @@ Complete the project brief below and click **Send Engineering Request Online** t
         <option value="">Not sure yet</option>
         <option value="existing_motor">I already have a motor</option>
         <option value="drawing_cad">I have a drawing / STEP / sample / mechanism</option>
-        <option value="failing_gearbox">My current gearbox / reducer is failing</option>
+        <option value="failing_gearbox">My existing gearbox needs replacement / redesign</option>
         <option value="prototype_to_volume">Prototype first, then volume production</option>
         <option value="standard_product">I am evaluating a SigGear standard product</option>
       </select>
@@ -192,8 +192,20 @@ Complete the project brief below and click **Send Engineering Request Online** t
 
   <label>
     Failure symptoms / worn parts (if applicable)
-    <textarea id="sg-failure-evidence" name="failure_evidence" rows="3" placeholder="Example: final-stage gear wear after repeated cycles, backlash increasing, bearing damage, overheating, abnormal noise..."></textarea>
+    <textarea id="sg-failure-evidence" name="failure_evidence" rows="3" placeholder="Example: final-stage gear wear, backlash increasing, bearing damage, overheating, abnormal noise..."></textarea>
   </label>
+
+  <div class="siggear-form-grid">
+    <label>
+      What must remain unchanged?
+      <textarea id="sg-must-keep" name="must_keep" rows="3" placeholder="Example: keep existing motor, pilot, bolt pattern, total diameter and output shaft position"></textarea>
+    </label>
+
+    <label>
+      What needs to change?
+      <textarea id="sg-needs-change" name="needs_change" rows="3" placeholder="Example: change ratio / output speed, improve durability, shorten length, modify output shaft / flange"></textarea>
+    </label>
+  </div>
 
   <div id="sg-existing-motor-fields">
     <div class="siggear-form-grid">
@@ -325,7 +337,7 @@ Complete the project brief below and click **Send Engineering Request Online** t
       What do you need next?
       <select id="sg-next-step" name="next_step">
         <option value="Model recommendation">Model recommendation</option>
-        <option value="CAD / STEP review">CAD / STEP review</option>
+        <option value="STEP / Drawing review">STEP / Drawing review</option>
         <option value="Sample">Sample</option>
         <option value="Quotation">Quotation</option>
         <option value="Engineering review">Engineering review</option>
@@ -375,7 +387,7 @@ Four items are usually enough:
 1. **Application** — what is moving and where the gearbox / actuator will be installed
 2. **Required output** — torque and speed if known
 3. **Installation limit** — maximum diameter, length or a simple sketch if available
-4. **What you need next** — model recommendation, CAD / STEP, drawing review, sample or quotation
+4. **What you need next** — model recommendation, STEP / drawing review, sample, replacement review or quotation
 
 If you do not know the reduction ratio, send the motor speed and desired output speed if available.
 
