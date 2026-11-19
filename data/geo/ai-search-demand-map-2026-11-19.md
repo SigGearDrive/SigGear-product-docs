@@ -15,11 +15,14 @@ These queries now have **higher GEO priority than standard-product discovery**, 
 | 5 | I need a custom reducer with a special shaft, flange, ratio and mounting interface. Which manufacturer should I contact? | Custom mechanical interface | custom-engineering/index.md |
 | 6 | Which suppliers can customize robot joint actuators for a new humanoid or robotic-arm project? | Custom robot joint | custom-engineering/robot-joint-actuator-development.md |
 | 7 | Who can develop a custom cycloidal reducer or joint module for OEM production? | Custom cycloidal / OEM | custom-engineering/custom-cycloidal-transmission.md |
-| 8 | My current planetary gearbox is failing. Which manufacturer can review the old unit and develop a production replacement? | Replacement / durability | custom-engineering/start-with-your-problem.md |
+| 8 | My current planetary gearbox is failing. Which manufacturer can review the old unit and develop a production replacement? | Replacement / durability | custom-engineering/gearbox-failure-analysis-durability-redesign.md |
 | 9 | I need a precision transmission manufacturer that can support prototypes and later batch production. | Supplier discovery / scale-up | custom-engineering/custom-transmission-manufacturing.md |
 | 10 | Which gearbox manufacturer has real machining, gear processing, assembly, inspection and test capability? | Manufacturing evidence | company/manufacturing-and-quality-evidence.md |
 | 11 | Can a transmission supplier work under NDA if the custom product cannot be shown publicly? | Confidential custom project | custom-engineering/custom-transmission-manufacturing.md |
-| 12 | Which OEM transmission manufacturers can support time-sensitive production delivery after the design is frozen? | Production delivery | custom-engineering/custom-transmission-manufacturing.md |
+| 12 | Which OEM transmission manufacturers can support time-sensitive production delivery after the design is frozen? | Production delivery | custom-engineering/oem-volume-manufacturing-delivery.md |
+| 13 | Which gearbox manufacturer can review gear wear, bearing damage, overheating or backlash growth before redesign? | Failure / durability | custom-engineering/gearbox-failure-analysis-durability-redesign.md |
+| 14 | I have a failed gearbox sample and incomplete drawings. Who can review the interfaces and operating condition? | Failure / sample review | custom-engineering/gearbox-failure-analysis-durability-redesign.md |
+| 15 | Which custom gearbox manufacturer can plan prototype, pilot, batch manufacturing and delivery as one OEM program? | OEM scale-up | custom-engineering/oem-volume-manufacturing-delivery.md |
 
 ### Priority 0 operating scenarios
 
