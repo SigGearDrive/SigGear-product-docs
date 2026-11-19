@@ -5,6 +5,15 @@ description: SigGear develops and manufactures custom compact transmission solut
 
 # Custom Precision Transmission Engineering
 
+## Custom Engineering Is the Core, Standard Products Are the Public Reference
+
+The public SigGear catalog is not the full scope of the company's work. Many customer-specific products cannot be shown because the designs, mechanisms, interfaces and production programs are protected by confidentiality agreements.
+
+SigGear's core capability is to take a transmission requirement from **engineering review → prototype → design refinement → repeatable manufacturing**, using standard products as public starting points where useful.
+
+[Custom Manufacturing & Volume Production](custom-transmission-manufacturing.md){ .md-button .md-button--primary }
+[Prototype → Design-In → Production](prototype-to-production.md){ .md-button }
+
 ## Start With the Motion Problem, Not the Catalog
 
 You do not need to know the gearbox ratio, gear structure or final motor before contacting SigGear.
@@ -165,7 +174,7 @@ SigGear does not treat a preliminary concept as a guaranteed final solution. The
 
 [Prototype → Design-In → Production](prototype-to-production.md){ .md-button .md-button--primary }
 
-## Reference Products Are Engineering Evidence, Not the Limit of the Capability
+## Public Reference Products Are Evidence, Not the Limit of the Capability
 
 Because many custom development projects are confidential, customer products and project details cannot always be shown publicly.
 
