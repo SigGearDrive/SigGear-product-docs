@@ -14,7 +14,7 @@ description: "SigGear 8P (8 mm) micro planetary gearhead/gearbox: ratio 3.8:1–
 | --- | --- | --- | --- | --- |
 | **8 mm** | **3.8:1–731.16:1** | **10.15–18.10 mm** | **19.6–39.2 mN·m** | **≤ 1.5°** |
 
-**Custom 8P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=8P&start=existing_motor&path=gearbox_only) · [Review my drawing / STEP](../../request-cad-sample-quote.md?model=8P&start=drawing_cad) · [Review a failing gearbox](../../request-cad-sample-quote.md?model=8P&start=failing_gearbox&path=gearbox_only) · [Prototype → volume](../../request-cad-sample-quote.md?model=8P&start=prototype_to_volume)
+**Custom 8P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=8P&start=existing_motor&path=gearbox_only) · [Review my drawing / STEP](../../request-cad-sample-quote.md?model=8P&start=drawing_cad) · [Replace / redesign existing gearbox](../../request-cad-sample-quote.md?model=8P&start=failing_gearbox&path=gearbox_only) · [Prototype → volume](../../request-cad-sample-quote.md?model=8P&start=prototype_to_volume)
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/8p/datasheet.md) · [Mechanical drawing preview](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-dimensions.webp) · [Motor-only datasheets](../../engineering-resources/motors/index.md#8-mm-dc-micromotors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
