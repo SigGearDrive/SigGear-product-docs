@@ -22,6 +22,7 @@ You do **not** need to know the final reduction ratio before contacting SigGear.
 
 [Find a Published Gearhead](../selection-guides/planetary-gearhead-quick-selector.md){ .md-button .md-button--primary }
 [Send Motor or Drawing for Review](../request-cad-sample-quote.md?path=gearbox_only){ .md-button }
+[Replacing an Existing Gearhead?](replacement-planetary-gearhead.md){ .md-button }
 
 ## Standard Series or Custom Engineering?
 

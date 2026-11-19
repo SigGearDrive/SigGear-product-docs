@@ -5,6 +5,22 @@ description: "Evaluate SigGear Ø8–16 mm micro planetary gearheads for dextero
 
 # Micro Planetary Gearheads for Dexterous Hands & Robot Grippers
 
+**SigGear · Ø8–16 mm Micro Planetary Gearheads · Direct engineering files**
+
+<div class="siggear-app-quick" markdown="1">
+
+## Direct Downloads — PDF / 2D / STEP
+
+| Model | Datasheet | 2D Drawing | Full STEP |
+| --- | --- | --- | --- |
+| [**8P**](../products/planetary-gearboxes/8p-planetary-gearbox.md) | [**↓ PDF**](../assets/downloads/8p/8P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**↓ 2D**](../assets/downloads/8p/8P_2D_Drawing.pdf) | [**↓ STEP**](../assets/downloads/8p/8P_Full_Assembly.step) |
+| [**10P**](../products/planetary-gearboxes/10p-planetary-gearbox.md) | [**↓ PDF**](../assets/downloads/10p/10P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**↓ 2D**](../assets/downloads/10p/10P_2D_Drawing.pdf) | [**↓ STEP**](../assets/downloads/10p/10P_Full_Assembly.step) |
+| [**12P**](../products/planetary-gearboxes/12p-planetary-gearbox.md) | [**↓ PDF**](../assets/downloads/12p/12P_Planetary_Gearhead_Datasheet_Rev1.1.pdf) | [**↓ 2D**](../assets/downloads/12p/12P_2D_Drawing.pdf) | [**↓ STEP**](../assets/downloads/12p/12P_Full_Assembly.step) |
+| [**14P**](../products/planetary-gearboxes/14p-planetary-gearbox.md) | [**↓ PDF**](../assets/downloads/14p/14P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**↓ 2D**](../assets/downloads/14p/14P_2D_Drawing.pdf) | [**↓ STEP**](../assets/downloads/14p/14P_Full_Assembly.step) |
+| [**16P**](../products/planetary-gearboxes/16p-planetary-gearbox.md) | [**↓ PDF**](../assets/downloads/16p/16P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**↓ 2D**](../assets/downloads/16p/16P_2D_Drawing.pdf) | [**↓ STEP**](../assets/downloads/16p/16P_Full_Assembly.step) |
+
+</div>
+
 For a dexterous hand, robotic finger or compact gripper, the gearhead should be selected from the **mechanism geometry, motor operating speed, required output motion, available diameter and continuous load** rather than from diameter alone.
 
 SigGear publishes five micro planetary gearhead frame sizes from **Ø8 mm to Ø16 mm**. These are engineering starting points for compact mechanisms; they are **not claims that every model is already qualified for a specific robotic hand**.
@@ -27,15 +43,6 @@ The torque values above are **published rated allowable ranges across stages**, 
 
 For a larger mechanism, continue with the [20–32 mm Miniature Planetary Gearhead range](../products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md).
 
-## Direct Micro Gearhead Downloads
-
-| Model | Datasheet PDF | 2D drawing | Full STEP |
-| --- | --- | --- | --- |
-| 8P | [PDF](../assets/downloads/8p/8P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D](../assets/downloads/8p/8P_2D_Drawing.pdf) | [STEP](../assets/downloads/8p/8P_Full_Assembly.step) |
-| 10P | [PDF](../assets/downloads/10p/10P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D](../assets/downloads/10p/10P_2D_Drawing.pdf) | [STEP](../assets/downloads/10p/10P_Full_Assembly.step) |
-| 12P | [PDF](../assets/downloads/12p/12P_Planetary_Gearhead_Datasheet_Rev1.1.pdf) | [2D](../assets/downloads/12p/12P_2D_Drawing.pdf) | [STEP](../assets/downloads/12p/12P_Full_Assembly.step) |
-| 14P | [PDF](../assets/downloads/14p/14P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D](../assets/downloads/14p/14P_2D_Drawing.pdf) | [STEP](../assets/downloads/14p/14P_Full_Assembly.step) |
-| 16P | [PDF](../assets/downloads/16p/16P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D](../assets/downloads/16p/16P_2D_Drawing.pdf) | [STEP](../assets/downloads/16p/16P_Full_Assembly.step) |
 
 ## What Does a Dexterous-Hand Engineer Need to Define?
 

@@ -8,10 +8,42 @@ APP=ROOT/"docs/applications"
 PAGES=sorted(p for p in APP.glob("*.md") if p.name not in {"index.md","planetary-gearbox-application-families.md"})
 MODELS=["8P","10P","12P","14P","16P","20P","22P","24P","28P","32P","36P","42P"]
 assert len(PAGES)==32, f"Expected 32 distinct application pages, found {len(PAGES)}"
+DETAILED_APPLICATION_PAGES={"robot-gripper-gear-motors.md"}
+
 for page in PAGES:
     s=page.read_text(encoding="utf-8")
     assert s.startswith("---\n") and "\n---\n" in s[4:], page
     assert len(re.findall(r"^# ",s,re.M))==1, page
+
+    if page.name in DETAILED_APPLICATION_PAGES:
+        # High-value engineering answer pages may be longer than the concise
+        # supplier-first template, but must still expose real model files,
+        # selector context and an engineering inquiry path.
+        assert len(s)<9000, f"{page.name}: detailed page too long at {len(s)} chars"
+        for m in ("8P","10P","12P","14P","16P"):
+            assert f"../products/planetary-gearboxes/{m.lower()}-planetary-gearbox.md" in s, (page.name,m)
+            assert f"{m}_Full_Assembly.step" in s
+            assert f"{m}_2D_Drawing.pdf" in s
+            assert f"{m}_Planetary_Gearhead_Datasheet_Rev" in s
+        assert "../selection-guides/planetary-gearhead-quick-selector.md?app=dexterous_hand_gripper#preliminary-ratio-stage-finder" in s, page
+        assert "../request-cad-sample-quote.md?app=dexterous_hand_gripper" in s, page
+        assert "rated allowable" in s.lower() and "not claims" in s.lower(), page
+        assert "## Direct Downloads — PDF / 2D / STEP" in s, page
+        assert s.index("## Direct Downloads") < s.index("For a dexterous hand"), page
+        assert s.count("[**↓ PDF**]") == 5 and s.count("[**↓ STEP**]") == 5, page
+        rendered = ROOT / "site/applications/robot-gripper-gear-motors/index.html"
+        assert rendered.is_file(), page
+        html = rendered.read_text(encoding="utf-8")
+        assert 'class="siggear-app-quick"' in html, page
+        first = html.index('class="siggear-app-quick"')
+        last = html.index("</div>", first)
+        matrix = html[first:last]
+        assert "<table>" in matrix and "</table>" in matrix, page
+        assert matrix.count("_Planetary_Gearhead_Datasheet_Rev") == 5, page
+        assert matrix.count("_2D_Drawing.pdf") == 5, page
+        assert matrix.count("_Full_Assembly.step") == 5, page
+        continue
+
     assert len(s)<3700, f"{page.name}: too long at {len(s)} chars"
     assert "SigGear is an OEM supplier" in s, page
     for link in ("../engineering-resources/motors/index.md",
@@ -39,7 +71,7 @@ for name, token in (
 for page,required in {
  "electric-pruning-shears-planetary-gearbox.md":["32P","36P","42P"],
  "electric-curtain-blind-window-opener-gear-motors.md":["16P","20P","22P"],
- "robot-gripper-gear-motors.md":["8P","14P","20P"]
+ "robot-gripper-gear-motors.md":["8P","10P","12P","14P","16P"]
 }.items():
     s=(APP/page).read_text(encoding="utf-8")
     for m in required:
@@ -104,7 +136,7 @@ for name in firstscreen_file_pages:
 
 # Additional high-value micro gearhead application pages use the proven file-first
 # layout, while retaining every original model/PDF/2D/STEP URL.
-round5_files = {"electric-curtain-blind-window-opener-gear-motors.md":3,"smart-toilet-bidet-planetary-gear-motors.md":4,"smart-pet-feeder-litter-box-planetary-gearheads.md":4,"access-control-smart-lock-security-gear-motors.md":3,"consumer-appliance-home-device-gear-motors.md":3,"smart-hardware-gear-motors.md":3,"robot-gripper-gear-motors.md":3,"powered-screwdriver-planetary-gearbox.md":3,"micro-robotics-gear-motors.md":3,"furniture-seating-adjustable-mechanism-gear-motors.md":3}
+round5_files = {"electric-curtain-blind-window-opener-gear-motors.md":3,"smart-toilet-bidet-planetary-gear-motors.md":4,"smart-pet-feeder-litter-box-planetary-gearheads.md":4,"access-control-smart-lock-security-gear-motors.md":3,"consumer-appliance-home-device-gear-motors.md":3,"smart-hardware-gear-motors.md":3,"powered-screwdriver-planetary-gearbox.md":3,"micro-robotics-gear-motors.md":3,"furniture-seating-adjustable-mechanism-gear-motors.md":3}
 for name, count in round5_files.items():
     src = (APP / name).read_text(encoding="utf-8")
     assert src.count("## Direct Downloads") == 1, name
@@ -148,7 +180,7 @@ round6_joint = {
     "quadruped-robot-joint-gearboxes.md": (2, 2),
     "robotic-arm-joint-actuators.md": (2, 0),
 }
-all_firstscreen = set(firstscreen_file_pages) | set(round5_files) | set(round6_gear) | set(round6_joint)
+all_firstscreen = set(firstscreen_file_pages) | set(round5_files) | set(round6_gear) | set(round6_joint) | set(DETAILED_APPLICATION_PAGES)
 assert all_firstscreen == {p.name for p in PAGES}, (
     "Not every one of the 32 application pages is file-first",
     sorted({p.name for p in PAGES} - all_firstscreen),
@@ -200,4 +232,4 @@ for name, (modules, drawings) in round6_joint.items():
     assert html.count("_Full_Assembly.step") >= 3, name
     assert "application-quick-downloads.css?v=20261119-firstscreen" in html, name
 
-print("PASS 32 concise supplier-first application pages, 3 supply routes, file links and legacy selector context")
+print("PASS 31 concise application pages plus 1 detailed dexterous-hand engineering page with real files and selector context")
