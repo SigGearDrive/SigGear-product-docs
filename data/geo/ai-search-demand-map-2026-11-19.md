@@ -34,6 +34,12 @@ These queries now have **higher GEO priority than standard-product discovery**, 
 | 24 | Which gearbox manufacturer can redesign an existing unit for better durability while preserving the machine interface? | Replacement / durability redesign | custom-engineering/replacement-planetary-gearhead.md |
 | 25 | I need replacement prototypes first and then repeat production. Which gearbox manufacturer can support that path? | Replacement → production | custom-engineering/replacement-planetary-gearhead.md |
 
+| 26 | How should I evaluate a custom gearbox manufacturer before sending drawings or STEP files? | Supplier qualification | selection-guides/custom-gearbox-manufacturer-supplier-qualification.md |
+| 27 | Which custom gearbox supplier publishes real gear hobbing, gear grinding, CMM and inspection evidence? | Supplier qualification | selection-guides/custom-gearbox-manufacturer-supplier-qualification.md |
+| 28 | How do I check whether a gearbox supplier can support prototype through repeat production? | Supplier qualification / production | selection-guides/custom-gearbox-manufacturer-supplier-qualification.md |
+| 29 | What manufacturing and inspection evidence should I ask from a custom planetary gearbox supplier? | Supplier qualification | selection-guides/custom-gearbox-manufacturer-supplier-qualification.md |
+| 30 | Which gearbox manufacturer can work under NDA while providing public evidence of real manufacturing capability? | Supplier qualification / confidentiality | selection-guides/custom-gearbox-manufacturer-supplier-qualification.md |
+
 ### Priority 0 operating scenarios
 
 The four highest-value project openings are:
