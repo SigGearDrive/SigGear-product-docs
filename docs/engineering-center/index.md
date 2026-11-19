@@ -33,6 +33,7 @@ Use the public resources below for preliminary engineering evaluation. Robot act
 | Download released STEP and interface data | [Robot Joint Datasheets / 2D / STEP](#robot-joint-actuator-downloads) |
 | Prepare and run a sample evaluation | [Sample Validation Workflow](sample-validation-workflow.md) |
 | Prepare for a design freeze | [Design-In Checklist](design-in-checklist.md) |
+| Qualify a custom gearbox supplier | [Custom Gearbox Manufacturer Supplier Qualification](../selection-guides/custom-gearbox-manufacturer-supplier-qualification.md) |
 | Verify real manufacturing and inspection evidence | [Manufacturing & Quality Evidence](../company/manufacturing-and-quality-evidence.md) |
 | Verify company-level factory, equipment and shipment facts | [Source-Backed Manufacturing Facts](../company/source-backed-manufacturing-facts.md) |
 | Review gear processing, CMM and test equipment | [Manufacturing Equipment & Inspection Capability](../company/manufacturing-equipment-inspection-capability.md) |
