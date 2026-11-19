@@ -73,13 +73,13 @@
     },
     {
       "model": "SG-6010HB",
-      "variant": "sg2908b_drawing",
+      "variant": "sg6010hb_2d_reference_pending_approval",
       "source": "SG(6010HB)安装尺寸图.pdf",
       "target": null,
       "bytes": 913524,
       "sha256": "52d71c849634573887ff1bd4575d2030b70fbc6f7c9c35b03cf62eae3b43c06a",
       "status": "blocked_dimension_conflict",
-      "matches": "SG2908B drawing axial 22.57 +/- 0.50 mm vs SG-6010HB published 25.57 mm; not among six core standards"
+      "matches": "SG-6010HB supplied 2D source: 22.57 +/- 0.50 mm main body plus nominal 3.00 mm extension; final CAD/2D configuration reconciliation remains pending"
     }
   ],
   "photos": [
