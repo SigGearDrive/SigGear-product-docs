@@ -1,0 +1,134 @@
+{
+  "project": "SigGear six core joint actuators · source images and 2D drawings",
+  "date": "2026-11-19",
+  "basis": "User-provided files reviewed without manufacturing drawing approval",
+  "last_public_assets": "Six reference PDFs and eight original STEP assemblies remain unchanged",
+  "binary_upload_status": "Not uploaded to GitHub; do not create any customer download links until matching target blobs are present",
+  "drawings": [
+    {
+      "model": "SG-6010D",
+      "variant": "published_joint_assembly",
+      "source": "西格马二级减速总装图[SG6010D].pdf",
+      "target": "docs/assets/downloads/joint-actuators/SG-6010D_2D_Assembly_Drawing.pdf",
+      "bytes": 1984661,
+      "sha256": "f60f8959340d9e91f8aa730eea170b22b9a85d8d023ba67c10cbf837584527af",
+      "status": "source_checked_not_uploaded",
+      "matches": "Ø80 mm; total ratio 28.13:1; axial 58.77 mm"
+    },
+    {
+      "model": "CPM-80-25",
+      "variant": "no_driver_29_7mm",
+      "source": "CPM-80-25减速电机尺寸图.pdf",
+      "target": "docs/assets/downloads/joint-actuators/CPM-80-25_2D_No_Driver_29p7mm.pdf",
+      "bytes": 159045,
+      "sha256": "ddc1d0e798ba3c23673f4160da7ef35d2678396afd14c713972ffd13a6b7f38a",
+      "status": "source_checked_not_uploaded",
+      "matches": "Ø80 mm; axial 29.7 mm"
+    },
+    {
+      "model": "CPM-80-25",
+      "variant": "integrated_driver_41_2mm",
+      "source": "CPM-80-25驱动版尺寸图.pdf",
+      "target": "docs/assets/downloads/joint-actuators/CPM-80-25_2D_Integrated_Driver_41p2mm.pdf",
+      "bytes": 138774,
+      "sha256": "44f443c0031fcc7670bf3307276d9fdad6a5cb02118d6f422977828c717e1ff5",
+      "status": "source_checked_not_uploaded",
+      "matches": "Ø80 mm; axial 41.2 mm"
+    },
+    {
+      "model": "CPM-100-25D",
+      "variant": "dual_encoder_integrated_driver_48mm",
+      "source": "CPM100-25双编外形尺寸图.pdf",
+      "target": "docs/assets/downloads/joint-actuators/CPM-100-25D_2D_Dual_Encoder_Driver_48mm.pdf",
+      "bytes": 501964,
+      "sha256": "ef9d2f952affb46ffc152d0c85272deed031ef000806a883632be792c14aafcb",
+      "status": "source_checked_not_uploaded",
+      "matches": "Drawing title SG2556D; Ø100 mm; axial 48 mm; not the 29.5 mm standard"
+    },
+    {
+      "model": "CPM-78-39",
+      "variant": "sg2368b_candidate",
+      "source": "SG2368B减速箱外形图.pdf",
+      "target": null,
+      "bytes": 295999,
+      "sha256": "a505dd95d44da2b1541b5006fdfd7e4d3eb01b1e001da8f96f21157ce298b4db",
+      "status": "hold_pending_model_code_signoff",
+      "matches": "Internal SG2368B; 39:1, Ø78.7 mm, 35.8 mm align with CPM-78-39"
+    },
+    {
+      "model": "SG-6010HB",
+      "variant": "sg2908b_drawing",
+      "source": "SG(6010HB)安装尺寸图.pdf",
+      "target": null,
+      "bytes": 913524,
+      "sha256": "52d71c849634573887ff1bd4575d2030b70fbc6f7c9c35b03cf62eae3b43c06a",
+      "status": "blocked_dimension_conflict",
+      "matches": "SG2908B drawing axial 22.57 +/- 0.50 mm vs SG-6010HB published 25.57 mm; not among six core standards"
+    }
+  ],
+  "photos": [
+    {
+      "model": "CPM-78-39",
+      "source": "78-39 图1.jpg",
+      "target": "docs/assets/images/products/cycloidal-joint-modules/cpm78-39/cpm78-39-motor-face.webp",
+      "sourceSha256": "cf7b0f3d5e9618db07139806317cd44c995735486cb9be42b57aba5c58c8f108",
+      "targetSha256": "3c8678f1b2296b455450cf50a1c53ca0d69e1d898d1034eda007e3c7d86607c9",
+      "status": "published_800px_webp_q76",
+      "alt": "CPM-78-39 motor-side copper winding view"
+    },
+    {
+      "model": "CPM-78-39",
+      "source": "78-39 图2.jpg",
+      "target": "docs/assets/images/products/cycloidal-joint-modules/cpm78-39/cpm78-39-output-side.webp",
+      "sourceSha256": "67b5b6230452090607cc7c2988629baa5e3bb3d9f67df4c6f2e6774012696818",
+      "targetSha256": "fb76d4eb315b3f6ffe013f145e9a95cb67abf429070a0362b8c8f7008710b4f7",
+      "status": "prepared_optimized_not_uploaded",
+      "alt": "CPM-78-39 output-side mounting interface"
+    },
+    {
+      "model": "CPM-78-39",
+      "source": "78-39 图3.jpg",
+      "target": "docs/assets/images/products/cycloidal-joint-modules/cpm78-39/cpm78-39-combined-views.webp",
+      "sourceSha256": "08d82548056690c428a32484145703d92efd8cf40852cf4119cf37d67d6c12fa",
+      "targetSha256": "6df58aaecaeb62c7e5a121c5747701a5a2c8cc35faa75e179905e1346b6c3153",
+      "status": "prepared_optimized_not_uploaded",
+      "alt": "CPM-78-39 paired motor- and output-side views"
+    },
+    {
+      "model": "CPM-78-39",
+      "source": "78-39 图4.jpg",
+      "target": "docs/assets/images/products/cycloidal-joint-modules/cpm78-39/cpm78-39-cutaway-reference.webp",
+      "sourceSha256": "86177777b4ee06d27b3d07c33a84c49cb75e559fcda72e4b21e0c2222ab367bc",
+      "targetSha256": "944a11232e11298aa3e6992ec944eaea7ed58ee5c86baa82394a15c5c0edf877",
+      "status": "prepared_optimized_not_uploaded",
+      "alt": "CPM-78-39 transparent cutaway illustration, not dimensioned CAD"
+    },
+    {
+      "model": "CPM-78-39",
+      "source": "78-39 图5.jpg",
+      "target": "docs/assets/images/products/cycloidal-joint-modules/cpm78-39/cpm78-39-motor-angle.webp",
+      "sourceSha256": "b9054336d0848cef5606dad53bf60884fbc48325d5bd94d7c2a171b54ba2cb16",
+      "targetSha256": "67cce4fa42bd7839c7d51f357778829bf80303e9b43355317ac1fc268354025f",
+      "status": "prepared_optimized_not_uploaded",
+      "alt": "CPM-78-39 motor-side alternate angle"
+    },
+    {
+      "model": "SG-6010D",
+      "source": "6010D 图2.jpg",
+      "target": "docs/assets/images/products/robot-joint-actuators/sg6010d/sg6010d-output-angle-new.webp",
+      "sourceSha256": "e3d5f32a1a08b5d64585fe9b5ab359feb93a51ffe5b8dedea28d207157175b27",
+      "targetSha256": "b466ca13a1f414a733c68f21eb91c58e33ea5f78f1827f50b50c2e5edce058bf",
+      "status": "prepared_optimized_not_uploaded",
+      "alt": "SG-6010D output-side product render"
+    }
+  ],
+  "excluded": [
+    {
+      "model": "SG-6010D",
+      "source": "6010D 图1.png",
+      "sha256": "4ffc9a2e9969f03ab7a45ef4abbfb3ce4cd4a4466eeb3a5129e1531cb4a95506",
+      "status": "exclude_visible_artifacts",
+      "reason": "Blank/striped regions on transparent image; unusable as product render."
+    }
+  ]
+}
