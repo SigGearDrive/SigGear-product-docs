@@ -24,6 +24,10 @@ SigGear works with engineers through this development path for applicable compac
 [Discuss Your Project](../request-cad-sample-quote.md){ .md-button .md-button--primary }
 [Send Your Drawing or Requirement](mailto:wangwanrong@siggear.com?subject=Prototype%20to%20Production%20Transmission%20Project){ .md-button }
 
+**Public production evidence:** SigGear's official 2025 catalog publishes a customization path through sample development, small-batch verification, mass production and delivery; separate company sources document the current factory and manufacturing equipment. [Review source-backed manufacturing facts](../company/source-backed-manufacturing-facts.md).
+
+**Project-specific boundary:** historical shipment data and company-level equipment do not establish one model's capacity, lead time, lifetime or inspection plan. Those remain program-specific.
+
 ## Start From the Transmission Architecture
 
 If the transmission architecture is already known, continue with the relevant engineering path:
