@@ -160,7 +160,12 @@ Complete the project brief below and click **Send Engineering Request Online** t
 
   <label>
     Application / what needs to move
-    <textarea id="sg-application" name="application" rows="3" required placeholder="Example: compact curtain drive, robotic gripper, optical adjustment mechanism..."></textarea>
+    <textarea id="sg-application" name="application" rows="3" required placeholder="Example: robotic joint, compact mechanism, existing gearbox replacement..."></textarea>
+  </label>
+
+  <label>
+    Failure symptoms / worn parts (if applicable)
+    <textarea id="sg-failure-evidence" name="failure_evidence" rows="3" placeholder="Example: final-stage gear wear after repeated cycles, backlash increasing, bearing damage, overheating, abnormal noise..."></textarea>
   </label>
 
   <div id="sg-existing-motor-fields">
@@ -359,6 +364,7 @@ The following helps narrow the configuration but does not need to be sent all at
 - motor information for gearbox-only projects
 - output shaft / mounting requirement
 - duty cycle and peak duration
+- failure symptoms / worn-part evidence for replacement projects
 - radial / axial load conditions
 - driver, encoder and communication requirements
 - prototype quantity and estimated annual volume
