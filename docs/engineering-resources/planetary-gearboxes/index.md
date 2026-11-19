@@ -1,13 +1,13 @@
 ---
-title: Planetary Gearhead Datasheets & Mechanical Interfaces | SigGear
-description: Direct links to model-specific datasheets and mechanical interface references for all 12 SigGear 8–42 mm planetary gearheads.
+title: Planetary Gearbox Datasheets, STEP & Mechanical Interfaces | SigGear
+description: Direct links to model-specific datasheets, STEP files and mechanical interface references for all 12 SigGear 8–42 mm planetary gearboxes.
 ---
 
-# Planetary Gearhead Engineering Resources
+# Planetary Gearbox Engineering Resources
 
 [**Open the 8–42 mm product download centre**](public-cad-release-v1.md)
 
-All **12 models from 8P to 42P** have publicly available **Gearhead Datasheet PDFs**, **full assembly STEP** files and **4-stage simplified STEP** references. All **12 original 2D mechanical outline PDFs (SG01PD series)** are now available. These drawings use a configurable body length **L**; the final dimensions must be confirmed for the ordered stage and ratio. Download links are on the [central Datasheets & CAD page](public-cad-release-v1.md). Separate motor-only technical PDFs are available in the [Motor Datasheets download centre](../motors/index.md).
+All **12 models from 8P to 42P** have publicly available **Datasheet PDFs**, **full assembly STEP** files and **4-stage simplified STEP** references. All **12 original 2D mechanical outline PDFs (SG01PD series)** are now available. These drawings use a configurable body length **L**; the final dimensions must be confirmed for the ordered stage and ratio. Download links are on the [central Datasheets, 2D & STEP page](public-cad-release-v1.md). Separate motor-only technical PDFs are available in the [Motor Datasheets download centre](../motors/index.md).
 
 | Model | Datasheet | Mechanical Interface | 2D Outline PDF |
 | --- | --- | --- | --- |
@@ -26,7 +26,7 @@ All **12 models from 8P to 42P** have publicly available **Gearhead Datasheet PD
 
 ## Additional Engineering References
 
-- [8–42 mm Planetary Gearhead Catalogue](../../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md)
-- [Public CAD & Drawing Release](public-cad-release-v1.md)
-- [Motor + Gearhead Integration](../../custom-engineering/motor-gearbox-integration.md)
-- [Custom Planetary Gearhead Engineering](../../custom-engineering/custom-planetary-gearbox.md)
+- [8–42 mm Planetary Gearbox Catalogue](../../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md)
+- [Public STEP & Drawing Release](public-cad-release-v1.md)
+- [Motor + Gearbox Integration](../../custom-engineering/motor-gearbox-integration.md)
+- [Custom Planetary Gearbox Engineering](../../custom-engineering/custom-planetary-gearbox.md)
