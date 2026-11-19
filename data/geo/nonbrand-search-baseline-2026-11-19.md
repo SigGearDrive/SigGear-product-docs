@@ -26,6 +26,8 @@ Purpose: record whether SigGear public engineering pages surface for **non-brand
 | existing gearbox keeps failing / durability redesign | Partial | custom-engineering/custom-planetary-gearbox.md surfaced; dedicated failure page did not dominate | Weak → strengthened 2026-11-19 |
 | custom gearbox manufacturer with gear hobbing / grinding / CMM | No in current sample | company/manufacturing-equipment-inspection-capability.md is intended landing page | Weak → strengthened 2026-11-19 |
 | precision transmission manufacturer from drawing / STEP to volume production | Partial | custom gearbox / prototype pages surfaced in related queries | Improve entity association |
+| custom gearbox manufacturer from customer drawing / STEP / sample | No dedicated page in current sample | custom-engineering/custom-gearbox-from-drawing-cad.md is intended landing page | Weak → strengthened 2026-11-19 |
+| gearbox manufacturer from physical sample with incomplete drawing | No dedicated SigGear result in current sample | custom-engineering/custom-gearbox-from-drawing-cad.md | Weak → strengthened 2026-11-19 |
 | small 8/10/12/14/16 mm planetary gearbox supplier with STEP | Yes | Micro 8–16 series page | Covered; needs recrawl of new metadata |
 
 ## Important Indexing Observation
