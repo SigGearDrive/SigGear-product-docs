@@ -46,11 +46,16 @@ The full drawing is not published as a manufacturing drawing on this website. Fi
 
 ## CAD Boundary
 
+[**Download Original 2D Drawing PDF · SG2556D / 48 mm**](../../assets/downloads/joint-actuators/CPM-100-25D_2D_Dual_Encoder_Driver_48mm.pdf){ .md-button .md-button--primary }
+
+This 2D is for the SG2556D **dual-encoder and driver** configuration only. It does not describe the 29.5 mm standard CPM-100-25.
+
+
 The **48 mm dual-encoder, driver-equipped configuration** is now available as an original full-assembly STEP reference. This file is distinct from the standard **29.5 mm** CPM-100-25 CAD.
 
 [**Download SG2556D Variant · Original Full STEP**](../../assets/downloads/joint-actuators/CPM-100-25D_Dual_Encoder_Driver_Original_Full_Assembly_20261118.step){ .md-button .md-button--primary }
 
-The matching controlled 2D manufacturing drawing is not included in this public STEP release. Confirm the precise installation configuration before production.
+The original SG2556D 2D reference is linked above. Confirm its controlled production revision and exact installation configuration before manufacture.
 
 ## Related Resources
 
