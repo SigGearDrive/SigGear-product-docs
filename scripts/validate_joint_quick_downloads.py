@@ -87,10 +87,10 @@ def asset(model: str, relative_file: str, expected_links: set[str]) -> None:
 def main() -> None:
     hub = page(HUB)
     article = hub.split("<article",1)[-1]
-    first_table = re.search(r"<table\\b[^>]*>(.*?)</table>", article, re.S | re.I)
+    first_table = re.search(r"<table\b[^>]*>(.*?)</table>", article, re.S | re.I)
     if not first_table:
         raise ValueError("No first-screen joint download matrix")
-    th_count = len(re.findall(r"<th\\b",first_table.group(1),re.I))
+    th_count = len(re.findall(r"<th\b",first_table.group(1),re.I))
     if th_count != 3:
         raise ValueError("Expected compact three-column download matrix; got " + str(th_count))
     before_fold = article.split("<details",1)[0]
