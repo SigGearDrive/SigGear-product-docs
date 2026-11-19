@@ -40,7 +40,7 @@ description: "SigGear 32P Ø32 mm miniature planetary gearhead: ratios 3.5:1–5
 | Maximum momentary torque range | 6864.7–15690.6 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.2° |
-| Permissible gearhead input speed, continuous operation | 1,000–20,000 rpm |
+| Permissible gearhead input speed, continuous operation | Motor/configuration dependent; confirm selected operating point |
 | Adapted DC motor voltage | 3–36 VDC |
 | Adapted DC motor power | below 100 W |
 | Housing material | Steel |
