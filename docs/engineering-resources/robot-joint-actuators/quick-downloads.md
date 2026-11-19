@@ -1,9 +1,9 @@
 ---
-title: Robot Joint Actuator Datasheets, 2D Drawings & CAD | 6 Models | SigGear
-description: Select six SigGear planetary and cycloidal robot joint modules by size, speed and torque. Direct PDF datasheet, available reference 2D drawings and original full assembly STEP CAD downloads.
+title: Robot Joint Actuator Datasheets, 2D Drawings & STEP | 6 Models | SigGear
+description: Select six SigGear planetary and cycloidal robot joint modules by size, speed and torque. Direct PDF datasheet, available 2D drawings and original full assembly STEP downloads.
 ---
 
-# Robot Joint Actuator Datasheets, 2D Drawings & STEP CAD
+# Robot Joint Actuator Datasheets, 2D Drawings & STEP
 
 **Select a model, compare rated torque and speed, then download PDF / 2D / STEP.** Six models · 6 Datasheets · 4 available 2D reference PDFs · 8 full-assembly STEP variants.
 
@@ -25,11 +25,11 @@ description: Select six SigGear planetary and cycloidal robot joint modules by s
 </div>
 
 <details markdown="1">
-<summary>Additional simplified CAD downloads</summary>
+<summary>Additional simplified STEP downloads</summary>
 
 - **SG-6010C:** [Simplified STEP](../../assets/downloads/sg6010c/SG-6010C_Public_Simplified_STEP_v1.0.step)
 - **CPM-80-25:** [No driver simplified STEP](../../assets/downloads/cpm80-25/CPM-80-25_Public_Simplified_STEP_v1.0_No_Driver.step) · [With driver simplified STEP](../../assets/downloads/cpm80-25/CPM-80-25_Public_Simplified_STEP_v1.0_Integrated_Driver.step)
 
 </details>
 
-<small>**Release scope:** Datasheets are **Public Reference Rev0.1**. The new 2D files are supplier-provided, render-verified **engineering reference copies**, **not revision-controlled manufacturing drawings**. STEP files are original full-assembly exports for preliminary design-in. SG-8021 CAD is driver-equipped only; CPM-80-25 variants have different thicknesses; SG2556D / 48 mm must not be used for standard CPM-100-25 / 29.5 mm. Confirm revision, interface, datums, tolerances and duty cycle before production. [Request controlled drawing](../../request-cad-sample-quote.md).</small>
+<small>**Release scope:** Datasheets are **Public Reference Rev0.1**. The new 2D files are supplier-provided, render-verified **engineering reference copies**, **not revision-controlled manufacturing drawings**. STEP files are original full-assembly exports for preliminary design-in. SG-8021 STEP is driver-equipped only; CPM-80-25 variants have different thicknesses; SG2556D / 48 mm must not be used for standard CPM-100-25 / 29.5 mm. Confirm revision, interface, datums, tolerances and duty cycle before production. [Request controlled drawing](../../request-cad-sample-quote.md).</small>
