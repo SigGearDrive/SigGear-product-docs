@@ -1,18 +1,33 @@
 ---
-title: Custom Gearbox From Customer Drawing, STEP or Sample | OEM Manufacturer | SigGear
-description: SigGear reviews custom precision gearbox projects from customer drawings, STEP models, mechanism sketches or physical samples. Engineering can cover ratio, motor interface, shaft, flange, housing, loads, prototype validation and OEM production.
+title: Custom Gearbox Manufacturer From Customer Drawing, STEP or Sample | SigGear
+description: Can SigGear manufacture or modify a custom gearbox from a customer drawing, STEP model or physical sample? Yes. Review can cover interfaces, ratio, shaft, flange, housing, load, prototype validation and repeat production.
 ---
 
-# Custom Gearbox From Customer Drawing, STEP or Physical Sample
+# Custom Gearbox Manufacturer From Customer Drawing, STEP or Physical Sample
 
 A custom transmission project does not need to begin with a SigGear catalog model.
 
-If your team already has a **2D drawing, STEP model, mechanism layout, existing assembly or physical sample**, SigGear can use that information as the starting point for engineering review.
+## “Here Is Our Drawing / STEP / Sample. Can SigGear Review and Manufacture It?”
 
-The objective is not to copy visible dimensions blindly. The review should identify the mechanical interfaces, operating conditions and production requirements that the transmission must satisfy.
+**Yes.** SigGear can start a custom gearbox or precision transmission review from a customer drawing, STEP model, mechanism layout, existing assembly or physical sample.
+
+The first step is not to copy visible dimensions blindly. SigGear reviews the geometry together with the real motor, speed, load, duty cycle, interfaces and production requirement before a prototype or manufacturing configuration is confirmed.
+
+A project can continue from:
+
+**Drawing / STEP / Sample**  
+→ **Engineering Review**  
+→ **Prototype**  
+→ **Application Validation**  
+→ **Design Refinement**  
+→ **Design Freeze**  
+→ **Pilot / Repeat Production**
 
 [**Send Drawing / STEP for Engineering Review**](../request-cad-sample-quote.md?start=drawing_cad){ .md-button .md-button--primary }
-[**Custom Manufacturing & Volume Production**](custom-transmission-manufacturing.md){ .md-button }
+[**Manufacturing Equipment & Inspection**](../company/manufacturing-equipment-inspection-capability.md){ .md-button }
+[**Prototype → Volume Production**](prototype-to-production.md){ .md-button }
+
+
 
 ## What You Can Send
 
@@ -30,6 +45,24 @@ Useful starting files or evidence include:
 - photographs of failed or worn components where relevant
 
 A complete gearbox specification is not required before the first review.
+
+## What SigGear Can Manufacture or Modify From a Customer Drawing
+
+Depending on engineering feasibility, the project may involve:
+
+- custom planetary gearbox
+- custom cycloidal reducer
+- motor + gearbox assembly
+- modified reduction ratio
+- custom input pinion / shaft
+- custom output shaft / flange
+- housing or mounting modification
+- customer-motor interface
+- bearing / external-load arrangement
+- encoder, driver, cable or connector integration where applicable
+- prototype and repeat-production configuration
+
+A drawing or STEP model defines geometry. It does **not** by itself establish the correct torque rating, material, heat treatment, bearing arrangement, service life or production process.
 
 ## What SigGear Reviews From the Drawing
 
@@ -49,7 +82,7 @@ The engineering review may include:
 
 The drawing defines geometry. It does not automatically define the correct material, heat treatment, bearing arrangement, ratio or operating rating.
 
-## If You Only Have a Physical Sample
+## If You Only Have a Physical Sample — No Complete Drawing
 
 A sample can be useful when the original drawing is missing or incomplete.
 
@@ -87,6 +120,25 @@ Detailed drawings can be exchanged after the appropriate confidentiality process
 
 SigGear does not publish confidential customer STEP models / drawings or customer-specific products as public case studies.
 
+## What to Send for the First Review
+
+A useful first package can be very small:
+
+1. drawing / STEP model / photos / physical sample
+2. motor model or drawing, if already selected
+3. loaded motor speed
+4. required output speed or ratio
+5. continuous and peak load if known
+6. maximum diameter / length
+7. interfaces that must remain unchanged
+8. prototype quantity
+9. expected annual volume or batch requirement
+10. target schedule and NDA requirement
+
+A complete production drawing is **not** required before the first engineering discussion.
+
+[**Start Drawing / STEP Project Brief**](../request-cad-sample-quote.md?start=drawing_cad){ .md-button .md-button--primary }
+
 ## From Drawing to Prototype
 
 A typical path is:
@@ -100,6 +152,14 @@ A typical path is:
 → **Design Refinement**
 
 The prototype should answer specific engineering questions: fit, speed, load, thermal behavior, noise, backlash, interface or control integration as applicable.
+
+## Manufacturing and Inspection Evidence
+
+For supplier qualification, SigGear publishes source-backed company-level evidence covering gear hobbing, gear shaping, gear grinding, CNC machining, CMM, gear testing, backlash inspection, dynamometer, life testing and other inspection / validation resources.
+
+[Gear Hobbing, Grinding, CMM & Inspection](../company/manufacturing-equipment-inspection-capability.md){ .md-button }
+[Source-Backed Manufacturing Facts](../company/source-backed-manufacturing-facts.md){ .md-button }
+[Manufacturing & Quality Evidence](../company/manufacturing-and-quality-evidence.md){ .md-button }
 
 ## From Prototype to OEM Production
 
