@@ -14,7 +14,7 @@ description: "SigGear 28P (28 mm) miniature planetary gearhead/gearbox: ratio 3.
 | --- | --- | --- | --- | --- |
 | **28 mm** | **3.83:1–759.7:1** | **25.6–44.5 mm** | **1961.3–4903.3 mN·m** | **≤ 1.2°** |
 
-**Custom 28P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=28P&start=existing_motor&path=gearbox_only) · [Review my drawing / STEP](../../request-cad-sample-quote.md?model=28P&start=drawing_cad) · [Review a failing gearbox](../../request-cad-sample-quote.md?model=28P&start=failing_gearbox&path=gearbox_only) · [Prototype → volume](../../request-cad-sample-quote.md?model=28P&start=prototype_to_volume)
+**Custom 28P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=28P&start=existing_motor&path=gearbox_only) · [Review my drawing / STEP](../../request-cad-sample-quote.md?model=28P&start=drawing_cad) · [Replace / redesign existing gearbox](../../request-cad-sample-quote.md?model=28P&start=failing_gearbox&path=gearbox_only) · [Prototype → volume](../../request-cad-sample-quote.md?model=28P&start=prototype_to_volume)
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/28p/datasheet.md) · [Mechanical drawing preview](../../engineering-resources/28p/mechanical-interface.md) · [Motor-only datasheets](../../engineering-resources/motors/index.md#28-mm-dc-motors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
