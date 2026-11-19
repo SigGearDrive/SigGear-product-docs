@@ -101,7 +101,7 @@
     };
 
     var relevant = selectedPath !== "joint_actuator" && selectedPath !== "hub_gear_motor" &&
-      (!!candidate || value("sg-next-step") === "CAD / STEP review");
+      (!!candidate || value("sg-next-step") === "STEP / Drawing review");
     var ready = relevant &&
       gates.candidate &&
       gates.motor_interface &&
@@ -137,8 +137,8 @@
     if (!readiness.relevant) return;
 
     cadReadinessStatus.textContent = readiness.ready ?
-      "Ready for CAD Review — enough information is present for SigGear engineering to begin a configuration-specific CAD review." :
-      "Need More Information — complete the missing gates below before treating the request as CAD-review ready.";
+      "Ready for STEP / Drawing Review — enough information is present for SigGear engineering to begin a configuration-specific STEP / drawing review." :
+      "Need More Information — complete the missing gates below before treating the request as STEP / drawing-review ready.";
 
     if (readiness.selected_path === "motor_gearbox" && !readiness.gates.motor_interface) {
       cadReadinessStatus.textContent += " For a complete motor + gearhead project, the drive-side interface remains open until SigGear confirms the motor / adapter configuration.";
@@ -270,7 +270,7 @@
         if (applicationField && !applicationField.value) {
           if (queryStart === "failing_gearbox") applicationField.value = "Existing gearbox / reducer failure and redesign review";
           if (queryStart === "existing_motor") applicationField.value = "Existing motor + custom gearhead / transmission review";
-          if (queryStart === "drawing_cad") applicationField.value = "Custom transmission review from customer drawing / CAD / sample";
+          if (queryStart === "drawing_cad") applicationField.value = "Custom transmission review from customer drawing / STEP / sample";
           if (queryStart === "prototype_to_volume") applicationField.value = "Custom transmission prototype-to-volume production program";
         }
       }
@@ -470,18 +470,18 @@
     var readiness = cadReadiness();
     if (readiness.relevant) {
       lines.push("");
-      lines.push("Controlled CAD review readiness: " +
-        (readiness.ready ? "Ready for CAD Review" : "Need More Information"));
-      lines.push("CAD gate — candidate configuration: " + (readiness.gates.candidate ? "Provided" : "Missing"));
-      lines.push("CAD gate — motor / drive-side interface: " + (readiness.gates.motor_interface ? "Provided" : "Missing"));
-      lines.push("CAD gate — output interface: " + (readiness.gates.output_interface ? "Provided" : "Missing"));
-      lines.push("CAD gate — load / duty: " + (readiness.gates.load_duty ? "Provided" : "Missing"));
-      lines.push("CAD gate — installation envelope: " + (readiness.gates.envelope ? "Provided" : "Missing"));
-      lines.push("Readiness means enough information for engineering CAD review; controlled CAD release still requires SigGear confirmation.");
+      lines.push("STEP / drawing review readiness: " +
+        (readiness.ready ? "Ready for STEP / Drawing Review" : "Need More Information"));
+      lines.push("Review gate — candidate configuration: " + (readiness.gates.candidate ? "Provided" : "Missing"));
+      lines.push("Review gate — motor / drive-side interface: " + (readiness.gates.motor_interface ? "Provided" : "Missing"));
+      lines.push("Review gate — output interface: " + (readiness.gates.output_interface ? "Provided" : "Missing"));
+      lines.push("Review gate — load / duty: " + (readiness.gates.load_duty ? "Provided" : "Missing"));
+      lines.push("Review gate — installation envelope: " + (readiness.gates.envelope ? "Provided" : "Missing"));
+      lines.push("Readiness means enough information for engineering STEP / drawing review; final production files still require SigGear confirmation.");
     }
 
     lines.push("");
-    lines.push("I can attach a motor drawing, mechanism sketch or CAD screenshot if needed.");
+    lines.push("I can attach a motor drawing, mechanism sketch or STEP model if needed.");
 
     return lines.join("\n");
   }
@@ -500,7 +500,7 @@
     var prefix = subjectParts.length ? subjectParts.join(" - ") + " - " : "";
     var start = value("sg-starting-point");
     if (start === "failing_gearbox") return prefix + "Existing Gearbox Failure / Replacement Review";
-    if (start === "drawing_cad") return prefix + "Drawing / CAD Custom Transmission Review";
+    if (start === "drawing_cad") return prefix + "Drawing / STEP Custom Transmission Review";
     if (start === "prototype_to_volume") return prefix + "Prototype to Volume Production Review";
     if (start === "existing_motor") return prefix + "Existing Motor + Custom Gearhead Review";
     if (path.value === "gearbox_only") return prefix + "Gearhead Only Engineering Review";
