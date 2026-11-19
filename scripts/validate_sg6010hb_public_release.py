@@ -40,13 +40,13 @@ def main() -> None:
     require(cfg["source_step_sha256"] == EXPECTED_SHA, "Changed source STEP SHA")
     require(record["source_sha256"] == EXPECTED_SHA, "Source file audit SHA mismatch")
     require(record["source_bytes"] == 24656102, "Source file audit size mismatch")
-    require(record["source_code"] == "SG2908B", "Mismatched source drawing code")
+    require(record["public_model"] == "SG-6010HB", "Mismatched public product model")
     require(record["assembly_solids"] == 46, "OCP import evidence missing")
     box = record["all_solid_bounding_box_mm"]
     require(72.4 < box["x"] < 72.6 and 34.8 < box["y"] < 35.0,
             "Source geometry audit envelope changed without review")
     require(record["public_cad_release"] is False,
-            "Raw internal SG2908B CAD must not be auto-released")
+            "Raw internal SG-6010HB CAD must not be auto-released")
     require("HOLD" in record["publication_status"], "Missing geometry release hold")
     require(cfg["public_raw_assembly_step"] is False, "YAML permits raw internal STEP")
     require("hold" in cfg["source_step_geometry_status"], "CAD source not under review")
@@ -54,8 +54,11 @@ def main() -> None:
     # The full assembly cannot silently appear in any publicly published asset.
     for step in DOCS.rglob("*"):
         if step.is_file() and step.suffix.lower() in (".step", ".stp"):
-            require(not re.search("sg2908b|sg.?6010hb", step.name, re.IGNORECASE),
+            require(not re.search(r"sg.?6010hb", step.name, re.IGNORECASE),
                     "Unapproved SG-6010HB source CAD publicly packaged: " + str(step))
+            if step.stat().st_size == record["source_bytes"]:
+                require(hashlib.sha256(step.read_bytes()).hexdigest() != EXPECTED_SHA,
+                        "Unapproved SG-6010HB source STEP published under another file name")
 
     require(PDF.is_file() and PDF.stat().st_size >= 2500,
             "SG-6010HB reference PDF not built")
@@ -68,6 +71,18 @@ def main() -> None:
     for marker in ("SG-6010HB", "67.0 mm", "25.57 mm",
                    "6 Nm", "18 Nm", "CAD release hold"):
         require(marker in extracted, "SG-6010HB reference PDF missing: " + marker)
+
+    # Guard canonical public naming: never expose a supplier-internal code
+    # in rendered reference PDFs, public Markdown or source release metadata.
+    nonpublic_code = "SG" + "2908B"
+    require(nonpublic_code not in extracted, "Internal code exposed in reference PDF")
+    for source_file in (
+        MODEL, TECH / "datasheet.md", TECH / "mechanical-interface.md",
+        PRODUCT_DATA, AUDIT,
+        ROOT / ".github/joint-drawing-photo-inbox/source_register_2026-11-19.json"
+    ):
+        require(nonpublic_code not in source_file.read_text(encoding="utf-8"),
+                "Internal source code leaked in " + str(source_file))
 
     model_text = MODEL.read_text(encoding="utf-8")
     mech_text = (TECH / "mechanical-interface.md").read_text(encoding="utf-8")
