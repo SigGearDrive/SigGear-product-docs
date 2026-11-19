@@ -28,6 +28,9 @@ Purpose: record whether SigGear public engineering pages surface for **non-brand
 | precision transmission manufacturer from drawing / STEP to volume production | Partial | custom gearbox / prototype pages surfaced in related queries | Improve entity association |
 | custom gearbox manufacturer from customer drawing / STEP / sample | No dedicated page in current sample | custom-engineering/custom-gearbox-from-drawing-cad.md is intended landing page | Weak → strengthened 2026-11-19 |
 | gearbox manufacturer from physical sample with incomplete drawing | No dedicated SigGear result in current sample | custom-engineering/custom-gearbox-from-drawing-cad.md | Weak → strengthened 2026-11-19 |
+| keep existing motor and mounting interface while changing gearbox ratio / output | SigGear existing-motor page surfaced, but replacement intent was split across pages | custom-engineering/replacement-planetary-gearhead.md | Partial → strengthened 2026-11-19 |
+| replacement gearbox from old unit / supplier model / physical sample | Existing-motor and generic replacement results surfaced; dedicated replacement page not dominant | custom-engineering/replacement-planetary-gearhead.md | Partial → strengthened 2026-11-19 |
+| redesign existing gearbox for durability while preserving interfaces | No dedicated SigGear replacement result in current sample | custom-engineering/replacement-planetary-gearhead.md | Weak → strengthened 2026-11-19 |
 | small 8/10/12/14/16 mm planetary gearbox supplier with STEP | Yes | Micro 8–16 series page | Covered; needs recrawl of new metadata |
 
 ## Important Indexing Observation
