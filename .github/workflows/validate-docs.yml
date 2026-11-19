@@ -47,6 +47,8 @@ on:
       - "scripts/validate_motor_quick_downloads.py"
       - "scripts/test_motor_quick_downloads.js"
       - "scripts/build_joint_datasheets.py"
+      - "scripts/build_hub_motor_datasheets.py"
+      - "scripts/validate_hub_motor_datasheets.py"
       - "scripts/validate_joint_product_media.py"
       - "scripts/validate_sg6010hb_public_release.py"
       - "scripts/validate_joint_upload_source_register.py"
@@ -85,6 +87,8 @@ on:
       - "scripts/validate_motor_quick_downloads.py"
       - "scripts/test_motor_quick_downloads.js"
       - "scripts/build_joint_datasheets.py"
+      - "scripts/build_hub_motor_datasheets.py"
+      - "scripts/validate_hub_motor_datasheets.py"
       - "scripts/validate_joint_product_media.py"
       - "scripts/validate_joint_upload_source_register.py"
       - ".github/joint-drawing-photo-inbox/**"
@@ -138,6 +142,9 @@ jobs:
 
       - name: Generate six standard and separate SG-6010HB reference PDF datasheets
         run: python scripts/build_joint_datasheets.py
+
+      - name: Build SG-2877 and SG-2878 source-backed hub reference PDFs
+        run: python scripts/build_hub_motor_datasheets.py
 
       - name: Verify robot joint product images, downloads and release status
         run: python scripts/validate_joint_product_media.py
@@ -240,6 +247,9 @@ jobs:
 
       - name: Verify SG-6010HB public PDF and unmatched STEP release hold
         run: python scripts/validate_sg6010hb_public_release.py
+
+      - name: Verify hub motor PDFs, source drawing conditions and CAD release hold
+        run: python scripts/validate_hub_motor_datasheets.py
 
       - name: Verify six joint first-screen PDF and original STEP downloads
         run: python scripts/validate_joint_quick_downloads.py

@@ -47,4 +47,9 @@ technical_review:
 source_control:
   public_claim_source: canonical_page
   technical_source_status: not_recorded_in_public_repository
+  source_register: data/engineering/hub-motor-reference-sources-20261119.yml
+  public_pdf: docs/assets/downloads/hub-gear-motors/SG-2877_Public_Reference_Datasheet_Rev0.1.pdf
+  source_cad_format: Parasolid_x_t_not_STEP
+  source_cad_release: not_yet_verified_for_public_download
+
 inventory_checked_on: "2026-07-23"
