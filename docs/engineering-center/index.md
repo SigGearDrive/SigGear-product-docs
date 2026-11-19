@@ -5,6 +5,8 @@ description: Download SigGear robot joint actuator datasheets, 2D reference PDFs
 
 # SigGear Engineering Center
 
+SigGear's public engineering resources are designed to support both **standard-product evaluation and custom transmission development**. The released products are public reference platforms; many customer-specific products and production programs remain confidential.
+
 This Engineering Center is organized around the way an engineer normally evaluates a transmission product:
 
 **find a relevant model -> check the published data -> evaluate the mechanical interface -> test a sample -> freeze the configuration for design-in.**
@@ -18,6 +20,7 @@ Use the public resources below for preliminary engineering evaluation. Robot act
 
 | Engineering task | Start here |
 | --- | --- |
+| Need custom engineering, volume manufacturing or production review | [Custom Manufacturing & Volume Production](../custom-engineering/custom-transmission-manufacturing.md) |
 | Need a custom transmission or feasibility review | [Custom Precision Transmission Engineering](../custom-engineering/index.md) |
 | Select an 8–42 mm planetary gearhead by speed, ratio and diameter | [Micro, Miniature & Compact Planetary Gearbox Selector](../selection-guides/miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder) |
 | Download model-specific 8–42 mm public STEP reference files | [12-Model Planetary Gearbox CAD Library](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) |
