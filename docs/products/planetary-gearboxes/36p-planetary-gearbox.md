@@ -1,6 +1,6 @@
 ---
 title: 36 mm Compact Precision Planetary Gearhead (36P) | SigGear
-description: "SigGear 36P (36 mm) compact planetary gearhead/gearbox: ratio 3.66:1–625:1, rated torque 3922.7–9806.6 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
+description: "SigGear 36P (36 mm) compact planetary gearhead/gearbox: ratio 3.66:1–625:1, rated torque 3922.7–9806.6 mN·m. Direct PDF datasheet, 2D drawing and STEP."
 ---
 
 # 36 mm Compact Precision Planetary Gearhead (36P)
@@ -14,7 +14,7 @@ description: "SigGear 36P (36 mm) compact planetary gearhead/gearbox: ratio 3.66
 | --- | --- | --- | --- | --- |
 | **36 mm** | **3.66:1–625:1** | **30.6–61.5 mm** | **3922.7–9806.6 mN·m** | **≤ 1.2°** |
 
-**Custom 36P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=36P&start=existing_motor&path=gearbox_only) · [Review my drawing / CAD](../../request-cad-sample-quote.md?model=36P&start=drawing_cad) · [Prototype → volume](../../request-cad-sample-quote.md?model=36P&start=prototype_to_volume)
+**Custom 36P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=36P&start=existing_motor&path=gearbox_only) · [Review my drawing / STEP](../../request-cad-sample-quote.md?model=36P&start=drawing_cad) · [Review a failing gearbox](../../request-cad-sample-quote.md?model=36P&start=failing_gearbox&path=gearbox_only) · [Prototype → volume](../../request-cad-sample-quote.md?model=36P&start=prototype_to_volume)
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/36p/datasheet.md) · [Mechanical drawing preview](../../engineering-resources/36p/mechanical-interface.md) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
@@ -86,7 +86,7 @@ These are adapted-motor conditions, not an electrical voltage or power rating fo
 
 The published drawing shows a 36 mm body diameter and stage-dependent gearhead lengths of 30.6, 40.9, 51.2 and 61.5 mm. Use the approved drawing for shaft geometry, mounting holes, input-interface details and tolerance notation.
 
-## CAD Notes
+## STEP Notes
 
 The **Full Assembly STEP** is the published original Creo assembly. The **Simplified STEP** is a separate 4-stage reference for preliminary mechanical packaging. The [36P 2D outline drawing](../../assets/downloads/36p/36P_2D_Drawing.pdf) is the original **SG01PD36** interface reference. The body length **L ±0.3 mm** is configuration-dependent; confirm stage, ratio and motor mating dimensions before production.
 
