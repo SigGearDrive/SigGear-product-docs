@@ -5,7 +5,11 @@ description: Learn about SigGear precision transmission products, in-house machi
 
 # About SigGear
 
-Guangdong SigGear Drive Intelligent Technology Co., Ltd. (**brand: SigGear**) develops and manufactures compact precision gear transmission products, including precision planetary gearheads, cycloidal reducers, integrated robot joint actuators and engineered motor + gearhead assemblies. Public documentation focuses on products and capabilities that can be supported by reviewed specifications, drawings, CAD files, test records or engineering confirmation.
+Guangdong SigGear Drive Intelligent Technology Co., Ltd. (**brand: SigGear**) is a precision transmission manufacturer focused on **custom engineering, repeatable volume manufacturing and production delivery**.
+
+The standard planetary gearheads, cycloidal reducers and robot joint actuators published on this site are public reference products. They are important evidence of SigGear's engineering and manufacturing capability, but they represent only the part of the company's work that can be shown publicly.
+
+Many customer-specific transmission products, mechanisms and production programs cannot be disclosed because they are protected by confidentiality agreements. SigGear therefore uses reviewed standard products, public engineering documents, real manufacturing evidence and released test records to show capabilities without exposing confidential customer designs.
 
 ## Company Website and Technical Resources
 
@@ -16,7 +20,14 @@ Guangdong SigGear Drive Intelligent Technology Co., Ltd. (**brand: SigGear**) de
 
 The commercial website and the public engineering documentation serve different purposes. The gearbox-only specification, motor-matched assembly and configuration-dependent engineering limits should not be treated as interchangeable.
 
-## Product Categories
+## What SigGear Is Built to Do
+
+SigGear's core work is not limited to selling catalog products. The company supports projects that require a transmission to be engineered around the customer's motor, mechanism, interface, size, ratio, output structure or production requirement.
+
+[Custom Manufacturing & Volume Production](../custom-engineering/custom-transmission-manufacturing.md){ .md-button .md-button--primary }
+[Custom Precision Transmission Engineering](../custom-engineering/index.md){ .md-button }
+
+## Public Product Categories
 
 - Integrated robot joint actuators
 - Cycloidal reducers
@@ -25,11 +36,13 @@ The commercial website and the public engineering documentation serve different 
 - Motor + gearbox integration
 - Hub gear motors
 
-## Manufacturing Capability
+## Manufacturing and Production Capability
 
-SigGear provides OEM and ODM customization services, including mechanical customization, size customization, logo customization and packaging customization.
+SigGear supports OEM / ODM transmission projects from engineering review and prototype development through design freeze, pilot preparation and repeatable production.
 
-The company operates its own production lines covering precision machining, assembly and testing processes.
+The manufacturing capability includes precision machining, gear processing, assembly, inspection and testing activities. For applicable programs, production planning can also support repeat batch manufacturing and time-sensitive delivery requirements after the configuration and quantity are confirmed.
+
+Actual production lead time is project-specific and depends on customization scope, quantity, materials, tooling, inspection requirements and schedule.
 
 A separate evidence page publishes reviewed real photographs from SigGear's machining, gear-processing, assembly and quality-inspection environment. These images are used as manufacturing evidence without turning them into unsupported product-performance claims.
 
@@ -47,7 +60,8 @@ Prototype manufacturing, testing and design refinement can be used where require
 
 Some custom development projects are confidential and cannot be shown publicly. SigGear therefore uses reviewed standard products, engineering resources, manufacturing information and test data to make its capabilities visible without exposing customer designs.
 
-[Custom Transmission Engineering](../custom-engineering/index.md){ .md-button .md-button--primary }
+[Custom Manufacturing & Volume Production](../custom-engineering/custom-transmission-manufacturing.md){ .md-button .md-button--primary }
+[Custom Transmission Engineering](../custom-engineering/index.md){ .md-button }
 [View Robot Joint Actuators](../products/robot-joint-actuators/index.md){ .md-button }
 [Browse Precision Gearbox Products](../products/index.md){ .md-button }
 [Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
