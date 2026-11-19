@@ -22,7 +22,7 @@ SigGear works with engineers through this development path for applicable compac
 
 If the transmission architecture is already known, continue with the relevant engineering path:
 
-[Custom Planetary Gearbox Engineering](custom-planetary-gearbox.md){ .md-button }
+[Custom Planetary Gearhead Engineering](custom-planetary-gearbox.md){ .md-button }
 [Custom Cycloidal Transmission Engineering](custom-cycloidal-transmission.md){ .md-button }
 [Custom Robot Joint Actuator Development](robot-joint-actuator-development.md){ .md-button }
 
