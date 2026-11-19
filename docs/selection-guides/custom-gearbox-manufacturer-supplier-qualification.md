@@ -5,6 +5,17 @@ description: Engineering and procurement checklist for evaluating a custom gearb
 
 # How to Evaluate a Custom Gearbox Manufacturer
 
+## Quick Answer
+
+When qualifying a custom gearbox manufacturer, check six things first:
+
+1. **Engineering review** — can the supplier start from your motor, drawing, STEP model, old unit or physical sample?
+2. **Gear manufacturing** — are relevant gear-processing methods such as hobbing, shaping or grinding actually documented?
+3. **Inspection** — can critical geometry, gear mesh and backlash be measured with appropriate equipment such as CMM / gear inspection resources?
+4. **Validation** — can the supplier plan torque, speed, durability or application-specific testing where required?
+5. **Prototype → production** — is there a defined path through prototype, design refinement, design freeze, pilot and repeat manufacturing?
+6. **Evidence and confidentiality** — are manufacturing claims source-backed, and can customer-specific files remain confidential?
+
 A custom gearbox supplier should not be evaluated only from a product catalog or a finished sample.
 
 For an OEM project, the more useful question is:
