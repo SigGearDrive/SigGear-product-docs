@@ -1,6 +1,6 @@
 ---
 title: "Custom Gearbox Manufacturer From Motor, Drawing or Failed Unit | SigGear"
-description: "Need a custom gearbox or precision reducer from an existing motor, customer drawing, CAD model, failed gearbox or prototype-to-volume plan? SigGear reviews the transmission and manufacturing path."
+description: "Need a custom gearbox or precision reducer from an existing motor, customer drawing, STEP model, failed gearbox or prototype-to-volume plan? SigGear reviews the transmission and manufacturing path."
 ---
 
 # Custom Gearbox & Transmission Review — Start From Your Motor, Drawing or Failed Unit
@@ -19,7 +19,7 @@ They start with a practical engineering problem:
 
 These are exactly the kinds of projects SigGear is built to review.
 
-SigGear is a precision transmission manufacturer focused on **custom engineering, prototype development, repeatable volume manufacturing and production delivery**. The public 8–42 mm planetary gearheads, cycloidal reducers and robot joint actuators are reference platforms; many customer-specific products and production programs remain confidential.
+SigGear is a precision transmission manufacturer focused on **custom engineering, prototype development, repeatable volume manufacturing and production delivery**. The public 8–42 mm planetary gearboxes, cycloidal reducers and robot joint actuators are reference platforms; many customer-specific products and production programs remain confidential.
 
 [**Start an Engineering Review**](../request-cad-sample-quote.md){ .md-button .md-button--primary }
 [**Custom Manufacturing & Volume Production**](custom-transmission-manufacturing.md){ .md-button }
@@ -41,12 +41,12 @@ Useful information includes:
 
 The final reduction ratio does not need to be known before the first review.
 
-[Planetary Gearhead for an Existing Motor](custom-planetary-gearbox.md){ .md-button .md-button--primary }
+[Planetary Gearbox for an Existing Motor](custom-planetary-gearbox.md){ .md-button .md-button--primary }
 [Start Existing-Motor Review](../request-cad-sample-quote.md?start=existing_motor&path=gearbox_only){ .md-button }
 
 ## “Here Is Our Drawing.”
 
-A project can also start from a customer CAD model, mechanism drawing, installation envelope or marked-up sketch.
+A project can also start from a customer STEP model, mechanism drawing, installation envelope or marked-up sketch.
 
 SigGear can review:
 
@@ -61,8 +61,8 @@ SigGear can review:
 
 A simple mechanism drawing can be enough to begin identifying the missing engineering inputs.
 
-[Custom Gearbox From Drawing / CAD](custom-gearbox-from-drawing-cad.md){ .md-button .md-button--primary }
-[Start Drawing / CAD Review](../request-cad-sample-quote.md?start=drawing_cad){ .md-button }
+[Custom Gearbox From Drawing / STEP](custom-gearbox-from-drawing-cad.md){ .md-button .md-button--primary }
+[Start Drawing / STEP Review](../request-cad-sample-quote.md?start=drawing_cad){ .md-button }
 
 ## “Our Current Gearbox Keeps Failing.”
 
@@ -83,7 +83,7 @@ Useful inputs include:
 
 The objective is not to promise a “perfect replacement” from a photo. It is to understand **why the original unit is failing** and whether a revised transmission can be designed and manufactured around the actual operating condition.
 
-[Replacement Planetary Gearhead Review](replacement-planetary-gearhead.md){ .md-button .md-button--primary }
+[Replacement Planetary Gearbox Review](replacement-planetary-gearhead.md){ .md-button .md-button--primary }
 [Start Failure / Replacement Review](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button }
 
 ## “We Need Prototypes First, Then Thousands in Production.”
@@ -131,16 +131,16 @@ If an NDA is required before detailed drawings are shared, the first discussion 
 - production volume
 - confidentiality requirement
 
-Detailed CAD and project files can be exchanged after the appropriate confidentiality process is agreed.
+Detailed STEP models, drawings and project files can be exchanged after the appropriate confidentiality process is agreed.
 
 ## What SigGear Can Develop or Review
 
 Depending on engineering feasibility:
 
-- custom planetary gearheads
+- custom planetary gearboxes / gearheads
 - custom cycloidal reducers
 - robot joint modules
-- motor + gearhead assemblies
+- motor + gearbox assemblies
 - customer-motor integration
 - reduction ratio
 - input pinion / shaft
@@ -156,10 +156,10 @@ Not every parameter can be changed independently, and a change to ratio, motor, 
 
 SigGear publishes standard products because engineers need something real to inspect:
 
-- [8–42 mm Precision Planetary Gearheads](../products/planetary-gearboxes/index.md)
+- [8–42 mm Precision Planetary Gearboxes](../products/planetary-gearboxes/index.md)
 - [Planetary Robot Joint Actuators](../products/robot-joint-actuators/index.md)
 - [Cycloidal Robot Joint Modules](../products/cycloidal-joint-modules/index.md)
-- [Public Datasheets, 2D Drawings and STEP CAD](../engineering-center/index.md)
+- [Public Datasheets, 2D Drawings and STEP Files](../engineering-center/index.md)
 
 These public products demonstrate real engineering and manufacturing capability. They do **not** represent the full range of confidential customer-specific transmission work.
 
@@ -169,7 +169,7 @@ You can send:
 
 - a motor
 - a drawing
-- a CAD screenshot
+- a STEP model or drawing screenshot
 - a failed gearbox
 - a mechanism sketch
 - a torque / speed requirement
