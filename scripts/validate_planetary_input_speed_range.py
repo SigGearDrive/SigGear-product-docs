@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""Cross-check engineering-confirmed 8P-42P continuous input-speed range."""
+"""Validate the current planetary gearhead input-speed policy.
+
+SigGear no longer applies one universal 1,000-20,000 rpm continuous
+input-speed range across every 8P-42P gearhead. Permissible input speed
+must be reviewed with the selected motor, gearhead configuration, duty
+cycle and operating point. The current 12P engineering data separately
+confirms 1,000-50,000 rpm.
+"""
 
 from __future__ import annotations
 
@@ -9,53 +16,57 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MODELS = ("8p", "10p", "12p", "14p", "16p", "20p", "22p", "24p", "28p", "32p", "36p", "42p")
-RANGE = "1,000–20,000 rpm"
+LEGACY_RANGE = "1,000–20,000 rpm"
+GENERIC_POLICY = "Motor/configuration dependent; confirm selected operating point"
+RANGE_12P = "1,000–50,000 rpm"
 DATA = ROOT / "docs/assets/data/planetary-ratio-stage-data.json"
 
-def check(path: Path, label: str) -> None:
-    text = path.read_text(encoding="utf-8")
-    if RANGE not in text:
-        raise ValueError(f"{label} has no confirmed continuous input-speed range: {path}")
-    # Do not accidentally republish the deprecated 8,000 rpm continuous ceiling.
-    if re.search(r"(?:≤|<=)\s*8,000\s*rpm", text):
-        raise ValueError(f"{label} still has an obsolete 8,000 rpm input-speed limit: {path}")
+
+def text(path: Path) -> str:
+    return path.read_text(encoding="utf-8")
+
 
 def main() -> None:
-    obj = json.loads(DATA.read_text(encoding="utf-8"))
-    bounds = obj.get("continuous_input_speed_rpm") or {}
-    assert (bounds.get("min"), bounds.get("max")) == (1000, 20000), bounds
-    assert bounds.get("operating_mode") == "continuous"
-    assert bounds.get("confirmed_on") == "2026-10-15"
+    obj = json.loads(text(DATA))
+    policy = obj.get("input_speed_policy") or {}
+    assert policy.get("rule") == "motor_and_configuration_dependent", policy
+    assert policy.get("confirmed_on") == "2026-11-19", policy
+
+    model_specific = policy.get("model_specific_confirmed_ranges") or {}
+    p12 = model_specific.get("12P") or {}
+    assert (p12.get("min_rpm"), p12.get("max_rpm")) == (1000, 50000), p12
     assert [m.get("model", "").lower() for m in obj["models"]] == list(MODELS)
 
     for model in MODELS:
-        check(ROOT / f"docs/products/planetary-gearboxes/{model}-planetary-gearbox.md", "Product page")
-        check(ROOT / f"docs/engineering-resources/{model}/datasheet.md", "Datasheet")
-        check(ROOT / f"data/products/{model}-planetary-gearbox.yml", "Product master record")
-    for relative in (
-        "docs/selection-guides/miniature-planetary-gearbox-selection-guide.md",
-        "docs/engineering-resources/42p/mechanical-interface.md",
-        "docs/engineering-resources/32p/motor-integration.md",
-        "docs/engineering-resources/42p/motor-integration.md",
-        "docs/engineering-resources/32p/design-in-pack.md",
-        "docs/engineering-resources/42p/design-in-pack.md",
-        "docs/custom-engineering/motor-gearbox-integration.md",
-        "data/external-catalogs/platforms/directindustry-first-batch-2026-10-14.md",
-    ):
-        check(ROOT / relative, "Supplemental technical source")
+        page = text(ROOT / f"docs/products/planetary-gearboxes/{model}-planetary-gearbox.md")
+        ds = text(ROOT / f"docs/engineering-resources/{model}/datasheet.md")
+        master = text(ROOT / f"data/products/{model}-planetary-gearbox.yml")
 
-    # Across public text, the old ceiling must not survive as an active limit.
+        expected = RANGE_12P if model == "12p" else GENERIC_POLICY
+        for label, value in (("Product page", page), ("Datasheet", ds), ("Product master", master)):
+            if expected not in value:
+                raise ValueError(f"{label} does not carry the current input-speed policy for {model}")
+            if LEGACY_RANGE in value:
+                raise ValueError(f"{label} still carries obsolete universal input-speed range for {model}")
+
+    # The obsolete range must not survive as an active public/data rule.
     for base in (ROOT / "docs", ROOT / "data"):
         for path in base.rglob("*"):
             if path.suffix.lower() not in {".md", ".yml", ".yaml", ".json", ".js", ".txt"}:
                 continue
-            if re.search(r"(?:≤|<=)\s*8,000\s*rpm", path.read_text(encoding="utf-8")):
-                raise ValueError(f"Outdated public speed rating remains: {path}")
+            value = text(path)
+            if LEGACY_RANGE in value:
+                raise ValueError(f"Obsolete universal input-speed range remains: {path}")
+            if re.search(r"(?:≤|<=)\s*8,000\s*rpm", value):
+                raise ValueError(f"Outdated 8,000 rpm speed limit remains: {path}")
 
-    js = (ROOT / "docs/assets/javascripts/ratio-stage-selector.js").read_text(encoding="utf-8")
-    assert "motorSpeed < speedBounds.min || motorSpeed > speedBounds.max" in js
-    assert "speed_above_engineering" in js and "speed_below_engineering" in js
-    print("Continuous 1,000–20,000 rpm input-speed range verified in 12 models and public resources.")
+    js = text(ROOT / "docs/assets/javascripts/ratio-stage-selector.js")
+    assert "speedBounds" not in js
+    assert "speed_above_engineering" not in js
+    assert "speed_below_engineering" not in js
+
+    print("Configuration-dependent input-speed policy verified across 8P-42P; 12P 1,000-50,000 rpm range retained.")
+
 
 if __name__ == "__main__":
     main()
