@@ -14,7 +14,7 @@ description: "SigGear 24P (24 mm) miniature planetary gearhead/gearbox: ratio 3.
 | --- | --- | --- | --- | --- |
 | **24 mm** | **3.83:1–759.7:1** | **24.6–42.0 mm** | **980.7–2942.0 mN·m** | **≤ 1.2°** |
 
-**Custom 24P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=24P&start=existing_motor&path=gearbox_only) · [Review my drawing / STEP](../../request-cad-sample-quote.md?model=24P&start=drawing_cad) · [Review a failing gearbox](../../request-cad-sample-quote.md?model=24P&start=failing_gearbox&path=gearbox_only) · [Prototype → volume](../../request-cad-sample-quote.md?model=24P&start=prototype_to_volume)
+**Custom 24P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=24P&start=existing_motor&path=gearbox_only) · [Review my drawing / STEP](../../request-cad-sample-quote.md?model=24P&start=drawing_cad) · [Replace / redesign existing gearbox](../../request-cad-sample-quote.md?model=24P&start=failing_gearbox&path=gearbox_only) · [Prototype → volume](../../request-cad-sample-quote.md?model=24P&start=prototype_to_volume)
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/24p/datasheet.md) · [Mechanical drawing preview](../../engineering-resources/24p/mechanical-interface.md) · [Motor-only datasheets](../../engineering-resources/motors/index.md#24-mm-bldc-motor) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
