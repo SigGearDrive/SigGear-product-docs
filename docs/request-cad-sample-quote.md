@@ -27,7 +27,7 @@ If you already know a SigGear model, include it as a reference. If not, send the
 [**Replace / Redesign Existing Gearbox**](?start=failing_gearbox&path=gearbox_only){ .md-button }
 [**Prototype → Volume Production**](?start=prototype_to_volume){ .md-button }
 
-**Supplier qualification:** [Manufacturing & Quality Evidence](company/manufacturing-and-quality-evidence.md) · [Source-Backed Manufacturing Facts](company/source-backed-manufacturing-facts.md) · [Equipment & Inspection Capability](company/manufacturing-equipment-inspection-capability.md)
+**Supplier qualification:** [How to Evaluate a Custom Gearbox Manufacturer](selection-guides/custom-gearbox-manufacturer-supplier-qualification.md) · [Manufacturing & Quality Evidence](company/manufacturing-and-quality-evidence.md) · [Equipment & Inspection Capability](company/manufacturing-equipment-inspection-capability.md)
 
 For a project that starts from an idea, existing motor, mechanism or custom transmission problem, see the [Custom Precision Transmission Engineering](custom-engineering/index.md) page first.
 
