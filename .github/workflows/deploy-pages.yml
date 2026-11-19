@@ -49,6 +49,9 @@ jobs:
       - name: Verify robot joint product images, downloads and release status
         run: python scripts/validate_joint_product_media.py
 
+      - name: Verify new robot joint 2D/photo source release register
+        run: python scripts/validate_joint_upload_source_register.py
+
       - name: Validate documentation structure
         run: python scripts/validate_docs.py
 
