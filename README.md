@@ -9,11 +9,11 @@ SigGear's public standard products are engineering reference platforms, not the 
 A project can begin with:
 
 - **“Here is my motor.”** — review the motor interface, speed, shaft, pilot, mounting and required output.
-- **“Here is our drawing / STEP model.”** — review the mechanism, envelope, shaft / flange, load and manufacturability.
+- **“Here is our drawing / STEP model / sample.”** — review the mechanism, interfaces, envelope, load, manufacturability and production path.
 - **“Our current gearbox keeps failing.”** — review failure evidence, operating conditions, interfaces and redesign options.
 - **“We need prototypes first, then volume production.”** — plan prototype, validation, design freeze, pilot and repeat manufacturing as one program.
 
-[**Start With Your Motor / Drawing / Problem**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/start-with-your-problem/) · [**Failure & Durability Review**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/gearbox-failure-analysis-durability-redesign/) · [**OEM Volume Manufacturing**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/oem-volume-manufacturing-delivery/)
+[**Drawing / STEP / Sample Review**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/custom-gearbox-from-drawing-cad/) · [**Start With Your Motor / Drawing / Problem**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/start-with-your-problem/) · [**Failure & Durability Review**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/gearbox-failure-analysis-durability-redesign/) · [**OEM Volume Manufacturing**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/oem-volume-manufacturing-delivery/)
 
 ## Source-Backed Manufacturing Facts
 
@@ -72,7 +72,7 @@ The shipment figure is a historical company-wide result, not a model-specific ca
 
 ## Other Engineering Resources
 
-[Motor-only Datasheets](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/motors/) · [Motor + Gearhead Integration](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/motor-gearbox-integration/) · [STEP / 2D / Datasheet download centre](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/)
+[Motor-only Datasheets](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/motors/) · [Motor + Gearbox Integration](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/motor-gearbox-integration/) · [STEP / 2D / Datasheet download centre](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/)
 
 **Other product families:** [Robot Joint Actuators](https://siggeardrive.github.io/SigGear-product-docs/products/robot-joint-actuators/) · [Cycloidal Joint Modules](https://siggeardrive.github.io/SigGear-product-docs/products/cycloidal-joint-modules/) · [Hub Gear Motors](https://siggeardrive.github.io/SigGear-product-docs/products/hub-gear-motors/)
 
