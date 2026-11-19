@@ -25,7 +25,7 @@ def main() -> None:
     assert "planetary gearbox" in src.lower(), "Keep gearbox as a technical synonym for searches and legacy links"
     assert "22p-real-product-evidence.webp" in src, "Authentic sample photos must remain"
     assert "22P Mechanical Interface](../../engineering-resources/22p/mechanical-interface.md)" in src
-    assert "Motor/configuration dependent; confirm selected operating point" in src
+    assert "1,000–20,000 rpm" in src, "Published gearhead input speed reference must remain"
     assert "max_diameter=22#preliminary-ratio-stage-finder" not in src, "The product page should no longer surface the selector"
     # New quick-download layout replaces the old downloads table.
     # Validate the actual model-matched file targets, not legacy link labels.

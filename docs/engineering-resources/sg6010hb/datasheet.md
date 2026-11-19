@@ -65,7 +65,7 @@ This identifies a real intended application direction; it does not mean the prod
 
 ## Mechanical Data Boundary
 
-The supplied SG2908B 2D source has been reviewed for its readable nominal mounting features. The separate SG2908B exchange STEP was imported on 2026-11-19, but its full-assembly envelope still requires engineering reconciliation with the catalogue.
+The supplied SG-6010HB 2D reference has been reviewed for its readable nominal mounting features. The separately supplied SG-6010HB exchange STEP was imported on 2026-11-19, but its full-assembly envelope still requires engineering reconciliation with the catalogue.
 
 Public early-design information is summarized in the [SG-6010HB Mechanical Interface](mechanical-interface.md), including the 67 mm envelope, 22.57 ±0.50 mm main body thickness, nominal 3.00 ±0.30 mm output-side extension, selected mounting patterns and wiring references.
 
