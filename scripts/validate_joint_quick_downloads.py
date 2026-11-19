@@ -151,13 +151,13 @@ def main() -> None:
         family_article = family_html.split("<article", 1)[-1]
         if 'class="siggear-joint-downloads"' not in family_article:
             raise ValueError("Family page missing responsive download wrapper: " + family_path)
-        family_table = re.search(r"<table\\b[^>]*>(.*?)</table>", family_article, re.S | re.I)
+        family_table = re.search(r"<table\b[^>]*>(.*?)</table>", family_article, re.S | re.I)
         if not family_table:
             raise ValueError("Family page missing direct-download matrix: " + family_path)
         family_section = family_table.group(0)
-        if len(re.findall(r"<th\\b", family_section, re.I)) != 4:
+        if len(re.findall(r"<th\b", family_section, re.I)) != 4:
             raise ValueError("Family page table must have four columns: " + family_path)
-        if len(re.findall(r"<tr\\b", family_section, re.I)) != 4:
+        if len(re.findall(r"<tr\b", family_section, re.I)) != 4:
             raise ValueError("Family table must contain exactly three models: " + family_path)
         family_links = links(family_section, family_path)
         for model in models:
