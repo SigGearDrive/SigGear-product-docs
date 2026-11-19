@@ -1,6 +1,6 @@
 ---
 title: 24 mm Miniature Precision Planetary Gearhead (24P) | SigGear
-description: "SigGear 24P (24 mm) miniature planetary gearhead/gearbox: ratio 3.83:1–759.7:1, rated torque 980.7–2942.0 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
+description: "SigGear 24P (24 mm) miniature planetary gearhead/gearbox: ratio 3.83:1–759.7:1, rated torque 980.7–2942.0 mN·m. Direct PDF datasheet, 2D drawing and STEP file."
 ---
 
 # 24 mm Miniature Precision Planetary Gearhead (24P)
@@ -14,7 +14,7 @@ description: "SigGear 24P (24 mm) miniature planetary gearhead/gearbox: ratio 3.
 | --- | --- | --- | --- | --- |
 | **24 mm** | **3.83:1–759.7:1** | **24.6–42.0 mm** | **980.7–2942.0 mN·m** | **≤ 1.2°** |
 
-**Custom 24P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=24P&start=existing_motor&path=gearbox_only) · [Review my drawing / CAD](../../request-cad-sample-quote.md?model=24P&start=drawing_cad) · [Prototype → volume](../../request-cad-sample-quote.md?model=24P&start=prototype_to_volume)
+**Custom 24P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=24P&start=existing_motor&path=gearbox_only) · [Review my drawing / STEP](../../request-cad-sample-quote.md?model=24P&start=drawing_cad) · [Review a failing gearbox](../../request-cad-sample-quote.md?model=24P&start=failing_gearbox&path=gearbox_only) · [Prototype → volume](../../request-cad-sample-quote.md?model=24P&start=prototype_to_volume)
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/24p/datasheet.md) · [Mechanical drawing preview](../../engineering-resources/24p/mechanical-interface.md) · [Motor-only datasheets](../../engineering-resources/motors/index.md#24-mm-bldc-motor) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
@@ -83,7 +83,7 @@ These are adapted-motor conditions, not an electrical voltage or power rating fo
 
 The published drawing shows a 24 mm body and stage-dependent gearhead lengths of 24.6, 30.4, 36.2 and 42.0 mm. Use the approved drawing for the complete shaft, mounting, input-interface and tolerance notation.
 
-## CAD Notes
+## STEP Notes
 
 The **Full Assembly STEP** is the published original Creo assembly. The **Simplified STEP** is a separate 4-stage reference for preliminary mechanical packaging. The [24P 2D outline drawing](../../assets/downloads/24p/24P_2D_Drawing.pdf) is the original **SG01PD24** interface reference. The body length **L ±0.3 mm** is configuration-dependent; confirm stage, ratio and motor mating dimensions before production.
 
