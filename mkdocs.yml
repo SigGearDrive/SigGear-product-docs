@@ -136,17 +136,17 @@ extra:
 
 nav:
   - Home: index.md
-  - 8–42 mm Gearhead Downloads:
+  - 8–42 mm Planetary Gearbox Downloads:
       - Product Catalogue: products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md
-      - Datasheets & CAD Downloads: engineering-resources/planetary-gearboxes/public-cad-release-v1.md
+      - Datasheets, 2D & STEP Downloads: engineering-resources/planetary-gearboxes/public-cad-release-v1.md
       - Instant Ratio / Torque Selector: selection-guides/planetary-gearhead-quick-selector.md
-      - Micro Gearheads (8–16 mm): products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md
-      - Miniature Gearheads (20–32 mm): products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md
-      - Compact Gearheads (36–42 mm): products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md
+      - Micro Planetary Gearboxes (8–16 mm): products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md
+      - Miniature Planetary Gearboxes (20–32 mm): products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md
+      - Compact Planetary Gearboxes (36–42 mm): products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md
       - Motor Datasheets: engineering-resources/motors/index.md
   - Products:
       - Product Overview: products/index.md
-      - Micro, Miniature & Compact Planetary Gearheads (8–42 mm):
+      - Micro, Miniature & Compact Planetary Gearboxes (8–42 mm):
           - Series Overview: products/planetary-gearboxes/index.md
           - 8-42 mm Series: products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md
           - Micro (8–16 mm) Quick Downloads: products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md
@@ -192,10 +192,10 @@ nav:
   - Custom Engineering:
       - Overview: custom-engineering/index.md
       - Start With Your Motor / Drawing / Problem: custom-engineering/start-with-your-problem.md
-      - Custom Gearbox From Drawing / CAD: custom-engineering/custom-gearbox-from-drawing-cad.md
+      - Custom Gearbox From Drawing / STEP: custom-engineering/custom-gearbox-from-drawing-cad.md
       - Custom Manufacturing & Volume Production: custom-engineering/custom-transmission-manufacturing.md
-      - Custom Planetary Gearhead: custom-engineering/custom-planetary-gearbox.md
-      - Replacement Planetary Gearhead: custom-engineering/replacement-planetary-gearhead.md
+      - Custom Planetary Gearbox: custom-engineering/custom-planetary-gearbox.md
+      - Replacement Planetary Gearbox: custom-engineering/replacement-planetary-gearhead.md
       - Gearbox Failure & Durability Redesign: custom-engineering/gearbox-failure-analysis-durability-redesign.md
       - OEM Volume Manufacturing & Delivery: custom-engineering/oem-volume-manufacturing-delivery.md
       - Custom Cycloidal Transmission: custom-engineering/custom-cycloidal-transmission.md
@@ -204,11 +204,11 @@ nav:
       - Prototype to Design-In and Production: custom-engineering/prototype-to-production.md
   - Applications:
       - Applications Overview: applications/index.md
-      - Featured Precision Planetary Gearhead Applications:
+      - Featured Precision Planetary Gearbox Applications:
           - Planetary Gearbox Application Families: applications/planetary-gearbox-application-families.md
-          - Electric Pruning Shears Planetary Gearhead: applications/electric-pruning-shears-planetary-gearbox.md
+          - Electric Pruning Shears Planetary Gearbox: applications/electric-pruning-shears-planetary-gearbox.md
           - Electric Screwdrivers and Fastening Tools: applications/powered-screwdriver-planetary-gearbox.md
-          - Motorized Curtain and Blind Planetary Gearheads: applications/electric-curtain-blind-window-opener-gear-motors.md
+          - Motorized Curtain and Blind Planetary Gearboxes: applications/electric-curtain-blind-window-opener-gear-motors.md
           - Smart Toilet and Bidet Planetary Gear Motors: applications/smart-toilet-bidet-planetary-gear-motors.md
           - Dexterous Hands and Robot Grippers: applications/robot-gripper-gear-motors.md
           - Precision Instruments and Optical Mechanisms: applications/precision-instruments-optical-mechanisms.md
