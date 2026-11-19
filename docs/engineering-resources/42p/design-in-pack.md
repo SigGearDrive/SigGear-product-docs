@@ -1,11 +1,11 @@
 ---
 title: 42P Planetary Gearbox Design-In Pack | 42 mm Gearbox | SigGear
-description: Engineering Design-In Pack for the SigGear 42P 42 mm planetary gearbox with datasheet, controlled mechanical interface, CAD request path, data boundaries and sample validation workflow.
+description: Engineering Design-In Pack for the SigGear 42P 42 mm planetary gearbox with datasheet, controlled mechanical interface, STEP / drawing review path, data boundaries and sample validation workflow.
 ---
 
 # 42P Planetary Gearbox - Design-In Pack
 
-This page brings together the current engineering resources for the SigGear **42P 42 mm planetary gearbox** so an engineer can move from preliminary frame selection to interface review, configuration-specific CAD request and sample validation.
+This page brings together the current engineering resources for the SigGear **42P 42 mm planetary gearbox** so an engineer can move from preliminary frame selection to interface review, configuration-specific STEP / drawing review and sample validation.
 
 The 42P currently has a public Datasheet, a public Mechanical Interface based on controlled drawing **SG01PD42**, and a simplified public 4-stage STEP for early mechanical packaging and Design-In.
 
