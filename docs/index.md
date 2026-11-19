@@ -32,8 +32,8 @@ SigGear's core capability is therefore broader than the public catalog:
 | --- | --- |
 | **An existing motor** | [Custom Gearhead for an Existing Motor](custom-engineering/custom-planetary-gearbox.md) |
 | **A drawing / CAD model / physical sample** | [Custom Gearbox From Drawing / CAD](custom-engineering/custom-gearbox-from-drawing-cad.md) |
-| **A gearbox that is failing or wearing out** | [Failure / Replacement Review](custom-engineering/replacement-planetary-gearhead.md) |
-| **Prototype demand with future volume production** | [Prototype → Volume Production](custom-engineering/prototype-to-production.md) |
+| **A gearbox that is failing or wearing out** | [Failure / Durability Redesign](custom-engineering/gearbox-failure-analysis-durability-redesign.md) |
+| **Prototype demand with future volume production** | [OEM Volume Manufacturing & Delivery](custom-engineering/oem-volume-manufacturing-delivery.md) |
 
 A project does not need to match a catalog model before SigGear can review it.
 [**Manufacturing & Quality Evidence**](company/manufacturing-and-quality-evidence.md){ .md-button }
