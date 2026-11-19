@@ -203,6 +203,7 @@
       cad_gate_load_duty: readiness.gates.load_duty ? 1 : 0,
       cad_gate_envelope: readiness.gates.envelope ? 1 : 0,
       project_stage: value("sg-project-stage") || "not_specified",
+      discovery_source: value("sg-discovery-source") || "not_specified",
       requested_next_step: value("sg-next-step") || "not_specified",
       field_coverage_count: coverage,
       field_coverage_band: band,
@@ -433,6 +434,7 @@
     }
 
     lines.push("Project stage: " + (selectedText("sg-project-stage") || "Not specified"));
+    lines.push("How they first found SigGear: " + (selectedText("sg-discovery-source") || "Not specified"));
     lines.push("Prototype quantity: " + (value("sg-prototype-qty") || "Not provided"));
     lines.push("Estimated annual volume: " + (value("sg-annual-volume") || "Not provided"));
     lines.push("Company / country: " + (value("sg-company-country") || "Not provided"));
