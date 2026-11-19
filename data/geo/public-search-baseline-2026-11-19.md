@@ -118,3 +118,64 @@ The next objective is to make the search / AI result describe SigGear correctly 
 **custom precision transmission manufacturer → prototype development → repeatable volume manufacturing**
 
 rather than only as a catalog planetary gearbox supplier.
+
+## Failure / durability and OEM volume round — 2026-11-19
+
+### Query cluster: existing motor + custom gearhead
+
+Observed:
+- SigGear's existing-motor / motor + gearhead engineering content is retrievable in non-brand public search.
+- The public result currently favors the older Motor + Gearbox Integration page rather than the newer custom-manufacturer landing page.
+
+Action:
+- retain the existing page because it already has retrieval history
+- strengthen crosslinks to the newer custom-manufacturer and prototype-to-volume pages
+- do not change the existing URL
+
+### Query cluster: prototype → volume production
+
+Observed:
+- SigGear's Prototype-to-Production page is retrievable directly for non-brand prototype / production intent.
+- The indexed title / snippet may lag the newest page title and wording.
+
+Action:
+- preserve URL
+- continue strengthening OEM manufacturing and production-planning semantics
+- allow search systems time to refresh the indexed snippet
+
+### Query cluster: customer drawing / CAD / physical sample
+
+Observed:
+- Current non-brand search results are highly competitive.
+- Competing pages frequently place “built to your drawing,” “send drawing or physical sample,” and prototype-to-production language in the first screen.
+
+Action completed:
+- added dedicated `custom-gearbox-from-drawing-cad.md`
+- linked from homepage, custom engineering hub, problem-first page and inquiry intake
+- kept all claims configuration-specific; no invented delivery or production numbers
+
+### Query cluster: gearbox failure / durability redesign
+
+Observed:
+- SigGear did not yet own a dedicated public result for failure symptoms such as gear wear, bearing damage, overheating or backlash growth.
+
+Action completed:
+- added `gearbox-failure-analysis-durability-redesign.md`
+- added failure-evidence field to the engineering inquiry
+- connected replacement / existing-motor / prototype-to-volume paths
+- new page must be allowed to index before the same query set is retested
+
+### Query cluster: OEM volume manufacturing / delivery planning
+
+Observed:
+- Current search competition often uses explicit prototype-to-production and production-delivery language.
+- Some competitors publish fixed capacity / lead-time / MOQ numbers.
+
+SigGear policy:
+- do not copy or invent fixed capacity, MOQ or lead-time claims
+- publish only real manufacturing evidence and project-specific scheduling language
+
+Action completed:
+- added `oem-volume-manufacturing-delivery.md`
+- published internal factory-evidence capture plan for future real batch / QC / packing evidence
+- connected manufacturing evidence, prototype-to-production and inquiry planning fields
