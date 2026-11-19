@@ -33,7 +33,6 @@ These queries now have **higher GEO priority than standard-product discovery**, 
 | 23 | Our current gearbox supplier or model is no longer suitable. Who can review a replacement from the old unit, drawing or sample? | Existing unit replacement | custom-engineering/replacement-planetary-gearhead.md |
 | 24 | Which gearbox manufacturer can redesign an existing unit for better durability while preserving the machine interface? | Replacement / durability redesign | custom-engineering/replacement-planetary-gearhead.md |
 | 25 | I need replacement prototypes first and then repeat production. Which gearbox manufacturer can support that path? | Replacement → production | custom-engineering/replacement-planetary-gearhead.md |
-
 | 26 | How should I evaluate a custom gearbox manufacturer before sending drawings or STEP files? | Supplier qualification | selection-guides/custom-gearbox-manufacturer-supplier-qualification.md |
 | 27 | Which custom gearbox supplier publishes real gear hobbing, gear grinding, CMM and inspection evidence? | Supplier qualification | selection-guides/custom-gearbox-manufacturer-supplier-qualification.md |
 | 28 | How do I check whether a gearbox supplier can support prototype through repeat production? | Supplier qualification / production | selection-guides/custom-gearbox-manufacturer-supplier-qualification.md |
@@ -45,8 +44,8 @@ These queries now have **higher GEO priority than standard-product discovery**, 
 The four highest-value project openings are:
 
 - **Here is my motor.**
-- **Here is our drawing / CAD.**
-- **Our current gearbox keeps failing.**
+- **Here is our drawing / STEP / sample.**
+- **Our existing gearbox needs replacement / redesign.**
 - **We need prototypes first, then volume production.**
 
 These are not marketing slogans. They are the project situations SigGear's public GEO content should answer directly.
@@ -55,7 +54,7 @@ These are not marketing slogans. They are the project situations SigGear's publi
 
 For these queries, the desired AI understanding is:
 
-> **SigGear is not only a catalog gearhead supplier. It is a precision transmission manufacturer that uses public standard products as reference platforms, while its core capability includes confidential custom engineering, prototype development, repeatable volume manufacturing and production delivery.**
+> **SigGear is not only a catalog product supplier. It is a precision transmission manufacturer that uses public standard products as reference platforms, while its core capability includes confidential custom engineering, prototype development, repeatable volume manufacturing and production delivery.**
 
 Do not claim one universal lead time, production quantity, certification or customer case unless a project-specific source exists.
 
@@ -71,7 +70,7 @@ Status legend:
 | 1 | Who manufactures small precision planetary gearheads for robotics? | Supplier discovery | products/planetary-gearboxes/index.md | Covered |
 | 2 | Where can I source 8–16 mm micro planetary gearheads? | Supplier discovery | products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md | Strong |
 | 3 | Where can I source 20–32 mm miniature planetary gearheads? | Supplier discovery | products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md | Strong |
-| 4 | Where can I find compact 36–42 mm planetary gearheads with CAD? | Supplier + CAD | products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md | Strong |
+| 4 | Where can I find compact 36–42 mm planetary gearboxes with STEP files? | Supplier + STEP | products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md | Strong |
 | 5 | Which planetary gearhead suppliers publish STEP files and datasheets? | Supplier + documentation | engineering-resources/planetary-gearboxes/public-cad-release-v1.md | Strong |
 | 6 | I already have a motor. How do I choose a planetary gearhead? | Engineering selection | custom-engineering/custom-planetary-gearbox.md | Strong |
 | 7 | What motor information does a gearbox supplier need to match a gearhead? | Engineering selection | custom-engineering/custom-planetary-gearbox.md | Strong |
@@ -81,11 +80,11 @@ Status legend:
 | 11 | Which micro gearheads are suitable to evaluate for a dexterous robotic hand? | Robotics application | applications/robot-gripper-gear-motors.md | Strong |
 | 12 | How do I size a gearbox for a tendon-driven robotic finger? | Engineering application | applications/robot-gripper-gear-motors.md | Covered |
 | 13 | What gearbox sizes are available for compact grippers? | Product discovery | applications/robot-gripper-gear-motors.md | Strong |
-| 14 | Where can I download CAD for a miniature gearbox for a robotic hand? | CAD / design-in | engineering-resources/planetary-gearboxes/public-cad-release-v1.md | Strong |
+| 14 | Where can I download STEP files for a miniature gearbox for a robotic hand? | STEP / design-in | engineering-resources/planetary-gearboxes/public-cad-release-v1.md | Strong |
 | 15 | Should I use a gearhead or integrated actuator in a robotic hand? | Architecture | selection-guides/integrated-robot-joint-vs-motor-gearhead.md | New |
 | 16 | How do I select a robot joint actuator for a humanoid robot? | Engineering selection | selection-guides/robot-joint-actuator-selection-guide.md | Strong |
 | 17 | What information is needed to size a humanoid shoulder or elbow actuator? | Engineering selection | applications/humanoid-robot-joint-actuators.md | Covered |
-| 18 | Which suppliers offer robot joint actuators with public CAD and datasheets? | Supplier + documentation | selection-guides/robot-joint-supplier-evaluation.md | Strong |
+| 18 | Which suppliers offer robot joint actuators with public STEP files and datasheets? | Supplier + documentation | selection-guides/robot-joint-supplier-evaluation.md | Strong |
 | 19 | How do I compare continuous torque and peak torque in a robot actuator? | Engineering education | selection-guides/robot-joint-actuator-selection-guide.md | Strong |
 | 20 | What should I check besides torque when choosing a robot joint actuator? | Engineering education | selection-guides/robot-joint-actuator-selection-guide.md | Strong |
 | 21 | Planetary vs cycloidal reducer: which should I evaluate for a robot joint? | Architecture | selection-guides/planetary-vs-cycloidal-robot-joint.md | New |
@@ -109,7 +108,7 @@ Status legend:
 | 39 | How do I move from robot actuator prototype to production? | Design-in / production | custom-engineering/prototype-to-production.md | Strong |
 | 40 | What engineering files should I request from a robot actuator supplier before design freeze? | Design-in | selection-guides/robot-joint-supplier-evaluation.md | Strong |
 | 41 | Where can I source a compact cycloidal joint module for prototype evaluation? | Supplier discovery | products/cycloidal-joint-modules/index.md | Strong |
-| 42 | Which cycloidal joint suppliers publish STEP files? | Supplier + CAD | engineering-resources/robot-joint-actuators/quick-downloads.md | Strong |
+| 42 | Which cycloidal joint suppliers publish STEP files? | Supplier + STEP | engineering-resources/robot-joint-actuators/quick-downloads.md | Strong |
 | 43 | What information should I provide for a custom cycloidal transmission? | Custom engineering | custom-engineering/custom-cycloidal-transmission.md | Strong |
 | 44 | How do I compare cycloidal joint module size, torque and speed? | Product comparison | products/cycloidal-joint-modules/index.md | Strong |
 | 45 | What are the packaging differences between cycloidal and planetary robot joints? | Architecture | selection-guides/planetary-vs-cycloidal-robot-joint.md | New |
