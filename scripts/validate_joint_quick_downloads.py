@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Verify the six-model first-screen PDF/CAD links in built GitHub Pages.
+"""Verify the six-model first-screen PDF/STEP links in built GitHub Pages.
 
-Covers links and variant visibility, not manufacturing approval of CAD geometry.
+Covers links and variant visibility, not manufacturing approval of STEP geometry.
 """
 from __future__ import annotations
 
@@ -221,12 +221,12 @@ def main() -> None:
 
     # Engineering Center is a primary entry for Google and direct product
     # inquiries. It must expose exactly the verified six-model file list
-    # rather than stale "CAD available on request" copy.
+    # rather than stale generic file-on-request copy.
     center_path = "engineering-center/"
     center_html = page(center_path)
     center_body = center_html.split("<article", 1)[-1]
     a = center_body.find('<h2 id="robot-joint-actuator-downloads">')
-    b = center_body.find('<h2 id="planetary-gearhead-engineering-files">', a)
+    b = center_body.find('<h2 id="planetary-gearbox-engineering-files">', a)
     if a < 0 or b <= a:
         raise ValueError("Engineering Center missing direct-download headings")
     joint_section = center_body[a:b]
@@ -252,7 +252,7 @@ def main() -> None:
     hb_name = "SG-6010HB_Public_Reference_Datasheet_Rev0.1.pdf"
     asset("SG-6010HB", "joint-actuators/" + hb_name, links(joint_section, center_path))
     if "No SG-6010HB STEP is approved for public release" not in joint_section:
-        raise ValueError("Engineering Center lacks SG-6010HB CAD release hold")
+        raise ValueError("Engineering Center lacks SG-6010HB STEP release hold")
     if "SG2908B" in joint_section:
         raise ValueError("Internal source label leaked in Engineering Center")
     center_before_tasks = center_body.split('<h2 id="start-by-what-you-need-to-do">', 1)[0]
@@ -263,8 +263,8 @@ def main() -> None:
         raise ValueError("Engineering Center task index must jump to the live joint downloads section")
     if 'href="#public-engineering-packs"' in center_body:
         raise ValueError("Engineering Center contains deleted Public Engineering Packs anchor")
-    if "Planetary Gearbox Selector" in center_body or "Planetary Gearbox CAD Library" in center_body:
-        raise ValueError("Customer-facing engineering links must use Gearhead terminology")
+    if "Planetary Gearbox STEP Library" not in center_body:
+        raise ValueError("Engineering Center must expose the planetary gearbox STEP library")
 
     # Motor engineering discovery: each of the ten live diameter anchors
     # must remain accessible from Engineering Center. The model-specific PDFs
