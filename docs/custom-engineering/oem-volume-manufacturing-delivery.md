@@ -95,6 +95,7 @@ SigGear publishes real photographs from its manufacturing environment covering:
 The company also publishes separate testing and metrology evidence.
 
 [Manufacturing & Quality Evidence](../company/manufacturing-and-quality-evidence.md){ .md-button .md-button--primary }
+[Manufacturing Equipment & Inspection Capability](../company/manufacturing-equipment-inspection-capability.md){ .md-button }
 [Testing, Metrology & Validation Evidence](../engineering-center/testing-and-validation-evidence.md){ .md-button }
 
 These photographs are evidence of real manufacturing and inspection activity. They do not quantify a universal monthly capacity, cycle time or lead time.
