@@ -44,10 +44,25 @@ def main():
                        source["drawing_overall_length"],source["source_parasolid_format"]):
             req(marker in text,"Public PDF missing "+model+" marker: "+marker)
         req(asset.read_bytes()==siteasset.read_bytes(),"Published PDF differs from source "+model)
+        dimension_name=model+"_Source_Dimension_Reference_Rev0.1.pdf"
+        dimension_pdf=FILES/dimension_name
+        dimension_published=SITE/"assets/downloads/hub-gear-motors"/dimension_name
+        req(dimension_pdf.is_file() and dimension_published.is_file() and
+            dimension_pdf.stat().st_size >= 3000, "Dimension checklist PDF missing "+model)
+        dimension_reader=PdfReader(str(dimension_pdf),strict=False)
+        req(len(dimension_reader.pages)==1,"Dimension checklist PDF must remain one page "+model)
+        dimension_text=" ".join(page.extract_text() or "" for page in dimension_reader.pages)
+        for marker in (model,source["drawing_overall_length"],"not the original 2D drawing",
+                       "not STEP","2025-07-04"):
+            req(marker.lower() in dimension_text.lower(),
+                "Dimension checklist missing scope marker "+model+" "+marker)
+        req(dimension_pdf.read_bytes()==dimension_published.read_bytes(),
+            "Published dimensions PDF differs from source "+model)
         modeldoc=(DOCS/f"products/hub-gear-motors/{slug}.md").read_text(encoding="utf-8")
         html=(SITE/f"products/hub-gear-motors/{slug}/index.html").read_text(encoding="utf-8")
         for doc in (modeldoc,html,family,familyhtml):
             req(pdf in doc,"Missing direct PDF button "+model)
+            req(dimension_name in doc,"Missing direct dimension-reference PDF button "+model)
             req("SG2557-80PG-9.75B" not in doc,"Wrong model source leaked to customer page")
         req(modeldoc.index(pdf)<modeldoc.index("## Product Overview"),"PDF not visible first-screen "+model)
         req(".x_t" in modeldoc and "not a verified STEP" in modeldoc,
