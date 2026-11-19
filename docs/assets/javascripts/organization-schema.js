@@ -8,13 +8,16 @@
     "name": "Guangdong SigGear Drive Intelligent Technology Co., Ltd.",
     "alternateName": "SigGear",
     "url": "https://www.siggear.com/",
-    "description": "Manufacturer of compact precision gear transmission products including precision planetary gearheads, cycloidal reducers, robot joint actuators and engineered motor + gearhead assemblies.",
+    "description": "Precision transmission manufacturer focused on custom engineering, repeatable volume manufacturing and production delivery. Public planetary gearheads, cycloidal reducers and robot joint actuators are reference platforms; many customer-specific programs are confidential.",
     "knowsAbout": [
       "Precision planetary gearheads",
       "Cycloidal reducers",
       "Robot joint actuators",
       "Motor and gearhead integration",
-      "Custom compact transmission engineering"
+      "Custom compact transmission engineering",
+      "OEM and ODM transmission development",
+      "Volume manufacturing of custom transmission assemblies",
+      "Prototype-to-production engineering"
     ],
     "email": "wangwanrong@siggear.com",
     "contactPoint": {
