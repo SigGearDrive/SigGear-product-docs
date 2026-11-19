@@ -12,6 +12,9 @@ Use this engineering guide to estimate robot joint torque, separate continuous a
 [Quadruped Robot Joint Guide](../applications/quadruped-robot-joint-gearboxes.md){ .md-button }
 [Exoskeleton Joint Guide](../applications/exoskeleton-joint-actuators.md){ .md-button }
 [Custom Robot Joint Development](../custom-engineering/robot-joint-actuator-development.md){ .md-button .md-button--primary }
+[Planetary vs Cycloidal](planetary-vs-cycloidal-robot-joint.md){ .md-button }
+[Integrated Joint vs Motor + Gearhead](integrated-robot-joint-vs-motor-gearhead.md){ .md-button }
+[CAN / Encoder / Driver Guide](robot-joint-can-encoder-driver-selection.md){ .md-button }
 [Browse Planetary & Cycloidal Robot Joint Actuators](../products/robot-joint-actuators/index.md){ .md-button }
 [Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
 
