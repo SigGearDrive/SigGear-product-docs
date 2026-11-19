@@ -26,6 +26,6 @@ description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + g
 
 *The models above are initial size comparisons, not qualified application matches. Rated torque and length depend on the selected stage/ratio; check the model datasheet and mechanical interface. These models are preliminary frame options, not tested pruning-shear assemblies.*
 
-[**Find a Gearhead by Speed / Torque**](../selection-guides/planetary-gearhead-quick-selector.md) · [**All 12 Model Downloads**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [**Contact SigGear**](../request-cad-sample-quote.md)
+[**Find a Gearhead by Speed / Torque**](../selection-guides/planetary-gearhead-quick-selector.md?app=electric_pruning_shears#preliminary-ratio-stage-finder) · [**All 12 Model Downloads**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [**Contact SigGear**](../request-cad-sample-quote.md)
 
 [Detailed application-aware selector](../selection-guides/miniature-planetary-gearbox-selection-guide.md?app=electric_pruning_shears#preliminary-ratio-stage-finder)
