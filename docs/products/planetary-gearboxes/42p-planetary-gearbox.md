@@ -40,7 +40,7 @@ description: "SigGear 42P Ø42 mm compact planetary gearhead: ratios 3.8:1–660
 | Maximum momentary torque range | 15690.6–29420.0 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.2° |
-| Permissible gearhead input speed, continuous operation | 1,000–20,000 rpm |
+| Permissible gearhead input speed, continuous operation | Motor/configuration dependent; confirm selected operating point |
 | Operating temperature range | −40 to 120 °C |
 | Housing material | Steel |
 | Gear material | Steel |
@@ -74,7 +74,7 @@ These are adapted-motor conditions, not an electrical voltage or power rating fo
 
 The published drawing shows a 42 mm body diameter and stage-dependent gearhead lengths of 35.6, 46.9, 58.2 and 69.5 mm. Use the approved drawing for shaft geometry, mounting holes, input-interface details and tolerance notation.
 
-The current 42P specification sheet confirms steel housing and gears, Ball Bearing at the output, a radial load limit of **≤ 16.0 kgf measured 10 mm from the flange**, a shaft axial load limit of **≤ 8.0 kgf**, radial shaft play of **≤ 0.04 mm**, thrust shaft play of **≤ 0.3 mm**, continuous permissible input speed of **1,000–20,000 rpm**, and an operating temperature range of **−40 to 120 °C**.
+The current 42P specification sheet confirms steel housing and gears, Ball Bearing at the output, a radial load limit of **≤ 16.0 kgf measured 10 mm from the flange**, a shaft axial load limit of **≤ 8.0 kgf**, radial shaft play of **≤ 0.04 mm**, thrust shaft play of **≤ 0.3 mm**, continuous permissible input speed of **Motor/configuration dependent; confirm selected operating point**, and an operating temperature range of **−40 to 120 °C**.
 
 These are published gearhead limits. The actual application load direction, duty cycle, motor operating point and selected stage / ratio still need to be checked before final selection.
 
