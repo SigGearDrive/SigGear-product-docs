@@ -51,6 +51,7 @@ The 12 published frame sizes cover **Micro (8–16 mm)**, **Miniature (20–32 m
 
 | Model | Public page |
 | --- | --- |
+| SG2557-80PG-9.75B (historical source only) | [SG2557-80PG-9.75B](../products/hub-gear-motors/sg2557-80pg-9-75b.md) — 2024 drawing reference; availability unconfirmed |
 | SG-2877 | [SG-2877](../products/hub-gear-motors/sg2877.md) |
 | SG-2878 | [SG-2878](../products/hub-gear-motors/sg2878.md) |
 
