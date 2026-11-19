@@ -53,6 +53,8 @@ The exact sequence depends on how mature the customer's design already is.
 
 A project based on an existing SigGear platform may move faster than a project that requires a different motor, ratio, interface or transmission architecture.
 
+**Starting from customer geometry?** [Custom Gearbox From Drawing / STEP / Sample](custom-gearbox-from-drawing-cad.md) explains what SigGear can review from a 2D drawing, STEP model or physical sample before prototype development.
+
 ## Stage 1 — Idea, Drawing or Existing Mechanism
 
 The first discussion can start from:
