@@ -219,6 +219,47 @@ def main() -> None:
                 asset(model, "joint-actuators/" + name, family_links)
         print("PASS family overview", family_path, "three models, direct PDF/2D/STEP")
 
+    # Engineering Center is a primary entry for Google and direct product
+    # inquiries. It must expose exactly the verified six-model file list
+    # rather than stale "CAD available on request" copy.
+    center_path = "engineering-center/"
+    center_html = page(center_path)
+    center_body = center_html.split("<article", 1)[-1]
+    a = center_body.find('<h2 id="robot-joint-actuator-downloads">')
+    b = center_body.find('<h2 id="planetary-gearhead-engineering-files">', a)
+    if a < 0 or b <= a:
+        raise ValueError("Engineering Center missing direct-download headings")
+    joint_section = center_body[a:b]
+    if 'class="siggear-joint-downloads"' not in joint_section:
+        raise ValueError("Engineering Center mobile model matrix missing")
+    center_table = re.search(r"<table\b[^>]*>(.*?)</table>", joint_section, re.S | re.I)
+    if not center_table:
+        raise ValueError("Engineering Center has no joint direct-download table")
+    center_fragment = center_table.group(0)
+    if len(re.findall(r"<th\b", center_fragment, re.I)) != 4:
+        raise ValueError("Engineering Center table must contain four download columns")
+    if len(re.findall(r"<tr\b", center_fragment, re.I)) != 7:
+        raise ValueError("Engineering Center must list six standard joint models")
+    center_table_links = links(center_fragment, center_path)
+    for model in PRODUCTS:
+        if model not in center_fragment:
+            raise ValueError("Missing Engineering Center row: " + model)
+        asset(model, PDFS[model], center_table_links)
+        for name in ORIGINAL_CAD[model]:
+            asset(model, "joint-actuators/" + name, center_table_links)
+        for name in DRAWINGS.get(model, []):
+            asset(model, "joint-actuators/" + name, center_table_links)
+    hb_name = "SG-6010HB_Public_Reference_Datasheet_Rev0.1.pdf"
+    asset("SG-6010HB", "joint-actuators/" + hb_name, links(joint_section, center_path))
+    if "No SG-6010HB STEP is approved for public release" not in joint_section:
+        raise ValueError("Engineering Center lacks SG-6010HB CAD release hold")
+    if "SG2908B" in joint_section:
+        raise ValueError("Internal source label leaked in Engineering Center")
+    center_before_tasks = center_body.split('<h2 id="start-by-what-you-need-to-do">', 1)[0]
+    if "robot-joint-actuators/quick-downloads/" not in center_before_tasks:
+        raise ValueError("Engineering Center joint quick-download button not visible")
+    print("PASS Engineering Center: six standard joint models, 18 direct files + SG-6010HB reference PDF")
+
     stylesheet = SITE / "assets/stylesheets/joint-product-quick.css"
     if not stylesheet.is_file():
         raise ValueError("Joint mobile presentation CSS missing")
