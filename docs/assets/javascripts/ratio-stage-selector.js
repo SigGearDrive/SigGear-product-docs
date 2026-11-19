@@ -85,7 +85,7 @@
       "<p class=\"siggear-selector-custom-paths\">Start from: " +
       "<a href=\"" + esc(customProjectLink("existing_motor", motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength)) + "\">existing motor</a> · " +
       "<a href=\"" + esc(customProjectLink("drawing_cad", motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength)) + "\">drawing / STEP</a> · " +
-      "<a href=\"" + esc(customProjectLink("failing_gearbox", motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength)) + "\">failing gearbox</a> · " +
+      "<a href=\"" + esc(customProjectLink("failing_gearbox", motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength)) + "\">replacement / redesign</a> · " +
       "<a href=\"" + esc(customProjectLink("prototype_to_volume", motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength)) + "\">prototype → volume</a></p>";
   }
   function numberValue(id) {
