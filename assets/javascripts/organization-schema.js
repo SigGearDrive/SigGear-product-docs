@@ -17,8 +17,7 @@
     "sameAs": [
       "https://github.com/SigGearDrive",
       "https://www.youtube.com/@siggeardrive",
-      "https://www.instagram.com/luffywan.robotics/",
-      "https://www.tiktok.com/@robotactuator.engineer"
+      "https://www.instagram.com/luffywan.robotics/"
     ]
   };
 
