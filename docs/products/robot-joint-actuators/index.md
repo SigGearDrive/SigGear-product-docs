@@ -1,11 +1,11 @@
 ---
 title: Planetary Robot Joint Actuators | SG-6010C, SG-6010D, SG-8021 | SigGear
-description: Compare SG-6010C, SG-6010D and SG-8021 actuator sizes, torque and speed. Direct PDF Datasheet, available 2D assembly reference and original STEP CAD downloads.
+description: Compare SG-6010C, SG-6010D and SG-8021 actuator sizes, torque and speed. Direct PDF Datasheet, available 2D assembly reference and original STEP downloads.
 ---
 
 # Planetary Robot Joint Actuators
 
-**These actuator models are public reference platforms, not the boundary of SigGear's robot-joint capability.** Customer-specific joint designs, interfaces and production programs may remain confidential. A project can start from a target joint envelope, torque / speed requirement, motor / encoder / driver architecture or customer CAD.
+**These actuator models are public reference platforms, not the boundary of SigGear's robot-joint capability.** Customer-specific joint designs, interfaces and production programs may remain confidential. A project can start from a target joint envelope, torque / speed requirement, motor / encoder / driver architecture or customer drawing / STEP model.
 
 [**Custom Robot Joint Development**](../../custom-engineering/robot-joint-actuator-development.md){ .md-button .md-button--primary }
 [**Custom Manufacturing & Volume Production**](../../custom-engineering/custom-transmission-manufacturing.md){ .md-button }
