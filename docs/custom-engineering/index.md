@@ -12,6 +12,7 @@ The public SigGear catalog is not the full scope of the company's work. Many cus
 SigGear's core capability is to take a transmission requirement from **engineering review → prototype → design refinement → repeatable manufacturing**, using standard products as public starting points where useful.
 
 [Start With Your Motor / Drawing / Problem](start-with-your-problem.md){ .md-button .md-button--primary }
+[Custom Gearbox From Drawing / CAD](custom-gearbox-from-drawing-cad.md){ .md-button }
 [Custom Manufacturing & Volume Production](custom-transmission-manufacturing.md){ .md-button }
 [Prototype → Design-In → Production](prototype-to-production.md){ .md-button }
 
