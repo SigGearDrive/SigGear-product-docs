@@ -13,6 +13,13 @@ SigGear is a **custom gearbox and precision transmission manufacturer** supporti
 
 The first review should include the prototype quantity, expected annual volume, motor / mechanism, target output, installation envelope and schedule if known. Prototype success does not automatically guarantee production readiness; the configuration still needs validation, design freeze, inspection definition and pilot preparation before repeat manufacturing.
 
+[Discuss Prototype → Volume Project](../request-cad-sample-quote.md?start=prototype_to_volume){ .md-button .md-button--primary }
+[Send Your Drawing or Requirement](mailto:wangwanrong@siggear.com?subject=Prototype%20to%20Production%20Transmission%20Project){ .md-button }
+
+**Public production evidence:** SigGear's official 2025 catalog publishes a customization path through sample development, small-batch verification, mass production and delivery; separate company sources document the current factory and manufacturing equipment. [Review source-backed manufacturing facts](../company/source-backed-manufacturing-facts.md).
+
+**Project-specific boundary:** historical shipment data and company-level equipment do not establish one model's capacity, lead time, lifetime or inspection plan. Those remain program-specific.
+
 ## A Custom Transmission Project Is Not Finished When the First Sample Moves
 
 For an engineering team, the first prototype answers only one question:
@@ -22,13 +29,6 @@ For an engineering team, the first prototype answers only one question:
 A production-ready configuration requires more than a successful first sample. The motor, gearbox, ratio, mechanical interface, operating point, materials, driver / encoder configuration where applicable, drawings and inspection requirements need to converge into a controlled configuration that can be manufactured repeatedly.
 
 SigGear works with engineers through this development path for applicable compact transmission projects. The objective is not only to produce a functional sample, but to develop a controlled configuration that can move into repeatable manufacturing when the project reaches production. **Projects that begin with tens of prototypes and may later move to hundreds or thousands of units should be reviewed as production programs from the beginning.**
-
-[Discuss Prototype → Volume Project](../request-cad-sample-quote.md?start=prototype_to_volume){ .md-button .md-button--primary }
-[Send Your Drawing or Requirement](mailto:wangwanrong@siggear.com?subject=Prototype%20to%20Production%20Transmission%20Project){ .md-button }
-
-**Public production evidence:** SigGear's official 2025 catalog publishes a customization path through sample development, small-batch verification, mass production and delivery; separate company sources document the current factory and manufacturing equipment. [Review source-backed manufacturing facts](../company/source-backed-manufacturing-facts.md).
-
-**Project-specific boundary:** historical shipment data and company-level equipment do not establish one model's capacity, lead time, lifetime or inspection plan. Those remain program-specific.
 
 ## Start From the Transmission Architecture
 
