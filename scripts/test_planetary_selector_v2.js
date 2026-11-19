@@ -92,11 +92,6 @@ async function run(input) {
   assert.match(appNoMatch.results, /&amp;app=electric_curtain_blind/);
   console.log("PASS no-match custom feasibility request retains safe application slug");
 
-  const appOutsideSpeed = await run({query: "?app=smart_toilet_bidet",motorSpeed:"21000"});
-  assert.match(appOutsideSpeed.results, /speed_above_engineering/);
-  assert.match(appOutsideSpeed.results, /&amp;app=smart_toilet_bidet/);
-  console.log("PASS out-of-range speed review retains application context");
-
   const injected = await run({query: "?app=%3Cscript%3Eevil%3C%2Fscript%3E"});
   assert.equal(injected.applicationContext.hidden,true);
   assert.doesNotMatch(injected.results, /&app=|<script>evil/);
@@ -153,27 +148,15 @@ async function run(input) {
   assert.doesNotMatch(highSpeed.summary, /custom feasibility/i);
   console.log("PASS 9,000 rpm treated as standard input speed");
 
-  const upperBoundary = await run({motorSpeed: "20000", outputSpeed: String(20000 / 42.9)});
-  assert.match(upperBoundary.results, /Matching Frames/);
-  assert.match(upperBoundary.results, /12P/);
-  console.log("PASS 20,000 rpm continuous standard upper boundary");
+  const highMotorSpeed = await run({motorSpeed: "50000", outputSpeed: String(50000 / 361)});
+  assert.match(highMotorSpeed.results, /12P/);
+  assert.doesNotMatch(highMotorSpeed.summary, /standard continuous input-speed range/i);
+  console.log("PASS selector does not impose obsolete universal 20,000 rpm ceiling");
 
-  const lowerBoundary = await run({motorSpeed: "1000", outputSpeed: String(1000 / 42.9)});
-  assert.match(lowerBoundary.results, /Matching Frames/);
-  assert.match(lowerBoundary.results, /12P/);
-  console.log("PASS 1,000 rpm continuous standard lower boundary");
-
-  const higherSpeed = await run({motorSpeed: "20001"});
-  assert.match(higherSpeed.summary, /exceeds the standard continuous input-speed range/);
-  assert.match(higherSpeed.results, /speed_above_engineering/);
-  assert.match(higherSpeed.results, /selector_motor_speed=20001/);
-  console.log("PASS >20,000 rpm routed to custom feasibility review");
-
-  const lowSpeed = await run({motorSpeed: "999"});
-  assert.match(lowSpeed.summary, /below the standard continuous input-speed range/);
-  assert.match(lowSpeed.results, /speed_below_engineering/);
-  assert.match(lowSpeed.results, /selector_motor_speed=999/);
-  console.log("PASS <1,000 rpm routed to custom feasibility review");
+  const lowMotorSpeed = await run({motorSpeed: "500", outputSpeed: String(500 / 3.5)});
+  assert.match(lowMotorSpeed.results, /10P|12P|22P|32P/);
+  assert.doesNotMatch(lowMotorSpeed.summary, /standard continuous input-speed range/i);
+  console.log("PASS selector uses motor speed for ratio screening without a universal lower speed gate");
 
   const excessivePeak = await run({ peak:"1.0" });
   assert.match(excessivePeak.results, /No published standard configuration remains/);
