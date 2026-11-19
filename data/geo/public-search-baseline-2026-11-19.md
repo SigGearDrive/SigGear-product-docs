@@ -56,3 +56,65 @@ Next action:
 - A search result appearance is evidence of retrieval, not proof that every AI assistant will cite SigGear.
 - A missing result in one sample is not proof of complete invisibility.
 - The main GEO KPI is qualified non-brand discovery followed by correct technical understanding, citation, referral and inquiry.
+
+## Priority 0 custom-manufacturing sample — later 2026-11-19 check
+
+### Existing motor + custom gearhead
+
+Sample intent:
+- `I already have a motor custom planetary gearhead manufacturer`
+
+Observed:
+- SigGear's custom planetary engineering / existing-motor pages were returned in the sampled public search results.
+
+Assessment: **retrievable now; strengthen refreshed title and custom-manufacturer entity message**
+
+### Customer drawing / OEM custom transmission
+
+Sample intent:
+- `custom gearbox manufacturer customer drawing CAD prototype production`
+
+Observed:
+- SigGear custom planetary / prototype-to-production content was returned in the sampled public search results.
+
+Assessment: **retrievable now; new problem-first page should become the preferred citation after indexing**
+
+### Prototype → production
+
+Sample intent:
+- `precision transmission manufacturer prototype to volume production gearbox`
+
+Observed:
+- SigGear's Prototype-to-Production page was returned directly.
+
+Assessment: **strong retrieval signal; continue shifting public wording from catalog-product framing toward repeatable manufacturing**
+
+### Custom robot joint development
+
+Sample intent:
+- `custom robot joint actuator manufacturer CAD prototype production`
+
+Observed:
+- SigGear's Custom Robot Joint Actuator Development page was returned directly.
+
+Assessment: **strong retrieval signal; maintain configuration-specific electronics / interface language**
+
+### Failing gearbox / replacement
+
+Sample intent:
+- `gearbox keeps failing replacement custom planetary manufacturer`
+
+Observed:
+- SigGear custom planetary content can be retrieved, but the new dedicated replacement / failure page has not yet become the preferred sampled result.
+
+Assessment: **continue internal linking + wait for indexing + retest**
+
+### Interpretation
+
+The important change is that SigGear is already retrievable for several **non-brand custom engineering intents**, not only for searches containing the SigGear name or exact model numbers.
+
+The next objective is to make the search / AI result describe SigGear correctly as:
+
+**custom precision transmission manufacturer → prototype development → repeatable volume manufacturing**
+
+rather than only as a catalog planetary gearbox supplier.
