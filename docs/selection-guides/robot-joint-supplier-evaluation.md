@@ -1,6 +1,6 @@
 ---
-title: How to Evaluate a Robot Joint Actuator Supplier | CAD, Torque & Control | SigGear
-description: Procurement and engineering checklist for evaluating robot joint actuator suppliers. Compare model-specific datasheets, torque ratings, CAD, 2D drawings, encoder, driver, communication, external loads and prototype validation.
+title: How to Evaluate a Robot Joint Actuator Supplier | STEP, Torque & Control | SigGear
+description: Procurement and engineering checklist for evaluating robot joint actuator suppliers. Compare model-specific datasheets, torque ratings, STEP files, 2D drawings, encoder, driver, communication, external loads and prototype validation.
 ---
 
 # How to Evaluate a Robot Joint Actuator Supplier
