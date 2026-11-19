@@ -106,6 +106,8 @@ Separate public evidence is available for:
 
 These images and records are used as **evidence of real activity**, not as a basis for inventing model-specific performance claims.
 
+**Supplier qualification:** [How to Evaluate a Custom Gearbox Manufacturer](../selection-guides/custom-gearbox-manufacturer-supplier-qualification.md)
+
 ## 7. What These Sources Support
 
 Together, the official company catalog, factory announcements, shipment report and real manufacturing evidence support the following company-level description:
