@@ -10,10 +10,10 @@ A project can begin with:
 
 - **“Here is my motor.”** — review the motor interface, speed, shaft, pilot, mounting and required output.
 - **“Here is our drawing / STEP model / sample.”** — review the mechanism, interfaces, envelope, load, manufacturability and production path.
-- **“Our current gearbox keeps failing.”** — review failure evidence, operating conditions, interfaces and redesign options.
+- **“Our existing gearbox needs replacement / redesign.”** — preserve the motor or machine interface while reviewing ratio, output, durability, packaging and production requirements.
 - **“We need prototypes first, then volume production.”** — plan prototype, validation, design freeze, pilot and repeat manufacturing as one program.
 
-[**Drawing / STEP / Sample Review**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/custom-gearbox-from-drawing-cad/) · [**Start With Your Motor / Drawing / Problem**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/start-with-your-problem/) · [**Failure & Durability Review**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/gearbox-failure-analysis-durability-redesign/) · [**OEM Volume Manufacturing**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/oem-volume-manufacturing-delivery/)
+[**Drawing / STEP / Sample Review**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/custom-gearbox-from-drawing-cad/) · [**Start With Your Motor / Drawing / Problem**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/start-with-your-problem/) · [**Existing Gearbox Replacement / Redesign**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/replacement-planetary-gearhead/) · [**Failure & Durability Review**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/gearbox-failure-analysis-durability-redesign/) · [**OEM Volume Manufacturing**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/oem-volume-manufacturing-delivery/)
 
 ## Source-Backed Manufacturing Facts
 
