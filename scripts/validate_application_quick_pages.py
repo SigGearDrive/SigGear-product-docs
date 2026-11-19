@@ -127,4 +127,77 @@ for name, count in round5_files.items():
     assert grid.count("_Planetary_Gearhead_Datasheet_Rev") == count, (name, "PDF")
     assert "application-quick-downloads.css?v=20261119-firstscreen" in html, name
 
+# All remaining application pages now surface real engineering files before prose.
+# Four robot-joint pages lead with verified module assets; standalone Gearheads
+# remain in a separate, expandable auxiliary-axis table to avoid confusion.
+round6_gear = {
+    "agv-amr-wheel-drive-gearboxes.md": 3,
+    "electric-pruning-shears-planetary-gearbox.md": 4,
+    "hvac-smart-vent-damper-gear-motors.md": 3,
+    "industrial-automation-servo-planetary-gearboxes.md": 3,
+    "laboratory-automation-diagnostic-equipment-gear-motors.md": 3,
+    "medical-device-micro-gear-motors.md": 3,
+    "optical-imaging-camera-module-gear-motors.md": 3,
+    "packaging-labeling-conveyor-gear-motors.md": 3,
+    "precision-instruments-optical-mechanisms.md": 3,
+    "stage-lighting-display-signage-gear-motors.md": 3,
+}
+round6_joint = {
+    "exoskeleton-joint-actuators.md": (2, 1),
+    "humanoid-robot-joint-actuators.md": (2, 1),
+    "quadruped-robot-joint-gearboxes.md": (2, 2),
+    "robotic-arm-joint-actuators.md": (2, 0),
+}
+all_firstscreen = set(firstscreen_file_pages) | set(round5_files) | set(round6_gear) | set(round6_joint)
+assert all_firstscreen == {p.name for p in PAGES}, (
+    "Not every one of the 32 application pages is file-first",
+    sorted({p.name for p in PAGES} - all_firstscreen),
+)
+for name, count in round6_gear.items():
+    source = (APP / name).read_text(encoding="utf-8")
+    assert source.count("## Direct Downloads") == 1, name
+    assert len(source.split("## Direct Downloads", 1)[0]) < 620, name
+    assert source.index("## Direct Downloads") < source.index("**Application:**"), name
+    assert len(source) < (2750 if count == 4 else 2600), (name, len(source))
+    for label in ("PDF", "2D", "STEP"):
+        assert source.count("[**↓ " + label + "**]") == count, (name, label)
+    html_path = ROOT / "site/applications" / name.removesuffix(".md") / "index.html"
+    assert html_path.is_file(), name
+    html = html_path.read_text(encoding="utf-8")
+    assert 'class="siggear-app-quick"' in html, name
+    begin = html.index('class="siggear-app-quick"')
+    end = html.index("</div>", begin)
+    table = html[begin:end]
+    assert "<table>" in table and "</table>" in table, name
+    assert table.count("_Planetary_Gearhead_Datasheet_Rev") == count, name
+    assert table.count("_2D_Drawing.pdf") == count, name
+    assert table.count("_Full_Assembly.step") == count, name
+    assert "application-quick-downloads.css?v=20261119-firstscreen" in html, name
+for name, (modules, drawings) in round6_joint.items():
+    source = (APP / name).read_text(encoding="utf-8")
+    assert source.count("## Joint Modules — PDF / 2D / STEP") == 1, name
+    assert source.index("## Joint Modules") < source.index("**Application:**"), name
+    assert len(source.split("## Joint Modules", 1)[0]) < 620, name
+    assert source.count("[**↓ PDF**]") == modules + 3, name
+    assert source.count("[**↓ STEP**]") == modules + 3, name
+    assert source.count("[**↓ 2D**]") == drawings + 3, name
+    assert source.count("[Request 2D]") == modules - drawings, name
+    assert "Public Reference Rev0.1" in source, name
+    assert "<details markdown=" in source and "Auxiliary Gearhead options" in source, name
+    assert len(source) < 3700, (name, len(source))
+    html_path = ROOT / "site/applications" / name.removesuffix(".md") / "index.html"
+    assert html_path.is_file(), name
+    html = html_path.read_text(encoding="utf-8")
+    assert 'class="siggear-app-quick"' in html, name
+    begin = html.index('class="siggear-app-quick"')
+    end = html.index("</div>", begin)
+    table = html[begin:end]
+    assert "<table>" in table and "</table>" in table, name
+    assert table.count("_Public_Reference_Datasheet_Rev0.1.pdf") == modules, name
+    assert table.count(".step") == modules, name
+    assert len(re.findall(r"joint-actuators/[^\s\"<>]+_2D_[^\s\"<>]+\\.pdf", table)) == drawings, name
+    assert "Auxiliary Gearhead options" in html and "<details" in html, name
+    assert html.count("_Full_Assembly.step") >= 3, name
+    assert "application-quick-downloads.css?v=20261119-firstscreen" in html, name
+
 print("PASS 32 concise supplier-first application pages, 3 supply routes, file links and legacy selector context")
