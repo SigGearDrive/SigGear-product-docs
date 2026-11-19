@@ -11,7 +11,7 @@ description: Public SG-6010D mechanical evaluation reference for product envelop
 This page provides only the SG-6010D mechanical information that is already published and suitable for early project evaluation.
 
 !!! warning
-    This is not a manufacturing drawing. Detailed mounting-hole geometry, tolerances, datums, shaft / output-interface dimensions and connector clearances are not published here and must be confirmed from the controlled drawing for the ordered configuration.
+    This is not a manufacturing drawing. The original 2D outline is now available. Manufacturing tolerances, datums, shaft/output details and connector clearances still require confirmation against the ordered configuration and controlled revision.
 
 ## Published Mechanical Envelope
 
@@ -69,6 +69,11 @@ Before final mechanical design, confirm:
 - Driver-equipped or non-driver configuration
 
 ## CAD and Controlled Drawing
+
+[**Download SG-6010D 2D Assembly Drawing PDF**](../../assets/downloads/joint-actuators/SG-6010D_2D_Assembly_Drawing.pdf){ .md-button .md-button--primary }
+
+Reference drawing shows Ø80 mm, 58.77 mm envelope and total ratio 28.13. Verify the applicable control/driver variant and drawing revision before production.
+
 
 [**Download SG-6010D Original Full Assembly STEP**](../../assets/downloads/joint-actuators/SG-6010D_Original_Full_Assembly_20261118.step){ .md-button .md-button--primary }
 
