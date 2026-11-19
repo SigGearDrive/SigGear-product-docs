@@ -91,7 +91,7 @@ Send:
 
 A preliminary ratio may be estimated from motor speed divided by target output speed, but the final configuration also needs stage availability, torque, efficiency, duty cycle and motor operating point.
 
-[Custom Planetary Gearbox for an Existing Motor](../custom-engineering/custom-planetary-gearbox.md){ .md-button }
+[Custom Planetary Gearhead for an Existing Motor](../custom-engineering/custom-planetary-gearbox.md){ .md-button }
 
 ## Compare the Complete Joint, Not Only the Reducer
 
