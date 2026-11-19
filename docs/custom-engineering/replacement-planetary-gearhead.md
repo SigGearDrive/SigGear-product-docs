@@ -9,8 +9,9 @@ If an existing planetary gearbox is discontinued, wearing prematurely, overheati
 
 SigGear can review its 8–42 mm planetary gearhead platforms as starting points for a replacement or modified configuration. A replacement is **not described as drop-in or fully compatible until the mechanical, performance and operating requirements have been checked.**
 
-[**Browse 8–42 mm Gearheads**](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[**Send Existing Unit / Drawing for Review**](../request-cad-sample-quote.md?path=gearbox_only){ .md-button }
+[**Gearbox Failure & Durability Redesign**](gearbox-failure-analysis-durability-redesign.md){ .md-button .md-button--primary }
+[**Browse 8–42 mm Gearheads**](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
+[**Send Existing Unit / Drawing for Review**](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button }
 
 ## What to Send First
 
