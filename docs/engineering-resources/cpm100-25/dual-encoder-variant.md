@@ -1,18 +1,18 @@
 ---
-title: CPM-100-25 Dual Encoder Variant | SG2556D Controlled Drawing Reference | SigGear
+title: CPM-100-25 Dual Encoder Variant | SG2556D 2D Reference | SigGear
 description: Controlled-drawing reference for the CPM-100-25 dual-encoder variant, internally identified as SG2556D, with its separate envelope and operating values.
 ---
 
 # CPM-100-25 Dual Encoder Variant v1.0
 
-**Status:** Controlled-configuration engineering reference  
+**Status:** Public variant engineering reference (2D source PDF is not a production-controlled drawing)  
 **Release date:** 2026-10-06
 
-SigGear has confirmed that the controlled drawing internally identified as **SG2556D** represents the **CPM-100-25 dual-encoder variant**.
+The supplied 2D source is identified as **SG2556D**, the **CPM-100-25D dual-encoder driver-equipped variant**. Its drawing is published for engineering evaluation, not as an approved manufacturing drawing.
 
 This variant must be kept separate from the current base CPM-100-25 public configuration because its axial package, weight and several operating values are different.
 
-## Controlled Drawing Values
+## 2D Source Reference Values
 
 | Parameter | Dual-encoder variant |
 | --- | --- |
@@ -42,7 +42,7 @@ For this reason:
 
 The controlled SG2556D drawing defines the mounting and output-interface geometry for this dual-encoder configuration.
 
-The full drawing is not published as a manufacturing drawing on this website. Final design-in should use the configuration-matched controlled PDF and CAD supplied for the project.
+The 2D source PDF is available for download as a public engineering reference; final manufacturing requires the approved, configuration-matched controlled revision.
 
 ## CAD Boundary
 
@@ -50,7 +50,9 @@ The **48 mm dual-encoder, driver-equipped configuration** is now available as an
 
 [**Download SG2556D Variant · Original Full STEP**](../../assets/downloads/joint-actuators/CPM-100-25D_Dual_Encoder_Driver_Original_Full_Assembly_20261118.step){ .md-button .md-button--primary }
 
-The matching controlled 2D manufacturing drawing is not included in this public STEP release. Confirm the precise installation configuration before production.
+[**Download SG2556D 2D Engineering Reference PDF · 48 mm**](../../assets/downloads/joint-actuators/CPM-100-25D_2D_Dual_Encoder_Driver_48mm.pdf){ .md-button }
+
+The 2D source is not a manufacturing-controlled drawing. Confirm the precise installation variant, tolerances and release revision before production.
 
 ## Related Resources
 
