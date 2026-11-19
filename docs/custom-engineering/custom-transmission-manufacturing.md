@@ -6,19 +6,19 @@ description: SigGear is a custom precision transmission manufacturer for OEM pro
 # Custom Precision Transmission Manufacturer — From Drawing or Motor to Volume Production
 
 
-**Start a custom transmission project with the information already available.** An existing motor, drawing/CAD, failed reducer or prototype forecast is enough for an initial engineering review.
+**Start a custom transmission project with the information already available.** An existing motor, drawing/STEP, failed reducer or prototype forecast is enough for an initial engineering review.
 
 [**Match My Motor**](../request-cad-sample-quote.md?start=existing_motor&path=gearbox_only){ .md-button .md-button--primary }
-[**Review Drawing / CAD**](../request-cad-sample-quote.md?start=drawing_cad){ .md-button }
-[**Review a Failed Gearhead**](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button }
+[**Review Drawing / STEP**](../request-cad-sample-quote.md?start=drawing_cad){ .md-button }
+[**Review a Failed Gearbox**](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button }
 [**Prototype → Volume**](../request-cad-sample-quote.md?start=prototype_to_volume){ .md-button }
 
-**Prefer standard engineering files first?** [Gearhead PDF / 2D / STEP](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [Motor PDFs](../engineering-resources/motors/index.md) · [Joint Module PDF / CAD](../engineering-resources/robot-joint-actuators/quick-downloads.md)
+**Prefer standard engineering files first?** [Planetary Gearbox PDF / 2D / STEP](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [Motor PDFs](../engineering-resources/motors/index.md) · [Joint Module PDF / STEP](../engineering-resources/robot-joint-actuators/quick-downloads.md)
 
 
 ## The Public Catalog Is Only the Visible Part of SigGear
 
-SigGear's public planetary gearheads, cycloidal reducers and robot joint actuators are important engineering references, but they are **not the full scope of the company's work**.
+SigGear's public planetary gearboxes, cycloidal reducers and robot joint actuators are important engineering references, but they are **not the full scope of the company's work**.
 
 Many customer-specific transmission projects cannot be published because they involve confidential drawings, unreleased products, proprietary mechanisms, application details or future production programs protected by confidentiality agreements.
 
@@ -27,19 +27,19 @@ For that reason, the standard products on this site should be understood as:
 - real products that engineers can evaluate publicly
 - evidence of transmission architectures and manufacturing capability
 - starting platforms for modified or custom projects
-- public design-in resources with datasheets, drawings and CAD where released
+- public design-in resources with datasheets, drawings and STEP files where released
 
 They should **not** be treated as the limit of SigGear's engineering or manufacturing capability.
 
 ## SigGear's Core Strength: Custom Engineering That Can Move Into Production
 
-SigGear works with customers that need the transmission to fit the product, rather than forcing the product to fit a catalog gearbox. **Customer drawings, CAD models, existing motors, failed gearboxes and physical samples can all be valid starting points for engineering review.**
+SigGear works with customers that need the transmission to fit the product, rather than forcing the product to fit a catalog gearbox. **Customer drawings, STEP models, existing motors, failed gearboxes and physical samples can all be valid starting points for engineering review.**
 
 A project can start from:
 
 - a motor that is already selected
 - an existing gearbox that needs replacement
-- a customer drawing or CAD model
+- a customer drawing or STEP model
 - a mechanism with limited installation space
 - a target speed, torque or motion requirement
 - a robot joint concept
@@ -64,9 +64,9 @@ Not every requested change is feasible on every platform. Final specifications r
 
 ### Can SigGear develop a gearbox from my motor?
 
-Yes, the review can start from an existing motor drawing and operating point. The shaft, pilot, mounting pattern, motor speed, required output speed, load and installation envelope are reviewed together before a gearhead configuration is confirmed.
+Yes, the review can start from an existing motor drawing and operating point. The shaft, pilot, mounting pattern, motor speed, required output speed, load and installation envelope are reviewed together before a gearbox configuration is confirmed.
 
-### Can SigGear work from my drawing or CAD model?
+### Can SigGear work from my drawing or STEP model?
 
 Yes. A customer 2D drawing, STEP model, mechanism layout or physical sample can be used as a starting point. The drawing defines geometry, while the engineering review also needs operating load, speed, duty cycle and production requirements.
 
@@ -84,7 +84,7 @@ Yes, confidential projects can be discussed without publishing the customer desi
 
 ### Are SigGear's public standard products the full product range?
 
-No. The published gearheads, cycloidal modules and robot joint actuators are public reference platforms. Many customer-specific products and production programs cannot be shown publicly because they are confidential.
+No. The published planetary gearboxes, cycloidal modules and robot joint actuators are public reference platforms. Many customer-specific products and production programs cannot be shown publicly because they are confidential.
 
 ## From Prototype to Repeatable Volume Manufacturing
 
@@ -168,7 +168,7 @@ Publicly displaying those projects could expose:
 - customer product designs
 - unreleased mechanisms
 - proprietary interfaces
-- customer CAD and drawings
+- customer STEP models and drawings
 - production plans
 - supplier relationships
 - performance targets or project-specific technical details
@@ -181,10 +181,10 @@ Instead, SigGear uses public standard products, real manufacturing evidence, eng
 
 The public products remain useful because they let an engineer see real technical starting points:
 
-- [8–42 mm Precision Planetary Gearheads](../products/planetary-gearboxes/index.md)
+- [8–42 mm Precision Planetary Gearboxes](../products/planetary-gearboxes/index.md)
 - [Planetary Robot Joint Actuators](../products/robot-joint-actuators/index.md)
 - [Cycloidal Robot Joint Modules](../products/cycloidal-joint-modules/index.md)
-- [Motor + Gearhead Integration](motor-gearbox-integration.md)
+- [Motor + Gearbox Integration](motor-gearbox-integration.md)
 
 A custom project may:
 
@@ -198,7 +198,7 @@ A custom project may:
 Send whatever is already available:
 
 - application and mechanism
-- drawing, CAD or marked-up sketch
+- drawing, STEP model or marked-up sketch
 - existing motor or motor preference
 - output speed
 - continuous and peak load / torque
