@@ -5,7 +5,9 @@ description: Select six SigGear planetary and cycloidal robot joint modules by s
 
 # Robot Joint Actuator Datasheets, 2D Drawings & STEP CAD
 
-**Compare specifications below, then download your file.** Six published models · six public-reference Datasheets · eight original full-assembly STEP variants · four newly verified 2D source PDFs.
+**Select a model, compare rated torque and speed, then download PDF / 2D / STEP.** Six models · 6 Datasheets · 4 available 2D reference PDFs · 8 full-assembly STEP variants.
+
+<div class="siggear-joint-downloads" markdown="1">
 
 | Model · OD × thickness · ratio · rated / peak torque · rated speed | Datasheet | 2D reference drawing | Original Full STEP |
 | --- | --- | --- | --- |
@@ -15,6 +17,8 @@ description: Select six SigGear planetary and cycloidal robot joint modules by s
 | [**CPM-78-39**](../../products/cycloidal-joint-modules/cpm78-39.md) · Cycloidal<br>Ø78.7 × 35.8 mm · 39:1<br>20 / 52 N·m · 48 rpm | [**PDF**](../../assets/downloads/joint-actuators/CPM-78-39_Public_Reference_Datasheet_Rev0.1.pdf) | SG2368B cross-reference pending | [**STEP**](../../assets/downloads/joint-actuators/CPM-78-39_Original_Full_Assembly_20261118.step) |
 | [**CPM-80-25**](../../products/cycloidal-joint-modules/cpm80-25.md) · Cycloidal<br>Ø80 · 25:1<br>10 / 50 N·m · 120 rpm | [**PDF**](../../assets/downloads/joint-actuators/CPM-80-25_Public_Reference_Datasheet_Rev0.1.pdf) | [**No driver · 29.7 mm**](../../assets/downloads/joint-actuators/CPM-80-25_2D_No_Driver_29p7mm.pdf) · [**With driver · 41.2 mm**](../../assets/downloads/joint-actuators/CPM-80-25_2D_Integrated_Driver_41p2mm.pdf) | [**No driver**](../../assets/downloads/joint-actuators/CPM-80-25_Original_Full_Assembly_No_Driver_20261118.step) · [**With driver**](../../assets/downloads/joint-actuators/CPM-80-25_Original_Full_Assembly_Integrated_Driver_20261118.step) |
 | [**CPM-100-25**](../../products/cycloidal-joint-modules/cpm100-25.md) · Cycloidal<br>Ø100 · 25:1<br>25 / 75 N·m · 60 rpm | [**PDF**](../../assets/downloads/joint-actuators/CPM-100-25_Public_Reference_Datasheet_Rev0.1.pdf) | [**SG2556D · 48 mm only**](../../assets/downloads/joint-actuators/CPM-100-25D_2D_Dual_Encoder_Driver_48mm.pdf) | [**Standard · 29.5 mm**](../../assets/downloads/joint-actuators/CPM-100-25_Original_Full_Assembly_No_Driver_20261118.step) · [**Dual encoder + driver · 48 mm**](../../assets/downloads/joint-actuators/CPM-100-25D_Dual_Encoder_Driver_Original_Full_Assembly_20261118.step) |
+
+</div>
 
 <details markdown="1">
 <summary>Additional simplified CAD downloads</summary>
