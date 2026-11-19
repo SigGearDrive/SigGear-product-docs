@@ -210,6 +210,72 @@ def build_interface_reference(model,source):
         raise ValueError("Bad mechanical reference PDF "+str(dst))
     return dst
 
+def build_separate_2557_source_reference(source):
+    """An independently labelled 2024 Rev A SOURCE CHECKLIST, not original 2D."""
+    model = source["label"]
+    if model != "SG2557-80PG-9.75B":
+        raise ValueError("Unexpected separately sourced model")
+    OUT.mkdir(parents=True, exist_ok=True)
+    dst = OUT / (model + "_Source_Dimension_Reference_Rev0.1.pdf")
+    doc = SimpleDocTemplate(
+        str(dst), pagesize=A4, leftMargin=35, rightMargin=35,
+        topMargin=35, bottomMargin=59,
+        title=model + " Source Dimension Reference Rev0.1",
+        author="Guangdong SigGear Drive Intelligent Technology Co., Ltd.",
+    )
+    width = A4[0] - 70
+    brand = ParagraphStyle(
+        "source-brand", fontName="Helvetica-Bold", fontSize=9,
+        leading=13, textColor=BLUE
+    )
+    story = [
+        Paragraph("SIGGEAR / HISTORICAL ENGINEERING SOURCE REFERENCE", brand),
+        Spacer(1, 8),
+        Paragraph(model, HEADER),
+        par("24 VDC BLDC hub motor and planetary reduction | Source drawing: Rev A / 2024-05-21", SMALL),
+        Spacer(1, 10),
+        par("PUBLIC SOURCE TRANSCRIPTION | Rev0.1 | 2026-11-19", VALUE),
+        Spacer(1, 10),
+        par("This older, independent model must not be confused with the SG-2877 or SG-2878 product configurations. Current production availability and the revision-matched installation drawing have not been confirmed.", SMALL),
+        Paragraph("Source motor and output data", SECTION),
+    ]
+    electrical = [
+        ("Nominal voltage", "24 VDC"),
+        ("Motor rated current", "< 3 A (drawing)"),
+        ("Motor rated speed", "1,500 +/-10% rpm"),
+        ("Motor rated load", "0.3 N.m"),
+        ("Motor locked-rotor current", "< 8 A"),
+        ("Planetary reduction ratio", "9.75:1"),
+        ("Output rated current", "< 3 A (drawing)"),
+        ("Output rated speed", "130 +/-10% rpm"),
+        ("Output rated torque", "3 N.m"),
+        ("Source peak output torque", "10 N.m (duration / duty limit not specified)"),
+        ("Ingress-protection note", "IP66 requirement on original drawing; no independent certification supplied"),
+    ]
+    story.append(table([[par(k, LABEL), par(v)] for k, v in electrical], [190, width-190], pad=4.5))
+    story.append(Paragraph("Dimensional checklist - source dimensions only", SECTION))
+    mechanical = [
+        ("Axial drawing reference", "116.00 mm; not verified as full overall installed length"),
+        ("Additional axial segment", "63 +/-0.1 mm"),
+        ("Front feature diameters", "93 +/-0.10 mm; 80 +0/-0.15 mm"),
+        ("Rear reference diameter", "84 +/-0.10 mm"),
+        ("Shaft / internal bore", "16 -0.05/-0.12 mm / 10.50 mm"),
+        ("Shaft projection reference", "28 +0/-0.2 mm"),
+        ("Wiring", "3 motor phase leads + 6 Hall/sensor leads; lead length is customer-specific"),
+    ]
+    story.append(table([[par(k, LABEL), par(v)] for k, v in mechanical], [190, width-190], pad=4.5))
+    story.append(Spacer(1, 8))
+    story.append(par("Source: SG2557-80PG-9.75B hub reduction assembly drawing, Rev A, 2024-05-21. Technical notes also call for RoHS compliance and more than 72 h salt-spray appearance resistance; these are source requirements, not verified certificates.", SMALL))
+    story.append(Spacer(1, 8))
+    story.append(par("This is not the original 2D drawing, a controlled manufacturing document, an approved mounting interface, or a verified STEP / Parasolid download. Confirm tolerances, mounting datum, shaft fit, current production status and peak-duty limit with SigGear engineering before design-in.", SMALL))
+    story.append(Spacer(1, 7))
+    story.append(par("Engineering requests: wangwanrong@siggear.com | siggear.com", SMALL))
+    doc.build(story, onFirstPage=foot, onLaterPages=foot)
+    if not dst.read_bytes().startswith(b"%PDF-"):
+        raise ValueError("Bad historical source-reference PDF " + str(dst))
+    return dst
+
+
 def main():
     audit=yaml.safe_load(AUDIT.read_text(encoding="utf-8"))
     for model in ("SG-2877","SG-2878"):
@@ -223,5 +289,7 @@ def main():
         print("PDF",model,p.stat().st_size,str(p.relative_to(ROOT)))
         q=build_interface_reference(model,a)
         print("DIMENSION PDF",model,q.stat().st_size,str(q.relative_to(ROOT)))
+    legacy=build_separate_2557_source_reference(audit["separate_source_drawing"])
+    print("SOURCE-ONLY PDF SG2557",legacy.stat().st_size,str(legacy.relative_to(ROOT)))
 
 if __name__=="__main__":main()
