@@ -87,7 +87,7 @@ Action:
 
 Do not change the current URL.
 
-### 5. Legacy planetary product pages with ≤8,000 rpm
+### 5. Legacy planetary product pages with obsolete 8,000 rpm ceilings
 
 Example:
 https://www.siggear.com/14mm-reduce-motor-dc-12v-24v-48v-planetary-gear-motor-product/
