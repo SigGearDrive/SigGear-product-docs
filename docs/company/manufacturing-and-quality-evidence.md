@@ -37,6 +37,17 @@ The inspection scene shows real measurement and inspection activity in the SigGe
 
 A photograph of an inspection workstation is evidence that inspection activity takes place; it is **not** a substitute for a model-specific inspection report, tolerance, accuracy statement or test result.
 
+## How This Manufacturing Evidence Relates to Custom and Volume Programs
+
+The purpose of publishing these real production scenes is not only to show that SigGear can make standard catalog parts.
+
+For customer-specific programs, the same manufacturing environment supports the practical work required to move from an engineered configuration into repeat production: component manufacturing, gear processing, assembly, inspection and production verification.
+
+The photographs do not quantify production capacity or guarantee a fixed lead time. Actual volume, schedule and delivery plan depend on the exact product, customization scope, materials, tooling, inspection requirements and order plan.
+
+[Custom Manufacturing & Volume Production](../custom-engineering/custom-transmission-manufacturing.md){ .md-button .md-button--primary }
+[Prototype → Volume Production](../custom-engineering/prototype-to-production.md){ .md-button }
+
 ## Evidence Boundary
 
 This page is intentionally limited to what the photographs can support:
@@ -52,7 +63,8 @@ Model-specific technical values should be taken from the applicable controlled d
 
 ## Related Product and Engineering Evidence
 
-[8–42 mm Planetary Gearbox Series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
+[Custom Manufacturing & Volume Production](../custom-engineering/custom-transmission-manufacturing.md){ .md-button .md-button--primary }
+[8–42 mm Planetary Gearhead Series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
 [Planetary Engineering Resources](../engineering-resources/planetary-gearboxes/index.md){ .md-button }
 [Testing, Metrology & Validation Evidence](../engineering-center/testing-and-validation-evidence.md){ .md-button }
 [Engineering Center](../engineering-center/index.md){ .md-button }
