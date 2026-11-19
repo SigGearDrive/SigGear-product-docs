@@ -270,7 +270,7 @@
         if (applicationField && !applicationField.value) {
           if (queryStart === "failing_gearbox") applicationField.value = "Existing gearbox / reducer failure and redesign review";
           if (queryStart === "existing_motor") applicationField.value = "Existing motor + custom gearhead / transmission review";
-          if (queryStart === "drawing_cad") applicationField.value = "Custom transmission review from customer drawing / STEP / sample";
+          if (queryStart === "drawing_cad") applicationField.value = "Custom transmission review from customer drawing / STEP / physical sample";
           if (queryStart === "prototype_to_volume") applicationField.value = "Custom transmission prototype-to-volume production program";
         }
       }
@@ -500,7 +500,7 @@
     var prefix = subjectParts.length ? subjectParts.join(" - ") + " - " : "";
     var start = value("sg-starting-point");
     if (start === "failing_gearbox") return prefix + "Existing Gearbox Failure / Replacement Review";
-    if (start === "drawing_cad") return prefix + "Drawing / STEP Custom Transmission Review";
+    if (start === "drawing_cad") return prefix + "Drawing / STEP / Sample Custom Transmission Review";
     if (start === "prototype_to_volume") return prefix + "Prototype to Volume Production Review";
     if (start === "existing_motor") return prefix + "Existing Motor + Custom Gearhead Review";
     if (path.value === "gearbox_only") return prefix + "Planetary Gearbox Engineering Review";

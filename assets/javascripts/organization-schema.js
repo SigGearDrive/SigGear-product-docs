@@ -24,6 +24,7 @@
       "Gear testing and backlash inspection",
       "STEP mechanical models",
       "Customer drawing and STEP-based transmission development",
+      "Physical sample transmission review",
       "Gearbox failure review and durability redesign",
       "OEM volume manufacturing and delivery planning",
       "OEM and ODM transmission development",
