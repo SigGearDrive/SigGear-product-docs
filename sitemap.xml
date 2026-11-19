@@ -182,7 +182,7 @@
     </url>
     <url>
          <loc>https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/robot-joint-actuator-development/</loc>
-         <lastmod>2026-11-18</lastmod>
+         <lastmod>2026-11-19</lastmod>
     </url>
     <url>
          <loc>https://siggeardrive.github.io/SigGear-product-docs/engineering-center/</loc>
@@ -606,7 +606,11 @@
     </url>
     <url>
          <loc>https://siggeardrive.github.io/SigGear-product-docs/selection-guides/</loc>
-         <lastmod>2026-11-18</lastmod>
+         <lastmod>2026-11-19</lastmod>
+    </url>
+    <url>
+         <loc>https://siggeardrive.github.io/SigGear-product-docs/selection-guides/integrated-robot-joint-vs-motor-gearhead/</loc>
+         <lastmod>2026-11-19</lastmod>
     </url>
     <url>
          <loc>https://siggeardrive.github.io/SigGear-product-docs/selection-guides/miniature-planetary-gearbox-selection-guide/</loc>
@@ -617,7 +621,15 @@
          <lastmod>2026-11-18</lastmod>
     </url>
     <url>
+         <loc>https://siggeardrive.github.io/SigGear-product-docs/selection-guides/planetary-vs-cycloidal-robot-joint/</loc>
+         <lastmod>2026-11-19</lastmod>
+    </url>
+    <url>
          <loc>https://siggeardrive.github.io/SigGear-product-docs/selection-guides/robot-joint-actuator-selection-guide/</loc>
-         <lastmod>2026-11-18</lastmod>
+         <lastmod>2026-11-19</lastmod>
+    </url>
+    <url>
+         <loc>https://siggeardrive.github.io/SigGear-product-docs/selection-guides/robot-joint-can-encoder-driver-selection/</loc>
+         <lastmod>2026-11-19</lastmod>
     </url>
 </urlset>
