@@ -67,7 +67,8 @@ For applicable customer programs, the development path can continue through:
 
 The purpose of this process is to convert a custom engineering solution into a configuration that can be manufactured and inspected repeatedly.
 
-[Prototype → Design-In → Production](prototype-to-production.md){ .md-button .md-button--primary }
+[Start With Your Motor / Drawing / Problem](start-with-your-problem.md){ .md-button .md-button--primary }
+[Prototype → Design-In → Production](prototype-to-production.md){ .md-button }
 
 ## Volume Production and Delivery Capability
 
