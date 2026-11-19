@@ -15,3 +15,5 @@ description: Explore SigGear 8–42 mm precision planetary gearheads in 12 Micro
 
 [**All 12 PDFs, 2D drawings & full STEP files**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
 [**Compare all model specs**](8-42mm-planetary-gear-reducer.md){ .md-button }
+[**Already have a motor? Match a gearhead**](../../custom-engineering/custom-planetary-gearbox.md){ .md-button }
+[**Dexterous hand / gripper evaluation**](../../applications/robot-gripper-gear-motors.md){ .md-button }
