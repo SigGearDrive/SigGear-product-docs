@@ -61,7 +61,8 @@ SigGear can review:
 
 A simple mechanism drawing can be enough to begin identifying the missing engineering inputs.
 
-[Start Drawing / CAD Review](../request-cad-sample-quote.md?start=drawing_cad){ .md-button .md-button--primary }
+[Custom Gearbox From Drawing / CAD](custom-gearbox-from-drawing-cad.md){ .md-button .md-button--primary }
+[Start Drawing / CAD Review](../request-cad-sample-quote.md?start=drawing_cad){ .md-button }
 
 ## “Our Current Gearbox Keeps Failing.”
 
