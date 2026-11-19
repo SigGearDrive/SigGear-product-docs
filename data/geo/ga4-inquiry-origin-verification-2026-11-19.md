@@ -11,8 +11,26 @@ This is a reporting / QA procedure, **not observed GA4 event data**.
 - The public MkDocs configuration sets Google Analytics measurement ID `G-Q14K9BLGK4` and **optional consent, unchecked by default**.
 - The website code emits normalized `inquiry_origin` as a parameter on `engineering_brief_open_click`, `inquiry_page_view`, `engineering_brief_prepare_email` and `engineering_brief_online_submit_attempt` when Google Analytics is available after consent.
 - A same-site source-page **click** is categorized from its **current URL**. An inquiry-form **page view / submit attempt** is categorized from an **exact, immediate same-site referring URL**, when provided by the browser.
-- On this date, Windsor.ai can access SigGear's **Search Console** property, but its `googleanalytics4` connector has **no selected GA4 property**. No live GA4 event count or registered custom dimension can be verified through this connection yet.
+- Earlier on this date the Windsor.ai account had Search Console but no GA4 property selected. **Later on 2026-11-19, GA4 property 547548249 (`SigGear Product Documentation`) was connected and actual event reports were retrieved successfully.** At that later check Search Console was not among the selected Windsor connectors; the user's Search Console property itself was not assessed as removed.
+- The current GA4 fields exposed through Windsor.ai did **not** include an `inquiry_origin` custom event dimension. It may not yet have been registered or surfaced; the GA4 custom definitions must be checked in the actual property.
 - This file is an operator checklist; it does not assert that external AI tools have recommended SigGear.
+
+## GA4 live readout — 2026-11-19 (reporting period November 16–18)
+
+Source: Windsor.ai GA4 connector, selected property **547548249**, with date range **2026-11-16 through 2026-11-18**. Read-only GA4 Data API reports, not a browser screen recording and not independent AI answer tests.
+
+| GA4 event / segment | Observed count | Boundaries |
+| --- | ---: | --- |
+| `engineering_brief_open_click` | **3** | One recorded click occurred while already on the Engineering Request page; this is not a new first-party inquiry-page entry |
+| `inquiry_page_view` | **3** | A form page view is not an inbox-confirmed message |
+| `engineering_brief_prepare_email` | **Not returned** | Not equivalent to a customer sending mail |
+| `engineering_brief_online_submit_attempt` | **Not returned** | No confirmed online submissions claimed |
+| Sessions attributed to `chatgpt.com / ai-assistant` | **6** | These are GA4 sessions, not evidence of an AI recommendation or qualified buyer; may include SigGear's own testing |
+| Sessions attributed to `siggear.com / referral` | **1** | Session source only, no proof of customer identity or purchase intent |
+
+The 3 click events are split by the GA4 source `page_path` as follows: `/engineering-resources/cpm100-25/datasheet/` (1), `/engineering-resources/sg8021/datasheet/` (1), and `/request-cad-sample-quote/` (1), under the `/SigGear-product-docs` prefix. **Only two click events originated from a page outside the form itself in this window.** No attempt was made to distinguish unique users or sales inquiries from these click counts. This new self-click filter prevents future form-to-form context links from inflating entry counts; it does not rewrite historic GA4 data.
+
+The connector returned **no event rows for November 19** at the time of this check; this is not proof that no visits occurred on that date, as GA4 reporting freshness and collection consent can affect visibility.
 
 ## One GA4 custom dimension, six GEO values
 
