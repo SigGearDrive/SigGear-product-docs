@@ -1,6 +1,6 @@
 ---
-title: "32 mm Miniature Planetary Gearhead (32P) | PDF & STEP CAD | SigGear"
-description: "SigGear 32P Ø32 mm miniature planetary gearhead: ratios 3.5:1–509.1:1, rated torque 3432.3–7845.3 mN·m. Direct datasheet PDF, 2D drawing and full STEP CAD."
+title: "32 mm Miniature Planetary Gearhead (32P) | PDF & STEP | SigGear"
+description: "SigGear 32P Ø32 mm miniature planetary gearhead: ratios 3.5:1–509.1:1, rated torque 3432.3–7845.3 mN·m. Direct datasheet PDF, 2D drawing and full STEP."
 ---
 
 # 32 mm Miniature Planetary Gearhead (32P)
@@ -14,7 +14,7 @@ description: "SigGear 32P Ø32 mm miniature planetary gearhead: ratios 3.5:1–5
 | --- | --- | --- | --- | --- |
 | **32 mm** | **3.5:1–509.1:1** | **28.05–52.95 mm** | **3432.3–7845.3 mN·m** | **≤ 1.2°** |
 
-**Custom 32P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=32P&start=existing_motor&path=gearbox_only) · [Review my drawing / CAD](../../request-cad-sample-quote.md?model=32P&start=drawing_cad) · [Prototype → volume](../../request-cad-sample-quote.md?model=32P&start=prototype_to_volume)
+**Custom 32P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=32P&start=existing_motor&path=gearbox_only) · [Review my drawing / STEP](../../request-cad-sample-quote.md?model=32P&start=drawing_cad) · [Review a failing gearbox](../../request-cad-sample-quote.md?model=32P&start=failing_gearbox&path=gearbox_only) · [Prototype → volume](../../request-cad-sample-quote.md?model=32P&start=prototype_to_volume)
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/32p/datasheet.md) · [Mechanical drawing preview](../../engineering-resources/32p/mechanical-interface.md) · [Motor-only datasheets](../../engineering-resources/motors/index.md#32-mm-dc-motors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
@@ -77,7 +77,7 @@ These are adapted-motor conditions, not an electrical voltage or power rating fo
 
 The published drawing shows a 32 mm body diameter and stage-dependent gearhead lengths of 28.05, 36.35, 44.65 and 52.95 mm.
 
-The current public CAD is a **4-stage reference** corresponding to the 52.95 mm gearhead-body length. It must not be treated as a universal 1-4 stage CAD model.
+The current public STEP reference is a **4-stage reference** corresponding to the 52.95 mm gearhead-body length. It must not be treated as a universal 1-4 stage STEP model.
 
 Publicly released interface information includes:
 
@@ -94,7 +94,7 @@ Publicly released interface information includes:
 
 Use the controlled drawing for final tolerances, keyseat definition and production release.
 
-## CAD Notes
+## STEP Notes
 
 The **Full Assembly STEP** is the published original Creo assembly. The **Simplified STEP** is a separate 4-stage reference for preliminary mechanical packaging. The [32P 2D outline drawing](../../assets/downloads/32p/32P_2D_Drawing.pdf) is the original **SG01PD32** interface reference. The body length **L ±0.3 mm** is configuration-dependent; confirm stage, ratio and motor mating dimensions before production.
 
