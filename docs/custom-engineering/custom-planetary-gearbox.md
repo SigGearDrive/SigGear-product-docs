@@ -9,6 +9,8 @@ description: Need a custom planetary gearbox around an existing DC/BLDC motor? S
 
 **Already have a motor?** SigGear can review a planetary gearbox around the motor you have already selected.
 
+SigGear is a **custom gearbox and precision transmission manufacturer** supporting OEM projects from engineering review and prototype development through repeatable production.
+
 For a useful first review, send the information already available for:
 
 1. **Motor model or drawing**
@@ -21,7 +23,7 @@ For a useful first review, send the information already available for:
 You do **not** need to know the final reduction ratio before contacting SigGear. A preliminary ratio can be estimated from loaded motor speed divided by target output speed, then checked against published stage ratios, rated torque and the actual motor / gearbox interface.
 
 [Find a Published Gearbox](../selection-guides/planetary-gearhead-quick-selector.md){ .md-button .md-button--primary }
-[Send Motor or Drawing for Review](../request-cad-sample-quote.md?path=gearbox_only){ .md-button }
+[Send Motor for Engineering Review](../request-cad-sample-quote.md?start=existing_motor&path=gearbox_only){ .md-button }
 [Replacing / Redesigning an Existing Gearbox?](replacement-planetary-gearhead.md){ .md-button }
 
 **Public manufacturing evidence:** SigGear publishes source-backed company-level evidence for gear hobbing, gear shaping, gear grinding, CNC machining, CMM, gear inspection, dynamometer and life-test resources. [Review equipment & inspection evidence](../company/manufacturing-equipment-inspection-capability.md).
