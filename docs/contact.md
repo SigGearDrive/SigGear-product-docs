@@ -12,7 +12,6 @@ International Sales, SigGear
 
 - YouTube: [@siggeardrive](https://www.youtube.com/@siggeardrive)
 - Instagram: [@luffywan.robotics](https://www.instagram.com/luffywan.robotics/)
-- TikTok: [@robotactuator.engineer](https://www.tiktok.com/@robotactuator.engineer)
 
 Telephone and WhatsApp details are available upon request.
 
