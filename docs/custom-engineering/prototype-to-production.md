@@ -9,6 +9,8 @@ description: Need 20 prototypes and later repeat production? SigGear supports cu
 
 **Yes.** For an applicable custom gearbox or precision transmission project, SigGear can review the prototype requirement together with the expected production path from the beginning.
 
+SigGear is a **custom gearbox and precision transmission manufacturer** supporting applicable OEM programs from feasibility and prototype development through design freeze, pilot preparation and repeatable production.
+
 The first review should include the prototype quantity, expected annual volume, motor / mechanism, target output, installation envelope and schedule if known. Prototype success does not automatically guarantee production readiness; the configuration still needs validation, design freeze, inspection definition and pilot preparation before repeat manufacturing.
 
 ## A Custom Transmission Project Is Not Finished When the First Sample Moves
@@ -21,7 +23,7 @@ A production-ready configuration requires more than a successful first sample. T
 
 SigGear works with engineers through this development path for applicable compact transmission projects. The objective is not only to produce a functional sample, but to develop a controlled configuration that can move into repeatable manufacturing when the project reaches production. **Projects that begin with tens of prototypes and may later move to hundreds or thousands of units should be reviewed as production programs from the beginning.**
 
-[Discuss Your Project](../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Discuss Prototype → Volume Project](../request-cad-sample-quote.md?start=prototype_to_volume){ .md-button .md-button--primary }
 [Send Your Drawing or Requirement](mailto:wangwanrong@siggear.com?subject=Prototype%20to%20Production%20Transmission%20Project){ .md-button }
 
 **Public production evidence:** SigGear's official 2025 catalog publishes a customization path through sample development, small-batch verification, mass production and delivery; separate company sources document the current factory and manufacturing equipment. [Review source-backed manufacturing facts](../company/source-backed-manufacturing-facts.md).
