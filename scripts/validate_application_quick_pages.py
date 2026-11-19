@@ -240,7 +240,7 @@ expected_slugs={p.stem for p in PAGES}
 assert len(source_slugs)==32 and set(source_slugs)==expected_slugs, (
     "Application directory lost or duplicated a page",len(source_slugs),
     sorted(expected_slugs-set(source_slugs)))
-assert directory_source.index("Gearhead PDF / 2D / STEP") < directory_source.index(
+assert directory_source.index("engineering-resources/planetary-gearboxes/public-cad-release-v1.md") < directory_source.index(
     "## Garden tools & powered mechanisms")
 assert "Custom OEM Manufacturing" in directory_source
 assert 'class="siggear-app-directory" markdown="1"' in directory_source
