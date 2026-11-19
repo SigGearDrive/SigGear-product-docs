@@ -34,6 +34,8 @@ Use the public resources below for preliminary engineering evaluation. Robot act
 | Prepare and run a sample evaluation | [Sample Validation Workflow](sample-validation-workflow.md) |
 | Prepare for a design freeze | [Design-In Checklist](design-in-checklist.md) |
 | Verify real manufacturing and inspection evidence | [Manufacturing & Quality Evidence](../company/manufacturing-and-quality-evidence.md) |
+| Verify company-level factory, equipment and shipment facts | [Source-Backed Manufacturing Facts](../company/source-backed-manufacturing-facts.md) |
+| Review gear processing, CMM and test equipment | [Manufacturing Equipment & Inspection Capability](../company/manufacturing-equipment-inspection-capability.md) |
 | Review real test / metrology capability and released test records | [Testing, Metrology & Validation Evidence](testing-and-validation-evidence.md) |
 | Request configuration-specific files or a sample | [Request STEP, Sample or Engineering Review](../request-cad-sample-quote.md) |
 
