@@ -1,6 +1,6 @@
 ---
-title: "Custom Precision Transmission Manufacturer | SigGear"
-description: "SigGear is a precision transmission manufacturer focused on custom engineering, repeatable volume manufacturing and production delivery. Public planetary gearheads, cycloidal reducers and robot joint actuators are reference platforms for engineering evaluation."
+title: "Custom Gearbox & Precision Transmission Manufacturer | SigGear"
+description: "SigGear is a custom gearbox and precision transmission manufacturer for OEM projects. Start from an existing motor, customer drawing, failed gearbox, robot joint requirement or prototype-to-volume production plan."
 ---
 
 # SigGear | Custom Precision Transmission Manufacturing
