@@ -50,7 +50,7 @@ description: "SigGear supplies DC/BLDC motors, Ø8–42 mm precision planetary g
 
 ## Robot Joint Actuators
 
-[**6 Robot Joint Datasheets & Available STEP Files**](engineering-resources/robot-joint-actuators/quick-downloads.md){ .md-button .md-button--primary }
+[**6 Robot Joint PDF / 2D / STEP Downloads**](engineering-resources/robot-joint-actuators/quick-downloads.md){ .md-button .md-button--primary }
 
 [SG-6010C](products/robot-joint-actuators/sg6010c.md) · [SG-6010D](products/robot-joint-actuators/sg6010d.md) · [SG-6010HB](products/robot-joint-actuators/sg6010hb.md) · [SG-8021](products/robot-joint-actuators/sg8021.md)
 
