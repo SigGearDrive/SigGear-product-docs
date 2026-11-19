@@ -1,11 +1,11 @@
 ---
-title: Replacement Planetary Gearhead | Existing Gearbox Matching | SigGear
-description: Engineering review for replacing an existing miniature planetary gearbox or gearhead. Compare motor interface, ratio, output shaft, envelope, torque, duty cycle and failure mode before evaluating a SigGear 8–42 mm platform.
+title: Failing Gearbox Replacement & Redesign | Planetary Gearhead Manufacturer | SigGear
+description: If a planetary gearbox is wearing out, overheating, developing backlash or suffering gear or bearing damage, SigGear can review the failed unit, operating condition, motor and interfaces for replacement or redesign.
 ---
 
-# Replacement Planetary Gearhead — Existing Gearbox Matching
+# Failing Planetary Gearbox? Replacement and Redesign Review
 
-If an existing planetary gearbox is discontinued, wearing prematurely or no longer meeting the project requirement, the replacement review should start from the **actual assembly and operating condition**, not only from the old model number.
+If an existing planetary gearbox is discontinued, wearing prematurely, overheating, developing backlash, making abnormal noise or damaging gears / bearings, the replacement review should start from the **actual assembly, failure evidence and operating condition**, not only from the old model number.
 
 SigGear can review its 8–42 mm planetary gearhead platforms as starting points for a replacement or modified configuration. A replacement is **not described as drop-in or fully compatible until the mechanical, performance and operating requirements have been checked.**
 
