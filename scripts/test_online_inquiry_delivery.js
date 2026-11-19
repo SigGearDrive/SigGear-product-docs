@@ -139,3 +139,69 @@ const ev = returned.gaEvents.find(x => x.name === "engineering_brief_provider_re
 assert.ok(ev);
 assert.equal(ev.params.delivery_confirmed, 0);
 console.log("PASS provider return is not claimed as confirmed inbox delivery");
+
+
+// Model-aware product-to-engineering inquiry paths; no external HTTP/email.
+for (const [reference, kind] of [
+  ["SG-6010C", "joint_actuator"],
+  ["SG-6010D", "joint_actuator"],
+  ["SG-6010HB", "joint_actuator"],
+  ["SG-8021", "joint_actuator"],
+  ["CPM-78-39", "joint_actuator"],
+  ["CPM-80-25", "joint_actuator"],
+  ["CPM-100-25", "joint_actuator"],
+  ["SG-2877", "hub_gear_motor"],
+  ["SG-2878", "hub_gear_motor"]
+]) {
+  assert.match(page, new RegExp('value="' + reference + '"'), "model must exist in form");
+  assert.match(page, new RegExp('value="' + kind + '"'), "project path must exist in form");
+  const inquiry = bootstrap("?model=" + encodeURIComponent(reference) +
+    "&start=standard_product&path=" + kind);
+  assert.equal(inquiry.node("sg-model").value, reference, "model prefill: " + reference);
+  assert.equal(inquiry.node("sg-path").value, kind, "path prefill: " + reference);
+  assert.equal(inquiry.node("sg-starting-point").value, "standard_product");
+  assert.equal(inquiry.node("sg-existing-motor-fields").hidden, true,
+    "joint/hub requests must not require a separate existing motor");
+  inquiry.node("sg-contact-email").value = "engineer@example.org";
+  inquiry.node("sg-online-consent").checked = true;
+  assert.equal(inquiry.submit().prevented, false);
+  assert.match(inquiry.node("sg-online-message").value, new RegExp("Model reference: " + reference));
+  assert.match(inquiry.node("sg-online-subject").value, new RegExp(reference));
+  assert.match(inquiry.node("sg-online-subject").value,
+    kind === "joint_actuator" ? /Robot Joint \/ Cycloidal Module Engineering Review/ :
+      /Hub Gear Motor Engineering Review/);
+}
+const legacyGearhead = bootstrap("?model=12P&start=existing_motor&path=gearbox_only");
+assert.equal(legacyGearhead.node("sg-model").value, "12P");
+assert.equal(legacyGearhead.node("sg-path").value, "gearbox_only");
+assert.equal(legacyGearhead.node("sg-existing-motor-fields").hidden, false);
+console.log("PASS 9 joint/hub product inquiry routes and unchanged 12P gearhead route");
+
+const catalogue = fs.readFileSync("docs/products/index.md", "utf8");
+assert.match(catalogue, /Gearhead PDF \/ 2D \/ STEP/);
+assert.match(catalogue, /Motor Datasheets/);
+assert.match(catalogue, /Robot Joint Module Files/);
+assert.match(catalogue, /SG-2877_Public_Reference_Datasheet_Rev0\.1\.pdf/);
+assert.match(catalogue, /SG-2878_Public_Reference_Datasheet_Rev0\.1\.pdf/);
+assert.match(catalogue, /Custom OEM \/ ODM/);
+for(const [model, slug, folder] of [
+  ["SG-6010C","sg6010c","robot-joint-actuators"],
+  ["SG-6010D","sg6010d","robot-joint-actuators"],
+  ["SG-8021","sg8021","robot-joint-actuators"],
+  ["CPM-78-39","cpm78-39","cycloidal-joint-modules"],
+  ["CPM-80-25","cpm80-25","cycloidal-joint-modules"],
+  ["CPM-100-25","cpm100-25","cycloidal-joint-modules"],
+  ["SG-6010HB","sg6010hb","robot-joint-actuators"],
+  ["SG-2877","sg2877","hub-gear-motors"],
+  ["SG-2878","sg2878","hub-gear-motors"]
+]) {
+  const productPage = fs.readFileSync("docs/products/" + folder + "/" + slug + ".md", "utf8");
+  assert.match(productPage, new RegExp("model=" + model), model + " needs prefilled inquiry URL");
+  if (folder === "hub-gear-motors") {
+    assert.match(productPage, new RegExp(model + "_Public_Reference_Datasheet_Rev0\\.1\\.pdf"),
+      model + " must retain its new published PDF link");
+    assert.match(productPage, /not a verified STEP export/, "do not overstate Parasolid CAD");
+    assert.match(productPage, /External controller required/, "do not imply a supplied controller");
+  }
+}
+console.log("PASS product directory, 9 product-to-OEM paths and source-backed hub PDF safeguards");
