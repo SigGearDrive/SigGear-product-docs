@@ -5,6 +5,16 @@ description: Browse SigGear products and open model-specific specifications, dat
 
 # SigGear Products
 
+## Public Products Are Reference Platforms, Not the Limit of SigGear
+
+The products below are the part of SigGear's transmission work that can be shown publicly with model-specific technical information. Many customer-specific products and production programs remain confidential.
+
+If the requirement does not match a standard model, start with the application, motor, drawing, interface, target performance or production requirement. SigGear can evaluate a custom transmission and, for applicable programs, carry the project from prototype through repeatable volume manufacturing.
+
+[**Custom Manufacturing & Volume Production**](../custom-engineering/custom-transmission-manufacturing.md){ .md-button .md-button--primary }
+[**Start Custom Engineering**](../custom-engineering/index.md){ .md-button }
+[**Manufacturing Evidence**](../company/manufacturing-and-quality-evidence.md){ .md-button }
+
 ## Precision Planetary Gearheads | 8–42 mm
 
 12 Micro, Miniature and Compact models with model-specific product parameters and CAD resources.
