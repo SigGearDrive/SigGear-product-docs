@@ -1,6 +1,6 @@
 ---
 title: Custom Transmission Engineering Review | Motor, Drawing, Failed Gearbox or Volume Project | SigGear
-description: Start a SigGear engineering review from an existing motor, customer drawing, failing gearbox, robot joint requirement or prototype-to-volume production plan. Standard model selection is optional.
+description: Start a SigGear engineering review from an existing motor, customer drawing or STEP model, physical sample, failing gearbox, robot joint requirement or prototype-to-volume production plan.
 ---
 
 # Start a Custom Transmission Engineering Review
@@ -12,7 +12,7 @@ The published products, datasheets and STEP files are **public reference platfor
 Most custom projects can start from one of four situations:
 
 - **“Here is my motor.”** — the motor is already selected and the transmission must fit it.
-- **“Here is our drawing.”** — the mechanism, STEP model or installation envelope already defines the interface.
+- **“Here is our drawing / STEP / sample.”** — the mechanism, STEP model, physical sample or installation envelope defines the starting interface.
 - **“Our current gearbox keeps failing.”** — an existing transmission needs replacement, durability review or redesign.
 - **“We need prototypes first, then volume production.”** — the project needs a path from sample validation into repeatable manufacturing.
 
@@ -23,7 +23,7 @@ If you already know a SigGear model, include it as a reference. If not, send the
 
 
 [**I Already Have a Motor**](?start=existing_motor&path=gearbox_only){ .md-button .md-button--primary }
-[**I Have a Drawing / STEP**](?start=drawing_cad){ .md-button }
+[**I Have a Drawing / STEP / Sample**](?start=drawing_cad){ .md-button }
 [**My Current Gearbox Is Failing**](?start=failing_gearbox&path=gearbox_only){ .md-button }
 [**Prototype → Volume Production**](?start=prototype_to_volume){ .md-button }
 
@@ -122,7 +122,7 @@ Complete the project brief below and click **Send Engineering Request Online** t
       <select id="sg-starting-point" name="starting_point">
         <option value="">Not sure yet</option>
         <option value="existing_motor">I already have a motor</option>
-        <option value="drawing_cad">I have a drawing / STEP / mechanism</option>
+        <option value="drawing_cad">I have a drawing / STEP / sample / mechanism</option>
         <option value="failing_gearbox">My current gearbox / reducer is failing</option>
         <option value="prototype_to_volume">Prototype first, then volume production</option>
         <option value="standard_product">I am evaluating a SigGear standard product</option>
