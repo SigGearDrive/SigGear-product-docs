@@ -72,6 +72,18 @@ def main() -> None:
                    "6 Nm", "18 Nm", "CAD release hold"):
         require(marker in extracted, "SG-6010HB reference PDF missing: " + marker)
 
+    # Guard canonical public naming: never expose a supplier-internal code
+    # in rendered reference PDFs, public Markdown or source release metadata.
+    nonpublic_code = "SG" + "2908B"
+    require(nonpublic_code not in extracted, "Internal code exposed in reference PDF")
+    for source_file in (
+        MODEL, TECH / "datasheet.md", TECH / "mechanical-interface.md",
+        PRODUCT_DATA, AUDIT,
+        ROOT / ".github/joint-drawing-photo-inbox/source_register_2026-11-19.json"
+    ):
+        require(nonpublic_code not in source_file.read_text(encoding="utf-8"),
+                "Internal source code leaked in " + str(source_file))
+
     model_text = MODEL.read_text(encoding="utf-8")
     mech_text = (TECH / "mechanical-interface.md").read_text(encoding="utf-8")
     datasheet_text = (TECH / "datasheet.md").read_text(encoding="utf-8")
