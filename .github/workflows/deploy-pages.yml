@@ -61,6 +61,9 @@ jobs:
       - name: Build documentation
         run: mkdocs build --strict
 
+      - name: Verify six joint first-screen PDF and original STEP downloads
+        run: python scripts/validate_joint_quick_downloads.py
+
       - name: Preflight published planetary and motor files
         run: python scripts/validate_planetary_download_assets.py
 
