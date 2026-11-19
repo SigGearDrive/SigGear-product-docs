@@ -190,6 +190,7 @@ nav:
   - Custom Engineering:
       - Overview: custom-engineering/index.md
       - Start With Your Motor / Drawing / Problem: custom-engineering/start-with-your-problem.md
+      - Custom Gearbox From Drawing / CAD: custom-engineering/custom-gearbox-from-drawing-cad.md
       - Custom Manufacturing & Volume Production: custom-engineering/custom-transmission-manufacturing.md
       - Custom Planetary Gearhead: custom-engineering/custom-planetary-gearbox.md
       - Replacement Planetary Gearhead: custom-engineering/replacement-planetary-gearhead.md
