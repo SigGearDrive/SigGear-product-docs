@@ -11,4 +11,10 @@ Or use the [8–42 mm model catalogue](../products/planetary-gearboxes/8-42mm-pl
 
 For historical compatibility, the [Legacy Ratio & Stage Reference](miniature-planetary-gearbox-selection-guide.md) remains available. It is no longer the primary product-discovery or download route.
 
-For robot joint products, see the [Robot Joint Actuator Guide](robot-joint-actuator-selection-guide.md).
+For robot joint products, start with the [Robot Joint Actuator Guide](robot-joint-actuator-selection-guide.md).
+
+High-intent engineering comparisons:
+
+- [Planetary vs Cycloidal Reducer for Robot Joints](planetary-vs-cycloidal-robot-joint.md)
+- [Integrated Robot Joint Actuator vs Motor + Gearhead](integrated-robot-joint-vs-motor-gearhead.md)
+- [Robot Joint CAN, Encoder & Driver Selection](robot-joint-can-encoder-driver-selection.md)
