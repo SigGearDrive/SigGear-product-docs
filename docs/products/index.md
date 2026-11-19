@@ -1,40 +1,37 @@
 ---
-title: SigGear Product Catalogue | Planetary Gearheads & Robot Actuators
-description: Browse SigGear products and open model-specific specifications, datasheets, 2D drawings and STEP CAD.
+title: SigGear Products | Gearhead PDF, Motor Datasheets & Robot Joint CAD
+description: Find direct SigGear 8–42 mm planetary gearhead PDF/2D/STEP, motor datasheets, robot joint reference CAD and hub motor PDFs. Custom OEM engineering available.
 ---
 
-# SigGear Products
+# SigGear Products — Download Engineering Files
 
-## Public Products Are Reference Platforms, Not the Limit of SigGear
+**Choose a product family and open the available engineering files.** Public models are reference platforms; custom ratios, interfaces, motors and OEM production configurations require project review.
 
-The products below are the part of SigGear's transmission work that can be shown publicly with model-specific technical information. Many customer-specific products and production programs remain confidential.
+[**Gearhead PDF / 2D / STEP**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
+[**Motor Datasheets**](../engineering-resources/motors/index.md){ .md-button }
+[**Robot Joint Module Files**](../engineering-resources/robot-joint-actuators/quick-downloads.md){ .md-button }
 
-If the requirement does not match a standard model, start with the application, motor, drawing, interface, target performance or production requirement. SigGear can evaluate a custom transmission and, for applicable programs, carry the project from prototype through repeatable volume manufacturing.
+## Product Families
 
-[**Custom Manufacturing & Volume Production**](../custom-engineering/custom-transmission-manufacturing.md){ .md-button .md-button--primary }
-[**Start Custom Engineering**](../custom-engineering/index.md){ .md-button }
-[**Manufacturing Evidence**](../company/manufacturing-and-quality-evidence.md){ .md-button }
+| Product family | Models | Engineering files / details |
+| --- | --- | --- |
+| **Precision Planetary Gearheads** | 8P–42P · 12 sizes · Ø8–42 mm | [**12 model PDFs, 2D & Full STEP**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [Compare models](planetary-gearboxes/8-42mm-planetary-gear-reducer.md) |
+| **DC / BLDC Motors** | Published motor datasheet library | [**Motor PDF Datasheets**](../engineering-resources/motors/index.md) |
+| **Planetary Robot Joint Actuators** | SG-6010C · SG-6010D · SG-8021 | [**Reference PDF / available 2D / original STEP**](../engineering-resources/robot-joint-actuators/quick-downloads.md) · [Models](robot-joint-actuators/index.md) |
+| **Cycloidal Robot Joint Modules** | CPM-78-39 · CPM-80-25 · CPM-100-25 | [**Reference PDF / variant-specific CAD**](../engineering-resources/robot-joint-actuators/quick-downloads.md) · [Models](cycloidal-joint-modules/index.md) |
+| **SG-6010HB — separate model** | 67 mm compact planetary joint actuator | [**PDF / CAD release status**](robot-joint-actuators/sg6010hb.md) · STEP not publicly verified |
+| **Hub Gear Motors** | SG-2877 · SG-2878 | [**2877 PDF**](../assets/downloads/hub-gear-motors/SG-2877_Public_Reference_Datasheet_Rev0.1.pdf) · [**2878 PDF**](../assets/downloads/hub-gear-motors/SG-2878_Public_Reference_Datasheet_Rev0.1.pdf) · [Models / CAD status](hub-gear-motors/index.md) |
 
-## Precision Planetary Gearheads | 8–42 mm
+**Other product families:** [Micro Gear Motors](micro-gear-motors/index.md) · [Flat BLDC Motors and Joint Drives](flat-bldc-motors/index.md).
 
-12 Micro, Miniature and Compact models with model-specific product parameters and CAD resources.
+## Custom OEM / ODM — Start With What You Have
 
-[**Open the 8–42 mm product catalogue**](planetary-gearboxes/8-42mm-planetary-gear-reducer.md)
+**Already have a motor, drawing, failed reducer or target performance?** SigGear can review mechanical fit, customization and prototype-to-volume requirements. You do not need to select a catalogue model first.
 
-## Robot Joint Actuators
+[**I Have a Motor**](../request-cad-sample-quote.md?start=existing_motor&path=gearbox_only){ .md-button }
+[**I Have a Drawing / CAD**](../request-cad-sample-quote.md?start=drawing_cad){ .md-button }
+[**Prototype → Volume Production**](../request-cad-sample-quote.md?start=prototype_to_volume){ .md-button }
 
-Integrated planetary robot joint actuators.
+[Custom OEM Manufacturing](../custom-engineering/custom-transmission-manufacturing.md) · [Manufacturing Evidence](../company/manufacturing-and-quality-evidence.md)
 
-[Browse SG-6010C, SG-6010D, SG-6010HB and SG-8021](robot-joint-actuators/index.md)
-
-## Cycloidal Joint Modules
-
-Compact cycloidal robot joint modules.
-
-[Browse CPM-78-39, CPM-80-25 and CPM-100-25](cycloidal-joint-modules/index.md)
-
-## Other Products
-
-- [Hub Gear Motors](hub-gear-motors/index.md)
-- [Micro Gear Motors](micro-gear-motors/index.md)
-- [Flat BLDC Motors and Joint Drives](flat-bldc-motors/index.md)
+<small>Public joint-module PDFs and available 2D files are engineering references, not configuration-controlled manufacturing drawings. Confirm stage, driver/encoder variant and installation interface before production. Hub motor reference PDFs do not imply released STEP, nor an included motor controller.</small>
