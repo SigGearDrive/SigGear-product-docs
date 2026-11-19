@@ -10,7 +10,7 @@ description: SigGear is a custom precision transmission manufacturer for OEM pro
 
 [**Match My Motor**](../request-cad-sample-quote.md?start=existing_motor&path=gearbox_only){ .md-button .md-button--primary }
 [**Review Drawing / STEP**](../request-cad-sample-quote.md?start=drawing_cad){ .md-button }
-[**Review a Failed Gearbox**](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button }
+[**Replace / Redesign Existing Gearbox**](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button }
 [**Prototype → Volume**](../request-cad-sample-quote.md?start=prototype_to_volume){ .md-button }
 
 **Supplier Qualification Guide:** [How to Evaluate a Custom Gearbox Manufacturer](../selection-guides/custom-gearbox-manufacturer-supplier-qualification.md) · [Gear Hobbing, Grinding, CMM & Inspection](../company/manufacturing-equipment-inspection-capability.md) · [Source-Backed Manufacturing Facts](../company/source-backed-manufacturing-facts.md)
