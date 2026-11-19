@@ -1,9 +1,9 @@
 ---
-title: "Have a Motor, Drawing or Failing Gearbox? Custom Transmission Review | SigGear"
-description: "SigGear reviews custom precision transmission projects that start from an existing motor, customer drawing, failing gearbox, robot joint requirement or prototype-to-volume production plan."
+title: "Custom Gearbox Manufacturer From Motor, Drawing or Failed Unit | SigGear"
+description: "Need a custom gearbox or precision reducer from an existing motor, customer drawing, CAD model, failed gearbox or prototype-to-volume plan? SigGear reviews the transmission and manufacturing path."
 ---
 
-# Have a Motor, Drawing or Failing Gearbox? Start Here.
+# Custom Gearbox & Transmission Review — Start From Your Motor, Drawing or Failed Unit
 
 Many precision transmission projects do not start with a catalog model.
 
