@@ -20,6 +20,8 @@ The six public models are reference platforms, not the limit of SigGear's custom
 [**Encoder / Driver / Communication Review**](../../selection-guides/robot-joint-can-encoder-driver-selection.md){ .md-button }
 [**Prototype → Volume Production**](../../request-cad-sample-quote.md?start=prototype_to_volume&path=joint_actuator){ .md-button }
 
+**Manufacturing proof:** [Manufacturing & Quality Evidence](../../company/manufacturing-and-quality-evidence.md) · [Source-Backed Manufacturing Facts](../../company/source-backed-manufacturing-facts.md) · [Equipment & Inspection Capability](../../company/manufacturing-equipment-inspection-capability.md)
+
 <div class="siggear-joint-downloads" markdown="1">
 
 | Model · OD × thickness · ratio · rated / peak torque · rated speed | Datasheet | 2D reference drawing | Original Full STEP |
