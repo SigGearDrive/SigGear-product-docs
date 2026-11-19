@@ -1,13 +1,13 @@
 ---
-title: Custom Planetary Gearhead for an Existing Motor | OEM Manufacturer | SigGear
-description: Need a custom planetary gearhead around an existing DC/BLDC motor? SigGear reviews motor speed, shaft, pilot, mounting, ratio, output torque, envelope and OEM production requirements.
+title: Custom Planetary Gearbox for an Existing Motor | OEM Manufacturer | SigGear
+description: Need a custom planetary gearbox around an existing DC/BLDC motor? SigGear reviews motor speed, shaft, pilot, mounting, ratio, output torque, envelope and OEM production requirements.
 ---
 
-# Custom Planetary Gearhead for an Existing Motor — OEM Engineering Review
+# Custom Planetary Gearbox for an Existing Motor — OEM Engineering Review
 
 ## Quick Answer
 
-**Already have a motor?** SigGear can review a planetary gearhead around the motor you have already selected.
+**Already have a motor?** SigGear can review a planetary gearbox around the motor you have already selected.
 
 For a useful first review, send the information already available for:
 
@@ -16,17 +16,17 @@ For a useful first review, send the information already available for:
 3. **Motor shaft diameter and usable length**
 4. **Mounting-hole pattern and locating pilot**
 5. **Required output speed and continuous / peak load**
-6. **Maximum gearhead diameter and available assembly length**
+6. **Maximum gearbox diameter and available assembly length**
 
-You do **not** need to know the final reduction ratio before contacting SigGear. A preliminary ratio can be estimated from loaded motor speed divided by target output speed, then checked against published stage ratios, rated torque and the actual motor / gearhead interface.
+You do **not** need to know the final reduction ratio before contacting SigGear. A preliminary ratio can be estimated from loaded motor speed divided by target output speed, then checked against published stage ratios, rated torque and the actual motor / gearbox interface.
 
-[Find a Published Gearhead](../selection-guides/planetary-gearhead-quick-selector.md){ .md-button .md-button--primary }
+[Find a Published Gearbox](../selection-guides/planetary-gearhead-quick-selector.md){ .md-button .md-button--primary }
 [Send Motor or Drawing for Review](../request-cad-sample-quote.md?path=gearbox_only){ .md-button }
-[Replacing an Existing Gearhead?](replacement-planetary-gearhead.md){ .md-button }
+[Replacing an Existing Gearbox?](replacement-planetary-gearhead.md){ .md-button }
 
 ## Standard Series or Custom Engineering?
 
-If the requirement can be met by a released 8–42 mm frame size, start with the [standard planetary gearhead series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md).
+If the requirement can be met by a released 8–42 mm frame size, start with the [standard planetary gearbox series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md).
 
 Use this custom-engineering path when the project needs a modified or special:
 
@@ -43,7 +43,7 @@ This separation keeps standard-product selection and custom-project evaluation d
 
 ## When a Catalog Gearbox Does Not Fit the Project
 
-A planetary gearhead project does not need to start from an existing SigGear model number.
+A planetary gearbox project does not need to start from an existing SigGear model number.
 
 You may already have:
 
@@ -55,10 +55,12 @@ You may already have:
 - an existing mechanism drawing
 - a current gearbox that does not meet the project requirement
 
-SigGear designs and manufactures micro, miniature and compact planetary gearheads and can review existing 8–42 mm platforms as engineering starting points before evaluating a **modified or custom planetary gearhead** configuration.
+SigGear designs and manufactures micro, miniature and compact planetary gearboxes and can review existing 8–42 mm platforms as engineering starting points before evaluating a **modified or custom planetary gearbox** configuration.
 
 [Send Your Motor or Drawing](mailto:wangwanrong@siggear.com?subject=Custom%20Planetary%20Gearbox%20Engineering%20Review){ .md-button .md-button--primary }
 [Request Engineering Review](../request-cad-sample-quote.md){ .md-button }
+
+**Manufacturing qualification:** [Gear Hobbing, Grinding, CMM & Inspection](../company/manufacturing-equipment-inspection-capability.md) · [Source-Backed Manufacturing Facts](../company/source-backed-manufacturing-facts.md)
 
 ## Custom Shaft, Mounting, Ratio and Interface Requests
 
@@ -98,11 +100,11 @@ If the motor has already been selected, send the motor drawing or the informatio
 - locating pilot diameter
 - available total assembly length
 
-SigGear can then review the motor-to-gearhead interface together with the required output speed, torque and installation envelope.
+SigGear can then review the motor-to-gearbox interface together with the required output speed, torque and installation envelope.
 
 The supply configuration can be:
 
-- planetary gearhead only
+- planetary gearbox only
 - motor only
 - matched motor + gearbox assembly
 
