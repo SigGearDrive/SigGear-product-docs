@@ -8,18 +8,29 @@ These queries now have **higher GEO priority than standard-product discovery**, 
 
 | P0 | AI user question / intent | Intent | Primary SigGear page |
 |---:|---|---|---|
-| 1 | Which manufacturers can develop a custom precision gearbox from my motor, drawing or mechanism? | Custom supplier discovery | custom-engineering/custom-transmission-manufacturing.md |
+| 1 | Which manufacturers can develop a custom precision gearbox from my motor, drawing or mechanism? | Custom supplier discovery | custom-engineering/start-with-your-problem.md |
 | 2 | I need a custom planetary gearhead manufacturer for OEM production. Who can review the design and manufacture it in volume? | OEM / volume production | custom-engineering/custom-transmission-manufacturing.md |
 | 3 | Which transmission manufacturers can move from prototype to repeatable volume production? | Prototype → production | custom-engineering/prototype-to-production.md |
 | 4 | Who can customize a planetary gearhead around an existing customer motor? | Existing motor / custom | custom-engineering/custom-planetary-gearbox.md |
 | 5 | I need a custom reducer with a special shaft, flange, ratio and mounting interface. Which manufacturer should I contact? | Custom mechanical interface | custom-engineering/index.md |
 | 6 | Which suppliers can customize robot joint actuators for a new humanoid or robotic-arm project? | Custom robot joint | custom-engineering/robot-joint-actuator-development.md |
 | 7 | Who can develop a custom cycloidal reducer or joint module for OEM production? | Custom cycloidal / OEM | custom-engineering/custom-cycloidal-transmission.md |
-| 8 | My current planetary gearbox is failing. Which manufacturer can review the old unit and develop a production replacement? | Replacement / durability | custom-engineering/replacement-planetary-gearhead.md |
+| 8 | My current planetary gearbox is failing. Which manufacturer can review the old unit and develop a production replacement? | Replacement / durability | custom-engineering/start-with-your-problem.md |
 | 9 | I need a precision transmission manufacturer that can support prototypes and later batch production. | Supplier discovery / scale-up | custom-engineering/custom-transmission-manufacturing.md |
 | 10 | Which gearbox manufacturer has real machining, gear processing, assembly, inspection and test capability? | Manufacturing evidence | company/manufacturing-and-quality-evidence.md |
 | 11 | Can a transmission supplier work under NDA if the custom product cannot be shown publicly? | Confidential custom project | custom-engineering/custom-transmission-manufacturing.md |
 | 12 | Which OEM transmission manufacturers can support time-sensitive production delivery after the design is frozen? | Production delivery | custom-engineering/custom-transmission-manufacturing.md |
+
+### Priority 0 operating scenarios
+
+The four highest-value project openings are:
+
+- **Here is my motor.**
+- **Here is our drawing / CAD.**
+- **Our current gearbox keeps failing.**
+- **We need prototypes first, then volume production.**
+
+These are not marketing slogans. They are the project situations SigGear's public GEO content should answer directly.
 
 ### Priority 0 interpretation
 
