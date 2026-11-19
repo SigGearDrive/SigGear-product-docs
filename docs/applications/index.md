@@ -1,13 +1,13 @@
 ---
-title: "SigGear Motor, Gearhead & Gear Motor Applications | PDF CAD"
-description: "SigGear supplies micro DC/BLDC motors, Ø8–42 mm precision planetary gearheads and motor + gearhead assemblies for 32 OEM applications. Product models and direct PDF, 2D, STEP CAD downloads."
+title: "SigGear Motor, Planetary Gearbox & Gear Motor Applications | STEP"
+description: "SigGear supplies micro DC/BLDC motors, Ø8–42 mm precision planetary gearboxes and motor + gearbox assemblies for 32 OEM applications, with direct PDF, 2D and STEP files."
 ---
 
-# SigGear Motors, Gearheads & Gear Motor Applications
+# SigGear Motors, Planetary Gearboxes & Gear Motor Applications
 
-**SigGear supplies DC/BLDC motors, Ø8–42 mm precision planetary Gearheads and custom motor + gearhead assemblies for OEM volume production.**
+**SigGear supplies DC/BLDC motors, Ø8–42 mm precision planetary gearboxes and custom motor + gearbox assemblies for OEM volume production.**
 
-[**Gearhead PDF / 2D / STEP**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
+[**Planetary Gearbox PDF / 2D / STEP**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
 [**Motor Datasheets**](../engineering-resources/motors/index.md){ .md-button }
 [**Joint Module Files**](../engineering-resources/robot-joint-actuators/quick-downloads.md){ .md-button }
 [**Custom OEM Manufacturing**](../custom-engineering/custom-transmission-manufacturing.md){ .md-button }
