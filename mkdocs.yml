@@ -172,6 +172,7 @@ nav:
           - SG8021: products/robot-joint-actuators/sg8021.md
       - Hub Gear Motors:
           - Overview: products/hub-gear-motors/index.md
+          - SG2557 (historical source): products/hub-gear-motors/sg2557-80pg-9-75b.md
           - SG2877: products/hub-gear-motors/sg2877.md
           - SG2878: products/hub-gear-motors/sg2878.md
       - Cycloidal Joint Modules:
