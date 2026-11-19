@@ -141,7 +141,7 @@
       "Need More Information — complete the missing gates below before treating the request as CAD-review ready.";
 
     if (readiness.selected_path === "motor_gearbox" && !readiness.gates.motor_interface) {
-      cadReadinessStatus.textContent += " For a complete motor + gearbox project, the drive-side interface remains open until SigGear confirms the motor / adapter configuration.";
+      cadReadinessStatus.textContent += " For a complete motor + gearhead project, the drive-side interface remains open until SigGear confirms the motor / adapter configuration.";
     }
 
     cadReadinessGates.innerHTML = [
@@ -503,8 +503,8 @@
     if (start === "drawing_cad") return prefix + "Drawing / CAD Custom Transmission Review";
     if (start === "prototype_to_volume") return prefix + "Prototype to Volume Production Review";
     if (start === "existing_motor") return prefix + "Existing Motor + Custom Gearhead Review";
-    if (path.value === "gearbox_only") return prefix + "Gearbox Only Engineering Review";
-    if (path.value === "motor_gearbox") return prefix + "Motor + Gearbox Engineering Review";
+    if (path.value === "gearbox_only") return prefix + "Gearhead Only Engineering Review";
+    if (path.value === "motor_gearbox") return prefix + "Motor + Gearhead Engineering Review";
     if (path.value === "joint_actuator") return prefix + "Robot Joint / Cycloidal Module Engineering Review";
     if (path.value === "hub_gear_motor") return prefix + "Hub Gear Motor Engineering Review";
     return prefix + "Custom Transmission Project Review";
