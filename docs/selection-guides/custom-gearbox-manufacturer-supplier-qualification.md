@@ -16,6 +16,19 @@ When qualifying a custom gearbox manufacturer, check six things first:
 5. **Prototype → production** — is there a defined path through prototype, design refinement, design freeze, pilot and repeat manufacturing?
 6. **Evidence and confidentiality** — are manufacturing claims source-backed, and can customer-specific files remain confidential?
 
+### SigGear Public Evidence Snapshot
+
+For SigGear specifically, current public company sources document:
+
+- a standalone factory of **over 20,000 m²** in the newer 2025 company profile
+- **200+ production and testing equipment units** in the May 2025 catalog
+- **20+ R&D / design personnel** in the May 2025 catalog
+- gear hobbing, shaping, grinding, CNC, CMM, gear testing, dynamometer and life-test resources
+- a published customization workflow extending through small-batch verification, mass production and delivery
+- an official Q1 2025 company shipment result of **more than 550,000 units**
+
+These are company-level, date-stamped facts. They are **not** automatic model-specific capacity, lead-time, tolerance or lifetime guarantees.
+
 A custom gearbox supplier should not be evaluated only from a product catalog or a finished sample.
 
 For an OEM project, the more useful question is:
