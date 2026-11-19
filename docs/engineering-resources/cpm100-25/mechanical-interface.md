@@ -25,9 +25,9 @@ This page provides the CPM-100-25 mechanical information that is already publish
 
 ## Confirmed Dual-Encoder Mechanical Variant
 
-The controlled drawing code **SG2556D** has been confirmed as the CPM-100-25 dual-encoder variant.
+The supplied 2D source drawing is labelled **SG2556D** and corresponds to the **48 mm dual-encoder, driver-equipped CPM-100-25D reference**. This source identification does not constitute final engineering release approval.
 
-Its controlled envelope includes:
+Its source-drawing envelope includes:
 
 - Maximum outer diameter: **100 mm**
 - Overall axial dimension: **48 mm**
@@ -88,7 +88,7 @@ Original STEP assembly exports are published for **two distinct variants**:
 
 [**Original Full STEP · Dual Encoder + Driver 48 mm**](../../assets/downloads/joint-actuators/CPM-100-25D_Dual_Encoder_Driver_Original_Full_Assembly_20261118.step){ .md-button }
 
-The 48 mm variant has different mounting geometry and is not the standard 29.5 mm model. **No simplified reference STEP** is released for CPM-100-25; these are original full-assembly STEP files. A matching controlled 2D manufacturing drawing is still required for final tolerances and production.
+The 48 mm dual-encoder/driver version has a different envelope from the standard 29.5 mm model. **No simplified reference STEP** is released for CPM-100-25; both links are original full-assembly STEP files. The provided SG2556D 2D source PDF is **not yet a public download**. A configuration-matched approved controlled 2D drawing remains necessary for production.
 
 [Request Controlled Drawing](../../request-cad-sample-quote.md){ .md-button }
 
