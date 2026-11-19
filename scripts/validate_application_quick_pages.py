@@ -232,4 +232,33 @@ for name, (modules, drawings) in round6_joint.items():
     assert html.count("_Full_Assembly.step") >= 3, name
     assert "application-quick-downloads.css?v=20261119-firstscreen" in html, name
 
+# Directory UX: exactly 32 unique application destinations with accessible, visible
+# navigation cards, plus first-screen engineering PDF/STEP download hubs.
+directory_source=(APP/"index.md").read_text(encoding="utf-8")
+source_slugs=re.findall(r"\]\(([a-z0-9-]+)\.md\)", directory_source)
+expected_slugs={p.stem for p in PAGES}
+assert len(source_slugs)==32 and set(source_slugs)==expected_slugs, (
+    "Application directory lost or duplicated a page",len(source_slugs),
+    sorted(expected_slugs-set(source_slugs)))
+assert directory_source.index("Gearhead PDF / 2D / STEP") < directory_source.index(
+    "## Garden tools & powered mechanisms")
+assert "Custom OEM Manufacturing" in directory_source
+assert 'class="siggear-app-directory" markdown="1"' in directory_source
+index_html=ROOT/"site/applications/index.html"
+assert index_html.is_file(), "Application directory missing from rendered site"
+html=index_html.read_text(encoding="utf-8")
+assert 'class="siggear-app-directory"' in html, "Directory layout missing"
+start=html.index('class="siggear-app-directory"')
+end=html.index("</div>",start)
+directory_html=html[start:end]
+anchors=re.findall(r'href="([^"]+)"',directory_html)
+app_anchors=[x for x in anchors if x.endswith("/") and not x.startswith("http")]
+assert len(app_anchors)==32, ("Rendered directory did not expose 32 app links", len(app_anchors))
+assert {a.split("/")[-2] for a in app_anchors}==expected_slugs
+assert directory_html.count("<ul>")==6, "Expected six application categories"
+assert "application-directory.css?v=20261119-directory" in html
+assert "engineering-resources/planetary-gearboxes/public-cad-release-v1/" in html
+assert "engineering-resources/motors/" in html
+assert "engineering-resources/robot-joint-actuators/quick-downloads/" in html
+
 print("PASS 31 concise application pages plus 1 detailed dexterous-hand engineering page with real files and selector context")
