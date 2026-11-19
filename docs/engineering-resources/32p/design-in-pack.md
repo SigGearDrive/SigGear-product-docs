@@ -1,13 +1,13 @@
 ---
-title: 32P Planetary Gearbox CAD & Design-In Pack | SigGear
-description: Public 32P 32 mm planetary gearbox Design-In Pack with datasheet, mechanical interface, simplified 4-stage STEP, motor integration guidance and controlled CAD request path.
+title: 32P Planetary Gearbox STEP & Design-In Pack | SigGear
+description: Public 32P 32 mm planetary gearbox Design-In Pack with datasheet, mechanical interface, simplified 4-stage STEP, motor integration guidance and controlled STEP / drawing review path.
 ---
 
-# 32P Planetary Gearbox - Public CAD Design-In Pack
+# 32P Planetary Gearbox - Public STEP Design-In Pack
 
 This page brings together the current public engineering resources for the SigGear **32P 32 mm planetary gearbox** so an engineer can move from preliminary selection to early mechanical design-in without searching across separate pages.
 
-The current downloadable STEP is a **simplified 4-stage reference**. It is intended for packaging, mounting and early integration work. It is not the controlled production model and must not be used as a universal 1-4 stage CAD file.
+The current downloadable STEP is a **simplified 4-stage reference**. It is intended for packaging, mounting and early integration work. It is not the controlled production model and must not be used as a universal 1-4 stage production STEP file.
 
 ## Design-In Path
 
