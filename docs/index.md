@@ -25,6 +25,17 @@ SigGear's core capability is therefore broader than the public catalog:
 [**Start With Your Motor / Drawing / Problem**](custom-engineering/start-with-your-problem.md){ .md-button .md-button--primary }
 [**Custom Manufacturing & Volume Production**](custom-engineering/custom-transmission-manufacturing.md){ .md-button }
 [**Custom Engineering Overview**](custom-engineering/index.md){ .md-button }
+
+## Start From Your Real Project Situation
+
+| What you already have | Start here |
+| --- | --- |
+| **An existing motor** | [Custom Gearhead for an Existing Motor](custom-engineering/custom-planetary-gearbox.md) |
+| **A drawing / CAD model / physical sample** | [Custom Gearbox From Drawing / CAD](custom-engineering/custom-gearbox-from-drawing-cad.md) |
+| **A gearbox that is failing or wearing out** | [Failure / Replacement Review](custom-engineering/replacement-planetary-gearhead.md) |
+| **Prototype demand with future volume production** | [Prototype → Volume Production](custom-engineering/prototype-to-production.md) |
+
+A project does not need to match a catalog model before SigGear can review it.
 [**Manufacturing & Quality Evidence**](company/manufacturing-and-quality-evidence.md){ .md-button }
 [**Prototype → Production**](custom-engineering/prototype-to-production.md){ .md-button }
 
