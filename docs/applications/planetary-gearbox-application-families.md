@@ -1,41 +1,27 @@
 ---
-title: "SigGear Planetary Gearhead Application Families | OEM Motors & CAD"
-description: "Explore SigGear OEM gearhead and gear-motor applications: garden tools, smart home, robotics, dispensing, optics and lab devices. Direct motors, planetary gearheads and CAD downloads."
+title: "Miniature Planetary Gearhead Applications | Device-to-Size Guide | SigGear"
+description: "Compare potential OEM mechanisms for SigGear micro and miniature planetary gearheads: pruning shears, curtains, toilets, feeders and grippers. Direct model PDF, 2D and STEP files."
 ---
 
-# Where Compact Motors & Planetary Gearheads Are Used
+# Application-to-Gearhead Size Guide
 
-**SigGear supplies motors, Ø8–42 mm precision planetary gearheads, and motor + gearhead assemblies.** The links below lead straight to focused applications, product models and downloadable engineering files.
+**SigGear supplies DC/BLDC motors, Ø8–42 mm planetary gearheads, and motor + gearhead assemblies.** Start with the *mechanism*, then check a published size and its stage-rated torque.
 
+[**12 Gearhead Models · PDF / 2D / STEP**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
 [**Motor-only Datasheets**](../engineering-resources/motors/index.md){ .md-button }
-[**All 12 Gearheads · PDF / 2D / STEP**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
-[**Motor + Gearhead Assemblies**](../custom-engineering/motor-gearbox-integration.md){ .md-button }
+[**Motor + Gearhead Integration**](../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
+## Match the Mechanism — Not Just the Application Name
 
-## Garden tools & powered mechanisms
+| Mechanism | First sizes to examine | Verify before choosing |
+| --- | --- | --- |
+| [Pruning shear blade linkage](electric-pruning-shears-planetary-gearbox.md) | [20P](../products/planetary-gearboxes/20p-planetary-gearbox.md) / [32P](../products/planetary-gearboxes/32p-planetary-gearbox.md) / [36P](../products/planetary-gearboxes/36p-planetary-gearbox.md) / [42P](../products/planetary-gearboxes/42p-planetary-gearbox.md) | Loaded cutting torque and blocked-blade protection |
+| [Curtain track / roller blind](electric-curtain-blind-window-opener-gear-motors.md) | [16P](../products/planetary-gearboxes/16p-planetary-gearbox.md) / [20P](../products/planetary-gearboxes/20p-planetary-gearbox.md) / [22P](../products/planetary-gearboxes/22p-planetary-gearbox.md) | Pulley torque, required speed and power-off holding |
+| [Automatic toilet lid / nozzle](smart-toilet-bidet-planetary-gear-motors.md) | [10P](../products/planetary-gearboxes/10p-planetary-gearbox.md) / [12P](../products/planetary-gearboxes/12p-planetary-gearbox.md) / [16P](../products/planetary-gearboxes/16p-planetary-gearbox.md) / [20P](../products/planetary-gearboxes/20p-planetary-gearbox.md) | Hinge moment or nozzle stroke, pinch and moisture boundaries |
+| [Pet feeder / litter-box mechanism](smart-pet-feeder-litter-box-planetary-gearheads.md) | [12P](../products/planetary-gearboxes/12p-planetary-gearbox.md) / [20P](../products/planetary-gearboxes/20p-planetary-gearbox.md) / [22P](../products/planetary-gearboxes/22p-planetary-gearbox.md) / [32P](../products/planetary-gearboxes/32p-planetary-gearbox.md) | Auger jams or drum inertia; external bearing support |
+| [Tendon-driven robot gripper](robot-gripper-gear-motors.md) | [8P](../products/planetary-gearboxes/8p-planetary-gearbox.md) / [14P](../products/planetary-gearboxes/14p-planetary-gearbox.md) / [20P](../products/planetary-gearboxes/20p-planetary-gearbox.md) | Tendon spool radius, grip force and backdrivability |
+| [Pump / rotary valve / dosing](pump-valve-fluid-control-gear-motors.md) | [12P](../products/planetary-gearboxes/12p-planetary-gearbox.md) / [20P](../products/planetary-gearboxes/20p-planetary-gearbox.md) / [32P](../products/planetary-gearboxes/32p-planetary-gearbox.md) | Shaft torque, blocked flow and fluid-contact separation |
 
-[Electric Pruning Shears Motor & Gearhead Selection](electric-pruning-shears-planetary-gearbox.md) · [Electric Screwdriver Planetary Gearhead & Motors](powered-screwdriver-planetary-gearbox.md) · [Agriculture Metering & Outdoor Gear Motors](agriculture-outdoor-equipment-gear-motors.md)
+*These are candidate frame sizes for engineering screening, **not** verified SigGear installations. Check stage-specific allowable torque, motor coupling, shaft loads and the required safety/qualification of the finished device.*
 
-## Smart home & personal appliances
-
-[Motorized Curtain & Roller Blind Gear Motors](electric-curtain-blind-window-opener-gear-motors.md) · [Smart Toilet & Bidet Miniature Gear Motors](smart-toilet-bidet-planetary-gear-motors.md) · [Pet Feeder & Litter Box Miniature Gear Motors](smart-pet-feeder-litter-box-planetary-gearheads.md)
-
-## Dispensing & automation
-
-[Coffee Machine & Dosing Gear Motors](food-beverage-coffee-equipment-gear-motors.md) · [Vending & Kiosk Dispensing Gear Motors](vending-dispensing-kiosk-gear-motors.md) · [Micro Pump, Valve & Dosing Gear Motors](pump-valve-fluid-control-gear-motors.md)
-
-## Robotics & mobility
-
-[Robot Gripper & Dexterous Hand Gear Motors](robot-gripper-gear-motors.md) · [Micro Robotics Gear Motors & Planetary Reducers](micro-robotics-gear-motors.md) · [Robotic Arm Joint Actuators & Gearhead Supply](robotic-arm-joint-actuators.md)
-
-## Medical, optical & instrumentation
-
-[Medical Device Micro Motors & Gearheads](medical-device-micro-gear-motors.md) · [Laboratory Automation Micro Gear Motors](laboratory-automation-diagnostic-equipment-gear-motors.md) · [Camera Focus, Zoom & Optical Gear Motors](optical-imaging-camera-module-gear-motors.md)
-
-## Vehicle, energy & display
-
-[Automotive Small-Motion Gear Motors](automotive-vehicle-small-motion-gear-motors.md) · [Charging Port & Battery Equipment Gear Motors](energy-battery-charging-equipment-actuators.md) · [Stage Lighting & Signage Gear Motors](stage-lighting-display-signage-gear-motors.md)
-
-[**Browse all 32 OEM application pages**](index.md) · [**Compare 8–42 mm Gearheads**](../products/planetary-gearboxes/index.md)
-
-*Example mechanisms are engineering opportunities, not claims of existing SigGear customer installations.*
+[**Browse all 32 applications**](index.md) · [**Compare 8–42 mm ratios and rated torque**](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) · [**Request engineering review**](../request-cad-sample-quote.md)

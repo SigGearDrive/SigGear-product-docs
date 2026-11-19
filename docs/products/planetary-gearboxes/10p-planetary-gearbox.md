@@ -18,17 +18,7 @@ description: "SigGear 10P Ø10 mm micro planetary gearhead: ratios 3.5:1–428.7
 ![SigGear 10P 10 mm micro planetary gearhead](../../assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-main.webp){ width="260" loading="lazy" }
 
 
-## Product Identity
-
-| Item | Description |
-| --- | --- |
-| Model | 10P |
-| Product type | Micro precision planetary gearhead (planetary gearbox) |
-| Nominal outer diameter | 10 mm |
-| Number of stages | 1 to 4 |
-| Housing material | Steel |
-| Gearwheel material | Steel |
-| Output bearing | Ball Bearing |
+**Construction:** steel housing and gearwheels · ball bearings · 1–4 stages. Gearhead-only or motor-mated assembly after interface review.
 
 ## Key Specifications
 
@@ -90,7 +80,6 @@ For the 10P, certain HS-1013-Q / HS-1015-Q windings can reach 26,000–31,000 rp
 
 The Full Assembly STEP is the original Creo assembly export for 10P, now available for direct download. The separate Simplified STEP is a 4-stage reference model for preliminary packaging. The dimension preview is not a substitute for the original 2D drawing PDF or its controlled revision.
 
-**High-speed motor note:** Certain HS-1013-Q / HS-1015-Q windings can reach 26,000–31,000 rpm at no load. This is not a continuous-speed rating; confirm the actual permissible operating point for the motor + gearhead combination.
 
 [Back to the 8–42 mm product catalogue](8-42mm-planetary-gear-reducer.md)
 

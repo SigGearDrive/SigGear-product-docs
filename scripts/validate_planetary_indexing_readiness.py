@@ -133,6 +133,8 @@ def check_priority_gearhead_hub_metadata() -> None:
         "products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md",
         "applications/index.md",
         "applications/electric-pruning-shears-planetary-gearbox.md",
+        "applications/humanoid-robot-joint-actuators.md",
+        "applications/planetary-gearbox-application-families.md",
         "applications/electric-curtain-blind-window-opener-gear-motors.md",
         "applications/robot-gripper-gear-motors.md",
     ]
