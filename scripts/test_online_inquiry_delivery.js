@@ -139,3 +139,40 @@ const ev = returned.gaEvents.find(x => x.name === "engineering_brief_provider_re
 assert.ok(ev);
 assert.equal(ev.params.delivery_confirmed, 0);
 console.log("PASS provider return is not claimed as confirmed inbox delivery");
+
+
+// Model-aware product-to-engineering inquiry paths; no external HTTP/email.
+for (const [reference, kind] of [
+  ["SG-6010C", "joint_actuator"],
+  ["SG-6010D", "joint_actuator"],
+  ["SG-6010HB", "joint_actuator"],
+  ["SG-8021", "joint_actuator"],
+  ["CPM-78-39", "joint_actuator"],
+  ["CPM-80-25", "joint_actuator"],
+  ["CPM-100-25", "joint_actuator"],
+  ["SG-2877", "hub_gear_motor"],
+  ["SG-2878", "hub_gear_motor"]
+]) {
+  assert.match(page, new RegExp('value="' + reference + '"'), "model must exist in form");
+  assert.match(page, new RegExp('value="' + kind + '"'), "project path must exist in form");
+  const inquiry = bootstrap("?model=" + encodeURIComponent(reference) +
+    "&start=standard_product&path=" + kind);
+  assert.equal(inquiry.node("sg-model").value, reference, "model prefill: " + reference);
+  assert.equal(inquiry.node("sg-path").value, kind, "path prefill: " + reference);
+  assert.equal(inquiry.node("sg-starting-point").value, "standard_product");
+  assert.equal(inquiry.node("sg-existing-motor-fields").hidden, true,
+    "joint/hub requests must not require a separate existing motor");
+  inquiry.node("sg-contact-email").value = "engineer@example.org";
+  inquiry.node("sg-online-consent").checked = true;
+  assert.equal(inquiry.submit().prevented, false);
+  assert.match(inquiry.node("sg-online-message").value, new RegExp("Model reference: " + reference));
+  assert.match(inquiry.node("sg-online-subject").value, new RegExp(reference));
+  assert.match(inquiry.node("sg-online-subject").value,
+    kind === "joint_actuator" ? /Robot Joint \/ Cycloidal Module Engineering Review/ :
+      /Hub Gear Motor Engineering Review/);
+}
+const legacyGearhead = bootstrap("?model=12P&start=existing_motor&path=gearbox_only");
+assert.equal(legacyGearhead.node("sg-model").value, "12P");
+assert.equal(legacyGearhead.node("sg-path").value, "gearbox_only");
+assert.equal(legacyGearhead.node("sg-existing-motor-fields").hidden, false);
+console.log("PASS 9 joint/hub product inquiry routes and unchanged 12P gearhead route");
