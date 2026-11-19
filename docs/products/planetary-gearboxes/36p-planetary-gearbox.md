@@ -43,7 +43,7 @@ description: "SigGear 36P (36 mm) compact planetary gearhead/gearbox: ratio 3.66
 | Maximum momentary torque range | 7845.3–19613.3 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.2° |
-| Permissible gearhead input speed, continuous operation | 1,000–20,000 rpm |
+| Permissible gearhead input speed, continuous operation | Motor/configuration dependent; confirm selected operating point |
 | Operating temperature | −40 to 120 °C |
 | Adapted DC motor voltage | 3–48 VDC |
 | Adapted DC motor power | below 150 W |
@@ -71,7 +71,7 @@ Maximum momentary torque is not a continuous working rating.
 | Radial shaft play | ≤ 0.04 mm |
 | Thrust shaft play | ≤ 0.3 mm |
 | Backlash at no load | ≤ 1.2° |
-| Maximum permissible speed, continuous operation | 1,000–20,000 rpm |
+| Maximum permissible speed, continuous operation | Motor/configuration dependent; confirm selected operating point |
 | Operating temperature | −40 to 120 °C |
 
 ## Motor Compatibility
