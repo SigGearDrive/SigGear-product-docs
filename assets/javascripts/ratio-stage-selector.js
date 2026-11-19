@@ -5,20 +5,15 @@
   var results = document.getElementById("sg-ratio-stage-results");
   var summary = document.getElementById("sg-ratio-stage-summary");
 
-  var speedBounds = null;
   var dataPromise = fetch(new URL("../../assets/data/planetary-ratio-stage-data.json", window.location.href))
     .then(function (response) {
       if (!response.ok) throw new Error("Unable to load published ratio-stage data.");
       return response.json();
     })
     .then(function (payload) {
-      var bounds = payload && payload.continuous_input_speed_rpm;
-      if (!payload || !Array.isArray(payload.models) || !bounds ||
-          !Number.isFinite(bounds.min) || !Number.isFinite(bounds.max) ||
-          bounds.min <= 0 || bounds.max <= bounds.min) {
-        throw new Error("Published ratio-stage or input-speed data is invalid.");
+      if (!payload || !Array.isArray(payload.models)) {
+        throw new Error("Published ratio-stage data is invalid.");
       }
-      speedBounds = bounds;
       return payload.models;
     });
 
@@ -225,17 +220,9 @@
       return;
     }
 
-    // Use the published machine-readable input-speed range (engineering-confirmed 2026-10-15).
-    if (motorSpeed < speedBounds.min || motorSpeed > speedBounds.max) {
-      var reason = motorSpeed > speedBounds.max ? "speed_above_engineering" : "speed_below_engineering";
-      var speedRange = fmt(speedBounds.min, 0) + "–" + fmt(speedBounds.max, 0) + " rpm";
-      summary.textContent = motorSpeed > speedBounds.max ?
-        "This project exceeds the standard continuous input-speed range of " + speedRange + ". Custom feasibility review is required." :
-        "This project is below the standard continuous input-speed range of " + speedRange + ". Custom feasibility review is required.";
-      results.innerHTML = customReviewAction(reason, motorSpeed, outputSpeed, requiredTorque, peakTorque, maxDiameter, maxLength);
-      track(0, 0, null, null, null);
-      return;
-    }
+    // Motor speed is used to calculate ratio candidates. Permissible gearhead input
+    // speed is configuration-dependent and must be confirmed with the selected motor,
+    // gearhead, duty cycle and operating point; no universal 20,000 rpm cap is applied here.
     var targetRatio = motorSpeed / outputSpeed;
     var ratioToleranceActive = maxRatioDiff !== null && maxRatioDiff >= 0;
     var candidates = [];
