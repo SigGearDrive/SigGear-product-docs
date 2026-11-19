@@ -49,6 +49,32 @@ Depending on the project, engineering review can include:
 
 Not every requested change is feasible on every platform. Final specifications require engineering review and, where necessary, prototype validation.
 
+## Common Custom Manufacturing Questions
+
+### Can SigGear develop a gearbox from my motor?
+
+Yes, the review can start from an existing motor drawing and operating point. The shaft, pilot, mounting pattern, motor speed, required output speed, load and installation envelope are reviewed together before a gearhead configuration is confirmed.
+
+### Can SigGear work from my drawing or CAD model?
+
+Yes. A customer 2D drawing, STEP model, mechanism layout or physical sample can be used as a starting point. The drawing defines geometry, while the engineering review also needs operating load, speed, duty cycle and production requirements.
+
+### Can SigGear review a gearbox that keeps failing?
+
+Yes. The review should include the failed unit or drawings, motor, operating condition, duty cycle and failure evidence such as gear wear, bearing damage, overheating, backlash growth or abnormal noise. The objective is to understand the failure before evaluating a replacement or redesign.
+
+### Can a project start with prototypes and later move to volume production?
+
+Yes. For applicable projects, SigGear can support the path from prototype and application testing through design refinement, design freeze, pilot preparation and repeatable manufacturing. Prototype quantity, forecast and target schedule help plan the development path.
+
+### Can SigGear work under NDA?
+
+Yes, confidential projects can be discussed without publishing the customer design. Detailed drawings and proprietary files should be exchanged only after the appropriate confidentiality process is agreed.
+
+### Are SigGear's public standard products the full product range?
+
+No. The published gearheads, cycloidal modules and robot joint actuators are public reference platforms. Many customer-specific products and production programs cannot be shown publicly because they are confidential.
+
 ## From Prototype to Repeatable Volume Manufacturing
 
 SigGear's role does not need to end after a prototype works.
