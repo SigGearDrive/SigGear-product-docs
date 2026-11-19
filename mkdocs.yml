@@ -80,6 +80,7 @@ extra_css:
   - assets/stylesheets/ratio-stage-selector.css?v=20261118-quick-files
   - assets/stylesheets/motor-quick-downloads.css?v=20261118-direct-pdfs
   - assets/stylesheets/application-quick-downloads.css?v=20261119-firstscreen
+  - assets/stylesheets/application-directory.css?v=20261119-directory
   - assets/stylesheets/candidate-design-in-pack.css
   - assets/stylesheets/sample-validation.css
   - assets/stylesheets/design-in-review.css
