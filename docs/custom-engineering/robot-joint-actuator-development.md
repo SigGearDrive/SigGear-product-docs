@@ -93,6 +93,8 @@ The choice needs to consider:
 
 For a project where the transmission structure has not been decided, send the operating requirement first.
 
+[Planetary vs Cycloidal Selection Guide](../selection-guides/planetary-vs-cycloidal-robot-joint.md){ .md-button .md-button--primary }
+[Integrated Joint vs Motor + Gearhead](../selection-guides/integrated-robot-joint-vs-motor-gearhead.md){ .md-button }
 [Custom Planetary Gearbox Engineering](custom-planetary-gearbox.md){ .md-button }
 [Custom Cycloidal Transmission Engineering](custom-cycloidal-transmission.md){ .md-button }
 
