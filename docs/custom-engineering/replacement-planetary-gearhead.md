@@ -22,6 +22,10 @@ SigGear can review the old unit against the real operating condition and determi
 [**Failure / Durability Analysis**](gearbox-failure-analysis-durability-redesign.md){ .md-button }
 [**Keep Existing Motor — Review Interface**](custom-planetary-gearbox.md){ .md-button }
 
+**Public manufacturing evidence:** SigGear publishes source-backed gear-processing, CMM, gear-inspection and testing capability for custom gearbox programs. [Review manufacturing equipment & inspection](../company/manufacturing-equipment-inspection-capability.md).
+
+**Project-specific boundary:** SigGear does not describe a replacement as drop-in, fully compatible or durability-improved until the interfaces, operating condition and prototype results have been checked.
+
 SigGear can review its 8–42 mm planetary gearbox platforms as starting points for a replacement or modified configuration. A replacement is **not described as drop-in or fully compatible until the mechanical, performance and operating requirements have been checked.**
 
 [**Browse 8–42 mm Gearboxes**](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
