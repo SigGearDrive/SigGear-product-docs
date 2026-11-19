@@ -158,7 +158,7 @@ def make_datasheet(model: str, filename: str) -> Path:
         story.append(p("CAN Simple / CANopen / RS485 applies only to the confirmed driver-equipped hardware and firmware.",body))
     elif model == "SG-6010HB":
         story.append(p(
-            "CAD release hold: supplied SG2908B exchange-assembly STEP is not "
+            "CAD release hold: supplied SG-6010HB exchange-assembly STEP is not "
             "verified against the catalog 67.0 mm x 25.57 mm envelope. "
             "Neither the raw assembly STEP nor a controlled 2D production drawing "
             "is publicly released. Request configuration-matched design files.", body))
