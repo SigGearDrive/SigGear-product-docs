@@ -82,6 +82,8 @@ The engineering review may include:
 
 The drawing defines geometry. It does not automatically define the correct material, heat treatment, bearing arrangement, ratio or operating rating.
 
+**Replacing an existing gearbox rather than developing a new mechanism?** Use the [Existing Gearbox Replacement & Redesign](replacement-planetary-gearhead.md) path when the motor, mounting pattern or machine interface must remain unchanged.
+
 ## If You Only Have a Physical Sample — No Complete Drawing
 
 A sample can be useful when the original drawing is missing or incomplete.
