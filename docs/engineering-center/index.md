@@ -92,9 +92,9 @@ Use the public resources below for preliminary engineering evaluation. Robot act
 | **Ø28 mm** | DC motors | [28 mm motor PDFs](../engineering-resources/motors/index.md#28-mm-dc-motors) |
 | **Ø32 mm** | DC motors | [32 mm motor PDFs](../engineering-resources/motors/index.md#32-mm-dc-motors) |
 
-**Release status matters:** Some motor PDFs are marked **Draft / source review** and have low-resolution or conflicting source drawings. See the status beside each PDF in the library. Motor-only parameters do **not** establish a verified Motor + Gearhead Assembly: shaft, pinion, speed, ratio, thermal duty and mounting compatibility still require engineering confirmation.
+**Release status matters:** Some motor PDFs are marked **Draft / source review** and have low-resolution or conflicting source drawings. See the status beside each PDF in the library. Motor-only parameters do **not** establish a verified Motor + Gearbox Assembly: shaft, pinion, speed, ratio, thermal duty and mounting compatibility still require engineering confirmation.
 
-[**Match an Existing Motor to a Gearhead**](../request-cad-sample-quote.md?start=existing_motor&path=gearbox_only){ .md-button }
+[**Match an Existing Motor to a Planetary Gearbox**](../request-cad-sample-quote.md?start=existing_motor&path=gearbox_only){ .md-button }
 
 ## Public vs. Configuration-Specific Documentation
 
@@ -168,7 +168,7 @@ If the project starts from a motor, drawing, installation envelope or mechanism 
 
 If the current public Engineering Packs do not cover the required size, ratio, driver or interface, send the application and the few parameters you already know. A complete specification is not required for the first review.
 
-[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Request STEP, Sample or Engineering Review](../request-cad-sample-quote.md){ .md-button .md-button--primary }
 
 **Wanrong Wang**  
 International Sales / Sales Engineer, SigGear  
