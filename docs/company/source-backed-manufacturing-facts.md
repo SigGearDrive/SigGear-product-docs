@@ -77,7 +77,15 @@ This is a company-wide shipment figure. It should **not** be interpreted as:
 
 It is useful as evidence that SigGear operates at a manufacturing scale beyond one-off prototype work.
 
-## 5. Real Manufacturing Evidence on the Engineering Site
+## 5. Published Production and Inspection Equipment
+
+SigGear's official May 2025 catalog states that the company had **more than 200 production and testing equipment units** and **20+ R&D / design personnel** at that time.
+
+The published equipment list includes gear hobbing, gear shaping, gear grinding, CNC machining, CMM, gear testing, dynamometer, life testing, X-ray and backlash inspection capabilities.
+
+[Manufacturing Equipment & Inspection Capability](manufacturing-equipment-inspection-capability.md){ .md-button .md-button--primary }
+
+## 6. Real Manufacturing Evidence on the Engineering Site
 
 SigGear also publishes real visual evidence from its own manufacturing environment covering:
 
@@ -98,7 +106,7 @@ Separate public evidence is available for:
 
 These images and records are used as **evidence of real activity**, not as a basis for inventing model-specific performance claims.
 
-## 6. What These Sources Support
+## 7. What These Sources Support
 
 Together, the official company catalog, factory announcements, shipment report and real manufacturing evidence support the following company-level description:
 
@@ -113,7 +121,7 @@ They do **not** justify unsupported claims such as:
 - zero defects
 - one production quantity applying to every product family
 
-## 7. Public Standard Products vs Confidential Customer Programs
+## 8. Public Standard Products vs Confidential Customer Programs
 
 SigGear publishes standard planetary gearheads, cycloidal reducers and robot joint actuators because engineers need real products, specifications and CAD to evaluate.
 
@@ -128,7 +136,7 @@ Many custom products cannot be shown publicly because they involve:
 
 The public catalog therefore shows **part of SigGear's work**, not the full scope of customer-specific transmission development.
 
-## 8. Start a Project From What You Already Have
+## 9. Start a Project From What You Already Have
 
 A project can start from:
 
