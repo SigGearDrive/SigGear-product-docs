@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - ".github/workflows/check-live-pages-http.yml"
+      - ".github/SEARCH_CONSOLE_INDEXING.md"
   workflow_dispatch:
 
 permissions:
@@ -49,3 +50,65 @@ jobs:
             echo "::endgroup::"
           done
           exit "$failed"
+
+      - name: Check public sitemap URLs and host-root robots status
+        shell: bash
+        run: |
+          set -euo pipefail
+          base="https://siggeardrive.github.io/SigGear-product-docs"
+          curl --silent --show-error --fail --location --retry 2 \
+            --connect-timeout 10 --max-time 30 \
+            "$base/sitemap.xml" -o /tmp/siggear-sitemap.xml
+          python3 - <<'PY'
+          from datetime import date
+          from pathlib import Path
+          from xml.etree import ElementTree
+
+          root = ElementTree.parse(Path("/tmp/siggear-sitemap.xml")).getroot()
+          ns = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
+          entries = root.findall(f"{ns}url")
+          urls = [entry.findtext(f"{ns}loc") for entry in entries]
+          prefix = "https://siggeardrive.github.io/SigGear-product-docs/"
+          if not urls or len(urls) != len(set(urls)):
+              raise SystemExit("Sitemap missing URLs or contains duplicate canonicals")
+          if len(urls) < 50 or any(not (u or "").startswith(prefix) for u in urls):
+              raise SystemExit("Sitemap missing expected project URLs or has foreign links")
+          required = {
+              prefix,
+              prefix + "products/",
+              prefix + "applications/",
+              prefix + "engineering-resources/planetary-gearboxes/public-cad-release-v1/",
+              prefix + "custom-engineering/custom-transmission-manufacturing/",
+              prefix + "request-cad-sample-quote/",
+          }
+          required.update(prefix + f"products/planetary-gearboxes/{n}p-planetary-gearbox/"
+                          for n in [8, 10, 12, 14, 16, 20, 22, 24, 28, 32, 36, 42])
+          missing = required - set(urls)
+          if missing:
+              raise SystemExit("Missing priority URLs in sitemap: " + ", ".join(sorted(missing)))
+          apps = [u for u in urls if "/applications/" in u]
+          if len(apps) < 32:
+              raise SystemExit(f"Expected 32 applications in sitemap, got {len(apps)}")
+          today = date.today()
+          for entry in entries:
+              changed = entry.findtext(f"{ns}lastmod")
+              if changed and date.fromisoformat(changed[:10]) > today:
+                  raise SystemExit("Future lastmod date detected: " + changed)
+          print(f"PASS: live sitemap has {len(urls)} unique URLs, including priority gearheads "
+                f"and {len(apps)} application-section URLs")
+          PY
+          root_code=$(curl --silent --location --connect-timeout 10 --max-time 20 \
+            --output /tmp/siggear-root-robots.txt --write-out "%{http_code}" \
+            "https://siggeardrive.github.io/robots.txt" || true)
+          project_code=$(curl --silent --location --connect-timeout 10 --max-time 20 \
+            --output /tmp/siggear-project-robots.txt --write-out "%{http_code}" \
+            "$base/robots.txt" || true)
+          echo "Host-root robots.txt HTTP: $root_code"
+          echo "Project-path robots.txt HTTP: $project_code"
+          if [ "$root_code" = "200" ] && \
+             grep -Fq "https://siggeardrive.github.io/SigGear-product-docs/sitemap.xml" \
+               /tmp/siggear-root-robots.txt; then
+            echo "PASS: host-root robots advertises the public project sitemap"
+          else
+            echo "::warning::Project-path robots.txt is not authoritative for Google. Confirm sitemap.xml is submitted under the exact URL-prefix property in Search Console."
+          fi
