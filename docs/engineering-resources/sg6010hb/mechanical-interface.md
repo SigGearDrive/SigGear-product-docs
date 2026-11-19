@@ -1,19 +1,19 @@
 ---
-title: SG-6010HB Mechanical Interface | SG2908B Source Drawing and STEP Status | SigGear
-description: SG-6010HB public 67 mm mounting reference, 25.57 mm catalog envelope and SG2908B exchange STEP verification hold. Request approved configuration-matched CAD.
+title: SG-6010HB Mechanical Interface | Drawing and CAD Status | SigGear
+description: SG-6010HB public 67 mm mounting reference, 25.57 mm catalog envelope and separate exchange STEP verification hold. Request approved configuration-matched CAD.
 ---
 
 # SG-6010HB Mechanical Interface v1.0
 
 **Status:** Public engineering evaluation reference  
 **Release date:** 2026-10-09  
-**Supplied source drawing code:** **SG2908B**  
+**Public product model:** **SG-6010HB**  
 **3D source review:** 2026-11-19 — geometry reconciliation required
 
-This page summarizes mechanical-interface information from the supplied SG2908B 2D drawing for early design review. These values must be checked against the final ordered model and drawing revision.
+This page summarizes mechanical-interface information from the supplied SG-6010HB 2D reference, pending exact drawing-revision confirmation for early design review. These values must be checked against the final ordered model and drawing revision.
 
 !!! warning
-    This page is **not** a manufacturing drawing. The uploaded SG2908B exchange STEP is not yet matched to the published dimensional envelope. Request an engineering-approved, configuration-matched 2D drawing and CAD before final design.
+    This page is **not** a manufacturing drawing. The supplied SG-6010HB exchange STEP is not yet matched to the published dimensional envelope. Request an engineering-approved, configuration-matched 2D drawing and CAD before final design.
 
 ## Envelope
 
@@ -29,7 +29,7 @@ The 22.57 mm main-body dimension plus the 3.00 mm reference extension numericall
 
 ## Output-Side / Mechanical Interface
 
-The current SG2908B drawing defines multiple output-side / housing interface features, including:
+The supplied 2D reference drawing lists multiple output-side / housing interface features, including:
 
 | Feature | Drawing reference |
 | --- | --- |
@@ -74,7 +74,7 @@ Cable termination and connector configuration can vary by project and must be co
 
 ## CAD Status
 
-The supplied exchange STEP, internally identified as **SG2908B**, was successfully imported on 2026-11-19 as a millimetre-based AP203 assembly with 46 solid bodies.
+The exchange STEP submitted for **SG-6010HB** was successfully imported on 2026-11-19 as a millimetre-based AP203 assembly with 46 solid bodies.
 
 Its **all-solid bounding envelope** is approximately **72.53 mm × 34.86 mm × 72.53 mm**, compared with the current catalogue's **Ø67 mm × 25.57 mm** nominal product envelope. The all-solid bounding box may include protruding or non-housing parts, so it is **not** by itself a controlled housing dimension. Nevertheless, this difference prevents automatic approval as a configuration-matched SG-6010HB installation model.
 
