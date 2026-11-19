@@ -139,6 +139,15 @@ A practical development path can be:
 
 The prototype should be tested against the failure mode that matters to the application rather than only checked for mechanical fit.
 
+## Manufacturing and Inspection Evidence
+
+A durability redesign is only useful if the revised transmission can be manufactured and inspected repeatably.
+
+SigGear publishes company-level evidence for gear-processing, dimensional-inspection and test resources including gear hobbing, gear shaping, gear grinding, CNC machining, CMM, gear testing, backlash inspection, dynamometer and life-test capability.
+
+[Gear Manufacturing, CMM & Inspection Capability](../company/manufacturing-equipment-inspection-capability.md){ .md-button }
+[Manufacturing & Quality Evidence](../company/manufacturing-and-quality-evidence.md){ .md-button }
+
 ## From Redesign to Repeat Production
 
 If the replacement is intended for an ongoing product, production requirements should be considered before the redesign is frozen.
