@@ -7,6 +7,10 @@ description: Select six SigGear planetary and cycloidal robot joint modules by s
 
 **Select a model, compare rated torque and speed, then download PDF / 2D / STEP.** Six models · 6 Datasheets · 4 available 2D reference PDFs · 8 full-assembly STEP variants.
 
+[**How to Evaluate a Robot Joint Actuator Supplier**](../../selection-guides/robot-joint-supplier-evaluation.md){ .md-button .md-button--primary }
+[**Robot Joint Selection Guide**](../../selection-guides/robot-joint-actuator-selection-guide.md){ .md-button }
+[**Planetary vs Cycloidal**](../../selection-guides/planetary-vs-cycloidal-robot-joint.md){ .md-button }
+
 <div class="siggear-joint-downloads" markdown="1">
 
 | Model · OD × thickness · ratio · rated / peak torque · rated speed | Datasheet | 2D reference drawing | Original Full STEP |
