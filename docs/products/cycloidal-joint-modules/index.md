@@ -1,6 +1,6 @@
 ---
 title: Cycloidal Robot Joint Modules | CPM-78-39, CPM-80-25, CPM-100-25 | SigGear
-description: Compare CPM-78-39, CPM-80-25 and CPM-100-25 by size, ratio, rated torque and speed. Download PDF Datasheets, available 2D reference drawings and original full STEP CAD.
+description: Compare CPM-78-39, CPM-80-25 and CPM-100-25 by size, ratio, rated torque and speed. Download PDF Datasheets, available 2D reference drawings and original full STEP files.
 ---
 
 # Cycloidal Robot Joint Modules
