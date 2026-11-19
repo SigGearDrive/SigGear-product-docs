@@ -1,5 +1,5 @@
-site_name: SigGear Precision Gearheads & Robot Joint Actuators
-site_description: SigGear manufactures Ø8–42 mm precision planetary gearheads, cycloidal reducers and integrated robot joint actuators, with DC/BLDC motor + gearhead engineering support, public datasheets, 2D drawings and STEP CAD.
+site_name: SigGear Custom Precision Transmission Manufacturing
+site_description: SigGear is a precision transmission manufacturer focused on custom engineering, repeatable volume manufacturing and production delivery. Public planetary gearheads, cycloidal reducers and robot joint actuators are reference platforms for engineering evaluation.
 site_url: https://siggeardrive.github.io/SigGear-product-docs/
 repo_url: https://github.com/SigGearDrive/SigGear-product-docs
 repo_name: SigGearDrive/SigGear-product-docs
@@ -188,6 +188,7 @@ nav:
       - Certifications: company/certifications.md
   - Custom Engineering:
       - Overview: custom-engineering/index.md
+      - Custom Manufacturing & Volume Production: custom-engineering/custom-transmission-manufacturing.md
       - Custom Planetary Gearhead: custom-engineering/custom-planetary-gearbox.md
       - Replacement Planetary Gearhead: custom-engineering/replacement-planetary-gearhead.md
       - Custom Cycloidal Transmission: custom-engineering/custom-cycloidal-transmission.md
