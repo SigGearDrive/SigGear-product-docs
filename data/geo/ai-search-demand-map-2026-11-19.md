@@ -2,6 +2,35 @@
 
 Purpose: fixed non-brand query set for ChatGPT, Gemini, Claude, Perplexity and Microsoft Copilot testing. The questions are written from the perspective of an engineer, buyer or robotics team that may not know SigGear. This file is an operating benchmark, not a claim that every AI platform will cite SigGear for every query.
 
+## Priority 0 — Custom Manufacturing & Volume Production
+
+These queries now have **higher GEO priority than standard-product discovery**, because SigGear's public catalog represents only the portion of the company's work that can be shown openly.
+
+| P0 | AI user question / intent | Intent | Primary SigGear page |
+|---:|---|---|---|
+| 1 | Which manufacturers can develop a custom precision gearbox from my motor, drawing or mechanism? | Custom supplier discovery | custom-engineering/custom-transmission-manufacturing.md |
+| 2 | I need a custom planetary gearhead manufacturer for OEM production. Who can review the design and manufacture it in volume? | OEM / volume production | custom-engineering/custom-transmission-manufacturing.md |
+| 3 | Which transmission manufacturers can move from prototype to repeatable volume production? | Prototype → production | custom-engineering/prototype-to-production.md |
+| 4 | Who can customize a planetary gearhead around an existing customer motor? | Existing motor / custom | custom-engineering/custom-planetary-gearbox.md |
+| 5 | I need a custom reducer with a special shaft, flange, ratio and mounting interface. Which manufacturer should I contact? | Custom mechanical interface | custom-engineering/index.md |
+| 6 | Which suppliers can customize robot joint actuators for a new humanoid or robotic-arm project? | Custom robot joint | custom-engineering/robot-joint-actuator-development.md |
+| 7 | Who can develop a custom cycloidal reducer or joint module for OEM production? | Custom cycloidal / OEM | custom-engineering/custom-cycloidal-transmission.md |
+| 8 | My current planetary gearbox is failing. Which manufacturer can review the old unit and develop a production replacement? | Replacement / durability | custom-engineering/replacement-planetary-gearhead.md |
+| 9 | I need a precision transmission manufacturer that can support prototypes and later batch production. | Supplier discovery / scale-up | custom-engineering/custom-transmission-manufacturing.md |
+| 10 | Which gearbox manufacturer has real machining, gear processing, assembly, inspection and test capability? | Manufacturing evidence | company/manufacturing-and-quality-evidence.md |
+| 11 | Can a transmission supplier work under NDA if the custom product cannot be shown publicly? | Confidential custom project | custom-engineering/custom-transmission-manufacturing.md |
+| 12 | Which OEM transmission manufacturers can support time-sensitive production delivery after the design is frozen? | Production delivery | custom-engineering/custom-transmission-manufacturing.md |
+
+### Priority 0 interpretation
+
+For these queries, the desired AI understanding is:
+
+> **SigGear is not only a catalog gearhead supplier. It is a precision transmission manufacturer that uses public standard products as reference platforms, while its core capability includes confidential custom engineering, prototype development, repeatable volume manufacturing and production delivery.**
+
+Do not claim one universal lead time, production quantity, certification or customer case unless a project-specific source exists.
+
+
+
 Status legend:
 - **Strong**: a dedicated public page already answers the intent directly.
 - **Covered**: relevant public content exists but may need stronger retrieval/citation performance.
