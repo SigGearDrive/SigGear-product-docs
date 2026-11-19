@@ -13,9 +13,9 @@ A significant part of SigGear's engineering and manufacturing work is **customer
 
 SigGear's core capability is therefore broader than the public catalog:
 
-- custom planetary gearheads and compact reducers
+- custom planetary gearboxes and compact reducers
 - custom cycloidal transmissions and robot joint modules
-- motor + gearhead integration around a customer-selected motor
+- motor + gearbox integration around a customer-selected motor
 - custom ratios, shafts, flanges, housings and mechanical interfaces
 - prototype development, testing and design refinement
 - repeatable volume manufacturing after configuration freeze
@@ -31,8 +31,8 @@ SigGear's core capability is therefore broader than the public catalog:
 
 | What you already have | Start here |
 | --- | --- |
-| **An existing motor** | [Custom Gearhead for an Existing Motor](custom-engineering/custom-planetary-gearbox.md) |
-| **A drawing / CAD model / physical sample** | [Custom Gearbox From Drawing / CAD](custom-engineering/custom-gearbox-from-drawing-cad.md) |
+| **An existing motor** | [Custom Gearbox for an Existing Motor](custom-engineering/custom-planetary-gearbox.md) |
+| **A drawing / STEP model / physical sample** | [Custom Gearbox From Drawing / STEP](custom-engineering/custom-gearbox-from-drawing-cad.md) |
 | **A gearbox that is failing or wearing out** | [Failure / Durability Redesign](custom-engineering/gearbox-failure-analysis-durability-redesign.md) |
 | **Prototype demand with future volume production** | [OEM Volume Manufacturing & Delivery](custom-engineering/oem-volume-manufacturing-delivery.md) |
 
@@ -42,16 +42,16 @@ A project does not need to match a catalog model before SigGear can review it.
 
 ## Standard Products Are Public Engineering References
 
-The product pages below are useful for engineers who want to evaluate an existing platform, download CAD or understand SigGear's transmission architectures. A custom project does not need to fit these exact models.
+The product pages below are useful for engineers who want to evaluate an existing platform, download STEP files or understand SigGear's transmission architectures. A custom project does not need to fit these exact models.
 
 [**Motor Datasheets**](engineering-resources/motors/index.md){ .md-button }
-[**Gearhead PDFs / 2D / STEP**](engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
-[**Motor + Gearhead Assemblies**](custom-engineering/motor-gearbox-integration.md){ .md-button }
+[**Planetary Gearbox PDFs / 2D / STEP**](engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
+[**Motor + Gearbox Assemblies**](custom-engineering/motor-gearbox-integration.md){ .md-button }
 [**OEM Applications**](applications/index.md){ .md-button }
 
-## Precision Planetary Gearheads | 8–42 mm
+## Precision Planetary Gearboxes | 8–42 mm
 
-**12 models, Ø8–42 mm · Direct access to PDF datasheets, 2D drawings and complete STEP CAD.**
+**12 models, Ø8–42 mm · Direct access to PDF datasheets, 2D drawings and full STEP files.**
 
 [**Download all PDF / 2D / Full STEP**](engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
 [**Compare 12 models**](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
