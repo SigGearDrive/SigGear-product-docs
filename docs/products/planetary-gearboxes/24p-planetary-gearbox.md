@@ -42,7 +42,7 @@ description: "SigGear 24P (24 mm) miniature planetary gearhead/gearbox: ratio 3.
 | Maximum momentary torque range | 1961.3–5884.0 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.2° |
-| Permissible gearhead input speed, continuous operation | 1,000–20,000 rpm |
+| Permissible gearhead input speed, continuous operation | Motor/configuration dependent; confirm selected operating point |
 | Operating temperature | −40 to 120 °C |
 
 Maximum momentary torque is not a continuous working rating.
@@ -68,7 +68,7 @@ Maximum momentary torque is not a continuous working rating.
 | Radial shaft play | ≤ 0.04 mm |
 | Thrust shaft play | ≤ 0.3 mm |
 | Backlash at no load | ≤ 1.2° |
-| Maximum permissible speed, continuous operation | 1,000–20,000 rpm |
+| Maximum permissible speed, continuous operation | Motor/configuration dependent; confirm selected operating point |
 | Operating temperature | −40 to 120 °C |
 
 ## Motor Compatibility
