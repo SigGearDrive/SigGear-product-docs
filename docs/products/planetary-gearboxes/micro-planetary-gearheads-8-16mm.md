@@ -1,15 +1,22 @@
 ---
-title: "8–16 mm Micro Planetary Gearheads | PDF, 2D & STEP | SigGear"
-description: "Compare 8P, 10P, 12P, 14P and 16P micro planetary gearheads (miniature gearboxes): published ratios, housing lengths and rated torque. Download PDF, 2D and full STEP."
+title: "8–16 mm Micro Planetary Gearboxes | PDF, 2D & STEP | SigGear"
+description: "Compare SigGear 8P–16P micro planetary gearboxes by ratio, housing length and rated torque. Download PDF, 2D and full STEP files or start a custom motor, drawing, failure or production review."
 ---
 
-# 8–16 mm Micro Precision Planetary Gearheads
+# 8–16 mm Micro Precision Planetary Gearboxes
 
-**Micro planetary gearbox / gearhead comparison:** 8P · 10P · 12P · 14P · 16P · PDF datasheets · 2D drawings · Full STEP CAD
+**Micro planetary gearbox comparison:** 8P · 10P · 12P · 14P · 16P · PDF datasheets · 2D drawings · Full STEP files
+
+These five standard models are public reference platforms. If the project does not fit a standard interface, start from the real engineering constraint instead.
+
+[**I Already Have a Motor**](../../custom-engineering/custom-planetary-gearbox.md){ .md-button .md-button--primary }
+[**I Have a Drawing / STEP**](../../custom-engineering/custom-gearbox-from-drawing-cad.md){ .md-button }
+[**My Existing Gearbox Is Failing**](../../custom-engineering/gearbox-failure-analysis-durability-redesign.md){ .md-button }
+[**Prototype → Volume Production**](../../custom-engineering/oem-volume-manufacturing-delivery.md){ .md-button }
 
 ## Direct PDF and STEP Downloads
 
-| Gearhead model | Datasheet PDF | 2D mechanical drawing | Full assembly STEP |
+| Gearbox model | Datasheet PDF | 2D mechanical drawing | Full assembly STEP |
 | --- | --- | --- | --- |
 | [8P · Ø8 mm](8p-planetary-gearbox.md) | [PDF datasheet](../../assets/downloads/8p/8P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D drawing](../../assets/downloads/8p/8P_2D_Drawing.pdf) | [Full STEP](../../assets/downloads/8p/8P_Full_Assembly.step) |
 | [10P · Ø10 mm](10p-planetary-gearbox.md) | [PDF datasheet](../../assets/downloads/10p/10P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D drawing](../../assets/downloads/10p/10P_2D_Drawing.pdf) | [Full STEP](../../assets/downloads/10p/10P_Full_Assembly.step) |
@@ -27,13 +34,13 @@ description: "Compare 8P, 10P, 12P, 14P and 16P micro planetary gearheads (minia
 | [14P · 14 mm](14p-planetary-gearbox.md) | 3.75:1–443.3:1 | 15.2–26.6 mm | 343.2–588.4 mN·m | ≤ 1.5° |
 | [16P · 16 mm](16p-planetary-gearbox.md) | 3.85:1–459.5:1 | 17.55–30.45 mm | 392.3–882.6 mN·m | ≤ 1.5° |
 
-Miniature mechanisms with very small gearhead envelopes: compare the published output-load and mounting limits before selecting a small motor.
+Miniature mechanisms with very small gearbox envelopes: compare the published output-load and mounting limits before selecting a small motor.
 
-**Selection note:** Diameter is the gearhead housing size, not the complete motor + gearhead length. The torque values above are **rated allowable ranges across stages**, not a constant rating for every ratio; use each model's stage table for final screening. Maximum momentary torque is **not** a continuous rating.
+**Selection note:** Diameter is the gearbox housing size, not the complete motor + gearhead length. The torque values above are **rated allowable ranges across stages**, not a constant rating for every ratio; use each model's stage table for final screening. Maximum momentary torque is **not** a continuous rating.
 
 [**Quick Ratio / Torque Selector + Files**](../../selection-guides/planetary-gearhead-quick-selector.md){ .md-button .md-button--primary }
 [**Compare all 12 sizes**](8-42mm-planetary-gear-reducer.md){ .md-button }
 
-**Other gearhead sizes:** [Miniature 20–32 mm](miniature-planetary-gearheads-20-32mm.md) · [Compact 36–42 mm](compact-planetary-gearheads-36-42mm.md)
+**Other planetary gearbox sizes:** [Miniature 20–32 mm](miniature-planetary-gearheads-20-32mm.md) · [Compact 36–42 mm](compact-planetary-gearheads-36-42mm.md)
 
 For a controlled production configuration, confirm the chosen ratio/stage, shaft and motor mating interface using the [2D drawing and engineering review](../../custom-engineering/motor-gearbox-integration.md). The simplified 4-stage reference STEP is available from the [complete engineering download centre](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) and is not the full assembly.
