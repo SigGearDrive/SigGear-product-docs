@@ -266,6 +266,47 @@ def main() -> None:
     if "Planetary Gearbox Selector" in center_body or "Planetary Gearbox CAD Library" in center_body:
         raise ValueError("Customer-facing engineering links must use Gearhead terminology")
 
+    # Motor engineering discovery: each of the ten live diameter anchors
+    # must remain accessible from Engineering Center. The model-specific PDFs
+    # are published in the searchable motor library, not repackaged here.
+    motor_group_ids = (
+        "8-mm-dc-micromotors",
+        "10-mm-dc-motors",
+        "12-mm-coreless-bldc-motor",
+        "14-mm-dc-motors",
+        "16-mm-dc-motors",
+        "20-mm-bldc-motor",
+        "22-mm-dc-motors",
+        "24-mm-bldc-motor",
+        "28-mm-dc-motors",
+        "32-mm-dc-motors",
+    )
+    motor_html = page("engineering-resources/motors/")
+    motor_article = motor_html.split("<article", 1)[-1]
+    motor_section_start = center_body.find('<h2 id="motor-datasheets-by-diameter">')
+    release_section_start = center_body.find('<h2 id="public-vs-configuration-specific-documentation">')
+    if motor_section_start < 0 or release_section_start <= motor_section_start:
+        raise ValueError("Engineering Center lacks the public motor library index")
+    motor_section = center_body[motor_section_start:release_section_start]
+    if "37 published DC / BLDC motor PDFs" not in motor_section:
+        raise ValueError("Engineering Center motor library count or scope missing")
+    if "Draft / source review" not in motor_section:
+        raise ValueError("Motor Draft source warning must remain visible")
+    for group_id in motor_group_ids:
+        if f'id="{group_id}"' not in motor_article:
+            raise ValueError("Motor download target anchor missing: " + group_id)
+        if "engineering-resources/motors/#" + group_id not in motor_section:
+            raise ValueError("Engineering Center does not link motor diameter: " + group_id)
+    if "engineering-resources/motors/" not in center_before_tasks:
+        raise ValueError("Motor Datasheets must be visible before task table")
+    published_motor_pdfs = set(re.findall(
+        r'href="[^"]*/assets/downloads/motors/[^"]+\.pdf"', motor_article, re.I
+    ))
+    if len(published_motor_pdfs) != 37:
+        raise ValueError("Motor library does not expose 37 distinct PDF links: " +
+                         str(len(published_motor_pdfs)))
+    print("PASS Engineering Center: 10 motor diameter deep-links to 37 published PDFs, Draft scope retained")
+
     print("PASS Engineering Center: six standard joint models, 18 direct files + SG-6010HB reference PDF")
 
     stylesheet = SITE / "assets/stylesheets/joint-product-quick.css"
