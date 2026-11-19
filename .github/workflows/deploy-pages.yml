@@ -43,7 +43,7 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
-      - name: Generate six public joint reference PDF datasheets
+      - name: Generate six standard and separate SG-6010HB reference PDF datasheets
         run: python scripts/build_joint_datasheets.py
 
       - name: Verify robot joint product images, downloads and release status
@@ -63,6 +63,9 @@ jobs:
 
       - name: Build documentation
         run: mkdocs build --strict
+
+      - name: Verify SG-6010HB public PDF and unmatched STEP release hold
+        run: python scripts/validate_sg6010hb_public_release.py
 
       - name: Verify six joint first-screen PDF and original STEP downloads
         run: python scripts/validate_joint_quick_downloads.py
