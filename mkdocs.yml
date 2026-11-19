@@ -189,6 +189,7 @@ nav:
   - Custom Engineering:
       - Overview: custom-engineering/index.md
       - Custom Planetary Gearhead: custom-engineering/custom-planetary-gearbox.md
+      - Replacement Planetary Gearhead: custom-engineering/replacement-planetary-gearhead.md
       - Custom Cycloidal Transmission: custom-engineering/custom-cycloidal-transmission.md
       - Motor + Gearbox Integration: custom-engineering/motor-gearbox-integration.md
       - Robot Joint & Compact Actuator: custom-engineering/robot-joint-actuator-development.md
