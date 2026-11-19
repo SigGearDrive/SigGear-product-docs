@@ -200,7 +200,7 @@ for (const [slug, origin, label] of geoCases) {
   assert.ok(review.node("sg-online-message").value.includes("Engineering entry page: " + label));
   assert.ok(!review.node("sg-online-message").value.includes("private_hint="));
   assert.ok(!review.node("sg-online-message").value.includes("never-copy-this"));
-  assert.ok(analyticsJs.includes('if (refPath === "/SigGear-product-docs/' + slug + '/") return "' + origin + '"'));
+  assert.ok(analyticsJs.includes('if (pagePath === "/SigGear-product-docs/' + slug + '/") return "' + origin + '"'));
   assert.ok(measureSchema.includes("      - " + origin));
 }
 // External referrers and suppressed referrers must never be upgraded to a

@@ -38,6 +38,8 @@ data_sources:
       - active_users
       - cad_download_click
       - engineering_brief_open_click
+      - inquiry_page_view
+      - engineering_brief_online_submit_attempt
       - engineering_brief_prepare_email
       - ratio_stage_selector_run
       - candidate_design_in_pack_view
@@ -50,6 +52,11 @@ data_sources:
       - pilot_preparation_prepare_email
       - production_release_review_view
       - production_release_prepare_email
+    custom_dimensions:
+      - inquiry_origin
+    interpretation:
+      inquiry_origin: first_party_entry_page_or_unknown_not_proof_of_ai_referral
+      online_submit_attempt: not_proof_of_inbox_receipt_or_qualified_lead
     role: site_engineering_intent_and_project_lifecycle
   pipeline:
     metrics:

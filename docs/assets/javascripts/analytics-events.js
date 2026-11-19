@@ -260,6 +260,17 @@
     return context;
   }
 
+  // Fixed, first-party page categories only: no referrer URLs or free text.
+  function geoEntryOrigin(pagePath) {
+    if (pagePath === "/SigGear-product-docs/custom-engineering/custom-planetary-gearbox/") return "geo_existing_motor";
+    if (pagePath === "/SigGear-product-docs/custom-engineering/custom-gearbox-from-drawing-cad/") return "geo_drawing_step_sample";
+    if (pagePath === "/SigGear-product-docs/custom-engineering/replacement-planetary-gearhead/") return "geo_replacement_redesign";
+    if (pagePath === "/SigGear-product-docs/custom-engineering/gearbox-failure-analysis-durability-redesign/") return "geo_failure_durability";
+    if (pagePath === "/SigGear-product-docs/custom-engineering/prototype-to-production/") return "geo_prototype_to_volume";
+    if (pagePath === "/SigGear-product-docs/selection-guides/custom-gearbox-manufacturer-supplier-qualification/") return "geo_supplier_qualification";
+    return "";
+  }
+
   function inquiryOriginGroup() {
     try {
       var currentParams = new URLSearchParams(window.location.search);
@@ -270,12 +281,8 @@
       var refPath = ref.pathname || "";
       // Attribute only a recognized immediate same-origin engineering entry.
       // Never treat this as proof that an AI assistant referred the visitor.
-      if (refPath === "/SigGear-product-docs/custom-engineering/custom-planetary-gearbox/") return "geo_existing_motor";
-      if (refPath === "/SigGear-product-docs/custom-engineering/custom-gearbox-from-drawing-cad/") return "geo_drawing_step_sample";
-      if (refPath === "/SigGear-product-docs/custom-engineering/replacement-planetary-gearhead/") return "geo_replacement_redesign";
-      if (refPath === "/SigGear-product-docs/custom-engineering/gearbox-failure-analysis-durability-redesign/") return "geo_failure_durability";
-      if (refPath === "/SigGear-product-docs/custom-engineering/prototype-to-production/") return "geo_prototype_to_volume";
-      if (refPath === "/SigGear-product-docs/selection-guides/custom-gearbox-manufacturer-supplier-qualification/") return "geo_supplier_qualification";
+      var geoReferrer = geoEntryOrigin(refPath);
+      if (geoReferrer) return geoReferrer;
       if (refPath.indexOf("/selection-guides/miniature-planetary-gearbox-selection-guide/") !== -1) return "selection_tool";
       if (refPath.indexOf("/engineering-resources/") !== -1) return "engineering_resource";
       if (/\/products\/planetary-gearboxes\/\d{1,2}p-planetary-gearbox\//i.test(refPath)) return "product_model";
@@ -570,7 +577,8 @@
             inquiry_model: briefModel,
             inquiry_application: briefApplication,
             inquiry_type: briefPath,
-            inquiry_origin: selectorHandoff ? "selection_tool" : inquiryOriginGroup(),
+            inquiry_origin: selectorHandoff ? "selection_tool" :
+              (geoEntryOrigin(pagePath()) || inquiryOriginGroup()),
             selector_handoff: selectorHandoff,
             selector_candidate_stage: selectorStage,
             destination_path: internalDestination.pathname,
