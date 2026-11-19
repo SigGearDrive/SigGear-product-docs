@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "site"
 BASE = "https://siggeardrive.github.io/SigGear-product-docs/"
 SELECTOR_RELATIVE = "selection-guides/miniature-planetary-gearbox-selection-guide/"
+QUICK_SELECTOR_RELATIVE = "selection-guides/planetary-gearhead-quick-selector/"
 APPLICATIONS = {
     "electric-pruning-shears-planetary-gearbox": "electric_pruning_shears",
     "electric-curtain-blind-window-opener-gear-motors": "electric_curtain_blind",
@@ -27,7 +28,7 @@ APPLICATIONS = {
 PRIORITY_APPLICATION_MODEL_PATHS = {
     "electric-pruning-shears-planetary-gearbox": ("32p", "36p", "42p"),
     "electric-curtain-blind-window-opener-gear-motors": ("16p", "20p", "22p"),
-    "robot-gripper-gear-motors": ("8p", "14p", "20p"),
+    "robot-gripper-gear-motors": ("8p", "10p", "12p", "14p", "16p"),
 }
 
 
@@ -77,9 +78,10 @@ def main() -> None:
         app_selector_links = []
         for href in collector.hrefs:
             url = urlsplit(urljoin(source, href))
-            if url.netloc == "siggeardrive.github.io" and url.path == (
-                "/SigGear-product-docs/" + SELECTOR_RELATIVE
-            ):
+            if url.netloc == "siggeardrive.github.io" and url.path in {
+                "/SigGear-product-docs/" + SELECTOR_RELATIVE,
+                "/SigGear-product-docs/" + QUICK_SELECTOR_RELATIVE,
+            }:
                 app_selector_links.append(url)
 
         if page_slug in PRIORITY_APPLICATION_MODEL_PATHS:
@@ -106,7 +108,7 @@ def main() -> None:
             if parse_qs(link.query).get("app") != [app]:
                 raise ValueError(f"{page_slug} drops application context: {link.geturl()}")
             if link.fragment != "preliminary-ratio-stage-finder":
-                raise ValueError(f"{page_slug} misses legacy selector anchor: {link.geturl()}")
+                raise ValueError(f"{page_slug} misses selector anchor: {link.geturl()}")
 
     data = json.loads((
         ROOT / "docs/assets/data/planetary-ratio-stage-data.json"
@@ -120,7 +122,7 @@ def main() -> None:
     if abs(6000 / 42.9 - 139.86) > 0.01:
         raise ValueError("The documented 12P output-speed example changed")
 
-    print("PASS 4 OEM application paths retain source context in rendered selector links")
+    print("PASS 4 OEM application paths retain source context in rendered selector links (legacy or current selector)")
     print("PASS 3 priority application articles link to exact models, public CAD and inquiry")
     print("PASS selector canonical, useful worked example and published 12P parameters")
 
