@@ -3,7 +3,7 @@
   "date": "2026-11-19",
   "basis": "User-provided files reviewed without manufacturing drawing approval",
   "last_public_assets": "Six reference PDFs and eight original STEP assemblies remain unchanged",
-  "binary_upload_status": "11 binary objects in source-controlled Github branch; five 2D original PDFs and six web-optimized source images. SG-6010HB drawing blocked.",
+  "binary_upload_status": "12 source-controlled original binary assets: six source-verified 800px images and six original 2D PDFs. Defective SG6010D PNG excluded.",
   "drawings": [
     {
       "model": "SG-6010D",
@@ -59,11 +59,11 @@
       "model": "SG-6010HB",
       "variant": "sg2908b_drawing",
       "source": "SG(6010HB)安装尺寸图.pdf",
-      "target": null,
+      "target": "docs/assets/downloads/joint-actuators/SG-6010HB_SG2908B_2D_Installation_Drawing.pdf",
       "bytes": 913524,
       "sha256": "52d71c849634573887ff1bd4575d2030b70fbc6f7c9c35b03cf62eae3b43c06a",
-      "status": "blocked_dimension_conflict",
-      "matches": "SG2908B drawing axial 22.57 +/- 0.50 mm vs SG-6010HB published 25.57 mm; not among six core standards"
+      "status": "published_separate_model_reference",
+      "matches": "SG2908B: main body axial 22.57 +/- 0.50 mm plus 3.00 +/- 0.30 mm output-side extension gives nominal 25.57 mm overall; different measurement bases, not a direct conflict"
     }
   ],
   "photos": [
