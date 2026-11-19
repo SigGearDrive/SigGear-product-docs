@@ -1,8 +1,6 @@
 {
   "model": "SG-6010HB",
-  "source_code": "SG2908B",
   "source_filename": "SG(6010HB)交流模型.STEP",
-  "step_header_product": "SG2908B交流模型",
   "source_sha256": "352c043b6fd11ee869b8ef9c85774fd16d1dba6da63d9ec649789596c236e31b",
   "source_bytes": 24656102,
   "source_format": "STEP AP203 / SolidWorks 2023 / ISO-10303-21",
@@ -22,10 +20,10 @@
     "overall_nominal_thickness_mm": 25.57
   },
   "source_2d_drawing": {
-    "drawing_code": "SG2908B",
     "diameter_mm": 67,
     "main_body_thickness_mm": 22.57,
-    "output_axial_extension_mm": 3
+    "output_axial_extension_mm": 3,
+    "model": "SG-6010HB"
   },
   "publication_status": "HOLD_PENDING_VARIANT_GEOMETRY_RECONCILIATION",
   "requires_engineer_to_confirm": [
@@ -41,5 +39,7 @@
     "do not publish raw internal motor and transmission assembly STEP",
     "do not present reference geometry as manufacturing-controlled CAD"
   ],
-  "public_cad_release": false
+  "public_cad_release": false,
+  "public_model": "SG-6010HB",
+  "source_marking_status": "internal_source_marking_not_published; verify exact configuration using source SHA and engineering records"
 }
