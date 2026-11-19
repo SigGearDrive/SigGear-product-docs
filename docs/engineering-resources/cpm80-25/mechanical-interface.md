@@ -1,6 +1,6 @@
 ---
-title: CPM-80-25 Mechanical Interface | No-Driver and Integrated-Driver CAD | SigGear
-description: Approved public CPM-80-25 mechanical interface dimensions and CAD resources for robot joint design-in.
+title: CPM-80-25 Mechanical Interface | No-Driver and Integrated-Driver STEP | SigGear
+description: Approved public CPM-80-25 mechanical interface dimensions and STEP resources for robot joint design-in.
 ---
 
 # CPM-80-25 Mechanical Interface v1.0
