@@ -73,10 +73,20 @@
       "&selector_review_reason=" + encodeURIComponent(reason) +
       selectorContext(motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength);
   }
+  function customProjectLink(start, motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength) {
+    return "../../request-cad-sample-quote/?path=gearbox_only&start=" + encodeURIComponent(start) +
+      "&selection=ratio_stage_selector_custom" +
+      selectorContext(motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength);
+  }
   function customReviewAction(reason, motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength) {
     return "<p><a class=\"md-button md-button--primary\" href=\"" +
       esc(customReviewLink(reason, motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength)) +
-      "\">Request Custom Engineering Review</a></p>";
+      "\">Send This Requirement for Engineering Review</a></p>" +
+      "<p class=\"siggear-selector-custom-paths\">Start from: " +
+      "<a href=\"" + esc(customProjectLink("existing_motor", motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength)) + "\">existing motor</a> · " +
+      "<a href=\"" + esc(customProjectLink("drawing_cad", motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength)) + "\">drawing / STEP</a> · " +
+      "<a href=\"" + esc(customProjectLink("failing_gearbox", motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength)) + "\">failing gearbox</a> · " +
+      "<a href=\"" + esc(customProjectLink("prototype_to_volume", motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength)) + "\">prototype → volume</a></p>";
   }
   function numberValue(id) {
     var el = document.getElementById(id);
@@ -325,7 +335,7 @@
         }).join("") + "</ul>" : "";
 
       results.innerHTML =
-        "<p>No published standard configuration remains after the current filters. A custom ratio, load, or interface may still be feasible after engineering assessment.</p>" +
+        "<p>No published standard configuration remains after the current filters. A custom ratio, motor interface, shaft / flange, load or packaging arrangement may still be feasible after engineering assessment.</p>" +
         customReviewAction("no_published_match", motorSpeed, outputSpeed, requiredTorque, peakTorque, maxDiameter, maxLength) +
         noResultDetails;
       track(0, 0, null, null, null);
