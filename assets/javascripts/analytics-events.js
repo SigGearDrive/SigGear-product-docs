@@ -172,6 +172,10 @@
     "joint-actuators/CPM-78-39_Public_Reference_Datasheet_Rev0.1.pdf": ["CPM-78-39", "catalogue", "datasheet_pdf"],
     "joint-actuators/CPM-80-25_Public_Reference_Datasheet_Rev0.1.pdf": ["CPM-80-25", "catalogue", "datasheet_pdf"],
     "joint-actuators/CPM-100-25_Public_Reference_Datasheet_Rev0.1.pdf": ["CPM-100-25", "catalogue", "datasheet_pdf"],
+    "joint-actuators/SG-6010D_2D_Assembly_Drawing.pdf": ["SG-6010D", "published_assembly", "reference_2d_pdf"],
+    "joint-actuators/CPM-80-25_2D_No_Driver_29p7mm.pdf": ["CPM-80-25", "no_driver_29_7mm", "reference_2d_pdf"],
+    "joint-actuators/CPM-80-25_2D_Integrated_Driver_41p2mm.pdf": ["CPM-80-25", "integrated_driver_41_2mm", "reference_2d_pdf"],
+    "joint-actuators/CPM-100-25D_2D_Dual_Encoder_Driver_48mm.pdf": ["CPM-100-25", "dual_encoder_driver_48mm", "reference_2d_pdf"],
     "joint-actuators/SG-6010C_Original_Full_Assembly_20261118.step": ["SG-6010C", "standard", "original_full_step"],
     "joint-actuators/SG-6010D_Original_Full_Assembly_20261118.step": ["SG-6010D", "published_assembly", "original_full_step"],
     "joint-actuators/SG-8021_Driver_Version_Original_Full_Assembly_20261118.step": ["SG-8021", "driver_version", "original_full_step"],
@@ -425,7 +429,7 @@
             link_text: label
           });
           // Retain the established generic cad_download_click for STEP files.
-          if (jointInfo[2] === "datasheet_pdf") return;
+          if (jointInfo[2] === "datasheet_pdf" || jointInfo[2] === "reference_2d_pdf") return;
         }
       }
     } catch (e) {
