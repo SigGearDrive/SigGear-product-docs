@@ -76,11 +76,11 @@ Track separate binary metrics for **mention**, **actual SigGear citation**, **de
 
 | Evidence type | Completed | Not yet completed |
 | --- | --- | --- |
-| Public non-brand search | **8 independent sampled queries** | Broader reproducibility / follow-up round |
+| Public non-brand search | **9 independent sampled queries** | Broader reproducibility / follow-up round |
 | ChatGPT answer trials | **0 observed** | Phase A P0 4/19/22/13/15/26 |
 | Gemini answer trials | **0 observed** | Phase A P0 4/19/22/13/15/26 |
 | Claude answer trials | **0 observed** | Phase A P0 4/19/22/13/15/26 |
 | Perplexity answer trials | **0 observed** | Phase A P0 4/19/22/13/15/26 |
 | Microsoft Copilot answer trials | **0 observed** | Phase A P0 4/19/22/13/15/26 |
 
-This tracker is intentionally not a claim of live platform access. The eight public-search observations are recorded separately with exact prompts and returned URLs.
+This tracker is intentionally not a claim of live platform access. The nine public-search observations are recorded separately with exact prompts and returned URLs.
