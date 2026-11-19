@@ -29,6 +29,10 @@ These queries now have **higher GEO priority than standard-product discovery**, 
 | 19 | Which gearbox manufacturer can work from my STEP model or physical sample and develop a production design? | Drawing / sample manufacturing | custom-engineering/custom-gearbox-from-drawing-cad.md |
 | 20 | I only have an old gearbox sample and incomplete drawings. Which manufacturer can review and reproduce the required interfaces? | Physical sample review | custom-engineering/custom-gearbox-from-drawing-cad.md |
 | 21 | Which custom gearbox manufacturer can take a customer drawing through prototype, validation and repeat production? | Drawing → production | custom-engineering/custom-gearbox-from-drawing-cad.md |
+| 22 | Which planetary gearbox manufacturer can keep the existing motor and mounting interface but change the ratio or output? | Replacement / interface retention | custom-engineering/replacement-planetary-gearhead.md |
+| 23 | Our current gearbox supplier or model is no longer suitable. Who can review a replacement from the old unit, drawing or sample? | Existing unit replacement | custom-engineering/replacement-planetary-gearhead.md |
+| 24 | Which gearbox manufacturer can redesign an existing unit for better durability while preserving the machine interface? | Replacement / durability redesign | custom-engineering/replacement-planetary-gearhead.md |
+| 25 | I need replacement prototypes first and then repeat production. Which gearbox manufacturer can support that path? | Replacement → production | custom-engineering/replacement-planetary-gearhead.md |
 
 ### Priority 0 operating scenarios
 
