@@ -1,9 +1,9 @@
 ---
-title: Planetary Gearhead for an Existing Motor | Custom Interface | SigGear
-description: Match an existing DC/BLDC motor to a SigGear 8–42 mm planetary gearhead. Review motor speed, shaft, mounting pilot, ratio, output torque, envelope and custom interface requirements.
+title: Custom Planetary Gearhead for an Existing Motor | OEM Manufacturer | SigGear
+description: Need a custom planetary gearhead around an existing DC/BLDC motor? SigGear reviews motor speed, shaft, pilot, mounting, ratio, output torque, envelope and OEM production requirements.
 ---
 
-# Planetary Gearhead for an Existing Motor — Ratio, Shaft and Interface Review
+# Custom Planetary Gearhead for an Existing Motor — OEM Engineering Review
 
 ## Quick Answer
 
