@@ -1,5 +1,5 @@
 ---
-title: "Miniature Planetary Gearheads Ø8–42 mm | 12 Models & CAD | SigGear"
+title: "8–42 mm Precision Planetary Gearheads | 12 Models & CAD | SigGear"
 description: "SigGear supplies 12 precision planetary gearhead sizes (miniature planetary gearboxes), Ø8–42 mm. Compare stage-dependent ratios, rated torque and direct PDF, 2D and STEP CAD."
 ---
 
