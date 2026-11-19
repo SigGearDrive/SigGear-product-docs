@@ -44,4 +44,19 @@ for page,required in {
     s=(APP/page).read_text(encoding="utf-8")
     for m in required:
         assert f"{m.lower()}-planetary-gearbox.md" in s, (page,m)
+# Guard against generic, near-identical intent text on the six focused home-device pages.
+focused_intent = {
+    "electric-curtain-blind-window-opener-gear-motors.md": ("curtain rail", "roller blind", "pulley radius"),
+    "smart-toilet-bidet-planetary-gear-motors.md": ("toilet lid", "bidet nozzle", "moisture barrier"),
+    "smart-pet-feeder-litter-box-planetary-gearheads.md": ("feeder auger", "litter-box drum", "pellets bridge"),
+    "access-control-smart-lock-security-gear-motors.md": ("door lock", "bolt or cam", "emergency-egress"),
+    "consumer-appliance-home-device-gear-motors.md": ("appliance lids", "rotary valves", "cleaning"),
+    "smart-hardware-gear-motors.md": ("cabinet latch", "IoT rotary", "standby current"),
+}
+for name, terms in focused_intent.items():
+    body = (APP / name).read_text(encoding="utf-8").lower()
+    for term in terms:
+        assert term.lower() in body, (name, term)
+    assert "## " in body and "pdf / step" in body.lower(), name
+
 print("PASS 32 concise supplier-first application pages, 3 supply routes, file links and legacy selector context")

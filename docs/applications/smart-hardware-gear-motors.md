@@ -1,6 +1,6 @@
 ---
-title: "Smart Hardware Compact Gear Motors | SigGear"
-description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + gearhead assemblies for smart cabinets, small IoT motion and access devices. Compare real models, PDF datasheets, 2D and STEP."
+title: "Smart Cabinet Latch & Low-Voltage IoT Gear Motors | SigGear"
+description: "Compare SigGear micro DC/BLDC motor and 10P–20P gearhead options for smart cabinet latches, small IoT locks and compact rotary adjustments. PDF, 2D and STEP CAD."
 ---
 
 # Smart Hardware Compact Gear Motors
@@ -11,11 +11,11 @@ description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + g
 [**Gearheads · PDF / 2D / STEP**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
 [**Motor + Gearhead Assemblies**](../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
-**Application:** IoT devices use small geared motion for lid opening, latch release and rotary adjustments within a low-voltage housing.
+**Application:** A smart cabinet latch is a compact low-voltage release mechanism; a small IoT rotary adjuster may need positioning but not door-security certification. Avoid treating either as a complete smart door lock.
 
-**Engineering checks:** motion torque and travel; sleep-current budget and end stop; shaft, noise and packaging.
+**Engineering checks:** Check latch release force at the cam radius, battery peak/standby current, travel-time limit, output-shaft packaging and acceptable noise before choosing a motor and ratio.
 
-## Relevant Gearhead Models & Direct Downloads
+## Smart Cabinet, IoT Latch & Adjustment Gearheads — PDF / STEP
 
 | Size / model | Datasheet PDF | 2D drawing | Full STEP |
 | --- | --- | --- | --- |
@@ -24,5 +24,7 @@ description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + g
 | [20P · Ø20 mm](../products/planetary-gearboxes/20p-planetary-gearbox.md) | [PDF](../assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D](../assets/downloads/20p/20P_2D_Drawing.pdf) | [STEP](../assets/downloads/20p/20P_Full_Assembly.step) |
 
 *The models above are initial size comparisons, not qualified application matches. Rated torque and length depend on the selected stage/ratio; check the model datasheet and mechanical interface. The final mechanism, not a gearhead alone, determines appliance safety.*
+
+**For other mechanisms:** [Certified-door design considerations](access-control-smart-lock-security-gear-motors.md) · [Small appliance lids](consumer-appliance-home-device-gear-motors.md).
 
 [**Find a Gearhead by Speed / Torque**](../selection-guides/planetary-gearhead-quick-selector.md) · [**All 12 Model Downloads**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [**Contact SigGear**](../request-cad-sample-quote.md)

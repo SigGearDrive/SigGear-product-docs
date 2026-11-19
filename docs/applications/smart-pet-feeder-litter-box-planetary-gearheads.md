@@ -1,6 +1,6 @@
 ---
-title: "Pet Feeder & Litter Box Miniature Gear Motors | SigGear"
-description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + gearhead assemblies for automatic pet feeders and self-cleaning litter boxes. Compare real models, PDF datasheets, 2D and STEP."
+title: "Automatic Pet Feeder Auger & Litter Box Gear Motors | SigGear"
+description: "Compare SigGear 12P, 20P, 22P and 32P gearheads for automatic pet feeder augers and litter box drum mechanisms. Direct PDF datasheets, 2D and STEP CAD."
 ---
 
 # Pet Feeder & Litter Box Miniature Gear Motors
@@ -11,11 +11,11 @@ description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + g
 [**Gearheads · PDF / 2D / STEP**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
 [**Motor + Gearhead Assemblies**](../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
-**Application:** A feeder auger experiences pellet bridging, while a litter drum sees changing inertia and off-centre loads. They should not share one assumed torque rating.
+**Application:** A feeder auger can lock when pellets bridge at the outlet; a litter-box drum needs start-up acceleration and support for off-centre loads. One assumed gear-motor torque cannot cover both mechanisms.
 
-**Engineering checks:** auger blocked torque and portion size; drum inertia and external shaft support; jam detection and pet-presence safety.
+**Engineering checks:** Measure auger start/jam torque and portion cycle, or drum inertia and output support; include obstruction detection, pet presence sensing and dust protection in the product design.
 
-## Relevant Gearhead Models & Direct Downloads
+## Pet Feeder Auger & Litter Drum Gearheads — PDF / STEP
 
 | Size / model | Datasheet PDF | 2D drawing | Full STEP |
 | --- | --- | --- | --- |
