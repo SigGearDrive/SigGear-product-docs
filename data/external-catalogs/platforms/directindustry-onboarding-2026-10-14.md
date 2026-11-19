@@ -18,9 +18,11 @@
 
 Hello DirectIndustry Team,
 
-We are Guangdong SigGear Drive Intelligent Technology Co., Ltd. (SigGear), a manufacturer of miniature precision planetary gearboxes and engineered motor + gearbox solutions based in Dongguan, China.
+We are Guangdong SigGear Drive Intelligent Technology Co., Ltd. (SigGear), a precision transmission manufacturer based in Dongguan, China. Our core work includes custom planetary gearheads, cycloidal reducers, robot joint actuators and motor + gearhead assemblies, with engineering support from prototype development through repeatable production.
 
-We would like to exhibit our 8–42 mm planetary gearbox range on DirectIndustry, starting with four verified product families: 10P (10 mm), 20P (20 mm), 32P (32 mm) and 42P (42 mm). We have real product photographs, technical datasheets, mechanical-interface information and public simplified STEP CAD references. A full 12-family launch is also possible if the plan supports it.
+Our public 8–42 mm planetary gearhead range is the first product family we plan to exhibit on DirectIndustry. These standard products are public engineering reference platforms; many customer-specific transmission programs cannot be shown publicly because they are confidential.
+
+We would like to start with four verified product families: 10P (10 mm), 20P (20 mm), 32P (32 mm) and 42P (42 mm). We have real product photographs, technical datasheets, mechanical-interface information and public STEP CAD references. A full 12-family launch is also possible if the plan supports it.
 
 Could you please share your exhibitor packages and pricing, supported number of product listings, applicable categories (Planetary Gear Reducer / Micro Planetary Gearbox / Miniature Gear Reducer), available languages, website links, RFQ/lead delivery and performance reporting?
 
@@ -40,9 +42,9 @@ SigGear
 
 **Legal manufacturer:** Guangdong SigGear Drive Intelligent Technology Co., Ltd.
 
-**Short supplier introduction:** SigGear develops and manufactures miniature and compact planetary gearboxes for OEM power-transmission projects. Our current public planetary range covers 12 nominal frame diameters from 8 mm to 42 mm. Customers can review gearbox-only products or request a motor + gearbox engineering match. We provide model-specific datasheets, mechanical-interface references and simplified STEP models for preliminary mechanical integration. Final reduction ratio, stage count, shaft/motor interface and operating-point suitability require configuration review.
+**Short supplier introduction:** SigGear is a precision transmission manufacturer focused on custom engineering, prototype-to-production development and repeatable volume manufacturing. Public products include 8–42 mm precision planetary gearheads, cycloidal reducers and robot joint actuators. These standard products are engineering reference platforms; many customer-specific programs remain confidential. SigGear can review projects starting from an existing motor, drawing, failed gearbox, special shaft / flange requirement or prototype-to-volume production plan. Model-specific datasheets, mechanical-interface references and STEP CAD are available for published products.
 
-**Products (first wave):** 10P, 20P, 32P, 42P planetary gearbox families.
+**Products (first wave):** 10P, 20P, 32P, 42P planetary gearhead families. Company profile should also state SigGear's custom transmission engineering and volume-manufacturing scope so the standard products are not presented as the full capability.
 
 **Application wording:** Potential OEM use cases include electric tools, small motorized mechanisms, smart-home products, precision instruments and compact automation. These are selection/application examples, **not verified customer case claims**.
 
