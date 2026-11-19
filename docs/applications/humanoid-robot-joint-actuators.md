@@ -1,5 +1,5 @@
 ---
-title: "Humanoid Robot Joint Components | Integrated Modules & Gearheads | SigGear"
+title: "Humanoid Robot Joint Actuators: Modules vs Gearheads | SigGear"
 description: "Compare SigGear integrated robot joint actuator modules and Ø20/32/42 mm planetary gearheads for humanoid auxiliary axes. Direct engineering datasheets, CAD and STEP downloads."
 ---
 
