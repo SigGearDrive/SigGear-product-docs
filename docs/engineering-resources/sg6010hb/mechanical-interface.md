@@ -73,6 +73,10 @@ Cable termination and connector configuration can vary by project and must be co
 
 ## CAD Status
 
+[**Download 2D Installation Drawing PDF · Original SG2908B**](../../assets/downloads/joint-actuators/SG-6010HB_SG2908B_2D_Installation_Drawing.pdf){ .md-button .md-button--primary }
+
+This reference drawing shows **22.57 ± 0.50 mm main body** plus **3.00 ± 0.30 mm output-side extension**. The published **25.57 mm** is the nominal combined envelope, not a competing measurement. Final mating tolerances and production revision still require confirmation.
+
 A detailed SG2908B / SG-6010HB assembly STEP has been reviewed internally.
 
 The supplied STEP contains detailed internal motor and planetary-transmission geometry, so the raw assembly is **not released as a public download**.
