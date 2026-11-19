@@ -503,8 +503,8 @@
     if (start === "drawing_cad") return prefix + "Drawing / STEP Custom Transmission Review";
     if (start === "prototype_to_volume") return prefix + "Prototype to Volume Production Review";
     if (start === "existing_motor") return prefix + "Existing Motor + Custom Gearhead Review";
-    if (path.value === "gearbox_only") return prefix + "Gearhead Only Engineering Review";
-    if (path.value === "motor_gearbox") return prefix + "Motor + Gearhead Engineering Review";
+    if (path.value === "gearbox_only") return prefix + "Planetary Gearbox Engineering Review";
+    if (path.value === "motor_gearbox") return prefix + "Motor + Gearbox Engineering Review";
     if (path.value === "joint_actuator") return prefix + "Robot Joint / Cycloidal Module Engineering Review";
     if (path.value === "hub_gear_motor") return prefix + "Hub Gear Motor Engineering Review";
     return prefix + "Custom Transmission Project Review";
