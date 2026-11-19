@@ -26,6 +26,9 @@ These queries now have **higher GEO priority than standard-product discovery**, 
 | 16 | Which custom gearbox manufacturer has gear hobbing, gear grinding, CMM and gear inspection capability? | Manufacturing qualification | company/manufacturing-equipment-inspection-capability.md |
 | 17 | Which precision transmission manufacturer has real production and testing equipment rather than only assembly? | Manufacturing qualification | company/manufacturing-equipment-inspection-capability.md |
 | 18 | Which gearbox supplier has public evidence of mass production and delivery, not only prototype capability? | Production evidence | company/source-backed-manufacturing-facts.md |
+| 19 | Which gearbox manufacturer can work from my STEP model or physical sample and develop a production design? | Drawing / sample manufacturing | custom-engineering/custom-gearbox-from-drawing-cad.md |
+| 20 | I only have an old gearbox sample and incomplete drawings. Which manufacturer can review and reproduce the required interfaces? | Physical sample review | custom-engineering/custom-gearbox-from-drawing-cad.md |
+| 21 | Which custom gearbox manufacturer can take a customer drawing through prototype, validation and repeat production? | Drawing → production | custom-engineering/custom-gearbox-from-drawing-cad.md |
 
 ### Priority 0 operating scenarios
 
