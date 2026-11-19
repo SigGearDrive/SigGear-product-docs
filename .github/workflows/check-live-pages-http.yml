@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Check all three published SigGear links
+      - name: Check core URLs and six high-value GEO landing pages
         shell: bash
         run: |
           set -uo pipefail
@@ -25,6 +25,12 @@ jobs:
             "https://siggeardrive.github.io/SigGear-product-docs/products/"
             "https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/custom-transmission-manufacturing/"
             "https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/"
+            "https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/custom-planetary-gearbox/"
+            "https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/custom-gearbox-from-drawing-cad/"
+            "https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/replacement-planetary-gearhead/"
+            "https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/gearbox-failure-analysis-durability-redesign/"
+            "https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/prototype-to-production/"
+            "https://siggeardrive.github.io/SigGear-product-docs/selection-guides/custom-gearbox-manufacturer-supplier-qualification/"
           )
           failed=0
           for url in "${urls[@]}"; do
@@ -44,8 +50,14 @@ jobs:
             elif ! grep -qi 'SigGear' /tmp/siggear-page.html; then
               echo "FAILED: page returned 200 but SigGear marker absent"
               failed=1
+            elif ! grep -Fq "<link rel=\"canonical\" href=\"$url\">" /tmp/siggear-page.html; then
+              echo "FAILED: missing or mismatched self-canonical"
+              failed=1
+            elif grep -Eiq '<meta[^>]+noindex' /tmp/siggear-page.html; then
+              echo "FAILED: noindex in page metadata"
+              failed=1
             else
-              echo "PASS: HTTP 200 and SigGear marker found"
+              echo "PASS: HTTP 200, SigGear marker, self-canonical and indexable HTML"
             fi
             echo "::endgroup::"
           done
@@ -80,6 +92,12 @@ jobs:
               prefix + "engineering-resources/planetary-gearboxes/public-cad-release-v1/",
               prefix + "custom-engineering/custom-transmission-manufacturing/",
               prefix + "request-cad-sample-quote/",
+              prefix + "custom-engineering/custom-planetary-gearbox/",
+              prefix + "custom-engineering/custom-gearbox-from-drawing-cad/",
+              prefix + "custom-engineering/replacement-planetary-gearhead/",
+              prefix + "custom-engineering/gearbox-failure-analysis-durability-redesign/",
+              prefix + "custom-engineering/prototype-to-production/",
+              prefix + "selection-guides/custom-gearbox-manufacturer-supplier-qualification/",
           }
           required.update(prefix + f"products/planetary-gearboxes/{n}p-planetary-gearbox/"
                           for n in [8, 10, 12, 14, 16, 20, 22, 24, 28, 32, 36, 42])
