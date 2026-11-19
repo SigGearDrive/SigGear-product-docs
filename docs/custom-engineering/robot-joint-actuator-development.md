@@ -1,15 +1,21 @@
 ---
 title: Custom Robot Joint Actuator Manufacturer | Humanoid OEM Development | SigGear
-description: SigGear develops custom robot joint actuators for humanoid, quadruped, robot arm and exoskeleton OEM projects. Start from joint CAD, torque-speed targets, motor/controller architecture or prototype-to-volume requirements.
+description: SigGear develops custom robot joint actuators for humanoid, quadruped, robot arm and exoskeleton OEM projects. Start from a robot mechanism or STEP model, torque-speed targets, motor/controller architecture or prototype-to-volume requirements.
 ---
 
 # Custom Robot Joint Actuator Development
+
+## “We Have a Robot Mechanism / STEP Model. Can SigGear Review a Custom Joint?”
+
+**Yes.** A robot-joint project can start from the mechanism, STEP model, link geometry, torque-speed requirement, preferred motor / controller or an early prototype.
+
+SigGear can review the transmission structure, motor, feedback, driver and mechanical interfaces as one actuator system. A public SG or CPM model can be used as a reference platform, but the project does not need to match a standard actuator exactly.
 
 ## Start From the Joint Requirement, Not From an Existing Actuator Model
 
 A robotics project does not need to fit an existing SigGear actuator exactly.
 
-You may already know the joint torque, speed and installation envelope. You may also have only a robot mechanism, link geometry, motor preference, CAD concept or early prototype.
+You may already know the joint torque, speed and installation envelope. You may also have only a robot mechanism, link geometry, motor preference, STEP concept or early prototype.
 
 SigGear develops and manufactures robot joint actuators, planetary actuator platforms and cycloidal joint modules for robotics and compact motion systems.
 
@@ -68,7 +74,7 @@ Useful inputs include:
 - power-off behavior and brake requirement
 - prototype quantity and expected production volume
 
-If some of these are not known yet, send the mechanism, CAD, sketch or the information already available. The engineering review can identify what needs to be calculated, measured or tested before the actuator architecture is fixed.
+If some of these are not known yet, send the mechanism, STEP model, sketch or the information already available. The engineering review can identify what needs to be calculated, measured or tested before the actuator architecture is fixed.
 
 ## Planetary, Cycloidal or Another Joint Architecture?
 
