@@ -1,5 +1,5 @@
 ---
-title: Failing Gearbox Replacement & Redesign | Planetary Gearhead Manufacturer | SigGear
+title: Failing Gearbox Replacement & Redesign | Planetary Gearbox Manufacturer | SigGear
 description: If a planetary gearbox is wearing out, overheating, developing backlash or suffering gear or bearing damage, SigGear can review the failed unit, operating condition, motor and interfaces for replacement or redesign.
 ---
 
@@ -7,17 +7,17 @@ description: If a planetary gearbox is wearing out, overheating, developing back
 
 If an existing planetary gearbox is discontinued, wearing prematurely, overheating, developing backlash, making abnormal noise or damaging gears / bearings, the replacement review should start from the **actual assembly, failure evidence and operating condition**, not only from the old model number.
 
-SigGear can review its 8–42 mm planetary gearhead platforms as starting points for a replacement or modified configuration. A replacement is **not described as drop-in or fully compatible until the mechanical, performance and operating requirements have been checked.**
+SigGear can review its 8–42 mm planetary gearbox platforms as starting points for a replacement or modified configuration. A replacement is **not described as drop-in or fully compatible until the mechanical, performance and operating requirements have been checked.**
 
 [**Gearbox Failure & Durability Redesign**](gearbox-failure-analysis-durability-redesign.md){ .md-button .md-button--primary }
-[**Browse 8–42 mm Gearheads**](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
+[**Browse 8–42 mm Gearboxes**](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
 [**Send Existing Unit / Drawing for Review**](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button }
 
 ## What to Send First
 
 The most useful starting information is:
 
-1. **Existing gearbox / gearhead model** if known
+1. **Existing gearbox model** if known
 2. **Old drawing, datasheet or measured dimensions**
 3. **Motor model and motor drawing**
 4. **Loaded motor speed and required output speed**
@@ -30,7 +30,7 @@ The most useful starting information is:
 
 If an old physical sample is available, it can be useful for checking the interfaces and construction details that may not appear on a public drawing.
 
-## If the Existing Gearhead Has Failed
+## If the Existing Gearbox Has Failed
 
 Describe the observed failure rather than only requesting a stronger replacement.
 
@@ -86,10 +86,10 @@ When the customer motor cannot change, the replacement review should check:
 - locating pilot
 - motor mounting-hole pattern
 - loaded operating speed
-- available motor + gearhead length
+- available motor + gearbox length
 - required output torque and speed
 
-[**Planetary Gearhead for an Existing Motor**](custom-planetary-gearbox.md){ .md-button .md-button--primary }
+[**Planetary Gearbox for an Existing Motor**](custom-planetary-gearbox.md){ .md-button .md-button--primary }
 
 ## Sample / Drawing Review
 
