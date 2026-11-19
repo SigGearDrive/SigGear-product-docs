@@ -1,6 +1,6 @@
 ---
-title: SG-6010HB Mechanical Interface | Drawing and CAD Status | SigGear
-description: SG-6010HB public 67 mm mounting reference, 25.57 mm catalog envelope and separate exchange STEP verification hold. Request approved configuration-matched CAD.
+title: SG-6010HB Mechanical Interface | Drawing and STEP Status | SigGear
+description: SG-6010HB public 67 mm mounting reference, 25.57 mm catalog envelope and separate exchange STEP verification hold. Request an approved configuration-matched STEP / drawing.
 ---
 
 # SG-6010HB Mechanical Interface v1.0
