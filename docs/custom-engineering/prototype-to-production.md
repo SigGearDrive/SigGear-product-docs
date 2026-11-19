@@ -5,6 +5,12 @@ description: Need 20 prototypes and later repeat production? SigGear supports cu
 
 # Custom Gearbox & Transmission: Prototype to Volume Production
 
+## “We Need 20 Prototypes and Later Thousands in Production. Can SigGear Review This?”
+
+**Yes.** For an applicable custom gearbox or precision transmission project, SigGear can review the prototype requirement together with the expected production path from the beginning.
+
+The first review should include the prototype quantity, expected annual volume, motor / mechanism, target output, installation envelope and schedule if known. Prototype success does not automatically guarantee production readiness; the configuration still needs validation, design freeze, inspection definition and pilot preparation before repeat manufacturing.
+
 ## A Custom Transmission Project Is Not Finished When the First Sample Moves
 
 For an engineering team, the first prototype answers only one question:
@@ -22,7 +28,7 @@ SigGear works with engineers through this development path for applicable compac
 
 If the transmission architecture is already known, continue with the relevant engineering path:
 
-[Custom Planetary Gearhead Engineering](custom-planetary-gearbox.md){ .md-button }
+[Custom Planetary Gearbox Engineering](custom-planetary-gearbox.md){ .md-button }
 [Custom Cycloidal Transmission Engineering](custom-cycloidal-transmission.md){ .md-button }
 [Custom Robot Joint Actuator Development](robot-joint-actuator-development.md){ .md-button }
 
