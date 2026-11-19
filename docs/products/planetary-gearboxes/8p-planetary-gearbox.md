@@ -1,6 +1,6 @@
 ---
 title: 8 mm Micro Precision Planetary Gearhead (8P) | SigGear
-description: "SigGear 8P (8 mm) micro planetary gearhead/gearbox: ratio 3.8:1–731.16:1, rated torque 19.6–39.2 mN·m. Direct PDF datasheet, 2D drawing and STEP CAD."
+description: "SigGear 8P (8 mm) micro planetary gearhead/gearbox: ratio 3.8:1–731.16:1, rated torque 19.6–39.2 mN·m. Direct PDF datasheet, 2D drawing and STEP file."
 ---
 
 # 8 mm Micro Precision Planetary Gearhead (8P)
@@ -14,7 +14,7 @@ description: "SigGear 8P (8 mm) micro planetary gearhead/gearbox: ratio 3.8:1–
 | --- | --- | --- | --- | --- |
 | **8 mm** | **3.8:1–731.16:1** | **10.15–18.10 mm** | **19.6–39.2 mN·m** | **≤ 1.5°** |
 
-**Custom 8P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=8P&start=existing_motor&path=gearbox_only) · [Review my drawing / CAD](../../request-cad-sample-quote.md?model=8P&start=drawing_cad) · [Prototype → volume](../../request-cad-sample-quote.md?model=8P&start=prototype_to_volume)
+**Custom 8P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=8P&start=existing_motor&path=gearbox_only) · [Review my drawing / STEP](../../request-cad-sample-quote.md?model=8P&start=drawing_cad) · [Review a failing gearbox](../../request-cad-sample-quote.md?model=8P&start=failing_gearbox&path=gearbox_only) · [Prototype → volume](../../request-cad-sample-quote.md?model=8P&start=prototype_to_volume)
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/8p/datasheet.md) · [Mechanical drawing preview](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-dimensions.webp) · [Motor-only datasheets](../../engineering-resources/motors/index.md#8-mm-dc-micromotors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
@@ -79,7 +79,7 @@ The published drawing shows an 8 mm body, an M8×0.5 external thread, a 5.8 mm o
 
 ![8P 8 mm planetary gearhead dimensional drawing](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-dimensions.webp)
 
-## CAD Notes
+## STEP Notes
 
 The Full Assembly STEP is the original Creo assembly export for 8P, now available for direct download. The separate Simplified STEP is a 4-stage reference model for preliminary packaging. The dimension preview is not a substitute for the original 2D drawing PDF or its controlled revision.
 
