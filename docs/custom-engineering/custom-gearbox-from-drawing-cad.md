@@ -1,17 +1,17 @@
 ---
-title: Custom Gearbox From Customer Drawing, CAD or Sample | OEM Manufacturer | SigGear
-description: SigGear reviews custom precision gearbox and gearhead projects from customer drawings, CAD models, mechanism sketches or physical samples. Engineering can cover ratio, motor interface, shaft, flange, housing, loads, prototype validation and OEM production.
+title: Custom Gearbox From Customer Drawing, STEP or Sample | OEM Manufacturer | SigGear
+description: SigGear reviews custom precision gearbox projects from customer drawings, STEP models, mechanism sketches or physical samples. Engineering can cover ratio, motor interface, shaft, flange, housing, loads, prototype validation and OEM production.
 ---
 
-# Custom Gearbox From Customer Drawing, CAD or Physical Sample
+# Custom Gearbox From Customer Drawing, STEP or Physical Sample
 
 A custom transmission project does not need to begin with a SigGear catalog model.
 
-If your team already has a **2D drawing, 3D CAD model, mechanism layout, existing assembly or physical sample**, SigGear can use that information as the starting point for engineering review.
+If your team already has a **2D drawing, STEP model, mechanism layout, existing assembly or physical sample**, SigGear can use that information as the starting point for engineering review.
 
 The objective is not to copy visible dimensions blindly. The review should identify the mechanical interfaces, operating conditions and production requirements that the transmission must satisfy.
 
-[**Send Drawing / CAD for Engineering Review**](../request-cad-sample-quote.md?start=drawing_cad){ .md-button .md-button--primary }
+[**Send Drawing / STEP for Engineering Review**](../request-cad-sample-quote.md?start=drawing_cad){ .md-button .md-button--primary }
 [**Custom Manufacturing & Volume Production**](custom-transmission-manufacturing.md){ .md-button }
 
 ## What You Can Send
@@ -19,7 +19,7 @@ The objective is not to copy visible dimensions blindly. The review should ident
 Useful starting files or evidence include:
 
 - 2D mechanical drawing
-- STEP / CAD model
+- STEP model
 - assembly drawing
 - mechanism sketch
 - marked-up screenshot
@@ -85,13 +85,13 @@ You can begin with non-sensitive information such as:
 
 Detailed drawings can be exchanged after the appropriate confidentiality process is agreed.
 
-SigGear does not publish confidential customer CAD or customer-specific products as public case studies.
+SigGear does not publish confidential customer STEP models / drawings or customer-specific products as public case studies.
 
 ## From Drawing to Prototype
 
 A typical path is:
 
-**Drawing / CAD / Sample**  
+**Drawing / STEP / Sample**  
 → **Feasibility Review**  
 → **Interface & Operating-Point Review**  
 → **Preliminary Configuration**  
@@ -143,4 +143,4 @@ Send what is already available. The first engineering discussion can identify wh
 International Sales / Sales Engineer, SigGear  
 [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
-[**Start Drawing / CAD Review**](../request-cad-sample-quote.md?start=drawing_cad){ .md-button .md-button--primary }
+[**Start Drawing / STEP Review**](../request-cad-sample-quote.md?start=drawing_cad){ .md-button .md-button--primary }
