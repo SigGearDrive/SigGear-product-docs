@@ -1,6 +1,6 @@
 ---
-title: SigGear Product Model Reference | 8P–42P Planetary Gearboxes
-description: Locate real SigGear 8P–42P micro, miniature and compact planetary gearbox model pages, as well as published robot actuators and other product references.
+title: SigGear Precision Planetary Gearhead Model Index | 8P–42P
+description: Find SigGear 8P–42P precision planetary gearhead models, plus robot joint actuators, cycloidal modules and hub motors. Follow model links to published PDF, 2D and STEP engineering files.
 ---
 
 # SigGear Product Model Index
@@ -24,24 +24,24 @@ Use this page to locate the canonical public page for a SigGear product model or
 | CPM-80-25 | [CPM-80-25](../products/cycloidal-joint-modules/cpm80-25.md) |
 | CPM-78-39 | [CPM-78-39](../products/cycloidal-joint-modules/cpm78-39.md) |
 
-## 8P–42P Planetary Gearboxes (8–42 mm)
+## 8P–42P Precision Planetary Gearheads (8–42 mm)
 
 The 12 published frame sizes cover **Micro (8–16 mm)**, **Miniature (20–32 mm)** and **Compact (36–42 mm)** precision planetary gearheads. Model pages give direct Datasheet PDF, original 2D drawing and full STEP links, plus stage/ratio tables. Confirm configuration-dependent length and motor interface.
 
 | Model | Public page |
 | --- | --- |
-| 8P | [8 mm Micro Planetary Gearbox](../products/planetary-gearboxes/8p-planetary-gearbox.md) |
-| 10P | [10 mm Micro Planetary Gearbox](../products/planetary-gearboxes/10p-planetary-gearbox.md) |
-| 12P | [12 mm Micro Planetary Gearbox](../products/planetary-gearboxes/12p-planetary-gearbox.md) |
-| 14P | [14 mm Micro Planetary Gearbox](../products/planetary-gearboxes/14p-planetary-gearbox.md) |
-| 16P | [16 mm Micro Planetary Gearbox](../products/planetary-gearboxes/16p-planetary-gearbox.md) |
-| 20P | [20 mm Miniature Planetary Gearbox](../products/planetary-gearboxes/20p-planetary-gearbox.md) |
-| 22P | [22 mm Miniature Planetary Gearbox](../products/planetary-gearboxes/22p-planetary-gearbox.md) |
-| 24P | [24 mm Miniature Planetary Gearbox](../products/planetary-gearboxes/24p-planetary-gearbox.md) |
-| 28P | [28 mm Miniature Planetary Gearbox](../products/planetary-gearboxes/28p-planetary-gearbox.md) |
-| 32P | [32 mm Miniature Planetary Gearbox](../products/planetary-gearboxes/32p-planetary-gearbox.md) |
-| 36P | [36 mm Compact Planetary Gearbox](../products/planetary-gearboxes/36p-planetary-gearbox.md) |
-| 42P | [42 mm Compact Planetary Gearbox](../products/planetary-gearboxes/42p-planetary-gearbox.md) |
+| 8P | [8 mm Micro Planetary Gearhead](../products/planetary-gearboxes/8p-planetary-gearbox.md) |
+| 10P | [10 mm Micro Planetary Gearhead](../products/planetary-gearboxes/10p-planetary-gearbox.md) |
+| 12P | [12 mm Micro Planetary Gearhead](../products/planetary-gearboxes/12p-planetary-gearbox.md) |
+| 14P | [14 mm Micro Planetary Gearhead](../products/planetary-gearboxes/14p-planetary-gearbox.md) |
+| 16P | [16 mm Micro Planetary Gearhead](../products/planetary-gearboxes/16p-planetary-gearbox.md) |
+| 20P | [20 mm Miniature Planetary Gearhead](../products/planetary-gearboxes/20p-planetary-gearbox.md) |
+| 22P | [22 mm Miniature Planetary Gearhead](../products/planetary-gearboxes/22p-planetary-gearbox.md) |
+| 24P | [24 mm Miniature Planetary Gearhead](../products/planetary-gearboxes/24p-planetary-gearbox.md) |
+| 28P | [28 mm Miniature Planetary Gearhead](../products/planetary-gearboxes/28p-planetary-gearbox.md) |
+| 32P | [32 mm Miniature Planetary Gearhead](../products/planetary-gearboxes/32p-planetary-gearbox.md) |
+| 36P | [36 mm Compact Planetary Gearhead](../products/planetary-gearboxes/36p-planetary-gearbox.md) |
+| 42P | [42 mm Compact Planetary Gearhead](../products/planetary-gearboxes/42p-planetary-gearbox.md) |
 | 8–42 mm Series | [Series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) |
 | Micro 8–16 mm | [Micro model comparison / downloads](../products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md) |
 | Miniature 20–32 mm | [Miniature model comparison / downloads](../products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md) |
