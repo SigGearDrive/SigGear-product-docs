@@ -215,6 +215,16 @@ def check_source_hub_links() -> None:
     for target, token in generic_tokens.items():
         require(token in combined, f"Planetary hubs do not link generic target: {target}")
 
+    download_hub = (DOCS / "engineering-resources/planetary-gearboxes/public-cad-release-v1.md").read_text(
+        encoding="utf-8"
+    )
+    require("No inquiry required." in download_hub,
+            "Public PDF, 2D and STEP downloads must remain ungated")
+    require(
+        "../../request-cad-sample-quote.md?start=standard_product&path=gearbox_only" in download_hub,
+        "Published download hub is missing its optional direct engineering inquiry path",
+    )
+
 def check_catalog_application_indexing() -> None:
     """Keep 32 application pages and joint/hub products findable and model-specific."""
     application_sources = sorted(

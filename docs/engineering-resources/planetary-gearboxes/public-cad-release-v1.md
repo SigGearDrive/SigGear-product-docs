@@ -19,6 +19,8 @@ The 12 published models are public reference platforms. A custom project can sta
 [**My Existing Gearbox Is Failing**](../../custom-engineering/gearbox-failure-analysis-durability-redesign.md){ .md-button }
 [**Prototype → Volume Production**](../../custom-engineering/oem-volume-manufacturing-delivery.md){ .md-button }
 
+**Have a model in mind or need a custom version?** [**Request a sample / engineering quote**](../../request-cad-sample-quote.md?start=standard_product&path=gearbox_only){ .md-button }
+
 **Factory proof:** [Manufacturing & Quality Evidence](../../company/manufacturing-and-quality-evidence.md) · [Source-Backed Manufacturing Facts](../../company/source-backed-manufacturing-facts.md) · [Equipment & Inspection Capability](../../company/manufacturing-equipment-inspection-capability.md)
 
 **Choose by diameter:** [Micro 8–16 mm](../../products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md) · [Miniature 20–32 mm](../../products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md) · [Compact 36–42 mm](../../products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md) · [Motor-only PDFs](../motors/index.md)
