@@ -13,7 +13,7 @@ They start with a practical engineering problem:
 
 > **“Here is our drawing.”**
 
-> **“Our current gearbox keeps failing.”**
+> **“Our existing gearbox needs replacement / redesign.”**
 
 > **“We need 20 prototypes first, then thousands in production.”**
 
@@ -64,9 +64,9 @@ A simple mechanism drawing, STEP model or physical sample can be enough to begin
 [Custom Gearbox From Drawing / STEP](custom-gearbox-from-drawing-cad.md){ .md-button .md-button--primary }
 [Start Drawing / STEP Review](../request-cad-sample-quote.md?start=drawing_cad){ .md-button }
 
-## “Our Current Gearbox Keeps Failing.”
+## “Our Existing Gearbox Needs Replacement / Redesign.”
 
-If an existing transmission is wearing out, overheating, developing backlash, making abnormal noise or suffering gear / bearing damage, the review should start from the real failure evidence.
+If an existing transmission must be replaced because it is failing, discontinued or no longer fits the required ratio / output / interface, the review should start from the actual unit, interfaces and operating condition.
 
 Useful inputs include:
 
@@ -81,10 +81,10 @@ Useful inputs include:
 - available installation space
 - physical sample if available
 
-The objective is not to promise a “perfect replacement” from a photo. It is to understand **why the original unit is failing** and whether a revised transmission can be designed and manufactured around the actual operating condition.
+The objective is not to promise a “perfect replacement” from a photo. It is to identify **what must remain unchanged, what needs to change, and why the original unit no longer meets the project requirement** before evaluating a revised transmission.
 
 [Replacement Planetary Gearbox Review](replacement-planetary-gearhead.md){ .md-button .md-button--primary }
-[Start Failure / Replacement Review](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button }
+[Start Replacement / Redesign Review](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button }
 
 ## “We Need Prototypes First, Then Thousands in Production.”
 
