@@ -2,7 +2,8 @@
   var form = document.getElementById("siggear-engineering-brief");
   if (!form) return;
 
-  var validModels = ["8P","10P","12P","14P","16P","20P","22P","24P","28P","32P","36P","42P"];
+  var validModels = ["8P","10P","12P","14P","16P","20P","22P","24P","28P","32P","36P","42P",
+    "SG-6010C","SG-6010D","SG-6010HB","SG-8021","CPM-78-39","CPM-80-25","CPM-100-25","SG-2877","SG-2878"];
   var applicationPrefills = {
     electric_pruning_shears: "Electric pruning shears",
     electric_curtain_blind: "Electric curtain / blind / window opener",
@@ -99,7 +100,8 @@
       envelope: !!value("sg-size")
     };
 
-    var relevant = !!candidate || value("sg-next-step") === "CAD / STEP review";
+    var relevant = selectedPath !== "joint_actuator" && selectedPath !== "hub_gear_motor" &&
+      (!!candidate || value("sg-next-step") === "CAD / STEP review");
     var ready = relevant &&
       gates.candidate &&
       gates.motor_interface &&
@@ -254,7 +256,7 @@
       }
 
       var queryPath = (params.get("path") || "").toLowerCase().replace(/-/g, "_");
-      if (queryPath === "gearbox_only" || queryPath === "motor_gearbox" || queryPath === "not_sure") {
+      if (["gearbox_only","motor_gearbox","joint_actuator","hub_gear_motor","not_sure"].indexOf(queryPath) !== -1) {
         path.value = queryPath;
         hasContext = true;
       }
@@ -403,7 +405,7 @@
 
   function updateConditionalFields() {
     var selected = path.value;
-    existingMotorFields.hidden = selected === "motor_gearbox";
+    existingMotorFields.hidden = ["motor_gearbox","joint_actuator","hub_gear_motor"].indexOf(selected) !== -1;
     voltageField.hidden = selected === "gearbox_only";
     updateCadReadiness();
   }
@@ -436,7 +438,7 @@
       "Failure symptoms / worn parts: " + (value("sg-failure-evidence") || "Not applicable / not provided")
     );
 
-    if (selectedPath !== "motor_gearbox") {
+    if (["motor_gearbox","joint_actuator","hub_gear_motor"].indexOf(selectedPath) === -1) {
       lines.push("Existing motor model / drawing reference: " + (value("sg-motor-model") || "Not provided"));
       lines.push("Motor speed: " + (value("sg-motor-speed") || "Not provided"));
       lines.push("Motor shaft / usable length: " + (value("sg-motor-shaft") || "Not provided"));
@@ -503,6 +505,8 @@
     if (start === "existing_motor") return prefix + "Existing Motor + Custom Gearhead Review";
     if (path.value === "gearbox_only") return prefix + "Gearbox Only Engineering Review";
     if (path.value === "motor_gearbox") return prefix + "Motor + Gearbox Engineering Review";
+    if (path.value === "joint_actuator") return prefix + "Robot Joint / Cycloidal Module Engineering Review";
+    if (path.value === "hub_gear_motor") return prefix + "Hub Gear Motor Engineering Review";
     return prefix + "Custom Transmission Project Review";
   }
 
