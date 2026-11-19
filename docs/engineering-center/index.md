@@ -1,6 +1,6 @@
 ---
-title: SigGear Engineering Center | CAD, STEP, Datasheets and Design-In Resources
-description: Download SigGear motor datasheets for 10 diameters (37 PDFs), 8–42 mm planetary gearhead engineering files and robot joint actuator PDF, 2D and STEP CAD references.
+title: SigGear Engineering Center | STEP, Datasheets and Design-In Resources
+description: Download SigGear motor datasheets, 8–42 mm planetary gearbox engineering files and robot joint actuator PDF, 2D and STEP references.
 ---
 
 # SigGear Engineering Center
@@ -11,10 +11,10 @@ This Engineering Center is organized around the way an engineer normally evaluat
 
 **find a relevant model -> check the published data -> evaluate the mechanical interface -> test a sample -> freeze the configuration for design-in.**
 
-Use the public resources below for preliminary engineering evaluation. Robot actuator and gearhead engineering documents include public datasheets, STEP models, mechanical-interface references and measured test data where released. Configuration-specific production drawings, driver/firmware documentation and other controlled files are supplied according to the selected product and project stage.
+Use the public resources below for preliminary engineering evaluation. Robot actuator and planetary gearbox engineering documents include public datasheets, STEP models, mechanical-interface references and measured test data where released. Configuration-specific production drawings, driver/firmware documentation and other controlled files are supplied according to the selected product and project stage.
 
 [**Robot Joint Files · PDF / 2D / STEP**](../engineering-resources/robot-joint-actuators/quick-downloads.md){ .md-button .md-button--primary }
-[**8–42 mm Gearhead Downloads**](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
+[**8–42 mm Planetary Gearbox Downloads**](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
 [**Motor Datasheets · 37 PDFs**](../engineering-resources/motors/index.md){ .md-button }
 
 ## Start by What You Need to Do
@@ -23,23 +23,23 @@ Use the public resources below for preliminary engineering evaluation. Robot act
 | --- | --- |
 | Need custom engineering, volume manufacturing or production review | [Custom Manufacturing & Volume Production](../custom-engineering/custom-transmission-manufacturing.md) |
 | Need a custom transmission or feasibility review | [Custom Precision Transmission Engineering](../custom-engineering/index.md) |
-| Select an 8–42 mm planetary gearhead by speed, ratio and diameter | [Micro, Miniature & Compact Planetary Gearhead Selector](../selection-guides/miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder) |
-| Download model-specific 8–42 mm public STEP reference files | [12-Model Planetary Gearhead CAD Library](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) |
-| Need a custom planetary gearhead around an existing motor, size or interface | [Custom Planetary Gearhead Engineering](../custom-engineering/custom-planetary-gearbox.md) |
+| Select an 8–42 mm planetary gearbox by speed, ratio and diameter | [Micro, Miniature & Compact Planetary Gearbox Selector](../selection-guides/miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder) |
+| Download model-specific 8–42 mm public STEP reference files | [12-Model Planetary Gearbox STEP Library](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) |
+| Need a custom planetary gearbox around an existing motor, size or interface | [Custom Planetary Gearbox Engineering](../custom-engineering/custom-planetary-gearbox.md) |
 | Find a product family or model | [Browse Products](../products/index.md) |
 | Find a DC or BLDC motor Datasheet by diameter / winding code | [37 Motor Datasheets · Ø8–32 mm](../engineering-resources/motors/index.md) |
 | Find a solution by application | [Browse Applications](../applications/index.md) |
 | Estimate robot-joint requirements | [Robot Joint Actuator Selection Guide](../selection-guides/robot-joint-actuator-selection-guide.md) |
-| Download released CAD / STEP and interface data | [Robot Joint Datasheets / 2D / STEP](#robot-joint-actuator-downloads) |
+| Download released STEP and interface data | [Robot Joint Datasheets / 2D / STEP](#robot-joint-actuator-downloads) |
 | Prepare and run a sample evaluation | [Sample Validation Workflow](sample-validation-workflow.md) |
 | Prepare for a design freeze | [Design-In Checklist](design-in-checklist.md) |
 | Verify real manufacturing and inspection evidence | [Manufacturing & Quality Evidence](../company/manufacturing-and-quality-evidence.md) |
 | Review real test / metrology capability and released test records | [Testing, Metrology & Validation Evidence](testing-and-validation-evidence.md) |
-| Request configuration-specific files or a sample | [Request CAD, Sample and Quote](../request-cad-sample-quote.md) |
+| Request configuration-specific files or a sample | [Request STEP, Sample or Engineering Review](../request-cad-sample-quote.md) |
 
 ## Robot Joint Actuator Downloads
 
-**Six standard models · 6 Datasheets · 4 released reference 2D PDFs · 8 original full-assembly STEP variants.** Select the exact driver/encoder version before using CAD.
+**Six standard models · 6 Datasheets · 4 released reference 2D PDFs · 8 original full-assembly STEP variants.** Select the exact driver/encoder version before using the STEP model.
 
 <div class="siggear-joint-downloads" markdown="1">
 
@@ -56,18 +56,18 @@ Use the public resources below for preliminary engineering evaluation. Robot act
 
 **2D publication status:** These four source 2D PDFs are public *engineering references*, not approved manufacturing-controlled drawings. CPM-78-39 drawing-to-model correspondence is still awaiting sign-off. Driver versions must not be treated as dimensionally interchangeable.
 
-**Separate model — [SG-6010HB](../products/robot-joint-actuators/sg6010hb.md):** [**Download Reference Datasheet PDF**](../assets/downloads/joint-actuators/SG-6010HB_Public_Reference_Datasheet_Rev0.1.pdf) · [Mechanical Interface](../engineering-resources/sg6010hb/mechanical-interface.md) · [Request configuration-matched CAD](../request-cad-sample-quote.md). **No SG-6010HB STEP is approved for public release.**
+**Separate model — [SG-6010HB](../products/robot-joint-actuators/sg6010hb.md):** [**Download Reference Datasheet PDF**](../assets/downloads/joint-actuators/SG-6010HB_Public_Reference_Datasheet_Rev0.1.pdf) · [Mechanical Interface](../engineering-resources/sg6010hb/mechanical-interface.md) · [Request configuration-matched STEP / drawing](../request-cad-sample-quote.md). **No SG-6010HB STEP is approved for public release.**
 
 [All six joint models and simplified STEP files](../engineering-resources/robot-joint-actuators/quick-downloads.md){ .md-button }
 
-## Planetary Gearhead Engineering Files
+## Planetary Gearbox Engineering Files
 
 | Series / resource | Open or download |
 | --- | --- |
-| **Ø8–42 mm · 12 Planetary Gearhead models** | [**12-model Datasheet / 2D / STEP catalogue**](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) |
-| **Gearhead selection** | [Find a Gearhead](../selection-guides/planetary-gearhead-quick-selector.md) |
-| **Stage-specific ratios and specifications** | [Planetary Gearhead Engineering Library](../engineering-resources/planetary-gearboxes/index.md) |
-| **Original vs. simplified CAD scope** | [Public CAD reference overview](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) |
+| **Ø8–42 mm · 12 Planetary Gearbox models** | [**12-model Datasheet / 2D / STEP catalogue**](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) |
+| **Planetary gearbox selection** | [Find a Planetary Gearbox](../selection-guides/planetary-gearhead-quick-selector.md) |
+| **Stage-specific ratios and specifications** | [Planetary Gearbox Engineering Library](../engineering-resources/planetary-gearboxes/index.md) |
+| **Original vs. simplified STEP scope** | [Public STEP reference overview](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) |
 | **32P design-in** | [32P Datasheet](../engineering-resources/32p/datasheet.md) · [Mechanical Interface](../engineering-resources/32p/mechanical-interface.md) |
 
 **Measured performance:** [CPM-80-25 test points](../engineering-resources/cpm80-25/performance-test-data.md) are engineering test observations, not universal continuous-duty ratings.
