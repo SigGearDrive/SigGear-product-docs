@@ -123,7 +123,7 @@ They do **not** justify unsupported claims such as:
 
 ## 8. Public Standard Products vs Confidential Customer Programs
 
-SigGear publishes standard planetary gearheads, cycloidal reducers and robot joint actuators because engineers need real products, specifications and CAD to evaluate.
+SigGear publishes standard planetary gearboxes, cycloidal reducers and robot joint actuators because engineers need real products, specifications and STEP files to evaluate.
 
 Many custom products cannot be shown publicly because they involve:
 
@@ -141,7 +141,7 @@ The public catalog therefore shows **part of SigGear's work**, not the full scop
 A project can start from:
 
 - an existing motor
-- a customer drawing or CAD model
+- a customer drawing or STEP model
 - a failed gearbox / reducer
 - a physical sample
 - a special shaft / flange / ratio requirement
