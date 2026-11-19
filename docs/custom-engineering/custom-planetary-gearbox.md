@@ -24,6 +24,10 @@ You do **not** need to know the final reduction ratio before contacting SigGear.
 [Send Motor or Drawing for Review](../request-cad-sample-quote.md?path=gearbox_only){ .md-button }
 [Replacing / Redesigning an Existing Gearbox?](replacement-planetary-gearhead.md){ .md-button }
 
+**Public manufacturing evidence:** SigGear publishes source-backed company-level evidence for gear hobbing, gear shaping, gear grinding, CNC machining, CMM, gear inspection, dynamometer and life-test resources. [Review equipment & inspection evidence](../company/manufacturing-equipment-inspection-capability.md).
+
+**Project-specific boundary:** the final ratio, torque capability, backlash, lifetime, test plan and delivery timing still require configuration-specific engineering confirmation.
+
 ## Standard Series or Custom Engineering?
 
 If the requirement can be met by a released 8–42 mm frame size, start with the [standard planetary gearbox series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md).
