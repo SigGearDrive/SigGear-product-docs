@@ -42,7 +42,7 @@ description: "SigGear 22P (22 mm) miniature planetary gearhead/gearbox: ratio 3.
 | Maximum momentary torque range | 1569.1–4903.3 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.5° |
-| Permissible gearhead input speed, continuous operation | 1,000–20,000 rpm |
+| Permissible gearhead input speed, continuous operation | Motor/configuration dependent; confirm selected operating point |
 | Operating temperature | −40 to 120 °C |
 
 Maximum momentary torque is not a continuous working rating.
