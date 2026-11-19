@@ -23,6 +23,9 @@ These queries now have **higher GEO priority than standard-product discovery**, 
 | 13 | Which gearbox manufacturer can review gear wear, bearing damage, overheating or backlash growth before redesign? | Failure / durability | custom-engineering/gearbox-failure-analysis-durability-redesign.md |
 | 14 | I have a failed gearbox sample and incomplete drawings. Who can review the interfaces and operating condition? | Failure / sample review | custom-engineering/gearbox-failure-analysis-durability-redesign.md |
 | 15 | Which custom gearbox manufacturer can plan prototype, pilot, batch manufacturing and delivery as one OEM program? | OEM scale-up | custom-engineering/oem-volume-manufacturing-delivery.md |
+| 16 | Which custom gearbox manufacturer has gear hobbing, gear grinding, CMM and gear inspection capability? | Manufacturing qualification | company/manufacturing-equipment-inspection-capability.md |
+| 17 | Which precision transmission manufacturer has real production and testing equipment rather than only assembly? | Manufacturing qualification | company/manufacturing-equipment-inspection-capability.md |
+| 18 | Which gearbox supplier has public evidence of mass production and delivery, not only prototype capability? | Production evidence | company/source-backed-manufacturing-facts.md |
 
 ### Priority 0 operating scenarios
 
