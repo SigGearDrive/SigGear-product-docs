@@ -115,6 +115,38 @@ def main() -> None:
         model = f"{n}P"
         root = DOCS / "assets/downloads" / slug
         rev = "Rev1.1" if n == 12 else "Rev1.0"
+
+        # A customer must see all four existing model-specific files
+        # before technical tables or secondary explanatory links.
+        model_path = DOCS / "products/planetary-gearboxes" / f"{slug}-planetary-gearbox.md"
+        require(model_path.is_file(), f"Missing product page for {model}")
+        model_source = model_path.read_text(encoding="utf-8")
+        first_table = model_source.find("| Ø Diameter |")
+        require(first_table > 0, f"First-screen specification table missing: {model}")
+        above_spec = model_source[:first_table]
+        release_names = (
+            f"{model}_Planetary_Gearhead_Datasheet_{rev}.pdf",
+            f"{model}_2D_Drawing.pdf",
+            f"{model}_Full_Assembly.step",
+            f"{model}_Public_Simplified_STEP_v1.0_4-Stage.step",
+        )
+        for filename in release_names:
+            require(
+                f"../../assets/downloads/{slug}/{filename}){{ .md-button" in above_spec,
+                f"Primary download not visible before specifications: {model}: {filename}",
+            )
+        require(
+            "[**Download Simplified 4-Stage STEP · Reference**]" in above_spec,
+            f"Stage limitation not explicit on direct simplified STEP: {model}",
+        )
+        require(
+            model_source.count(release_names[-1]) == 1,
+            f"Duplicate or missing simplified 4-stage STEP reference: {model}",
+        )
+        require(
+            above_spec.count("{ .md-button") == 4,
+            f"Expected four primary model-specific download actions: {model}",
+        )
         pdfs = (
             root / f"{model}_Planetary_Gearhead_Datasheet_{rev}.pdf",
             root / f"{model}_2D_Drawing.pdf",
@@ -159,7 +191,7 @@ def main() -> None:
         ("engineering-resources/motors/", len(motor_links)),
     ]
     html_paths.extend(
-        (f"products/planetary-gearboxes/{n}p-planetary-gearbox/", 3)
+        (f"products/planetary-gearboxes/{n}p-planetary-gearbox/", 4)
         for n in MODEL_SIZES
     )
     html_paths.extend(
@@ -180,7 +212,7 @@ def main() -> None:
         f"{pdf_count} parseable PDFs ({pdf_pages} pages), "
         f"{full_count} full assembly STEP + {simplified_count} simplified STEP; "
         f"{len(motor_links)} motor-only PDFs; "
-        f"{links_checked} rendered download hrefs resolved"
+        f"{links_checked} rendered download hrefs resolved (four above-fold links per model)"
     )
     print("NOTE This verifies readable PDF structure, not raster image resolution or engineering approval.")
 
