@@ -1,6 +1,6 @@
 ---
-title: "42 mm Compact Planetary Gearhead (42P) | PDF & STEP CAD | SigGear"
-description: "SigGear 42P Ø42 mm compact planetary gearhead: ratios 3.8:1–660.7:1, rated torque 7845.3–14710.0 mN·m. Direct datasheet PDF, 2D drawing and full STEP CAD."
+title: "42 mm Compact Planetary Gearhead (42P) | PDF & STEP | SigGear"
+description: "SigGear 42P Ø42 mm compact planetary gearhead: ratios 3.8:1–660.7:1, rated torque 7845.3–14710.0 mN·m. Direct datasheet PDF, 2D drawing and full STEP."
 ---
 
 # 42 mm Compact Planetary Gearhead (42P)
@@ -14,7 +14,7 @@ description: "SigGear 42P Ø42 mm compact planetary gearhead: ratios 3.8:1–660
 | --- | --- | --- | --- | --- |
 | **42 mm** | **3.8:1–660.7:1** | **35.6–69.5 mm** | **7845.3–14710.0 mN·m** | **≤ 1.2°** |
 
-**Custom 42P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=42P&start=existing_motor&path=gearbox_only) · [Review my drawing / CAD](../../request-cad-sample-quote.md?model=42P&start=drawing_cad) · [Prototype → volume](../../request-cad-sample-quote.md?model=42P&start=prototype_to_volume)
+**Custom 42P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=42P&start=existing_motor&path=gearbox_only) · [Review my drawing / STEP](../../request-cad-sample-quote.md?model=42P&start=drawing_cad) · [Review a failing gearbox](../../request-cad-sample-quote.md?model=42P&start=failing_gearbox&path=gearbox_only) · [Prototype → volume](../../request-cad-sample-quote.md?model=42P&start=prototype_to_volume)
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/42p/datasheet.md) · [Mechanical drawing preview](../../engineering-resources/42p/mechanical-interface.md) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
@@ -80,7 +80,7 @@ The current 42P specification sheet confirms steel housing and gears, Ball Beari
 
 These are published gearhead limits. The actual application load direction, duty cycle, motor operating point and selected stage / ratio still need to be checked before final selection.
 
-## CAD Notes
+## STEP Notes
 
 The **Full Assembly STEP** is the published original Creo assembly. The **Simplified STEP** is a separate 4-stage reference for preliminary mechanical packaging. The [42P 2D outline drawing](../../assets/downloads/42p/42P_2D_Drawing.pdf) is the original **SG01PD42** interface reference. The body length **L ±0.3 mm** is configuration-dependent; confirm stage, ratio and motor mating dimensions before production.
 
