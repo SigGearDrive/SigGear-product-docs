@@ -14,6 +14,8 @@ description: "SigGear 22P (22 mm) miniature planetary gearhead/gearbox: ratio 3.
 | --- | --- | --- | --- | --- |
 | **22 mm** | **3.5:1–509.1:1** | **22.6–38.5 mm** | **784.5–2451.7 mN·m** | **≤ 1.5°** |
 
+**Custom 22P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=22P&start=existing_motor&path=gearbox_only) · [Review my drawing / CAD](../../request-cad-sample-quote.md?model=22P&start=drawing_cad) · [Prototype → volume](../../request-cad-sample-quote.md?model=22P&start=prototype_to_volume)
+
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/22p/datasheet.md) · [Mechanical drawing preview](../../engineering-resources/22p/mechanical-interface.md) · [Motor-only datasheets](../../engineering-resources/motors/index.md#22-mm-dc-motors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
 ![Real SigGear 22P 22 mm miniature planetary gearhead with diameter check](../../assets/images/products/planetary-gearboxes/22p/22p-real-product-evidence.webp){ width="260" loading="lazy" }

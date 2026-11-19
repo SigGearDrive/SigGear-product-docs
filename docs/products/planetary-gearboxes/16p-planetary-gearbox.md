@@ -14,6 +14,8 @@ description: "SigGear 16P Ø16 mm micro planetary gearhead/gearbox: 3.85:1–459
 | --- | --- | --- | --- | --- |
 | **16 mm** | **3.85:1–459.5:1** | **17.55–30.45 mm** | **392.3–882.6 mN·m** | **≤ 1.5°** |
 
+**Custom 16P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=16P&start=existing_motor&path=gearbox_only) · [Review my drawing / CAD](../../request-cad-sample-quote.md?model=16P&start=drawing_cad) · [Prototype → volume](../../request-cad-sample-quote.md?model=16P&start=prototype_to_volume)
+
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/16p/datasheet.md) · [Mechanical drawing preview](../../assets/images/products/planetary-gearboxes/16p/16p-planetary-gearbox-dimensions.webp) · [Motor-only datasheets](../../engineering-resources/motors/index.md#16-mm-dc-motors) · [Compare Micro 8–16 mm](micro-planetary-gearheads-8-16mm.md) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
 ![SigGear 16P 16 mm micro planetary gearhead](../../assets/images/products/planetary-gearboxes/16p/16p-planetary-gearbox-main.webp){ width="260" loading="lazy" }
