@@ -1,9 +1,9 @@
 ---
-title: "Precision Instrument Miniature Motors & Gearheads | SigGear"
-description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + gearhead assemblies for precision instruments, filter wheels and micro stages. Compare real models, PDF datasheets, 2D and STEP."
+title: "Filter Wheel & Optical Stage Micro Gearheads | SigGear"
+description: "Compare SigGear 8P, 10P and 12P micro planetary gearheads for optical filter wheels and miniature indexing stages. Check reversal backlash and settling; PDF/2D/STEP downloads."
 ---
 
-# Precision Instrument Miniature Motors & Gearheads
+# Filter Wheel & Optical Stage Micro Gearheads
 
 **SigGear is an OEM supplier of DC/BLDC motors, precision planetary gearheads (Ø8–42 mm), and motor + gearhead assemblies.**
 
@@ -11,11 +11,11 @@ description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + g
 [**Gearheads · PDF / 2D / STEP**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
 [**Motor + Gearhead Assemblies**](../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
-**Application:** Filter wheels and optical stages often need compact indexing and repeatable low-speed steps, with backlash limits set by the instrument.
+**Application:** A filter wheel indexes between discrete positions; an optical stage may reverse frequently for fine adjustments. Output backlash, detent behavior and settling error must be checked in the complete mechanism.
 
-**Engineering checks:** indexing repeatability and backlash; small shaft loads and package length; low vibration and feedback resolution.
+**Engineering checks:** Specify indexed angle or linear step, allowed lost motion on reversal, feedback reference, vibration settling time, shaft load and available instrument envelope.
 
-## Relevant Gearhead Models & Direct Downloads
+## Filter Wheel & Optical Stage Gearheads — PDF, 2D & STEP
 
 | Size / model | Datasheet PDF | 2D drawing | Full STEP |
 | --- | --- | --- | --- |
@@ -24,5 +24,7 @@ description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + g
 | [12P · Ø12 mm](../products/planetary-gearboxes/12p-planetary-gearbox.md) | [PDF](../assets/downloads/12p/12P_Planetary_Gearhead_Datasheet_Rev1.1.pdf) | [2D](../assets/downloads/12p/12P_2D_Drawing.pdf) | [STEP](../assets/downloads/12p/12P_Full_Assembly.step) |
 
 *The models above are initial size comparisons, not qualified application matches. Rated torque and length depend on the selected stage/ratio; check the model datasheet and mechanical interface. Instrument-grade precision requires assembled-system testing.*
+
+**Different optical mechanism:** [Camera focus and zoom drives](optical-imaging-camera-module-gear-motors.md) add lens-barrel constraints and may favor direct drive.
 
 [**Find a Gearhead by Speed / Torque**](../selection-guides/planetary-gearhead-quick-selector.md) · [**All 12 Model Downloads**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [**Contact SigGear**](../request-cad-sample-quote.md)
