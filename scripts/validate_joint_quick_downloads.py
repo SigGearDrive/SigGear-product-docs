@@ -47,6 +47,15 @@ SIMPLIFIED = {
     "CPM-80-25 DRIVER": "cpm80-25/CPM-80-25_Public_Simplified_STEP_v1.0_Integrated_Driver.step",
 }
 
+DRAWINGS = {
+    "SG-6010D": ["SG-6010D_2D_Assembly_Drawing.pdf"],
+    "CPM-80-25": [
+        "CPM-80-25_2D_No_Driver_29p7mm.pdf",
+        "CPM-80-25_2D_Integrated_Driver_41p2mm.pdf",
+    ],
+    "CPM-100-25": ["CPM-100-25D_2D_Dual_Encoder_Driver_48mm.pdf"],
+}
+
 class LinkCollector(HTMLParser):
     def __init__(self) -> None:
         super().__init__()
@@ -91,8 +100,8 @@ def main() -> None:
     if not first_table:
         raise ValueError("No first-screen joint download matrix")
     th_count = len(re.findall(r"<th\b",first_table.group(1),re.I))
-    if th_count != 3:
-        raise ValueError("Expected compact three-column download matrix; got " + str(th_count))
+    if th_count != 4:
+        raise ValueError("Expected four-column download matrix (specs, datasheet, 2D, STEP); got " + str(th_count))
     before_fold = article.split("<details",1)[0]
     if "Original Full STEP" not in before_fold:
         raise ValueError("Full STEP must be visible before optional detail panel")
@@ -111,6 +120,11 @@ def main() -> None:
             asset(model,relative_file,hub_links)
             asset(model,relative_file,page_links)
             asset(model,relative_file,links(before_fold,HUB))
+        for filename in DRAWINGS.get(model, []):
+            relative_file = "joint-actuators/" + filename
+            asset(model, relative_file, hub_links)
+            asset(model, relative_file, page_links)
+            asset(model, relative_file, links(before_fold, HUB))
         body = html.split("<article",1)[-1]
         pdf_pos = body.index(pdf) if pdf in body else -1
         image_pos = body.find("siggear-joint-media")
@@ -123,7 +137,9 @@ def main() -> None:
         asset(label,relative,hub_links)
     if "No downloadable STEP is currently approved" in hub:
         raise ValueError("Download hub incorrectly lists released CAD as unavailable")
-    print("PASS six model product pages, three-column hub, six PDFs, eight original and three simplified CAD links")
+    if "SG2368B cross-reference pending" not in hub or "SG-6010HB" in hub:
+        raise ValueError("Unverified model-code drawing or SG-6010HB must not be presented as released")
+    print("PASS six product pages, four-column hub, six reference datasheets, four source 2D PDFs, eight full STEP and three simplified CAD links")
 
 if __name__ == "__main__":
     main()
