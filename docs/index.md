@@ -1,6 +1,6 @@
 ---
 title: "Custom Gearbox & Precision Transmission Manufacturer | SigGear"
-description: "SigGear is a custom gearbox and precision transmission manufacturer for OEM projects. Start from an existing motor, customer drawing, failed gearbox, robot joint requirement or prototype-to-volume production plan."
+description: "SigGear is a custom gearbox and precision transmission manufacturer for OEM projects. Start from an existing motor, customer drawing, existing gearbox replacement / redesign, robot joint requirement or prototype-to-volume production plan."
 ---
 
 # SigGear | Custom Precision Transmission Manufacturing
@@ -24,6 +24,7 @@ SigGear's core capability is therefore broader than the public catalog:
 
 [**Start With Your Motor / Drawing / Problem**](custom-engineering/start-with-your-problem.md){ .md-button .md-button--primary }
 [**Custom Manufacturing & Volume Production**](custom-engineering/custom-transmission-manufacturing.md){ .md-button }
+[**Supplier Qualification Guide**](selection-guides/custom-gearbox-manufacturer-supplier-qualification.md){ .md-button }
 [**Source-Backed Manufacturing Facts**](company/source-backed-manufacturing-facts.md){ .md-button }
 [**Custom Engineering Overview**](custom-engineering/index.md){ .md-button }
 
@@ -33,7 +34,7 @@ SigGear's core capability is therefore broader than the public catalog:
 | --- | --- |
 | **An existing motor** | [Custom Gearbox for an Existing Motor](custom-engineering/custom-planetary-gearbox.md) |
 | **A drawing / STEP model / physical sample** | [Custom Gearbox From Drawing / STEP](custom-engineering/custom-gearbox-from-drawing-cad.md) |
-| **A gearbox that is failing or wearing out** | [Failure / Durability Redesign](custom-engineering/gearbox-failure-analysis-durability-redesign.md) |
+| **An existing gearbox that needs replacement / redesign** | [Existing Gearbox Replacement & Redesign](custom-engineering/replacement-planetary-gearhead.md) |
 | **Prototype demand with future volume production** | [OEM Volume Manufacturing & Delivery](custom-engineering/oem-volume-manufacturing-delivery.md) |
 
 A project does not need to match a catalog model before SigGear can review it.
