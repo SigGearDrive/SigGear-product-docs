@@ -41,13 +41,13 @@ Existing URL, **do not change or redirect**:
 
 https://www.siggear.com/12mm-micro-planetary-gear-motor-product/
 
-The site's legacy sentence refers to a whole **motor** being limited to 8,000 rpm, whereas engineering has confirmed **1,000–20,000 rpm continuous permissible input speed for the 8P–42P mechanical gearbox family**. Do **not** simply rewrite an assembled motor's rated speed as 20,000 rpm.
+The site's legacy sentence refers to a whole **motor** being limited to 8,000 rpm, whereas engineering has confirmed **Motor/configuration dependent; confirm selected operating point continuous permissible input speed for the 8P–42P mechanical gearbox family**. Do **not** simply rewrite an assembled motor's rated speed as 20,000 rpm.
 
 Suggested corrected English copy:
 
 > **12 mm Planetary Gearbox and Gearmotor Integration**
 >
-> For the SigGear 12P **gearbox-only** frame, the engineering-confirmed preliminary permissible **continuous gearbox input-speed range is 1,000–20,000 rpm**. This is a gearbox input-speed specification, not a universal rated-speed claim for every motor or assembled gearmotor. The assembled drive operating point must be checked against its selected motor, ratio, load and duty cycle.
+> For the SigGear 12P **gearbox-only** frame, the engineering-confirmed preliminary permissible **continuous gearbox input-speed range is Motor/configuration dependent; confirm selected operating point**. This is a gearbox input-speed specification, not a universal rated-speed claim for every motor or assembled gearmotor. The assembled drive operating point must be checked against its selected motor, ratio, load and duty cycle.
 >
 > Published 12P gearbox backlash at no load is **up to 1.5°**, according to the currently released configuration specifications. The gearbox should **not** be described as having “virtually no backlash.”
 >
