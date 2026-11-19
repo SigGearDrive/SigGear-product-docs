@@ -1,6 +1,6 @@
 ---
 title: SigGear Engineering Center | CAD, STEP, Datasheets and Design-In Resources
-description: Download SigGear robot joint actuator datasheets, 2D reference PDFs and original assembly STEP CAD; access 8–42 mm planetary gearhead engineering files and evaluation guides.
+description: Download SigGear motor datasheets for 10 diameters (37 PDFs), 8–42 mm planetary gearhead engineering files and robot joint actuator PDF, 2D and STEP CAD references.
 ---
 
 # SigGear Engineering Center
@@ -15,6 +15,7 @@ Use the public resources below for preliminary engineering evaluation. Robot act
 
 [**Robot Joint Files · PDF / 2D / STEP**](../engineering-resources/robot-joint-actuators/quick-downloads.md){ .md-button .md-button--primary }
 [**8–42 mm Gearhead Downloads**](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
+[**Motor Datasheets · 37 PDFs**](../engineering-resources/motors/index.md){ .md-button }
 
 ## Start by What You Need to Do
 
@@ -26,6 +27,7 @@ Use the public resources below for preliminary engineering evaluation. Robot act
 | Download model-specific 8–42 mm public STEP reference files | [12-Model Planetary Gearhead CAD Library](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) |
 | Need a custom planetary gearhead around an existing motor, size or interface | [Custom Planetary Gearhead Engineering](../custom-engineering/custom-planetary-gearbox.md) |
 | Find a product family or model | [Browse Products](../products/index.md) |
+| Find a DC or BLDC motor Datasheet by diameter / winding code | [37 Motor Datasheets · Ø8–32 mm](../engineering-resources/motors/index.md) |
 | Find a solution by application | [Browse Applications](../applications/index.md) |
 | Estimate robot-joint requirements | [Robot Joint Actuator Selection Guide](../selection-guides/robot-joint-actuator-selection-guide.md) |
 | Download released CAD / STEP and interface data | [Robot Joint Datasheets / 2D / STEP](#robot-joint-actuator-downloads) |
@@ -69,6 +71,27 @@ Use the public resources below for preliminary engineering evaluation. Robot act
 | **32P design-in** | [32P Datasheet](../engineering-resources/32p/datasheet.md) · [Mechanical Interface](../engineering-resources/32p/mechanical-interface.md) |
 
 **Measured performance:** [CPM-80-25 test points](../engineering-resources/cpm80-25/performance-test-data.md) are engineering test observations, not universal continuous-duty ratings.
+
+## Motor Datasheets by Diameter
+
+**37 published DC / BLDC motor PDFs across 10 diameter groups.** Choose a diameter to open that group in the [searchable Motor Datasheet library](../engineering-resources/motors/index.md). Every PDF in that library is a direct download, without login or a request form.
+
+| Motor diameter | Published source family | Find matching motor PDFs |
+| --- | --- | --- |
+| **Ø8 mm** | DC micromotors | [8 mm motor PDFs](../engineering-resources/motors/index.md#8-mm-dc-micromotors) |
+| **Ø10 mm** | DC motors | [10 mm motor PDFs](../engineering-resources/motors/index.md#10-mm-dc-motors) |
+| **Ø12 mm** | Coreless BLDC | [12 mm motor PDF](../engineering-resources/motors/index.md#12-mm-coreless-bldc-motor) |
+| **Ø14 mm** | DC motors | [14 mm motor PDFs](../engineering-resources/motors/index.md#14-mm-dc-motors) |
+| **Ø16 mm** | DC motors | [16 mm motor PDFs](../engineering-resources/motors/index.md#16-mm-dc-motors) |
+| **Ø20 mm** | DC / BLDC motors | [20 mm motor PDFs](../engineering-resources/motors/index.md#20-mm-bldc-motor) |
+| **Ø22 mm** | DC motors | [22 mm motor PDFs](../engineering-resources/motors/index.md#22-mm-dc-motors) |
+| **Ø24 mm** | DC / BLDC motors | [24 mm motor PDFs](../engineering-resources/motors/index.md#24-mm-bldc-motor) |
+| **Ø28 mm** | DC motors | [28 mm motor PDFs](../engineering-resources/motors/index.md#28-mm-dc-motors) |
+| **Ø32 mm** | DC motors | [32 mm motor PDFs](../engineering-resources/motors/index.md#32-mm-dc-motors) |
+
+**Release status matters:** Some motor PDFs are marked **Draft / source review** and have low-resolution or conflicting source drawings. See the status beside each PDF in the library. Motor-only parameters do **not** establish a verified Motor + Gearhead Assembly: shaft, pinion, speed, ratio, thermal duty and mounting compatibility still require engineering confirmation.
+
+[**Match an Existing Motor to a Gearhead**](../request-cad-sample-quote.md?start=existing_motor&path=gearbox_only){ .md-button }
 
 ## Public vs. Configuration-Specific Documentation
 
