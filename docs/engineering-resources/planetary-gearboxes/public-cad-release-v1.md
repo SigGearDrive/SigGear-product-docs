@@ -10,6 +10,15 @@ description: Download all 12 SigGear planetary gearbox PDF datasheets, original 
 [**Quick Ratio & Torque Selector**](../../selection-guides/planetary-gearhead-quick-selector.md){ .md-button }
 [**Motor + Gearbox Assemblies**](../../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
+## If the Standard STEP Does Not Fit Your Project
+
+The 12 published models are public reference platforms. A custom project can start from the real constraint instead of forcing the mechanism to fit a standard model.
+
+[**I Already Have a Motor**](../../custom-engineering/custom-planetary-gearbox.md){ .md-button .md-button--primary }
+[**I Have a Drawing / STEP**](../../custom-engineering/custom-gearbox-from-drawing-cad.md){ .md-button }
+[**My Existing Gearbox Is Failing**](../../custom-engineering/gearbox-failure-analysis-durability-redesign.md){ .md-button }
+[**Prototype → Volume Production**](../../custom-engineering/oem-volume-manufacturing-delivery.md){ .md-button }
+
 **Choose by diameter:** [Micro 8–16 mm](../../products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md) · [Miniature 20–32 mm](../../products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md) · [Compact 36–42 mm](../../products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md) · [Motor-only PDFs](../motors/index.md)
 
 **Jump to model:** [8P](#8p-downloads) · [10P](#10p-downloads) · [12P](#12p-downloads) · [14P](#14p-downloads) · [16P](#16p-downloads) · [20P](#20p-downloads) · [22P](#22p-downloads) · [24P](#24p-downloads) · [28P](#28p-downloads) · [32P](#32p-downloads) · [36P](#36p-downloads) · [42P](#42p-downloads)
