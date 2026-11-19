@@ -16,6 +16,7 @@
   var prefilledApplicationType = "not_specified";
   var model = document.getElementById("sg-model");
   var path = document.getElementById("sg-path");
+  var startingPoint = document.getElementById("sg-starting-point");
   var existingMotorFields = document.getElementById("sg-existing-motor-fields");
   var voltageField = document.getElementById("sg-voltage-field");
   var copyButton = document.getElementById("sg-copy-brief");
@@ -203,6 +204,8 @@
       cad_gate_load_duty: readiness.gates.load_duty ? 1 : 0,
       cad_gate_envelope: readiness.gates.envelope ? 1 : 0,
       project_stage: value("sg-project-stage") || "not_specified",
+      starting_point: value("sg-starting-point") || "not_specified",
+      confidentiality: value("sg-confidentiality") || "not_specified",
       discovery_source: value("sg-discovery-source") || "not_specified",
       requested_next_step: value("sg-next-step") || "not_specified",
       field_coverage_count: coverage,
@@ -214,6 +217,7 @@
       has_size_limit: value("sg-size") ? 1 : 0,
       has_motor_or_voltage_info: hasMotorInfo ? 1 : 0,
       has_quantity_info: (value("sg-prototype-qty") || value("sg-annual-volume")) ? 1 : 0,
+      has_target_schedule: value("sg-target-schedule") ? 1 : 0,
       has_company_country: value("sg-company-country") ? 1 : 0
     };
   }
@@ -251,6 +255,13 @@
       var queryPath = (params.get("path") || "").toLowerCase().replace(/-/g, "_");
       if (queryPath === "gearbox_only" || queryPath === "motor_gearbox" || queryPath === "not_sure") {
         path.value = queryPath;
+        hasContext = true;
+      }
+
+      var queryStart = (params.get("start") || "").toLowerCase().replace(/-/g, "_");
+      var validStartingPoints = ["existing_motor","drawing_cad","failing_gearbox","prototype_to_volume","standard_product"];
+      if (startingPoint && validStartingPoints.indexOf(queryStart) !== -1) {
+        startingPoint.value = queryStart;
         hasContext = true;
       }
 
@@ -392,8 +403,9 @@
   function buildBrief() {
     var selectedPath = path.value;
     var lines = [
-      "SigGear Planetary Gearbox Project Brief",
+      "SigGear Custom Transmission Project Brief",
       "",
+      "Starting point: " + (selectedText("sg-starting-point") || "Not specified"),
       "Model reference: " + (value("sg-model") || "Not sure yet")
     ];
 
@@ -437,6 +449,8 @@
     lines.push("How they first found SigGear: " + (selectedText("sg-discovery-source") || "Not specified"));
     lines.push("Prototype quantity: " + (value("sg-prototype-qty") || "Not provided"));
     lines.push("Estimated annual volume: " + (value("sg-annual-volume") || "Not provided"));
+    lines.push("Target schedule: " + (value("sg-target-schedule") || "Not provided"));
+    lines.push("Confidentiality / NDA: " + (selectedText("sg-confidentiality") || "Not specified"));
     lines.push("Company / country: " + (value("sg-company-country") || "Not provided"));
     if (value("sg-contact-name")) lines.push("Contact name: " + value("sg-contact-name"));
     if (value("sg-contact-email")) lines.push("Contact email: " + value("sg-contact-email"));
@@ -473,9 +487,14 @@
       subjectParts.push(applicationPrefills[prefilledApplicationType]);
     }
     var prefix = subjectParts.length ? subjectParts.join(" - ") + " - " : "";
+    var start = value("sg-starting-point");
+    if (start === "failing_gearbox") return prefix + "Existing Gearbox Failure / Replacement Review";
+    if (start === "drawing_cad") return prefix + "Drawing / CAD Custom Transmission Review";
+    if (start === "prototype_to_volume") return prefix + "Prototype to Volume Production Review";
+    if (start === "existing_motor") return prefix + "Existing Motor + Custom Gearhead Review";
     if (path.value === "gearbox_only") return prefix + "Gearbox Only Engineering Review";
     if (path.value === "motor_gearbox") return prefix + "Motor + Gearbox Engineering Review";
-    return prefix + "Planetary Gearbox Project Review";
+    return prefix + "Custom Transmission Project Review";
   }
 
   async function copyBrief() {
