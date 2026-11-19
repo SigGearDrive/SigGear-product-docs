@@ -10,11 +10,11 @@ description: Public CPM-78-39 engineering reference with controlled-drawing-back
 
 CPM-78-39 is a compact 39:1 cycloidal robot joint module with 20 Nm rated output torque and 48 rpm rated output speed.
 
-The values below have been reconciled against the current public product record and a SigGear controlled mechanical drawing supplied for engineering review.
+The specifications below reproduce the published catalogue reference. A supplied source drawing labelled **SG2368B** matches the nominal size and ratio, but the SG2368B-to-CPM-78-39 model-code relationship still requires engineering confirmation.
 
 ## Key Performance
 
-| Parameter | Controlled value |
+| Parameter | Published reference value |
 | --- | --- |
 | Transmission structure | Cycloidal pinwheel |
 | Outer diameter | 78.7 mm |
@@ -34,7 +34,7 @@ The values below have been reconciled against the current public product record 
 
 ## Motor Electrical Parameters
 
-| Parameter | Controlled value |
+| Parameter | Published reference value |
 | --- | --- |
 | Phase resistance | 0.225 ohm |
 | Phase inductance | 425 uH |
@@ -59,7 +59,7 @@ A separate uploaded laboratory report is titled as a backlash test but reports r
 
 ## CAD and Drawings
 
-A controlled 2D drawing is available for engineering review.
+The 2D source drawing is identified as **SG2368B**, not CPM-78-39. Until its configuration mapping is approved, it cannot be published as the CPM-78-39 mounting or manufacturing drawing.
 
 [**Download CPM-78-39 Original Full Assembly STEP**](../../assets/downloads/joint-actuators/CPM-78-39_Original_Full_Assembly_20261118.step){ .md-button .md-button--primary }
 
