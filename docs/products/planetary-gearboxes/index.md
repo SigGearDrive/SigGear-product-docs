@@ -5,7 +5,10 @@ description: Explore SigGear 8–42 mm precision planetary gearheads in 12 Micro
 
 # Precision Planetary Gearheads
 
-**Choose a size, inspect rated torque and download original engineering files.**
+**These 8–42 mm gearheads are public reference platforms.** Choose a size, inspect rated torque and download original engineering files. If the project requires a different ratio, shaft, motor interface, flange, housing or production configuration, SigGear can review a custom gearhead rather than limiting the project to the standard catalogue.
+
+[**Custom Manufacturing & Volume Production**](../../custom-engineering/custom-transmission-manufacturing.md){ .md-button .md-button--primary }
+[**Custom Planetary Gearhead Engineering**](../../custom-engineering/custom-planetary-gearbox.md){ .md-button }
 
 | Gearhead series | Sizes | Select and download |
 | --- | --- | --- |
