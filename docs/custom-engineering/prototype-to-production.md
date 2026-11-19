@@ -1,9 +1,9 @@
 ---
-title: Prototype to Production for Custom Gearboxes | SigGear
-description: A practical path from custom gearbox feasibility and prototype testing through design refinement, Design-In, pilot preparation and production release.
+title: Custom Transmission Prototype to Volume Production | SigGear
+description: How SigGear moves custom transmission projects from feasibility and prototype testing through design refinement, design freeze, pilot preparation, repeatable volume manufacturing and production release.
 ---
 
-# Prototype to Design-In and Production
+# Custom Transmission: Prototype to Volume Production
 
 ## A Custom Transmission Project Is Not Finished When the First Sample Moves
 
@@ -13,7 +13,7 @@ For an engineering team, the first prototype answers only one question:
 
 A production-ready configuration requires more than a successful first sample. The motor, gearbox, ratio, mechanical interface, operating point, materials, driver / encoder configuration where applicable, drawings and inspection requirements need to converge into a controlled configuration that can be manufactured repeatedly.
 
-SigGear works with engineers through this development path for applicable compact transmission projects.
+SigGear works with engineers through this development path for applicable compact transmission projects. The objective is not only to produce a functional sample, but to develop a controlled configuration that can move into repeatable manufacturing when the project reaches production.
 
 [Discuss Your Project](../request-cad-sample-quote.md){ .md-button .md-button--primary }
 [Send Your Drawing or Requirement](mailto:wangwanrong@siggear.com?subject=Prototype%20to%20Production%20Transmission%20Project){ .md-button }
@@ -264,6 +264,22 @@ Depending on the platform and engineering feasibility, development may include r
 | Operating target | torque, speed, backlash, duty cycle and thermal condition |
 
 Not every parameter can be changed independently, and not every requested change is feasible on every product platform.
+
+## The Goal Is Repeatable Production, Not Only a Working Sample
+
+For customer programs that progress beyond prototype validation, the engineering work must connect to manufacturing:
+
+- controlled configuration and drawing revision
+- repeatable component manufacturing
+- assembly process definition
+- inspection requirements
+- pilot build preparation
+- production scheduling
+- batch delivery planning
+
+Production capacity and lead time are project-specific, but SigGear's manufacturing role is intended to support the transition from custom engineering into repeat production rather than stopping at a one-off prototype.
+
+[Custom Manufacturing & Volume Production](custom-transmission-manufacturing.md){ .md-button .md-button--primary }
 
 ## Existing Platforms Can Shorten the Development Path
 
