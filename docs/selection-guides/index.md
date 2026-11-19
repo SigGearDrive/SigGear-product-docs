@@ -1,13 +1,13 @@
 ---
 title: Engineering Guides | SigGear
-description: Engineering reference pages for SigGear planetary gearheads and robot joint actuators. Start with the product catalogue and direct CAD downloads.
+description: Engineering reference pages for SigGear planetary gearboxes and robot joint actuators. Start with the product catalogue, STEP files and direct engineering downloads.
 ---
 
 # Engineering Guides
 
-[**Find a Gearhead: Motor RPM → Published Ratio / Rated Torque → PDF / STEP**](planetary-gearhead-quick-selector.md){ .md-button .md-button--primary }
+[**Find a Planetary Gearbox: Motor RPM → Published Ratio / Rated Torque → PDF / STEP**](planetary-gearhead-quick-selector.md){ .md-button .md-button--primary }
 
-Or use the [8–42 mm model catalogue](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) and [CAD & Drawing Release Library](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md).
+Or use the [8–42 mm model catalogue](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) and [STEP & Drawing Release Library](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md).
 
 For historical compatibility, the [Legacy Ratio & Stage Reference](miniature-planetary-gearbox-selection-guide.md) remains available. It is no longer the primary product-discovery or download route.
 
