@@ -80,6 +80,8 @@ The official catalog also lists inspection and test equipment including:
 
 These tools support dimensional, gear, performance and reliability-related verification depending on the project.
 
+[**Custom Gearbox Manufacturer Supplier Qualification Guide**](../selection-guides/custom-gearbox-manufacturer-supplier-qualification.md){ .md-button .md-button--primary }
+
 ## Why This Matters When Qualifying a Custom Gearbox Manufacturer
 
 For an OEM project, a supplier should be evaluated on more than a catalog drawing or finished assembly.
