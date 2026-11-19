@@ -40,7 +40,7 @@ description: "SigGear 28P (28 mm) miniature planetary gearhead/gearbox: ratio 3.
 | Maximum momentary torque range | 3922.7–9806.6 mN·m |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.2° |
-| Permissible gearhead input speed, continuous operation | 1,000–20,000 rpm |
+| Permissible gearhead input speed, continuous operation | Motor/configuration dependent; confirm selected operating point |
 | Adapted DC motor voltage | 3–36 VDC |
 | Adapted DC motor power | below 30 W |
 
