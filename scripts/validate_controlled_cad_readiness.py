@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate public Controlled CAD review readiness wiring."""
+"""Validate public STEP / drawing review readiness wiring."""
 
 from pathlib import Path
 
@@ -33,22 +33,22 @@ def main() -> None:
 
     for element_id in FORM_IDS:
         if f'id="{element_id}"' not in form:
-            raise ValueError(f"Project Brief is missing required CAD-readiness element: {element_id}")
+            raise ValueError(f"Project Brief is missing required STEP/drawing-readiness element: {element_id}")
 
     if '"ready_for_cad_review"' not in inquiry or '"need_more_information"' not in inquiry:
-        raise ValueError("Inquiry form must preserve normalized CAD-readiness statuses.")
+        raise ValueError("Inquiry form must preserve normalized STEP/drawing-readiness statuses.")
 
     for token in GATE_TOKENS:
         if token not in inquiry:
-            raise ValueError(f"Inquiry form is missing CAD-readiness gate token: {token}")
+            raise ValueError(f"Inquiry form is missing STEP/drawing-readiness gate token: {token}")
 
     if "next_step=cad_review" not in pack:
-        raise ValueError("Candidate Design-In Pack must prefill the Project Brief for CAD review.")
+        raise ValueError("Candidate Design-In Pack must prefill the Project Brief for STEP/drawing review.")
 
-    if "controlled CAD has been approved or released" not in form:
-        raise ValueError("Project Brief must preserve the boundary between review readiness and CAD approval/release.")
+    if "a controlled production model or drawing has been approved or released" not in form:
+        raise ValueError("Project Brief must preserve the boundary between review readiness and final production-file approval.")
 
-    print("Controlled CAD request readiness wiring validated.")
+    print("STEP / drawing review readiness wiring validated.")
 
 
 if __name__ == "__main__":
