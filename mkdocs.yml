@@ -188,6 +188,7 @@ nav:
       - Certifications: company/certifications.md
   - Custom Engineering:
       - Overview: custom-engineering/index.md
+      - Start With Your Motor / Drawing / Problem: custom-engineering/start-with-your-problem.md
       - Custom Manufacturing & Volume Production: custom-engineering/custom-transmission-manufacturing.md
       - Custom Planetary Gearhead: custom-engineering/custom-planetary-gearbox.md
       - Replacement Planetary Gearhead: custom-engineering/replacement-planetary-gearhead.md
