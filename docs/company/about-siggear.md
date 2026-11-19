@@ -25,6 +25,7 @@ The commercial website and the public engineering documentation serve different 
 SigGear's core work is not limited to selling catalog products. The company supports projects that require a transmission to be engineered around the customer's motor, mechanism, interface, size, ratio, output structure or production requirement.
 
 [Custom Manufacturing & Volume Production](../custom-engineering/custom-transmission-manufacturing.md){ .md-button .md-button--primary }
+[Source-Backed Manufacturing Facts](source-backed-manufacturing-facts.md){ .md-button }
 [Custom Precision Transmission Engineering](../custom-engineering/index.md){ .md-button }
 
 ## Public Product Categories
