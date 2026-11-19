@@ -18,6 +18,8 @@
       "Custom gearbox manufacturing",
       "Custom planetary gearhead manufacturing",
       "Customer drawing and CAD transmission development",
+      "Gearbox failure review and durability redesign",
+      "OEM volume manufacturing and delivery planning",
       "OEM and ODM transmission development",
       "Volume manufacturing of custom transmission assemblies",
       "Prototype-to-production engineering"
