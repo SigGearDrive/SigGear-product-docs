@@ -37,6 +37,21 @@ The inspection scene shows real measurement and inspection activity in the SigGe
 
 A photograph of an inspection workstation is evidence that inspection activity takes place; it is **not** a substitute for a model-specific inspection report, tolerance, accuracy statement or test result.
 
+## Official Company Sources
+
+The real factory photographs on this page are supported by separate official company sources that document SigGear's broader manufacturing scope.
+
+Current public sources include:
+
+- a November 2025 company profile stating a standalone factory of **over 20,000 m²**
+- a September 2025 announcement for the **20,000 m² new production base**
+- the 2025 product catalog describing a custom-development path from engineering and samples through **mass production and delivery**
+- a company-news report stating **Q1 2025 shipments exceeded 550,000 units**
+
+For source links, date context and interpretation boundaries:
+
+[Source-Backed Manufacturing Facts](source-backed-manufacturing-facts.md){ .md-button .md-button--primary }
+
 ## How This Manufacturing Evidence Relates to Custom and Volume Programs
 
 The purpose of publishing these real production scenes is not only to show that SigGear can make standard catalog parts.
