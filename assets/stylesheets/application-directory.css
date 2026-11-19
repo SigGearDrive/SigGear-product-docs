@@ -1,0 +1,40 @@
+/* Compact application discovery; real downloadable files remain on each target page. */
+.md-typeset .siggear-app-directory h2 {
+  font-size: 1.02rem;
+  margin: .85rem 0 .35rem;
+}
+.md-typeset .siggear-app-directory ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .3rem .45rem;
+  padding: 0;
+  margin: .2rem 0 .7rem;
+  list-style: none;
+}
+.md-typeset .siggear-app-directory li {
+  display: block;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.md-typeset .siggear-app-directory li > a {
+  display: block;
+  padding: .48rem .62rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: .3rem;
+  color: var(--md-typeset-a-color);
+  background: var(--md-code-bg-color);
+  font-size: .84rem;
+  line-height: 1.4;
+  text-decoration: none;
+}
+.md-typeset .siggear-app-directory li > a:hover,
+.md-typeset .siggear-app-directory li > a:focus-visible {
+  border-color: var(--md-accent-fg-color);
+  text-decoration: underline;
+  outline-offset: 2px;
+}
+@media (max-width: 42rem) {
+  .md-typeset .siggear-app-directory ul { grid-template-columns: 1fr; }
+}
