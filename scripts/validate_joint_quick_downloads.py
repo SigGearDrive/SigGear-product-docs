@@ -56,6 +56,18 @@ DRAWINGS = {
     "CPM-100-25": ["CPM-100-25D_2D_Dual_Encoder_Driver_48mm.pdf"],
 }
 
+MODEL_SIMPLIFIED = {
+    "SG-6010C": ["sg6010c/SG-6010C_Public_Simplified_STEP_v1.0.step"],
+    "CPM-80-25": [
+        "cpm80-25/CPM-80-25_Public_Simplified_STEP_v1.0_No_Driver.step",
+        "cpm80-25/CPM-80-25_Public_Simplified_STEP_v1.0_Integrated_Driver.step",
+    ],
+}
+MANIFEST_ROWS = {
+    "SG-6010C": 4, "SG-6010D": 3, "SG-8021": 3,
+    "CPM-78-39": 3, "CPM-80-25": 7, "CPM-100-25": 5,
+}
+
 class LinkCollector(HTMLParser):
     def __init__(self) -> None:
         super().__init__()
@@ -128,6 +140,43 @@ def main() -> None:
             asset(model, relative_file, page_links)
             asset(model, relative_file, links(before_fold, HUB))
         body = html.split("<article",1)[-1]
+        # The model-level file manifest must come before specs, renders and
+        # hidden extra details. Never hide a released original or simplified
+        # download behind navigation or a collapsed disclosure.
+        if '<h2 id="download-files">' not in body:
+            raise ValueError("Model page missing download heading: " + model)
+        wrapper = re.search(
+            r'<div class="siggear-joint-model-files"[^>]*>(.*?)</div>', body, re.S | re.I
+        )
+        if not wrapper:
+            raise ValueError("Model page missing visible file manifest: " + model)
+        manifest_html = wrapper.group(1)
+        manifest_table = re.search(r"<table\b[^>]*>(.*?)</table>", manifest_html, re.S | re.I)
+        if not manifest_table:
+            raise ValueError("Model file manifest does not render as table: " + model)
+        table_html = manifest_table.group(0)
+        if len(re.findall(r"<th\b",table_html,re.I)) != 3:
+            raise ValueError("Model manifest must be three columns: " + model)
+        count = len(re.findall(r"<tr\b",table_html,re.I)) - 1
+        if count != MANIFEST_ROWS[model]:
+            raise ValueError("Wrong model manifest row count: " + model + " " + str(count))
+        if body.index('class="siggear-joint-model-files"') > body.index("<table"):
+            raise ValueError("Model file manifest must be the first specification table: " + model)
+        if "<details" in body.split('class="siggear-joint-model-files"',1)[0]:
+            raise ValueError("Model files are hidden in collapsed disclosure: " + model)
+        manifest_links = links(table_html,product_path)
+        expected_direct = []
+        expected_direct.append(PDFS[model])
+        expected_direct += ["joint-actuators/" + filename for filename in ORIGINAL_CAD[model]]
+        expected_direct += ["joint-actuators/" + filename for filename in DRAWINGS.get(model,[])]
+        expected_direct += MODEL_SIMPLIFIED.get(model,[])
+        for item in expected_direct:
+            asset(model,item,manifest_links)
+        released = sorted(x for x in manifest_links if "/assets/downloads/" in x)
+        if len(released) != len(expected_direct):
+            raise ValueError("Wrong or duplicate model download targets: " + model)
+        print("PASS direct product file manifest",model,"files",len(released))
+
         pdf_pos = body.index(pdf) if pdf in body else -1
         image_pos = body.find("siggear-joint-media")
         if pdf_pos < 0 or (image_pos >= 0 and pdf_pos > image_pos):
@@ -176,7 +225,9 @@ def main() -> None:
     css = stylesheet.read_text(encoding="utf-8")
     if "@media (max-width: 52rem)" not in css or 'content: "2D drawing";' not in css:
         raise ValueError("Mobile download cards or 2D labels missing")
-    print("PASS six product pages, responsive download hub, two family matrices, 6 PDF datasheets, 4 2D PDFs and 8 full STEP variants")
+    if '.siggear-joint-model-files' not in css or 'content: "Direct download";' not in css:
+        raise ValueError("Model-level responsive download manifest styles missing")
+    print("PASS six first-screen product manifests, 21 direct files, responsive hub and family matrices")
 
 if __name__ == "__main__":
     main()
