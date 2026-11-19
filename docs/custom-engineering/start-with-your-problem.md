@@ -44,9 +44,9 @@ The final reduction ratio does not need to be known before the first review.
 [Planetary Gearbox for an Existing Motor](custom-planetary-gearbox.md){ .md-button .md-button--primary }
 [Start Existing-Motor Review](../request-cad-sample-quote.md?start=existing_motor&path=gearbox_only){ .md-button }
 
-## “Here Is Our Drawing.”
+## “Here Is Our Drawing / STEP / Sample.”
 
-A project can also start from a customer STEP model, mechanism drawing, installation envelope or marked-up sketch.
+A project can also start from a customer STEP model, mechanism drawing, installation envelope, marked-up sketch or physical sample.
 
 SigGear can review:
 
@@ -59,7 +59,7 @@ SigGear can review:
 - encoder, driver and communication requirements where applicable
 - manufacturability of the proposed transmission arrangement
 
-A simple mechanism drawing can be enough to begin identifying the missing engineering inputs.
+A simple mechanism drawing, STEP model or physical sample can be enough to begin identifying the missing engineering inputs.
 
 [Custom Gearbox From Drawing / STEP](custom-gearbox-from-drawing-cad.md){ .md-button .md-button--primary }
 [Start Drawing / STEP Review](../request-cad-sample-quote.md?start=drawing_cad){ .md-button }
