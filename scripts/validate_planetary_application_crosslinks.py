@@ -8,7 +8,7 @@ from __future__ import annotations
 import re
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urljoin, urlsplit
+from urllib.parse import urljoin, urlsplit, parse_qs
 
 ROOT=Path(__file__).resolve().parents[1]
 DOCS=ROOT/"docs"
@@ -54,10 +54,37 @@ def main():
             assert target in targets, (n,target)
         assert "/SigGear-product-docs/custom-engineering/motor-gearbox-integration/" in targets,n
 
+        # Model-specific OEM engineering routes must prefill the selected 8P–42P
+        # product and the actual project starting point in the live inquiry form.
+        expected_routes = (
+            ("existing_motor", "gearbox_only"),
+            ("drawing_cad", None),
+            ("prototype_to_volume", None),
+        )
+        for start, requested_path in expected_routes:
+            prefix = f"../../request-cad-sample-quote.md?model={n}P&start={start}"
+            if requested_path:
+                prefix += f"&path={requested_path}"
+            assert text.count(f"]({prefix})") == 1, (n, start)
+            found = False
+            for href in links.hrefs:
+                resolved = urlsplit(urljoin(base, href))
+                if resolved.path != "/SigGear-product-docs/request-cad-sample-quote/":
+                    continue
+                params = parse_qs(resolved.query)
+                if params.get("model") != [f"{n}P"] or params.get("start") != [start]:
+                    continue
+                if requested_path and params.get("path") != [requested_path]:
+                    continue
+                found = True
+                break
+            assert found, (n, start, "prefilled engineering inquiry link not rendered")
+
+
     apps={f.stem for f in (DOCS/"applications").glob("*.md") if f.stem not in {"index","planetary-gearbox-application-families"}}
     assert len(apps)==32, f"Unexpected application source count {len(apps)}"
     assert apps==referenced, f"Application coverage differs: missing={sorted(apps-referenced)}, unexpected={sorted(referenced-apps)}"
-    print("PASS 12 gearhead models link to all 32 real applications and preserve direct engineering files")
+    print("PASS 12 gearhead models, 32 applications, real engineering downloads, and model-prefilled OEM review routes")
 
 if __name__=="__main__":
     main()
