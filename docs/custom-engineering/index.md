@@ -1,6 +1,6 @@
 ---
-title: Custom Gearhead & Precision Transmission Engineering | SigGear
-description: SigGear develops and manufactures custom compact transmission solutions, including precision planetary gearheads, cycloidal reducers, motor + gearhead assemblies and robot joint actuators.
+title: Custom Gearbox & Precision Transmission Engineering | SigGear
+description: SigGear develops and manufactures custom compact transmission solutions, including precision planetary gearboxes, cycloidal reducers, motor + gearbox assemblies and robot joint actuators.
 ---
 
 # Custom Precision Transmission Engineering
@@ -12,7 +12,7 @@ The public SigGear catalog is not the full scope of the company's work. Many cus
 SigGear's core capability is to take a transmission requirement from **engineering review → prototype → design refinement → repeatable manufacturing**, using standard products as public starting points where useful.
 
 [Start With Your Motor / Drawing / Problem](start-with-your-problem.md){ .md-button .md-button--primary }
-[Custom Gearbox From Drawing / CAD](custom-gearbox-from-drawing-cad.md){ .md-button }
+[Custom Gearbox From Drawing / STEP](custom-gearbox-from-drawing-cad.md){ .md-button }
 [Gearbox Failure & Durability Redesign](gearbox-failure-analysis-durability-redesign.md){ .md-button }
 [OEM Volume Manufacturing & Delivery](oem-volume-manufacturing-delivery.md){ .md-button }
 [Custom Manufacturing & Volume Production](custom-transmission-manufacturing.md){ .md-button }
@@ -31,7 +31,7 @@ You may already have a drawing and a complete specification. You may also have o
 - an installation envelope
 - an early product concept
 
-SigGear works with engineering teams on compact precision transmission problems using **micro and miniature planetary gearheads, cycloidal reducers, motors, motor + gearhead assemblies and integrated joint actuators**.
+SigGear works with engineering teams on compact precision transmission problems using **micro and miniature planetary gearboxes, cycloidal reducers, motors, motor + gearbox assemblies and integrated joint actuators**.
 
 The first step is to understand what the mechanism needs to do. From there, the transmission structure, ratio, motor interface and other design details can be evaluated.
 
@@ -40,9 +40,9 @@ The first step is to understand what the mechanism needs to do. From there, the 
 
 ## What SigGear Can Help Engineers Evaluate
 
-### Micro Planetary Gearhead Solutions
+### Micro Planetary Gearbox Solutions
 
-For compact products that need a small-diameter reduction mechanism, SigGear can evaluate miniature planetary gearhead and geared-motor solutions based on the application load, speed, available space and motor.
+For compact products that need a small-diameter reduction mechanism, SigGear can evaluate miniature planetary gearbox and geared-motor solutions based on the application load, speed, available space and motor.
 
 Relevant engineering topics may include:
 
@@ -57,7 +57,7 @@ Relevant engineering topics may include:
 - encoder, brake, cable or connector integration where applicable
 
 [Browse Micro Gear Motors](../products/micro-gear-motors/index.md){ .md-button }
-[Browse 8–42 mm Planetary Gearheads](../products/planetary-gearboxes/index.md){ .md-button }
+[Browse 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/index.md){ .md-button }
 
 ### Planetary Gear Reducer Engineering
 
@@ -65,13 +65,13 @@ For robotics, automation, precision mechanisms and other compact motion systems,
 
 The starting point can be a SigGear gearbox platform, a customer motor or an installation drawing.
 
-[Custom Planetary Gearhead Engineering](custom-planetary-gearbox.md){ .md-button .md-button--primary }
-[Replacement Planetary Gearhead Review](replacement-planetary-gearhead.md){ .md-button }
-[Browse Planetary Gearheads](../products/planetary-gearboxes/index.md){ .md-button }
+[Custom Planetary Gearbox Engineering](custom-planetary-gearbox.md){ .md-button .md-button--primary }
+[Replacement Planetary Gearbox Review](replacement-planetary-gearhead.md){ .md-button }
+[Browse Planetary Gearboxes](../products/planetary-gearboxes/index.md){ .md-button }
 
-### Replacement / Legacy Gearhead Review
+### Replacement / Legacy Gearbox Review
 
-If an existing planetary gearhead is discontinued, failing in service or no longer fits the project requirement, SigGear can compare the current motor, ratio, interfaces, installation envelope and duty cycle against the nearest 8–42 mm platform.
+If an existing planetary gearbox is discontinued, failing in service or no longer fits the project requirement, SigGear can compare the current motor, ratio, interfaces, installation envelope and duty cycle against the nearest 8–42 mm platform.
 
 An old sample, controlled drawing or failed-part photos can be more useful than a catalog listing when the goal is a close mechanical replacement.
 
