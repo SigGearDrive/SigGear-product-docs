@@ -8,12 +8,13 @@ description: "SigGear 28P (28 mm) miniature planetary gearhead/gearbox: ratio 3.
 [**Download Datasheet PDF**](../../assets/downloads/28p/28P_Planetary_Gearhead_Datasheet_Rev1.0.pdf){ .md-button .md-button--primary }
 [**Download 2D Drawing PDF**](../../assets/downloads/28p/28P_2D_Drawing.pdf){ .md-button }
 [**Download Full Assembly STEP**](../../assets/downloads/28p/28P_Full_Assembly.step){ .md-button }
+[**Download Simplified 4-Stage STEP · Reference**](../../assets/downloads/28p/28P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button }
 
 | Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
 | --- | --- | --- | --- | --- |
 | **28 mm** | **3.83:1–759.7:1** | **25.6–44.5 mm** | **1961.3–4903.3 mN·m** | **≤ 1.2°** |
 
-**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/28p/datasheet.md) · [Simplified 4-stage STEP](../../assets/downloads/28p/28P_Public_Simplified_STEP_v1.0_4-Stage.step) · [Mechanical drawing preview](../../engineering-resources/28p/mechanical-interface.md) · [Motor-only datasheets](../../engineering-resources/motors/index.md#28-mm-dc-motors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
+**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/28p/datasheet.md) · [Mechanical drawing preview](../../engineering-resources/28p/mechanical-interface.md) · [Motor-only datasheets](../../engineering-resources/motors/index.md#28-mm-dc-motors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
 ![Real SigGear 28P 28 mm miniature planetary gearhead with diameter check](../../assets/images/products/planetary-gearboxes/28p/28p-real-product-evidence.webp){ width="260" loading="lazy" }
 

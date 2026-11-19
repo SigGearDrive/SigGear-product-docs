@@ -8,12 +8,13 @@ description: "SigGear 20P Ø20 mm miniature planetary gearhead/gearbox: ratios 4
 [**Download Datasheet PDF**](../../assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf){ .md-button .md-button--primary }
 [**Download 2D Drawing PDF**](../../assets/downloads/20p/20P_2D_Drawing.pdf){ .md-button }
 [**Download Full Assembly STEP**](../../assets/downloads/20p/20P_Full_Assembly.step){ .md-button }
+[**Download Simplified 4-Stage STEP · Reference**](../../assets/downloads/20p/20P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button }
 
 | Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
 | --- | --- | --- | --- | --- |
 | **20 mm** | **4:1–1296:1** | **20.1–34.5 mm** | **588.4–1274.9 mN·m** | **≤ 1.5°** |
 
-**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/20p/datasheet.md) · [Simplified 4-stage STEP](../../assets/downloads/20p/20P_Public_Simplified_STEP_v1.0_4-Stage.step) · [Mechanical drawing preview](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-dimensions.webp) · [Motor-only datasheets](../../engineering-resources/motors/index.md#20-mm-bldc-motor) · [Compare Miniature 20–32 mm](miniature-planetary-gearheads-20-32mm.md) · [All 12 models](8-42mm-planetary-gear-reducer.md)
+**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/20p/datasheet.md) · [Mechanical drawing preview](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-dimensions.webp) · [Motor-only datasheets](../../engineering-resources/motors/index.md#20-mm-bldc-motor) · [Compare Miniature 20–32 mm](miniature-planetary-gearheads-20-32mm.md) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
 ![SigGear 20P 20 mm miniature planetary gearhead](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-main.webp){ width="260" loading="lazy" }
 

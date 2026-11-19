@@ -78,7 +78,7 @@ def main() -> None:
             "Online technical specifications": (
                 f"{SITE_PREFIX}/engineering-resources/{slug}/datasheet/"
             ),
-            "Simplified 4-stage STEP": (
+            "Download Simplified 4-Stage STEP · Reference": (
                 f"{SITE_PREFIX}/assets/downloads/{slug}/{model}_Public_Simplified_STEP_v1.0_4-Stage.step"
             ),
         }
@@ -98,7 +98,7 @@ def main() -> None:
         ).read_text(encoding="utf-8")
         photo_pos = source.index("![")
         for label in ("Download Datasheet PDF", "Download 2D Drawing PDF",
-                      "Download Full Assembly STEP"):
+                      "Download Full Assembly STEP", "Download Simplified 4-Stage STEP · Reference"):
             if source.index(f"[**{label}**]") > photo_pos:
                 raise ValueError(f"{model}: {label} is below the product photo")
 
@@ -135,7 +135,7 @@ def main() -> None:
             if expected not in resolved:
                 raise ValueError(f"Quick selector lacks one-click download: {expected}")
 
-    print("PASS all 12 product pages show direct PDF, 2D, full STEP and quick specs first.")
+    print("PASS all 12 product pages show four direct PDF, 2D, full and simplified STEP links before product images.")
     print("PASS all online datasheet and simplified STEP links resolve to model-specific paths.")
     print("PASS quick selector exposes all 36 published PDFs/2D/full STEP links and working form controls.")
     print("PASS selector remains available through the existing selection guide.")
