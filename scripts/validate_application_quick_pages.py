@@ -75,4 +75,31 @@ for name, terms in round3_intent.items():
     assert all(word.lower() in body for word in terms), (name, terms)
     assert "pdf" in body and "2d & step" in body, name
 
+# A visitor should see the exact model PDF/2D/STEP grid BEFORE prose and
+# before any generic resource hubs.  On mobile the links become three-button cards.
+firstscreen_file_pages = ["semiconductor-electronics-inspection-equipment-gear-motors.md","office-automation-business-equipment-gear-motors.md","pump-valve-fluid-control-gear-motors.md","agriculture-outdoor-equipment-gear-motors.md","automotive-vehicle-small-motion-gear-motors.md","energy-battery-charging-equipment-actuators.md","food-beverage-coffee-equipment-gear-motors.md","vending-dispensing-kiosk-gear-motors.md"]
+for name in firstscreen_file_pages:
+    source = (APP / name).read_text(encoding="utf-8")
+    before_files = source.split("## Direct Downloads", 1)[0]
+    assert len(before_files) < 450, (name, "Downloads not near page top")
+    assert source.index("## Direct Downloads") < source.index("**Application:**"), name
+    assert source.index("_Full_Assembly.step") < source.index("**Application:**"), name
+    assert source.count("[**↓ PDF**]") == 3, name
+    assert source.count("[**↓ 2D**]") == 3, name
+    assert source.count("[**↓ STEP**]") == 3, name
+    assert len(source) < 2150, (name, len(source))
+    assert '<div class="siggear-app-quick" markdown="1">' in source, name
+    rendered = ROOT / "site/applications" / name.removesuffix(".md") / "index.html"
+    assert rendered.is_file(), (name, "Rendered page missing")
+    html = rendered.read_text(encoding="utf-8")
+    assert 'class="siggear-app-quick"' in html, (name, "Download block not rendered")
+    start = html.index('class="siggear-app-quick"')
+    end = html.index("</div>", start)
+    grid = html[start:end]
+    assert "<table>" in grid and "</table>" in grid, (name, "Direct model download matrix lost")
+    assert grid.count("_Full_Assembly.step") == 3, (name, "Full STEP links missing from matrix")
+    assert grid.count("_2D_Drawing.pdf") == 3, (name, "2D links missing from matrix")
+    assert grid.count("_Planetary_Gearhead_Datasheet_Rev") == 3, (name, "PDF links missing from matrix")
+    assert "application-quick-downloads.css?v=20261119-firstscreen" in html, name
+
 print("PASS 32 concise supplier-first application pages, 3 supply routes, file links and legacy selector context")
