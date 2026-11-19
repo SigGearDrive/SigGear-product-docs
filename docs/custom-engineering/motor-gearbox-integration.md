@@ -24,6 +24,8 @@ Depending on the selected product family and project requirements, the supply sc
 [Need Motor + Gearbox — Start Project Brief](../request-cad-sample-quote.md?path=motor_gearbox){ .md-button }
 [Full Engineering Review Guide](../request-cad-sample-quote.md){ .md-button }
 
+**Manufacturing qualification:** [Gear Hobbing, Grinding, CMM & Inspection](../company/manufacturing-equipment-inspection-capability.md) · [Source-Backed Manufacturing Facts](../company/source-backed-manufacturing-facts.md)
+
 ## Planetary Gearbox for BLDC, DC, Stepper or Servo Motors
 
 A motor type alone does not prove gearbox compatibility. For an existing **BLDC, brushed DC, stepper or servo motor**, the engineering review needs the actual motor model or drawing, operating speed, shaft geometry, mounting interface and the required gearbox output.
@@ -63,7 +65,7 @@ If the motor is still open, SigGear can review a **motor + planetary gearbox ass
 The published 8P–42P planetary gearbox platforms provide the starting frame sizes. Final motor selection and performance depend on the complete operating point and configuration.
 
 [Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Download Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
+[Download Public STEP Files](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 
 ## 8P–42P Existing-Motor Design-In Workflow
 
@@ -73,7 +75,7 @@ For an existing motor, SigGear does not start by assuming a standard motor adapt
 2. **Motor operating point** — actual motor speed, power and duty cycle against the selected gearbox input-speed and load limits.
 3. **Output target** — required output speed or preliminary ratio, continuous load and short-duration peak load.
 4. **Mechanical interface** — motor shaft diameter and usable length, shaft feature, locating pilot, mounting-hole pattern and the required gearbox input arrangement.
-5. **Design-In release** — use the public STEP for preliminary packaging, then confirm the selected stage / ratio / motor interface before controlled configuration CAD or drawing release.
+5. **Design-In release** — use the public STEP for preliminary packaging, then confirm the selected stage / ratio / motor interface before controlled configuration STEP / drawing release.
 
 A frame-size match does **not** prove motor compatibility. The motor and gearbox interface must be reviewed for the exact project.
 
@@ -184,7 +186,7 @@ Useful information can include:
 - acceleration requirement
 - gravity direction
 - motion cycle
-- a sketch, CAD screenshot or marked-up drawing
+- a sketch, STEP model or marked-up drawing
 
 From this information, the engineering review can identify what must be calculated, measured or tested before final motor and gearbox selection.
 
