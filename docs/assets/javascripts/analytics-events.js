@@ -165,6 +165,39 @@
     return {source_page_type: sourceType, source_application: app};
   }
 
+  var JOINT_RELEASE_FILES = {
+    "joint-actuators/SG-6010C_Public_Reference_Datasheet_Rev0.1.pdf": ["SG-6010C", "catalogue", "datasheet_pdf"],
+    "joint-actuators/SG-6010D_Public_Reference_Datasheet_Rev0.1.pdf": ["SG-6010D", "catalogue", "datasheet_pdf"],
+    "joint-actuators/SG-8021_Public_Reference_Datasheet_Rev0.1.pdf": ["SG-8021", "catalogue", "datasheet_pdf"],
+    "joint-actuators/CPM-78-39_Public_Reference_Datasheet_Rev0.1.pdf": ["CPM-78-39", "catalogue", "datasheet_pdf"],
+    "joint-actuators/CPM-80-25_Public_Reference_Datasheet_Rev0.1.pdf": ["CPM-80-25", "catalogue", "datasheet_pdf"],
+    "joint-actuators/CPM-100-25_Public_Reference_Datasheet_Rev0.1.pdf": ["CPM-100-25", "catalogue", "datasheet_pdf"],
+    "joint-actuators/SG-6010C_Original_Full_Assembly_20261118.step": ["SG-6010C", "standard", "original_full_step"],
+    "joint-actuators/SG-6010D_Original_Full_Assembly_20261118.step": ["SG-6010D", "published_assembly", "original_full_step"],
+    "joint-actuators/SG-8021_Driver_Version_Original_Full_Assembly_20261118.step": ["SG-8021", "driver_version", "original_full_step"],
+    "joint-actuators/CPM-78-39_Original_Full_Assembly_20261118.step": ["CPM-78-39", "standard", "original_full_step"],
+    "joint-actuators/CPM-80-25_Original_Full_Assembly_No_Driver_20261118.step": ["CPM-80-25", "no_driver", "original_full_step"],
+    "joint-actuators/CPM-80-25_Original_Full_Assembly_Integrated_Driver_20261118.step": ["CPM-80-25", "integrated_driver", "original_full_step"],
+    "joint-actuators/CPM-100-25_Original_Full_Assembly_No_Driver_20261118.step": ["CPM-100-25", "standard_29_5mm", "original_full_step"],
+    "joint-actuators/CPM-100-25D_Dual_Encoder_Driver_Original_Full_Assembly_20261118.step": ["CPM-100-25", "dual_encoder_driver_48mm", "original_full_step"],
+    "sg6010c/SG-6010C_Public_Simplified_STEP_v1.0.step": ["SG-6010C", "simplified_standard", "simplified_step"],
+    "cpm80-25/CPM-80-25_Public_Simplified_STEP_v1.0_No_Driver.step": ["CPM-80-25", "simplified_no_driver", "simplified_step"],
+    "cpm80-25/CPM-80-25_Public_Simplified_STEP_v1.0_Integrated_Driver.step": ["CPM-80-25", "simplified_integrated_driver", "simplified_step"]
+  };
+
+  function jointSourceType() {
+    var currentPath = pagePath();
+    if (currentPath.indexOf("/engineering-resources/robot-joint-actuators/quick-downloads/") !== -1) {
+      return "joint_download_hub";
+    }
+    if (/\/products\/(?:robot-joint-actuators|cycloidal-joint-modules)\/(?:sg6010c|sg6010d|sg8021|cpm78-39|cpm80-25|cpm100-25)\//i.test(currentPath)) {
+      return "joint_product_model";
+    }
+    if (currentPath.indexOf("/engineering-resources/") !== -1) return "engineering_reference";
+    if (currentPath.indexOf("/applications/") !== -1) return "application";
+    return "other";
+  }
+
   function pagePath() {
     try {
       return new URL(window.location.href).pathname;
@@ -368,6 +401,35 @@
         sendEvent("planetary_inquiry_click", emailParams);
       }
       return;
+    }
+
+    // Count released robot-joint PDF/STEP intent by exact model and configuration.
+    // Do not confuse a click with a successful download, sale or engineering approval.
+    try {
+      var jointFileUrl = new URL(href, window.location.href);
+      var jointMatch = jointFileUrl.pathname.match(
+        /\/SigGear-product-docs\/assets\/downloads\/(joint-actuators|sg6010c|cpm80-25)\/([^/]+)$/i
+      );
+      if (jointFileUrl.hostname === window.location.hostname && jointMatch) {
+        var jointKey = jointMatch[1] + "/" + jointMatch[2];
+        if (Object.prototype.hasOwnProperty.call(JOINT_RELEASE_FILES, jointKey)) {
+          var jointInfo = JOINT_RELEASE_FILES[jointKey];
+          sendEvent("joint_engineering_file_click", {
+            page_path: pagePath(),
+            joint_model: jointInfo[0],
+            joint_variant: jointInfo[1],
+            file_type: jointInfo[2],
+            file_name: jointMatch[2],
+            source_page_type: jointSourceType(),
+            source_application: applicationSlugFromPath(pagePath()),
+            link_text: label
+          });
+          // Retain the established generic cad_download_click for STEP files.
+          if (jointInfo[2] === "datasheet_pdf") return;
+        }
+      }
+    } catch (e) {
+      // Analytics must not block navigation or download.
     }
 
     // Track public motor-only PDF intent separately from planetary gearhead files.
