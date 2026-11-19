@@ -1,11 +1,29 @@
 ---
-title: Manufacturing Equipment & Inspection Capability | SigGear Gearbox Factory
-description: Source-backed SigGear manufacturing and inspection capabilities including gear hobbing, gear shaping, gear grinding, CNC machining, CMM, gear testing, dynamometer, life testing, X-ray and backlash inspection.
+title: Custom Gearbox Manufacturing Equipment | Gear Hobbing, Grinding & CMM | SigGear
+description: Source-backed SigGear custom gearbox manufacturing capability: gear hobbing, shaping, grinding, CNC machining, CMM, gear testing, dynamometer, life testing, X-ray and backlash inspection.
 ---
 
-# Manufacturing Equipment & Inspection Capability
+# Custom Gearbox Manufacturing Equipment & Inspection Capability
 
 This page summarizes **source-backed manufacturing and inspection capabilities** published in SigGear's official 2025 company catalog.
+
+## Does SigGear Have Gear Manufacturing and Inspection Equipment?
+
+**Yes.** SigGear's published company equipment list includes dedicated gear-processing, machining, dimensional-inspection and performance-test resources relevant to custom gearbox and precision transmission manufacturing.
+
+Publicly listed capabilities include:
+
+- gear hobbing
+- gear shaping
+- gear grinding
+- gear turning / skiving-related processing
+- CNC machining
+- CMM dimensional inspection
+- gear testing and gear-mesh inspection
+- backlash inspection
+- dynamometer testing
+- life testing
+- X-ray inspection
 
 The equipment list is company-level evidence. It does not mean that every machine is used for every product or that every listed test is included in every customer project.
 
@@ -61,6 +79,20 @@ The official catalog also lists inspection and test equipment including:
 - temperature / environmental test equipment
 
 These tools support dimensional, gear, performance and reliability-related verification depending on the project.
+
+## Why This Matters When Qualifying a Custom Gearbox Manufacturer
+
+For an OEM project, a supplier should be evaluated on more than a catalog drawing or finished assembly.
+
+Relevant questions include:
+
+- Can the supplier process gears, not only assemble purchased parts?
+- Can the supplier measure the finished mechanical geometry?
+- Can gear mesh / backlash be checked?
+- Can torque, speed or life-related testing be planned where required?
+- Can the same engineering program move from prototype into repeat manufacturing?
+
+SigGear's published equipment list and customization workflow provide public evidence for these company-level capabilities. The exact process route, inspection plan and test scope remain project-specific.
 
 ## What This Means for a Custom Gearbox Project
 
@@ -120,7 +152,7 @@ The same catalog describes the customization process as a cross-functional workf
 - customer needs analysis
 - feasibility review
 - R&D / engineering / sales discussion
-- technical方案 / drawing development
+- technical solution / drawing development
 - sample development and internal testing
 - small-batch verification
 - mass production and delivery
