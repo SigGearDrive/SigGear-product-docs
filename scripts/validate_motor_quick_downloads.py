@@ -36,10 +36,10 @@ class MotorHTML(HTMLParser):
 def check() -> None:
     md = DOC.read_text(encoding="utf-8")
     assert md.count("# DC / BLDC Motor Datasheets") == 1
-    assert "SigGear supplies DC/BLDC motors" in md
+    assert "SigGear supplies DC / BLDC motors" in md
     assert "37 motor PDFs" in md
     assert "Draft" in md
-    assert "Motor + Gearhead Assemblies" in md
+    assert "Match This Motor to a Planetary Gearbox" in md
     assert "<details" in md and "</details>" in md
     assert md.count("siggear-motor-file") == 37, "All 37 direct PDF links must be visible by default"
     assert HTML.is_file(), "MkDocs motor hub not built"
@@ -108,7 +108,7 @@ def check() -> None:
         assert any(id_.startswith(f"{n}-mm-") for id_ in parsed.ids), f"Legacy diameter anchor missing for {n}"
     assert "motor-quick-downloads.js?v=20261118-direct-pdfs" in html
     assert "motor-quick-downloads.css?v=20261118-direct-pdfs" in html
-    print("PASS 37 genuine motor PDF buttons, 10 sizes, model/winding search tokens, supplier CTA and legacy anchors")
+    print("PASS 37 genuine motor PDF buttons, 10 sizes, model/winding search tokens, existing-motor gearbox CTA and legacy anchors")
 
 
 if __name__ == "__main__":
