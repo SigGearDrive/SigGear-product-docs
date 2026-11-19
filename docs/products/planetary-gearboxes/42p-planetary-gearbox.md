@@ -8,12 +8,13 @@ description: "SigGear 42P Ø42 mm compact planetary gearhead: ratios 3.8:1–660
 [**Download Datasheet PDF**](../../assets/downloads/42p/42P_Planetary_Gearhead_Datasheet_Rev1.0.pdf){ .md-button .md-button--primary }
 [**Download 2D Drawing PDF**](../../assets/downloads/42p/42P_2D_Drawing.pdf){ .md-button }
 [**Download Full Assembly STEP**](../../assets/downloads/42p/42P_Full_Assembly.step){ .md-button }
+[**Download Simplified 4-Stage STEP · Reference**](../../assets/downloads/42p/42P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button }
 
 | Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
 | --- | --- | --- | --- | --- |
 | **42 mm** | **3.8:1–660.7:1** | **35.6–69.5 mm** | **7845.3–14710.0 mN·m** | **≤ 1.2°** |
 
-**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/42p/datasheet.md) · [Simplified 4-stage STEP](../../assets/downloads/42p/42P_Public_Simplified_STEP_v1.0_4-Stage.step) · [Mechanical drawing preview](../../engineering-resources/42p/mechanical-interface.md) · [All 12 models](8-42mm-planetary-gear-reducer.md)
+**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/42p/datasheet.md) · [Mechanical drawing preview](../../engineering-resources/42p/mechanical-interface.md) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
 ![Real SigGear 42P 42 mm compact planetary gearhead with diameter check](../../assets/images/products/planetary-gearboxes/42p/42p-real-product-evidence.webp){ width="260" loading="lazy" }
 
