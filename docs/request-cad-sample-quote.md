@@ -23,6 +23,8 @@ If you already know a SigGear model, include it as a reference. If not, send the
 
 For a project that starts from an idea, existing motor, mechanism or custom transmission problem, see the [Custom Precision Transmission Engineering](custom-engineering/index.md) page first.
 
+If you already have a **customer drawing, CAD model or physical sample**, use the [Custom Gearbox From Drawing / CAD](custom-engineering/custom-gearbox-from-drawing-cad.md) path.
+
 If the project specifically needs a miniature or compact planetary gearbox, see [Custom Planetary Gearhead Engineering](custom-engineering/custom-planetary-gearbox.md).
 
 If the project involves a compact high-torque joint or a possible cycloidal structure, see [Custom Cycloidal Transmission Engineering](custom-engineering/custom-cycloidal-transmission.md).
