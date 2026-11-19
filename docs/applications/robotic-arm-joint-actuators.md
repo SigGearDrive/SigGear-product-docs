@@ -5,26 +5,36 @@ description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + g
 
 # Robotic Arm Joint Actuators & Gearhead Supply
 
-**SigGear is an OEM supplier of DC/BLDC motors, precision planetary gearheads (Ø8–42 mm), and motor + gearhead assemblies.**
+**SigGear is an OEM supplier of robot joint modules, Ø8–42 mm planetary Gearheads and DC/BLDC motor assemblies.**
 
-[**Motors · Datasheets**](../engineering-resources/motors/index.md){ .md-button }
-[**Gearheads · PDF / 2D / STEP**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
-[**Motor + Gearhead Assemblies**](../custom-engineering/motor-gearbox-integration.md){ .md-button }
+<div class="siggear-app-quick" markdown="1">
 
-**Application:** Robot-arm joints depend on payload, reach and reflected inertia. Compare integrated joint actuators separately from small planetary gearheads for auxiliary axes.
+## Joint Modules — PDF / 2D / STEP
 
-**Engineering checks:** joint torque across reach and pose; brake, encoder and communications; thermal duty and structural bearing.
-
-## Relevant Gearhead Models & Direct Downloads
-
-| Size / model | Datasheet PDF | 2D drawing | Full STEP |
+| Joint module · variant | Datasheet | 2D reference | Full STEP |
 | --- | --- | --- | --- |
-| [20P · Ø20 mm](../products/planetary-gearboxes/20p-planetary-gearbox.md) | [PDF](../assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D](../assets/downloads/20p/20P_2D_Drawing.pdf) | [STEP](../assets/downloads/20p/20P_Full_Assembly.step) |
-| [32P · Ø32 mm](../products/planetary-gearboxes/32p-planetary-gearbox.md) | [PDF](../assets/downloads/32p/32P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D](../assets/downloads/32p/32P_2D_Drawing.pdf) | [STEP](../assets/downloads/32p/32P_Full_Assembly.step) |
-| [42P · Ø42 mm](../products/planetary-gearboxes/42p-planetary-gearbox.md) | [PDF](../assets/downloads/42p/42P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D](../assets/downloads/42p/42P_2D_Drawing.pdf) | [STEP](../assets/downloads/42p/42P_Full_Assembly.step) |
+| [**SG-8021**](../products/robot-joint-actuators/sg8021.md) · Planetary<br><small>With driver</small> | [**↓ PDF**](../assets/downloads/joint-actuators/SG-8021_Public_Reference_Datasheet_Rev0.1.pdf) | [Request 2D](../request-cad-sample-quote.md) | [**↓ STEP**](../assets/downloads/joint-actuators/SG-8021_Driver_Version_Original_Full_Assembly_20261118.step) |
+| [**CPM-100-25**](../products/cycloidal-joint-modules/cpm100-25.md) · Cycloidal<br><small>Standard · no driver · 29.5 mm</small> | [**↓ PDF**](../assets/downloads/joint-actuators/CPM-100-25_Public_Reference_Datasheet_Rev0.1.pdf) | [Request 2D](../request-cad-sample-quote.md) | [**↓ STEP**](../assets/downloads/joint-actuators/CPM-100-25_Original_Full_Assembly_No_Driver_20261118.step) |
 
-[**Integrated Robot Joint Actuators · Datasheets / CAD**](../engineering-resources/robot-joint-actuators/quick-downloads.md){ .md-button }
+</div>
 
-*The models above are initial size comparisons, not qualified application matches. Rated torque and length depend on the selected stage/ratio; check the model datasheet and mechanical interface. Small gearheads are not represented as complete load-bearing robot-arm joints.*
+**Application:** Arm joints depend on payload, reach and reflected inertia.
 
-[**Find a Gearhead by Speed / Torque**](../selection-guides/planetary-gearhead-quick-selector.md) · [**All 12 Model Downloads**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [**Contact SigGear**](../request-cad-sample-quote.md)
+**Check:** Check duty torque, feedback, brake, thermal duty and mounting loads.
+
+*Joint Datasheets: Public Reference Rev0.1. Existing 2D drawings are engineering references, not controlled manufacturing drawings. Confirm suitability and safety.*
+
+<details markdown="1">
+<summary>Auxiliary Gearhead options — PDF / 2D / STEP</summary>
+
+| Gearhead model | Datasheet PDF | 2D drawing | Full STEP |
+| --- | --- | --- | --- |
+| [20P · Ø20 mm](../products/planetary-gearboxes/20p-planetary-gearbox.md) | [**↓ PDF**](../assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**↓ 2D**](../assets/downloads/20p/20P_2D_Drawing.pdf) | [**↓ STEP**](../assets/downloads/20p/20P_Full_Assembly.step) |
+| [32P · Ø32 mm](../products/planetary-gearboxes/32p-planetary-gearbox.md) | [**↓ PDF**](../assets/downloads/32p/32P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**↓ 2D**](../assets/downloads/32p/32P_2D_Drawing.pdf) | [**↓ STEP**](../assets/downloads/32p/32P_Full_Assembly.step) |
+| [42P · Ø42 mm](../products/planetary-gearboxes/42p-planetary-gearbox.md) | [**↓ PDF**](../assets/downloads/42p/42P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**↓ 2D**](../assets/downloads/42p/42P_2D_Drawing.pdf) | [**↓ STEP**](../assets/downloads/42p/42P_Full_Assembly.step) |
+
+*Gearhead-only candidates. Rated torque and length depend on the selected stage/ratio; verify the motor/interface. A Gearhead is not a joint actuator.*
+
+</details>
+
+[All 6 Joint Modules](../engineering-resources/robot-joint-actuators/quick-downloads.md) · [Motor PDFs](../engineering-resources/motors/index.md) · [Gearhead CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [Motor + Gearhead](../custom-engineering/motor-gearbox-integration.md) · [Selector](../selection-guides/planetary-gearhead-quick-selector.md) · [Contact](../request-cad-sample-quote.md)
