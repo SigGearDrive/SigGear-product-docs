@@ -5,7 +5,12 @@ description: Compare CPM-78-39, CPM-80-25 and CPM-100-25 by size, ratio, rated t
 
 # Cycloidal Robot Joint Modules
 
-**Choose your configuration and download PDF / 2D / original STEP directly.** Driver and encoder variants have different mounting envelopes.
+**These cycloidal modules are public reference platforms for engineering evaluation.** Custom ratios, interfaces, packaging and integrated joint configurations can require a separate engineering review, and confidential customer programs may not be shown publicly.
+
+[**Custom Cycloidal Transmission Engineering**](../../custom-engineering/custom-cycloidal-transmission.md){ .md-button .md-button--primary }
+[**Custom Manufacturing & Volume Production**](../../custom-engineering/custom-transmission-manufacturing.md){ .md-button }
+
+**Choose a public configuration and download PDF / 2D / original STEP directly.** Driver and encoder variants have different mounting envelopes.
 
 [**All 6 Robot Joint Datasheets, 2D & STEP**](../../engineering-resources/robot-joint-actuators/quick-downloads.md){ .md-button .md-button--primary }
 [**Supplier Evaluation Checklist**](../../selection-guides/robot-joint-supplier-evaluation.md){ .md-button }
