@@ -22,6 +22,10 @@ This is an engineering review path, not a promise that every failure can be solv
 [**Start a Failure / Durability Review**](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button .md-button--primary }
 [**Existing Gearbox Replacement / Redesign**](replacement-planetary-gearhead.md){ .md-button }
 
+**Public manufacturing evidence:** SigGear publishes company-level gear-processing, CMM, gear-inspection, dynamometer and life-test resources that may support a redesign program. [Review manufacturing & inspection capability](../company/manufacturing-equipment-inspection-capability.md).
+
+**Project-specific boundary:** a failure photo or worn part is evidence, not a complete root-cause diagnosis. Material, heat treatment, geometry or lifetime changes should be confirmed only after the operating condition and prototype / test evidence are reviewed.
+
 ## Typical Failure Symptoms to Document
 
 Useful observations can include:
