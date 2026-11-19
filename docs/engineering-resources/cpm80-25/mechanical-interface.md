@@ -42,6 +42,12 @@ Driver housing, connector orientation, encoder arrangement and cable routing sho
 
 ## Public CAD
 
+[**2D Drawing PDF · No Driver (29.7 mm)**](../../assets/downloads/joint-actuators/CPM-80-25_2D_No_Driver_29p7mm.pdf){ .md-button .md-button--primary }
+[**2D Drawing PDF · Integrated Driver (41.2 mm)**](../../assets/downloads/joint-actuators/CPM-80-25_2D_Integrated_Driver_41p2mm.pdf){ .md-button }
+
+Both original 2D outlines are version-specific. Confirm mating tolerance and exact hardware revision before production.
+
+
 [**Original Full STEP · No Driver (29.7 mm)**](../../assets/downloads/joint-actuators/CPM-80-25_Original_Full_Assembly_No_Driver_20261118.step){ .md-button .md-button--primary }
 
 [**Original Full STEP · Integrated Driver (41.2 mm)**](../../assets/downloads/joint-actuators/CPM-80-25_Original_Full_Assembly_Integrated_Driver_20261118.step){ .md-button }
