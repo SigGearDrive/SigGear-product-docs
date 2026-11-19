@@ -16,6 +16,10 @@ Most custom projects can start from one of four situations:
 
 If you already know a SigGear model, include it as a reference. If not, send the application and the information you already have. A complete specification is not required for the first review.
 
+[**Start the Engineering Project Brief**](#engineering-project-brief){ .md-button .md-button--primary }
+[**Browse Motor Datasheets · 37 PDFs**](engineering-resources/motors/index.md){ .md-button }
+
+
 [**I Already Have a Motor**](?start=existing_motor&path=gearbox_only){ .md-button .md-button--primary }
 [**I Have a Drawing / CAD**](?start=drawing_cad){ .md-button }
 [**My Current Gearbox Is Failing**](?start=failing_gearbox&path=gearbox_only){ .md-button }
@@ -25,21 +29,21 @@ For a project that starts from an idea, existing motor, mechanism or custom tran
 
 If you already have a **customer drawing, CAD model or physical sample**, use the [Custom Gearbox From Drawing / CAD](custom-engineering/custom-gearbox-from-drawing-cad.md) path.
 
-If the project specifically needs a miniature or compact planetary gearbox, see [Custom Planetary Gearhead Engineering](custom-engineering/custom-planetary-gearbox.md).
+If the project specifically needs a micro, miniature or compact planetary gearhead, see [Custom Planetary Gearhead Engineering](custom-engineering/custom-planetary-gearbox.md).
 
 If the project involves a compact high-torque joint or a possible cycloidal structure, see [Custom Cycloidal Transmission Engineering](custom-engineering/custom-cycloidal-transmission.md).
 
-If the project starts from an existing motor or needs a complete motor + gearbox solution, see [Motor + Gearbox Integration Engineering](custom-engineering/motor-gearbox-integration.md).
+If the project starts from an existing motor or needs a complete motor + gearhead solution, see [Motor + Gearhead Integration Engineering](custom-engineering/motor-gearbox-integration.md).
 
 If the project is a robot joint, compact actuator or AI-hardware rotary axis with custom torque, speed, size, sensing or control requirements, see [Custom Robot Joint & Compact Actuator Development](custom-engineering/robot-joint-actuator-development.md).
 
 If the project has moved beyond a first concept and needs a structured path through prototype, testing, Design-In, pilot preparation and production release, see [Prototype to Design-In and Production](custom-engineering/prototype-to-production.md).
 
-## Miniature Planetary Gearbox (8–42 mm) — Choose Your Path
+## Precision Planetary Gearheads (Ø8–42 mm) — Choose Your Path
 
-### Path A: Gearbox Only for an Existing Motor
+### Path A: Gearhead Only for an Existing Motor
 
-Choose this path when the motor is already selected and you need SigGear to review a compatible planetary gearbox.
+Choose this path when the motor is already selected and you need SigGear to review a compatible planetary gearhead.
 
 For the first review, send only what you already know:
 
@@ -48,14 +52,14 @@ For the first review, send only what you already know:
 3. **Motor shaft diameter / usable shaft length**
 4. **Motor mounting pattern / locating pilot**
 5. **Required output speed or ratio**
-6. **Maximum gearbox / assembly diameter and length**
+6. **Maximum gearhead / assembly diameter and length**
 7. **Load or torque, if known**
 
 If torque or an interface dimension is not known, a motor drawing or mechanism sketch is enough to start.
 
-[Start Gearbox-Only Project Brief](?path=gearbox_only){ .md-button .md-button--primary }
+[Start Gearhead-Only Project Brief](?path=gearbox_only){ .md-button .md-button--primary }
 
-### Path B: Complete Motor + Gearbox Assembly
+### Path B: Complete Motor + Gearhead Assembly
 
 Choose this path when the motor is still open and you want SigGear to evaluate the drive as one system.
 
@@ -69,12 +73,12 @@ For the first review, send:
 
 The final ratio does not need to be calculated before contacting us.
 
-[Start Motor + Gearbox Project Brief](?path=motor_gearbox){ .md-button .md-button--primary }
+[Start Motor + Gearhead Project Brief](?path=motor_gearbox){ .md-button .md-button--primary }
 
 You do not need a complete specification to start. Missing technical details can be narrowed after the first review.
 
-[Browse 8–42 mm Planetary Gearboxes](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
-[View Public Simplified 4-Stage STEP Files](engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
+[Browse 8–42 mm Planetary Gearheads](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
+[Browse 12 Gearhead PDF / 2D / STEP Files](engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 
 ### Start From the Application
 
@@ -161,8 +165,8 @@ Complete the project brief below and click **Send Engineering Request Online** t
       Project path
       <select id="sg-path" name="path">
         <option value="not_sure">Not sure — please recommend</option>
-        <option value="gearbox_only">Gearbox only — I already have a motor</option>
-        <option value="motor_gearbox">Complete motor + gearbox assembly</option>
+        <option value="gearbox_only">Gearhead only — I already have a motor</option>
+        <option value="motor_gearbox">Complete motor + gearhead assembly</option>
         <option value="joint_actuator">Robot joint actuator / cycloidal module</option>
         <option value="hub_gear_motor">Hub gear motor only (external controller required)</option>
       </select>
