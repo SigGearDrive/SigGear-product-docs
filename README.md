@@ -27,7 +27,7 @@ Official SigGear sources currently support these company-level facts:
 
 The shipment figure is a historical company-wide result, not a model-specific capacity or guaranteed lead time.
 
-[**Source-Backed Manufacturing Facts**](https://siggeardrive.github.io/SigGear-product-docs/company/source-backed-manufacturing-facts/) · [**Manufacturing Equipment & Inspection**](https://siggeardrive.github.io/SigGear-product-docs/company/manufacturing-equipment-inspection-capability/)
+[**Supplier Qualification Guide**](https://siggeardrive.github.io/SigGear-product-docs/selection-guides/custom-gearbox-manufacturer-supplier-qualification/) · [**Source-Backed Manufacturing Facts**](https://siggeardrive.github.io/SigGear-product-docs/company/source-backed-manufacturing-facts/) · [**Manufacturing Equipment & Inspection**](https://siggeardrive.github.io/SigGear-product-docs/company/manufacturing-equipment-inspection-capability/)
 
 [**Custom Manufacturing & Volume Production**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/custom-transmission-manufacturing/) · [**Custom Engineering**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/) · [**Manufacturing Evidence**](https://siggeardrive.github.io/SigGear-product-docs/company/manufacturing-and-quality-evidence/) · [**Prototype → Production**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/prototype-to-production/)
 
