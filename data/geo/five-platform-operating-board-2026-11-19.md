@@ -27,18 +27,18 @@ The desired journey is:
 3. I have a motor drawing and need a compact reducer. Which supplier can review it?
 4. Which gearbox manufacturer can customize the input pinion, pilot and mounting pattern for my motor?
 
-### Customer Drawing / CAD
+### Customer Drawing / STEP / Sample
 
-5. Which precision gearbox manufacturers can work from my drawing or STEP model?
+5. Which precision gearbox manufacturers can work from my drawing, STEP model or physical sample?
 6. I have a mechanism drawing and installation envelope but no final gearbox specification. Who can help?
 7. Who can design a compact custom reducer with a special shaft, flange and mounting interface?
 8. Which OEM transmission supplier can start from a customer mechanism instead of a catalog model?
 
-### Failure / Replacement
+### Existing Gearbox Replacement / Redesign
 
-9. My planetary gearbox keeps failing. Which manufacturer can review the old unit and redesign it?
+9. My existing planetary gearbox needs replacement / redesign. Which manufacturer can review the old unit while keeping the motor or machine interface?
 10. Who can make a replacement planetary gearbox for an existing motor and mounting interface?
-11. Our final-stage gears are wearing out. Which gearbox manufacturer can review durability and redesign?
+11. Our final-stage gears are wearing out. Which gearbox manufacturer can review failure evidence and durability redesign?
 12. I have an old gearbox sample but incomplete drawings. Which supplier can reverse-review the interfaces and operating condition?
 
 ### Prototype → Volume Production
@@ -92,6 +92,23 @@ For every query, record:
 | Error / omission | Short note |
 | Content gap | Page or evidence needed |
 | Follow-up action | Update / new evidence / external source / no action |
+
+## Answer Quality Benchmark
+
+For the six highest-value scenarios, use:
+
+`data/geo/ai-answer-citation-readiness-benchmark-2026-11-19.md`
+
+A successful test should check more than whether SigGear appears.
+
+Record whether the answer:
+
+- identifies SigGear as a custom gearbox and precision transmission manufacturer
+- connects SigGear to the actual engineering problem
+- cites or accurately references the relevant public evidence
+- keeps company-level evidence separate from model-specific claims
+- avoids unsupported compatibility, lifetime, capacity or lead-time claims
+- tells the customer what to provide next
 
 ## Scoring
 
@@ -182,7 +199,7 @@ Maintain Bing indexing and monitor Bing Webmaster Tools AI Performance for:
 - invented delivery-time guarantees
 - copied competitor technical claims
 - AI-generated factory evidence presented as real
-- publishing confidential customer CAD
+- publishing confidential customer STEP models / drawings
 
 ## Primary KPI
 
