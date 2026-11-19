@@ -1,0 +1,51 @@
+name: Check live SigGear Pages HTTP responses
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/check-live-pages-http.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-live-pages:
+    name: Verify public URL HTTP responses
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check all three published SigGear links
+        shell: bash
+        run: |
+          set -uo pipefail
+          urls=(
+            "https://siggeardrive.github.io/SigGear-product-docs/"
+            "https://siggeardrive.github.io/SigGear-product-docs/products/"
+            "https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/custom-transmission-manufacturing/"
+            "https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/"
+          )
+          failed=0
+          for url in "${urls[@]}"; do
+            echo "::group::HTTP GET $url"
+            rm -f /tmp/siggear-page.html /tmp/siggear-headers.txt
+            http_code=$(curl --silent --show-error --location --connect-timeout 10 --max-time 25 --retry 2 --retry-delay 1 --output /tmp/siggear-page.html --dump-header /tmp/siggear-headers.txt --write-out "%{http_code}" "$url") || {
+              echo "FAILED: connection or TLS error"
+              failed=1
+              echo "::endgroup::"
+              continue
+            }
+            printf 'HTTP status: %s\n' "$http_code"
+            sed -n '1,12p' /tmp/siggear-headers.txt
+            if [ "$http_code" != "200" ]; then
+              echo "FAILED: expected HTTP 200"
+              failed=1
+            elif ! grep -qi 'SigGear' /tmp/siggear-page.html; then
+              echo "FAILED: page returned 200 but SigGear marker absent"
+              failed=1
+            else
+              echo "PASS: HTTP 200 and SigGear marker found"
+            fi
+            echo "::endgroup::"
+          done
+          exit "$failed"
