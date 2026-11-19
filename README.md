@@ -1,6 +1,10 @@
-# SigGear | Precision Planetary Gearheads (8–42 mm)
+# SigGear | Custom Precision Transmission Manufacturing
 
-**OEM Supplier — DC/BLDC Motors · Precision Planetary Gearheads · Motor + Gearhead Assemblies**
+**Custom Engineering · OEM / ODM · Repeatable Volume Manufacturing · Precision Planetary Gearheads · Cycloidal Reducers · Robot Joint Actuators**
+
+SigGear's public standard products are engineering reference platforms, not the full scope of the company's work. Many customer-specific transmission products and production programs cannot be shown publicly because they are protected by confidentiality agreements. SigGear supports custom projects from requirement review and prototype development through design freeze, repeatable production and delivery planning.
+
+[**Custom Manufacturing & Volume Production**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/custom-transmission-manufacturing/) · [**Custom Engineering**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/) · [**Manufacturing Evidence**](https://siggeardrive.github.io/SigGear-product-docs/company/manufacturing-and-quality-evidence/) · [**Prototype → Production**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/prototype-to-production/)
 
 [**Motor Datasheets**](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/motors/) · [**Gearhead PDF / 2D / STEP**](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/) · [**Motor + Gearhead Integration**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/motor-gearbox-integration/) · [**Application Guides**](https://siggeardrive.github.io/SigGear-product-docs/applications/)
 
