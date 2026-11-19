@@ -59,4 +59,20 @@ for name, terms in focused_intent.items():
         assert term.lower() in body, (name, term)
     assert "## " in body and "pdf / step" in body.lower(), name
 
+# Check that engineering search intent stays specific rather than generic.
+round3_intent = {
+    "powered-screwdriver-planetary-gearbox.md": ("screw run-down", "momentary rating", "bit-holder"),
+    "hvac-smart-vent-damper-gear-motors.md": ("seal contact", "breakaway torque", "fire/smoke"),
+    "industrial-automation-servo-planetary-gearboxes.md": ("indexing fixture", "reversal backlash", "control loop"),
+    "packaging-labeling-conveyor-gear-motors.md": ("label-feeder roller", "line pull", "bearing support"),
+    "precision-instruments-optical-mechanisms.md": ("filter wheel", "optical stage", "lost motion"),
+    "optical-imaging-camera-module-gear-motors.md": ("focus barrel", "vibration", "direct drive"),
+    "medical-device-micro-gear-motors.md": ("non-patient-contact", "traceability", "risk controls"),
+    "laboratory-automation-diagnostic-equipment-gear-motors.md": ("reagent carousel", "sample-handling carriage", "splash boundary"),
+}
+for name, terms in round3_intent.items():
+    body = (APP / name).read_text(encoding="utf-8").lower()
+    assert all(word.lower() in body for word in terms), (name, terms)
+    assert "pdf" in body and "2d & step" in body, name
+
 print("PASS 32 concise supplier-first application pages, 3 supply routes, file links and legacy selector context")

@@ -1,9 +1,9 @@
 ---
-title: "Compact Automation Gearheads & Motors | SigGear"
-description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + gearhead assemblies for compact automation axes and machine adjustment. Compare real models, PDF datasheets, 2D and STEP."
+title: "Compact Automation Indexing Gearheads Ø20–42 mm | SigGear"
+description: "Compare 20P, 32P and 42P SigGear planetary gearheads for compact machine indexing, fixture positioning and auxiliary servo axes. View ratio, backlash and direct PDF/STEP CAD."
 ---
 
-# Compact Automation Gearheads & Motors
+# Compact Automation Indexing & Positioning Gearheads
 
 **SigGear is an OEM supplier of DC/BLDC motors, precision planetary gearheads (Ø8–42 mm), and motor + gearhead assemblies.**
 
@@ -11,11 +11,11 @@ description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + g
 [**Gearheads · PDF / 2D / STEP**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
 [**Motor + Gearhead Assemblies**](../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
-**Application:** Small machine axes can use a motor with a precision gearhead to trade speed for output torque. Accuracy and duty depend on the selected stage and full drive system.
+**Application:** An indexing fixture needs repeatable stopping and holding; a machine adjustment axis may instead need slow screw motion. A gearhead adds reduction but does not by itself provide servo positioning accuracy.
 
-**Engineering checks:** loaded motor rpm and target output rpm; positioning backlash and shaft load; continuous duty and motor thermal fit.
+**Engineering checks:** Choose stage ratio from loaded motor rpm and output speed; evaluate reversal backlash, duty cycle, output radial/axial loads, and the motor/encoder/control loop as a system.
 
-## Relevant Gearhead Models & Direct Downloads
+## Automation Indexing Gearheads — PDF, 2D & STEP
 
 | Size / model | Datasheet PDF | 2D drawing | Full STEP |
 | --- | --- | --- | --- |
@@ -24,5 +24,7 @@ description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + g
 | [42P · Ø42 mm](../products/planetary-gearboxes/42p-planetary-gearbox.md) | [PDF](../assets/downloads/42p/42P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D](../assets/downloads/42p/42P_2D_Drawing.pdf) | [STEP](../assets/downloads/42p/42P_Full_Assembly.step) |
 
 *The models above are initial size comparisons, not qualified application matches. Rated torque and length depend on the selected stage/ratio; check the model datasheet and mechanical interface. The public series is not claimed to meet a particular industrial servo accuracy class.*
+
+**Different application:** [Label feeding and mini conveyors](packaging-labeling-conveyor-gear-motors.md) primarily require roller traction and support, not just index repeatability.
 
 [**Find a Gearhead by Speed / Torque**](../selection-guides/planetary-gearhead-quick-selector.md) · [**All 12 Model Downloads**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [**Contact SigGear**](../request-cad-sample-quote.md)
