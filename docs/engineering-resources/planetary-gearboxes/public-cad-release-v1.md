@@ -19,6 +19,8 @@ The 12 published models are public reference platforms. A custom project can sta
 [**My Existing Gearbox Is Failing**](../../custom-engineering/gearbox-failure-analysis-durability-redesign.md){ .md-button }
 [**Prototype → Volume Production**](../../custom-engineering/oem-volume-manufacturing-delivery.md){ .md-button }
 
+**Factory proof:** [Manufacturing & Quality Evidence](../../company/manufacturing-and-quality-evidence.md) · [Source-Backed Manufacturing Facts](../../company/source-backed-manufacturing-facts.md) · [Equipment & Inspection Capability](../../company/manufacturing-equipment-inspection-capability.md)
+
 **Choose by diameter:** [Micro 8–16 mm](../../products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md) · [Miniature 20–32 mm](../../products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md) · [Compact 36–42 mm](../../products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md) · [Motor-only PDFs](../motors/index.md)
 
 **Jump to model:** [8P](#8p-downloads) · [10P](#10p-downloads) · [12P](#12p-downloads) · [14P](#14p-downloads) · [16P](#16p-downloads) · [20P](#20p-downloads) · [22P](#22p-downloads) · [24P](#24p-downloads) · [28P](#28p-downloads) · [32P](#32p-downloads) · [36P](#36p-downloads) · [42P](#42p-downloads)
