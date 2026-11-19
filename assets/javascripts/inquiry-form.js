@@ -215,6 +215,8 @@
       has_model_selection: value("sg-model") ? 1 : 0,
       has_application: value("sg-application") ? 1 : 0,
       has_failure_evidence: value("sg-failure-evidence") ? 1 : 0,
+      has_replacement_constraints: value("sg-must-keep") ? 1 : 0,
+      has_requested_changes: value("sg-needs-change") ? 1 : 0,
       has_output_requirement: value("sg-output") ? 1 : 0,
       has_load_requirement: value("sg-load") ? 1 : 0,
       has_size_limit: value("sg-size") ? 1 : 0,
@@ -268,7 +270,7 @@
         hasContext = true;
         var applicationField = document.getElementById("sg-application");
         if (applicationField && !applicationField.value) {
-          if (queryStart === "failing_gearbox") applicationField.value = "Existing gearbox / reducer failure and redesign review";
+          if (queryStart === "failing_gearbox") applicationField.value = "Existing gearbox replacement / redesign review";
           if (queryStart === "existing_motor") applicationField.value = "Existing motor + custom gearhead / transmission review";
           if (queryStart === "drawing_cad") applicationField.value = "Custom transmission review from customer drawing / STEP / physical sample";
           if (queryStart === "prototype_to_volume") applicationField.value = "Custom transmission prototype-to-volume production program";
@@ -319,7 +321,7 @@
 
       var queryNextStep = (params.get("next_step") || "").toLowerCase();
       if (queryNextStep === "cad_review" && nextStep) {
-        nextStep.value = "CAD / STEP review";
+        nextStep.value = "STEP / Drawing review";
         hasContext = true;
       }
 
@@ -435,7 +437,9 @@
     lines.push(
       "Project path: " + selectedText("sg-path"),
       "Application / what needs to move: " + (value("sg-application") || "Not provided"),
-      "Failure symptoms / worn parts: " + (value("sg-failure-evidence") || "Not applicable / not provided")
+      "Failure symptoms / worn parts: " + (value("sg-failure-evidence") || "Not applicable / not provided"),
+      "Must remain unchanged: " + (value("sg-must-keep") || "Not provided"),
+      "Needs to change: " + (value("sg-needs-change") || "Not provided")
     );
 
     if (["motor_gearbox","joint_actuator","hub_gear_motor"].indexOf(selectedPath) === -1) {
@@ -499,10 +503,10 @@
     }
     var prefix = subjectParts.length ? subjectParts.join(" - ") + " - " : "";
     var start = value("sg-starting-point");
-    if (start === "failing_gearbox") return prefix + "Existing Gearbox Failure / Replacement Review";
+    if (start === "failing_gearbox") return prefix + "Existing Gearbox Replacement / Redesign Review";
     if (start === "drawing_cad") return prefix + "Drawing / STEP / Sample Custom Transmission Review";
     if (start === "prototype_to_volume") return prefix + "Prototype to Volume Production Review";
-    if (start === "existing_motor") return prefix + "Existing Motor + Custom Gearhead Review";
+    if (start === "existing_motor") return prefix + "Existing Motor + Custom Gearbox Review";
     if (path.value === "gearbox_only") return prefix + "Planetary Gearbox Engineering Review";
     if (path.value === "motor_gearbox") return prefix + "Motor + Gearbox Engineering Review";
     if (path.value === "joint_actuator") return prefix + "Robot Joint / Cycloidal Module Engineering Review";

@@ -7912,7 +7912,7 @@
 <ul>
 <li><strong>“Here is my motor.”</strong> — the motor is already selected and the transmission must fit it.</li>
 <li><strong>“Here is our drawing / STEP / sample.”</strong> — the mechanism, STEP model, physical sample or installation envelope defines the starting interface.</li>
-<li><strong>“Our current gearbox keeps failing.”</strong> — an existing transmission needs replacement, durability review or redesign.</li>
+<li><strong>“Our existing gearbox needs replacement / redesign.”</strong> — the motor or machine interface may need to stay while ratio, output, durability or other gearbox details change.</li>
 <li><strong>“We need prototypes first, then volume production.”</strong> — the project needs a path from sample validation into repeatable manufacturing.</li>
 </ul>
 <p>If you already know a SigGear model, include it as a reference. If not, send the application and the information you already have. A complete specification is not required for the first review.</p>
@@ -7920,7 +7920,7 @@
 <a class="md-button" href="../engineering-resources/motors/"><strong>Browse Motor Datasheets · 37 PDFs</strong></a></p>
 <p><a class="md-button md-button--primary" href="?start=existing_motor&amp;path=gearbox_only"><strong>I Already Have a Motor</strong></a>
 <a class="md-button" href="?start=drawing_cad"><strong>I Have a Drawing / STEP / Sample</strong></a>
-<a class="md-button" href="?start=failing_gearbox&amp;path=gearbox_only"><strong>My Current Gearbox Is Failing</strong></a>
+<a class="md-button" href="?start=failing_gearbox&amp;path=gearbox_only"><strong>Replace / Redesign Existing Gearbox</strong></a>
 <a class="md-button" href="?start=prototype_to_volume"><strong>Prototype → Volume Production</strong></a></p>
 <p><strong>Supplier qualification:</strong> <a href="../company/manufacturing-and-quality-evidence/">Manufacturing &amp; Quality Evidence</a> · <a href="../company/source-backed-manufacturing-facts/">Source-Backed Manufacturing Facts</a> · <a href="../company/manufacturing-equipment-inspection-capability/">Equipment &amp; Inspection Capability</a></p>
 <p>For a project that starts from an idea, existing motor, mechanism or custom transmission problem, see the <a href="../custom-engineering/">Custom Precision Transmission Engineering</a> page first.</p>
@@ -7991,7 +7991,7 @@
         <option value="">Not sure yet</option>
         <option value="existing_motor">I already have a motor</option>
         <option value="drawing_cad">I have a drawing / STEP / sample / mechanism</option>
-        <option value="failing_gearbox">My current gearbox / reducer is failing</option>
+        <option value="failing_gearbox">My existing gearbox needs replacement / redesign</option>
         <option value="prototype_to_volume">Prototype first, then volume production</option>
         <option value="standard_product">I am evaluating a SigGear standard product</option>
       </select>
@@ -8060,8 +8060,20 @@
 
   <label>
     Failure symptoms / worn parts (if applicable)
-    <textarea id="sg-failure-evidence" name="failure_evidence" rows="3" placeholder="Example: final-stage gear wear after repeated cycles, backlash increasing, bearing damage, overheating, abnormal noise..."></textarea>
+    <textarea id="sg-failure-evidence" name="failure_evidence" rows="3" placeholder="Example: final-stage gear wear, backlash increasing, bearing damage, overheating, abnormal noise..."></textarea>
   </label>
+
+  <div class="siggear-form-grid">
+    <label>
+      What must remain unchanged?
+      <textarea id="sg-must-keep" name="must_keep" rows="3" placeholder="Example: keep existing motor, pilot, bolt pattern, total diameter and output shaft position"></textarea>
+    </label>
+
+    <label>
+      What needs to change?
+      <textarea id="sg-needs-change" name="needs_change" rows="3" placeholder="Example: change ratio / output speed, improve durability, shorten length, modify output shaft / flange"></textarea>
+    </label>
+  </div>
 
   <div id="sg-existing-motor-fields">
     <div class="siggear-form-grid">
@@ -8193,7 +8205,7 @@
       What do you need next?
       <select id="sg-next-step" name="next_step">
         <option value="Model recommendation">Model recommendation</option>
-        <option value="CAD / STEP review">CAD / STEP review</option>
+        <option value="STEP / Drawing review">STEP / Drawing review</option>
         <option value="Sample">Sample</option>
         <option value="Quotation">Quotation</option>
         <option value="Engineering review">Engineering review</option>
@@ -8240,7 +8252,7 @@
 <li><strong>Application</strong> — what is moving and where the gearbox / actuator will be installed</li>
 <li><strong>Required output</strong> — torque and speed if known</li>
 <li><strong>Installation limit</strong> — maximum diameter, length or a simple sketch if available</li>
-<li><strong>What you need next</strong> — model recommendation, CAD / STEP, drawing review, sample or quotation</li>
+<li><strong>What you need next</strong> — model recommendation, STEP / drawing review, sample, replacement review or quotation</li>
 </ol>
 <p>If you do not know the reduction ratio, send the motor speed and desired output speed if available.</p>
 <h2 id="helpful-information-when-available">Helpful Information When Available<a class="headerlink" href="#helpful-information-when-available" title="Permanent link">&para;</a></h2>
