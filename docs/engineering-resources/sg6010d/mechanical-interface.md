@@ -35,7 +35,7 @@ The published product visuals show a driver-equipped reference configuration; a 
 
 ## Controlled Drawing Reconciliation
 
-A supplier-provided 2D assembly drawing labelled **SG6010D** has been checked against the published envelope. The source PDF has **not** yet been released on this site as an engineering-approved, revision-controlled manufacturing drawing.
+A supplier-provided 2D assembly drawing labelled **SG6010D** has been checked against the published envelope. The **2D assembly source PDF is now published as a public engineering-reference copy**. Its publication does not constitute approval as a revision-controlled manufacturing drawing.
 
 The drawing confirms:
 
@@ -72,9 +72,11 @@ Before final mechanical design, confirm:
 
 [**Download SG-6010D Original Full Assembly STEP**](../../assets/downloads/joint-actuators/SG-6010D_Original_Full_Assembly_20261118.step){ .md-button .md-button--primary }
 
-There is no separate public simplified STEP for this model; the link above is the complete original assembly.
+[**Download 2D Assembly Reference PDF**](../../assets/downloads/joint-actuators/SG-6010D_2D_Assembly_Drawing.pdf){ .md-button }
 
-The uploaded 2D PDF is still in source verification and publication review. For packaging, tolerance stack-up or production design-in, request the current approved controlled drawing and configuration-matched CAD file.
+There is no separate public simplified STEP for this model; the STEP link above is the complete original assembly. The 2D PDF is a supplier reference, not a manufacturing-controlled release.
+
+The original supplier drawing is now linked as a non-controlled public 2D reference. For tolerance stack-up or production, request the approved configuration-matched controlled drawing.
 
 [Request Controlled Drawing / CAD](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
 
