@@ -9,6 +9,8 @@ description: Current gearbox keeps failing? SigGear can review the failed gearbo
 
 **Yes.** A gearbox failure review can start from the failed unit, old drawing, STEP model, worn-part photos, motor information or the operating condition already available.
 
+SigGear is a **custom gearbox and precision transmission manufacturer** that can review failure evidence together with the operating condition before evaluating a replacement or durability redesign.
+
 A gearbox that keeps failing should not be replaced from the model number alone.
 
 The first question is:
