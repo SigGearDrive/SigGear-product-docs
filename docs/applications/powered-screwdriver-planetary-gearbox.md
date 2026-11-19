@@ -5,26 +5,26 @@ description: "Compare SigGear 10P, 20P and 32P planetary gearheads for compact e
 
 # Electric Screwdriver Gearhead Selection — Ø10–32 mm
 
-**SigGear is an OEM supplier of DC/BLDC motors, precision planetary gearheads (Ø8–42 mm), and motor + gearhead assemblies.**
+**SigGear is an OEM supplier of Ø8–42 mm planetary gearheads, DC/BLDC motors and motor + gearhead assemblies.**
 
-[**Motors · Datasheets**](../engineering-resources/motors/index.md){ .md-button }
-[**Gearheads · PDF / 2D / STEP**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
-[**Motor + Gearhead Assemblies**](../custom-engineering/motor-gearbox-integration.md){ .md-button }
+<div class="siggear-app-quick" markdown="1">
 
-**Application:** A screwdriver spindle needs speed during screw run-down but can see a high torque peak at final seating. A gearhead's momentary rating is not a built-in clutch setting or an impact-tool qualification.
+## Direct Downloads — PDF / 2D / STEP
 
-**Engineering checks:** Compare fastener torque with the selected stage's rated and momentary limits; verify loaded spindle rpm, motor current limiting, bit-holder shaft load and repeated tightening duty.
-
-## Screwdriver Gearheads — Direct PDF, 2D & STEP
-
-| Size / model | Datasheet PDF | 2D drawing | Full STEP |
+| Model | Datasheet PDF | 2D drawing | Full STEP |
 | --- | --- | --- | --- |
-| [10P · Ø10 mm](../products/planetary-gearboxes/10p-planetary-gearbox.md) | [PDF](../assets/downloads/10p/10P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D](../assets/downloads/10p/10P_2D_Drawing.pdf) | [STEP](../assets/downloads/10p/10P_Full_Assembly.step) |
-| [20P · Ø20 mm](../products/planetary-gearboxes/20p-planetary-gearbox.md) | [PDF](../assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D](../assets/downloads/20p/20P_2D_Drawing.pdf) | [STEP](../assets/downloads/20p/20P_Full_Assembly.step) |
-| [32P · Ø32 mm](../products/planetary-gearboxes/32p-planetary-gearbox.md) | [PDF](../assets/downloads/32p/32P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D](../assets/downloads/32p/32P_2D_Drawing.pdf) | [STEP](../assets/downloads/32p/32P_Full_Assembly.step) |
+| [10P · Ø10 mm](../products/planetary-gearboxes/10p-planetary-gearbox.md) | [**↓ PDF**](../assets/downloads/10p/10P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**↓ 2D**](../assets/downloads/10p/10P_2D_Drawing.pdf) | [**↓ STEP**](../assets/downloads/10p/10P_Full_Assembly.step) |
+| [20P · Ø20 mm](../products/planetary-gearboxes/20p-planetary-gearbox.md) | [**↓ PDF**](../assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**↓ 2D**](../assets/downloads/20p/20P_2D_Drawing.pdf) | [**↓ STEP**](../assets/downloads/20p/20P_Full_Assembly.step) |
+| [32P · Ø32 mm](../products/planetary-gearboxes/32p-planetary-gearbox.md) | [**↓ PDF**](../assets/downloads/32p/32P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**↓ 2D**](../assets/downloads/32p/32P_2D_Drawing.pdf) | [**↓ STEP**](../assets/downloads/32p/32P_Full_Assembly.step) |
 
-*The models above are initial size comparisons, not qualified application matches. Rated torque and length depend on the selected stage/ratio; check the model datasheet and mechanical interface. Torque settings and tool certifications are not supplied by the standard gearhead alone.*
+</div>
 
-**Different load case:** [Electric pruning shears](electric-pruning-shears-planetary-gearbox.md) need cutting-load and blocked-blade analysis rather than screw seating torque.
+**Application:** A screw run-down needs spindle speed; final seating can produce sharp torque peaks.
 
-[**Find a Gearhead by Speed / Torque**](../selection-guides/planetary-gearhead-quick-selector.md) · [**All 12 Model Downloads**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [**Contact SigGear**](../request-cad-sample-quote.md)
+**Check:** Check momentary rating versus duty, bit-holder shaft load, current limiting and clutch design.
+
+*Candidate sizes only. Rated torque and length depend on the selected stage/ratio; verify motor coupling and mechanical interface. No calibrated torque clutch or tool certification.*
+
+[Motor PDFs](../engineering-resources/motors/index.md) · [Gearhead CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [Motor + Gearhead](../custom-engineering/motor-gearbox-integration.md) · [Selector](../selection-guides/planetary-gearhead-quick-selector.md) · [Contact](../request-cad-sample-quote.md)
+
+**Related:** [Electric pruning shears](electric-pruning-shears-planetary-gearbox.md)

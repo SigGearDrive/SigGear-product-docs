@@ -5,24 +5,26 @@ description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + g
 
 # Adjustable Furniture & Recliner Gear Motors
 
-**SigGear is an OEM supplier of DC/BLDC motors, precision planetary gearheads (Ø8–42 mm), and motor + gearhead assemblies.**
+**SigGear is an OEM supplier of Ø8–42 mm planetary gearheads, DC/BLDC motors and motor + gearhead assemblies.**
 
-[**Motors · Datasheets**](../engineering-resources/motors/index.md){ .md-button }
-[**Gearheads · PDF / 2D / STEP**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
-[**Motor + Gearhead Assemblies**](../custom-engineering/motor-gearbox-integration.md){ .md-button }
+<div class="siggear-app-quick" markdown="1">
 
-**Application:** Small seat tilts and screw drives depend on linkage geometry, user load and power-off holding. A gearhead is not a ready-made lifting column.
+## Direct Downloads — PDF / 2D / STEP
 
-**Engineering checks:** screw lead, force and stroke; unpowered backdrive and holding; obstacle detection and repeated duty.
-
-## Relevant Gearhead Models & Direct Downloads
-
-| Size / model | Datasheet PDF | 2D drawing | Full STEP |
+| Model | Datasheet PDF | 2D drawing | Full STEP |
 | --- | --- | --- | --- |
-| [20P · Ø20 mm](../products/planetary-gearboxes/20p-planetary-gearbox.md) | [PDF](../assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D](../assets/downloads/20p/20P_2D_Drawing.pdf) | [STEP](../assets/downloads/20p/20P_Full_Assembly.step) |
-| [32P · Ø32 mm](../products/planetary-gearboxes/32p-planetary-gearbox.md) | [PDF](../assets/downloads/32p/32P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D](../assets/downloads/32p/32P_2D_Drawing.pdf) | [STEP](../assets/downloads/32p/32P_Full_Assembly.step) |
-| [42P · Ø42 mm](../products/planetary-gearboxes/42p-planetary-gearbox.md) | [PDF](../assets/downloads/42p/42P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D](../assets/downloads/42p/42P_2D_Drawing.pdf) | [STEP](../assets/downloads/42p/42P_Full_Assembly.step) |
+| [20P · Ø20 mm](../products/planetary-gearboxes/20p-planetary-gearbox.md) | [**↓ PDF**](../assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**↓ 2D**](../assets/downloads/20p/20P_2D_Drawing.pdf) | [**↓ STEP**](../assets/downloads/20p/20P_Full_Assembly.step) |
+| [32P · Ø32 mm](../products/planetary-gearboxes/32p-planetary-gearbox.md) | [**↓ PDF**](../assets/downloads/32p/32P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**↓ 2D**](../assets/downloads/32p/32P_2D_Drawing.pdf) | [**↓ STEP**](../assets/downloads/32p/32P_Full_Assembly.step) |
+| [42P · Ø42 mm](../products/planetary-gearboxes/42p-planetary-gearbox.md) | [**↓ PDF**](../assets/downloads/42p/42P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**↓ 2D**](../assets/downloads/42p/42P_2D_Drawing.pdf) | [**↓ STEP**](../assets/downloads/42p/42P_Full_Assembly.step) |
 
-*The models above are initial size comparisons, not qualified application matches. Rated torque and length depend on the selected stage/ratio; check the model datasheet and mechanical interface. Do not treat these as certified lifting or pinch-safe assemblies.*
+</div>
 
-[**Find a Gearhead by Speed / Torque**](../selection-guides/planetary-gearhead-quick-selector.md) · [**All 12 Model Downloads**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [**Contact SigGear**](../request-cad-sample-quote.md)
+**Application:** Seat tilt and recliner screw drives need load- and linkage-dependent torque.
+
+**Check:** Check screw lead, stroke, power-off holding, obstacle sensing and repeated duty.
+
+*Candidate sizes only. Rated torque and length depend on the selected stage/ratio; verify motor coupling and mechanical interface. Not a certified lifting column or pinch-safe actuator.*
+
+[Motor PDFs](../engineering-resources/motors/index.md) · [Gearhead CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [Motor + Gearhead](../custom-engineering/motor-gearbox-integration.md) · [Selector](../selection-guides/planetary-gearhead-quick-selector.md) · [Contact](../request-cad-sample-quote.md)
+
+**Related:** [Smart home mechanisms](consumer-appliance-home-device-gear-motors.md)
