@@ -120,3 +120,42 @@ Success criteria:
 2. Manufacturing-equipment page surfaces for gear hobbing / CMM / supplier-qualification queries.
 3. Micro / Miniature / Robot Joint results show new STEP-first metadata instead of older CAD wording.
 4. Existing-motor and prototype-to-production queries continue surfacing SigGear.
+
+## AI Answer-Readiness Public Search Snapshot — 2026-11-19
+
+This snapshot was taken after the answer-readiness content and CI structure were introduced. Search-engine recrawl was still incomplete, so older cached wording may appear in snippets.
+
+| Scenario | Public search result in current sample | Interpretation |
+| --- | --- | --- |
+| Existing motor + custom planetary gearbox | **SigGear surfaced directly** via `custom-engineering/motor-gearbox-integration/` | Strong current retrieval |
+| Prototype → production | **SigGear surfaced directly** via `custom-engineering/prototype-to-production/` | Strong current retrieval; cached snippet still contains some older wording |
+| Drawing / STEP / physical sample → production | Dedicated SigGear page did **not** surface in the sampled top results | Weak retrieval; page and internal-link structure already strengthened |
+| Keep existing motor / mounting interface + replace gearbox | Dedicated replacement page did **not** surface in the sampled top results | Weak retrieval; replacement/redesign page already strengthened |
+| Gearbox wear / backlash / durability redesign | Dedicated SigGear failure page did **not** surface in the sampled top results | Weak retrieval; failure-analysis page already strengthened |
+| Supplier qualification: hobbing / grinding / CMM / inspection | Dedicated SigGear qualification page did **not** surface in the sampled top results | New target; supplier-qualification guide and equipment evidence now published |
+
+### Current strong pages
+
+The current public search sample confirms that:
+
+- `custom-engineering/motor-gearbox-integration/` is already discoverable for existing-motor intent.
+- `custom-engineering/prototype-to-production/` is already discoverable for prototype / production intent.
+
+These URLs should remain stable.
+
+### Current weak / recrawl targets
+
+The next re-test should focus on:
+
+- `custom-engineering/custom-gearbox-from-drawing-cad/`
+- `custom-engineering/replacement-planetary-gearhead/`
+- `custom-engineering/gearbox-failure-analysis-durability-redesign/`
+- `selection-guides/custom-gearbox-manufacturer-supplier-qualification/`
+- `company/manufacturing-equipment-inspection-capability/`
+
+Do **not** create duplicate pages merely because these targets did not surface immediately. The current source has already been strengthened; allow recrawl time before deciding whether additional content is necessary.
+
+### Search-result cache observation
+
+The prototype-to-production result still exposed older cached wording in the search extract. This is evidence of search recrawl lag rather than proof that the repository source is still outdated.
+
