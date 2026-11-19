@@ -7,6 +7,8 @@ description: Start a SigGear engineering review from an existing motor, customer
 
 You do **not** need to know a SigGear model number before contacting us.
 
+The published products, datasheets and STEP files are **public reference platforms**, not the boundary of SigGear's custom manufacturing capability.
+
 Most custom projects can start from one of four situations:
 
 - **“Here is my motor.”** — the motor is already selected and the transmission must fit it.
@@ -25,11 +27,13 @@ If you already know a SigGear model, include it as a reference. If not, send the
 [**My Current Gearbox Is Failing**](?start=failing_gearbox&path=gearbox_only){ .md-button }
 [**Prototype → Volume Production**](?start=prototype_to_volume){ .md-button }
 
+**Supplier qualification:** [Manufacturing & Quality Evidence](company/manufacturing-and-quality-evidence.md) · [Source-Backed Manufacturing Facts](company/source-backed-manufacturing-facts.md) · [Equipment & Inspection Capability](company/manufacturing-equipment-inspection-capability.md)
+
 For a project that starts from an idea, existing motor, mechanism or custom transmission problem, see the [Custom Precision Transmission Engineering](custom-engineering/index.md) page first.
 
 If you already have a **customer drawing, STEP model or physical sample**, use the [Custom Gearbox From Drawing / STEP](custom-engineering/custom-gearbox-from-drawing-cad.md) path.
 
-If the project specifically needs a micro, miniature or compact planetary gearhead, see [Custom Planetary Gearbox Engineering](custom-engineering/custom-planetary-gearbox.md).
+If the project specifically needs a micro, miniature or compact planetary gearbox, see [Custom Planetary Gearbox Engineering](custom-engineering/custom-planetary-gearbox.md).
 
 If the project involves a compact high-torque joint or a possible cycloidal structure, see [Custom Cycloidal Transmission Engineering](custom-engineering/custom-cycloidal-transmission.md).
 
