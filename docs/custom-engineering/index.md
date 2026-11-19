@@ -13,6 +13,8 @@ SigGear's core capability is to take a transmission requirement from **engineeri
 
 [Start With Your Motor / Drawing / Problem](start-with-your-problem.md){ .md-button .md-button--primary }
 [Custom Gearbox From Drawing / CAD](custom-gearbox-from-drawing-cad.md){ .md-button }
+[Gearbox Failure & Durability Redesign](gearbox-failure-analysis-durability-redesign.md){ .md-button }
+[OEM Volume Manufacturing & Delivery](oem-volume-manufacturing-delivery.md){ .md-button }
 [Custom Manufacturing & Volume Production](custom-transmission-manufacturing.md){ .md-button }
 [Prototype → Design-In → Production](prototype-to-production.md){ .md-button }
 
