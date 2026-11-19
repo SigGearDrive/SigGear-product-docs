@@ -1,0 +1,73 @@
+/* Direct model files are the primary action, not hub navigation. */
+.md-typeset .siggear-app-quick {
+  margin: .35rem 0 .65rem;
+}
+.md-typeset .siggear-app-quick h2 {
+  font-size: 1rem;
+  margin: .4rem 0 .3rem;
+}
+.md-typeset .siggear-app-quick table {
+  width: 100%;
+  margin: .25rem 0 .6rem;
+}
+.md-typeset .siggear-app-quick td,
+.md-typeset .siggear-app-quick th {
+  padding: .4rem .42rem;
+  vertical-align: middle;
+}
+.md-typeset .siggear-app-quick td:first-child {
+  white-space: nowrap;
+  font-weight: 700;
+}
+.md-typeset .siggear-app-quick td:not(:first-child) a {
+  display: inline-block;
+  min-width: 3.45rem;
+  border-radius: .28rem;
+  padding: .3rem .45rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  background: var(--md-code-bg-color);
+  color: var(--md-typeset-a-color);
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+.md-typeset .siggear-app-quick td:not(:first-child) a:hover,
+.md-typeset .siggear-app-quick td:not(:first-child) a:focus-visible {
+  border-color: var(--md-accent-fg-color);
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 1px;
+}
+@media (max-width: 43rem) {
+  .md-typeset .siggear-app-quick table,
+  .md-typeset .siggear-app-quick tbody {
+    display: block;
+    width: 100%;
+  }
+  .md-typeset .siggear-app-quick thead { display: none; }
+  .md-typeset .siggear-app-quick tbody tr {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: .2rem;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: .3rem;
+    margin-bottom: .5rem;
+    padding: .4rem .45rem;
+  }
+  .md-typeset .siggear-app-quick tbody td {
+    display: block;
+    min-width: 0;
+    padding: .08rem;
+    border: none;
+    text-align: center;
+  }
+  .md-typeset .siggear-app-quick tbody td:first-child {
+    grid-column: 1 / -1;
+    text-align: left;
+    padding-bottom: .15rem;
+  }
+  .md-typeset .siggear-app-quick tbody td:not(:first-child) a {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+}
