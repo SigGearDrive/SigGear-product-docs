@@ -10,7 +10,7 @@ description: "Compare SigGear 20P–32P miniature planetary gearboxes by diamete
 [**Find by Motor RPM / Output RPM / Torque**](../../selection-guides/planetary-gearhead-quick-selector.md){ .md-button .md-button--primary }
 [**I Already Have a Motor**](../../custom-engineering/custom-planetary-gearbox.md){ .md-button }
 [**I Have a Drawing / STEP**](../../custom-engineering/custom-gearbox-from-drawing-cad.md){ .md-button }
-[**My Existing Gearbox Is Failing**](../../custom-engineering/gearbox-failure-analysis-durability-redesign.md){ .md-button }
+[**Replace / Redesign Existing Gearbox**](../../custom-engineering/gearbox-failure-analysis-durability-redesign.md){ .md-button }
 [**Prototype → Volume Production**](../../custom-engineering/oem-volume-manufacturing-delivery.md){ .md-button }
 
 ## Direct PDF and STEP Downloads
