@@ -9,7 +9,7 @@ For a dexterous hand, robotic finger or compact gripper, the gearhead should be 
 
 SigGear publishes five micro planetary gearhead frame sizes from **Ø8 mm to Ø16 mm**. These are engineering starting points for compact mechanisms; they are **not claims that every model is already qualified for a specific robotic hand**.
 
-[**Find a Gearhead by Motor RPM / Output RPM / Torque**](../selection-guides/planetary-gearhead-quick-selector.md){ .md-button .md-button--primary }
+[**Find a Gearhead by Motor RPM / Output RPM / Torque**](../selection-guides/planetary-gearhead-quick-selector.md?app=dexterous_hand_gripper#preliminary-ratio-stage-finder){ .md-button .md-button--primary }
 [**All 8–42 mm PDF / 2D / STEP Downloads**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 [**Already have a motor? Send the motor for matching**](../custom-engineering/custom-planetary-gearbox.md){ .md-button }
 
