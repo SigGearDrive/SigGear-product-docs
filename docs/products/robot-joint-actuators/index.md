@@ -8,6 +8,8 @@ description: Compare SG-6010C, SG-6010D and SG-8021 actuator sizes, torque and s
 **Select a model and download its engineering files.** Rated / peak torque values are different duty ratings.
 
 [**All 6 Robot Joint Datasheets, 2D & STEP**](../../engineering-resources/robot-joint-actuators/quick-downloads.md){ .md-button .md-button--primary }
+[**Supplier Evaluation Checklist**](../../selection-guides/robot-joint-supplier-evaluation.md){ .md-button }
+[**CAN / Encoder / Driver Guide**](../../selection-guides/robot-joint-can-encoder-driver-selection.md){ .md-button }
 
 <div class="siggear-joint-downloads" markdown="1">
 
