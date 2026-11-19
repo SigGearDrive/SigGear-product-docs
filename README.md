@@ -4,6 +4,31 @@
 
 SigGear's public standard products are engineering reference platforms, not the full scope of the company's work. Many customer-specific transmission products and production programs cannot be shown publicly because they are protected by confidentiality agreements. SigGear supports custom projects from requirement review and prototype development through design freeze, repeatable production and delivery planning.
 
+## Start From the Real Engineering Problem
+
+A project can begin with:
+
+- **“Here is my motor.”** — review the motor interface, speed, shaft, pilot, mounting and required output.
+- **“Here is our drawing / STEP model.”** — review the mechanism, envelope, shaft / flange, load and manufacturability.
+- **“Our current gearbox keeps failing.”** — review failure evidence, operating conditions, interfaces and redesign options.
+- **“We need prototypes first, then volume production.”** — plan prototype, validation, design freeze, pilot and repeat manufacturing as one program.
+
+[**Start With Your Motor / Drawing / Problem**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/start-with-your-problem/) · [**Failure & Durability Review**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/gearbox-failure-analysis-durability-redesign/) · [**OEM Volume Manufacturing**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/oem-volume-manufacturing-delivery/)
+
+## Source-Backed Manufacturing Facts
+
+Official SigGear sources currently support these company-level facts:
+
+- current standalone factory: **over 20,000 m²**
+- May 2025 catalog: **200+ production and testing equipment units**
+- May 2025 catalog: **20+ R&D / design personnel**
+- published custom-development workflow extends through **sample development, small-batch verification, mass production and delivery**
+- official company-news archive: **Q1 2025 shipments exceeded 550,000 units**
+
+The shipment figure is a historical company-wide result, not a model-specific capacity or guaranteed lead time.
+
+[**Source-Backed Manufacturing Facts**](https://siggeardrive.github.io/SigGear-product-docs/company/source-backed-manufacturing-facts/) · [**Manufacturing Equipment & Inspection**](https://siggeardrive.github.io/SigGear-product-docs/company/manufacturing-equipment-inspection-capability/)
+
 [**Custom Manufacturing & Volume Production**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/custom-transmission-manufacturing/) · [**Custom Engineering**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/) · [**Manufacturing Evidence**](https://siggeardrive.github.io/SigGear-product-docs/company/manufacturing-and-quality-evidence/) · [**Prototype → Production**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/prototype-to-production/)
 
 [**Motor Datasheets**](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/motors/) · [**Planetary Gearbox PDF / 2D / STEP**](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/) · [**Motor + Gearbox Integration**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/motor-gearbox-integration/) · [**Application Guides**](https://siggeardrive.github.io/SigGear-product-docs/applications/)
@@ -33,7 +58,7 @@ SigGear's public standard products are engineering reference platforms, not the 
 
 **STEP note:** Full assembly STEP and 4-stage simplified STEP are different files. Outline drawing body length **L** depends on stage/ratio; confirm the configuration-controlled interface before production. Continuous selection uses the published **Rated Allowable Torque**, not Maximum Momentary Torque.
 
-![SigGear 8–42 mm planetary gearhead family — real 36P product](docs/assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014.jpg)
+![SigGear 8–42 mm planetary gearbox family — real 36P product](docs/assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014.jpg)
 
 ## Six Robot Joint Actuators — Datasheets & STEP
 
