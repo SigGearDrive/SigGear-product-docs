@@ -35,6 +35,11 @@ Driver, absolute encoder, communication and closed-loop control hardware are not
 
 ## CAD and Controlled Drawing
 
+[**Download 2D Reference Drawing PDF · SG2368B**](../../assets/downloads/joint-actuators/CPM-78-39_SG2368B_2D_Reference_Drawing.pdf){ .md-button .md-button--primary }
+
+The source sheet is marked **SG2368B**. Its published Ø78.7 × 35.8 mm, 39:1 reference values match this model; confirm the internal code/variant and production revision before manufacturing.
+
+
 A controlled 2D drawing is available.
 
 [**Download CPM-78-39 Original Full Assembly STEP**](../../assets/downloads/joint-actuators/CPM-78-39_Original_Full_Assembly_20261118.step){ .md-button .md-button--primary }
