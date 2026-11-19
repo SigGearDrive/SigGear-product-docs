@@ -47,8 +47,8 @@ def main():
     # Customer-facing wording may change, but the legacy query/form machine
     # values must stay stable for historical product deep links and prefill.
     requirements = (
-        ('value="gearbox_only">Gearhead only', "Gearhead-only label missing"),
-        ('value="motor_gearbox">Complete motor + gearhead assembly', "Motor + Gearhead label missing"),
+        ('value="gearbox_only">Planetary gearbox', "Planetary gearbox label missing"),
+        ('value="motor_gearbox">Complete motor + gearbox assembly', "Motor + Gearbox label missing"),
         ('href="#engineering-project-brief"', "First-screen form jump missing"),
         ('id="engineering-project-brief"', "Engineering brief anchor missing"),
         ("engineering-resources/motors/", "Motor Datasheet shortcut missing"),
@@ -56,11 +56,11 @@ def main():
     for marker, message in requirements:
         if marker not in doc:
             raise ValueError(message)
-    if "Gearbox only — I already have a motor" in doc:
-        raise ValueError("Legacy Gearbox-only customer label still present")
+    if "Gearhead only — I already have a motor" in doc:
+        raise ValueError("Legacy Gearhead-only customer label still present")
     js_path = ROOT / "docs/assets/javascripts/inquiry-form.js"
     js = js_path.read_text(encoding="utf-8")
-    for label in ("Gearhead Only Engineering Review", "Motor + Gearhead Engineering Review"):
+    for label in ("Planetary Gearbox Engineering Review", "Motor + Gearbox Engineering Review"):
         if label not in js:
             raise ValueError("Outdated customer email subject: " + label)
     for code in ('"gearbox_only"', '"motor_gearbox"'):
