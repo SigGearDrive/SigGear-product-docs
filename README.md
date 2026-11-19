@@ -1,20 +1,20 @@
 # SigGear | Custom Precision Transmission Manufacturing
 
-**Custom Engineering · OEM / ODM · Repeatable Volume Manufacturing · Precision Planetary Gearheads · Cycloidal Reducers · Robot Joint Actuators**
+**Custom Engineering · OEM / ODM · Repeatable Volume Manufacturing · Precision Planetary Gearboxes · Cycloidal Reducers · Robot Joint Actuators**
 
 SigGear's public standard products are engineering reference platforms, not the full scope of the company's work. Many customer-specific transmission products and production programs cannot be shown publicly because they are protected by confidentiality agreements. SigGear supports custom projects from requirement review and prototype development through design freeze, repeatable production and delivery planning.
 
 [**Custom Manufacturing & Volume Production**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/custom-transmission-manufacturing/) · [**Custom Engineering**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/) · [**Manufacturing Evidence**](https://siggeardrive.github.io/SigGear-product-docs/company/manufacturing-and-quality-evidence/) · [**Prototype → Production**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/prototype-to-production/)
 
-[**Motor Datasheets**](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/motors/) · [**Gearhead PDF / 2D / STEP**](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/) · [**Motor + Gearhead Integration**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/motor-gearbox-integration/) · [**Application Guides**](https://siggeardrive.github.io/SigGear-product-docs/applications/)
+[**Motor Datasheets**](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/motors/) · [**Planetary Gearbox PDF / 2D / STEP**](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/) · [**Motor + Gearbox Integration**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/motor-gearbox-integration/) · [**Application Guides**](https://siggeardrive.github.io/SigGear-product-docs/applications/)
 
-**12 models · Micro / Miniature / Compact · PDF datasheets · 2D drawings · Full STEP CAD**
+**12 models · Micro / Miniature / Compact · PDF datasheets · 2D drawings · Full STEP files**
 
 [**Download all model files**](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/) · [**Compare 12 models**](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/) · [**Quick Ratio / Torque Selector + Downloads**](https://siggeardrive.github.io/SigGear-product-docs/selection-guides/planetary-gearhead-quick-selector/)
 
 **Select by size:** [Micro 8–16 mm](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/micro-planetary-gearheads-8-16mm/) · [Miniature 20–32 mm](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm/) · [Compact 36–42 mm](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/compact-planetary-gearheads-36-42mm/)
 
-## Direct Downloads — 12 Gearhead Sizes
+## Direct Downloads — 12 Planetary Gearbox Sizes
 
 | Model / nominal diameter | Datasheet PDF | Original 2D outline | Full Assembly STEP | Online specs |
 | --- | --- | --- | --- | --- |
@@ -31,23 +31,23 @@ SigGear's public standard products are engineering reference platforms, not the 
 | [36P · Ø36 mm](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/36p-planetary-gearbox/) | [PDF](https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/36p/36P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D Drawing](https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/36p/36P_2D_Drawing.pdf) | [Full STEP](https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/36p/36P_Full_Assembly.step) | [Specs & ratios](docs/products/planetary-gearboxes/36p-planetary-gearbox.md) |
 | [42P · Ø42 mm](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/42p-planetary-gearbox/) | [PDF](https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/42p/42P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D Drawing](https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/42p/42P_2D_Drawing.pdf) | [Full STEP](https://siggeardrive.github.io/SigGear-product-docs/assets/downloads/42p/42P_Full_Assembly.step) | [Specs & ratios](docs/products/planetary-gearboxes/42p-planetary-gearbox.md) |
 
-**CAD note:** Full assembly STEP and 4-stage simplified STEP are different files. Outline drawing body length **L** depends on stage/ratio; confirm the configuration-controlled interface before production. Continuous selection uses the published **Rated Allowable Torque**, not Maximum Momentary Torque.
+**STEP note:** Full assembly STEP and 4-stage simplified STEP are different files. Outline drawing body length **L** depends on stage/ratio; confirm the configuration-controlled interface before production. Continuous selection uses the published **Rated Allowable Torque**, not Maximum Momentary Torque.
 
 ![SigGear 8–42 mm planetary gearhead family — real 36P product](docs/assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014.jpg)
 
-## Six Robot Joint Actuators — Datasheets & CAD
+## Six Robot Joint Actuators — Datasheets & STEP
 
-[**Download six joint module reference PDFs and released STEP CAD**](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/robot-joint-actuators/quick-downloads/)
+[**Download six joint module reference PDFs and released STEP files**](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/robot-joint-actuators/quick-downloads/)
 
 | Planetary actuator models | Cycloidal joint module models |
 | --- | --- |
 | [SG-6010C](https://siggeardrive.github.io/SigGear-product-docs/products/robot-joint-actuators/sg6010c/), [SG-6010D](https://siggeardrive.github.io/SigGear-product-docs/products/robot-joint-actuators/sg6010d/), [SG-8021](https://siggeardrive.github.io/SigGear-product-docs/products/robot-joint-actuators/sg8021/) | [CPM-78-39](https://siggeardrive.github.io/SigGear-product-docs/products/cycloidal-joint-modules/cpm78-39/), [CPM-80-25](https://siggeardrive.github.io/SigGear-product-docs/products/cycloidal-joint-modules/cpm80-25/), [CPM-100-25](https://siggeardrive.github.io/SigGear-product-docs/products/cycloidal-joint-modules/cpm100-25/) |
 
-**CAD release scope:** Original full-assembly STEP now available across all six standard joint models, including separate CPM-80-25 no-driver/integrated-driver and CPM-100-25 standard 29.5 mm/dual-encoder driver 48 mm variants. Existing simplified STEP remains separately available for SG-6010C and CPM-80-25. Public reference PDFs and original STEP exports are not configuration-controlled production drawings.
+**STEP release scope:** Original full-assembly STEP now available across all six standard joint models, including separate CPM-80-25 no-driver/integrated-driver and CPM-100-25 standard 29.5 mm/dual-encoder driver 48 mm variants. Existing simplified STEP remains separately available for SG-6010C and CPM-80-25. Public reference PDFs and original STEP exports are not configuration-controlled production drawings.
 
 ## Other Engineering Resources
 
-[Motor-only Datasheets](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/motors/) · [Motor + Gearhead Integration](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/motor-gearbox-integration/) · [Full CAD / 2D / Datasheet download centre](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/)
+[Motor-only Datasheets](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/motors/) · [Motor + Gearhead Integration](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/motor-gearbox-integration/) · [STEP / 2D / Datasheet download centre](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/)
 
 **Other product families:** [Robot Joint Actuators](https://siggeardrive.github.io/SigGear-product-docs/products/robot-joint-actuators/) · [Cycloidal Joint Modules](https://siggeardrive.github.io/SigGear-product-docs/products/cycloidal-joint-modules/) · [Hub Gear Motors](https://siggeardrive.github.io/SigGear-product-docs/products/hub-gear-motors/)
 
