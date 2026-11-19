@@ -51,6 +51,7 @@ Current public sources include:
 For source links, date context and interpretation boundaries:
 
 [Source-Backed Manufacturing Facts](source-backed-manufacturing-facts.md){ .md-button .md-button--primary }
+[Manufacturing Equipment & Inspection Capability](manufacturing-equipment-inspection-capability.md){ .md-button }
 
 ## How This Manufacturing Evidence Relates to Custom and Volume Programs
 
