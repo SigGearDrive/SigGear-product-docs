@@ -1,55 +1,32 @@
 ---
-title: CPM-78-39 Mechanical Interface | Controlled Drawing Reference | SigGear
-description: Public CPM-78-39 mechanical evaluation reference based on a controlled SigGear drawing for packaging and early design-in.
+title: CPM-78-39 Mechanical Interface | Public Engineering Reference | SigGear
+description: CPM-78-39 public envelope, original full assembly STEP and current 2D source-drawing verification status.
 ---
 
-# CPM-78-39 Mechanical Interface v1.0
+# CPM-78-39 | Mechanical Interface
 
-**Status:** Public engineering evaluation reference  
-**Release date:** 2026-10-06
+**Status:** Public evaluation reference · source review updated 2026-11-19
 
-This page summarizes packaging information from the controlled CPM-78-39 mechanical drawing used for engineering review.
-
-!!! warning
-    This page is not a manufacturing drawing. Final tolerances, mounting details and any configuration-specific deviation must be confirmed from the current controlled drawing supplied for the order.
-
-## Controlled Envelope
-
-| Item | Controlled value |
-| --- | --- |
+| Published specification | Value |
+| --- | ---: |
 | Maximum body diameter | 78.7 mm |
 | Overall product thickness | 35.8 mm |
+| Nominal reduction ratio | 39:1 |
 | Product weight | 600 g |
 
-## Drawing-Level Interface Information
+!!! warning "2D manufacturing drawing is not yet released"
+    A newly supplied drawing is identified internally as **SG2368B**, not CPM-78-39. Its **39:1** reduction ratio and **Ø78.7 × 35.8 mm** envelope agree with the public CPM-78-39 reference. However, the model-code cross-reference and exact mounting variant still require engineering sign-off. Do not treat this source as the approved CPM-78-39 manufacturing drawing, or use its mounting details as final production tolerances.
 
-The controlled drawing includes defined output-side and housing mounting patterns, connector lead arrangement and dimensional tolerances.
-
-For final design-in, request the controlled drawing rather than deriving production geometry from website images.
-
-## Configuration Boundary
-
-The reviewed drawing represents the 39:1, 36 V, 200 W Hall-sensor configuration corresponding to the current CPM-78-39 public product record.
-
-Driver, absolute encoder, communication and closed-loop control hardware are not treated as standard unless separately confirmed.
-
-## CAD and Controlled Drawing
-
-A controlled 2D drawing is available.
+## Download original full-assembly CAD
 
 [**Download CPM-78-39 Original Full Assembly STEP**](../../assets/downloads/joint-actuators/CPM-78-39_Original_Full_Assembly_20261118.step){ .md-button .md-button--primary }
 
-The published STEP is the **original full assembly** rather than a simplified model; controlled 2D production drawing remains configuration-specific.
+**STEP scope:** Original full assembly, published 2026-11-18 for preliminary mechanical evaluation. A separately released, revision-controlled 2D mounting/production drawing is not currently available here.
 
-[Request Controlled Drawing / CAD](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+## Configuration
 
-## Related Resource
+Published CPM-78-39 reference: **36 V, 200 W, 39:1**, with Hall sensors. No integrated driver or absolute encoder is standard. Confirm the exact version, output interface, cable direction, datums and tolerances before manufacture.
 
-[CPM-78-39 Technical Datasheet v1.0](datasheet.md){ .md-button }
-[CPM-78-39 Product Page](../../products/cycloidal-joint-modules/cpm78-39.md){ .md-button }
+[Request Controlled Drawing / CAD](../../request-cad-sample-quote.md){ .md-button }
 
-## Engineering Contact
-
-**Wanrong Wang**  
-International Sales / Sales Engineer, SigGear  
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+[CPM-78-39 Product Page](../../products/cycloidal-joint-modules/cpm78-39.md) · [Technical Datasheet](datasheet.md) · [All Six Joint Models](../robot-joint-actuators/quick-downloads.md)

@@ -31,11 +31,11 @@ The external packaging and connection details can depend on whether the selected
 - Encoder configuration
 - Connector / cable configuration
 
-The current product photographs include a driver-equipped configuration. Final interface details must therefore be checked against the quotation and controlled drawing for the actual unit.
+The published product visuals show a driver-equipped reference configuration; a render is not dimensional or photographic proof of a particular delivered unit. Confirm the exact driver, connector and mechanical envelope for the ordered product.
 
 ## Controlled Drawing Reconciliation
 
-A controlled SG-6010D assembly drawing has now been reviewed for this public reference.
+A supplier-provided 2D assembly drawing labelled **SG6010D** has been checked against the published envelope. The source PDF has **not** yet been released on this site as an engineering-approved, revision-controlled manufacturing drawing.
 
 The drawing confirms:
 
@@ -74,7 +74,7 @@ Before final mechanical design, confirm:
 
 There is no separate public simplified STEP for this model; the link above is the complete original assembly.
 
-For packaging, tolerance stack-up or production design-in, request the current controlled drawing and configuration-matched CAD file.
+The uploaded 2D PDF is still in source verification and publication review. For packaging, tolerance stack-up or production design-in, request the current approved controlled drawing and configuration-matched CAD file.
 
 [Request Controlled Drawing / CAD](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
 
