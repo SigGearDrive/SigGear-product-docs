@@ -26,6 +26,8 @@
       "Customer drawing and STEP-based transmission development",
       "Physical sample transmission review",
       "Gearbox failure review and durability redesign",
+      "Existing gearbox replacement and interface matching",
+      "Replacement gearbox redesign while retaining customer motor and mounting interfaces",
       "OEM volume manufacturing and delivery planning",
       "OEM and ODM transmission development",
       "Volume manufacturing of custom transmission assemblies",
