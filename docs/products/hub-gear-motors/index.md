@@ -33,7 +33,7 @@ Both catalog models use planetary reduction structures and Hall sensors. An exte
 ## Related AGV and AMR Resources
 
 [AGV and AMR Wheel Drive Selection Guide](../../applications/agv-amr-wheel-drive-gearboxes.md){ .md-button .md-button--primary }
-[Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
+[Request CAD, Sample and Quote](../../request-cad-sample-quote.md?start=standard_product&path=hub_gear_motor){ .md-button }
 
 ## Selection Support
 

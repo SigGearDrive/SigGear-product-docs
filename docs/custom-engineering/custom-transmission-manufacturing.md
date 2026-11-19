@@ -5,6 +5,17 @@ description: SigGear is a custom precision transmission manufacturer for OEM pro
 
 # Custom Precision Transmission Manufacturer — From Drawing or Motor to Volume Production
 
+
+**Start a custom transmission project with the information already available.** An existing motor, drawing/CAD, failed reducer or prototype forecast is enough for an initial engineering review.
+
+[**Match My Motor**](../request-cad-sample-quote.md?start=existing_motor&path=gearbox_only){ .md-button .md-button--primary }
+[**Review Drawing / CAD**](../request-cad-sample-quote.md?start=drawing_cad){ .md-button }
+[**Review a Failed Gearhead**](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button }
+[**Prototype → Volume**](../request-cad-sample-quote.md?start=prototype_to_volume){ .md-button }
+
+**Prefer standard engineering files first?** [Gearhead PDF / 2D / STEP](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [Motor PDFs](../engineering-resources/motors/index.md) · [Joint Module PDF / CAD](../engineering-resources/robot-joint-actuators/quick-downloads.md)
+
+
 ## The Public Catalog Is Only the Visible Part of SigGear
 
 SigGear's public planetary gearheads, cycloidal reducers and robot joint actuators are important engineering references, but they are **not the full scope of the company's work**.

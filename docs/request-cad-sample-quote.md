@@ -125,6 +125,7 @@ Complete the project brief below and click **Send Engineering Request Online** t
       SigGear model reference (optional)
       <select id="sg-model" name="model">
         <option value="">Not sure yet</option>
+        <optgroup label="Precision Planetary Gearheads (8–42 mm)">
         <option value="8P">8P — 8 mm</option>
         <option value="10P">10P — 10 mm</option>
         <option value="12P">12P — 12 mm</option>
@@ -137,6 +138,22 @@ Complete the project brief below and click **Send Engineering Request Online** t
         <option value="32P">32P — 32 mm</option>
         <option value="36P">36P — 36 mm</option>
         <option value="42P">42P — 42 mm</option>
+        </optgroup>
+        <optgroup label="Planetary Robot Joint Actuators">
+          <option value="SG-6010C">SG-6010C</option>
+          <option value="SG-6010D">SG-6010D</option>
+          <option value="SG-6010HB">SG-6010HB (separate reference model)</option>
+          <option value="SG-8021">SG-8021</option>
+        </optgroup>
+        <optgroup label="Cycloidal Joint Modules">
+          <option value="CPM-78-39">CPM-78-39</option>
+          <option value="CPM-80-25">CPM-80-25</option>
+          <option value="CPM-100-25">CPM-100-25</option>
+        </optgroup>
+        <optgroup label="Hub Gear Motors">
+          <option value="SG-2877">SG-2877</option>
+          <option value="SG-2878">SG-2878</option>
+        </optgroup>
       </select>
     </label>
 
@@ -146,6 +163,8 @@ Complete the project brief below and click **Send Engineering Request Online** t
         <option value="not_sure">Not sure — please recommend</option>
         <option value="gearbox_only">Gearbox only — I already have a motor</option>
         <option value="motor_gearbox">Complete motor + gearbox assembly</option>
+        <option value="joint_actuator">Robot joint actuator / cycloidal module</option>
+        <option value="hub_gear_motor">Hub gear motor only (external controller required)</option>
       </select>
     </label>
   </div>
