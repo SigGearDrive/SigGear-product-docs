@@ -258,6 +258,14 @@ def main() -> None:
     center_before_tasks = center_body.split('<h2 id="start-by-what-you-need-to-do">', 1)[0]
     if "robot-joint-actuators/quick-downloads/" not in center_before_tasks:
         raise ValueError("Engineering Center joint quick-download button not visible")
+    # Prevent a stale in-page jump from surviving after a section rename.
+    if 'href="#robot-joint-actuator-downloads"' not in center_body:
+        raise ValueError("Engineering Center task index must jump to the live joint downloads section")
+    if 'href="#public-engineering-packs"' in center_body:
+        raise ValueError("Engineering Center contains deleted Public Engineering Packs anchor")
+    if "Planetary Gearbox Selector" in center_body or "Planetary Gearbox CAD Library" in center_body:
+        raise ValueError("Customer-facing engineering links must use Gearhead terminology")
+
     print("PASS Engineering Center: six standard joint models, 18 direct files + SG-6010HB reference PDF")
 
     stylesheet = SITE / "assets/stylesheets/joint-product-quick.css"
