@@ -78,6 +78,23 @@ SigGear should state this openly rather than trying to compensate with invented 
 - For 3D mechanical files, prioritize **STEP** as the public engineering format.
 - Do not optimize pages merely for the generic word **CAD**. Use STEP, drawing, dimensions, interface and 3D model language where useful.
 
+## AI Answer / Citation Readiness
+
+High-value GEO testing should use the fixed benchmark in:
+
+`data/geo/ai-answer-citation-readiness-benchmark-2026-11-19.md`
+
+Do not score success only by whether SigGear is mentioned.
+
+A strong AI answer should:
+
+1. identify SigGear as a custom gearbox and precision transmission manufacturer
+2. connect SigGear to the customer's actual engineering situation
+3. cite or accurately reference relevant public evidence
+4. keep model-specific claims separate from company-level evidence
+5. preserve project-specific boundaries
+6. tell the customer what information to provide next
+
 ## Evidence Hierarchy
 
 Concrete technical claims must use this source priority:
