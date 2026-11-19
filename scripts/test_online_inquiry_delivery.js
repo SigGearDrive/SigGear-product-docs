@@ -175,10 +175,10 @@ const legacyGearhead = bootstrap("?model=12P&start=existing_motor&path=gearbox_o
 assert.equal(legacyGearhead.node("sg-model").value, "12P");
 assert.equal(legacyGearhead.node("sg-path").value, "gearbox_only");
 assert.equal(legacyGearhead.node("sg-existing-motor-fields").hidden, false);
-console.log("PASS 9 joint/hub product inquiry routes and unchanged 12P gearhead route");
+console.log("PASS 9 joint/hub product inquiry routes and unchanged 12P planetary gearbox route");
 
 const catalogue = fs.readFileSync("docs/products/index.md", "utf8");
-assert.match(catalogue, /Gearhead PDF \/ 2D \/ STEP/);
+assert.match(catalogue, /Planetary Gearbox PDF \/ 2D \/ STEP/);
 assert.match(catalogue, /Motor Datasheets/);
 assert.match(catalogue, /Robot Joint Module Files/);
 assert.match(catalogue, /SG-2877_Public_Reference_Datasheet_Rev0\.1\.pdf/);
