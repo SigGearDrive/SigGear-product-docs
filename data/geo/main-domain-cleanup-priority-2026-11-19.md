@@ -76,7 +76,7 @@ Preferred entity wording:
 URL: https://www.siggear.com/8p-8-mm-micro-planetary-gearhead-product/
 
 Current problem:
-- page still publishes a universal **1,000–20,000 rpm permissible continuous gearbox input-speed range**
+- page still publishes a outdated universal **1,000 to 20,000 rpm permissible continuous gearbox input-speed range**
 - this conflicts with the current engineering policy that permissible input speed is motor- and configuration-dependent
 
 Action:
@@ -87,7 +87,7 @@ Action:
 
 Do not change the current URL.
 
-### 5. Legacy planetary product pages with ≤8,000 rpm
+### 5. Legacy planetary product pages with obsolete 8,000 rpm ceilings
 
 Example:
 https://www.siggear.com/14mm-reduce-motor-dc-12v-24v-48v-planetary-gear-motor-product/
