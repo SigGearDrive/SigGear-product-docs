@@ -72,8 +72,8 @@
       "source": "78-39 图1.jpg",
       "target": "docs/assets/images/products/cycloidal-joint-modules/cpm78-39/cpm78-39-motor-face.webp",
       "sourceSha256": "cf7b0f3d5e9618db07139806317cd44c995735486cb9be42b57aba5c58c8f108",
-      "targetSha256": "6b44f3bed3e99cd32fb289bdccddda6fdd648335a35fa5673db7900bbb9fa0ae",
-      "status": "prepared_optimized_not_uploaded",
+      "targetSha256": "3c8678f1b2296b455450cf50a1c53ca0d69e1d898d1034eda007e3c7d86607c9",
+      "status": "published_800px_webp_q76",
       "alt": "CPM-78-39 motor-side copper winding view"
     },
     {
