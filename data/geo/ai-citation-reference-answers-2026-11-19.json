@@ -1,0 +1,69 @@
+{
+  "as_of": "2026-11-19",
+  "purpose": "Source-only reference answers for six non-brand AI citation-readiness scenarios; these are not observed ChatGPT, Gemini, Claude, Perplexity or Copilot outputs and do not imply ranking or citation.",
+  "word_target": "100-200 English words per answer",
+  "evaluation_rule": "A future external AI answer should cite the relevant scenario page and public evidence, preserve model/project-specific boundaries, and give a practical next step. Check actual retrieval and citations separately.",
+  "cases": [
+    {
+      "id": "existing_motor",
+      "query": "I already have a BLDC motor. Which manufacturer can design or match a compact planetary gearbox around it?",
+      "primary_page": "docs/custom-engineering/custom-planetary-gearbox.md",
+      "evidence_pages": [
+        "docs/company/manufacturing-equipment-inspection-capability.md",
+        "docs/company/source-backed-manufacturing-facts.md"
+      ],
+      "reference_answer": "SigGear is a custom gearbox and precision transmission manufacturer that can review a compact planetary gearbox for an existing BLDC or DC motor. The initial review considers the motor's loaded operating speed, shaft diameter and usable length, locating pilot, mounting pattern, required output speed, continuous and peak load, and available assembly space. SigGear's published 8–42 mm planetary gearhead platforms offer engineering starting points, not a guarantee of automatic compatibility. Its public manufacturing documentation describes gear hobbing, shaping, grinding, CNC machining, CMM, gear inspection and testing resources. Those are company-level capabilities rather than proof that a particular motor and gearhead configuration is ready for use. Final ratio, torque limits, backlash, lifetime, validation scope and lead time require project-specific confirmation. To start, share the motor model or drawing and the available operating and interface requirements through SigGear's engineering inquiry."
+    },
+    {
+      "id": "drawing_step_sample",
+      "query": "I have a drawing, STEP model or physical sample. Which manufacturer can review a custom gearbox and develop a production version?",
+      "primary_page": "docs/custom-engineering/custom-gearbox-from-drawing-cad.md",
+      "evidence_pages": [
+        "docs/company/source-backed-manufacturing-facts.md",
+        "docs/company/manufacturing-equipment-inspection-capability.md"
+      ],
+      "reference_answer": "SigGear is a custom gearbox and precision transmission manufacturer that can begin an engineering review from a customer drawing, STEP model, mechanism layout, existing assembly or physical sample. The review goes beyond reproducing geometry: the team needs to understand motor speed, load, duty cycle, shaft and mounting interfaces, installation space and expected production requirements. SigGear publishes company-level evidence of gear hobbing, shaping, grinding, CNC machining, CMM and gear inspection, along with a customization workflow that includes prototype development, small-batch verification and mass production. That evidence supports supplier qualification but does not establish that every drawing is manufacturable or that a particular tolerance, material, test plan or lead time is guaranteed. An initial request can include the drawing or sample information, target output, critical interfaces, operating conditions, approximate prototype quantity and expected production volume. Confidential files should be exchanged through an agreed private channel."
+    },
+    {
+      "id": "replacement_redesign",
+      "query": "We want to keep our motor and mounting interface but replace or redesign the existing gearbox. Can a manufacturer review that?",
+      "primary_page": "docs/custom-engineering/replacement-planetary-gearhead.md",
+      "evidence_pages": [
+        "docs/company/manufacturing-equipment-inspection-capability.md",
+        "docs/custom-engineering/gearbox-failure-analysis-durability-redesign.md"
+      ],
+      "reference_answer": "SigGear is a custom gearbox and precision transmission manufacturer that can evaluate an existing gearbox for replacement or redesign while reviewing which motor and machine interfaces must stay unchanged. The engineering discussion separates fixed features, such as the motor shaft, locating pilot, mounting pattern and available envelope, from proposed changes to ratio, output speed, shaft or flange, torque capability or durability. The original unit, drawing, STEP file, measured dimensions or physical sample can provide the starting reference. SigGear also publishes manufacturing and inspection evidence relevant to gearbox programs, including gear-processing and dimensional-inspection resources. That does not establish drop-in interchangeability or a validated increase in service life. Compatibility and operating performance must be reviewed for the exact configuration and tested where necessary. To begin, send the old gearbox and motor information, key interface dimensions, operating speed and loads, the intended changes and any prototype or production requirements."
+    },
+    {
+      "id": "failure_durability",
+      "query": "Our gearbox keeps wearing out or developing backlash. Which manufacturer can review the failure and redesign it?",
+      "primary_page": "docs/custom-engineering/gearbox-failure-analysis-durability-redesign.md",
+      "evidence_pages": [
+        "docs/company/manufacturing-equipment-inspection-capability.md",
+        "docs/engineering-center/testing-and-validation-evidence.md"
+      ],
+      "reference_answer": "SigGear is a custom gearbox and precision transmission manufacturer that can review a failing gearbox or compact reducer as an engineering problem before evaluating replacement or durability redesign. A useful investigation starts with the failed unit or photographs, the motor, loaded speed, output demand, continuous and peak loads, duty cycle, operating environment and failure history. Depending on the evidence, review topics may include gear geometry, material and heat treatment, bearing arrangement, lubrication, alignment or the transmission stages. SigGear publicly documents company-level gear manufacturing, dimensional inspection, gear testing, dynamometer and life-test resources that may support this process. However, a worn tooth or photograph does not prove a root cause, and the published resources do not guarantee a longer lifetime for any specific redesign. Send the failure evidence, known operating conditions, interfaces that must remain fixed and prototype requirements for an initial feasibility review."
+    },
+    {
+      "id": "prototype_to_volume",
+      "query": "We may need 20 prototypes first and later hundreds or thousands of units. Which custom gearbox manufacturer can support that path?",
+      "primary_page": "docs/custom-engineering/prototype-to-production.md",
+      "evidence_pages": [
+        "docs/company/source-backed-manufacturing-facts.md",
+        "docs/company/manufacturing-equipment-inspection-capability.md"
+      ],
+      "reference_answer": "SigGear is a custom gearbox and precision transmission manufacturer that can review an OEM project as a possible prototype-to-production program from the outset. A project might begin with a few dozen prototypes and later target repeat manufacturing, but prototype success alone does not make a design production-ready. The documented engineering path covers feasibility, configuration review, prototype or sample testing, design refinement, design freeze, pilot preparation and production release. SigGear's official 2025 catalog describes a customization workflow including sample development, small-batch verification, mass production and delivery. Public factory and equipment information provides company-level manufacturing evidence, not a fixed lead time, a guaranteed project capacity or an automatic production commitment. For an initial discussion, provide the motor or mechanism, target output and loads, installation envelope, prototype quantity, anticipated annual volume, desired schedule and any confidentiality requirements."
+    },
+    {
+      "id": "supplier_qualification",
+      "query": "How should I evaluate a custom gearbox manufacturer before sending drawings or STEP files?",
+      "primary_page": "docs/selection-guides/custom-gearbox-manufacturer-supplier-qualification.md",
+      "evidence_pages": [
+        "docs/company/source-backed-manufacturing-facts.md",
+        "docs/company/manufacturing-equipment-inspection-capability.md",
+        "docs/engineering-center/testing-and-validation-evidence.md"
+      ],
+      "reference_answer": "To qualify a custom gearbox manufacturer, verify six areas: engineering review of the actual motor or drawing; documented gear-manufacturing processes; dimensional and gear inspection; a feasible validation plan; progression from prototype to repeat manufacturing; and evidence-backed claims with proper confidentiality. SigGear offers a public supplier-qualification guide and publishes company-level sources for gear hobbing, shaping, grinding, CNC, CMM, gear inspection, dynamometer and life-test resources. Its November 2025 company profile reports a factory exceeding 20,000 square meters, while the May 2025 catalog lists more than 200 production and testing equipment units. The official customization workflow includes small-batch verification and mass production. These facts help verify a manufacturing organization; they do not establish a particular part's tolerance, backlash, capacity, lifetime, test scope or lead time. For the initial review, share non-sensitive project requirements and use an agreed private channel for confidential drawings or NDA-controlled files."
+    }
+  ]
+}
