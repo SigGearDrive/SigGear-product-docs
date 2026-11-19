@@ -1,0 +1,22 @@
+schema_version: 1
+audit_date: "2026-11-19"
+property: "https://siggeardrive.github.io/SigGear-product-docs/"
+gsc_window: {start: "2026-10-20", end: "2026-11-16"}
+note: >-
+  The search baseline predates the 2026-11-18 large-scale application rewrite.
+  Zero clicks on sparse impressions does not prove a page has no value or is not indexed.
+pages:
+  - {path: "/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/", impressions: 114, clicks: 0, avg_position: 31.2281, change: "Add truthful stage-range comparison beside the 12 direct-download rows; preserve indexed URL"}
+  - {path: "/products/planetary-gearboxes/10p-planetary-gearbox/", impressions: 27, clicks: 0, avg_position: 17.7037, change: "Remove duplicate high-speed warning and repetitive product-identity table; leave first-screen PDF/2D/STEP links"}
+  - {path: "/applications/humanoid-robot-joint-actuators/", impressions: 737, clicks: 0, avg_position: 46.3216, change: "Separate integrated joint modules from auxiliary gearheads; lead with correctly matched actuator resources"}
+  - {path: "/applications/planetary-gearbox-application-families/", impressions: 6, clicks: 0, avg_position: 16.0, change: "Replace nearly duplicate application directory with genuine mechanism-to-size decision table"}
+  - {path: "/products/planetary-gearboxes/micro-planetary-gearheads-8-16mm/", change: "Remove own-series self-link; preserve recent source meta title and all files"}
+  - {path: "/products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm/", change: "Remove own-series self-link; preserve recent source meta title and all files"}
+  - {path: "/products/planetary-gearboxes/compact-planetary-gearheads-36-42mm/", change: "Remove own-series self-link; preserve recent source meta title and all files"}
+protected:
+  - {path: "/engineering-resources/planetary-gearboxes/public-cad-release-v1/", impressions: 141, clicks: 15, avg_position: 7.5}
+  - {path: "/applications/electric-pruning-shears-planetary-gearbox/", impressions: 27, clicks: 1, avg_position: 9.5556}
+guardrails:
+  - "No deletion, redirect, renaming, CAD/PDF byte change, or SEO keyword stuffing"
+  - "Do not conflate unpublished Google recrawl outcomes with same-day GitHub release changes"
+  - "Check HTML canonical, source title/description, all 12 PDF/STEP links and CI before releasing"
