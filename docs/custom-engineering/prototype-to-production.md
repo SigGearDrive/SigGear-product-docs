@@ -26,6 +26,8 @@ If the transmission architecture is already known, continue with the relevant en
 [Custom Cycloidal Transmission Engineering](custom-cycloidal-transmission.md){ .md-button }
 [Custom Robot Joint Actuator Development](robot-joint-actuator-development.md){ .md-button }
 
+**Manufacturing evidence:** [Gear Manufacturing, CMM & Inspection Capability](../company/manufacturing-equipment-inspection-capability.md) · [Source-Backed Manufacturing Facts](../company/source-backed-manufacturing-facts.md) · [Manufacturing & Quality Evidence](../company/manufacturing-and-quality-evidence.md)
+
 ## Typical Development Path
 
 A project may move through:
@@ -53,7 +55,7 @@ The first discussion can start from:
 - an existing mechanism
 - a customer motor
 - a current gearbox that needs to be replaced
-- a CAD model or drawing
+- a STEP model or drawing
 - a space envelope
 - a torque / speed target
 - a prototype that does not yet meet the required performance
