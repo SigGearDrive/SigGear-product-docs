@@ -1,14 +1,7 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-15",
+  "updated": "2026-11-19",
   "source": "Published SigGear 8P-42P Datasheet stage tables",
-  "continuous_input_speed_rpm": {
-    "min": 1000,
-    "max": 20000,
-    "operating_mode": "continuous",
-    "confirmed_by": "SigGear engineering",
-    "confirmed_on": "2026-10-15"
-  },
   "units": {
     "diameter": "mm",
     "gearbox_body_length": "mm",
@@ -928,5 +921,18 @@
         }
       ]
     }
-  ]
+  ],
+  "input_speed_policy": {
+    "rule": "motor_and_configuration_dependent",
+    "note": "No universal 20,000 rpm continuous ceiling applies across the 8P-42P series. Confirm the selected motor operating speed, gearhead configuration, duty cycle and operating point.",
+    "confirmed_by": "SigGear engineering",
+    "confirmed_on": "2026-11-19",
+    "model_specific_confirmed_ranges": {
+      "12P": {
+        "min_rpm": 1000,
+        "max_rpm": 50000,
+        "note": "Current 12P engineering-confirmed usable input-speed range."
+      }
+    }
+  }
 }
