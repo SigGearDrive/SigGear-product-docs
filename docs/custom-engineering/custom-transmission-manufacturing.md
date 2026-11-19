@@ -116,6 +116,19 @@ SigGear also works to support **short production lead times for volume programs*
 
 Actual lead time is project-specific. It depends on quantity, customization scope, materials, tooling, controlled drawings, inspection requirements and production scheduling, so SigGear does not publish one universal delivery-time promise for every custom project.
 
+## Source-Backed Company Manufacturing Facts
+
+SigGear's official company sources provide public evidence that the business extends beyond standard catalog products:
+
+- the 2025 company catalog separates **standard products** and **non-standard customized products**
+- the published customization workflow runs from engineering / design through sample development, small-batch verification, **mass production and delivery**
+- the newer 2025 company profile states a standalone factory of **over 20,000 m²**
+- the official company-news archive reports **Q1 2025 shipments exceeded 550,000 units**
+
+The shipment figure is a company-wide historical shipment result. It is not used as a model-specific capacity or future lead-time guarantee.
+
+[Source-Backed Manufacturing Facts](../company/source-backed-manufacturing-facts.md){ .md-button .md-button--primary }
+
 ## Real Manufacturing Behind the Engineering
 
 Custom engineering only becomes useful when the design can be manufactured consistently.
