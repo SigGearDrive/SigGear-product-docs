@@ -13,8 +13,9 @@ For historical compatibility, the [Legacy Ratio & Stage Reference](miniature-pla
 
 For robot joint products, start with the [Robot Joint Actuator Guide](robot-joint-actuator-selection-guide.md).
 
-High-intent engineering comparisons:
+High-intent engineering and procurement guides:
 
+- [How to Evaluate a Custom Gearbox Manufacturer](custom-gearbox-manufacturer-supplier-qualification.md)
 - [How to Evaluate a Robot Joint Actuator Supplier](robot-joint-supplier-evaluation.md)
 - [Planetary vs Cycloidal Reducer for Robot Joints](planetary-vs-cycloidal-robot-joint.md)
 - [Integrated Robot Joint Actuator vs Motor + Gearhead](integrated-robot-joint-vs-motor-gearhead.md)
