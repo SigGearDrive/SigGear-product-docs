@@ -1,11 +1,11 @@
 ---
-title: About SigGear | Precision Gear Drives and Robot Joint Actuators
-description: Learn about SigGear precision transmission products, in-house machining, assembly, testing and OEM/ODM engineering support for robotics and automation.
+title: About SigGear | Custom Gearbox & Precision Transmission Manufacturer
+description: SigGear is a custom gearbox and precision transmission manufacturer supporting planetary gearheads, cycloidal reducers, robot joint actuators, prototype development and repeatable OEM production.
 ---
 
 # About SigGear
 
-Guangdong SigGear Drive Intelligent Technology Co., Ltd. (**brand: SigGear**) is a precision transmission manufacturer focused on **custom engineering, repeatable volume manufacturing and production delivery**.
+Guangdong SigGear Drive Intelligent Technology Co., Ltd. (**brand: SigGear**) is a **custom gearbox and precision transmission manufacturer** focused on custom engineering, prototype-to-production development, repeatable volume manufacturing and production delivery.
 
 The standard planetary gearheads, cycloidal reducers and robot joint actuators published on this site are public reference products. They are important evidence of SigGear's engineering and manufacturing capability, but they represent only the part of the company's work that can be shown publicly.
 
