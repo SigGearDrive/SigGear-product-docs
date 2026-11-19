@@ -12,6 +12,8 @@ SigGear hub gear motors integrate BLDC motors and planetary reduction mechanisms
 [**SG-2878 Datasheet PDF**](../../assets/downloads/hub-gear-motors/SG-2878_Public_Reference_Datasheet_Rev0.1.pdf){ .md-button }
 [**SG-2878 Dimension Reference**](../../assets/downloads/hub-gear-motors/SG-2878_Source_Dimension_Reference_Rev0.1.pdf){ .md-button }
 
+[**Historical SG2557 Source Dimension PDF**](../../assets/downloads/hub-gear-motors/SG2557-80PG-9.75B_Source_Dimension_Reference_Rev0.1.pdf){ .md-button }
+
 **CAD / drawing status:** Supplied source 2D PDFs are dated 2025-07-04 (Rev A); 3D files are Parasolid `.x_t`, not verified STEP exports. Refer to the model page and request engineering approval before using dimensional data for final integration. **SG-2878 has a 125 mm catalogue vs 127 +/-0.5 mm drawing length discrepancy.**
 
 ## Published Models
@@ -20,6 +22,8 @@ SigGear hub gear motors integrate BLDC motors and planetary reduction mechanisms
 | --- | ---: | ---: | ---: | ---: | ---: |
 | [SG-2877](sg2877.md) | 99 mm | 3 Nm | 10 Nm | 130 rpm ±10% | 24 VDC |
 | [SG-2878](sg2878.md) | 99 mm | 6 Nm | 18 Nm | 110 rpm ±10% | 24 VDC |
+
+**Separate source-only model:** [SG2557-80PG-9.75B](sg2557-80pg-9-75b.md) has a distinct **2024-05-21 Rev A** source drawing (24 VDC, 9.75:1, 130 ±10% rpm, 3 N·m rated / 10 N·m source-stated peak, IP66 drawing requirement). Its public English dimensional checklist is available above. **It is not SG-2877 or SG-2878**, is not a third approved/current catalogue standard model, and has no released original drawing or verified STEP. Current availability and IP66 validation require confirmation.
 
 Both catalog models use planetary reduction structures and Hall sensors. An external motor controller is required unless a controller is explicitly included in the quotation.
 
