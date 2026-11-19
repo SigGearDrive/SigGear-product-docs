@@ -1,6 +1,6 @@
 ---
-title: "SigGear DC & BLDC Motor Datasheets | 36 Direct PDF Downloads"
-description: "Download 36 SigGear DC and BLDC motor datasheet PDFs across Ø8–32 mm: winding series, motor models, and actual source revisions. No login, one-click files."
+title: "SigGear DC & BLDC Motor Datasheets | 37 Direct PDF Downloads"
+description: "Download 37 SigGear DC and BLDC motor datasheet PDFs across Ø8–32 mm: winding series, motor models, and actual source revisions. No login, one-click files."
 ---
 
 # DC / BLDC Motor Datasheets — Direct PDF Downloads
@@ -10,18 +10,18 @@ description: "Download 36 SigGear DC and BLDC motor datasheet PDFs across Ø8–
 [**Gearhead Datasheets / CAD**](../planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
 [**Motor + Gearhead Assemblies**](../../custom-engineering/motor-gearbox-integration.md){ .md-button }
 
-**36 motor PDFs · 10 diameters · Click any file below to download directly.** No email or inquiry form required.
+**37 motor PDFs · 10 diameters · Click any file below to download directly.** No email or inquiry form required.
 
 <label for="siggear-motor-filter" class="siggear-motor-filter-label">Find a motor datasheet by diameter, series or winding code</label>
 <input id="siggear-motor-filter" class="siggear-motor-filter" type="search" placeholder="e.g. 16 mm, 120132, BLDC, Series 02" autocomplete="off" aria-controls="siggear-motor-quick-table">
-<p id="siggear-motor-results" class="siggear-motor-results" role="status" aria-live="polite">10 diameter groups · 36 downloadable PDFs</p>
+<p id="siggear-motor-results" class="siggear-motor-results" role="status" aria-live="polite">10 diameter groups · 37 downloadable PDFs</p>
 
 <div id="siggear-motor-quick-table" markdown="1">
 
 | Diameter | Motor type | Direct motor Datasheet PDFs | Document status |
 | --- | --- | --- | --- |
 | **<span id="8-mm-dc-micromotors">Ø8 mm</span>** | DC Micromotors | [HS-816-Q · Set A · PDF](../../assets/downloads/motors/8mm/SigGear_8mm_HS-816-Q_Winding_Set_A_D1.pdf "Models: 024139 · 042142 · 060133 · 072143 · 090144"){: .siggear-motor-file } [HS-816-Q · Set B · PDF](../../assets/downloads/motors/8mm/SigGear_8mm_HS-816-Q_Winding_Set_B_D1.pdf "Models: 024115 · 042117 · 060110 · 072119 · 090119"){: .siggear-motor-file } [HS-820-Q · Set C · PDF](../../assets/downloads/motors/8mm/SigGear_8mm_HS-820-Q_Winding_Set_C_D1.pdf "Models: 030330 · 037175 · 120200"){: .siggear-motor-file } | D1 · source |
-| **<span id="10-mm-dc-motors">Ø10 mm</span>** | DC Motors | [Series 01 · PDF](../../assets/downloads/motors/10mm/SigGear_10mm_DC_Motor_Series_01_DraftV1.0.pdf "Models: 015116 · 030122 · 045120 · 060122 · 090120"){: .siggear-motor-file } [Series 02 · PDF](../../assets/downloads/motors/10mm/SigGear_10mm_DC_Motor_Series_02_DraftV1.0.pdf "Models: 030090 · 045310 · 074310"){: .siggear-motor-file } [Series 03 · PDF](../../assets/downloads/motors/10mm/SigGear_10mm_DC_Motor_Series_03_DraftV1.0.pdf "Models: 030175 · 050260 · 074210 · 120120"){: .siggear-motor-file } [Series 04 · PDF](../../assets/downloads/motors/10mm/SigGear_10mm_DC_Motor_Series_04_DraftV1.0.pdf "Models: 015124 · 030130 · 045124 · 060126 · 090126"){: .siggear-motor-file } | Draft V1.0 · low-res charts |
+| **<span id="10-mm-dc-motors">Ø10 mm</span>** | DC Motors | [Series 01 · improved PDF](../../assets/downloads/motors/10mm/SigGear_10mm_DC_Motor_Series_01_DraftV1.1.pdf "Models: 015116 · 030122 · 045120 · 060122 · 090120 · source HS-1025-Q"){: .siggear-motor-file } [Series 02 · previous PDF](../../assets/downloads/motors/10mm/SigGear_10mm_DC_Motor_Series_02_DraftV1.0.pdf "Models: 030090 · 045310 · 074310 · existing distinct motor group"){: .siggear-motor-file } [Series 03 · improved PDF](../../assets/downloads/motors/10mm/SigGear_10mm_DC_Motor_Series_03_DraftV1.1.pdf "Models: 030175 · 050260 · 074210 · 120120 · source HS-1015-Q"){: .siggear-motor-file } [Series 04 · improved PDF](../../assets/downloads/motors/10mm/SigGear_10mm_DC_Motor_Series_04_DraftV1.1.pdf "Models: 015126 · 030130 · 045126 · 060126 · 090126 · source HS-1018-Q; previous labels differ"){: .siggear-motor-file } [HS-1020-Q · source PDF](../../assets/downloads/motors/10mm/SigGear_10mm_DC_Motor_HS-1020-Q_SourceGroup_DraftV1.1.pdf "Models: HS-1020-Q source group · 4 winding columns · source model codes unverified"){: .siggear-motor-file } | Draft V1.0 / V1.1 · source review |
 | **<span id="12-mm-coreless-bldc-motor">Ø12 mm</span>** | Coreless BLDC Motor | [EC1225-01A · PDF](../../assets/downloads/motors/12mm/SigGear_12mm_EC1225-01A_Rev1.0.pdf "Models: EC1225-01A · Ø12 mm, sensored coreless BLDC, 12 V"){: .siggear-motor-file } | Rev 1.0 |
 | **<span id="14-mm-dc-motors">Ø14 mm</span>** | DC Motors | [030077-120077 · PDF](../../assets/downloads/motors/14mm/SigGear_14mm_DC_Motor_030077-120077_Rev1.0.pdf "Models: 030077 · 045077 · 060077 · 090077 · 120077"){: .siggear-motor-file } [045116-180116 · PDF](../../assets/downloads/motors/14mm/SigGear_14mm_DC_Motor_045116-180116_Rev1.0.pdf "Models: 045116 · 060104 · 090117 · 120103 · 180116"){: .siggear-motor-file } | Rev 1.0 |
 | **<span id="16-mm-dc-motors">Ø16 mm</span>** | DC Motors | [030063-120062 · PDF](../../assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_030063-120062_DraftV0.9.pdf "Models: 030063 · 045063 · 060060 · 090063 · 120062"){: .siggear-motor-file } [030064-180064 · PDF](../../assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_030064-180064_DraftV0.9.pdf "Models: 030064 · 060066 · 090064 · 120064 · 180064"){: .siggear-motor-file } [050065-240076 · PDF](../../assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_050065-240076_DraftV0.9.pdf "Models: 050065 · 120061 · 240076"){: .siggear-motor-file } [060078-240074 · PDF](../../assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_060078-240074_DraftV0.9.pdf "Models: 060078 · 120075 · 240074"){: .siggear-motor-file } [060099-240099 · PDF](../../assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_060099-240099_DraftV0.9.pdf "Models: 060099 · 120098 · 240099"){: .siggear-motor-file } [060120-240160 · PDF](../../assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_060120-240160_DraftV0.9.pdf "Models: 060120 · 080142 · 120180 · 240160"){: .siggear-motor-file } [060127-240127 · PDF](../../assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_060127-240127_DraftV0.9.pdf "Models: 060127 · 090127 · 120132 · 180127 · 240127"){: .siggear-motor-file } [060128-240128 · PDF](../../assets/downloads/motors/16mm/SigGear_16mm_DC_Motor_060128-240128_DraftV0.9.pdf "Models: 060128 · 090131 · 120132 · 180128 · 240128"){: .siggear-motor-file } | Draft V0.9 · low-res drawing |
@@ -43,7 +43,7 @@ Original source drawings and charts are retained; motor-mating and operating con
 
 ### Ø10 mm
 
-Draft inductance (*Mh*), current/speed/inertia data and original performance charts require review. Original charts contain roughly 63–67 DPI embedded raster content on some pages.
+**New Draft V1.1 sheets:** Series 01, 03 and 04 now contain vector-retypeset parameter tables and larger source drawing/curve references. Series 02 remains a separate earlier motor group. The HS-1020-Q source group has ambiguous model identifiers and one speed inconsistency; engineering verification is mandatory. The new Series 04 source labels (015126 / 045126) differ from the older directory labels (015124 / 045124). Inductance (*Mh*) and other unusual source values still require review. **Original curves remain low-resolution rasters**; reformatting does not restore measured accuracy. Historical Draft V1.0 PDF URLs remain accessible.
 
 ### Ø16 mm
 
