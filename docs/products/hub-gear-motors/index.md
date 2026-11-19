@@ -7,6 +7,11 @@ description: Compare SigGear SG-2877 and SG-2878 hub gear motors for AGV, AMR an
 
 SigGear hub gear motors integrate BLDC motors and planetary reduction mechanisms for mobile robotics, intelligent vehicles and compact automation platforms.
 
+[**SG-2877 Datasheet PDF**](../../assets/downloads/hub-gear-motors/SG-2877_Public_Reference_Datasheet_Rev0.1.pdf){ .md-button .md-button--primary }
+[**SG-2878 Datasheet PDF**](../../assets/downloads/hub-gear-motors/SG-2878_Public_Reference_Datasheet_Rev0.1.pdf){ .md-button }
+
+**CAD / drawing status:** Supplied source 2D PDFs are dated 2025-07-04 (Rev A); 3D files are Parasolid `.x_t`, not verified STEP exports. Refer to the model page and request engineering approval before using dimensional data for final integration. **SG-2878 has a 125 mm catalogue vs 127 +/-0.5 mm drawing length discrepancy.**
+
 ## Published Models
 
 | Model | Outer diameter | Rated torque | Peak torque | Rated speed | Rated voltage |
@@ -34,6 +39,6 @@ Both catalog models use planetary reduction structures and Hall sensors. An exte
 
 For selection, provide vehicle weight, wheel diameter, number of driven wheels, target travelling speed, required gradeability, operating voltage, duty cycle, installation limits and estimated quantity.
 
-CAD files, detailed drawings, cable definitions and mounting documents are available after application review and inquiry.
+Public-reference datasheets are available above without an inquiry. Source 2D drawings, configuration-matched 3D CAD, cable definitions and manufacturing-controlled mounting documents require engineering review.
 
 [Contact Wanrong Wang](../../contact.md)
