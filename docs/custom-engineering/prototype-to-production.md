@@ -1,9 +1,9 @@
 ---
-title: Custom Transmission Prototype to Volume Production | SigGear
-description: How SigGear moves custom transmission projects from feasibility and prototype testing through design refinement, design freeze, pilot preparation, repeatable volume manufacturing and production release.
+title: Custom Gearbox Prototype to Volume Production | OEM Manufacturing | SigGear
+description: Need 20 prototypes and later repeat production? SigGear supports custom gearbox and precision transmission projects from feasibility and prototype testing through design freeze, pilot preparation and volume manufacturing.
 ---
 
-# Custom Transmission: Prototype to Volume Production
+# Custom Gearbox & Transmission: Prototype to Volume Production
 
 ## A Custom Transmission Project Is Not Finished When the First Sample Moves
 
@@ -13,7 +13,7 @@ For an engineering team, the first prototype answers only one question:
 
 A production-ready configuration requires more than a successful first sample. The motor, gearbox, ratio, mechanical interface, operating point, materials, driver / encoder configuration where applicable, drawings and inspection requirements need to converge into a controlled configuration that can be manufactured repeatedly.
 
-SigGear works with engineers through this development path for applicable compact transmission projects. The objective is not only to produce a functional sample, but to develop a controlled configuration that can move into repeatable manufacturing when the project reaches production.
+SigGear works with engineers through this development path for applicable compact transmission projects. The objective is not only to produce a functional sample, but to develop a controlled configuration that can move into repeatable manufacturing when the project reaches production. **Projects that begin with tens of prototypes and may later move to hundreds or thousands of units should be reviewed as production programs from the beginning.**
 
 [Discuss Your Project](../request-cad-sample-quote.md){ .md-button .md-button--primary }
 [Send Your Drawing or Requirement](mailto:wangwanrong@siggear.com?subject=Prototype%20to%20Production%20Transmission%20Project){ .md-button }
