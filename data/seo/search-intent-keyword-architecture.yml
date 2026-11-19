@@ -3,7 +3,7 @@ updated: "2026-10-13"
 owner: "SigGear overseas operations"
 objective: >
   Help engineers who do not yet know SigGear discover the company through
-  engineering, supplier, customization, CAD/design-in and application search intent.
+  engineering, supplier, customization, STEP/design-in and application search intent.
 
 principles:
   - "One primary search intent per canonical page."
@@ -12,8 +12,9 @@ principles:
   - "Treat standard products as reference platforms, not the limit of custom capability."
   - "Do not imply a public customer case from an application keyword."
   - "Do not claim every requested customization is feasible."
-  - "Prefer gearbox + gearhead and gear motor + gearmotor language where it reflects real engineering usage."
-  - "CAD / STEP intent should point only to models with released public files."
+  - "Use gearbox + gearhead and gear motor + gearmotor language naturally where it reflects real engineering usage; do not force one preferred term."
+  - "STEP / 3D-model intent should point only to models with released public files."
+  - "Do not optimize for the generic word CAD when STEP, drawing, dimensions or interface wording is more specific."
 
 intent_clusters:
   - id: "custom-transmission"
@@ -193,35 +194,35 @@ intent_clusters:
     status: "existing_page"
     user_need: "Evaluate real actuator reference models and move into custom joint engineering if the catalog unit does not fit."
 
-  - id: "cad-design-in-planetary"
+  - id: "step-design-in-planetary"
     priority: "P0"
-    stage: "CAD / design-in"
+    stage: "STEP / design-in"
     primary_intent:
       - "planetary gearbox STEP"
-      - "planetary gearbox CAD"
-      - "miniature planetary gearbox CAD"
+      - "planetary gearbox STEP"
+      - "miniature planetary gearbox STEP"
       - "planetary gearbox 3D model"
-      - "planetary gearhead CAD"
+      - "planetary gearbox STEP file"
     canonical_page: "/engineering-resources/planetary-gearboxes/public-cad-release-v1/"
     status: "existing_public_library"
     constraint: "Public simplified 4-stage STEP references are released for 8P, 10P, 12P, 14P, 16P, 20P, 22P, 24P, 28P, 32P, 36P and 42P; configuration-matched production CAD remains controlled."
 
-  - id: "cad-design-in-cycloidal"
+  - id: "step-design-in-cycloidal"
     priority: "P1"
-    stage: "CAD / design-in"
+    stage: "STEP / design-in"
     primary_intent:
       - "cycloidal gearbox STEP"
-      - "cycloidal reducer CAD"
+      - "cycloidal reducer STEP"
     canonical_page: "/products/cycloidal-joint-modules/cpm80-25/"
     status: "controlled_existing"
     constraint: "Use CPM-80-25 released public STEP files only."
 
-  - id: "cad-design-in-actuator"
+  - id: "step-design-in-actuator"
     priority: "P1"
-    stage: "CAD / design-in"
+    stage: "STEP / design-in"
     primary_intent:
       - "robot joint actuator STEP"
-      - "robot joint actuator CAD"
+      - "robot joint actuator STEP"
     canonical_page: "/products/robot-joint-actuators/sg6010c/"
     status: "controlled_existing"
     constraint: "Use SG-6010C released simplified STEP only."
@@ -311,7 +312,7 @@ application_clusters:
 next_content_rules:
   - "Do not create a new page when an existing canonical page already matches the intent."
   - "Create a new engineering page only when the searcher has a distinct technical problem that cannot be answered well by an existing page."
-  - "Before creating a CAD-intent page, confirm that the referenced CAD is approved for public release."
+  - "Before creating a STEP-intent page, confirm that the referenced STEP file is approved for public release."
   - "Titles may use a high-intent synonym; body copy must still read naturally for engineers."
   - "Use model pages for exact dimensions and ratings; use custom-engineering pages for problem-solving and supplier qualification."
 
@@ -340,9 +341,9 @@ planetary_search_discovery_expansion:
       new_page_required: false
     - query_family:
         - "planetary gearbox STEP"
-        - "miniature planetary gearbox CAD"
+        - "miniature planetary gearbox STEP"
         - "planetary gearbox 3D model"
-        - "32mm planetary gearbox CAD"
+        - "32mm planetary gearbox STEP"
       canonical_page: "/engineering-resources/planetary-gearboxes/public-cad-release-v1/"
       page_role: "public simplified 4-stage STEP and design-in boundary"
       new_page_required: false
