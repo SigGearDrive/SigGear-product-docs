@@ -22,8 +22,9 @@ SigGear's core capability is therefore broader than the public catalog:
 - production planning and delivery for volume programs
 - machining, gear processing, assembly, inspection and validation in a real manufacturing environment
 
-[**Start a Custom Transmission Project**](custom-engineering/index.md){ .md-button .md-button--primary }
+[**Start With Your Motor / Drawing / Problem**](custom-engineering/start-with-your-problem.md){ .md-button .md-button--primary }
 [**Custom Manufacturing & Volume Production**](custom-engineering/custom-transmission-manufacturing.md){ .md-button }
+[**Custom Engineering Overview**](custom-engineering/index.md){ .md-button }
 [**Manufacturing & Quality Evidence**](company/manufacturing-and-quality-evidence.md){ .md-button }
 [**Prototype → Production**](custom-engineering/prototype-to-production.md){ .md-button }
 
