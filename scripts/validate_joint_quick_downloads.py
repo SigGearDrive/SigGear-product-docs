@@ -99,6 +99,8 @@ def main() -> None:
     first_table = re.search(r"<table\b[^>]*>(.*?)</table>", article, re.S | re.I)
     if not first_table:
         raise ValueError("No first-screen joint download matrix")
+    if 'class="siggear-joint-downloads"' not in article:
+        raise ValueError("The six-model matrix must expose the responsive download wrapper")
     th_count = len(re.findall(r"<th\b",first_table.group(1),re.I))
     if th_count != 4:
         raise ValueError("Expected four-column download matrix (specs, datasheet, 2D, STEP); got " + str(th_count))
@@ -139,7 +141,42 @@ def main() -> None:
         raise ValueError("Download hub incorrectly lists released CAD as unavailable")
     if "SG2368B cross-reference pending" not in first_table.group(1) or "SG-6010HB" in first_table.group(1):
         raise ValueError("Unverified model-code drawing or SG-6010HB must not be presented as released")
-    print("PASS six product pages, four-column hub, six reference datasheets, four source 2D PDFs, eight full STEP and three simplified CAD links")
+    # Both family overview pages must expose direct files, not only model links.
+    family_models = {
+        "products/robot-joint-actuators/": ("SG-6010C", "SG-6010D", "SG-8021"),
+        "products/cycloidal-joint-modules/": ("CPM-78-39", "CPM-80-25", "CPM-100-25"),
+    }
+    for family_path, models in family_models.items():
+        family_html = page(family_path)
+        family_article = family_html.split("<article", 1)[-1]
+        if 'class="siggear-joint-downloads"' not in family_article:
+            raise ValueError("Family page missing responsive download wrapper: " + family_path)
+        family_table = re.search(r"<table\\b[^>]*>(.*?)</table>", family_article, re.S | re.I)
+        if not family_table:
+            raise ValueError("Family page missing direct-download matrix: " + family_path)
+        family_section = family_table.group(0)
+        if len(re.findall(r"<th\\b", family_section, re.I)) != 4:
+            raise ValueError("Family page table must have four columns: " + family_path)
+        if len(re.findall(r"<tr\\b", family_section, re.I)) != 4:
+            raise ValueError("Family table must contain exactly three models: " + family_path)
+        family_links = links(family_section, family_path)
+        for model in models:
+            if model not in family_section:
+                raise ValueError("Model absent from family table: " + model)
+            asset(model, PDFS[model], family_links)
+            for name in ORIGINAL_CAD[model]:
+                asset(model, "joint-actuators/" + name, family_links)
+            for name in DRAWINGS.get(model, []):
+                asset(model, "joint-actuators/" + name, family_links)
+        print("PASS family overview", family_path, "three models, direct PDF/2D/STEP")
+
+    stylesheet = SITE / "assets/stylesheets/joint-product-quick.css"
+    if not stylesheet.is_file():
+        raise ValueError("Joint mobile presentation CSS missing")
+    css = stylesheet.read_text(encoding="utf-8")
+    if "@media (max-width: 52rem)" not in css or 'content: "2D drawing";' not in css:
+        raise ValueError("Mobile download cards or 2D labels missing")
+    print("PASS six product pages, responsive download hub, two family matrices, 6 PDF datasheets, 4 2D PDFs and 8 full STEP variants")
 
 if __name__ == "__main__":
     main()
