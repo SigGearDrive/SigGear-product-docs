@@ -14,7 +14,7 @@ description: "SigGear 20P Ø20 mm miniature planetary gearhead/gearbox: ratios 4
 | --- | --- | --- | --- | --- |
 | **20 mm** | **4:1–1296:1** | **20.1–34.5 mm** | **588.4–1274.9 mN·m** | **≤ 1.5°** |
 
-**Custom 20P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=20P&start=existing_motor&path=gearbox_only) · [Review my drawing / CAD](../../request-cad-sample-quote.md?model=20P&start=drawing_cad) · [Prototype → volume](../../request-cad-sample-quote.md?model=20P&start=prototype_to_volume)
+**Custom 20P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=20P&start=existing_motor&path=gearbox_only) · [Review my drawing / STEP](../../request-cad-sample-quote.md?model=20P&start=drawing_cad) · [Review a failing gearbox](../../request-cad-sample-quote.md?model=20P&start=failing_gearbox&path=gearbox_only) · [Prototype → volume](../../request-cad-sample-quote.md?model=20P&start=prototype_to_volume)
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/20p/datasheet.md) · [Mechanical drawing preview](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-dimensions.webp) · [Motor-only datasheets](../../engineering-resources/motors/index.md#20-mm-bldc-motor) · [Compare Miniature 20–32 mm](miniature-planetary-gearheads-20-32mm.md) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
@@ -85,7 +85,7 @@ The published drawing shows a 20 mm body, a 12 mm output-shaft extension and sta
 
 ![20P 20 mm planetary gearhead dimensional drawing](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-dimensions.webp)
 
-## CAD Notes
+## STEP Notes
 
 The **Full Assembly STEP** is the published original Creo assembly. The **Simplified STEP** is a separate 4-stage reference for preliminary mechanical packaging. The [20P 2D outline drawing](../../assets/downloads/20p/20P_2D_Drawing.pdf) is the original **SG01PD20** interface reference. The body length **L ±0.3 mm** is configuration-dependent; confirm stage, ratio and motor mating dimensions before production.
 
