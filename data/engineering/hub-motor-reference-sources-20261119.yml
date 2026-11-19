@@ -1,0 +1,66 @@
+schema_version: 1
+release_date: "2026-11-19"
+release_status: public_reference_only
+company: "Guangdong SigGear Drive Intelligent Technology Co., Ltd."
+models:
+  SG-2877:
+    public_model: SG-2877
+    original_2d_label: "SG2877-3Nm"
+    source_drawing_rev: A
+    source_drawing_date: "2025-07-04"
+    source_drawing_sha256: e9a29e448e3709ea95624884fc1c6dcba4cff027059947f6d70fcb502152aa28
+    source_parasolid_sha256: d4234623ce016330051b063a8d6f2ecc54b73030369af8dd272e47756ef7cc7d
+    source_parasolid_size_bytes: 11347962
+    source_parasolid_format: "Parasolid text transmit .x_t (not STEP)"
+    cad_release: not_yet_verified_for_public_download
+    drawing_release: reference_source_available_not_manufacturing_controlled
+    drawing_overall_length: "117 +/-0.5 mm"
+    drawing_body_thickness: "64 +/-0.2 mm"
+    drawing_diameter: "99 +/-0.1 mm"
+    gear_material: POM
+    housing_material: PA66
+    motor_topology: "18 slots / 20 poles"
+    hall_angle: "120 deg"
+    insulation_class: "Class B"
+    motor_rated_load: "0.3 N.m"
+    phase_resistance: "0.82 +/-8% mOhm (supplier label - verify unit)"
+    phase_inductance: "0.75 +/-8% mH"
+    ambient: "22.5-22.6 C (source screenshot)"
+    test_points:
+      - ["No load", "166.81", "0.0000", "0.000", "24.019", "0.3345", "8.034", "0.00%"]
+      - ["Maximum efficiency", "139.90", "3.1068", "45.511", "23.980", "2.5398", "60.904", "74.73%"]
+      - ["Maximum output", "82.741", "10.589", "91.745", "23.981", "7.4025", "177.52", "51.68%"]
+      - ["Maximum torque (test)", "48.589", "14.214", "72.318", "23.981", "10.404", "249.51", "28.98%"]
+    source_discrepancy: "Public overall length 117 mm agrees with supplied Rev A 117 +/-0.5 mm drawing."
+  SG-2878:
+    public_model: SG-2878
+    original_2d_label: "SG2878-6Nm"
+    source_drawing_rev: A
+    source_drawing_date: "2025-07-04"
+    source_drawing_sha256: 676243bd541a89a360cad11952875dc0ca77fdfbe756ef562774a8231e19558b
+    source_parasolid_sha256: db833aadc75565bac76f32af3f1c8473f7b462f3d5caa26383902c8ebc4db3dc
+    source_parasolid_size_bytes: 11365030
+    source_parasolid_format: "Parasolid text transmit .x_t (not STEP)"
+    cad_release: not_yet_verified_for_public_download
+    drawing_release: reference_source_available_not_manufacturing_controlled
+    drawing_overall_length: "127 +/-0.5 mm"
+    drawing_body_thickness: "74 +/-0.2 mm"
+    drawing_diameter: "99 +/-0.1 mm"
+    gear_material: SMF4030
+    housing_material: PA66
+    motor_topology: "18 slots / 20 poles"
+    hall_angle: "120 deg"
+    insulation_class: "Class B"
+    motor_rated_load: "0.65 N.m"
+    phase_resistance: "0.57 +/-10% mOhm (supplier label - verify unit)"
+    phase_inductance: "0.57 +/-10% mH"
+    ambient: "25.9 C (source screenshot)"
+    test_points:
+      - ["No load", "145.35", "0.0000", "0.000", "24.029", "0.5375", "12.915", "0.00%"]
+      - ["Maximum efficiency", "121.17", "5.9085", "74.967", "23.999", "4.1393", "99.339", "75.47%"]
+      - ["Maximum output", "70.029", "19.525", "143.17", "23.998", "11.975", "287.37", "49.82%"]
+      - ["Maximum torque (test)", "25.443", "28.544", "76.047", "23.997", "18.364", "440.68", "17.26%"]
+    source_discrepancy: "Catalog total length 125 mm vs original drawing Rev A 127 +/-0.5 mm - engineering confirmation required."
+excluded_reference:
+  label: "SG2557-80PG-9.75B"
+  reason: "Different product identifier, earlier drawing date and IP66; not a SG-2877/SG-2878 source."
