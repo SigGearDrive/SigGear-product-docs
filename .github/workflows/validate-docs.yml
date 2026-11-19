@@ -83,6 +83,8 @@ on:
       - "scripts/test_motor_quick_downloads.js"
       - "scripts/build_joint_datasheets.py"
       - "scripts/validate_joint_product_media.py"
+      - "scripts/test_joint_download_clicks.js"
+      - "scripts/validate_joint_quick_downloads.py"
       - "scripts/validate_stage_specific_cad_boundary.py"
       - "scripts/validate_ratio_stage_selector_data.py"
       - "scripts/validate_selector_discovery_links.py"
@@ -227,6 +229,9 @@ jobs:
 
       - name: Build documentation
         run: mkdocs build --strict
+
+      - name: Verify six joint first-screen PDF and original STEP downloads
+        run: python scripts/validate_joint_quick_downloads.py
 
       - name: Preflight published planetary and motor files
         run: python scripts/validate_planetary_download_assets.py
