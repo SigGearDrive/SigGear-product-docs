@@ -44,6 +44,28 @@ def main():
             raise ValueError(f"Inquiry page is missing activation control {id_}")
     if "Send Engineering Request Online" not in doc:
         raise ValueError("The public form is missing its live online option in published copy")
+    # Customer-facing wording may change, but the legacy query/form machine
+    # values must stay stable for historical product deep links and prefill.
+    requirements = (
+        ('value="gearbox_only">Gearhead only', "Gearhead-only label missing"),
+        ('value="motor_gearbox">Complete motor + gearhead assembly', "Motor + Gearhead label missing"),
+        ('href="#engineering-project-brief"', "First-screen form jump missing"),
+        ('id="engineering-project-brief"', "Engineering brief anchor missing"),
+        ("engineering-resources/motors/", "Motor Datasheet shortcut missing"),
+    )
+    for marker, message in requirements:
+        if marker not in doc:
+            raise ValueError(message)
+    if "Gearbox only — I already have a motor" in doc:
+        raise ValueError("Legacy Gearbox-only customer label still present")
+    js_path = ROOT / "docs/assets/javascripts/inquiry-form.js"
+    js = js_path.read_text(encoding="utf-8")
+    for label in ("Gearhead Only Engineering Review", "Motor + Gearhead Engineering Review"):
+        if label not in js:
+            raise ValueError("Outdated customer email subject: " + label)
+    for code in ('"gearbox_only"', '"motor_gearbox"'):
+        if code not in js or code not in doc:
+            raise ValueError("Internal project-path value changed: " + code)
     print("PASS live online inquiry: current JS/CSS, contact email, consent and email fallback")
 
 
