@@ -114,6 +114,33 @@ assert.equal(motorEvent.params.motor_diameter_mm, 8);
 observed = click("https://example.com/SigGear-product-docs/assets/downloads/motors/8mm/SigGear_test.pdf");
 assert.equal(observed.filter(x => x.name === "motor_datasheet_click").length, 0);
 
+// GEO click-origin regression: the source is the current engineering page,
+// not the referrer that originally led the visitor to that engineering page.
+for (const [pageSlug, expectedOrigin] of [
+  ["custom-engineering/custom-planetary-gearbox", "geo_existing_motor"],
+  ["custom-engineering/custom-gearbox-from-drawing-cad", "geo_drawing_step_sample"],
+  ["custom-engineering/replacement-planetary-gearhead", "geo_replacement_redesign"],
+  ["custom-engineering/gearbox-failure-analysis-durability-redesign", "geo_failure_durability"],
+  ["custom-engineering/prototype-to-production", "geo_prototype_to_volume"],
+  ["selection-guides/custom-gearbox-manufacturer-supplier-qualification", "geo_supplier_qualification"]
+]) {
+  setPage("/SigGear-product-docs/" + pageSlug + "/",
+    "https://www.google.com/search?q=prior+referrer+not+origin");
+  const opening = click("../../request-cad-sample-quote/?start=existing_motor");
+  const opens = opening.filter(e => e.name === "engineering_brief_open_click");
+  assert.equal(opens.length, 1, pageSlug);
+  assert.equal(opens[0].params.inquiry_origin, expectedOrigin, pageSlug);
+  assert.equal(opens[0].params.destination_path,
+    "/SigGear-product-docs/request-cad-sample-quote/");
+  assert.ok(!Object.values(opens[0].params).some(v =>
+    typeof v === "string" && v.includes("prior+referrer")));
+}
+setPage("/SigGear-product-docs/engineering-center/", "");
+const unspecifiedOrigin = click("../request-cad-sample-quote/");
+assert.equal(unspecifiedOrigin.find(e => e.name === "engineering_brief_open_click")
+  .params.inquiry_origin, "direct_or_external");
+console.log("PASS six GEO source-page inquiry-click origins and unclassified fallback");
+
 console.log("PASS application -> product -> engineering file journey events without adding cookie tracking");
 console.log("PASS 33 motor PDF intent label and application-origin context");
 
