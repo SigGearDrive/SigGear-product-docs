@@ -5,6 +5,7 @@ from __future__ import annotations
 from collections import Counter
 import hashlib
 import json
+import re
 from pypdf import PdfReader
 from html.parser import HTMLParser
 from pathlib import Path
@@ -36,10 +37,10 @@ class MotorHTML(HTMLParser):
 def check() -> None:
     md = DOC.read_text(encoding="utf-8")
     assert md.count("# DC / BLDC Motor Datasheets") == 1
-    assert "SigGear supplies DC/BLDC motors" in md
+    assert re.search(r"SigGear supplies DC\s*/\s*BLDC motors", md), "Motor source family identity missing"
     assert "37 motor PDFs" in md
     assert "Draft" in md
-    assert "Motor + Gearhead Assemblies" in md
+    assert "../../custom-engineering/custom-planetary-gearbox.md" in md, "Missing selected-motor integration path"
     assert "<details" in md and "</details>" in md
     assert md.count("siggear-motor-file") == 37, "All 37 direct PDF links must be visible by default"
     assert HTML.is_file(), "MkDocs motor hub not built"
