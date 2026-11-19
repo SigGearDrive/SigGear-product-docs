@@ -167,6 +167,49 @@ def build(model,info,source):
     if not dst.read_bytes().startswith(b"%PDF-"):raise ValueError("Bad generated PDF "+str(dst))
     return dst
 
+
+def build_interface_reference(model,source):
+    """Source-derived DIMENSION CHECKLIST only, never a reproduction of controlled 2D."""
+    OUT.mkdir(parents=True,exist_ok=True)
+    dst=OUT/(model+"_Source_Dimension_Reference_Rev0.1.pdf")
+    doc=SimpleDocTemplate(str(dst),pagesize=A4,leftMargin=35,rightMargin=35,
+        topMargin=35,bottomMargin=59,
+        title=model+" Mechanical Dimension Reference Rev0.1",
+        author="Guangdong SigGear Drive Intelligent Technology Co., Ltd.")
+    width=A4[0]-70
+    values=[
+       ("Nominal housing outer diameter","99 mm (catalogue)"),
+       ("Drawing body thickness",source["drawing_body_thickness"]),
+       ("Overall length shown in Rev A source",source["drawing_overall_length"]),
+       ("Front mounting pilot / locating diameter","80.8 +0/-0.15 mm"),
+       ("Reference face diameter","93 +/-0.1 mm"),
+       ("Rear interface reference diameter","84 +/-0.1 mm"),
+       ("Output shaft / internal bore","16 -0.05/-0.12 mm / 10.5 mm"),
+       ("Output shaft reference length","28 +0/-0.2 mm"),
+       ("Drawing rear face mounting","4 x M4 equally spaced"),
+       ("Source drawing identifier",source["original_2d_label"]),
+       ("Source drawing revision / date","A / 2025-07-04"),
+    ]
+    story=banner(model,{"display_name":model})
+    story.append(Paragraph("Mechanical dimension checklist - 2D source reference",SECTION))
+    story.append(par("Values transcribed from the supplied 2025-07-04 Rev A 2D drawing. This sheet is a searchable, simplified dimensional reference and is NOT the original 2D drawing, a released STEP or a tolerance-controlled manufacturing drawing."))
+    story.append(Spacer(1,11))
+    story.append(table([[par(x,LABEL),par(y)] for x,y in values],[225,width-225],pad=8))
+    story.append(Spacer(1,12))
+    story.append(Paragraph("Configuration and release control",SECTION))
+    story.append(par(source["source_discrepancy"]))
+    story.append(Spacer(1,8))
+    story.append(par("The source assembly is Parasolid .x_t, not STEP. Its exact geometry has not been validated for public integration. Use the original engineering drawing and configuration-matched source CAD only after engineering approval."))
+    story.append(Spacer(1,8))
+    story.append(par("This checklist is not a substitute for mounting pitch circle dimensions, hole depth, wiring routing, tolerances, seal compression, shaft engagement or installation datum review."))
+    story.append(Spacer(1,16))
+    story.append(Paragraph("Request original 2D / approved CAD",SECTION))
+    story.append(par("Contact wangwanrong@siggear.com | siggear.com",SMALL))
+    doc.build(story,onFirstPage=foot,onLaterPages=foot)
+    if not dst.read_bytes().startswith(b"%PDF-"):
+        raise ValueError("Bad mechanical reference PDF "+str(dst))
+    return dst
+
 def main():
     audit=yaml.safe_load(AUDIT.read_text(encoding="utf-8"))
     for model in ("SG-2877","SG-2878"):
@@ -178,5 +221,7 @@ def main():
         if len(a["test_points"])!=4:raise ValueError("Expected four source test points")
         p=build(model,d,a)
         print("PDF",model,p.stat().st_size,str(p.relative_to(ROOT)))
+        q=build_interface_reference(model,a)
+        print("DIMENSION PDF",model,q.stat().st_size,str(q.relative_to(ROOT)))
 
 if __name__=="__main__":main()
