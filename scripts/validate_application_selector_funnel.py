@@ -28,7 +28,7 @@ APPLICATIONS = {
 PRIORITY_APPLICATION_MODEL_PATHS = {
     "electric-pruning-shears-planetary-gearbox": ("32p", "36p", "42p"),
     "electric-curtain-blind-window-opener-gear-motors": ("16p", "20p", "22p"),
-    "robot-gripper-gear-motors": ("8p", "10p", "12p", "14p", "16p"),
+    "robot-gripper-gear-motors": ("8p", "14p", "20p"),
 }
 
 
@@ -95,6 +95,11 @@ def main() -> None:
             }
             required.add("/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/")
             required.add("/SigGear-product-docs/request-cad-sample-quote/")
+            if page_slug == "robot-gripper-gear-motors":
+                required.add(
+                    "/SigGear-product-docs/products/planetary-gearboxes/"
+                    "micro-planetary-gearheads-8-16mm/"
+                )
             missing = sorted(required - rendered_paths)
             if missing:
                 raise ValueError(
