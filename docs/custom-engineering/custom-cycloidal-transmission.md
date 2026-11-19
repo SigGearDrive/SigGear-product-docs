@@ -220,7 +220,7 @@ Send the application, required output motion and installation constraints first.
 The engineering discussion should determine which transmission approach deserves further evaluation.
 
 [Open Custom Precision Transmission Engineering](index.md){ .md-button }
-[View Custom Planetary Gearbox Engineering](custom-planetary-gearbox.md){ .md-button }
+[View Custom Planetary Gearhead Engineering](custom-planetary-gearbox.md){ .md-button }
 
 ## Discuss Your Cycloidal Transmission Project
 
