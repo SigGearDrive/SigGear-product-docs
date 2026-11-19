@@ -88,9 +88,13 @@ async function run(input) {
   console.log("PASS 4 supported OEM application paths reach published candidates and GA4");
 
   const appNoMatch = await run({query: "?app=electric_curtain_blind", torque:"1.0", peak:"1.2"});
-  assert.match(appNoMatch.results, /Request Custom Engineering Review/);
+  assert.match(appNoMatch.results, /Send This Requirement for Engineering Review/);
   assert.match(appNoMatch.results, /&amp;app=electric_curtain_blind/);
-  console.log("PASS no-match custom feasibility request retains safe application slug");
+  assert.match(appNoMatch.results, /start=existing_motor/);
+  assert.match(appNoMatch.results, /start=drawing_cad/);
+  assert.match(appNoMatch.results, /start=failing_gearbox/);
+  assert.match(appNoMatch.results, /start=prototype_to_volume/);
+  console.log("PASS no-match custom feasibility request retains app context and four project-start paths");
 
   const injected = await run({query: "?app=%3Cscript%3Eevil%3C%2Fscript%3E"});
   assert.equal(injected.applicationContext.hidden,true);
@@ -160,14 +164,14 @@ async function run(input) {
 
   const excessivePeak = await run({ peak:"1.0" });
   assert.match(excessivePeak.results, /No published standard configuration remains/);
-  assert.match(excessivePeak.results, /Request Custom Engineering Review/);
+  assert.match(excessivePeak.results, /Send This Requirement for Engineering Review/);
   assert.match(excessivePeak.results, /selector_peak_nm=1.00000/);
   console.log("PASS excessive peak load excluded from catalog and referred for customization");
 
   const excessiveContinuous = await run({torque: "1.0", peak: "1.2"});
   assert.match(excessiveContinuous.results, /No published standard configuration remains/);
   assert.match(excessiveContinuous.results, /selector_continuous_nm=1.00000/);
-  assert.match(excessiveContinuous.results, /Request Custom Engineering Review/);
+  assert.match(excessiveContinuous.results, /Send This Requirement for Engineering Review/);
   console.log("PASS excessive continuous load passed to custom engineering rather than rejected");
 
   const reversedTorque = await run({ peak:"0.1", torque:"0.2" });
