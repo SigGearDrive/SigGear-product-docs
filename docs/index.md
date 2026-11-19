@@ -24,6 +24,7 @@ SigGear's core capability is therefore broader than the public catalog:
 
 [**Start With Your Motor / Drawing / Problem**](custom-engineering/start-with-your-problem.md){ .md-button .md-button--primary }
 [**Custom Manufacturing & Volume Production**](custom-engineering/custom-transmission-manufacturing.md){ .md-button }
+[**Source-Backed Manufacturing Facts**](company/source-backed-manufacturing-facts.md){ .md-button }
 [**Custom Engineering Overview**](custom-engineering/index.md){ .md-button }
 
 ## Start From Your Real Project Situation
