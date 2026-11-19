@@ -139,6 +139,13 @@ setPage("/SigGear-product-docs/engineering-center/", "");
 const unspecifiedOrigin = click("../request-cad-sample-quote/");
 assert.equal(unspecifiedOrigin.find(e => e.name === "engineering_brief_open_click")
   .params.inquiry_origin, "direct_or_external");
+// Changing a project path while already on the inquiry form is not a new
+// engineering-brief entry; only the actual page transition counts.
+setPage("/SigGear-product-docs/request-cad-sample-quote/", "");
+const selfContext = click("?start=existing_motor&path=gearbox_only");
+assert.equal(selfContext.filter(e => e.name === "engineering_brief_open_click").length, 0,
+  "same-form scenario selection must not be counted as another entry");
+
 console.log("PASS six GEO source-page inquiry-click origins and unclassified fallback");
 
 console.log("PASS application -> product -> engineering file journey events without adding cookie tracking");
