@@ -77,3 +77,5 @@ The shipment figure is a historical company-wide result, not a model-specific ca
 **Other product families:** [Robot Joint Actuators](https://siggeardrive.github.io/SigGear-product-docs/products/robot-joint-actuators/) · [Cycloidal Joint Modules](https://siggeardrive.github.io/SigGear-product-docs/products/cycloidal-joint-modules/) · [Hub Gear Motors](https://siggeardrive.github.io/SigGear-product-docs/products/hub-gear-motors/)
 
 Engineering contact: [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+
+**Public site index:** [SigGear XML Sitemap](https://siggeardrive.github.io/SigGear-product-docs/sitemap.xml) · [Full product documentation](https://siggeardrive.github.io/SigGear-product-docs/). Search Console maintenance notes: [Indexing handoff](.github/SEARCH_CONSOLE_INDEXING.md).
