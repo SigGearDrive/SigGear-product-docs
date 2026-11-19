@@ -29,8 +29,8 @@ def required_pdfs():
         body
     )))
     paths = [(INDEX.parent / rel).resolve() for rel in links]
-    if len(paths) != 33 or not all(p.is_file() for p in paths):
-        raise RuntimeError(f"Expected 33 real motor PDFs, got {len(paths)}")
+    if len(paths) != 37 or not all(p.is_file() for p in paths):
+        raise RuntimeError(f"Expected 37 real motor PDFs, got {len(paths)}")
     return paths
 
 
