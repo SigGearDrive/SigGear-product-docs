@@ -105,7 +105,7 @@ assert.equal(live.submit().prevented, false, "browser must perform native POST a
 assert.match(live.node("sg-online-message").value, /Example miniature motion design/);
 assert.match(live.node("sg-online-message").value, /Contact email: buyer@example.org/);
 assert.match(live.node("sg-online-message").value, /Contact name: Example engineer/);
-assert.match(live.node("sg-online-subject").value, /Planetary Gearbox Project Review/);
+assert.match(live.node("sg-online-subject").value, /Custom Transmission Project Review/);
 assert.equal(live.node("sg-online-url").value, "https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/");
 assert.ok(live.gaEvents.some(x => x.name === "engineering_brief_online_submit_attempt"));
 assert.ok(!live.gaEvents.some(x => x.name === "engineering_brief_online_submit_success"));
