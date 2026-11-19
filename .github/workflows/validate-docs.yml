@@ -48,6 +48,8 @@ on:
       - "scripts/test_motor_quick_downloads.js"
       - "scripts/build_joint_datasheets.py"
       - "scripts/validate_joint_product_media.py"
+      - "scripts/validate_joint_upload_source_register.py"
+      - ".github/joint-drawing-photo-inbox/**"
       - "scripts/utm_utils.py"
       - "hooks/**"
       - ".github/workflows/validate-docs.yml"
@@ -83,6 +85,8 @@ on:
       - "scripts/test_motor_quick_downloads.js"
       - "scripts/build_joint_datasheets.py"
       - "scripts/validate_joint_product_media.py"
+      - "scripts/validate_joint_upload_source_register.py"
+      - ".github/joint-drawing-photo-inbox/**"
       - "scripts/test_joint_download_clicks.js"
       - "scripts/validate_joint_quick_downloads.py"
       - "scripts/validate_stage_specific_cad_boundary.py"
@@ -136,6 +140,9 @@ jobs:
 
       - name: Verify robot joint product images, downloads and release status
         run: python scripts/validate_joint_product_media.py
+
+      - name: Verify new robot joint 2D/photo source release register
+        run: python scripts/validate_joint_upload_source_register.py
 
       - name: Validate documentation structure
         run: python scripts/validate_docs.py
