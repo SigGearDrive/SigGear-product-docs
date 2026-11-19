@@ -57,7 +57,7 @@ for name, terms in focused_intent.items():
     body = (APP / name).read_text(encoding="utf-8").lower()
     for term in terms:
         assert term.lower() in body, (name, term)
-    assert "## " in body and "pdf / step" in body.lower(), name
+    assert "## " in body and ("pdf / step" in body.lower() or "pdf / 2d / step" in body.lower()), name
 
 # Check that engineering search intent stays specific rather than generic.
 round3_intent = {
@@ -73,7 +73,7 @@ round3_intent = {
 for name, terms in round3_intent.items():
     body = (APP / name).read_text(encoding="utf-8").lower()
     assert all(word.lower() in body for word in terms), (name, terms)
-    assert "pdf" in body and "2d & step" in body, name
+    assert "pdf" in body and ("2d & step" in body or "pdf / 2d / step" in body), name
 
 # A visitor should see the exact model PDF/2D/STEP grid BEFORE prose and
 # before any generic resource hubs.  On mobile the links become three-button cards.
@@ -100,6 +100,31 @@ for name in firstscreen_file_pages:
     assert grid.count("_Full_Assembly.step") == 3, (name, "Full STEP links missing from matrix")
     assert grid.count("_2D_Drawing.pdf") == 3, (name, "2D links missing from matrix")
     assert grid.count("_Planetary_Gearhead_Datasheet_Rev") == 3, (name, "PDF links missing from matrix")
+    assert "application-quick-downloads.css?v=20261119-firstscreen" in html, name
+
+# Additional high-value micro gearhead application pages use the proven file-first
+# layout, while retaining every original model/PDF/2D/STEP URL.
+round5_files = {"electric-curtain-blind-window-opener-gear-motors.md":3,"smart-toilet-bidet-planetary-gear-motors.md":4,"smart-pet-feeder-litter-box-planetary-gearheads.md":4,"access-control-smart-lock-security-gear-motors.md":3,"consumer-appliance-home-device-gear-motors.md":3,"smart-hardware-gear-motors.md":3,"robot-gripper-gear-motors.md":3,"powered-screwdriver-planetary-gearbox.md":3,"micro-robotics-gear-motors.md":3,"furniture-seating-adjustable-mechanism-gear-motors.md":3}
+for name, count in round5_files.items():
+    src = (APP / name).read_text(encoding="utf-8")
+    assert src.count("## Direct Downloads") == 1, name
+    assert src.index("## Direct Downloads") < src.index("**Application:**"), name
+    assert src.index("_Full_Assembly.step") < src.index("**Application:**"), name
+    assert len(src.split("## Direct Downloads", 1)[0]) < 620, (name, "model downloads buried")
+    assert len(src) < (2850 if count == 4 else 2500), (name, len(src))
+    for label in ("PDF", "2D", "STEP"):
+        assert src.count("[**↓ " + label + "**]") == count, (name, label)
+    rendered = ROOT / "site/applications" / name.removesuffix(".md") / "index.html"
+    assert rendered.is_file(), (name, "missing rendered HTML")
+    html = rendered.read_text(encoding="utf-8")
+    assert 'class="siggear-app-quick"' in html, name
+    start = html.index('class="siggear-app-quick"')
+    end = html.index("</div>", start)
+    grid = html[start:end]
+    assert "<table>" in grid and "</table>" in grid, name
+    assert grid.count("_Full_Assembly.step") == count, (name, "STEP")
+    assert grid.count("_2D_Drawing.pdf") == count, (name, "2D")
+    assert grid.count("_Planetary_Gearhead_Datasheet_Rev") == count, (name, "PDF")
     assert "application-quick-downloads.css?v=20261119-firstscreen" in html, name
 
 print("PASS 32 concise supplier-first application pages, 3 supply routes, file links and legacy selector context")
