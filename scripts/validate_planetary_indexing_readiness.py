@@ -236,6 +236,7 @@ def check_catalog_application_indexing() -> None:
         "products/hub-gear-motors/sg2878.md",
     ]
     sources = application_sources + [DOCS / relative for relative in model_sources]
+    sources.append(DOCS / "knowledge-base/product-model-index.md")
     root = ElementTree.parse(SITE / "sitemap.xml").getroot()
     ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
     sitemap_urls = [
