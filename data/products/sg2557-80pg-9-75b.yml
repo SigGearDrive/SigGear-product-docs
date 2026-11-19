@@ -1,0 +1,48 @@
+schema_version: 1
+record_id: sg2557-80pg-9-75b
+record_type: model
+model: SG2557-80PG-9.75B
+display_name: SG2557-80PG-9.75B 24 V Hub Gear Motor
+product_family: hub_gear_motor
+canonical_page: docs/products/hub-gear-motors/sg2557-80pg-9-75b.md
+public_page_status: published
+record_status: published_inventory
+configuration_summary: Independent historical 2024-05-21 Rev A wheel hub assembly drawing; present-day product availability, original drawing public release, and exact mounting revision remain unconfirmed. This is not SG-2877 or SG-2878.
+published_specifications:
+  rated_voltage: "24 VDC"
+  motor_rated_current: "< 3 A"
+  motor_rated_speed: "1,500 ±10% rpm"
+  motor_rated_torque: "0.3 N·m"
+  locked_rotor_current: "< 8 A"
+  reduction_ratio: "9.75:1"
+  gear_output_rated_current: "< 3 A"
+  gear_output_rated_speed: "130 ±10% rpm"
+  gear_output_rated_torque: "3 N·m"
+  peak_output_torque: "10 N·m"
+sales_usage:
+  permitted:
+    - historical_reference
+    - preliminary_selection
+  requires_confirmation:
+    - current_product_availability
+    - controlled_revision_and_mounting
+    - peak_torque_duration_and_duty_cycle
+    - controller_and_wiring
+    - waterproof_certification
+  prohibited:
+    - conflate_with_sg2877_or_sg2878
+    - present_source_requirements_as_certification
+    - present_reference_pdf_as_original_drawing
+technical_review:
+  public_inventory_status: complete
+  controlled_source_reference: not_recorded_in_public_repository
+  technical_approval_status: not_recorded_in_public_repository
+  next_internal_action: confirm_legacy_source_revision_and_current_availability
+source_control:
+  public_claim_source: canonical_page
+  technical_source_status: not_recorded_in_public_repository
+  source_register: data/engineering/hub-motor-reference-sources-20261119.yml
+  source_original: "SG2557-80PG-9.75B轮毂减速箱组合图.pdf"
+  public_pdf: docs/assets/downloads/hub-gear-motors/SG2557-80PG-9.75B_Source_Dimension_Reference_Rev0.1.pdf
+  source_cad_release: no_verified_3d_exchange_for_this_model
+inventory_checked_on: "2026-11-19"
