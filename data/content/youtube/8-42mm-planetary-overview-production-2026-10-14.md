@@ -4,7 +4,7 @@
 
 **Audience:** OEM mechanical engineers, compact-device product designers, engineering procurement and motor/gearbox integrators. **Primary goal:** qualified product discovery → engineering docs → gearbox-only / motor-matching request; not raw view count.
 
-**Existing evidence:** actual SigGear 8–42 mm family lineup photo at `docs/assets/images/evidence/planetary/8-42mm-planetary-gearbox-family-real.webp`, real compact gearmotor sample photo at `docs/assets/images/evidence/planetary/compact-gearmotor-size-reference.webp`, twelve model-specific product pages/datasheets and released simplified **four-stage** STEP references. Public images can be used as illustrated source references or B-roll stills, but must never be presented as moving factory footage.
+**Existing evidence:** authentic SigGear 8–42 mm gearhead lineup at `docs/assets/images/products/planetary-gearboxes/siggear-8-42mm-planetary-gearheads-real-lineup.jpg`, the 12 model-specific authentic PNG product photos, each model's published page/datasheet and released simplified **four-stage** STEP references. The earlier compact gearmotor sample WebP failed decoding and was retired; any motor + gearhead sample close-up must come from separately verified original footage or a readable source photo. Public images can be used as illustrated source references or B-roll stills, but must never be presented as moving factory footage.
 
 ## YouTube upload package (copy/edit)
 
@@ -28,7 +28,7 @@ Engineering questions or a motor drawing? Email: wangwanrong@siggear.com
 
 #PlanetaryGearbox #MechanicalEngineering #GearMotor
 
-**Thumbnail concept:** genuine 8–42 mm lineup on a clean bench, with legible `8–42 mm Planetary Gearboxes` headline; use the real model sequence and avoid AI-generated product renders or fabricated factory shots. Image source: `docs/assets/images/evidence/planetary/8-42mm-planetary-gearbox-family-real.webp` or new real footage still.
+**Thumbnail concept:** genuine 8–42 mm lineup on a clean bench, with legible `8–42 mm Planetary Gearboxes` headline; use the real model sequence and avoid AI-generated product renders or fabricated factory shots. Image source: `docs/assets/images/products/planetary-gearboxes/siggear-8-42mm-planetary-gearheads-real-lineup.jpg` or new verified real footage still.
 
 **Pinned comment:** Working on a compact drive? Compare the 8–42 mm frame sizes and public CAD references here: https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/?utm_source=youtube&utm_medium=video&utm_campaign=planetary_content&utm_content=series_overview . Tell us whether you need **gearbox only** or **motor + gearbox matching**.
 

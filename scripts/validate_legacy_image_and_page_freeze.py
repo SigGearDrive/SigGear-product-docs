@@ -22,6 +22,16 @@ DOCS = ROOT / "docs"
 MANIFEST = ROOT / "data/seo/frozen-legacy-pages-2026-11-20.json"
 MODELS = (8, 10, 12, 14, 16, 20, 22)
 UNREADABLE_REAL_MODELS = (8, 10, 12, 14, 20)
+RETIRED_UNREADABLE_FILES = (
+    "docs/assets/brand/siggear-logo-white.webp",
+    "docs/assets/images/evidence/manufacturing/siggear-manufacturing-quality-evidence.webp",
+    "docs/assets/images/evidence/planetary/8-42mm-planetary-gearbox-family-real.webp",
+    "docs/assets/images/evidence/planetary/compact-gearmotor-measurement-caliper.webp",
+    "docs/assets/images/evidence/planetary/compact-gearmotor-size-reference.webp",
+    "docs/assets/images/evidence/planetary/micro-gearmotor-size-reference.webp",
+    "docs/assets/images/products/planetary-gearboxes/32p/32p-real-product-evidence.webp",
+    "docs/assets/images/products/robot-joint-actuators/sg8021/sg8021-robot-joint-actuator-front-angle.webp",
+)
 RETIRED_IMAGE_KINDS = (
     "main",
     "dimensions",
@@ -57,6 +67,11 @@ def check_frozen_pages() -> None:
 
 def check_retired_image_assets() -> None:
     retired_names = []
+    for retired in RETIRED_UNREADABLE_FILES:
+        assert not (ROOT / retired).exists(), (
+            f"Retired undecodable source file was restored: {retired}"
+        )
+        retired_names.append(Path(retired).name)
     for n in MODELS:
         folder = DOCS / f"assets/images/products/planetary-gearboxes/{n}p"
         for kind in RETIRED_IMAGE_KINDS:
@@ -143,7 +158,7 @@ def main() -> None:
     check_data_source_and_photos()
     print(
         "PASS: 35 outdated spec graphics and five damaged WebP files retired; "
-        "PDF/2D links and all 12 PNG photos required; five pages frozen."
+        "eight unreadable historical files absent; PDF/2D links and 12 PNGs required; five pages frozen."
     )
 
 

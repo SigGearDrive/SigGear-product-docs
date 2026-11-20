@@ -30,7 +30,9 @@
     "date": "2026-11-20",
     "owner_direction": "Inspect and repair website product images; self-repair confirmed broken or missing references, and report originals requiring replacement.",
     "scope": "The already-frozen motor-gearbox integration page changes only its one undecodable WebP reference to a dated, source-accurate photo-withheld notice. No parameter, PDF, STEP, URL, or SEO section rework.",
-    "image_file": "docs/assets/images/evidence/planetary/micro-gearmotor-size-reference.webp",
-    "status": "source_photo_unreadable_original_required"
+    "retired_image_file": "docs/assets/images/evidence/planetary/micro-gearmotor-size-reference.webp",
+    "status": "retired_unreadable_original_not_available",
+    "replacement_original_required": true,
+    "note": "Historical source filename retained only for audit traceability; this retired file is no longer published and is not an approved engineering image." 
   }
 }

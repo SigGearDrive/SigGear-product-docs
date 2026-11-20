@@ -64,6 +64,9 @@ jobs:
       - name: Decode and audit 12 planetary product photos and page references
         run: python scripts/validate_planetary_product_photos.py
 
+      - name: Reject every corrupt or missing public image and source reference
+        run: python scripts/audit_site_images.py --mode repo --report site-image-audit-report.json
+
       - name: Test citation-ready first-screen answer extraction
         run: python scripts/validate_geo_citation_extractability.py
 
