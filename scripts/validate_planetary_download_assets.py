@@ -188,6 +188,7 @@ def main() -> None:
 
     html_paths = [
         ("engineering-resources/planetary-gearboxes/public-cad-release-v1/", 48),
+        ("engineering-resources/planetary-gearboxes/", 36),
         ("engineering-resources/motors/", len(motor_links)),
     ]
     html_paths.extend(
@@ -222,6 +223,25 @@ def main() -> None:
         ("custom-engineering/motor-gearbox-integration/", 36),
         ("applications/planetary-gearbox-application-families/", 18),
     ])
+
+    # The legacy planetary Engineering Resources index now must expose the
+    # same real files as the protected central download page, not only 2D.
+    planetary_resource_index = (
+        DOCS / "engineering-resources/planetary-gearboxes/index.md"
+    ).read_text(encoding="utf-8")
+    require(
+        planetary_resource_index.index("## 12 Models") <
+        planetary_resource_index.index("## Standard Reference"),
+        "Planetary Engineering Resources must show model files before prose",
+    )
+    for size in MODEL_SIZES:
+        for token in (
+            f"{size}P_Planetary_Gearhead_Datasheet_",
+            f"{size}P_2D_Drawing.pdf",
+            f"{size}P_Full_Assembly.step",
+        ):
+            require(token in planetary_resource_index,
+                    f"Planetary resources missing direct {size}P asset: {token}")
 
     links_checked = 0
     for rel, min_download_links in html_paths:
