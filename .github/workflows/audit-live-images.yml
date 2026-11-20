@@ -3,6 +3,10 @@ name: Audit live SigGear images
 on:
   pull_request:
     paths:
+      - "docs/**"
+      - "data/**"
+      - "hooks/**"
+      - "mkdocs.yml"
       - "scripts/audit_site_images.py"
       - ".github/workflows/audit-live-images.yml"
   workflow_dispatch:
