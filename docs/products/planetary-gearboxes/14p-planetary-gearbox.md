@@ -10,6 +10,8 @@ description: "SigGear 14P (14 mm) micro planetary gearhead/gearbox: ratio 3.75:1
 [**Download Full Assembly STEP**](../../assets/downloads/14p/14P_Full_Assembly.step){ .md-button }
 [**Download Simplified 4-Stage STEP · Reference**](../../assets/downloads/14p/14P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button }
 
+**Engineering data reference:** Use the current [14P Datasheet PDF](../../assets/downloads/14p/14P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) for published input-speed conditions, ratio/stage, rated load and dimensions. Images here show real products only; if a web summary and the downloadable Datasheet differ, verify the latest controlled revision with SigGear engineering.
+
 | Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
 | --- | --- | --- | --- | --- |
 | **14 mm** | **3.75:1–443.3:1** | **15.2–26.6 mm** | **343.2–588.4 mN·m** | **≤ 1.5°** |
