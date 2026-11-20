@@ -89,7 +89,13 @@ def main() -> None:
         for url in paths:
             if url.startswith(("http:","https:","data:")):
                 raise ValueError("Hotlinked or synthetic image in standard page: "+model)
-            file=(page.parent / unquote(url.split("?")[0])).resolve()
+            image_path = unquote(url.split("?")[0])
+            if image_path.startswith("/SigGear-product-docs/"):
+                file = (DOCS / image_path[len("/SigGear-product-docs/"):]).resolve()
+            elif image_path.startswith("/"):
+                raise ValueError("Unsafe root image URL "+model+" "+url)
+            else:
+                file = (page.parent / image_path).resolve()
             if not file.is_relative_to(DOCS) or not file.is_file():
                 raise ValueError("Missing or unsafe product image "+model+" "+url)
             if file.suffix.lower() == ".svg":
