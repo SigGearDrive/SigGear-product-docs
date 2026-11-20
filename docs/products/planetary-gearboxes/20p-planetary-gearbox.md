@@ -10,6 +10,8 @@ description: "SigGear 20P Ø20 mm miniature planetary gearhead/gearbox: ratios 4
 [**Download Full Assembly STEP**](../../assets/downloads/20p/20P_Full_Assembly.step){ .md-button }
 [**Download Simplified 4-Stage STEP · Reference**](../../assets/downloads/20p/20P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button }
 
+**Engineering data reference:** Use the current [20P Datasheet PDF](../../assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) for published input-speed conditions, ratio/stage, rated load and dimensions. Images here show real products only; if a web summary and the downloadable Datasheet differ, verify the latest controlled revision with SigGear engineering.
+
 | Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
 | --- | --- | --- | --- | --- |
 | **20 mm** | **4:1–1296:1** | **20.1–34.5 mm** | **588.4–1274.9 mN·m** | **≤ 1.5°** |
