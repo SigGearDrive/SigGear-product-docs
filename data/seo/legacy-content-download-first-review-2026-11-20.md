@@ -99,3 +99,24 @@
 - The two edited URLs are maintained; **no binary PDF/STEP assets are modified**, no new application/product page is created, and the 2026-11-19 new GEO pages stay in observation.
 
 **Reassessment gate:** await fresh **non-overlapping**, page-level GSC exposure/click/CTR/rank data and post-recrawl observations before labelling any legacy URL as *continually declining*. The current Windsor.ai connection still contains GA4 but no selected GSC property; no post-rewrite uplift or traffic loss is claimed here.
+
+
+## Third batch on 2026-11-20 — preserve the indexed legacy ratio selector
+
+**Existing public URL:** `/selection-guides/miniature-planetary-gearbox-selection-guide/`
+
+**Why this page:** Historical SigGear records document that the URL was reported indexed in Google URL Inspection on October 16; the October 2026 GA4 baseline shows three entrance sessions on the legacy selector. Neither record proves poor current SEO performance or a sustained decline. The verifiable UX issue was the absence of any original model-specific Datasheet PDF / 2D / Full Assembly STEP direct links in the older 213-line page.
+
+**In-place correction:** The page is now **132 lines**, with a first-screen table covering **12 sizes × 3 verified direct files = 36 original releases** from the protected download center. The fully functional `siggear-ratio-stage-selector` calculator, all its input/summary/result elements and the existing inbound `#preliminary-ratio-stage-finder` anchor are preserved. Repetitive long-form examples and general-use discussion are replaced with brief stage/ratio, continuous-vs-peak, motor-interface and STEP-variant checks. No new ratio/torque/lifetime measurements are introduced.
+
+**Important technical guardrail:** The previous selector copy mixed configuration-dependent input speed with an obsolete generic 20,000 rpm gating rule. The refreshed selector now states that permissible speed is **motor- and configuration-dependent**, matching the existing `scripts/validate_planetary_input_speed_range.py` source policy; the separately confirmed 12P range stays in its official model-specific document. Never reinstate a universal 8P–42P limit.
+
+**Release requirements:**
+- [ ] PR branch and main `Validate Documentation` pass
+- [ ] MkDocs deployment and Pages build succeed
+- [ ] All 36 selector download hrefs resolve to the same protected, currently published files
+- [ ] Same existing canonical URL, calculator form IDs and deep-link anchor
+- [ ] 13 Nov 19 GEO pages, current 32 application pages, model data and binary files untouched
+- [ ] Post-recrawl GSC query/URL performance still pending; no fabricated improvement claim
+
+This third batch is an **objective usability change**, not a claim that 213 lines or zero fresh GSC records alone prove SEO failure.
