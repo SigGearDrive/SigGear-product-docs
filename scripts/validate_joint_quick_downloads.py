@@ -190,6 +190,39 @@ def main() -> None:
         raise ValueError("Download hub incorrectly lists released CAD as unavailable")
     if "SG2368B cross-reference pending" not in first_table.group(1) or "SG-6010HB" in first_table.group(1):
         raise ValueError("Unverified model-code drawing or SG-6010HB must not be presented as released")
+    # The older joint selection guide must present real model assets in its
+    # first specification table, not ten generic navigation buttons before
+    # any usable file. Preserve the exact approved variants from the hub.
+    selection_path = "selection-guides/robot-joint-actuator-selection-guide/"
+    selection_html = page(selection_path)
+    selection_body = selection_html.split("<article", 1)[-1]
+    if 'class="siggear-joint-downloads"' not in selection_body:
+        raise ValueError("Robot joint selection page missing responsive file matrix")
+    selection_table = re.search(r"<table\b[^>]*>(.*?)</table>", selection_body, re.S | re.I)
+    if not selection_table:
+        raise ValueError("Robot joint selection page missing first-screen file table")
+    selection_fragment = selection_table.group(0)
+    if len(re.findall(r"<th\b", selection_fragment, re.I)) != 4:
+        raise ValueError("Robot joint selection table must have four file columns")
+    if len(re.findall(r"<tr\b", selection_fragment, re.I)) != 7:
+        raise ValueError("Robot joint selection table must list exactly six released models")
+    if selection_body.find('class="siggear-joint-downloads"') > selection_body.find('<h2 id="robot-joint-reducer-specifications-to-compare">'):
+        raise ValueError("Joint model download matrix must precede sizing prose")
+    selection_links = links(selection_fragment, selection_path)
+    for model in PRODUCTS:
+        if model not in selection_fragment:
+            raise ValueError("Joint selection guide missing model: " + model)
+        asset(model, PDFS[model], selection_links)
+        for name in ORIGINAL_CAD[model]:
+            asset(model, "joint-actuators/" + name, selection_links)
+        for name in DRAWINGS.get(model, []):
+            asset(model, "joint-actuators/" + name, selection_links)
+    if "SG2368B cross-reference pending" not in selection_fragment:
+        raise ValueError("Pending CPM-78-39 drawing must not be misrepresented")
+    if "SG-8021 STEP is driver-equipped" not in selection_body:
+        raise ValueError("SG-8021 driver-equipped STEP variant warning missing")
+    print("PASS joint sizing guide: six exact PDF / 2D / STEP reference model downloads")
+
     # Both family overview pages must expose direct files, not only model links.
     family_models = {
         "products/robot-joint-actuators/": ("SG-6010C", "SG-6010D", "SG-8021"),
