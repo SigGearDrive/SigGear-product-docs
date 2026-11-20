@@ -173,16 +173,19 @@ def _real_evidence_image(page, config) -> dict | None:
         if not model:
             return None
         slug = model.lower()
-        # Do not advertise damaged/undecodable old product WebP assets as real
-        # model photos or structured-data images. Keep the technical ItemPage
-        # but omit an image until a verified authentic photo is supplied.
+        # Do not advertise the quarantined 8/10/12/14/20P old WebP files.
+        # Their approved replacements must be authentic PNG uploads.
+        # 32P/36P use confirmed real-photo filenames, not a legacy broken
+        # filename guessed solely from the model number.
         if slug in {"8p", "10p", "12p", "14p", "20p"}:
-            return None
-        relative = (
-            f"assets/images/products/planetary-gearboxes/{slug}/"
-            f"{slug}-real-product-evidence.webp"
-        )
-        alt = f"Real SigGear {model} planetary gearhead with dimensional reference"
+            filename = f"{slug}-real-product-evidence.png"
+        else:
+            filename = {
+                "32p": "32p-real-product-main-verified.webp",
+                "36p": "36p-product-photo-20261014.jpg",
+            }.get(slug, f"{slug}-real-product-evidence.webp")
+        relative = f"assets/images/products/planetary-gearboxes/{slug}/{filename}"
+        alt = f"Real SigGear {model} planetary gearhead product photograph"
 
     if not (DOCS_DIR / relative).is_file():
         return None

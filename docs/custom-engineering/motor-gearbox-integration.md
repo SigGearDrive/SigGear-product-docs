@@ -76,9 +76,7 @@ SigGear publishes 32P and 42P motor-integration guides for engineering evaluatio
 
 ## Real Compact Motor + Gearbox Reference
 
-![Real compact SigGear motor and gearbox assemblies photographed beside a ruler](../assets/images/evidence/planetary/micro-gearmotor-size-reference.webp)
-
-*Real SigGear assemblies for size reference. The motor, gearbox, shaft, wiring and final integration vary by project.*
+**Image integrity notice (2026-11-20):** The previous motor + gearbox measurement photo is temporarily withheld because its source WebP cannot be decoded fully. A verified original is required before it is republished. For accurate dimensions, use the model Datasheet, 2D outline and STEP links above; the motor, gearhead, shaft, wiring and final integration vary by project.
 
 ## What to Send First
 

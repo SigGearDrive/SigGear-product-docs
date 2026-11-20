@@ -6,7 +6,7 @@
   "pages": [
     {
       "path": "docs/custom-engineering/motor-gearbox-integration.md",
-      "git_blob_sha": "cfbc229d1ad239d257e214de08fbeb7f76a7eb43"
+      "git_blob_sha": "9a6b1a8b55c630960f2c6c007e88ae0f62ff30a6"
     },
     {
       "path": "docs/applications/planetary-gearbox-application-families.md",
@@ -25,5 +25,12 @@
       "git_blob_sha": "771cd6ab983674dac2bc3656906844af443a7319"
     }
   ],
-  "instructions": "This freeze is operational, not permanent/legal. The validator fails on any change to a listed source while its frozen git_blob_sha remains pinned. Change page content only after explicit SigGear owner instruction and update its expected sha in the manifest within the same approved PR."
+  "instructions": "This freeze is operational, not permanent/legal. The validator fails on any change to a listed source while its frozen git_blob_sha remains pinned. Change page content only after explicit SigGear owner instruction and update its expected sha in the manifest within the same approved PR.",
+  "image_integrity_exception": {
+    "date": "2026-11-20",
+    "owner_direction": "Inspect and repair website product images; self-repair confirmed broken or missing references, and report originals requiring replacement.",
+    "scope": "The already-frozen motor-gearbox integration page changes only its one undecodable WebP reference to a dated, source-accurate photo-withheld notice. No parameter, PDF, STEP, URL, or SEO section rework.",
+    "image_file": "docs/assets/images/evidence/planetary/micro-gearmotor-size-reference.webp",
+    "status": "source_photo_unreadable_original_required"
+  }
 }
