@@ -51,3 +51,25 @@
     height: 220px;
   }
 }
+
+/* Original studio photograph of the complete 8–42 mm gearhead range.
+   Keep the full aspect ratio and white photographic background intact. */
+.md-typeset .siggear-planetary-lineup {
+  width: 100%;
+  max-width: 1050px;
+  margin: 1.1rem auto;
+}
+.md-typeset .siggear-planetary-lineup img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 0.3rem;
+  background: #fff;
+}
+.md-typeset .siggear-planetary-lineup figcaption {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.75rem;
+  line-height: 1.45;
+  margin-top: 0.45rem;
+}

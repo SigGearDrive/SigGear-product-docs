@@ -117,15 +117,24 @@ def check_data_source_and_photos() -> None:
             f"{n}P model page missing direct official 2D PDF"
         )
 
-    for page in (
-        DOCS / "index.md",
-        DOCS / "products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md",
-    ):
-        source = page.read_text(encoding="utf-8")
-        for n in (16, 22, 36):
-            assert f"{n}p-real-product-evidence.png" in source, (
-                f"{page.relative_to(ROOT)} missing clean {n}P product photo"
-            )
+    # Homepage deliberately retains three individual model references.
+    homepage = DOCS / "index.md"
+    home_source = homepage.read_text(encoding="utf-8")
+    for n in (16, 22, 36):
+        assert f"{n}p-real-product-evidence.png" in home_source, (
+            f"{homepage.relative_to(ROOT)} missing clean {n}P product photo"
+        )
+
+    # The series index now presents the owner's one original family portrait.
+    # Its exact bytes, dimensions and page reference are protected separately
+    # by validate_planetary_product_photos.py.
+    series = DOCS / "products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md"
+    lineup_name = "siggear-8-42mm-planetary-gearheads-real-lineup.jpg"
+    assert lineup_name in series.read_text(encoding="utf-8"), (
+        "Series overview must present the approved genuine group photograph"
+    )
+    lineup = DOCS / "assets/images/products/planetary-gearboxes" / lineup_name
+    assert lineup.is_file(), f"Approved real family photo missing: {lineup}"
 
 
 def main() -> None:

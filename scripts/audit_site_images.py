@@ -7,8 +7,8 @@ Modes:
                 HTTP GET the unique images, and decode their complete contents
   --mode both : both checks (default)
 
-This does not create or infer missing authentic product images. It reports
-8P/10P/12P/14P/20P as pending until owners upload real source PNGs.
+This does not create or infer authentic product images. The approved
+12-model source PNGs and the original family-lineup JPEG are audited as published.
 The live check confirms HTML references, HTTP delivery and image decoding.
 CSS visibility and real-browser screenshot reviews are independent checks.
 """
