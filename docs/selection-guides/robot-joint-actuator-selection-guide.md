@@ -1,370 +1,148 @@
 ---
 title: Robot Joint Actuator and Gearbox Selection Guide | Torque and Sizing
-description: Compare robot joint actuator, gearbox and reducer specifications including torque, speed, duty cycle, size, transmission type, encoder, driver, external loads and thermal limits.
+description: Compare six SigGear planetary and cycloidal joint modules, then download real model-specific PDF datasheets, available 2D drawings and exact STEP variants. Review torque, speed, duty and control before design-in.
 ---
 
 # Robot Joint Actuator and Gearbox Selection Guide
 
-Use this engineering guide to estimate robot joint torque, separate continuous and peak requirements, check output speed and power, and shortlist a planetary or cycloidal robot joint actuator or gearbox architecture. Final model approval still requires engineering review and prototype validation.
+**Choose a published SigGear joint module, download the actual engineering files, then verify the complete joint requirement.** These public models are reference platforms for feasibility reviews; they are not automatic matches to any particular humanoid, robotic-arm or exoskeleton joint.
 
-[Humanoid Robot Joint Guide](../applications/humanoid-robot-joint-actuators.md){ .md-button .md-button--primary }
-[Robotic Arm Joint Guide](../applications/robotic-arm-joint-actuators.md){ .md-button }
-[Quadruped Robot Joint Guide](../applications/quadruped-robot-joint-gearboxes.md){ .md-button }
-[Exoskeleton Joint Guide](../applications/exoskeleton-joint-actuators.md){ .md-button }
-[Custom Robot Joint Development](../custom-engineering/robot-joint-actuator-development.md){ .md-button .md-button--primary }
-[Planetary vs Cycloidal](planetary-vs-cycloidal-robot-joint.md){ .md-button }
-[Integrated Joint vs Motor + Gearhead](integrated-robot-joint-vs-motor-gearhead.md){ .md-button }
-[CAN / Encoder / Driver Guide](robot-joint-can-encoder-driver-selection.md){ .md-button }
-[Browse Planetary & Cycloidal Robot Joint Actuators](../products/robot-joint-actuators/index.md){ .md-button }
-[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
+[**All Joint Module Datasheets / 2D / STEP**](../engineering-resources/robot-joint-actuators/quick-downloads.md){ .md-button .md-button--primary }
+[**Custom Joint Review — Drawing / STEP**](../request-cad-sample-quote.md?start=drawing_cad&path=joint_actuator){ .md-button }
+[**Separate 8–42 mm Gearhead Files**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
 
-**Looking for a separate small gearbox rather than a complete robot joint actuator?** For a dexterous hand, compact gripper, auxiliary axis or fine adjustment mechanism, start with SigGear's [8–42 mm micro, miniature and compact planetary gearbox series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md). You can [compare exact gearbox diameters and stage/ratio candidates](miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder), then review the selected model's datasheet, mounting reference and public STEP CAD. These gearbox frames are **not automatically qualified for primary load-bearing humanoid joints**.
+## Published Starting Points — Direct PDF / 2D / STEP
+
+<div class="siggear-joint-downloads" markdown="1">
+
+| Model · dimensions · ratio · rated / peak torque · rated speed | Datasheet PDF | 2D engineering reference | Original Full Assembly STEP |
+| --- | --- | --- | --- |
+| [**SG-6010C**](../products/robot-joint-actuators/sg6010c.md) · Planetary<br>Ø80 × 34.07 mm · 9.67:1<br>6 / 18 N·m · 310 rpm | [**PDF**](../assets/downloads/joint-actuators/SG-6010C_Public_Reference_Datasheet_Rev0.1.pdf) | [Request](../request-cad-sample-quote.md) | [**STEP**](../assets/downloads/joint-actuators/SG-6010C_Original_Full_Assembly_20261118.step) |
+| [**SG-6010D**](../products/robot-joint-actuators/sg6010d.md) · Planetary<br>Ø80 × 58.77 mm · 28.13:1<br>16 / 50 N·m · 100 rpm | [**PDF**](../assets/downloads/joint-actuators/SG-6010D_Public_Reference_Datasheet_Rev0.1.pdf) | [**2D PDF**](../assets/downloads/joint-actuators/SG-6010D_2D_Assembly_Drawing.pdf) | [**STEP**](../assets/downloads/joint-actuators/SG-6010D_Original_Full_Assembly_20261118.step) |
+| [**SG-8021**](../products/robot-joint-actuators/sg8021.md) · Planetary<br>Ø100 × 42.6 mm · 9.25:1<br>10 / 30 N·m · 160 rpm | [**PDF**](../assets/downloads/joint-actuators/SG-8021_Public_Reference_Datasheet_Rev0.1.pdf) | [Request](../request-cad-sample-quote.md) | [**Driver STEP**](../assets/downloads/joint-actuators/SG-8021_Driver_Version_Original_Full_Assembly_20261118.step) |
+| [**CPM-78-39**](../products/cycloidal-joint-modules/cpm78-39.md) · Cycloidal<br>Ø78.7 × 35.8 mm · 39:1<br>20 / 52 N·m · 48 rpm | [**PDF**](../assets/downloads/joint-actuators/CPM-78-39_Public_Reference_Datasheet_Rev0.1.pdf) | SG2368B cross-reference pending | [**STEP**](../assets/downloads/joint-actuators/CPM-78-39_Original_Full_Assembly_20261118.step) |
+| [**CPM-80-25**](../products/cycloidal-joint-modules/cpm80-25.md) · Cycloidal<br>Ø80 · 25:1<br>10 / 50 N·m · 120 rpm | [**PDF**](../assets/downloads/joint-actuators/CPM-80-25_Public_Reference_Datasheet_Rev0.1.pdf) | [**No driver · 29.7 mm**](../assets/downloads/joint-actuators/CPM-80-25_2D_No_Driver_29p7mm.pdf) · [**With driver · 41.2 mm**](../assets/downloads/joint-actuators/CPM-80-25_2D_Integrated_Driver_41p2mm.pdf) | [**No driver**](../assets/downloads/joint-actuators/CPM-80-25_Original_Full_Assembly_No_Driver_20261118.step) · [**With driver**](../assets/downloads/joint-actuators/CPM-80-25_Original_Full_Assembly_Integrated_Driver_20261118.step) |
+| [**CPM-100-25**](../products/cycloidal-joint-modules/cpm100-25.md) · Cycloidal<br>Ø100 · 25:1<br>25 / 75 N·m · 60 rpm | [**PDF**](../assets/downloads/joint-actuators/CPM-100-25_Public_Reference_Datasheet_Rev0.1.pdf) | [**SG2556D · 48 mm only**](../assets/downloads/joint-actuators/CPM-100-25D_2D_Dual_Encoder_Driver_48mm.pdf) | [**Standard · 29.5 mm**](../assets/downloads/joint-actuators/CPM-100-25_Original_Full_Assembly_No_Driver_20261118.step) · [**Dual encoder + driver · 48 mm**](../assets/downloads/joint-actuators/CPM-100-25D_Dual_Encoder_Driver_Original_Full_Assembly_20261118.step) |
+
+</div>
+
+**Document boundary:** Joint Datasheets are **Public Reference Rev0.1**; released 2D files are engineering references, not controlled production drawings. **SG-8021 STEP is driver-equipped**, CPM-80-25 driver/no-driver models have different thicknesses, and the 48 mm CPM-100-25D drawing must **not** be assigned to the standard 29.5 mm CPM-100-25. CPM-78-39 2D model correspondence is pending. For production, confirm exact configuration, encoder, control, load and drawing revision.
 
 ## Robot Joint Reducer Specifications to Compare
 
-For an early supplier or architecture comparison, review the same specification categories across every candidate actuator, gearbox or reducer.
-
-| Specification | What to compare |
+| Check | What matters |
 | --- | --- |
-| Continuous output torque | Sustainable operating torque under the defined duty cycle and thermal condition |
-| Peak output torque | Peak value together with allowed duration and repetition |
-| Output speed | Rated and maximum speed at the required operating point |
-| Reduction ratio | Ratio available for the selected transmission and motor operating range |
-| Backlash | Published or confirmed backlash for the exact configuration |
-| Outer diameter / thickness | Installed envelope, including interfaces and electronics where applicable |
-| Weight | Complete configured unit rather than reducer-only weight when comparing integrated actuators |
-| Radial / axial / overturning load | Structural loads supported by the output bearing and housing arrangement |
-| Motor and voltage | Motor type, voltage, current limits and operating speed |
-| Encoder / feedback | Feedback type and configuration confirmed for the selected model |
-| Driver / communication | Integrated or external driver and the protocol supported by the quoted configuration |
-| Duty cycle / thermal condition | Continuous motion, holding time, peak events, ambient temperature and cooling |
-| Mechanical interface | Output flange / shaft, locating features, mounting pattern and cable space |
+| **Torque and duty** | Continuous/rated torque vs peak torque, peak duration and repetitions |
+| **Output motion** | Speed, acceleration, joint angle, direction reversals and holding |
+| **Complete size** | Diameter, thickness, weight, cable / driver / brake space |
+| **Loads and precision** | Radial, axial and overturning loads; backlash, stiffness and feedback |
+| **Electronics** | Bus voltage, current limit, encoder, driver and verified communication protocol |
 
-Do not transfer one model's torque, load, driver or encoder specification to another model or to a custom configuration without confirmation.
-
-[View Robot Joint Actuator Products](../products/robot-joint-actuators/index.md){ .md-button }
-[Custom Robot Joint Development](../custom-engineering/robot-joint-actuator-development.md){ .md-button .md-button--primary }
-
-## Looking for an Existing Robot Joint Actuator?
-
-If the joint torque, speed and approximate size are already known, review the published SigGear actuator platforms before starting a custom configuration.
-
-[Browse Robot Joint Actuators](../products/robot-joint-actuators/index.md){ .md-button .md-button--primary }
-[Custom Robot Joint Development](../custom-engineering/robot-joint-actuator-development.md){ .md-button }
+A model's listed peak torque must never be treated as a continuous rating. Do not transfer the specifications of one module or driver variant to another.
 
 ## Quick Robot Joint Actuator Sizing Workflow
 
-1. Define the joint position, payload, link geometry and complete motion cycle.
-2. Estimate gravity, acceleration and external-force torque.
-3. Separate continuous torque from peak torque and define peak duration.
-4. Check output speed, power, voltage and controller current limits at the same operating point.
-5. Confirm diameter, thickness, length, weight and external bearing loads.
-6. Compare planetary, cycloidal and integrated-actuator architectures.
-7. Confirm encoder, driver, communication, thermal and safety requirements.
-8. Validate the selected actuator in a representative prototype.
-
-## Purpose of This Guide
-
-A robot joint actuator should be selected from the complete axis requirement, not from one torque value or a product-family label. The joint position, payload, link geometry, acceleration, external forces, duty cycle, installation envelope, bearing loads, feedback architecture and controller limits all affect the final choice.
-
-This guide provides a practical screening workflow for humanoid robots, quadruped robots, robotic arms, exoskeletons and other rotary-axis systems. Final model approval requires engineering review and prototype validation.
+1. Determine the **joint position, mass, link geometry, motion cycle and external loads**.
+2. Calculate approximate **gravity + inertia + external-force torque**; separate continuous and short-duration peaks.
+3. Shortlist a published **planetary or cycloidal module** using the datasheet and correct STEP variant.
+4. Check speed, voltage/current, output bearings, encoder, driver, control, brake, duty and thermal limits.
+5. Run a representative **prototype test**; approve the exact configuration before a production commitment.
 
 ## Step 1: Define the Joint and Mechanism
 
-Prepare a separate requirement sheet for each axis. A shoulder, elbow, wrist, hip, knee or ankle normally has a different load case, motion profile and installation limit.
-
-Record:
-
-- Joint or axis position
-- Payload and moving-link mass
-- Link lengths
-- Center-of-gravity locations
-- Joint angle range
-- External process forces
-- Mechanical stops and collision loads
-- Whether the axis is horizontal, vertical or gravity loaded
-- Customer-side bearings, belts, pulleys, gears or linkages
-
-Do not apply one actuator specification to every axis of the robot.
+Send the joint type (shoulder, elbow, wrist, hip, knee, ankle or other axis), moving mass, payload, link lengths, center-of-gravity distance, angular range and external force directions. The same actuator may face very different conditions at different robot axes.
 
 ## Step 2: Estimate Robot Joint Output Torque
 
 ### Gravity Torque
 
-For an initial one-axis estimate, gravity torque may be approximated by:
+For a simplified one-axis screening estimate:
 
 `T_gravity = m × g × r × sin(theta)`
 
-where:
-
-- `m` is the supported mass
-- `g` is gravitational acceleration
-- `r` is the distance from the joint axis to the center of gravity
-- `theta` describes the mechanism orientation relative to gravity
-
-The worst posture may not be the robot's normal operating posture, so review the full joint-angle range.
+Here `m` is supported mass, `g` gravitational acceleration, `r` the center-of-gravity distance from the joint, and `theta` the mechanism's orientation relative to gravity. Check worst-case posture, not only the neutral position.
 
 ### Acceleration Torque
 
-The torque required to accelerate the reflected inertia may be estimated by:
-
 `T_acceleration = J × alpha`
 
-where:
-
-- `J` is the total inertia reflected to the joint output
-- `alpha` is angular acceleration
-
-Include the payload, links, tooling and any other moving components.
+`J` is inertia referred to the joint output; `alpha` is angular acceleration. Include moving links and payload, not just the actuator rotor.
 
 ### External-Force Torque
 
-An external force acting at a distance from the joint axis creates torque:
-
 `T_external = F × r`
 
-where `F` is the external force and `r` is the perpendicular lever arm.
+Use the perpendicular lever arm for external forces.
 
 ### Preliminary Total
 
-A preliminary requirement should include gravity, acceleration, external forces, friction and mechanism losses. These equations are screening tools only. Flexible structures, impact, control behavior, load sharing and multi-axis dynamics may require a more complete model.
+Include gravity, acceleration, applied forces, friction, and mechanical losses. These are first-pass equations, **not validated torque ratings**; impact, flexibility, multi-axis dynamics and control behavior may require more complete modeling.
 
 ## Step 3: Separate Continuous and Peak Torque
 
-Continuous torque and peak torque are not interchangeable.
-
-### Continuous Torque
-
-Continuous torque must cover sustained motion, repeated cycles and holding conditions without exceeding the approved thermal limits of the selected motor, gearbox and driver configuration.
-
-### Peak Torque
-
-Peak torque is used for short events such as acceleration, disturbance recovery, impact response or starting under load. Specify:
-
-- Required peak torque
-- Peak duration
-- Frequency of peak events
-- Time between peaks
-- Controller current limit
-- Battery or bus voltage
-- Cooling and ambient conditions
-
-Never treat a published peak-torque value as a continuous rating.
+**Continuous torque** covers the defined repeated cycle or holding requirement under thermal limits. **Peak torque** is a short-duration event: specify the peak magnitude, duration, recurrence, cooling, supply voltage and driver current limit. Never infer allowable peak duration from the headline number alone.
 
 ## Step 4: Define Speed and the Complete Motion Cycle
 
-Provide:
+Provide rated/max output speed, acceleration, travel angle, reversing frequency, holding time and rest intervals.
 
-- Rated output speed
-- Maximum output speed
-- Acceleration and deceleration
-- Travel angle
-- Cycle time
-- Holding time
-- Rest time
-- Direction-reversal frequency
-
-Mechanical output power at an operating point is related to torque and angular speed:
-
-`P = T × omega`
-
-Torque and speed must be checked at the same operating point. A product's maximum torque and maximum speed may not be available simultaneously.
+`P = T × omega` links mechanical power, torque and angular speed **at the same operating point**. Maximum torque and maximum speed are not necessarily available simultaneously.
 
 ## Step 5: Establish the Installation Envelope
 
-Define the maximum:
-
-- Outer diameter
-- Axial thickness
-- Total length
-- Weight
-- Cable and connector space
-- Driver-board space
-- Brake space
-- Mounting-flange envelope
-
-Include the complete installed assembly, not only the reducer body. Bearings, output interfaces, covers, connectors and cable bend radius can consume significant space.
+Confirm full installed diameter/thickness/length, weight, mounting and bearing interfaces, cable bend space, driver board and optional brake—not only the transmission shell.
 
 ## Step 6: Review Radial, Axial and Overturning Loads
 
-Output torque alone does not describe the structural load on a robot joint.
-
-Provide:
-
-- Radial load
-- Axial load
-- Overturning moment
-- Load direction
-- Distance from the load to the output bearing
-- Impact or shock conditions
-- Customer-side bearing arrangement
-
-The output bearing and housing must be evaluated together with the robot structure. An external bearing or additional support may be required when the joint has a large cantilevered load or overturning moment.
+Define load direction, distance to the output bearing, cantilevered moment and shocks. Output torque alone does not qualify the joint's bearing and housing. External support may be necessary for the completed mechanism.
 
 ## Step 7: Define Positioning and Mechanical Behavior
 
-Specify the completed-axis targets for:
-
-- Backlash
-- Positioning accuracy
-- Repeatability
-- Angular resolution
-- Stiffness or compliance
-- Backdrivability
-- Holding behavior
-- Direction-reversal response
-
-Gearbox backlash is only one part of joint behavior. Encoder position, bearing clearance, housing stiffness, link compliance, assembly tolerances and controller tuning also affect the result.
+Check backlash, repeatability, stiffness/compliance, backdrivability, resolution and power-off holding. Encoders, bearing clearances, assembly tolerance and controller tuning all affect the completed axis.
 
 ## Step 8: Choose a Transmission and Product Architecture
 
-SigGear publishes both planetary joint actuators and cycloidal joint modules. Neither transmission type should be selected from a general rule alone.
+SigGear publishes **planetary joint actuators** (SG-6010C, SG-6010D, SG-8021) and **cycloidal joint modules** (CPM-78-39, CPM-80-25, CPM-100-25). Evaluate the actual configuration; architecture alone is not a performance guarantee.
 
-### Planetary Joint Actuators
-
-Planetary joint actuators may be evaluated when their published torque, speed, dimensions and configuration fit the application. SigGear's published planetary joint-actuator range includes SG-6010C, SG-6010D and SG-8021.
-
-[View planetary robot joint actuators](../products/robot-joint-actuators/index.md)
-
-### Cycloidal Joint Modules
-
-Cycloidal joint modules may be evaluated when the selected model's torque, speed, installation and configuration match the axis requirement. SigGear's published range includes CPM-100-25, CPM-80-25 and CPM-78-39.
-
-[View cycloidal joint modules](../products/cycloidal-joint-modules/index.md)
-
-### Published Starting Points
-
-| Model | Transmission | Rated torque | Peak torque | Rated output speed | Configuration note |
-| --- | --- | ---: | ---: | ---: | --- |
-| [SG-6010C](../products/robot-joint-actuators/sg6010c.md) | Planetary | 6 Nm | 18 Nm | 310 rpm | Driver and encoder functions depend on selected configuration |
-| [SG-6010D](../products/robot-joint-actuators/sg6010d.md) | Planetary | 16 Nm | 50 Nm | 100 rpm | Available with or without integrated driver |
-| [SG-8021](../products/robot-joint-actuators/sg8021.md) | Planetary | 10 Nm | 30 Nm | 160 rpm | Driver and encoder functions depend on selected configuration |
-| [CPM-100-25](../products/cycloidal-joint-modules/cpm100-25.md) | Cycloidal pinwheel | 25 Nm | 75 Nm | 60 rpm | Available with or without integrated driver |
-| [CPM-80-25](../products/cycloidal-joint-modules/cpm80-25.md) | Cycloidal pinwheel | 10 Nm | 50 Nm | 120 rpm | Available with or without integrated driver |
-| [CPM-78-39](../products/cycloidal-joint-modules/cpm78-39.md) | Cycloidal pinwheel | 20 Nm | 52 Nm | 48 rpm | Standard catalog configuration uses Hall sensors and has no integrated-driver claim |
-
-The table is a preliminary shortlist only. Dimensions, weight, external-load capacity, thermal behavior and control configuration must also be checked.
+[**Planetary vs Cycloidal Comparison**](planetary-vs-cycloidal-robot-joint.md){ .md-button }
+[**Integrated Joint vs Motor + Gearhead**](integrated-robot-joint-vs-motor-gearhead.md){ .md-button }
 
 ## Step 9: Define Encoder, Driver and Communication Requirements
 
-Confirm whether the project requires:
+Confirm whether the exact version includes commutation feedback, output position sensing, integrated/external driver, supported control mode and **CAN / RS485 / EtherCAT or other explicitly documented protocol**. **CPM-78-39 standard catalog configuration uses Hall sensors**; an integrated driver or absolute encoder must not be assumed.
 
-- Motor commutation feedback
-- Output absolute position
-- Incremental or absolute encoder
-- Position control
-- Velocity control
-- Torque or current control
-- CAN
-- RS485
-- EtherCAT or another project-specific interface
-- External controller or integrated driver
-- Required communication rate and protocol details
-
-Driver, encoder, communication and closed-loop functions are model- and configuration-specific. Do not assume that every actuator includes the same electronics.
-
-CPM-78-39 must be treated separately: its standard catalog configuration uses Hall sensors and does not support a general claim of an integrated driver or absolute encoder.
+[**CAN / Encoder / Driver Selection Guide**](robot-joint-can-encoder-driver-selection.md){ .md-button }
 
 ## Step 10: Review Voltage, Current and Power Architecture
 
-Specify:
-
-- Nominal bus voltage
-- Minimum and maximum bus voltage
-- Continuous current limit
-- Peak current limit and duration
-- Battery or power-supply capability
-- Regenerative-energy handling
-- Emergency-stop behavior
-- Cable and connector current capacity
-
-The controller current limit directly affects available torque. Electrical limits must be checked together with the motor, thermal design and duty cycle.
+Check nominal/min/max bus voltage, continuous/peak current, power supply, wiring/connector limits, regenerative energy and stop behavior. Electrical current limits influence available operating torque.
 
 ## Step 11: Evaluate Thermal Conditions and Duty Cycle
 
-Provide:
-
-- Ambient temperature
-- Operating time
-- Holding time
-- Rest time
-- Cycle frequency
-- Enclosure and mounting material
-- Cooling method
-- Airflow or conduction path
-- Nearby heat sources
-
-A joint mounted inside a sealed limb or compact housing may behave differently from the same actuator tested in open air. Prototype testing should reproduce the planned installation and motion cycle.
+Describe enclosure, cooling, ambient temperature, motion/holding cycle and mounting conduction. A sealed joint may perform differently from an open-air bench test; verify with representative loading.
 
 ## Step 12: Define Brake, Safety and Power-Off Behavior
 
-For gravity-loaded, wearable or safety-related axes, specify:
-
-- Whether the joint may move when power is removed
-- Required holding torque
-- Mechanical brake requirement
-- Emergency-stop behavior
-- Manual release requirement
-- Safe direction of motion
-- Collision or overload strategy
-
-A brake must not be assumed to be included unless it is explicitly confirmed in the selected configuration and quotation.
+For gravity-loaded or safety-relevant joints, review brake/holding need, unintended motion, emergency stop, manual release and overload response. A brake is **not included by assumption**.
 
 ## Step 13: Plan Prototype Validation
 
-Prototype testing should include representative:
-
-- Payload and link geometry
-- Continuous motion cycles
-- Peak events
-- Temperature monitoring
-- Holding conditions
-- Direction reversals
-- Encoder behavior
-- Controller current limits
-- Communication behavior
-- External loads
-- Power-off and emergency-stop cases
-
-Selection is complete only after the actuator is validated in the actual or representative mechanism.
+Validate representative payload, continuous cycles, peaks, joint temperature, external bearing loads, direction changes, encoder and driver behavior, communications, and power-off conditions before design freeze.
 
 ## Requirement Checklist
 
-Send the following information for engineering review:
-
-| Category | Required information |
-| --- | --- |
-| Application | Robot type and joint position |
-| Mechanics | Payload, link lengths, center of gravity and joint-angle range |
-| Torque | Continuous torque, peak torque and peak duration |
-| Motion | Rated speed, maximum speed, acceleration, deceleration and cycle time |
-| Electrical | Voltage range, current limits and power source |
-| Packaging | Maximum diameter, thickness, length and weight |
-| External loads | Radial load, axial load and overturning moment |
-| Precision | Backlash, accuracy, repeatability and resolution |
-| Control | Encoder, driver, control mode and communication interface |
-| Environment | Ambient temperature, cooling, contamination and duty cycle |
-| Safety | Brake, holding and power-off behavior |
-| Commercial | Prototype quantity and annual forecast |
+The **shortest useful first message** is: your joint mechanism/drawing, required speed and load (or torque if known), available space, preferred control/voltage and prototype quantity. More detailed information can be confirmed after initial engineering review.
 
 ## Smaller Gearboxes for Hands and Auxiliary Mechanisms
 
-If your engineering requirement is for a **separate small gearbox** rather than an integrated actuator, for example in an auxiliary adjustment axis, compact wrist mechanism or robotic gripper, review the [SigGear 8–42 mm miniature and compact planetary gearbox range](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md).
-
-The [Miniature Planetary Gearbox Selection Guide](miniature-planetary-gearbox-selection-guide.md) explains frame-size selection, motor matching, rated versus momentary torque, stage-dependent length and simplified 4-stage CAD. These small gearbox models must not be assumed suitable for a high-load humanoid joint without project-specific engineering validation.
+For **separate** precision reduction rather than complete integrated joint actuation, compare [SigGear's 12 planetary Gearheads, Ø8–42 mm](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md). These are **not automatically qualified** as primary load-bearing humanoid joints.
 
 ## Related Application Guides
 
-- [Humanoid robot joint actuators](../applications/humanoid-robot-joint-actuators.md)
-- [Quadruped robot joint gearboxes](../applications/quadruped-robot-joint-gearboxes.md)
-- [Robotic arm joint actuators](../applications/robotic-arm-joint-actuators.md)
-- [Exoskeleton joint actuators](../applications/exoskeleton-joint-actuators.md)
+[Humanoid](../applications/humanoid-robot-joint-actuators.md) · [Robotic Arm](../applications/robotic-arm-joint-actuators.md) · [Quadruped](../applications/quadruped-robot-joint-gearboxes.md) · [Exoskeleton](../applications/exoskeleton-joint-actuators.md) · [Manufacturing Evidence](../company/manufacturing-and-quality-evidence.md)
 
 ## Request a Joint-Actuator Selection Review
 
-**Wanrong Wang**  
-International Sales, SigGear  
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+**Luffy · Sales Engineer, SigGear** — [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
-[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button .md-button--primary }
-[Send Robot Joint Requirements](../contact.md){ .md-button }
+[**Send Joint Requirements / STEP**](../request-cad-sample-quote.md?start=drawing_cad&path=joint_actuator){ .md-button .md-button--primary }
