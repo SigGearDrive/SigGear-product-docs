@@ -72,7 +72,7 @@ The supplied 12P mechanical-detail sheet does not state a radial shaft-play valu
 
 ## Motor Compatibility
 
-For **motor + gearhead matching**, use the downloadable [gearhead Datasheet](../../assets/downloads/12p/12P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) and the [motor Datasheet library](../../engineering-resources/motors/index.md). Motor voltage/power, shaft/pinion, pilot, mounting, input speed and duty-cycle compatibility must be confirmed for the exact combination; older marketing charts are not a technical specification.
+For **motor + gearhead matching**, use the downloadable [gearhead Datasheet](../../assets/downloads/12p/12P_Planetary_Gearhead_Datasheet_Rev1.1.pdf) and the [motor Datasheet library](../../engineering-resources/motors/index.md). Motor voltage/power, shaft/pinion, pilot, mounting, input speed and duty-cycle compatibility must be confirmed for the exact combination; older marketing charts are not a technical specification.
 
 
 ## Dimensions and Interface
