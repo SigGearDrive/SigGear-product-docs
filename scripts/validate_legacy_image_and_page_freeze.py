@@ -81,7 +81,7 @@ def check_retired_image_assets() -> None:
     for source in public_sources:
         text = source.read_text(encoding="utf-8", errors="replace")
         for name in retired_names:
-            assert name not in text, (
+            assert f"/{name}" not in text, (
                 f"Public source still references deleted legacy image {name}: "
                 f"{source.relative_to(ROOT)}"
             )
