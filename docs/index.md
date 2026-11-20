@@ -68,13 +68,13 @@ The product pages below are useful for engineers who want to evaluate an existin
 <div class="siggear-planetary-photo-grid">
   <figure>
     <a href="/SigGear-product-docs/products/planetary-gearboxes/16p-planetary-gearbox/" aria-label="View 16P 16 mm Micro Planetary Gearhead">
-      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/10p/16p-real-product-evidence.webp" alt="Real SigGear 16P 16 mm Micro Planetary Gearhead" width="900" height="625" loading="eager" decoding="async">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/16p/16p-real-product-evidence.webp" alt="Real SigGear 16P 16 mm Micro Planetary Gearhead" width="900" height="625" loading="eager" decoding="async">
     </a>
     <figcaption><strong>Micro · 16P (16 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/16p-planetary-gearbox/">View 16P product data</a></figcaption>
   </figure>
   <figure>
     <a href="/SigGear-product-docs/products/planetary-gearboxes/22p-planetary-gearbox/" aria-label="View 22P 22 mm Miniature Planetary Gearhead">
-      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/20p/22p-real-product-evidence.webp" alt="Real SigGear 22P 22 mm Miniature Planetary Gearhead" width="900" height="600" loading="lazy" decoding="async">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/22p/22p-real-product-evidence.webp" alt="Real SigGear 22P 22 mm Miniature Planetary Gearhead" width="900" height="600" loading="lazy" decoding="async">
     </a>
     <figcaption><strong>Miniature · 22P (22 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/22p-planetary-gearbox/">View 22P product data</a></figcaption>
   </figure>
