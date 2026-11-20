@@ -21,7 +21,6 @@ ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 MANIFEST = ROOT / "data/seo/frozen-legacy-pages-2026-11-20.json"
 MODELS = (8, 10, 12, 14, 16, 20, 22)
-VERIFIED_REAL_MODELS = (16, 22)
 UNREADABLE_REAL_MODELS = (8, 10, 12, 14, 20)
 RETIRED_IMAGE_KINDS = (
     "main",
@@ -66,9 +65,7 @@ def check_retired_image_assets() -> None:
             assert not path.exists(), f"Retired specification artwork must not ship: {path}"
             retired_names.append(filename)
         photo = folder / f"{n}p-real-product-evidence.webp"
-        if n in VERIFIED_REAL_MODELS:
-            assert photo.is_file(), f"Verified real {n}P photo missing: {photo}"
-        else:
+        if n in UNREADABLE_REAL_MODELS:
             assert not photo.exists(), f"Unreadable {n}P WebP must not be published: {photo}"
             retired_names.append(photo.name)
 
@@ -102,11 +99,10 @@ def check_data_source_and_photos() -> None:
         page = (
             DOCS / f"products/planetary-gearboxes/{n}p-planetary-gearbox.md"
         ).read_text(encoding="utf-8")
-        expected_photo = f"{n}p-real-product-evidence.webp"
-        if n in VERIFIED_REAL_MODELS:
-            assert expected_photo in page, f"{n}P model page missing verified photo"
-        else:
-            assert expected_photo not in page, f"{n}P model page cites an undecodable photo"
+        expected_photo = f"{n}p-real-product-evidence.png"
+        assert expected_photo in page, f"{n}P model page missing approved PNG"
+        asset = DOCS / f"assets/images/products/planetary-gearboxes/{n}p" / expected_photo
+        assert asset.is_file(), f"{n}P approved PNG missing: {asset}"
         pdf_prefix = f"../../assets/downloads/{n}p/{n}P_Planetary_Gearhead_Datasheet_"
         expected_pdf = next(
             (part.split(")", 1)[0] for part in hub.split("(")
@@ -126,8 +122,8 @@ def check_data_source_and_photos() -> None:
         DOCS / "products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md",
     ):
         source = page.read_text(encoding="utf-8")
-        for n in VERIFIED_REAL_MODELS:
-            assert f"{n}p-real-product-evidence.webp" in source, (
+        for n in (16, 22, 36):
+            assert f"{n}p-real-product-evidence.png" in source, (
                 f"{page.relative_to(ROOT)} missing clean {n}P product photo"
             )
 
@@ -138,7 +134,7 @@ def main() -> None:
     check_data_source_and_photos()
     print(
         "PASS: 35 outdated spec graphics and five damaged WebP files retired; "
-        "PDF/2D links and verified real photos retained; five pages frozen."
+        "PDF/2D links and all 12 PNG photos required; five pages frozen."
     )
 
 
