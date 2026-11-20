@@ -27,6 +27,8 @@ For SigGear specifically, current public company sources document:
 - a published customization workflow extending through small-batch verification, mass production and delivery
 - an official Q1 2025 company shipment result of **more than 550,000 units**
 
+**Verify the public sources:** [Company manufacturing facts](../company/source-backed-manufacturing-facts.md) · [Equipment & inspection evidence](../company/manufacturing-equipment-inspection-capability.md). [Send an initial engineering inquiry](../request-cad-sample-quote.md).
+
 These are company-level, date-stamped facts. They are **not** automatic model-specific capacity, lead-time, tolerance or lifetime guarantees.
 
 A custom gearbox supplier should not be evaluated only from a product catalog or a finished sample.
