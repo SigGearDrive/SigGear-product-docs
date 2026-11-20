@@ -233,7 +233,7 @@ def check_planetary_real_image_seo() -> None:
         if html.count('class="siggear-planetary-photo-grid"') < 1:
             fail(f"Photo directory grid absent from {relative}")
         img_refs = re.findall(
-            r'<img\\b[^>]*\\bsrc="(/SigGear-product-docs/assets/images/products/planetary-gearboxes/[^"]+)"',
+            r'<img\b[^>]*\bsrc="(/SigGear-product-docs/assets/images/products/planetary-gearboxes/[^"]+)"',
             html,
         )
         expected = [
