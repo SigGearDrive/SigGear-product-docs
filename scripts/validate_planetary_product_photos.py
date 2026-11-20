@@ -89,6 +89,13 @@ def main() -> None:
 
     sources = [DOCS / "index.md", PRODUCTS / "8-42mm-planetary-gear-reducer.md"]
     sources.extend(PRODUCTS / f"{n}p-planetary-gearbox.md" for n in MODELS)
+    source_groups = {
+        PRODUCTS / "8-42mm-planetary-gear-reducer.md": MODELS,
+        PRODUCTS / "micro-planetary-gearheads-8-16mm.md": (8, 10, 12, 14, 16),
+        PRODUCTS / "miniature-planetary-gearheads-20-32mm.md": (20, 22, 24, 28, 32),
+        PRODUCTS / "compact-planetary-gearheads-36-42mm.md": (36, 42),
+    }
+    sources.extend(source for source in source_groups if source not in sources)
     references: dict[Path, list[tuple[int, str, Path]]] = {}
     for source in sources:
         if not source.is_file():
@@ -128,6 +135,26 @@ def main() -> None:
                 summary.append(f"{n}P: VERIFIED {result}")
         except AssertionError as exc:
             errors.append(str(exc))
+
+    # The 12-model directory and all three category galleries must display
+    # precisely their own model images; no duplicates, empty cards or cross-model reuse.
+    for source, group in source_groups.items():
+        observed = [
+            int(match.group(1))
+            for _, original, _ in references.get(source, [])
+            if (match := MODEL_IMAGE.search(urlsplit(original).path))
+        ]
+        if observed != list(group):
+            errors.append(
+                f"{source.relative_to(ROOT)} gallery models {observed}; "
+                f"expected {list(group)}"
+            )
+        if source.is_file():
+            html = source.read_text(encoding="utf-8")
+            if html.count('loading="lazy"') < len(group):
+                errors.append(
+                    f"{source.relative_to(ROOT)} gallery must lazy-load every photo"
+                )
 
     for source in sources[:2]:
         refs = references.get(source, [])

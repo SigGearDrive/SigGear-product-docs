@@ -165,6 +165,22 @@ def _real_evidence_image(page, config) -> dict | None:
     if src in {"index.md", PLANETARY_SERIES_SRC}:
         relative = "assets/images/products/planetary-gearboxes/36p/36p-real-product-evidence.png"
         alt = "Real SigGear 36P 36 mm compact planetary gearhead; one example from the 8–42 mm range"
+    elif src in {
+        "products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md",
+        "products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md",
+        "products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md",
+    }:
+        # Use a true, model-specific representative original image for each
+        # category's Open Graph and Twitter preview, never a synthetic lineup.
+        slug, alt = {
+            "products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md":
+                ("12p", "Real SigGear 12P Micro Planetary Gearhead, representative of 8–16 mm models"),
+            "products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md":
+                ("24p", "Real SigGear 24P Miniature Planetary Gearhead, representative of 20–32 mm models"),
+            "products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md":
+                ("36p", "Real SigGear 36P Compact Planetary Gearhead, representative of 36–42 mm models"),
+        }[src]
+        relative = f"assets/images/products/planetary-gearboxes/{slug}/{slug}-real-product-evidence.png"
     else:
         data = _product_by_src.get(src)
         if not data or data.get("product_family") != "planetary_gearbox":
