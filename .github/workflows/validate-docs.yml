@@ -14,7 +14,9 @@ on:
       - "mkdocs.yml"
       - "requirements.txt"
       - "scripts/validate_docs.py"
+      - "scripts/validate_planetary_product_photos.py"
       - "scripts/validate_geo_answer_readiness.py"
+      - "scripts/validate_geo_citation_extractability.py"
       - "scripts/validate_product_data.py"
       - "scripts/validate_22p_product_media.py"
       - "scripts/validate_sales_policy.py"
@@ -167,6 +169,9 @@ jobs:
 
       - name: Validate GEO answer-readiness on high-value pages
         run: python scripts/validate_geo_answer_readiness.py
+
+      - name: Test citation-ready first-screen answer extraction
+        run: python scripts/validate_geo_citation_extractability.py
 
       - name: Validate product master data
         run: python scripts/validate_product_data.py
