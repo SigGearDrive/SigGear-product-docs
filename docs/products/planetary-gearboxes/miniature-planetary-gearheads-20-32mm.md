@@ -23,6 +23,43 @@ description: "Compare SigGear 20P–32P miniature planetary gearboxes by diamete
 | [28P · Ø28 mm](28p-planetary-gearbox.md) | [PDF datasheet](../../assets/downloads/28p/28P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D drawing](../../assets/downloads/28p/28P_2D_Drawing.pdf) | [Full STEP](../../assets/downloads/28p/28P_Full_Assembly.step) |
 | [32P · Ø32 mm](32p-planetary-gearbox.md) | [PDF datasheet](../../assets/downloads/32p/32P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D drawing](../../assets/downloads/32p/32P_2D_Drawing.pdf) | [Full STEP](../../assets/downloads/32p/32P_Full_Assembly.step) |
 
+## Miniature Product Photos
+
+Photographs show the actual labelled SigGear reference models. For production dimensions and load limits, refer to each model's controlled datasheet and 2D drawing.
+
+<div class="siggear-planetary-photo-grid">
+  <figure>
+    <a href="/SigGear-product-docs/products/planetary-gearboxes/20p-planetary-gearbox/" aria-label="View SigGear 20P 20 mm Miniature Planetary Gearhead specifications">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/20p/20p-real-product-evidence.png" alt="Authentic SigGear 20P 20 mm Miniature planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
+    </a>
+    <figcaption><strong>Miniature · 20P (Ø20 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/20p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
+  </figure>
+  <figure>
+    <a href="/SigGear-product-docs/products/planetary-gearboxes/22p-planetary-gearbox/" aria-label="View SigGear 22P 22 mm Miniature Planetary Gearhead specifications">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/22p/22p-real-product-evidence.png" alt="Authentic SigGear 22P 22 mm Miniature planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
+    </a>
+    <figcaption><strong>Miniature · 22P (Ø22 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/22p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
+  </figure>
+  <figure>
+    <a href="/SigGear-product-docs/products/planetary-gearboxes/24p-planetary-gearbox/" aria-label="View SigGear 24P 24 mm Miniature Planetary Gearhead specifications">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/24p/24p-real-product-evidence.png" alt="Authentic SigGear 24P 24 mm Miniature planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
+    </a>
+    <figcaption><strong>Miniature · 24P (Ø24 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/24p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
+  </figure>
+  <figure>
+    <a href="/SigGear-product-docs/products/planetary-gearboxes/28p-planetary-gearbox/" aria-label="View SigGear 28P 28 mm Miniature Planetary Gearhead specifications">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/28p/28p-real-product-evidence.png" alt="Authentic SigGear 28P 28 mm Miniature planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
+    </a>
+    <figcaption><strong>Miniature · 28P (Ø28 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/28p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
+  </figure>
+  <figure>
+    <a href="/SigGear-product-docs/products/planetary-gearboxes/32p-planetary-gearbox/" aria-label="View SigGear 32P 32 mm Miniature Planetary Gearhead specifications">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/32p/32p-real-product-evidence.png" alt="Authentic SigGear 32P 32 mm Miniature planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
+    </a>
+    <figcaption><strong>Miniature · 32P (Ø32 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/32p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
+  </figure>
+</div>
+
 ## Compare Published Specifications
 
 | Nominal diameter | Reduction ratio range | Gearhead body length | Rated allowable torque | Backlash |

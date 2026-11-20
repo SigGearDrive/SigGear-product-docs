@@ -24,6 +24,43 @@ These five standard models are public reference platforms. If the project does n
 | [14P · Ø14 mm](14p-planetary-gearbox.md) | [PDF datasheet](../../assets/downloads/14p/14P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D drawing](../../assets/downloads/14p/14P_2D_Drawing.pdf) | [Full STEP](../../assets/downloads/14p/14P_Full_Assembly.step) |
 | [16P · Ø16 mm](16p-planetary-gearbox.md) | [PDF datasheet](../../assets/downloads/16p/16P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D drawing](../../assets/downloads/16p/16P_2D_Drawing.pdf) | [Full STEP](../../assets/downloads/16p/16P_Full_Assembly.step) |
 
+## Micro Product Photos
+
+Photographs show the actual labelled SigGear reference models. For production dimensions and load limits, refer to each model's controlled datasheet and 2D drawing.
+
+<div class="siggear-planetary-photo-grid">
+  <figure>
+    <a href="/SigGear-product-docs/products/planetary-gearboxes/8p-planetary-gearbox/" aria-label="View SigGear 8P 8 mm Micro Planetary Gearhead specifications">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/8p/8p-real-product-evidence.png" alt="Authentic SigGear 8P 8 mm Micro planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
+    </a>
+    <figcaption><strong>Micro · 8P (Ø8 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/8p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
+  </figure>
+  <figure>
+    <a href="/SigGear-product-docs/products/planetary-gearboxes/10p-planetary-gearbox/" aria-label="View SigGear 10P 10 mm Micro Planetary Gearhead specifications">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/10p/10p-real-product-evidence.png" alt="Authentic SigGear 10P 10 mm Micro planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
+    </a>
+    <figcaption><strong>Micro · 10P (Ø10 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/10p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
+  </figure>
+  <figure>
+    <a href="/SigGear-product-docs/products/planetary-gearboxes/12p-planetary-gearbox/" aria-label="View SigGear 12P 12 mm Micro Planetary Gearhead specifications">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/12p/12p-real-product-evidence.png" alt="Authentic SigGear 12P 12 mm Micro planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
+    </a>
+    <figcaption><strong>Micro · 12P (Ø12 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/12p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
+  </figure>
+  <figure>
+    <a href="/SigGear-product-docs/products/planetary-gearboxes/14p-planetary-gearbox/" aria-label="View SigGear 14P 14 mm Micro Planetary Gearhead specifications">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/14p/14p-real-product-evidence.png" alt="Authentic SigGear 14P 14 mm Micro planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
+    </a>
+    <figcaption><strong>Micro · 14P (Ø14 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/14p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
+  </figure>
+  <figure>
+    <a href="/SigGear-product-docs/products/planetary-gearboxes/16p-planetary-gearbox/" aria-label="View SigGear 16P 16 mm Micro Planetary Gearhead specifications">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/16p/16p-real-product-evidence.png" alt="Authentic SigGear 16P 16 mm Micro planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
+    </a>
+    <figcaption><strong>Micro · 16P (Ø16 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/16p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
+  </figure>
+</div>
+
 ## Compare Published Specifications
 
 | Nominal diameter | Reduction ratio range | Gearhead body length | Rated allowable torque | Backlash |

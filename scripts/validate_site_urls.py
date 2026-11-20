@@ -217,6 +217,40 @@ def check_planetary_real_image_seo() -> None:
             if block is None or representative_image not in json.dumps(block, ensure_ascii=False):
                 fail(f"Representative product image missing from {schema_type} JSON-LD on {relative}")
 
+    # Only the overview carries all 12 pictures; family pages carry exactly
+    # their matching subset. Keep home page at three representative images.
+    photo_directory_pages = {
+        "products/planetary-gearboxes/8-42mm-planetary-gear-reducer/index.html": PLANETARY_MODELS,
+        "products/planetary-gearboxes/micro-planetary-gearheads-8-16mm/index.html": PLANETARY_MODELS[:5],
+        "products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm/index.html": PLANETARY_MODELS[5:10],
+        "products/planetary-gearboxes/compact-planetary-gearheads-36-42mm/index.html": PLANETARY_MODELS[10:],
+    }
+    for relative, models in photo_directory_pages.items():
+        path = SITE_DIR / relative
+        if not path.is_file():
+            fail(f"Real photo directory missing from built site: {relative}")
+        html = path.read_text(encoding="utf-8")
+        if html.count('class="siggear-planetary-photo-grid"') < 1:
+            fail(f"Photo directory grid absent from {relative}")
+        img_refs = re.findall(
+            r'<img\\b[^>]*\\bsrc="(/SigGear-product-docs/assets/images/products/planetary-gearboxes/[^"]+)"',
+            html,
+        )
+        expected = [
+            f"/SigGear-product-docs/assets/images/products/planetary-gearboxes/"
+            f"{model.lower()}/{model.lower()}-real-product-evidence.png"
+            for model in models
+        ]
+        if img_refs != expected:
+            fail(f"Wrong / duplicate product photos in {relative}: {img_refs}")
+        for model in models:
+            slug = model.lower()
+            expected_product = f"/SigGear-product-docs/products/planetary-gearboxes/{slug}-planetary-gearbox/"
+            if expected_product not in html:
+                fail(f"{relative} photo does not link to {model} model page")
+            if f"Authentic SigGear {model}" not in html:
+                fail(f"{relative} photo lacks model-specific alt text")
+
     for model in PLANETARY_MODELS:
         slug = model.lower()
         relative = f"products/planetary-gearboxes/{slug}-planetary-gearbox/index.html"

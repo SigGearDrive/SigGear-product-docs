@@ -21,6 +21,25 @@ These two standard models are public reference platforms. If the project needs a
 | [36P · Ø36 mm](36p-planetary-gearbox.md) | [PDF datasheet](../../assets/downloads/36p/36P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D drawing](../../assets/downloads/36p/36P_2D_Drawing.pdf) | [Full STEP](../../assets/downloads/36p/36P_Full_Assembly.step) |
 | [42P · Ø42 mm](42p-planetary-gearbox.md) | [PDF datasheet](../../assets/downloads/42p/42P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [2D drawing](../../assets/downloads/42p/42P_2D_Drawing.pdf) | [Full STEP](../../assets/downloads/42p/42P_Full_Assembly.step) |
 
+## Compact Product Photos
+
+Photographs show the actual labelled SigGear reference models. For production dimensions and load limits, refer to each model's controlled datasheet and 2D drawing.
+
+<div class="siggear-planetary-photo-grid">
+  <figure>
+    <a href="/SigGear-product-docs/products/planetary-gearboxes/36p-planetary-gearbox/" aria-label="View SigGear 36P 36 mm Compact Planetary Gearhead specifications">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/36p/36p-real-product-evidence.png" alt="Authentic SigGear 36P 36 mm Compact planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
+    </a>
+    <figcaption><strong>Compact · 36P (Ø36 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/36p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
+  </figure>
+  <figure>
+    <a href="/SigGear-product-docs/products/planetary-gearboxes/42p-planetary-gearbox/" aria-label="View SigGear 42P 42 mm Compact Planetary Gearhead specifications">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/42p/42p-real-product-evidence.png" alt="Authentic SigGear 42P 42 mm Compact planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
+    </a>
+    <figcaption><strong>Compact · 42P (Ø42 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/42p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
+  </figure>
+</div>
+
 ## Compare Published Specifications
 
 | Nominal diameter | Reduction ratio range | Gearhead body length | Rated allowable torque | Backlash |
