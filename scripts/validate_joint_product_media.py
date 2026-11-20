@@ -111,8 +111,26 @@ def main() -> None:
                         img.verify()
                 except Exception as error:
                     media_errors.append(f"{model}: {file.name}: {type(error).__name__}: {error}")
+            elif file.suffix.lower() in (".jpg", ".jpeg", ".png"):
+                try:
+                    with Image.open(file) as img:
+                        if img.format != ("PNG" if file.suffix.lower() == ".png" else "JPEG"):
+                            raise ValueError("Invalid image format for extension")
+                        img.verify()
+                    with Image.open(file) as img:
+                        img.load()
+                except Exception as error:
+                    media_errors.append(f"{model}: {file.name}: {type(error).__name__}: {error}")
             else:
                 raise ValueError("Unexpected image format "+str(file))
+
+        if model == "SG-8021":
+            for orientation in ("front", "side", "rear"):
+                filename = f"sg8021-robot-joint-actuator-{orientation}-render.jpg"
+                if sum(filename in url for url in paths) != 1:
+                    raise ValueError("SG-8021 missing exactly one verified view: "+filename)
+            if "manufacturer-supplied product render" not in text:
+                raise ValueError("SG-8021 renders must be labelled as renders, not actual photographs")
 
         step_names = re.findall(r'(?i)[\w-]+\.step', text)
         expected=STEP_ALLOWED.get(model,[])

@@ -27,6 +27,8 @@ Publicly listed capabilities include:
 
 The equipment list is company-level evidence. It does not mean that every machine is used for every product or that every listed test is included in every customer project.
 
+**Original photographs:** [View SigGear machining, gear processing and inspection equipment](manufacturing-and-quality-evidence.md). These photos do not establish model-specific tolerance, production route or test results.
+
 ## Production Equipment
 
 SigGear's official May 2025 catalog lists manufacturing equipment including:

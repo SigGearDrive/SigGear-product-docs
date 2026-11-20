@@ -17,6 +17,8 @@ They are not interchangeable. A photograph of test equipment does not create a p
 
 *Selected real equipment images from SigGear company material. They show dimensional metrology, gear inspection / measurement, environmental test equipment and a transmission test fixture. The image demonstrates physical testing and inspection capability; it is not a model-specific test report.*
 
+**Additional original photos (20 November 2026):** [CMM, universal testing machine, thermal-shock chamber and salt-spray equipment](../company/manufacturing-and-quality-evidence.md). These visuals do not substitute for an actual test report.
+
 ## Documented Testing and Inspection Scope
 
 SigGear company equipment material documents testing and inspection resources including:

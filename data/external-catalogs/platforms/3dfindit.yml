@@ -71,9 +71,9 @@ assets_ready:
   datasheets: true
   mechanical_interface_pages: true
   simplified_step_12_series: true
-  official_logo: null
+  official_logo: docs/assets/brand/siggear-official-wordmark-white-background.png
 
 assets_pending:
-  approved_official_logo: true
+  approved_official_logo: false
   expanded_real_product_photos: true
   final_public_part_number_logic: engineering_and_commercial_confirmation_required

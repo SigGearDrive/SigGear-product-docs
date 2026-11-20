@@ -16,8 +16,10 @@ Still required from TraceParts / the Smart-Publishing account:
 - official XLS template
 - valid `Classification_Category_ID`
 
-Still required from SigGear:
-- An **approved, readable original SigGear logo on a white background** for external-catalog submission. The former repository WebP was corrupt and has been retired; it must not be submitted as a verified company logo. Request the brand-approved source rather than substituting a recreated mark.
+Ready from SigGear once the uploaded PR image binaries are verified:
+- Official original transparent SigGear wordmark: `docs/assets/brand/siggear-official-wordmark-transparent.png`
+- The same approved artwork composited over white: `docs/assets/brand/siggear-official-wordmark-white-background.png`
+- Retired corrupt WebP is not reused; artwork, proportions and colors are unchanged.
 
 ## Important ordering boundary
 

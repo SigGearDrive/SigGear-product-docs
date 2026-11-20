@@ -64,6 +64,9 @@ jobs:
       - name: Decode and audit 12 planetary product photos and page references
         run: python scripts/validate_planetary_product_photos.py
 
+      - name: Validate owner-supplied manufacturing, inspection, brand and 80-21 media
+        run: python scripts/validate_company_media_assets.py
+
       - name: Reject every corrupt or missing public image and source reference
         run: python scripts/audit_site_images.py --mode repo --report site-image-audit-report.json
 

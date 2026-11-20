@@ -15,6 +15,7 @@ on:
       - "requirements.txt"
       - "scripts/validate_docs.py"
       - "scripts/validate_planetary_product_photos.py"
+      - "scripts/validate_company_media_assets.py"
       - "scripts/validate_geo_answer_readiness.py"
       - "scripts/validate_geo_citation_extractability.py"
       - "scripts/validate_product_data.py"
@@ -166,6 +167,9 @@ jobs:
 
       - name: Decode and audit 12 planetary product photos and page references
         run: python scripts/validate_planetary_product_photos.py
+
+      - name: Validate owner-supplied manufacturing, inspection, brand and 80-21 media
+        run: python scripts/validate_company_media_assets.py
 
       - name: Reject every corrupt or missing public image and source reference
         run: python scripts/audit_site_images.py --mode repo --report site-image-audit-report.json
