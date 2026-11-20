@@ -4,8 +4,8 @@ This register records **eight source files confirmed undecodable by the reposito
 
 | Retired historical file | Safe disposition |
 | --- | --- |
-| `docs/assets/brand/siggear-logo-white.webp` | Retired. Official approved white-background logo original **still needed** for TraceParts / 3Dfindit; external-catalog readiness corrected. |
-| `docs/assets/images/evidence/manufacturing/siggear-manufacturing-quality-evidence.webp` | Retired. No authentic usable replacement in this release; do not claim this photo as manufacturing evidence. |
+| `docs/assets/brand/siggear-logo-white.webp` | Retired. The unreadable historical WebP remains removed. On 2026-11-20 the owner supplied a new readable official transparent PNG wordmark; a faithful white-background export is included in the new media release for TraceParts / 3Dfindit. |
+| `docs/assets/images/evidence/manufacturing/siggear-manufacturing-quality-evidence.webp` | Retired. The former montage remains unusable, but separate authentic owner-supplied manufacturing and inspection equipment photos are now registered in the new media release. Do not identify them as the exact former montage. |
 | `docs/assets/images/evidence/planetary/8-42mm-planetary-gearbox-family-real.webp` | Replaced on the 8–42 mm series site by the owner-supplied original `docs/assets/images/products/planetary-gearboxes/siggear-8-42mm-planetary-gearheads-real-lineup.jpg`. |
 | `docs/assets/images/evidence/planetary/compact-gearmotor-measurement-caliper.webp` | Retired. New verified caliper/motor-assembly original still needed if this specific evidence is reused. |
 | `docs/assets/images/evidence/planetary/compact-gearmotor-size-reference.webp` | Retired. The old YouTube production pack now refers to genuine published lineup imagery rather than this invalid source. |
