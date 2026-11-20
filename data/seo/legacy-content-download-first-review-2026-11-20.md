@@ -73,3 +73,29 @@
 - [ ] New post-release GSC performance explicitly pending (not presented as measured)
 
 **This review replaces copy, not historical identity or engineering proof.**
+
+## Second batch on 2026-11-20 — existing engineering guides only
+
+### A) Robot Joint Actuator and Gearbox Selection Guide
+
+- **Existing canonical path:** `/selection-guides/robot-joint-actuator-selection-guide/`; do **not** change the URL.
+- Source file was **371 lines** with ten generic navigation actions before any direct released files. It is now **149 lines**; the original short SEO topic is retained.
+- A historic October GSC audit recorded approximately **254 impressions** for the robot-joint selector. That is a **historical visibility signal**, **not a verified current decline**, and the available record does not establish that URL's clicks or current ranking.
+- First substantive block is **six public planetary/cycloidal joint reference modules** with **18 distinct released model-specific files**: six reference PDF Datasheets, four existing engineering-reference 2D PDFs and eight exact full assembly STEP variants. Rows were sourced from the already published `docs/engineering-resources/robot-joint-actuators/quick-downloads.md` file; missing 2D files remain Request/pending, not fabricated.
+- Preserves key engineering value: gravity / inertia / external-force torque equations, continuous vs peak duty, installation envelope, external loads, thermal behavior, encoder/driver/protocol limits, brake and safety, prototype validation. Drops duplicated broad lead-in and long generic checklists, and provides a concise first-contact requirement list.
+- **Variant guards:** SG-8021 driver-equipped STEP, CPM-80-25 two thickness/driver variants, CPM-100-25D 48 mm 2D vs standard 29.5 mm STEP, CPM-78-39 drawing match pending. Public Rev0.1 sheets and available 2Ds are engineering references, not approved production drawings.
+
+### B) Planetary Gearbox Engineering Resources index
+
+- **Existing canonical path:** `/engineering-resources/planetary-gearboxes/` — keep unchanged.
+- Former directory offered **12 outline 2D PDFs** and linked to the separate download center for PDF Datasheets and STEP files. It now shows **12 models × 3 exact downloadable files = 36 direct links** in its first model table, plus online specifications and mechanical interface pages.
+- Asset filenames come from the **protected existing 12-model central download page** and remain unchanged. This separate index is for engineers browsing the resources tree; the already-performing original download center retains its canonical role.
+- Source page content is concise and includes boundaries around stage-specific length and motor/ratio compatibility. No claims of a universal input-speed limit or automatic motor compatibility.
+
+### Automated QA added
+
+- `scripts/validate_joint_quick_downloads.py`: checks the new first selection-guide table has exactly six models, four columns, all actual joint PDF / available 2D / correct STEP variants and non-approval warnings.
+- `scripts/validate_planetary_download_assets.py`: checks the legacy planetary resource index exposes all 12 × Datasheet PDF / original 2D / Full Assembly STEP and that their built hrefs resolve to generated real public files.
+- The two edited URLs are maintained; **no binary PDF/STEP assets are modified**, no new application/product page is created, and the 2026-11-19 new GEO pages stay in observation.
+
+**Reassessment gate:** await fresh **non-overlapping**, page-level GSC exposure/click/CTR/rank data and post-recrawl observations before labelling any legacy URL as *continually declining*. The current Windsor.ai connection still contains GA4 but no selected GSC property; no post-rewrite uplift or traffic loss is claimed here.
