@@ -5,13 +5,14 @@ This is a source/build-time media gate. It checks real pixel decoding (Pillow),
 not merely presence of files or a green MkDocs build. Live browser/deployment
 rendering is a separate check.
 
-The five damaged legacy WebP photos (8P/10P/12P/14P/20P) were removed in
-PR #286. Replacement files must be authentic 2048 x 1365 PNGs. Their absence
-is reported as PENDING, never disguised with a placeholder or broken URL.
+All 12 model pages must retain their authentic 2048 x 1365 PNG originals.
+The 8–42 mm family index additionally uses one owner-supplied, unaltered
+2048 x 1365 JPEG group photograph, checked by SHA-256 for exact provenance.
 """
 from __future__ import annotations
 
 import re
+import hashlib
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
@@ -23,6 +24,8 @@ PHOTOS = DOCS / "assets/images/products/planetary-gearboxes"
 PRODUCTS = DOCS / "products/planetary-gearboxes"
 MODELS = (8, 10, 12, 14, 16, 20, 22, 24, 28, 32, 36, 42)
 EXPECTED_PNG = {n: f"{n}p-real-product-evidence.png" for n in MODELS}
+LINEUP_IMAGE = (PHOTOS / "siggear-8-42mm-planetary-gearheads-real-lineup.jpg").resolve()
+LINEUP_SHA256 = "45c2766dd7f1527bcfe89151a527b1e86f3a46f997219ecdc40c28d7e39bd901"
 MODEL_IMAGE = re.compile(r"/planetary-gearboxes/(\d+)p/[^/?#]+\.(?:webp|png|jpe?g)$", re.I)
 MD_IMAGE = re.compile(r"!\[[^\]]*\]\(([^)\s]+)(?:\s+[^)]*)?\)")
 HTML_IMAGE = re.compile(r"<img\b[^>]*\bsrc\s*=\s*['\"]([^'\"]+)['\"]", re.I)
@@ -90,7 +93,6 @@ def main() -> None:
     sources = [DOCS / "index.md", PRODUCTS / "8-42mm-planetary-gear-reducer.md"]
     sources.extend(PRODUCTS / f"{n}p-planetary-gearbox.md" for n in MODELS)
     source_groups = {
-        PRODUCTS / "8-42mm-planetary-gear-reducer.md": MODELS,
         PRODUCTS / "micro-planetary-gearheads-8-16mm.md": (8, 10, 12, 14, 16),
         PRODUCTS / "miniature-planetary-gearheads-20-32mm.md": (20, 22, 24, 28, 32),
         PRODUCTS / "compact-planetary-gearheads-36-42mm.md": (36, 42),
@@ -156,13 +158,34 @@ def main() -> None:
                     f"{source.relative_to(ROOT)} gallery must lazy-load every photo"
                 )
 
-    for source in sources[:2]:
-        refs = references.get(source, [])
-        for n in (16, 22, 36):
-            if not any(f"/{n}p/" in urlsplit(original).path for _, original, _ in refs):
-                errors.append(f"{source.relative_to(ROOT)}: missing proven {n}P photo")
-        if not refs:
-            errors.append(f"{source.relative_to(ROOT)}: product photo grid is empty")
+    # Homepage keeps three separately labelled genuine reference photos.
+    homepage = DOCS / "index.md"
+    home_refs = references.get(homepage, [])
+    for n in (16, 22, 36):
+        if not any(f"/{n}p/" in urlsplit(original).path for _, original, _ in home_refs):
+            errors.append(f"{homepage.relative_to(ROOT)} missing approved {n}P photo")
+    if not home_refs:
+        errors.append("Homepage product photo grid is empty")
+
+    # Series page intentionally uses ONE real family photograph, not twelve
+    # repeated/scaled individual model photos or a synthetic collage.
+    series = PRODUCTS / "8-42mm-planetary-gear-reducer.md"
+    series_refs = [target for _, _, target in references.get(series, [])]
+    if series_refs != [LINEUP_IMAGE]:
+        errors.append(
+            f"{series.relative_to(ROOT)} must reference only the exact 12-model lineup JPEG"
+        )
+    try:
+        decode_photo(LINEUP_IMAGE, expected_size=(2048, 1365))
+        actual_sha = hashlib.sha256(LINEUP_IMAGE.read_bytes()).hexdigest()
+        if actual_sha != LINEUP_SHA256:
+            errors.append(
+                f"Series lineup JPEG bytes differ from the user's original: {actual_sha}"
+            )
+        else:
+            summary.append("12-model real lineup JPEG: VERIFIED ORIGINAL SHA-256")
+    except AssertionError as exc:
+        errors.append(str(exc))
 
     if errors:
         raise SystemExit("Planetary image audit FAILED:\n- " + "\n- ".join(errors))

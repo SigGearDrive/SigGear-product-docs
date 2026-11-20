@@ -190,37 +190,55 @@ def check_planetary_real_image_seo() -> None:
             fail(f"Representative real product photo missing from output: {photo}")
         if asset.stat().st_size < 100000:
             fail(f"Representative photo is suspiciously small / overcompressed: {photo}")
+    lineup_photo = "assets/images/products/planetary-gearboxes/siggear-8-42mm-planetary-gearheads-real-lineup.jpg"
+    lineup_image = EXPECTED_BASE + lineup_photo
+    lineup_asset = SITE_DIR / lineup_photo
+    if not lineup_asset.is_file():
+        fail(f"Original 12-model lineup JPEG missing from site build: {lineup_photo}")
+    if lineup_asset.stat().st_size < 200000:
+        fail(f"Original 12-model lineup JPEG looks truncated: {lineup_photo}")
     family_targets = [
-        ("index.html", None),
-        ("products/planetary-gearboxes/8-42mm-planetary-gear-reducer/index.html", "CollectionPage"),
+        ("index.html", None, representative_image, real_model_images, "siggear-planetary-photo-grid"),
+        (
+            "products/planetary-gearboxes/8-42mm-planetary-gear-reducer/index.html",
+            "CollectionPage", lineup_image, [lineup_photo], "siggear-planetary-lineup",
+        ),
     ]
 
-    for relative, schema_type in family_targets:
+    for relative, schema_type, page_image, photos, required_class in family_targets:
         path = SITE_DIR / relative
         if not path.is_file():
             fail(f"Real-image SEO test page missing: {relative}")
         html = path.read_text(encoding="utf-8")
         if "8-42mm-planetary-gearbox-family-real.webp" in html:
             fail(f"Previously blurred 9 KB lineup is still used on {relative}")
-        if 'class="siggear-planetary-photo-grid"' not in html:
-            fail(f"Responsive real-product photo gallery missing on {relative}")
-        for photo in real_model_images:
+        if f'class="{required_class}"' not in html:
+            fail(f"Authentic product photo layout missing on {relative}")
+        for photo in photos:
             if f'/SigGear-product-docs/{photo}' not in html:
-                fail(f"Required model photo missing from {relative}: {photo}")
-        if f'<meta property="og:image" content="{representative_image}">' not in html:
+                fail(f"Required real product photo missing from {relative}: {photo}")
+        if relative != "index.html":
+            img_refs = re.findall(
+                r'<img\b[^>]*\bsrc="(/SigGear-product-docs/assets/images/products/planetary-gearboxes/[^"]+)"',
+                html,
+            )
+            if img_refs != ["/SigGear-product-docs/" + lineup_photo]:
+                fail(f"12-model series must show one authentic lineup image: {img_refs}")
+            if "12 model sizes photographed together" not in html:
+                fail(f"Series lineup image missing factual alt text on {relative}")
+        if f'<meta property="og:image" content="{page_image}">' not in html:
             fail(f"Representative product image missing from og:image on {relative}")
-        if f'<meta name="twitter:image" content="{representative_image}">' not in html:
+        if f'<meta name="twitter:image" content="{page_image}">' not in html:
             fail(f"Representative product image missing from twitter:image on {relative}")
         if schema_type:
             blocks = _json_ld_blocks(html)
             block = next((b for b in blocks if b.get("@type") == schema_type), None)
-            if block is None or representative_image not in json.dumps(block, ensure_ascii=False):
+            if block is None or page_image not in json.dumps(block, ensure_ascii=False):
                 fail(f"Representative product image missing from {schema_type} JSON-LD on {relative}")
 
-    # Only the overview carries all 12 pictures; family pages carry exactly
-    # their matching subset. Keep home page at three representative images.
+    # Each category shows exactly its matching model photos. The series
+    # overview uses the original group photograph and homepage keeps three.
     photo_directory_pages = {
-        "products/planetary-gearboxes/8-42mm-planetary-gear-reducer/index.html": PLANETARY_MODELS,
         "products/planetary-gearboxes/micro-planetary-gearheads-8-16mm/index.html": PLANETARY_MODELS[:5],
         "products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm/index.html": PLANETARY_MODELS[5:10],
         "products/planetary-gearboxes/compact-planetary-gearheads-36-42mm/index.html": PLANETARY_MODELS[10:],

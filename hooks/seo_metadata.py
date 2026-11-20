@@ -162,9 +162,12 @@ def _real_evidence_image(page, config) -> dict | None:
     """
     src = page.file.src_uri.replace("\\", "/")
 
-    if src in {"index.md", PLANETARY_SERIES_SRC}:
+    if src == "index.md":
         relative = "assets/images/products/planetary-gearboxes/36p/36p-real-product-evidence.png"
         alt = "Real SigGear 36P 36 mm compact planetary gearhead; one example from the 8–42 mm range"
+    elif src == PLANETARY_SERIES_SRC:
+        relative = "assets/images/products/planetary-gearboxes/siggear-8-42mm-planetary-gearheads-real-lineup.jpg"
+        alt = "Actual SigGear 8–42 mm precision planetary gearhead family, original group lineup photograph of 12 model sizes"
     elif src in {
         "products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md",
         "products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md",

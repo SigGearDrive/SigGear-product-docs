@@ -43,95 +43,16 @@ description: "SigGear supplies 12 precision planetary gearhead sizes (miniature 
 
 **Need integration details?** [Motor + Gearhead mating guide](../../custom-engineering/motor-gearbox-integration.md) · [Custom gearhead engineering](../../custom-engineering/custom-planetary-gearbox.md) · [Motor-only datasheets](../../engineering-resources/motors/index.md)
 
-## Real Product Photos | All 12 Models
+## 12 Gearhead Models | Authentic Product Lineup
 
-**Authentic SigGear photographs for visual frame-size comparison.** Each photograph represents its labelled model, not a combined lineup; use the linked product page and controlled PDF / 2D / STEP for engineering selection.
+This is a **real SigGear group photograph of the 8–42 mm planetary gearhead range**. The photo shows the products together for visual comparison; do not infer a specific reduction ratio, motor compatibility or performance rating from appearance alone. Use each model's controlled PDF datasheet, 2D drawing and STEP file above for engineering evaluation.
 
-### Micro Planetary Gearheads | 8–16 mm
+<figure class="siggear-planetary-lineup">
+  <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/siggear-8-42mm-planetary-gearheads-real-lineup.jpg" alt="Actual SigGear 8–42 mm precision planetary gearheads, 12 model sizes photographed together in a single product lineup" width="2048" height="1365" loading="lazy" decoding="async">
+  <figcaption>SigGear precision planetary gearhead family · 12 sizes, 8P–42P · Original product lineup photograph.</figcaption>
+</figure>
 
-<div class="siggear-planetary-photo-grid">
-  <figure>
-    <a href="/SigGear-product-docs/products/planetary-gearboxes/8p-planetary-gearbox/" aria-label="View SigGear 8P 8 mm Micro Planetary Gearhead specifications">
-      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/8p/8p-real-product-evidence.png" alt="Authentic SigGear 8P 8 mm Micro planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
-    </a>
-    <figcaption><strong>Micro · 8P (Ø8 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/8p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
-  </figure>
-  <figure>
-    <a href="/SigGear-product-docs/products/planetary-gearboxes/10p-planetary-gearbox/" aria-label="View SigGear 10P 10 mm Micro Planetary Gearhead specifications">
-      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/10p/10p-real-product-evidence.png" alt="Authentic SigGear 10P 10 mm Micro planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
-    </a>
-    <figcaption><strong>Micro · 10P (Ø10 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/10p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
-  </figure>
-  <figure>
-    <a href="/SigGear-product-docs/products/planetary-gearboxes/12p-planetary-gearbox/" aria-label="View SigGear 12P 12 mm Micro Planetary Gearhead specifications">
-      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/12p/12p-real-product-evidence.png" alt="Authentic SigGear 12P 12 mm Micro planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
-    </a>
-    <figcaption><strong>Micro · 12P (Ø12 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/12p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
-  </figure>
-  <figure>
-    <a href="/SigGear-product-docs/products/planetary-gearboxes/14p-planetary-gearbox/" aria-label="View SigGear 14P 14 mm Micro Planetary Gearhead specifications">
-      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/14p/14p-real-product-evidence.png" alt="Authentic SigGear 14P 14 mm Micro planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
-    </a>
-    <figcaption><strong>Micro · 14P (Ø14 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/14p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
-  </figure>
-  <figure>
-    <a href="/SigGear-product-docs/products/planetary-gearboxes/16p-planetary-gearbox/" aria-label="View SigGear 16P 16 mm Micro Planetary Gearhead specifications">
-      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/16p/16p-real-product-evidence.png" alt="Authentic SigGear 16P 16 mm Micro planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
-    </a>
-    <figcaption><strong>Micro · 16P (Ø16 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/16p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
-  </figure>
-</div>
+**Browse each model's individual photo and technical files:** [Micro 8–16 mm](micro-planetary-gearheads-8-16mm.md) · [Miniature 20–32 mm](miniature-planetary-gearheads-20-32mm.md) · [Compact 36–42 mm](compact-planetary-gearheads-36-42mm.md)
 
-### Miniature Planetary Gearheads | 20–32 mm
-
-<div class="siggear-planetary-photo-grid">
-  <figure>
-    <a href="/SigGear-product-docs/products/planetary-gearboxes/20p-planetary-gearbox/" aria-label="View SigGear 20P 20 mm Miniature Planetary Gearhead specifications">
-      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/20p/20p-real-product-evidence.png" alt="Authentic SigGear 20P 20 mm Miniature planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
-    </a>
-    <figcaption><strong>Miniature · 20P (Ø20 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/20p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
-  </figure>
-  <figure>
-    <a href="/SigGear-product-docs/products/planetary-gearboxes/22p-planetary-gearbox/" aria-label="View SigGear 22P 22 mm Miniature Planetary Gearhead specifications">
-      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/22p/22p-real-product-evidence.png" alt="Authentic SigGear 22P 22 mm Miniature planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
-    </a>
-    <figcaption><strong>Miniature · 22P (Ø22 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/22p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
-  </figure>
-  <figure>
-    <a href="/SigGear-product-docs/products/planetary-gearboxes/24p-planetary-gearbox/" aria-label="View SigGear 24P 24 mm Miniature Planetary Gearhead specifications">
-      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/24p/24p-real-product-evidence.png" alt="Authentic SigGear 24P 24 mm Miniature planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
-    </a>
-    <figcaption><strong>Miniature · 24P (Ø24 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/24p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
-  </figure>
-  <figure>
-    <a href="/SigGear-product-docs/products/planetary-gearboxes/28p-planetary-gearbox/" aria-label="View SigGear 28P 28 mm Miniature Planetary Gearhead specifications">
-      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/28p/28p-real-product-evidence.png" alt="Authentic SigGear 28P 28 mm Miniature planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
-    </a>
-    <figcaption><strong>Miniature · 28P (Ø28 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/28p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
-  </figure>
-  <figure>
-    <a href="/SigGear-product-docs/products/planetary-gearboxes/32p-planetary-gearbox/" aria-label="View SigGear 32P 32 mm Miniature Planetary Gearhead specifications">
-      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/32p/32p-real-product-evidence.png" alt="Authentic SigGear 32P 32 mm Miniature planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
-    </a>
-    <figcaption><strong>Miniature · 32P (Ø32 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/32p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
-  </figure>
-</div>
-
-### Compact Planetary Gearheads | 36–42 mm
-
-<div class="siggear-planetary-photo-grid">
-  <figure>
-    <a href="/SigGear-product-docs/products/planetary-gearboxes/36p-planetary-gearbox/" aria-label="View SigGear 36P 36 mm Compact Planetary Gearhead specifications">
-      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/36p/36p-real-product-evidence.png" alt="Authentic SigGear 36P 36 mm Compact planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
-    </a>
-    <figcaption><strong>Compact · 36P (Ø36 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/36p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
-  </figure>
-  <figure>
-    <a href="/SigGear-product-docs/products/planetary-gearboxes/42p-planetary-gearbox/" aria-label="View SigGear 42P 42 mm Compact Planetary Gearhead specifications">
-      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/42p/42p-real-product-evidence.png" alt="Authentic SigGear 42P 42 mm Compact planetary gearhead product photo" width="2048" height="1365" loading="lazy" decoding="async">
-    </a>
-    <figcaption><strong>Compact · 42P (Ø42 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/42p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
-  </figure>
-</div>
 
 <small>Product identity: Micro, Miniature and Compact Precision Planetary Gearheads (8–42 mm). Legacy product-inventory label: **8–42 mm Planetary Gear Reducer Series** (retained for traceability).</small>
