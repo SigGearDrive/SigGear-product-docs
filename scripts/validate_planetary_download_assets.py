@@ -243,6 +243,34 @@ def main() -> None:
             require(token in planetary_resource_index,
                     f"Planetary resources missing direct {size}P asset: {token}")
 
+    # The indexed legacy selector keeps its working calculator + deep-link
+    # anchor, while first-screen model files must be immediate direct links.
+    legacy_selector_path = DOCS / "selection-guides/miniature-planetary-gearbox-selection-guide.md"
+    legacy_selector = legacy_selector_path.read_text(encoding="utf-8")
+    require(
+        legacy_selector.index("## Browse by Diameter Before Ratio Selection") <
+        legacy_selector.index("## SigGear Planetary Gearbox Selector"),
+        "Legacy selector must present real file downloads before the calculator",
+    )
+    for expected_id in (
+        "preliminary-ratio-stage-finder",
+        'id="siggear-ratio-stage-selector"',
+        'id="sg-selector-motor-speed"',
+        'id="sg-selector-output-speed"',
+        'id="sg-ratio-stage-results"',
+    ):
+        require(expected_id in legacy_selector, f"Legacy calculator/deep-link missing {expected_id}")
+    for size in MODEL_SIZES:
+        for name in (
+            f"{size}P_Planetary_Gearhead_Datasheet_",
+            f"{size}P_2D_Drawing.pdf",
+            f"{size}P_Full_Assembly.step",
+        ):
+            require(name in legacy_selector, f"Legacy selector missing direct {size}P file: {name}")
+    require("motor- and configuration-dependent" in legacy_selector,
+            "Legacy selector must not restore a universal gearbox input speed cap")
+    html_paths.append(("selection-guides/miniature-planetary-gearbox-selection-guide/", 36))
+
     links_checked = 0
     for rel, min_download_links in html_paths:
         page_url = BASE + rel
