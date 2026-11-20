@@ -20,14 +20,16 @@ The GitHub repository held a consistent older **five-image promotional / screens
 
 **35 legacy images were removed from the current repository branch and publication output.** The cleanup removes the *whole older parameter-artwork family* so it cannot be cited again, including some unused graphics. Not every binary was independently transcribed or proven to contain the exact “≤8,000 rpm” phrase. The safer removal scope was chosen because the user explicitly wants the current Datasheet—not these images—to be the speed/specification reference.
 
-**Authentic photos preserved:** the individual `8p-real-product-evidence.webp` through `22p-real-product-evidence.webp` assets. Newer 24P/28P/32P/36P/42P real product photos and real factory/test evidence remain unchanged.
+**Image integrity QA:** additional current 'real-product-evidence' WebP assets for **8P, 10P, 12P, 14P and 20P** were found corrupt or incomplete (RIFF length mismatch; Pillow could not decode). These **five extra unusable files were also removed** rather than altered, fabricated or presented as valid. The existing **16P and 22P** photos successfully decoded in Pillow and remain published. Later 24P–42P assets and separate factory/test evidence remain unchanged. **Total removed image files: 40.**
 
 ### Public-page corrections
 
-- **6 model pages (8P–20P):** removed all in-body old parameter diagrams, retired legacy cover-image references, switched main visible photo to real product evidence, and replaced “drawing preview” links with the exact official **2D Drawing PDF**. Where motor voltage/power limits were being sourced from old promotion sheets, substituted a model-specific Datasheet + motor Datasheet review instruction. Preserved the verified top-of-page four-file set: Datasheet PDF, 2D Drawing, Original Full Assembly STEP, Simplified STEP.
-- **22P:** already used real product evidence and direct engineering files; removed the five redundant legacy binary images from the repository, with no change to its model page.
-- **Home and 8–42 mm series:** switched 10P and 20P thumbnail URLs from old promotional image covers to their existing real product evidence photos.
+- **6 model pages (8P–20P):** removed all in-body old parameter diagrams, retired legacy cover-image references, removed invalid/unverifiable model photo references for 8P, 10P, 12P, 14P and 20P (16P retains an independently decodable genuine image), and replaced “drawing preview” links with the exact official **2D Drawing PDF**. Where motor voltage/power limits were being sourced from old promotion sheets, substituted a model-specific Datasheet + motor Datasheet review instruction. Preserved the verified top-of-page four-file set: Datasheet PDF, 2D Drawing, Original Full Assembly STEP, Simplified STEP.
+- **22P:** already used real product evidence and direct engineering files; removed the five redundant legacy binary images from the repository, and kept its independently decodable real product photo; its model page only receives the global Datasheet-priority note.
+- **Home and 8–42 mm series:** replaced non-decodable 10P and 20P thumbnails with **confirmed decodable real 16P (Micro)** and **22P (Miniature)** product photos, adjusting linked model labels and image aspect ratios. The 36P Compact real photo is unchanged.
 - **Quality gate:** updated `scripts/validate_site_urls.py` representative photo checks and added `scripts/validate_legacy_image_and_page_freeze.py`, called in both PR verification and production deployment workflows.
+
+**Unverified model-image metadata:** 8P, 10P, 12P, 14P and 20P no longer publish their unreadable WebP photos as OG, Twitter or ItemPage images. These model pages are still fully indexed-capable and keep the official files first. The Seo metadata hook emits per-model real evidence images only when an existing verified asset is available.
 
 **No Datasheet PDF, STEP, controlled drawing, model-specific verified torque data or URL was deleted or modified.** The technical drawing and ratio/torque detail remain available as official source files for each size.
 
@@ -51,8 +53,8 @@ This operation covers **GitHub Pages / SigGear-product-docs** only. The commerci
 
 ## Acceptance
 
-- [ ] 35 old binary graphics absent from the branch and published `gh-pages`
-- [ ] 7 sizes retain real photo and model-specific Datasheet/2D reference
+- [ ] 35 old parameter graphics plus 5 unreadable product WebPs absent from the branch and published `gh-pages`
+- [ ] 16P and 22P retain validated real photos; other five early sizes have no broken product image and retain Datasheet/2D downloads
 - [ ] No public source references deleted graphics
 - [ ] 5 frozen page Git blob hashes match and are enforced by PR/deploy workflows
 - [ ] `Validate Documentation`, `Deploy MkDocs` and final GitHub Pages build succeed
