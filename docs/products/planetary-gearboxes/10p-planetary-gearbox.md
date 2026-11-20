@@ -10,6 +10,8 @@ description: "SigGear 10P Ø10 mm micro planetary gearhead: ratios 3.5:1–428.7
 [**Download Full Assembly STEP**](../../assets/downloads/10p/10P_Full_Assembly.step){ .md-button }
 [**Download Simplified 4-Stage STEP · Reference**](../../assets/downloads/10p/10P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button }
 
+**Engineering data reference:** Use the current [10P Datasheet PDF](../../assets/downloads/10p/10P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) for published input-speed conditions, ratio/stage, rated load and dimensions. Images here show real products only; if a web summary and the downloadable Datasheet differ, verify the latest controlled revision with SigGear engineering.
+
 | Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
 | --- | --- | --- | --- | --- |
 | **10 mm** | **3.5:1–428.7:1** | **10.25–18.50 mm** | **127.5–196.1 mN·m** | **≤ 1.5°** |
