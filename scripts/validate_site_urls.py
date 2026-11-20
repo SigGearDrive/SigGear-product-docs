@@ -180,8 +180,8 @@ def check_planetary_real_image_seo() -> None:
         + "assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014.jpg"
     )
     real_model_images = [
-        "assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-main.webp",
-        "assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-main.webp",
+        "assets/images/products/planetary-gearboxes/10p/10p-real-product-evidence.webp",
+        "assets/images/products/planetary-gearboxes/20p/20p-real-product-evidence.webp",
         "assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014.jpg",
     ]
     for photo in real_model_images:
