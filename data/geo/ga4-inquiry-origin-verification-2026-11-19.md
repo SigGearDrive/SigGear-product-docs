@@ -84,18 +84,41 @@ Official GA4 guidance:
 
 GA4 may contain **different event counts** from Search Console clicks due to cookie consent, attribution windows, time zones, and other factors. Never divide unrelated GSC impressions by GA4 inquiry counts and call the result an AI conversion rate.
 
-## Account connection prerequisite
+## Verified GA4 dimension + data readout — 2026-11-20 follow-up
 
-The existing Windsor.ai account still needs a **GA4 property selection**. Authorize the correct Google account, grant the Google Analytics permission, and select the GA4 property on Windsor.ai before finishing. This action requires the account owner's own sign-in and authorization. No token or password should be placed in GitHub.
+**Connected account:** Windsor.ai `googleanalytics4` property `547548249`, **SigGear Product Documentation**.
 
-Once connected, query **event name + event count** for the six scenarios and only use `SigGear Inquiry Origin` as a reporting dimension **after GA4 actually exposes it**. If events or custom dimension data are missing, record **not verified**, not zero.
+The GA4 custom dimension `SigGear Inquiry Origin` is now **registered, active in GA4 field metadata, and directly queryable** from this connector under field ID `customevent_inquiry_origin` (the GA4 event parameter remains `inquiry_origin`). The user also verified in GA4 DebugView that `inquiry_page_view` had `inquiry_origin = geo_existing_motor`.
+
+A subsequent **read-only GA4 Data API** query covering November 19–20, 2026 returned the following **November 19** test entries:
+
+| Date | Event | Custom event dimension | Count |
+| --- | --- | --- | ---: |
+| 2026-11-19 | `engineering_brief_open_click` | `geo_existing_motor` | 1 |
+| 2026-11-19 | `inquiry_page_view` | `geo_existing_motor` | 1 |
+
+These are **test events and not verified customers, AI citations, confirmed delivered requests or sales opportunities**. The query returned no newer event rows at the time of inspection; this is not proof of zero current traffic. Older events from November 16 showed `(not set)`, which is expected given the custom dimension's later registration; do not backfill or relabel history.
+
+**The six-value source-dimension reporting is technically ready.** Registration and API-readiness are complete; the reusable GA4 UI Exploration remains an optional account-side setup.
+
+### Recommended GA4 Exploration (optional account-side saved report)
+
+In GA4 property `547548249`, open **Explore → Free form**, select **Event name**, **SigGear Inquiry Origin** and **Date** as dimensions, and **Event count** as the metric. Place **SigGear Inquiry Origin** in Rows, **Event name** in Columns, and **Event count** in Values. Filter `Event name` to the four inquiry events below; for a simpler view, filter to just `engineering_brief_open_click` and `inquiry_page_view`:
+
+- `engineering_brief_open_click` — entry link click; the same page cannot create a duplicate entry
+- `inquiry_page_view` — form page opened
+- `engineering_brief_prepare_email` — email client launch intent, not message delivery
+- `engineering_brief_online_submit_attempt` — native provider submit attempt, not inbox delivery
+
+Compare days only after the custom dimension exists in the reporting period, and preserve `(not set)` rather than guessing sources. `SigGear Inquiry Origin` identifies the **first-party engineering page** in the event, not the external AI assistant or search engine. Confirmation of real inquiries remains a manual mailbox/pipeline activity. This procedure does not imply that an Exploration has already been saved in GA4; the connector is read-only.
 
 ## Completion criteria
 
-- [ ] Correct GA4 property connected to Windsor.ai and verified
-- [ ] `inquiry_origin` event-scoped custom dimension exists exactly once in the right property
-- [ ] One consented, real browser QA session yields the expected source-page click event and form page-view origin
-- [ ] A GA4 report groups engineering inquiry events by the correct six `geo_...` values
+- [x] Correct GA4 property connected to Windsor.ai and verified (property 547548249)
+- [x] `inquiry_origin` event-scoped custom dimension exists in the right property and appears in live GA4 metadata
+- [x] GA4 DebugView and API return the expected Existing Motor source on click and form-view events (test observations)
+- [x] GA4 API retrieves grouped inquiry events by `customevent_inquiry_origin` for Existing Motor test case
+- [ ] Save a GA4 Exploration for ongoing grouped reporting across all six `geo_...` values (only one scenario currently observed)
 - [ ] Pipeline only counts inbox-confirmed contacts as received inquiries; GA4 never claims confirmation
 
 The GitHub build and Node regression tests validate **website code**, not the above external GA4 and inbox conditions.
