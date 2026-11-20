@@ -199,6 +199,30 @@ def main() -> None:
         for p in (DOCS / "applications").glob("*.md")
         if p.stem not in {"index", "planetary-gearbox-application-families"}
     )
+    # Protect the refreshed, legacy-URL engineering entrypoints. Their
+    # published first-screen links must be actual model-specific files rather
+    # than marketing copy, a form gate or an empty navigation-only page.
+    motor_integration = (DOCS / "custom-engineering/motor-gearbox-integration.md").read_text(encoding="utf-8")
+    family_guide = (DOCS / "applications/planetary-gearbox-application-families.md").read_text(encoding="utf-8")
+    require(motor_integration.index("## Direct Model Files") < motor_integration.index("## Start With"),
+            "Existing-motor page must show direct model files before general copy")
+    require(family_guide.index("## Application Mechanisms") < family_guide.index("## If the Published"),
+            "Mechanism guide must show real model files before the handoff")
+    for size in MODEL_SIZES:
+        token = f"{size}P_Planetary_Gearhead_Datasheet_"
+        require(token in motor_integration, f"Motor matching page missing {size}P datasheet download")
+        require(f"{size}P_2D_Drawing.pdf" in motor_integration,
+                f"Motor matching page missing {size}P 2D drawing")
+        require(f"{size}P_Full_Assembly.step" in motor_integration,
+                f"Motor matching page missing {size}P full STEP")
+    for token in ("[**↓ PDF**]", "[**↓ 2D**]", "[**↓ Full STEP**]"):
+        require(family_guide.count(token) == 6,
+                f"Mechanism guide must contain six exact model files for {token}")
+    html_paths.extend([
+        ("custom-engineering/motor-gearbox-integration/", 36),
+        ("applications/planetary-gearbox-application-families/", 18),
+    ])
+
     links_checked = 0
     for rel, min_download_links in html_paths:
         page_url = BASE + rel
