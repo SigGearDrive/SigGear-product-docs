@@ -198,13 +198,13 @@ def main() -> None:
     selection_body = selection_html.split("<article", 1)[-1]
     if 'class="siggear-joint-downloads"' not in selection_body:
         raise ValueError("Robot joint selection page missing responsive file matrix")
-    selection_table = re.search(r"<table\\b[^>]*>(.*?)</table>", selection_body, re.S | re.I)
+    selection_table = re.search(r"<table\b[^>]*>(.*?)</table>", selection_body, re.S | re.I)
     if not selection_table:
         raise ValueError("Robot joint selection page missing first-screen file table")
     selection_fragment = selection_table.group(0)
-    if len(re.findall(r"<th\\b", selection_fragment, re.I)) != 4:
+    if len(re.findall(r"<th\b", selection_fragment, re.I)) != 4:
         raise ValueError("Robot joint selection table must have four file columns")
-    if len(re.findall(r"<tr\\b", selection_fragment, re.I)) != 7:
+    if len(re.findall(r"<tr\b", selection_fragment, re.I)) != 7:
         raise ValueError("Robot joint selection table must list exactly six released models")
     if selection_body.find('class="siggear-joint-downloads"') > selection_body.find('<h2 id="robot-joint-reducer-specifications-to-compare">'):
         raise ValueError("Joint model download matrix must precede sizing prose")
