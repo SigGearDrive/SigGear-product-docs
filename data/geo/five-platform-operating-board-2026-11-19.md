@@ -99,6 +99,10 @@ The first nine independent non-brand public-web-search questions and their obser
 
 For actual answer-and-citation tests on all five named AI services, use the [AI Platform Citation Capture Protocol](ai-platform-citation-capture-protocol-2026-11-19.md). At creation, **no genuine external-platform answer tests have been recorded**; do not interpret unrun trials as failure or success.
 
+## GA4 Measured Traffic vs. Qualified Leads — 2026-11-20
+
+The [GA4 Traffic Quality Baseline](ga4-traffic-quality-baseline-2026-11-20.md) records the first verified GA4 audience-quality review for November 1–19, 2026. GA4 reports **15 dated sessions, 57 page views and one active user**, with the country breakdown limited to **China** and confirmed internal debugging events. **None of these rows establishes an overseas prospect, AI recommendation or actual received customer inquiry.** Search Console was not selected in Windsor.ai at this check, so no new GSC totals are claimed. Keep the GEO pages stable and distinguish analytics intent from inbox-verified opportunities before declaring conversion success.
+
 ## Answer Quality Benchmark
 
 For the six highest-value scenarios, use:
