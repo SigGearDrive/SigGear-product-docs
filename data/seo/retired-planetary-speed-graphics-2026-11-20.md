@@ -2,7 +2,7 @@
 
 ## Owner decision
 
-Remove product images that might repeat obsolete or misleading **≤8,000 rpm** speed limits. Do **not** use older promotional specification images as evidence of current motor/gearhead input speed or performance. Refer customers to the **currently downloadable SigGear Datasheet PDFs** and appropriate model-specific engineering drawings. The permitted continuous input speed is **motor- and configuration-dependent**; 12P's independently confirmed value remains in its current official Datasheet. Do not introduce a universal input-speed rating.
+Remove product images that might repeat obsolete or misleading **obsolete low-speed ceiling** speed limits. Do **not** use older promotional specification images as evidence of current motor/gearhead input speed or performance. Refer customers to the **currently downloadable SigGear Datasheet PDFs** and appropriate model-specific engineering drawings. The permitted continuous input speed is **motor- and configuration-dependent**; 12P's independently confirmed value remains in its current official Datasheet. Do not introduce a universal input-speed rating.
 
 After completing this cleanup, **freeze the five existing pages rebuilt in PRs #283–#285**. The freeze is operational and can be lifted only on an explicit owner instruction.
 
@@ -18,7 +18,7 @@ The GitHub repository held a consistent older **five-image promotional / screens
 - `-planetary-gearbox-motor-compatibility.webp`
 - `-planetary-gearbox-dimensions.webp`
 
-**35 legacy images were removed from the current repository branch and publication output.** The cleanup removes the *whole older parameter-artwork family* so it cannot be cited again, including some unused graphics. Not every binary was independently transcribed or proven to contain the exact “≤8,000 rpm” phrase. The safer removal scope was chosen because the user explicitly wants the current Datasheet—not these images—to be the speed/specification reference.
+**35 legacy images were removed from the current repository branch and publication output.** The cleanup removes the *whole older parameter-artwork family* so it cannot be cited again, including some unused graphics. Not every binary was independently transcribed or proven to contain the exact “obsolete low-speed ceiling” phrase. The safer removal scope was chosen because the user explicitly wants the current Datasheet—not these images—to be the speed/specification reference.
 
 **Image integrity QA:** additional current 'real-product-evidence' WebP assets for **8P, 10P, 12P, 14P and 20P** were found corrupt or incomplete (RIFF length mismatch; Pillow could not decode). These **five extra unusable files were also removed** rather than altered, fabricated or presented as valid. The existing **16P and 22P** photos successfully decoded in Pillow and remain published. Later 24P–42P assets and separate factory/test evidence remain unchanged. **Total removed image files: 40.**
 
@@ -49,7 +49,7 @@ The authoritative list of five GitHub blob hashes is `data/seo/frozen-legacy-pag
 
 ## Remaining boundary
 
-This operation covers **GitHub Pages / SigGear-product-docs** only. The commercial `siggear.com` site is hosted separately and may still contain legacy ≤8,000 rpm artwork/text; it was not modified by this GitHub cleanup. A separate CMS-side review is required to claim cross-domain removal.
+This operation covers **GitHub Pages / SigGear-product-docs** only. The commercial `siggear.com` site is hosted separately and may still contain legacy obsolete low-speed ceiling artwork/text; it was not modified by this GitHub cleanup. A separate CMS-side review is required to claim cross-domain removal.
 
 ## Acceptance
 
