@@ -38,7 +38,7 @@ PREFIX = urlparse(SITE).path
 IMAGE_EXT = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg", ".avif"}
 BINARY_EXT = IMAGE_EXT - {".svg"}
 MODEL_IDS = (8, 10, 12, 14, 16, 20, 22, 24, 28, 32, 36, 42)
-KNOWN_CORRUPT_SOURCES = {
+RETIRED_CORRUPT_SOURCES = {
     "docs/assets/brand/siggear-logo-white.webp",
     "docs/assets/images/evidence/manufacturing/siggear-manufacturing-quality-evidence.webp",
     "docs/assets/images/evidence/planetary/8-42mm-planetary-gearbox-family-real.webp",
@@ -155,14 +155,103 @@ def repo_audit() -> dict:
         path for path in DOCS.rglob("*")
         if path.is_file() and path.suffix.lower() in IMAGE_EXT
     ]
-    result = {"count": len(assets), "verified": [], "failed": []}
+    result = {"count": len(assets), "verified": [], "failed": [], "retired_file_count": 0}
     for path in sorted(assets):
         rel = path.relative_to(ROOT).as_posix()
+        if rel in RETIRED_CORRUPT_SOURCES:
+            result["retired_file_count"] += 1
+            result["failed"].append({
+                "path": rel,
+                "reason": "Retired corrupt historical asset must not be reintroduced",
+            })
+            continue
         try:
             info = check_bytes(path.read_bytes(), rel)
             result["verified"].append({"path": rel, "info": info})
         except Exception as exc:
             result["failed"].append({"path": rel, "reason": str(exc)})
+    return result
+
+
+MARKDOWN_IMAGE_LINK = re.compile(
+    r"!?\[[^\]\n]*\]\(\s*(?:<(?P<angle>[^>]+)>|(?P<plain>[^\s)]+))"
+)
+HTML_IMAGE_ANCHOR = re.compile(
+    r"<a\b[^>]*\bhref\s*=\s*['\"]([^'\"]+)['\"]", re.I | re.S
+)
+
+
+def source_reference_audit() -> dict:
+    """Inspect published Markdown, HTML and stylesheet image refs before deploy.
+
+    This complements the full binary decoder: a valid image file cannot render
+    when a page or stylesheet points to a missing/incorrect URL.
+    Non-image links, data URIs and remote-host images are not guessed.
+    """
+    sources = [
+        p for p in DOCS.rglob("*")
+        if p.is_file() and p.suffix.lower() in (".md", ".html", ".css")
+    ]
+    result = {
+        "sources_scanned": len(sources),
+        "local_image_references": 0,
+        "missing": [],
+        "external_image_refs": [],
+    }
+    for source in sorted(sources):
+        raw = source.read_text(encoding="utf-8", errors="replace")
+        candidates: list[str] = []
+        if source.suffix.lower() == ".md":
+            for match in MARKDOWN_IMAGE_LINK.finditer(raw):
+                candidates.append(match.group("angle") or match.group("plain"))
+        if source.suffix.lower() in (".md", ".html"):
+            parser = ImageRefs()
+            parser.feed(raw)
+            candidates.extend(ref for _, ref in parser.refs)
+            candidates.extend(HTML_IMAGE_ANCHOR.findall(raw))
+        if source.suffix.lower() in (".md", ".html", ".css"):
+            candidates.extend(STYLE_URL.findall(raw))
+        for candidate in candidates:
+            original = candidate.strip().strip("<>")
+            if not original or original.startswith(("data:", "blob:", "#", "javascript:")):
+                continue
+            parsed = urlparse(original)
+            suffix = Path(unquote(parsed.path)).suffix.lower()
+            if suffix not in IMAGE_EXT:
+                continue
+            if parsed.scheme and parsed.scheme not in ("https", "http"):
+                continue
+            if parsed.netloc and parsed.netloc != HOST:
+                result["external_image_refs"].append({
+                    "source": source.relative_to(ROOT).as_posix(),
+                    "url": original,
+                })
+                continue
+            if parsed.scheme and parsed.netloc == HOST:
+                raw_path = parsed.path
+            else:
+                raw_path = unquote(parsed.path)
+            if raw_path.startswith(PREFIX):
+                target = DOCS / raw_path.removeprefix(PREFIX)
+            elif raw_path.startswith("/assets/"):
+                target = DOCS / raw_path.lstrip("/")
+            elif raw_path.startswith("/"):
+                result["missing"].append({
+                    "source": source.relative_to(ROOT).as_posix(),
+                    "reference": original,
+                    "reason": "absolute image path outside SigGear Pages root",
+                })
+                continue
+            else:
+                target = source.parent / raw_path
+            target = target.resolve()
+            result["local_image_references"] += 1
+            if not target.is_relative_to(DOCS.resolve()) or not target.is_file():
+                result["missing"].append({
+                    "source": source.relative_to(ROOT).as_posix(),
+                    "reference": original,
+                    "reason": "missing image or path outside docs",
+                })
     return result
 
 
@@ -280,20 +369,26 @@ def main() -> None:
     parser.add_argument("--workers", type=int, default=12)
     parser.add_argument("--report", default="site-image-audit-report.json")
     args = parser.parse_args()
-    report: dict = {"site": SITE, "scope": args.mode, "files": {}, "live": {}}
+    report: dict = {"site": SITE, "scope": args.mode, "files": {}, "sources": {}, "live": {}}
     failures = []
     try:
         if args.mode in ("repo", "both"):
             report["files"] = repo_audit()
             local = report["files"]
             print(f"Repository: {len(local['verified'])}/{local['count']} image assets fully decoded")
-            known = [issue for issue in local["failed"] if issue["path"] in KNOWN_CORRUPT_SOURCES]
-            print(f"Known invalid original assets pending owner replacement: {len(known)}")
-            for issue in known:
-                print(f"PENDING AUTHENTIC SOURCE: {issue['path']}")
+            print(f"Retired corrupt image files still present: {local['retired_file_count']}")
             for issue in local["failed"]:
-                if issue["path"] not in KNOWN_CORRUPT_SOURCES:
-                    failures.append(f"NEW CORRUPT FILE {issue['path']}: {issue['reason']}")
+                failures.append(f"INVALID SOURCE IMAGE {issue['path']}: {issue['reason']}")
+            report["sources"] = source_reference_audit()
+            src = report["sources"]
+            print(
+                f"Public source references: {src['sources_scanned']} files scanned, "
+                f"{src['local_image_references']} local image references, "
+                f"{len(src['missing'])} broken, "
+                f"{len(src['external_image_refs'])} external (not verified)"
+            )
+            for issue in src["missing"]:
+                failures.append("BROKEN SOURCE IMAGE REFERENCE " + json.dumps(issue, ensure_ascii=False))
         if args.mode in ("live", "both"):
             report["live"] = live_audit(max(1, min(24, args.workers)))
             live = report["live"]
