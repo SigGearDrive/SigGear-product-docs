@@ -14,12 +14,15 @@ on:
       - "mkdocs.yml"
       - "requirements.txt"
       - "scripts/validate_docs.py"
+      - "scripts/validate_planetary_product_photos.py"
       - "scripts/validate_geo_answer_readiness.py"
+      - "scripts/validate_geo_citation_extractability.py"
       - "scripts/validate_product_data.py"
       - "scripts/validate_22p_product_media.py"
       - "scripts/validate_sales_policy.py"
       - "scripts/validate_site_urls.py"
       - "scripts/validate_legacy_image_and_page_freeze.py"
+      - "scripts/validate_planetary_product_photos.py"
       - "scripts/validate_external_catalog.py"
       - "scripts/export_external_catalog.py"
       - "scripts/export_traceparts_catalog.py"
@@ -161,8 +164,14 @@ jobs:
       - name: Reject retired 8000-rpm-era image files and protect five frozen legacy pages
         run: python scripts/validate_legacy_image_and_page_freeze.py
 
+      - name: Decode and audit 12 planetary product photos and page references
+        run: python scripts/validate_planetary_product_photos.py
+
       - name: Validate GEO answer-readiness on high-value pages
         run: python scripts/validate_geo_answer_readiness.py
+
+      - name: Test citation-ready first-screen answer extraction
+        run: python scripts/validate_geo_citation_extractability.py
 
       - name: Validate product master data
         run: python scripts/validate_product_data.py
