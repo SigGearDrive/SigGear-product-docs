@@ -20,8 +20,6 @@ description: "SigGear 14P (14 mm) micro planetary gearhead/gearbox: ratio 3.75:1
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/14p/datasheet.md) · [Official 2D Drawing PDF](../../assets/downloads/14p/14P_2D_Drawing.pdf) · [Motor-only datasheets](../../engineering-resources/motors/index.md#14-mm-dc-motors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
-![Real SigGear 14P planetary gearhead product photo](../../assets/images/products/planetary-gearboxes/14p/14p-real-product-evidence.webp){ width="260" loading="lazy" }
-
 
 ## Product Identity
 
