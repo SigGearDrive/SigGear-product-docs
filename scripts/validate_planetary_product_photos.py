@@ -22,16 +22,7 @@ DOCS = ROOT / "docs"
 PHOTOS = DOCS / "assets/images/products/planetary-gearboxes"
 PRODUCTS = DOCS / "products/planetary-gearboxes"
 MODELS = (8, 10, 12, 14, 16, 20, 22, 24, 28, 32, 36, 42)
-PENDING_PNG = (8, 10, 12, 14, 20)
-EXPECTED_EXISTING = {
-    16: "16p-real-product-evidence.webp",
-    22: "22p-real-product-evidence.webp",
-    24: "24p-real-product-evidence.webp",
-    28: "28p-real-product-evidence.webp",
-    32: "32p-real-product-main-verified.webp",
-    36: "36p-product-photo-20261014-v2.jpg",
-    42: "42p-real-product-evidence.webp",
-}
+EXPECTED_PNG = {n: f"{n}p-real-product-evidence.png" for n in MODELS}
 MODEL_IMAGE = re.compile(r"/planetary-gearboxes/(\d+)p/[^/?#]+\.(?:webp|png|jpe?g)$", re.I)
 MD_IMAGE = re.compile(r"!\[[^\]]*\]\(([^)\s]+)(?:\s+[^)]*)?\)")
 HTML_IMAGE = re.compile(r"<img\b[^>]*\bsrc\s*=\s*['\"]([^'\"]+)['\"]", re.I)
@@ -94,7 +85,6 @@ def decode_photo(path: Path, expected_size: tuple[int, int] | None = None) -> st
 def main() -> None:
     errors: list[str] = []
     inspected: set[Path] = set()
-    pending: list[str] = []
     summary: list[str] = []
 
     sources = [DOCS / "index.md", PRODUCTS / "8-42mm-planetary-gear-reducer.md"]
@@ -126,34 +116,18 @@ def main() -> None:
         if wrong_model_refs:
             errors.append(f"{n}P page points to another model's photo: {wrong_model_refs}")
 
-        if n in EXPECTED_EXISTING:
-            expected = PHOTOS / f"{n}p" / EXPECTED_EXISTING[n]
-            if expected not in [target for _, _, target in model_refs]:
-                errors.append(f"{n}P product page does not cite {expected.relative_to(ROOT)}")
-            try:
-                result = decode_photo(expected)
-                summary.append(f"{n}P: VERIFIED {result}")
-            except AssertionError as exc:
-                errors.append(str(exc))
-        else:
-            png = PHOTOS / f"{n}p" / f"{n}p-real-product-evidence.png"
-            old_webp = PHOTOS / f"{n}p" / f"{n}p-real-product-evidence.webp"
-            if old_webp.exists():
-                errors.append(f"{n}P corrupted legacy WebP was restored: {old_webp}")
-            if png.exists():
-                try:
-                    result = decode_photo(png, expected_size=(2048, 1365))
-                    if png not in [target for _, _, target in model_refs]:
-                        errors.append(f"{n}P PNG exists but product page does not reference it")
-                    else:
-                        summary.append(f"{n}P: REPLACEMENT VERIFIED {result}")
-                except AssertionError as exc:
-                    errors.append(str(exc))
-            elif model_refs:
-                errors.append(f"{n}P has image references but no approved replacement PNG")
+        png = PHOTOS / f"{n}p" / EXPECTED_PNG[n]
+        old_webp = PHOTOS / f"{n}p" / f"{n}p-real-product-evidence.webp"
+        if n in (8, 10, 12, 14, 20) and old_webp.exists():
+            errors.append(f"{n}P damaged legacy WebP was restored: {old_webp}")
+        try:
+            result = decode_photo(png, expected_size=(2048, 1365))
+            if png not in [target for _, _, target in model_refs]:
+                errors.append(f"{n}P approved PNG not referenced by product page")
             else:
-                pending.append(f"{n}P")
-                summary.append(f"{n}P: PENDING authentic PNG (no broken image published)")
+                summary.append(f"{n}P: VERIFIED {result}")
+        except AssertionError as exc:
+            errors.append(str(exc))
 
     for source in sources[:2]:
         refs = references.get(source, [])
@@ -169,8 +143,7 @@ def main() -> None:
         print(line)
     print(
         f"PASS: {len(inspected)} referenced image binaries decoded; "
-        f"{len(MODELS) - len(pending)}/12 models have photos; "
-        f"pending originals: {', '.join(pending) if pending else 'none'}."
+        "all 12 approved PNG model photos verified."
     )
 
 
