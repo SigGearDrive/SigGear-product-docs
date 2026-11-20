@@ -1,45 +1,43 @@
 ---
 title: SigGear Manufacturing & Quality Evidence | Precision Gearbox Production
-description: Real SigGear production and inspection photographs showing precision machining, gear processing, assembly workstations and quality inspection for compact transmission manufacturing.
+description: Source-backed SigGear manufacturing and quality evidence covering machining, gear production, assembly and inspection; real photo gallery pending verified originals.
 ---
 
 # SigGear Manufacturing & Quality Evidence
 
-This page shows **real SigGear production and inspection scenes** from the company manufacturing environment. The purpose is to give engineers and buyers visible evidence of the manufacturing activities behind SigGear's compact transmission products.
+This page identifies SigGear's published manufacturing and quality capabilities for engineering and supplier evaluation. The earlier four-scene image file failed full pixel-decoding verification and is temporarily withheld pending an authentic original replacement.
 
-The photographs do **not** mean that every 8P–42P planetary gearbox uses the exact same machine, workstation or process route. The applicable process depends on the selected product, component geometry, material, configuration and inspection requirement.
+Company-level manufacturing evidence does **not** mean that every 8P–42P planetary gearbox uses the same machine, workstation or process route. The applicable process depends on the selected product, component geometry, material, configuration and inspection requirement.
 
-![Real SigGear precision machining, gear processing, assembly and quality inspection scenes](../assets/images/evidence/manufacturing/siggear-manufacturing-quality-evidence.webp)
-
-*Real SigGear production and inspection photographs. The four scenes show precision machining, gear-processing equipment, assembly workstations and quality-inspection activity. They are manufacturing-capability evidence, not a claim about the exact production route of every gearbox configuration.*
+**Photo integrity notice (2026-11-20):** The former real factory-photo montage is not displayed because the stored WebP is unreadable. A verified, unaltered original is required before restoring it. The source-backed equipment and company information below remains available for review.
 
 ## Precision Machining
 
-SigGear operates precision-machining activities for transmission components and related mechanical parts. The published photograph shows a real machining workshop and operator working with production equipment.
+SigGear operates precision-machining activities for transmission components and related mechanical parts. Public equipment and company records document machining resources; the earlier workshop photograph is pending replacement.
 
-Exact machine assignment, machining sequence and component process plans are configuration-dependent and are not inferred from the photograph.
+Exact machine assignment, machining sequence and component process plans are configuration-dependent and cannot be inferred from company-level equipment records.
 
 ## Gear Processing
 
-The gear-processing scene shows real production equipment used in SigGear's manufacturing environment.
+Published company equipment sources list gear-processing operations used in SigGear's manufacturing environment.
 
-The image demonstrates physical gear-manufacturing activity. It does not establish a specific gear grade, tolerance, material, heat-treatment route or capability value for an individual product unless that information is confirmed by the applicable drawing, specification or inspection record.
+These company-level sources do not establish a specific gear grade, tolerance, material, heat-treatment route or capability value for an individual product unless confirmed by the applicable drawing, specification or inspection record.
 
 ## Assembly
 
-The assembly scene shows real SigGear workstations used for product assembly activity.
+Assembly activities are documented in the published company scope; the previous assembly scene remains temporarily unavailable.
 
 Assembly details vary by gearbox, motor integration, shaft, flange and project configuration. Product-specific assembly construction and detailed internal geometry remain controlled engineering information where applicable.
 
 ## Quality Inspection
 
-The inspection scene shows real measurement and inspection activity in the SigGear quality environment.
+Company equipment sources list real measurement and inspection capabilities in the SigGear quality environment.
 
-A photograph of an inspection workstation is evidence that inspection activity takes place; it is **not** a substitute for a model-specific inspection report, tolerance, accuracy statement or test result.
+Published equipment information is **not** a substitute for a model-specific inspection report, tolerance, accuracy statement or test result.
 
 ## Official Company Sources
 
-The real factory photographs on this page are supported by separate official company sources that document SigGear's broader manufacturing scope.
+The manufacturing and inspection descriptions on this page are supported by official company sources. The incomplete legacy photo file is not used as visual evidence.
 
 Current public sources include:
 
@@ -55,20 +53,20 @@ For source links, date context and interpretation boundaries:
 
 ## How This Manufacturing Evidence Relates to Custom and Volume Programs
 
-The purpose of publishing these real production scenes is not only to show that SigGear can make standard catalog parts.
+The purpose of publishing manufacturing and inspection evidence is not only to describe standard catalog parts.
 
 For customer-specific programs, the same manufacturing environment supports the practical work required to move from an engineered configuration into repeat production: component manufacturing, gear processing, assembly, inspection and production verification.
 
-The photographs do not quantify production capacity or guarantee a fixed lead time. Actual volume, schedule and delivery plan depend on the exact product, customization scope, materials, tooling, inspection requirements and order plan.
+Company-wide sources do not quantify model-specific production capacity or guarantee a fixed lead time. Actual volume, schedule and delivery plan depend on the exact product, customization scope, materials, tooling, inspection requirements and order plan.
 
 [Custom Manufacturing & Volume Production](../custom-engineering/custom-transmission-manufacturing.md){ .md-button .md-button--primary }
 [Prototype → Volume Production](../custom-engineering/prototype-to-production.md){ .md-button }
 
 ## Evidence Boundary
 
-This page is intentionally limited to what the photographs can support:
+This page is intentionally limited to the company-level manufacturing and inspection activities documented in public sources, rather than an unavailable photo montage:
 
-- real manufacturing and inspection activity at SigGear
+- published manufacturing and inspection capabilities at SigGear
 - precision machining and gear-processing environments
 - assembly workstations
 - quality measurement and inspection activity
