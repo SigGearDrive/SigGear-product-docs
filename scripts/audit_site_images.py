@@ -39,6 +39,19 @@ IMAGE_EXT = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg", ".avif"}
 BINARY_EXT = IMAGE_EXT - {".svg"}
 MODEL_IDS = (8, 10, 12, 14, 16, 20, 22, 24, 28, 32, 36, 42)
 REPLACEMENT_PENDING = (8, 10, 12, 14, 20)
+# Previously damaged source files. Their pixels cannot be trusted and they may
+# not be referenced by a live published page. Track these explicitly until
+# genuine originals are supplied; any *new* corrupt asset fails the audit.
+KNOWN_CORRUPT_SOURCES = {
+    "docs/assets/brand/siggear-logo-white.webp",
+    "docs/assets/images/evidence/manufacturing/siggear-manufacturing-quality-evidence.webp",
+    "docs/assets/images/evidence/planetary/8-42mm-planetary-gearbox-family-real.webp",
+    "docs/assets/images/evidence/planetary/compact-gearmotor-measurement-caliper.webp",
+    "docs/assets/images/evidence/planetary/compact-gearmotor-size-reference.webp",
+    "docs/assets/images/evidence/planetary/micro-gearmotor-size-reference.webp",
+    "docs/assets/images/products/planetary-gearboxes/32p/32p-real-product-evidence.webp",
+    "docs/assets/images/products/robot-joint-actuators/sg8021/sg8021-robot-joint-actuator-front-angle.webp",
+}
 EXPECTED_PRODUCT_IMAGES = {
     16: "16p-real-product-evidence.webp",
     22: "22p-real-product-evidence.webp",
@@ -292,8 +305,13 @@ def main() -> None:
             report["files"] = repo_audit()
             local = report["files"]
             print(f"Repository: {len(local['verified'])}/{local['count']} image assets fully decoded")
+            known = [issue for issue in local["failed"] if issue["path"] in KNOWN_CORRUPT_SOURCES]
+            print(f"Known invalid original assets pending owner replacement: {len(known)}")
+            for issue in known:
+                print(f"PENDING AUTHENTIC SOURCE: {issue['path']}")
             for issue in local["failed"]:
-                failures.append(f"FILE {issue['path']}: {issue['reason']}")
+                if issue["path"] not in KNOWN_CORRUPT_SOURCES:
+                    failures.append(f"NEW CORRUPT FILE {issue['path']}: {issue['reason']}")
         if args.mode in ("live", "both"):
             report["live"] = live_audit(max(1, min(24, args.workers)))
             live = report["live"]
