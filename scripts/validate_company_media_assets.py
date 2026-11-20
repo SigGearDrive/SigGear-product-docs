@@ -68,6 +68,28 @@ def main() -> None:
         if row["path"].removeprefix("docs/") not in html:
             fail(f"Manufacturing evidence page does not use approved source: {row['path']}")
 
+    # Verify the Testing & Validation page uses four labelled, original images.
+    # The former 600 x 360 WebP montage was visually corrupt despite decoding.
+    obsolete = DOCS / "assets/images/evidence/testing/siggear-testing-inspection-equipment-real.webp"
+    if obsolete.exists():
+        fail("Visually corrupt testing/inspection montage was restored")
+    testing_page = (DOCS / "engineering-center/testing-and-validation-evidence.md").read_text(encoding="utf-8")
+    if "siggear-testing-inspection-equipment-real.webp" in testing_page:
+        fail("Testing & Validation page still cites the visually corrupt montage")
+    if testing_page.count('class="siggear-company-evidence-card"') != 4:
+        fail("Testing & Validation page must show four separately captioned real equipment photos")
+    testing_equipment = (
+        "siggear-cmm-inspection-equipment.jpg",
+        "siggear-universal-testing-machine.jpg",
+        "siggear-thermal-shock-chamber.jpg",
+        "siggear-salt-spray-test-chamber.jpg",
+    )
+    for filename in testing_equipment:
+        expected_url = "/SigGear-product-docs/assets/images/evidence/inspection/" + filename
+        if testing_page.count('src="' + expected_url + '"') != 1:
+            fail("Testing evidence must reference the verified source exactly once: " + filename)
+    print("PASS: Testing & Validation four authentic equipment images; distorted montage retired")
+
     product = (DOCS / "products/robot-joint-actuators/sg8021.md").read_text(encoding="utf-8")
     if "product renderings" not in product or "not physical product photographs" not in product:
         fail("SG-8021 render/photo identity boundary absent from product page")

@@ -13,11 +13,20 @@ This page separates three different things that are often mixed together in gear
 
 They are not interchangeable. A photograph of test equipment does not create a product specification, and a measured result from one model must not be transferred to another model.
 
-![Real SigGear testing, metrology and inspection equipment](../assets/images/evidence/testing/siggear-testing-inspection-equipment-real.webp)
+## Original Testing & Inspection Equipment Photos
 
-*Selected real equipment images from SigGear company material. They show dimensional metrology, gear inspection / measurement, environmental test equipment and a transmission test fixture. The image demonstrates physical testing and inspection capability; it is not a model-specific test report.*
+The four images below are **individual, unaltered, owner-supplied equipment photographs** (20 November 2026). Each photograph is displayed at its natural proportions rather than as a low-resolution composite. Equipment availability, test procedures, sample configuration and acceptance criteria remain project-specific.
 
-**Additional original photos (20 November 2026):** [CMM, universal testing machine, thermal-shock chamber and salt-spray equipment](../company/manufacturing-and-quality-evidence.md). These visuals do not substitute for an actual test report.
+<div class="siggear-company-evidence-grid">
+  <figure class="siggear-company-evidence-card"><a href="/SigGear-product-docs/assets/images/evidence/inspection/siggear-cmm-inspection-equipment.jpg" title="Open original Coordinate Measuring Machine (CMM) photograph"><img src="/SigGear-product-docs/assets/images/evidence/inspection/siggear-cmm-inspection-equipment.jpg" alt="SigGear original coordinate measuring machine (CMM) photograph showing the measurement probe" width="600" height="900" loading="lazy" decoding="async"></a><figcaption><strong>Coordinate Measuring Machine (CMM)</strong><span>Real equipment photo · not a model-specific test result</span></figcaption></figure>
+  <figure class="siggear-company-evidence-card"><a href="/SigGear-product-docs/assets/images/evidence/inspection/siggear-universal-testing-machine.jpg" title="Open original Universal Testing Machine photograph"><img src="/SigGear-product-docs/assets/images/evidence/inspection/siggear-universal-testing-machine.jpg" alt="SigGear original universal testing machine equipment photograph" width="800" height="1067" loading="lazy" decoding="async"></a><figcaption><strong>Universal Testing Machine</strong><span>Real equipment photo · not a model-specific test result</span></figcaption></figure>
+  <figure class="siggear-company-evidence-card"><a href="/SigGear-product-docs/assets/images/evidence/inspection/siggear-thermal-shock-chamber.jpg" title="Open original Thermal-Shock Test Chamber photograph"><img src="/SigGear-product-docs/assets/images/evidence/inspection/siggear-thermal-shock-chamber.jpg" alt="SigGear original ESPEC thermal-shock environmental test chamber photograph" width="600" height="900" loading="lazy" decoding="async"></a><figcaption><strong>Thermal-Shock Test Chamber</strong><span>Real equipment photo · not a model-specific test result</span></figcaption></figure>
+  <figure class="siggear-company-evidence-card"><a href="/SigGear-product-docs/assets/images/evidence/inspection/siggear-salt-spray-test-chamber.jpg" title="Open original Salt-Spray Test Chamber photograph"><img src="/SigGear-product-docs/assets/images/evidence/inspection/siggear-salt-spray-test-chamber.jpg" alt="SigGear original salt-spray corrosion test chamber photograph" width="800" height="1067" loading="lazy" decoding="async"></a><figcaption><strong>Salt-Spray Test Chamber</strong><span>Real equipment photo · not a model-specific test result</span></figcaption></figure>
+</div>
+
+**Other manufacturing evidence:** [Full Manufacturing & Quality Equipment Gallery](../company/manufacturing-and-quality-evidence.md).
+
+These four photos do not establish that any particular gearbox passed a durability, temperature, corrosion or dimensional test. For measured product results, use the released test records below.
 
 ## Documented Testing and Inspection Scope
 
