@@ -16,9 +16,9 @@ description: "SigGear 12P (12 mm) micro planetary gearhead/gearbox: ratio 3.5:1�
 
 **Custom 12P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=12P&start=existing_motor&path=gearbox_only) · [Review my drawing / STEP](../../request-cad-sample-quote.md?model=12P&start=drawing_cad) · [Replace / redesign existing gearbox](../../request-cad-sample-quote.md?model=12P&start=failing_gearbox&path=gearbox_only) · [Prototype → volume](../../request-cad-sample-quote.md?model=12P&start=prototype_to_volume)
 
-**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/12p/datasheet.md) · [Mechanical drawing preview](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearbox-dimensions.webp) · [Motor-only datasheets](../../engineering-resources/motors/index.md#12-mm-coreless-bldc-motor) · [All 12 models](8-42mm-planetary-gear-reducer.md)
+**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/12p/datasheet.md) · [Official 2D Drawing PDF](../../assets/downloads/12p/12P_2D_Drawing.pdf) · [Motor-only datasheets](../../engineering-resources/motors/index.md#12-mm-coreless-bldc-motor) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
-![SigGear 12P 12 mm micro planetary gearhead](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearbox-main.webp){ width="260" loading="lazy" }
+![Real SigGear 12P planetary gearhead product photo](../../assets/images/products/planetary-gearboxes/12p/12p-real-product-evidence.webp){ width="260" loading="lazy" }
 
 
 ## Product Identity
@@ -58,7 +58,6 @@ Maximum momentary torque is not a continuous working rating.
 | 3 | 16.85 mm | 42.9 / 49 / 56 / 58.2 / 64 / 66.5 / 76 / 79 / 90.25 / 107.2 | 353.0 mN·m | 706.1 mN·m | 73% |
 | 4 | 19.60 mm | 150.1 / 171.5 / 196 / 203.7 / 224 / 232.7 / 256 / 266 / 276.4 / 304 / 315.9 / 361 / 375.1 / 428.7 / 509.1 | 411.9 mN·m | 823.8 mN·m | 66% |
 
-![12P planetary gearhead structure and published stage-ratio table](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearbox-structure-and-ratios.webp)
 
 ## Shaft and Load Limits
 
@@ -70,27 +69,20 @@ Maximum momentary torque is not a continuous working rating.
 
 The supplied 12P mechanical-detail sheet does not state a radial shaft-play value, so none is inferred from another frame size.
 
-![12P planetary gearhead mechanical details and operating limits](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearbox-mechanical-details.webp)
 
 ## Motor Compatibility
 
-The detailed adapted-motor sheet identifies DC motors with a nominal voltage of **3–36 VDC** and power **below 4 W**. If a motor cannot meet the gearhead installation requirements, motor matching must be negotiated separately.
+For **motor + gearhead matching**, use the downloadable [gearhead Datasheet](../../assets/downloads/12p/12P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) and the [motor Datasheet library](../../engineering-resources/motors/index.md). Motor voltage/power, shaft/pinion, pilot, mounting, input speed and duty-cycle compatibility must be confirmed for the exact combination; older marketing charts are not a technical specification.
 
-The summary artwork expresses the motor-power limit as “≤ 4 W,” while the detailed adapted-motor sheet says “less than 4 W.” This page uses the stricter **below 4 W** condition until the boundary is technically reconciled.
-
-These are adapted-motor conditions, not an electrical voltage or power rating for the mechanical gearhead itself. Confirm the motor shaft, mounting interface, input speed, duty cycle and operating point for the selected gearhead ratio.
-
-![12P gearhead adapted-motor information](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearbox-motor-compatibility.webp)
 
 ## Dimensions and Interface
 
-The published drawing shows a 12 mm body, a 10.00 mm output-shaft extension and stage-dependent gearhead lengths of 11.35, 14.10, 16.85 and 19.60 mm. Use the drawing below for the complete shaft, mounting, input-interface and tolerance notation.
+The published drawing shows a 12 mm body, a 10.00 mm output-shaft extension and stage-dependent gearhead lengths of 11.35, 14.10, 16.85 and 19.60 mm. Download the official **2D Drawing PDF** above for the complete shaft, mounting, input-interface and tolerance notation.
 
-![12P 12 mm planetary gearhead dimensional drawing](../../assets/images/products/planetary-gearboxes/12p/12p-planetary-gearbox-dimensions.webp)
 
 ## STEP Notes
 
-The Full Assembly STEP is the original Creo assembly export for 12P, now available for direct download. The separate Simplified STEP is a 4-stage reference model for preliminary packaging. The dimension preview is not a substitute for the original 2D drawing PDF or its controlled revision.
+The Full Assembly STEP is the original Creo assembly export for 12P, now available for direct download. The separate Simplified STEP is a 4-stage reference model for preliminary packaging. For dimensional verification, use the downloadable **2D Drawing PDF** and confirm its controlled production revision.
 
 [Back to the 8–42 mm product catalogue](8-42mm-planetary-gear-reducer.md)
 
