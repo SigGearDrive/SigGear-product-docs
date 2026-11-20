@@ -220,19 +220,33 @@ def check_planetary_real_image_seo() -> None:
     for model in PLANETARY_MODELS:
         slug = model.lower()
         relative = f"products/planetary-gearboxes/{slug}-planetary-gearbox/index.html"
-        image_url = (
-            EXPECTED_BASE
-            + f"assets/images/products/planetary-gearboxes/{slug}/"
+        missing_replacements = {"8p", "10p", "12p", "14p", "20p"}
+        filename = (
+            f"{slug}-real-product-evidence.png"
+            if slug in missing_replacements
+            else {
+                "32p": "32p-real-product-main-verified.webp",
+                "36p": "36p-product-photo-20261014.jpg",
+            }.get(slug, f"{slug}-real-product-evidence.webp")
+        )
+        image_asset = f"assets/images/products/planetary-gearboxes/{slug}/{filename}"
+        image_url = EXPECTED_BASE + image_asset
+        legacy_bad = (
+            EXPECTED_BASE + f"assets/images/products/planetary-gearboxes/{slug}/"
             + f"{slug}-real-product-evidence.webp"
         )
         path = SITE_DIR / relative
         if not path.is_file():
             fail(f"Real-image SEO model page missing: {relative}")
         html = path.read_text(encoding="utf-8")
-        if slug in {"8p", "10p", "12p", "14p", "20p"}:
+        if slug in missing_replacements and legacy_bad in html:
+            fail(f"Broken legacy WebP still advertised for {slug}")
+        if slug in missing_replacements and not (SITE_DIR / image_asset).is_file():
             if image_url in html:
-                fail(f"Broken or unverified photo still advertised for {slug}")
+                fail(f"Unpublished replacement PNG advertised for {slug}")
             continue
+        if slug in {"32p", "36p"} and legacy_bad in html:
+            fail(f"Old unverified {slug} image advertised instead of approved real photo")
         if f'<meta property="og:image" content="{image_url}">' not in html:
             fail(f"Real product image missing from og:image on {relative}")
         if f'<meta name="twitter:image" content="{image_url}">' not in html:
