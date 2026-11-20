@@ -31,7 +31,7 @@ RETIRED_IMAGE_KINDS = (
 
 
 def git_blob_sha(payload: bytes) -> str:
-    header = b"blob " + str(len(payload)).encode("ascii") + b"\\0"
+    header = b"blob " + str(len(payload)).encode("ascii") + bytes([0])
     return hashlib.sha1(header + payload).hexdigest()
 
 
@@ -83,7 +83,7 @@ def check_retired_image_assets() -> None:
     # Also reject legible old speed ceilings in retained SVGs.
     for svg in (DOCS / "assets/images").rglob("*.svg"):
         text = svg.read_text(encoding="utf-8", errors="replace")
-        assert not re.search(r"8[,]?000\\s*(?:rpm|r/min)", text, re.I), (
+        assert not re.search(r"8[,]?000[ ]*(?:rpm|r/min)", text, re.I), (
             f"Retained SVG mentions obsolete 8000-rpm limitation: {svg}"
         )
 
@@ -98,13 +98,14 @@ def check_data_source_and_photos() -> None:
         ).read_text(encoding="utf-8")
         expected_photo = f"{n}p-real-product-evidence.webp"
         assert expected_photo in page, f"{n}P model page missing real product image"
-        expected_pdf = re.search(
-            rf"\\.\\./\\.\\./assets/downloads/{n}p/"
-            rf"{n}P_Planetary_Gearhead_Datasheet_Rev[^)\\s]+\\.pdf",
-            hub,
+        pdf_prefix = f"../../assets/downloads/{n}p/{n}P_Planetary_Gearhead_Datasheet_"
+        expected_pdf = next(
+            (part.split(")", 1)[0] for part in hub.split("(")
+             if part.startswith(pdf_prefix)),
+            None,
         )
         assert expected_pdf, f"No approved published Datasheet for {n}P"
-        assert expected_pdf.group(0) in page, (
+        assert expected_pdf in page, (
             f"{n}P product page does not link to the current published PDF"
         )
         assert f"{n}P_2D_Drawing.pdf" in page, (
