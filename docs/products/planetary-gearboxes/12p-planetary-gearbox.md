@@ -20,8 +20,6 @@ description: "SigGear 12P (12 mm) micro planetary gearhead/gearbox: ratio 3.5:1�
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/12p/datasheet.md) · [Official 2D Drawing PDF](../../assets/downloads/12p/12P_2D_Drawing.pdf) · [Motor-only datasheets](../../engineering-resources/motors/index.md#12-mm-coreless-bldc-motor) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
-![Real SigGear 12P planetary gearhead product photo](../../assets/images/products/planetary-gearboxes/12p/12p-real-product-evidence.webp){ width="260" loading="lazy" }
-
 
 ## Product Identity
 
