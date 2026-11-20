@@ -18,7 +18,7 @@ description: "SigGear 24P (24 mm) miniature planetary gearhead/gearbox: ratio 3.
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/24p/datasheet.md) · [Mechanical drawing preview](../../engineering-resources/24p/mechanical-interface.md) · [Motor-only datasheets](../../engineering-resources/motors/index.md#24-mm-bldc-motor) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
-![Real SigGear 24P 24 mm miniature planetary gearhead with diameter check](../../assets/images/products/planetary-gearboxes/24p/24p-real-product-evidence.webp){ width="260" loading="lazy" }
+![Authentic SigGear 24P 24 mm planetary gearhead, photographed with digital caliper](../../assets/images/products/planetary-gearboxes/24p/24p-real-product-evidence.png){ width="520" loading="lazy" }
 
 
 ## Product Identity

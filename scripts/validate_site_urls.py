@@ -177,18 +177,18 @@ def check_structured_data() -> None:
 def check_planetary_real_image_seo() -> None:
     representative_image = (
         EXPECTED_BASE
-        + "assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014.jpg"
+        + "assets/images/products/planetary-gearboxes/36p/36p-real-product-evidence.png"
     )
     real_model_images = [
-        "assets/images/products/planetary-gearboxes/16p/16p-real-product-evidence.webp",
-        "assets/images/products/planetary-gearboxes/22p/22p-real-product-evidence.webp",
-        "assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014.jpg",
+        "assets/images/products/planetary-gearboxes/16p/16p-real-product-evidence.png",
+        "assets/images/products/planetary-gearboxes/22p/22p-real-product-evidence.png",
+        "assets/images/products/planetary-gearboxes/36p/36p-real-product-evidence.png",
     ]
     for photo in real_model_images:
         asset = SITE_DIR / photo
         if not asset.is_file():
             fail(f"Representative real product photo missing from output: {photo}")
-        if asset.stat().st_size < 12000:
+        if asset.stat().st_size < 100000:
             fail(f"Representative photo is suspiciously small / overcompressed: {photo}")
     family_targets = [
         ("index.html", None),
@@ -220,15 +220,7 @@ def check_planetary_real_image_seo() -> None:
     for model in PLANETARY_MODELS:
         slug = model.lower()
         relative = f"products/planetary-gearboxes/{slug}-planetary-gearbox/index.html"
-        missing_replacements = {"8p", "10p", "12p", "14p", "20p"}
-        filename = (
-            f"{slug}-real-product-evidence.png"
-            if slug in missing_replacements
-            else {
-                "32p": "32p-real-product-main-verified.webp",
-                "36p": "36p-product-photo-20261014.jpg",
-            }.get(slug, f"{slug}-real-product-evidence.webp")
-        )
+        filename = f"{slug}-real-product-evidence.png"
         image_asset = f"assets/images/products/planetary-gearboxes/{slug}/{filename}"
         image_url = EXPECTED_BASE + image_asset
         legacy_bad = (
@@ -239,14 +231,10 @@ def check_planetary_real_image_seo() -> None:
         if not path.is_file():
             fail(f"Real-image SEO model page missing: {relative}")
         html = path.read_text(encoding="utf-8")
-        if slug in missing_replacements and legacy_bad in html:
+        if legacy_bad in html:
             fail(f"Broken legacy WebP still advertised for {slug}")
-        if slug in missing_replacements and not (SITE_DIR / image_asset).is_file():
-            if image_url in html:
-                fail(f"Unpublished replacement PNG advertised for {slug}")
-            continue
-        if slug in {"32p", "36p"} and legacy_bad in html:
-            fail(f"Old unverified {slug} image advertised instead of approved real photo")
+        if not (SITE_DIR / image_asset).is_file():
+            fail(f"Approved original PNG missing from published build: {image_asset}")
         if f'<meta property="og:image" content="{image_url}">' not in html:
             fail(f"Real product image missing from og:image on {relative}")
         if f'<meta name="twitter:image" content="{image_url}">' not in html:

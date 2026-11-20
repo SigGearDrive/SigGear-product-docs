@@ -163,7 +163,7 @@ def _real_evidence_image(page, config) -> dict | None:
     src = page.file.src_uri.replace("\\", "/")
 
     if src in {"index.md", PLANETARY_SERIES_SRC}:
-        relative = "assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014.jpg"
+        relative = "assets/images/products/planetary-gearboxes/36p/36p-real-product-evidence.png"
         alt = "Real SigGear 36P 36 mm compact planetary gearhead; one example from the 8–42 mm range"
     else:
         data = _product_by_src.get(src)
@@ -173,17 +173,8 @@ def _real_evidence_image(page, config) -> dict | None:
         if not model:
             return None
         slug = model.lower()
-        # Do not advertise the quarantined 8/10/12/14/20P old WebP files.
-        # Their approved replacements must be authentic PNG uploads.
-        # 32P/36P use confirmed real-photo filenames, not a legacy broken
-        # filename guessed solely from the model number.
-        if slug in {"8p", "10p", "12p", "14p", "20p"}:
-            filename = f"{slug}-real-product-evidence.png"
-        else:
-            filename = {
-                "32p": "32p-real-product-main-verified.webp",
-                "36p": "36p-product-photo-20261014.jpg",
-            }.get(slug, f"{slug}-real-product-evidence.webp")
+        # All 12 public model photos use the owner-approved 2048x1365 PNG files.
+        filename = f"{slug}-real-product-evidence.png"
         relative = f"assets/images/products/planetary-gearboxes/{slug}/{filename}"
         alt = f"Real SigGear {model} planetary gearhead product photograph"
 
