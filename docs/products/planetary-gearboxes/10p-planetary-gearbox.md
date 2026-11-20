@@ -20,8 +20,6 @@ description: "SigGear 10P Ø10 mm micro planetary gearhead: ratios 3.5:1–428.7
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/10p/datasheet.md) · [Official 2D Drawing PDF](../../assets/downloads/10p/10P_2D_Drawing.pdf) · [Motor-only datasheets](../../engineering-resources/motors/index.md#10-mm-dc-motors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
-![Real SigGear 10P planetary gearhead product photo](../../assets/images/products/planetary-gearboxes/10p/10p-real-product-evidence.webp){ width="260" loading="lazy" }
-
 
 **Construction:** steel housing and gearwheels · ball bearings · 1–4 stages. Gearhead-only or motor-mated assembly after interface review.
 
