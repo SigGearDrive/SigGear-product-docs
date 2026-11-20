@@ -10,6 +10,8 @@ description: "SigGear 8P (8 mm) micro planetary gearhead/gearbox: ratio 3.8:1–
 [**Download Full Assembly STEP**](../../assets/downloads/8p/8P_Full_Assembly.step){ .md-button }
 [**Download Simplified 4-Stage STEP · Reference**](../../assets/downloads/8p/8P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button }
 
+**Engineering data reference:** Use the current [8P Datasheet PDF](../../assets/downloads/8p/8P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) for published input-speed conditions, ratio/stage, rated load and dimensions. Images here show real products only; if a web summary and the downloadable Datasheet differ, verify the latest controlled revision with SigGear engineering.
+
 | Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
 | --- | --- | --- | --- | --- |
 | **8 mm** | **3.8:1–731.16:1** | **10.15–18.10 mm** | **19.6–39.2 mN·m** | **≤ 1.5°** |
