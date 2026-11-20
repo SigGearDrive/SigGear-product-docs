@@ -24,3 +24,7 @@ This register records **eight source files confirmed undecodable by the reposito
 ## Authentic owner-supplied assets — 20 November 2026
 
 The readable, owner-supplied transparent logo and eight standalone original equipment photographs are registered under **new** filenames in `data/qa/owner-supplied-company-media-2026-11-20.json`. The white-background version is an alpha composite of the same unaltered official wordmark. The original eight corrupt historical WebP files remain deleted. Three renders supplied as `80-21` are held in `data/media-review/80-21/` pending exact-model confirmation and are not called SG-8021 photographs.
+
+## Additional visual defect retirement — Testing & Validation page
+
+The historical `docs/assets/images/evidence/testing/siggear-testing-inspection-equipment-real.webp` was a 600 × 360 WebP montage that **passed basic file decoding but displayed severe mosaic / discoloration in the bottom portion**. It is removed from the published source tree on 20 November 2026. This is a separate visual-quality defect, **not** one of the eight historically undecodable images listed above. The Testing & Validation page now uses four independently verified, owner-supplied original equipment photographs (CMM, universal testing machine, thermal-shock chamber and salt-spray tester). No source photo has been redrawn or used to claim a specific test result.

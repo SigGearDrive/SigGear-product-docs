@@ -41,6 +41,7 @@ MODEL_IDS = (8, 10, 12, 14, 16, 20, 22, 24, 28, 32, 36, 42)
 RETIRED_CORRUPT_SOURCES = {
     "docs/assets/brand/siggear-logo-white.webp",
     "docs/assets/images/evidence/manufacturing/siggear-manufacturing-quality-evidence.webp",
+    "docs/assets/images/evidence/testing/siggear-testing-inspection-equipment-real.webp",
     "docs/assets/images/evidence/planetary/8-42mm-planetary-gearbox-family-real.webp",
     "docs/assets/images/evidence/planetary/compact-gearmotor-measurement-caliper.webp",
     "docs/assets/images/evidence/planetary/compact-gearmotor-size-reference.webp",
