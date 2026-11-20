@@ -180,8 +180,8 @@ def check_planetary_real_image_seo() -> None:
         + "assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014.jpg"
     )
     real_model_images = [
-        "assets/images/products/planetary-gearboxes/10p/10p-planetary-gearbox-main.webp",
-        "assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-main.webp",
+        "assets/images/products/planetary-gearboxes/16p/16p-real-product-evidence.webp",
+        "assets/images/products/planetary-gearboxes/22p/22p-real-product-evidence.webp",
         "assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014.jpg",
     ]
     for photo in real_model_images:
@@ -229,6 +229,10 @@ def check_planetary_real_image_seo() -> None:
         if not path.is_file():
             fail(f"Real-image SEO model page missing: {relative}")
         html = path.read_text(encoding="utf-8")
+        if slug in {"8p", "10p", "12p", "14p", "20p"}:
+            if image_url in html:
+                fail(f"Broken or unverified photo still advertised for {slug}")
+            continue
         if f'<meta property="og:image" content="{image_url}">' not in html:
             fail(f"Real product image missing from og:image on {relative}")
         if f'<meta name="twitter:image" content="{image_url}">' not in html:

@@ -10,15 +10,15 @@ description: "SigGear 8P (8 mm) micro planetary gearhead/gearbox: ratio 3.8:1–
 [**Download Full Assembly STEP**](../../assets/downloads/8p/8P_Full_Assembly.step){ .md-button }
 [**Download Simplified 4-Stage STEP · Reference**](../../assets/downloads/8p/8P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button }
 
+**Engineering data reference:** Use the current [8P Datasheet PDF](../../assets/downloads/8p/8P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) for published input-speed conditions, ratio/stage, rated load and dimensions. Images here show real products only; if a web summary and the downloadable Datasheet differ, verify the latest controlled revision with SigGear engineering.
+
 | Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
 | --- | --- | --- | --- | --- |
 | **8 mm** | **3.8:1–731.16:1** | **10.15–18.10 mm** | **19.6–39.2 mN·m** | **≤ 1.5°** |
 
 **Custom 8P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=8P&start=existing_motor&path=gearbox_only) · [Review my drawing / STEP](../../request-cad-sample-quote.md?model=8P&start=drawing_cad) · [Replace / redesign existing gearbox](../../request-cad-sample-quote.md?model=8P&start=failing_gearbox&path=gearbox_only) · [Prototype → volume](../../request-cad-sample-quote.md?model=8P&start=prototype_to_volume)
 
-**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/8p/datasheet.md) · [Mechanical drawing preview](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-dimensions.webp) · [Motor-only datasheets](../../engineering-resources/motors/index.md#8-mm-dc-micromotors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
-
-![SigGear 8P 8 mm micro planetary gearhead — product photo](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-main.webp){ width="260" loading="lazy" }
+**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/8p/datasheet.md) · [Official 2D Drawing PDF](../../assets/downloads/8p/8P_2D_Drawing.pdf) · [Motor-only datasheets](../../engineering-resources/motors/index.md#8-mm-dc-micromotors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
 
 ## Product Identity
@@ -69,19 +69,17 @@ Maximum momentary torque is not a continuous working rating.
 
 ## Motor Compatibility
 
-The source sheet identifies adapted DC motors with a nominal voltage of **3–36 VDC** and power **below 2.5 W**. If a motor cannot meet the gearhead installation requirements, motor matching must be negotiated separately.
+For **motor + gearhead matching**, use the downloadable [gearhead Datasheet](../../assets/downloads/8p/8P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) and the [motor Datasheet library](../../engineering-resources/motors/index.md). Motor voltage/power, shaft/pinion, pilot, mounting, input speed and duty-cycle compatibility must be confirmed for the exact combination; older marketing charts are not a technical specification.
 
-These are adapted-motor conditions, not an electrical voltage or power rating for the mechanical gearhead itself. Confirm the motor shaft, mounting interface, input speed, duty cycle and operating point for the selected gearhead ratio.
 
 ## Dimensions and Interface
 
-The published drawing shows an 8 mm body, an M8×0.5 external thread, a 5.8 mm output-shaft extension and stage-dependent gearhead lengths of 10.15, 12.80, 15.45 and 18.10 mm. Use the drawing below for the complete dimensional notation and tolerances.
+The published drawing shows an 8 mm body, an M8×0.5 external thread, a 5.8 mm output-shaft extension and stage-dependent gearhead lengths of 10.15, 12.80, 15.45 and 18.10 mm. Download the official **2D Drawing PDF** above for the complete dimensional notation and tolerances.
 
-![8P 8 mm planetary gearhead dimensional drawing](../../assets/images/products/planetary-gearboxes/8p/8p-planetary-gearbox-dimensions.webp)
 
 ## STEP Notes
 
-The Full Assembly STEP is the original Creo assembly export for 8P, now available for direct download. The separate Simplified STEP is a 4-stage reference model for preliminary packaging. The dimension preview is not a substitute for the original 2D drawing PDF or its controlled revision.
+The Full Assembly STEP is the original Creo assembly export for 8P, now available for direct download. The separate Simplified STEP is a 4-stage reference model for preliminary packaging. For dimensional verification, use the downloadable **2D Drawing PDF** and confirm its controlled production revision.
 
 [Back to the 8–42 mm product catalogue](8-42mm-planetary-gear-reducer.md)
 

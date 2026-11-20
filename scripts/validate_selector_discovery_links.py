@@ -92,11 +92,15 @@ def main() -> None:
                     f"{model}: {label} points to {actual.path}, expected {expected_path}"
                 )
 
-        # User-first hierarchy: primary file links must precede the large photo.
+        # User-first hierarchy: direct files come before any product photo.
+        # Some damaged historic WebPs have been removed; a model may have no
+        # picture rather than an unverified/fake replacement. Downloads must
+        # still be present and first in either case.
         source = (
             ROOT / "docs/products/planetary-gearboxes" / f"{slug}-planetary-gearbox.md"
         ).read_text(encoding="utf-8")
-        photo_pos = source.index("![")
+        photo_idx = source.find("![")
+        photo_pos = photo_idx if photo_idx >= 0 else len(source)
         for label in ("Download Datasheet PDF", "Download 2D Drawing PDF",
                       "Download Full Assembly STEP", "Download Simplified 4-Stage STEP · Reference"):
             if source.index(f"[**{label}**]") > photo_pos:

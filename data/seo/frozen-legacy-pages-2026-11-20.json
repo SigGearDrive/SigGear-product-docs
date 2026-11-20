@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "frozen_on": "2026-11-20",
+  "status": "frozen_until_explicit_owner_instruction",
+  "reason": "After removing obsolete planetary speed-spec imagery, preserve the five legacy pages rebuilt in PRs #283, #284 and #285. Subsequent SEO iterations must use other existing pages or measured GSC evidence; edit these five only following a new explicit owner request and a corresponding manifest update.",
+  "pages": [
+    {
+      "path": "docs/custom-engineering/motor-gearbox-integration.md",
+      "git_blob_sha": "cfbc229d1ad239d257e214de08fbeb7f76a7eb43"
+    },
+    {
+      "path": "docs/applications/planetary-gearbox-application-families.md",
+      "git_blob_sha": "0680042456720bdc3938d2a1cbf326a03955dc86"
+    },
+    {
+      "path": "docs/selection-guides/robot-joint-actuator-selection-guide.md",
+      "git_blob_sha": "6b8c22ae1f9a50da08e1d806c151d66daa2fa8ca"
+    },
+    {
+      "path": "docs/engineering-resources/planetary-gearboxes/index.md",
+      "git_blob_sha": "5327ecf1667c2977ce742019e4c95119be99725e"
+    },
+    {
+      "path": "docs/selection-guides/miniature-planetary-gearbox-selection-guide.md",
+      "git_blob_sha": "771cd6ab983674dac2bc3656906844af443a7319"
+    }
+  ],
+  "instructions": "This freeze is operational, not permanent/legal. The validator fails on any change to a listed source while its frozen git_blob_sha remains pinned. Change page content only after explicit SigGear owner instruction and update its expected sha in the manifest within the same approved PR."
+}

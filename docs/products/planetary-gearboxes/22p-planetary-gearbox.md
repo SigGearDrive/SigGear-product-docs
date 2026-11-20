@@ -10,6 +10,8 @@ description: "SigGear 22P (22 mm) miniature planetary gearhead/gearbox: ratio 3.
 [**Download Full Assembly STEP**](../../assets/downloads/22p/22P_Full_Assembly.step){ .md-button }
 [**Download Simplified 4-Stage STEP · Reference**](../../assets/downloads/22p/22P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button }
 
+**Engineering data reference:** Use the current [22P Datasheet PDF](../../assets/downloads/22p/22P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) for published input-speed conditions, ratio/stage, rated load and dimensions. Images here show real products only; if a web summary and the downloadable Datasheet differ, verify the latest controlled revision with SigGear engineering.
+
 | Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
 | --- | --- | --- | --- | --- |
 | **22 mm** | **3.5:1–509.1:1** | **22.6–38.5 mm** | **784.5–2451.7 mN·m** | **≤ 1.5°** |

@@ -22,8 +22,6 @@ published_specifications:
   radial_shaft_play: "≤ 0.04 mm"
   thrust_shaft_play: "≤ 0.2 mm"
   operating_temperature: "−40 to 120 °C"
-  adapted_motor_voltage: "3–36 VDC"
-  adapted_motor_power: "below 10 W"
 sales_usage:
   permitted:
     - preliminary_selection

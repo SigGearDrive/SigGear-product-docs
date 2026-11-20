@@ -173,6 +173,11 @@ def _real_evidence_image(page, config) -> dict | None:
         if not model:
             return None
         slug = model.lower()
+        # Do not advertise damaged/undecodable old product WebP assets as real
+        # model photos or structured-data images. Keep the technical ItemPage
+        # but omit an image until a verified authentic photo is supplied.
+        if slug in {"8p", "10p", "12p", "14p", "20p"}:
+            return None
         relative = (
             f"assets/images/products/planetary-gearboxes/{slug}/"
             f"{slug}-real-product-evidence.webp"

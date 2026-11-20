@@ -58,6 +58,9 @@ jobs:
       - name: Validate documentation structure
         run: python scripts/validate_docs.py
 
+      - name: Reject retired 8000-rpm-era image files and protect five frozen legacy pages
+        run: python scripts/validate_legacy_image_and_page_freeze.py
+
       - name: Validate product master data
         run: python scripts/validate_product_data.py
 
