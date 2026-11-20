@@ -1,19 +1,39 @@
 ---
 title: SigGear Manufacturing & Quality Evidence | Precision Gearbox Production
-description: Source-backed SigGear manufacturing and quality evidence covering machining, gear production, assembly and inspection; real photo gallery pending verified originals.
+description: Original SigGear gear-processing, machining, CMM and environmental-testing equipment photos with source-backed manufacturing evidence.
 ---
 
 # SigGear Manufacturing & Quality Evidence
 
-This page identifies SigGear's published manufacturing and quality capabilities for engineering and supplier evaluation. The earlier four-scene image file failed full pixel-decoding verification and is temporarily withheld pending an authentic original replacement.
+This page identifies SigGear's published manufacturing and quality capabilities for engineering and supplier evaluation. The original equipment photographs shown below were supplied on 20 November 2026 and are preserved without AI redrawing or retouching.
 
 Company-level manufacturing evidence does **not** mean that every 8P–42P planetary gearbox uses the same machine, workstation or process route. The applicable process depends on the selected product, component geometry, material, configuration and inspection requirement.
 
-**Photo integrity notice (2026-11-20):** The former real factory-photo montage is not displayed because the stored WebP is unreadable. A verified, unaltered original is required before restoring it. The source-backed equipment and company information below remains available for review.
+**Photo provenance:** The previous unreadable montage was retired. These eight separately supplied original photos are checked by SHA-256 and complete pixel decoding. They show real equipment, **not** a specific product's inspection result, guaranteed tolerance or manufacturing route.
+
+## Original Manufacturing Equipment Photos
+
+<div class="siggear-company-evidence-grid">
+  <figure class="siggear-company-evidence-card"><a href="/SigGear-product-docs/assets/images/evidence/manufacturing/siggear-cnc-machining-workshop.jpg" title="View original equipment photo"><img src="/SigGear-product-docs/assets/images/evidence/manufacturing/siggear-cnc-machining-workshop.jpg" alt="CNC machines and operator in the actual machining workshop" width="2048" height="1366" loading="lazy" decoding="async"></a><figcaption><strong>CNC machining workshop</strong><span>Source equipment photo · not a model-specific test record</span></figcaption></figure>
+  <figure class="siggear-company-evidence-card"><a href="/SigGear-product-docs/assets/images/evidence/manufacturing/siggear-gear-hobbing-workshop.jpg" title="View original equipment photo"><img src="/SigGear-product-docs/assets/images/evidence/manufacturing/siggear-gear-hobbing-workshop.jpg" alt="Gear-processing machinery in an industrial workshop" width="2048" height="1366" loading="lazy" decoding="async"></a><figcaption><strong>Gear hobbing workshop</strong><span>Source equipment photo · not a model-specific test record</span></figcaption></figure>
+  <figure class="siggear-company-evidence-card"><a href="/SigGear-product-docs/assets/images/evidence/manufacturing/siggear-gear-broaching-machine.jpg" title="View original equipment photo"><img src="/SigGear-product-docs/assets/images/evidence/manufacturing/siggear-gear-broaching-machine.jpg" alt="Gear machining equipment, user-supplied label gear-broaching machine" width="600" height="900" loading="lazy" decoding="async"></a><figcaption><strong>Gear-tooth processing equipment</strong><span>Source equipment photo · not a model-specific test record</span></figcaption></figure>
+  <figure class="siggear-company-evidence-card"><a href="/SigGear-product-docs/assets/images/evidence/manufacturing/siggear-automatic-lathe-workshop.jpg" title="View original equipment photo"><img src="/SigGear-product-docs/assets/images/evidence/manufacturing/siggear-automatic-lathe-workshop.jpg" alt="Rows of automatic lathes in a real machining workshop" width="900" height="600" loading="lazy" decoding="async"></a><figcaption><strong>Automatic lathe machining</strong><span>Source equipment photo · not a model-specific test record</span></figcaption></figure>
+</div>
+
+## Original Metrology & Environmental Test Equipment Photos
+
+<div class="siggear-company-evidence-grid">
+  <figure class="siggear-company-evidence-card"><a href="/SigGear-product-docs/assets/images/evidence/inspection/siggear-cmm-inspection-equipment.jpg" title="View original equipment photo"><img src="/SigGear-product-docs/assets/images/evidence/inspection/siggear-cmm-inspection-equipment.jpg" alt="Real coordinate measuring machine and inspection probe" width="600" height="900" loading="lazy" decoding="async"></a><figcaption><strong>Coordinate measuring machine (CMM)</strong><span>Source equipment photo · not a model-specific test record</span></figcaption></figure>
+  <figure class="siggear-company-evidence-card"><a href="/SigGear-product-docs/assets/images/evidence/inspection/siggear-universal-testing-machine.jpg" title="View original equipment photo"><img src="/SigGear-product-docs/assets/images/evidence/inspection/siggear-universal-testing-machine.jpg" alt="Real mechanical universal testing equipment" width="800" height="1067" loading="lazy" decoding="async"></a><figcaption><strong>Universal testing machine</strong><span>Source equipment photo · not a model-specific test record</span></figcaption></figure>
+  <figure class="siggear-company-evidence-card"><a href="/SigGear-product-docs/assets/images/evidence/inspection/siggear-thermal-shock-chamber.jpg" title="View original equipment photo"><img src="/SigGear-product-docs/assets/images/evidence/inspection/siggear-thermal-shock-chamber.jpg" alt="Real ESPEC environmental thermal shock testing chamber" width="600" height="900" loading="lazy" decoding="async"></a><figcaption><strong>Thermal-shock chamber</strong><span>Source equipment photo · not a model-specific test record</span></figcaption></figure>
+  <figure class="siggear-company-evidence-card"><a href="/SigGear-product-docs/assets/images/evidence/inspection/siggear-salt-spray-test-chamber.jpg" title="View original equipment photo"><img src="/SigGear-product-docs/assets/images/evidence/inspection/siggear-salt-spray-test-chamber.jpg" alt="Real salt spray corrosion testing chamber and controls" width="800" height="1067" loading="lazy" decoding="async"></a><figcaption><strong>Salt-spray test chamber</strong><span>Source equipment photo · not a model-specific test record</span></figcaption></figure>
+</div>
+
+These equipment photographs are company-level references only. Test availability, method, sample configuration and acceptance criteria require project-specific review.
 
 ## Precision Machining
 
-SigGear operates precision-machining activities for transmission components and related mechanical parts. Public equipment and company records document machining resources; the earlier workshop photograph is pending replacement.
+SigGear operates precision-machining activities for transmission components and related mechanical parts. Public equipment and company records document machining resources, with original workshop photographs now displayed above.
 
 Exact machine assignment, machining sequence and component process plans are configuration-dependent and cannot be inferred from company-level equipment records.
 
@@ -25,7 +45,7 @@ These company-level sources do not establish a specific gear grade, tolerance, m
 
 ## Assembly
 
-Assembly activities are documented in the published company scope; the previous assembly scene remains temporarily unavailable.
+Assembly activities are documented in the published company scope. The eight new equipment photographs do not independently show assembly workstations, and no unrelated equipment photo is relabelled as assembly evidence.
 
 Assembly details vary by gearbox, motor integration, shaft, flange and project configuration. Product-specific assembly construction and detailed internal geometry remain controlled engineering information where applicable.
 
@@ -37,7 +57,7 @@ Published equipment information is **not** a substitute for a model-specific ins
 
 ## Official Company Sources
 
-The manufacturing and inspection descriptions on this page are supported by official company sources. The incomplete legacy photo file is not used as visual evidence.
+The manufacturing and inspection descriptions on this page are supported by official company sources. The incomplete legacy photo file is retired, with separately checked source equipment photos shown above.
 
 Current public sources include:
 
@@ -64,11 +84,11 @@ Company-wide sources do not quantify model-specific production capacity or guara
 
 ## Evidence Boundary
 
-This page is intentionally limited to the company-level manufacturing and inspection activities documented in public sources, rather than an unavailable photo montage:
+This page is limited to company-level manufacturing and inspection activities documented in public sources and the original equipment photographs:
 
 - published manufacturing and inspection capabilities at SigGear
 - precision machining and gear-processing environments
-- assembly workstations
+- assembly scope documented in company materials (no new dedicated assembly image claimed)
 - quality measurement and inspection activity
 
 It does **not** convert potential applications into customer cases, and it does not create unpublished torque, backlash, accuracy, lifetime, efficiency or other performance claims.
