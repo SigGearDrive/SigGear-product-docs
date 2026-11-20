@@ -10,6 +10,8 @@ description: "SigGear 12P (12 mm) micro planetary gearhead/gearbox: ratio 3.5:1�
 [**Download Full Assembly STEP**](../../assets/downloads/12p/12P_Full_Assembly.step){ .md-button }
 [**Download Simplified 4-Stage STEP · Reference**](../../assets/downloads/12p/12P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button }
 
+**Engineering data reference:** Use the current [12P Datasheet PDF](../../assets/downloads/12p/12P_Planetary_Gearhead_Datasheet_Rev1.1.pdf) for published input-speed conditions, ratio/stage, rated load and dimensions. Images here show real products only; if a web summary and the downloadable Datasheet differ, verify the latest controlled revision with SigGear engineering.
+
 | Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
 | --- | --- | --- | --- | --- |
 | **12 mm** | **3.5:1–509.1:1** | **11.35–19.60 mm** | **196.1–411.9 mN·m** | **≤ 1.5°** |
