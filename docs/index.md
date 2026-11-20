@@ -67,16 +67,16 @@ The product pages below are useful for engineers who want to evaluate an existin
 
 <div class="siggear-planetary-photo-grid">
   <figure>
-    <a href="/SigGear-product-docs/products/planetary-gearboxes/10p-planetary-gearbox/" aria-label="View 10P 10 mm Micro Planetary Gearhead">
-      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/10p/10p-real-product-evidence.webp" alt="Real SigGear 10P 10 mm Micro Planetary Gearhead" width="1254" height="1254" loading="eager" decoding="async">
+    <a href="/SigGear-product-docs/products/planetary-gearboxes/16p-planetary-gearbox/" aria-label="View 16P 16 mm Micro Planetary Gearhead">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/10p/16p-real-product-evidence.webp" alt="Real SigGear 16P 16 mm Micro Planetary Gearhead" width="900" height="625" loading="eager" decoding="async">
     </a>
-    <figcaption><strong>Micro · 10P (10 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/10p-planetary-gearbox/">View 10P product data</a></figcaption>
+    <figcaption><strong>Micro · 16P (16 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/16p-planetary-gearbox/">View 16P product data</a></figcaption>
   </figure>
   <figure>
-    <a href="/SigGear-product-docs/products/planetary-gearboxes/20p-planetary-gearbox/" aria-label="View 20P 20 mm Miniature Planetary Gearhead">
-      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/20p/20p-real-product-evidence.webp" alt="Real SigGear 20P 20 mm Miniature Planetary Gearhead" width="1254" height="1254" loading="lazy" decoding="async">
+    <a href="/SigGear-product-docs/products/planetary-gearboxes/22p-planetary-gearbox/" aria-label="View 22P 22 mm Miniature Planetary Gearhead">
+      <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/20p/22p-real-product-evidence.webp" alt="Real SigGear 22P 22 mm Miniature Planetary Gearhead" width="900" height="600" loading="lazy" decoding="async">
     </a>
-    <figcaption><strong>Miniature · 20P (20 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/20p-planetary-gearbox/">View 20P product data</a></figcaption>
+    <figcaption><strong>Miniature · 22P (22 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/22p-planetary-gearbox/">View 22P product data</a></figcaption>
   </figure>
   <figure>
     <a href="/SigGear-product-docs/products/planetary-gearboxes/36p-planetary-gearbox/" aria-label="View 36P 36 mm Compact Planetary Gearhead">
