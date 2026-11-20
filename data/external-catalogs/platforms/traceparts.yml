@@ -12,9 +12,10 @@ required_company_asset:
   logo:
     required: true
     requirement: white background, minimum height 40 px
-    repository_status: pending_approved_readable_original
-    repository_path: null
-    action: obtain and validate the official white-background SigGear logo before TraceParts submission
+    repository_status: ready_approved_source_in_this_release
+    repository_path: docs/assets/brand/siggear-official-wordmark-white-background.png
+    transparent_original_path: docs/assets/brand/siggear-official-wordmark-transparent.png
+    action: use the exact approved SigGear official wordmark on white without redrawing or recoloring
 
 product_picture_policy:
   required_for_first_mapping: false

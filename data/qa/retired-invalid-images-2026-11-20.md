@@ -20,3 +20,7 @@ This register records **eight source files confirmed undecodable by the reposito
 3. Once GitHub Pages publishes a source revision, a separate **live-site** scan must inspect canonical pages, image references, HTTP responses and full image decoding. A successful source test is not proof of live deployment.
 4. Do not substitute a fabricated company logo, machine photo, robot actuator perspective or motor/gearmotor measurement image for an unavailable original.
 5. GitHub history preserves the earlier objects for audit; this change removes them from current published assets only.
+
+## Authentic owner-supplied assets — 20 November 2026
+
+The readable, owner-supplied transparent logo and eight standalone original equipment photographs are registered under **new** filenames in `data/qa/owner-supplied-company-media-2026-11-20.json`. The white-background version is an alpha composite of the same unaltered official wordmark. The original eight corrupt historical WebP files remain deleted. Three renders supplied as `80-21` are held in `data/media-review/80-21/` pending exact-model confirmation and are not called SG-8021 photographs.
