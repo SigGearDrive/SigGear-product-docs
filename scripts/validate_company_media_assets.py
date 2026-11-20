@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Verify owner-provided SigGear manufacturing, inspection, branding and 80-21 media.
 
-The 80-21 model identity is not confirmed as SG-8021. These three
-source renders are held outside docs/ until verified by the owner.
+The three 80-21 product-render source files were identified as SG-8021
+by the owner on 2026-11-20. They are released as renders, NOT photography.
 """
 from __future__ import annotations
 
@@ -28,9 +28,9 @@ def main() -> None:
     if len(records) != 13 or len({x["path"] for x in records}) != 13:
         fail("Expected 13 unique original/derived assets")
     photos = [record for record in records if record["status"] == "equipment_photo"]
-    holds = [record for record in records if record["status"] == "identity_hold_render"]
-    if len(photos) != 8 or len(holds) != 3:
-        fail("Expect eight original equipment photos and three held 80-21 renders")
+    published = [record for record in records if record["status"] == "owner_confirmed_sg8021_render"]
+    if len(photos) != 8 or len(published) != 3:
+        fail("Expect eight original equipment photos and three owner-confirmed SG-8021 renders")
 
     for row in records:
         name = row["path"]
@@ -68,15 +68,20 @@ def main() -> None:
         if row["path"].removeprefix("docs/") not in html:
             fail(f"Manufacturing evidence page does not use approved source: {row['path']}")
 
-    for row in holds:
-        if row["path"].startswith("docs/"):
-            fail(f"80-21 render incorrectly published in docs/: {row['path']}")
-    hold_names = [Path(row["path"]).name for row in holds]
-    for md in DOCS.rglob("*.md"):
-        source = md.read_text(encoding="utf-8")
-        for name in hold_names:
-            if name in source:
-                fail(f"Unverified 80-21 reference added to public page: {md}")
+    product = (DOCS / "products/robot-joint-actuators/sg8021.md").read_text(encoding="utf-8")
+    if "product renderings" not in product or "not physical product photographs" not in product:
+        fail("SG-8021 render/photo identity boundary absent from product page")
+    if len(published) != 3:
+        fail("SG-8021 original product views must be front, side and rear")
+    for orientation in ("front", "side", "rear"):
+        files = [row for row in published if f"-{orientation}-render.jpg" in row["path"]]
+        if len(files) != 1 or files[0]["path"] != (
+            f"docs/assets/images/products/robot-joint-actuators/sg8021/"
+            f"sg8021-robot-joint-actuator-{orientation}-render.jpg"
+        ):
+            fail(f"Missing exact confirmed SG-8021 {orientation} media source")
+        if files[0]["path"].removeprefix("docs/") not in product:
+            fail(f"Confirmed SG-8021 {orientation} render not published on product page")
 
     approved_logo = "docs/assets/brand/siggear-official-wordmark-white-background.png"
     for filename in (
@@ -89,7 +94,7 @@ def main() -> None:
     print("PASS: 13/13 media sources decoded and matched original SHA-256")
     print("PASS: 8 authentic workshop/inspection images placed on the evidence page")
     print("PASS: official white-background SigGear logo faithfully matches transparency source")
-    print("PASS: 3 named 80-21 renders held for identity review, not mislabelled as SG-8021")
+    print("PASS: 3 owner-confirmed SG-8021 product renders, correctly labelled not photographs")
 
 
 if __name__ == "__main__":

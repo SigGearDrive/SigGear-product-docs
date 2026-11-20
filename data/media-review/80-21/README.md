@@ -1,5 +1,12 @@
-# 80-21 owner-supplied product render views — model confirmation required
+# Owner confirmed: 80-21 is SG-8021 (20 November 2026)
 
-Three 2048 x 2048 JPEG source files were supplied as `80-21 侧.jpg`, `80-21 正.jpg`, and `80-21 背.jpg` on 20 November 2026. These are product **renders**, not on-site product photographs.
+The owner confirmed that the supplied files labelled `80-21 正.jpg`, `80-21 侧.jpg` and `80-21 背.jpg` **all represent SigGear SG-8021**.
 
-**Do not publish them as SG-8021 images.** The source naming specifies `80-21`, while the current public joint page is `SG-8021`; the model identity and configuration must be confirmed before labelling or linking these images on a product page. Exact source hashes are in `data/qa/owner-supplied-company-media-2026-11-20.json`.
+The original JPEG bytes are unchanged. They are released to the SG-8021 product page as **front / side / rear product renders**, not as physical photographs or manufacturing-controlled drawings. No new configuration or accuracy claim is inferred from visual identity.
+
+Public source paths:
+- `docs/assets/images/products/robot-joint-actuators/sg8021/sg8021-robot-joint-actuator-front-render.jpg`
+- `docs/assets/images/products/robot-joint-actuators/sg8021/sg8021-robot-joint-actuator-side-render.jpg`
+- `docs/assets/images/products/robot-joint-actuators/sg8021/sg8021-robot-joint-actuator-rear-render.jpg`
+
+The previous hold and original upload names remain recorded in `data/qa/owner-supplied-company-media-2026-11-20.json`, including byte-for-byte SHA-256 digests.

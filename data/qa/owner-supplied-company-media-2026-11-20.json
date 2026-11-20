@@ -2,7 +2,7 @@
   "schema_version": 1,
   "checked_on": "2026-11-20",
   "source": "SigGear owner-supplied images uploaded in chat",
-  "terms": "All 12 user-original media files preserve exact byte hashes. White logo is a 100% scale alpha composite of the owner's transparent original on white; no AI redraw. The 80-21 renders require identity confirmation and must not be associated with SG-8021 yet.",
+  "terms": "All 12 user-supplied original images retain their byte-for-byte SHA-256 fingerprints. The white-background logo is a faithful alpha-composite of official artwork, not a redraw. On 2026-11-20, the owner explicitly confirmed that the three source filenames marked 80-21 depict the SG-8021 model; published views are labelled renders, not photographs or controlled dimensional drawings.",
   "items": [
     {
       "path": "docs/assets/brand/siggear-official-wordmark-transparent.png",
@@ -85,28 +85,38 @@
       "status": "equipment_photo"
     },
     {
-      "path": "data/media-review/80-21/80-21-side-reference-render.jpg",
+      "path": "docs/assets/images/products/robot-joint-actuators/sg8021/sg8021-robot-joint-actuator-side-render.jpg",
       "sha256": "77000309e126cba8b338c67aac27d2e458e77e0a15bf6afb9c9f135186988e87",
       "width": 2048,
       "height": 2048,
       "format": "JPEG",
-      "status": "identity_hold_render"
+      "status": "owner_confirmed_sg8021_render",
+      "previous_review_path": "data/media-review/80-21/80-21-side-reference-render.jpg"
     },
     {
-      "path": "data/media-review/80-21/80-21-front-reference-render.jpg",
+      "path": "docs/assets/images/products/robot-joint-actuators/sg8021/sg8021-robot-joint-actuator-front-render.jpg",
       "sha256": "ebcadaec80389816e2366d00de798dafb219f072c8e90e656a78868ee9a18437",
       "width": 2048,
       "height": 2048,
       "format": "JPEG",
-      "status": "identity_hold_render"
+      "status": "owner_confirmed_sg8021_render",
+      "previous_review_path": "data/media-review/80-21/80-21-front-reference-render.jpg"
     },
     {
-      "path": "data/media-review/80-21/80-21-rear-reference-render.jpg",
+      "path": "docs/assets/images/products/robot-joint-actuators/sg8021/sg8021-robot-joint-actuator-rear-render.jpg",
       "sha256": "6c264a4ed7f50418c0215d4d7222ac4c8d745583e133ec7e46ab3598194a5d5c",
       "width": 2048,
       "height": 2048,
       "format": "JPEG",
-      "status": "identity_hold_render"
+      "status": "owner_confirmed_sg8021_render",
+      "previous_review_path": "data/media-review/80-21/80-21-rear-reference-render.jpg"
     }
-  ]
+  ],
+  "owner_product_identity_confirmation": {
+    "date": "2026-11-20",
+    "source_files": "80-21 正.jpg / 80-21 侧.jpg / 80-21 背.jpg",
+    "confirmed_product": "SG-8021",
+    "evidence": "Explicit owner statement in same conversation",
+    "boundary": "Model visual identity only; no additional configuration, specifications or revision approval inferred."
+  }
 }

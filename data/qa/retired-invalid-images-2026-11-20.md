@@ -11,7 +11,7 @@ This register records **eight source files confirmed undecodable by the reposito
 | `docs/assets/images/evidence/planetary/compact-gearmotor-size-reference.webp` | Retired. The old YouTube production pack now refers to genuine published lineup imagery rather than this invalid source. |
 | `docs/assets/images/evidence/planetary/micro-gearmotor-size-reference.webp` | Retired. The frozen motor-integration page already withholds the photo; historical exception register is retained as a trace, not an active asset. |
 | `docs/assets/images/products/planetary-gearboxes/32p/32p-real-product-evidence.webp` | Retired. Real approved model image is `docs/assets/images/products/planetary-gearboxes/32p/32p-real-product-evidence.png`. |
-| `docs/assets/images/products/robot-joint-actuators/sg8021/sg8021-robot-joint-actuator-front-angle.webp` | Retired. The SG-8021 page retains its independently decoded *exploded-view* illustration; **do not** mislabel it as a front-angle photograph. A true front-angle original may be supplied later. |
+| `docs/assets/images/products/robot-joint-actuators/sg8021/sg8021-robot-joint-actuator-front-angle.webp` | Retired. The SG-8021 page retains its independently decoded *exploded-view* illustration; **do not** mislabel it as a front-angle photograph. Three later owner-confirmed SG-8021 front/side/rear source *renders* are now staged for publication under new JPG filenames; these do not reintroduce the retired corrupt WebP. |
 
 ## Rules
 
