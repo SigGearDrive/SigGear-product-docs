@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-20",
+  "source": "SigGear owner-supplied images uploaded in chat",
+  "terms": "All 12 user-original media files preserve exact byte hashes. White logo is a 100% scale alpha composite of the owner's transparent original on white; no AI redraw. The 80-21 renders require identity confirmation and must not be associated with SG-8021 yet.",
+  "items": [
+    {
+      "path": "docs/assets/brand/siggear-official-wordmark-transparent.png",
+      "sha256": "885a2cec5c790493aaf46ba6ff5242346f8e9e32ddf7e9a17ece2275275c887c",
+      "width": 1000,
+      "height": 322,
+      "format": "PNG",
+      "status": "official_original"
+    },
+    {
+      "path": "docs/assets/brand/siggear-official-wordmark-white-background.png",
+      "sha256": "ccb53e6a3a47bc28c38f31777630d6a815ef3a73ebd7ec10defab399e5cad733",
+      "width": 1000,
+      "height": 322,
+      "format": "PNG",
+      "status": "white_background_derivative"
+    },
+    {
+      "path": "docs/assets/images/evidence/inspection/siggear-cmm-inspection-equipment.jpg",
+      "sha256": "5c4198baccf813b0ade9f7064a43386d68df56661c195ec8e9ce152f30acf85b",
+      "width": 600,
+      "height": 900,
+      "format": "JPEG",
+      "status": "equipment_photo"
+    },
+    {
+      "path": "docs/assets/images/evidence/manufacturing/siggear-cnc-machining-workshop.jpg",
+      "sha256": "70d24c0fc44296b40123f788604c80faf33f1045e0179be7757d8d1910ac90a8",
+      "width": 2048,
+      "height": 1366,
+      "format": "JPEG",
+      "status": "equipment_photo"
+    },
+    {
+      "path": "docs/assets/images/evidence/inspection/siggear-salt-spray-test-chamber.jpg",
+      "sha256": "8a85173ee3a8eeb0ff142cb5d596dd0651ce70bb94ef28262645bd32d4f8f250",
+      "width": 800,
+      "height": 1067,
+      "format": "JPEG",
+      "status": "equipment_photo"
+    },
+    {
+      "path": "docs/assets/images/evidence/inspection/siggear-universal-testing-machine.jpg",
+      "sha256": "410beffb4f28dfd50470e3f856acce227a32477bcb591b7245134a6c2fa19cec",
+      "width": 800,
+      "height": 1067,
+      "format": "JPEG",
+      "status": "equipment_photo"
+    },
+    {
+      "path": "docs/assets/images/evidence/inspection/siggear-thermal-shock-chamber.jpg",
+      "sha256": "a40378ea48d035f10f231e1d046c25b0d340e3b62e0a38bc726e84d17d3e7024",
+      "width": 600,
+      "height": 900,
+      "format": "JPEG",
+      "status": "equipment_photo"
+    },
+    {
+      "path": "docs/assets/images/evidence/manufacturing/siggear-gear-hobbing-workshop.jpg",
+      "sha256": "080063815dca809f636b98708dae3af1bd31e9b39000860246d777695963cb4b",
+      "width": 2048,
+      "height": 1366,
+      "format": "JPEG",
+      "status": "equipment_photo"
+    },
+    {
+      "path": "docs/assets/images/evidence/manufacturing/siggear-gear-broaching-machine.jpg",
+      "sha256": "019689c6c09f982c0dedd99c5b2d40597c1a01f5812586b77e15d10e146377d7",
+      "width": 600,
+      "height": 900,
+      "format": "JPEG",
+      "status": "equipment_photo"
+    },
+    {
+      "path": "docs/assets/images/evidence/manufacturing/siggear-automatic-lathe-workshop.jpg",
+      "sha256": "49b1690ee23cb02411091325c91e3b63293c9f2de451dd10bef2abf2df33c518",
+      "width": 900,
+      "height": 600,
+      "format": "JPEG",
+      "status": "equipment_photo"
+    },
+    {
+      "path": "data/media-review/80-21/80-21-side-reference-render.jpg",
+      "sha256": "77000309e126cba8b338c67aac27d2e458e77e0a15bf6afb9c9f135186988e87",
+      "width": 2048,
+      "height": 2048,
+      "format": "JPEG",
+      "status": "identity_hold_render"
+    },
+    {
+      "path": "data/media-review/80-21/80-21-front-reference-render.jpg",
+      "sha256": "ebcadaec80389816e2366d00de798dafb219f072c8e90e656a78868ee9a18437",
+      "width": 2048,
+      "height": 2048,
+      "format": "JPEG",
+      "status": "identity_hold_render"
+    },
+    {
+      "path": "data/media-review/80-21/80-21-rear-reference-render.jpg",
+      "sha256": "6c264a4ed7f50418c0215d4d7222ac4c8d745583e133ec7e46ab3598194a5d5c",
+      "width": 2048,
+      "height": 2048,
+      "format": "JPEG",
+      "status": "identity_hold_render"
+    }
+  ]
+}
