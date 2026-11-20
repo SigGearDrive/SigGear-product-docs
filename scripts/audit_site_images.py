@@ -38,10 +38,6 @@ PREFIX = urlparse(SITE).path
 IMAGE_EXT = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg", ".avif"}
 BINARY_EXT = IMAGE_EXT - {".svg"}
 MODEL_IDS = (8, 10, 12, 14, 16, 20, 22, 24, 28, 32, 36, 42)
-REPLACEMENT_PENDING = (8, 10, 12, 14, 20)
-# Previously damaged source files. Their pixels cannot be trusted and they may
-# not be referenced by a live published page. Track these explicitly until
-# genuine originals are supplied; any *new* corrupt asset fails the audit.
 KNOWN_CORRUPT_SOURCES = {
     "docs/assets/brand/siggear-logo-white.webp",
     "docs/assets/images/evidence/manufacturing/siggear-manufacturing-quality-evidence.webp",
@@ -52,15 +48,7 @@ KNOWN_CORRUPT_SOURCES = {
     "docs/assets/images/products/planetary-gearboxes/32p/32p-real-product-evidence.webp",
     "docs/assets/images/products/robot-joint-actuators/sg8021/sg8021-robot-joint-actuator-front-angle.webp",
 }
-EXPECTED_PRODUCT_IMAGES = {
-    16: "16p-real-product-evidence.webp",
-    22: "22p-real-product-evidence.webp",
-    24: "24p-real-product-evidence.webp",
-    28: "28p-real-product-evidence.webp",
-    32: "32p-real-product-main-verified.webp",
-    36: "36p-product-photo-20261014-v2.jpg",
-    42: "42p-real-product-evidence.webp",
-}
+EXPECTED_PRODUCT_IMAGES = {n: f"{n}p-real-product-evidence.png" for n in MODEL_IDS}
 USER_AGENT = "SigGear-Public-Image-Audit/2026-11-20"
 STYLE_URL = re.compile(r"url\(\s*['\"]?([^)'\"\s]+)", re.I)
 
@@ -268,24 +256,18 @@ def live_audit(workers: int) -> dict:
         for n in MODEL_IDS
     }
     for n, page in model_pages.items():
-        if n in REPLACEMENT_PENDING:
-            expected = urljoin(SITE,
-                f"assets/images/products/planetary-gearboxes/{n}p/{n}p-real-product-evidence.png")
-            if page in references.get(expected, set()):
-                result["models_with_live_image"].append(n)
-            else:
-                result["models_pending_original_png"].append(n)
+        filename = EXPECTED_PRODUCT_IMAGES[n]
+        expected = urljoin(
+            SITE, f"assets/images/products/planetary-gearboxes/{n}p/{filename}"
+        )
+        if page in references.get(expected, set()):
+            result["models_with_live_image"].append(n)
         else:
-            filename = EXPECTED_PRODUCT_IMAGES[n]
-            expected = urljoin(SITE, f"assets/images/products/planetary-gearboxes/{n}p/{filename}")
-            if page in references.get(expected, set()):
-                result["models_with_live_image"].append(n)
-            else:
-                result["image_failed"].append({
-                    "page": page,
-                    "image": expected,
-                    "reason": f"{n}P product page lacks its verified product photo"
-                })
+            result["image_failed"].append({
+                "page": page,
+                "image": expected,
+                "reason": f"{n}P product page lacks approved high-resolution PNG",
+            })
     result["image_verified"].sort(key=lambda x: x["image"])
     result["image_failed"].sort(key=lambda x: (x.get("image", ""), x.get("page", "")))
     result["page_failures"].sort(key=lambda x: x["page"])
@@ -319,7 +301,7 @@ def main() -> None:
                   f"{len(live['image_verified'])}/{live['image_count']} referenced images "
                   "returned HTTP 200 and fully decoded")
             print(f"12 models with actual image refs: {live['models_with_live_image']}")
-            print(f"Product images waiting for genuine PNG: {live['models_pending_original_png']}")
+            print(f"Product images waiting for genuine PNG: {live.get('models_pending_original_png', [])}")
             print(f"External image refs not validated here: {len(live['external_image_refs'])}")
             for issue in live["page_failures"]:
                 failures.append(f"PAGE {issue['page']}: {issue['reason']}")
