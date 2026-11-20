@@ -16,9 +16,9 @@ description: "SigGear 20P Ø20 mm miniature planetary gearhead/gearbox: ratios 4
 
 **Custom 20P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=20P&start=existing_motor&path=gearbox_only) · [Review my drawing / STEP](../../request-cad-sample-quote.md?model=20P&start=drawing_cad) · [Replace / redesign existing gearbox](../../request-cad-sample-quote.md?model=20P&start=failing_gearbox&path=gearbox_only) · [Prototype → volume](../../request-cad-sample-quote.md?model=20P&start=prototype_to_volume)
 
-**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/20p/datasheet.md) · [Mechanical drawing preview](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-dimensions.webp) · [Motor-only datasheets](../../engineering-resources/motors/index.md#20-mm-bldc-motor) · [Compare Miniature 20–32 mm](miniature-planetary-gearheads-20-32mm.md) · [All 12 models](8-42mm-planetary-gear-reducer.md)
+**More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/20p/datasheet.md) · [Official 2D Drawing PDF](../../assets/downloads/20p/20P_2D_Drawing.pdf) · [Motor-only datasheets](../../engineering-resources/motors/index.md#20-mm-bldc-motor) · [Compare Miniature 20–32 mm](miniature-planetary-gearheads-20-32mm.md) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
-![SigGear 20P 20 mm miniature planetary gearhead](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-main.webp){ width="260" loading="lazy" }
+![Real SigGear 20P planetary gearhead product photo](../../assets/images/products/planetary-gearboxes/20p/20p-real-product-evidence.webp){ width="260" loading="lazy" }
 
 
 ## Product Identity
@@ -58,7 +58,6 @@ Maximum momentary torque is not a continuous working rating.
 | 3 | 29.7 mm | 64 / 76 / 90.2 / 96 / 107.2 / 114 / 135.4 / 144 / 171 / 216 | 980.7 mN·m | 1961.3 mN·m | 73% |
 | 4 | 34.5 mm | 256 / 304 / 361 / 384 / 428.7 / 456 / 509.1 / 541.5 / 576 / 643 / 684 / 812.2 / 864 / 1026 / 1296 | 1274.9 mN·m | 2549.7 mN·m | 66% |
 
-![20P planetary gearhead structure and published stage-ratio table](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-structure-and-ratios.webp)
 
 ## Shaft and Load Limits
 
@@ -69,21 +68,16 @@ Maximum momentary torque is not a continuous working rating.
 | Radial shaft play | ≤ 0.04 mm |
 | Thrust shaft play | ≤ 0.2 mm |
 
-![20P planetary gearhead mechanical details and operating limits](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-mechanical-details.webp)
 
 ## Motor Compatibility
 
-The adapted-motor sheet identifies DC motors with a nominal voltage of **3–36 VDC** and power **below 20 W**. If a motor cannot meet the gearhead installation requirements, motor matching must be negotiated separately.
+For **motor + gearhead matching**, use the downloadable [gearhead Datasheet](../../assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) and the [motor Datasheet library](../../engineering-resources/motors/index.md). Motor voltage/power, shaft/pinion, pilot, mounting, input speed and duty-cycle compatibility must be confirmed for the exact combination; older marketing charts are not a technical specification.
 
-These are adapted-motor conditions, not an electrical voltage or power rating for the mechanical gearhead itself. Confirm the motor shaft, mounting interface, input speed, duty cycle and operating point for the selected gearhead ratio.
-
-![20P gearhead adapted-motor information](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-motor-compatibility.webp)
 
 ## Dimensions and Interface
 
-The published drawing shows a 20 mm body, a 12 mm output-shaft extension and stage-dependent gearhead lengths of 20.1, 24.9, 29.7 and 34.5 mm. Use the drawing below for the complete shaft, mounting, input-interface and tolerance notation.
+The published drawing shows a 20 mm body, a 12 mm output-shaft extension and stage-dependent gearhead lengths of 20.1, 24.9, 29.7 and 34.5 mm. Download the official **2D Drawing PDF** above for the complete shaft, mounting, input-interface and tolerance notation.
 
-![20P 20 mm planetary gearhead dimensional drawing](../../assets/images/products/planetary-gearboxes/20p/20p-planetary-gearbox-dimensions.webp)
 
 ## STEP Notes
 
