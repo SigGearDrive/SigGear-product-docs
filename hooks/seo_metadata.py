@@ -173,7 +173,9 @@ def _real_evidence_image(page, config) -> dict | None:
         if not model:
             return None
         slug = model.lower()
-        # All 12 public model photos use the owner-approved 2048x1365 PNG files.\n        filename = f"{slug}-real-product-evidence.png"\n        relative = f"assets/images/products/planetary-gearboxes/{slug}/{filename}"
+        # All 12 public model photos use the owner-approved 2048x1365 PNG files.
+        filename = f"{slug}-real-product-evidence.png"
+        relative = f"assets/images/products/planetary-gearboxes/{slug}/{filename}"
         alt = f"Real SigGear {model} planetary gearhead product photograph"
 
     if not (DOCS_DIR / relative).is_file():
