@@ -99,5 +99,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+      - name: Stamp source commit for downstream live-image verification
+        run: printf '%s\n' "$GITHUB_SHA" > docs/assets/deployment-commit.txt
+
       - name: Deploy to gh-pages branch
         run: mkdocs gh-deploy --force --clean --remote-branch gh-pages
