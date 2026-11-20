@@ -18,7 +18,7 @@ description: "SigGear 32P Ø32 mm miniature planetary gearhead: ratios 3.5:1–5
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/32p/datasheet.md) · [Mechanical drawing preview](../../engineering-resources/32p/mechanical-interface.md) · [Motor-only datasheets](../../engineering-resources/motors/index.md#32-mm-dc-motors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
-![SigGear 32P 32 mm miniature planetary gearhead — actual product photo](../../assets/images/products/planetary-gearboxes/32p/32p-real-product-main-verified.webp){ width="260" loading="lazy" }
+![Authentic SigGear 32P 32 mm planetary gearhead, photographed with digital caliper](../../assets/images/products/planetary-gearboxes/32p/32p-real-product-evidence.png){ width="520" loading="lazy" }
 
 
 ## Product Identity

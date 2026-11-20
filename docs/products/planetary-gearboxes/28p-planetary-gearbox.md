@@ -18,7 +18,7 @@ description: "SigGear 28P (28 mm) miniature planetary gearhead/gearbox: ratio 3.
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/28p/datasheet.md) · [Mechanical drawing preview](../../engineering-resources/28p/mechanical-interface.md) · [Motor-only datasheets](../../engineering-resources/motors/index.md#28-mm-dc-motors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
-![Real SigGear 28P 28 mm miniature planetary gearhead with diameter check](../../assets/images/products/planetary-gearboxes/28p/28p-real-product-evidence.webp){ width="260" loading="lazy" }
+![Authentic SigGear 28P 28 mm planetary gearhead, photographed with digital caliper](../../assets/images/products/planetary-gearboxes/28p/28p-real-product-evidence.png){ width="520" loading="lazy" }
 
 
 ## Product Identity

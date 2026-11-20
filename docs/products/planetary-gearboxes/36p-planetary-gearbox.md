@@ -18,7 +18,7 @@ description: "SigGear 36P (36 mm) compact planetary gearhead/gearbox: ratio 3.66
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/36p/datasheet.md) · [Mechanical drawing preview](../../engineering-resources/36p/mechanical-interface.md) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
-![Actual SigGear 36P 36 mm compact planetary gearhead with complete bottom rim and output shaft](../../assets/images/products/planetary-gearboxes/36p/36p-product-photo-20261014-v2.jpg){ width="260" loading="lazy" }
+![Authentic SigGear 36P 36 mm planetary gearhead, photographed with digital caliper](../../assets/images/products/planetary-gearboxes/36p/36p-real-product-evidence.png){ width="520" loading="lazy" }
 
 
 ## Product Identity

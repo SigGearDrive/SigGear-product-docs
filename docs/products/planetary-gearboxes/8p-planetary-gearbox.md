@@ -20,6 +20,8 @@ description: "SigGear 8P (8 mm) micro planetary gearhead/gearbox: ratio 3.8:1–
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/8p/datasheet.md) · [Official 2D Drawing PDF](../../assets/downloads/8p/8P_2D_Drawing.pdf) · [Motor-only datasheets](../../engineering-resources/motors/index.md#8-mm-dc-micromotors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
+![Authentic SigGear 8P 8 mm planetary gearhead, photographed with digital caliper](../../assets/images/products/planetary-gearboxes/8p/8p-real-product-evidence.png){ width="520" loading="lazy" }
+
 
 ## Product Identity
 

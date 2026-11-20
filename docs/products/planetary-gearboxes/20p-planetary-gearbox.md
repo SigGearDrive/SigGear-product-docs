@@ -20,6 +20,8 @@ description: "SigGear 20P Ø20 mm miniature planetary gearhead/gearbox: ratios 4
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/20p/datasheet.md) · [Official 2D Drawing PDF](../../assets/downloads/20p/20P_2D_Drawing.pdf) · [Motor-only datasheets](../../engineering-resources/motors/index.md#20-mm-bldc-motor) · [Compare Miniature 20–32 mm](miniature-planetary-gearheads-20-32mm.md) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
+![Authentic SigGear 20P 20 mm planetary gearhead, photographed with digital caliper](../../assets/images/products/planetary-gearboxes/20p/20p-real-product-evidence.png){ width="520" loading="lazy" }
+
 
 ## Product Identity
 

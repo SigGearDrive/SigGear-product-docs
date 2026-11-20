@@ -23,7 +23,7 @@ def main() -> None:
     assert "title: 22 mm Miniature Precision Planetary Gearhead (22P)" in src
     assert "# 22 mm Miniature Precision Planetary Gearhead (22P)" in src
     assert "planetary gearbox" in src.lower(), "Keep gearbox as a technical synonym for searches and legacy links"
-    assert "22p-real-product-evidence.webp" in src, "Authentic sample photos must remain"
+    assert "22p-real-product-evidence.png" in src, "Authentic sample photos must remain"
     assert "22P Mechanical Interface](../../engineering-resources/22p/mechanical-interface.md)" in src
     assert "Motor/configuration dependent; confirm selected operating point" in src
     assert "max_diameter=22#preliminary-ratio-stage-finder" not in src, "The product page should no longer surface the selector"

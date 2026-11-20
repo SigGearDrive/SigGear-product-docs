@@ -18,7 +18,7 @@ description: "SigGear 42P Ø42 mm compact planetary gearhead: ratios 3.8:1–660
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/42p/datasheet.md) · [Mechanical drawing preview](../../engineering-resources/42p/mechanical-interface.md) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 
-![Real SigGear 42P 42 mm compact planetary gearhead with diameter check](../../assets/images/products/planetary-gearboxes/42p/42p-real-product-evidence.webp){ width="260" loading="lazy" }
+![Authentic SigGear 42P 42 mm planetary gearhead, photographed with digital caliper](../../assets/images/products/planetary-gearboxes/42p/42p-real-product-evidence.png){ width="520" loading="lazy" }
 
 
 ## Product Identity
