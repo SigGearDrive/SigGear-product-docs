@@ -1,379 +1,98 @@
 ---
 title: Planetary Gearbox for Existing Motor | Motor + Gearbox Matching | SigGear
-description: Match an 8–42 mm planetary gearbox to an existing BLDC, brushed DC, stepper or servo motor, or review a complete motor + gearbox assembly by shaft, mounting, speed, ratio, load and package size.
+description: Match a SigGear 8–42 mm planetary gearbox to an existing BLDC, DC, stepper or servo motor. Direct 12-model Datasheet PDF, 2D and full STEP downloads, motor files and an OEM review path.
 ---
 
 # Planetary Gearbox for an Existing Motor or Complete Motor + Gearbox
 
+**Already have a motor?** SigGear can review its shaft, pilot, mounting, loaded speed and target output against published 8–42 mm planetary gearbox platforms, then evaluate a suitable standard or custom mechanical interface. **A diameter match alone does not confirm compatibility.**
+
+[**Download all 12 Gearbox Datasheets / 2D / STEP**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
+[**Motor Datasheet PDFs**](../engineering-resources/motors/index.md){ .md-button }
+[**Request Existing-Motor Review**](../request-cad-sample-quote.md?start=existing_motor&path=gearbox_only){ .md-button }
+
+## Direct Model Files — Datasheet PDF / 2D / Full STEP
+
+No registration or inquiry is required to open the public engineering files. Compare your available diameter and mounting envelope first; confirm the actual ratio and stage in each model datasheet.
+
+| Gearbox model | Datasheet PDF | 2D outline drawing | Original full assembly STEP |
+| --- | --- | --- | --- |
+| [8P · Ø8 mm](../products/planetary-gearboxes/8p-planetary-gearbox.md) | [**PDF Datasheet**](../assets/downloads/8p/8P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**2D Drawing**](../assets/downloads/8p/8P_2D_Drawing.pdf) | [**Full Assembly STEP**](../assets/downloads/8p/8P_Full_Assembly.step) |
+| [10P · Ø10 mm](../products/planetary-gearboxes/10p-planetary-gearbox.md) | [**PDF Datasheet**](../assets/downloads/10p/10P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**2D Drawing**](../assets/downloads/10p/10P_2D_Drawing.pdf) | [**Full Assembly STEP**](../assets/downloads/10p/10P_Full_Assembly.step) |
+| [12P · Ø12 mm](../products/planetary-gearboxes/12p-planetary-gearbox.md) | [**PDF Datasheet**](../assets/downloads/12p/12P_Planetary_Gearhead_Datasheet_Rev1.1.pdf) | [**2D Drawing**](../assets/downloads/12p/12P_2D_Drawing.pdf) | [**Full Assembly STEP**](../assets/downloads/12p/12P_Full_Assembly.step) |
+| [14P · Ø14 mm](../products/planetary-gearboxes/14p-planetary-gearbox.md) | [**PDF Datasheet**](../assets/downloads/14p/14P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**2D Drawing**](../assets/downloads/14p/14P_2D_Drawing.pdf) | [**Full Assembly STEP**](../assets/downloads/14p/14P_Full_Assembly.step) |
+| [16P · Ø16 mm](../products/planetary-gearboxes/16p-planetary-gearbox.md) | [**PDF Datasheet**](../assets/downloads/16p/16P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**2D Drawing**](../assets/downloads/16p/16P_2D_Drawing.pdf) | [**Full Assembly STEP**](../assets/downloads/16p/16P_Full_Assembly.step) |
+| [20P · Ø20 mm](../products/planetary-gearboxes/20p-planetary-gearbox.md) | [**PDF Datasheet**](../assets/downloads/20p/20P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**2D Drawing**](../assets/downloads/20p/20P_2D_Drawing.pdf) | [**Full Assembly STEP**](../assets/downloads/20p/20P_Full_Assembly.step) |
+| [22P · Ø22 mm](../products/planetary-gearboxes/22p-planetary-gearbox.md) | [**PDF Datasheet**](../assets/downloads/22p/22P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**2D Drawing**](../assets/downloads/22p/22P_2D_Drawing.pdf) | [**Full Assembly STEP**](../assets/downloads/22p/22P_Full_Assembly.step) |
+| [24P · Ø24 mm](../products/planetary-gearboxes/24p-planetary-gearbox.md) | [**PDF Datasheet**](../assets/downloads/24p/24P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**2D Drawing**](../assets/downloads/24p/24P_2D_Drawing.pdf) | [**Full Assembly STEP**](../assets/downloads/24p/24P_Full_Assembly.step) |
+| [28P · Ø28 mm](../products/planetary-gearboxes/28p-planetary-gearbox.md) | [**PDF Datasheet**](../assets/downloads/28p/28P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**2D Drawing**](../assets/downloads/28p/28P_2D_Drawing.pdf) | [**Full Assembly STEP**](../assets/downloads/28p/28P_Full_Assembly.step) |
+| [32P · Ø32 mm](../products/planetary-gearboxes/32p-planetary-gearbox.md) | [**PDF Datasheet**](../assets/downloads/32p/32P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**2D Drawing**](../assets/downloads/32p/32P_2D_Drawing.pdf) | [**Full Assembly STEP**](../assets/downloads/32p/32P_Full_Assembly.step) |
+| [36P · Ø36 mm](../products/planetary-gearboxes/36p-planetary-gearbox.md) | [**PDF Datasheet**](../assets/downloads/36p/36P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**2D Drawing**](../assets/downloads/36p/36P_2D_Drawing.pdf) | [**Full Assembly STEP**](../assets/downloads/36p/36P_Full_Assembly.step) |
+| [42P · Ø42 mm](../products/planetary-gearboxes/42p-planetary-gearbox.md) | [**PDF Datasheet**](../assets/downloads/42p/42P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**2D Drawing**](../assets/downloads/42p/42P_2D_Drawing.pdf) | [**Full Assembly STEP**](../assets/downloads/42p/42P_Full_Assembly.step) |
+
+**STEP scope:** The original Full Assembly STEP is for preliminary layout review. It does not approve a specific motor input pinion, production tolerance or stage/ratio combination. [Full vs. simplified 4-stage STEP files](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md#file-notes).
+
 ## Start With the Motor, the Mechanism or the Required Output
 
-A compact drive project does not need to start with a complete motor and gearbox specification.
+| Starting point | SigGear's review | First useful input |
+| --- | --- | --- |
+| **My motor is fixed** | Gearbox-only frame, ratio, input interface and length feasibility | Motor model / drawing, shaft, pilot, mounting, loaded speed |
+| **I need motor + gearbox** | Motor and planetary stage evaluated together | Output speed, load, voltage, diameter, total space and duty cycle |
+| **I have a drawing / physical sample** | Custom housing, shaft, flange or replacement interface review | Drawing / STEP / old sample plus what must stay unchanged |
 
-You may already have a motor that must be kept. You may instead know only the available space, required output speed, load and operating voltage.
-
-SigGear can review the motor and gearbox as one transmission system and identify the mechanical and operating inputs that still need to be confirmed.
-
-Depending on the selected product family and project requirements, the supply scope may be:
-
-- gearbox only
-- motor only
-- matched motor + gearbox assembly
-- an integrated drive or actuator where motor, reducer, sensing and control are reviewed together
-
-[Existing Motor — Start Project Brief](../request-cad-sample-quote.md?path=gearbox_only){ .md-button .md-button--primary }
-[Need Motor + Gearbox — Start Project Brief](../request-cad-sample-quote.md?path=motor_gearbox){ .md-button }
-[Full Engineering Review Guide](../request-cad-sample-quote.md){ .md-button }
-
-**Manufacturing qualification:** [Gear Hobbing, Grinding, CMM & Inspection](../company/manufacturing-equipment-inspection-capability.md) · [Source-Backed Manufacturing Facts](../company/source-backed-manufacturing-facts.md)
+[**Custom Gearbox from Drawing / STEP / Sample**](custom-gearbox-from-drawing-cad.md){ .md-button }
+[**Motor + Gearbox Engineering Request**](../request-cad-sample-quote.md?start=existing_motor){ .md-button }
 
 ## Planetary Gearbox for BLDC, DC, Stepper or Servo Motors
 
-A motor type alone does not prove gearbox compatibility. For an existing **BLDC, brushed DC, stepper or servo motor**, the engineering review needs the actual motor model or drawing, operating speed, shaft geometry, mounting interface and the required gearbox output.
-
-This page is the canonical path for **planetary gearbox for existing motor**, **gearbox for BLDC motor** and **motor + planetary gearbox matching** questions. It does not imply that every SigGear frame size can be paired with every motor.
-
-[Project Brief — Existing Motor](../request-cad-sample-quote.md?path=gearbox_only){ .md-button .md-button--primary }
-[Project Brief — Motor + Gearbox](../request-cad-sample-quote.md?path=motor_gearbox){ .md-button }
-
-## Motor with Planetary Gearbox — Two Supply Paths
-
-For miniature and compact OEM drives, a **motor with planetary gearbox** can begin from either side of the system:
-
-### Gearbox for an Existing Motor
-
-The customer keeps the existing motor and SigGear reviews:
-
-- motor shaft and mounting interface
-- loaded motor speed
-- required output speed / ratio
-- continuous and peak load
-- gearbox diameter and stage-dependent length
-- output shaft and mounting requirements
-
-### Complete Motor + Planetary Gearbox Assembly
-
-If the motor is still open, SigGear can review a **motor + planetary gearbox assembly** from:
-
-- operating voltage
-- required output speed
-- load or torque
-- installation diameter and total length
-- duty cycle
-- shaft / mounting requirements
-- quantity and project stage
-
-The published 8P–42P planetary gearbox platforms provide the starting frame sizes. Final motor selection and performance depend on the complete operating point and configuration.
-
-[Compare 8–42 mm Planetary Gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Download Public STEP Files](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }
+Motor type alone is not proof of interchangeability. SigGear reviews the **actual** motor operating point, input geometry, duty cycle, continuous load, available ratios and expected test conditions. A published gearhead is a reference platform; special pinions, adapters or interfaces may need custom feasibility review.
 
 ## 8P–42P Existing-Motor Design-In Workflow
 
-For an existing motor, SigGear does not start by assuming a standard motor adapter. The first review narrows five engineering gates:
+1. **Envelope:** housing diameter, stage-dependent gearbox length and assembly limit.
+2. **Motor:** actual loaded rpm, shaft diameter/usable length, locating pilot and bolt pattern.
+3. **Output:** required speed, duty load and short-duration peak; match an **available** ratio/stage.
+4. **Check:** rated allowable torque, external shaft loads, backlash and motor/gearbox operating point.
+5. **Prototype:** verify interface, noise/thermal behavior where relevant, then confirm controlled configuration before pilot or repeat production.
 
-1. **Frame / envelope** — available gearbox diameter, stage-dependent gearbox length and maximum total assembly length.
-2. **Motor operating point** — actual motor speed, power and duty cycle against the selected gearbox input-speed and load limits.
-3. **Output target** — required output speed or preliminary ratio, continuous load and short-duration peak load.
-4. **Mechanical interface** — motor shaft diameter and usable length, shaft feature, locating pilot, mounting-hole pattern and the required gearbox input arrangement.
-5. **Design-In release** — use the public STEP for preliminary packaging, then confirm the selected stage / ratio / motor interface before controlled configuration STEP / drawing release.
+**Rated allowable torque is stage-dependent. Maximum momentary torque is not a continuous rating. Permissible input speed must be confirmed for the chosen motor and gearbox combination, not assumed from a universal limit.**
 
-A frame-size match does **not** prove motor compatibility. The motor and gearbox interface must be reviewed for the exact project.
-
-| Frame | Diameter | Datasheet | Mechanical interface | Existing-motor project brief |
-| --- | ---: | --- | --- | --- |
-| 8P | 8 mm | [8P Datasheet](../engineering-resources/8p/datasheet.md) | [8P Interface](../engineering-resources/8p/mechanical-interface.md) | [Start 8P review](../request-cad-sample-quote.md?model=8P&path=gearbox_only) |
-| 10P | 10 mm | [10P Datasheet](../engineering-resources/10p/datasheet.md) | [10P Interface](../engineering-resources/10p/mechanical-interface.md) | [Start 10P review](../request-cad-sample-quote.md?model=10P&path=gearbox_only) |
-| 12P | 12 mm | [12P Datasheet](../engineering-resources/12p/datasheet.md) | [12P Interface](../engineering-resources/12p/mechanical-interface.md) | [Start 12P review](../request-cad-sample-quote.md?model=12P&path=gearbox_only) |
-| 14P | 14 mm | [14P Datasheet](../engineering-resources/14p/datasheet.md) | [14P Interface](../engineering-resources/14p/mechanical-interface.md) | [Start 14P review](../request-cad-sample-quote.md?model=14P&path=gearbox_only) |
-| 16P | 16 mm | [16P Datasheet](../engineering-resources/16p/datasheet.md) | [16P Interface](../engineering-resources/16p/mechanical-interface.md) | [Start 16P review](../request-cad-sample-quote.md?model=16P&path=gearbox_only) |
-| 20P | 20 mm | [20P Datasheet](../engineering-resources/20p/datasheet.md) | [20P Interface](../engineering-resources/20p/mechanical-interface.md) | [Start 20P review](../request-cad-sample-quote.md?model=20P&path=gearbox_only) |
-| 22P | 22 mm | [22P Datasheet](../engineering-resources/22p/datasheet.md) | [22P Interface](../engineering-resources/22p/mechanical-interface.md) | [Start 22P review](../request-cad-sample-quote.md?model=22P&path=gearbox_only) |
-| 24P | 24 mm | [24P Datasheet](../engineering-resources/24p/datasheet.md) | [24P Interface](../engineering-resources/24p/mechanical-interface.md) | [Start 24P review](../request-cad-sample-quote.md?model=24P&path=gearbox_only) |
-| 28P | 28 mm | [28P Datasheet](../engineering-resources/28p/datasheet.md) | [28P Interface](../engineering-resources/28p/mechanical-interface.md) | [Start 28P review](../request-cad-sample-quote.md?model=28P&path=gearbox_only) |
-| 32P | 32 mm | [32P Datasheet](../engineering-resources/32p/datasheet.md) | [32P Interface](../engineering-resources/32p/mechanical-interface.md) | [Start 32P review](../request-cad-sample-quote.md?model=32P&path=gearbox_only) |
-| 36P | 36 mm | [36P Datasheet](../engineering-resources/36p/datasheet.md) | [36P Interface](../engineering-resources/36p/mechanical-interface.md) | [Start 36P review](../request-cad-sample-quote.md?model=36P&path=gearbox_only) |
-| 42P | 42 mm | [42P Datasheet](../engineering-resources/42p/datasheet.md) | [42P Interface](../engineering-resources/42p/mechanical-interface.md) | [Start 42P review](../request-cad-sample-quote.md?model=42P&path=gearbox_only) |
-
-[Download 8P–42P Public STEP CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
-
-**Current public motor-integration depth:** 32P and 42P have dedicated public Motor Integration Guides. The other frame sizes have public Datasheets and Mechanical Interface references, but this does **not** mean a standardized motor adapter has been released for every frame.
-
-[32P Motor Integration Guide](../engineering-resources/32p/motor-integration.md){ .md-button }
-[42P Motor Integration Guide](../engineering-resources/42p/motor-integration.md){ .md-button }
-
-## Real Compact Motor + Gearbox Reference
-
-![Real micro geared motor assemblies beside a ruler for scale](../assets/images/evidence/planetary/micro-gearmotor-size-reference.webp)
-
-*Real compact geared motor assemblies photographed at SigGear with a ruler for scale. Exact motor, gearbox, output shaft and wiring configurations vary by project.*
-
-## Path A — I Already Have a Motor
-
-If the motor is already fixed, the first task is to determine whether the gearbox can be matched mechanically and whether the motor operating point is suitable for the required output.
-
-Useful information includes:
-
-- motor drawing or exact motor model
-- motor type
-- nominal voltage
-- rated and peak power, if available
-- rated and no-load speed
-- shaft diameter and usable shaft length
-- shaft flat, key, pinion or other input feature
-- motor mounting-hole pattern
-- locating pilot diameter
-- maximum total assembly length
-- required output speed
-- required continuous and peak torque, or the load if torque is not yet known
-- duty cycle
-- expected prototype and production quantity
-
-A motor drawing is often more useful than a long text description because it makes the shaft, pilot and mounting constraints visible immediately.
-
-## Path B — I Need a Complete Motor + Gearbox Solution
-
-If the motor has not yet been selected, start from the output requirement and installation envelope.
-
-Useful starting inputs are:
-
-- application and what needs to move
-- required output speed
-- continuous and peak torque, load or force if known
-- available diameter and total length
-- operating voltage or available power supply
-- duty cycle and motion pattern
-- noise, backlash or positioning requirement where relevant
-- shaft and mounting requirements
-- encoder, brake, cable or connector requirements where relevant
-- prototype quantity and expected production volume
-
-The motor and gearbox should be evaluated together. A high motor speed may reduce required motor torque but can increase reduction-ratio and gearbox input-speed requirements. A different ratio can change output speed, available torque, efficiency and gearbox length.
-
-Final selection therefore requires review of the complete operating point rather than only one parameter.
-
-## If the Gear Ratio Is Unknown
-
-The customer does not need to calculate the final ratio before contacting SigGear.
-
-When motor speed and desired output speed are known, a preliminary ratio can be estimated from:
-
-**preliminary reduction ratio ≈ motor speed / desired output speed**
-
-The final ratio still needs to be checked against:
-
-- available gearbox ratios and stage count
-- gearbox input-speed limit
-- required output torque
-- motor operating point
-- gearbox efficiency
-- duty cycle
-- assembly length
-- thermal condition
-
-If the motor speed is also unknown, send the application and output motion requirement first.
-
-## If the Required Torque Is Unknown
-
-A project can start from the mechanism.
-
-Useful information can include:
-
-- load or payload
-- arm length or linkage geometry
-- wheel diameter
-- pulley, belt, screw or rack information
-- friction or resistance
-- acceleration requirement
-- gravity direction
-- motion cycle
-- a sketch, STEP model or marked-up drawing
-
-From this information, the engineering review can identify what must be calculated, measured or tested before final motor and gearbox selection.
+[**Ratio / Stage Selector + Downloads**](../selection-guides/planetary-gearhead-quick-selector.md){ .md-button }
 
 ## Mechanical Matching Between Motor and Gearbox
 
-The motor-to-gearbox interface normally needs review of:
+Check **shaft diameter and geometry · usable shaft length · locating pilot · mounting-hole spacing · input-pinion arrangement · output shaft/flange · total axial length**. A compatible envelope alone does not establish motor suitability.
 
-- motor shaft diameter
-- usable shaft length
-- shaft geometry
-- gearbox input interface
-- mounting-hole pattern
-- locating pilot
-- concentricity and assembly arrangement
-- total axial length
-- torque-transfer method
-- available housing space
+## If the Gear Ratio Is Unknown
 
-A motor that is suitable electrically may still require a different mechanical interface before it can be used with a gearbox platform.
-
-## Motor Types and Product Families
-
-SigGear's current public micro gear-motor information states that, depending on the selected gearbox and project requirements, engineering review can include:
-
-- brushed DC motors
-- brushless DC motors
-- stepper motors
-- servo motors
-- customer-specified motors
-
-Compatibility is not assumed from motor type alone. Input speed, power, shaft interface, duty cycle, thermal conditions and required output performance must be reviewed for the selected gearbox.
-
-[Browse Micro Gear Motors](../products/micro-gear-motors/index.md){ .md-button }
-[Browse Planetary Gearboxes](../products/planetary-gearboxes/index.md){ .md-button }
-
-## Existing SigGear Planetary Platforms
-
-For miniature and compact motor + gearbox projects, SigGear publishes planetary gearbox platforms from **8 mm to 42 mm nominal outer diameter**.
-
-The current public series includes:
-
-**8P / 10P / 12P / 14P / 16P / 20P / 22P / 24P / 28P / 32P / 36P / 42P**
-
-Each frame size has its own stage count, ratio, torque, efficiency, length and operating limits. Data from one frame size must not be transferred to another without confirmation.
-
-[Browse the 8-42 mm Planetary Gearbox Series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
-[Custom Planetary Gearhead Engineering](custom-planetary-gearbox.md){ .md-button }
+A preliminary ratio is **loaded motor speed ÷ desired output speed**. If load or torque is not yet known, send a mechanism sketch, dimensions, applied load and motion cycle instead. The actual ratio and allowable torque must be reviewed from the published stage tables.
 
 ## 32P Motor Integration as a Public Reference
 
-The 32P Engineering Pack currently provides the clearest public example of SigGear's motor-to-gearbox integration workflow.
+SigGear publishes 32P and 42P motor-integration guides for engineering evaluation. These are **not universal motor mounting standards across all 12 gearhead sizes**.
 
-For the published 32P reference:
+[**32P Motor Integration Guide**](../engineering-resources/32p/motor-integration.md){ .md-button }
+[**42P Motor Integration Guide**](../engineering-resources/42p/motor-integration.md){ .md-button }
 
-| Item | Published reference |
-| --- | --- |
-| Motor type | DC motor |
-| Nominal voltage | 3-36 VDC |
-| Motor power | Below 100 W |
-| Continuous gearbox input speed | Motor/configuration dependent; confirm selected operating point |
+## Real Compact Motor + Gearbox Reference
 
-These values belong to the published 32P adapted-motor reference only. They are not universal limits for all SigGear gearboxes or motors.
+![Real compact SigGear motor and gearbox assemblies photographed beside a ruler](../assets/images/evidence/planetary/micro-gearmotor-size-reference.webp)
 
-The public 32P Motor Integration Guide also includes the current motor-side mounting reference and the information required to evaluate a customer's existing motor.
-
-[View the 32P Motor Integration Guide](../engineering-resources/32p/motor-integration.md){ .md-button .md-button--primary }
-[View the 32P Gearbox](../products/planetary-gearboxes/32p-planetary-gearbox.md){ .md-button }
-
-## Other Compact Drive Architectures
-
-Not every motorized project should use a miniature planetary gearbox.
-
-Depending on torque, space, joint architecture, load condition and control requirements, SigGear may also review:
-
-- cycloidal transmission
-- integrated robot joint actuators
-- flat BLDC motor and joint-drive configurations
-- other compact transmission arrangements supported by the available engineering platforms
-
-[Custom Cycloidal Transmission Engineering](custom-cycloidal-transmission.md){ .md-button }
-[Browse Robot Joint Actuators](../products/robot-joint-actuators/index.md){ .md-button }
-[Browse Flat BLDC Motors and Joint Drives](../products/flat-bldc-motors/index.md){ .md-button }
-
-## Typical Project Situations
-
-Motor + gearbox integration may be relevant when:
-
-### A customer motor must be retained
-
-The gearbox must be designed or selected around the existing shaft, pilot, mounting pattern, speed and assembly envelope.
-
-### A standard gear motor is too large
-
-The project needs a shorter, smaller-diameter or differently arranged assembly.
-
-### The output shaft or mounting is application-specific
-
-The customer needs a different shaft, flange, mounting pattern or housing interface.
-
-### The team knows the final motion but not the motor
-
-The output speed, load and space are known, but the motor and reduction ratio are still open.
-
-### Prototype performance needs refinement
-
-The first sample moves, but output speed, torque, noise, temperature, current or mechanical fit needs to be adjusted before design freeze.
-
-## Engineering Development Path
-
-A motor + gearbox project may move through:
-
-**Application / Motor / Drawing**  
-→ **Feasibility Review**  
-→ **Motor and Gearbox Operating-Point Review**  
-→ **Ratio and Frame-Size Evaluation**  
-→ **Mechanical Interface Review**  
-→ **Configuration Drawing**  
-→ **Prototype / Sample**  
-→ **Application Test**  
-→ **Motor / Ratio / Interface Refinement**  
-→ **Design Confirmation**  
-→ **Pilot Preparation**  
-→ **Production**
-
-The exact path depends on whether the motor, gearbox, mechanism and electrical architecture are already fixed.
+*Real SigGear assemblies for size reference. The motor, gearbox, shaft, wiring and final integration vary by project.*
 
 ## What to Send First
 
-For a first review, send what you already have.
+For an initial review, the smallest useful package is **a motor drawing or model, target output speed/load, available space and shaft/mounting requirements**. If known, include your duty cycle, prototype quantity and expected annual volume. Missing values can be confirmed during engineering review.
 
-If you already have a motor:
-
-1. motor drawing or model
-2. motor speed
-3. required output speed
-4. load or torque requirement
-5. maximum assembly size
-6. shaft / mounting constraints
-
-If you need a complete motor + gearbox:
-
-1. application
-2. output speed
-3. load / torque if known
-4. available diameter and length
-5. operating voltage
-6. duty cycle
-7. prototype and expected production quantity
-
-A complete specification is not required before the first discussion.
-
-## Applications
-
-Compact motor + gearbox integration can be relevant in:
-
-- humanoid and service robots
-- quadruped robots
-- robotic arms
-- dexterous hands and grippers
-- exoskeletons
-- UAV and drone mechanisms
-- AGV / AMR
-- robotic lawn and outdoor equipment
-- electric curtains and smart-home mechanisms
-- smart sanitary and household mechanisms
-- medical and laboratory equipment
-- precision instruments
-- compact industrial automation
-- other products that require a small motor and reduction transmission
-
-These are application areas where a compact drive may be relevant. They are not statements that SigGear has a public production case in every listed application.
+[**Send Existing Motor / Drawing**](../request-cad-sample-quote.md?start=existing_motor&path=gearbox_only){ .md-button .md-button--primary }
+[**Request Motor + Gearbox Assembly**](../request-cad-sample-quote.md?path=motor_gearbox){ .md-button }
 
 ## Confidential Development Projects
 
-Custom motor + gearbox development often involves customer drawings, unreleased products and application-specific interfaces.
-
-Those projects may not be publicly shown.
-
-SigGear therefore uses public gearbox platforms, motor-integration references, CAD, interface data and test resources to help new engineering teams evaluate its capabilities without exposing confidential customer designs.
+Public files and [manufacturing / inspection evidence](../company/manufacturing-equipment-inspection-capability.md) help qualify SigGear without disclosing customer designs. Confidential STEP files, drawings and NDA-controlled details can be exchanged privately after the appropriate arrangement.
 
 ## Discuss Your Motor + Gearbox Project
 
-Send the motor drawing, mechanism, installation space or output requirement you already have.
+**Luffy · Sales Engineer, SigGear** — [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
 
-**Wanrong Wang**  
-International Sales / Sales Engineer, SigGear  
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
-
-[Request Engineering Review](../request-cad-sample-quote.md){ .md-button .md-button--primary }
-[Send Your Motor or Mechanism](mailto:wangwanrong@siggear.com?subject=Motor%20and%20Gearbox%20Integration%20Review){ .md-button }
+[**Engineering Request**](../request-cad-sample-quote.md){ .md-button .md-button--primary } · [Robot Joint Modules](../engineering-resources/robot-joint-actuators/quick-downloads.md) · [All Planetary Gearheads](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md)
