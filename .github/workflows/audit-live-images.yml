@@ -46,7 +46,11 @@ jobs:
           done
           echo "::error::GitHub Pages did not expose the deployed commit marker"
           exit 1
-      - name: Audit all source images, live pages and referenced image bytes
+      - name: Audit source images on pull requests (do not expect unpublished site pages)
+        if: github.event_name == 'pull_request'
+        run: python scripts/audit_site_images.py --mode repo --report site-image-audit-report.json
+      - name: Audit source and published live images after main deployment
+        if: github.event_name != 'pull_request'
         run: python scripts/audit_site_images.py --mode both --report site-image-audit-report.json
       - name: Upload image audit details even when checks fail
         if: always()
