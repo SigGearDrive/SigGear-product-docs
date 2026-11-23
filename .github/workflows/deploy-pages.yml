@@ -79,6 +79,9 @@ jobs:
       - name: Validate public sales policy
         run: python scripts/validate_sales_policy.py
 
+      - name: Verify all published SigGear contact emails and safe form transition
+        run: python scripts/validate_public_contact_email.py
+
       - name: Build documentation
         run: mkdocs build --strict
 
