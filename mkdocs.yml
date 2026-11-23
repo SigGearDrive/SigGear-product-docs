@@ -74,7 +74,7 @@ hooks:
   - hooks/seo_metadata.py
 
 extra_css:
-  - assets/stylesheets/inquiry-form.css?v=20261015-online-live
+  - assets/stylesheets/inquiry-form.css?v=20261123-luffy-mail-safe
   - assets/stylesheets/planetary-real-photo-grid.css
   - assets/stylesheets/company-evidence-gallery.css
   - assets/stylesheets/joint-product-quick.css?v=20261119-model-file-downloads
@@ -90,7 +90,7 @@ extra_css:
 
 extra_javascript:
   - assets/javascripts/analytics-events.js?v=20261119-sg6010hb-public-pdf&rev=20261119-geo-form-self-click
-  - assets/javascripts/inquiry-form.js?v=20261015-online-live&rev=20261119-geo-entry-attribution
+  - assets/javascripts/inquiry-form.js?v=20261123-luffy-mail-safe&rev=20261119-geo-entry-attribution
   - assets/javascripts/ratio-stage-selector.js?v=20261118-quick-files
   - assets/javascripts/motor-quick-downloads.js?v=20261118-direct-pdfs
   - assets/javascripts/candidate-design-in-pack.js

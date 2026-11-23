@@ -90,7 +90,7 @@ def main() -> int:
         errors.append("scope must preserve the public preliminary-sales boundary")
 
     contacts = data.get("public_contacts")
-    if not isinstance(contacts, list) or "wangwanrong@siggear.com" not in contacts:
+    if not isinstance(contacts, list) or "luffy@siggear.com" not in contacts:
         errors.append("public_contacts must include the approved company email")
 
     for field in (

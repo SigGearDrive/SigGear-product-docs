@@ -162,7 +162,7 @@ def build(model,info,source):
         flow.append(par("- "+msg,SMALL));flow.append(Spacer(1,5))
     flow.append(Spacer(1,11))
     flow.append(Paragraph("Engineering enquiries",SECTION))
-    flow.append(par("wangwanrong@siggear.com  |  www.siggear.com",SMALL))
+    flow.append(par("luffy@siggear.com  |  www.siggear.com",SMALL))
     doc.build(flow,onFirstPage=foot,onLaterPages=foot)
     if not dst.read_bytes().startswith(b"%PDF-"):raise ValueError("Bad generated PDF "+str(dst))
     return dst
@@ -204,7 +204,7 @@ def build_interface_reference(model,source):
     story.append(par("This checklist is not a substitute for mounting pitch circle dimensions, hole depth, wiring routing, tolerances, seal compression, shaft engagement or installation datum review."))
     story.append(Spacer(1,16))
     story.append(Paragraph("Request original 2D / approved CAD",SECTION))
-    story.append(par("Contact wangwanrong@siggear.com | siggear.com",SMALL))
+    story.append(par("Contact luffy@siggear.com | siggear.com",SMALL))
     doc.build(story,onFirstPage=foot,onLaterPages=foot)
     if not dst.read_bytes().startswith(b"%PDF-"):
         raise ValueError("Bad mechanical reference PDF "+str(dst))
@@ -269,7 +269,7 @@ def build_separate_2557_source_reference(source):
     story.append(Spacer(1, 8))
     story.append(par("This is not the original 2D drawing, a controlled manufacturing document, an approved mounting interface, or a verified STEP / Parasolid download. Confirm tolerances, mounting datum, shaft fit, current production status and peak-duty limit with SigGear engineering before design-in.", SMALL))
     story.append(Spacer(1, 7))
-    story.append(par("Engineering requests: wangwanrong@siggear.com | siggear.com", SMALL))
+    story.append(par("Engineering requests: luffy@siggear.com | siggear.com", SMALL))
     doc.build(story, onFirstPage=foot, onLaterPages=foot)
     if not dst.read_bytes().startswith(b"%PDF-"):
         raise ValueError("Bad historical source-reference PDF " + str(dst))
