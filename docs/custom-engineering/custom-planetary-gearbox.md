@@ -63,7 +63,7 @@ You may already have:
 
 SigGear designs and manufactures micro, miniature and compact planetary gearboxes and can review existing 8–42 mm platforms as engineering starting points before evaluating a **modified or custom planetary gearbox** configuration.
 
-[Send Your Motor or Drawing](mailto:wangwanrong@siggear.com?subject=Custom%20Planetary%20Gearbox%20Engineering%20Review){ .md-button .md-button--primary }
+[Send Your Motor or Drawing](mailto:luffy@siggear.com?subject=Custom%20Planetary%20Gearbox%20Engineering%20Review){ .md-button .md-button--primary }
 [Request Engineering Review](../request-cad-sample-quote.md){ .md-button }
 
 **Manufacturing qualification:** [Gear Hobbing, Grinding, CMM & Inspection](../company/manufacturing-equipment-inspection-capability.md) · [Source-Backed Manufacturing Facts](../company/source-backed-manufacturing-facts.md)
@@ -280,7 +280,7 @@ Send the motor, drawing, available space or motion requirement you already have.
 
 **Wanrong Wang**  
 International Sales / Sales Engineer, SigGear  
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+[luffy@siggear.com](mailto:luffy@siggear.com)
 
 [Request Engineering Review](../request-cad-sample-quote.md){ .md-button .md-button--primary }
-[Send Your Motor or Drawing](mailto:wangwanrong@siggear.com?subject=Custom%20Planetary%20Gearbox%20Engineering%20Review){ .md-button }
+[Send Your Motor or Drawing](mailto:luffy@siggear.com?subject=Custom%20Planetary%20Gearbox%20Engineering%20Review){ .md-button }

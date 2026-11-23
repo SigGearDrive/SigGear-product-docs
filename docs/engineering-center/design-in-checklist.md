@@ -222,7 +222,7 @@ If any of these remain unclear, keep the project in engineering evaluation rathe
 
 **Wanrong Wang**  
 International Sales / Sales Engineer, SigGear  
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+[luffy@siggear.com](mailto:luffy@siggear.com)
 
 
 ## From Design-In to Pilot and Production

@@ -217,7 +217,7 @@ A complete specification is not required before the first review.
 
 **Wanrong Wang**  
 International Sales / Sales Engineer, SigGear  
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+[luffy@siggear.com](mailto:luffy@siggear.com)
 
 [Start Custom Engineering Review](../request-cad-sample-quote.md){ .md-button .md-button--primary }
 [Custom Precision Transmission Engineering](index.md){ .md-button }

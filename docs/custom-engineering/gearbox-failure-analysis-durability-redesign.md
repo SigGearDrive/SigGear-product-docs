@@ -190,6 +190,6 @@ Send the failed gearbox, drawing, motor information, photographs or operating de
 
 **Wanrong Wang**  
 International Sales / Sales Engineer, SigGear  
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+[luffy@siggear.com](mailto:luffy@siggear.com)
 
 [**Start Failure / Durability Review**](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button .md-button--primary }

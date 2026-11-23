@@ -91,6 +91,6 @@ Public files and [manufacturing / inspection evidence](../company/manufacturing-
 
 ## Discuss Your Motor + Gearbox Project
 
-**Luffy · Sales Engineer, SigGear** — [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+**Luffy · Sales Engineer, SigGear** — [luffy@siggear.com](mailto:luffy@siggear.com)
 
 [**Engineering Request**](../request-cad-sample-quote.md){ .md-button .md-button--primary } · [Robot Joint Modules](../engineering-resources/robot-joint-actuators/quick-downloads.md) · [All Planetary Gearheads](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md)
