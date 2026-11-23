@@ -1,55 +1,30 @@
 #!/usr/bin/env python3
-"""Validate public STEP / drawing review readiness wiring."""
-
+"""Verify controlled CAD is protected without blocking a first inquiry."""
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-FORM = ROOT / "docs" / "request-cad-sample-quote.md"
-INQUIRY_JS = ROOT / "docs" / "assets" / "javascripts" / "inquiry-form.js"
-PACK_JS = ROOT / "docs" / "assets" / "javascripts" / "candidate-design-in-pack.js"
+CONTACT = ROOT / "docs/request-cad-sample-quote.md"
+PACK = ROOT / "docs/engineering-resources/planetary-gearboxes/candidate-design-in-pack.md"
+PACK_JS = ROOT / "docs/assets/javascripts/candidate-design-in-pack.js"
 
-FORM_IDS = [
-    "sg-output-interface",
-    "sg-duty-cycle",
-    "sg-shaft-loads",
-    "sg-cad-readiness",
-    "sg-cad-readiness-status",
-    "sg-cad-readiness-gates",
-]
+def main():
+    contact = CONTACT.read_text(encoding="utf-8")
+    pack = PACK.read_text(encoding="utf-8")
+    js = PACK_JS.read_text(encoding="utf-8")
 
-GATE_TOKENS = [
-    "candidate",
-    "motor_interface",
-    "output_interface",
-    "load_duty",
-    "envelope",
-]
-
-
-def main() -> None:
-    form = FORM.read_text(encoding="utf-8")
-    inquiry = INQUIRY_JS.read_text(encoding="utf-8")
-    pack = PACK_JS.read_text(encoding="utf-8")
-
-    for element_id in FORM_IDS:
-        if f'id="{element_id}"' not in form:
-            raise ValueError(f"Project Brief is missing required STEP/drawing-readiness element: {element_id}")
-
-    if '"ready_for_cad_review"' not in inquiry or '"need_more_information"' not in inquiry:
-        raise ValueError("Inquiry form must preserve normalized STEP/drawing-readiness statuses.")
-
-    for token in GATE_TOKENS:
-        if token not in inquiry:
-            raise ValueError(f"Inquiry form is missing STEP/drawing-readiness gate token: {token}")
-
-    if "next_step=cad_review" not in pack:
-        raise ValueError("Candidate Design-In Pack must prefill the Project Brief for STEP/drawing review.")
-
-    if "a controlled production model or drawing has been approved or released" not in form:
-        raise ValueError("Project Brief must preserve the boundary between review readiness and final production-file approval.")
-
-    print("STEP / drawing review readiness wiring validated.")
-
+    if "mailto:luffy@siggear.com" not in contact or "<form" in contact:
+        raise ValueError("Engineering inquiry must not require an online form.")
+    if "not mandatory fields or gates for contacting us" not in pack and "not mandatory fields to contact us" not in pack:
+        raise ValueError("CAD review inputs must not be first-contact gates.")
+    for token in ("Candidate configuration", "Output interface", "Load / duty",
+                  "Installation envelope", "controlled CAD"):
+        if token.lower() not in pack.lower():
+            raise ValueError("Controlled CAD technical boundary lost: " + token)
+    if "mailto:luffy@siggear.com?subject=" not in js:
+        raise ValueError("Candidate pack inquiry should open direct email.")
+    if "sample-validation-workflow/" not in js:
+        raise ValueError("Optional technical sample-validation path was broken.")
+    print("PASS: direct first contact, optional engineering details, controlled CAD boundary intact")
 
 if __name__ == "__main__":
     main()
