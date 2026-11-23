@@ -119,4 +119,4 @@ If several items are still unknown, send the mechanism, CAD screenshot or joint 
 [Custom Robot Joint Development](../custom-engineering/robot-joint-actuator-development.md){ .md-button }
 [Request Engineering Review](../request-cad-sample-quote.md){ .md-button .md-button--primary }
 
-**Contact:** Wanrong Wang · International Sales / Sales Engineer, SigGear · wangwanrong@siggear.com
+**Contact:** Wanrong Wang · International Sales / Sales Engineer, SigGear · luffy@siggear.com

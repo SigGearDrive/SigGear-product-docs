@@ -143,6 +143,6 @@ For **separate** precision reduction rather than complete integrated joint actua
 
 ## Request a Joint-Actuator Selection Review
 
-**Luffy · Sales Engineer, SigGear** — [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+**Luffy · Sales Engineer, SigGear** — [luffy@siggear.com](mailto:luffy@siggear.com)
 
 [**Send Joint Requirements / STEP**](../request-cad-sample-quote.md?start=drawing_cad&path=joint_actuator){ .md-button .md-button--primary }
