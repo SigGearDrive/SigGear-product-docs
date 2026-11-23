@@ -21,6 +21,7 @@ on:
       - "scripts/validate_product_data.py"
       - "scripts/validate_22p_product_media.py"
       - "scripts/validate_sales_policy.py"
+      - "scripts/validate_public_contact_email.py"
       - "scripts/validate_site_urls.py"
       - "scripts/validate_legacy_image_and_page_freeze.py"
       - "scripts/validate_planetary_product_photos.py"
@@ -188,6 +189,9 @@ jobs:
 
       - name: Validate public sales policy
         run: python scripts/validate_sales_policy.py
+
+      - name: Verify all published SigGear contact emails and safe form transition
+        run: python scripts/validate_public_contact_email.py
 
       - name: Validate external CAD catalog
         run: python scripts/validate_external_catalog.py
