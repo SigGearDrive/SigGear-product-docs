@@ -10,6 +10,10 @@ description: "SigGear 28P (28 mm) miniature planetary gearhead/gearbox: ratio 3.
 [**Download Full Assembly STEP**](../../assets/downloads/28p/28P_Full_Assembly.step){ .md-button }
 [**Download Simplified 4-Stage STEP · Reference**](../../assets/downloads/28p/28P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button }
 
+## Product Images
+
+![Authentic SigGear 28P 28 mm planetary gearhead, photographed with digital caliper](../../assets/images/products/planetary-gearboxes/28p/28p-real-product-evidence.png){ width="520" loading="lazy" }
+
 | Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
 | --- | --- | --- | --- | --- |
 | **28 mm** | **3.83:1–759.7:1** | **25.6–44.5 mm** | **1961.3–4903.3 mN·m** | **≤ 1.2°** |
@@ -17,8 +21,6 @@ description: "SigGear 28P (28 mm) miniature planetary gearhead/gearbox: ratio 3.
 **Custom 28P interface or motor fit?** [Match my motor](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2028P%20-%20Existing%20Motor) · [Review my drawing / STEP](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2028P%20-%20Drawing%20or%20STEP) · [Replace / redesign existing gearbox](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2028P%20-%20Replacement%20Gearhead) · [Prototype → volume](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2028P%20-%20Prototype%20to%20Production)
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/28p/datasheet.md) · [Mechanical drawing preview](../../engineering-resources/28p/mechanical-interface.md) · [Motor-only datasheets](../../engineering-resources/motors/index.md#28-mm-dc-motors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
-
-![Authentic SigGear 28P 28 mm planetary gearhead, photographed with digital caliper](../../assets/images/products/planetary-gearboxes/28p/28p-real-product-evidence.png){ width="520" loading="lazy" }
 
 
 ## Product Identity

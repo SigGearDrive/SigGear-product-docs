@@ -10,6 +10,10 @@ description: "SigGear 36P (36 mm) compact planetary gearhead/gearbox: ratio 3.66
 [**Download Full Assembly STEP**](../../assets/downloads/36p/36P_Full_Assembly.step){ .md-button }
 [**Download Simplified 4-Stage STEP · Reference**](../../assets/downloads/36p/36P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button }
 
+## Product Images
+
+![Authentic SigGear 36P 36 mm planetary gearhead, photographed with digital caliper](../../assets/images/products/planetary-gearboxes/36p/36p-real-product-evidence.png){ width="520" loading="lazy" }
+
 | Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
 | --- | --- | --- | --- | --- |
 | **36 mm** | **3.66:1–625:1** | **30.6–61.5 mm** | **3922.7–9806.6 mN·m** | **≤ 1.2°** |
@@ -17,8 +21,6 @@ description: "SigGear 36P (36 mm) compact planetary gearhead/gearbox: ratio 3.66
 **Custom 36P interface or motor fit?** [Match my motor](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2036P%20-%20Existing%20Motor) · [Review my drawing / STEP](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2036P%20-%20Drawing%20or%20STEP) · [Replace / redesign existing gearbox](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2036P%20-%20Replacement%20Gearhead) · [Prototype → volume](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2036P%20-%20Prototype%20to%20Production)
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/36p/datasheet.md) · [Mechanical drawing preview](../../engineering-resources/36p/mechanical-interface.md) · [All 12 models](8-42mm-planetary-gear-reducer.md)
-
-![Authentic SigGear 36P 36 mm planetary gearhead, photographed with digital caliper](../../assets/images/products/planetary-gearboxes/36p/36p-real-product-evidence.png){ width="520" loading="lazy" }
 
 
 ## Product Identity
