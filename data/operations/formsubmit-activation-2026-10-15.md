@@ -1,17 +1,17 @@
 # SigGear engineering inquiry — FormSubmit activation and operations
 
-**Activation status:** FormSubmit recipient activation completed. SigGear owner confirmed on **2026-10-15** that the second test engineering inquiry was received by **wangwanrong@siggear.com**.
+**Activation status:** SigGear owner confirmed on **2026-11-23** that a FormSubmit test message was received by the new address **luffy@siggear.com**, following the independent activation test flow. This is an owner-reported receipt, not a provider-dashboard audit. The previous address **wangwanrong@siggear.com** was separately activated and tested on **2026-10-15**.
 
 **Live form:** https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/
 
-**Current published mode (2026-11-23):** Direct email to **luffy@siggear.com** is the default. Online FormSubmit delivery is paused until that new recipient is activated and a real test email is received. The **Copy Project Brief** option remains available.
+**Current published mode (2026-11-23):** Following owner-confirmed test receipt, native FormSubmit online submission to **luffy@siggear.com** is the default. **Prepare Email Instead** and **Copy Project Brief** remain available.
 
 ## Previous mailbox activation history (2026-10-15, preserved as audit record)
 
 1. FormSubmit was configured for the SigGear external sales engineering mailbox.
 2. The owner used a non-confidential internal test request and completed recipient activation.
 3. The owner repeated the test and explicitly confirmed actual receipt in the mailbox on 2026-10-15.
-4. The `ONLINE_DELIVERY_VERIFIED` gate in `docs/assets/javascripts/inquiry-form.js` was changed to `true` only after that **old-recipient** confirmation. As of 2026-11-23 it is set to `false` for the new recipient; past activation must not be treated as proof that the new mailbox receives form deliveries.
+4. The `ONLINE_DELIVERY_VERIFIED` gate in `docs/assets/javascripts/inquiry-form.js` was changed to `true` only after that **old-recipient** confirmation. Earlier on 2026-11-23 it was set to `false` during verification; after the new-recipient test receipt was confirmed it was set to `true`. The old recipient's activation was not used as evidence for the new one.
 
 The previous `?form_setup=1` test URL does not bypass the new-address delivery hold and must not be used as evidence of activation. The standard URL is the one customers should use.
 
@@ -38,7 +38,9 @@ If inbox delivery stops: use the existing **Prepare Email Instead** button; cont
 
 ## New public sales mailbox switch — 2026-11-23
 
-- Published email, `mailto:` project briefs and organization JSON-LD now use **luffy@siggear.com**.
-- The embedded online FormSubmit recipient is updated in source, but **online POST is disabled pending new-recipient verification**. The primary action opens the customer's local email program with their structured engineering brief instead.
-- **Next step before re-enabling online POST:** confirm `luffy@siggear.com` mailbox exists and receives mail, activate/approve this new recipient at FormSubmit, send a non-confidential test inquiry through a real native POST, confirm actual inbox receipt, and only then set `ONLINE_DELIVERY_VERIFIED = true` with an updated test and versioned deployment.
-- Do not claim the 2026-10-15 old-inbox activation applies to this new address.
+- Published email, `mailto:` project briefs and organization JSON-LD use **luffy@siggear.com**.
+- PR #296 changed public contacts and paused online sending pending new-recipient proof. PR #297 added an isolated non-confidential activation smoke-test page.
+- SigGear owner subsequently confirmed test-email receipt at the new address ("收到", 2026-11-23). This confirmation is the release gate for enabling FormSubmit; it does not independently certify delivery of future customer inquiries.
+- The public form uses native HTTPS POST to `https://formsubmit.co/luffy@siggear.com` with CAPTCHA, honeypot, contact email and explicit privacy consent. Direct email and Copy Project Brief stay available.
+- The temporary activation page is removed when enabling live customer submission; validate the release with CI and live-site audit.
+- After release, check the inbox regularly, periodically send a non-confidential production-page test, and roll back to `ONLINE_DELIVERY_VERIFIED = false` immediately if delivery stops.
