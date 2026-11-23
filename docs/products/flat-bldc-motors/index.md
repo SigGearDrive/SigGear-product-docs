@@ -81,7 +81,7 @@ For robotics teams whose torque, speed, size, motor, encoder, driver or mounting
 [Robot Joint Actuator and Gearbox Selection Guide](../../selection-guides/robot-joint-actuator-selection-guide.md){ .md-button }
 [Humanoid Robot Joint Applications](../../applications/humanoid-robot-joint-actuators.md){ .md-button }
 [Exoskeleton Joint Applications](../../applications/exoskeleton-joint-actuators.md){ .md-button }
-[Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
+[Request CAD, Sample and Quote](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button }
 
 ## Engineering Documents
 
@@ -89,6 +89,6 @@ STEP models, detailed drawings, interface documents, noise-test records and serv
 
 ## Contact SigGear
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)

@@ -19,7 +19,7 @@ The 12 published models are public reference platforms. A custom project can sta
 [**Replace / Redesign Existing Gearbox**](../../custom-engineering/gearbox-failure-analysis-durability-redesign.md){ .md-button }
 [**Prototype → Volume Production**](../../custom-engineering/oem-volume-manufacturing-delivery.md){ .md-button }
 
-**Have a model in mind or need a custom version?** [**Request a sample / engineering quote**](../../request-cad-sample-quote.md?start=standard_product&path=gearbox_only){ .md-button }
+**Have a model in mind or need a custom version?** [**Request a sample / engineering quote**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Product%20Inquiry){ .md-button }
 
 **Factory proof:** [Manufacturing & Quality Evidence](../../company/manufacturing-and-quality-evidence.md) · [Source-Backed Manufacturing Facts](../../company/source-backed-manufacturing-facts.md) · [Equipment & Inspection Capability](../../company/manufacturing-equipment-inspection-capability.md)
 

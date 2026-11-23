@@ -1,59 +1,20 @@
+---
+title: Contact SigGear | Luffy Wang
+description: Contact Luffy Wang at luffy@siggear.com directly for SigGear engineering, custom transmission and OEM inquiries. No forms.
+---
+
 # Contact SigGear
 
-## Sales Contact
+<div class="siggear-direct-contact" id="engineering-project-brief">
+  <p class="siggear-contact-eyebrow">DIRECT ENGINEERING &amp; OEM INQUIRIES</p>
+  <h2>Email SigGear directly</h2>
+  <p class="siggear-contact-intro">No forms or required fields. Tell us what you need in your own words.</p>
+  <a class="siggear-direct-email" data-siggear-contact-link href="mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry" aria-label="Email SigGear at luffy@siggear.com">luffy@siggear.com</a>
+  <a class="md-button md-button--primary siggear-direct-send" data-siggear-contact-link href="mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry">Send Your Inquiry by Email</a>
+  <p class="siggear-contact-hint">Click the email address or button to open your email app. Include a short description, model number, drawing, STEP file or photo if available.</p>
+  <p class="siggear-contact-person"><strong>Luffy Wang</strong> · International Sales / Sales Engineer · SigGear</p>
+</div>
 
-**Wanrong Wang**
+**Company:** Guangdong SigGear Drive Intelligent Technology Co., Ltd.
 
-International Sales, SigGear
-
-- Email: [luffy@siggear.com](mailto:luffy@siggear.com)
-
-## Social Channels
-
-- YouTube: [@siggeardrive](https://www.youtube.com/@siggeardrive)
-- Instagram: [@luffywan.robotics](https://www.instagram.com/luffywan.robotics/)
-
-Telephone and WhatsApp details are available upon request.
-
-## Product Inquiry
-
-For miniature and compact planetary gearbox projects, start with the route that matches your project.
-
-### I Already Have a Motor — Gearbox Only
-
-For a first review, send:
-
-- Motor model or drawing
-- Motor speed
-- Required output speed or ratio
-- Maximum gearbox / assembly diameter and length
-- Load or torque, if known
-
-[Start Gearbox-Only Review](mailto:luffy@siggear.com?subject=Gearbox%20Only%20Review%20-%20Existing%20Motor&body=Existing%20motor%20model%20%2F%20drawing%3A%20%0AMotor%20speed%3A%20%0ARequired%20output%20speed%20or%20ratio%3A%20%0AMaximum%20gearbox%20%2F%20assembly%20size%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button .md-button--primary }
-
-### I Need a Complete Motor + Gearbox Assembly
-
-For a first review, send:
-
-- Application / what needs to move
-- Required output speed
-- Load or torque, if known
-- Maximum diameter and total length
-- Operating voltage
-
-[Start Motor + Gearbox Review](mailto:luffy@siggear.com?subject=Motor%20%2B%20Gearbox%20Engineering%20Review&body=Application%20%2F%20what%20needs%20to%20move%3A%20%0ARequired%20output%20speed%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0AMaximum%20diameter%20and%20total%20length%3A%20%0AOperating%20voltage%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button .md-button--primary }
-
-A complete specification is not required for the first review. If you have a mechanism sketch, motor drawing or CAD screenshot, attach it to the email.
-
-Useful project information when available includes company and country, project stage, prototype quantity, annual volume and delivery destination.
-
-[Browse 8–42 mm Planetary Gearboxes](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
-[Request CAD, Sample and Quote](request-cad-sample-quote.md){ .md-button }
-
-## Technical Files Policy
-
-Selected products have public Engineering Packs with released CAD / STEP and interface resources that can be used before contacting SigGear.
-
-[Open the Engineering Center](engineering-center/index.md)
-
-Controlled production drawings, configuration-specific wiring / communication documents, and noise, thermal or service-life information are supplied according to the selected product and application review.
+[YouTube](https://www.youtube.com/@siggeardrive) · [Instagram](https://www.instagram.com/luffywan.robotics/)

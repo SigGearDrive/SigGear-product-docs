@@ -77,4 +77,4 @@ Series 02 Mechanical A and B share electrical codes but have different outlines.
 
 </details>
 
-[**Find a Planetary Gearbox**](../../selection-guides/planetary-gearhead-quick-selector.md) · [**All Planetary Gearbox PDFs / 2D / STEP**](../planetary-gearboxes/public-cad-release-v1.md) · [**Start Existing-Motor Review**](../../request-cad-sample-quote.md?start=existing_motor&path=gearbox_only)
+[**Find a Planetary Gearbox**](../../selection-guides/planetary-gearhead-quick-selector.md) · [**All Planetary Gearbox PDFs / 2D / STEP**](../planetary-gearboxes/public-cad-release-v1.md) · [**Start Existing-Motor Review**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Existing%20Motor)

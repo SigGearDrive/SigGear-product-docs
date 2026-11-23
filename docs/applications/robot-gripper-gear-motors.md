@@ -99,10 +99,10 @@ Final selection depends on the actual mechanism, motor, ratio, duty cycle, inter
 
 If you already have the motor or hand mechanism, the fastest starting point is the motor drawing plus the required output motion and available space.
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)
 
-[Request Engineering Review](../request-cad-sample-quote.md?app=dexterous_hand_gripper){ .md-button .md-button--primary }
+[Request Engineering Review](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20dexterous%20hand%20gripper){ .md-button .md-button--primary }
 
 **Related:** [Micro Robotics Gear Motors](micro-robotics-gear-motors.md) · [8–16 mm Micro Gearheads](../products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md)

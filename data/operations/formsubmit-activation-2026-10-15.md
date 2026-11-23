@@ -2,9 +2,9 @@
 
 **Activation status:** SigGear owner confirmed on **2026-11-23** that a FormSubmit test message was received by the new address **luffy@siggear.com**, following the independent activation test flow. This is an owner-reported receipt, not a provider-dashboard audit. The previous address **wangwanrong@siggear.com** was separately activated and tested on **2026-10-15**.
 
-**Live form:** https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/
+**Current direct-email contact page:** https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/
 
-**Current published mode (2026-11-23):** Following owner-confirmed test receipt, native FormSubmit online submission to **luffy@siggear.com** is the default. **Prepare Email Instead** and **Copy Project Brief** remain available.
+**Current published mode (2026-11-23, latest owner direction):** The customer-facing inquiry form has been retired. A large, direct **mailto:luffy@siggear.com** contact link is now the first-screen default, without any required form fields. The historical FormSubmit test remains recorded below.
 
 ## Previous mailbox activation history (2026-10-15, preserved as audit record)
 
@@ -15,7 +15,7 @@
 
 The previous `?form_setup=1` test URL is obsolete: it neither changes the live online form mode nor proves inbox delivery. Customers should use the standard inquiry URL.
 
-## Delivery architecture and privacy
+## Historical FormSubmit delivery architecture and privacy (retired from current public UI)
 
 - SigGear runs on GitHub Pages, and the public form performs a native HTTPS POST to FormSubmit. The provider handles the CAPTCHA and forwards the request to SigGear.
 - The customer's **contact email** and **explicit data-processing acknowledgment** are mandatory for online sending. The contact name is optional; the application field is required.
@@ -32,7 +32,7 @@ The previous `?form_setup=1` test URL is obsolete: it neither changes the live o
 - Mark it **qualified** only after a real application need, identifiable reply route, and next meaningful action are confirmed.
 - Periodically submit non-confidential test data to verify the recipient mailbox and CAPTCHA workflow; investigate spam or provider delivery failure if results differ.
 
-## Emergency fallback / rollback
+## Historical FormSubmit rollback procedure (not current direct-email UI)
 
 If inbox delivery stops: use the existing **Prepare Email Instead** button; contact the provider. To temporarily disable online POST, change `ONLINE_DELIVERY_VERIFIED` to `false`, increment the `inquiry-form.js` cache-busting version in `mkdocs.yml`, and redeploy after validation. This restores the direct-email default without touching SEO pages or the selection-tool handoff.
 
@@ -44,3 +44,10 @@ If inbox delivery stops: use the existing **Prepare Email Instead** button; cont
 - The public form uses native HTTPS POST to `https://formsubmit.co/luffy@siggear.com` with CAPTCHA, honeypot, contact email and explicit privacy consent. Direct email and Copy Project Brief stay available.
 - The temporary activation page is removed when enabling live customer submission; validate the release with CI and live-site audit.
 - After release, check the inbox regularly, periodically send a non-confidential production-page test, and roll back to `ONLINE_DELIVERY_VERIFIED = false` immediately if delivery stops.
+
+## Direct-email simplification — 2026-11-23
+
+- Owner requested that every public inquiry path avoid forms, conditional fields, or mandatory specification templates. The first-screen action is a large visible mailto link to **luffy@siggear.com**, with the direct email button available without a web form.
+- The earlier FormSubmit activation and test results remain historical evidence; online FormSubmit submission is deliberately retired from the public inquiry interface, not described as broken.
+- The legacy request-cad-sample-quote URL remains a live direct-email contact page so historical product, distributor, SEO and campaign links are not broken.
+- Real email receipt (not link clicks) remains the source of truth for delivered/qualified leads. GA4 mailto clicks are intent-only.

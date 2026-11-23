@@ -25,6 +25,6 @@ description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + g
 
 *Candidate sizes only. Rated torque and length depend on the selected stage/ratio; verify motor coupling and mechanical interface. Robot performance depends on motor and control system.*
 
-[Motor PDFs](../engineering-resources/motors/index.md) · [Gearhead CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [Motor + Gearhead](../custom-engineering/motor-gearbox-integration.md) · [Selector](../selection-guides/planetary-gearhead-quick-selector.md) · [Contact](../request-cad-sample-quote.md)
+[Motor PDFs](../engineering-resources/motors/index.md) · [Gearhead CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [Motor + Gearhead](../custom-engineering/motor-gearbox-integration.md) · [Selector](../selection-guides/planetary-gearhead-quick-selector.md) · [Contact](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry)
 
 **Related:** [Robot gripper drives](robot-gripper-gear-motors.md)

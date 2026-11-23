@@ -21,7 +21,7 @@ SigGear can review a failed planetary gearbox or compact reducer as an engineeri
 
 This is an engineering review path, not a promise that every failure can be solved by one material or geometry change.
 
-[**Start a Failure / Durability Review**](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button .md-button--primary }
+[**Start a Failure / Durability Review**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Replacement%20Gearhead){ .md-button .md-button--primary }
 [**Existing Gearbox Replacement / Redesign**](replacement-planetary-gearhead.md){ .md-button }
 
 **Public manufacturing evidence:** SigGear publishes company-level gear-processing, CMM, gear-inspection, dynamometer and life-test resources that may support a redesign program. [Review manufacturing & inspection capability](../company/manufacturing-equipment-inspection-capability.md).
@@ -129,7 +129,7 @@ A useful initial package can be as simple as:
 
 SigGear does not need a finished redesign specification before the first review.
 
-[**Send Failed Gearbox / Evidence for Review**](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button .md-button--primary }
+[**Send Failed Gearbox / Evidence for Review**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Replacement%20Gearhead){ .md-button .md-button--primary }
 
 ## From Failure Evidence to Prototype
 
@@ -188,8 +188,8 @@ Those conclusions require configuration-specific engineering evidence and valida
 
 Send the failed gearbox, drawing, motor information, photographs or operating details you already have.
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)
 
-[**Start Failure / Durability Review**](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button .md-button--primary }
+[**Start Failure / Durability Review**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Replacement%20Gearhead){ .md-button .md-button--primary }

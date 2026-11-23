@@ -109,7 +109,7 @@ A CAD fit check does not replace application testing. The selected gearbox shoul
 
 If the 32P is a possible fit, send the selected ratio or target output speed, required continuous and momentary torque, motor information and installation constraints.
 
-[Request Controlled CAD, Sample and Quote](../../request-cad-sample-quote.md?model=32P&next_step=cad_review){ .md-button .md-button--primary }
+[Request Controlled CAD, Sample and Quote](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2032P){ .md-button .md-button--primary }
 
 ## Related Product Resources
 
@@ -119,6 +119,6 @@ If the 32P is a possible fit, send the selected ratio or target output speed, re
 
 ## Engineering Contact
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)

@@ -120,7 +120,11 @@ def main() -> None:
             required_paths.add(
                 "/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/"
             )
-            required_paths.add("/SigGear-product-docs/request-cad-sample-quote/")
+            direct_inquiry_links = [
+                href for href in collector.hrefs
+                if href.startswith("mailto:luffy@siggear.com")
+            ]
+            require(direct_inquiry_links, f"{page_slug} is missing one-click email inquiry")
 
             missing = sorted(required_paths - rendered_paths)
             if missing:

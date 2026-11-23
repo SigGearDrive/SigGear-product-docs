@@ -27,7 +27,7 @@ ESSENTIAL = (
     "docs/index.md",
     "docs/request-cad-sample-quote.md",
     "docs/assets/javascripts/organization-schema.js",
-    "docs/assets/javascripts/inquiry-form.js",
+    "docs/assets/javascripts/direct-contact.js",
     "README.md",
     "data/sales/public-sales-policy.yml",
     "data/external-catalogs/planetary-gearboxes.yml",
@@ -60,17 +60,18 @@ def main() -> None:
         if not file.is_file() or CURRENT not in file.read_text(encoding="utf-8"):
             failures.append(f"Missing approved public sales email {CURRENT} in {name}")
 
-    inquiry = (DOCS / "assets/javascripts/inquiry-form.js").read_text(encoding="utf-8")
-    if "var ONLINE_DELIVERY_VERIFIED = true;" not in inquiry:
-        failures.append("Verified Luffy FormSubmit recipient must have online POST enabled")
-    if f'form.action = "https://formsubmit.co/{CURRENT}"' not in inquiry:
-        failures.append("Future FormSubmit destination must point to approved mailbox")
+    inquiry = (DOCS / "assets/javascripts/direct-contact.js").read_text(encoding="utf-8")
     if f'mailto:{CURRENT}?subject=' not in inquiry:
-        failures.append("Engineering brief's safe direct-email recipient is incorrect")
+        failures.append("Direct-contact JavaScript must open the approved mailbox")
 
-    page = (DOCS / "request-cad-sample-quote.md").read_text(encoding="utf-8")
-    if "**Send Engineering Request Online**" not in page or "**Prepare Email Instead**" not in page:
-        failures.append("Public inquiry page must explain online delivery and direct-email fallback")
+    for name in ("request-cad-sample-quote.md", "contact.md"):
+        page = (DOCS / name).read_text(encoding="utf-8")
+        for token in (CURRENT, "Luffy Wang", 'class="siggear-direct-email"',
+                      f'href="mailto:{CURRENT}?subject='):
+            if token not in page:
+                failures.append(f"Missing first-screen direct contact in {name}: {token}")
+        if "<form" in page.lower() or "formsubmit.co" in page.lower():
+            failures.append(f"Legacy form still present on {name}")
 
     if failures:
         print("PUBLIC CONTACT EMAIL AUDIT FAILED")
@@ -78,7 +79,7 @@ def main() -> None:
             print("- " + issue)
         raise SystemExit(1)
     print(f"PASS: {len(all_files)} active public source files, {emails} company email references; all {CURRENT}")
-    print("PASS: verified FormSubmit online default with safe direct-email fallback")
+    print("PASS: Luffy Wang and direct-email-only inquiry, no customer-facing form")
 
 
 if __name__ == "__main__":

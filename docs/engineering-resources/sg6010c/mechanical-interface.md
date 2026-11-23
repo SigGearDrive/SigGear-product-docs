@@ -59,7 +59,7 @@ Before final tooling or production release, confirm:
 - External radial and axial load condition
 - Driver configuration when electronics are included
 
-[Request Controlled Drawing / Integration Support](../../request-cad-sample-quote.md){ .md-button }
+[Request Controlled Drawing / Integration Support](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button }
 
 ## Related Resource
 
@@ -67,6 +67,6 @@ Before final tooling or production release, confirm:
 
 ## Engineering Contact
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)

@@ -5,6 +5,13 @@ description: A structured production-release readiness review after pilot build,
 
 # Production Release Review
 
+<p class="siggear-home-contact">Email Luffy Wang directly: <a href="mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry"><strong>luffy@siggear.com</strong></a></p>
+
+[**Send an Inquiry Now**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
+
+*You can email us immediately; any technical checklist or calculator below is optional and not required to make contact.*
+
+
 Use this review **after a pilot build has been completed and reviewed by the responsible project / engineering / quality teams**.
 
 This page does not approve a pilot result, Production Release or mass production. It organizes the information needed before a human production-release review.
@@ -155,6 +162,6 @@ If the pilot configuration changes after acceptance, return the affected configu
 [Open Pilot Preparation Review](pilot-preparation-review.md){ .md-button }
 [Prototype → Design-In → Production](../custom-engineering/prototype-to-production.md){ .md-button }
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)

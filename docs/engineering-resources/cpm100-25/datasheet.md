@@ -85,7 +85,7 @@ Two **different original full assembly** STEP exports are available:
 
 The second file corresponds to the separate **SG2556D** dual-encoder configuration. These CAD versions are not interchangeable. Configuration-controlled 2D drawings and installation tolerances require the matching engineering release.
 
-[Request Controlled 2D Drawing](../../request-cad-sample-quote.md){ .md-button }
+[Request Controlled 2D Drawing](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button }
 
 ## Noise, Life and Thermal Data
 
@@ -116,6 +116,6 @@ Please provide:
 
 ## Engineering Contact
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)

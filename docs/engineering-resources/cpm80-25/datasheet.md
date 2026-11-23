@@ -94,6 +94,6 @@ The original full assembly STEP files and simplified STEP files are separate eng
 
 ## Engineering Contact
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)

@@ -82,7 +82,7 @@ Its **all-solid bounding envelope** is approximately **72.53 mm × 34.86 mm × 7
 
 For packaging, interference checking or design-in, request the configuration-matched CAD from SigGear. A simplified public external-interface STEP may be released separately after geometry simplification and engineering review.
 
-[Request SG-6010HB CAD / Controlled Drawing](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Request SG-6010HB CAD / Controlled Drawing](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
 
 ## Design-In Boundary
 
@@ -106,6 +106,6 @@ Before final design freeze, confirm:
 
 ## Engineering Contact
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)

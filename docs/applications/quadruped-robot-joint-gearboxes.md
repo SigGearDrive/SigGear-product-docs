@@ -37,4 +37,4 @@ description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + g
 
 </details>
 
-[All 6 Joint Modules](../engineering-resources/robot-joint-actuators/quick-downloads.md) · [Motor PDFs](../engineering-resources/motors/index.md) · [Gearhead CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [Motor + Gearhead](../custom-engineering/motor-gearbox-integration.md) · [Selector](../selection-guides/planetary-gearhead-quick-selector.md) · [Contact](../request-cad-sample-quote.md)
+[All 6 Joint Modules](../engineering-resources/robot-joint-actuators/quick-downloads.md) · [Motor PDFs](../engineering-resources/motors/index.md) · [Gearhead CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [Motor + Gearhead](../custom-engineering/motor-gearbox-integration.md) · [Selector](../selection-guides/planetary-gearhead-quick-selector.md) · [Contact](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry)

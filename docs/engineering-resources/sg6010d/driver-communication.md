@@ -112,7 +112,7 @@ Before final integration, confirm:
 - Current and speed limits
 - Customer controller requirements
 
-[Request Integration Files](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Request Integration Files](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
 
 ## Related Resources
 
@@ -122,6 +122,6 @@ Before final integration, confirm:
 
 ## Engineering Contact
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)

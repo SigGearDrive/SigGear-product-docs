@@ -25,4 +25,4 @@ description: "16P, 24P and 32P planetary gearheads for charging port flaps and b
 
 *Candidate sizes only. Rated torque and length depend on the selected stage/ratio; verify the motor and mechanical interface.*
 
-[Motor PDFs](../engineering-resources/motors/index.md) · [Gearhead CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [Motor + Gearhead](../custom-engineering/motor-gearbox-integration.md) · [Selector](../selection-guides/planetary-gearhead-quick-selector.md) · [Contact](../request-cad-sample-quote.md)
+[Motor PDFs](../engineering-resources/motors/index.md) · [Gearhead CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [Motor + Gearhead](../custom-engineering/motor-gearbox-integration.md) · [Selector](../selection-guides/planetary-gearhead-quick-selector.md) · [Contact](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry)

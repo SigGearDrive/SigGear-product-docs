@@ -5,6 +5,13 @@ description: Enter loaded motor RPM and target output RPM to compare SigGear 8�
 
 # Planetary Gearbox Quick Selector · Ø8–42 mm
 
+<p class="siggear-home-contact">Email Luffy Wang directly: <a href="mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry"><strong>luffy@siggear.com</strong></a></p>
+
+[**Send an Inquiry Now**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
+
+*You can email us immediately; any technical checklist or calculator below is optional and not required to make contact.*
+
+
 **Enter motor speed + output speed → compare published ratios and rated torque → download PDF / 2D / STEP.**
 
 [**All model downloads**](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button }

@@ -5,6 +5,11 @@ description: "SigGear is a custom gearbox and precision transmission manufacture
 
 # SigGear | Custom Precision Transmission Manufacturing
 
+<p class="siggear-home-contact">Engineering inquiries: <a href="mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry"><strong>luffy@siggear.com</strong></a></p>
+
+[**Email Luffy Wang Directly**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
+
+
 **SigGear develops and manufactures custom compact transmission solutions for engineering teams that need more than a catalog product.**
 
 The standard products published on this site are **public reference platforms**. They show real transmission architectures, manufacturing scope, technical data and design-in resources that can be shared openly. They represent only the part of SigGear's work that can be published.

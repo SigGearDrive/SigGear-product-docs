@@ -88,7 +88,7 @@ The file is a **driver-equipped assembly**; it is not a reference for the driver
 
 For packaging, tolerance stack-up or production design-in, request the current controlled drawing and configuration-matched CAD file.
 
-[Request Controlled Drawing / CAD](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Request Controlled Drawing / CAD](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
 
 ## Related Resource
 
@@ -97,6 +97,6 @@ For packaging, tolerance stack-up or production design-in, request the current c
 
 ## Engineering Contact
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)

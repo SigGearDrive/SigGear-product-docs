@@ -25,7 +25,7 @@ description: "Compare SigGear 16P, 20P and 22P planetary gearheads for motorized
 
 *Candidate sizes only. Rated torque and length depend on the selected stage/ratio; verify motor coupling and mechanical interface. Reduction does not guarantee holding.*
 
-[Motor PDFs](../engineering-resources/motors/index.md) · [Gearhead CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [Motor + Gearhead](../custom-engineering/motor-gearbox-integration.md) · [Selector](../selection-guides/planetary-gearhead-quick-selector.md?app=electric_curtain_blind#preliminary-ratio-stage-finder) · [Contact](../request-cad-sample-quote.md)
+[Motor PDFs](../engineering-resources/motors/index.md) · [Gearhead CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [Motor + Gearhead](../custom-engineering/motor-gearbox-integration.md) · [Selector](../selection-guides/planetary-gearhead-quick-selector.md?app=electric_curtain_blind#preliminary-ratio-stage-finder) · [Contact](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry)
 
 **Related:** [Small appliance lids](consumer-appliance-home-device-gear-motors.md)
 

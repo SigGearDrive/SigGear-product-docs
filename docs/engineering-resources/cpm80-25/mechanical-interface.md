@@ -72,7 +72,7 @@ Before final release, confirm:
 - Duty cycle and thermal condition
 - Encoder and communication configuration
 
-[Request Controlled Drawing / Engineering Support](../../request-cad-sample-quote.md){ .md-button }
+[Request Controlled Drawing / Engineering Support](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button }
 
 ## Related Resources
 

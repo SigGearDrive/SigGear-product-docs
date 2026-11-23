@@ -5,6 +5,13 @@ description: A structured pilot-preparation review for SigGear projects after De
 
 # Pilot Preparation Review
 
+<p class="siggear-home-contact">Email Luffy Wang directly: <a href="mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry"><strong>luffy@siggear.com</strong></a></p>
+
+[**Send an Inquiry Now**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
+
+*You can email us immediately; any technical checklist or calculator below is optional and not required to make contact.*
+
+
 Use this review after the project has reached **Design-In Review Ready** and the responsible engineering / project teams have separately confirmed **Design Freeze**.
 
 This page does not approve Design Freeze, Pilot Preparation Ready or Production Release. It helps organize the information needed for a human pilot-preparation review.
@@ -122,6 +129,6 @@ The website never automatically sets:
 [Open Design-In Checklist](design-in-checklist.md){ .md-button }
 [Prototype → Design-In → Production](../custom-engineering/prototype-to-production.md){ .md-button }
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)

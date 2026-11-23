@@ -34,6 +34,6 @@ Customer-specific work belongs in an approved private project or customer-manage
 
 ## Sales Contact
 
-**Wanrong Wang**
+**Luffy Wang**
 International Sales, SigGear
 [luffy@siggear.com](mailto:luffy@siggear.com)

@@ -5,6 +5,13 @@ description: "Need a custom gearbox or precision reducer from an existing motor,
 
 # Custom Gearbox & Transmission Review — Start From Your Motor, Drawing or Failed Unit
 
+<p class="siggear-home-contact">Email Luffy Wang directly: <a href="mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry"><strong>luffy@siggear.com</strong></a></p>
+
+[**Send an Inquiry Now**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
+
+*You can email us immediately; any technical checklist or calculator below is optional and not required to make contact.*
+
+
 Many precision transmission projects do not start with a catalog model.
 
 They start with a practical engineering problem:
@@ -21,7 +28,7 @@ These are exactly the kinds of projects SigGear is built to review.
 
 SigGear is a precision transmission manufacturer focused on **custom engineering, prototype development, repeatable volume manufacturing and production delivery**. The public 8–42 mm planetary gearboxes, cycloidal reducers and robot joint actuators are reference platforms; many customer-specific products and production programs remain confidential.
 
-[**Start an Engineering Review**](../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[**Email SigGear Directly**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
 [**Custom Manufacturing & Volume Production**](custom-transmission-manufacturing.md){ .md-button }
 
 ## “Here Is My Motor.”
@@ -42,7 +49,7 @@ Useful information includes:
 The final reduction ratio does not need to be known before the first review.
 
 [Planetary Gearbox for an Existing Motor](custom-planetary-gearbox.md){ .md-button .md-button--primary }
-[Start Existing-Motor Review](../request-cad-sample-quote.md?start=existing_motor&path=gearbox_only){ .md-button }
+[Start Existing-Motor Review](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Existing%20Motor){ .md-button }
 
 ## “Here Is Our Drawing / STEP / Sample.”
 
@@ -62,7 +69,7 @@ SigGear can review:
 A simple mechanism drawing, STEP model or physical sample can be enough to begin identifying the missing engineering inputs.
 
 [Custom Gearbox From Drawing / STEP](custom-gearbox-from-drawing-cad.md){ .md-button .md-button--primary }
-[Start Drawing / STEP Review](../request-cad-sample-quote.md?start=drawing_cad){ .md-button }
+[Start Drawing / STEP Review](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Drawing%20or%20STEP){ .md-button }
 
 ## “Our Existing Gearbox Needs Replacement / Redesign.”
 
@@ -84,7 +91,7 @@ Useful inputs include:
 The objective is not to promise a “perfect replacement” from a photo. It is to identify **what must remain unchanged, what needs to change, and why the original unit no longer meets the project requirement** before evaluating a revised transmission.
 
 [Replacement Planetary Gearbox Review](replacement-planetary-gearhead.md){ .md-button .md-button--primary }
-[Start Replacement / Redesign Review](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button }
+[Start Replacement / Redesign Review](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Replacement%20Gearhead){ .md-button }
 
 ## “We Need Prototypes First, Then Thousands in Production.”
 
@@ -114,7 +121,7 @@ For production-oriented projects, useful commercial / manufacturing information 
 SigGear works to support short production lead times for applicable volume programs after the configuration, quantity and production plan are confirmed. Actual lead time remains project-specific.
 
 [Prototype → Volume Production](prototype-to-production.md){ .md-button .md-button--primary }
-[Start Prototype-to-Volume Review](../request-cad-sample-quote.md?start=prototype_to_volume){ .md-button }
+[Start Prototype-to-Volume Review](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Prototype%20to%20Production){ .md-button }
 
 ## Confidential / NDA Projects
 
@@ -177,8 +184,8 @@ You can send:
 - a prototype requirement
 - a production forecast
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)
 
-[**Start Custom Transmission Review**](../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[**Start Custom Transmission Review**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }

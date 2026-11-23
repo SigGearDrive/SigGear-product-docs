@@ -80,7 +80,7 @@ async function run(input) {
     const fromApp = await run({query: "?app=" + app});
     assert.equal(fromApp.applicationContext.hidden, false);
     assert.ok(fromApp.applicationContext.textContent.includes(label), "Matching app context label must be visible");
-    assert.match(fromApp.results, new RegExp("&app=" + app));
+    assert.match(fromApp.results, /mailto:luffy@siggear\.com\?subject=/);
     assert.ok(fromApp.gaEvents.some(x =>
       x.name === "ratio_stage_selector_run" && x.params.inquiry_application === app
     ));
@@ -89,12 +89,12 @@ async function run(input) {
 
   const appNoMatch = await run({query: "?app=electric_curtain_blind", torque:"1.0", peak:"1.2"});
   assert.match(appNoMatch.results, /Send This Requirement for Engineering Review/);
-  assert.match(appNoMatch.results, /&amp;app=electric_curtain_blind/);
-  assert.match(appNoMatch.results, /start=existing_motor/);
-  assert.match(appNoMatch.results, /start=drawing_cad/);
-  assert.match(appNoMatch.results, /start=failing_gearbox/);
-  assert.match(appNoMatch.results, /start=prototype_to_volume/);
-  console.log("PASS no-match custom feasibility request retains app context and four project-start paths");
+  assert.match(appNoMatch.results, /mailto:luffy@siggear\.com\?subject=/);
+  assert.match(appNoMatch.results, /Existing%20Motor/);
+  assert.match(appNoMatch.results, /Drawing%20or%20STEP/);
+  assert.match(appNoMatch.results, /Gearhead%20Replacement/);
+  assert.match(appNoMatch.results, /Prototype%20to%20Production/);
+  console.log("PASS no-match custom feasibility offers four one-click direct-email topics");
 
   const injected = await run({query: "?app=%3Cscript%3Eevil%3C%2Fscript%3E"});
   assert.equal(injected.applicationContext.hidden,true);
@@ -105,7 +105,7 @@ async function run(input) {
   const from12p = await run({ diameter: "", query: "?max_diameter=12" });
   assert.equal(from12p.fields["sg-selector-diameter"].value, "12");
   assert.match(from12p.results, /12P/);
-  assert.match(from12p.results, /selector_max_diameter=12/);
+  assert.match(from12p.results, /mailto:luffy@siggear\.com\?subject=/);
   console.log("PASS 12P model-page link prefills editable maximum diameter");
 
   const ignoreInvalid = await run({ diameter: "", query: "?max_diameter=19" });
@@ -121,15 +121,15 @@ async function run(input) {
   assert.match(good.results, /12P/);
   assert.match(good.results, /42\.9:1/);
   assert.match(good.results, /0\.353 N·m/);
-  assert.match(good.results, /selector_continuous_nm=0\.20000/);
-  assert.match(good.results, /selector_peak_nm=0\.40000/);
+  assert.match(good.results, /mailto:luffy@siggear\.com\?subject=/);
+  
   assert.match(good.results, /12P_Planetary_Gearhead_Datasheet_Rev1\.1\.pdf/);
   assert.match(good.results, /12P_2D_Drawing\.pdf/);
   assert.match(good.results, /12P_Full_Assembly\.step/);
   assert.match(good.results, /More configurations and excluded models/);
   assert.match(good.results, /candidate-design-in-pack/);
-  assert.match(good.results, /selector_max_diameter=12/);
-  assert.match(good.results, /selector_max_gearbox_length=18/);
+  
+  
   assert.match(good.results, /ratio-dependent efficiency has not been separately verified/);
   console.log("PASS 12P 3-stage matching, published rating, and Design-In/inquiry links");
 
@@ -165,12 +165,12 @@ async function run(input) {
   const excessivePeak = await run({ peak:"1.0" });
   assert.match(excessivePeak.results, /No published standard configuration remains/);
   assert.match(excessivePeak.results, /Send This Requirement for Engineering Review/);
-  assert.match(excessivePeak.results, /selector_peak_nm=1.00000/);
+  assert.match(excessivePeak.results, /mailto:luffy@siggear\.com\?subject=/);
   console.log("PASS excessive peak load excluded from catalog and referred for customization");
 
   const excessiveContinuous = await run({torque: "1.0", peak: "1.2"});
   assert.match(excessiveContinuous.results, /No published standard configuration remains/);
-  assert.match(excessiveContinuous.results, /selector_continuous_nm=1.00000/);
+  assert.match(excessiveContinuous.results, /mailto:luffy@siggear\.com\?subject=/);
   assert.match(excessiveContinuous.results, /Send This Requirement for Engineering Review/);
   console.log("PASS excessive continuous load passed to custom engineering rather than rejected");
 

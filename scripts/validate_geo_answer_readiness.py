@@ -22,7 +22,7 @@ PAGES = {
             "## Quick Answer",
             "Public manufacturing evidence:",
             "Project-specific boundary:",
-            "request-cad-sample-quote.md",
+            "mailto:luffy@siggear.com",
         ],
     },
     "drawing_step_sample": {
@@ -31,7 +31,7 @@ PAGES = {
             "Here Is Our Drawing / STEP / Sample",
             "Public manufacturing evidence:",
             "Project-specific boundary:",
-            "request-cad-sample-quote.md?start=drawing_cad",
+            "mailto:luffy@siggear.com",
         ],
     },
     "replacement_redesign": {
@@ -40,7 +40,7 @@ PAGES = {
             "We Need to Keep the Motor and Mounting Interface",
             "Public manufacturing evidence:",
             "Project-specific boundary:",
-            "request-cad-sample-quote.md?start=failing_gearbox",
+            "mailto:luffy@siggear.com",
         ],
     },
     "failure_durability": {
@@ -49,7 +49,7 @@ PAGES = {
             "Our Current Gearbox Keeps Failing",
             "Public manufacturing evidence:",
             "Project-specific boundary:",
-            "request-cad-sample-quote.md?start=failing_gearbox",
+            "mailto:luffy@siggear.com",
         ],
     },
     "prototype_to_volume": {
@@ -58,7 +58,7 @@ PAGES = {
             "We Need 20 Prototypes and Later Thousands in Production",
             "Public production evidence:",
             "Project-specific boundary:",
-            "request-cad-sample-quote.md",
+            "mailto:luffy@siggear.com",
         ],
     },
     "supplier_qualification": {
@@ -67,7 +67,7 @@ PAGES = {
             "## Quick Answer",
             "### SigGear Public Evidence Snapshot",
             "company-level, date-stamped facts",
-            "request-cad-sample-quote.md",
+            "mailto:luffy@siggear.com",
         ],
     },
 }

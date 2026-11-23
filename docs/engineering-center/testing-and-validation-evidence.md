@@ -126,10 +126,10 @@ A source-backed test can support a decision. It should not be expanded into a br
 [8–42 mm Planetary Gearbox Series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button .md-button--primary }
 [Sample Validation Workflow](sample-validation-workflow.md){ .md-button }
 [Design-In Checklist](design-in-checklist.md){ .md-button }
-[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
+[Request CAD, Sample and Quote](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button }
 
 ## Engineering Contact
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)

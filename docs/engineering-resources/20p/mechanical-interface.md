@@ -43,7 +43,7 @@ A detailed full-assembly 20P STEP is still retained as configuration-controlled 
 
 For another stage count or final production release, request the configuration-matched controlled CAD / drawing.
 
-[Request 20P Controlled CAD / Drawing](../../request-cad-sample-quote.md){ .md-button }
+[Request 20P Controlled CAD / Drawing](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button }
 
 ## Design-In Boundary
 
@@ -59,6 +59,6 @@ Before final design freeze, confirm:
 
 ## Engineering Contact
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)

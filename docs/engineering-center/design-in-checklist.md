@@ -218,9 +218,9 @@ If any of these remain unclear, keep the project in engineering evaluation rathe
 
 [Open the Engineering Center](index.md){ .md-button .md-button--primary }
 [Open the Sample Validation Workflow](sample-validation-workflow.md){ .md-button }
-[Request CAD, Sample and Quote](../request-cad-sample-quote.md){ .md-button }
+[Request CAD, Sample and Quote](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button }
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)
 

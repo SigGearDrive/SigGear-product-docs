@@ -25,7 +25,7 @@ Replace bracketed fields only with confirmed information. Remove any section tha
 > Please also let us know your preferred contact method.
 >
 > Best regards,
-> Wanrong Wang
+> Luffy Wang
 > SigGear
 > luffy@siggear.com
 
@@ -44,7 +44,7 @@ Replace bracketed fields only with confirmed information. Remove any section tha
 > Once these are available, we can compare the requirement with the published SigGear range and determine whether a standard or custom solution is needed.
 >
 > Best regards,
-> Wanrong Wang
+> Luffy Wang
 
 ## Preliminary Product Candidate
 
@@ -69,7 +69,7 @@ Replace bracketed fields only with confirmed information. Remove any section tha
 > Customization scope, engineering cost, sample lead time and production lead time will be confirmed after the technical review.
 >
 > Best regards,
-> Wanrong Wang
+> Luffy Wang
 
 ## Technical File Request
 
@@ -88,4 +88,4 @@ Replace bracketed fields only with confirmed information. Remove any section tha
 > If the project is active, please let me know which specification or product option is closest to your needs and whether the prototype quantity or schedule has been decided. We can then continue the model and configuration review.
 >
 > Best regards,
-> Wanrong Wang
+> Luffy Wang

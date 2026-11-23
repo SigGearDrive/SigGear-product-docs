@@ -16,7 +16,7 @@ description: "SigGear 10P Ø10 mm micro planetary gearhead: ratios 3.5:1–428.7
 | --- | --- | --- | --- | --- |
 | **10 mm** | **3.5:1–428.7:1** | **10.25–18.50 mm** | **127.5–196.1 mN·m** | **≤ 1.5°** |
 
-**Custom 10P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=10P&start=existing_motor&path=gearbox_only) · [Review my drawing / STEP](../../request-cad-sample-quote.md?model=10P&start=drawing_cad) · [Replace / redesign existing gearbox](../../request-cad-sample-quote.md?model=10P&start=failing_gearbox&path=gearbox_only) · [Prototype → volume](../../request-cad-sample-quote.md?model=10P&start=prototype_to_volume)
+**Custom 10P interface or motor fit?** [Match my motor](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2010P%20-%20Existing%20Motor) · [Review my drawing / STEP](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2010P%20-%20Drawing%20or%20STEP) · [Replace / redesign existing gearbox](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2010P%20-%20Replacement%20Gearhead) · [Prototype → volume](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2010P%20-%20Prototype%20to%20Production)
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/10p/datasheet.md) · [Official 2D Drawing PDF](../../assets/downloads/10p/10P_2D_Drawing.pdf) · [Motor-only datasheets](../../engineering-resources/motors/index.md#10-mm-dc-motors) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 

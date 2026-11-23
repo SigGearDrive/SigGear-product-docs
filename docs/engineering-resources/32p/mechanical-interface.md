@@ -91,7 +91,7 @@ Before final tooling or production release, confirm:
 - radial and axial load direction
 - duty cycle and thermal condition
 
-[Request Controlled CAD / Engineering Support](../../request-cad-sample-quote.md){ .md-button }
+[Request Controlled CAD / Engineering Support](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button }
 
 ## Related Resources
 

@@ -25,6 +25,6 @@ description: "Compare SigGear 8P, 10P and 12P micro planetary gearheads for opti
 
 *Candidate sizes only. Rated torque and length depend on the selected stage/ratio; verify motor coupling and mechanical interface. No application certification is implied.*
 
-[Motor PDFs](../engineering-resources/motors/index.md) · [Gearhead CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [Motor + Gearhead](../custom-engineering/motor-gearbox-integration.md) · [Selector](../selection-guides/planetary-gearhead-quick-selector.md) · [Contact](../request-cad-sample-quote.md)
+[Motor PDFs](../engineering-resources/motors/index.md) · [Gearhead CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [Motor + Gearhead](../custom-engineering/motor-gearbox-integration.md) · [Selector](../selection-guides/planetary-gearhead-quick-selector.md) · [Contact](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry)
 
 **Related:** [Camera focus drives](optical-imaging-camera-module-gear-motors.md)
