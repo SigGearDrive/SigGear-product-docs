@@ -5,6 +5,13 @@ description: SigGear develops and manufactures custom compact transmission solut
 
 # Custom Precision Transmission Engineering
 
+<p class="siggear-home-contact">Email Luffy Wang directly: <a href="mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry"><strong>luffy@siggear.com</strong></a></p>
+
+[**Send an Inquiry Now**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
+
+*You can email us immediately; any technical checklist or calculator below is optional and not required to make contact.*
+
+
 ## Custom Engineering Is the Core, Standard Products Are the Public Reference
 
 The public SigGear catalog is not the full scope of the company's work. Many customer-specific products cannot be shown because the designs, mechanisms, interfaces and production programs are protected by confidentiality agreements.
@@ -35,7 +42,7 @@ SigGear works with engineering teams on compact precision transmission problems 
 
 The first step is to understand what the mechanism needs to do. From there, the transmission structure, ratio, motor interface and other design details can be evaluated.
 
-[Discuss Your Application](../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Discuss Your Application](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
 [Send Your Drawing or Concept](mailto:luffy@siggear.com?subject=Custom%20Transmission%20Engineering%20Review){ .md-button }
 
 ## What SigGear Can Help Engineers Evaluate
@@ -229,9 +236,9 @@ Send the information you already have.
 
 A complete gearbox specification is not required before the first discussion.
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)
 
-[Request Engineering Review](../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Request Engineering Review](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
 [Send Your Drawing or Concept](mailto:luffy@siggear.com?subject=Custom%20Transmission%20Engineering%20Review){ .md-button }

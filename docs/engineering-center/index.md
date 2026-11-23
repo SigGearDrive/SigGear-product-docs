@@ -38,7 +38,7 @@ Use the public resources below for preliminary engineering evaluation. Robot act
 | Verify company-level factory, equipment and shipment facts | [Source-Backed Manufacturing Facts](../company/source-backed-manufacturing-facts.md) |
 | Review gear processing, CMM and test equipment | [Manufacturing Equipment & Inspection Capability](../company/manufacturing-equipment-inspection-capability.md) |
 | Review real test / metrology capability and released test records | [Testing, Metrology & Validation Evidence](testing-and-validation-evidence.md) |
-| Request configuration-specific files or a sample | [Request STEP, Sample or Engineering Review](../request-cad-sample-quote.md) |
+| Request configuration-specific files or a sample | [Request STEP, Sample or Engineering Review](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry) |
 
 ## Robot Joint Actuator Downloads
 
@@ -48,9 +48,9 @@ Use the public resources below for preliminary engineering evaluation. Robot act
 
 | Product | Datasheet PDF | 2D Reference PDF | Original Full STEP |
 | --- | --- | --- | --- |
-| [**SG-6010C**](../products/robot-joint-actuators/sg6010c.md) | [**PDF**](../assets/downloads/joint-actuators/SG-6010C_Public_Reference_Datasheet_Rev0.1.pdf) | [Request drawing](../request-cad-sample-quote.md) | [**STEP**](../assets/downloads/joint-actuators/SG-6010C_Original_Full_Assembly_20261118.step) |
+| [**SG-6010C**](../products/robot-joint-actuators/sg6010c.md) | [**PDF**](../assets/downloads/joint-actuators/SG-6010C_Public_Reference_Datasheet_Rev0.1.pdf) | [Request drawing](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry) | [**STEP**](../assets/downloads/joint-actuators/SG-6010C_Original_Full_Assembly_20261118.step) |
 | [**SG-6010D**](../products/robot-joint-actuators/sg6010d.md) | [**PDF**](../assets/downloads/joint-actuators/SG-6010D_Public_Reference_Datasheet_Rev0.1.pdf) | [**2D PDF**](../assets/downloads/joint-actuators/SG-6010D_2D_Assembly_Drawing.pdf) | [**STEP**](../assets/downloads/joint-actuators/SG-6010D_Original_Full_Assembly_20261118.step) |
-| [**SG-8021**](../products/robot-joint-actuators/sg8021.md) | [**PDF**](../assets/downloads/joint-actuators/SG-8021_Public_Reference_Datasheet_Rev0.1.pdf) | [Request drawing](../request-cad-sample-quote.md) | [**STEP · Driver version**](../assets/downloads/joint-actuators/SG-8021_Driver_Version_Original_Full_Assembly_20261118.step) |
+| [**SG-8021**](../products/robot-joint-actuators/sg8021.md) | [**PDF**](../assets/downloads/joint-actuators/SG-8021_Public_Reference_Datasheet_Rev0.1.pdf) | [Request drawing](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry) | [**STEP · Driver version**](../assets/downloads/joint-actuators/SG-8021_Driver_Version_Original_Full_Assembly_20261118.step) |
 | [**CPM-78-39**](../products/cycloidal-joint-modules/cpm78-39.md) | [**PDF**](../assets/downloads/joint-actuators/CPM-78-39_Public_Reference_Datasheet_Rev0.1.pdf) | Model mapping pending | [**STEP**](../assets/downloads/joint-actuators/CPM-78-39_Original_Full_Assembly_20261118.step) |
 | [**CPM-80-25**](../products/cycloidal-joint-modules/cpm80-25.md) | [**PDF**](../assets/downloads/joint-actuators/CPM-80-25_Public_Reference_Datasheet_Rev0.1.pdf) | [**No driver · 29.7 mm**](../assets/downloads/joint-actuators/CPM-80-25_2D_No_Driver_29p7mm.pdf) · [**With driver · 41.2 mm**](../assets/downloads/joint-actuators/CPM-80-25_2D_Integrated_Driver_41p2mm.pdf) | [**No driver**](../assets/downloads/joint-actuators/CPM-80-25_Original_Full_Assembly_No_Driver_20261118.step) · [**With driver**](../assets/downloads/joint-actuators/CPM-80-25_Original_Full_Assembly_Integrated_Driver_20261118.step) |
 | [**CPM-100-25**](../products/cycloidal-joint-modules/cpm100-25.md) | [**PDF**](../assets/downloads/joint-actuators/CPM-100-25_Public_Reference_Datasheet_Rev0.1.pdf) | [**Dual encoder + driver · 48 mm only**](../assets/downloads/joint-actuators/CPM-100-25D_2D_Dual_Encoder_Driver_48mm.pdf) | [**Standard · 29.5 mm**](../assets/downloads/joint-actuators/CPM-100-25_Original_Full_Assembly_No_Driver_20261118.step) · [**Dual encoder + driver · 48 mm**](../assets/downloads/joint-actuators/CPM-100-25D_Dual_Encoder_Driver_Original_Full_Assembly_20261118.step) |
@@ -59,7 +59,7 @@ Use the public resources below for preliminary engineering evaluation. Robot act
 
 **2D publication status:** These four source 2D PDFs are public *engineering references*, not approved manufacturing-controlled drawings. CPM-78-39 drawing-to-model correspondence is still awaiting sign-off. Driver versions must not be treated as dimensionally interchangeable.
 
-**Separate model — [SG-6010HB](../products/robot-joint-actuators/sg6010hb.md):** [**Download Reference Datasheet PDF**](../assets/downloads/joint-actuators/SG-6010HB_Public_Reference_Datasheet_Rev0.1.pdf) · [Mechanical Interface](../engineering-resources/sg6010hb/mechanical-interface.md) · [Request configuration-matched STEP / drawing](../request-cad-sample-quote.md). **No SG-6010HB STEP is approved for public release.**
+**Separate model — [SG-6010HB](../products/robot-joint-actuators/sg6010hb.md):** [**Download Reference Datasheet PDF**](../assets/downloads/joint-actuators/SG-6010HB_Public_Reference_Datasheet_Rev0.1.pdf) · [Mechanical Interface](../engineering-resources/sg6010hb/mechanical-interface.md) · [Request configuration-matched STEP / drawing](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry). **No SG-6010HB STEP is approved for public release.**
 
 [All six joint models and simplified STEP files](../engineering-resources/robot-joint-actuators/quick-downloads.md){ .md-button }
 
@@ -94,7 +94,7 @@ Use the public resources below for preliminary engineering evaluation. Robot act
 
 **Release status matters:** Some motor PDFs are marked **Draft / source review** and have low-resolution or conflicting source drawings. See the status beside each PDF in the library. Motor-only parameters do **not** establish a verified Motor + Gearbox Assembly: shaft, pinion, speed, ratio, thermal duty and mounting compatibility still require engineering confirmation.
 
-[**Match an Existing Motor to a Planetary Gearbox**](../request-cad-sample-quote.md?start=existing_motor&path=gearbox_only){ .md-button }
+[**Match an Existing Motor to a Planetary Gearbox**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Existing%20Motor){ .md-button }
 
 ## Public vs. Configuration-Specific Documentation
 
@@ -168,8 +168,8 @@ If the project starts from a motor, drawing, installation envelope or mechanism 
 
 If the current public Engineering Packs do not cover the required size, ratio, driver or interface, send the application and the few parameters you already know. A complete specification is not required for the first review.
 
-[Request STEP, Sample or Engineering Review](../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Request STEP, Sample or Engineering Review](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)

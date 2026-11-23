@@ -32,7 +32,7 @@ Depending on the project, the engineering path may start from:
 
 [Send Your Joint Requirement](mailto:luffy@siggear.com?subject=Robot%20Joint%20and%20Compact%20Actuator%20Engineering%20Review){ .md-button .md-button--primary }
 [Humanoid and Bipedal Robot Joint Engineering](../applications/humanoid-robot-joint-actuators.md){ .md-button }
-[Request Engineering Review](../request-cad-sample-quote.md){ .md-button }
+[Request Engineering Review](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button }
 
 ## What Can SigGear Supply?
 
@@ -304,9 +304,9 @@ SigGear therefore uses public actuator platforms, gearbox platforms, CAD resourc
 
 Send the joint requirement, robot CAD, mechanism, motor or the information you already have.
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)
 
-[Request Engineering Review](../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Request Engineering Review](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
 [Send Your Joint Requirement](mailto:luffy@siggear.com?subject=Robot%20Joint%20and%20Compact%20Actuator%20Engineering%20Review){ .md-button }

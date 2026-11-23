@@ -11,7 +11,7 @@ SigGear's role can continue beyond prototype development into **repeatable batch
 
 This page describes the manufacturing path and planning information required. It does **not** publish one universal production capacity or guaranteed lead time for every product.
 
-[**Discuss a Prototype-to-Volume Project**](../request-cad-sample-quote.md?start=prototype_to_volume){ .md-button .md-button--primary }
+[**Discuss a Prototype-to-Volume Project**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Prototype%20to%20Production){ .md-button .md-button--primary }
 [**Prototype → Volume Production**](prototype-to-production.md){ .md-button }
 
 ## Start Production Planning Before the Prototype Is Final
@@ -137,7 +137,7 @@ A customer can help production planning by providing:
 
 When timing is important, include the target schedule in the first engineering brief.
 
-[Start Prototype-to-Volume Review](../request-cad-sample-quote.md?start=prototype_to_volume){ .md-button .md-button--primary }
+[Start Prototype-to-Volume Review](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Prototype%20to%20Production){ .md-button .md-button--primary }
 
 ## Confidential Production Programs
 
@@ -184,8 +184,8 @@ For a meaningful first discussion, send:
 - NDA requirement
 - technical requirements already known
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)
 
-[**Discuss Prototype → Volume Production**](../request-cad-sample-quote.md?start=prototype_to_volume){ .md-button .md-button--primary }
+[**Discuss Prototype → Volume Production**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Prototype%20to%20Production){ .md-button .md-button--primary }

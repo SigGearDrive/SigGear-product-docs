@@ -20,7 +20,7 @@ The first review should separate two questions:
 
 SigGear can review the old unit against the real operating condition and determine whether the best path is a standard platform, a modified platform or a custom replacement.
 
-[**Start Existing Gearbox Replacement Review**](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button .md-button--primary }
+[**Start Existing Gearbox Replacement Review**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Replacement%20Gearhead){ .md-button .md-button--primary }
 [**Failure / Durability Analysis**](gearbox-failure-analysis-durability-redesign.md){ .md-button }
 [**Keep Existing Motor — Review Interface**](custom-planetary-gearbox.md){ .md-button }
 
@@ -31,7 +31,7 @@ SigGear can review the old unit against the real operating condition and determi
 SigGear can review its 8–42 mm planetary gearbox platforms as starting points for a replacement or modified configuration. A replacement is **not described as drop-in or fully compatible until the mechanical, performance and operating requirements have been checked.**
 
 [**Browse 8–42 mm Gearboxes**](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md){ .md-button }
-[**Send Existing Unit / Drawing for Review**](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button }
+[**Send Existing Unit / Drawing for Review**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Replacement%20Gearhead){ .md-button }
 
 ## What to Send First
 
@@ -186,8 +186,8 @@ A typical path is:
 
 Send the existing drawing, motor information, failed-part photos or physical sample information you already have.
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)
 
-[Request Replacement / Redesign Review](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button .md-button--primary }
+[Request Replacement / Redesign Review](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Replacement%20Gearhead){ .md-button .md-button--primary }

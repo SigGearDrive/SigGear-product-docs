@@ -13,7 +13,7 @@ SigGear is a **custom gearbox and precision transmission manufacturer** supporti
 
 The first review should include the prototype quantity, expected annual volume, motor / mechanism, target output, installation envelope and schedule if known. Prototype success does not automatically guarantee production readiness; the configuration still needs validation, design freeze, inspection definition and pilot preparation before repeat manufacturing.
 
-[Discuss Prototype → Volume Project](../request-cad-sample-quote.md?start=prototype_to_volume){ .md-button .md-button--primary }
+[Discuss Prototype → Volume Project](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Prototype%20to%20Production){ .md-button .md-button--primary }
 [Send Your Drawing or Requirement](mailto:luffy@siggear.com?subject=Prototype%20to%20Production%20Transmission%20Project){ .md-button }
 
 **Public production evidence:** SigGear's official 2025 catalog publishes a customization path through sample development, small-batch verification, mass production and delivery; separate company sources document the current factory and manufacturing equipment. [Review source-backed manufacturing facts](../company/source-backed-manufacturing-facts.md).
@@ -351,9 +351,9 @@ Send the current drawing, motor, mechanism or problem.
 
 SigGear can review what is already defined, what is still missing and what should be validated next.
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)
 
-[Request Engineering Review](../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Request Engineering Review](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
 [Send Your Project](mailto:luffy@siggear.com?subject=Prototype%20to%20Production%20Transmission%20Project){ .md-button }
