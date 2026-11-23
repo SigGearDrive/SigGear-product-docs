@@ -39,7 +39,7 @@ Both catalog models use planetary reduction structures and Hall sensors. An exte
 ## Related AGV and AMR Resources
 
 [AGV and AMR Wheel Drive Selection Guide](../../applications/agv-amr-wheel-drive-gearboxes.md){ .md-button .md-button--primary }
-[Request CAD, Sample and Quote](../../request-cad-sample-quote.md?start=standard_product&path=hub_gear_motor){ .md-button }
+[Request CAD, Sample and Quote](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Product%20Inquiry){ .md-button }
 
 ## Selection Support
 
@@ -47,4 +47,4 @@ For selection, provide vehicle weight, wheel diameter, number of driven wheels, 
 
 Public-reference datasheets are available above without an inquiry. Source 2D drawings, configuration-matched 3D CAD, cable definitions and manufacturing-controlled mounting documents require engineering review.
 
-[Contact Wanrong Wang](../../contact.md)
+[Contact Luffy Wang](../../contact.md)
