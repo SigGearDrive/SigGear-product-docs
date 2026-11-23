@@ -565,7 +565,7 @@
       if (appField) appField.focus();
       return;
     }
-    var href = "mailto:wangwanrong@siggear.com?subject=" +
+    var href = "mailto:luffy@siggear.com?subject=" +
       encodeURIComponent(subjectLine()) +
       "&body=" + encodeURIComponent(buildBrief());
     track("engineering_brief_prepare_email", briefMetrics());
@@ -588,7 +588,7 @@
     // Native cross-origin POST retains FormSubmit's reCAPTCHA flow. AJAX
     // submissions and disabled CAPTCHA are intentionally not used.
     form.method = "POST";
-    form.action = "https://formsubmit.co/wangwanrong@siggear.com";
+    form.action = "https://formsubmit.co/luffy@siggear.com";
     if (contactEmail) contactEmail.required = true;
     if (onlineConsent) onlineConsent.required = true;
     if (onlineConsentWrap) {

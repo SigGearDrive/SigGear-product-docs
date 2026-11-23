@@ -141,7 +141,7 @@
     var subject = context.model + " - " + context.stage + "-stage " +
       fmt(context.ratio, 4) + ":1 - Design-In Review";
 
-    window.location.href = "mailto:wangwanrong@siggear.com?subject=" +
+    window.location.href = "mailto:luffy@siggear.com?subject=" +
       encodeURIComponent(subject) + "&body=" + encodeURIComponent(lines.join("\n"));
   }
 

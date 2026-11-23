@@ -199,7 +199,7 @@
     actionStatus.textContent = "Opening your email client with the pilot-preparation review summary...";
     track("pilot_preparation_prepare_email");
 
-    window.location.href = "mailto:wangwanrong@siggear.com?subject=" +
+    window.location.href = "mailto:luffy@siggear.com?subject=" +
       encodeURIComponent(subject) + "&body=" + encodeURIComponent(summary);
   }
 
