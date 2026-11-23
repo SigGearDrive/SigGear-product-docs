@@ -85,4 +85,4 @@ Configuration-specific drawings, CAD, noise information and service-life informa
 
 **Wanrong Wang**  
 International Sales, SigGear  
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+[luffy@siggear.com](mailto:luffy@siggear.com)
