@@ -25,6 +25,6 @@ description: "Compare SigGear 10P, 16P and 20P gearheads for small appliance lid
 
 *Candidate sizes only. Rated torque and length depend on the selected stage/ratio; verify motor coupling and mechanical interface. Appliance safety requires OEM validation.*
 
-[Motor PDFs](../engineering-resources/motors/index.md) · [Gearhead CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [Motor + Gearhead](../custom-engineering/motor-gearbox-integration.md) · [Selector](../selection-guides/planetary-gearhead-quick-selector.md) · [Contact](../request-cad-sample-quote.md)
+[Motor PDFs](../engineering-resources/motors/index.md) · [Gearhead CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [Motor + Gearhead](../custom-engineering/motor-gearbox-integration.md) · [Selector](../selection-guides/planetary-gearhead-quick-selector.md) · [Contact](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry)
 
 **Related:** [Smart toilet lids](smart-toilet-bidet-planetary-gear-motors.md) · [Cabinet latches](smart-hardware-gear-motors.md)
