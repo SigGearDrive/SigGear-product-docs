@@ -16,7 +16,7 @@ description: "SigGear 16P Ø16 mm micro planetary gearhead/gearbox: 3.85:1–459
 | --- | --- | --- | --- | --- |
 | **16 mm** | **3.85:1–459.5:1** | **17.55–30.45 mm** | **392.3–882.6 mN·m** | **≤ 1.5°** |
 
-**Custom 16P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=16P&start=existing_motor&path=gearbox_only) · [Review my drawing / STEP](../../request-cad-sample-quote.md?model=16P&start=drawing_cad) · [Replace / redesign existing gearbox](../../request-cad-sample-quote.md?model=16P&start=failing_gearbox&path=gearbox_only) · [Prototype → volume](../../request-cad-sample-quote.md?model=16P&start=prototype_to_volume)
+**Custom 16P interface or motor fit?** [Match my motor](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2016P%20-%20Existing%20Motor) · [Review my drawing / STEP](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2016P%20-%20Drawing%20or%20STEP) · [Replace / redesign existing gearbox](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2016P%20-%20Replacement%20Gearhead) · [Prototype → volume](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2016P%20-%20Prototype%20to%20Production)
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/16p/datasheet.md) · [Official 2D Drawing PDF](../../assets/downloads/16p/16P_2D_Drawing.pdf) · [Motor-only datasheets](../../engineering-resources/motors/index.md#16-mm-dc-motors) · [Compare Micro 8–16 mm](micro-planetary-gearheads-8-16mm.md) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 

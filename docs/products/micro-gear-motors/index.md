@@ -73,7 +73,7 @@ Please provide:
 [Browse Planetary Gearboxes](../planetary-gearboxes/index.md){ .md-button }
 [Micro Robotics Applications](../../applications/micro-robotics-gear-motors.md){ .md-button }
 [Medical and Laboratory Applications](../../applications/medical-device-micro-gear-motors.md){ .md-button }
-[Request CAD, Sample and Quote](../../request-cad-sample-quote.md){ .md-button }
+[Request CAD, Sample and Quote](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button }
 
 ## Engineering Documents
 
@@ -83,6 +83,6 @@ Configuration-specific drawings, CAD, noise information and service-life informa
 
 ## Contact SigGear
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)

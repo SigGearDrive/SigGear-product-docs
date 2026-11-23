@@ -16,7 +16,7 @@ description: "SigGear 20P Ø20 mm miniature planetary gearhead/gearbox: ratios 4
 | --- | --- | --- | --- | --- |
 | **20 mm** | **4:1–1296:1** | **20.1–34.5 mm** | **588.4–1274.9 mN·m** | **≤ 1.5°** |
 
-**Custom 20P interface or motor fit?** [Match my motor](../../request-cad-sample-quote.md?model=20P&start=existing_motor&path=gearbox_only) · [Review my drawing / STEP](../../request-cad-sample-quote.md?model=20P&start=drawing_cad) · [Replace / redesign existing gearbox](../../request-cad-sample-quote.md?model=20P&start=failing_gearbox&path=gearbox_only) · [Prototype → volume](../../request-cad-sample-quote.md?model=20P&start=prototype_to_volume)
+**Custom 20P interface or motor fit?** [Match my motor](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2020P%20-%20Existing%20Motor) · [Review my drawing / STEP](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2020P%20-%20Drawing%20or%20STEP) · [Replace / redesign existing gearbox](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2020P%20-%20Replacement%20Gearhead) · [Prototype → volume](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2020P%20-%20Prototype%20to%20Production)
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/20p/datasheet.md) · [Official 2D Drawing PDF](../../assets/downloads/20p/20P_2D_Drawing.pdf) · [Motor-only datasheets](../../engineering-resources/motors/index.md#20-mm-bldc-motor) · [Compare Miniature 20–32 mm](miniature-planetary-gearheads-20-32mm.md) · [All 12 models](8-42mm-planetary-gear-reducer.md)
 

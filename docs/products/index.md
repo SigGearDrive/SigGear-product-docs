@@ -28,9 +28,9 @@ description: Find direct SigGear 8–42 mm planetary gearbox PDF, 2D and STEP fi
 
 **Already have a motor, drawing, failed reducer or target performance?** SigGear can review mechanical fit, customization and prototype-to-volume requirements. You do not need to select a catalogue model first.
 
-[**I Have a Motor**](../request-cad-sample-quote.md?start=existing_motor&path=gearbox_only){ .md-button }
-[**I Have a Drawing / STEP**](../request-cad-sample-quote.md?start=drawing_cad){ .md-button }
-[**Prototype → Volume Production**](../request-cad-sample-quote.md?start=prototype_to_volume){ .md-button }
+[**I Have a Motor**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Existing%20Motor){ .md-button }
+[**I Have a Drawing / STEP**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Drawing%20or%20STEP){ .md-button }
+[**Prototype → Volume Production**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Prototype%20to%20Production){ .md-button }
 
 [Custom OEM Manufacturing](../custom-engineering/custom-transmission-manufacturing.md) · [Manufacturing Evidence](../company/manufacturing-and-quality-evidence.md)
 
