@@ -86,7 +86,7 @@ Driver hardware and firmware can evolve by ordered configuration. Confirm the dr
 
 Detailed CAN protocol documentation, Quick Start instructions, firmware-specific integration notes and related support files are provided after inquiry so the documentation can be matched to the selected driver and firmware configuration.
 
-[Request Integration Documentation](../../request-cad-sample-quote.md){ .md-button }
+[Request Integration Documentation](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button }
 
 ## Selection Information Required
 
@@ -104,6 +104,6 @@ Please provide:
 
 ## Engineering Contact
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)

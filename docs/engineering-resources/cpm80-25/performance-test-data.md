@@ -52,4 +52,4 @@ Actual results depend on controller settings, current limit, thermal state, duty
 Do not use stall points as continuous operating ratings. The public rated output torque remains **10 Nm** and peak output torque remains **50 Nm** for preliminary product selection. Confirm the required torque-speed cycle and peak duration for the actual project.
 
 [CPM-80-25 Technical Datasheet](datasheet.md){ .md-button }
-[Request Engineering Review](../../request-cad-sample-quote.md){ .md-button }
+[Request Engineering Review](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button }

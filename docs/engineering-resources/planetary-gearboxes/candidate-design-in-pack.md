@@ -5,6 +5,13 @@ description: Review a validated SigGear 8P–42P planetary gearbox candidate by 
 
 # Planetary Gearbox Candidate Design-In Pack
 
+<p class="siggear-home-contact">Email Luffy Wang directly: <a href="mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry"><strong>luffy@siggear.com</strong></a></p>
+
+[**Send an Inquiry Now**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
+
+*You can email us immediately; any technical checklist or calculator below is optional and not required to make contact.*
+
+
 Use this page after the SigGear Ratio & Stage Selection Tool has narrowed the project to a published **model + stage + ratio** candidate.
 
 This page does **not** convert the public 4-stage STEP into stage-specific production CAD. It rechecks the candidate against the current published ratio-stage data and explains which resources can be used for preliminary Design-In.
@@ -87,7 +94,7 @@ This page does **not** convert the public 4-stage STEP into stage-specific produ
 
     <h2>Controlled CAD Review Readiness</h2>
 
-    Before treating a configuration-specific CAD request as ready for engineering review, the Project Brief checks five items:
+    For a configuration-specific CAD review, SigGear engineering may discuss these items after your first email; they are not mandatory fields to contact us:
 
     1. **Candidate configuration** — validated model + stage + published ratio.
     2. **Motor / drive-side interface** — existing motor drawing / model, shaft and mounting reference, or a drive-side configuration confirmed by SigGear.
@@ -95,7 +102,7 @@ This page does **not** convert the public 4-stage STEP into stage-specific produ
     4. **Load / duty** — continuous / peak load information and duty cycle / peak duration.
     5. **Installation envelope** — maximum diameter and/or length constraint.
 
-    Use the **Request Controlled CAD / Engineering Review** button above to carry the validated candidate into the Project Brief and check these five gates.
+    Use **Request Controlled CAD / Engineering Review** to email SigGear directly about the configuration; missing information can follow.
 
     **Ready for CAD Review** means enough information is present for SigGear engineering to begin a configuration-specific review. It does **not** mean controlled CAD has already been approved or released.
 
@@ -133,6 +140,6 @@ For a selected **4-stage** configuration, the public STEP matches the published 
 
 ## Engineering Contact
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)

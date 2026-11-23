@@ -91,7 +91,7 @@ Controlled 2D drawings, CAN / integration documentation and other configuration-
 
 This 2D source PDF is a public evaluation copy, not the approved manufacturing-controlled drawing. Configuration-specific driver and connection details still require confirmation.
 
-[Request CAD, Drawing or Integration Files](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Request CAD, Drawing or Integration Files](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
 
 ## Selection Information Required
 
@@ -116,6 +116,6 @@ Please provide:
 
 ## Engineering Contact
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)

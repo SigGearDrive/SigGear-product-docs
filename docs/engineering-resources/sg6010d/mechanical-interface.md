@@ -78,7 +78,7 @@ There is no separate public simplified STEP for this model; the STEP link above 
 
 The original supplier drawing is now linked as a non-controlled public 2D reference. For tolerance stack-up or production, request the approved configuration-matched controlled drawing.
 
-[Request Controlled Drawing / CAD](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Request Controlled Drawing / CAD](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
 
 ## Related Resource
 
@@ -87,6 +87,6 @@ The original supplier drawing is now linked as a non-controlled public 2D refere
 
 ## Engineering Contact
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)
