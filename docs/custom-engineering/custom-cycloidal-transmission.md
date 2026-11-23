@@ -23,7 +23,7 @@ For a compact robot joint, actuator or rotary mechanism, the first engineering r
 
 SigGear can review these inputs and determine whether an existing cycloidal platform, a modified cycloidal configuration, a planetary solution or another arrangement should be evaluated.
 
-[Send Your Joint Requirement](mailto:wangwanrong@siggear.com?subject=Custom%20Cycloidal%20Transmission%20Engineering%20Review){ .md-button .md-button--primary }
+[Send Your Joint Requirement](mailto:luffy@siggear.com?subject=Custom%20Cycloidal%20Transmission%20Engineering%20Review){ .md-button .md-button--primary }
 [Request Engineering Review](../request-cad-sample-quote.md){ .md-button }
 
 ## When a Cycloidal Structure May Be Worth Evaluating
@@ -228,7 +228,7 @@ Send the information you already have — even if the ratio, motor or final tran
 
 **Wanrong Wang**  
 International Sales / Sales Engineer, SigGear  
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+[luffy@siggear.com](mailto:luffy@siggear.com)
 
 [Request Engineering Review](../request-cad-sample-quote.md){ .md-button .md-button--primary }
-[Send Your Joint Requirement](mailto:wangwanrong@siggear.com?subject=Custom%20Cycloidal%20Transmission%20Engineering%20Review){ .md-button }
+[Send Your Joint Requirement](mailto:luffy@siggear.com?subject=Custom%20Cycloidal%20Transmission%20Engineering%20Review){ .md-button }
