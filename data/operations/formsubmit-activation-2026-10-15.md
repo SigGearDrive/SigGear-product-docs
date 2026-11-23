@@ -44,3 +44,10 @@ If inbox delivery stops: use the existing **Prepare Email Instead** button; cont
 - The public form uses native HTTPS POST to `https://formsubmit.co/luffy@siggear.com` with CAPTCHA, honeypot, contact email and explicit privacy consent. Direct email and Copy Project Brief stay available.
 - The temporary activation page is removed when enabling live customer submission; validate the release with CI and live-site audit.
 - After release, check the inbox regularly, periodically send a non-confidential production-page test, and roll back to `ONLINE_DELIVERY_VERIFIED = false` immediately if delivery stops.
+
+## Direct-email simplification — 2026-11-23
+
+- Owner requested that every public inquiry path avoid forms, conditional fields, or mandatory specification templates. The first-screen action is a large visible mailto link to **luffy@siggear.com**, with the direct email button available without a web form.
+- The earlier FormSubmit activation and test results remain historical evidence; online FormSubmit submission is deliberately retired from the public inquiry interface, not described as broken.
+- The legacy request-cad-sample-quote URL remains a live direct-email contact page so historical product, distributor, SEO and campaign links are not broken.
+- Real email receipt (not link clicks) remains the source of truth for delivered/qualified leads. GA4 mailto clicks are intent-only.
