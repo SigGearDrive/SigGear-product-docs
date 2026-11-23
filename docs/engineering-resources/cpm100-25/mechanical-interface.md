@@ -101,4 +101,4 @@ The 48 mm dual-encoder/driver version has a different envelope from the standard
 
 **Wanrong Wang**  
 International Sales / Sales Engineer, SigGear  
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+[luffy@siggear.com](mailto:luffy@siggear.com)
