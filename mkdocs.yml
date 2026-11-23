@@ -74,7 +74,7 @@ hooks:
   - hooks/seo_metadata.py
 
 extra_css:
-  - assets/stylesheets/inquiry-form.css?v=20261123-luffy-mail-safe
+  - assets/stylesheets/direct-contact.css?v=20261123-direct-email-ux
   - assets/stylesheets/planetary-real-photo-grid.css
   - assets/stylesheets/company-evidence-gallery.css
   - assets/stylesheets/joint-product-quick.css?v=20261119-model-file-downloads
@@ -90,7 +90,7 @@ extra_css:
 
 extra_javascript:
   - assets/javascripts/analytics-events.js?v=20261119-sg6010hb-public-pdf&rev=20261119-geo-form-self-click
-  - assets/javascripts/inquiry-form.js?v=20261123-luffy-formsubmit-active&rev=20261119-geo-entry-attribution
+  - assets/javascripts/direct-contact.js?v=20261123-direct-email-ux
   - assets/javascripts/ratio-stage-selector.js?v=20261118-quick-files
   - assets/javascripts/motor-quick-downloads.js?v=20261118-direct-pdfs
   - assets/javascripts/candidate-design-in-pack.js
@@ -116,7 +116,7 @@ extra:
       name: SigGear on YouTube
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/luffywan.robotics/
-      name: Wanrong Wang / SigGear on Instagram
+      name: Luffy Wang / SigGear on Instagram
   analytics:
     provider: google
     property: G-Q14K9BLGK4
@@ -351,5 +351,5 @@ nav:
       - Sales Usage and Review Status: knowledge-base/sales-usage-and-review-status.md
       - Sales Usage and Technical Review Status: knowledge-base/sales-usage-and-technical-review-status.md
       - Update Workflow: knowledge-base/update-workflow.md
-  - Request CAD, Sample and Quote: request-cad-sample-quote.md
+  - Email SigGear | Engineering Inquiry: request-cad-sample-quote.md
   - Contact: contact.md
