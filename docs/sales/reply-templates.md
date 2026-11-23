@@ -27,7 +27,7 @@ Replace bracketed fields only with confirmed information. Remove any section tha
 > Best regards,
 > Wanrong Wang
 > SigGear
-> wangwanrong@siggear.com
+> luffy@siggear.com
 
 ## Reply When Information Is Incomplete
 
