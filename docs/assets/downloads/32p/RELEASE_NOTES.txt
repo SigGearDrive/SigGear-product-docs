@@ -20,4 +20,4 @@ Supply options:
 - motor only
 - matched motor + gearbox assembly
 
-Engineering contact: wangwanrong@siggear.com
+Engineering contact: luffy@siggear.com
