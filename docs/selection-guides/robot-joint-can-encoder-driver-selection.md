@@ -116,6 +116,6 @@ For that reason, final actuator selection should be reviewed as one configuratio
 
 [Robot Joint Actuator Selection Guide](robot-joint-actuator-selection-guide.md){ .md-button }
 [Custom Robot Joint Development](../custom-engineering/robot-joint-actuator-development.md){ .md-button }
-[Request Engineering Review](../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Request Engineering Review](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
 
-**Contact:** Wanrong Wang · International Sales / Sales Engineer, SigGear · luffy@siggear.com
+**Contact:** Luffy Wang · International Sales / Sales Engineer, SigGear · luffy@siggear.com

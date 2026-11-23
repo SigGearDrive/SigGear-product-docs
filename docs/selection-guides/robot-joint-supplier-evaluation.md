@@ -110,8 +110,8 @@ For CAN / encoder / driver questions:
 
 Send the target torque, speed, joint envelope, voltage, external loads, encoder / communication requirement and prototype quantity if known.
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)
 
-[Request CAD, Sample or Engineering Review](../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Request CAD, Sample or Engineering Review](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
