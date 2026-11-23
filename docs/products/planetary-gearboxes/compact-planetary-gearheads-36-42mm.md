@@ -5,15 +5,6 @@ description: Compare SigGear 36P and 42P compact precision planetary gearboxes b
 
 # 36–42 mm Compact Precision Planetary Gearboxes
 
-**2 published sizes** · Datasheets · 2D drawings · Full assembly STEP · Stage/ratio tables
-
-These two standard models are public reference platforms. If the project needs a different motor interface, shaft, flange, ratio, packaging or production configuration, start from the actual project requirement.
-
-[**I Already Have a Motor**](../../custom-engineering/custom-planetary-gearbox.md){ .md-button .md-button--primary }
-[**I Have a Drawing / STEP**](../../custom-engineering/custom-gearbox-from-drawing-cad.md){ .md-button }
-[**Replace / Redesign Existing Gearbox**](../../custom-engineering/gearbox-failure-analysis-durability-redesign.md){ .md-button }
-[**Prototype → Volume Production**](../../custom-engineering/oem-volume-manufacturing-delivery.md){ .md-button }
-
 ## Direct PDF and STEP Downloads
 
 | Gearbox model | Datasheet PDF | 2D mechanical drawing | Full assembly STEP |
@@ -39,6 +30,16 @@ Photographs show the actual labelled SigGear reference models. For production di
     <figcaption><strong>Compact · 42P (Ø42 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/42p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
   </figure>
 </div>
+
+**2 published sizes** · Datasheets · 2D drawings · Full assembly STEP · Stage/ratio tables
+
+These two standard models are public reference platforms. If the project needs a different motor interface, shaft, flange, ratio, packaging or production configuration, start from the actual project requirement.
+
+[**I Already Have a Motor**](../../custom-engineering/custom-planetary-gearbox.md){ .md-button .md-button--primary }
+[**I Have a Drawing / STEP**](../../custom-engineering/custom-gearbox-from-drawing-cad.md){ .md-button }
+[**Replace / Redesign Existing Gearbox**](../../custom-engineering/gearbox-failure-analysis-durability-redesign.md){ .md-button }
+[**Prototype → Volume Production**](../../custom-engineering/oem-volume-manufacturing-delivery.md){ .md-button }
+
 
 ## Compare Published Specifications
 

@@ -5,13 +5,6 @@ description: "SigGear supplies 12 precision planetary gearhead sizes (miniature 
 
 # Precision Planetary Gearheads | 8–42 mm
 
-**SigGear OEM supply:** precision planetary gearheads (gearhead-only or motor + gearhead assemblies), **8 mm to 42 mm** in 12 Micro / Miniature / Compact frame sizes.
-
-[**Download Datasheets, 2D Drawings & STEP**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
-[**Find Ratio, Torque & Downloads**](../../selection-guides/planetary-gearhead-quick-selector.md){ .md-button }
-
-**Looking for a miniature planetary gearbox?** [Compare 20P–32P (Ø20–32 mm)](miniature-planetary-gearheads-20-32mm.md) · [Micro Ø8–16 mm](micro-planetary-gearheads-8-16mm.md) · [Compact Ø36–42 mm](compact-planetary-gearheads-36-42mm.md)
-
 ## All 12 Gearhead Models — Direct Downloads
 
 | Model | Reduction ratio · rated allowable torque* | Datasheet | 2D Drawing PDF | Full Assembly STEP | Simplified STEP |
@@ -29,6 +22,25 @@ description: "SigGear supplies 12 precision planetary gearhead sizes (miniature 
 | [36P · 36 mm](36p-planetary-gearbox.md) | **3.66:1–625:1** · 3922.7–9806.6 mN·m | [PDF Datasheet](../../assets/downloads/36p/36P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) · [Online specs](../../engineering-resources/36p/datasheet.md) | [2D Drawing PDF](../../assets/downloads/36p/36P_2D_Drawing.pdf) | [Download Full Assembly STEP](../../assets/downloads/36p/36P_Full_Assembly.step) | [4-stage STEP](../../assets/downloads/36p/36P_Public_Simplified_STEP_v1.0_4-Stage.step) |
 | [42P · 42 mm](42p-planetary-gearbox.md) | **3.8:1–660.7:1** · 7845.3–14710.0 mN·m | [PDF Datasheet](../../assets/downloads/42p/42P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) · [Online specs](../../engineering-resources/42p/datasheet.md) | [2D Drawing PDF](../../assets/downloads/42p/42P_2D_Drawing.pdf) | [Download Full Assembly STEP](../../assets/downloads/42p/42P_Full_Assembly.step) | [4-stage STEP](../../assets/downloads/42p/42P_Public_Simplified_STEP_v1.0_4-Stage.step) |
 
+
+## 12 Gearhead Models | Authentic Product Lineup
+
+This is a **real SigGear group photograph of the 8–42 mm planetary gearhead range**. The photo shows the products together for visual comparison; do not infer a specific reduction ratio, motor compatibility or performance rating from appearance alone. Use each model's controlled PDF datasheet, 2D drawing and STEP file above for engineering evaluation.
+
+<figure class="siggear-planetary-lineup">
+  <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/siggear-8-42mm-planetary-gearheads-real-lineup.jpg" alt="Actual SigGear 8–42 mm precision planetary gearheads, 12 model sizes photographed together in a single product lineup" width="2048" height="1365" loading="lazy" decoding="async">
+  <figcaption>SigGear precision planetary gearhead family · 12 sizes, 8P–42P · Original product lineup photograph.</figcaption>
+</figure>
+
+**Browse each model's individual photo and technical files:** [Micro 8–16 mm](micro-planetary-gearheads-8-16mm.md) · [Miniature 20–32 mm](miniature-planetary-gearheads-20-32mm.md) · [Compact 36–42 mm](compact-planetary-gearheads-36-42mm.md)
+
+**SigGear OEM supply:** precision planetary gearheads (gearhead-only or motor + gearhead assemblies), **8 mm to 42 mm** in 12 Micro / Miniature / Compact frame sizes.
+
+[**Download Datasheets, 2D Drawings & STEP**](../../engineering-resources/planetary-gearboxes/public-cad-release-v1.md){ .md-button .md-button--primary }
+[**Find Ratio, Torque & Downloads**](../../selection-guides/planetary-gearhead-quick-selector.md){ .md-button }
+
+**Looking for a miniature planetary gearbox?** [Compare 20P–32P (Ø20–32 mm)](miniature-planetary-gearheads-20-32mm.md) · [Micro Ø8–16 mm](micro-planetary-gearheads-8-16mm.md) · [Compact Ø36–42 mm](compact-planetary-gearheads-36-42mm.md)
+
 *Ratio and rated-torque ranges span different stages; the maximum rated torque does **not** apply to every ratio. Use each model's stage table before selecting a load.*
 
 ## Choose a Configuration
@@ -42,17 +54,6 @@ description: "SigGear supplies 12 precision planetary gearhead sizes (miniature 
 **Important:** Maximum momentary torque is not a continuous working rating. Published 2D drawings use configuration-dependent length **L**; confirm the selected stage, ratio and motor-to-gearhead interface before production. A **Full Assembly STEP** is distinct from the **simplified 4-stage STEP**.
 
 **Need integration details?** [Motor + Gearhead mating guide](../../custom-engineering/motor-gearbox-integration.md) · [Custom gearhead engineering](../../custom-engineering/custom-planetary-gearbox.md) · [Motor-only datasheets](../../engineering-resources/motors/index.md)
-
-## 12 Gearhead Models | Authentic Product Lineup
-
-This is a **real SigGear group photograph of the 8–42 mm planetary gearhead range**. The photo shows the products together for visual comparison; do not infer a specific reduction ratio, motor compatibility or performance rating from appearance alone. Use each model's controlled PDF datasheet, 2D drawing and STEP file above for engineering evaluation.
-
-<figure class="siggear-planetary-lineup">
-  <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/siggear-8-42mm-planetary-gearheads-real-lineup.jpg" alt="Actual SigGear 8–42 mm precision planetary gearheads, 12 model sizes photographed together in a single product lineup" width="2048" height="1365" loading="lazy" decoding="async">
-  <figcaption>SigGear precision planetary gearhead family · 12 sizes, 8P–42P · Original product lineup photograph.</figcaption>
-</figure>
-
-**Browse each model's individual photo and technical files:** [Micro 8–16 mm](micro-planetary-gearheads-8-16mm.md) · [Miniature 20–32 mm](miniature-planetary-gearheads-20-32mm.md) · [Compact 36–42 mm](compact-planetary-gearheads-36-42mm.md)
 
 
 <small>Product identity: Micro, Miniature and Compact Precision Planetary Gearheads (8–42 mm). Legacy product-inventory label: **8–42 mm Planetary Gear Reducer Series** (retained for traceability).</small>
