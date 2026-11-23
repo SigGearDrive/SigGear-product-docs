@@ -61,16 +61,16 @@ def main() -> None:
             failures.append(f"Missing approved public sales email {CURRENT} in {name}")
 
     inquiry = (DOCS / "assets/javascripts/inquiry-form.js").read_text(encoding="utf-8")
-    if "var ONLINE_DELIVERY_VERIFIED = false;" not in inquiry:
-        failures.append("Unverified new FormSubmit recipient must have online POST disabled")
+    if "var ONLINE_DELIVERY_VERIFIED = true;" not in inquiry:
+        failures.append("Verified Luffy FormSubmit recipient must have online POST enabled")
     if f'form.action = "https://formsubmit.co/{CURRENT}"' not in inquiry:
         failures.append("Future FormSubmit destination must point to approved mailbox")
     if f'mailto:{CURRENT}?subject=' not in inquiry:
         failures.append("Engineering brief's safe direct-email recipient is incorrect")
 
     page = (DOCS / "request-cad-sample-quote.md").read_text(encoding="utf-8")
-    if "online FormSubmit option is temporarily paused" not in page:
-        failures.append("Public inquiry page falsely advertises unverified FormSubmit delivery")
+    if "**Send Engineering Request Online**" not in page or "**Prepare Email Instead**" not in page:
+        failures.append("Public inquiry page must explain online delivery and direct-email fallback")
 
     if failures:
         print("PUBLIC CONTACT EMAIL AUDIT FAILED")
@@ -78,7 +78,7 @@ def main() -> None:
             print("- " + issue)
         raise SystemExit(1)
     print(f"PASS: {len(all_files)} active public source files, {emails} company email references; all {CURRENT}")
-    print("PASS: safe direct-email default; FormSubmit not falsely marked as activated")
+    print("PASS: verified FormSubmit online default with safe direct-email fallback")
 
 
 if __name__ == "__main__":

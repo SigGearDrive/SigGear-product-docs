@@ -18,12 +18,12 @@ assert.match(page, /name="message"/);
 assert.match(page, /https:\/\/formsubmit.co\/privacy/);
 assert.match(page, /id="sg-email-brief"[^>]+hidden style="display:none"/);
 assert.match(styles, /\.siggear-honeypot\s*\{[\s\S]*?display:\s*none !important/);
-assert.match(js, /var ONLINE_DELIVERY_VERIFIED = false;/);
+assert.match(js, /var ONLINE_DELIVERY_VERIFIED = true;/);
 assert.match(js, /form.action = "https:\/\/formsubmit.co\/luffy@siggear.com"/);
 assert.doesNotMatch(js, /ownerSetupMode/);
 assert.doesNotMatch(js, /engineering_brief_online_submit_success/);
 
-function bootstrap(search, referrer = "", mode = "activated_simulation") {
+function bootstrap(search, referrer = "", mode = "public") {
   const events = {};
   const elements = new Map();
   const gaEvents = [];
@@ -72,10 +72,10 @@ function bootstrap(search, referrer = "", mode = "activated_simulation") {
     body: {appendChild(){},removeChild(){}},
     execCommand(){}
   };
-  // Test the future activated branch independently; production remains in safe email mode.
-  const script = mode === "activated_simulation" ? js.replace(
-    "var ONLINE_DELIVERY_VERIFIED = false;",
-    "var ONLINE_DELIVERY_VERIFIED = true;"
+  // Simulate a temporary delivery hold independently; production is now online.
+  const script = mode === "safe_simulation" ? js.replace(
+    "var ONLINE_DELIVERY_VERIFIED = true;",
+    "var ONLINE_DELIVERY_VERIFIED = false;"
   ) : js;
   vm.runInNewContext(script, {document, window, URL, URLSearchParams, navigator:{clipboard:{}}, console}, {
     filename:"inquiry-form.js"
@@ -90,18 +90,18 @@ function bootstrap(search, referrer = "", mode = "activated_simulation") {
   return {node, events, gaEvents, form, submit, window};
 }
 
-// The actual public default must use direct email until the new FormSubmit recipient is verified.
-const safePublic = bootstrap("", "", "public");
-assert.equal(safePublic.form.action, "#");
-assert.equal(safePublic.node("sg-brief-primary").textContent, "Prepare Email to SigGear");
-assert.equal(safePublic.node("sg-email-brief").hidden, true);
-assert.equal(safePublic.node("sg-online-consent-wrap").hidden, true);
-assert.equal(safePublic.submit().prevented, true);
-assert.match(safePublic.window.location.href, /^mailto:luffy@siggear\.com/);
-assert.ok(safePublic.gaEvents.some(x => x.name === "engineering_brief_prepare_email"));
-console.log("PASS public default: direct email to Luffy, no unverified online POST");
+// Simulated emergency rollback must retain direct email if online delivery is held.
+const safeFallback = bootstrap("", "", "safe_simulation");
+assert.equal(safeFallback.form.action, "#");
+assert.equal(safeFallback.node("sg-brief-primary").textContent, "Prepare Email to SigGear");
+assert.equal(safeFallback.node("sg-email-brief").hidden, true);
+assert.equal(safeFallback.node("sg-online-consent-wrap").hidden, true);
+assert.equal(safeFallback.submit().prevented, true);
+assert.match(safeFallback.window.location.href, /^mailto:luffy@siggear\.com/);
+assert.ok(safeFallback.gaEvents.some(x => x.name === "engineering_brief_prepare_email"));
+console.log("PASS simulated safe rollback: direct email to Luffy, no online POST");
 
-// Simulate the post-activation provider workflow to retain future compatibility.
+// Test the actual public FormSubmit workflow after recipient confirmation.
 const live = bootstrap("");
 assert.equal(live.form.method, "POST");
 assert.equal(live.form.action, "https://formsubmit.co/luffy@siggear.com");
@@ -126,7 +126,7 @@ assert.match(live.node("sg-online-subject").value, /Custom Transmission Project 
 assert.equal(live.node("sg-online-url").value, "https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/");
 assert.ok(live.gaEvents.some(x => x.name === "engineering_brief_online_submit_attempt"));
 assert.ok(!live.gaEvents.some(x => x.name === "engineering_brief_online_submit_success"));
-console.log("PASS simulated future activated form: native POST, consent, and no false receipt claim");
+console.log("PASS public FormSubmit default: native POST, consent, and no false receipt claim");
 
 // Historical activation-test URL retains ordinary parameter handling in simulated future mode.
 const oldSetupUrl = bootstrap("?form_setup=1");
@@ -134,8 +134,8 @@ assert.equal(oldSetupUrl.node("sg-brief-primary").textContent, "Send Engineering
 assert.equal(oldSetupUrl.node("sg-email-brief").hidden, false);
 assert.equal(oldSetupUrl.node("sg-online-consent-wrap").hidden, false);
 assert.match(oldSetupUrl.form.action, /^https:\/\/formsubmit.co\//);
-console.log("PASS legacy activation URL cannot override the activation gate");
-const blockedSetup = bootstrap("?form_setup=1", "", "public");
+console.log("PASS legacy activation URL does not alter online behavior");
+const blockedSetup = bootstrap("?form_setup=1", "", "safe_simulation");
 assert.equal(blockedSetup.node("sg-brief-primary").textContent, "Prepare Email to SigGear");
 assert.equal(blockedSetup.submit().prevented, true);
 assert.match(blockedSetup.window.location.href, /^mailto:luffy@siggear\.com/);

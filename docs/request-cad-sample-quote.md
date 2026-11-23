@@ -99,12 +99,12 @@ If your project matches one of the current priority application paths, use the d
 
 If you do not want to write a technical inquiry from scratch, use this short project brief. Fill in only what you already know.
 
-Complete the project brief below and click **Prepare Email to SigGear**. This opens your email application with a structured draft addressed to **luffy@siggear.com**, which you can review and send. **The online FormSubmit option is temporarily paused** while the new mailbox completes recipient activation and a real delivery test; the website will not claim an unverified form submission. You can also use **Copy Project Brief**. For confidential drawings, NDA-controlled files or sensitive designs, use direct email and an agreed secure file-transfer channel.
+Complete the project brief below and click **Send Engineering Request Online** to submit your non-confidential project details to SigGear at **luffy@siggear.com** through FormSubmit. Enter a contact email and acknowledge the third-party form service; a CAPTCHA may appear. If you prefer to use your email application or need to attach drawings, choose **Prepare Email Instead**. You can also use **Copy Project Brief**. For confidential drawings, NDA-controlled files or sensitive designs, use direct email and an agreed secure file-transfer channel.
 
 <p id="sg-online-return" class="siggear-form-return" hidden role="status">The form provider returned to this page. A redirect alone does not confirm delivery to SigGear's mailbox. If you need to send attachments or have an urgent request, email <a href="mailto:luffy@siggear.com">luffy@siggear.com</a> directly.</p>
 
 <form id="siggear-engineering-brief" class="siggear-inquiry-form" action="#" method="POST">
-  <!-- Historical previous mailbox activation on 2026-10-15; new luffy@siggear.com not verified. Inline POST disabled until recipient setup + inbox test. -->
+  <!-- SigGear owner confirmed a FormSubmit test message received at luffy@siggear.com on 2026-11-23. JavaScript configures the online POST; direct email remains available. -->
   <input id="sg-online-message" type="hidden" name="message">
   <input id="sg-online-subject" type="hidden" name="_subject">
   <input id="sg-online-next" type="hidden" name="_next" value="https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/?form_delivery=provider_return">
@@ -365,7 +365,7 @@ Complete the project brief below and click **Prepare Email to SigGear**. This op
   <p id="sg-online-delivery-note" class="siggear-online-delivery-note" hidden style="display:none">Online submission may require a CAPTCHA challenge. SigGear reviews inquiries after they arrive in our mailbox. For confidential drawings or preferred direct communication, choose <strong>Prepare Email Instead</strong>.</p>
 
   <div class="siggear-form-actions">
-    <button type="submit" id="sg-brief-primary" class="md-button md-button--primary">Prepare Email to SigGear</button>
+    <button type="submit" id="sg-brief-primary" class="md-button md-button--primary">Send Engineering Request Online</button>
     <button type="button" id="sg-email-brief" class="md-button" hidden style="display:none">Prepare Email Instead</button>
     <button type="button" id="sg-copy-brief" class="md-button">Copy Project Brief</button>
   </div>
