@@ -11,6 +11,14 @@ description: Find direct SigGear 8–42 mm planetary gearbox PDF, 2D and STEP fi
 [**Motor Datasheets**](../engineering-resources/motors/index.md){ .md-button }
 [**Robot Joint Module Files**](../engineering-resources/robot-joint-actuators/quick-downloads.md){ .md-button }
 
+## Product Images
+
+<div class="siggear-joint-media">
+  <figure><a href="/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/" aria-label="Open Precision Planetary Gearheads product"><img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/siggear-8-42mm-planetary-gearheads-real-lineup.jpg" alt="Precision Planetary Gearheads: original product range photograph" loading="lazy" decoding="async"></a><figcaption><strong>Precision Planetary Gearheads</strong> · Original product range photograph</figcaption></figure>
+  <figure><a href="/SigGear-product-docs/products/robot-joint-actuators/sg8021/" aria-label="Open Robot Joint Actuators product"><img src="/SigGear-product-docs/assets/images/products/robot-joint-actuators/sg8021/sg8021-robot-joint-actuator-front-render.jpg" alt="Robot Joint Actuators: sg-8021 manufacturer rendering" loading="lazy" decoding="async"></a><figcaption><strong>Robot Joint Actuators</strong> · SG-8021 manufacturer rendering</figcaption></figure>
+  <figure><a href="/SigGear-product-docs/products/cycloidal-joint-modules/cpm78-39/" aria-label="Open Cycloidal Joint Modules product"><img src="/SigGear-product-docs/assets/images/products/cycloidal-joint-modules/cpm78-39/cpm78-39-output-side.webp" alt="Cycloidal Joint Modules: cpm-78-39 reference rendering" loading="lazy" decoding="async"></a><figcaption><strong>Cycloidal Joint Modules</strong> · CPM-78-39 reference rendering</figcaption></figure>
+</div>
+
 ## Product Families
 
 | Product family | Models | Engineering files / details |

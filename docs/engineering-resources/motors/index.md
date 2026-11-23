@@ -5,17 +5,6 @@ description: "Download 37 SigGear DC and BLDC motor datasheet PDFs across Ø8–
 
 # DC / BLDC Motor Datasheets — Direct PDF Downloads
 
-**SigGear supplies DC / BLDC motors and develops custom motor + planetary gearbox assemblies.**
-
-## Already Have a Motor?
-
-If your motor is already selected, the gearbox should be reviewed around the actual motor shaft, pilot, mounting pattern, loaded speed, target output speed, load and available assembly envelope.
-
-[**Match This Motor to a Planetary Gearbox**](../../custom-engineering/custom-planetary-gearbox.md){ .md-button .md-button--primary }
-[**Planetary Gearbox PDF / 2D / STEP**](../planetary-gearboxes/public-cad-release-v1.md){ .md-button }
-[**Quick Ratio / Torque Selector**](../../selection-guides/planetary-gearhead-quick-selector.md){ .md-button }
-[**Prototype → Volume Production**](../../custom-engineering/oem-volume-manufacturing-delivery.md){ .md-button }
-
 **37 motor PDFs · 10 diameters · Click any file below to download directly.** No email or inquiry form required.
 
 <label for="siggear-motor-filter" class="siggear-motor-filter-label">Find a motor datasheet by diameter, series or winding code</label>
@@ -37,6 +26,18 @@ If your motor is already selected, the gearbox should be reviewed around the act
 | **<span id="28-mm-dc-motors">Ø28 mm</span>** | DC Motors | [Sheet A · PDF](../../assets/downloads/motors/28mm/SigGear_28mm_DC_Motor_SheetA_060041-120097_DraftV0.9.pdf "Models: 060041 · 120097"){: .siggear-motor-file } [Sheet B · PDF](../../assets/downloads/motors/28mm/SigGear_28mm_DC_Motor_SheetB_072120-240120_DraftV0.9.pdf "Models: 072120 · 120120 · 240120"){: .siggear-motor-file } | Draft V0.9 · Sheet B chart |
 | **<span id="32-mm-dc-motors">Ø32 mm</span>** | DC Motors | [Series 01 · PDF](../../assets/downloads/motors/32mm/SigGear_32mm_DC_Motor_Series01_120071-480077_DraftV1.0.pdf "Models: 120071 · 180086 · 240082 · 360079 · 480077"){: .siggear-motor-file } [Series 02 · Mechanical A · PDF](../../assets/downloads/motors/32mm/SigGear_32mm_DC_Motor_Series02_MechanicalA_060068-240059_DraftV1.0.pdf "Models: 060068 · 090049 · 120046 · 180052 · 240059"){: .siggear-motor-file } [Series 02 · Mechanical B · PDF](../../assets/downloads/motors/32mm/SigGear_32mm_DC_Motor_Series02_MechanicalB_060068-240059_DraftV1.0.pdf "Models: 060068 · 090049 · 120046 · 180052 · 240059"){: .siggear-motor-file } | Draft V1.0 · low-res source |
 </div>
+
+**SigGear supplies DC / BLDC motors and develops custom motor + planetary gearbox assemblies.**
+
+## Already Have a Motor?
+
+If your motor is already selected, the gearbox should be reviewed around the actual motor shaft, pilot, mounting pattern, loaded speed, target output speed, load and available assembly envelope.
+
+[**Match This Motor to a Planetary Gearbox**](../../custom-engineering/custom-planetary-gearbox.md){ .md-button .md-button--primary }
+[**Planetary Gearbox PDF / 2D / STEP**](../planetary-gearboxes/public-cad-release-v1.md){ .md-button }
+[**Quick Ratio / Torque Selector**](../../selection-guides/planetary-gearhead-quick-selector.md){ .md-button }
+[**Prototype → Volume Production**](../../custom-engineering/oem-volume-manufacturing-delivery.md){ .md-button }
+
 
 **Only motor specifications are shown here.** Planetary gearbox output torque, speed and total assembly length must be evaluated separately. *Draft* means engineering/source review is still required. Some original drawings/charts are low resolution (Ø10, Ø16, Ø28 Sheet B and Ø32); request a controlled drawing for final dimensions.
 

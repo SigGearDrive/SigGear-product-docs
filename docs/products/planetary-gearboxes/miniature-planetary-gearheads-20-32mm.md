@@ -5,14 +5,6 @@ description: "Compare SigGear 20P–32P miniature planetary gearboxes by diamete
 
 # 20–32 mm Miniature Precision Planetary Gearboxes
 
-**Five published frame sizes:** 20P · 22P · 24P · 28P · 32P. Compare diameter, ratio, gearhead length and rated allowable torque, then download the real PDF / 2D / STEP files.
-
-[**Find by Motor RPM / Output RPM / Torque**](../../selection-guides/planetary-gearhead-quick-selector.md){ .md-button .md-button--primary }
-[**I Already Have a Motor**](../../custom-engineering/custom-planetary-gearbox.md){ .md-button }
-[**I Have a Drawing / STEP**](../../custom-engineering/custom-gearbox-from-drawing-cad.md){ .md-button }
-[**Replace / Redesign Existing Gearbox**](../../custom-engineering/gearbox-failure-analysis-durability-redesign.md){ .md-button }
-[**Prototype → Volume Production**](../../custom-engineering/oem-volume-manufacturing-delivery.md){ .md-button }
-
 ## Direct PDF and STEP Downloads
 
 | Gearbox model | Datasheet PDF | 2D mechanical drawing | Full assembly STEP |
@@ -59,6 +51,15 @@ Photographs show the actual labelled SigGear reference models. For production di
     <figcaption><strong>Miniature · 32P (Ø32 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/32p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
   </figure>
 </div>
+
+**Five published frame sizes:** 20P · 22P · 24P · 28P · 32P. Compare diameter, ratio, gearhead length and rated allowable torque, then download the real PDF / 2D / STEP files.
+
+[**Find by Motor RPM / Output RPM / Torque**](../../selection-guides/planetary-gearhead-quick-selector.md){ .md-button .md-button--primary }
+[**I Already Have a Motor**](../../custom-engineering/custom-planetary-gearbox.md){ .md-button }
+[**I Have a Drawing / STEP**](../../custom-engineering/custom-gearbox-from-drawing-cad.md){ .md-button }
+[**Replace / Redesign Existing Gearbox**](../../custom-engineering/gearbox-failure-analysis-durability-redesign.md){ .md-button }
+[**Prototype → Volume Production**](../../custom-engineering/oem-volume-manufacturing-delivery.md){ .md-button }
+
 
 ## Compare Published Specifications
 

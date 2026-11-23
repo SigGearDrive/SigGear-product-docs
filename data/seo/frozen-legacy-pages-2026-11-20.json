@@ -20,7 +20,8 @@
     },
     {
       "path": "docs/engineering-resources/planetary-gearboxes/index.md",
-      "git_blob_sha": "5327ecf1667c2977ce742019e4c95119be99725e"
+      "git_blob_sha": "314518f7e644b23273727214d78dab60312586c1",
+      "layout_order_exception": "2026-11-23: owner explicitly requested product documentation to place engineering file downloads first, corresponding real product imagery immediately below, and configuration/customization material afterward; this page's sections are reordered with no changed data, downloads or URLs. The page remains frozen after this approved layout change."
     },
     {
       "path": "docs/selection-guides/miniature-planetary-gearbox-selection-guide.md",
@@ -44,5 +45,13 @@
     "purpose": "Public sales contact mailbox transition from old address to luffy@siggear.com",
     "frozen_pages_updated": 3,
     "remaining_pages_unchanged": 2
+  },
+  "layout_order_migration": {
+    "date": "2026-11-23",
+    "owner_authorized": true,
+    "purpose": "Product download-first/photo-second navigation and reading order",
+    "frozen_pages_updated": 1,
+    "technical_values_changed": false,
+    "urls_changed": false
   }
 }

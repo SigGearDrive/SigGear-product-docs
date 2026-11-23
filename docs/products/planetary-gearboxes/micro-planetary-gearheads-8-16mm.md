@@ -5,15 +5,6 @@ description: "Compare SigGear 8P–16P micro planetary gearboxes by ratio, housi
 
 # 8–16 mm Micro Precision Planetary Gearboxes
 
-**Micro planetary gearbox comparison:** 8P · 10P · 12P · 14P · 16P · PDF datasheets · 2D drawings · Full STEP files
-
-These five standard models are public reference platforms. If the project does not fit a standard interface, start from the real engineering constraint instead.
-
-[**I Already Have a Motor**](../../custom-engineering/custom-planetary-gearbox.md){ .md-button .md-button--primary }
-[**I Have a Drawing / STEP**](../../custom-engineering/custom-gearbox-from-drawing-cad.md){ .md-button }
-[**Replace / Redesign Existing Gearbox**](../../custom-engineering/gearbox-failure-analysis-durability-redesign.md){ .md-button }
-[**Prototype → Volume Production**](../../custom-engineering/oem-volume-manufacturing-delivery.md){ .md-button }
-
 ## Direct PDF and STEP Downloads
 
 | Gearbox model | Datasheet PDF | 2D mechanical drawing | Full assembly STEP |
@@ -60,6 +51,16 @@ Photographs show the actual labelled SigGear reference models. For production di
     <figcaption><strong>Micro · 16P (Ø16 mm)</strong><a href="/SigGear-product-docs/products/planetary-gearboxes/16p-planetary-gearbox/">View data, PDF &amp; STEP</a></figcaption>
   </figure>
 </div>
+
+**Micro planetary gearbox comparison:** 8P · 10P · 12P · 14P · 16P · PDF datasheets · 2D drawings · Full STEP files
+
+These five standard models are public reference platforms. If the project does not fit a standard interface, start from the real engineering constraint instead.
+
+[**I Already Have a Motor**](../../custom-engineering/custom-planetary-gearbox.md){ .md-button .md-button--primary }
+[**I Have a Drawing / STEP**](../../custom-engineering/custom-gearbox-from-drawing-cad.md){ .md-button }
+[**Replace / Redesign Existing Gearbox**](../../custom-engineering/gearbox-failure-analysis-durability-redesign.md){ .md-button }
+[**Prototype → Volume Production**](../../custom-engineering/oem-volume-manufacturing-delivery.md){ .md-button }
+
 
 ## Compare Published Specifications
 

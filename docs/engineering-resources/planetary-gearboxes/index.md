@@ -5,12 +5,6 @@ description: Download original 8P–42P SigGear planetary gearhead Datasheet PDF
 
 # Planetary Gearbox Engineering Resources
 
-**All 12 SigGear 8–42 mm planetary Gearhead models have public Datasheet PDFs, 2D outline PDFs and Full Assembly STEP files.** Select a diameter and open the exact file directly—no login or inquiry form.
-
-[**Complete Planetary Download Center**](public-cad-release-v1.md){ .md-button .md-button--primary }
-[**Motor Datasheet PDFs**](../motors/index.md){ .md-button }
-[**Ratio / Torque Selector**](../../selection-guides/planetary-gearhead-quick-selector.md){ .md-button }
-
 ## 12 Models — Direct Datasheet / Drawing / STEP
 
 | Model | Datasheet PDF | Original 2D Drawing | Full Assembly STEP | Online Specifications / Interface |
@@ -27,6 +21,22 @@ description: Download original 8P–42P SigGear planetary gearhead Datasheet PDF
 | [**32P · Ø32 mm**](../../products/planetary-gearboxes/32p-planetary-gearbox.md) | [**PDF Datasheet**](../../assets/downloads/32p/32P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**2D Drawing PDF**](../../assets/downloads/32p/32P_2D_Drawing.pdf) | [**Full Assembly STEP**](../../assets/downloads/32p/32P_Full_Assembly.step) | [Online data](../32p/datasheet.md) · [Mechanical interface](../32p/mechanical-interface.md) |
 | [**36P · Ø36 mm**](../../products/planetary-gearboxes/36p-planetary-gearbox.md) | [**PDF Datasheet**](../../assets/downloads/36p/36P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**2D Drawing PDF**](../../assets/downloads/36p/36P_2D_Drawing.pdf) | [**Full Assembly STEP**](../../assets/downloads/36p/36P_Full_Assembly.step) | [Online data](../36p/datasheet.md) · [Mechanical interface](../36p/mechanical-interface.md) |
 | [**42P · Ø42 mm**](../../products/planetary-gearboxes/42p-planetary-gearbox.md) | [**PDF Datasheet**](../../assets/downloads/42p/42P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) | [**2D Drawing PDF**](../../assets/downloads/42p/42P_2D_Drawing.pdf) | [**Full Assembly STEP**](../../assets/downloads/42p/42P_Full_Assembly.step) | [Online data](../42p/datasheet.md) · [Mechanical interface](../42p/mechanical-interface.md) |
+
+
+## Product Images — SigGear 8–42 mm Gearheads
+
+<figure class="siggear-planetary-lineup">
+  <a href="/SigGear-product-docs/products/planetary-gearboxes/8-42mm-planetary-gear-reducer/" aria-label="View all 12 SigGear planetary gearhead models">
+    <img src="/SigGear-product-docs/assets/images/products/planetary-gearboxes/siggear-8-42mm-planetary-gearheads-real-lineup.jpg" alt="Actual SigGear precision planetary gearhead family, 12 published sizes from Ø8 to Ø42 mm" width="2048" height="1365" loading="lazy" decoding="async">
+  </a>
+  <figcaption>Original SigGear 8–42 mm planetary gearhead lineup photograph · Select a model for its own image and engineering data.</figcaption>
+</figure>
+
+**All 12 SigGear 8–42 mm planetary Gearhead models have public Datasheet PDFs, 2D outline PDFs and Full Assembly STEP files.** Select a diameter and open the exact file directly—no login or inquiry form.
+
+[**Complete Planetary Download Center**](public-cad-release-v1.md){ .md-button .md-button--primary }
+[**Motor Datasheet PDFs**](../motors/index.md){ .md-button }
+[**Ratio / Torque Selector**](../../selection-guides/planetary-gearhead-quick-selector.md){ .md-button }
 
 **Drawing and STEP scope:** Published 2D drawings use stage-dependent body length **L**. The Full Assembly STEP is an original public CAD reference, not an approved motor interface for every ratio or stage. Confirm the selected configuration and controlled production drawing before design freeze. [Full vs. simplified 4-stage STEP files](public-cad-release-v1.md#file-notes).
 
