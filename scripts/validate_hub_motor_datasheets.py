@@ -17,13 +17,6 @@ def req(ok,msg):
 
 def main():
     audit=yaml.safe_load(SOURCE.read_text(encoding="utf-8"))
-    req(audit["excluded_reference"]["label"]=="SG2557-80PG-9.75B",
-        "Different IP66/old-model source must remain excluded")
-    legacy=audit.get("separate_source_drawing", {})
-    req(legacy.get("label")=="SG2557-80PG-9.75B", "Legacy source identity mismatch")
-    req(legacy.get("source_revision")=="A" and legacy.get("source_drawing_date")=="2024-05-21", "Legacy revision mismatch")
-    req(legacy.get("original_2d_public_release")=="not_yet_uploaded", "Legacy original drawing must not be claimed released")
-    req(legacy.get("cad_release")=="no_verified_3d_exchange_for_this_model", "Legacy CAD must remain unreleased")
     family=(DOCS/"products/hub-gear-motors/index.md").read_text(encoding="utf-8")
     familyhtml=(SITE/"products/hub-gear-motors/index.html").read_text(encoding="utf-8")
     for model,slug in (("SG-2877","sg2877"),("SG-2878","sg2878")):
@@ -82,22 +75,21 @@ def main():
                 req(marker in modeldoc and marker in text,
                     "SG-2878 drawing versus catalog length issue hidden: "+marker)
         print("PASS",model,"2-page PDF, source test points, first-screen download, CAD hold")
-    legacy_name="SG2557-80PG-9.75B_Source_Dimension_Reference_Rev0.1.pdf"
-    legacy_pdf=FILES/legacy_name
-    legacy_site=SITE/"assets/downloads/hub-gear-motors"/legacy_name
-    req(legacy_pdf.is_file() and legacy_site.is_file() and legacy_pdf.stat().st_size>3000, "Legacy reference PDF missing")
-    req(legacy_pdf.read_bytes()==legacy_site.read_bytes(), "Legacy PDF differs in built output")
-    pages=PdfReader(str(legacy_pdf),strict=False).pages
-    req(len(pages)==1, "Legacy reference must be one page")
-    pdf_text=" ".join(p.extract_text() or "" for p in pages)
-    for marker in ("SG2557-80PG-9.75B", "2024-05-21", "IP66", "116.00 mm", "SG-2877", "SG-2878"):
-        req(marker.lower() in pdf_text.lower(), "Legacy PDF lacks source marker: "+marker)
-    legacy_md=(DOCS/"products/hub-gear-motors/sg2557-80pg-9-75b.md").read_text(encoding="utf-8")
-    legacy_html=(SITE/"products/hub-gear-motors/sg2557-80pg-9-75b/index.html").read_text(encoding="utf-8")
-    for doc in (legacy_md,legacy_html,family,familyhtml):
-        req(legacy_name in doc,"Legacy PDF link missing from model or family page")
-    req("SG2557-80PG-9.75B" in (DOCS/"products/index.md").read_text(encoding="utf-8"),"Catalog index must link legacy model")
-    print("PASS SG2557 distinct 2024 source reference and release boundary")
+    # SG2557 was removed from the public catalogue by explicit owner correction.
+    # Reject reappearance of its old product page, downloads or catalogue records.
+    withdrawn_slug = "sg2557-80pg-9-75b"
+    withdrawn_name = "SG2557-80PG-9.75B"
+    req(not (DOCS / f"products/hub-gear-motors/{withdrawn_slug}.md").exists(),
+        "Withdrawn source-only model reappeared as a public product")
+    req(not (DATA / f"{withdrawn_slug}.yml").exists(),
+        "Withdrawn model reappeared in the product master")
+    req(not (FILES / f"{withdrawn_name}_Source_Dimension_Reference_Rev0.1.pdf").exists(),
+        "Withdrawn source-only PDF was republished")
+    for rel in ("products/index.md", "products/hub-gear-motors/index.md",
+                "knowledge-base/product-model-index.md"):
+        req(withdrawn_name not in (DOCS / rel).read_text(encoding="utf-8"),
+            "Withdrawn model leaked into public catalogue: " + rel)
+    req(withdrawn_name not in familyhtml, "Withdrawn model linked from built hub page")
     print("PASS both hub motor source-backed references and original drawing boundary")
 
 if __name__=="__main__":main()
