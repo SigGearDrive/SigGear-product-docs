@@ -10,6 +10,10 @@ description: "SigGear 16P Ø16 mm micro planetary gearhead/gearbox: 3.85:1–459
 [**Download Full Assembly STEP**](../../assets/downloads/16p/16P_Full_Assembly.step){ .md-button }
 [**Download Simplified 4-Stage STEP · Reference**](../../assets/downloads/16p/16P_Public_Simplified_STEP_v1.0_4-Stage.step){ .md-button }
 
+## Product Images
+
+![Authentic SigGear 16P 16 mm planetary gearhead, photographed with digital caliper](../../assets/images/products/planetary-gearboxes/16p/16p-real-product-evidence.png){ width="520" loading="lazy" }
+
 **Engineering data reference:** Use the current [16P Datasheet PDF](../../assets/downloads/16p/16P_Planetary_Gearhead_Datasheet_Rev1.0.pdf) for published input-speed conditions, ratio/stage, rated load and dimensions. Images here show real products only; if a web summary and the downloadable Datasheet differ, verify the latest controlled revision with SigGear engineering.
 
 | Ø Diameter | Reduction ratios | Gearhead body length | Rated allowable torque | Backlash |
@@ -19,8 +23,6 @@ description: "SigGear 16P Ø16 mm micro planetary gearhead/gearbox: 3.85:1–459
 **Custom 16P interface or motor fit?** [Match my motor](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2016P%20-%20Existing%20Motor) · [Review my drawing / STEP](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2016P%20-%20Drawing%20or%20STEP) · [Replace / redesign existing gearbox](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2016P%20-%20Replacement%20Gearhead) · [Prototype → volume](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2016P%20-%20Prototype%20to%20Production)
 
 **More:** [Stage-by-stage ratios](#stage-ratio-and-performance-table) · [Online technical specifications](../../engineering-resources/16p/datasheet.md) · [Official 2D Drawing PDF](../../assets/downloads/16p/16P_2D_Drawing.pdf) · [Motor-only datasheets](../../engineering-resources/motors/index.md#16-mm-dc-motors) · [Compare Micro 8–16 mm](micro-planetary-gearheads-8-16mm.md) · [All 12 models](8-42mm-planetary-gear-reducer.md)
-
-![Authentic SigGear 16P 16 mm planetary gearhead, photographed with digital caliper](../../assets/images/products/planetary-gearboxes/16p/16p-real-product-evidence.png){ width="520" loading="lazy" }
 
 
 ## Product Identity
