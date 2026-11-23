@@ -14,7 +14,7 @@ description: "Compare SigGear integrated robot joint actuator modules and Ø20/3
 | Joint module · variant | Datasheet | 2D reference | Full STEP |
 | --- | --- | --- | --- |
 | [**SG-6010D**](../products/robot-joint-actuators/sg6010d.md) · Planetary<br><small>Standard</small> | [**↓ PDF**](../assets/downloads/joint-actuators/SG-6010D_Public_Reference_Datasheet_Rev0.1.pdf) | [**↓ 2D**](../assets/downloads/joint-actuators/SG-6010D_2D_Assembly_Drawing.pdf) | [**↓ STEP**](../assets/downloads/joint-actuators/SG-6010D_Original_Full_Assembly_20261118.step) |
-| [**SG-8021**](../products/robot-joint-actuators/sg8021.md) · Planetary<br><small>With driver</small> | [**↓ PDF**](../assets/downloads/joint-actuators/SG-8021_Public_Reference_Datasheet_Rev0.1.pdf) | [Request 2D](../request-cad-sample-quote.md) | [**↓ STEP**](../assets/downloads/joint-actuators/SG-8021_Driver_Version_Original_Full_Assembly_20261118.step) |
+| [**SG-8021**](../products/robot-joint-actuators/sg8021.md) · Planetary<br><small>With driver</small> | [**↓ PDF**](../assets/downloads/joint-actuators/SG-8021_Public_Reference_Datasheet_Rev0.1.pdf) | [Request 2D](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry) | [**↓ STEP**](../assets/downloads/joint-actuators/SG-8021_Driver_Version_Original_Full_Assembly_20261118.step) |
 
 </div>
 
@@ -37,4 +37,4 @@ description: "Compare SigGear integrated robot joint actuator modules and Ø20/3
 
 </details>
 
-[All 6 Joint Modules](../engineering-resources/robot-joint-actuators/quick-downloads.md) · [Motor PDFs](../engineering-resources/motors/index.md) · [Gearhead CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [Motor + Gearhead](../custom-engineering/motor-gearbox-integration.md) · [Selector](../selection-guides/planetary-gearhead-quick-selector.md) · [Contact](../request-cad-sample-quote.md)
+[All 6 Joint Modules](../engineering-resources/robot-joint-actuators/quick-downloads.md) · [Motor PDFs](../engineering-resources/motors/index.md) · [Gearhead CAD](../engineering-resources/planetary-gearboxes/public-cad-release-v1.md) · [Motor + Gearhead](../custom-engineering/motor-gearbox-integration.md) · [Selector](../selection-guides/planetary-gearhead-quick-selector.md) · [Contact](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry)

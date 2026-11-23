@@ -68,6 +68,6 @@ description: "SigGear supplies micro DC/BLDC motors, Ø8–42 mm precision plane
 
 </div>
 
-[**Find a Gearhead by ratio & torque**](../selection-guides/planetary-gearhead-quick-selector.md) · [**Compare all 12 models**](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) · [**Request engineering review**](../request-cad-sample-quote.md)
+[**Find a Gearhead by ratio & torque**](../selection-guides/planetary-gearhead-quick-selector.md) · [**Compare all 12 models**](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) · [**Request engineering review**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry)
 
 *These are engineering screening examples, not verified installations. Product suitability and certification require OEM review.*
