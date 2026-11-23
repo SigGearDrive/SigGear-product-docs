@@ -5,6 +5,13 @@ description: A practical sample-evaluation workflow for SigGear robot joint actu
 
 # Sample Validation Workflow
 
+<p class="siggear-home-contact">Email Luffy Wang directly: <a href="mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry"><strong>luffy@siggear.com</strong></a></p>
+
+[**Send an Inquiry Now**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
+
+*You can email us immediately; any technical checklist or calculator below is optional and not required to make contact.*
+
+
 The goal of a sample evaluation is not only to confirm that a product can rotate or transmit torque. It should also answer whether the selected configuration is suitable for the customer's mechanical, electrical and operating conditions.
 
 This workflow is intended to make the first evaluation more structured and reduce avoidable setup delays.
@@ -272,8 +279,8 @@ A successful sample test should lead to a concrete engineering decision, for exa
 
 [Open the Design-In Checklist](design-in-checklist.md){ .md-button .md-button--primary }
 [Prototype → Design-In → Production](../custom-engineering/prototype-to-production.md){ .md-button }
-[Request Configuration-Specific Support](../request-cad-sample-quote.md){ .md-button }
+[Request Configuration-Specific Support](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button }
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)
