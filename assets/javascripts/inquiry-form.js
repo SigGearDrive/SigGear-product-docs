@@ -43,11 +43,10 @@
   var onlineUrl = document.getElementById("sg-online-url");
   var onlineReturn = document.getElementById("sg-online-return");
 
-  // The previously activated FormSubmit address was replaced on 2026-11-23.
-  // The NEW recipient luffy@siggear.com is not yet verified by a real inbox test.
-  // Until activation, use safe prefilled DIRECT EMAIL rather than unverified POST.
-  // Do not switch true until the new mailbox has passed the delivery test.
-  var ONLINE_DELIVERY_VERIFIED = false;
+  // SigGear owner confirmed receipt of a real FormSubmit test message at
+  // luffy@siggear.com on 2026-11-23. Native online POST can now be enabled.
+  // Keep the direct-email fallback, CAPTCHA and privacy acknowledgment.
+  var ONLINE_DELIVERY_VERIFIED = true;
   var onlineDeliveryEnabled = ONLINE_DELIVERY_VERIFIED;
   var status = document.getElementById("sg-brief-status");
   var selectorCandidateBox = document.getElementById("sg-selector-candidate");
