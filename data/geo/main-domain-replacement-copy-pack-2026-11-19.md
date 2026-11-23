@@ -227,4 +227,4 @@ Supporting text:
 Contact:
 Wanrong Wang / Luffy  
 International Sales / Sales Engineer  
-wangwanrong@siggear.com
+luffy@siggear.com

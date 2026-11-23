@@ -2,7 +2,7 @@ schema_version: 1
 policy_id: public-sales-policy
 scope: public_and_preliminary_sales_support
 public_contacts:
-  - wangwanrong@siggear.com
+  - luffy@siggear.com
 response_sequence:
   - answer_explicit_question_first
   - state_confirmed_information

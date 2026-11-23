@@ -7,7 +7,7 @@
 - **Official exhibitor form:** https://www.directindustry.com/exhibit_on_directindustry/subscription
 - The form requests name, email, phone, website and optional message. A valid contact phone is **required**; do not invent one.
 - Current confirmed technical website: https://siggeardrive.github.io/SigGear-product-docs/
-- Proposed sales contact: **Wanrong Wang** · **wangwanrong@siggear.com**
+- Proposed sales contact: **Wanrong Wang** · **luffy@siggear.com**
 - Company legal name: **Guangdong SigGear Drive Intelligent Technology Co., Ltd.** · brand **SigGear** · based in Dongguan, Guangdong, China.
 - Pricing, availability of free/paid catalog tiers, listing quantity, lead/analytics feature access, refund/cancellation and renewal terms: **unconfirmed until official quote**. Do not submit a payment or sign a subscription without company approval.
 - No connected DirectIndustry manufacturer dashboard is available to the current assistant. Once SigGear has an exhibitor account, page content can be entered in the authorized interface; no current listings are claimed as published.
@@ -28,7 +28,7 @@ Could you please share your exhibitor packages and pricing, supported number of 
 
 Our technical website: https://siggeardrive.github.io/SigGear-product-docs/
 
-Our project-contact email: wangwanrong@siggear.com
+Our project-contact email: luffy@siggear.com
 
 Thank you.
 
@@ -48,7 +48,7 @@ SigGear
 
 **Application wording:** Potential OEM use cases include electric tools, small motorized mechanisms, smart-home products, precision instruments and compact automation. These are selection/application examples, **not verified customer case claims**.
 
-**Contact:** wangwanrong@siggear.com
+**Contact:** luffy@siggear.com
 
 ## Search-category strategy (confirm with the DirectIndustry account manager)
 

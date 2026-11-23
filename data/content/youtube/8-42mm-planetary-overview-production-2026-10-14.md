@@ -24,7 +24,7 @@ Compare the 8–42 mm series: https://siggeardrive.github.io/SigGear-product-doc
 View public STEP CAD references: https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/?utm_source=youtube&utm_medium=video&utm_campaign=planetary_content&utm_content=series_overview_cad
 Motor + gearbox engineering guide: https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/motor-gearbox-integration/?utm_source=youtube&utm_medium=video&utm_campaign=planetary_content&utm_content=series_overview_motor_matching
 
-Engineering questions or a motor drawing? Email: wangwanrong@siggear.com
+Engineering questions or a motor drawing? Email: luffy@siggear.com
 
 #PlanetaryGearbox #MechanicalEngineering #GearMotor
 
@@ -58,7 +58,7 @@ Engineering questions or a motor drawing? Email: wangwanrong@siggear.com
 | 31–45 s | Real 32P gearbox external turning demo or existing real internal structure footage | `Stage & Ratio Matter` | Internal structure only if it is a genuine physical demonstration of the model shown. No unsupported performance figures. |
 | 45–59 s | Show a standalone planetary gearbox, followed by an actual motor+gearbox sample in SigGear's possession | `Gearbox Only / Motor + Gearbox Review` | Do not imply a motor already matches a particular frame size without engineering confirmation. |
 | 59–73 s | Screen recording of actual GitHub 8–42 mm series, datasheet and simplified STEP link | `Datasheet · Interface · 4-Stage STEP Reference` | Keep the four-stage/public reference limitation visible. |
-| 73–90 s | Real engineer hand/desk shot reviewing drawing, then product tabletop and contact frame | `Review Your OEM Requirements` and `wangwanrong@siggear.com` | Engineer scene must come from the actual workplace; else replace with real product/drawing close-up. |
+| 73–90 s | Real engineer hand/desk shot reviewing drawing, then product tabletop and contact frame | `Review Your OEM Requirements` and `luffy@siggear.com` | Engineer scene must come from the actual workplace; else replace with real product/drawing close-up. |
 
 ## Field production checklist
 
