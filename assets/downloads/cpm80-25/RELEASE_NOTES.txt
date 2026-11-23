@@ -14,4 +14,4 @@ The public STEP files intentionally omit internal cycloidal geometry, bearings, 
 
 The current driver-equipped outline is a released reference configuration. Future driver, encoder, connector or firmware variants should be published as controlled revisions rather than silently replacing v1.0.
 
-Engineering contact: wangwanrong@siggear.com
+Engineering contact: luffy@siggear.com

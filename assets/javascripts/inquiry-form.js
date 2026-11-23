@@ -43,10 +43,11 @@
   var onlineUrl = document.getElementById("sg-online-url");
   var onlineReturn = document.getElementById("sg-online-return");
 
-  // SigGear owner confirmed FormSubmit activation and inbox receipt of the
-  // second test submission on 2026-10-15. Online delivery is now the default.
-  // Keep the direct-email option as a visible fallback at all times.
-  var ONLINE_DELIVERY_VERIFIED = true;
+  // The previously activated FormSubmit address was replaced on 2026-11-23.
+  // The NEW recipient luffy@siggear.com is not yet verified by a real inbox test.
+  // Until activation, use safe prefilled DIRECT EMAIL rather than unverified POST.
+  // Do not switch true until the new mailbox has passed the delivery test.
+  var ONLINE_DELIVERY_VERIFIED = false;
   var onlineDeliveryEnabled = ONLINE_DELIVERY_VERIFIED;
   var status = document.getElementById("sg-brief-status");
   var selectorCandidateBox = document.getElementById("sg-selector-candidate");
@@ -565,7 +566,7 @@
       if (appField) appField.focus();
       return;
     }
-    var href = "mailto:wangwanrong@siggear.com?subject=" +
+    var href = "mailto:luffy@siggear.com?subject=" +
       encodeURIComponent(subjectLine()) +
       "&body=" + encodeURIComponent(buildBrief());
     track("engineering_brief_prepare_email", briefMetrics());
@@ -588,7 +589,7 @@
     // Native cross-origin POST retains FormSubmit's reCAPTCHA flow. AJAX
     // submissions and disabled CAPTCHA are intentionally not used.
     form.method = "POST";
-    form.action = "https://formsubmit.co/wangwanrong@siggear.com";
+    form.action = "https://formsubmit.co/luffy@siggear.com";
     if (contactEmail) contactEmail.required = true;
     if (onlineConsent) onlineConsent.required = true;
     if (onlineConsentWrap) {

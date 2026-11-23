@@ -161,7 +161,7 @@
     track("sample_validation_prepare_email");
     var subject = candidate.model + " - " + candidate.stage + "-stage " +
       fmt(candidate.ratio, 4) + ":1 - Sample Validation Review";
-    window.location.href = "mailto:wangwanrong@siggear.com?subject=" +
+    window.location.href = "mailto:luffy@siggear.com?subject=" +
       encodeURIComponent(subject) + "&body=" + encodeURIComponent(summary);
   }
 

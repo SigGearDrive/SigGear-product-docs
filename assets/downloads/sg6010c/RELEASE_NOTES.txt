@@ -17,4 +17,4 @@ Detailed CAN protocol, Quick Start, firmware-specific integration documents and 
 
 Driver hardware and firmware may change by ordered configuration. A future Pro driver update should be handled as a controlled revision rather than silently replacing v1.0 documentation.
 
-Engineering contact: wangwanrong@siggear.com
+Engineering contact: luffy@siggear.com
