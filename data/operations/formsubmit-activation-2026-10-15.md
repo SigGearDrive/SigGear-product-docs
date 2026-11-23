@@ -13,7 +13,7 @@
 3. The owner repeated the test and explicitly confirmed actual receipt in the mailbox on 2026-10-15.
 4. The `ONLINE_DELIVERY_VERIFIED` gate in `docs/assets/javascripts/inquiry-form.js` was changed to `true` only after that **old-recipient** confirmation. Earlier on 2026-11-23 it was set to `false` during verification; after the new-recipient test receipt was confirmed it was set to `true`. The old recipient's activation was not used as evidence for the new one.
 
-The previous `?form_setup=1` test URL does not bypass the new-address delivery hold and must not be used as evidence of activation. The standard URL is the one customers should use.
+The previous `?form_setup=1` test URL is obsolete: it neither changes the live online form mode nor proves inbox delivery. Customers should use the standard inquiry URL.
 
 ## Delivery architecture and privacy
 
