@@ -17,7 +17,7 @@
       return payload.models;
     });
 
-  // Safe application categories shared with the online engineering project brief.
+  // Application categories are optional context for an engineering email.
   // Only a known category slug travels through URLs; never customer project text.
   var supportedApplications = {
     electric_pruning_shears: "Electric pruning shears",
@@ -38,7 +38,7 @@
   if (appContextLabel && selectorApplication) {
     appContextLabel.hidden = false;
     appContextLabel.textContent = "Application: " + supportedApplications[selectorApplication] +
-      ". The published parameters below determine candidates; your application context will also appear in the engineering project brief.";
+      ". The optional technical selector below is not required before emailing SigGear.";
   }
 
   var KGF_CM_TO_NM = 0.0980665;
@@ -69,14 +69,18 @@
       selectorContext(motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength);
   }
   function customReviewLink(reason, motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength) {
-    return "../../request-cad-sample-quote/?path=not_sure&selection=selector_engineering_review" +
-      "&selector_review_reason=" + encodeURIComponent(reason) +
-      selectorContext(motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength);
+    return "mailto:luffy@siggear.com?subject=" +
+      encodeURIComponent("SigGear Engineering Inquiry - Custom Engineering Review");
   }
   function customProjectLink(start, motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength) {
-    return "../../request-cad-sample-quote/?path=gearbox_only&start=" + encodeURIComponent(start) +
-      "&selection=ratio_stage_selector_custom" +
-      selectorContext(motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength);
+    var labels = {
+      existing_motor: "Existing Motor",
+      drawing_cad: "Drawing or STEP",
+      failing_gearbox: "Gearhead Replacement",
+      prototype_to_volume: "Prototype to Production"
+    };
+    return "mailto:luffy@siggear.com?subject=" +
+      encodeURIComponent("SigGear Engineering Inquiry - " + (labels[start] || "Custom Project"));
   }
   function customReviewAction(reason, motorSpeed, outputSpeed, continuous, peak, maxDiameter, maxLength) {
     return "<p><a class=\"md-button md-button--primary\" href=\"" +
@@ -409,9 +413,9 @@
         "<a href=\"../../engineering-resources/planetary-gearboxes/candidate-design-in-pack/?model=" +
         encodeURIComponent(item.model) + "&stage=" + encodeURIComponent(item.stage) +
         "&ratio=" + encodeURIComponent(item.ratio) + "\">Design-In pack</a><br>" +
-        "<a href=\"../../request-cad-sample-quote/?model=" +
-        encodeURIComponent(item.model) +
-        selectionParams(item, motorSpeed, outputSpeed, requiredTorque, peakTorque, maxDiameter, maxLength) + "\">Project brief</a></td>" +
+        "<a href=\"mailto:luffy@siggear.com?subject=" +
+        encodeURIComponent("SigGear Engineering Inquiry - " + item.model + " - " + item.ratio + ":1") +
+        "\">Email SigGear</a></td>" +
         "</tr>";
     }).join("");
 
@@ -445,9 +449,9 @@
         "<a href=\"../../engineering-resources/planetary-gearboxes/candidate-design-in-pack/?model=" +
         encodeURIComponent(item.model) + "&stage=" + encodeURIComponent(item.stage) +
         "&ratio=" + encodeURIComponent(item.ratio) + "\">Design-In pack</a><br>" +
-        "<a href=\"../../request-cad-sample-quote/?model=" +
-        encodeURIComponent(item.model) +
-        selectionParams(item, motorSpeed, outputSpeed, requiredTorque, peakTorque, maxDiameter, maxLength) + "\">Project brief</a></td>" +
+        "<a href=\"mailto:luffy@siggear.com?subject=" +
+        encodeURIComponent("SigGear Engineering Inquiry - " + item.model + " - " + item.ratio + ":1") +
+        "\">Email SigGear</a></td>" +
         "</tr>";
     }).join("");
 
