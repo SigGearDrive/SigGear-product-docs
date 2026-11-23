@@ -221,7 +221,7 @@ def check_source_hub_links() -> None:
     require("No inquiry required." in download_hub,
             "Public PDF, 2D and STEP downloads must remain ungated")
     require(
-        "../../request-cad-sample-quote.md?start=standard_product&path=gearbox_only" in download_hub,
+        "mailto:luffy@siggear.com?subject=" in download_hub,
         "Published download hub is missing its optional direct engineering inquiry path",
     )
 
