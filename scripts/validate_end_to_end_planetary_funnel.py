@@ -27,7 +27,9 @@ def forbid(name: str, needle: str, message: str) -> None:
     if needle in TEXT[name]:
         raise ValueError(message)
 
-# Relative-path, direct-email and technical handoff contracts.\nrequire("inquiry", "mailto:luffy@siggear.com?subject=", "Landing pages must create direct email to Luffy.")\nrequire("inquiry", "URLSearchParams", "Known product model context must survive legacy inquiry URLs.")
+# Relative-path, direct-email and technical handoff contracts.
+require("inquiry", "mailto:luffy@siggear.com?subject=", "Landing pages must create direct email to Luffy.")
+require("inquiry", "URLSearchParams", "Known product model context must survive legacy inquiry URLs.")
 require("selector", "../../engineering-resources/planetary-gearboxes/candidate-design-in-pack/?model=", "Selection -> candidate-pack target is missing or changed.")
 require("selector", "mailto:luffy@siggear.com?subject=", "Selection -> direct email target is missing.")
 require("selector", "item.model + \" - \" + item.ratio", "Selection -> direct email must preserve model/ratio context.")
