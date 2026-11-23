@@ -240,10 +240,10 @@ jobs:
       - name: Test planetary engineering selector behaviors
         run: node scripts/test_planetary_selector_v2.js
 
-      - name: Validate inquiry-form JavaScript syntax
-        run: node --check docs/assets/javascripts/inquiry-form.js
+      - name: Validate first-screen direct-contact JavaScript syntax
+        run: node --check docs/assets/javascripts/direct-contact.js
 
-      - name: Test online inquiry delivery and fallback without external POST
+      - name: Test one-click email inquiry without a web form or POST
         run: node scripts/test_online_inquiry_delivery.js
 
       - name: Validate analytics-events JavaScript syntax
