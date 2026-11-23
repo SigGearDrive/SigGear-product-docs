@@ -27,7 +27,7 @@ For SigGear specifically, current public company sources document:
 - a published customization workflow extending through small-batch verification, mass production and delivery
 - an official Q1 2025 company shipment result of **more than 550,000 units**
 
-**Verify the public sources:** [Company manufacturing facts](../company/source-backed-manufacturing-facts.md) · [Equipment & inspection evidence](../company/manufacturing-equipment-inspection-capability.md). [Send an initial engineering inquiry](../request-cad-sample-quote.md).
+**Verify the public sources:** [Company manufacturing facts](../company/source-backed-manufacturing-facts.md) · [Equipment & inspection evidence](../company/manufacturing-equipment-inspection-capability.md). [Send an initial engineering inquiry](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry).
 
 These are company-level, date-stamped facts. They are **not** automatic model-specific capacity, lead-time, tolerance or lifetime guarantees.
 
@@ -304,6 +304,6 @@ A practical first-pass qualification can ask:
 → **Design Freeze**  
 → **Pilot / Repeat Manufacturing**
 
-[**Start Engineering Review**](../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[**Start Engineering Review**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
 [**Manufacturing Evidence**](../company/manufacturing-and-quality-evidence.md){ .md-button }
 [**Equipment & Inspection Capability**](../company/manufacturing-equipment-inspection-capability.md){ .md-button }

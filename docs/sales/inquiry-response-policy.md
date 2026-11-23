@@ -67,6 +67,6 @@ For a custom request, state that feasibility, engineering cost and lead time are
 
 ## Contact
 
-**Wanrong Wang**
+**Luffy Wang**
 International Sales, SigGear
 [luffy@siggear.com](mailto:luffy@siggear.com)

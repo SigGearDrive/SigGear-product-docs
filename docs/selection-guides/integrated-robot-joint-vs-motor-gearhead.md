@@ -126,6 +126,6 @@ You do not need to decide the architecture before contacting SigGear.
 Send the joint or mechanism requirement, existing motor / controller information if any, target torque, speed, installation envelope and prototype quantity. The first review can determine whether an integrated actuator, motor + gearhead assembly or gearbox-only path is more appropriate to evaluate.
 
 [Robot Joint Actuator Selection Guide](robot-joint-actuator-selection-guide.md){ .md-button }
-[Request Engineering Review](../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Request Engineering Review](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
 
-**Contact:** Wanrong Wang · International Sales / Sales Engineer, SigGear · luffy@siggear.com
+**Contact:** Luffy Wang · International Sales / Sales Engineer, SigGear · luffy@siggear.com
