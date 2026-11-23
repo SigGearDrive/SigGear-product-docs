@@ -27,6 +27,6 @@ description: CPM-78-39 public envelope, original full assembly STEP and current 
 
 Published CPM-78-39 reference: **36 V, 200 W, 39:1**, with Hall sensors. No integrated driver or absolute encoder is standard. Confirm the exact version, output interface, cable direction, datums and tolerances before manufacture.
 
-[Request Controlled Drawing / CAD](../../request-cad-sample-quote.md){ .md-button }
+[Request Controlled Drawing / CAD](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button }
 
 [CPM-78-39 Product Page](../../products/cycloidal-joint-modules/cpm78-39.md) · [Technical Datasheet](datasheet.md) · [All Six Joint Models](../robot-joint-actuators/quick-downloads.md)

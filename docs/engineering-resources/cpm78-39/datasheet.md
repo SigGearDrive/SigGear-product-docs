@@ -65,7 +65,7 @@ The 2D source drawing is identified as **SG2368B**, not CPM-78-39. Until its con
 
 Original assembly publicly released 2026-11-18, separate from the still-requested controlled 2D drawing.
 
-[Request CAD, Drawing or Integration Files](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Request CAD, Drawing or Integration Files](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
 
 ## Selection Information Required
 
@@ -88,6 +88,6 @@ Please provide:
 
 ## Engineering Contact
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)

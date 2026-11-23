@@ -101,7 +101,7 @@ For early packaging or mechanical integration, request the CAD that matches the 
 - motor interface
 - output interface
 
-[Request 42P Controlled CAD](../../request-cad-sample-quote.md?model=42P&next_step=cad_review){ .md-button .md-button--primary }
+[Request 42P Controlled CAD](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2042P){ .md-button .md-button--primary }
 
 ## Public Data Gaps - Confirmation Required
 
@@ -154,7 +154,7 @@ For a fast engineering review, send:
 
 ## Request CAD, Sample or Quote
 
-[Request 42P CAD, Sample and Quote](../../request-cad-sample-quote.md?model=42P&next_step=cad_review){ .md-button .md-button--primary }
+[Request 42P CAD, Sample and Quote](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%2042P){ .md-button .md-button--primary }
 
 ## Related Product Resources
 
@@ -164,6 +164,6 @@ For a fast engineering review, send:
 
 ## Engineering Contact
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)

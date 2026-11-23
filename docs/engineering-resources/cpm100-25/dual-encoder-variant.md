@@ -62,6 +62,6 @@ The 2D source is not a manufacturing-controlled drawing. Confirm the precise ins
 
 ## Engineering Contact
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)

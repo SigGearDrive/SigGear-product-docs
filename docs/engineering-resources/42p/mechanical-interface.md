@@ -70,7 +70,7 @@ A detailed full-assembly 42P STEP is still retained as configuration-controlled 
 
 For another stage count or final production release, request the configuration-matched controlled CAD / drawing.
 
-[Request 42P Controlled CAD / Drawing](../../request-cad-sample-quote.md){ .md-button }
+[Request 42P Controlled CAD / Drawing](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button }
 
 [Open 42P Motor Integration Guide](motor-integration.md){ .md-button }
 
@@ -88,6 +88,6 @@ Before final design freeze, confirm:
 
 ## Engineering Contact
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)
