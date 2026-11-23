@@ -5,14 +5,14 @@ ROOT = Path(__file__).resolve().parents[1]
 FILES = {
     "selector": ROOT / "docs/assets/javascripts/ratio-stage-selector.js",
     "pack": ROOT / "docs/assets/javascripts/candidate-design-in-pack.js",
-    "inquiry": ROOT / "docs/assets/javascripts/inquiry-form.js",
+    "inquiry": ROOT / "docs/assets/javascripts/direct-contact.js",
     "sample": ROOT / "docs/assets/javascripts/sample-validation.js",
     "design": ROOT / "docs/assets/javascripts/design-in-review.js",
     "pilot": ROOT / "docs/assets/javascripts/pilot-preparation.js",
     "production": ROOT / "docs/assets/javascripts/production-release.js",
     "measurement": ROOT / "data/sales/inquiry-measurement-schema.yml",
     "weekly": ROOT / "data/sales/weekly-attribution-review-sop.yml",
-    "inquiry_css": ROOT / "docs/assets/stylesheets/inquiry-form.css",
+    "inquiry_css": ROOT / "docs/assets/stylesheets/direct-contact.css",
     "selector_css": ROOT / "docs/assets/stylesheets/ratio-stage-selector.css",
     "design_css": ROOT / "docs/assets/stylesheets/design-in-review.css",
 }
@@ -27,13 +27,13 @@ def forbid(name: str, needle: str, message: str) -> None:
     if needle in TEXT[name]:
         raise ValueError(message)
 
-# Relative-path and parameter contracts.
+# Relative-path, direct-email and technical handoff contracts.\nrequire("inquiry", "mailto:luffy@siggear.com?subject=", "Landing pages must create direct email to Luffy.")\nrequire("inquiry", "URLSearchParams", "Known product model context must survive legacy inquiry URLs.")
 require("selector", "../../engineering-resources/planetary-gearboxes/candidate-design-in-pack/?model=", "Selection -> candidate-pack target is missing or changed.")
-require("selector", "../../request-cad-sample-quote/?model=", "Selection -> Project Brief target is missing or changed.")
-require("selector", "&selection=ratio_stage_selector&candidate_stage=", "Selection -> Project Brief candidate contract is incomplete.")
+require("selector", "mailto:luffy@siggear.com?subject=", "Selection -> direct email target is missing.")
+require("selector", "item.model + \" - \" + item.ratio", "Selection -> direct email must preserve model/ratio context.")
 
-require("pack", "../../../request-cad-sample-quote/?model=", "Candidate pack -> Project Brief target is missing.")
-require("pack", "&next_step=cad_review", "Candidate pack -> Project Brief must prefill CAD review.")
+require("pack", "mailto:luffy@siggear.com?subject=", "Candidate pack -> direct email target is missing.")
+require("pack", "SigGear Controlled CAD / Engineering Inquiry", "Candidate pack must name controlled CAD in direct-email subject.")
 require("pack", "../../../engineering-center/sample-validation-workflow/?model=", "Candidate pack -> Sample Validation target is missing.")
 require("pack", "&sample=planetary_candidate", "Candidate pack -> Sample Validation marker is missing.")
 
@@ -53,14 +53,14 @@ require("pilot", "&source=pilot_preparation_review", "Pilot -> Production Releas
 require("production", '(params.get("source") || "") !== "pilot_preparation_review"', "Production Release must require the pilot-preparation source marker.")
 
 # Every downstream candidate-specific surface must revalidate against the same published data asset.
-for name in ("pack", "inquiry", "sample", "design", "pilot", "production"):
+for name in ("pack", "sample", "design", "pilot", "production"):
     require(name, "planetary-ratio-stage-data.json", f"{name} no longer revalidates against published ratio-stage data.")
 
 # Funnel event coverage in code and the public-safe measurement schema.
 events = {
     "selector": ["ratio_stage_selector_run"],
     "pack": ["candidate_design_in_pack_view"],
-    "inquiry": ["selector_candidate_handoff_validated", "engineering_brief_prepare_email"],
+
     "sample": ["sample_validation_candidate_view", "sample_validation_prepare_email"],
     "design": ["design_in_review_candidate_view", "design_in_review_prepare_email"],
     "pilot": ["pilot_preparation_review_view", "pilot_preparation_prepare_email"],
@@ -92,10 +92,10 @@ for token in forbidden_handoff_tokens["pilot"]:
         raise ValueError(f"Private pilot field leaked into Production handoff URL: {token}")
 
 # Responsive/mobile contracts used by the funnel.
-require("inquiry_css", ".siggear-form-actions", "Shared action-button layout is missing.")
-require("inquiry_css", "flex-wrap: wrap", "Funnel action buttons must wrap on narrow screens.")
+require("inquiry_css", ".siggear-direct-email", "Large direct-contact email styling is missing.")
+require("inquiry_css", "overflow-wrap: anywhere", "Large email must wrap on narrow screens.")
 require("inquiry_css", "@media (max-width: 44rem)", "Shared form-grid mobile breakpoint is missing.")
-require("inquiry_css", "grid-template-columns: 1fr", "Form grid must collapse to one column.")
+require("inquiry_css", ".siggear-direct-send.md-button", "Direct email button is missing.")
 require("selector_css", ".siggear-selector-table-wrap", "Wide selector tables need a scroll wrapper.")
 require("selector_css", "overflow-x: auto", "Wide selector tables must scroll horizontally.")
 require("selector_css", "@media (max-width: 54rem)", "Candidate-card mobile breakpoint is missing.")
