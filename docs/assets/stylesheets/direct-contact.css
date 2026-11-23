@@ -1,0 +1,66 @@
+/* Minimal, borderless contact-first inquiry experience. */
+.siggear-direct-contact {
+  max-width: 56rem;
+  margin: 0.5rem auto 1.4rem;
+  padding: clamp(0.9rem, 2.5vw, 2rem) 0;
+  text-align: center;
+}
+.siggear-contact-eyebrow {
+  margin: 0 0 0.65rem;
+  font-size: 0.72rem;
+  font-weight: 750;
+  letter-spacing: 0.12em;
+  color: var(--md-default-fg-color--light);
+}
+.siggear-direct-contact h2 {
+  margin: 0;
+  font-size: clamp(1.45rem, 3vw, 2.35rem);
+  line-height: 1.2;
+}
+.siggear-contact-intro {
+  margin: 0.7rem 0 1.1rem;
+  font-size: 1rem;
+}
+.siggear-direct-email {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0.65rem auto 1.2rem;
+  font-size: clamp(1.65rem, 5.1vw, 3.7rem);
+  font-weight: 800;
+  line-height: 1.24;
+  color: var(--md-primary-fg-color);
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+  overflow-wrap: anywhere;
+}
+.siggear-direct-email:hover,
+.siggear-direct-email:focus-visible { color: var(--md-accent-fg-color); }
+.siggear-direct-send.md-button {
+  display: inline-block;
+  box-sizing: border-box;
+  min-height: 3.3rem;
+  max-width: 100%;
+  padding: 0.8rem 1.7rem;
+  font-size: 1.05rem;
+  line-height: 1.65rem;
+}
+.siggear-contact-hint {
+  max-width: 37rem;
+  margin: 1.1rem auto 0;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+.siggear-contact-person { margin: 1rem auto 0; font-size: 0.9rem; }
+.siggear-home-contact {
+  margin: 0.55rem 0 1rem;
+  font-size: clamp(1.08rem, 2.4vw, 1.5rem);
+  font-weight: 700;
+}
+.siggear-home-contact a { overflow-wrap: anywhere; }
+@media (max-width: 44rem) {
+  .siggear-direct-contact { padding: 0.7rem 0; }
+  .siggear-direct-email { font-size: clamp(1.36rem, 6.25vw, 2rem); }
+  .siggear-direct-send.md-button { padding: 0.75rem 1rem; }
+}
