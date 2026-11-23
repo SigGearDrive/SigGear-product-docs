@@ -5,6 +5,30 @@ description: Select six SigGear planetary and cycloidal robot joint modules by s
 
 # Robot Joint Actuator Datasheets, 2D Drawings & STEP
 
+<div class="siggear-joint-downloads" markdown="1">
+
+| Model · OD × thickness · ratio · rated / peak torque · rated speed | Datasheet | 2D reference drawing | Original Full STEP |
+| --- | --- | --- | --- |
+| [**SG-6010C**](../../products/robot-joint-actuators/sg6010c.md) · Planetary<br>Ø80 × 34.07 mm · 9.67:1<br>6 / 18 N·m · 310 rpm | [**PDF**](../../assets/downloads/joint-actuators/SG-6010C_Public_Reference_Datasheet_Rev0.1.pdf) | [Request](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry) | [**STEP**](../../assets/downloads/joint-actuators/SG-6010C_Original_Full_Assembly_20261118.step) |
+| [**SG-6010D**](../../products/robot-joint-actuators/sg6010d.md) · Planetary<br>Ø80 × 58.77 mm · 28.13:1<br>16 / 50 N·m · 100 rpm | [**PDF**](../../assets/downloads/joint-actuators/SG-6010D_Public_Reference_Datasheet_Rev0.1.pdf) | [**2D PDF**](../../assets/downloads/joint-actuators/SG-6010D_2D_Assembly_Drawing.pdf) | [**STEP**](../../assets/downloads/joint-actuators/SG-6010D_Original_Full_Assembly_20261118.step) |
+| [**SG-8021**](../../products/robot-joint-actuators/sg8021.md) · Planetary<br>Ø100 × 42.6 mm · 9.25:1<br>10 / 30 N·m · 160 rpm | [**PDF**](../../assets/downloads/joint-actuators/SG-8021_Public_Reference_Datasheet_Rev0.1.pdf) | [Request](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry) | [**Driver STEP**](../../assets/downloads/joint-actuators/SG-8021_Driver_Version_Original_Full_Assembly_20261118.step) |
+| [**CPM-78-39**](../../products/cycloidal-joint-modules/cpm78-39.md) · Cycloidal<br>Ø78.7 × 35.8 mm · 39:1<br>20 / 52 N·m · 48 rpm | [**PDF**](../../assets/downloads/joint-actuators/CPM-78-39_Public_Reference_Datasheet_Rev0.1.pdf) | SG2368B cross-reference pending | [**STEP**](../../assets/downloads/joint-actuators/CPM-78-39_Original_Full_Assembly_20261118.step) |
+| [**CPM-80-25**](../../products/cycloidal-joint-modules/cpm80-25.md) · Cycloidal<br>Ø80 · 25:1<br>10 / 50 N·m · 120 rpm | [**PDF**](../../assets/downloads/joint-actuators/CPM-80-25_Public_Reference_Datasheet_Rev0.1.pdf) | [**No driver · 29.7 mm**](../../assets/downloads/joint-actuators/CPM-80-25_2D_No_Driver_29p7mm.pdf) · [**With driver · 41.2 mm**](../../assets/downloads/joint-actuators/CPM-80-25_2D_Integrated_Driver_41p2mm.pdf) | [**No driver**](../../assets/downloads/joint-actuators/CPM-80-25_Original_Full_Assembly_No_Driver_20261118.step) · [**With driver**](../../assets/downloads/joint-actuators/CPM-80-25_Original_Full_Assembly_Integrated_Driver_20261118.step) |
+| [**CPM-100-25**](../../products/cycloidal-joint-modules/cpm100-25.md) · Cycloidal<br>Ø100 · 25:1<br>25 / 75 N·m · 60 rpm | [**PDF**](../../assets/downloads/joint-actuators/CPM-100-25_Public_Reference_Datasheet_Rev0.1.pdf) | [**SG2556D · 48 mm only**](../../assets/downloads/joint-actuators/CPM-100-25D_2D_Dual_Encoder_Driver_48mm.pdf) | [**Standard · 29.5 mm**](../../assets/downloads/joint-actuators/CPM-100-25_Original_Full_Assembly_No_Driver_20261118.step) · [**Dual encoder + driver · 48 mm**](../../assets/downloads/joint-actuators/CPM-100-25D_Dual_Encoder_Driver_Original_Full_Assembly_20261118.step) |
+
+</div>
+
+## Product Images
+
+<div class="siggear-joint-media">
+  <figure><a href="/SigGear-product-docs/products/robot-joint-actuators/sg6010c/" aria-label="Open SG-6010C product details"><img src="/SigGear-product-docs/assets/images/products/robot-joint-actuators/sg6010c/sg6010c-robot-joint-actuator-front-angle.svg" alt="SG-6010C: reference illustration" loading="lazy" decoding="async"></a><figcaption><strong>SG-6010C</strong> · Reference illustration</figcaption></figure>
+  <figure><a href="/SigGear-product-docs/products/robot-joint-actuators/sg6010d/" aria-label="Open SG-6010D product details"><img src="/SigGear-product-docs/assets/images/products/robot-joint-actuators/sg6010d/sg6010d-output-angle-new.webp" alt="SG-6010D: supplier rendering" loading="lazy" decoding="async"></a><figcaption><strong>SG-6010D</strong> · Supplier rendering</figcaption></figure>
+  <figure><a href="/SigGear-product-docs/products/robot-joint-actuators/sg8021/" aria-label="Open SG-8021 product details"><img src="/SigGear-product-docs/assets/images/products/robot-joint-actuators/sg8021/sg8021-robot-joint-actuator-front-render.jpg" alt="SG-8021: manufacturer rendering" loading="lazy" decoding="async"></a><figcaption><strong>SG-8021</strong> · Manufacturer rendering</figcaption></figure>
+  <figure><a href="/SigGear-product-docs/products/cycloidal-joint-modules/cpm78-39/" aria-label="Open CPM-78-39 product details"><img src="/SigGear-product-docs/assets/images/products/cycloidal-joint-modules/cpm78-39/cpm78-39-output-side.webp" alt="CPM-78-39: reference rendering" loading="lazy" decoding="async"></a><figcaption><strong>CPM-78-39</strong> · Reference rendering</figcaption></figure>
+  <figure><a href="/SigGear-product-docs/products/cycloidal-joint-modules/cpm80-25/" aria-label="Open CPM-80-25 product details"><img src="/SigGear-product-docs/assets/images/products/cycloidal-joint-modules/cpm80-25/cpm80-25-no-driver-output-angle.webp" alt="CPM-80-25: no-driver reference image" loading="lazy" decoding="async"></a><figcaption><strong>CPM-80-25</strong> · No-driver reference image</figcaption></figure>
+  <figure><a href="/SigGear-product-docs/products/cycloidal-joint-modules/cpm100-25/" aria-label="Open CPM-100-25 product details"><img src="/SigGear-product-docs/assets/images/products/cycloidal-joint-modules/cpm100-25/cpm100-25-no-driver-output-angle.webp" alt="CPM-100-25: standard no-driver reference image" loading="lazy" decoding="async"></a><figcaption><strong>CPM-100-25</strong> · Standard no-driver reference image</figcaption></figure>
+</div>
+
 **Select a model, compare rated torque and speed, then download PDF / 2D / STEP.** Six models · 6 Datasheets · 4 available 2D reference PDFs · 8 full-assembly STEP variants.
 
 [**How to Evaluate a Robot Joint Actuator Supplier**](../../selection-guides/robot-joint-supplier-evaluation.md){ .md-button .md-button--primary }
@@ -22,18 +46,6 @@ The six public models are reference platforms, not the limit of SigGear's custom
 
 **Manufacturing proof:** [Manufacturing & Quality Evidence](../../company/manufacturing-and-quality-evidence.md) · [Source-Backed Manufacturing Facts](../../company/source-backed-manufacturing-facts.md) · [Equipment & Inspection Capability](../../company/manufacturing-equipment-inspection-capability.md)
 
-<div class="siggear-joint-downloads" markdown="1">
-
-| Model · OD × thickness · ratio · rated / peak torque · rated speed | Datasheet | 2D reference drawing | Original Full STEP |
-| --- | --- | --- | --- |
-| [**SG-6010C**](../../products/robot-joint-actuators/sg6010c.md) · Planetary<br>Ø80 × 34.07 mm · 9.67:1<br>6 / 18 N·m · 310 rpm | [**PDF**](../../assets/downloads/joint-actuators/SG-6010C_Public_Reference_Datasheet_Rev0.1.pdf) | [Request](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry) | [**STEP**](../../assets/downloads/joint-actuators/SG-6010C_Original_Full_Assembly_20261118.step) |
-| [**SG-6010D**](../../products/robot-joint-actuators/sg6010d.md) · Planetary<br>Ø80 × 58.77 mm · 28.13:1<br>16 / 50 N·m · 100 rpm | [**PDF**](../../assets/downloads/joint-actuators/SG-6010D_Public_Reference_Datasheet_Rev0.1.pdf) | [**2D PDF**](../../assets/downloads/joint-actuators/SG-6010D_2D_Assembly_Drawing.pdf) | [**STEP**](../../assets/downloads/joint-actuators/SG-6010D_Original_Full_Assembly_20261118.step) |
-| [**SG-8021**](../../products/robot-joint-actuators/sg8021.md) · Planetary<br>Ø100 × 42.6 mm · 9.25:1<br>10 / 30 N·m · 160 rpm | [**PDF**](../../assets/downloads/joint-actuators/SG-8021_Public_Reference_Datasheet_Rev0.1.pdf) | [Request](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry) | [**Driver STEP**](../../assets/downloads/joint-actuators/SG-8021_Driver_Version_Original_Full_Assembly_20261118.step) |
-| [**CPM-78-39**](../../products/cycloidal-joint-modules/cpm78-39.md) · Cycloidal<br>Ø78.7 × 35.8 mm · 39:1<br>20 / 52 N·m · 48 rpm | [**PDF**](../../assets/downloads/joint-actuators/CPM-78-39_Public_Reference_Datasheet_Rev0.1.pdf) | SG2368B cross-reference pending | [**STEP**](../../assets/downloads/joint-actuators/CPM-78-39_Original_Full_Assembly_20261118.step) |
-| [**CPM-80-25**](../../products/cycloidal-joint-modules/cpm80-25.md) · Cycloidal<br>Ø80 · 25:1<br>10 / 50 N·m · 120 rpm | [**PDF**](../../assets/downloads/joint-actuators/CPM-80-25_Public_Reference_Datasheet_Rev0.1.pdf) | [**No driver · 29.7 mm**](../../assets/downloads/joint-actuators/CPM-80-25_2D_No_Driver_29p7mm.pdf) · [**With driver · 41.2 mm**](../../assets/downloads/joint-actuators/CPM-80-25_2D_Integrated_Driver_41p2mm.pdf) | [**No driver**](../../assets/downloads/joint-actuators/CPM-80-25_Original_Full_Assembly_No_Driver_20261118.step) · [**With driver**](../../assets/downloads/joint-actuators/CPM-80-25_Original_Full_Assembly_Integrated_Driver_20261118.step) |
-| [**CPM-100-25**](../../products/cycloidal-joint-modules/cpm100-25.md) · Cycloidal<br>Ø100 · 25:1<br>25 / 75 N·m · 60 rpm | [**PDF**](../../assets/downloads/joint-actuators/CPM-100-25_Public_Reference_Datasheet_Rev0.1.pdf) | [**SG2556D · 48 mm only**](../../assets/downloads/joint-actuators/CPM-100-25D_2D_Dual_Encoder_Driver_48mm.pdf) | [**Standard · 29.5 mm**](../../assets/downloads/joint-actuators/CPM-100-25_Original_Full_Assembly_No_Driver_20261118.step) · [**Dual encoder + driver · 48 mm**](../../assets/downloads/joint-actuators/CPM-100-25D_Dual_Encoder_Driver_Original_Full_Assembly_20261118.step) |
-
-</div>
 
 <details markdown="1">
 <summary>Additional simplified STEP downloads</summary>
