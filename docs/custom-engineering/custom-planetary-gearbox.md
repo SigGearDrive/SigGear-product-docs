@@ -23,7 +23,7 @@ For a useful first review, send the information already available for:
 You do **not** need to know the final reduction ratio before contacting SigGear. A preliminary ratio can be estimated from loaded motor speed divided by target output speed, then checked against published stage ratios, rated torque and the actual motor / gearbox interface.
 
 [Find a Published Gearbox](../selection-guides/planetary-gearhead-quick-selector.md){ .md-button .md-button--primary }
-[Send Motor for Engineering Review](../request-cad-sample-quote.md?start=existing_motor&path=gearbox_only){ .md-button }
+[Send Motor for Engineering Review](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Existing%20Motor){ .md-button }
 [Replacing / Redesigning an Existing Gearbox?](replacement-planetary-gearhead.md){ .md-button }
 
 **Public manufacturing evidence:** SigGear publishes source-backed company-level evidence for gear hobbing, gear shaping, gear grinding, CNC machining, CMM, gear inspection, dynamometer and life-test resources. [Review equipment & inspection evidence](../company/manufacturing-equipment-inspection-capability.md).
@@ -64,7 +64,7 @@ You may already have:
 SigGear designs and manufactures micro, miniature and compact planetary gearboxes and can review existing 8–42 mm platforms as engineering starting points before evaluating a **modified or custom planetary gearbox** configuration.
 
 [Send Your Motor or Drawing](mailto:luffy@siggear.com?subject=Custom%20Planetary%20Gearbox%20Engineering%20Review){ .md-button .md-button--primary }
-[Request Engineering Review](../request-cad-sample-quote.md){ .md-button }
+[Request Engineering Review](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button }
 
 **Manufacturing qualification:** [Gear Hobbing, Grinding, CMM & Inspection](../company/manufacturing-equipment-inspection-capability.md) · [Source-Backed Manufacturing Facts](../company/source-backed-manufacturing-facts.md)
 
@@ -278,9 +278,9 @@ If the required torque, packaging, load condition or joint architecture suggests
 
 Send the motor, drawing, available space or motion requirement you already have. If the motor is fixed, the motor drawing is usually the fastest starting point.
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)
 
-[Request Engineering Review](../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Request Engineering Review](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
 [Send Your Motor or Drawing](mailto:luffy@siggear.com?subject=Custom%20Planetary%20Gearbox%20Engineering%20Review){ .md-button }

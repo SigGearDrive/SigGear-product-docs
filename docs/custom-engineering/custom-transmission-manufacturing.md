@@ -8,10 +8,10 @@ description: SigGear is a custom precision transmission manufacturer for OEM pro
 
 **Start a custom transmission project with the information already available.** An existing motor, drawing/STEP, failed reducer or prototype forecast is enough for an initial engineering review.
 
-[**Match My Motor**](../request-cad-sample-quote.md?start=existing_motor&path=gearbox_only){ .md-button .md-button--primary }
-[**Review Drawing / STEP**](../request-cad-sample-quote.md?start=drawing_cad){ .md-button }
-[**Replace / Redesign Existing Gearbox**](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button }
-[**Prototype → Volume**](../request-cad-sample-quote.md?start=prototype_to_volume){ .md-button }
+[**Match My Motor**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Existing%20Motor){ .md-button .md-button--primary }
+[**Review Drawing / STEP**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Drawing%20or%20STEP){ .md-button }
+[**Replace / Redesign Existing Gearbox**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Replacement%20Gearhead){ .md-button }
+[**Prototype → Volume**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Prototype%20to%20Production){ .md-button }
 
 **Supplier Qualification Guide:** [How to Evaluate a Custom Gearbox Manufacturer](../selection-guides/custom-gearbox-manufacturer-supplier-qualification.md) · [Gear Hobbing, Grinding, CMM & Inspection](../company/manufacturing-equipment-inspection-capability.md) · [Source-Backed Manufacturing Facts](../company/source-backed-manufacturing-facts.md)
 
@@ -215,9 +215,9 @@ A complete specification is not required before the first review.
 
 ## Start a Custom Transmission Project
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)
 
-[Start Custom Engineering Review](../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Start Custom Engineering Review](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
 [Custom Precision Transmission Engineering](index.md){ .md-button }

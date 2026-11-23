@@ -25,7 +25,7 @@ A project can continue from:
 → **Design Freeze**  
 → **Pilot / Repeat Production**
 
-[**Send Drawing / STEP for Engineering Review**](../request-cad-sample-quote.md?start=drawing_cad){ .md-button .md-button--primary }
+[**Send Drawing / STEP for Engineering Review**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Drawing%20or%20STEP){ .md-button .md-button--primary }
 [**Manufacturing Equipment & Inspection**](../company/manufacturing-equipment-inspection-capability.md){ .md-button }
 [**Prototype → Volume Production**](prototype-to-production.md){ .md-button }
 
@@ -145,7 +145,7 @@ A useful first package can be very small:
 
 A complete production drawing is **not** required before the first engineering discussion.
 
-[**Start Drawing / STEP Project Brief**](../request-cad-sample-quote.md?start=drawing_cad){ .md-button .md-button--primary }
+[**Start Drawing / STEP Email Inquiry**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Drawing%20or%20STEP){ .md-button .md-button--primary }
 
 ## From Drawing to Prototype
 
@@ -207,8 +207,8 @@ Not every parameter can be changed independently.
 
 Send what is already available. The first engineering discussion can identify what information is still missing.
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)
 
-[**Start Drawing / STEP Review**](../request-cad-sample-quote.md?start=drawing_cad){ .md-button .md-button--primary }
+[**Start Drawing / STEP Review**](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry%20-%20Drawing%20or%20STEP){ .md-button .md-button--primary }

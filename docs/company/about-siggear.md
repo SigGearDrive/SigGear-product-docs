@@ -16,7 +16,7 @@ Many customer-specific transmission products, mechanisms and production programs
 - [SigGear official commercial website](https://www.siggear.com/) — company profile and general product catalog.
 - [8–42 mm micro, miniature and compact planetary gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) — published mechanical gearbox models, Datasheets and STEP entry points.
 - [Planetary gearbox ratio and stage selector](../selection-guides/miniature-planetary-gearbox-selection-guide.md#preliminary-ratio-stage-finder) — preliminary selection using verified model and stage data.
-- [Contact SigGear engineering](../request-cad-sample-quote.md) — send a configuration and manufacturing review request.
+- [Contact SigGear engineering](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry) — send a configuration and manufacturing review request.
 
 The commercial website and the public engineering documentation serve different purposes. The gearbox-only specification, motor-matched assembly and configuration-dependent engineering limits should not be treated as interchangeable.
 
@@ -65,6 +65,6 @@ Some custom development projects are confidential and cannot be shown publicly. 
 [Custom Transmission Engineering](../custom-engineering/index.md){ .md-button }
 [View Robot Joint Actuators](../products/robot-joint-actuators/index.md){ .md-button }
 [Browse Precision Gearbox Products](../products/index.md){ .md-button }
-[Start Engineering Review](../request-cad-sample-quote.md){ .md-button }
+[Start Engineering Review](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button }
 
 Application pages describe where a product family may be technically relevant. They do not imply that SigGear has a public production customer case in every listed application unless a case is explicitly identified and supported.
