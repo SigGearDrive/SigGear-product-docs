@@ -115,10 +115,9 @@
       interfaceLink.href = "../../" + slug + "/mechanical-interface/";
       publicStep.href = "../../../assets/downloads/" + slug + "/" + model +
         "_Public_Simplified_STEP_v1.0_4-Stage.step";
-      brief.href = "../../../request-cad-sample-quote/?model=" + encodeURIComponent(model) +
-        "&selection=ratio_stage_selector&candidate_stage=" + encodeURIComponent(stage) +
-        "&candidate_ratio=" + encodeURIComponent(matchedRatio) +
-        "&next_step=cad_review";
+      brief.href = "mailto:luffy@siggear.com?subject=" +
+        encodeURIComponent("SigGear Controlled CAD / Engineering Inquiry - " +
+          model + " - Stage " + stage + " - " + matchedRatio + ":1");
 
       if (sampleValidation) {
         sampleValidation.href = "../../../engineering-center/sample-validation-workflow/?model=" +
