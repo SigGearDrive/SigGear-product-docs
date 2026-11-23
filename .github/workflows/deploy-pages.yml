@@ -108,6 +108,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+      - name: Publish contact-only corrected PDF downloads (preserve repo originals)
+        run: python scripts/publish_luffy_pdf_contacts.py --in-place
+
       - name: Stamp source commit for downstream live-image verification
         run: printf '%s\n' "$GITHUB_SHA" > docs/assets/deployment-commit.txt
 
