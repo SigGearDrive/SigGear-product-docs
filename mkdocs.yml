@@ -137,76 +137,73 @@ extra:
 
 nav:
   - Home: index.md
-  - 8–42 mm Planetary Gearbox Downloads:
-      - Product Catalogue: products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md
-      - Datasheets, 2D & STEP Downloads: engineering-resources/planetary-gearboxes/public-cad-release-v1.md
-      - Instant Ratio / Torque Selector: selection-guides/planetary-gearhead-quick-selector.md
-      - Micro Planetary Gearboxes (8–16 mm): products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md
-      - Miniature Planetary Gearboxes (20–32 mm): products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md
-      - Compact Planetary Gearboxes (36–42 mm): products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md
-      - Motor Datasheets: engineering-resources/motors/index.md
+  - Datasheets & CAD Downloads:
+      - Planetary Gearheads · PDF / 2D / STEP: engineering-resources/planetary-gearboxes/public-cad-release-v1.md
+      - DC / BLDC Motor Datasheets: engineering-resources/motors/index.md
+      - Robot Joint & Cycloidal Module Files: engineering-resources/robot-joint-actuators/quick-downloads.md
   - Products:
-      - Product Overview: products/index.md
-      - Micro, Miniature & Compact Planetary Gearboxes (8–42 mm):
+      - All Products: products/index.md
+      - Planetary Gearheads (8–42 mm):
           - Series Overview: products/planetary-gearboxes/index.md
-          - 8-42 mm Series: products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md
-          - Micro (8–16 mm) Quick Downloads: products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md
-          - Miniature (20–32 mm) Quick Downloads: products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md
-          - Compact (36–42 mm) Quick Downloads: products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md
-          - 8P (8 mm): products/planetary-gearboxes/8p-planetary-gearbox.md
-          - 10P (10 mm): products/planetary-gearboxes/10p-planetary-gearbox.md
-          - 12P (12 mm): products/planetary-gearboxes/12p-planetary-gearbox.md
-          - 14P (14 mm): products/planetary-gearboxes/14p-planetary-gearbox.md
-          - 16P (16 mm): products/planetary-gearboxes/16p-planetary-gearbox.md
-          - 20P (20 mm): products/planetary-gearboxes/20p-planetary-gearbox.md
-          - 22P (22 mm): products/planetary-gearboxes/22p-planetary-gearbox.md
-          - 24P (24 mm): products/planetary-gearboxes/24p-planetary-gearbox.md
-          - 28P (28 mm): products/planetary-gearboxes/28p-planetary-gearbox.md
-          - 32P (32 mm): products/planetary-gearboxes/32p-planetary-gearbox.md
-          - 36P (36 mm): products/planetary-gearboxes/36p-planetary-gearbox.md
-          - 42P (42 mm): products/planetary-gearboxes/42p-planetary-gearbox.md
+          - All Sizes & Specifications: products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md
+          - Micro Gearheads (8–16 mm):
+              - Micro Series Overview: products/planetary-gearboxes/micro-planetary-gearheads-8-16mm.md
+              - 8P (8 mm): products/planetary-gearboxes/8p-planetary-gearbox.md
+              - 10P (10 mm): products/planetary-gearboxes/10p-planetary-gearbox.md
+              - 12P (12 mm): products/planetary-gearboxes/12p-planetary-gearbox.md
+              - 14P (14 mm): products/planetary-gearboxes/14p-planetary-gearbox.md
+              - 16P (16 mm): products/planetary-gearboxes/16p-planetary-gearbox.md
+          - Miniature Gearheads (20–32 mm):
+              - Miniature Series Overview: products/planetary-gearboxes/miniature-planetary-gearheads-20-32mm.md
+              - 20P (20 mm): products/planetary-gearboxes/20p-planetary-gearbox.md
+              - 22P (22 mm): products/planetary-gearboxes/22p-planetary-gearbox.md
+              - 24P (24 mm): products/planetary-gearboxes/24p-planetary-gearbox.md
+              - 28P (28 mm): products/planetary-gearboxes/28p-planetary-gearbox.md
+              - 32P (32 mm): products/planetary-gearboxes/32p-planetary-gearbox.md
+          - Compact Gearheads (36–42 mm):
+              - Compact Series Overview: products/planetary-gearboxes/compact-planetary-gearheads-36-42mm.md
+              - 36P (36 mm): products/planetary-gearboxes/36p-planetary-gearbox.md
+              - 42P (42 mm): products/planetary-gearboxes/42p-planetary-gearbox.md
       - Robot Joint Actuators:
           - Overview: products/robot-joint-actuators/index.md
           - SG6010C: products/robot-joint-actuators/sg6010c.md
           - SG6010HB: products/robot-joint-actuators/sg6010hb.md
           - SG6010D: products/robot-joint-actuators/sg6010d.md
           - SG8021: products/robot-joint-actuators/sg8021.md
-      - Hub Gear Motors:
-          - Overview: products/hub-gear-motors/index.md
-          - SG2557 (historical source): products/hub-gear-motors/sg2557-80pg-9-75b.md
-          - SG2877: products/hub-gear-motors/sg2877.md
-          - SG2878: products/hub-gear-motors/sg2878.md
       - Cycloidal Joint Modules:
           - Overview: products/cycloidal-joint-modules/index.md
           - CPM78-39: products/cycloidal-joint-modules/cpm78-39.md
           - CPM80-25: products/cycloidal-joint-modules/cpm80-25.md
           - CPM100-25: products/cycloidal-joint-modules/cpm100-25.md
+      - Hub Gear Motors:
+          - Overview: products/hub-gear-motors/index.md
+          - SG2557 (historical source): products/hub-gear-motors/sg2557-80pg-9-75b.md
+          - SG2877: products/hub-gear-motors/sg2877.md
+          - SG2878: products/hub-gear-motors/sg2878.md
       - Micro Gear Motors:
           - Overview: products/micro-gear-motors/index.md
-      - Flat BLDC Motors and Joint Drives:
+      - Flat BLDC Motors & Joint Drives:
           - Overview: products/flat-bldc-motors/index.md
-  - Company:
-      - About SigGear: company/about-siggear.md
-      - Manufacturing & Quality Evidence: company/manufacturing-and-quality-evidence.md
-      - Source-Backed Manufacturing Facts: company/source-backed-manufacturing-facts.md
-      - Manufacturing Equipment & Inspection: company/manufacturing-equipment-inspection-capability.md
-      - Certifications: company/certifications.md
-  - Custom Engineering:
+  - Custom Engineering & OEM:
       - Overview: custom-engineering/index.md
-      - Start With Your Motor / Drawing / Problem: custom-engineering/start-with-your-problem.md
-      - Custom Gearbox From Drawing / STEP: custom-engineering/custom-gearbox-from-drawing-cad.md
-      - Custom Manufacturing & Volume Production: custom-engineering/custom-transmission-manufacturing.md
-      - Custom Planetary Gearbox: custom-engineering/custom-planetary-gearbox.md
-      - Existing Gearbox Replacement & Redesign: custom-engineering/replacement-planetary-gearhead.md
-      - Gearbox Failure & Durability Redesign: custom-engineering/gearbox-failure-analysis-durability-redesign.md
-      - OEM Volume Manufacturing & Delivery: custom-engineering/oem-volume-manufacturing-delivery.md
-      - Custom Cycloidal Transmission: custom-engineering/custom-cycloidal-transmission.md
-      - Motor + Gearbox Integration: custom-engineering/motor-gearbox-integration.md
-      - Robot Joint & Compact Actuator: custom-engineering/robot-joint-actuator-development.md
-      - Prototype to Design-In and Production: custom-engineering/prototype-to-production.md
+      - Start Your Project:
+          - Start With Your Motor / Drawing / Problem: custom-engineering/start-with-your-problem.md
+          - Custom Gearbox From Drawing / STEP: custom-engineering/custom-gearbox-from-drawing-cad.md
+      - Gearhead Design & Redesign:
+          - Custom Planetary Gearbox: custom-engineering/custom-planetary-gearbox.md
+          - Existing Gearbox Replacement & Redesign: custom-engineering/replacement-planetary-gearhead.md
+          - Gearbox Failure & Durability Redesign: custom-engineering/gearbox-failure-analysis-durability-redesign.md
+          - Motor + Gearbox Integration: custom-engineering/motor-gearbox-integration.md
+      - Robot Joints & Cycloidal Drives:
+          - Custom Cycloidal Transmission: custom-engineering/custom-cycloidal-transmission.md
+          - Robot Joint & Compact Actuator: custom-engineering/robot-joint-actuator-development.md
+      - Prototype to OEM Volume Production:
+          - Custom Manufacturing & Volume Production: custom-engineering/custom-transmission-manufacturing.md
+          - Prototype to Design-In and Production: custom-engineering/prototype-to-production.md
+          - OEM Volume Manufacturing & Delivery: custom-engineering/oem-volume-manufacturing-delivery.md
   - Applications:
       - Applications Overview: applications/index.md
-      - Featured Precision Planetary Gearbox Applications:
+      - Planetary Gearheads & Small Mechanisms:
           - Planetary Gearbox Application Families: applications/planetary-gearbox-application-families.md
           - Electric Pruning Shears Planetary Gearbox: applications/electric-pruning-shears-planetary-gearbox.md
           - Electric Screwdrivers and Fastening Tools: applications/powered-screwdriver-planetary-gearbox.md
@@ -245,54 +242,35 @@ nav:
           - Automotive and Vehicle Small Motion Gear Motors: applications/automotive-vehicle-small-motion-gear-motors.md
           - Energy Battery and Charging Equipment Actuators: applications/energy-battery-charging-equipment-actuators.md
           - Agriculture and Outdoor Equipment Gear Motors: applications/agriculture-outdoor-equipment-gear-motors.md
-  - Engineering Guides:
-      - Selection Guides Overview: selection-guides/index.md
-      - Gearhead Quick Selector & Downloads: selection-guides/planetary-gearhead-quick-selector.md
-      - Legacy Ratio & Stage Reference: selection-guides/miniature-planetary-gearbox-selection-guide.md
-      - Robot Joint Actuator Selection Guide: selection-guides/robot-joint-actuator-selection-guide.md
-      - Custom Gearbox Manufacturer Supplier Qualification: selection-guides/custom-gearbox-manufacturer-supplier-qualification.md
-      - Robot Joint Supplier Evaluation: selection-guides/robot-joint-supplier-evaluation.md
-      - Planetary vs Cycloidal for Robot Joints: selection-guides/planetary-vs-cycloidal-robot-joint.md
-      - Integrated Joint vs Motor + Gearhead: selection-guides/integrated-robot-joint-vs-motor-gearhead.md
-      - CAN, Encoder & Driver Selection: selection-guides/robot-joint-can-encoder-driver-selection.md
-  - Engineering Center:
+  - Manufacturing & Company:
+      - About SigGear: company/about-siggear.md
+      - Manufacturing & Quality Evidence: company/manufacturing-and-quality-evidence.md
+      - Source-Backed Manufacturing Facts: company/source-backed-manufacturing-facts.md
+      - Manufacturing Equipment & Inspection: company/manufacturing-equipment-inspection-capability.md
+      - Certifications: company/certifications.md
+  - Engineering & Selection Guides:
+      - Product Selection:
+          - Selection Guides Overview: selection-guides/index.md
+          - Planetary Gearhead Ratio / Torque Selector: selection-guides/planetary-gearhead-quick-selector.md
+          - Legacy Ratio & Stage Reference: selection-guides/miniature-planetary-gearbox-selection-guide.md
+          - Robot Joint Actuator Selection: selection-guides/robot-joint-actuator-selection-guide.md
+      - Supplier Qualification:
+          - Custom Gearbox Manufacturer Checklist: selection-guides/custom-gearbox-manufacturer-supplier-qualification.md
+          - Robot Joint Supplier Evaluation: selection-guides/robot-joint-supplier-evaluation.md
+      - Actuator Architecture & Controls:
+          - Planetary vs Cycloidal for Robot Joints: selection-guides/planetary-vs-cycloidal-robot-joint.md
+          - Integrated Joint vs Motor + Gearhead: selection-guides/integrated-robot-joint-vs-motor-gearhead.md
+          - CAN, Encoder & Driver Selection: selection-guides/robot-joint-can-encoder-driver-selection.md
+  - Testing & Design-In Workflow:
       - Overview: engineering-center/index.md
       - Testing, Metrology & Validation Evidence: engineering-center/testing-and-validation-evidence.md
       - Sample Validation Workflow: engineering-center/sample-validation-workflow.md
       - Design-In Checklist: engineering-center/design-in-checklist.md
       - Pilot Preparation Review: engineering-center/pilot-preparation-review.md
       - Production Release Review: engineering-center/production-release-review.md
-  - Engineering Resources:
-      - 6 Joint Module Datasheets & CAD: engineering-resources/robot-joint-actuators/quick-downloads.md
-      - SG-6010C:
-          - Technical Datasheet: engineering-resources/sg6010c/datasheet.md
-          - Mechanical Interface: engineering-resources/sg6010c/mechanical-interface.md
-      - SG-6010HB:
-          - Technical Datasheet: engineering-resources/sg6010hb/datasheet.md
-          - Mechanical Interface: engineering-resources/sg6010hb/mechanical-interface.md
-          - Thermal Test Record: engineering-resources/sg6010hb/thermal-test-record.md
-          - Driver & Communication: engineering-resources/sg6010hb/driver-communication.md
-      - SG-6010D:
-          - Technical Datasheet: engineering-resources/sg6010d/datasheet.md
-          - Mechanical Interface: engineering-resources/sg6010d/mechanical-interface.md
-          - Driver and Communication: engineering-resources/sg6010d/driver-communication.md
-      - SG-8021:
-          - Technical Datasheet: engineering-resources/sg8021/datasheet.md
-          - Mechanical Interface: engineering-resources/sg8021/mechanical-interface.md
-      - CPM-78-39:
-          - Technical Datasheet: engineering-resources/cpm78-39/datasheet.md
-          - Mechanical Interface: engineering-resources/cpm78-39/mechanical-interface.md
-      - CPM-80-25:
-          - Technical Datasheet: engineering-resources/cpm80-25/datasheet.md
-          - Mechanical Interface: engineering-resources/cpm80-25/mechanical-interface.md
-          - Measured Performance Data: engineering-resources/cpm80-25/performance-test-data.md
-      - CPM-100-25:
-          - Technical Datasheet: engineering-resources/cpm100-25/datasheet.md
-          - Mechanical Interface: engineering-resources/cpm100-25/mechanical-interface.md
-          - Dual Encoder Variant: engineering-resources/cpm100-25/dual-encoder-variant.md
+  - Technical Documentation:
       - Precision Planetary Gearheads 8P–42P:
           - Resource Library: engineering-resources/planetary-gearboxes/index.md
-          - Datasheets, Drawings & Full STEP CAD: engineering-resources/planetary-gearboxes/public-cad-release-v1.md
           - Candidate Design-In Pack: engineering-resources/planetary-gearboxes/candidate-design-in-pack.md
           - 8P:
               - Technical Datasheet: engineering-resources/8p/datasheet.md
@@ -334,22 +312,52 @@ nav:
               - Technical Datasheet: engineering-resources/42p/datasheet.md
               - Mechanical Interface: engineering-resources/42p/mechanical-interface.md
               - Motor Integration Guide: engineering-resources/42p/motor-integration.md
-  - Sales:
-      - Sales Overview: sales/index.md
-      - Customer Qualification Checklist: sales/customer-qualification-checklist.md
-      - Inquiry Response Policy: sales/inquiry-response-policy.md
-      - Product Matching Workflow: sales/product-matching-workflow.md
-      - Quotation Readiness Checklist: sales/quotation-readiness-checklist.md
-      - Reply Templates: sales/reply-templates.md
-  - Knowledge Base:
-      - Knowledge Base Overview: knowledge-base/index.md
-      - Documentation Policy: knowledge-base/documentation-policy.md
-      - Glossary: knowledge-base/glossary.md
-      - Product Data Dictionary: knowledge-base/product-data-dictionary.md
-      - Product FAQ: knowledge-base/product-faq.md
-      - Product Model Index: knowledge-base/product-model-index.md
-      - Sales Usage and Review Status: knowledge-base/sales-usage-and-review-status.md
-      - Sales Usage and Technical Review Status: knowledge-base/sales-usage-and-technical-review-status.md
-      - Update Workflow: knowledge-base/update-workflow.md
-  - Email SigGear | Engineering Inquiry: request-cad-sample-quote.md
-  - Contact: contact.md
+      - Robot Joint Actuator Technical Pages:
+        - SG-6010C:
+            - Technical Datasheet: engineering-resources/sg6010c/datasheet.md
+            - Mechanical Interface: engineering-resources/sg6010c/mechanical-interface.md
+        - SG-6010HB:
+            - Technical Datasheet: engineering-resources/sg6010hb/datasheet.md
+            - Mechanical Interface: engineering-resources/sg6010hb/mechanical-interface.md
+            - Thermal Test Record: engineering-resources/sg6010hb/thermal-test-record.md
+            - Driver & Communication: engineering-resources/sg6010hb/driver-communication.md
+        - SG-6010D:
+            - Technical Datasheet: engineering-resources/sg6010d/datasheet.md
+            - Mechanical Interface: engineering-resources/sg6010d/mechanical-interface.md
+            - Driver and Communication: engineering-resources/sg6010d/driver-communication.md
+        - SG-8021:
+            - Technical Datasheet: engineering-resources/sg8021/datasheet.md
+            - Mechanical Interface: engineering-resources/sg8021/mechanical-interface.md
+      - Cycloidal Module Technical Pages:
+        - CPM-78-39:
+            - Technical Datasheet: engineering-resources/cpm78-39/datasheet.md
+            - Mechanical Interface: engineering-resources/cpm78-39/mechanical-interface.md
+        - CPM-80-25:
+            - Technical Datasheet: engineering-resources/cpm80-25/datasheet.md
+            - Mechanical Interface: engineering-resources/cpm80-25/mechanical-interface.md
+            - Measured Performance Data: engineering-resources/cpm80-25/performance-test-data.md
+        - CPM-100-25:
+            - Technical Datasheet: engineering-resources/cpm100-25/datasheet.md
+            - Mechanical Interface: engineering-resources/cpm100-25/mechanical-interface.md
+            - Dual Encoder Variant: engineering-resources/cpm100-25/dual-encoder-variant.md
+  - Knowledge & Inquiry Reference:
+      - Product Knowledge Base:
+          - Knowledge Base Overview: knowledge-base/index.md
+          - Documentation Policy: knowledge-base/documentation-policy.md
+          - Glossary: knowledge-base/glossary.md
+          - Product Data Dictionary: knowledge-base/product-data-dictionary.md
+          - Product FAQ: knowledge-base/product-faq.md
+          - Product Model Index: knowledge-base/product-model-index.md
+          - Sales Usage and Review Status: knowledge-base/sales-usage-and-review-status.md
+          - Sales Usage and Technical Review Status: knowledge-base/sales-usage-and-technical-review-status.md
+          - Update Workflow: knowledge-base/update-workflow.md
+      - Sales & Inquiry Guidance:
+          - Sales Overview: sales/index.md
+          - Customer Qualification Checklist: sales/customer-qualification-checklist.md
+          - Inquiry Response Policy: sales/inquiry-response-policy.md
+          - Product Matching Workflow: sales/product-matching-workflow.md
+          - Quotation Readiness Checklist: sales/quotation-readiness-checklist.md
+          - Reply Templates: sales/reply-templates.md
+  - Contact & Engineering Inquiry:
+      - Contact SigGear: contact.md
+      - Request CAD / Sample / Quote: request-cad-sample-quote.md
