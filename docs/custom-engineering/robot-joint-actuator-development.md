@@ -30,7 +30,7 @@ Depending on the project, the engineering path may start from:
 - a modified mechanical interface
 - a new compact actuator configuration based on the application requirements
 
-[Send Your Joint Requirement](mailto:wangwanrong@siggear.com?subject=Robot%20Joint%20and%20Compact%20Actuator%20Engineering%20Review){ .md-button .md-button--primary }
+[Send Your Joint Requirement](mailto:luffy@siggear.com?subject=Robot%20Joint%20and%20Compact%20Actuator%20Engineering%20Review){ .md-button .md-button--primary }
 [Humanoid and Bipedal Robot Joint Engineering](../applications/humanoid-robot-joint-actuators.md){ .md-button }
 [Request Engineering Review](../request-cad-sample-quote.md){ .md-button }
 
@@ -306,7 +306,7 @@ Send the joint requirement, robot CAD, mechanism, motor or the information you a
 
 **Wanrong Wang**  
 International Sales / Sales Engineer, SigGear  
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+[luffy@siggear.com](mailto:luffy@siggear.com)
 
 [Request Engineering Review](../request-cad-sample-quote.md){ .md-button .md-button--primary }
-[Send Your Joint Requirement](mailto:wangwanrong@siggear.com?subject=Robot%20Joint%20and%20Compact%20Actuator%20Engineering%20Review){ .md-button }
+[Send Your Joint Requirement](mailto:luffy@siggear.com?subject=Robot%20Joint%20and%20Compact%20Actuator%20Engineering%20Review){ .md-button }

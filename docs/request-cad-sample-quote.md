@@ -88,10 +88,10 @@ You do not need a complete specification to start. Missing technical details can
 
 If your project matches one of the current priority application paths, use the dedicated review link so the first email already contains the minimum engineering fields.
 
-[Pruning Shears Review](mailto:wangwanrong@siggear.com?subject=Electric%20Pruning%20Shears%20Planetary%20Gearbox%20Review){ .md-button }
-[Electric Curtain / Blind Review](mailto:wangwanrong@siggear.com?subject=Electric%20Curtain%20Blind%20Planetary%20Gear%20Motor%20Review){ .md-button }
-[Smart Toilet / Bidet Review](mailto:wangwanrong@siggear.com?subject=Smart%20Toilet%20Bidet%20Planetary%20Gear%20Motor%20Review){ .md-button }
-[Dexterous Hand / Gripper Review](mailto:wangwanrong@siggear.com?subject=Dexterous%20Hand%20Robot%20Gripper%20Planetary%20Gearbox%20Review){ .md-button }
+[Pruning Shears Review](mailto:luffy@siggear.com?subject=Electric%20Pruning%20Shears%20Planetary%20Gearbox%20Review){ .md-button }
+[Electric Curtain / Blind Review](mailto:luffy@siggear.com?subject=Electric%20Curtain%20Blind%20Planetary%20Gear%20Motor%20Review){ .md-button }
+[Smart Toilet / Bidet Review](mailto:luffy@siggear.com?subject=Smart%20Toilet%20Bidet%20Planetary%20Gear%20Motor%20Review){ .md-button }
+[Dexterous Hand / Gripper Review](mailto:luffy@siggear.com?subject=Dexterous%20Hand%20Robot%20Gripper%20Planetary%20Gearbox%20Review){ .md-button }
 
 
 
@@ -99,12 +99,12 @@ If your project matches one of the current priority application paths, use the d
 
 If you do not want to write a technical inquiry from scratch, use this short project brief. Fill in only what you already know.
 
-Complete the project brief below and click **Send Engineering Request Online** to contact SigGear without opening an email application. This form is delivered through **FormSubmit**, a third-party email forwarding service; your contact email and agreement to its data processing are required. Prefer your own email client? Use **Prepare Email Instead** to review and send the same structured brief directly to **wangwanrong@siggear.com**. For confidential drawings, NDA-controlled files or sensitive design information, use direct email and an agreed secure file-transfer channel rather than the online form.
+Complete the project brief below and click **Prepare Email to SigGear**. This opens your email application with a structured draft addressed to **luffy@siggear.com**, which you can review and send. **The online FormSubmit option is temporarily paused** while the new mailbox completes recipient activation and a real delivery test; the website will not claim an unverified form submission. You can also use **Copy Project Brief**. For confidential drawings, NDA-controlled files or sensitive designs, use direct email and an agreed secure file-transfer channel.
 
-<p id="sg-online-return" class="siggear-form-return" hidden role="status">Your form was processed by the online delivery service. SigGear will review it once the email is received. If you need to send attachments or have an urgent request, email <a href="mailto:wangwanrong@siggear.com">wangwanrong@siggear.com</a> directly.</p>
+<p id="sg-online-return" class="siggear-form-return" hidden role="status">The form provider returned to this page. A redirect alone does not confirm delivery to SigGear's mailbox. If you need to send attachments or have an urgent request, email <a href="mailto:luffy@siggear.com">luffy@siggear.com</a> directly.</p>
 
 <form id="siggear-engineering-brief" class="siggear-inquiry-form" action="#" method="POST">
-  <!-- FormSubmit recipient activation and inbox receipt were verified on 2026-10-15. -->
+  <!-- Historical previous mailbox activation on 2026-10-15; new luffy@siggear.com not verified. Inline POST disabled until recipient setup + inbox test. -->
   <input id="sg-online-message" type="hidden" name="message">
   <input id="sg-online-subject" type="hidden" name="_subject">
   <input id="sg-online-next" type="hidden" name="_next" value="https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/?form_delivery=provider_return">
@@ -370,7 +370,7 @@ Complete the project brief below and click **Send Engineering Request Online** t
     <button type="button" id="sg-copy-brief" class="md-button">Copy Project Brief</button>
   </div>
   <noscript>
-    <p>JavaScript is required to submit the online project brief. Please email <a href="mailto:wangwanrong@siggear.com">wangwanrong@siggear.com</a> directly instead.</p>
+    <p>JavaScript is required to submit the online project brief. Please email <a href="mailto:luffy@siggear.com">luffy@siggear.com</a> directly instead.</p>
   </noscript>
 
   <p id="sg-brief-status" class="siggear-form-status" aria-live="polite"></p>
@@ -468,4 +468,4 @@ If you already have or plan to order a sample, use the evaluation workflow to se
 
 **Wanrong Wang**  
 International Sales / Sales Engineer, SigGear  
-Email: [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+Email: [luffy@siggear.com](mailto:luffy@siggear.com)

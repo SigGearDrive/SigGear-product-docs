@@ -128,4 +128,4 @@ A **motor drawing or mechanism sketch**, target output speed, available space, m
 [**Send My Motor for Review**](../request-cad-sample-quote.md?start=existing_motor&path=gearbox_only){ .md-button .md-button--primary }
 [**Send Drawing / STEP / Sample**](../request-cad-sample-quote.md?start=drawing_cad){ .md-button }
 
-**Luffy · Sales Engineer, SigGear** — [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+**Luffy · Sales Engineer, SigGear** — [luffy@siggear.com](mailto:luffy@siggear.com)

@@ -121,4 +121,4 @@ If the 32P is a possible fit, send the selected ratio or target output speed, re
 
 **Wanrong Wang**  
 International Sales / Sales Engineer, SigGear  
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+[luffy@siggear.com](mailto:luffy@siggear.com)

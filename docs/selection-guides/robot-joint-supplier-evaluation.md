@@ -112,6 +112,6 @@ Send the target torque, speed, joint envelope, voltage, external loads, encoder 
 
 **Wanrong Wang**  
 International Sales / Sales Engineer, SigGear  
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+[luffy@siggear.com](mailto:luffy@siggear.com)
 
 [Request CAD, Sample or Engineering Review](../request-cad-sample-quote.md){ .md-button .md-button--primary }

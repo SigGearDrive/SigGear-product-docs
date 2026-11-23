@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the live engineering inquiry page loads current online-delivery assets."""
+"""Verify the live inquiry page loads the safe new-mailbox direct-email assets."""
 
 from pathlib import Path
 from html.parser import HTMLParser
@@ -7,7 +7,7 @@ from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 PAGE = ROOT / "site/request-cad-sample-quote/index.html"
-VERSION = "20261015-online-live"
+VERSION = "20261123-luffy-mail-safe"
 
 
 class Assets(HTMLParser):
@@ -42,8 +42,8 @@ def main():
                 "sg-contact-email", "sg-online-consent-wrap"):
         if f'id="{id_}"' not in doc:
             raise ValueError(f"Inquiry page is missing activation control {id_}")
-    if "Send Engineering Request Online" not in doc:
-        raise ValueError("The public form is missing its live online option in published copy")
+    if "Prepare Email to SigGear" not in doc or "luffy@siggear.com" not in doc:
+        raise ValueError("Public brief must offer the new direct email as default")
     # Customer-facing wording may change, but the legacy query/form machine
     # values must stay stable for historical product deep links and prefill.
     requirements = (
@@ -60,13 +60,17 @@ def main():
         raise ValueError("Legacy Gearhead-only customer label still present")
     js_path = ROOT / "docs/assets/javascripts/inquiry-form.js"
     js = js_path.read_text(encoding="utf-8")
+    if "var ONLINE_DELIVERY_VERIFIED = false;" not in js:
+        raise ValueError("New FormSubmit recipient must stay disabled until inbox verification")
+    if "https://formsubmit.co/luffy@siggear.com" not in js:
+        raise ValueError("Future FormSubmit recipient is not the new approved mailbox")
     for label in ("Planetary Gearbox Engineering Review", "Motor + Gearbox Engineering Review"):
         if label not in js:
             raise ValueError("Outdated customer email subject: " + label)
     for code in ('"gearbox_only"', '"motor_gearbox"'):
         if code not in js or code not in doc:
             raise ValueError("Internal project-path value changed: " + code)
-    print("PASS live online inquiry: current JS/CSS, contact email, consent and email fallback")
+    print("PASS new Luffy contact and safe direct-email default, recipient activation pending")
 
 
 if __name__ == "__main__":

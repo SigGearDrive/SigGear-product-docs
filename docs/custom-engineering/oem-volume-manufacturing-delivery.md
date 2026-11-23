@@ -186,6 +186,6 @@ For a meaningful first discussion, send:
 
 **Wanrong Wang**  
 International Sales / Sales Engineer, SigGear  
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+[luffy@siggear.com](mailto:luffy@siggear.com)
 
 [**Discuss Prototype → Volume Production**](../request-cad-sample-quote.md?start=prototype_to_volume){ .md-button .md-button--primary }

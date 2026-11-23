@@ -101,7 +101,7 @@ If you already have the motor or hand mechanism, the fastest starting point is t
 
 **Wanrong Wang**  
 International Sales / Sales Engineer, SigGear  
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+[luffy@siggear.com](mailto:luffy@siggear.com)
 
 [Request Engineering Review](../request-cad-sample-quote.md?app=dexterous_hand_gripper){ .md-button .md-button--primary }
 

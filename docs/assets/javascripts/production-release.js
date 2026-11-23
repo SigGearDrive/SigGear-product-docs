@@ -216,7 +216,7 @@
     actionStatus.textContent = "Opening your email client with the production-release review summary...";
     track("production_release_prepare_email");
 
-    window.location.href = "mailto:wangwanrong@siggear.com?subject=" +
+    window.location.href = "mailto:luffy@siggear.com?subject=" +
       encodeURIComponent(subject) + "&body=" + encodeURIComponent(summary);
   }
 

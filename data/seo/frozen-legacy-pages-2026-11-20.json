@@ -6,7 +6,8 @@
   "pages": [
     {
       "path": "docs/custom-engineering/motor-gearbox-integration.md",
-      "git_blob_sha": "9a6b1a8b55c630960f2c6c007e88ae0f62ff30a6"
+      "git_blob_sha": "9e0cc811df353fff46bb7f1a11cc1a65eb23a4bf",
+      "contact_email_exception": "2026-11-23: owner explicitly requested all published SigGear contact emails become luffy@siggear.com; only prior contact address changed, engineering/SEO text preserved."
     },
     {
       "path": "docs/applications/planetary-gearbox-application-families.md",
@@ -14,7 +15,8 @@
     },
     {
       "path": "docs/selection-guides/robot-joint-actuator-selection-guide.md",
-      "git_blob_sha": "6b8c22ae1f9a50da08e1d806c151d66daa2fa8ca"
+      "git_blob_sha": "6a423885d4fcc5fbb5f0b28d4807d6b108789ef1",
+      "contact_email_exception": "2026-11-23: owner explicitly requested all published SigGear contact emails become luffy@siggear.com; only prior contact address changed, engineering/SEO text preserved."
     },
     {
       "path": "docs/engineering-resources/planetary-gearboxes/index.md",
@@ -22,7 +24,8 @@
     },
     {
       "path": "docs/selection-guides/miniature-planetary-gearbox-selection-guide.md",
-      "git_blob_sha": "771cd6ab983674dac2bc3656906844af443a7319"
+      "git_blob_sha": "dccbee429d9eed89a552adf1fbcf9a72b4507891",
+      "contact_email_exception": "2026-11-23: owner explicitly requested all published SigGear contact emails become luffy@siggear.com; only prior contact address changed, engineering/SEO text preserved."
     }
   ],
   "instructions": "This freeze is operational, not permanent/legal. The validator fails on any change to a listed source while its frozen git_blob_sha remains pinned. Change page content only after explicit SigGear owner instruction and update its expected sha in the manifest within the same approved PR.",
@@ -33,6 +36,13 @@
     "retired_image_file": "docs/assets/images/evidence/planetary/micro-gearmotor-size-reference.webp",
     "status": "retired_unreadable_original_not_available",
     "replacement_original_required": true,
-    "note": "Historical source filename retained only for audit traceability; this retired file is no longer published and is not an approved engineering image." 
+    "note": "Historical source filename retained only for audit traceability; this retired file is no longer published and is not an approved engineering image."
+  },
+  "contact_email_migration": {
+    "date": "2026-11-23",
+    "owner_authorized": true,
+    "purpose": "Public sales contact mailbox transition from old address to luffy@siggear.com",
+    "frozen_pages_updated": 3,
+    "remaining_pages_unchanged": 2
   }
 }

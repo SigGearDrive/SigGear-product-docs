@@ -34,11 +34,11 @@
       "Volume manufacturing of custom transmission assemblies",
       "Prototype-to-production engineering"
     ],
-    "email": "wangwanrong@siggear.com",
+    "email": "luffy@siggear.com",
     "contactPoint": {
       "@type": "ContactPoint",
       "contactType": "sales",
-      "email": "wangwanrong@siggear.com"
+      "email": "luffy@siggear.com"
     },
     "sameAs": [
       "https://github.com/SigGearDrive",

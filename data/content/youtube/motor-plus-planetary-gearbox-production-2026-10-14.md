@@ -20,7 +20,7 @@ Engineering matching guide: https://siggeardrive.github.io/SigGear-product-docs/
 Already have a motor? Start a gearbox-only review: https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/?path=gearbox_only&utm_source=youtube&utm_medium=video&utm_campaign=planetary_content&utm_content=existing_motor_review
 Need a complete drive? Start a motor + gearbox review: https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/?path=motor_gearbox&utm_source=youtube&utm_medium=video&utm_campaign=planetary_content&utm_content=complete_drive_review
 
-Send your motor drawing and target output speed to: wangwanrong@siggear.com
+Send your motor drawing and target output speed to: luffy@siggear.com
 
 #PlanetaryGearbox #GearMotor #MechanicalEngineering
 

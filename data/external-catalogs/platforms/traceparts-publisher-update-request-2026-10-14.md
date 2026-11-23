@@ -57,7 +57,7 @@ Best regards,
 Wanrong Wang
 International Sales / Sales Engineer
 Guangdong SigGear Drive Intelligent Technology Co., Ltd.
-wangwanrong@siggear.com
+luffy@siggear.com
 
 **Official Smart-Publishing assistance:** https://info.traceparts.com/pcs/publishing-3d-catalogs/easy-straight-way-publish-cad-content/publish-your-cad-models/smart-publishing/traceparts-smart-publishing-help/
 

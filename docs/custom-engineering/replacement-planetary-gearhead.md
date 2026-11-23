@@ -188,6 +188,6 @@ Send the existing drawing, motor information, failed-part photos or physical sam
 
 **Wanrong Wang**  
 International Sales / Sales Engineer, SigGear  
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+[luffy@siggear.com](mailto:luffy@siggear.com)
 
 [Request Replacement / Redesign Review](../request-cad-sample-quote.md?start=failing_gearbox&path=gearbox_only){ .md-button .md-button--primary }

@@ -128,4 +128,4 @@ Send the joint or mechanism requirement, existing motor / controller information
 [Robot Joint Actuator Selection Guide](robot-joint-actuator-selection-guide.md){ .md-button }
 [Request Engineering Review](../request-cad-sample-quote.md){ .md-button .md-button--primary }
 
-**Contact:** Wanrong Wang · International Sales / Sales Engineer, SigGear · wangwanrong@siggear.com
+**Contact:** Wanrong Wang · International Sales / Sales Engineer, SigGear · luffy@siggear.com

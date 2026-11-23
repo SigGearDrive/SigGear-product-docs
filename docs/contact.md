@@ -6,7 +6,7 @@
 
 International Sales, SigGear
 
-- Email: [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+- Email: [luffy@siggear.com](mailto:luffy@siggear.com)
 
 ## Social Channels
 
@@ -29,7 +29,7 @@ For a first review, send:
 - Maximum gearbox / assembly diameter and length
 - Load or torque, if known
 
-[Start Gearbox-Only Review](mailto:wangwanrong@siggear.com?subject=Gearbox%20Only%20Review%20-%20Existing%20Motor&body=Existing%20motor%20model%20%2F%20drawing%3A%20%0AMotor%20speed%3A%20%0ARequired%20output%20speed%20or%20ratio%3A%20%0AMaximum%20gearbox%20%2F%20assembly%20size%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button .md-button--primary }
+[Start Gearbox-Only Review](mailto:luffy@siggear.com?subject=Gearbox%20Only%20Review%20-%20Existing%20Motor&body=Existing%20motor%20model%20%2F%20drawing%3A%20%0AMotor%20speed%3A%20%0ARequired%20output%20speed%20or%20ratio%3A%20%0AMaximum%20gearbox%20%2F%20assembly%20size%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button .md-button--primary }
 
 ### I Need a Complete Motor + Gearbox Assembly
 
@@ -41,7 +41,7 @@ For a first review, send:
 - Maximum diameter and total length
 - Operating voltage
 
-[Start Motor + Gearbox Review](mailto:wangwanrong@siggear.com?subject=Motor%20%2B%20Gearbox%20Engineering%20Review&body=Application%20%2F%20what%20needs%20to%20move%3A%20%0ARequired%20output%20speed%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0AMaximum%20diameter%20and%20total%20length%3A%20%0AOperating%20voltage%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button .md-button--primary }
+[Start Motor + Gearbox Review](mailto:luffy@siggear.com?subject=Motor%20%2B%20Gearbox%20Engineering%20Review&body=Application%20%2F%20what%20needs%20to%20move%3A%20%0ARequired%20output%20speed%3A%20%0ALoad%20or%20torque%20if%20known%3A%20%0AMaximum%20diameter%20and%20total%20length%3A%20%0AOperating%20voltage%3A%20%0APrototype%20quantity%20%2F%20annual%20volume%3A%20){ .md-button .md-button--primary }
 
 A complete specification is not required for the first review. If you have a mechanism sketch, motor drawing or CAD screenshot, attach it to the email.
 

@@ -5,7 +5,7 @@
 **Guangdong SigGear Drive Intelligent Technology Co., Ltd.**  
 Brand: **SigGear**  
 Contact: **Wanrong Wang — International Sales / Sales Engineer**  
-Email: **wangwanrong@siggear.com**
+Email: **luffy@siggear.com**
 
 ## Product scope for evaluation
 

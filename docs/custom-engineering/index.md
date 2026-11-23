@@ -36,7 +36,7 @@ SigGear works with engineering teams on compact precision transmission problems 
 The first step is to understand what the mechanism needs to do. From there, the transmission structure, ratio, motor interface and other design details can be evaluated.
 
 [Discuss Your Application](../request-cad-sample-quote.md){ .md-button .md-button--primary }
-[Send Your Drawing or Concept](mailto:wangwanrong@siggear.com?subject=Custom%20Transmission%20Engineering%20Review){ .md-button }
+[Send Your Drawing or Concept](mailto:luffy@siggear.com?subject=Custom%20Transmission%20Engineering%20Review){ .md-button }
 
 ## What SigGear Can Help Engineers Evaluate
 
@@ -231,7 +231,7 @@ A complete gearbox specification is not required before the first discussion.
 
 **Wanrong Wang**  
 International Sales / Sales Engineer, SigGear  
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+[luffy@siggear.com](mailto:luffy@siggear.com)
 
 [Request Engineering Review](../request-cad-sample-quote.md){ .md-button .md-button--primary }
-[Send Your Drawing or Concept](mailto:wangwanrong@siggear.com?subject=Custom%20Transmission%20Engineering%20Review){ .md-button }
+[Send Your Drawing or Concept](mailto:luffy@siggear.com?subject=Custom%20Transmission%20Engineering%20Review){ .md-button }
