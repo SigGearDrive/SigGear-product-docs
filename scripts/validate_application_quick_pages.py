@@ -7,6 +7,12 @@ ROOT=Path(__file__).resolve().parents[1]
 APP=ROOT/"docs/applications"
 PAGES=sorted(p for p in APP.glob("*.md") if p.name not in {"index.md","planetary-gearbox-application-families.md"})
 MODELS=["8P","10P","12P","14P","16P","20P","22P","24P","28P","32P","36P","42P"]
+# URL-encoded email subjects are not visible page content. Preserve the
+# original concise-page checks by measuring text without mailto query overhead.
+def visible_length(source):
+    return len(re.sub(r'mailto:luffy@siggear\.com\?subject=[^)\s"]+',
+                      'mailto:luffy@siggear.com', source))
+
 assert len(PAGES)==32, f"Expected 32 distinct application pages, found {len(PAGES)}"
 DETAILED_APPLICATION_PAGES={"robot-gripper-gear-motors.md"}
 
@@ -19,14 +25,14 @@ for page in PAGES:
         # High-value engineering answer pages may be longer than the concise
         # supplier-first template, but must still expose real model files,
         # selector context and an engineering inquiry path.
-        assert len(s)<9000, f"{page.name}: detailed page too long at {len(s)} chars"
+        assert visible_length(s)<9000, f"{page.name}: detailed page too long at {len(s)} chars"
         for m in ("8P","10P","12P","14P","16P"):
             assert f"../products/planetary-gearboxes/{m.lower()}-planetary-gearbox.md" in s, (page.name,m)
             assert f"{m}_Full_Assembly.step" in s
             assert f"{m}_2D_Drawing.pdf" in s
             assert f"{m}_Planetary_Gearhead_Datasheet_Rev" in s
         assert "../selection-guides/planetary-gearhead-quick-selector.md?app=dexterous_hand_gripper#preliminary-ratio-stage-finder" in s, page
-        assert "../request-cad-sample-quote.md?app=dexterous_hand_gripper" in s, page
+        assert "mailto:luffy@siggear.com?subject=" in s, page
         assert "rated allowable" in s.lower() and "not claims" in s.lower(), page
         assert "## Direct Downloads — PDF / 2D / STEP" in s, page
         assert s.index("## Direct Downloads") < s.index("For a dexterous hand"), page
@@ -44,12 +50,12 @@ for page in PAGES:
         assert matrix.count("_Full_Assembly.step") == 5, page
         continue
 
-    assert len(s)<3700, f"{page.name}: too long at {len(s)} chars"
+    assert visible_length(s)<3700, f"{page.name}: too long at {len(s)} chars"
     assert "SigGear is an OEM supplier" in s, page
     for link in ("../engineering-resources/motors/index.md",
                  "../engineering-resources/planetary-gearboxes/public-cad-release-v1.md",
                  "../custom-engineering/motor-gearbox-integration.md",
-                 "../request-cad-sample-quote.md"):
+                 "mailto:luffy@siggear.com?subject="):
         assert link in s, f"{page.name}: missing supplier/download path {link}"
     assert "Rated torque and length depend on the selected stage/ratio" in s, page
     found=[m for m in MODELS if f"../products/planetary-gearboxes/{m.lower()}-planetary-gearbox.md" in s]
@@ -58,7 +64,7 @@ for page in PAGES:
         assert f"{m}_Full_Assembly.step" in s and f"{m}_2D_Drawing.pdf" in s
         assert f"{m}_Planetary_Gearhead_Datasheet_Rev" in s
 index=(APP/"index.md").read_text(encoding="utf-8")
-assert len(index)<6500, "Application index too long"
+assert visible_length(index)<6500, "Application index too long"
 for page in PAGES:
     assert page.name in index, f"Application index does not link {page.name}"
 for name, token in (
@@ -119,7 +125,7 @@ for name in firstscreen_file_pages:
     assert source.count("[**↓ PDF**]") == 3, name
     assert source.count("[**↓ 2D**]") == 3, name
     assert source.count("[**↓ STEP**]") == 3, name
-    assert len(source) < 2150, (name, len(source))
+    assert visible_length(source) < 2150, (name, len(source))
     assert '<div class="siggear-app-quick" markdown="1">' in source, name
     rendered = ROOT / "site/applications" / name.removesuffix(".md") / "index.html"
     assert rendered.is_file(), (name, "Rendered page missing")
@@ -190,7 +196,7 @@ for name, count in round6_gear.items():
     assert source.count("## Direct Downloads") == 1, name
     assert len(source.split("## Direct Downloads", 1)[0]) < 620, name
     assert source.index("## Direct Downloads") < source.index("**Application:**"), name
-    assert len(source) < (2750 if count == 4 else 2600), (name, len(source))
+    assert visible_length(source) < (2750 if count == 4 else 2600), (name, len(source))
     for label in ("PDF", "2D", "STEP"):
         assert source.count("[**↓ " + label + "**]") == count, (name, label)
     html_path = ROOT / "site/applications" / name.removesuffix(".md") / "index.html"
@@ -216,7 +222,7 @@ for name, (modules, drawings) in round6_joint.items():
     assert source.count("[Request 2D]") == modules - drawings, name
     assert "Public Reference Rev0.1" in source, name
     assert "<details markdown=" in source and "Auxiliary Gearhead options" in source, name
-    assert len(source) < 3700, (name, len(source))
+    assert visible_length(source) < 3700, (name, len(source))
     html_path = ROOT / "site/applications" / name.removesuffix(".md") / "index.html"
     assert html_path.is_file(), name
     html = html_path.read_text(encoding="utf-8")
