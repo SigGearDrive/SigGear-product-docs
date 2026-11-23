@@ -124,11 +124,12 @@ def main() -> None:
             if not evidence_links:
                 raise AssertionError("no direct public manufacturing/inspection/test source")
             handoff = [
-                link for link in local_links
-                if "request-cad-sample-quote.md" in link
+                link for link in LINK.findall(excerpt)
+                if urlsplit(link).scheme == "mailto"
+                and urlsplit(link).path.lower() == "luffy@siggear.com"
             ]
             if not handoff:
-                raise AssertionError("no working engineering inquiry handoff in first answer")
+                raise AssertionError("no working direct-email inquiry handoff in first answer")
             print(f"  PASS {name}: {words} extractable words; {len(evidence_links)} evidence links; {len(handoff)} handoff links")
         except AssertionError as exc:
             errors.append(f"{name}: {exc}")
