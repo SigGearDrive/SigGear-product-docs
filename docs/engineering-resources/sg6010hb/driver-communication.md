@@ -197,7 +197,7 @@ Before final integration, confirm:
 - Customer controller architecture
 - Whether an expansion interface such as EtherCAT is required
 
-[Request Integration Files](../../request-cad-sample-quote.md){ .md-button .md-button--primary }
+[Request Integration Files](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button .md-button--primary }
 
 ## Related Resources
 
@@ -209,6 +209,6 @@ Before final integration, confirm:
 
 ## Engineering Contact
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)

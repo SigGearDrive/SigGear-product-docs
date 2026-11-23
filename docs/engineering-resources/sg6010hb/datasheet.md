@@ -74,7 +74,7 @@ The controlled production drawing and detailed internal assembly STEP remain **r
 [View Mechanical Interface](mechanical-interface.md){ .md-button .md-button--primary }
 [View Thermal Test Record](thermal-test-record.md){ .md-button }
 [View Driver & Communication](driver-communication.md){ .md-button }
-[Request CAD / Drawing](../../request-cad-sample-quote.md){ .md-button }
+[Request CAD / Drawing](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry){ .md-button }
 
 ## Driver-Equipped Configuration
 
@@ -106,6 +106,6 @@ Driver hardware revision, firmware, second-encoder hardware, cable / connector s
 
 ## Engineering Contact
 
-**Wanrong Wang**  
+**Luffy Wang**  
 International Sales / Sales Engineer, SigGear  
 [luffy@siggear.com](mailto:luffy@siggear.com)
