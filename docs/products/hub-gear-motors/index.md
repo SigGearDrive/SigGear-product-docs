@@ -5,12 +5,19 @@ description: Compare SigGear SG-2877 and SG-2878 hub gear motors for AGV, AMR an
 
 # Hub Gear Motors
 
-SigGear hub gear motors integrate BLDC motors and planetary reduction mechanisms for mobile robotics, intelligent vehicles and compact automation platforms.
-
 [**SG-2877 Datasheet PDF**](../../assets/downloads/hub-gear-motors/SG-2877_Public_Reference_Datasheet_Rev0.1.pdf){ .md-button .md-button--primary }
 [**SG-2877 Dimension Reference**](../../assets/downloads/hub-gear-motors/SG-2877_Source_Dimension_Reference_Rev0.1.pdf){ .md-button }
 [**SG-2878 Datasheet PDF**](../../assets/downloads/hub-gear-motors/SG-2878_Public_Reference_Datasheet_Rev0.1.pdf){ .md-button }
 [**SG-2878 Dimension Reference**](../../assets/downloads/hub-gear-motors/SG-2878_Source_Dimension_Reference_Rev0.1.pdf){ .md-button }
+
+## Product Images
+
+<div class="siggear-joint-media">
+  <figure><a href="/SigGear-product-docs/products/hub-gear-motors/sg2877/" aria-label="View SG-2877 cutaway image"><img src="/SigGear-product-docs/assets/images/products/hub-gear-motors/sg2877/sg2877-cutaway-reference.avif" width="500" height="432" alt="SG-2877 wheel hub gear motor cutaway" loading="lazy" decoding="async"></a><figcaption>SG-2877 · Gear drive cutaway · Owner-supplied CAD rendering</figcaption></figure>
+  <figure><a href="/SigGear-product-docs/products/hub-gear-motors/sg2878/" aria-label="View SG-2878 main image"><img src="/SigGear-product-docs/assets/images/products/hub-gear-motors/sg2878/sg2878-main-reference.webp" width="480" height="480" alt="SG-2878 wheel hub gear motor external product rendering" loading="lazy" decoding="async"></a><figcaption>SG-2878 · Exterior view · Owner-supplied rendering</figcaption></figure>
+</div>
+
+SigGear hub gear motors integrate BLDC motors and planetary reduction mechanisms for mobile robotics, intelligent vehicles and compact automation platforms.
 
 **CAD / drawing status:** Supplied source 2D PDFs are dated 2025-07-04 (Rev A); 3D files are Parasolid `.x_t`, not verified STEP exports. Refer to the model page and request engineering approval before using dimensional data for final integration. **SG-2878 has a 125 mm catalogue vs 127 +/-0.5 mm drawing length discrepancy.**
 

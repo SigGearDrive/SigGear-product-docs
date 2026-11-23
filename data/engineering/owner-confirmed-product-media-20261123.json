@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "approved_on": "2026-11-23",
+  "purpose": "Owner-confirmed rendering to public product-page mapping. This is not a manufacturing drawing or controlled CAD release.",
+  "policy": "Publish only images matching the owner-confirmed model; preserve reference-rendering labels and existing PDF / 2D / STEP status.",
+  "assets": [
+    {
+      "model": "SG-6010HB",
+      "view": "front",
+      "repository_path": "docs/assets/images/products/robot-joint-actuators/sg6010hb/sg6010hb-front-reference.avif",
+      "git_blob_sha": "21579947e391f67d35610e96d8efdfecb212cbeb",
+      "original_upload_sha256": "057a4f2e1656ce8e4d82d7bf0bd94a3f56cfb3daa7b64c0b2a240f935d2edf65",
+      "published_image_sha256": "04e39238f78e5c630361cc6929de99421675ed582bce2d55d14300aeb2b07c82",
+      "format": "AVIF",
+      "dimensions_px": "500x500",
+      "role": "owner-supplied render; transparent margin cropped and downsampled for web; no synthetic redraw"
+    },
+    {
+      "model": "SG-6010HB",
+      "view": "two-view",
+      "repository_path": "docs/assets/images/products/robot-joint-actuators/sg6010hb/sg6010hb-two-view-reference.avif",
+      "git_blob_sha": "1f081da39d629bd33675461c5adc05575f0e2ed8",
+      "original_upload_sha256": "e1a7d14bccf5ae7019cbb05d403338c265314c1b92414ed69839097b6626d9c1",
+      "published_image_sha256": "940fa32c40986c7eba300b30786baaf8756afaf010435cd6bc17ab458c707668",
+      "format": "AVIF",
+      "dimensions_px": "500x290",
+      "role": "owner-supplied render; transparent margin cropped and downsampled for web; no synthetic redraw"
+    },
+    {
+      "model": "SG-2877",
+      "view": "cutaway",
+      "repository_path": "docs/assets/images/products/hub-gear-motors/sg2877/sg2877-cutaway-reference.avif",
+      "git_blob_sha": "658ef1df1e78b691d2fea007bfc7b923fe8e64b8",
+      "original_upload_sha256": "f7642bcf0ae7e2dd3ea1930b01e7b82f12b9dd916f77a255e2ca0d6284ee0e3c",
+      "published_image_sha256": "22f1c60e8f381a0e26dbb092bbb8e607a66140dcd3373f065042327d3f9c1934",
+      "format": "AVIF",
+      "dimensions_px": "500x432",
+      "role": "owner-supplied render; transparent margin cropped and downsampled for web; no synthetic redraw"
+    },
+    {
+      "model": "SG-2878",
+      "view": "cutaway",
+      "repository_path": "docs/assets/images/products/hub-gear-motors/sg2878/sg2878-cutaway-reference.avif",
+      "git_blob_sha": "7243d803300c8ff376aaa6adf33bb7f26467f1fb",
+      "original_upload_sha256": "5311e1cb78dcf386e55ae9958dffef6a3a099bcdf1655f94b374a71c146f2def",
+      "published_image_sha256": "4a2ed2084c63a6f54a055c6f0e77b5f3c91acefffbd90607e278346bb4ca6fbe",
+      "format": "AVIF",
+      "dimensions_px": "500x440",
+      "role": "owner-supplied render; transparent margin cropped and downsampled for web; no synthetic redraw"
+    },
+    {
+      "model": "SG-2878",
+      "view": "main",
+      "repository_path": "docs/assets/images/products/hub-gear-motors/sg2878/sg2878-main-reference.webp",
+      "git_blob_sha": "af4defc958e1f9f263aa663f26ccd24c62969753",
+      "original_upload_sha256": "1767ecee98312851ae2031b31e39875b380186d3d491e16431b4363c5c671a56",
+      "published_image_sha256": "43f4fb6840500346f8cbf2134e3f846ce015d5c59ec2ca31efc7c0c909582c64",
+      "format": "WebP",
+      "dimensions_px": "480x480",
+      "role": "owner-supplied render; transparent margin cropped and downsampled for web; no synthetic redraw"
+    }
+  ]
+}
