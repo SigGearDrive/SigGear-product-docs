@@ -13,8 +13,8 @@ description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + g
 
 | Joint module · variant | Datasheet | 2D reference | Full STEP |
 | --- | --- | --- | --- |
-| [**SG-8021**](../products/robot-joint-actuators/sg8021.md) · Planetary<br><small>With driver</small> | [**↓ PDF**](../assets/downloads/joint-actuators/SG-8021_Public_Reference_Datasheet_Rev0.1.pdf) | [Request 2D](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry) | [**↓ STEP**](../assets/downloads/joint-actuators/SG-8021_Driver_Version_Original_Full_Assembly_20261118.step) |
-| [**CPM-100-25**](../products/cycloidal-joint-modules/cpm100-25.md) · Cycloidal<br><small>Standard · no driver · 29.5 mm</small> | [**↓ PDF**](../assets/downloads/joint-actuators/CPM-100-25_Public_Reference_Datasheet_Rev0.1.pdf) | [Request 2D](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry) | [**↓ STEP**](../assets/downloads/joint-actuators/CPM-100-25_Original_Full_Assembly_No_Driver_20261118.step) |
+| [**SG-8021**](../products/robot-joint-actuators/sg8021.md) · Planetary<br><small>With driver</small> | [**↓ PDF**](../assets/downloads/joint-actuators/SG-8021_Public_Reference_Datasheet_Rev0.1.pdf) | / | [**↓ STEP**](../assets/downloads/joint-actuators/SG-8021_Driver_Version_Original_Full_Assembly_20261118.step) |
+| [**CPM-100-25**](../products/cycloidal-joint-modules/cpm100-25.md) · Cycloidal<br><small>Standard · no driver · 29.5 mm</small> | [**↓ PDF**](../assets/downloads/joint-actuators/CPM-100-25_Public_Reference_Datasheet_Rev0.1.pdf) | / | [**↓ STEP**](../assets/downloads/joint-actuators/CPM-100-25_Original_Full_Assembly_No_Driver_20261118.step) |
 
 </div>
 
