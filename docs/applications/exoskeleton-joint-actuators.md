@@ -13,7 +13,7 @@ description: "SigGear supplies DC/BLDC motors, planetary gearheads and motor + g
 
 | Joint module · variant | Datasheet | 2D reference | Full STEP |
 | --- | --- | --- | --- |
-| [**SG-6010C**](../products/robot-joint-actuators/sg6010c.md) · Planetary<br><small>Standard</small> | [**↓ PDF**](../assets/downloads/joint-actuators/SG-6010C_Public_Reference_Datasheet_Rev0.1.pdf) | [Request 2D](mailto:luffy@siggear.com?subject=SigGear%20Engineering%20Inquiry) | [**↓ STEP**](../assets/downloads/joint-actuators/SG-6010C_Original_Full_Assembly_20261118.step) |
+| [**SG-6010C**](../products/robot-joint-actuators/sg6010c.md) · Planetary<br><small>Standard</small> | [**↓ PDF**](../assets/downloads/joint-actuators/SG-6010C_Public_Reference_Datasheet_Rev0.1.pdf) | / | [**↓ STEP**](../assets/downloads/joint-actuators/SG-6010C_Original_Full_Assembly_20261118.step) |
 | [**SG-6010D**](../products/robot-joint-actuators/sg6010d.md) · Planetary<br><small>Standard</small> | [**↓ PDF**](../assets/downloads/joint-actuators/SG-6010D_Public_Reference_Datasheet_Rev0.1.pdf) | [**↓ 2D**](../assets/downloads/joint-actuators/SG-6010D_2D_Assembly_Drawing.pdf) | [**↓ STEP**](../assets/downloads/joint-actuators/SG-6010D_Original_Full_Assembly_20261118.step) |
 
 </div>

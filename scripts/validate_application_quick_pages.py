@@ -219,7 +219,11 @@ for name, (modules, drawings) in round6_joint.items():
     assert source.count("[**↓ PDF**]") == modules + 3, name
     assert source.count("[**↓ STEP**]") == modules + 3, name
     assert source.count("[**↓ 2D**]") == drawings + 3, name
-    assert source.count("[Request 2D]") == modules - drawings, name
+    # Unreleased joint 2D references are displayed as '/', not as inquiry links.
+    joint_matrix = source.split("## Joint Modules — PDF / 2D / STEP", 1)[1].split("</div>", 1)[0]
+    slash_rows = [line for line in joint_matrix.splitlines() if line.startswith("| [**") and " | / | " in line]
+    assert len(slash_rows) == modules - drawings, name
+    assert "[Request 2D]" not in joint_matrix, name
     assert "Public Reference Rev0.1" in source, name
     assert "<details markdown=" in source and "Auxiliary Gearhead options" in source, name
     assert visible_length(source) < 3700, (name, len(source))

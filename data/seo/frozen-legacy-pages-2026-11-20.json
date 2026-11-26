@@ -15,8 +15,9 @@
     },
     {
       "path": "docs/selection-guides/robot-joint-actuator-selection-guide.md",
-      "git_blob_sha": "6a423885d4fcc5fbb5f0b28d4807d6b108789ef1",
-      "contact_email_exception": "2026-11-23: owner explicitly requested all published SigGear contact emails become luffy@siggear.com; only prior contact address changed, engineering/SEO text preserved."
+      "git_blob_sha": "016efd908405ee6bfcf02306f1972affb14e9c6f",
+      "contact_email_exception": "2026-11-23: owner explicitly requested all published SigGear contact emails become luffy@siggear.com; only prior contact address changed, engineering/SEO text preserved.",
+      "unavailable_file_display_exception": "2026-11-26: Owner explicitly requested unavailable 2D files to display '/' instead of Request links and unverified model-code cross-references. Published files, technical specifications and page URL are unchanged."
     },
     {
       "path": "docs/engineering-resources/planetary-gearboxes/index.md",
