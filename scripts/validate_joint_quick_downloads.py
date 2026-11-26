@@ -188,8 +188,24 @@ def main() -> None:
         asset(label,relative,hub_links)
     if "No downloadable STEP is currently approved" in hub:
         raise ValueError("Download hub incorrectly lists released CAD as unavailable")
-    if "SG2368B cross-reference pending" not in first_table.group(1) or "SG-6010HB" in first_table.group(1):
-        raise ValueError("Unverified model-code drawing or SG-6010HB must not be presented as released")
+    # Missing 2D assets must display a literal slash, never a request link or
+    # an unverified source/model label inside a publicly visible download table.
+    def verify_unreleased_2d(table_html: str, models: tuple[str, ...], label: str) -> None:
+        rows = re.findall(r"<tr\b[^>]*>.*?</tr>", table_html, re.S | re.I)
+        for model_name in models:
+            matches = [row for row in rows if model_name in row]
+            if len(matches) != 1:
+                raise ValueError(label + " must contain exactly one row for " + model_name)
+            cells = re.findall(r"<td\b[^>]*>(.*?)</td>", matches[0], re.S | re.I)
+            if len(cells) != 4 or re.sub(r"<[^>]+>", "", cells[2]).strip() != "/":
+                raise ValueError(label + " missing-file cell must be '/': " + model_name)
+            if re.search(r"(request|cross-reference pending|model.mapping pending)", cells[2], re.I):
+                raise ValueError(label + " has an unavailable-file CTA: " + model_name)
+
+    verify_unreleased_2d(first_table.group(0),
+                         ("SG-6010C", "SG-8021", "CPM-78-39"), "Download center")
+    if "SG-6010HB" in first_table.group(1):
+        raise ValueError("Separate SG-6010HB must not enter six-model matrix")
     # The older joint selection guide must present real model assets in its
     # first specification table, not ten generic navigation buttons before
     # any usable file. Preserve the exact approved variants from the hub.
@@ -217,8 +233,8 @@ def main() -> None:
             asset(model, "joint-actuators/" + name, selection_links)
         for name in DRAWINGS.get(model, []):
             asset(model, "joint-actuators/" + name, selection_links)
-    if "SG2368B cross-reference pending" not in selection_fragment:
-        raise ValueError("Pending CPM-78-39 drawing must not be misrepresented")
+    verify_unreleased_2d(selection_fragment,
+                         ("SG-6010C", "SG-8021", "CPM-78-39"), "Selection guide")
     if "SG-8021 STEP is driver-equipped" not in selection_body:
         raise ValueError("SG-8021 driver-equipped STEP variant warning missing")
     print("PASS joint sizing guide: six exact PDF / 2D / STEP reference model downloads")
@@ -250,6 +266,8 @@ def main() -> None:
                 asset(model, "joint-actuators/" + name, family_links)
             for name in DRAWINGS.get(model, []):
                 asset(model, "joint-actuators/" + name, family_links)
+        missing_2d = ("SG-6010C", "SG-8021") if "robot-joint-actuators" in family_path else ("CPM-78-39",)
+        verify_unreleased_2d(family_section, missing_2d, "Family overview " + family_path)
         print("PASS family overview", family_path, "three models, direct PDF/2D/STEP")
 
     # Engineering Center is a primary entry for Google and direct product
@@ -282,6 +300,8 @@ def main() -> None:
             asset(model, "joint-actuators/" + name, center_table_links)
         for name in DRAWINGS.get(model, []):
             asset(model, "joint-actuators/" + name, center_table_links)
+    verify_unreleased_2d(center_fragment,
+                         ("SG-6010C", "SG-8021", "CPM-78-39"), "Engineering Center")
     hb_name = "SG-6010HB_Public_Reference_Datasheet_Rev0.1.pdf"
     asset("SG-6010HB", "joint-actuators/" + hb_name, links(joint_section, center_path))
     if "No SG-6010HB STEP is approved for public release" not in joint_section:
